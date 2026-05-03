@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "GPU Benchmarks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/jaxsim",
+      "status": "candidate-context",
+      "text": "A differentiable physics engine and multibody dynamics library for control and robot learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/jaxsim",
+      "status": "candidate-context",
+      "text": "GPU Benchmarks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/jaxsim",
+      "status": "candidate",
+      "text": "GPU Benchmarks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "accurate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "police"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "abwehr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "admiralty"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "GPU Benchmarks",
+  "concept_id": "gpu-benchmarks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/gpu_benchmark.yml",
+      "source_repo": "gbionics/jaxsim"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "GPU Benchmarks",
+      "sense_id": "gpu-benchmarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

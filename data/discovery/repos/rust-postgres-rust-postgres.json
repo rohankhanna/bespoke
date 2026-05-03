@@ -116,7 +116,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T04:32:16.191028+00:00",
+  "fetched_at": "2026-05-03T05:08:28.460102+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -141,9 +141,9 @@
     "html_url": "https://github.com/rust-postgres/rust-postgres",
     "language": "Rust",
     "pushed_at": "2026-04-23T00:54:02Z",
-    "stargazers_count": 3926,
+    "stargazers_count": 3933,
     "topics": [],
-    "updated_at": "2026-04-19T12:41:59Z"
+    "updated_at": "2026-04-30T08:15:30Z"
   },
   "repo_links": [],
   "terms": []

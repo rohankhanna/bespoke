@@ -31,6 +31,30 @@
       "source_repo": "firecracker-microvm/firectl",
       "status": "candidate-context",
       "text": "firectl"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "status": "candidate-context",
+      "text": "Lock, Stock, and Two Smoking MicroVMs. Create and manage the lifecycle of MicroVMs backed by containerd."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/github/license/liquidmetal-dev/flintlock)](https://img.shields.io/github/license/liquidmetal-dev/flintlock)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate-context",
+      "text": "The Cluster API provider for creating microvm (i.e. Firecracker, Cloud Hypervisor) clusters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate-context",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "firecracker-microvm/firectl",
       "status": "candidate",
       "text": "firectl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/github/license/liquidmetal-dev/flintlock)](https://img.shields.io/github/license/liquidmetal-dev/flintlock)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +151,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "firecracker-microvm/firectl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "liquidmetal-dev/flintlock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

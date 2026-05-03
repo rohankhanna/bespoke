@@ -84,7 +84,7 @@
   "normalized_form": "ci-tests---credentialed",
   "observation_id": "0025ae7d1d9b77fb",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "CI Tests - Credentialed",
   "source_context_snippet": "CI Tests - Credentialed",
   "source_file": ".github/workflows/ci_credentials.yml",

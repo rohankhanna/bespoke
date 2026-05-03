@@ -698,6 +698,84 @@
       "source_repo": "actions-cool/issues-helper",
       "status": "candidate-context",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "just-the-docs/just-the-docs",
+      "status": "candidate-context",
+      "text": "A modern, high customizable, responsive Jekyll theme for documentation with built-in search."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "just-the-docs/just-the-docs",
+      "status": "candidate-context",
+      "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "status": "candidate-context",
+      "text": "one-click template to use just-the-docs on GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "status": "candidate-context",
+      "text": "This is a *bare-minimum* template to create a [Jekyll] site that:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-async-context",
+      "status": "candidate-context",
+      "text": "Async Context for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-async-context",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hotoo/pinyin",
+      "status": "candidate-context",
+      "text": ":cn: \u6c49\u5b57\u62fc\u97f3 \u279c h\u00e0n z\u00ec p\u012bn y\u012bn"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hotoo/pinyin",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "status": "candidate-context",
+      "text": "This is a HUGO website template for Logseq users who wants their published posts to look more like a personal website, using GitHub Pages to host the website and logseq-schrodinger to export your Logseq pages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Docker image to export Godot Engine games. Templates for Gitlab CI and GitHub Actions to deploy to GitLab Pages/GitHub Pages/Itch.io."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
     }
   ],
   "candidate_glosses": [
@@ -1042,6 +1120,48 @@
       "source_repo": "actions-cool/issues-helper",
       "status": "candidate",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "just-the-docs/just-the-docs",
+      "status": "candidate",
+      "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "status": "candidate",
+      "text": "This is a *bare-minimum* template to create a [Jekyll] site that:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-async-context",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hotoo/pinyin",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate",
+      "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
     }
   ],
   "candidate_related_terms": [
@@ -1601,11 +1721,65 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "actions-cool/issues-helper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "just-the-docs/just-the-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "just-the-docs/just-the-docs-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "tc39/proposal-async-context"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "hotoo/pinyin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

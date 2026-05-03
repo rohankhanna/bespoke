@@ -2,7 +2,8 @@
   "aliases": [
     "Pull Request Labeler",
     "pull request labeler",
-    "Pull request labeler"
+    "Pull request labeler",
+    "Pull request Labeler"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -837,6 +838,30 @@
       "source_repo": "apache/iceberg-go",
       "status": "candidate-context",
       "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Agents",
+      "status": "candidate-context",
+      "text": "The Microsoft 365 Agent SDK simplifies building full stack, multichannel, trusted agents for platforms including M365, Teams, Copilot Studio, and Webchat."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Agents",
+      "status": "candidate-context",
+      "text": "Pull request Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/scaleway-sdk-go",
+      "status": "candidate-context",
+      "text": "Integrate Scaleway with your Go application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/scaleway-sdk-go",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
     }
   ],
   "candidate_glosses": [
@@ -1257,6 +1282,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/iceberg-go",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Agents",
+      "status": "candidate",
+      "text": "Pull request Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/scaleway-sdk-go",
       "status": "candidate",
       "text": "\"Pull Request Labeler\""
     }
@@ -1770,11 +1807,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "apache/iceberg-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pullrequestlabeler.yml",
+      "source_repo": "microsoft/Agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "scaleway/scaleway-sdk-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,284 @@
+{
+  "components": [
+    {
+      "component": "dependabot/fetch-metadata@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "py-actions/py-dependency-install@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "py-actions/py-dependency-install@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "pytest-dev/pytest-asyncio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "dependabot/fetch-metadata@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "py-actions/py-dependency-install@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "pypa/gh-action-pypi-publish@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "aiohttp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "target": "pytest-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:42:55.604937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1362
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 200
+    },
+    {
+      "path": "requirements.txt",
+      "size": 57
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 586
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2695
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 802
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pytest plugin for aiohttp support",
+    "fork": false,
+    "full_name": "aio-libs/pytest-aiohttp",
+    "html_url": "https://github.com/aio-libs/pytest-aiohttp",
+    "language": "Python",
+    "pushed_at": "2026-05-01T19:08:52Z",
+    "stargazers_count": 143,
+    "topics": [
+      "aiohttp",
+      "asyncio",
+      "pytest-plugin"
+    ],
+    "updated_at": "2026-05-01T19:09:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytest-dev/pytest-asyncio",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "pytest-aiohttp",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aiohttp"
+    },
+    {
+      "context_snippet": "pytest-aiohttp",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": "pytest-aiohttp",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest-plugin"
+    }
+  ]
+}

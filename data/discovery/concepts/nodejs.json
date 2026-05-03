@@ -3523,6 +3523,270 @@
       "source_repo": "stdlib-js/stdlib",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/polis",
+      "status": "candidate-context",
+      "text": "Streamline your web application's authentication with Polis, an SSO service supporting SAML and OpenID Connect protocols. Beyond enterprise-grade Single Sign-On, it also supports Directory Sync via the SCIM 2.0 protocol for automatic user and group provisioning/de-provisioning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/polis",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Ory polis - Open source Enterprise SSO and Directory Sync</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botbuilder-js",
+      "status": "candidate-context",
+      "text": "Welcome to the Bot Framework SDK for JavaScript repository, which is the home for the libraries and packages that enable developers to build sophisticated bot applications using JavaScript. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-js",
+      "status": "candidate-context",
+      "text": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate-context",
+      "text": "Javascript codes you will always need  & Cheatsheets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate-context",
+      "text": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mantoni/core_d.js",
+      "status": "candidate-context",
+      "text": "Offload your heavy lifting to a daemon. Extracted from eslint_d."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/core_d.js",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/mantoni/core_d.js/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpacks for Node.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "status": "candidate-context",
+      "text": "[![Cloud Native Buildpacks Registry: heroku/nodejs][registry-badge]][registry-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitjson/typescript-starter",
+      "status": "candidate-context",
+      "text": "Quickly create and configure a new library or Node.js project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitjson/typescript-starter",
+      "status": "candidate-context",
+      "text": "<img height=\"0\" width=\"0\" alt=\"typescript-starter dark logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006840/4e2b0c6c-f3d2-11e6-8f32-11384ee0cc4b.png\"><img alt=\"typescript-starter logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006836/4c67a3b8-f3d2\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faker-js/faker",
+      "status": "candidate-context",
+      "text": "Generate massive amounts of fake data in the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faker-js/faker",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "status": "candidate-context",
+      "text": "Google Summer of Code resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "Error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "Multidimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 A simple pug server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/pugserver.svg?style=for-the-badge)](https://www.npmjs.com/package/pugserver)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Node.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "status": "candidate-context",
+      "text": "![nodejs](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-node-js.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate-context",
+      "text": "A pure JavaScript implementation of git for node and browsers!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TypeStrong/ts-node",
+      "status": "candidate-context",
+      "text": "TypeScript execution and REPL for node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeStrong/ts-node",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "Complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "Inverse complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "Inverse error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "Create a typed array."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "Buffer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "Multidimensional array constructor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/http-parser",
+      "status": "candidate-context",
+      "text": "http request/response parser for c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/http-parser",
+      "status": "candidate-context",
+      "text": "HTTP Parser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/ice",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 ice.js: The Progressive App Framework Based On React\uff08\u57fa\u4e8e React \u7684\u6e10\u8fdb\u5f0f\u5e94\u7528\u6846\u67b6\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ice",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -5283,6 +5547,138 @@
       "source_repo": "stdlib-js/stdlib",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/polis",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Ory polis - Open source Enterprise SSO and Directory Sync</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-js",
+      "status": "candidate",
+      "text": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate",
+      "text": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/core_d.js",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/mantoni/core_d.js/workflows/Build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "status": "candidate",
+      "text": "[![Cloud Native Buildpacks Registry: heroku/nodejs][registry-badge]][registry-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitjson/typescript-starter",
+      "status": "candidate",
+      "text": "<img height=\"0\" width=\"0\" alt=\"typescript-starter dark logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006840/4e2b0c6c-f3d2-11e6-8f32-11384ee0cc4b.png\"><img alt=\"typescript-starter logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006836/4c67a3b8-f3d2\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faker-js/faker",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/pugserver.svg?style=for-the-badge)](https://www.npmjs.com/package/pugserver)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "status": "candidate",
+      "text": "![nodejs](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-node-js.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeStrong/ts-node",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/http-parser",
+      "status": "candidate",
+      "text": "HTTP Parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ice",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -8224,11 +8620,281 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/polis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/gaxios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "devsmitra/javascript-quick-functions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mantoni/core_d.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bitjson/typescript-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "faker-js/faker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/google-summer-of-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vipermind/flake-idgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-api-nodejs-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ctrlaltdev/pug-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "isomorphic-git/isomorphic-git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "TypeStrong/ts-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/http-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/ice"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

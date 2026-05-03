@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NUAAXQ/MLCVNet",
+      "target": "kaiyuyue/cgnl-network.pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:25.069828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2020] MLCVNet: Multi-Level Context VoteNet for 3D Object Detection",
+    "fork": false,
+    "full_name": "NUAAXQ/MLCVNet",
+    "html_url": "https://github.com/NUAAXQ/MLCVNet",
+    "language": "Python",
+    "pushed_at": "2021-11-18T08:12:55Z",
+    "stargazers_count": 122,
+    "topics": [],
+    "updated_at": "2026-04-18T15:28:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiyuyue/cgnl-network.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

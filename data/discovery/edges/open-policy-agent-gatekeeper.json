@@ -1,0 +1,279 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "izhangzhihao/delete-comment@98aa1ea5c6304048edf951c20b3114e03c785c79",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-manifest.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-manifest.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-manifest.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-manifest.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "check-manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dapr-export.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dapr-export.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dapr-export.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dapr-export.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "dapr-export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/disk-export.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/disk-export.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/disk-export.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/disk-export.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "disk-export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-lint.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/helm-lint.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/helm-lint.yaml",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "check-helm-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "admission",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "gatekeeper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "mutation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "policy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "policy-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper",
+      "target": "validation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "open-policy-agent/gatekeeper"
+}

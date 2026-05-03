@@ -31,6 +31,18 @@
       "source_repo": "weavejester/hiccup",
       "status": "candidate-context",
       "text": "Hiccup is a library for representing HTML in Clojure. It uses vectors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate-context",
+      "text": "A minimalistic ClojureScript interface to React.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "weavejester/hiccup",
       "status": "candidate",
       "text": "Hiccup is a library for representing HTML in Clojure. It uses vectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
     }
   ],
   "candidate_related_terms": [
@@ -115,11 +133,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "weavejester/hiccup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "reagent-project/reagent"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

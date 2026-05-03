@@ -116,6 +116,18 @@
       "source_repo": "FluxML/Flux.jl",
       "status": "candidate-context",
       "text": "Downstream"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaML/MLUtils.jl",
+      "status": "candidate-context",
+      "text": "Utilities and abstractions for Machine Learning tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLUtils.jl",
+      "status": "candidate-context",
+      "text": "Downstream"
     }
   ],
   "candidate_glosses": [
@@ -170,6 +182,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "FluxML/Flux.jl",
+      "status": "candidate",
+      "text": "Downstream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLUtils.jl",
       "status": "candidate",
       "text": "Downstream"
     }
@@ -283,11 +301,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/Downstream.yml",
       "source_repo": "FluxML/Flux.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "JuliaML/MLUtils.jl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

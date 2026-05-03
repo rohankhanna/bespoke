@@ -19,6 +19,18 @@
       "source_repo": "de-mh/persian_phonemizer",
       "status": "candidate-context",
       "text": "A tool for translating Persian text to IPA (International Phonetic Alphabet)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axelspringer/DeepPhonemizer",
+      "status": "candidate-context",
+      "text": "Grapheme to phoneme conversion with deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axelspringer/DeepPhonemizer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "de-mh/persian_phonemizer",
       "status": "candidate",
       "text": "A tool for translating Persian text to IPA (International Phonetic Alphabet)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axelspringer/DeepPhonemizer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "de-mh/persian_phonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

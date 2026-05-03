@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Obsidian Theme | v1.0.0 | by Corellan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obsidian-community",
+      "sense_id": "obsidian-community#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "obsidian-community",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "obsidian-community",
+  "observation_id": "20388d8f0fed2c92",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "obsidian-community",
+  "source_context_snippet": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian.",
+  "source_file": null,
+  "source_repo": "CreArts-Community/CreArts-Obsidian",
+  "source_repo_description": "Obsidian Theme | v1.0.0 | by Corellan"
+}

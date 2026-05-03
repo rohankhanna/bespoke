@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "snap-research/articulated-animation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "aliaksandrsiarohin/motion-cosegmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "aliaksandrsiarohin/pose-evaluation.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "aliaksandrsiarohin/video-preprocessing.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "image-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "motion-retargeting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:34.896369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9361
+    },
+    {
+      "path": "Dockerfile",
+      "size": 400
+    },
+    {
+      "path": "requirements.txt",
+      "size": 256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains the source code for the paper First Order Motion Model for Image Animation ",
+    "fork": false,
+    "full_name": "AliaksandrSiarohin/first-order-model",
+    "html_url": "https://github.com/AliaksandrSiarohin/first-order-model",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-11-14T03:16:41Z",
+    "stargazers_count": 15006,
+    "topics": [
+      "deep-learning",
+      "generative-model",
+      "image-animation",
+      "motion-retargeting"
+    ],
+    "updated_at": "2026-05-01T01:19:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliaksandrsiarohin/motion-cosegmentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliaksandrsiarohin/pose-evaluation.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliaksandrsiarohin/video-preprocessing.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "snap-research/articulated-animation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<b>!!! Check out our new [paper](https://arxiv.org/pdf/2104.11280.pdf) and [framework](https://github.com/snap-research/articulated-animation) improved for articulated objects</b>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<b>!!! Check out our new [paper](https://arxiv.org/pdf/2104.11280.pdf) and [framework](https://github.com/snap-research/articulated-animation) improved for articulated objects</b>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "<b>!!! Check out our new [paper](https://arxiv.org/pdf/2104.11280.pdf) and [framework](https://github.com/snap-research/articulated-animation) improved for articulated objects</b>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-animation"
+    },
+    {
+      "context_snippet": "<b>!!! Check out our new [paper](https://arxiv.org/pdf/2104.11280.pdf) and [framework](https://github.com/snap-research/articulated-animation) improved for articulated objects</b>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-retargeting"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "unity-editor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate-context",
+      "text": "Unity support for both ReSharper and Rider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate-context",
+      "text": "CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate",
+      "text": "CI"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "unity-editor",
+  "concept_id": "unity-editor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unity-editor",
+      "sense_id": "unity-editor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

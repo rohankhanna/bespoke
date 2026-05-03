@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "arielagor/jetbrains-mono-hebrew",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "arielagor/jetbrains-mono-hebrew",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "arielagor/jetbrains-mono-hebrew",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "arielagor/jetbrains-mono-hebrew",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "arielagor/jetbrains-mono-hebrew",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "arielagor/jetbrains-mono-hebrew",
+      "target": "build-and-test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:48:10.982946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8329
+    },
+    {
+      "path": "requirements.txt",
+      "size": 40
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 1606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bridge font adding Hebrew coverage to JetBrains Mono \u2014 addresses JetBrainsMono#119",
+    "fork": false,
+    "full_name": "arielagor/jetbrains-mono-hebrew",
+    "html_url": "https://github.com/arielagor/jetbrains-mono-hebrew",
+    "language": "Python",
+    "pushed_at": "2026-04-22T20:14:06Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-27T08:31:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build-and-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "build-and-test"
+    }
+  ]
+}

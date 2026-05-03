@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NGSolve/netgen",
+      "target": "mesh-generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:02.198680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 598
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "NGSolve/netgen",
+    "html_url": "https://github.com/NGSolve/netgen",
+    "language": "C++",
+    "pushed_at": "2026-04-30T13:01:21Z",
+    "stargazers_count": 377,
+    "topics": [
+      "mesh-generator"
+    ],
+    "updated_at": "2026-04-30T05:24:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Netgen mesh generator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh-generator"
+    }
+  ]
+}

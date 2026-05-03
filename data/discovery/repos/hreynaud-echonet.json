@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HReynaud/echonet",
+      "target": "echonet/dynamic",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:42:14.000756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6142
+    },
+    {
+      "path": "requirements.txt",
+      "size": 475
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "HReynaud/echonet",
+    "html_url": "https://github.com/HReynaud/echonet",
+    "language": "Python",
+    "pushed_at": "2025-04-04T17:48:27Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-11-30T13:05:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "echonet/dynamic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

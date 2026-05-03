@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The live data layer for apps and AI agents. Create up-to-the-second views into your business, just using SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Slack Design Doc Notifications"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Slack Design Doc Notifications"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31344,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31344,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31344,
+      "status": "candidate",
+      "text": "books"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26386,
+      "status": "candidate",
+      "text": "spec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23167,
+      "status": "candidate",
+      "text": "communication"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slack Design Doc Notifications",
+      "sense_id": "slack-design-doc-notifications#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "slack-design-doc-notifications",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slack-design-doc-notifications",
+  "observation_id": "7685cbe64c7021ac",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Slack Design Doc Notifications",
+  "source_context_snippet": "Slack Design Doc Notifications",
+  "source_file": ".github/workflows/slack_notify_design_doc.yml",
+  "source_repo": "MaterializeInc/materialize",
+  "source_repo_description": "The live data layer for apps and AI agents. Create up-to-the-second views into your business, just using SQL"
+}

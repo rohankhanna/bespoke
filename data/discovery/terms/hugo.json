@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -56,6 +56,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "apache/dubbo-website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sawhney17/logseq-schrodinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nanxiaobei/hugo-paper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
     }
   ],
   "term": "hugo"

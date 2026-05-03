@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "noahshinn/reflexion",
+      "target": "gammatauai/leetcode-hard-gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "noahshinn/reflexion",
+      "target": "appl-team/appl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "noahshinn/reflexion",
+      "target": "appl-team/reppl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "noahshinn/reflexion",
+      "target": "gammatauai/opentau",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "noahshinn/reflexion",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:25.459668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2023] Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "fork": false,
+    "full_name": "noahshinn/reflexion",
+    "html_url": "https://github.com/noahshinn/reflexion",
+    "language": "Python",
+    "pushed_at": "2025-01-14T07:54:02Z",
+    "stargazers_count": 3134,
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "llm"
+    ],
+    "updated_at": "2026-05-01T07:42:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appl-team/appl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appl-team/reppl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gammatauai/leetcode-hard-gym",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gammatauai/opentau",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo holds the code, demos, and log files for [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) by Noah Shinn, Federico Cassano, Edward Berman, Ashwin Gopinath, Karthik Narasimhan, Shunyu Yao.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    }
+  ]
+}

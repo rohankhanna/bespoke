@@ -1,0 +1,329 @@
+{
+  "components": [
+    {
+      "component": "node-addon-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp-build",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-google",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prebuildify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tree-sitter-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tree-sitter",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/setup-action/cli@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/parser-test-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/setup-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/parse-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/fuzz-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/workflows/.github/workflows/package-npm.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tree-sitter/workflows/.github/workflows/package-crates.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tree-sitter/workflows/.github/workflows/release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter/tree-sitter-fsharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "node-addon-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "node-gyp-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "eslint-config-google",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "prebuildify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter/setup-action/cli@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter/parser-test-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter/setup-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter/parse-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter/fuzz-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter/workflows/.github/workflows/package-npm.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter/workflows/.github/workflows/package-crates.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter/workflows/.github/workflows/release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "Publish packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "fsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "target": "tree-sitter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:58:19.972396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3246
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 667
+    },
+    {
+      "path": "package.json",
+      "size": 1103
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2235
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "F# grammar for treesitter",
+    "fork": false,
+    "full_name": "ionide/tree-sitter-fsharp",
+    "html_url": "https://github.com/ionide/tree-sitter-fsharp",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-27T13:14:20Z",
+    "stargazers_count": 91,
+    "topics": [
+      "fsharp",
+      "parser",
+      "tree-sitter"
+    ],
+    "updated_at": "2026-04-24T05:36:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tree-sitter/tree-sitter-fsharp",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish packages"
+    },
+    {
+      "context_snippet": "tree-sitter grammar for F# (still WIP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsharp"
+    },
+    {
+      "context_snippet": "tree-sitter grammar for F# (still WIP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "tree-sitter grammar for F# (still WIP)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-sitter"
+    }
+  ]
+}

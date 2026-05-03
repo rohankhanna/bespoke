@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair",
+      "target": "aquaskyline/clair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair",
+      "target": "blosc/python-blosc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair",
+      "target": "vcflib/vcflib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair",
+      "target": "squeaky-pl/portable-pypy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair",
+      "target": "computational-biology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair",
+      "target": "variant-calling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:54:31.077304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21027
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1009
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clair: Exploring the limit of using deep neural network on pileup data for germline variant calling",
+    "fork": false,
+    "full_name": "HKU-BAL/Clair",
+    "html_url": "https://github.com/HKU-BAL/Clair",
+    "language": "Python",
+    "pushed_at": "2022-09-01T07:38:03Z",
+    "stargazers_count": 105,
+    "topics": [
+      "bioinformatics",
+      "computational-biology",
+      "deep-learning",
+      "variant-calling"
+    ],
+    "updated_at": "2025-08-17T21:31:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aquaskyline/clair",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blosc/python-blosc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "squeaky-pl/portable-pypy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vcflib/vcflib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-biology"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variant-calling"
+    }
+  ]
+}

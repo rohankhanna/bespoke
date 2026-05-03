@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:03:31.374595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pronounced as \"musician\", musicnn is a set of pre-trained deep convolutional neural networks for music audio tagging.",
+    "fork": false,
+    "full_name": "jordipons/musicnn",
+    "html_url": "https://github.com/jordipons/musicnn",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-12-11T03:52:08Z",
+    "stargazers_count": 694,
+    "topics": [],
+    "updated_at": "2026-04-27T11:26:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

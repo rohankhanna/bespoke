@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cpp-interface"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Clemapfel/mousetrap_julia_binding",
+      "status": "candidate-context",
+      "text": "Interface between  mousetrap C++ and Julia component, cf. https://github.com/Clemapfel/mousetrap.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Clemapfel/mousetrap_julia_binding",
+      "status": "candidate-context",
+      "text": "> **If you are looking to run mousetrap using Julia, you are in the wrong place. Please visit [mousetrap.jl](https://github.com/Clemapfel/mousetrap.jl) instead.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Clemapfel/mousetrap_julia_binding",
+      "status": "candidate",
+      "text": "> **If you are looking to run mousetrap using Julia, you are in the wrong place. Please visit [mousetrap.jl](https://github.com/Clemapfel/mousetrap.jl) instead.**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cpp-interface",
+  "concept_id": "cpp-interface",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Clemapfel/mousetrap_julia_binding"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cpp-interface",
+      "sense_id": "cpp-interface#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

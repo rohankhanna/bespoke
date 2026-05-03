@@ -1,0 +1,511 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cleanup.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cleanup.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-build.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-build.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-build.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-remove.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-remove.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-remove.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "heroku/languages-github-actions/.github/workflows/_classic-buildpack-prepare-release.yml@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-devcenter.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-devcenter.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-devcenter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-devcenter.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-devcenter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "Check Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cleanup.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cleanup.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cleanup.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "Hatchet App Cleaner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/upload-artifact/merge@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-build.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-build.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-build.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-remove.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-remove.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-remove.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "heroku/languages-github-actions/.github/workflows/_classic-buildpack-prepare-release.yml@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "Prepare Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-devcenter.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-devcenter.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-devcenter.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-devcenter.yml",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "buildpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "heroku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-php",
+      "target": "heroku-languages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:56:54.671762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4094
+    },
+    {
+      "path": "requirements.txt",
+      "size": 28
+    },
+    {
+      "path": ".github/workflows/check-changelog.yml",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/ci-cleanup.yml",
+      "size": 973
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 10864
+    },
+    {
+      "path": ".github/workflows/platform-build.yml",
+      "size": 7931
+    },
+    {
+      "path": ".github/workflows/platform-remove.yml",
+      "size": 5667
+    },
+    {
+      "path": ".github/workflows/platform-sync.yml",
+      "size": 11157
+    },
+    {
+      "path": ".github/workflows/prepare-release.yml",
+      "size": 1531
+    },
+    {
+      "path": ".github/workflows/update-devcenter.yml",
+      "size": 14504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Heroku's classic buildpack for PHP applications.",
+    "fork": false,
+    "full_name": "heroku/heroku-buildpack-php",
+    "html_url": "https://github.com/heroku/heroku-buildpack-php",
+    "language": "Shell",
+    "pushed_at": "2026-04-17T22:26:53Z",
+    "stargazers_count": 816,
+    "topics": [
+      "buildpack",
+      "heroku",
+      "heroku-languages",
+      "php"
+    ],
+    "updated_at": "2026-04-17T22:26:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "term": "Check Changelog"
+    },
+    {
+      "context_snippet": "Hatchet App Cleaner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cleanup.yml",
+      "term": "Hatchet App Cleaner"
+    },
+    {
+      "context_snippet": "Prepare Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "term": "Prepare Release"
+    },
+    {
+      "context_snippet": "![php](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-php.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buildpack"
+    },
+    {
+      "context_snippet": "![php](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-php.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku"
+    },
+    {
+      "context_snippet": "![php](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-php.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-languages"
+    }
+  ]
+}

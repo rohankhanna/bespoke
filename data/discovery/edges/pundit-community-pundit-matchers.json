@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "ruby/setup-ruby@v1.306.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "RuboCop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "ruby/setup-ruby@v1.306.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yard.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yard.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "ruby/setup-ruby@v1.306.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yard.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "YARD Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "authorisation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "authorization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "pundit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "pundit-matchers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "rspec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "rspec-matchers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "pundit-community/pundit-matchers"
+}

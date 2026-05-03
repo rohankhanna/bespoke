@@ -19,6 +19,30 @@
       "source_repo": "andreasdr/tdme2",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andreasdr/tdme2/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate-context",
+      "text": "Abstract physics interface designed to support simulation and rapid development of robot applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate-context",
+      "text": "**Maintainer:** scpeters AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saharan/OimoPhysics",
+      "status": "candidate-context",
+      "text": "A cross-platform 3D physics engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharan/OimoPhysics",
+      "status": "candidate-context",
+      "text": "OimoPhysics 1.2.5"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "andreasdr/tdme2",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/andreasdr/tdme2/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate",
+      "text": "**Maintainer:** scpeters AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharan/OimoPhysics",
+      "status": "candidate",
+      "text": "OimoPhysics 1.2.5"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "andreasdr/tdme2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "saharan/OimoPhysics"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

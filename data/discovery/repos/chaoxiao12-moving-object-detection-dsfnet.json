@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChaoXiao12/Moving-object-detection-DSFNet",
+      "target": "yeren123455/infrared-small-target-detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChaoXiao12/Moving-object-detection-DSFNet",
+      "target": "the-learning-and-vision-atelier-lava/viso",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:59.397644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4731
+    },
+    {
+      "path": "requirements.txt",
+      "size": 68
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "moving object detection for satellite videos.",
+    "fork": false,
+    "full_name": "ChaoXiao12/Moving-object-detection-DSFNet",
+    "html_url": "https://github.com/ChaoXiao12/Moving-object-detection-DSFNet",
+    "language": "Python",
+    "pushed_at": "2022-10-28T15:44:35Z",
+    "stargazers_count": 124,
+    "topics": [],
+    "updated_at": "2026-04-24T06:47:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "the-learning-and-vision-atelier-lava/viso",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeren123455/infrared-small-target-detection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,17 @@
+{
+  "component": "BerniWittmann/background-server-action@v1",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-function-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples"
+    }
+  ]
+}

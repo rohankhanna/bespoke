@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "scrum"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "netdur/hugind",
+      "status": "candidate-context",
+      "text": "vLLM for poor GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netdur/hugind",
+      "status": "candidate-context",
+      "text": "Local-only LLM inference and agent system. Uses `llama.cpp` as the engine, Rust as the implementation language. Aims to keep agents under control."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netdur/hugind",
+      "status": "candidate",
+      "text": "Local-only LLM inference and agent system. Uses `llama.cpp` as the engine, Rust as the implementation language. Aims to keep agents under control."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048688,
+      "status": "candidate",
+      "text": "loose scrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048686,
+      "status": "candidate",
+      "text": "scrumdown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048685,
+      "status": "candidate",
+      "text": "scramb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048684,
+      "status": "candidate",
+      "text": "scrummager"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048683,
+      "status": "candidate",
+      "text": "scrummaging machine"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2031,
+      "status": "candidate",
+      "text": "scrummage"
+    }
+  ],
+  "canonical_name": "scrum",
+  "concept_id": "scrum",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "netdur/hugind"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scrum",
+      "sense_id": "scrum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

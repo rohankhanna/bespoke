@@ -1,0 +1,511 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_benchmark.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_benchmark.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@v1.22.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_benchmark.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@v1.22.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_benchmark.yml"
+    },
+    {
+      "component": "benchmark-action/github-action-benchmark@v1.22.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_benchmark.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0.9.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi.yml"
+    },
+    {
+      "component": "readthedocs/actions/preview@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/read_the_docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gbionics/jaxsim",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cd.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_benchmark.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_benchmark.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_benchmark.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "benchmark-action/github-action-benchmark@v1.22.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_benchmark.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_benchmark.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "GPU Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "prefix-dev/setup-pixi@v0.9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pixi.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pixi.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "Pixi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/read_the_docs.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "readthedocs/actions/preview@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/read_the_docs.yml",
+      "source_repo": "gbionics/jaxsim",
+      "target": "Read the Docs PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "automatic-differentiation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "crba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "dynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "featherstone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "jacobian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "kinematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "physics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "physics-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "rigid-body-dynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "rnea",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "robotics-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim",
+      "target": "simulation-modeling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:01:56.003509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11414
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6919
+    },
+    {
+      "path": ".github/workflows/ci_cd.yml",
+      "size": 3516
+    },
+    {
+      "path": ".github/workflows/gpu_benchmark.yml",
+      "size": 3337
+    },
+    {
+      "path": ".github/workflows/pixi.yml",
+      "size": 1598
+    },
+    {
+      "path": ".github/workflows/read_the_docs.yml",
+      "size": 305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A differentiable physics engine and multibody dynamics library for control and robot learning.",
+    "fork": false,
+    "full_name": "gbionics/jaxsim",
+    "html_url": "https://github.com/gbionics/jaxsim",
+    "language": "Python",
+    "pushed_at": "2026-05-01T06:31:34Z",
+    "stargazers_count": 193,
+    "topics": [
+      "aba",
+      "ad",
+      "automatic-differentiation",
+      "crba",
+      "dynamics",
+      "featherstone",
+      "jacobian",
+      "jax",
+      "jit",
+      "kinematics",
+      "ode",
+      "physics",
+      "physics-engine",
+      "rigid-body-dynamics",
+      "rnea",
+      "robotics",
+      "robotics-control",
+      "robotics-simulation",
+      "simulation",
+      "simulation-modeling"
+    ],
+    "updated_at": "2026-04-30T06:15:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GPU Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu_benchmark.yml",
+      "term": "GPU Benchmarks"
+    },
+    {
+      "context_snippet": "Pixi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pixi.yml",
+      "term": "Pixi"
+    },
+    {
+      "context_snippet": "Read the Docs PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/read_the_docs.yml",
+      "term": "Read the Docs PR"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-differentiation"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crba"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamics"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "featherstone"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jacobian"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kinematics"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-engine"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rigid-body-dynamics"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rnea"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-control"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation-modeling"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:44:18.209199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Pytorch implementation of the paper \"Action-Conditioned 3D Human Motion Synthesis with Transformer VAE\", ICCV 2021",
+    "fork": false,
+    "full_name": "Mathux/ACTOR",
+    "html_url": "https://github.com/Mathux/ACTOR",
+    "language": "Python",
+    "pushed_at": "2022-01-21T09:15:59Z",
+    "stargazers_count": 438,
+    "topics": [],
+    "updated_at": "2026-05-01T16:52:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

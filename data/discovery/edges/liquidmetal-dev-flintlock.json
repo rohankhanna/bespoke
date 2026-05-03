@@ -1,0 +1,209 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "github/codeql-action/init@4e94bd11f71e507f7f87df81788dff88d1dacbfb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "github/codeql-action/autobuild@4e94bd11f71e507f7f87df81788dff88d1dacbfb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "github/codeql-action/analyze@4e94bd11f71e507f7f87df81788dff88d1dacbfb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_e2e.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_e2e.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "tj-actions/branch-names@5250492686b253f06fa55861556d1027b067aeb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_e2e.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions-ecosystem/action-slack-notifier@fc778468d09c43a6f4d1b8cccaca59766656996a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_e2e.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "weaveworks/metal-janitor-action@27a0594c5c92d85585b553fc0c5ef2a3de7bec95",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_size.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "codelytv/pr-size-labeler@4ec67706cd878fbc1c8db0a5dcd28b6bb412e85a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "weaveworks/metal-janitor-action@27a0594c5c92d85585b553fc0c5ef2a3de7bec95",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "softprops/action-gh-release@aa05f9d77940d1a6b7a495c3264de51fabbf36d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/stale@5f858e3efba33a5ca4407a664cc011ad407f2008",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yaml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yaml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "actions/setup-node@2028fbc5c25fe9cf00d9f06a71cc4710d4507903",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docs.yaml",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "Test docs build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "firecracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liquidmetal-dev/flintlock",
+      "target": "microvm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "liquidmetal-dev/flintlock"
+}

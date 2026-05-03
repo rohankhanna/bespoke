@@ -1,0 +1,293 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astra-vision/MonoScene",
+      "target": "hustvl/symphonies",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astra-vision/MonoScene",
+      "target": "arlo0o/stereoscene",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astra-vision/MonoScene",
+      "target": "ganwanshui/simpleoccupancy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astra-vision/MonoScene",
+      "target": "ai4ce/sscbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "2d-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "cvpr2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "cvpr22",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "kitti-360",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "mayavi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "monocular",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "nyu-depth-v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "occupancy-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "semantic-kitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "semantic-scene-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "semantic-scene-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene",
+      "target": "single-image-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:50.115220+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13785
+    },
+    {
+      "path": "requirements.txt",
+      "size": 187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2022] \"MonoScene: Monocular 3D Semantic Scene Completion\": 3D Semantic Occupancy Prediction from a single image",
+    "fork": false,
+    "full_name": "astra-vision/MonoScene",
+    "html_url": "https://github.com/astra-vision/MonoScene",
+    "language": "Python",
+    "pushed_at": "2026-03-25T10:53:26Z",
+    "stargazers_count": 801,
+    "topics": [
+      "2d-to-3d",
+      "computer-vision",
+      "cvpr2022",
+      "cvpr22",
+      "deep-learning",
+      "kitti-360",
+      "mayavi",
+      "monocular",
+      "nyu-depth-v2",
+      "occupancy-prediction",
+      "pytorch",
+      "semantic-kitti",
+      "semantic-scene-completion",
+      "semantic-scene-understanding",
+      "single-image-reconstruction"
+    ],
+    "updated_at": "2026-04-22T17:38:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai4ce/sscbench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arlo0o/stereoscene",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ganwanshui/simpleoccupancy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hustvl/symphonies",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2d-to-3d"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2022"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr22"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti-360"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mayavi"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nyu-depth-v2"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "occupancy-prediction"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-kitti"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-scene-completion"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-scene-understanding"
+    },
+    {
+      "context_snippet": "**MonoScene: Monocular 3D Semantic Scene Completion**\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-image-reconstruction"
+    }
+  ]
+}

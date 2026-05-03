@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "python-hyper/h11",
+      "target": "nodejs/http-parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python-hyper/h11",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python-hyper/h11",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python-hyper/h11",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-hyper/h11",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python-hyper/h11",
+      "target": "sans-io",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:26.632721+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7165
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1133
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A pure-Python, bring-your-own-I/O implementation of HTTP/1.1",
+    "fork": false,
+    "full_name": "python-hyper/h11",
+    "html_url": "https://github.com/python-hyper/h11",
+    "language": "Python",
+    "pushed_at": "2025-04-24T23:29:20Z",
+    "stargazers_count": 554,
+    "topics": [
+      "http",
+      "python",
+      "sans-io"
+    ],
+    "updated_at": "2026-05-01T08:38:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/http-parser",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "h11",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "h11",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sans-io"
+    }
+  ]
+}

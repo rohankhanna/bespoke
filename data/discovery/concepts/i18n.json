@@ -279,6 +279,54 @@
       "source_repo": "unicode-org/icu",
       "status": "candidate-context",
       "text": "This is the repository for the [International Components for Unicode](https://icu.unicode.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/bundle-tools",
+      "status": "candidate-context",
+      "text": "bundling for intlify i18n tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/bundle-tools",
+      "status": "candidate-context",
+      "text": "[![Lint](https://github.com/intlify/bundle-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/intlify/bundle-tools/actions/workflows/lint.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: ESLint plugin for Vue I18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"143px\" height=\"130px\" src=\"./assets/eslint-plugin-vue-i18n.svg\" alt=\"ESLint plugin for Vue I18n logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate-context",
+      "text": "vue-i18n extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/@intlify/vue-i18n-extensions/next.svg)](https://www.npmjs.com/package/@intlify/vue-i18n-extensions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate-context",
+      "text": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -419,6 +467,30 @@
       "source_repo": "unicode-org/icu",
       "status": "candidate",
       "text": "This is the repository for the [International Components for Unicode](https://icu.unicode.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/bundle-tools",
+      "status": "candidate",
+      "text": "[![Lint](https://github.com/intlify/bundle-tools/actions/workflows/lint.yml/badge.svg)](https://github.com/intlify/bundle-tools/actions/workflows/lint.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"143px\" height=\"130px\" src=\"./assets/eslint-plugin-vue-i18n.svg\" alt=\"ESLint plugin for Vue I18n logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/@intlify/vue-i18n-extensions/next.svg)](https://www.npmjs.com/package/@intlify/vue-i18n-extensions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -786,11 +858,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "intlify/bundle-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "intlify/eslint-plugin-vue-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "intlify/vue-i18n-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PanJiaChen/vue-element-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

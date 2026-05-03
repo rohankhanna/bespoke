@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A CLI and library to extract information from React component files for documentation generation purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "OSSAR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "OSSAR"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "OSSAR",
+      "sense_id": "ossar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ossar",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ossar",
+  "observation_id": "ae4d06153de94628",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "OSSAR",
+  "source_context_snippet": "OSSAR",
+  "source_file": ".github/workflows/ossar-analysis.yml",
+  "source_repo": "reactjs/react-docgen",
+  "source_repo_description": "A CLI and library to extract information from React component files for documentation generation purposes."
+}

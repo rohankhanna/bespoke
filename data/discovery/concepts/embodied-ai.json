@@ -67,6 +67,30 @@
       "source_repo": "HaoyiZhu/SPA",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "status": "candidate-context",
+      "text": "Notably, GenAD & Dataset Survey. A Collection of Foundation Driving Models by OpenDriveLab. For Vista and DriveLM, please refer to individual page."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "SAPIEN Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "![teaser](figures/teaser.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "HaoyiZhu/SPA",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate",
+      "text": "![teaser](figures/teaser.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +250,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "FlagOpen/RoboBrain2.5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "FlagOpen/RoboBrain2.5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

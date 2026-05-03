@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "future"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-commons/manifold",
+      "status": "candidate-context",
+      "text": "A compatibility layer for event-driven abstractions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/manifold",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/manifold",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049443,
+      "status": "candidate",
+      "text": "futurity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048607,
+      "status": "candidate",
+      "text": "hereafter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048530,
+      "status": "candidate",
+      "text": "early"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048199,
+      "status": "candidate",
+      "text": "subsequent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047998,
+      "status": "candidate",
+      "text": "later"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27031,
+      "status": "candidate",
+      "text": "forthcoming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24046,
+      "status": "candidate",
+      "text": "prospective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17031,
+      "status": "candidate",
+      "text": "proximo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14034,
+      "status": "candidate",
+      "text": "ulterior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13027,
+      "status": "candidate",
+      "text": "succeeding"
+    }
+  ],
+  "canonical_name": "future",
+  "concept_id": "future",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/manifold"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "future",
+      "sense_id": "future#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

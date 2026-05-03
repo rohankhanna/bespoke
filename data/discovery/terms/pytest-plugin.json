@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Teemu/pytest-sugar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/pytest-aiohttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest-asyncio"
     }
   ],
   "term": "pytest-plugin"

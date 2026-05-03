@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:45:36.443724+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5770
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lime: Explaining the predictions of any machine learning classifier",
+    "fork": false,
+    "full_name": "marcotcr/lime",
+    "html_url": "https://github.com/marcotcr/lime",
+    "language": "JavaScript",
+    "pushed_at": "2024-07-25T20:32:21Z",
+    "stargazers_count": 12127,
+    "topics": [],
+    "updated_at": "2026-05-01T10:13:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

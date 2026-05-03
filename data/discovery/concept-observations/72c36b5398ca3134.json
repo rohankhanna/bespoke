@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Given some data, jsesc returns the shortest possible stringified & ASCII-safe representation of that data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041509,
+      "status": "candidate",
+      "text": "get away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041453,
+      "status": "candidate",
+      "text": "get out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041326,
+      "status": "candidate",
+      "text": "break loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041252,
+      "status": "candidate",
+      "text": "escapism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041073,
+      "status": "candidate",
+      "text": "get off"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "escape",
+      "sense_id": "escape#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36034,
+      "status": "candidate",
+      "text": "elude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22054,
+      "status": "candidate",
+      "text": "miss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13060,
+      "status": "candidate",
+      "text": "flight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10041,
+      "status": "candidate",
+      "text": "evasion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10013,
+      "status": "candidate",
+      "text": "break loose"
+    }
+  ],
+  "concept_id": "escape",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "escape",
+  "observation_id": "72c36b5398ca3134",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "escape",
+  "source_context_snippet": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:",
+  "source_file": null,
+  "source_repo": "mathiasbynens/jsesc",
+  "source_repo_description": "Given some data, jsesc returns the shortest possible stringified & ASCII-safe representation of that data."
+}

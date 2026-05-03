@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf43 Windi CSS for webpack \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align='center'>windicss-webpack-plugin</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align='center'>windicss-webpack-plugin</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webpack",
+      "sense_id": "webpack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "webpack",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "webpack",
+  "observation_id": "a0affb59bc7a0580",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "webpack",
+  "source_context_snippet": "<h1 align='center'>windicss-webpack-plugin</h1>",
+  "source_file": null,
+  "source_repo": "windicss/windicss-webpack-plugin",
+  "source_repo_description": "\ud83c\udf43 Windi CSS for webpack \u26a1"
+}

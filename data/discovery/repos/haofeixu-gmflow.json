@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haofeixu/gmflow",
+      "target": "autonomousvision/unimatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/gmflow",
+      "target": "cvpr2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/gmflow",
+      "target": "global-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/gmflow",
+      "target": "optical-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofeixu/gmflow",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:39.385558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6807
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR'22 Oral] GMFlow: Learning Optical Flow via Global Matching",
+    "fork": false,
+    "full_name": "haofeixu/gmflow",
+    "html_url": "https://github.com/haofeixu/gmflow",
+    "language": "Python",
+    "pushed_at": "2024-02-20T10:48:03Z",
+    "stargazers_count": 781,
+    "topics": [
+      "cvpr2022",
+      "global-matching",
+      "optical-flow",
+      "transformer"
+    ],
+    "updated_at": "2026-05-01T17:06:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/unimatch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official PyTorch implementation of paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2022"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "global-matching"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

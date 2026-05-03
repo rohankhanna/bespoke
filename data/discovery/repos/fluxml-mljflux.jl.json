@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documenter.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documenter.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documenter.yml"
+    },
+    {
+      "component": "julia-actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documenter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "alan-turing-institute/mlj.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documenter.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documenter.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documenter.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documenter.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "julia-actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documenter.yml",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "target": "Documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:05:18.207119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3910
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 460
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1291
+    },
+    {
+      "path": ".github/workflows/documenter.yml",
+      "size": 832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Wrapping deep learning models from the package Flux.jl for use in the MLJ.jl toolbox",
+    "fork": false,
+    "full_name": "FluxML/MLJFlux.jl",
+    "html_url": "https://github.com/FluxML/MLJFlux.jl",
+    "language": "Julia",
+    "pushed_at": "2026-01-13T20:23:39Z",
+    "stargazers_count": 154,
+    "topics": [],
+    "updated_at": "2026-04-10T09:01:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alan-turing-institute/mlj.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documenter.yml",
+      "term": "Documentation"
+    }
+  ]
+}

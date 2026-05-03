@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:54:12.224205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 777
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "sawhney17/logseq-hugo-template",
+    "html_url": "https://github.com/sawhney17/logseq-hugo-template",
+    "language": "HTML",
+    "pushed_at": "2022-07-15T08:09:08Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-20T13:30:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

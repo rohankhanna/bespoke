@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "aws-cloudformation/cfn-python-lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "awslabs/aws-cfn-lint-visual-studio-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "awslabs/aws-cfn-lint-visual-studio-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-pr-release.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-pr-release.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-pr-release.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "HaaLeo/publish-vscode-extension@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "Upload package to VSCode Marketplace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "Update CloudFormation schemas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "aws-cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "cfn-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "cloudformation-linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "visual-studio-code",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code"
+}

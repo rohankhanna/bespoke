@@ -79,6 +79,18 @@
       "source_repo": "aws-cloudformation/awesome-cloudformation",
       "status": "candidate-context",
       "text": "A curated list of resources and projects for working with [AWS CloudFormation](https://aws.amazon.com/cloudformation/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "status": "candidate-context",
+      "text": "CloudFormation Linter IDE integration, autocompletion, and documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/visual-studio-marketplace/v/kddejong.vscode-cfn-lint.svg?style=flat)](https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "aws-cloudformation/awesome-cloudformation",
       "status": "candidate",
       "text": "A curated list of resources and projects for working with [AWS CloudFormation](https://aws.amazon.com/cloudformation/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/visual-studio-marketplace/v/kddejong.vscode-cfn-lint.svg?style=flat)](https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint)"
     }
   ],
   "candidate_related_terms": [],
@@ -382,11 +400,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "aws-cloudformation/cloudformation-coverage-roadmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-resource-schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cloudformation-coverage-roadmap"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

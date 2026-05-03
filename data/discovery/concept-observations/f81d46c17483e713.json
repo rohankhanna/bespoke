@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Microsoft.Recognizers.Text provides recognition and resolution of numbers, units, date/time, etc. in multiple languages (ZH, EN, FR, ES, PT, DE, IT, TR, HI, NL. Partial support for JA, KO, AR, SV). Packages available at: https://www.nuget.org/profiles/Recognizers.Text, https://www.npmjs.com/~recognizers.text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "swatch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "wristwatch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5304,
+      "status": "candidate",
+      "text": "calculator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5060,
+      "status": "candidate",
+      "text": "binoculars"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5060,
+      "status": "candidate",
+      "text": "calculators"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "timex",
+      "sense_id": "timex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "timex",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "timex",
+  "observation_id": "f81d46c17483e713",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "timex",
+  "source_context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+  "source_file": null,
+  "source_repo": "microsoft/Recognizers-Text",
+  "source_repo_description": "Microsoft.Recognizers.Text provides recognition and resolution of numbers, units, date/time, etc. in multiple languages (ZH, EN, FR, ES, PT, DE, IT, TR, HI, NL. Partial support for JA, KO, AR, SV). Packages available at: https://www.nuget.org/profiles/Recognizers.Text, https://www.npmjs.com/~recognizers.text"
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "hku-bal/clairs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "hku-bal/clairs-to",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "long-read-sequencing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "nanopore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "pacbio-iso-seq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "rna-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "rna-seq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "rna-seq-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "variant-calling",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "HKU-BAL/Clair3-RNA"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MoCoGAN: Decomposing Motion and Content for Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains an implementation and further details of [MoCoGAN: Decomposing Motion and Content for Video Generation](http://arxiv.org/abs/1707.04993) by Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, Jan Kautz."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains an implementation and further details of [MoCoGAN: Decomposing Motion and Content for Video Generation](http://arxiv.org/abs/1707.04993) by Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, Jan Kautz."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "computer-vision",
+      "sense_id": "computer-vision#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "computer-vision",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "computer-vision",
+  "observation_id": "cd391df64b7acce3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "computer-vision",
+  "source_context_snippet": "This repository contains an implementation and further details of [MoCoGAN: Decomposing Motion and Content for Video Generation](http://arxiv.org/abs/1707.04993) by Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, Jan Kautz.",
+  "source_file": null,
+  "source_repo": "sergeytulyakov/mocogan",
+  "source_repo_description": "MoCoGAN: Decomposing Motion and Content for Video Generation"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:52:15.695315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 813
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "vke application with C.R.O.W. gui enabled",
+    "fork": false,
+    "full_name": "jpbruyere/VkCrowWindow",
+    "html_url": "https://github.com/jpbruyere/VkCrowWindow",
+    "language": "C#",
+    "pushed_at": "2025-07-02T01:53:04Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-06-11T17:09:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

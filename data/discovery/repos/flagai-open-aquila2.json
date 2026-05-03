@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagAI-Open/Aquila2",
+      "target": "flagai-open/flagai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagAI-Open/Aquila2",
+      "target": "panqiwei/autogptq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagAI-Open/Aquila2",
+      "target": "casper-hansen/autoawq.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagAI-Open/Aquila2",
+      "target": "flagopen/flagscale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlagAI-Open/Aquila2",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlagAI-Open/Aquila2",
+      "target": "llm-training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:40:54.959971+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28017
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repo of Aquila2 series proposed by BAAI, including pretrained & chat large language models.",
+    "fork": false,
+    "full_name": "FlagAI-Open/Aquila2",
+    "html_url": "https://github.com/FlagAI-Open/Aquila2",
+    "language": "Python",
+    "pushed_at": "2024-10-11T09:25:46Z",
+    "stargazers_count": 445,
+    "topics": [
+      "llm",
+      "llm-inference",
+      "llm-training"
+    ],
+    "updated_at": "2026-04-10T02:26:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casper-hansen/autoawq.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagai-open/flagai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flagopen/flagscale",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "panqiwei/autogptq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[<img src=\"assets/flagopen.jpeg\">](https://flagopen.baai.ac.cn/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "[<img src=\"assets/flagopen.jpeg\">](https://flagopen.baai.ac.cn/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-training"
+    }
+  ]
+}

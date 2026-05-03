@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ami-iit/matlab-whole-body-simulator",
+      "target": "robotology/idyntree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ami-iit/matlab-whole-body-simulator",
+      "target": "robotology-dependencies/qpoases",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ami-iit/matlab-whole-body-simulator",
+      "target": "robotology/icub-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ami-iit/matlab-whole-body-simulator",
+      "target": "robotology/robotology-superbuild",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:00.344993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A robot simulator running on simulink",
+    "fork": false,
+    "full_name": "ami-iit/matlab-whole-body-simulator",
+    "html_url": "https://github.com/ami-iit/matlab-whole-body-simulator",
+    "language": "MATLAB",
+    "pushed_at": "2024-05-29T16:37:36Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2025-10-17T05:57:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology-dependencies/qpoases",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology/icub-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology/idyntree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology/robotology-superbuild",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

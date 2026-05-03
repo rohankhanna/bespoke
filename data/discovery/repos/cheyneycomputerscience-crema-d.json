@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:03:21.190989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Crowd Sourced Emotional Multimodal Actors Dataset (CREMA-D)",
+    "fork": false,
+    "full_name": "CheyneyComputerScience/CREMA-D",
+    "html_url": "https://github.com/CheyneyComputerScience/CREMA-D",
+    "language": "R",
+    "pushed_at": "2025-03-21T18:36:59Z",
+    "stargazers_count": 524,
+    "topics": [],
+    "updated_at": "2026-04-22T07:36:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

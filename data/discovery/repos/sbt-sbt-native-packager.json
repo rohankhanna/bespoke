@@ -1,0 +1,397 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-site.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-site.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-site.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    },
+    {
+      "component": "sbt/setup-sbt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "arktekk/sbt-aether-deploy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "gilt/sbt-newrelic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "en-japan/sbt-packer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "alkersan/sbt-package-courier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-site.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-site.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-site.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-site.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "Publish Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "sbt/setup-sbt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "Validate PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "native-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "sbt-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "sbt-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbt/sbt-native-packager",
+      "target": "scala",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:57:01.186840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6402
+    },
+    {
+      "path": ".github/workflows/publish-site.yml",
+      "size": 871
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 474
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1076
+    },
+    {
+      "path": ".github/workflows/validate-pr.yml",
+      "size": 3143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "sbt Native Packager",
+    "fork": false,
+    "full_name": "sbt/sbt-native-packager",
+    "html_url": "https://github.com/sbt/sbt-native-packager",
+    "language": "Scala",
+    "pushed_at": "2026-02-22T17:06:38Z",
+    "stargazers_count": 1608,
+    "topics": [
+      "deb",
+      "docker",
+      "native-packages",
+      "rpm",
+      "sbt",
+      "sbt-docker",
+      "sbt-plugin",
+      "scala"
+    ],
+    "updated_at": "2026-03-27T01:13:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alkersan/sbt-package-courier",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arktekk/sbt-aether-deploy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "en-japan/sbt-packer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gilt/sbt-newrelic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-site.yml",
+      "term": "Publish Site"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Validate PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "term": "Validate PR"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/sbt/sbt-native-packager.png?branch=master)](https://travis-ci.org/sbt/sbt-native-packager)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/sbt/sbt-native-packager.png?branch=master)](https://travis-ci.org/sbt/sbt-native-packager)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native-packages"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/sbt/sbt-native-packager.png?branch=master)](https://travis-ci.org/sbt/sbt-native-packager)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sbt-docker"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/sbt/sbt-native-packager.png?branch=master)](https://travis-ci.org/sbt/sbt-native-packager)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sbt-plugin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/sbt/sbt-native-packager.png?branch=master)](https://travis-ci.org/sbt/sbt-native-packager)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    }
+  ]
+}

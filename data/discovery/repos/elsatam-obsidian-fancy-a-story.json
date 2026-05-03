@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "css-byebye",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cssnano",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-combine-duplicated-selectors",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-pseudo-is",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-remove-classes",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-remove-selectors",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "slrvb/obsidian--its-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "colineckert/obsidian-things",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "smikula/obsidian-limelight",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "r-u-s-h-i-k-e-s-h/obsidian-css-snippets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "css-byebye",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "cssnano",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "postcss-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "postcss-combine-duplicated-selectors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "postcss-pseudo-is",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "postcss-remove-classes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "postcss-remove-selectors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "Deploy Jekyll site to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story",
+      "target": "Release Obsidian theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:27.664822+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5235
+    },
+    {
+      "path": "package.json",
+      "size": 811
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 2065
+    },
+    {
+      "path": ".github/workflows/release-version.yml",
+      "size": 471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Obsidian theme",
+    "fork": false,
+    "full_name": "ElsaTam/obsidian-fancy-a-story",
+    "html_url": "https://github.com/ElsaTam/obsidian-fancy-a-story",
+    "language": "SCSS",
+    "pushed_at": "2026-02-24T05:53:10Z",
+    "stargazers_count": 254,
+    "topics": [],
+    "updated_at": "2026-05-01T17:15:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "colineckert/obsidian-things",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-u-s-h-i-k-e-s-h/obsidian-css-snippets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "slrvb/obsidian--its-theme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "smikula/obsidian-limelight",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Jekyll site to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Deploy Jekyll site to Pages"
+    },
+    {
+      "context_snippet": "Release Obsidian theme",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-version.yml",
+      "term": "Release Obsidian theme"
+    }
+  ]
+}

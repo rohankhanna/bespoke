@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bgshih/aster",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgshih/aster",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgshih/aster",
+      "target": "recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgshih/aster",
+      "target": "scene-text",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:42:43.928856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3988
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Recognizing cropped text in natural images.",
+    "fork": false,
+    "full_name": "bgshih/aster",
+    "html_url": "https://github.com/bgshih/aster",
+    "language": "Python",
+    "pushed_at": "2023-03-25T00:44:11Z",
+    "stargazers_count": 744,
+    "topics": [
+      "computer-vision",
+      "ocr",
+      "recognition",
+      "scene-text"
+    ],
+    "updated_at": "2026-04-26T17:23:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ASTER is an accurate scene text recognizer with flexible rectification mechanism. The research paper can be found [here](https://ieeexplore.ieee.org/abstract/document/8395027/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "ASTER is an accurate scene text recognizer with flexible rectification mechanism. The research paper can be found [here](https://ieeexplore.ieee.org/abstract/document/8395027/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recognition"
+    },
+    {
+      "context_snippet": "ASTER is an accurate scene text recognizer with flexible rectification mechanism. The research paper can be found [here](https://ieeexplore.ieee.org/abstract/document/8395027/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text"
+    }
+  ]
+}

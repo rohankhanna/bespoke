@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Vulkan-Headers PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "status": "candidate-context",
+      "text": "Open-Source Vulkan C++ API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "status": "candidate-context",
+      "text": "Update Vulkan-Headers PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "status": "candidate",
+      "text": "Update Vulkan-Headers PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11519,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10512,
+      "status": "candidate",
+      "text": "vehemence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10481,
+      "status": "candidate",
+      "text": "reichsmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10420,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10389,
+      "status": "candidate",
+      "text": "agent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Vulkan-Headers PR",
+  "concept_id": "update-vulkan-headers-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/update-header-pr.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Vulkan-Headers PR",
+      "sense_id": "update-vulkan-headers-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A computer algebra system written in pure Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![pypi version](https://img.shields.io/pypi/v/sympy.svg)](https://pypi.python.org/pypi/sympy)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![pypi version](https://img.shields.io/pypi/v/sympy.svg)](https://pypi.python.org/pypi/sympy)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025852,
+      "status": "candidate",
+      "text": "skill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038336,
+      "status": "candidate",
+      "text": "scientific discipline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038336,
+      "status": "candidate",
+      "text": "scientific knowledge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038335,
+      "status": "candidate",
+      "text": "scientifically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038306,
+      "status": "candidate",
+      "text": "scientific"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "science",
+      "sense_id": "science#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18053,
+      "status": "candidate",
+      "text": "skill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "scientific discipline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "scientific knowledge"
+    }
+  ],
+  "concept_id": "science",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "science",
+  "observation_id": "1afc5d6340c6b3df",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "science",
+  "source_context_snippet": "[![pypi version](https://img.shields.io/pypi/v/sympy.svg)](https://pypi.python.org/pypi/sympy)",
+  "source_file": null,
+  "source_repo": "sympy/sympy",
+  "source_repo_description": "A computer algebra system written in pure Python"
+}

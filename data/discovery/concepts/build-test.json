@@ -609,6 +609,30 @@
       "source_repo": "getzola/zola",
       "status": "candidate-context",
       "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate-context",
+      "text": "Rust support for Dart\u2019s Native Assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate-context",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zonyitoo/rust-ini",
+      "status": "candidate-context",
+      "text": "INI file parser in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zonyitoo/rust-ini",
+      "status": "candidate-context",
+      "text": "Build & Test"
     }
   ],
   "candidate_glosses": [
@@ -915,6 +939,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "getzola/zola",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zonyitoo/rust-ini",
       "status": "candidate",
       "text": "Build & Test"
     }
@@ -1662,11 +1698,65 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dwyl/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GregoryConrad/native_toolchain_rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "zonyitoo/rust-ini"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "helm/helm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

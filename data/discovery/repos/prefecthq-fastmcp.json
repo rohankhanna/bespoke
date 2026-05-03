@@ -1,0 +1,558 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-duplicates.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-duplicates.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-duplicates.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-needs-mre.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-needs-mre.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-needs-mre.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-test-failure.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-test-failure.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-test-failure.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-test-failure.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-test-failure.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-triage-issue.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-triage-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-issue.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-issue.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-pr.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-pr.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-dedupe-issues.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-dedupe-issues.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-dedupe-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-label-triage.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-label-triage.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-label-triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-duplicates.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-duplicates.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-duplicates.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-duplicates.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "Auto-close duplicate issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-needs-mre.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-needs-mre.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-needs-mre.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-needs-mre.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "Auto-close needs MRE issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-test-failure.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-test-failure.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-test-failure.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-test-failure.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-test-failure.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/martian-test-failure.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "Marvin Test Failure Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-triage-issue.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/martian-triage-issue.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/martian-triage-issue.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "Triage Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-issue.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-issue.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-issue.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/marvin-comment-on-issue.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "Comment on Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-pr.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-pr.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-comment-on-pr.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/marvin-comment-on-pr.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "Comment on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-dedupe-issues.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-dedupe-issues.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-dedupe-issues.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/marvin-dedupe-issues.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "Marvin Issue Dedupe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-label-triage.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-label-triage.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/marvin-label-triage.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/marvin-label-triage.yml",
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "Marvin Label Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "fastmcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "mcp-clients",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "mcp-servers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "mcp-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrefectHQ/fastmcp",
+      "target": "model-context-protocol",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:34.962790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6642
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8016
+    },
+    {
+      "path": ".github/workflows/auto-close-duplicates.yml",
+      "size": 1041
+    },
+    {
+      "path": ".github/workflows/auto-close-needs-mre.yml",
+      "size": 1074
+    },
+    {
+      "path": ".github/workflows/martian-test-failure.yml",
+      "size": 9201
+    },
+    {
+      "path": ".github/workflows/martian-triage-issue.yml",
+      "size": 12312
+    },
+    {
+      "path": ".github/workflows/marvin-comment-on-issue.yml",
+      "size": 6663
+    },
+    {
+      "path": ".github/workflows/marvin-comment-on-pr.yml",
+      "size": 16473
+    },
+    {
+      "path": ".github/workflows/marvin-dedupe-issues.yml",
+      "size": 6215
+    },
+    {
+      "path": ".github/workflows/marvin-label-triage.yml",
+      "size": 10068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80 The fast, Pythonic way to build MCP servers and clients.",
+    "fork": false,
+    "full_name": "PrefectHQ/fastmcp",
+    "html_url": "https://github.com/PrefectHQ/fastmcp",
+    "language": "Python",
+    "pushed_at": "2026-04-26T17:49:34Z",
+    "stargazers_count": 24960,
+    "topics": [
+      "agents",
+      "fastmcp",
+      "llms",
+      "mcp",
+      "mcp-clients",
+      "mcp-servers",
+      "mcp-tools",
+      "model-context-protocol",
+      "python"
+    ],
+    "updated_at": "2026-05-02T21:27:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto-close duplicate issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-duplicates.yml",
+      "term": "Auto-close duplicate issues"
+    },
+    {
+      "context_snippet": "Auto-close needs MRE issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-needs-mre.yml",
+      "term": "Auto-close needs MRE issues"
+    },
+    {
+      "context_snippet": "Marvin Test Failure Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/martian-test-failure.yml",
+      "term": "Marvin Test Failure Analysis"
+    },
+    {
+      "context_snippet": "Triage Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/martian-triage-issue.yml",
+      "term": "Triage Issue"
+    },
+    {
+      "context_snippet": "Comment on Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/marvin-comment-on-issue.yml",
+      "term": "Comment on Issue"
+    },
+    {
+      "context_snippet": "Comment on PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/marvin-comment-on-pr.yml",
+      "term": "Comment on PR"
+    },
+    {
+      "context_snippet": "Marvin Issue Dedupe",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/marvin-dedupe-issues.yml",
+      "term": "Marvin Issue Dedupe"
+    },
+    {
+      "context_snippet": "Marvin Label Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/marvin-label-triage.yml",
+      "term": "Marvin Label Triage"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastmcp"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-clients"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-servers"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-tools"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-context-protocol"
+    }
+  ]
+}

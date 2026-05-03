@@ -84,7 +84,7 @@
   "normalized_form": "backend",
   "observation_id": "cf87a36adeb4c053",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "backend",
   "source_context_snippet": "<a href=\"https://github.com/fastapi/full-stack-fastapi-template/actions?query=workflow%3A%22Test+Docker+Compose%22\" target=\"_blank\"><img src=\"https://github.com/fastapi/full-stack-fastapi-template/workflows/Test%20Docker%20Compose/badge.svg\" alt=\"Test Docker Compose\"></a>",
   "source_file": null,

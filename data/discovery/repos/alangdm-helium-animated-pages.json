@@ -1,0 +1,394 @@
+{
+  "components": [
+    {
+      "component": "lit",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@api-viewer/docs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@custom-elements-manifest/analyzer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@open-wc/building-rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@open-wc/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@web/dev-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "deepmerge",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-copy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simple-git-hooks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demodeploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.2.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demodeploy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npmpublish.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npmpublish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "lit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "@api-viewer/docs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "@custom-elements-manifest/analyzer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "@open-wc/building-rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "@open-wc/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "@web/dev-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "deepmerge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "rollup-plugin-copy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "simple-git-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "standard-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demodeploy.yml",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "actions/checkout@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/demodeploy.yml",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "JamesIves/github-pages-deploy-action@v4.2.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/demodeploy.yml",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "Demo Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npmpublish.yml",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npmpublish.yml",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npmpublish.yml",
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "npm publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "animations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "css-animations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "shadow-dom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alangdm/helium-animated-pages",
+      "target": "web-components",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:03:03.369371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4872
+    },
+    {
+      "path": "package.json",
+      "size": 2689
+    },
+    {
+      "path": ".github/workflows/demodeploy.yml",
+      "size": 424
+    },
+    {
+      "path": ".github/workflows/npmpublish.yml",
+      "size": 618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A light spiritual succesor to neon-animated-pages using only css animations",
+    "fork": false,
+    "full_name": "alangdm/helium-animated-pages",
+    "html_url": "https://github.com/alangdm/helium-animated-pages",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T11:46:58Z",
+    "stargazers_count": 17,
+    "topics": [
+      "animations",
+      "css",
+      "css-animations",
+      "html",
+      "javascript",
+      "js",
+      "shadow-dom",
+      "web-components"
+    ],
+    "updated_at": "2026-04-15T04:11:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Demo Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/demodeploy.yml",
+      "term": "Demo Deploy"
+    },
+    {
+      "context_snippet": "npm publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npmpublish.yml",
+      "term": "npm publish"
+    },
+    {
+      "context_snippet": "[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/helium-animated-pages)[![npm version](https://badge.fury.io/js/helium-animated-pages.svg)](https://badge.fury.io/js/helium-animated-pages)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animations"
+    },
+    {
+      "context_snippet": "[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/helium-animated-pages)[![npm version](https://badge.fury.io/js/helium-animated-pages.svg)](https://badge.fury.io/js/helium-animated-pages)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css-animations"
+    },
+    {
+      "context_snippet": "[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/helium-animated-pages)[![npm version](https://badge.fury.io/js/helium-animated-pages.svg)](https://badge.fury.io/js/helium-animated-pages)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/helium-animated-pages)[![npm version](https://badge.fury.io/js/helium-animated-pages.svg)](https://badge.fury.io/js/helium-animated-pages)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shadow-dom"
+    },
+    {
+      "context_snippet": "[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/helium-animated-pages)[![npm version](https://badge.fury.io/js/helium-animated-pages.svg)](https://badge.fury.io/js/helium-animated-pages)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-components"
+    }
+  ]
+}

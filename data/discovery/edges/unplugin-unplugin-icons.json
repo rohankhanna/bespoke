@@ -4,14 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "unplugin/unplugin-icons",
-      "target": "antfu/unplugin-icons",
+      "target": "iconify/iconify",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "unplugin/unplugin-icons",
-      "target": "embroider-build/embroider",
+      "target": "antfu/unplugin-icons",
       "target_type": "repository"
     },
     {
@@ -295,6 +295,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "unplugin/unplugin-icons"
 }

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p-doom/jasmine",
+      "target": "flairox/jafar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p-doom/jasmine",
+      "target": "google/aqt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p-doom/jasmine",
+      "target": "google-deepmind/dm_pix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p-doom/jasmine",
+      "target": "google-deepmind/treescope",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:54:38.649866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9869
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple, performant and scalable JAX-based world modeling codebase.",
+    "fork": true,
+    "full_name": "p-doom/jasmine",
+    "html_url": "https://github.com/p-doom/jasmine",
+    "language": "Python",
+    "pushed_at": "2026-01-15T16:27:40Z",
+    "stargazers_count": 145,
+    "topics": [],
+    "updated_at": "2026-04-22T16:31:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flairox/jafar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/dm_pix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/treescope",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/aqt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

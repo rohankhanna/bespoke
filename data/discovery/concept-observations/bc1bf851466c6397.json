@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Standalone tool for extracting and creating Godot .pck files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Godot Pck Tool"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Godot Pck Tool"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998093,
+      "status": "candidate",
+      "text": "flourish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997412,
+      "status": "candidate",
+      "text": "prosper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981720,
+      "status": "candidate",
+      "text": "get ahead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979593,
+      "status": "candidate",
+      "text": "expand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39939345,
+      "status": "candidate",
+      "text": "boom"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "thrive",
+      "sense_id": "thrive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33039,
+      "status": "candidate",
+      "text": "flourish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30041,
+      "status": "candidate",
+      "text": "expand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14069,
+      "status": "candidate",
+      "text": "boom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "get ahead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3,
+      "status": "candidate",
+      "text": "fligh high"
+    }
+  ],
+  "concept_id": "thrive",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "thrive",
+  "observation_id": "bc1bf851466c6397",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "thrive",
+  "source_context_snippet": "Godot Pck Tool",
+  "source_file": null,
+  "source_repo": "hhyyrylainen/GodotPckTool",
+  "source_repo_description": "Standalone tool for extracting and creating Godot .pck files"
+}

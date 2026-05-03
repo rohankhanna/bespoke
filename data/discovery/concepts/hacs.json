@@ -31,6 +31,18 @@
       "source_repo": "GuyKh/ims-custom-component",
       "status": "candidate-context",
       "text": "[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "idodov/RedAlert",
+      "status": "candidate-context",
+      "text": "Israeli Red Alert Service for Home Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idodov/RedAlert",
+      "status": "candidate-context",
+      "text": "***Not Official Pikud Ha-Oref***"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "GuyKh/ims-custom-component",
       "status": "candidate",
       "text": "[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idodov/RedAlert",
+      "status": "candidate",
+      "text": "***Not Official Pikud Ha-Oref***"
     }
   ],
   "candidate_related_terms": [
@@ -99,11 +117,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "GuyKh/ims-custom-component"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "idodov/RedAlert"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

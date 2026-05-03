@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-mac.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaInterop/libcxxwrap-julia",
+      "target": "juliainterop/cxxwrap.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaInterop/libcxxwrap-julia",
+      "target": "juliabinarywrappers/libcxxwrap_julia_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaInterop/libcxxwrap-julia",
+      "target": "barche/libcxxwrap_julia_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-mac.yml",
+      "source_repo": "JuliaInterop/libcxxwrap-julia",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-linux-mac.yml",
+      "source_repo": "JuliaInterop/libcxxwrap-julia",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-linux-mac.yml",
+      "source_repo": "JuliaInterop/libcxxwrap-julia",
+      "target": "test-linux-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "JuliaInterop/libcxxwrap-julia",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "JuliaInterop/libcxxwrap-julia",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-win.yml",
+      "source_repo": "JuliaInterop/libcxxwrap-julia",
+      "target": "test-win",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:17.790577+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6363
+    },
+    {
+      "path": ".github/workflows/test-linux-mac.yml",
+      "size": 2159
+    },
+    {
+      "path": ".github/workflows/test-win.yml",
+      "size": 1424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C++ library for backing CxxWrap.jl",
+    "fork": false,
+    "full_name": "JuliaInterop/libcxxwrap-julia",
+    "html_url": "https://github.com/JuliaInterop/libcxxwrap-julia",
+    "language": "C++",
+    "pushed_at": "2026-02-06T20:12:37Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2026-04-19T14:52:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barche/libcxxwrap_julia_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/libcxxwrap_julia_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliainterop/cxxwrap.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test-linux-mac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-linux-mac.yml",
+      "term": "test-linux-mac"
+    },
+    {
+      "context_snippet": "test-win",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-win.yml",
+      "term": "test-win"
+    }
+  ]
+}

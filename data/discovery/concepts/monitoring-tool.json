@@ -31,6 +31,18 @@
       "source_repo": "openlit/openlit",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "An MCP Server for Chrome DevTools, following the Chrome DevTools Protocol. Integrates with Claude Desktop and Claude Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "openlit/openlit",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "openlit/openlit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "benjaminr/chrome-devtools-mcp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

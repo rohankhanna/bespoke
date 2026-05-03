@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SQN",
+      "target": "yang7879/3d-bonet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SQN",
+      "target": "qingyonghu/sensaturban",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SQN",
+      "target": "annotations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SQN",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SQN",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SQN",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SQN",
+      "target": "weakly-supervised-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:01.862641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4226
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SQN in Tensorflow (ECCV'2022)",
+    "fork": false,
+    "full_name": "QingyongHu/SQN",
+    "html_url": "https://github.com/QingyongHu/SQN",
+    "language": "Python",
+    "pushed_at": "2023-04-27T09:44:03Z",
+    "stargazers_count": 118,
+    "topics": [
+      "annotations",
+      "computer-vision",
+      "deep-learning",
+      "point-cloud",
+      "weakly-supervised-segmentation"
+    ],
+    "updated_at": "2026-03-29T04:43:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qingyonghu/sensaturban",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yang7879/3d-bonet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2104.04891-b31b1b.svg)](https://arxiv.org/abs/2104.04891)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annotations"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2104.04891-b31b1b.svg)](https://arxiv.org/abs/2104.04891)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2104.04891-b31b1b.svg)](https://arxiv.org/abs/2104.04891)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2104.04891-b31b1b.svg)](https://arxiv.org/abs/2104.04891)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2104.04891-b31b1b.svg)](https://arxiv.org/abs/2104.04891)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weakly-supervised-segmentation"
+    }
+  ]
+}

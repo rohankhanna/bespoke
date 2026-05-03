@@ -1,0 +1,334 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml"
+    },
+    {
+      "component": "heroku/languages-github-actions/.github/workflows/_classic-buildpack-prepare-release.yml@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "kward/shunit2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "Check Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "Hatchet App Cleaner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inventory.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "Update Inventory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare_release.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "heroku/languages-github-actions/.github/workflows/_classic-buildpack-prepare-release.yml@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare_release.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "Prepare Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "buildpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "heroku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "heroku-languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:56:51.940543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4443
+    },
+    {
+      "path": ".github/workflows/check_changelog.yml",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3416
+    },
+    {
+      "path": ".github/workflows/hatchet_app_cleaner.yml",
+      "size": 837
+    },
+    {
+      "path": ".github/workflows/inventory.yml",
+      "size": 2079
+    },
+    {
+      "path": ".github/workflows/prepare_release.yml",
+      "size": 201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Heroku's classic buildpack for Node.js applications.",
+    "fork": false,
+    "full_name": "heroku/heroku-buildpack-nodejs",
+    "html_url": "https://github.com/heroku/heroku-buildpack-nodejs",
+    "language": "Shell",
+    "pushed_at": "2026-05-01T21:48:00Z",
+    "stargazers_count": 1340,
+    "topics": [
+      "buildpack",
+      "heroku",
+      "heroku-languages",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-30T16:22:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kward/shunit2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "term": "Check Changelog"
+    },
+    {
+      "context_snippet": "Hatchet App Cleaner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "term": "Hatchet App Cleaner"
+    },
+    {
+      "context_snippet": "Update Inventory",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inventory.yml",
+      "term": "Update Inventory"
+    },
+    {
+      "context_snippet": "Prepare Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare_release.yml",
+      "term": "Prepare Release"
+    },
+    {
+      "context_snippet": "![nodejs](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-node-js.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buildpack"
+    },
+    {
+      "context_snippet": "![nodejs](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-node-js.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku"
+    },
+    {
+      "context_snippet": "![nodejs](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-node-js.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-languages"
+    },
+    {
+      "context_snippet": "![nodejs](https://raw.githubusercontent.com/heroku/buildpacks/refs/heads/main/assets/images/buildpack-banner-node-js.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

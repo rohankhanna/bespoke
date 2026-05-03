@@ -4,10 +4,31 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withastro/astro",
+      "status": "candidate-context",
+      "text": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/astro",
+      "status": "candidate-context",
+      "text": "Congratsbot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/astro",
+      "status": "candidate",
+      "text": "Congratsbot"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "Congratsbot",
@@ -25,12 +46,20 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/congratsbot.yml",
       "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/congrats.yml",
+      "source_repo": "withastro/astro"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

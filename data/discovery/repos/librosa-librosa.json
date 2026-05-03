@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "tagus/git-deploy@v0.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librosa/librosa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librosa/librosa",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librosa/librosa",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librosa/librosa",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yml",
+      "source_repo": "librosa/librosa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yml",
+      "source_repo": "librosa/librosa",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yml",
+      "source_repo": "librosa/librosa",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-ci.yml",
+      "source_repo": "librosa/librosa",
+      "target": "CI Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "librosa/librosa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "librosa/librosa",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "librosa/librosa",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "librosa/librosa",
+      "target": "tagus/git-deploy@v0.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "librosa/librosa",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "librosa/librosa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "librosa/librosa",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "librosa/librosa",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "librosa/librosa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "librosa/librosa",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "librosa/librosa",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librosa/librosa",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librosa/librosa",
+      "target": "librosa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librosa/librosa",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "librosa/librosa",
+      "target": "scipy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:37.497621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5709
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 117
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4725
+    },
+    {
+      "path": ".github/workflows/docs-ci.yml",
+      "size": 2676
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 2610
+    },
+    {
+      "path": ".github/workflows/lint_python.yml",
+      "size": 2007
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python library for audio and music analysis",
+    "fork": false,
+    "full_name": "librosa/librosa",
+    "html_url": "https://github.com/librosa/librosa",
+    "language": "Python",
+    "pushed_at": "2026-04-30T19:51:25Z",
+    "stargazers_count": 8371,
+    "topics": [
+      "audio",
+      "dsp",
+      "librosa",
+      "music",
+      "python",
+      "scipy"
+    ],
+    "updated_at": "2026-05-02T04:38:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-ci.yml",
+      "term": "CI Docs"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "[![librosa logo](docs/img/librosa_logo_text.svg)](https://librosa.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "[![librosa logo](docs/img/librosa_logo_text.svg)](https://librosa.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librosa"
+    },
+    {
+      "context_snippet": "[![librosa logo](docs/img/librosa_logo_text.svg)](https://librosa.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "[![librosa logo](docs/img/librosa_logo_text.svg)](https://librosa.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scipy"
+    }
+  ]
+}

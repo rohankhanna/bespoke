@@ -88,6 +88,18 @@
       "source_repo": "andresz1/size-limit-action",
       "status": "candidate-context",
       "text": "\"size\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reduxjs/redux-toolkit",
+      "status": "candidate-context",
+      "text": "The official, opinionated, batteries-included toolset for efficient Redux development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux-toolkit",
+      "status": "candidate-context",
+      "text": "size"
     }
   ],
   "candidate_glosses": [
@@ -132,6 +144,12 @@
       "source_repo": "andresz1/size-limit-action",
       "status": "candidate",
       "text": "\"size\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reduxjs/redux-toolkit",
+      "status": "candidate",
+      "text": "size"
     }
   ],
   "candidate_related_terms": [
@@ -299,11 +317,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/size-limit.yaml",
       "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "reduxjs/redux-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/size-limit.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

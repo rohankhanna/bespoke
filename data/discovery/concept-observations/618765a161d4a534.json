@@ -84,7 +84,7 @@
   "normalized_form": "duplicate-code-detector",
   "observation_id": "618765a161d4a534",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-30T12:45:20.475770+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Duplicate Code Detector",
   "source_context_snippet": "\"Duplicate Code Detector\"",
   "source_file": ".github/workflows/duplicate-code-detector.lock.yml",

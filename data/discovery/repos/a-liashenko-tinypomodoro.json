@@ -3,20 +3,13 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "a-liashenko/TinyPomodoro",
-      "target": "splode/pomotroid",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "a-liashenko/TinyPomodoro",
       "target": "alexxxru/egui",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-01T18:44:14.372775+00:00",
+  "fetched_at": "2026-05-03T01:50:32.184348+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -42,11 +35,6 @@
     "updated_at": "2026-01-22T16:04:16Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "splode/pomotroid",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "alexxxru/egui",

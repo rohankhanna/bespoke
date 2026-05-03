@@ -48,7 +48,7 @@
   "normalized_form": "publish-wasm",
   "observation_id": "08aa46f4757d4ab5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T07:02:51.781400+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "publish-wasm",
   "source_context_snippet": "publish-wasm",
   "source_file": ".github/workflows/publish-wasm.yml",

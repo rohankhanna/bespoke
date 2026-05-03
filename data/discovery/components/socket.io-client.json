@@ -1,7 +1,7 @@
 {
   "component": "socket.io-client",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -62,6 +62,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "http-party/node-http-proxy"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "featherbread/hypcast-v1"
     }
   ]
 }

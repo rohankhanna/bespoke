@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:02:05.830983+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A differentiable, 3D mesh renderer using TensorFlow.",
+    "fork": false,
+    "full_name": "google/tf_mesh_renderer",
+    "html_url": "https://github.com/google/tf_mesh_renderer",
+    "language": "Python",
+    "pushed_at": "2022-06-05T09:49:30Z",
+    "stargazers_count": 495,
+    "topics": [],
+    "updated_at": "2026-02-13T12:10:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

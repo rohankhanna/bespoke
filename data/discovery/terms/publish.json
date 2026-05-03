@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -1256,6 +1256,106 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "rthalley/dnspython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "scaleway/serverless-scaleway-functions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ng-packagr/ng-packagr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mindreframer/sqlean"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "KazariEX/dxup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pengx17/logseq-publish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "databendlabs/iceberg-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lakekeeper/iceberg-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "scaleway/serverless-functions-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "offline-ai/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ember-cli/ember-app-blueprint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sveltejs/eslint-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/quart"
     }
   ],
   "term": "publish"

@@ -31,6 +31,18 @@
       "source_repo": "estesp/manifest-tool",
       "status": "candidate-context",
       "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "A vulnerability scanner for container images and filesystems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "estesp/manifest-tool",
       "status": "candidate",
       "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "estesp/manifest-tool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "anchore/grype"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

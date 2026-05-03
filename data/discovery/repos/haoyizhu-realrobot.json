@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/RealRobot",
+      "target": "intelrealsense/librealsense",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/RealRobot",
+      "target": "alexanderkoch-koch/low_cost_robot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/RealRobot",
+      "target": "galaxies99/easyrobot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/RealRobot",
+      "target": "airexo/collector",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:55:55.637510+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13761
+    },
+    {
+      "path": "requirements.txt",
+      "size": 323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-source implementations on real robots",
+    "fork": false,
+    "full_name": "HaoyiZhu/RealRobot",
+    "html_url": "https://github.com/HaoyiZhu/RealRobot",
+    "language": "Python",
+    "pushed_at": "2024-11-25T09:58:16Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-02-10T19:18:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airexo/collector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexanderkoch-koch/low_cost_robot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "galaxies99/easyrobot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intelrealsense/librealsense",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

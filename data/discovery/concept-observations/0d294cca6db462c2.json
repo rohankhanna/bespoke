@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Many-to-many Splatting for Efficient Video Frame Interpolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Ping Hu](https://feinanshan.github.io/), [Simon Niklaus](https://sniklaus.com/), [Stan Sclaroff](http://www.cs.bu.edu/fac/sclaroff/), [Kate Saenko](http://ai.bu.edu/ksaenko.html)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Ping Hu](https://feinanshan.github.io/), [Simon Niklaus](https://sniklaus.com/), [Stan Sclaroff](http://www.cs.bu.edu/fac/sclaroff/), [Kate Saenko](http://ai.bu.edu/ksaenko.html)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "videoframeinterpolation",
+      "sense_id": "videoframeinterpolation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "videoframeinterpolation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "videoframeinterpolation",
+  "observation_id": "0d294cca6db462c2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "videoframeinterpolation",
+  "source_context_snippet": "[Ping Hu](https://feinanshan.github.io/), [Simon Niklaus](https://sniklaus.com/), [Stan Sclaroff](http://www.cs.bu.edu/fac/sclaroff/), [Kate Saenko](http://ai.bu.edu/ksaenko.html)",
+  "source_file": null,
+  "source_repo": "feinanshan/M2M_VFI",
+  "source_repo_description": "Many-to-many Splatting for Efficient Video Frame Interpolation"
+}

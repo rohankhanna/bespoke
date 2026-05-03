@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GrimoireLab: toolset for software development analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reusable module release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reusable module release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25380,
+      "status": "candidate",
+      "text": "recycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23560,
+      "status": "candidate",
+      "text": "lighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23280,
+      "status": "candidate",
+      "text": "graze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23280,
+      "status": "candidate",
+      "text": "grazed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23280,
+      "status": "candidate",
+      "text": "lap"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable module release",
+      "sense_id": "reusable-module-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reusable-module-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reusable-module-release",
+  "observation_id": "3933b83d7eac43a3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Reusable module release",
+  "source_context_snippet": "Reusable module release",
+  "source_file": ".github/workflows/reusable-module-release.yml",
+  "source_repo": "grimoirelab-gitee/grimoirelab",
+  "source_repo_description": "GrimoireLab: toolset for software development analytics"
+}

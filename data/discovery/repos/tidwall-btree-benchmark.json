@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T05:04:37.694825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7211
+    },
+    {
+      "path": "go.mod",
+      "size": 162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benchmark utility for the tidwall/btree Go package",
+    "fork": false,
+    "full_name": "tidwall/btree-benchmark",
+    "html_url": "https://github.com/tidwall/btree-benchmark",
+    "language": "Go",
+    "pushed_at": "2023-09-06T21:49:35Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-03-04T01:57:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

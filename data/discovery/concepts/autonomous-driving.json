@@ -211,6 +211,114 @@
       "source_repo": "OpenDriveLab/TopoNet",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhangyp15/OccFormer",
+      "status": "candidate-context",
+      "text": "[ICCV 2023] OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhangyp15/OccFormer",
+      "status": "candidate-context",
+      "text": "- **[2023/04/20]** Update more pretrained weights."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "status": "candidate-context",
+      "text": "Notably, GenAD & Dataset Survey. A Collection of Foundation Driving Models by OpenDriveLab. For Vista and DriveLM, please refer to individual page."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/DriveLM",
+      "status": "candidate-context",
+      "text": "[ECCV 2024 Oral] DriveLM: Driving with Graph Visual Question Answering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/DriveLM",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "status": "candidate-context",
+      "text": "[ICLR 2024] Map Learning with Lane Segment for Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/UniAD",
+      "status": "candidate-context",
+      "text": "[CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/UniAD",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate-context",
+      "text": "[IROS2024] SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate-context",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate-context",
+      "text": "[IJCAI 2024]Official PyTorch Implementation of Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate-context",
+      "text": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hustvl/Symphonies",
+      "status": "candidate-context",
+      "text": "[CVPR 2024] Symphonies (Scene-from-Insts): Symphonize 3D Semantic Scene Completion with Contextual Instance Queries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hustvl/Symphonies",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "waymo-research/waymo-open-dataset",
+      "status": "candidate-context",
+      "text": "Waymo Open Dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "waymo-research/waymo-open-dataset",
+      "status": "candidate-context",
+      "text": "The Waymo Open Dataset is a collection of datasets and evaluation code that we"
     }
   ],
   "candidate_glosses": [
@@ -321,6 +429,60 @@
       "source_repo": "OpenDriveLab/TopoNet",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhangyp15/OccFormer",
+      "status": "candidate",
+      "text": "- **[2023/04/20]** Update more pretrained weights."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/DriveLM",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/UniAD",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate",
+      "text": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hustvl/Symphonies",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "waymo-research/waymo-open-dataset",
+      "status": "candidate",
+      "text": "The Waymo Open Dataset is a collection of datasets and evaluation code that we"
     }
   ],
   "candidate_related_terms": [],
@@ -496,11 +658,83 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "OpenDriveLab/TopoNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "zhangyp15/OccFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/Birds-eye-view-Perception"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/LaneSegNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/UniAD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hustvl/Symphonies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "waymo-research/waymo-open-dataset"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

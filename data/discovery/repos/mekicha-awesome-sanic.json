@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mekicha/awesome-sanic",
+      "target": "ashleysommer/sanic-restplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mekicha/awesome-sanic",
+      "target": "ahopkins/sanic-jwt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mekicha/awesome-sanic",
+      "target": "ashleysommer/sanic-cors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mekicha/awesome-sanic",
+      "target": "ashleysommer/sanic-dispatcher",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:01:08.923089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13632
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of awesome Sanic resources and extensions",
+    "fork": false,
+    "full_name": "mekicha/awesome-sanic",
+    "html_url": "https://github.com/mekicha/awesome-sanic",
+    "language": null,
+    "pushed_at": "2024-01-06T09:10:47Z",
+    "stargazers_count": 769,
+    "topics": [],
+    "updated_at": "2026-04-14T08:01:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahopkins/sanic-jwt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashleysommer/sanic-cors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashleysommer/sanic-dispatcher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashleysommer/sanic-restplus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

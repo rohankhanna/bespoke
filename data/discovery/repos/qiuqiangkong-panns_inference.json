@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T01:44:58.295739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1789
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "qiuqiangkong/panns_inference",
+    "html_url": "https://github.com/qiuqiangkong/panns_inference",
+    "language": "Python",
+    "pushed_at": "2024-03-05T18:07:23Z",
+    "stargazers_count": 261,
+    "topics": [],
+    "updated_at": "2026-04-24T15:51:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -235,6 +235,30 @@
       "source_repo": "bdovaz/UnityNuGet",
       "status": "candidate-context",
       "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "status": "candidate-context",
+      "text": "Welcome to the Bot Framework SDK for .NET repository, which is the home for the libraries and packages that enable developers to build sophisticated bot applications using .NET. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "status": "candidate-context",
+      "text": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Cross platform code coverage for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +375,18 @@
       "source_repo": "bdovaz/UnityNuGet",
       "status": "candidate",
       "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "status": "candidate",
+      "text": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -544,11 +580,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

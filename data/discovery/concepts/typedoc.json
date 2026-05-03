@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +33,24 @@
       "source_repo": "isaacs/minimatch",
       "status": "candidate-context",
       "text": "typedoc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitjson/typescript-starter",
+      "status": "candidate-context",
+      "text": "Quickly create and configure a new library or Node.js project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitjson/typescript-starter",
+      "status": "candidate-context",
+      "text": "<img height=\"0\" width=\"0\" alt=\"typescript-starter dark logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006840/4e2b0c6c-f3d2-11e6-8f32-11384ee0cc4b.png\"><img alt=\"typescript-starter logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006836/4c67a3b8-f3d2\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaacs/clock-mock",
+      "status": "candidate-context",
+      "text": "typedoc"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +63,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "isaacs/minimatch",
+      "status": "candidate",
+      "text": "typedoc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitjson/typescript-starter",
+      "status": "candidate",
+      "text": "<img height=\"0\" width=\"0\" alt=\"typescript-starter dark logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006840/4e2b0c6c-f3d2-11e6-8f32-11384ee0cc4b.png\"><img alt=\"typescript-starter logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006836/4c67a3b8-f3d2\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaacs/clock-mock",
       "status": "candidate",
       "text": "typedoc"
     }
@@ -64,11 +96,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/typedoc.yml",
       "source_repo": "isaacs/minimatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bitjson/typescript-starter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/typedoc.yml",
+      "source_repo": "isaacs/clock-mock"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

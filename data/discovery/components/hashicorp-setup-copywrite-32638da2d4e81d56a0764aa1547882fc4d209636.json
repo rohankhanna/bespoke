@@ -1,7 +1,7 @@
 {
   "component": "hashicorp/setup-copywrite@32638da2d4e81d56a0764aa1547882fc4d209636",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/copywrite.yml",
       "source_repo": "hashicorp/nomad"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hc-copywrite.yml",
+      "source_repo": "hashicorp/terraform-provider-helm"
     }
   ]
 }

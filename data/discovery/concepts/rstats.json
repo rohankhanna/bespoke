@@ -139,6 +139,18 @@
       "source_repo": "ropensci/software-review",
       "status": "candidate-context",
       "text": "![](icon_lettering_color.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "status": "candidate-context",
+      "text": "R bindings for xtensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "status": "candidate-context",
+      "text": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "ropensci/software-review",
       "status": "candidate",
       "text": "![](icon_lettering_color.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "status": "candidate",
+      "text": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -358,11 +376,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appelmar/gdalcubes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-r"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

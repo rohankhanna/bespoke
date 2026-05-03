@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "spoken-forms"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tomaarsen/TTSTextNormalization",
+      "status": "candidate-context",
+      "text": "Convert English text from written expressions into spoken forms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomaarsen/TTSTextNormalization",
+      "status": "candidate-context",
+      "text": "This repository houses my solution to Google's [Text Normalization Challenge - English Language](https://www.kaggle.com/c/text-normalization-challenge-english-language). Most of the magic happens within the converter directory, which is responsible for the actual conversions fro\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomaarsen/TTSTextNormalization",
+      "status": "candidate",
+      "text": "This repository houses my solution to Google's [Text Normalization Challenge - English Language](https://www.kaggle.com/c/text-normalization-challenge-english-language). Most of the magic happens within the converter directory, which is responsible for the actual conversions fro\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "spoken-forms",
+  "concept_id": "spoken-forms",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tomaarsen/TTSTextNormalization"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spoken-forms",
+      "sense_id": "spoken-forms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

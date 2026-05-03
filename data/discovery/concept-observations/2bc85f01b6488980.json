@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CVPR'22 Oral] GMFlow: Learning Optical Flow via Global Matching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Official PyTorch implementation of paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of paper:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "global-matching",
+      "sense_id": "global-matching#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "global-matching",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "global-matching",
+  "observation_id": "2bc85f01b6488980",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "global-matching",
+  "source_context_snippet": "Official PyTorch implementation of paper:",
+  "source_file": null,
+  "source_repo": "haofeixu/gmflow",
+  "source_repo_description": "[CVPR'22 Oral] GMFlow: Learning Optical Flow via Global Matching"
+}

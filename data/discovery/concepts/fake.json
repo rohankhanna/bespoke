@@ -31,6 +31,18 @@
       "source_repo": "danibram/mocker-data-generator",
       "status": "candidate-context",
       "text": "[![npm version](https://img.shields.io/npm/v/mocker-data-generator.svg?style=flat-square)][npm-home-module][![GitHub license](https://img.shields.io/npm/dt/mocker-data-generator.svg?style=flat-square)][npm-home-module]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faker-js/faker",
+      "status": "candidate-context",
+      "text": "Generate massive amounts of fake data in the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faker-js/faker",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "danibram/mocker-data-generator",
       "status": "candidate",
       "text": "[![npm version](https://img.shields.io/npm/v/mocker-data-generator.svg?style=flat-square)][npm-home-module][![GitHub license](https://img.shields.io/npm/dt/mocker-data-generator.svg?style=flat-square)][npm-home-module]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faker-js/faker",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "danibram/mocker-data-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "faker-js/faker"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

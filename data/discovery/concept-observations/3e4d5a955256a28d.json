@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository shares end-to-end scripts on how to use various Weaviate features and integrations!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "recipes-js \u2014 a repository of weaviate recipes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "recipes-js \u2014 a repository of weaviate recipes"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vector-database",
+      "sense_id": "vector-database#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vector-database",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vector-database",
+  "observation_id": "3e4d5a955256a28d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "vector-database",
+  "source_context_snippet": "recipes-js \u2014 a repository of weaviate recipes",
+  "source_file": null,
+  "source_repo": "weaviate/recipes-ts",
+  "source_repo_description": "This repository shares end-to-end scripts on how to use various Weaviate features and integrations!"
+}

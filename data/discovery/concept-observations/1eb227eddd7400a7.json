@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kotlin Evolution and Enhancement Process"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![check-uniq-keep-ids](https://github.com/Kotlin/KEEP/actions/workflows/check-uniq-keep-ids.yml/badge.svg?branch=main)](https://github.com/Kotlin\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![check-uniq-keep-ids](https://github.com/Kotlin/KEEP/actions/workflows/check-uniq-keep-ids.yml/badge.svg?branch=main)](https://github.com/Kotlin\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029465,
+      "status": "candidate",
+      "text": "java"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029464,
+      "status": "candidate",
+      "text": "scala"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029463,
+      "status": "candidate",
+      "text": "object-oriented language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029462,
+      "status": "candidate",
+      "text": "objective-c"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029461,
+      "status": "candidate",
+      "text": "statically-typed language"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kotlin",
+      "sense_id": "kotlin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kotlin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kotlin",
+  "observation_id": "1eb227eddd7400a7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "kotlin",
+  "source_context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![check-uniq-keep-ids](https://github.com/Kotlin/KEEP/actions/workflows/check-uniq-keep-ids.yml/badge.svg?branch=main)](https://github.com/Kotlin\u2026",
+  "source_file": null,
+  "source_repo": "Kotlin/KEEP",
+  "source_repo_description": "Kotlin Evolution and Enhancement Process"
+}

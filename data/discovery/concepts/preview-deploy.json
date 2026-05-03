@@ -19,12 +19,30 @@
       "source_repo": "actions-cool/issues-helper",
       "status": "candidate-context",
       "text": "Preview Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElemeFE/element",
+      "status": "candidate-context",
+      "text": "A Vue.js 2.0 UI Toolkit for Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElemeFE/element",
+      "status": "candidate-context",
+      "text": "Preview Deploy"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "actions-cool/issues-helper",
+      "status": "candidate",
+      "text": "Preview Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElemeFE/element",
       "status": "candidate",
       "text": "Preview Deploy"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/preview-deploy.yml",
       "source_repo": "actions-cool/issues-helper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/preview-deploy.yml",
+      "source_repo": "ElemeFE/element"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

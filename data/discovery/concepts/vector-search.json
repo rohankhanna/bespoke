@@ -385,6 +385,78 @@
       "source_repo": "databendlabs/databend",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Databend</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate-context",
+      "text": "Ruby wrapper for the Qdrant vector search database API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weaviate/recipes",
+      "status": "candidate-context",
+      "text": "This repository shares end-to-end notebooks on how to use various Weaviate features and integrations!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/recipes",
+      "status": "candidate-context",
+      "text": "![Weaviate logo](.github/Weaviate.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weaviate/recipes-ts",
+      "status": "candidate-context",
+      "text": "This repository shares end-to-end scripts on how to use various Weaviate features and integrations!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/recipes-ts",
+      "status": "candidate-context",
+      "text": "recipes-js \u2014 a repository of weaviate recipes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "status": "candidate-context",
+      "text": "Lite & Super-fast re-ranking for your search & retrieval pipelines.  Supports SoTA Listwise and Pairwise reranking based on LLMs and  cross-encoders and more.  Created by Prithivi Da, open for PRs & Collaborations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "status": "candidate-context",
+      "text": "<p align =\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "status": "candidate-context",
+      "text": "Build LLM-powered applications in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "status": "candidate-context",
+      "text": "\ud83d\udc8e\ud83d\udd17 Langchain.rb"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qdrant/java-client",
+      "status": "candidate-context",
+      "text": "Official Java client for Qdrant "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/java-client",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -579,6 +651,42 @@
       "source_repo": "databendlabs/databend",
       "status": "candidate",
       "text": "<h1 align=\"center\">Databend</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/recipes",
+      "status": "candidate",
+      "text": "![Weaviate logo](.github/Weaviate.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/recipes-ts",
+      "status": "candidate",
+      "text": "recipes-js \u2014 a repository of weaviate recipes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "status": "candidate",
+      "text": "<p align =\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "status": "candidate",
+      "text": "\ud83d\udc8e\ud83d\udd17 Langchain.rb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/java-client",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -952,11 +1060,83 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "weaviate/recipes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "weaviate/recipes-ts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "qdrant/java-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -211,6 +211,18 @@
       "source_repo": "pillarjs/path-to-regexp",
       "status": "candidate-context",
       "text": "path-to-regexp \u2014 Express style path to RegExp utility"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogjs/analog",
+      "status": "candidate-context",
+      "text": "The fullstack meta-framework for Angular. Powered by Vite and Nitro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogjs/analog",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "pillarjs/path-to-regexp",
       "status": "candidate",
       "text": "path-to-regexp \u2014 Express style path to RegExp utility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogjs/analog",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +508,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "analogjs/analog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

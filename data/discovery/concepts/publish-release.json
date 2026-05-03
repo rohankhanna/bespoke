@@ -351,6 +351,30 @@
       "source_repo": "mdn/interactive-examples",
       "status": "candidate-context",
       "text": "publish-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate-context",
+      "text": " Accelerate your web app development  | Build fast. Run fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate-context",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate-context",
+      "text": "The library allows you to write and execute UI tests among IntelliJ IDEA. You can test your Plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate-context",
+      "text": "Publish Release"
     }
   ],
   "candidate_glosses": [
@@ -527,6 +551,18 @@
       "source_repo": "mdn/interactive-examples",
       "status": "candidate",
       "text": "publish-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate",
+      "text": "Publish Release"
     }
   ],
   "candidate_related_terms": [
@@ -834,11 +870,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/publish_release.yml",
       "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "sanic-org/sanic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publishRelease.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

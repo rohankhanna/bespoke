@@ -1,7 +1,7 @@
 {
   "component": "marocchino/validate-dependabot@v3",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dependabot.yml",
       "source_repo": "haskell/cabal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot.yml",
+      "source_repo": "stable-haskell/cabal"
     }
   ]
 }

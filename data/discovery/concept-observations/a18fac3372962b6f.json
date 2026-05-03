@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "All sorts of useful information about every country packaged as convenient little country objects. It includes data from ISO 3166 (countries and states/subdivisions ), ISO 4217 (currency), and E.164 (phone numbers)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1 (countries), ISO3166-2 (states/subdivisions), ISO4217 (currency) and E.164 (phone numbers)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1 (countries), ISO3166-2 (states/subdivisions), ISO4217 (currency) and E.164 (phone numbers)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51525,
+      "status": "candidate",
+      "text": "afghanistan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51525,
+      "status": "candidate",
+      "text": "alien"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51525,
+      "status": "candidate",
+      "text": "areas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51525,
+      "status": "candidate",
+      "text": "azerbaijan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51525,
+      "status": "candidate",
+      "text": "borders"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "countries",
+      "sense_id": "countries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "countries",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "countries",
+  "observation_id": "a18fac3372962b6f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "countries",
+  "source_context_snippet": "Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1 (countries), ISO3166-2 (states/subdivisions), ISO4217 (currency) and E.164 (phone numbers).",
+  "source_file": null,
+  "source_repo": "countries/countries",
+  "source_repo_description": "All sorts of useful information about every country packaged as convenient little country objects. It includes data from ISO 3166 (countries and states/subdivisions ), ISO 4217 (currency), and E.164 (phone numbers)."
+}

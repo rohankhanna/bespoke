@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "adam implements a collection of algorithms for calculating rigid-body dynamics in Jax, CasADi, PyTorch, and Numpy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test adam with conda-forge dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test adam with conda-forge dependencies"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18468,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16192,
+      "status": "candidate",
+      "text": "dollar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16192,
+      "status": "candidate",
+      "text": "franc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16192,
+      "status": "candidate",
+      "text": "krone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16192,
+      "status": "candidate",
+      "text": "peseta"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test adam with conda-forge dependencies",
+      "sense_id": "test-adam-with-conda-forge-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-adam-with-conda-forge-dependencies",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-adam-with-conda-forge-dependencies",
+  "observation_id": "771bfb2d25dcb195",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Test adam with conda-forge dependencies",
+  "source_context_snippet": "Test adam with conda-forge dependencies",
+  "source_file": ".github/workflows/conda-forge-tests.yml",
+  "source_repo": "gbionics/adam",
+  "source_repo_description": "adam implements a collection of algorithms for calculating rigid-body dynamics in Jax, CasADi, PyTorch, and Numpy."
+}

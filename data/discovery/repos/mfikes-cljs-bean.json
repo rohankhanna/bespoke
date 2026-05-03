@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T01:52:43.213821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Efficient JavaScript object interop via idiomatic ClojureScript",
+    "fork": false,
+    "full_name": "mfikes/cljs-bean",
+    "html_url": "https://github.com/mfikes/cljs-bean",
+    "language": "Clojure",
+    "pushed_at": "2022-11-19T17:57:31Z",
+    "stargazers_count": 317,
+    "topics": [],
+    "updated_at": "2026-03-12T07:56:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

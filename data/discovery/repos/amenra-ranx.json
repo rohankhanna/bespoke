@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AmenRa/ranx",
+      "target": "usnistgov/trec_eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "AmenRa/ranx",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AmenRa/ranx",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AmenRa/ranx",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AmenRa/ranx",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "comparison",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "data-fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "evaluation-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "information-retrieval-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "information-retrieval-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "metasearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "numba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "rank-fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "ranking-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "recommender-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx",
+      "target": "score-fusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:47:52.492910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15959
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 258
+    },
+    {
+      "path": "requirements.txt",
+      "size": 99
+    },
+    {
+      "path": ".github/workflows/check-pr.yml",
+      "size": 319
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u26a1\ufe0fA Blazing-Fast Python Library for Ranking Evaluation, Comparison, and Fusion \ud83d\udc0d",
+    "fork": false,
+    "full_name": "AmenRa/ranx",
+    "html_url": "https://github.com/AmenRa/ranx",
+    "language": "Python",
+    "pushed_at": "2025-08-07T09:29:44Z",
+    "stargazers_count": 674,
+    "topics": [
+      "comparison",
+      "data-fusion",
+      "evaluation",
+      "evaluation-metrics",
+      "information-retrieval",
+      "information-retrieval-evaluation",
+      "information-retrieval-metrics",
+      "metasearch",
+      "numba",
+      "python",
+      "rank-fusion",
+      "ranking-metrics",
+      "recommender-systems",
+      "score-fusion"
+    ],
+    "updated_at": "2026-04-22T19:04:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "usnistgov/trec_eval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comparison"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-fusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation-metrics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval-evaluation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval-metrics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metasearch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numba"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rank-fusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ranking-metrics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommender-systems"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "score-fusion"
+    }
+  ]
+}

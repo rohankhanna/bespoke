@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rubygems/release-gem@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "globalize/globalize",
+      "target": "barsoom/traco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "globalize/globalize",
+      "target": "cfabianski/hstore_translate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "globalize/globalize",
+      "target": "cfabianski/json_translate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "globalize/globalize",
+      "target": "airblade/paper_trail",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "globalize/globalize",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "globalize/globalize",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "globalize/globalize",
+      "target": "rubygems/release-gem@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "globalize/globalize",
+      "target": "Release Gem to rubygems.org",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "globalize/globalize",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "globalize/globalize",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:04.632416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13106
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 471
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1882
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rails I18n de-facto standard library for ActiveRecord model/data translation.",
+    "fork": false,
+    "full_name": "globalize/globalize",
+    "html_url": "https://github.com/globalize/globalize",
+    "language": "Ruby",
+    "pushed_at": "2025-12-23T20:47:50Z",
+    "stargazers_count": 2157,
+    "topics": [],
+    "updated_at": "2026-04-14T12:26:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airblade/paper_trail",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barsoom/traco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cfabianski/hstore_translate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cfabianski/json_translate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release Gem to rubygems.org",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Gem to rubygems.org"
+    }
+  ]
+}

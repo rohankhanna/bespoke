@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "gatekeeper"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0a Policy Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate-context",
+      "text": "![Static Badge](https://img.shields.io/badge/OPA%20Version-v0.60.0-blue)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate",
+      "text": "![Static Badge](https://img.shields.io/badge/OPA%20Version-v0.60.0-blue)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048163,
+      "status": "candidate",
+      "text": "doorkeeper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047958,
+      "status": "candidate",
+      "text": "doorman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044442,
+      "status": "candidate",
+      "text": "hall porter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032423,
+      "status": "candidate",
+      "text": "porter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048495,
+      "status": "candidate",
+      "text": "door guard"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2027,
+      "status": "candidate",
+      "text": "doorman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29,
+      "status": "candidate",
+      "text": "doorkeeper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "hall porter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "door guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "porter"
+    }
+  ],
+  "canonical_name": "gatekeeper",
+  "concept_id": "gatekeeper",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gatekeeper",
+      "sense_id": "gatekeeper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

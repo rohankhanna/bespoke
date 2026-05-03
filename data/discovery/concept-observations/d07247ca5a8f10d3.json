@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A minimalistic ClojureScript interface to React.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039533,
+      "status": "candidate",
+      "text": "singultus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039514,
+      "status": "candidate",
+      "text": "hiccough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000197,
+      "status": "candidate",
+      "text": "rub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29943232,
+      "status": "candidate",
+      "text": "problem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29941819,
+      "status": "candidate",
+      "text": "setback"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hiccup",
+      "sense_id": "hiccup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1029,
+      "status": "candidate",
+      "text": "hiccough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1027,
+      "status": "candidate",
+      "text": "singultus"
+    }
+  ],
+  "concept_id": "hiccup",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hiccup",
+  "observation_id": "d07247ca5a8f10d3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "hiccup",
+  "source_context_snippet": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">",
+  "source_file": null,
+  "source_repo": "reagent-project/reagent",
+  "source_repo_description": "A minimalistic ClojureScript interface to React.js"
+}

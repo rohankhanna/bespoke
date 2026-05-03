@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "collision-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "distance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "level-set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "signed-distance-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "triangle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:23.677367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2744
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh",
+    "fork": false,
+    "full_name": "InteractiveComputerGraphics/TriangleMeshDistance",
+    "html_url": "https://github.com/InteractiveComputerGraphics/TriangleMeshDistance",
+    "language": "C++",
+    "pushed_at": "2026-02-14T17:36:17Z",
+    "stargazers_count": 180,
+    "topics": [
+      "collision-detection",
+      "distance",
+      "geometry",
+      "graphics",
+      "level-set",
+      "mesh",
+      "sdf",
+      "signed-distance-fields",
+      "simulation",
+      "triangle"
+    ],
+    "updated_at": "2026-04-07T12:05:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collision-detection"
+    },
+    {
+      "context_snippet": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distance"
+    },
+    {
+      "context_snippet": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry"
+    },
+    {
+      "context_snippet": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "level-set"
+    },
+    {
+      "context_snippet": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh"
+    },
+    {
+      "context_snippet": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signed-distance-fields"
+    },
+    {
+      "context_snippet": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triangle"
+    }
+  ]
+}

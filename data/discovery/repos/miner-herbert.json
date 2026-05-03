@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "miner/herbert",
+      "target": "brandonbloom/backtick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "miner/herbert",
+      "target": "ericnormand/squarepeg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "miner/herbert",
+      "target": "jamii/strucjure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "miner/herbert",
+      "target": "cgrand/seqexp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:49:49.058605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21547
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojure library defining a schema for edn values",
+    "fork": false,
+    "full_name": "miner/herbert",
+    "html_url": "https://github.com/miner/herbert",
+    "language": "Clojure",
+    "pushed_at": "2025-08-26T21:06:54Z",
+    "stargazers_count": 253,
+    "topics": [],
+    "updated_at": "2025-08-26T21:06:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brandonbloom/backtick",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cgrand/seqexp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericnormand/squarepeg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jamii/strucjure",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

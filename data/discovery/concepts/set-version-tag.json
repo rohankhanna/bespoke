@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Set Version Tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "status": "candidate-context",
+      "text": "Open-Source Vulkan C++ API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "status": "candidate-context",
+      "text": "Set Version Tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "status": "candidate",
+      "text": "Set Version Tag"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21446,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21372,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20834,
+      "status": "candidate",
+      "text": "license"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20712,
+      "status": "candidate",
+      "text": "name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20712,
+      "status": "candidate",
+      "text": "price"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Set Version Tag",
+  "concept_id": "set-version-tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/set-version-tag.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Set Version Tag",
+      "sense_id": "set-version-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

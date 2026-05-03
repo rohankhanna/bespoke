@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official implementation of \"Train Sparsely, Generate Densely: Memory-efficient Unsupervised Training of High-resolution Temporal GAN\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-generation",
+      "sense_id": "video-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-generation",
+  "observation_id": "06d2581a77b78fb2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "video-generation",
+  "source_context_snippet": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)",
+  "source_file": null,
+  "source_repo": "pfnet-research/tgan2",
+  "source_repo_description": "The official implementation of \"Train Sparsely, Generate Densely: Memory-efficient Unsupervised Training of High-resolution Temporal GAN\""
+}

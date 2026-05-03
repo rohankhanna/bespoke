@@ -487,6 +487,18 @@
       "source_repo": "databendlabs/databend",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Databend</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nats-io/nats.rs",
+      "status": "candidate-context",
+      "text": "Rust client for NATS, the cloud native messaging system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nats-io/nats.rs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +741,12 @@
       "source_repo": "databendlabs/databend",
       "status": "candidate",
       "text": "<h1 align=\"center\">Databend</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nats-io/nats.rs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1078,11 +1096,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nats-io/nats.rs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

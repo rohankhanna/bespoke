@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "midsdsy/LOD-Net",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "midsdsy/LOD-Net",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "midsdsy/LOD-Net",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:33.824029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4769
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 2548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learnable Oriented-Derivative Network for Polyp Segmentation",
+    "fork": false,
+    "full_name": "midsdsy/LOD-Net",
+    "html_url": "https://github.com/midsdsy/LOD-Net",
+    "language": "Python",
+    "pushed_at": "2021-05-22T15:35:01Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-03-16T13:14:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

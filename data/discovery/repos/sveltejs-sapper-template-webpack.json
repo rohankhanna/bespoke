@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "compression",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "polka",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sirv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sapper",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "file-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svelte-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-modules",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "sveltejs/svelte-preprocess",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "thgh/vercel-sapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "sveltejs/svelte-virtual-list",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "compression",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "polka",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "sirv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "sapper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "file-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "svelte-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sveltejs/sapper-template-webpack",
+      "target": "webpack-modules",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:43.686108+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7891
+    },
+    {
+      "path": "package.json",
+      "size": 502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Starter webpack template for Sapper apps",
+    "fork": false,
+    "full_name": "sveltejs/sapper-template-webpack",
+    "html_url": "https://github.com/sveltejs/sapper-template-webpack",
+    "language": "JavaScript",
+    "pushed_at": "2021-10-18T01:06:56Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2025-12-19T15:44:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sveltejs/svelte-preprocess",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sveltejs/svelte-virtual-list",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thgh/vercel-sapper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

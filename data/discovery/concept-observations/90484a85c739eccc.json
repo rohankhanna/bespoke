@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "release all platforms"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "release all platforms"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26490,
+      "status": "candidate",
+      "text": "salvo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26479,
+      "status": "candidate",
+      "text": "jail delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26479,
+      "status": "candidate",
+      "text": "nirvana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24757,
+      "status": "candidate",
+      "text": "deck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23226,
+      "status": "candidate",
+      "text": "decking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release all platforms",
+      "sense_id": "release-all-platforms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-all-platforms",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-all-platforms",
+  "observation_id": "90484a85c739eccc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "release all platforms",
+  "source_context_snippet": "release all platforms",
+  "source_file": ".github/workflows/build-all.yml",
+  "source_repo": "2dust/v2rayN",
+  "source_repo_description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others"
+}

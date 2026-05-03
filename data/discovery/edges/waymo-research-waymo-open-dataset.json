@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waymo-research/waymo-open-dataset",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waymo-research/waymo-open-dataset",
+      "target": "dataset",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "waymo-research/waymo-open-dataset"
+}

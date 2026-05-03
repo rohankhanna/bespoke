@@ -19,12 +19,30 @@
       "source_repo": "ast-grep/ast-grep.github.io",
       "status": "candidate-context",
       "text": "Github Page Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unjs/unplugin",
+      "status": "candidate-context",
+      "text": "Unified plugin system for Vite, Rollup, Webpack, esbuild, Rolldown, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unplugin",
+      "status": "candidate-context",
+      "text": "Github Page Docs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ast-grep/ast-grep.github.io",
+      "status": "candidate",
+      "text": "Github Page Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unplugin",
       "status": "candidate",
       "text": "Github Page Docs"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "ast-grep/ast-grep.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "unjs/unplugin"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

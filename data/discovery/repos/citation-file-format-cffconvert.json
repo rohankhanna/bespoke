@@ -43,13 +43,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "citation-file-format/cffconvert",
-      "target": "citation-file-format/citation-file-format",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cffconvert.yml",
       "source_repo": "citation-file-format/cffconvert",
@@ -197,7 +190,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T18:42:41.310442+00:00",
+  "fetched_at": "2026-05-03T01:50:02.752608+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -238,7 +231,7 @@
     "html_url": "https://github.com/citation-file-format/cffconvert",
     "language": "Python",
     "pushed_at": "2025-10-01T21:04:47Z",
-    "stargazers_count": 132,
+    "stargazers_count": 133,
     "topics": [
       "attribution",
       "bibtex",
@@ -252,15 +245,9 @@
       "software-sustainability",
       "zenodo"
     ],
-    "updated_at": "2026-04-09T06:28:41Z"
+    "updated_at": "2026-05-03T01:28:20Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "citation-file-format/citation-file-format",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "cffconvert",

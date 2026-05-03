@@ -79,6 +79,18 @@
       "source_repo": "ClickHouse/clickhouse-java",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tomekw/hikari-cp",
+      "status": "candidate-context",
+      "text": "A Clojure wrapper to HikariCP JDBC connection pool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomekw/hikari-cp",
+      "status": "candidate-context",
+      "text": "A Clojure wrapper to [HikariCP](https://github.com/brettwooldridge/HikariCP) - \"zero-overhead\" production ready JDBC connection pool."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "ClickHouse/clickhouse-java",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomekw/hikari-cp",
+      "status": "candidate",
+      "text": "A Clojure wrapper to [HikariCP](https://github.com/brettwooldridge/HikariCP) - \"zero-overhead\" production ready JDBC connection pool."
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +250,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tomekw/hikari-cp"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

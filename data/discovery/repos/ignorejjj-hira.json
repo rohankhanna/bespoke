@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:42:18.430046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6304
+    },
+    {
+      "path": "requirements.txt",
+      "size": 154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The code for paper: Decoupled Planning and Execution: A Hierarchical Reasoning Framework for Deep Search",
+    "fork": true,
+    "full_name": "ignorejjj/HiRA",
+    "html_url": "https://github.com/ignorejjj/HiRA",
+    "language": "Python",
+    "pushed_at": "2025-09-30T07:36:29Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-01-15T07:32:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

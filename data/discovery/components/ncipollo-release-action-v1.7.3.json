@@ -1,0 +1,12 @@
+{
+  "component": "ncipollo/release-action@v1.7.3",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "SilentVoid13/Templater"
+    }
+  ]
+}

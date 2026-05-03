@@ -163,6 +163,150 @@
       "source_repo": "subframe7536/obsidian-theme-maple",
       "status": "candidate-context",
       "text": "[![GitHub stars](https://img.shields.io/github/stars/subframe7536/obsidian-theme-maple?style=social)](https://github.com/subframe7536/obsidian-theme-maple) ![GitHub License](https://img.shields.io/github/license/subframe7536/obsidian-theme-maple) [![Static Badge](https://img.shi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11",
+      "status": "candidate-context",
+      "text": "A simple theme that makes Obsidian feels a bit more like a modern app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vinzent03/obsidian-git",
+      "status": "candidate-context",
+      "text": "Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinzent03/obsidian-git",
+      "status": "candidate-context",
+      "text": "A powerful community plugin for [Obsidian.md](Obsidian.md) that brings Git integration right into your vault. Automatically commit, pull, push, and see your changes \u2014 all within Obsidian."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/obsidian-hider",
+      "status": "candidate-context",
+      "text": "Hide Obsidian UI elements such as tooltips, status, titlebar and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-hider",
+      "status": "candidate-context",
+      "text": "This plugin enables you to hide certain parts of the Obsidian UI. Note that your CSS theme may override Hider."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/obsidian-minimal-publish",
+      "status": "candidate-context",
+      "text": "Minimal Theme for Obsidian Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal-publish",
+      "status": "candidate-context",
+      "text": "Minimal Publish is a stripped-down version of [Minimal Theme](https://github.com/kepano/obsidian-minimal) for [Obsidian Publish](https://obsidian.md/publish). The theme was rewritten from scratch to optimize loading speed."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "status": "candidate-context",
+      "text": "A foundational Obsidian theme as the baseline of your thoughts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "status": "candidate-context",
+      "text": "A native look and feel Obsidian theme crafted for the way you think."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "status": "candidate-context",
+      "text": "A radically modern theme for Obsidian. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "status": "candidate-context",
+      "text": "![poster](./assets/poster.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "status": "candidate-context",
+      "text": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - \u57fa\u4e8e AI \u5b8c\u6574\u4fdd\u7559\u6392\u7248\u7684 PDF \u6587\u6863\u5168\u6587\u53cc\u8bed\u7ffb\u8bd1\uff0c\u652f\u6301 Google/DeepL/Ollama/OpenAI \u7b49\u670d\u52a1\uff0c\u63d0\u4f9b CLI/GUI/MCP/Docker/Zotero"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "status": "candidate-context",
+      "text": "Take advantage of YAML front-matter in generating notes from templates (for obsidian.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "status": "candidate-context",
+      "text": "Take advantage of YAML front-matter in generating notes from templates"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViscousPot/GitSync",
+      "status": "candidate-context",
+      "text": "Mobile Git client for syncing a repository between remote and a local directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViscousPot/GitSync",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "status": "candidate-context",
+      "text": "An initiative to standardize the Alternative Checkboxes feature commonly used by the community in Obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/damiankorczAlternative-Checkboxes-Reference-Set/releases\"><img src=\"https://img.shields.io/github/v/release/damiankorcz/Alternative-Checkboxes-Reference-Set?style=for-the-badge&color=%23A47B61&labelColor=%23252525&logo=data:image/png;base64,iVBORw0KGg\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "status": "candidate-context",
+      "text": "Obsidian Theme | v1.0.0 | by Corellan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "status": "candidate-context",
+      "text": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +387,78 @@
       "source_repo": "subframe7536/obsidian-theme-maple",
       "status": "candidate",
       "text": "[![GitHub stars](https://img.shields.io/github/stars/subframe7536/obsidian-theme-maple?style=social)](https://github.com/subframe7536/obsidian-theme-maple) ![GitHub License](https://img.shields.io/github/license/subframe7536/obsidian-theme-maple) [![Static Badge](https://img.shi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinzent03/obsidian-git",
+      "status": "candidate",
+      "text": "A powerful community plugin for [Obsidian.md](Obsidian.md) that brings Git integration right into your vault. Automatically commit, pull, push, and see your changes \u2014 all within Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-hider",
+      "status": "candidate",
+      "text": "This plugin enables you to hide certain parts of the Obsidian UI. Note that your CSS theme may override Hider."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal-publish",
+      "status": "candidate",
+      "text": "Minimal Publish is a stripped-down version of [Minimal Theme](https://github.com/kepano/obsidian-minimal) for [Obsidian Publish](https://obsidian.md/publish). The theme was rewritten from scratch to optimize loading speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "status": "candidate",
+      "text": "![poster](./assets/poster.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "status": "candidate",
+      "text": "Take advantage of YAML front-matter in generating notes from templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViscousPot/GitSync",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/damiankorczAlternative-Checkboxes-Reference-Set/releases\"><img src=\"https://img.shields.io/github/v/release/damiankorcz/Alternative-Checkboxes-Reference-Set?style=for-the-badge&color=%23A47B61&labelColor=%23252525&logo=data:image/png;base64,iVBORw0KGg\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "status": "candidate",
+      "text": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian."
     }
   ],
   "candidate_related_terms": [
@@ -370,11 +586,89 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "subframe7536/obsidian-theme-maple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-style-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Vinzent03/obsidian-git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-hider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-minimal-publish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-cupertino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "avirut/obsidian-metatemplates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ViscousPot/GitSync"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "CreArts-Community/CreArts-Obsidian"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

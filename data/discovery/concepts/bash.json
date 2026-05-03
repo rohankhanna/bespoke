@@ -781,6 +781,42 @@
       "source_repo": "erikw/tmux-powerline",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable first-line-heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bpkg/bpkg",
+      "status": "candidate-context",
+      "text": "Lightweight bash package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpkg/bpkg",
+      "status": "candidate-context",
+      "text": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate-context",
+      "text": "A collection of LS_COLORS definitions; needs your contribution!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate-context",
+      "text": "'Release'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aleskxyz/reality-ezpz",
+      "status": "candidate-context",
+      "text": "Install sing-box/xray and configure vless / tuic / hysteria2 / shadowtls for reality or tls (letsencrypt) over different transport protocols (tcp, http, grpc and websocket) with user management capability in CLI, TUI and Telegram bot by a single command in docker compose!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aleskxyz/reality-ezpz",
+      "status": "candidate-context",
+      "text": "Install and configure vless with reality or TLS on your linux server by executing a single command!"
     }
   ],
   "candidate_glosses": [
@@ -1167,6 +1203,24 @@
       "source_repo": "erikw/tmux-powerline",
       "status": "candidate",
       "text": "<!-- markdownlint-disable first-line-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpkg/bpkg",
+      "status": "candidate",
+      "text": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate",
+      "text": "'Release'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aleskxyz/reality-ezpz",
+      "status": "candidate",
+      "text": "Install and configure vless with reality or TLS on your linux server by executing a single command!"
     }
   ],
   "candidate_related_terms": [
@@ -1918,11 +1972,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "trapd00r/LS_COLORS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

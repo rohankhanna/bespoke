@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T01:58:24.483687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Send command from vim to a running tmux session",
+    "fork": true,
+    "full_name": "jgdavey/tslime.vim",
+    "html_url": "https://github.com/jgdavey/tslime.vim",
+    "language": "Vim script",
+    "pushed_at": "2022-10-19T15:25:05Z",
+    "stargazers_count": 261,
+    "topics": [],
+    "updated_at": "2025-08-15T20:59:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

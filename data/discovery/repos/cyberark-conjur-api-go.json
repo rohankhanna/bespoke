@@ -1,0 +1,162 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberark/conjur-api-go",
+      "target": "cyberark/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberark/conjur-api-go",
+      "target": "cyberark/conjur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur-api-go",
+      "target": "api-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur-api-go",
+      "target": "conjbot-notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur-api-go",
+      "target": "conjur",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur-api-go",
+      "target": "conjur-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur-api-go",
+      "target": "conjur-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur-api-go",
+      "target": "core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur-api-go",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:57:30.875284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7674
+    },
+    {
+      "path": "Dockerfile",
+      "size": 883
+    },
+    {
+      "path": "go.mod",
+      "size": 1947
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go client for the CyberArk Secrets Manager API",
+    "fork": false,
+    "full_name": "cyberark/conjur-api-go",
+    "html_url": "https://github.com/cyberark/conjur-api-go",
+    "language": "Go",
+    "pushed_at": "2026-03-18T13:17:52Z",
+    "stargazers_count": 21,
+    "topics": [
+      "api-client",
+      "conjbot-notify",
+      "conjur",
+      "conjur-core",
+      "conjur-sdk",
+      "core",
+      "go",
+      "golang"
+    ],
+    "updated_at": "2026-03-18T13:17:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyberark/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyberark/conjur",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Programmatic Golang access to the CyberArk Secrets Manager API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-client"
+    },
+    {
+      "context_snippet": "Programmatic Golang access to the CyberArk Secrets Manager API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conjbot-notify"
+    },
+    {
+      "context_snippet": "Programmatic Golang access to the CyberArk Secrets Manager API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conjur"
+    },
+    {
+      "context_snippet": "Programmatic Golang access to the CyberArk Secrets Manager API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conjur-core"
+    },
+    {
+      "context_snippet": "Programmatic Golang access to the CyberArk Secrets Manager API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conjur-sdk"
+    },
+    {
+      "context_snippet": "Programmatic Golang access to the CyberArk Secrets Manager API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "core"
+    },
+    {
+      "context_snippet": "Programmatic Golang access to the CyberArk Secrets Manager API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

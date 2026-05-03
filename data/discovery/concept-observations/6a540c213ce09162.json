@@ -84,7 +84,7 @@
   "normalized_form": "e2e-test-for-modernjs-ssr",
   "observation_id": "6a540c213ce09162",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "E2E Test for ModernJS SSR",
   "source_context_snippet": "E2E Test for ModernJS SSR",
   "source_file": ".github/workflows/e2e-modern-ssr.yml",

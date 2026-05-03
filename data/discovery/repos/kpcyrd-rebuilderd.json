@@ -1,0 +1,392 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "archlinux/archlinux-repro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "keszybz/fedora-repro-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "Binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "docker/metadata-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "rebuilder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "reproducible-builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "security-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "supply-chain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kpcyrd/rebuilderd",
+      "target": "supply-chain-security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:43:11.837180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10639
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 275
+    },
+    {
+      "path": "Dockerfile",
+      "size": 751
+    },
+    {
+      "path": ".github/workflows/binaries.yml",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/docker-release.yml",
+      "size": 2088
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 2096
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Independent verification of binary packages - Reproducible Builds",
+    "fork": false,
+    "full_name": "kpcyrd/rebuilderd",
+    "html_url": "https://github.com/kpcyrd/rebuilderd",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T17:08:08Z",
+    "stargazers_count": 420,
+    "topics": [
+      "rebuilder",
+      "reproducible-builds",
+      "rust",
+      "security-tools",
+      "supply-chain",
+      "supply-chain-security"
+    ],
+    "updated_at": "2026-04-30T17:08:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "archlinux/archlinux-repro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keszybz/fedora-repro-build",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/binaries.yml",
+      "term": "Binaries"
+    },
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rebuilder"
+    },
+    {
+      "context_snippet": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproducible-builds"
+    },
+    {
+      "context_snippet": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-tools"
+    },
+    {
+      "context_snippet": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supply-chain"
+    },
+    {
+      "context_snippet": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supply-chain-security"
+    }
+  ]
+}

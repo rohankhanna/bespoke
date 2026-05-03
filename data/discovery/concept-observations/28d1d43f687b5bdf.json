@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenXRLab Multi-view Motion Capture Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024495,
+      "status": "candidate",
+      "text": "mo-cap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024494,
+      "status": "candidate",
+      "text": "mocap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024493,
+      "status": "candidate",
+      "text": "mime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024492,
+      "status": "candidate",
+      "text": "mimeo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024491,
+      "status": "candidate",
+      "text": "moulage"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "motion-capture",
+      "sense_id": "motion-capture#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "motion-capture",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "motion-capture",
+  "observation_id": "28d1d43f687b5bdf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "motion-capture",
+  "source_context_snippet": "<br/>",
+  "source_file": null,
+  "source_repo": "openxrlab/xrmocap",
+  "source_repo_description": "OpenXRLab Multi-view Motion Capture Toolbox and Benchmark"
+}

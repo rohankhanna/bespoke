@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sergeytulyakov/mocogan",
+      "target": "dlhacks/mocogan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sergeytulyakov/mocogan",
+      "target": "raahii/mocogan-chainer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sergeytulyakov/mocogan",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sergeytulyakov/mocogan",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sergeytulyakov/mocogan",
+      "target": "video-generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:42:15.913210+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3626
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MoCoGAN: Decomposing Motion and Content for Video Generation",
+    "fork": false,
+    "full_name": "sergeytulyakov/mocogan",
+    "html_url": "https://github.com/sergeytulyakov/mocogan",
+    "language": "Python",
+    "pushed_at": "2021-12-17T15:23:56Z",
+    "stargazers_count": 602,
+    "topics": [
+      "computer-vision",
+      "machine-learning",
+      "video-generator"
+    ],
+    "updated_at": "2026-04-30T13:43:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dlhacks/mocogan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raahii/mocogan-chainer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains an implementation and further details of [MoCoGAN: Decomposing Motion and Content for Video Generation](http://arxiv.org/abs/1707.04993) by Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, Jan Kautz.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository contains an implementation and further details of [MoCoGAN: Decomposing Motion and Content for Video Generation](http://arxiv.org/abs/1707.04993) by Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, Jan Kautz.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository contains an implementation and further details of [MoCoGAN: Decomposing Motion and Content for Video Generation](http://arxiv.org/abs/1707.04993) by Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, Jan Kautz.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generator"
+    }
+  ]
+}

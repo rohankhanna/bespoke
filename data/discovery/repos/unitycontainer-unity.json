@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unitycontainer/unity",
+      "target": "unitycontainer/abstractions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unitycontainer/unity",
+      "target": "unitycontainer/aspnet-webapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unitycontainer/unity",
+      "target": "unitycontainer/aspnet-mvc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unitycontainer/unity",
+      "target": "unitycontainer/commonservicelocator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unitycontainer/unity",
+      "target": "dependency-injection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unitycontainer/unity",
+      "target": "interception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unitycontainer/unity",
+      "target": "microsoft-practices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unitycontainer/unity",
+      "target": "unity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unitycontainer/unity",
+      "target": "unity-container",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:52:08.833148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains all relevant information about Unity Container suit",
+    "fork": false,
+    "full_name": "unitycontainer/unity",
+    "html_url": "https://github.com/unitycontainer/unity",
+    "language": null,
+    "pushed_at": "2024-01-21T22:10:51Z",
+    "stargazers_count": 1703,
+    "topics": [
+      "dependency-injection",
+      "interception",
+      "ioc",
+      "microsoft-practices",
+      "unity",
+      "unity-container"
+    ],
+    "updated_at": "2026-05-01T21:02:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unitycontainer/abstractions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unitycontainer/aspnet-mvc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unitycontainer/aspnet-webapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unitycontainer/commonservicelocator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The Unity Container (Unity) is a full featured, extensible dependency injection container. It facilitates building loosely coupled applications and provides developers with the following advantages:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-injection"
+    },
+    {
+      "context_snippet": "The Unity Container (Unity) is a full featured, extensible dependency injection container. It facilitates building loosely coupled applications and provides developers with the following advantages:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interception"
+    },
+    {
+      "context_snippet": "The Unity Container (Unity) is a full featured, extensible dependency injection container. It facilitates building loosely coupled applications and provides developers with the following advantages:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-practices"
+    },
+    {
+      "context_snippet": "The Unity Container (Unity) is a full featured, extensible dependency injection container. It facilitates building loosely coupled applications and provides developers with the following advantages:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    },
+    {
+      "context_snippet": "The Unity Container (Unity) is a full featured, extensible dependency injection container. It facilitates building loosely coupled applications and provides developers with the following advantages:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity-container"
+    }
+  ]
+}

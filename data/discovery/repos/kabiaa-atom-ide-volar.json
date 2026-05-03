@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "@volar/vue-language-server",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "atom-languageclient",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kabiaa/atom-ide-volar",
+      "target": "johnsoncodehk/volar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kabiaa/atom-ide-volar",
+      "target": "@volar/vue-language-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kabiaa/atom-ide-volar",
+      "target": "atom-languageclient",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kabiaa/atom-ide-volar",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:57:48.932244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 225
+    },
+    {
+      "path": "package.json",
+      "size": 1045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "kabiaa/atom-ide-volar",
+    "html_url": "https://github.com/kabiaa/atom-ide-volar",
+    "language": "JavaScript",
+    "pushed_at": "2023-03-02T11:06:09Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2022-05-31T19:59:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "johnsoncodehk/volar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

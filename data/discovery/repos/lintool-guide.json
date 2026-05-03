@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:49:35.134251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Student's Guide to @lintool",
+    "fork": false,
+    "full_name": "lintool/guide",
+    "html_url": "https://github.com/lintool/guide",
+    "language": null,
+    "pushed_at": "2026-02-11T23:06:08Z",
+    "stargazers_count": 324,
+    "topics": [],
+    "updated_at": "2026-04-28T07:04:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

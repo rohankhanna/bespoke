@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "universome/inr-gan",
+      "target": "saic-mdal/cips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universome/inr-gan",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universome/inr-gan",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universome/inr-gan",
+      "target": "positional-encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "universome/inr-gan",
+      "target": "siren",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:37.417993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7165
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2021] Adversarial Generation of Continuous Images",
+    "fork": false,
+    "full_name": "universome/inr-gan",
+    "html_url": "https://github.com/universome/inr-gan",
+    "language": "Python",
+    "pushed_at": "2021-11-10T11:26:28Z",
+    "stargazers_count": 230,
+    "topics": [
+      "cvpr2021",
+      "gan",
+      "generative-model",
+      "inr",
+      "positional-encoding",
+      "siren"
+    ],
+    "updated_at": "2026-03-28T11:35:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saic-mdal/cips",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains [INR-GAN](https://arxiv.org/abs/2011.12026) implementation built on top of the [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pytorch) repo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "This repo contains [INR-GAN](https://arxiv.org/abs/2011.12026) implementation built on top of the [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pytorch) repo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "This repo contains [INR-GAN](https://arxiv.org/abs/2011.12026) implementation built on top of the [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pytorch) repo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "positional-encoding"
+    },
+    {
+      "context_snippet": "This repo contains [INR-GAN](https://arxiv.org/abs/2011.12026) implementation built on top of the [StyleGAN2-ADA](https://github.com/NVlabs/stylegan2-ada-pytorch) repo.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "siren"
+    }
+  ]
+}

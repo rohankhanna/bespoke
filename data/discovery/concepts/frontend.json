@@ -232,6 +232,30 @@
       "source_repo": "CirclonGroup/angular-tree-component",
       "status": "candidate-context",
       "text": "[![npm version](https://badge.fury.io/js/%40circlon%2Fangular-tree-component.svg)](https://badge.fury.io/js/%40circlon%2Fangular-tree-component)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate-context",
+      "text": "A minimalistic ClojureScript interface to React.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "An MCP Server for Chrome DevTools, following the Chrome DevTools Protocol. Integrates with Claude Desktop and Claude Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
     }
   ],
   "candidate_glosses": [
@@ -348,6 +372,18 @@
       "source_repo": "CirclonGroup/angular-tree-component",
       "status": "candidate",
       "text": "[![npm version](https://badge.fury.io/js/%40circlon%2Fangular-tree-component.svg)](https://badge.fury.io/js/%40circlon%2Fangular-tree-component)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
     }
   ],
   "candidate_related_terms": [
@@ -547,11 +583,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "reagent-project/reagent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "benjaminr/chrome-devtools-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

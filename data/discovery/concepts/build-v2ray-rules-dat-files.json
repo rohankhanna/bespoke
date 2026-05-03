@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build V2Ray rules dat files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 \ud83c\udf83 \ud83d\udc7b V2Ray \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 geoip.dat \u548c geosite.dat\uff0c\u9002\u7528\u4e8e V2Ray\u3001Xray-core\u3001mihomo(Clash-Meta)\u3001hysteria\u3001Trojan-Go \u548c leaf\u3002Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go and leaf."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "status": "candidate-context",
+      "text": "Build V2Ray rules dat files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "status": "candidate",
+      "text": "Build V2Ray rules dat files"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32211,
+      "status": "candidate",
+      "text": "true"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31895,
+      "status": "candidate",
+      "text": "choreography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31750,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31717,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31543,
+      "status": "candidate",
+      "text": "collecting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build V2Ray rules dat files",
+  "concept_id": "build-v2ray-rules-dat-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build V2Ray rules dat files",
+      "sense_id": "build-v2ray-rules-dat-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

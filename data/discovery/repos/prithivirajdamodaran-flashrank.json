@@ -1,0 +1,184 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "amazon-science/esci-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "cross-encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "full-text-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "hybrid-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "lexical-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "ranking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "reranking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "semantic-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "vector-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "vector-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:59:58.225797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lite & Super-fast re-ranking for your search & retrieval pipelines.  Supports SoTA Listwise and Pairwise reranking based on LLMs and  cross-encoders and more.  Created by Prithivi Da, open for PRs & Collaborations.",
+    "fork": false,
+    "full_name": "PrithivirajDamodaran/FlashRank",
+    "html_url": "https://github.com/PrithivirajDamodaran/FlashRank",
+    "language": "Python",
+    "pushed_at": "2026-01-01T04:47:41Z",
+    "stargazers_count": 965,
+    "topics": [
+      "cross-encoder",
+      "full-text-search",
+      "hybrid-search",
+      "lexical-search",
+      "rag",
+      "ranking",
+      "reranking",
+      "retrieval-augmented-generation",
+      "semantic-search",
+      "vector-database",
+      "vector-search"
+    ],
+    "updated_at": "2026-05-01T10:50:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amazon-science/esci-data",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-encoder"
+    },
+    {
+      "context_snippet": "<p align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-text-search"
+    },
+    {
+      "context_snippet": "<p align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hybrid-search"
+    },
+    {
+      "context_snippet": "<p align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lexical-search"
+    },
+    {
+      "context_snippet": "<p align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ranking"
+    },
+    {
+      "context_snippet": "<p align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reranking"
+    },
+    {
+      "context_snippet": "<p align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    },
+    {
+      "context_snippet": "<p align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-search"
+    },
+    {
+      "context_snippet": "<p align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    },
+    {
+      "context_snippet": "<p align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    }
+  ]
+}

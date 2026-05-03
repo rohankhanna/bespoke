@@ -1,0 +1,442 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_builds.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "hhyyrylainen/godotpcktool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83e\udd16 Android Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83c\udf4f iOS Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83c\udf10 Javascript Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83d\udc27 Linux Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83c\udf4e macOS Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83c\udfc1 Windows Builds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:56:02.359285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24777
+    },
+    {
+      "path": ".github/workflows/android_builds.yml",
+      "size": 2500
+    },
+    {
+      "path": ".github/workflows/ios_builds.yml",
+      "size": 2189
+    },
+    {
+      "path": ".github/workflows/javascript_builds.yml",
+      "size": 3671
+    },
+    {
+      "path": ".github/workflows/linux_builds.yml",
+      "size": 3967
+    },
+    {
+      "path": ".github/workflows/macos_builds.yml",
+      "size": 1704
+    },
+    {
+      "path": ".github/workflows/windows_builds.yml",
+      "size": 3685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GDNative wrapper for SQLite (Godot 3.2+)",
+    "fork": true,
+    "full_name": "abcjjy/godot-sqlcipher",
+    "html_url": "https://github.com/abcjjy/godot-sqlcipher",
+    "language": null,
+    "pushed_at": "2025-04-23T11:40:18Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-06-04T18:03:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hhyyrylainen/godotpcktool",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83e\udd16 Android Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_builds.yml",
+      "term": "\ud83e\udd16 Android Builds"
+    },
+    {
+      "context_snippet": "\ud83c\udf4f iOS Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "term": "\ud83c\udf4f iOS Builds"
+    },
+    {
+      "context_snippet": "\ud83c\udf10 Javascript Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "term": "\ud83c\udf10 Javascript Builds"
+    },
+    {
+      "context_snippet": "\ud83d\udc27 Linux Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "term": "\ud83d\udc27 Linux Builds"
+    },
+    {
+      "context_snippet": "\ud83c\udf4e macOS Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "term": "\ud83c\udf4e macOS Builds"
+    },
+    {
+      "context_snippet": "\ud83c\udfc1 Windows Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "term": "\ud83c\udfc1 Windows Builds"
+    }
+  ]
+}

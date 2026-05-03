@@ -1,7 +1,7 @@
 {
   "component": "chaoss/grimoirelab-github-actions/publish@main",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "chaoss/grimoirelab-sigils"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval-weblate"
     }
   ]
 }

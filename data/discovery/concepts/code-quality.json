@@ -481,6 +481,18 @@
       "source_repo": "codeclimate-community/simplecov_json_formatter",
       "status": "candidate-context",
       "text": "***Note: To learn more about SimpleCov, check out the main repo at [SimpleCov](https://github.com/simplecov-ruby/simplecov)***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "import-js/eslint-plugin-import",
+      "status": "candidate-context",
+      "text": "ESLint plugin with rules that help validate proper imports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "import-js/eslint-plugin-import",
+      "status": "candidate-context",
+      "text": "[![github actions][actions-image]][actions-url]"
     }
   ],
   "candidate_glosses": [
@@ -717,6 +729,12 @@
       "source_repo": "codeclimate-community/simplecov_json_formatter",
       "status": "candidate",
       "text": "***Note: To learn more about SimpleCov, check out the main repo at [SimpleCov](https://github.com/simplecov-ruby/simplecov)***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "import-js/eslint-plugin-import",
+      "status": "candidate",
+      "text": "[![github actions][actions-image]][actions-url]"
     }
   ],
   "candidate_related_terms": [
@@ -1114,11 +1132,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "simplecov-ruby/simplecov"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "guidance-ai/guidance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "import-js/eslint-plugin-import"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

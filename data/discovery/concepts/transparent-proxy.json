@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "transparent-proxy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 transparent proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate-context",
+      "text": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "transparent-proxy",
+  "concept_id": "transparent-proxy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-tproxy"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transparent-proxy",
+      "sense_id": "transparent-proxy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

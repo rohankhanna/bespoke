@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "THIS MIRROR IS DEPRECATED -- New url: https://gitlab.com/libeigen/eigen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sparse-matrix",
+      "sense_id": "sparse-matrix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sparse-matrix",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sparse-matrix",
+  "observation_id": "5451944f66300d5a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "sparse-matrix",
+  "source_context_snippet": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**",
+  "source_file": null,
+  "source_repo": "eigenteam/eigen-git-mirror",
+  "source_repo_description": "THIS MIRROR IS DEPRECATED -- New url: https://gitlab.com/libeigen/eigen"
+}

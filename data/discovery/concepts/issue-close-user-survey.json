@@ -32,6 +32,18 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate-context",
       "text": "issue-close-user-survey"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate-context",
+      "text": "Apollo Client browser developer tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate-context",
+      "text": "Issue Close User Survey"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate",
       "text": "issue-close-user-survey"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate",
+      "text": "Issue Close User Survey"
     }
   ],
   "candidate_related_terms": [
@@ -107,11 +125,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/issue-close-user-survey.yml",
       "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/issue-close-user-survey.yml",
+      "source_repo": "apollographql/apollo-client-devtools"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

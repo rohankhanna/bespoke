@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "google-github-actions/release-please-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rickstaa/action-create-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rebelot/heirline.nvim",
+      "target": "ntbbloodbath/galaxyline.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rebelot/heirline.nvim",
+      "target": "feline-nvim/feline.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rebelot/heirline.nvim",
+      "target": "google-github-actions/release-please-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rebelot/heirline.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rebelot/heirline.nvim",
+      "target": "rickstaa/action-create-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebelot/heirline.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebelot/heirline.nvim",
+      "target": "statusline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rebelot/heirline.nvim",
+      "target": "statusline-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:05.591166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3275
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile.",
+    "fork": false,
+    "full_name": "rebelot/heirline.nvim",
+    "html_url": "https://github.com/rebelot/heirline.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-05-23T00:48:55Z",
+    "stargazers_count": 1262,
+    "topics": [
+      "neovim",
+      "statusline",
+      "statusline-manager"
+    ],
+    "updated_at": "2026-04-30T12:12:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feline-nvim/feline.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ntbbloodbath/galaxyline.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline-manager"
+    }
+  ]
+}

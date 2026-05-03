@@ -1,0 +1,119 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-uniq-keep-ids.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-uniq-keep-ids.yml",
+      "source_repo": "Kotlin/KEEP",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-uniq-keep-ids.yml",
+      "source_repo": "Kotlin/KEEP",
+      "target": "check-uniq-keep-ids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-pr-to-main-reminder.yml",
+      "source_repo": "Kotlin/KEEP",
+      "target": "merge-pr-to-main-reminder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/KEEP",
+      "target": "evolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/KEEP",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/KEEP",
+      "target": "language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:05:16.106029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4357
+    },
+    {
+      "path": ".github/workflows/check-uniq-keep-ids.yml",
+      "size": 342
+    },
+    {
+      "path": ".github/workflows/merge-pr-to-main-reminder.yml",
+      "size": 1163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kotlin Evolution and Enhancement Process",
+    "fork": false,
+    "full_name": "Kotlin/KEEP",
+    "html_url": "https://github.com/Kotlin/KEEP",
+    "language": "Markdown",
+    "pushed_at": "2026-04-27T09:21:24Z",
+    "stargazers_count": 3706,
+    "topics": [
+      "evolution",
+      "kotlin",
+      "language"
+    ],
+    "updated_at": "2026-04-30T05:56:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "check-uniq-keep-ids",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-uniq-keep-ids.yml",
+      "term": "check-uniq-keep-ids"
+    },
+    {
+      "context_snippet": "merge-pr-to-main-reminder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-pr-to-main-reminder.yml",
+      "term": "merge-pr-to-main-reminder"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![check-uniq-keep-ids](https://github.com/Kotlin/KEEP/actions/workflows/check-uniq-keep-ids.yml/badge.svg?branch=main)](https://github.com/Kotlin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evolution"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![check-uniq-keep-ids](https://github.com/Kotlin/KEEP/actions/workflows/check-uniq-keep-ids.yml/badge.svg?branch=main)](https://github.com/Kotlin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![check-uniq-keep-ids](https://github.com/Kotlin/KEEP/actions/workflows/check-uniq-keep-ids.yml/badge.svg?branch=main)](https://github.com/Kotlin\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    }
+  ]
+}

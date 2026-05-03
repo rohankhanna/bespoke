@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borkdude/quickdoc",
+      "target": "babashka/fs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borkdude/quickdoc",
+      "target": "babashka/process",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borkdude/quickdoc",
+      "target": "fogus/rv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "borkdude/quickdoc",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "borkdude/quickdoc",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "borkdude/quickdoc",
+      "target": "DeLaGuardo/setup-clojure@10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "borkdude/quickdoc",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/quickdoc",
+      "target": "babashka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/quickdoc",
+      "target": "clj-kondo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/quickdoc",
+      "target": "clojure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:54:38.504836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3014
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Quick and minimal API doc generation for Clojure",
+    "fork": false,
+    "full_name": "borkdude/quickdoc",
+    "html_url": "https://github.com/borkdude/quickdoc",
+    "language": "Clojure",
+    "pushed_at": "2026-04-03T09:51:40Z",
+    "stargazers_count": 135,
+    "topics": [
+      "babashka",
+      "clj-kondo",
+      "clojure"
+    ],
+    "updated_at": "2026-04-03T09:51:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/fs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/process",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fogus/rv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "See [API.md](API.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babashka"
+    },
+    {
+      "context_snippet": "See [API.md](API.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clj-kondo"
+    },
+    {
+      "context_snippet": "See [API.md](API.md).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    }
+  ]
+}

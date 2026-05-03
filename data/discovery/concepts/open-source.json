@@ -1087,6 +1087,18 @@
       "source_repo": "kwea123/OpenVTuberProject",
       "status": "candidate-context",
       "text": "This repository aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/polis",
+      "status": "candidate-context",
+      "text": "Streamline your web application's authentication with Polis, an SSO service supporting SAML and OpenID Connect protocols. Beyond enterprise-grade Single Sign-On, it also supports Directory Sync via the SCIM 2.0 protocol for automatic user and group provisioning/de-provisioning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/polis",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Ory polis - Open source Enterprise SSO and Directory Sync</h1>"
     }
   ],
   "candidate_glosses": [
@@ -1617,6 +1629,12 @@
       "source_repo": "kwea123/OpenVTuberProject",
       "status": "candidate",
       "text": "This repository aims at providing a wide range of toolkits that support you to become a VTuber at a very low cost."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/polis",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Ory polis - Open source Enterprise SSO and Directory Sync</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -2638,11 +2656,77 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "kwea123/OpenVTuberProject"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/polis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/layout-management"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5-addons/sql-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "calcom/cal.diy"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Goles/Battery",
+      "target": "holman/spark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Goles/Battery",
+      "target": "mxcl/homebrew",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:54:16.087408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3607
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Battery is a bash script to display your Laptop's battery status on the terminal.",
+    "fork": false,
+    "full_name": "Goles/Battery",
+    "html_url": "https://github.com/Goles/Battery",
+    "language": "Shell",
+    "pushed_at": "2022-10-31T14:53:41Z",
+    "stargazers_count": 268,
+    "topics": [],
+    "updated_at": "2026-01-30T06:19:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "holman/spark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mxcl/homebrew",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

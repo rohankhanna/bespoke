@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.306.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.306.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yard.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1.306.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "ruby/setup-ruby@v1.306.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "RuboCop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "ruby/setup-ruby@v1.306.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yard.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yard.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "ruby/setup-ruby@v1.306.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yard.yml",
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "YARD Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "authorisation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "authorization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "pundit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "pundit-matchers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "rspec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "rspec-matchers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:13.400751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24458
+    },
+    {
+      "path": "Dockerfile",
+      "size": 271
+    },
+    {
+      "path": ".github/workflows/rubocop.yml",
+      "size": 454
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 717
+    },
+    {
+      "path": ".github/workflows/yard.yml",
+      "size": 737
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of RSpec matchers for testing Pundit authorisation policies.",
+    "fork": false,
+    "full_name": "pundit-community/pundit-matchers",
+    "html_url": "https://github.com/pundit-community/pundit-matchers",
+    "language": "Ruby",
+    "pushed_at": "2026-04-28T07:23:19Z",
+    "stargazers_count": 245,
+    "topics": [
+      "authorisation",
+      "authorization",
+      "pundit",
+      "pundit-matchers",
+      "rspec",
+      "rspec-matchers",
+      "ruby"
+    ],
+    "updated_at": "2026-04-28T07:23:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "RuboCop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rubocop.yml",
+      "term": "RuboCop"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "YARD Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yard.yml",
+      "term": "YARD Lint"
+    },
+    {
+      "context_snippet": "[![Gem Version][version-badge]][rubygems]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authorisation"
+    },
+    {
+      "context_snippet": "[![Gem Version][version-badge]][rubygems]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authorization"
+    },
+    {
+      "context_snippet": "[![Gem Version][version-badge]][rubygems]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pundit"
+    },
+    {
+      "context_snippet": "[![Gem Version][version-badge]][rubygems]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pundit-matchers"
+    },
+    {
+      "context_snippet": "[![Gem Version][version-badge]][rubygems]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rspec"
+    },
+    {
+      "context_snippet": "[![Gem Version][version-badge]][rubygems]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rspec-matchers"
+    },
+    {
+      "context_snippet": "[![Gem Version][version-badge]][rubygems]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

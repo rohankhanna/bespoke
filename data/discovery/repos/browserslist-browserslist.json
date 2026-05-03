@@ -166,6 +166,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "browserslist/browserslist",
+      "target": "ismay/stylelint-no-unsupported-browser-features",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "browserslist/browserslist",
+      "target": "elemefe/obsolete-webpack-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "browserslist/browserslist",
       "target": "ben-eb/caniuse-lite",
       "target_type": "repository"
     },
@@ -173,21 +187,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "browserslist/browserslist",
-      "target": "browserslist/update-db",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "browserslist/browserslist",
-      "target": "browserslist/lint",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "browserslist/browserslist",
-      "target": "browserslist/vim-browserslist",
+      "target": "g-plane/browserslist-rs",
       "target_type": "repository"
     },
     {
@@ -387,7 +387,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:39:25.814478+00:00",
+  "fetched_at": "2026-05-03T04:51:00.822645+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -428,17 +428,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "browserslist/lint",
+      "full_name": "elemefe/obsolete-webpack-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "browserslist/update-db",
+      "full_name": "g-plane/browserslist-rs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "browserslist/vim-browserslist",
+      "full_name": "ismay/stylelint-no-unsupported-browser-features",
       "source_file": "README.md"
     }
   ],

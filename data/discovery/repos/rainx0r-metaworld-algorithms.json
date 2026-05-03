@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "rainx0r/metaworld-algorithms",
+      "target": "reginald-mclean/metaworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rainx0r/metaworld-algorithms",
+      "target": "baselines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rainx0r/metaworld-algorithms",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rainx0r/metaworld-algorithms",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:55:50.104842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1956
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark",
+    "fork": false,
+    "full_name": "rainx0r/metaworld-algorithms",
+    "html_url": "https://github.com/rainx0r/metaworld-algorithms",
+    "language": "Python",
+    "pushed_at": "2025-08-20T09:57:26Z",
+    "stargazers_count": 35,
+    "topics": [
+      "baselines",
+      "jax",
+      "reinforcement-learning",
+      "robotics"
+    ],
+    "updated_at": "2026-03-13T09:29:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reginald-mclean/metaworld",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baselines"
+    },
+    {
+      "context_snippet": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

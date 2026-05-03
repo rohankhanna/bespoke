@@ -1,7 +1,7 @@
 {
   "component": "@storybook/addon-links",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -112,6 +112,21 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "beizhedenglong/react-hooks-lib"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "analogjs/analog"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components"
     }
   ]
 }

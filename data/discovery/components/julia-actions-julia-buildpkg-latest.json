@@ -1,7 +1,7 @@
 {
   "component": "julia-actions/julia-buildpkg@latest",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -212,6 +212,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
       "source_repo": "queryverse/ElectronDisplay.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "jverzani/SymPyCore.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/CategoricalArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaPlots/StatsPlots.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Documenter.yml",
+      "source_repo": "JuliaData/DataFramesMeta.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaGtk/Gtk4Makie.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "gcalderone/Gnuplot.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "SciML/Static.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "JuliaML/MLUtils.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl"
     }
   ]
 }

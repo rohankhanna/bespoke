@@ -1,0 +1,12 @@
+{
+  "component": "actions/github-script@e69ef5462fd455e02edcaf4dd7708eda96b9eda0",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "hashicorp/terraform-provider-helm"
+    }
+  ]
+}

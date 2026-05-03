@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:51:14.414983+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Clojure's syntax-quote reader macro as a normal macro",
+    "fork": false,
+    "full_name": "brandonbloom/backtick",
+    "html_url": "https://github.com/brandonbloom/backtick",
+    "language": "Clojure",
+    "pushed_at": "2025-10-22T22:54:40Z",
+    "stargazers_count": 217,
+    "topics": [],
+    "updated_at": "2026-02-13T21:38:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

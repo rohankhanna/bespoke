@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-angular",
+      "target": "hchiam/learning-angularjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-angular",
+      "target": "hchiam/learning-angular8",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-angular",
+      "target": "hchiam/learning-front-end-frameworks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "hchiam/learning-angular",
+      "target": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:38.881416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5896
+    },
+    {
+      "path": ".github/workflows/dependabot_auto_merge.yml",
+      "size": 227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning Angular (not AngularJS)",
+    "fork": false,
+    "full_name": "hchiam/learning-angular",
+    "html_url": "https://github.com/hchiam/learning-angular",
+    "language": "TypeScript",
+    "pushed_at": "2024-09-13T20:53:03Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-06-18T09:42:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-angular8",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-angularjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-front-end-frameworks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

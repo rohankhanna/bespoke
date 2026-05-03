@@ -19,6 +19,66 @@
       "source_repo": "unocss/unocss",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codeperate/stencil-windicss",
+      "status": "candidate-context",
+      "text": "Use windicss in stenciljs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codeperate/stencil-windicss",
+      "status": "candidate-context",
+      "text": "This is a stencil plugin for you to use windicss in your stencil project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/plugins",
+      "status": "candidate-context",
+      "text": "Collection of plugins for Windi CSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/plugins",
+      "status": "candidate-context",
+      "text": "Collection of plugins for [Windi CSS](https://github.com/windicss/windicss)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/svelte-windicss-preprocess",
+      "status": "candidate-context",
+      "text": "A Svelte Preprocessor to compile windicss at build time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/svelte-windicss-preprocess",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "Intelligent WindiCSS tooling for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate-context",
+      "text": "\ud83c\udf43 Windi CSS for webpack \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>windicss-webpack-plugin</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +87,36 @@
       "source_repo": "unocss/unocss",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codeperate/stencil-windicss",
+      "status": "candidate",
+      "text": "This is a stencil plugin for you to use windicss in your stencil project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/plugins",
+      "status": "candidate",
+      "text": "Collection of plugins for [Windi CSS](https://github.com/windicss/windicss)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/svelte-windicss-preprocess",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate",
+      "text": "<h1 align='center'>windicss-webpack-plugin</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -52,11 +142,47 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "unocss/unocss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "codeperate/stencil-windicss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "windicss/plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "windicss/svelte-windicss-preprocess"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unocss/unocss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "windicss/windicss-intellisense"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "windicss/windicss-webpack-plugin"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

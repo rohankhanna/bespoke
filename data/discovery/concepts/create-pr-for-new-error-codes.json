@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create PR for new error codes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate-context",
+      "text": "Apollo Client browser developer tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate-context",
+      "text": "Create PR for new error codes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate",
+      "text": "Create PR for new error codes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39337,
+      "status": "candidate",
+      "text": "misprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38558,
+      "status": "candidate",
+      "text": "overlay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33682,
+      "status": "candidate",
+      "text": "regenerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33669,
+      "status": "candidate",
+      "text": "aplastic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33108,
+      "status": "candidate",
+      "text": "press"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create PR for new error codes",
+  "concept_id": "create-pr-for-new-error-codes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/update-errorcodes.yml",
+      "source_repo": "apollographql/apollo-client-devtools"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create PR for new error codes",
+      "sense_id": "create-pr-for-new-error-codes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

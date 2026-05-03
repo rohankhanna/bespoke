@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -242,6 +242,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "apache/logging-log4net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "varvet/pundit"
     }
   ]
 }

@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "peaceiris/actions-gh-pages@4f9cc6602d3f66b9c108549d475ec49e8ef4d45e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "upload-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "build-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "ncipollo/release-action@339a81892b84b4eeb0f6e744e4574d79d0d9b8dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/upload-artifact/merge@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-dev.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-dev.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "Release latest dev build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "Release latest engine container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "Test Docker Release Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-package.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-engine-package.yml",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "target": "Test Release Build",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "Hiroshiba/voicevox_engine"
+}

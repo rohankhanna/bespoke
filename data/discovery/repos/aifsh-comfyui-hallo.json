@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIFSH/ComfyUI-Hallo",
+      "target": "marticliment/wingetui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:48.076828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1121
+    },
+    {
+      "path": "requirements.txt",
+      "size": 213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "AIFSH/ComfyUI-Hallo",
+    "html_url": "https://github.com/AIFSH/ComfyUI-Hallo",
+    "language": "Python",
+    "pushed_at": "2024-06-24T06:43:23Z",
+    "stargazers_count": 308,
+    "topics": [],
+    "updated_at": "2026-04-20T03:59:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marticliment/wingetui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

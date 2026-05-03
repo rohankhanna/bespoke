@@ -1,0 +1,297 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@748248ddd2a24f49513d8f472f81c3a07d4d50e1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-latest-versions.yml"
+    },
+    {
+      "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-latest-versions.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@748248ddd2a24f49513d8f472f81c3a07d4d50e1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-latest-versions.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-versions.yml"
+    },
+    {
+      "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-versions.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@748248ddd2a24f49513d8f472f81c3a07d4d50e1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-versions.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@748248ddd2a24f49513d8f472f81c3a07d4d50e1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "codearte/gradle-nexus-staging-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "marcphilipp/nexus-publish-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "gradle/actions/setup-gradle@748248ddd2a24f49513d8f472f81c3a07d4d50e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "E2E tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-latest-versions.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-latest-versions.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-latest-versions.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "gradle/actions/setup-gradle@748248ddd2a24f49513d8f472f81c3a07d4d50e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-latest-versions.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "Gradle latest versions tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-versions.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-versions.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java-versions.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "gradle/actions/setup-gradle@748248ddd2a24f49513d8f472f81c3a07d4d50e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-versions.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "Java cross-version tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "actions/setup-java@c5195efecf7bdfc987ee8bae7a71cb8b11521c00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "gradle/actions/setup-gradle@748248ddd2a24f49513d8f472f81c3a07d4d50e1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "nexus-repository-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gradle-nexus/publish-plugin",
+      "target": "publishing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:56:23.238561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22121
+    },
+    {
+      "path": ".github/workflows/e2e.yml",
+      "size": 1117
+    },
+    {
+      "path": ".github/workflows/gradle-latest-versions.yml",
+      "size": 1650
+    },
+    {
+      "path": ".github/workflows/java-versions.yml",
+      "size": 1361
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Gradle plugin for publishing to Nexus repositories",
+    "fork": false,
+    "full_name": "gradle-nexus/publish-plugin",
+    "html_url": "https://github.com/gradle-nexus/publish-plugin",
+    "language": "Kotlin",
+    "pushed_at": "2026-01-09T18:42:21Z",
+    "stargazers_count": 447,
+    "topics": [
+      "gradle",
+      "nexus-repository-manager",
+      "publishing"
+    ],
+    "updated_at": "2026-04-15T10:36:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codearte/gradle-nexus-staging-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marcphilipp/nexus-publish-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "E2E tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "term": "E2E tests"
+    },
+    {
+      "context_snippet": "Gradle latest versions tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-latest-versions.yml",
+      "term": "Gradle latest versions tests"
+    },
+    {
+      "context_snippet": "Java cross-version tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java-versions.yml",
+      "term": "Java cross-version tests"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/gradle-nexus/publish-plugin/workflows/CI/badge.svg)](https://github.com/gradle-nexus/publish-plugin/actions?workflow=CI) [![Gradle Plugin Portal](https://img.shields.io/maven-metadata/v/https/plugins.gradle.org/m2/io.github.gradle-nexus/publish-p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/gradle-nexus/publish-plugin/workflows/CI/badge.svg)](https://github.com/gradle-nexus/publish-plugin/actions?workflow=CI) [![Gradle Plugin Portal](https://img.shields.io/maven-metadata/v/https/plugins.gradle.org/m2/io.github.gradle-nexus/publish-p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nexus-repository-manager"
+    },
+    {
+      "context_snippet": "[![CI Status](https://github.com/gradle-nexus/publish-plugin/workflows/CI/badge.svg)](https://github.com/gradle-nexus/publish-plugin/actions?workflow=CI) [![Gradle Plugin Portal](https://img.shields.io/maven-metadata/v/https/plugins.gradle.org/m2/io.github.gradle-nexus/publish-p\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "publishing"
+    }
+  ]
+}

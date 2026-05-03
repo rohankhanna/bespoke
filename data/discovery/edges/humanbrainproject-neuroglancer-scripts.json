@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "humanbrainproject/neuroglancer-scripts.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "seung-lab/cloud-volume",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yaml",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "actions/checkout@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yaml",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "actions/setup-python@v4.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yaml",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "pypa/gh-action-pypi-publish@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_to_pypi.yaml",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "Publish release to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yaml",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "actions/checkout@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yaml",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "actions/setup-python@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yaml",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "actions/cache@v4.2.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yaml",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tox.yaml",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "target": "neuroimaging",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "HumanBrainProject/neuroglancer-scripts"
+}

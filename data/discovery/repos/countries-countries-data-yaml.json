@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "countries/countries-data-yaml",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "countries/countries-data-yaml",
+      "target": "Auto Update Country Data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-yaml",
+      "target": "countries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-yaml",
+      "target": "currency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-yaml",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-yaml",
+      "target": "iso-3166-1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-yaml",
+      "target": "iso-3166-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-yaml",
+      "target": "iso-4217",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-yaml",
+      "target": "yaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:50:31.179046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1144
+    },
+    {
+      "path": ".github/workflows/auto-update.sh",
+      "size": 3254
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1077
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ISO 3116 country information in YAML format to be included in other projects.",
+    "fork": false,
+    "full_name": "countries/countries-data-yaml",
+    "html_url": "https://github.com/countries/countries-data-yaml",
+    "language": "Ruby",
+    "pushed_at": "2026-02-25T21:55:12Z",
+    "stargazers_count": 6,
+    "topics": [
+      "countries",
+      "currency",
+      "data",
+      "iso-3166-1",
+      "iso-3166-2",
+      "iso-4217",
+      "yaml"
+    ],
+    "updated_at": "2026-02-25T21:55:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto Update Country Data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Auto Update Country Data"
+    },
+    {
+      "context_snippet": "Countries data - YAML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "countries"
+    },
+    {
+      "context_snippet": "Countries data - YAML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currency"
+    },
+    {
+      "context_snippet": "Countries data - YAML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "Countries data - YAML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iso-3166-1"
+    },
+    {
+      "context_snippet": "Countries data - YAML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iso-3166-2"
+    },
+    {
+      "context_snippet": "Countries data - YAML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iso-4217"
+    },
+    {
+      "context_snippet": "Countries data - YAML",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    }
+  ]
+}

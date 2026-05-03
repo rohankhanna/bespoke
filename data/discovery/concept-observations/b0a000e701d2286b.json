@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39889312,
+      "status": "candidate",
+      "text": "universal joint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39875749,
+      "status": "candidate",
+      "text": "cosmopolitan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872403,
+      "status": "candidate",
+      "text": "worldwide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39857574,
+      "status": "candidate",
+      "text": "comprehensive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39852474,
+      "status": "candidate",
+      "text": "general"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "universal",
+      "sense_id": "universal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72039,
+      "status": "candidate",
+      "text": "comprehensive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27049,
+      "status": "candidate",
+      "text": "general"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15046,
+      "status": "candidate",
+      "text": "cosmopolitan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7037,
+      "status": "candidate",
+      "text": "ecumenical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3029,
+      "status": "candidate",
+      "text": "worldwide"
+    }
+  ],
+  "concept_id": "universal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "universal",
+  "observation_id": "b0a000e701d2286b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "universal",
+  "source_context_snippet": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')",
+  "source_file": null,
+  "source_repo": "withastro/astro",
+  "source_repo_description": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+}

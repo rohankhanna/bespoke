@@ -1,0 +1,289 @@
+{
+  "components": [
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-json-languageservice",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "codecov",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-self",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "microsoft/vscode-json-languageservice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "vscode-json-languageservice",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "codecov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "eslint-plugin-self",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "eslint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "eslint-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "azeemba/eslint-plugin-json",
+      "target": "linter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:51:15.912010+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5842
+    },
+    {
+      "path": "package.json",
+      "size": 1302
+    },
+    {
+      "path": ".github/workflows/node.js.yml",
+      "size": 1136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lint your JSON files",
+    "fork": false,
+    "full_name": "azeemba/eslint-plugin-json",
+    "html_url": "https://github.com/azeemba/eslint-plugin-json",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-14T13:08:29Z",
+    "stargazers_count": 216,
+    "topics": [
+      "eslint",
+      "eslint-plugin",
+      "json",
+      "linter"
+    ],
+    "updated_at": "2026-04-11T08:17:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vscode-json-languageservice",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[![npm](https://img.shields.io/npm/v/eslint-plugin-json.svg)](https://www.npmjs.com/package/eslint-plugin-json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    },
+    {
+      "context_snippet": "[![npm](https://img.shields.io/npm/v/eslint-plugin-json.svg)](https://www.npmjs.com/package/eslint-plugin-json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint-plugin"
+    },
+    {
+      "context_snippet": "[![npm](https://img.shields.io/npm/v/eslint-plugin-json.svg)](https://www.npmjs.com/package/eslint-plugin-json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![npm](https://img.shields.io/npm/v/eslint-plugin-json.svg)](https://www.npmjs.com/package/eslint-plugin-json)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    }
+  ]
+}

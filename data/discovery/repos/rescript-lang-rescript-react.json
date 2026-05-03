@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rescript/runtime",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rescript-lang/rescript-react",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rescript-lang/rescript-react",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rescript-lang/rescript-react",
+      "target": "rescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "rescript-lang/rescript-react",
+      "target": "@rescript/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "rescript-lang/rescript-react",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "rescript-lang/rescript-react",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "rescript-lang/rescript-react",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "rescript-lang/rescript-react",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "rescript-lang/rescript-react",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rescript-lang/rescript-react",
+      "target": "reactjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rescript-lang/rescript-react",
+      "target": "rescript",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:48:36.527241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1462
+    },
+    {
+      "path": "package.json",
+      "size": 930
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official ReScript bindings for ReactJS",
+    "fork": false,
+    "full_name": "rescript-lang/rescript-react",
+    "html_url": "https://github.com/rescript-lang/rescript-react",
+    "language": "ReScript",
+    "pushed_at": "2026-04-28T17:04:00Z",
+    "stargazers_count": 514,
+    "topics": [
+      "reactjs",
+      "rescript"
+    ],
+    "updated_at": "2026-04-28T17:04:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "> The Official [ReScript](https://rescript-lang.org) Bindings for [ReactJS](https://react.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactjs"
+    },
+    {
+      "context_snippet": "> The Official [ReScript](https://rescript-lang.org) Bindings for [ReactJS](https://react.dev/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rescript"
+    }
+  ]
+}

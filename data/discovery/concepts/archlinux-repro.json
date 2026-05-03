@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "archlinux-repro"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archlinux/archlinux-repro",
+      "status": "candidate-context",
+      "text": "Tools to reproduce arch linux packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archlinux/archlinux-repro",
+      "status": "candidate-context",
+      "text": "archlinux-repro"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archlinux/archlinux-repro",
+      "status": "candidate",
+      "text": "archlinux-repro"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "archlinux-repro",
+  "concept_id": "archlinux-repro",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/repro.yml",
+      "source_repo": "archlinux/archlinux-repro"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "archlinux-repro",
+      "sense_id": "archlinux-repro#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

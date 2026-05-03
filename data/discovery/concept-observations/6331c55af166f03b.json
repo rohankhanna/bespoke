@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 ice.js: The Progressive App Framework Based On React\uff08\u57fa\u4e8e React \u7684\u6e10\u8fdb\u5f0f\u5e94\u7528\u6846\u67b6\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024681,
+      "status": "candidate",
+      "text": "cloud-first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024680,
+      "status": "candidate",
+      "text": "cloudy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024679,
+      "status": "candidate",
+      "text": "server-side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024678,
+      "status": "candidate",
+      "text": "role-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024677,
+      "status": "candidate",
+      "text": "hyperconverged"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serverless",
+      "sense_id": "serverless#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "serverless",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "serverless",
+  "observation_id": "6331c55af166f03b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "serverless",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "alibaba/ice",
+  "source_repo_description": "\ud83d\ude80 ice.js: The Progressive App Framework Based On React\uff08\u57fa\u4e8e React \u7684\u6e10\u8fdb\u5f0f\u5e94\u7528\u6846\u67b6\uff09"
+}

@@ -1,7 +1,7 @@
 {
   "component": "pre-commit-ci/lite-action@5d6cc0eb514c891a40562a58a8e71576c5c7fb43",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "zopefoundation/meta"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/quart"
     }
   ]
 }

@@ -1,0 +1,189 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "stevengj/softglobalscope.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "julia-actions/julia-runtest@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "codecov/codecov-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "ijulia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "target": "julia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:51:20.431990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5226
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 2399
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "utilities for \"soft\" global scope in interactive Julia environments",
+    "fork": false,
+    "full_name": "JuliaLang/SoftGlobalScope.jl",
+    "html_url": "https://github.com/JuliaLang/SoftGlobalScope.jl",
+    "language": "Julia",
+    "pushed_at": "2023-05-16T17:24:28Z",
+    "stargazers_count": 24,
+    "topics": [
+      "ijulia",
+      "julia"
+    ],
+    "updated_at": "2023-11-24T03:00:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevengj/softglobalscope.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/JuliaLang/SoftGlobalScope.jl/workflows/CI/badge.svg)](https://github.com/JuliaLang/SoftGlobalScope.jl/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ijulia"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/JuliaLang/SoftGlobalScope.jl/workflows/CI/badge.svg)](https://github.com/JuliaLang/SoftGlobalScope.jl/actions?query=workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    }
+  ]
+}

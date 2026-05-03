@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@8756aa072ef5b4a080af5dc8fef36c5d586e521d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pixi.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pixi.yaml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@ba3bb36eb2066252b2363392b7739741bb777659",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pixi.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-releasepy.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "stefanzweifel/git-auto-commit-action@8756aa072ef5b4a080af5dc8fef36c5d586e521d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dsl.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "DSL logs and checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pixi.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pixi.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "prefix-dev/setup-pixi@ba3bb36eb2066252b2363392b7739741bb777659",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-pixi.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "Conda env testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-releasepy.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-releasepy.yaml",
+      "source_repo": "gazebo-tooling/release-tools",
+      "target": "Releasing tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:01:32.483839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1161
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 88
+    },
+    {
+      "path": ".github/workflows/ci-dsl.yaml",
+      "size": 6262
+    },
+    {
+      "path": ".github/workflows/ci-pixi.yaml",
+      "size": 2191
+    },
+    {
+      "path": ".github/workflows/ci-releasepy.yaml",
+      "size": 477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "gazebo-tooling/release-tools",
+    "html_url": "https://github.com/gazebo-tooling/release-tools",
+    "language": "Shell",
+    "pushed_at": "2026-04-24T12:45:37Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-24T12:45:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "DSL logs and checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dsl.yaml",
+      "term": "DSL logs and checks"
+    },
+    {
+      "context_snippet": "Conda env testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-pixi.yaml",
+      "term": "Conda env testing"
+    },
+    {
+      "context_snippet": "Releasing tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-releasepy.yaml",
+      "term": "Releasing tests"
+    }
+  ]
+}

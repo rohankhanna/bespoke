@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kreeti/kt-paperclip",
+      "target": "kreeti/paperclip-i18n.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kreeti/kt-paperclip",
+      "target": "gmontard/paperclip-azure-storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kreeti/kt-paperclip",
+      "target": "janko-m/paperclip-dropbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kreeti/kt-paperclip",
+      "target": "drpentode/attachment-on-the-fly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kreeti/kt-paperclip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kreeti/kt-paperclip",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kreeti/kt-paperclip",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:49:03.071692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36717
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easy file attachment management for ActiveRecord",
+    "fork": true,
+    "full_name": "kreeti/kt-paperclip",
+    "html_url": "https://github.com/kreeti/kt-paperclip",
+    "language": "Ruby",
+    "pushed_at": "2026-04-29T12:28:15Z",
+    "stargazers_count": 290,
+    "topics": [],
+    "updated_at": "2026-04-29T12:28:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drpentode/attachment-on-the-fly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmontard/paperclip-azure-storage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janko-m/paperclip-dropbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kreeti/paperclip-i18n.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build OpenAPI-compliant REST APIs using TypeScript and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Welcome first time contributors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Welcome first time contributors"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41187,
+      "status": "candidate",
+      "text": "payday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37759,
+      "status": "candidate",
+      "text": "broach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36559,
+      "status": "candidate",
+      "text": "broached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36159,
+      "status": "candidate",
+      "text": "carmagnole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36143,
+      "status": "candidate",
+      "text": "discover"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Welcome first time contributors",
+      "sense_id": "welcome-first-time-contributors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "welcome-first-time-contributors",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "welcome-first-time-contributors",
+  "observation_id": "cc0f577640c7c085",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Welcome first time contributors",
+  "source_context_snippet": "Welcome first time contributors",
+  "source_file": ".github/workflows/welcome-first-time-contributors.yml",
+  "source_repo": "lukeautry/tsoa",
+  "source_repo_description": "Build OpenAPI-compliant REST APIs using TypeScript and Node"
+}

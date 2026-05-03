@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/http-parser",
+      "target": "nodejs/llhttp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/http-parser",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/http-parser",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:57.881558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "http request/response parser for c",
+    "fork": false,
+    "full_name": "nodejs/http-parser",
+    "html_url": "https://github.com/nodejs/http-parser",
+    "language": "C",
+    "pushed_at": "2022-06-19T08:11:39Z",
+    "stargazers_count": 6438,
+    "topics": [
+      "node",
+      "nodejs"
+    ],
+    "updated_at": "2026-05-01T07:00:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/llhttp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "HTTP Parser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "HTTP Parser",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Go implementation of STUN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961014,
+      "status": "candidate",
+      "text": "stupefy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960384,
+      "status": "candidate",
+      "text": "stupify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960141,
+      "status": "candidate",
+      "text": "bedaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958762,
+      "status": "candidate",
+      "text": "shock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958718,
+      "status": "candidate",
+      "text": "take aback"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stun",
+      "sense_id": "stun#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38034,
+      "status": "candidate",
+      "text": "daze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20068,
+      "status": "candidate",
+      "text": "shock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8079,
+      "status": "candidate",
+      "text": "floor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8030,
+      "status": "candidate",
+      "text": "stupefy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6012,
+      "status": "candidate",
+      "text": "take aback"
+    }
+  ],
+  "concept_id": "stun",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stun",
+  "observation_id": "e8dcf5ac2251def4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "stun",
+  "source_context_snippet": "<h1 align=\"center\">",
+  "source_file": null,
+  "source_repo": "pion/stun",
+  "source_repo_description": "A Go implementation of STUN"
+}

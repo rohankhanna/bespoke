@@ -191,7 +191,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "unplugin/unplugin-auto-import",
-      "target": "unjs/unimport",
+      "target": "unjs/unplugin",
       "target_type": "repository"
     },
     {
@@ -199,20 +199,6 @@
       "source_file": "README.md",
       "source_repo": "unplugin/unplugin-auto-import",
       "target": "antfu/unplugin-auto-import",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unplugin/unplugin-auto-import",
-      "target": "kazariex/dxup",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unplugin/unplugin-auto-import",
-      "target": "antfu/vue-global-api",
       "target_type": "repository"
     },
     {
@@ -503,7 +489,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:28:47.160901+00:00",
+  "fetched_at": "2026-05-03T03:58:44.642419+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -553,17 +539,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "antfu/vue-global-api",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kazariex/dxup",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "unjs/unimport",
+      "full_name": "unjs/unplugin",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/julia-docdeploy@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "dimensionality-reduction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "isotonic-regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "linear-regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "multivariate-statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "ols-regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "ridge-regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "statistics",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "JuliaStats/MultivariateStats.jl"
+}

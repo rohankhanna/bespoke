@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "DSL logs and checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebo-tooling/release-tools",
+      "status": "candidate-context",
+      "text": "DSL logs and checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebo-tooling/release-tools",
+      "status": "candidate",
+      "text": "DSL logs and checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22458,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22388,
+      "status": "candidate",
+      "text": "censor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22388,
+      "status": "candidate",
+      "text": "censoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22388,
+      "status": "candidate",
+      "text": "eeg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22388,
+      "status": "candidate",
+      "text": "ekg"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "DSL logs and checks",
+  "concept_id": "dsl-logs-and-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci-dsl.yaml",
+      "source_repo": "gazebo-tooling/release-tools"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "DSL logs and checks",
+      "sense_id": "dsl-logs-and-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

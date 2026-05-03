@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "xArm-Developer/xArm-Python-SDK",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "xArm-Developer/xArm-Python-SDK",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "xArm-Developer/xArm-Python-SDK",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xArm-Developer/xArm-Python-SDK",
+      "target": "collaborative-robot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xArm-Developer/xArm-Python-SDK",
+      "target": "robotic-arm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:34.630206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15877
+    },
+    {
+      "path": "README.rst",
+      "size": 1811
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1640
+    },
+    {
+      "path": "requirements.txt",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 1081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python SDK for UFACTORY robots, 850, xArm5/6/7, and Lite6.",
+    "fork": false,
+    "full_name": "xArm-Developer/xArm-Python-SDK",
+    "html_url": "https://github.com/xArm-Developer/xArm-Python-SDK",
+    "language": "Python",
+    "pushed_at": "2026-01-23T09:23:31Z",
+    "stargazers_count": 291,
+    "topics": [
+      "collaborative-robot",
+      "robotic-arm"
+    ],
+    "updated_at": "2026-04-23T23:50:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI Downloads](https://static.pepy.tech/badge/xarm-python-sdk)](https://pepy.tech/projects/xarm-python-sdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collaborative-robot"
+    },
+    {
+      "context_snippet": "[![PyPI Downloads](https://static.pepy.tech/badge/xarm-python-sdk)](https://pepy.tech/projects/xarm-python-sdk)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotic-arm"
+    }
+  ]
+}

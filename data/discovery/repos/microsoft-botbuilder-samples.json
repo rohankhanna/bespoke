@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-javascript-samples.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-javascript-samples.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-javascript-samples.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-javascript-samples.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "microsoft/agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "microsoft/botbuilder-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "microsoft/recognizers-text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "microsoft/ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-javascript-samples.yml",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-javascript-samples.yml",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "technote-space/get-diff-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-javascript-samples.yml",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-javascript-samples.yml",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "ci-javascript-samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "microsoft-congnitive-services",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "vsix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "target": "yeoman",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:41.168058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17833
+    },
+    {
+      "path": ".github/workflows/ci-javascript-samples.yml",
+      "size": 2648
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Welcome to the Bot Framework samples repository. Here you will find task-focused samples in C#, JavaScript/TypeScript, and Python to help you get started with the Bot Framework SDK!",
+    "fork": false,
+    "full_name": "microsoft/BotBuilder-Samples",
+    "html_url": "https://github.com/microsoft/BotBuilder-Samples",
+    "language": "HTML",
+    "pushed_at": "2025-12-23T20:43:15Z",
+    "stargazers_count": 4507,
+    "topics": [
+      "bot-framework",
+      "bots",
+      "dotnet",
+      "javascript",
+      "microsoft-congnitive-services",
+      "python",
+      "sdk",
+      "typescript",
+      "vsix",
+      "yeoman"
+    ],
+    "updated_at": "2026-04-27T19:49:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/agents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/ai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botbuilder-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/recognizers-text",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ci-javascript-samples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-javascript-samples.yml",
+      "term": "ci-javascript-samples"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework SDK Samples repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-framework"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework SDK Samples repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bots"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework SDK Samples repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework SDK Samples repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-congnitive-services"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework SDK Samples repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vsix"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework SDK Samples repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yeoman"
+    }
+  ]
+}

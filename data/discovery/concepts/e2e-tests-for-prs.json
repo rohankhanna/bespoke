@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "E2E Tests for PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "status": "candidate-context",
+      "text": "This repository contains the Karpenter Provider implementation for IBM Cloud, enabling dynamic node provisioning in IBM Cloud Kubernetes clusters using Karpenter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "status": "candidate-context",
+      "text": "E2E Tests for PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "status": "candidate",
+      "text": "E2E Tests for PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15184,
+      "status": "candidate",
+      "text": "those"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15184,
+      "status": "candidate",
+      "text": "try"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "E2E Tests for PRs",
+  "concept_id": "e2e-tests-for-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/e2e-tests-pr.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "E2E Tests for PRs",
+      "sense_id": "e2e-tests-for-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

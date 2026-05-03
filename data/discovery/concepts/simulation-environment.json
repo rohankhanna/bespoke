@@ -19,6 +19,18 @@
       "source_repo": "hashintel/labs",
       "status": "candidate-context",
       "text": "[github_star]: https://github.com/hashintel/labs#"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "SAPIEN Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "![teaser](figures/teaser.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hashintel/labs",
       "status": "candidate",
       "text": "[github_star]: https://github.com/hashintel/labs#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate",
+      "text": "![teaser](figures/teaser.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "hashintel/labs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

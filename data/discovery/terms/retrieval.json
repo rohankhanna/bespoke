@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -61,6 +61,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "CheckerNetwork/spark-checker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Muennighoff/sgpt"
     }
   ],
   "term": "retrieval"

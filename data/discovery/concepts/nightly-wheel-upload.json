@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nightly-wheel-upload"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "A computer algebra system written in pure Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "nightly-wheel-upload"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate",
+      "text": "nightly-wheel-upload"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nightly-wheel-upload",
+  "concept_id": "nightly-wheel-upload",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/nightly-wheels.yml",
+      "source_repo": "sympy/sympy"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nightly-wheel-upload",
+      "sense_id": "nightly-wheel-upload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

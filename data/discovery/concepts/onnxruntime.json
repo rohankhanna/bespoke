@@ -309,6 +309,18 @@
       "source_repo": "yinguobing/head-pose-estimation",
       "status": "candidate-context",
       "text": "Realtime human head pose estimation with ONNX Runtime and OpenCV."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate-context",
+      "text": "A project to demonstrate an approach to designing cross-language and distributed pipeline in deep learning/machine learning domain, using WebRTC and Redis Streams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate-context",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
     }
   ],
   "candidate_glosses": [
@@ -461,6 +473,12 @@
       "source_repo": "yinguobing/head-pose-estimation",
       "status": "candidate",
       "text": "Realtime human head pose estimation with ONNX Runtime and OpenCV."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
     }
   ],
   "candidate_related_terms": [],
@@ -654,11 +672,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "yinguobing/head-pose-estimation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adalkiran/distributed-inference"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

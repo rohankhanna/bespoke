@@ -1,0 +1,327 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AutoCreateRelease.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AutoCreateRelease.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AutoCreateRelease.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AutoCreateRelease.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AutoCreateRelease.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "espressif/esp8266_nonos_sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "nodemcu/nodemcu-devkit-v1.0",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AutoCreateRelease.yml",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AutoCreateRelease.yml",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AutoCreateRelease.yml",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AutoCreateRelease.yml",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/AutoCreateRelease.yml",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/AutoCreateRelease.yml",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "esp32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "esp8266",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "esp8285",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "espressif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "firmware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "nodemcu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "target": "spiffs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:05:33.773127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5293
+    },
+    {
+      "path": ".github/workflows/AutoCreateRelease.yml",
+      "size": 2853
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 7342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release",
+    "description": "Lua based interactive firmware for ESP8266, ESP8285 and ESP32",
+    "fork": false,
+    "full_name": "nodemcu/nodemcu-firmware",
+    "html_url": "https://github.com/nodemcu/nodemcu-firmware",
+    "language": "C",
+    "pushed_at": "2026-03-25T20:29:18Z",
+    "stargazers_count": 7912,
+    "topics": [
+      "esp32",
+      "esp8266",
+      "esp8285",
+      "espressif",
+      "firmware",
+      "lua",
+      "nodemcu",
+      "spiffs"
+    ],
+    "updated_at": "2026-05-02T14:26:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "espressif/esp8266_nonos_sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodemcu/nodemcu-devkit-v1.0",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/AutoCreateRelease.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "> Lua-based firmware for ESP8266 WiFi SOC",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp32"
+    },
+    {
+      "context_snippet": "> Lua-based firmware for ESP8266 WiFi SOC",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp8266"
+    },
+    {
+      "context_snippet": "> Lua-based firmware for ESP8266 WiFi SOC",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp8285"
+    },
+    {
+      "context_snippet": "> Lua-based firmware for ESP8266 WiFi SOC",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "espressif"
+    },
+    {
+      "context_snippet": "> Lua-based firmware for ESP8266 WiFi SOC",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firmware"
+    },
+    {
+      "context_snippet": "> Lua-based firmware for ESP8266 WiFi SOC",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodemcu"
+    },
+    {
+      "context_snippet": "> Lua-based firmware for ESP8266 WiFi SOC",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spiffs"
+    }
+  ]
+}

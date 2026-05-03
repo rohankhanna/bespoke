@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Advanced Xray Panel Support Multi Protocols, Successor of MHSanaei/3x-ui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019623,
+      "status": "candidate",
+      "text": "realness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018129,
+      "status": "candidate",
+      "text": "realism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013045,
+      "status": "candidate",
+      "text": "world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019797,
+      "status": "candidate",
+      "text": "fact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019651,
+      "status": "candidate",
+      "text": "actuality"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reality",
+      "sense_id": "reality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24046,
+      "status": "candidate",
+      "text": "world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7053,
+      "status": "candidate",
+      "text": "realism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1023,
+      "status": "candidate",
+      "text": "realness"
+    }
+  ],
+  "concept_id": "reality",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reality",
+  "observation_id": "7c010bd6640a5d1a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "reality",
+  "source_context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+  "source_file": null,
+  "source_repo": "AghayeCoder/tx-ui",
+  "source_repo_description": "Advanced Xray Panel Support Multi Protocols, Successor of MHSanaei/3x-ui"
+}

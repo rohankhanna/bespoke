@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Label inactive issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Cross platform code coverage for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Label inactive issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate",
+      "text": "Label inactive issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17953,
+      "status": "candidate",
+      "text": "describe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17877,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17877,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17772,
+      "status": "candidate",
+      "text": "bingo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17772,
+      "status": "candidate",
+      "text": "canton"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Label inactive issues",
+  "concept_id": "label-inactive-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/issue-inactive.yml",
+      "source_repo": "coverlet-coverage/coverlet"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label inactive issues",
+      "sense_id": "label-inactive-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

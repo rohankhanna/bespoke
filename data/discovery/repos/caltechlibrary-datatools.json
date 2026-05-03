@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yaml"
+    },
+    {
+      "component": "caltechlibrary/codemeta2cff@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yaml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yaml",
+      "source_repo": "caltechlibrary/datatools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yaml",
+      "source_repo": "caltechlibrary/datatools",
+      "target": "caltechlibrary/codemeta2cff@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yaml",
+      "source_repo": "caltechlibrary/datatools",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codemeta2cff.yaml",
+      "source_repo": "caltechlibrary/datatools",
+      "target": "CodeMeta2CFF",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caltechlibrary/datatools",
+      "target": "data-munging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caltechlibrary/datatools",
+      "target": "excel-workbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caltechlibrary/datatools",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caltechlibrary/datatools",
+      "target": "shell-scripting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caltechlibrary/datatools",
+      "target": "structured-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caltechlibrary/datatools",
+      "target": "xlsx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:50:00.372909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3343
+    },
+    {
+      "path": "go.mod",
+      "size": 1086
+    },
+    {
+      "path": ".github/workflows/codemeta2cff.yaml",
+      "size": 681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of tools for working with JSON, CSV and Excel workbooks",
+    "fork": false,
+    "full_name": "caltechlibrary/datatools",
+    "html_url": "https://github.com/caltechlibrary/datatools",
+    "language": "Go",
+    "pushed_at": "2026-02-19T22:58:57Z",
+    "stargazers_count": 80,
+    "topics": [
+      "csv",
+      "data-munging",
+      "excel-workbook",
+      "json",
+      "shell-scripting",
+      "structured-data",
+      "xlsx"
+    ],
+    "updated_at": "2026-02-19T22:58:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CodeMeta2CFF",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codemeta2cff.yaml",
+      "term": "CodeMeta2CFF"
+    },
+    {
+      "context_snippet": "datatools",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-munging"
+    },
+    {
+      "context_snippet": "datatools",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "excel-workbook"
+    },
+    {
+      "context_snippet": "datatools",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "datatools",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-scripting"
+    },
+    {
+      "context_snippet": "datatools",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structured-data"
+    },
+    {
+      "context_snippet": "datatools",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xlsx"
+    }
+  ]
+}

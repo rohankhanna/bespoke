@@ -467,6 +467,90 @@
       "source_repo": "leezng/vue-json-pretty",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/StatsPlots.jl",
+      "status": "candidate-context",
+      "text": "Statistical plotting recipes for Plots.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/StatsPlots.jl",
+      "status": "candidate-context",
+      "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/mldoc",
+      "status": "candidate-context",
+      "text": "Another Emacs Org-mode and Markdown parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/mldoc",
+      "status": "candidate-context",
+      "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "Internet-scale OpenID Certified\u2122 OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/keto",
+      "status": "candidate-context",
+      "text": "The most scalable and customizable permission server on the market. Fix your slow or broken permission system with Google's proven \"Zanzibar\" approach. Supports ACL, RBAC, and more. Written in Go, cloud native, headless, API-first. Available as a service on Ory Network and for self-hosters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/keto",
+      "status": "candidate-context",
+      "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/kratos",
+      "status": "candidate-context",
+      "text": "Headless cloud-native authentication and identity management written in Go. Scales to a billion+ users. Replace Homegrown, Auth0, Okta, Firebase with better UX and DX. Passkeys, Social Sign In, OIDC, Magic Link, Multi-Factor Auth, SMS, SAML, TOTP, and more. Runs everywhere, runs best on Ory Network. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/kratos",
+      "status": "candidate-context",
+      "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/oathkeeper",
+      "status": "candidate-context",
+      "text": "A cloud native Identity & Access Proxy / API (IAP) and Access Control Decision API that authenticates, authorizes, and mutates incoming HTTP(s) requests. Inspired by the BeyondCorp / Zero Trust white paper. Written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/oathkeeper",
+      "status": "candidate-context",
+      "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcad\ud83d\udc40precognition.nvim - Precognition uses virtual text and gutter signs to show available motions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate-context",
+      "text": "Format"
     }
   ],
   "candidate_glosses": [
@@ -697,6 +781,48 @@
       "source_repo": "leezng/vue-json-pretty",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/StatsPlots.jl",
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/mldoc",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/keto",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/kratos",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/oathkeeper",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate",
+      "text": "Format"
     }
   ],
   "candidate_related_terms": [
@@ -1321,11 +1447,77 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "leezng/vue-json-pretty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/format-check.yml",
+      "source_repo": "JuliaPlots/StatsPlots.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "logseq/mldoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ory/hydra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ory/keto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ory/kratos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ory/oathkeeper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "tris203/precognition.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

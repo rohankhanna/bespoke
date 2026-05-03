@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T01:49:20.917240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "freeCodeCamp video project tutorials.",
+    "fork": false,
+    "full_name": "beaucarnes/fcc-project-tutorials",
+    "html_url": "https://github.com/beaucarnes/fcc-project-tutorials",
+    "language": "JavaScript",
+    "pushed_at": "2023-08-06T07:08:50Z",
+    "stargazers_count": 299,
+    "topics": [],
+    "updated_at": "2026-02-05T11:02:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

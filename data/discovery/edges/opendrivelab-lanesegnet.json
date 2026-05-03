@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "target": "opendrivelab/persformer_3dlane",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "target": "opendrivelab/openlane",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "target": "hustvl/maptr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "target": "lane-segment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "target": "laneline-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "target": "online-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "target": "topology-reasoning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "OpenDriveLab/LaneSegNet"
+}

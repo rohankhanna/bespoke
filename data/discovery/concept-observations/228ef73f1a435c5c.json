@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reactive Flux built with ImmutableJS data structures. Framework agnostic."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "NuclearJS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "NuclearJS"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997377,
+      "status": "candidate",
+      "text": "product"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001859,
+      "status": "candidate",
+      "text": "generation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001708,
+      "status": "candidate",
+      "text": "elaboration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001640,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001499,
+      "status": "candidate",
+      "text": "input"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "production",
+      "sense_id": "production#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15058,
+      "status": "candidate",
+      "text": "product"
+    }
+  ],
+  "concept_id": "production",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "production",
+  "observation_id": "228ef73f1a435c5c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "production",
+  "source_context_snippet": "NuclearJS",
+  "source_file": null,
+  "source_repo": "optimizely/nuclear-js",
+  "source_repo_description": "Reactive Flux built with ImmutableJS data structures. Framework agnostic."
+}

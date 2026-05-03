@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby/ruby-builder",
+      "target": "actions/virtual-environments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "ruby/ruby-builder/.github/actions/create-pr-to-setup-ruby@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "Build Ruby for GitHub Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-new-releases.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-new-releases.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "Check for new Rubies in ruby-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copy.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copy.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copy.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "Copy assets to separate releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-pr.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "ruby/ruby-builder/.github/actions/create-pr-to-setup-ruby@master",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "ruby/ruby-builder"
+}

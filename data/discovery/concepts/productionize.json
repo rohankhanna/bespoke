@@ -1,0 +1,268 @@
+{
+  "aliases": [
+    "productionize"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "Error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "Multidimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "Complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "Inverse complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "Inverse error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "Create a typed array."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "Buffer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "Multidimensional array constructor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "productionize"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate",
+      "text": "productionize"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate",
+      "text": "productionize"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "productionise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "productize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "productionalize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "mass-produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "productise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "productionize",
+  "concept_id": "productionize",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "productionize",
+      "sense_id": "productionize#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

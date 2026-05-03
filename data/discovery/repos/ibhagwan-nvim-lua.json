@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibhagwan/nvim-lua",
+      "target": "ibhagwan/smartyank.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibhagwan/nvim-lua",
+      "target": "j-hui/fidget.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibhagwan/nvim-lua",
+      "target": "previm/previm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibhagwan/nvim-lua",
+      "target": "meanderingprogrammer/render-markdown.nvim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:57:13.131228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ibhagwan/nvim-lua",
+    "html_url": "https://github.com/ibhagwan/nvim-lua",
+    "language": "Lua",
+    "pushed_at": "2026-04-25T18:36:32Z",
+    "stargazers_count": 233,
+    "topics": [],
+    "updated_at": "2026-04-29T11:51:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibhagwan/smartyank.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "j-hui/fidget.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meanderingprogrammer/render-markdown.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "previm/previm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

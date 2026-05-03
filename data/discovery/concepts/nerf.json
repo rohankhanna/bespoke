@@ -247,6 +247,18 @@
       "source_repo": "One-2-3-45/One-2-3-45",
       "status": "candidate-context",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate-context",
+      "text": "INSTA - Instant Volumetric Head Avatars [CVPR2023]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +381,12 @@
       "source_repo": "One-2-3-45/One-2-3-45",
       "status": "candidate",
       "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
     }
   ],
   "candidate_related_terms": [
@@ -544,11 +562,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "One-2-3-45/One-2-3-45"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

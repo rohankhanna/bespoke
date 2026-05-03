@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lite & Super-fast re-ranking for your search & retrieval pipelines.  Supports SoTA Listwise and Pairwise reranking based on LLMs and  cross-encoders and more.  Created by Prithivi Da, open for PRs & Collaborations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align =\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align =\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vector-search",
+      "sense_id": "vector-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vector-search",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vector-search",
+  "observation_id": "c56cc5a2ea6f5ea4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "vector-search",
+  "source_context_snippet": "<p align =\"center\">",
+  "source_file": null,
+  "source_repo": "PrithivirajDamodaran/FlashRank",
+  "source_repo_description": "Lite & Super-fast re-ranking for your search & retrieval pipelines.  Supports SoTA Listwise and Pairwise reranking based on LLMs and  cross-encoders and more.  Created by Prithivi Da, open for PRs & Collaborations."
+}

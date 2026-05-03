@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ECCV 2022] CelebV-HQ: A Large-Scale Video Facial Attributes Dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"./assets/teaser.png\" width=\"96%\" height=\"96%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"./assets/teaser.png\" width=\"96%\" height=\"96%\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31366,
+      "status": "candidate",
+      "text": "rayleigh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31365,
+      "status": "candidate",
+      "text": "weirdy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31364,
+      "status": "candidate",
+      "text": "pana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "oso"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "baga"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gans",
+      "sense_id": "gans#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gans",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gans",
+  "observation_id": "9e6385191b327caa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "gans",
+  "source_context_snippet": "<img src=\"./assets/teaser.png\" width=\"96%\" height=\"96%\">",
+  "source_file": null,
+  "source_repo": "CelebV-HQ/CelebV-HQ",
+  "source_repo_description": "[ECCV 2022] CelebV-HQ: A Large-Scale Video Facial Attributes Dataset"
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "aaaaalexis/obsidian-cupertino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "damiankorcz/alternative-checkboxes-reference-set",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "jdanielmourao/obsidian-sanctum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "bwya77/obsidian-baseline-customization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "light-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "obsidian-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "aaaaalexis/obsidian-baseline"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[TPAMI'23] Unifying Flow, Stereo and Depth Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984471,
+      "status": "candidate",
+      "text": "commensurateness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983884,
+      "status": "candidate",
+      "text": "parallelism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983834,
+      "status": "candidate",
+      "text": "proportionateness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974725,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972445,
+      "status": "candidate",
+      "text": "agreement"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "correspondence",
+      "sense_id": "correspondence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18085,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14054,
+      "status": "candidate",
+      "text": "agreement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10048,
+      "status": "candidate",
+      "text": "parallelism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4081,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2049,
+      "status": "candidate",
+      "text": "symmetry"
+    }
+  ],
+  "concept_id": "correspondence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "correspondence",
+  "observation_id": "f96f14563d723a8b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "correspondence",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "autonomousvision/unimatch",
+  "source_repo_description": "[TPAMI'23] Unifying Flow, Stereo and Depth Estimation"
+}

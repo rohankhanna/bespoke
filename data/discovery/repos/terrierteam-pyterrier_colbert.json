@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "s-weigand/setup-conda@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terrierteam/pyterrier_colbert",
+      "target": "xiao0728/colbert-prf-virtualappendix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "terrierteam/pyterrier_colbert",
+      "target": "cmacdonald/colbert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "terrierteam/pyterrier_colbert",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "terrierteam/pyterrier_colbert",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "terrierteam/pyterrier_colbert",
+      "target": "s-weigand/setup-conda@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "terrierteam/pyterrier_colbert",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:49:33.562508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7005
+    },
+    {
+      "path": "requirements.txt",
+      "size": 117
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 2089
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "terrierteam/pyterrier_colbert",
+    "html_url": "https://github.com/terrierteam/pyterrier_colbert",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-04-03T17:07:31Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-01-13T19:44:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiao0728/colbert-prf-virtualappendix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmacdonald/colbert",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

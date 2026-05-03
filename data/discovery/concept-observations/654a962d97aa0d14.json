@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Julia interface to gnuplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025678,
+      "status": "candidate",
+      "text": "visualisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038299,
+      "status": "candidate",
+      "text": "visual image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038298,
+      "status": "candidate",
+      "text": "visioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037951,
+      "status": "candidate",
+      "text": "visual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031504,
+      "status": "candidate",
+      "text": "view"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visualization",
+      "sense_id": "visualization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22,
+      "status": "candidate",
+      "text": "visualisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "visual image"
+    }
+  ],
+  "concept_id": "visualization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "visualization",
+  "observation_id": "654a962d97aa0d14",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "visualization",
+  "source_context_snippet": "[![CI](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml)",
+  "source_file": null,
+  "source_repo": "gcalderone/Gnuplot.jl",
+  "source_repo_description": "Julia interface to gnuplot"
+}

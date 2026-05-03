@@ -1,0 +1,243 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "yochengliu/relation-shape-cnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "3d-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "dgcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "icml-2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "modelnet-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "modelnet40",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "point-cloud-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "point-cloud-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "pointnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "pointnet2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "rscnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "scanobjectnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "simpleview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView",
+      "target": "sota",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:49.621454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8409
+    },
+    {
+      "path": "requirements.txt",
+      "size": 313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Code for ICML 2021 paper \"Revisiting Point Cloud Shape Classification with a Simple and Effective Baseline\"",
+    "fork": false,
+    "full_name": "princeton-vl/SimpleView",
+    "html_url": "https://github.com/princeton-vl/SimpleView",
+    "language": "Python",
+    "pushed_at": "2024-12-12T21:43:27Z",
+    "stargazers_count": 163,
+    "topics": [
+      "3d-vision",
+      "dgcnn",
+      "icml-2021",
+      "modelnet-dataset",
+      "modelnet40",
+      "point-cloud",
+      "point-cloud-classification",
+      "point-cloud-processing",
+      "pointnet",
+      "pointnet2",
+      "rscnn",
+      "scanobjectnn",
+      "simpleview",
+      "sota"
+    ],
+    "updated_at": "2026-04-20T06:49:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yochengliu/relation-shape-cnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-vision"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dgcnn"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icml-2021"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modelnet-dataset"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modelnet40"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud-classification"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud-processing"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointnet"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointnet2"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rscnn"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scanobjectnn"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simpleview"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sota"
+    }
+  ]
+}

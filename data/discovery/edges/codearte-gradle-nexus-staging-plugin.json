@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "bmuschko/gradle-nexus-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "cbeust/testng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "allegro/hermes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "braintree/braintree_android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "continuous-delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "gradle-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "groovy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "mavencentral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "nexus",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "Codearte/gradle-nexus-staging-plugin"
+}

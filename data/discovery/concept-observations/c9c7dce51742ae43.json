@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "World.JS is a JavaScript Wrapper for World Vocoder Powered by Emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><img width=\"300\" src=\".github/ScreenShots/logo.v3.png\" alt=\"World.JS logo\"></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"300\" src=\".github/ScreenShots/logo.v3.png\" alt=\"World.JS logo\"></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042129,
+      "status": "candidate",
+      "text": "nature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040627,
+      "status": "candidate",
+      "text": "existence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035941,
+      "status": "candidate",
+      "text": "reality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034749,
+      "status": "candidate",
+      "text": "macrocosm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032375,
+      "status": "candidate",
+      "text": "creation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "world",
+      "sense_id": "world#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34042,
+      "status": "candidate",
+      "text": "existence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32081,
+      "status": "candidate",
+      "text": "domain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28035,
+      "status": "candidate",
+      "text": "macrocosm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24034,
+      "status": "candidate",
+      "text": "populace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21040,
+      "status": "candidate",
+      "text": "creation"
+    }
+  ],
+  "concept_id": "world",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "world",
+  "observation_id": "c9c7dce51742ae43",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "world",
+  "source_context_snippet": "<p align=\"center\"><img width=\"300\" src=\".github/ScreenShots/logo.v3.png\" alt=\"World.JS logo\"></p>",
+  "source_file": null,
+  "source_repo": "YuzukiTsuru/World.JS",
+  "source_repo_description": "World.JS is a JavaScript Wrapper for World Vocoder Powered by Emscripten"
+}

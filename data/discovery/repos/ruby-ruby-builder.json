@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/ruby-builder/.github/actions/create-pr-to-setup-ruby@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-new-releases.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-new-releases.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-new-releases.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copy.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copy.yml"
+    },
+    {
+      "component": "ruby/ruby-builder/.github/actions/create-pr-to-setup-ruby@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ruby/ruby-builder",
+      "target": "actions/virtual-environments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "ruby/ruby-builder/.github/actions/create-pr-to-setup-ruby@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "Build Ruby for GitHub Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-new-releases.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-new-releases.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "Check for new Rubies in ruby-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copy.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copy.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copy.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "Copy assets to separate releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-pr.yml",
+      "source_repo": "ruby/ruby-builder",
+      "target": "ruby/ruby-builder/.github/actions/create-pr-to-setup-ruby@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:50:41.157211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1466
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 9874
+    },
+    {
+      "path": ".github/workflows/check-new-releases.yml",
+      "size": 899
+    },
+    {
+      "path": ".github/workflows/copy.yml",
+      "size": 358
+    },
+    {
+      "path": ".github/workflows/create-pr.yml",
+      "size": 545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A repository building Ruby/JRuby/TruffleRuby releases to be used in GitHub Actions",
+    "fork": false,
+    "full_name": "ruby/ruby-builder",
+    "html_url": "https://github.com/ruby/ruby-builder",
+    "language": "Ruby",
+    "pushed_at": "2026-04-26T21:43:57Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-26T21:43:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/virtual-environments",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Ruby for GitHub Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Ruby for GitHub Actions"
+    },
+    {
+      "context_snippet": "Check for new Rubies in ruby-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-new-releases.yml",
+      "term": "Check for new Rubies in ruby-build"
+    },
+    {
+      "context_snippet": "Copy assets to separate releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copy.yml",
+      "term": "Copy assets to separate releases"
+    }
+  ]
+}

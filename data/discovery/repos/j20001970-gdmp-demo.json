@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "j20001970/GDMP/.github/workflows/build.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-web.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-web.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-web.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-web.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "j20001970/GDMP/.github/workflows/build.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-web.yml",
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-web.yml",
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-web.yml",
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/export-web.yml",
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/export-web.yml",
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "Export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "godot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP-demo",
+      "target": "mediapipe",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:45:55.820085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 694
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1349
+    },
+    {
+      "path": ".github/workflows/export-web.yml",
+      "size": 1808
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Demo project for GDMP plugin.",
+    "fork": false,
+    "full_name": "j20001970/GDMP-demo",
+    "html_url": "https://github.com/j20001970/GDMP-demo",
+    "language": "GDScript",
+    "pushed_at": "2026-03-27T04:37:19Z",
+    "stargazers_count": 28,
+    "topics": [
+      "demo",
+      "godot",
+      "mediapipe"
+    ],
+    "updated_at": "2026-03-29T12:18:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Export",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/export-web.yml",
+      "term": "Export"
+    },
+    {
+      "context_snippet": "This is the demo project for [GDMP](https://github.com/j20001970/GDMP) plugin.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "This is the demo project for [GDMP](https://github.com/j20001970/GDMP) plugin.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot"
+    },
+    {
+      "context_snippet": "This is the demo project for [GDMP](https://github.com/j20001970/GDMP) plugin.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mediapipe"
+    }
+  ]
+}

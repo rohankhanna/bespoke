@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "CodeMeta2CFF"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "status": "candidate-context",
+      "text": "GitHub Action converting a codemeta file to CITATION.cff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "status": "candidate-context",
+      "text": "CodeMeta2CFF"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caltechlibrary/datatools",
+      "status": "candidate-context",
+      "text": "A set of tools for working with JSON, CSV and Excel workbooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caltechlibrary/datatools",
+      "status": "candidate-context",
+      "text": "CodeMeta2CFF"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "status": "candidate",
+      "text": "CodeMeta2CFF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caltechlibrary/datatools",
+      "status": "candidate",
+      "text": "CodeMeta2CFF"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "CodeMeta2CFF",
+  "concept_id": "codemeta2cff",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "caltechlibrary/codemeta2cff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/codemeta2cff.yaml",
+      "source_repo": "caltechlibrary/datatools"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CodeMeta2CFF",
+      "sense_id": "codemeta2cff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -508,6 +508,18 @@
       "source_repo": "preservim/vimux",
       "status": "candidate-context",
       "text": "Reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate-context",
+      "text": "Generate difference sets between Ruby sequences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate-context",
+      "text": "Reviewdog"
     }
   ],
   "candidate_glosses": [
@@ -784,6 +796,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "preservim/vimux",
+      "status": "candidate",
+      "text": "Reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halostatue/diff-lcs",
       "status": "candidate",
       "text": "Reviewdog"
     }
@@ -1429,11 +1447,59 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern-git-status"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "halostatue/diff-lcs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

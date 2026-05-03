@@ -1,0 +1,392 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "17mon/china_ip_list",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "gaoyifan/china-operator-ip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "dreamacro/clash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "eycorsican/leaf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "Build geoip files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "anticensorship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "clash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "geoip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "hysteria",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "ipv4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "ipv6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "leaf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "maxmind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "mihomo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "nginx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "quantumultx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "routing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "shadowrocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "sing-box",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "surge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "trojan-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "v2ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip",
+      "target": "xray",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:31.735166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31894
+    },
+    {
+      "path": "go.mod",
+      "size": 995
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf1a \ud83c\udf0d \ud83c\udf1d GeoIP \u589e\u5f3a\u7248\uff0c\u652f\u6301\u81ea\u7531\u5b9a\u5236 V2Ray dat \u683c\u5f0f\u6587\u4ef6 geoip.dat\u3001MaxMind mmdb \u683c\u5f0f\u6587\u4ef6\u3001sing-box SRS \u683c\u5f0f\u6587\u4ef6\u3001mihomo MRS \u683c\u5f0f\u6587\u4ef6\u3001Clash ruleset\u3001Surge ruleset \u7b49\u3002Enhanced edition of GeoIP for V2Ray, Xray-core, sing-box, Clash, mihomo, Shadowrocket, Quantumult X, Surge, hysteria, Trojan-Go, Leaf, Nginx, etc.",
+    "fork": false,
+    "full_name": "Loyalsoldier/geoip",
+    "html_url": "https://github.com/Loyalsoldier/geoip",
+    "language": "Go",
+    "pushed_at": "2026-05-02T13:55:40Z",
+    "stargazers_count": 5964,
+    "topics": [
+      "anticensorship",
+      "clash",
+      "geoip",
+      "gfw",
+      "hysteria",
+      "ipv4",
+      "ipv6",
+      "leaf",
+      "maxmind",
+      "mihomo",
+      "nginx",
+      "proxy",
+      "quantumultx",
+      "routing",
+      "shadowrocket",
+      "sing-box",
+      "surge",
+      "trojan-go",
+      "v2ray",
+      "xray"
+    ],
+    "updated_at": "2026-05-02T22:52:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "17mon/china_ip_list",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dreamacro/clash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eycorsican/leaf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gaoyifan/china-operator-ip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build geoip files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build geoip files"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anticensorship"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clash"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geoip"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hysteria"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipv4"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipv6"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leaf"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maxmind"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mihomo"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nginx"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantumultx"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "routing"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shadowrocket"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sing-box"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surge"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trojan-go"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "v2ray"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray"
+    }
+  ]
+}

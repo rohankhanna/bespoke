@@ -1,0 +1,570 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance_test_dfa.yaml"
+    },
+    {
+      "component": "actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance_test_dfa.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "hashicorp/actions-set-product-version@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "hashicorp/actions-generate-metadata@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "hashicorp/actions-go-build@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-checker.yml"
+    },
+    {
+      "component": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c4fb451437765abf5018c6fbf22cce1a7da1e5cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@c4fb451437765abf5018c6fbf22cce1a7da1e5cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c4fb451437765abf5018c6fbf22cce1a7da1e5cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hc-copywrite.yml"
+    },
+    {
+      "component": "hashicorp/setup-copywrite@32638da2d4e81d56a0764aa1547882fc4d209636",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hc-copywrite.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-comment-created.yml"
+    },
+    {
+      "component": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml"
+    },
+    {
+      "component": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml"
+    },
+    {
+      "component": "actions/github-script@e69ef5462fd455e02edcaf4dd7708eda96b9eda0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml"
+    },
+    {
+      "component": "atlassian/gajira-login@ca13f8850ea309cf44a6e4e0c49d9aa48ac3ca4c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml"
+    },
+    {
+      "component": "tomhjp/gh-action-jira-create@3ed1789cad3521292e591a7cfa703215ec1348bf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml"
+    },
+    {
+      "component": "tomhjp/gh-action-jira-search@04700b457f317c3e341ce90da5a3ff4ce058f2fa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml"
+    },
+    {
+      "component": "tomhjp/gh-action-jira-comment@6eb6b9ead70221916b6badd118c24535ed220bd9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml"
+    },
+    {
+      "component": "atlassian/gajira-transition@38fc9cd61b03d6a53dd35fcccda172fe04b36de3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml"
+    },
+    {
+      "component": "atlassian/gajira-transition@38fc9cd61b03d6a53dd35fcccda172fe04b36de3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "kubernetes/helm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance_test_dfa.yaml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/acceptance_test_dfa.yaml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions/setup-go@cdcb36043654635271a94b9a6d1392de5bb323a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acceptance_test_dfa.yaml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "Deferred Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "hashicorp/actions-set-product-version@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "hashicorp/actions-generate-metadata@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "hashicorp/actions-go-build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-checker.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-checker.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "Changelog Entry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "github/codeql-action/init@c4fb451437765abf5018c6fbf22cce1a7da1e5cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "github/codeql-action/autobuild@c4fb451437765abf5018c6fbf22cce1a7da1e5cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "github/codeql-action/analyze@c4fb451437765abf5018c6fbf22cce1a7da1e5cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hc-copywrite.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hc-copywrite.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "hashicorp/setup-copywrite@32638da2d4e81d56a0764aa1547882fc4d209636",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hc-copywrite.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "HashiCorp Copywrite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-comment-created.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions-ecosystem/action-remove-labels@2ce5d41b4b6aa8503e285553f75ed56e0a40bae0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-comment-created.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "Issue Comment Created Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "github/issue-labeler@c1b0f9f52a63158c4adc09425e858e87b32e9685",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "actions/github-script@e69ef5462fd455e02edcaf4dd7708eda96b9eda0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "Issue Opened Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "atlassian/gajira-login@ca13f8850ea309cf44a6e4e0c49d9aa48ac3ca4c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "tomhjp/gh-action-jira-create@3ed1789cad3521292e591a7cfa703215ec1348bf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "tomhjp/gh-action-jira-search@04700b457f317c3e341ce90da5a3ff4ce058f2fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "tomhjp/gh-action-jira-comment@6eb6b9ead70221916b6badd118c24535ed220bd9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "atlassian/gajira-transition@38fc9cd61b03d6a53dd35fcccda172fe04b36de3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jira-issues.yml",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "Jira Community Issue Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "target": "terraform-provider",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:54.468173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2581
+    },
+    {
+      "path": "go.mod",
+      "size": 8843
+    },
+    {
+      "path": ".github/workflows/acceptance_test_dfa.yaml",
+      "size": 846
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 5777
+    },
+    {
+      "path": ".github/workflows/changelog-checker.yml",
+      "size": 1729
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2582
+    },
+    {
+      "path": ".github/workflows/hc-copywrite.yml",
+      "size": 531
+    },
+    {
+      "path": ".github/workflows/issue-comment-created.yml",
+      "size": 331
+    },
+    {
+      "path": ".github/workflows/issue-opened.yml",
+      "size": 2155
+    },
+    {
+      "path": ".github/workflows/jira-issues.yml",
+      "size": 6669
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Terraform Helm provider",
+    "fork": false,
+    "full_name": "hashicorp/terraform-provider-helm",
+    "html_url": "https://github.com/hashicorp/terraform-provider-helm",
+    "language": "Go",
+    "pushed_at": "2026-04-28T19:37:22Z",
+    "stargazers_count": 1068,
+    "topics": [
+      "helm",
+      "kubernetes",
+      "terraform",
+      "terraform-provider"
+    ],
+    "updated_at": "2026-04-16T11:38:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/helm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deferred Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/acceptance_test_dfa.yaml",
+      "term": "Deferred Actions"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Changelog Entry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-checker.yml",
+      "term": "Changelog Entry"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "HashiCorp Copywrite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hc-copywrite.yml",
+      "term": "HashiCorp Copywrite"
+    },
+    {
+      "context_snippet": "Issue Comment Created Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-comment-created.yml",
+      "term": "Issue Comment Created Triage"
+    },
+    {
+      "context_snippet": "Issue Opened Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "term": "Issue Opened Triage"
+    },
+    {
+      "context_snippet": "Jira Community Issue Sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jira-issues.yml",
+      "term": "Jira Community Issue Sync"
+    },
+    {
+      "context_snippet": "<a href=\"https://terraform.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    },
+    {
+      "context_snippet": "<a href=\"https://terraform.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "<a href=\"https://terraform.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    },
+    {
+      "context_snippet": "<a href=\"https://terraform.io\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform-provider"
+    }
+  ]
+}

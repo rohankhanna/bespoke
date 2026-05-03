@@ -1,12 +1,17 @@
 {
   "component": "actions/setup-java@v1.4.3",
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/widoco.yaml",
       "source_repo": "FAIR-IMPACT/MOD"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters"
     }
   ]
 }

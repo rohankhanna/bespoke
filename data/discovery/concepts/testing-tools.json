@@ -205,6 +205,18 @@
       "source_repo": "DatabaseCleaner/database_cleaner",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdaisland/kaocha",
+      "status": "candidate-context",
+      "text": "Full featured next gen Clojure test runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaisland/kaocha",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"kaocha.png\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -303,6 +315,12 @@
       "source_repo": "DatabaseCleaner/database_cleaner",
       "status": "candidate",
       "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaisland/kaocha",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"kaocha.png\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -418,11 +436,17 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": null,
       "source_repo": "DatabaseCleaner/database_cleaner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lambdaisland/kaocha"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

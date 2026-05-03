@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/docTTTTTquery",
+      "target": "nyu-dl/dl4marco-bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/docTTTTTquery",
+      "target": "adedzy/deepct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/docTTTTTquery",
+      "target": "nyu-dl/dl4ir-doc2query",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/docTTTTTquery",
+      "target": "lintool/guide",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:47:51.633865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36033
+    },
+    {
+      "path": "requirements.txt",
+      "size": 82
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "docTTTTTquery document expansion model",
+    "fork": false,
+    "full_name": "castorini/docTTTTTquery",
+    "html_url": "https://github.com/castorini/docTTTTTquery",
+    "language": "Python",
+    "pushed_at": "2023-03-25T01:07:53Z",
+    "stargazers_count": 375,
+    "topics": [],
+    "updated_at": "2026-04-26T12:58:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adedzy/deepct",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lintool/guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nyu-dl/dl4ir-doc2query",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nyu-dl/dl4marco-bert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

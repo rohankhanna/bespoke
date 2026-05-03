@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "juliaarrays/axisarrays.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "rafaqz/dimensionaldata.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "mcabbott/axiskeys.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "invenia/nameddims.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:51:26.861059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15971
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 826
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 341
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Julia type that implements a drop-in replacement of Array with named dimensions",
+    "fork": false,
+    "full_name": "davidavdav/NamedArrays.jl",
+    "html_url": "https://github.com/davidavdav/NamedArrays.jl",
+    "language": "Julia",
+    "pushed_at": "2025-09-28T21:50:14Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-03-15T05:18:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "invenia/nameddims.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaarrays/axisarrays.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mcabbott/axiskeys.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rafaqz/dimensionaldata.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    }
+  ]
+}

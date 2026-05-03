@@ -43,6 +43,30 @@
       "source_repo": "MichaelGrupp/evo",
       "status": "candidate-context",
       "text": "***Python package for the evaluation of odometry and SLAM***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "status": "candidate-context",
+      "text": "SDK for GPU accelerated genome assembly and analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "status": "candidate-context",
+      "text": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate-context",
+      "text": "\ud83d\udc21 An icon expansion pack for Maki"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "MichaelGrupp/evo",
       "status": "candidate",
       "text": "***Python package for the evaluation of odometry and SLAM***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "status": "candidate",
+      "text": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)"
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +182,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "MichaelGrupp/evo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

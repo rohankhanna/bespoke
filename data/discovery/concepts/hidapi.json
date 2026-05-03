@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "hidapi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate-context",
+      "text": "A Simple cross-platform library for communicating with HID devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate-context",
+      "text": "| CI instance | Status |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "todbot/hidapitester",
+      "status": "candidate-context",
+      "text": "Simple command-line program to test HIDAPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "todbot/hidapitester",
+      "status": "candidate-context",
+      "text": "Simple command-line program to exercise HIDAPI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate",
+      "text": "| CI instance | Status |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "todbot/hidapitester",
+      "status": "candidate",
+      "text": "Simple command-line program to exercise HIDAPI"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hidapi",
+  "concept_id": "hidapi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "libusb/hidapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "todbot/hidapitester"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hidapi",
+      "sense_id": "hidapi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

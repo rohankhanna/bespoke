@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JolifantoBambla/vk-samples",
+      "target": "jolifantobambla/varjo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JolifantoBambla/vk-samples",
+      "target": "cbaggers/varjo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JolifantoBambla/vk-samples",
+      "target": "khronosgroup/vulkan-hpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:50:38.537274+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Samples for vk (Common Lisp/CFFI bindings for the Vulkan API).",
+    "fork": false,
+    "full_name": "JolifantoBambla/vk-samples",
+    "html_url": "https://github.com/JolifantoBambla/vk-samples",
+    "language": "Common Lisp",
+    "pushed_at": "2022-02-23T21:39:22Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2024-05-10T20:40:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cbaggers/varjo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jolifantobambla/varjo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/vulkan-hpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

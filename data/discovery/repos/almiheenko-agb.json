@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:54:27.714617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1540
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " Interactive visualization of assembly graphs",
+    "fork": false,
+    "full_name": "almiheenko/AGB",
+    "html_url": "https://github.com/almiheenko/AGB",
+    "language": "JavaScript",
+    "pushed_at": "2022-04-02T22:19:15Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2026-03-31T19:18:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

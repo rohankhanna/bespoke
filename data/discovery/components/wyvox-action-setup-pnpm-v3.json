@@ -1,7 +1,7 @@
 {
   "component": "wyvox/action-setup-pnpm@v3",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "glimmerjs/glimmer-vm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "proposal-signals/signal-utils"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "proposal-signals/signal-utils"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "proposal-signals/signal-utils"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "proposal-signals/signal-polyfill"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "proposal-signals/signal-polyfill"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "proposal-signals/signal-polyfill"
     }
   ]
 }

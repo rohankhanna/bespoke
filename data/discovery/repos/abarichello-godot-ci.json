@@ -1,0 +1,571 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v0.1.14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "docker/login-action@v1.14.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "docker/login-action@v1.14.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v1.14.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v1.14.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abarichello/godot-ci",
+      "target": "2shady4u/godot-cpp-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "abarichello/godot-ci",
+      "target": "godotengine/godot-builds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "softprops/action-gh-release@v0.1.14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-release.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "Check Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/godot-ci.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "godot-ci export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "docker/login-action@v1.14.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_build.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "docker/build-push-action@v2.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual_build.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "Manual Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "docker/login-action@v1.14.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "docker/build-push-action@v2.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abarichello/godot-ci",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "ci-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "github-page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "gitlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "gitlab-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "gitlab-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "godot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "godot-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:56:06.232819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7201
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4296
+    },
+    {
+      "path": ".github/workflows/check-release.yml",
+      "size": 1620
+    },
+    {
+      "path": ".github/workflows/godot-ci.yml",
+      "size": 4095
+    },
+    {
+      "path": ".github/workflows/manual_build.yml",
+      "size": 5949
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 4097
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker image to export Godot Engine games. Templates for Gitlab CI and GitHub Actions to deploy to GitLab Pages/GitHub Pages/Itch.io.",
+    "fork": false,
+    "full_name": "abarichello/godot-ci",
+    "html_url": "https://github.com/abarichello/godot-ci",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-01T23:57:33Z",
+    "stargazers_count": 1073,
+    "topics": [
+      "ci-cd",
+      "docker",
+      "dockerfile",
+      "github-actions",
+      "github-page",
+      "github-pages",
+      "gitlab",
+      "gitlab-ci",
+      "gitlab-pages",
+      "godot",
+      "godot-engine",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-05-02T10:18:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2shady4u/godot-cpp-ci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "godotengine/godot-builds",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Check Releases\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-release.yml",
+      "term": "Check Releases"
+    },
+    {
+      "context_snippet": "\"godot-ci export\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/godot-ci.yml",
+      "term": "godot-ci export"
+    },
+    {
+      "context_snippet": "Manual Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual_build.yml",
+      "term": "Manual Build"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ci-cd"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfile"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-page"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-pages"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab-ci"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab-pages"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-engine"
+    },
+    {
+      "context_snippet": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

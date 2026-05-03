@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A flask extension for managing permissions and scopes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A simple flask extension to organize resource authorization and scoping. This extension is heavily inspired by the ruby Pundit library."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A simple flask extension to organize resource authorization and scoping. This extension is heavily inspired by the ruby Pundit library."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050606,
+      "status": "candidate",
+      "text": "permit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045328,
+      "status": "candidate",
+      "text": "license"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "allowances"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "approvals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "authorisations"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "permissions",
+      "sense_id": "permissions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "permissions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "permissions",
+  "observation_id": "b2a42849f6d7781d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "permissions",
+  "source_context_snippet": "A simple flask extension to organize resource authorization and scoping. This extension is heavily inspired by the ruby Pundit library.",
+  "source_file": null,
+  "source_repo": "anurag90x/flask-pundit",
+  "source_repo_description": "A flask extension for managing permissions and scopes"
+}

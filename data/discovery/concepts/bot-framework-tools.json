@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "bot-framework-tools"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "status": "candidate-context",
+      "text": "Part of the Bot Builder Community Project. Repository for tools relating to bot development using the Microsoft Bot Builder SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "status": "candidate-context",
+      "text": "This repository is part of the Bot Builder Community Project and contains Tools for use when building solutions with the Bot Builder SDKs. Other repos within the Bot Builder Community Project exist for extensions for [.NET](https://github.com/BotBuilderCommunity/botbuilder-commu\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "status": "candidate",
+      "text": "This repository is part of the Bot Builder Community Project and contains Tools for use when building solutions with the Bot Builder SDKs. Other repos within the Bot Builder Community Project exist for extensions for [.NET](https://github.com/BotBuilderCommunity/botbuilder-commu\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bot-framework-tools",
+  "concept_id": "bot-framework-tools",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bot-framework-tools",
+      "sense_id": "bot-framework-tools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

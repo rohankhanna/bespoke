@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "semantic-kitti"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] \"MonoScene: Monocular 3D Semantic Scene Completion\": 3D Semantic Occupancy Prediction from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate-context",
+      "text": "**MonoScene: Monocular 3D Semantic Scene Completion**\\"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate-context",
+      "text": "[IJCAI 2024]Official PyTorch Implementation of Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate-context",
+      "text": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\"."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate",
+      "text": "**MonoScene: Monocular 3D Semantic Scene Completion**\\"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate",
+      "text": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\"."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "semantic-kitti",
+  "concept_id": "semantic-kitti",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "semantic-kitti",
+      "sense_id": "semantic-kitti#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

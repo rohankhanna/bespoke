@@ -72,6 +72,18 @@
       "source_repo": "animelover1984/youtube-dl",
       "status": "candidate-context",
       "text": "Windows Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/AirSim",
+      "status": "candidate-context",
+      "text": "Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/AirSim",
+      "status": "candidate-context",
+      "text": "Windows Build"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "animelover1984/youtube-dl",
+      "status": "candidate",
+      "text": "Windows Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/AirSim",
       "status": "candidate",
       "text": "Windows Build"
     }
@@ -225,11 +243,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test_windows.yml",
+      "source_repo": "microsoft/AirSim"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

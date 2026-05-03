@@ -79,6 +79,42 @@
       "source_repo": "fnproject/fdk-java",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate-context",
+      "text": "Plugin for Serverless Framework to allow users to deploy their serverless applications on Scaleway Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate-context",
+      "text": "Plugin for using Scaleway [Serverless Functions](https://www.scaleway.com/en/serverless-functions/) and [Serverless Containers](https://www.scaleway.com/en/serverless-containers/) with [Serverless Framework](https://github.com/oss-serverless/serverless)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-functions-go",
+      "status": "candidate-context",
+      "text": "Scaleway Serverless Functions (FaaS) framework to increase developer experience, local testing and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-go",
+      "status": "candidate-context",
+      "text": "[![build-and-test](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml/badge.svg)](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate-context",
+      "text": "Offline testing for Scaleway Serverless Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate-context",
+      "text": "![Tests](https://github.com/scaleway/serverless-functions-node/actions/workflows/tests.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "fnproject/fdk-java",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate",
+      "text": "Plugin for using Scaleway [Serverless Functions](https://www.scaleway.com/en/serverless-functions/) and [Serverless Containers](https://www.scaleway.com/en/serverless-containers/) with [Serverless Framework](https://github.com/oss-serverless/serverless)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-go",
+      "status": "candidate",
+      "text": "[![build-and-test](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml/badge.svg)](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate",
+      "text": "![Tests](https://github.com/scaleway/serverless-functions-node/actions/workflows/tests.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +250,29 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "fnproject/fdk-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-scaleway-functions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-node"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

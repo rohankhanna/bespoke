@@ -1667,6 +1667,102 @@
       "source_repo": "apache/iceberg-cpp",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentscope-ai/ReMe",
+      "status": "candidate-context",
+      "text": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/ReMe",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "status": "candidate-context",
+      "text": "A Feedback-Driven Suite for Multimodal Data-Model Co-development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "status": "candidate-context",
+      "text": "Collections of robotics environments geared towards benchmarking multi-task and meta reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stable-haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "HLS repo for building ghcup distribution binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stable-haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Layered configuration system for Rust applications (with strong support for 12-factor applications). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reginald-mclean/Metaworld",
+      "status": "candidate-context",
+      "text": "Collections of robotics environments geared towards benchmarking multi-task and meta reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reginald-mclean/Metaworld",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate-context",
+      "text": "A collection of LS_COLORS definitions; needs your contribution!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/quart",
+      "status": "candidate-context",
+      "text": "An async Python micro framework for building web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/quart",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -2507,6 +2603,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/iceberg-cpp",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentscope-ai/ReMe",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stable-haskell/haskell-language-server",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reginald-mclean/Metaworld",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/quart",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -3830,11 +3974,113 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "apache/iceberg-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "agentscope-ai/ReMe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "agentscope-ai/Trinity-RFT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Farama-Foundation/Metaworld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/run_pre_commit.yaml",
+      "source_repo": "marin-community/levanter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "stable-haskell/haskell-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "rust-cli/config-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "reginald-mclean/Metaworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre_commit.yaml",
+      "source_repo": "trapd00r/LS_COLORS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/quart"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

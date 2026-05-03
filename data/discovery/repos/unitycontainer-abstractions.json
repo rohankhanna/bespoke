@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "nuget/setup-nuget@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "unitycontainer/abstractions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "unitycontainer/abstractions",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "unitycontainer/abstractions",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "unitycontainer/abstractions",
+      "target": "nuget/setup-nuget@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "unitycontainer/abstractions",
+      "target": "Regression Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:53:30.363360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1312
+    },
+    {
+      "path": ".github/workflows/regression.yml",
+      "size": 4190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unity.Abstractions package ",
+    "fork": false,
+    "full_name": "unitycontainer/abstractions",
+    "html_url": "https://github.com/unitycontainer/abstractions",
+    "language": null,
+    "pushed_at": "2023-07-28T12:13:11Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2025-01-20T13:26:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Regression Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression.yml",
+      "term": "Regression Tests"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dovecoteescapee/ByeDPIAndroid",
+      "target": "hufrea/byedpi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dovecoteescapee/ByeDPIAndroid",
+      "target": "machiav3lli/oandbackupx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dovecoteescapee/ByeDPIAndroid",
+      "target": "imranr98/obtainium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dovecoteescapee/ByeDPIAndroid",
+      "target": "anticensorship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dovecoteescapee/ByeDPIAndroid",
+      "target": "censorship-circumvention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dovecoteescapee/ByeDPIAndroid",
+      "target": "deep-packet-inspection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:53.149678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "App to bypass censorship on Android",
+    "fork": false,
+    "full_name": "dovecoteescapee/ByeDPIAndroid",
+    "html_url": "https://github.com/dovecoteescapee/ByeDPIAndroid",
+    "language": "Kotlin",
+    "pushed_at": "2024-09-05T06:01:40Z",
+    "stargazers_count": 5267,
+    "topics": [
+      "anticensorship",
+      "censorship-circumvention",
+      "deep-packet-inspection",
+      "dpi"
+    ],
+    "updated_at": "2026-05-03T04:28:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hufrea/byedpi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imranr98/obtainium",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "machiav3lli/oandbackupx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**English** | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](README-ru.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anticensorship"
+    },
+    {
+      "context_snippet": "**English** | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](README-ru.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "censorship-circumvention"
+    },
+    {
+      "context_snippet": "**English** | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](README-ru.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-packet-inspection"
+    }
+  ]
+}

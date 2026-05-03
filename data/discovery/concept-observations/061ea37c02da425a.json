@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "StandardRB Action: A GitHub Action to run StandardRB against your code!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985619,
+      "status": "candidate",
+      "text": "activity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984262,
+      "status": "candidate",
+      "text": "activeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962994,
+      "status": "candidate",
+      "text": "legal action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986269,
+      "status": "candidate",
+      "text": "action at law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986269,
+      "status": "candidate",
+      "text": "military action"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "action",
+      "sense_id": "action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17058,
+      "status": "candidate",
+      "text": "activity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4020,
+      "status": "candidate",
+      "text": "legal action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "activeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2010,
+      "status": "candidate",
+      "text": "natural process"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "military action"
+    }
+  ],
+  "concept_id": "action",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "action",
+  "observation_id": "061ea37c02da425a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "action",
+  "source_context_snippet": "> [!CAUTION]",
+  "source_file": null,
+  "source_repo": "andrewmcodes/standardrb-action",
+  "source_repo_description": "StandardRB Action: A GitHub Action to run StandardRB against your code!"
+}

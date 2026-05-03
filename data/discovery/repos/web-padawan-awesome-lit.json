@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-padawan/awesome-lit",
+      "target": "aggre/ullr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-padawan/awesome-lit",
+      "target": "agnosticui/agnosticui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-padawan/awesome-lit",
+      "target": "1-platform/op-components",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-padawan/awesome-lit",
+      "target": "alangdm/helium-animated-pages",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-padawan/awesome-lit",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-padawan/awesome-lit",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-padawan/awesome-lit",
+      "target": "lit-html",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:44:39.588233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of awesome Lit resources.",
+    "fork": false,
+    "full_name": "web-padawan/awesome-lit",
+    "html_url": "https://github.com/web-padawan/awesome-lit",
+    "language": null,
+    "pushed_at": "2026-04-22T07:36:37Z",
+    "stargazers_count": 1712,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "lit-html"
+    ],
+    "updated_at": "2026-04-30T13:22:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1-platform/op-components",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aggre/ullr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agnosticui/agnosticui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alangdm/helium-animated-pages",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> A curated list of awesome Lit resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "> A curated list of awesome Lit resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "> A curated list of awesome Lit resources.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lit-html"
+    }
+  ]
+}

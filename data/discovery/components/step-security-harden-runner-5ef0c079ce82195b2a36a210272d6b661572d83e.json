@@ -1,0 +1,42 @@
+{
+  "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "halostatue/diff-lcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yml",
+      "source_repo": "halostatue/diff-lcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "halostatue/diff-lcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "halostatue/diff-lcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "halostatue/diff-lcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "halostatue/diff-lcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "halostatue/diff-lcs"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cokebar/gfwlist2dnsmasq",
+      "target": "dnsmasq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cokebar/gfwlist2dnsmasq",
+      "target": "gfwlist",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:05:02.092859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A shell script which convert gfwlist into dnsmasq rules. Python version: https://github.com/cokebar/gfwlist2dnsmasq_python",
+    "fork": false,
+    "full_name": "cokebar/gfwlist2dnsmasq",
+    "html_url": "https://github.com/cokebar/gfwlist2dnsmasq",
+    "language": "Shell",
+    "pushed_at": "2024-06-25T13:02:01Z",
+    "stargazers_count": 899,
+    "topics": [
+      "dnsmasq",
+      "gfwlist"
+    ],
+    "updated_at": "2026-04-28T03:24:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A shell script which convert gfwlist into dnsmasq rules.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnsmasq"
+    },
+    {
+      "context_snippet": "A shell script which convert gfwlist into dnsmasq rules.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gfwlist"
+    }
+  ]
+}

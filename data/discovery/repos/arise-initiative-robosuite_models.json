@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:44:23.503342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1817
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 870
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of robot models tailored to robosuite. ",
+    "fork": false,
+    "full_name": "ARISE-Initiative/robosuite_models",
+    "html_url": "https://github.com/ARISE-Initiative/robosuite_models",
+    "language": "Python",
+    "pushed_at": "2024-10-30T20:11:52Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-04-27T15:16:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -79,6 +79,18 @@
       "source_repo": "webpack/css-loader",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/style-loader",
+      "status": "candidate-context",
+      "text": "Style Loader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/style-loader",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "webpack/css-loader",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/style-loader",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "webpack/css-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "webpack/style-loader"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

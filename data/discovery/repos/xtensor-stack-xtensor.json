@@ -93,27 +93,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xtensor-stack/xtensor",
-      "target": "xtensor-stack/xtensor-python",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xtensor-stack/xtensor",
-      "target": "xtensor-stack/xtensor.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "xtensor-stack/xtensor",
-      "target": "xtensor-stack/xtensor-r",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "xtensor-stack/xtensor",
@@ -317,7 +296,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T19:46:35.167798+00:00",
+  "fetched_at": "2026-05-03T02:55:24.535587+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -371,23 +350,7 @@
     ],
     "updated_at": "2026-05-02T16:10:12Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xtensor-stack/xtensor-python",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xtensor-stack/xtensor-r",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xtensor-stack/xtensor.jl",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "benchmarks",

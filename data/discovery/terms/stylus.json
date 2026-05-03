@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "kenangundogan/fontisto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ng-packagr/ng-packagr"
     }
   ],
   "term": "stylus"

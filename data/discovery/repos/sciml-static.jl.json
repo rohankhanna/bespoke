@@ -1,0 +1,411 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downgrade.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downgrade.yml"
+    },
+    {
+      "component": "julia-actions/julia-downgrade-compat@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downgrade.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downgrade.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downgrade.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml"
+    },
+    {
+      "component": "fredrikekre/runic-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.18.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SciML/Static.jl",
+      "target": "perrutquist/staticnumbers.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downgrade.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downgrade.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downgrade.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "julia-actions/julia-downgrade-compat@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downgrade.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downgrade.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Downgrade.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "Downgrade",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "IntegrationTest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "fredrikekre/runic-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "format-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "crate-ci/typos@v1.18.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "Spell Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SciML/Static.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:05:08.578950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2114
+    },
+    {
+      "path": ".github/workflows/Downgrade.yml",
+      "size": 690
+    },
+    {
+      "path": ".github/workflows/Downstream.yml",
+      "size": 2744
+    },
+    {
+      "path": ".github/workflows/FormatCheck.yml",
+      "size": 294
+    },
+    {
+      "path": ".github/workflows/SpellCheck.yml",
+      "size": 273
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Static types useful for dispatch and generated functions.",
+    "fork": false,
+    "full_name": "SciML/Static.jl",
+    "html_url": "https://github.com/SciML/Static.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-28T21:16:12Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-04-28T21:02:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "perrutquist/staticnumbers.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Downgrade",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Downgrade.yml",
+      "term": "Downgrade"
+    },
+    {
+      "context_snippet": "IntegrationTest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Downstream.yml",
+      "term": "IntegrationTest"
+    },
+    {
+      "context_snippet": "format-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FormatCheck.yml",
+      "term": "format-check"
+    },
+    {
+      "context_snippet": "Spell Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SpellCheck.yml",
+      "term": "Spell Check"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    }
+  ]
+}

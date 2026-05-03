@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "fzyzcjy/flutter_rust_bridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "flutter-actions/setup-flutter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "SimonMarquis/android-accept-licenses@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "ilharp/sign-android-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "jungwinter/split@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "ardalanamini/auto-changelog@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "mad9000/actions-find-and-replace-string@5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "ncipollo/release-action@v1.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "Release OSS (APK)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViscousPot/GitSync",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViscousPot/GitSync",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViscousPot/GitSync",
+      "target": "sync",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "ViscousPot/GitSync"
+}

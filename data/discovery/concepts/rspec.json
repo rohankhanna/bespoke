@@ -46,6 +46,18 @@
       "source_repo": "DmitryTsepelev/store_model",
       "status": "candidate-context",
       "text": "RSpec"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "A set of RSpec matchers for testing Pundit authorisation policies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "[![Gem Version][version-badge]][rubygems]"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "DmitryTsepelev/store_model",
       "status": "candidate",
       "text": "RSpec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate",
+      "text": "[![Gem Version][version-badge]][rubygems]"
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +145,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/rspec.yml",
       "source_repo": "DmitryTsepelev/store_model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "murmour/mparser",
+      "target": "murmour/mparser.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:53:04.347062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3314
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple monadic parser combinator library for OCaml",
+    "fork": false,
+    "full_name": "murmour/mparser",
+    "html_url": "https://github.com/murmour/mparser",
+    "language": "OCaml",
+    "pushed_at": "2022-08-01T05:34:47Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2025-10-15T23:53:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "murmour/mparser.",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

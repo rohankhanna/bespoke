@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "actions/setup-python@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "Deploy Sphinx documentation to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "pypa/hatch@install",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "Publish PyPi Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-partial.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-partial.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test-partial.yml",
+      "source_repo": "datajuicer/data-juicer-sandbox",
+      "target": "unittest-partial",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "datajuicer/data-juicer-sandbox"
+}

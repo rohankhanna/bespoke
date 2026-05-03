@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An example of a CRC-32 based error-correcting block device backed by RAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An example of a CRC-32 based error-correcting block device backed by RAM."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An example of a CRC-32 based error-correcting block device backed by RAM."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29926181,
+      "status": "candidate",
+      "text": "mcu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023290,
+      "status": "candidate",
+      "text": "microcomputer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023289,
+      "status": "candidate",
+      "text": "micro-processor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023288,
+      "status": "candidate",
+      "text": "microprocessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023287,
+      "status": "candidate",
+      "text": "microcomputing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "microcontroller",
+      "sense_id": "microcontroller#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "microcontroller",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "microcontroller",
+  "observation_id": "26b7e4bfb6e27003",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "microcontroller",
+  "source_context_snippet": "An example of a CRC-32 based error-correcting block device backed by RAM.",
+  "source_file": null,
+  "source_repo": "littlefs-project/ramcrc32bd",
+  "source_repo_description": "An example of a CRC-32 based error-correcting block device backed by RAM"
+}

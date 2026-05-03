@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "hacker news mobile app made with reason react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reason React Hacker News"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reason React Hacker News"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991259,
+      "status": "candidate",
+      "text": "cause"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989752,
+      "status": "candidate",
+      "text": "rationality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988698,
+      "status": "candidate",
+      "text": "understanding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988540,
+      "status": "candidate",
+      "text": "reasonableness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986488,
+      "status": "candidate",
+      "text": "intellect"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reason",
+      "sense_id": "reason#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39041,
+      "status": "candidate",
+      "text": "understanding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23074,
+      "status": "candidate",
+      "text": "ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22058,
+      "status": "candidate",
+      "text": "cause"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13045,
+      "status": "candidate",
+      "text": "intellect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13032,
+      "status": "candidate",
+      "text": "conclude"
+    }
+  ],
+  "concept_id": "reason",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reason",
+  "observation_id": "3ee144b80a22e2a6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "reason",
+  "source_context_snippet": "Reason React Hacker News",
+  "source_file": null,
+  "source_repo": "reasonml-community/reason-react-hacker-news",
+  "source_repo_description": "hacker news mobile app made with reason react"
+}

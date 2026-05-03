@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Client / Server Model for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/docs)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/docs)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952072,
+      "status": "candidate",
+      "text": "papers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39942043,
+      "status": "candidate",
+      "text": "text file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966484,
+      "status": "candidate",
+      "text": "written document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966483,
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966450,
+      "status": "candidate",
+      "text": "backgrounder"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "document",
+      "sense_id": "document#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5030,
+      "status": "candidate",
+      "text": "papers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "text file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "written document"
+    }
+  ],
+  "concept_id": "document",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "document",
+  "observation_id": "3996d71bee4e3a5e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "document",
+  "source_context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/docs)",
+  "source_file": null,
+  "source_repo": "csm-actions/docs",
+  "source_repo_description": "Client / Server Model for GitHub Actions"
+}

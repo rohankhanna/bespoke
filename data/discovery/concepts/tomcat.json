@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "tomcat"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/webapp-runner",
+      "status": "candidate-context",
+      "text": "Lightweight Application Launcher. Launch your webapp in the most popular open source web container available with a single command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/webapp-runner",
+      "status": "candidate-context",
+      "text": "Webapp Runner is designed to allow you to launch an exploded or compressed war that is on your filesystem into a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/webapp-runner",
+      "status": "candidate",
+      "text": "Webapp Runner is designed to allow you to launch an exploded or compressed war that is on your filesystem into a"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032462,
+      "status": "candidate",
+      "text": "tom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032638,
+      "status": "candidate",
+      "text": "ram-cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032637,
+      "status": "candidate",
+      "text": "she-cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032636,
+      "status": "candidate",
+      "text": "ingle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032635,
+      "status": "candidate",
+      "text": "tonk"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9052,
+      "status": "candidate",
+      "text": "tom"
+    }
+  ],
+  "canonical_name": "tomcat",
+  "concept_id": "tomcat",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heroku/webapp-runner"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tomcat",
+      "sense_id": "tomcat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

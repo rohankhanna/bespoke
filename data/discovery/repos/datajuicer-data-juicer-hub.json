@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-hub",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-hub",
+      "target": "actions/setup-python@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-hub",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-hub",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-hub",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-hub",
+      "target": "Deploy Sphinx documentation to Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:42:10.191713+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1268
+    },
+    {
+      "path": ".github/workflows/deploy_sphinx_docs.yml",
+      "size": 3099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Community-driven data-juicer recipes and best practices for various pre-training/fine-tuning tasks.",
+    "fork": false,
+    "full_name": "datajuicer/data-juicer-hub",
+    "html_url": "https://github.com/datajuicer/data-juicer-hub",
+    "language": null,
+    "pushed_at": "2026-02-12T09:46:27Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-16T01:20:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy Sphinx documentation to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "term": "Deploy Sphinx documentation to Pages"
+    }
+  ]
+}

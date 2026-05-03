@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/LightningDiT",
+      "target": "minimax-ai/vtp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/LightningDiT",
+      "target": "willisma/sit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:46.816073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7380
+    },
+    {
+      "path": "requirements.txt",
+      "size": 371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2025 Oral] Reconstruction vs. Generation: Taming Optimization Dilemma in Latent Diffusion Models",
+    "fork": false,
+    "full_name": "hustvl/LightningDiT",
+    "html_url": "https://github.com/hustvl/LightningDiT",
+    "language": "Python",
+    "pushed_at": "2025-12-16T06:42:41Z",
+    "stargazers_count": 1457,
+    "topics": [],
+    "updated_at": "2026-05-02T12:11:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minimax-ai/vtp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "willisma/sit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

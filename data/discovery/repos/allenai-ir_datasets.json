@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/ir_datasets",
+      "target": "seanmacavaney/ir-datasets.com",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "allenai/ir_datasets",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "allenai/ir_datasets",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "allenai/ir_datasets",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "allenai/ir_datasets",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "allenai/ir_datasets",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "allenai/ir_datasets",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/ir_datasets",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/ir_datasets",
+      "target": "information-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:47:48.664219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11554
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1898
+    },
+    {
+      "path": "requirements.txt",
+      "size": 89
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 576
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Provides a common interface to many IR ranking datasets.",
+    "fork": false,
+    "full_name": "allenai/ir_datasets",
+    "html_url": "https://github.com/allenai/ir_datasets",
+    "language": "Python",
+    "pushed_at": "2026-04-10T14:19:50Z",
+    "stargazers_count": 389,
+    "topics": [
+      "dataset",
+      "information-retrieval",
+      "ir"
+    ],
+    "updated_at": "2026-04-28T09:27:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seanmacavaney/ir-datasets.com",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "`ir_datasets` is a python package that provides a common interface to many IR ad-hoc ranking",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "`ir_datasets` is a python package that provides a common interface to many IR ad-hoc ranking",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    }
+  ]
+}

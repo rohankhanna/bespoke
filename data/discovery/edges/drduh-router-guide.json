@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "drduh/Router-Guide",
-      "target": "stevenblack/hosts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "drduh/Router-Guide",
       "target": "elad/openbsd-apu2",
       "target_type": "repository"
     },
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "drduh/Router-Guide",
       "target": "martinbaillie/homebrew-openbsd-pcengines-router",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "drduh/Router-Guide",
+      "target": "vedetta-com/vedetta",
       "target_type": "repository"
     },
     {
@@ -120,6 +120,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "drduh/Router-Guide"
 }

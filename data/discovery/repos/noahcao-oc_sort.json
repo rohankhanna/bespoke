@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "noahcao/OC_SORT",
+      "target": "gerardmaggiolino/deep-oc-sort",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "noahcao/OC_SORT",
+      "target": "rlabbe/filterpy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "noahcao/OC_SORT",
+      "target": "ifzhang/bytetrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "noahcao/OC_SORT",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "noahcao/OC_SORT",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "noahcao/OC_SORT",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "noahcao/OC_SORT",
+      "target": "object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "noahcao/OC_SORT",
+      "target": "tracking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:31.505789+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6047
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2367
+    },
+    {
+      "path": "requirements.txt",
+      "size": 316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR2023] The official repo for OC-SORT: Observation-Centric SORT on video Multi-Object Tracking. OC-SORT is simple, online and robust to occlusion/non-linear motion.",
+    "fork": false,
+    "full_name": "noahcao/OC_SORT",
+    "html_url": "https://github.com/noahcao/OC_SORT",
+    "language": "Python",
+    "pushed_at": "2026-04-21T23:31:34Z",
+    "stargazers_count": 1088,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "object-detection",
+      "object-tracking",
+      "tracking"
+    ],
+    "updated_at": "2026-05-01T17:41:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gerardmaggiolino/deep-oc-sort",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ifzhang/bytetrack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rlabbe/filterpy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-tracking"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking"
+    }
+  ]
+}

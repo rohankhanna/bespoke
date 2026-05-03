@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "sgpt"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Muennighoff/sgpt",
+      "status": "candidate-context",
+      "text": "SGPT: GPT Sentence Embeddings for Semantic Search"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Muennighoff/sgpt",
+      "status": "candidate-context",
+      "text": "This repository contains code, results & pre-trained models for the paper [SGPT: GPT Sentence Embeddings for Semantic Search](https://arxiv.org/abs/2202.08904)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Muennighoff/sgpt",
+      "status": "candidate",
+      "text": "This repository contains code, results & pre-trained models for the paper [SGPT: GPT Sentence Embeddings for Semantic Search](https://arxiv.org/abs/2202.08904)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "sgot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14999,
+      "status": "candidate",
+      "text": "scot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14998,
+      "status": "candidate",
+      "text": "ldh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14997,
+      "status": "candidate",
+      "text": "bun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14996,
+      "status": "candidate",
+      "text": "phosphatase"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "sgpt",
+  "concept_id": "sgpt",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Muennighoff/sgpt"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sgpt",
+      "sense_id": "sgpt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

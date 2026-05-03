@@ -1,0 +1,337 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "coil-kt/coil",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "coil-kt/coil",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "coil-kt/coil",
+      "target": "gradle/actions/wrapper-validation@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "coil-kt/coil",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "coil-kt/coil",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "coil-kt/coil",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coil-kt/coil",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coil-kt/coil",
+      "target": "androidx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coil-kt/coil",
+      "target": "compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coil-kt/coil",
+      "target": "compose-multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coil-kt/coil",
+      "target": "coroutines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coil-kt/coil",
+      "target": "image-loader",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coil-kt/coil",
+      "target": "images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coil-kt/coil",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coil-kt/coil",
+      "target": "kotlin-coroutines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coil-kt/coil",
+      "target": "okio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:48.303434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2066
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7785
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Image loading for Android and Compose Multiplatform.",
+    "fork": false,
+    "full_name": "coil-kt/coil",
+    "html_url": "https://github.com/coil-kt/coil",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-29T07:39:02Z",
+    "stargazers_count": 11776,
+    "topics": [
+      "android",
+      "androidx",
+      "compose",
+      "compose-multiplatform",
+      "coroutines",
+      "image-loader",
+      "images",
+      "kotlin",
+      "kotlin-coroutines",
+      "okio"
+    ],
+    "updated_at": "2026-05-02T23:58:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ufeff![Coil](logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "\ufeff![Coil](logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "androidx"
+    },
+    {
+      "context_snippet": "\ufeff![Coil](logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compose"
+    },
+    {
+      "context_snippet": "\ufeff![Coil](logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compose-multiplatform"
+    },
+    {
+      "context_snippet": "\ufeff![Coil](logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coroutines"
+    },
+    {
+      "context_snippet": "\ufeff![Coil](logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-loader"
+    },
+    {
+      "context_snippet": "\ufeff![Coil](logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "images"
+    },
+    {
+      "context_snippet": "\ufeff![Coil](logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "\ufeff![Coil](logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-coroutines"
+    },
+    {
+      "context_snippet": "\ufeff![Coil](logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "okio"
+    }
+  ]
+}

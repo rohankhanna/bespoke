@@ -912,6 +912,42 @@
       "source_repo": "alibaba/ChatLearn",
       "status": "candidate-context",
       "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stable-haskell/stack",
+      "status": "candidate-context",
+      "text": "The Haskell Tool Stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stable-haskell/stack",
+      "status": "candidate-context",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MohitShridhar/RLBench",
+      "status": "candidate-context",
+      "text": "A large-scale benchmark and learning environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MohitShridhar/RLBench",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "A python library for self-supervised learning on images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "Unit Tests"
     }
   ],
   "candidate_glosses": [
@@ -1374,6 +1410,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alibaba/ChatLearn",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stable-haskell/stack",
+      "status": "candidate",
+      "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MohitShridhar/RLBench",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
       "status": "candidate",
       "text": "Unit Tests"
     }
@@ -2384,11 +2438,89 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/unittest.yaml",
       "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "huggingface/sentence-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "stable-haskell/stack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/surya"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unittest-mac.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "MohitShridhar/RLBench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lightly-ai/lightly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "clj-commons/rewrite-clj"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

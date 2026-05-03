@@ -31,6 +31,18 @@
       "source_repo": "spacejam/sled",
       "status": "candidate-context",
       "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nozbe/WatermelonDB",
+      "status": "candidate-context",
+      "text": "\ud83c\udf49 Reactive & asynchronous database for powerful React and React Native apps \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nozbe/WatermelonDB",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "spacejam/sled",
       "status": "candidate",
       "text": "<table style=\"width:100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nozbe/WatermelonDB",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "spacejam/sled"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Nozbe/WatermelonDB"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

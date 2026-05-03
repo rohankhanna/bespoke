@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "callum-oakley/json5-rs",
+      "target": "google/serde_json5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "callum-oakley/json5-rs",
+      "target": "spyoungtech/json-five-rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:05:46.851035+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5318
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Rust JSON5 serializer and deserializer which speaks Serde.",
+    "fork": false,
+    "full_name": "callum-oakley/json5-rs",
+    "html_url": "https://github.com/callum-oakley/json5-rs",
+    "language": "Rust",
+    "pushed_at": "2026-02-07T15:06:44Z",
+    "stargazers_count": 232,
+    "topics": [],
+    "updated_at": "2026-04-08T15:26:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/serde_json5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spyoungtech/json-five-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

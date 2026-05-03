@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -416,6 +416,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/bump-version.yml",
       "source_repo": "leezng/vue-json-pretty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "calcom/docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "YuzukiTsuru/World.JS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "arcaputo3/mcp-server-whisper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "hashicorp/hcp-sdk-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/AutoCreateRelease.yml",
+      "source_repo": "nodemcu/nodemcu-firmware"
     }
   ],
   "term": "Create Release"

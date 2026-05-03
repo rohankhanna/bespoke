@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edwardzhou130/PolarSeg",
+      "target": "edwardzhou130/panoptic-polarnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edwardzhou130/PolarSeg",
+      "target": "miguelvr/dropblock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edwardzhou130/PolarSeg",
+      "target": "prbonn/semantic-kitti-api",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "edwardzhou130/PolarSeg"
+}

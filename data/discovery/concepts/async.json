@@ -619,6 +619,42 @@
       "source_repo": "tokio-rs/console",
       "status": "candidate-context",
       "text": "[![API Documentation(`main`)](https://img.shields.io/netlify/0e5ffd50-e1fa-416e-b147-a04dab28cfb1?label=docs%20%28main%29)][main-docs]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kotlin/kotlinx.coroutines",
+      "status": "candidate-context",
+      "text": "Library support for Kotlin coroutines "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.coroutines",
+      "status": "candidate-context",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "augmnt/augments-mcp-server",
+      "status": "candidate-context",
+      "text": "Comprehensive MCP server providing real-time framework documentation access for Claude Code with intelligent caching, multi-source integration, and context-aware assistance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "augmnt/augments-mcp-server",
+      "status": "candidate-context",
+      "text": "![Augments MCP Server](https://raw.githubusercontent.com/augmnt/augments-mcp-server/main/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-commons/manifold",
+      "status": "candidate-context",
+      "text": "A compatibility layer for event-driven abstractions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/manifold",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)"
     }
   ],
   "candidate_glosses": [
@@ -927,6 +963,24 @@
       "source_repo": "tokio-rs/console",
       "status": "candidate",
       "text": "[![API Documentation(`main`)](https://img.shields.io/netlify/0e5ffd50-e1fa-416e-b147-a04dab28cfb1?label=docs%20%28main%29)][main-docs]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kotlin/kotlinx.coroutines",
+      "status": "candidate",
+      "text": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "augmnt/augments-mcp-server",
+      "status": "candidate",
+      "text": "![Augments MCP Server](https://raw.githubusercontent.com/augmnt/augments-mcp-server/main/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/manifold",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)"
     }
   ],
   "candidate_related_terms": [
@@ -1390,11 +1444,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.coroutines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "augmnt/augments-mcp-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/manifold"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

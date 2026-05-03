@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dspinellis/latex-advice",
+      "target": "harshjv/travis-ci-latex-pdf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dspinellis/latex-advice",
+      "target": "dspinellis/bibtools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dspinellis/latex-advice",
+      "target": "derric/cleanthesis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dspinellis/latex-advice",
+      "target": "cxli233/friendsdontletfriends",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:16.934531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39349
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Advice for writing LaTeX documents",
+    "fork": false,
+    "full_name": "dspinellis/latex-advice",
+    "html_url": "https://github.com/dspinellis/latex-advice",
+    "language": "TeX",
+    "pushed_at": "2026-02-10T07:49:32Z",
+    "stargazers_count": 1276,
+    "topics": [],
+    "updated_at": "2026-04-25T10:18:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cxli233/friendsdontletfriends",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derric/cleanthesis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dspinellis/bibtools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harshjv/travis-ci-latex-pdf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

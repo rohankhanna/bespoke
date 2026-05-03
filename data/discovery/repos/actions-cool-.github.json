@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "actions-cool/.github",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "actions-cool/.github",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "actions-cool/.github",
+      "target": "Update Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions-cool/.github",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions-cool/.github",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions-cool/.github",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:50:37.357163+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 793
+    },
+    {
+      "path": "package.json",
+      "size": 51
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd16  Collection GitHub actions template. Can be used directly after fork. Come try.",
+    "fork": false,
+    "full_name": "actions-cool/.github",
+    "html_url": "https://github.com/actions-cool/.github",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-05T18:25:08Z",
+    "stargazers_count": 8,
+    "topics": [
+      "actions",
+      "template",
+      "workflow"
+    ],
+    "updated_at": "2026-04-09T10:33:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update Actions"
+    },
+    {
+      "context_snippet": "\ud83e\udd16 GitHub Actions workflow template.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "\ud83e\udd16 GitHub Actions workflow template.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "\ud83e\udd16 GitHub Actions workflow template.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

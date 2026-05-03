@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "browserslist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "browserslist/browserslist-rs",
+      "target": "browserslist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "browserslist/browserslist-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "browserslist/browserslist-rs",
+      "target": "pnpm/action-setup@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "browserslist/browserslist-rs",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:59.813117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1967
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1181
+    },
+    {
+      "path": "package.json",
+      "size": 223
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 1537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust-ported Browserslist.",
+    "fork": false,
+    "full_name": "browserslist/browserslist-rs",
+    "html_url": "https://github.com/browserslist/browserslist-rs",
+    "language": "Rust",
+    "pushed_at": "2026-01-15T11:40:08Z",
+    "stargazers_count": 148,
+    "topics": [],
+    "updated_at": "2026-04-13T20:42:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

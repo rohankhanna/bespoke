@@ -1,0 +1,168 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pellepl/spiffs",
+      "target": "nodemcu/nodemcu-firmware",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pellepl/spiffs",
+      "target": "pellepl/spiflash_driver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pellepl/spiffs",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pellepl/spiffs",
+      "target": "file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pellepl/spiffs",
+      "target": "file-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pellepl/spiffs",
+      "target": "flash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pellepl/spiffs",
+      "target": "spi-flash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pellepl/spiffs",
+      "target": "spiffs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pellepl/spiffs",
+      "target": "system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pellepl/spiffs",
+      "target": "wear-leveling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:48:08.435727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wear-leveled SPI flash file system for embedded devices",
+    "fork": false,
+    "full_name": "pellepl/spiffs",
+    "html_url": "https://github.com/pellepl/spiffs",
+    "language": "C",
+    "pushed_at": "2026-02-10T05:45:57Z",
+    "stargazers_count": 1613,
+    "topics": [
+      "embedded",
+      "file",
+      "file-system",
+      "flash",
+      "spi",
+      "spi-flash",
+      "spiffs",
+      "system",
+      "wear-leveling"
+    ],
+    "updated_at": "2026-05-01T13:41:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodemcu/nodemcu-firmware",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pellepl/spiflash_driver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**V0.3.7**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "**V0.3.7**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file"
+    },
+    {
+      "context_snippet": "**V0.3.7**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-system"
+    },
+    {
+      "context_snippet": "**V0.3.7**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flash"
+    },
+    {
+      "context_snippet": "**V0.3.7**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spi-flash"
+    },
+    {
+      "context_snippet": "**V0.3.7**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spiffs"
+    },
+    {
+      "context_snippet": "**V0.3.7**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "system"
+    },
+    {
+      "context_snippet": "**V0.3.7**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wear-leveling"
+    }
+  ]
+}

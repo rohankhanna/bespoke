@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:53:29.006533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A java progam to make open-beat-control work on a handy single-board-computer for livegigs etc. This project is based on Deep-Symmetry's great java-beat-control-example and currently in progress. So please be careful when you fork it! ",
+    "fork": true,
+    "full_name": "kokospalme/java-BC",
+    "html_url": "https://github.com/kokospalme/java-BC",
+    "language": "Java",
+    "pushed_at": "2024-04-02T09:31:35Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-05-28T00:39:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

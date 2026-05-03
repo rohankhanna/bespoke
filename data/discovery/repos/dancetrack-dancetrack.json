@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanceTrack/DanceTrack",
+      "target": "dvl-tum/sushi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanceTrack/DanceTrack",
+      "target": "dyhbupt/strongsort",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanceTrack/DanceTrack",
+      "target": "ifzhang/bytetrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DanceTrack/DanceTrack",
+      "target": "caowgg/centernet-condinst",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:26.291219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2022] DanceTrack: Multiple Object Tracking in Uniform Appearance and Diverse Motion",
+    "fork": false,
+    "full_name": "DanceTrack/DanceTrack",
+    "html_url": "https://github.com/DanceTrack/DanceTrack",
+    "language": "Python",
+    "pushed_at": "2026-03-19T21:25:46Z",
+    "stargazers_count": 457,
+    "topics": [],
+    "updated_at": "2026-04-27T06:47:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caowgg/centernet-condinst",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvl-tum/sushi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dyhbupt/strongsort",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ifzhang/bytetrack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

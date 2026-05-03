@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Inverse error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983593,
+      "status": "candidate",
+      "text": "operate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983046,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980444,
+      "status": "candidate",
+      "text": "purpose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979797,
+      "status": "candidate",
+      "text": "procedure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977290,
+      "status": "candidate",
+      "text": "work"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "function",
+      "sense_id": "function#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42067,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37054,
+      "status": "candidate",
+      "text": "procedure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29044,
+      "status": "candidate",
+      "text": "purpose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27083,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27060,
+      "status": "candidate",
+      "text": "use"
+    }
+  ],
+  "concept_id": "function",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "function",
+  "observation_id": "45fb1476a5ad5a6b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "function",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "stdlib-js/math-base-special-erfinv",
+  "source_repo_description": "Inverse error function."
+}

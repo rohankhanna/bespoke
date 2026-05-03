@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:57:33.692614+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Geometry based point cloud compression (G-PCC) Test Model (encoder and decoder)",
+    "fork": false,
+    "full_name": "MPEGGroup/mpeg-pcc-tmc13",
+    "html_url": "https://github.com/MPEGGroup/mpeg-pcc-tmc13",
+    "language": "C++",
+    "pushed_at": "2023-10-20T08:20:34Z",
+    "stargazers_count": 253,
+    "topics": [],
+    "updated_at": "2026-04-24T22:06:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

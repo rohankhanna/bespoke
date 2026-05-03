@@ -415,6 +415,54 @@
       "source_repo": "istio/istio",
       "status": "candidate-context",
       "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adalkiran/go-inventa",
+      "status": "candidate-context",
+      "text": "A Go library for microservice registry and executing RPC (Remote Procedure Call) over Redis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/go-inventa",
+      "status": "candidate-context",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adalkiran/inventa-examples",
+      "status": "candidate-context",
+      "text": "Cross-language example projects to demonstrate how Inventa works and how to use it as microservice registry and for executing RPC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/inventa-examples",
+      "status": "candidate-context",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adalkiran/py-inventa",
+      "status": "candidate-context",
+      "text": "A Python library for microservice registry and executing RPC (Remote Procedure Call) over Redis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/py-inventa",
+      "status": "candidate-context",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nats-io/nats.rs",
+      "status": "candidate-context",
+      "text": "Rust client for NATS, the cloud native messaging system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nats-io/nats.rs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +669,30 @@
       "source_repo": "istio/istio",
       "status": "candidate",
       "text": "[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1395/badge)](https://bestpractices.coreinfrastructure.org/projects/1395)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/go-inventa",
+      "status": "candidate",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/inventa-examples",
+      "status": "candidate",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/py-inventa",
+      "status": "candidate",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nats-io/nats.rs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -958,11 +1030,47 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vany0114/chaos-injection-using-simmy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adalkiran/inventa-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nats-io/nats.rs"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

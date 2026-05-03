@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "juliagraphics/colors.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "juliagraphics/colorvectorspace.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "juliamath/fixedpointnumbers.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "target": "Unit test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:56:29.369300+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13300
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 826
+    },
+    {
+      "path": ".github/workflows/UnitTest.yml",
+      "size": 1569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Basic color definitions and traits ",
+    "fork": false,
+    "full_name": "JuliaGraphics/ColorTypes.jl",
+    "html_url": "https://github.com/JuliaGraphics/ColorTypes.jl",
+    "language": "Julia",
+    "pushed_at": "2025-11-24T18:42:25Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2025-11-12T13:00:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliagraphics/colors.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliagraphics/colorvectorspace.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliamath/fixedpointnumbers.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Unit test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "term": "Unit test"
+    }
+  ]
+}

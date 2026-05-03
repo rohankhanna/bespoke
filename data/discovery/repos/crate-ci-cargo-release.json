@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -81,7 +81,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -96,7 +96,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -126,7 +126,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -146,7 +146,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -161,7 +161,7 @@
       "source_file": ".github/workflows/committed.yml"
     },
     {
-      "component": "crate-ci/committed@1d1206eea4a6ad5ab10ac446d05f2ed1987965aa",
+      "component": "crate-ci/committed@faeed42f2e10c244533a01525f13c4d8b6ce383f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/committed.yml"
     },
@@ -206,7 +206,7 @@
       "source_file": ".github/workflows/rust-next.yml"
     },
     {
-      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-next.yml"
     },
@@ -226,7 +226,7 @@
       "source_file": ".github/workflows/rust-next.yml"
     },
     {
-      "component": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-next.yml"
     },
@@ -241,7 +241,7 @@
       "source_file": ".github/workflows/spelling.yml"
     },
     {
-      "component": "crate-ci/typos@52940116a3ef7d561b8e27ca5b90db8c8c73b2b5",
+      "component": "crate-ci/typos@bbaefadf97b0ec5fdc942684b647f1a6ab250274",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/spelling.yml"
     }
@@ -300,7 +300,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "target_type": "component"
     },
     {
@@ -335,7 +335,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/committed.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "crate-ci/committed@1d1206eea4a6ad5ab10ac446d05f2ed1987965aa",
+      "target": "crate-ci/committed@faeed42f2e10c244533a01525f13c4d8b6ce383f",
       "target_type": "component"
     },
     {
@@ -405,7 +405,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rust-next.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "Swatinem/rust-cache@e18b497796c12c097a38f9edb9d0641fb99eee32",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
       "target_type": "component"
     },
     {
@@ -433,7 +433,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/spelling.yml",
       "source_repo": "crate-ci/cargo-release",
-      "target": "crate-ci/typos@52940116a3ef7d561b8e27ca5b90db8c8c73b2b5",
+      "target": "crate-ci/typos@bbaefadf97b0ec5fdc942684b647f1a6ab250274",
       "target_type": "component"
     },
     {
@@ -465,7 +465,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T19:10:59.577024+00:00",
+  "fetched_at": "2026-05-03T01:58:46.846423+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -473,7 +473,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 5559
+      "size": 6092
     },
     {
       "path": ".github/workflows/audit.yml",
@@ -481,11 +481,11 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 6409
+      "size": 6437
     },
     {
       "path": ".github/workflows/committed.yml",
-      "size": 712
+      "size": 713
     },
     {
       "path": ".github/workflows/post-release.yml",
@@ -501,11 +501,11 @@
     },
     {
       "path": ".github/workflows/rust-next.yml",
-      "size": 2340
+      "size": 2348
     },
     {
       "path": ".github/workflows/spelling.yml",
-      "size": 588
+      "size": 589
     }
   ],
   "related_repositories": [],
@@ -517,14 +517,14 @@
     "full_name": "crate-ci/cargo-release",
     "html_url": "https://github.com/crate-ci/cargo-release",
     "language": "Rust",
-    "pushed_at": "2026-05-01T15:33:16Z",
+    "pushed_at": "2026-05-02T00:34:05Z",
     "stargazers_count": 1552,
     "topics": [
       "cargo",
       "cargo-subcommand",
       "rust"
     ],
-    "updated_at": "2026-05-01T15:33:19Z"
+    "updated_at": "2026-05-02T00:34:11Z"
   },
   "repo_links": [
     {

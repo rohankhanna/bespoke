@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Welcome to the Bot Framework Solutions repository which is the home for a set of templates and solutions to help build advanced conversational experiences using Azure Bot Service and Bot Framework. Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conversational-ai",
+      "sense_id": "conversational-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "conversational-ai",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "conversational-ai",
+  "observation_id": "25bed885211d3981",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "conversational-ai",
+  "source_context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+  "source_file": null,
+  "source_repo": "microsoft/botframework-solutions",
+  "source_repo_description": "Welcome to the Bot Framework Solutions repository which is the home for a set of templates and solutions to help build advanced conversational experiences using Azure Bot Service and Bot Framework. Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences."
+}

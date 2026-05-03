@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83c\udf10 Javascript Builds"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "status": "candidate-context",
+      "text": "GDNative wrapper for SQLite (Godot 3.2+)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 Javascript Builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "status": "candidate",
+      "text": "\ud83c\udf10 Javascript Builds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11994,
+      "status": "candidate",
+      "text": "smap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11994,
+      "status": "candidate",
+      "text": "snap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11705,
+      "status": "candidate",
+      "text": "applet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11705,
+      "status": "candidate",
+      "text": "brews"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11705,
+      "status": "candidate",
+      "text": "hiragana"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83c\udf10 Javascript Builds",
+  "concept_id": "javascript-builds",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83c\udf10 Javascript Builds",
+      "sense_id": "javascript-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

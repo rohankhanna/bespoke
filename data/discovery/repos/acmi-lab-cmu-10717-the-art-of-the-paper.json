@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:58:16.235015+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for CMU Machine Learning Department's 10717: \"The Art of the Paper\". ",
+    "fork": false,
+    "full_name": "acmi-lab/cmu-10717-the-art-of-the-paper",
+    "html_url": "https://github.com/acmi-lab/cmu-10717-the-art-of-the-paper",
+    "language": null,
+    "pushed_at": "2022-04-21T16:06:45Z",
+    "stargazers_count": 288,
+    "topics": [],
+    "updated_at": "2026-04-28T21:54:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

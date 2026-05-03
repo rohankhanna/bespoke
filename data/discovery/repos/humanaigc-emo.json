@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:56:15.094156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 971
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Emote Portrait Alive: Generating Expressive Portrait Videos with Audio2Video Diffusion Model under Weak Conditions",
+    "fork": false,
+    "full_name": "HumanAIGC/EMO",
+    "html_url": "https://github.com/HumanAIGC/EMO",
+    "language": null,
+    "pushed_at": "2024-08-21T09:40:06Z",
+    "stargazers_count": 7623,
+    "topics": [],
+    "updated_at": "2026-05-02T10:01:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

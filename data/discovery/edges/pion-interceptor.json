@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/api.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "API",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/codeql-analysis.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pion/interceptor",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/fuzz.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/lint.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/release.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pion/interceptor",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate-go-sum-fix.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/renovate-go-sum-fix.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate-go-sum-fix.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "Fix go.sum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/reuse.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "pion/interceptor",
+      "target": "REUSE Compliance Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/test.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/test-i386.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/test-windows.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/test-macos.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "pion/.goassets/.github/workflows/test-wasm.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/interceptor",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/interceptor",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/interceptor",
+      "target": "pion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "pion/interceptor"
+}

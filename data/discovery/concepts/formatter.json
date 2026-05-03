@@ -694,6 +694,30 @@
       "source_repo": "fsouza/prettierd",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 D&B] Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "status": "candidate-context",
+      "text": "Formatter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate-context",
+      "text": "Monorepo for ESLint Stylistic plugins and configs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1038,6 +1062,18 @@
       "source_repo": "fsouza/prettierd",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "status": "candidate",
+      "text": "Formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1651,11 +1687,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/PointCloudMatters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eslint-stylistic/eslint-stylistic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

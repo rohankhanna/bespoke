@@ -1,7 +1,7 @@
 {
   "component": "@babel/parser",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -102,6 +102,21 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "Agreon/styco"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mainmatter/ember-vite-codemod"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "intlify/vue-i18n-extensions"
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mbosecke/template-benchmark",
+      "target": "spullara/mustache.java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mbosecke/template-benchmark",
+      "target": "fizzed/rocker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:48:33.401429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JMH benchmark of the most popular Java template engines",
+    "fork": false,
+    "full_name": "mbosecke/template-benchmark",
+    "html_url": "https://github.com/mbosecke/template-benchmark",
+    "language": "Java",
+    "pushed_at": "2024-05-06T07:50:57Z",
+    "stargazers_count": 162,
+    "topics": [],
+    "updated_at": "2025-08-13T11:13:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fizzed/rocker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spullara/mustache.java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

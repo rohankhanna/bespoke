@@ -1,0 +1,312 @@
+{
+  "components": [
+    {
+      "component": "markdown-it",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it-abbr",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it-checkbox",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it-cjk-breaks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it-deflist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it-footnote",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it-sub",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it-sup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "previm/previm",
+      "target": "markdown-it/markdown-it-deflist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "previm/previm",
+      "target": "markdown-it/markdown-it-footnote",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "previm/previm",
+      "target": "markdown-it/markdown-it-sub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "previm/previm",
+      "target": "markdown-it/markdown-it-cjk-breaks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "previm/previm",
+      "target": "markdown-it",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "previm/previm",
+      "target": "markdown-it-abbr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "previm/previm",
+      "target": "markdown-it-checkbox",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "previm/previm",
+      "target": "markdown-it-cjk-breaks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "previm/previm",
+      "target": "markdown-it-deflist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "previm/previm",
+      "target": "markdown-it-footnote",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "previm/previm",
+      "target": "markdown-it-sub",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "previm/previm",
+      "target": "markdown-it-sup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "previm/previm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "previm/previm",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "previm/previm",
+      "target": "Neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "previm/previm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "previm/previm",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "previm/previm",
+      "target": "Node.js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "previm/previm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "previm/previm",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "previm/previm",
+      "target": "Vim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:11.240556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2434
+    },
+    {
+      "path": "package.json",
+      "size": 902
+    },
+    {
+      "path": ".github/workflows/neovim.yml",
+      "size": 1086
+    },
+    {
+      "path": ".github/workflows/node.yml",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/vim.yml",
+      "size": 1058
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Realtime preview by Vim. (Markdown, reStructuredText, textile)",
+    "fork": false,
+    "full_name": "previm/previm",
+    "html_url": "https://github.com/previm/previm",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-09T17:32:12Z",
+    "stargazers_count": 828,
+    "topics": [],
+    "updated_at": "2026-04-10T10:11:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "markdown-it/markdown-it-cjk-breaks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "markdown-it/markdown-it-deflist",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "markdown-it/markdown-it-footnote",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "markdown-it/markdown-it-sub",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Neovim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/neovim.yml",
+      "term": "Neovim"
+    },
+    {
+      "context_snippet": "Node.js",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "term": "Node.js"
+    },
+    {
+      "context_snippet": "Vim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vim.yml",
+      "term": "Vim"
+    }
+  ]
+}

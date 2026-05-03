@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "`eslint-plugin-import-x` is a fork of `eslint-plugin-import` that aims to provide a more performant and more lightweight version of the original plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/eslint-plugin-import-x/ci.yml?branch=master)](https://github.com/un-ts/eslint-plugin-import-x/actions/workflows/ci.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/eslint-plugin-import-x/ci.yml?branch=master)](https://github.com/un-ts/eslint-plugin-import-x/actions/workflows/ci.yml?query=branch%3Amaster)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "jslint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "cppcheck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "checkstyle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "pylint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "lint"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eslint",
+      "sense_id": "eslint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eslint",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eslint",
+  "observation_id": "66e593c3b634e147",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "eslint",
+  "source_context_snippet": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/eslint-plugin-import-x/ci.yml?branch=master)](https://github.com/un-ts/eslint-plugin-import-x/actions/workflows/ci.yml?query=branch%3Amaster)",
+  "source_file": null,
+  "source_repo": "un-ts/eslint-plugin-import-x",
+  "source_repo_description": "`eslint-plugin-import-x` is a fork of `eslint-plugin-import` that aims to provide a more performant and more lightweight version of the original plugin."
+}

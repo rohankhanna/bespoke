@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Code to train the SimSiam model on cifar10 using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "machine-learning",
+      "sense_id": "machine-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "machine-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "machine-learning",
+  "observation_id": "41d3f83cf2e85e5a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "machine-learning",
+  "source_context_snippet": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)",
+  "source_file": null,
+  "source_repo": "IgorSusmelj/simsiam-cifar10",
+  "source_repo_description": "Code to train the SimSiam model on cifar10 using PyTorch"
+}

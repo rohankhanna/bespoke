@@ -1,0 +1,109 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "fzaninotto/Faker",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "fzaninotto/Faker",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "fzaninotto/Faker",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "fzaninotto/Faker",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:00:37.439323+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/continuous-integration.yml",
+      "size": 4261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Faker is a PHP library that generates fake data for you",
+    "fork": false,
+    "full_name": "fzaninotto/Faker",
+    "html_url": "https://github.com/fzaninotto/Faker",
+    "language": "PHP",
+    "pushed_at": "2024-03-20T13:44:54Z",
+    "stargazers_count": 26687,
+    "topics": [],
+    "updated_at": "2026-05-02T14:25:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Continuous Integration\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "term": "Continuous Integration"
+    }
+  ]
+}

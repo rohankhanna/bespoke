@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Pytorch Implementation of SMIRK: 3D Facial Expressions through Analysis-by-Neural-Synthesis (CVPR 2024) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "morphable-model",
+      "sense_id": "morphable-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "morphable-model",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "morphable-model",
+  "observation_id": "93c20d10bb79fcda",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "morphable-model",
+  "source_context_snippet": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026",
+  "source_file": null,
+  "source_repo": "georgeretsi/smirk",
+  "source_repo_description": "Official Pytorch Implementation of SMIRK: 3D Facial Expressions through Analysis-by-Neural-Synthesis (CVPR 2024) "
+}

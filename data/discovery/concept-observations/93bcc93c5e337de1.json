@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":globe_with_meridians: ESLint plugin for Vue I18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><img width=\"143px\" height=\"130px\" src=\"./assets/eslint-plugin-vue-i18n.svg\" alt=\"ESLint plugin for Vue I18n logo\"></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"143px\" height=\"130px\" src=\"./assets/eslint-plugin-vue-i18n.svg\" alt=\"ESLint plugin for Vue I18n logo\"></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "jslint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "cppcheck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "checkstyle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "pylint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "lint"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eslint",
+      "sense_id": "eslint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eslint",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eslint",
+  "observation_id": "93bcc93c5e337de1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "eslint",
+  "source_context_snippet": "<p align=\"center\"><img width=\"143px\" height=\"130px\" src=\"./assets/eslint-plugin-vue-i18n.svg\" alt=\"ESLint plugin for Vue I18n logo\"></p>",
+  "source_file": null,
+  "source_repo": "intlify/eslint-plugin-vue-i18n",
+  "source_repo_description": ":globe_with_meridians: ESLint plugin for Vue I18n"
+}

@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fab-jul/torchac",
+      "target": "fab-jul/l3c-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fab-jul/torchac",
+      "target": "arithmetic-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fab-jul/torchac",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:32.500188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Entropy coding / arithmetic coding for PyTorch",
+    "fork": false,
+    "full_name": "fab-jul/torchac",
+    "html_url": "https://github.com/fab-jul/torchac",
+    "language": "Python",
+    "pushed_at": "2022-07-08T08:58:53Z",
+    "stargazers_count": 268,
+    "topics": [
+      "arithmetic-coding",
+      "pytorch"
+    ],
+    "updated_at": "2026-03-26T16:50:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fab-jul/l3c-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arithmetic-coding"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

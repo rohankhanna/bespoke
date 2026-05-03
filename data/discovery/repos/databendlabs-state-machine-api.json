@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "databendlabs/state-machine-api",
+      "target": "databendlabs/display-more",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "databendlabs/state-machine-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "databendlabs/state-machine-api",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:08:07.951505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 97
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 707
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Interface of a Raft state machine. The impl may be based on s3 or local disk",
+    "fork": false,
+    "full_name": "databendlabs/state-machine-api",
+    "html_url": "https://github.com/databendlabs/state-machine-api",
+    "language": "Rust",
+    "pushed_at": "2025-09-30T09:49:14Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-09-30T03:16:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "databendlabs/display-more",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

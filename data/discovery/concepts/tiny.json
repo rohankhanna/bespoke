@@ -55,6 +55,18 @@
       "source_repo": "sindresorhus/ky",
       "status": "candidate-context",
       "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "101arrowz/fflate",
+      "status": "candidate-context",
+      "text": "High performance (de)compression in an 8kB package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "101arrowz/fflate",
+      "status": "candidate-context",
+      "text": "High performance (de)compression in an 8kB package"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "sindresorhus/ky",
       "status": "candidate",
       "text": "ky \u2014 Tiny and elegant HTTP client based on the Fetch API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "101arrowz/fflate",
+      "status": "candidate",
+      "text": "High performance (de)compression in an 8kB package"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "sindresorhus/ky"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "101arrowz/fflate"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

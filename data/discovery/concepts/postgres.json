@@ -319,6 +319,54 @@
       "source_repo": "supabase/etl",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olirice/alembic_utils",
+      "status": "candidate-context",
+      "text": "An alembic/sqlalchemy extension for migrating sql views, functions, triggers, and policies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olirice/alembic_utils",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supabase/cli",
+      "status": "candidate-context",
+      "text": "Supabase CLI. Manage postgres migrations, run Supabase locally, deploy edge functions. Postgres backups. Generating types from your database schema."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/cli",
+      "status": "candidate-context",
+      "text": "[![Coverage Status](https://coveralls.io/repos/github/supabase/cli/badge.svg?branch=develop)](https://coveralls.io/github/supabase/cli?branch=develop) [![Bitbucket Pipelines](https://img.shields.io/bitbucket/pipelines/supabase-cli/setup-cli/master?style=flat-square&label=Bitbuck\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate-context",
+      "text": "Postgres Foreign Data Wrapper development framework in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate-context",
+      "text": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "Build Postgres Extensions with Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "![Logo](art/pgrx-logo-color-transparent-475x518.png)"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +525,30 @@
       "source_repo": "supabase/etl",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olirice/alembic_utils",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/cli",
+      "status": "candidate",
+      "text": "[![Coverage Status](https://coveralls.io/repos/github/supabase/cli/badge.svg?branch=develop)](https://coveralls.io/github/supabase/cli?branch=develop) [![Bitbucket Pipelines](https://img.shields.io/bitbucket/pipelines/supabase-cli/setup-cli/master?style=flat-square&label=Bitbuck\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate",
+      "text": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate",
+      "text": "![Logo](art/pgrx-logo-color-transparent-475x518.png)"
     }
   ],
   "candidate_related_terms": [
@@ -682,11 +754,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "supabase/etl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "olirice/alembic_utils"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "supabase/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "supabase/wrappers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pgcentralfoundation/pgrx"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

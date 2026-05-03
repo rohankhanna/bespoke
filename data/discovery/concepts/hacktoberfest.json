@@ -7651,6 +7651,558 @@
       "source_repo": "stleary/JSON-java",
       "status": "candidate-context",
       "text": "![Json-Java logo](https://github.com/stleary/JSON-java/blob/master/images/JsonJava.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osrf/homebrew-simulation",
+      "status": "candidate-context",
+      "text": "Homebrew tap for osrf simulation software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osrf/homebrew-simulation",
+      "status": "candidate-context",
+      "text": "Build | Status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/polis",
+      "status": "candidate-context",
+      "text": "Streamline your web application's authentication with Polis, an SSO service supporting SAML and OpenID Connect protocols. Beyond enterprise-grade Single Sign-On, it also supports Directory Sync via the SCIM 2.0 protocol for automatic user and group provisioning/de-provisioning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/polis",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Ory polis - Open source Enterprise SSO and Directory Sync</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "status": "candidate-context",
+      "text": "Part of the Bot Builder Community Project. Repository for tools relating to bot development using the Microsoft Bot Builder SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "status": "candidate-context",
+      "text": "This repository is part of the Bot Builder Community Project and contains Tools for use when building solutions with the Bot Builder SDKs. Other repos within the Bot Builder Community Project exist for extensions for [.NET](https://github.com/BotBuilderCommunity/botbuilder-commu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/bow",
+      "status": "candidate-context",
+      "text": "\ud83c\udff9 Bow is a cross-platform library for Typed Functional Programming in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/bow",
+      "status": "candidate-context",
+      "text": "![](https://github.com/bow-swift/bow-art/blob/master/assets/bow-header-github.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef-editor-client",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1Client-side code for the nef editor app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-client",
+      "status": "candidate-context",
+      "text": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluentassertions/fluentassertions",
+      "status": "candidate-context",
+      "text": "A very extensive set of extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit tests. Targets .NET Framework 4.7, as well as .NET Core 2.1, .NET Core 3.0, .NET 6, .NET Standard 2.0 and 2.1. Supports the unit test frameworks MSTest2, NUnit3, XUnit2, MSpec, and NSpec3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentassertions/fluentassertions",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "A computer algebra system written in pure Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "[![pypi version](https://img.shields.io/pypi/v/sympy.svg)](https://pypi.python.org/pypi/sympy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/svelte-windicss-preprocess",
+      "status": "candidate-context",
+      "text": "A Svelte Preprocessor to compile windicss at build time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/svelte-windicss-preprocess",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "un-ts/eslint-plugin-import-x",
+      "status": "candidate-context",
+      "text": "`eslint-plugin-import-x` is a fork of `eslint-plugin-import` that aims to provide a more performant and more lightweight version of the original plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/eslint-plugin-import-x",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/eslint-plugin-import-x/ci.yml?branch=master)](https://github.com/un-ts/eslint-plugin-import-x/actions/workflows/ci.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate-context",
+      "text": "Blueprint for v2-formatted Ember addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embroider-build/app-blueprint",
+      "status": "candidate-context",
+      "text": "[pre-alpha\u2122\ufe0f] Blueprint for next generation of Ember apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/app-blueprint",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/playground-for-flutter",
+      "status": "candidate-context",
+      "text": "Simple examples that help you get started with Appwrite + Flutter (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-flutter",
+      "status": "candidate-context",
+      "text": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Flutter SDK. Use the source code of this page to learn how to use the different Appwrite Flutter SDK features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/playground-for-node",
+      "status": "candidate-context",
+      "text": "Simple examples that help you get started with Appwrite + Node.js (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-node",
+      "status": "candidate-context",
+      "text": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Node.js SDK. Use the source code of this repository to learn how to use the different Appwrite Node.js SDK features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-web",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Web SDK \ud83e\udde1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-web",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/appwrite/sdk-for-web.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate-context",
+      "text": "Metaprogramming tools for DataFrames"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate-context",
+      "text": "[![Coveralls](https://coveralls.io/repos/github/JuliaStats/DataFramesMeta.jl/badge.svg?branch=master)](https://coveralls.io/github/JuliaStats/DataFramesMeta.jl?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0a Policy Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate-context",
+      "text": "![Static Badge](https://img.shields.io/badge/OPA%20Version-v0.60.0-blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "status": "candidate-context",
+      "text": "Fast, general-purpose interactive applications for complex systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "status": "candidate-context",
+      "text": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-cmake",
+      "status": "candidate-context",
+      "text": "A set of CMake modules that are used by the C++-based Gazebo projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-cmake",
+      "status": "candidate-context",
+      "text": "**Maintainer:** scpeters AT openrobotics.org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate-context",
+      "text": "An audio-visual library supports processing audio and video files, a graphics library can load a variety 3D mesh file formats into a generic in-memory representation, and the core library of Gazebo Common contains functionality that spans Base64 encoding/decoding to thread pools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate-context",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-fuel-tools",
+      "status": "candidate-context",
+      "text": "A client library and command line tools for interacting with Gazebo Fuel servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-fuel-tools",
+      "status": "candidate-context",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate-context",
+      "text": "Abstract physics interface designed to support simulation and rapid development of robot applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate-context",
+      "text": "**Maintainer:** scpeters AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate-context",
+      "text": "Unity support for both ReSharper and Rider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "Internet-scale OpenID Certified\u2122 OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/keto",
+      "status": "candidate-context",
+      "text": "The most scalable and customizable permission server on the market. Fix your slow or broken permission system with Google's proven \"Zanzibar\" approach. Supports ACL, RBAC, and more. Written in Go, cloud native, headless, API-first. Available as a service on Ory Network and for self-hosters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/keto",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/kratos",
+      "status": "candidate-context",
+      "text": "Headless cloud-native authentication and identity management written in Go. Scales to a billion+ users. Replace Homegrown, Auth0, Okta, Firebase with better UX and DX. Passkeys, Social Sign In, OIDC, Magic Link, Multi-Factor Auth, SMS, SAML, TOTP, and more. Runs everywhere, runs best on Ory Network. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/kratos",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/oathkeeper",
+      "status": "candidate-context",
+      "text": "A cloud native Identity & Access Proxy / API (IAP) and Access Control Decision API that authenticates, authorizes, and mutates incoming HTTP(s) requests. Inspired by the BeyondCorp / Zero Trust white paper. Written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/oathkeeper",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate-context",
+      "text": "Build OpenAPI-compliant REST APIs using TypeScript and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate-context",
+      "text": "tsoa-monorepo \u2014 Build swagger-compliant REST APIs using TypeScript and Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate-context",
+      "text": "\ud83d\udc21 An icon expansion pack for Maki"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Recognizers-Text",
+      "status": "candidate-context",
+      "text": "Microsoft.Recognizers.Text provides recognition and resolution of numbers, units, date/time, etc. in multiple languages (ZH, EN, FR, ES, PT, DE, IT, TR, HI, NL. Partial support for JA, KO, AR, SV). Packages available at: https://www.nuget.org/profiles/Recognizers.Text, https://www.npmjs.com/~recognizers.text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Recognizers-Text",
+      "status": "candidate-context",
+      "text": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udda5 Server-side code for the nef editor app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "status": "candidate-context",
+      "text": "This repository contains the Karpenter Provider implementation for IBM Cloud, enabling dynamic node provisioning in IBM Cloud Kubernetes clusters using Karpenter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "status": "candidate-context",
+      "text": "[![Go Tests](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml/badge.svg)](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "A vulnerability scanner for container images and filesystems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nozbe/WatermelonDB",
+      "status": "candidate-context",
+      "text": "\ud83c\udf49 Reactive & asynchronous database for powerful React and React Native apps \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nozbe/WatermelonDB",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "Intelligent WindiCSS tooling for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate-context",
+      "text": "Vite & Vue powered static site generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/vuejs/vitepress/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/vuejs/vitepress/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "import-js/eslint-plugin-import",
+      "status": "candidate-context",
+      "text": "ESLint plugin with rules that help validate proper imports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "import-js/eslint-plugin-import",
+      "status": "candidate-context",
+      "text": "[![github actions][actions-image]][actions-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-addon-blueprint",
+      "status": "candidate-context",
+      "text": "Blueprint for scaffolding ember v2 addons"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ember-cli/ember-cli-update",
+      "status": "candidate-context",
+      "text": "Update Ember CLI projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-cli-update",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/ember-cli-update.svg)](https://badge.fury.io/js/ember-cli-update)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-app-blueprint",
+      "status": "candidate-context",
+      "text": "This is the blueprint that is used to generate a **new** Ember app using [Vite](https://vite.dev/) as the primary build system."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-swift",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Swift SDK \ud83e\udd85\ud83c\udf4e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-swift",
+      "status": "candidate-context",
+      "text": "![Swift Package Manager](https://img.shields.io/github/v/release/appwrite/sdk-for-swift.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/playground-for-web",
+      "status": "candidate-context",
+      "text": "Simple examples that help you get started with Appwrite + Web (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-web",
+      "status": "candidate-context",
+      "text": "Appwrite playground is a simple way to explore the Appwrite API & Web SDK. Use the source code of this page to learn how to use the different Appwrite Web SDK features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "A python library for self-supervised learning on images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "<a name=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate-context",
+      "text": "An interface for tables in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "floating-ui/floating-ui",
+      "status": "candidate-context",
+      "text": "A JavaScript library to position floating elements and create interactions for them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floating-ui/floating-ui",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Docker image to export Godot Engine games. Templates for Gitlab CI and GitHub Actions to deploy to GitLab Pages/GitHub Pages/Itch.io."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate-context",
+      "text": "A pure JavaScript implementation of git for node and browsers!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TypeStrong/ts-node",
+      "status": "candidate-context",
+      "text": "TypeScript execution and REPL for node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeStrong/ts-node",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -11493,6 +12045,288 @@
       "source_repo": "stleary/JSON-java",
       "status": "candidate",
       "text": "![Json-Java logo](https://github.com/stleary/JSON-java/blob/master/images/JsonJava.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osrf/homebrew-simulation",
+      "status": "candidate",
+      "text": "Build | Status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/polis",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Ory polis - Open source Enterprise SSO and Directory Sync</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "status": "candidate",
+      "text": "This repository is part of the Bot Builder Community Project and contains Tools for use when building solutions with the Bot Builder SDKs. Other repos within the Bot Builder Community Project exist for extensions for [.NET](https://github.com/BotBuilderCommunity/botbuilder-commu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/bow",
+      "status": "candidate",
+      "text": "![](https://github.com/bow-swift/bow-art/blob/master/assets/bow-header-github.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-client",
+      "status": "candidate",
+      "text": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentassertions/fluentassertions",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate",
+      "text": "[![pypi version](https://img.shields.io/pypi/v/sympy.svg)](https://pypi.python.org/pypi/sympy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/svelte-windicss-preprocess",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/eslint-plugin-import-x",
+      "status": "candidate",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/eslint-plugin-import-x/ci.yml?branch=master)](https://github.com/un-ts/eslint-plugin-import-x/actions/workflows/ci.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/app-blueprint",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-flutter",
+      "status": "candidate",
+      "text": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Flutter SDK. Use the source code of this page to learn how to use the different Appwrite Flutter SDK features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-node",
+      "status": "candidate",
+      "text": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Node.js SDK. Use the source code of this repository to learn how to use the different Appwrite Node.js SDK features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-web",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/appwrite/sdk-for-web.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate",
+      "text": "[![Coveralls](https://coveralls.io/repos/github/JuliaStats/DataFramesMeta.jl/badge.svg?branch=master)](https://coveralls.io/github/JuliaStats/DataFramesMeta.jl?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate",
+      "text": "![Static Badge](https://img.shields.io/badge/OPA%20Version-v0.60.0-blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "status": "candidate",
+      "text": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-cmake",
+      "status": "candidate",
+      "text": "**Maintainer:** scpeters AT openrobotics.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-fuel-tools",
+      "status": "candidate",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate",
+      "text": "**Maintainer:** scpeters AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/keto",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/kratos",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/oathkeeper",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate",
+      "text": "tsoa-monorepo \u2014 Build swagger-compliant REST APIs using TypeScript and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Recognizers-Text",
+      "status": "candidate",
+      "text": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "status": "candidate",
+      "text": "[![Go Tests](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml/badge.svg)](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nozbe/WatermelonDB",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate",
+      "text": "[![test](https://github.com/vuejs/vitepress/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/vuejs/vitepress/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "import-js/eslint-plugin-import",
+      "status": "candidate",
+      "text": "[![github actions][actions-image]][actions-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-addon-blueprint",
+      "status": "candidate",
+      "text": "Blueprint for scaffolding ember v2 addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-cli-update",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/ember-cli-update.svg)](https://badge.fury.io/js/ember-cli-update)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-app-blueprint",
+      "status": "candidate",
+      "text": "This is the blueprint that is used to generate a **new** Ember app using [Vite](https://vite.dev/) as the primary build system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-swift",
+      "status": "candidate",
+      "text": "![Swift Package Manager](https://img.shields.io/github/v/release/appwrite/sdk-for-swift.svg?color=green&style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-web",
+      "status": "candidate",
+      "text": "Appwrite playground is a simple way to explore the Appwrite API & Web SDK. Use the source code of this page to learn how to use the different Appwrite Web SDK features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate",
+      "text": "<a name=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floating-ui/floating-ui",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate",
+      "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TypeStrong/ts-node",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -17428,11 +18262,515 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "osrf/homebrew-simulation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/polis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fluentassertions/fluentassertions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sympy/sympy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "windicss/svelte-windicss-preprocess"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "un-ts/eslint-plugin-import-x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "embroider-build/addon-blueprint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "embroider-build/app-blueprint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "emscripten-core/emscripten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/DataFramesMeta.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-fuel-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/hydra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/keto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/kratos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/oathkeeper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lukeautry/tsoa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "anchore/grype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Nozbe/WatermelonDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "windicss/windicss-intellisense"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/vitepress"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "import-js/eslint-plugin-import"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ember-cli/ember-addon-blueprint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ember-cli/ember-cli-update"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ember-cli/ember-app-blueprint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/Tables.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "floating-ui/floating-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "isomorphic-git/isomorphic-git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "TypeStrong/ts-node"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

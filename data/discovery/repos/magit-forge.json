@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "magit/forge",
+      "target": "Compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "magit/forge",
+      "target": "Manual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "magit/forge",
+      "target": "Statistics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:51:10.493357+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/compile.yml",
+      "size": 234
+    },
+    {
+      "path": ".github/workflows/manual.yml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/stats.yml",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Work with Git forges from the comfort of Magit",
+    "fork": false,
+    "full_name": "magit/forge",
+    "html_url": "https://github.com/magit/forge",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-05-01T14:12:37Z",
+    "stargazers_count": 1532,
+    "topics": [],
+    "updated_at": "2026-05-01T18:43:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Compile",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "term": "Compile"
+    },
+    {
+      "context_snippet": "Manual",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "term": "Manual"
+    },
+    {
+      "context_snippet": "Statistics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stats.yml",
+      "term": "Statistics"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Plan Beta Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-app-blueprint",
+      "status": "candidate-context",
+      "text": "Plan Beta Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-app-blueprint",
+      "status": "candidate",
+      "text": "Plan Beta Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35330,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18912,
+      "status": "candidate",
+      "text": "beet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18912,
+      "status": "candidate",
+      "text": "knol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18881,
+      "status": "candidate",
+      "text": "alpha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18808,
+      "status": "candidate",
+      "text": "layout"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Plan Beta Release",
+  "concept_id": "plan-beta-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/plan-beta-release.yml",
+      "source_repo": "ember-cli/ember-app-blueprint"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Plan Beta Release",
+      "sense_id": "plan-beta-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

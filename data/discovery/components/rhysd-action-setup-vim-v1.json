@@ -1,7 +1,7 @@
 {
   "component": "rhysd/action-setup-vim@v1",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -527,6 +527,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "Issafalcon/neotest-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/seeker.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dts.yml",
+      "source_repo": "tris203/precognition.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "tris203/precognition.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vimdoc.yaml",
+      "source_repo": "ibhagwan/smartyank.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j-hui/fidget.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "previm/previm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "previm/previm"
     }
   ]
 }

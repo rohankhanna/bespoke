@@ -1,0 +1,390 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "nanxiaobei/hugo-paper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "krisk/fuse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "feathericons/feather",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-check.yml",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-check.yml",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "Build Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "Deploy Hugo PaperMod Demo to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "blog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "blog-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "clean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "feature-rich",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "grayscale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "hugo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "hugo-blog-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "hugo-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "mit-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "multilingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "papermod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "portfolio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "target": "well-documented",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:54:01.707763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5220
+    },
+    {
+      "path": "go.mod",
+      "size": 55
+    },
+    {
+      "path": ".github/workflows/build-check.yml",
+      "size": 1258
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 2199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " A fast, clean, responsive Hugo theme.",
+    "fork": false,
+    "full_name": "adityatelange/hugo-PaperMod",
+    "html_url": "https://github.com/adityatelange/hugo-PaperMod",
+    "language": "HTML",
+    "pushed_at": "2026-05-02T17:38:11Z",
+    "stargazers_count": 13434,
+    "topics": [
+      "blog",
+      "blog-theme",
+      "clean",
+      "fast",
+      "feature-rich",
+      "grayscale",
+      "high-performance",
+      "hugo",
+      "hugo-blog-theme",
+      "hugo-theme",
+      "mit-license",
+      "multilingual",
+      "papermod",
+      "portfolio",
+      "theme",
+      "well-documented"
+    ],
+    "updated_at": "2026-05-02T19:27:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feathericons/feather",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krisk/fuse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanxiaobei/hugo-paper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-check.yml",
+      "term": "Build Check"
+    },
+    {
+      "context_snippet": "Deploy Hugo PaperMod Demo to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "Deploy Hugo PaperMod Demo to Pages"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blog"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blog-theme"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clean"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-rich"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grayscale"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo-blog-theme"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo-theme"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mit-license"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "papermod"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portfolio"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "well-documented"
+    }
+  ]
+}

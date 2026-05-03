@@ -31,6 +31,12 @@
       "source_repo": "philips-labs/tabia",
       "status": "candidate-context",
       "text": "Go CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huaweicloud/huaweicloud-sdk-go-v3",
+      "status": "candidate-context",
+      "text": "Go CI"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +49,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "philips-labs/tabia",
+      "status": "candidate",
+      "text": "Go CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huaweicloud/huaweicloud-sdk-go-v3",
       "status": "candidate",
       "text": "Go CI"
     }
@@ -100,11 +112,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/golang.yml",
       "source_repo": "philips-labs/tabia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "huaweicloud/huaweicloud-sdk-go-v3"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

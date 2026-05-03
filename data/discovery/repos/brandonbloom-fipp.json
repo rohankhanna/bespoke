@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brandonbloom/fipp",
+      "target": "greglook/whidbey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "brandonbloom/fipp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "brandonbloom/fipp",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "brandonbloom/fipp",
+      "target": "DeLaGuardo/setup-clojure@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "brandonbloom/fipp",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brandonbloom/fipp",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brandonbloom/fipp",
+      "target": "pprint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brandonbloom/fipp",
+      "target": "pretty-print",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:53:59.288928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6263
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 632
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast Idiomatic Pretty Printer for Clojure",
+    "fork": false,
+    "full_name": "brandonbloom/fipp",
+    "html_url": "https://github.com/brandonbloom/fipp",
+    "language": "Clojure",
+    "pushed_at": "2025-07-26T21:15:31Z",
+    "stargazers_count": 543,
+    "topics": [
+      "clojure",
+      "edn",
+      "pprint",
+      "pretty-print"
+    ],
+    "updated_at": "2026-01-24T01:04:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "greglook/whidbey",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Fipp is a better pretty printer for Clojure and ClojureScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "Fipp is a better pretty printer for Clojure and ClojureScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pprint"
+    },
+    {
+      "context_snippet": "Fipp is a better pretty printer for Clojure and ClojureScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretty-print"
+    }
+  ]
+}

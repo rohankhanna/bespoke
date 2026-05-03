@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+      "target": "actions/add-to-project@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:39.209888+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 772
+    },
+    {
+      "path": ".github/workflows/add-to-project.yml",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1117
+    },
+    {
+      "path": ".github/workflows/dotnet-ci.yml",
+      "size": 4568
+    },
+    {
+      "path": ".github/workflows/python-ci.yml",
+      "size": 3690
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+    "html_url": "https://github.com/microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol",
+    "language": "Python",
+    "pushed_at": "2026-04-21T21:53:42Z",
+    "stargazers_count": 423,
+    "topics": [],
+    "updated_at": "2026-04-24T04:47:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

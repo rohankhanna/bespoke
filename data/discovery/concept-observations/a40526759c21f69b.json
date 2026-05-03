@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Microsoft.Practices.ServiceLocation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![license](https://img.shields.io/badge/license-ms-pl.svg)](https://opensource.org/licenses/MS-PL)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/badge/license-ms-pl.svg)](https://opensource.org/licenses/MS-PL)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "service-locator",
+      "sense_id": "service-locator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "service-locator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "service-locator",
+  "observation_id": "a40526759c21f69b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "service-locator",
+  "source_context_snippet": "[![license](https://img.shields.io/badge/license-ms-pl.svg)](https://opensource.org/licenses/MS-PL)",
+  "source_file": null,
+  "source_repo": "unitycontainer/commonservicelocator",
+  "source_repo_description": "Microsoft.Practices.ServiceLocation"
+}

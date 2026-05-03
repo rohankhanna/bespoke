@@ -1,0 +1,177 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "jdanielmourao/obsidian-sanctum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "crearts-community/crearts-obsidian",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "bladeacer/flexcyon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "elsatam/obsidian-fancy-a-story",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "light-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "obsidian-md-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "obsidian-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:57:30.679301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A radically modern theme for Obsidian. ",
+    "fork": false,
+    "full_name": "Gonzalo-D-Sales/obsidian-velocity",
+    "html_url": "https://github.com/Gonzalo-D-Sales/obsidian-velocity",
+    "language": "SCSS",
+    "pushed_at": "2026-02-16T17:54:17Z",
+    "stargazers_count": 1043,
+    "topics": [
+      "dark-theme",
+      "light-theme",
+      "obsidian",
+      "obsidian-md",
+      "obsidian-md-theme",
+      "obsidian-theme",
+      "theme"
+    ],
+    "updated_at": "2026-05-02T13:53:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bladeacer/flexcyon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crearts-community/crearts-obsidian",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elsatam/obsidian-fancy-a-story",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdanielmourao/obsidian-sanctum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![poster](./assets/poster.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dark-theme"
+    },
+    {
+      "context_snippet": "![poster](./assets/poster.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light-theme"
+    },
+    {
+      "context_snippet": "![poster](./assets/poster.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "![poster](./assets/poster.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "![poster](./assets/poster.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md-theme"
+    },
+    {
+      "context_snippet": "![poster](./assets/poster.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-theme"
+    },
+    {
+      "context_snippet": "![poster](./assets/poster.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

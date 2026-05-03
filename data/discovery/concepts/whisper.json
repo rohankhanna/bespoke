@@ -199,6 +199,18 @@
       "source_repo": "Mobile-Artificial-Intelligence/maise",
       "status": "candidate-context",
       "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/distil-whisper",
+      "status": "candidate-context",
+      "text": "Distilled variant of Whisper for speech recognition. 6x faster, 50% smaller, within 1% word error rate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/distil-whisper",
+      "status": "candidate-context",
+      "text": "[[Paper]](https://arxiv.org/abs/2311.00430)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "Mobile-Artificial-Intelligence/maise",
       "status": "candidate",
       "text": "<div align=\"center\" id = \"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/distil-whisper",
+      "status": "candidate",
+      "text": "[[Paper]](https://arxiv.org/abs/2311.00430)"
     }
   ],
   "candidate_related_terms": [
@@ -656,11 +674,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/distil-whisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

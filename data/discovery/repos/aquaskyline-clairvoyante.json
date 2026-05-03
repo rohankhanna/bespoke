@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aquaskyline/Clairvoyante",
+      "target": "hku-bal/clair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aquaskyline/Clairvoyante",
+      "target": "hku-bal/clairvoyante-pytroch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aquaskyline/Clairvoyante",
+      "target": "blosc/python-blosc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aquaskyline/Clairvoyante",
+      "target": "nanopore-wgs-consortium/na12878",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquaskyline/Clairvoyante",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquaskyline/Clairvoyante",
+      "target": "computational-biology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquaskyline/Clairvoyante",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquaskyline/Clairvoyante",
+      "target": "variant-calling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:54:29.991277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22475
+    },
+    {
+      "path": "Dockerfile",
+      "size": 328
+    },
+    {
+      "path": "requirements.txt",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "rbDev",
+    "description": "Clairvoyante: a multi-task convolutional deep neural network for variant calling in Single Molecule Sequencing",
+    "fork": false,
+    "full_name": "aquaskyline/Clairvoyante",
+    "html_url": "https://github.com/aquaskyline/Clairvoyante",
+    "language": "Python",
+    "pushed_at": "2023-12-26T16:09:30Z",
+    "stargazers_count": 173,
+    "topics": [
+      "bioinformatics",
+      "computational-biology",
+      "deep-learning",
+      "variant-calling"
+    ],
+    "updated_at": "2025-08-25T04:47:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blosc/python-blosc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-bal/clair",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-bal/clairvoyante-pytroch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanopore-wgs-consortium/na12878",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-biology"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variant-calling"
+    }
+  ]
+}

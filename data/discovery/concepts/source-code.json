@@ -43,6 +43,18 @@
       "source_repo": "flosse/sloc",
       "status": "candidate-context",
       "text": "Create stats of your source code:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quelpa/quelpa",
+      "status": "candidate-context",
+      "text": "Build and install your Emacs Lisp packages on-the-fly directly from source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quelpa/quelpa",
+      "status": "candidate-context",
+      "text": "\"CI\""
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "flosse/sloc",
       "status": "candidate",
       "text": "Create stats of your source code:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quelpa/quelpa",
+      "status": "candidate",
+      "text": "\"CI\""
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "flosse/sloc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "quelpa/quelpa"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

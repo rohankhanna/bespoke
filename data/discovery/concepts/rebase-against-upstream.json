@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rebase against upstream"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stable-haskell/cabal",
+      "status": "candidate-context",
+      "text": "Official upstream development repository for Cabal and cabal-install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stable-haskell/cabal",
+      "status": "candidate-context",
+      "text": "Rebase against upstream"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stable-haskell/cabal",
+      "status": "candidate",
+      "text": "Rebase against upstream"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16074,
+      "status": "candidate",
+      "text": "upriver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16054,
+      "status": "candidate",
+      "text": "above"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16054,
+      "status": "candidate",
+      "text": "head gate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15054,
+      "status": "candidate",
+      "text": "ascend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15054,
+      "status": "candidate",
+      "text": "cutwater"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rebase against upstream",
+  "concept_id": "rebase-against-upstream",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rebase.yaml",
+      "source_repo": "stable-haskell/cabal"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rebase against upstream",
+      "sense_id": "rebase-against-upstream#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

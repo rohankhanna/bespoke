@@ -1,0 +1,497 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cpu.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cpu.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cpu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "jllllll/llama-cpp-python-cublas-wheels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-everything-tgw.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "Build Everything TGW",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cpu.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cpu.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cpu.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "conda-incubator/setup-miniconda@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cpu.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-cpu.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-cpu.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "Build CPU-only Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-macos.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-macos.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "Build MacOS Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-oobabooga-rocm.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "Build ROCm Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "microsoft/setup-msbuild@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "conda-incubator/setup-miniconda@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "Build CUDA Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "jlumbroso/free-disk-space@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "conda-incubator/setup-miniconda@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-rocm-full.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "microsoft/setup-msbuild@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "conda-incubator/setup-miniconda@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "svenstaro/upload-release-action@2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+      "target": "Build Tensor Core Wheels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:45:26.058804+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3054
+    },
+    {
+      "path": ".github/workflows/build-everything-tgw.yml",
+      "size": 1540
+    },
+    {
+      "path": ".github/workflows/build-wheels-cpu.yml",
+      "size": 5109
+    },
+    {
+      "path": ".github/workflows/build-wheels-macos.yml",
+      "size": 5272
+    },
+    {
+      "path": ".github/workflows/build-wheels-oobabooga-rocm.yml",
+      "size": 616
+    },
+    {
+      "path": ".github/workflows/build-wheels-oobabooga.yml",
+      "size": 11700
+    },
+    {
+      "path": ".github/workflows/build-wheels-rocm-full.yml",
+      "size": 11902
+    },
+    {
+      "path": ".github/workflows/build-wheels-tensorcores.yml",
+      "size": 11838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wheels for llama-cpp-python compiled with cuBLAS support",
+    "fork": true,
+    "full_name": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+    "html_url": "https://github.com/oobabooga/llama-cpp-python-cuBLAS-wheels",
+    "language": "HTML",
+    "pushed_at": "2025-04-09T14:10:43Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2025-10-06T10:37:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jllllll/llama-cpp-python-cublas-wheels",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Everything TGW",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-everything-tgw.yml",
+      "term": "Build Everything TGW"
+    },
+    {
+      "context_snippet": "Build CPU-only Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-cpu.yml",
+      "term": "Build CPU-only Wheels"
+    },
+    {
+      "context_snippet": "Build MacOS Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-macos.yml",
+      "term": "Build MacOS Wheels"
+    },
+    {
+      "context_snippet": "Build ROCm Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-oobabooga-rocm.yml",
+      "term": "Build ROCm Wheels"
+    },
+    {
+      "context_snippet": "Build CUDA Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml",
+      "term": "Build CUDA Wheels"
+    },
+    {
+      "context_snippet": "Build Tensor Core Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml",
+      "term": "Build Tensor Core Wheels"
+    }
+  ]
+}

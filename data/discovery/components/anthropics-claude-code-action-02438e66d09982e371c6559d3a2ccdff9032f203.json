@@ -1,0 +1,12 @@
+{
+  "component": "anthropics/claude-code-action@02438e66d09982e371c6559d3a2ccdff9032f203",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-generated-docs.yml",
+      "source_repo": "MaterializeInc/materialize"
+    }
+  ]
+}

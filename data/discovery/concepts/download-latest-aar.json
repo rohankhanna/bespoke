@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Download Latest aar"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahsanet/NikaNG",
+      "status": "candidate-context",
+      "text": "A fork of v2rayng with customized core. (mahsa-core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahsanet/NikaNG",
+      "status": "candidate-context",
+      "text": "Download Latest aar"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahsanet/NikaNG",
+      "status": "candidate",
+      "text": "Download Latest aar"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19906,
+      "status": "candidate",
+      "text": "merger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19906,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19464,
+      "status": "candidate",
+      "text": "ally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19464,
+      "status": "candidate",
+      "text": "break up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19464,
+      "status": "candidate",
+      "text": "breakup"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Download Latest aar",
+  "concept_id": "download-latest-aar",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build2.yml",
+      "source_repo": "mahsanet/NikaNG"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Download Latest aar",
+      "sense_id": "download-latest-aar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

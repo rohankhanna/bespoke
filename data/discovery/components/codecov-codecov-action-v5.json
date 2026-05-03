@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@v5",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1472,6 +1472,121 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "Mooncake-Labs/moonlink"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librosa/librosa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaStrings/LaTeXStrings.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "unjs/unimport"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "posva/unplugin-vue-router"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "webpack/style-loader"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sp-nitech/diffsptk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "pion/mediadevices"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/CategoricalArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nalimilan/FreqTables.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "reagent-project/reagent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python-hyper/wsproto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "arcaputo3/mcp-server-whisper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "linode/karpenter-provider-linode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tofay/rustls-openssl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/Colors.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaML/MLDatasets.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaML/MLUtils.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/Tables.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd.yml",
+      "source_repo": "TJC-LP/sanzaru"
     }
   ]
 }

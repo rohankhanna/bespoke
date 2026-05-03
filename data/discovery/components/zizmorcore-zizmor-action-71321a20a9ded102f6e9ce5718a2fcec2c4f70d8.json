@@ -1,7 +1,7 @@
 {
   "component": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "hynek/argon2-cffi-bindings"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "sympy/sympy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-github-actions.yaml",
+      "source_repo": "anchore/grype"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "halostatue/diff-lcs"
     }
   ]
 }

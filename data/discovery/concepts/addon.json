@@ -43,6 +43,18 @@
       "source_repo": "storybook-eol/addon-smart-knobs",
       "status": "candidate-context",
       "text": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate-context",
+      "text": "Blueprint for v2-formatted Ember addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "storybook-eol/addon-smart-knobs",
       "status": "candidate",
       "text": "This Storybook plugin uses `@storybook/addon-knobs` but creates the knobs automatically based on PropTypes, Flow and Typescript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "storybook-eol/addon-smart-knobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "embroider-build/addon-blueprint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "storybook-eol/addon-smart-knobs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

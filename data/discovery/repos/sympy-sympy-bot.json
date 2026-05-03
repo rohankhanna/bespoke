@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "sympy/sympy-bot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "sympy/sympy-bot",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "sympy/sympy-bot",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sympy/sympy-bot",
+      "target": "github-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sympy/sympy-bot",
+      "target": "heroku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sympy/sympy-bot",
+      "target": "sympy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sympy/sympy-bot",
+      "target": "wiki",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:58:19.856470+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4120
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 96
+    },
+    {
+      "path": "requirements.txt",
+      "size": 27
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GitHub bot for SymPy",
+    "fork": false,
+    "full_name": "sympy/sympy-bot",
+    "html_url": "https://github.com/sympy/sympy-bot",
+    "language": "Python",
+    "pushed_at": "2026-02-23T17:41:49Z",
+    "stargazers_count": 22,
+    "topics": [
+      "github-bot",
+      "heroku",
+      "sympy",
+      "wiki"
+    ],
+    "updated_at": "2026-04-10T15:07:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "This is a GitHub bot for SymPy. It runs on Render and uses the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-bot"
+    },
+    {
+      "context_snippet": "This is a GitHub bot for SymPy. It runs on Render and uses the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku"
+    },
+    {
+      "context_snippet": "This is a GitHub bot for SymPy. It runs on Render and uses the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sympy"
+    },
+    {
+      "context_snippet": "This is a GitHub bot for SymPy. It runs on Render and uses the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wiki"
+    }
+  ]
+}

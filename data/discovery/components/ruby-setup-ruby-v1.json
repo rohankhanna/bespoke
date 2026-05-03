@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2797,6 +2797,166 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_font.yml",
       "source_repo": "ButTaiwan/bpmfvs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "just-the-docs/just-the-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "just-the-docs/just-the-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "just-the-docs/just-the-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "countries/countries"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kreeti/kt-paperclip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-version-placeholders.yml",
+      "source_repo": "Shopify/rubocop-sorbet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "CanCanCommunity/cancancan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "varvet/pundit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-scala"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "source_repo": "heroku/heroku-buildpack-scala"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "just-the-docs/just-the-docs-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "just-the-docs/just-the-docs-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml",
+      "source_repo": "fnando/i18n-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "RubyMoney/money"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "RubyMoney/money"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mswin.yml",
+      "source_repo": "MSP-Greg/ruby-loco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/jruby-dev-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copy.yml",
+      "source_repo": "ruby/ruby-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "DamageLabs/paper_trail_manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "globalize/globalize"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "globalize/globalize"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "globalize/globalize-versioning"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "thoughtbot/appraisal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-cleanup.yml",
+      "source_repo": "heroku/heroku-buildpack-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hatchet_app_cleaner.yml",
+      "source_repo": "heroku/heroku-buildpack-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ElsaTam/obsidian-fancy-a-story"
     }
   ]
 }

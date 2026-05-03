@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T01:42:14.379808+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5948
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Github of the FaceForensics dataset",
+    "fork": false,
+    "full_name": "ondyari/FaceForensics",
+    "html_url": "https://github.com/ondyari/FaceForensics",
+    "language": "Python",
+    "pushed_at": "2022-12-08T01:43:11Z",
+    "stargazers_count": 2716,
+    "topics": [],
+    "updated_at": "2026-05-02T07:28:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

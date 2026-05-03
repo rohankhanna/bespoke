@@ -140,6 +140,30 @@
       "source_repo": "aws/aws-sdk-pandas",
       "status": "candidate-context",
       "text": "Check PR title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/formily",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1\ud83d\ude80 \ud83e\udde9 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/formily",
+      "status": "candidate-context",
+      "text": "Check PR title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/designable",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9 Make everything designable \ud83e\udde9 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/designable",
+      "status": "candidate-context",
+      "text": "Check PR title"
     }
   ],
   "candidate_glosses": [
@@ -206,6 +230,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws/aws-sdk-pandas",
+      "status": "candidate",
+      "text": "Check PR title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/formily",
+      "status": "candidate",
+      "text": "Check PR title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/designable",
       "status": "candidate",
       "text": "Check PR title"
     }
@@ -329,11 +365,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/pr-linter.yml",
       "source_repo": "aws/aws-sdk-pandas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "alibaba/formily"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "alibaba/designable"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "rlalik/setup-cpp-compiler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "latex-lsp/tree-sitter-latex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "bartp5/libtexprintf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "epwalsh/obsidian.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "lukas-reineke/headlines.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "rlalik/setup-cpp-compiler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "nvim-neorocks/luarocks-tag-release@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "Luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:09.321521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 88634
+    },
+    {
+      "path": ".github/workflows/luarocks.yml",
+      "size": 969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Plugin to improve viewing Markdown files in Neovim",
+    "fork": false,
+    "full_name": "MeanderingProgrammer/render-markdown.nvim",
+    "html_url": "https://github.com/MeanderingProgrammer/render-markdown.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-26T19:52:44Z",
+    "stargazers_count": 4500,
+    "topics": [
+      "lua",
+      "markdown",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "nvim-plugin"
+    ],
+    "updated_at": "2026-05-02T21:33:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bartp5/libtexprintf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "epwalsh/obsidian.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "latex-lsp/tree-sitter-latex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukas-reineke/headlines.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Luarocks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "term": "Luarocks"
+    },
+    {
+      "context_snippet": "Plugin to improve viewing Markdown files in Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "Plugin to improve viewing Markdown files in Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Plugin to improve viewing Markdown files in Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "Plugin to improve viewing Markdown files in Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "Plugin to improve viewing Markdown files in Neovim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    }
+  ]
+}

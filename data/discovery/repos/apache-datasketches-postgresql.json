@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/c-cpp.yml",
+      "source_repo": "apache/datasketches-postgresql",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/datasketches-postgresql",
+      "target": "datasketches",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:46:26.528512+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18031
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4455
+    },
+    {
+      "path": ".github/workflows/c-cpp.yml",
+      "size": 1016
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PostgreSQL extension providing approximate algorithms based on apache/datasketches-cpp",
+    "fork": false,
+    "full_name": "apache/datasketches-postgresql",
+    "html_url": "https://github.com/apache/datasketches-postgresql",
+    "language": "C",
+    "pushed_at": "2025-07-02T19:24:45Z",
+    "stargazers_count": 92,
+    "topics": [
+      "datasketches"
+    ],
+    "updated_at": "2026-04-26T18:41:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasketches"
+    }
+  ]
+}

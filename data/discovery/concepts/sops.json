@@ -31,6 +31,18 @@
       "source_repo": "danielrosehill/Israel-First-Aid",
       "status": "candidate-context",
       "text": "A personal reference collection of first aid protocols structured as machine-readable JSON, with sources from Israeli and American first aid authorities."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsops/sops",
+      "status": "candidate-context",
+      "text": "Simple and flexible tool for managing secrets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsops/sops",
+      "status": "candidate-context",
+      "text": "SOPS: Secrets OPerationS"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "danielrosehill/Israel-First-Aid",
       "status": "candidate",
       "text": "A personal reference collection of first aid protocols structured as machine-readable JSON, with sources from Israeli and American first aid authorities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsops/sops",
+      "status": "candidate",
+      "text": "SOPS: Secrets OPerationS"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +126,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Israel-First-Aid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "getsops/sops"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

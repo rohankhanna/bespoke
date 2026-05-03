@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " Perceval backend for Airtable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/perceval-backends/grimoirelab-perceval-airtable/workflows/tests/badge.svg)](https://github.com/perceval-backends/grimoirelab-perceval-airtable/actions?query=workflow:tests+branch:master+event:push) [![Coverage Status](https://img.shields.io/co\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/perceval-backends/grimoirelab-perceval-airtable/workflows/tests/badge.svg)](https://github.com/perceval-backends/grimoirelab-perceval-airtable/actions?query=workflow:tests+branch:master+event:push) [![Coverage Status](https://img.shields.io/co\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31365,
+      "status": "candidate",
+      "text": "maxwell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "perce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "perreault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31361,
+      "status": "candidate",
+      "text": "percle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31360,
+      "status": "candidate",
+      "text": "perley"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "perceval",
+      "sense_id": "perceval#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "perceval",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "perceval",
+  "observation_id": "286d69d8b6b3b180",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "perceval",
+  "source_context_snippet": "[![Build Status](https://github.com/perceval-backends/grimoirelab-perceval-airtable/workflows/tests/badge.svg)](https://github.com/perceval-backends/grimoirelab-perceval-airtable/actions?query=workflow:tests+branch:master+event:push) [![Coverage Status](https://img.shields.io/co\u2026",
+  "source_file": null,
+  "source_repo": "perceval-backends/grimoirelab-perceval-airtable",
+  "source_repo_description": " Perceval backend for Airtable"
+}

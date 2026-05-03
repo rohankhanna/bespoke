@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/verkko",
+      "target": "lbcb-sci/herro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/verkko",
+      "target": "dear-github/dear-github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/verkko",
+      "target": "c-zhou/yahs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marbl/verkko",
+      "target": "lh3/gfatools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "marbl/verkko",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "marbl/verkko",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "marbl/verkko",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "marbl/verkko",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "marbl/verkko",
+      "target": "compile and e.coli",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:54:37.783046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15437
+    },
+    {
+      "path": ".github/workflows/makefile.yml",
+      "size": 4612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Telomere-to-telomere assembly of accurate long reads (PacBio HiFi, Oxford Nanopore Duplex, HERRO corrected Oxford Nanopore Simplex) and Oxford Nanopore ultra-long reads.",
+    "fork": false,
+    "full_name": "marbl/verkko",
+    "html_url": "https://github.com/marbl/verkko",
+    "language": "Python",
+    "pushed_at": "2026-04-22T19:14:11Z",
+    "stargazers_count": 390,
+    "topics": [],
+    "updated_at": "2026-04-28T19:25:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c-zhou/yahs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dear-github/dear-github",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lbcb-sci/herro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lh3/gfatools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "compile and e.coli",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "term": "compile and e.coli"
+    }
+  ]
+}

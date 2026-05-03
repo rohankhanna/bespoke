@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Zero-config PWA for Vite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align='center'>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899465,
+      "status": "candidate",
+      "text": "workbag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39898374,
+      "status": "candidate",
+      "text": "workbasket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19911759,
+      "status": "candidate",
+      "text": "tool chest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19911758,
+      "status": "candidate",
+      "text": "toolbox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19911757,
+      "status": "candidate",
+      "text": "woodbox"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "workbox",
+      "sense_id": "workbox#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "workbag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "workbasket"
+    }
+  ],
+  "concept_id": "workbox",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "workbox",
+  "observation_id": "ee50c62aa7a79c0e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "workbox",
+  "source_context_snippet": "<p align='center'>",
+  "source_file": null,
+  "source_repo": "vite-pwa/vite-plugin-pwa",
+  "source_repo_description": "Zero-config PWA for Vite"
+}

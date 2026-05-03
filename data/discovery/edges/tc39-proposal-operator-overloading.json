@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-operator-overloading",
+      "target": "mikemcl/big.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-operator-overloading",
+      "target": "littledan/proposal-operator-overloading",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-operator-overloading",
+      "target": "littledan/proposal-built-in-decorators",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-operator-overloading",
+      "target": "littledan/proposal-bigdecimal",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "tc39/proposal-operator-overloading"
+}

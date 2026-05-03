@@ -526,6 +526,102 @@
       "source_repo": "hchiam/learning-js",
       "status": "candidate-context",
       "text": "Miscellaneous practice code in JS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "status": "candidate-context",
+      "text": "Lint your JSON files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/eslint-plugin-json.svg)](https://www.npmjs.com/package/eslint-plugin-json)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "9romise/eslint-import-resolver-oxc",
+      "status": "candidate-context",
+      "text": "A simply wrapped oxc-resolver for eslint-plugin-import-x"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-import-resolver-oxc",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-src]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate-context",
+      "text": "Monorepo for ESLint Stylistic plugins and configs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "un-ts/eslint-plugin-import-x",
+      "status": "candidate-context",
+      "text": "`eslint-plugin-import-x` is a fork of `eslint-plugin-import` that aims to provide a more performant and more lightweight version of the original plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/eslint-plugin-import-x",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/eslint-plugin-import-x/ci.yml?branch=master)](https://github.com/un-ts/eslint-plugin-import-x/actions/workflows/ci.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: ESLint plugin for Vue I18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"143px\" height=\"130px\" src=\"./assets/eslint-plugin-vue-i18n.svg\" alt=\"ESLint plugin for Vue I18n logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "status": "candidate-context",
+      "text": "This resolver adds `TypeScript` support to `eslint-plugin-import(-x)`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/import-js/eslint-import-resolver-typescript/ci.yml?branch=master)](https://github.com/import-js/eslint-import-resolver-typescript/actions/workflows/ci.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "import-js/eslint-plugin-import",
+      "status": "candidate-context",
+      "text": "ESLint plugin with rules that help validate proper imports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "import-js/eslint-plugin-import",
+      "status": "candidate-context",
+      "text": "[![github actions][actions-image]][actions-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mantoni/eslint_d.js",
+      "status": "candidate-context",
+      "text": "\ud83e\ude84 Speed up eslint to accelerate your development workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/eslint_d.js",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -786,6 +882,54 @@
       "source_repo": "hchiam/learning-js",
       "status": "candidate",
       "text": "Miscellaneous practice code in JS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/eslint-plugin-json.svg)](https://www.npmjs.com/package/eslint-plugin-json)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-import-resolver-oxc",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-src]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/eslint-plugin-import-x",
+      "status": "candidate",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/eslint-plugin-import-x/ci.yml?branch=master)](https://github.com/un-ts/eslint-plugin-import-x/actions/workflows/ci.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"143px\" height=\"130px\" src=\"./assets/eslint-plugin-vue-i18n.svg\" alt=\"ESLint plugin for Vue I18n logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "status": "candidate",
+      "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/import-js/eslint-import-resolver-typescript/ci.yml?branch=master)](https://github.com/import-js/eslint-import-resolver-typescript/actions/workflows/ci.yml?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "import-js/eslint-plugin-import",
+      "status": "candidate",
+      "text": "[![github actions][actions-image]][actions-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/eslint_d.js",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1441,11 +1585,95 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "azeemba/eslint-plugin-json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/eslint.yml",
+      "source_repo": "viser-project/viser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "9romise/eslint-import-resolver-oxc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eslint-stylistic/eslint-stylistic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "un-ts/eslint-plugin-import-x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "intlify/eslint-plugin-vue-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "import-js/eslint-import-resolver-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "import-js/eslint-plugin-import"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mantoni/eslint_d.js"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kotlin/kotlinx.coroutines",
+      "target": "reactor/blockhound",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kotlin/kotlinx.coroutines",
+      "target": "kotlin/keep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.coroutines",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.coroutines",
+      "target": "coroutines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.coroutines",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:50.643445+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library support for Kotlin coroutines ",
+    "fork": false,
+    "full_name": "Kotlin/kotlinx.coroutines",
+    "html_url": "https://github.com/Kotlin/kotlinx.coroutines",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-30T20:49:03Z",
+    "stargazers_count": 13738,
+    "topics": [
+      "async",
+      "coroutines",
+      "kotlin"
+    ],
+    "updated_at": "2026-05-02T10:00:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kotlin/keep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reactor/blockhound",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coroutines"
+    },
+    {
+      "context_snippet": "[![Kotlin Stable](https://kotl.in/badges/stable.svg)](https://kotlinlang.org/docs/components-stability.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

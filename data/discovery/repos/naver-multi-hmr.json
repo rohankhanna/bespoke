@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "naver/multi-hmr",
+      "target": "naver/anny",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/multi-hmr",
+      "target": "3d-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/multi-hmr",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/multi-hmr",
+      "target": "human-mesh-recovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/multi-hmr",
+      "target": "multi-person-3d-mesh-recovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/multi-hmr",
+      "target": "multi-person-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/multi-hmr",
+      "target": "single-shot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "naver/multi-hmr",
+      "target": "smpl-x",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:57.160338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12522
+    },
+    {
+      "path": "requirements.txt",
+      "size": 324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch demo code and models for Multi-HMR",
+    "fork": false,
+    "full_name": "naver/multi-hmr",
+    "html_url": "https://github.com/naver/multi-hmr",
+    "language": "Python",
+    "pushed_at": "2026-03-03T17:22:15Z",
+    "stargazers_count": 410,
+    "topics": [
+      "3d-pose",
+      "3d-reconstruction",
+      "human-mesh-recovery",
+      "multi-person-3d-mesh-recovery",
+      "multi-person-pose-estimation",
+      "single-shot",
+      "smpl-x"
+    ],
+    "updated_at": "2026-04-30T05:19:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naver/anny",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-pose"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-mesh-recovery"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-person-3d-mesh-recovery"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-person-pose-estimation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-shot"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smpl-x"
+    }
+  ]
+}

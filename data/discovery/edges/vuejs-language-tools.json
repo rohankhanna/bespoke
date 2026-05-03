@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vuejs/language-tools",
-      "target": "sublimelsp/lsp-volar",
+      "target": "yaegassy/coc-volar",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vuejs/language-tools",
-      "target": "kabiaa/atom-ide-volar",
+      "target": "tommasongr/nova-vue",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vuejs/language-tools",
-      "target": "jadestrong/lsp-volar",
+      "target": "xiaoxin-sky/lapce-vue",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vuejs/language-tools",
-      "target": "kingwl/monaco-volar",
+      "target": "volarjs/workspace.",
       "target_type": "repository"
     },
     {
@@ -274,6 +274,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "vuejs/language-tools"
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Snappy decompression with WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![hysnappy penguin](hysnappy.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![hysnappy penguin](hysnappy.jpg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020279,
+      "status": "candidate",
+      "text": "encoding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019862,
+      "status": "candidate",
+      "text": "coding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019531,
+      "status": "candidate",
+      "text": "encoder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018790,
+      "status": "candidate",
+      "text": "encryption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986025,
+      "status": "candidate",
+      "text": "codification"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "codec",
+      "sense_id": "codec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "codec",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "codec",
+  "observation_id": "2cd4e5d31bbe4f15",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "codec",
+  "source_context_snippet": "![hysnappy penguin](hysnappy.jpg)",
+  "source_file": null,
+  "source_repo": "hyparam/hysnappy",
+  "source_repo_description": "Snappy decompression with WebAssembly"
+}

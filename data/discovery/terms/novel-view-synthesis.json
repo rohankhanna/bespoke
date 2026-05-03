@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "DL3DV-10K/Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat360"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/GST"
     }
   ],
   "term": "novel-view-synthesis"

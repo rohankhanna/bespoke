@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "huaweicloud/huaweicloud-sdk-go-v3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "huaweicloud/huaweicloud-sdk-go-v3",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-ci.yml",
+      "source_repo": "huaweicloud/huaweicloud-sdk-go-v3",
+      "target": "Go CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-download.yml",
+      "source_repo": "huaweicloud/huaweicloud-sdk-go-v3",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-download.yml",
+      "source_repo": "huaweicloud/huaweicloud-sdk-go-v3",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-download.yml",
+      "source_repo": "huaweicloud/huaweicloud-sdk-go-v3",
+      "target": "Verify Download",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "huaweicloud/huaweicloud-sdk-go-v3"
+}

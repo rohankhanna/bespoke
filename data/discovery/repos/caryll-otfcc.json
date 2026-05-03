@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caryll/otfcc",
+      "target": "cff-otf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caryll/otfcc",
+      "target": "clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caryll/otfcc",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caryll/otfcc",
+      "target": "opentype-fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caryll/otfcc",
+      "target": "type-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caryll/otfcc",
+      "target": "typeface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caryll/otfcc",
+      "target": "typography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:59.582472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Optimized OpenType builder and inspector.",
+    "fork": false,
+    "full_name": "caryll/otfcc",
+    "html_url": "https://github.com/caryll/otfcc",
+    "language": "C",
+    "pushed_at": "2022-06-03T19:18:27Z",
+    "stargazers_count": 434,
+    "topics": [
+      "cff-otf",
+      "clang",
+      "font",
+      "opentype-fonts",
+      "type-design",
+      "typeface",
+      "typography"
+    ],
+    "updated_at": "2026-05-02T14:07:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cff-otf"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentype-fonts"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "type-design"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typography"
+    }
+  ]
+}

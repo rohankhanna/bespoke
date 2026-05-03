@@ -1191,7 +1191,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T10:14:20.129835+00:00",
+  "fetched_at": "2026-05-03T01:48:55.417592+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1243,8 +1243,8 @@
     "full_name": "puppeteer/puppeteer",
     "html_url": "https://github.com/puppeteer/puppeteer",
     "language": "TypeScript",
-    "pushed_at": "2026-04-30T19:16:52Z",
-    "stargazers_count": 94224,
+    "pushed_at": "2026-05-03T01:05:13Z",
+    "stargazers_count": 94231,
     "topics": [
       "automation",
       "chrome",
@@ -1256,7 +1256,7 @@
       "testing",
       "web"
     ],
-    "updated_at": "2026-05-01T07:33:34Z"
+    "updated_at": "2026-05-03T01:38:54Z"
   },
   "repo_links": [],
   "terms": [

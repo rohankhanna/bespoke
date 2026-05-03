@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "complementary"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "Complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "Inverse complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017339,
+      "status": "candidate",
+      "text": "complemental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013649,
+      "status": "candidate",
+      "text": "reciprocal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011555,
+      "status": "candidate",
+      "text": "interchangeable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980363,
+      "status": "candidate",
+      "text": "antonymous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912713,
+      "status": "candidate",
+      "text": "inessential"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15048,
+      "status": "candidate",
+      "text": "reciprocal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9023,
+      "status": "candidate",
+      "text": "complemental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8028,
+      "status": "candidate",
+      "text": "inessential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6017,
+      "status": "candidate",
+      "text": "antonymous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "interchangeable"
+    }
+  ],
+  "canonical_name": "complementary",
+  "concept_id": "complementary",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "complementary",
+      "sense_id": "complementary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

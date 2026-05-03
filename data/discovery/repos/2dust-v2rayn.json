@@ -1,0 +1,488 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-zip.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-zip.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-zip.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2dust/v2rayN",
+      "target": "xtls/xray-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2dust/v2rayN",
+      "target": "sagernet/sing-box",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "release all platforms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "release Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-osx.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-osx.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "release macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-desktop.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "release Windows desktop (Avalonia UI)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "release Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "actions/setup-dotnet@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "actions/upload-artifact@v7.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-zip.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-zip.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-zip.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-zip.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "package and release Zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget-publish.yml",
+      "source_repo": "2dust/v2rayN",
+      "target": "WinGet submission on release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN",
+      "target": "shadowsocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN",
+      "target": "socks5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN",
+      "target": "trojan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN",
+      "target": "v2fly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN",
+      "target": "v2ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN",
+      "target": "vless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN",
+      "target": "vmess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN",
+      "target": "xray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN",
+      "target": "xtls",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:38.812715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 905
+    },
+    {
+      "path": ".github/workflows/build-all.yml",
+      "size": 2341
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 8446
+    },
+    {
+      "path": ".github/workflows/build-osx.yml",
+      "size": 1641
+    },
+    {
+      "path": ".github/workflows/build-windows-desktop.yml",
+      "size": 500
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 508
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1815
+    },
+    {
+      "path": ".github/workflows/package-zip.yml",
+      "size": 1739
+    },
+    {
+      "path": ".github/workflows/winget-publish.yml",
+      "size": 1761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+    "fork": false,
+    "full_name": "2dust/v2rayN",
+    "html_url": "https://github.com/2dust/v2rayN",
+    "language": "C#",
+    "pushed_at": "2026-05-02T11:01:51Z",
+    "stargazers_count": 104334,
+    "topics": [
+      "proxy",
+      "shadowsocks",
+      "socks5",
+      "trojan",
+      "v2fly",
+      "v2ray",
+      "vless",
+      "vmess",
+      "windows",
+      "xray",
+      "xtls"
+    ],
+    "updated_at": "2026-05-03T04:58:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sagernet/sing-box",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xtls/xray-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release all platforms",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all.yml",
+      "term": "release all platforms"
+    },
+    {
+      "context_snippet": "release Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "release Linux"
+    },
+    {
+      "context_snippet": "release macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-osx.yml",
+      "term": "release macOS"
+    },
+    {
+      "context_snippet": "release Windows desktop (Avalonia UI)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-desktop.yml",
+      "term": "release Windows desktop (Avalonia UI)"
+    },
+    {
+      "context_snippet": "release Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "release Windows"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "package and release Zip",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-zip.yml",
+      "term": "package and release Zip"
+    },
+    {
+      "context_snippet": "WinGet submission on release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget-publish.yml",
+      "term": "WinGet submission on release"
+    },
+    {
+      "context_snippet": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shadowsocks"
+    },
+    {
+      "context_snippet": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socks5"
+    },
+    {
+      "context_snippet": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trojan"
+    },
+    {
+      "context_snippet": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "v2fly"
+    },
+    {
+      "context_snippet": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "v2ray"
+    },
+    {
+      "context_snippet": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vless"
+    },
+    {
+      "context_snippet": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vmess"
+    },
+    {
+      "context_snippet": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray"
+    },
+    {
+      "context_snippet": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xtls"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "builtin-modules",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "obsidian",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kepano/obsidian-hider",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kepano/obsidian-hider",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kepano/obsidian-hider",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kepano/obsidian-hider",
+      "target": "builtin-modules",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kepano/obsidian-hider",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kepano/obsidian-hider",
+      "target": "obsidian",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kepano/obsidian-hider",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kepano/obsidian-hider",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-hider",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-hider",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-hider",
+      "target": "obsidian-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:57:25.908643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1002
+    },
+    {
+      "path": "package.json",
+      "size": 660
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hide Obsidian UI elements such as tooltips, status, titlebar and more",
+    "fork": false,
+    "full_name": "kepano/obsidian-hider",
+    "html_url": "https://github.com/kepano/obsidian-hider",
+    "language": "TypeScript",
+    "pushed_at": "2025-12-14T15:04:22Z",
+    "stargazers_count": 526,
+    "topics": [
+      "obsidian",
+      "obsidian-md",
+      "obsidian-plugin"
+    ],
+    "updated_at": "2026-05-01T14:44:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This plugin enables you to hide certain parts of the Obsidian UI. Note that your CSS theme may override Hider.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "This plugin enables you to hide certain parts of the Obsidian UI. Note that your CSS theme may override Hider.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "This plugin enables you to hide certain parts of the Obsidian UI. Note that your CSS theme may override Hider.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-plugin"
+    }
+  ]
+}

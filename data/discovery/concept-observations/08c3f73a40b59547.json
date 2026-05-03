@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "approval"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "approvals"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "archipelagic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "bases"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "basic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "baselines",
+      "sense_id": "baselines#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "baselines",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "baselines",
+  "observation_id": "08c3f73a40b59547",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "baselines",
+  "source_context_snippet": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark",
+  "source_file": null,
+  "source_repo": "rainx0r/metaworld-algorithms",
+  "source_repo_description": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark"
+}

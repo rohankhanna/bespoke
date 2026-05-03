@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio.io",
+      "target": "microservices-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/istio.io",
+      "target": "website",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:57:44.641893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17677
+    },
+    {
+      "path": "go.mod",
+      "size": 10536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source for the istio.io site",
+    "fork": false,
+    "full_name": "istio/istio.io",
+    "html_url": "https://github.com/istio/istio.io",
+    "language": "HTML",
+    "pushed_at": "2026-04-28T07:29:39Z",
+    "stargazers_count": 819,
+    "topics": [
+      "microservices-architecture",
+      "website"
+    ],
+    "updated_at": "2026-05-02T15:52:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "| Site | Status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices-architecture"
+    },
+    {
+      "context_snippet": "| Site | Status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "website"
+    }
+  ]
+}

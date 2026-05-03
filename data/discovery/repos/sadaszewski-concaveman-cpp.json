@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:50:28.138364+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ port of mapbox's JS concaveman, with a Python wrapper",
+    "fork": false,
+    "full_name": "sadaszewski/concaveman-cpp",
+    "html_url": "https://github.com/sadaszewski/concaveman-cpp",
+    "language": "C++",
+    "pushed_at": "2023-02-24T22:54:46Z",
+    "stargazers_count": 175,
+    "topics": [],
+    "updated_at": "2026-04-15T08:51:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

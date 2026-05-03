@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "hufrea/byedpi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "hufrea/byedpi",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "hufrea/byedpi",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "hufrea/byedpi",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "hufrea/byedpi",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "hufrea/byedpi",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hufrea/byedpi",
+      "target": "anticensorship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hufrea/byedpi",
+      "target": "socks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:54.203761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12749
+    },
+    {
+      "path": "Dockerfile",
+      "size": 247
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 1003
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bypass DPI",
+    "fork": false,
+    "full_name": "hufrea/byedpi",
+    "html_url": "https://github.com/hufrea/byedpi",
+    "language": "C",
+    "pushed_at": "2026-03-29T19:08:14Z",
+    "stargazers_count": 3160,
+    "topics": [
+      "anticensorship",
+      "dpi",
+      "socks"
+    ],
+    "updated_at": "2026-05-02T21:52:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "Implementation of some DPI bypass methods.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anticensorship"
+    },
+    {
+      "context_snippet": "Implementation of some DPI bypass methods.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socks"
+    }
+  ]
+}

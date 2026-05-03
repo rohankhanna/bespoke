@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "numz/ComfyUI-SeedVR2_VideoUpscaler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "numz/ComfyUI-SeedVR2_VideoUpscaler",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "numz/ComfyUI-SeedVR2_VideoUpscaler",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numz/ComfyUI-SeedVR2_VideoUpscaler",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numz/ComfyUI-SeedVR2_VideoUpscaler",
+      "target": "comfyui-nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numz/ComfyUI-SeedVR2_VideoUpscaler",
+      "target": "upscaler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "numz/ComfyUI-SeedVR2_VideoUpscaler",
+      "target": "video-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:46.255848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57198
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1144
+    },
+    {
+      "path": "requirements.txt",
+      "size": 162
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official SeedVR2 Video Upscaler for ComfyUI",
+    "fork": false,
+    "full_name": "numz/ComfyUI-SeedVR2_VideoUpscaler",
+    "html_url": "https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler",
+    "language": "Python",
+    "pushed_at": "2025-12-24T08:52:32Z",
+    "stargazers_count": 2404,
+    "topics": [
+      "ai",
+      "comfyui",
+      "comfyui-nodes",
+      "upscaler",
+      "video-processing"
+    ],
+    "updated_at": "2026-05-03T00:34:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    },
+    {
+      "context_snippet": "[![View Code](https://img.shields.io/badge/\ud83d\udcc2_View_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "[![View Code](https://img.shields.io/badge/\ud83d\udcc2_View_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui-nodes"
+    },
+    {
+      "context_snippet": "[![View Code](https://img.shields.io/badge/\ud83d\udcc2_View_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "upscaler"
+    },
+    {
+      "context_snippet": "[![View Code](https://img.shields.io/badge/\ud83d\udcc2_View_Code-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-processing"
+    }
+  ]
+}

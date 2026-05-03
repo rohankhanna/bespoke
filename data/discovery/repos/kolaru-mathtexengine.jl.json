@@ -1,0 +1,353 @@
+{
+  "components": [
+    {
+      "component": "julia-actions/RegisterAction@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RegisterAction.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml"
+    },
+    {
+      "component": "julia-actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RegisterAction.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "julia-actions/RegisterAction@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/RegisterAction.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "RegisterAction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reference_tests.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reference_tests.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "ReferenceTests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "latex-math-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:58:16.630607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9082
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/RegisterAction.yml",
+      "size": 324
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1027
+    },
+    {
+      "path": ".github/workflows/reference_tests.yml",
+      "size": 1574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A latex math mode engine in pure Julia.",
+    "fork": false,
+    "full_name": "Kolaru/MathTeXEngine.jl",
+    "html_url": "https://github.com/Kolaru/MathTeXEngine.jl",
+    "language": "Julia",
+    "pushed_at": "2025-12-15T17:23:16Z",
+    "stargazers_count": 103,
+    "topics": [
+      "julia-language",
+      "latex",
+      "latex-math-mode",
+      "parser",
+      "unicode"
+    ],
+    "updated_at": "2026-04-25T14:55:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "RegisterAction",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/RegisterAction.yml",
+      "term": "RegisterAction"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "ReferenceTests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reference_tests.yml",
+      "term": "ReferenceTests"
+    },
+    {
+      "context_snippet": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-language"
+    },
+    {
+      "context_snippet": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    },
+    {
+      "context_snippet": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex-math-mode"
+    },
+    {
+      "context_snippet": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    }
+  ]
+}

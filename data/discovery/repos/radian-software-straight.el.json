@@ -16,28 +16,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "radian-software/straight.el",
-      "target": "emacscollective/borg",
+      "target": "emacsmirror/epkgs",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "radian-software/straight.el",
-      "target": "dimitri/el-get",
+      "target": "magit/forge",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "radian-software/straight.el",
-      "target": "emacscollective/epkg",
+      "target": "melpa/melpa",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "radian-software/straight.el",
-      "target": "abo-abo/hydra",
+      "target": "mattgreen/watchexec",
       "target_type": "repository"
     },
     {
@@ -76,7 +76,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:24:51.908930+00:00",
+  "fetched_at": "2026-05-03T01:49:36.002699+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -101,33 +101,33 @@
     "html_url": "https://github.com/radian-software/straight.el",
     "language": "Emacs Lisp",
     "pushed_at": "2026-04-15T22:00:56Z",
-    "stargazers_count": 2988,
+    "stargazers_count": 2991,
     "topics": [
       "emacs",
       "package-manager",
       "version-control"
     ],
-    "updated_at": "2026-04-16T01:27:02Z"
+    "updated_at": "2026-04-30T17:30:30Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "abo-abo/hydra",
+      "full_name": "emacsmirror/epkgs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dimitri/el-get",
+      "full_name": "magit/forge",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "emacscollective/borg",
+      "full_name": "mattgreen/watchexec",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "emacscollective/epkg",
+      "full_name": "melpa/melpa",
       "source_file": "README.md"
     }
   ],

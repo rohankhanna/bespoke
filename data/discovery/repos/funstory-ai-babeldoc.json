@@ -1,0 +1,527 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-labeler@548a7c3603594ec17c819e1239f281a3b801ab4d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "huacnlee/autocorrect-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "reviewdog/action-setup@d8a7baabd7f3e8544ee4dbde3ee41d0011c3a93f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "huacnlee/autocorrect-action@bf91ab3904c2908dd8e71312a8a83ed1eb632997",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "huacnlee/autocorrect-action@bf91ab3904c2908dd8e71312a8a83ed1eb632997",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "salsify/action-detect-and-tag-new-version@b1778166f13188a9d478e2d1198f993011ba9864",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@b1476f6e6eb133afa41ed8589daba6dc69b4d3f5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "immersive-translate/zotero-immersivetranslate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "guaguastandup/zotero-pdf2zh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "funstory-ai/yadt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "byaidu/pdfmathtranslate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "crazy-max/ghaction-github-labeler@548a7c3603594ec17c819e1239f281a3b801ab4d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "huacnlee/autocorrect-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "Lint Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "reviewdog/action-setup@d8a7baabd7f3e8544ee4dbde3ee41d0011c3a93f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "huacnlee/autocorrect-action@bf91ab3904c2908dd8e71312a8a83ed1eb632997",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "Lint Code and Review Dog Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "salsify/action-detect-and-tag-new-version@b1778166f13188a9d478e2d1198f993011ba9864",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/upload-artifact@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "release-drafter/release-drafter@b1476f6e6eb133afa41ed8589daba6dc69b4d3f5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "Run Tests \ud83e\uddea",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:01:02.484301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26782
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4726
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4298
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 983
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 335
+    },
+    {
+      "path": ".github/workflows/pr-lint.yml",
+      "size": 1353
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 4536
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Yet Another Document Translator",
+    "fork": false,
+    "full_name": "funstory-ai/BabelDOC",
+    "html_url": "https://github.com/funstory-ai/BabelDOC",
+    "language": "Python",
+    "pushed_at": "2026-04-13T22:19:45Z",
+    "stargazers_count": 8375,
+    "topics": [],
+    "updated_at": "2026-05-02T20:48:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byaidu/pdfmathtranslate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "funstory-ai/yadt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guaguastandup/zotero-pdf2zh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "immersive-translate/zotero-immersivetranslate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Labeler"
+    },
+    {
+      "context_snippet": "Lint Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint Code"
+    },
+    {
+      "context_snippet": "Lint Code and Review Dog Report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-lint.yml",
+      "term": "Lint Code and Review Dog Report"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Run Tests \ud83e\uddea",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run Tests \ud83e\uddea"
+    }
+  ]
+}

@@ -409,6 +409,18 @@
       "source_repo": "swagger-api/swagger-node",
       "status": "candidate-context",
       "text": "This GitHub repository has been archived."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "status": "candidate-context",
+      "text": "A maven plugin for generating Open API and Postman Collection specifications using Spring Restdocs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -615,6 +627,12 @@
       "source_repo": "swagger-api/swagger-node",
       "status": "candidate",
       "text": "This GitHub repository has been archived."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -1030,11 +1048,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

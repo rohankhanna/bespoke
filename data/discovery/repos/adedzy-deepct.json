@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:49:34.748022+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DeepCT and HDCT uses BERT to generate novel, context-aware bag-of-words term weights for documents and queries. ",
+    "fork": false,
+    "full_name": "AdeDZY/DeepCT",
+    "html_url": "https://github.com/AdeDZY/DeepCT",
+    "language": "Python",
+    "pushed_at": "2021-05-09T04:16:25Z",
+    "stargazers_count": 325,
+    "topics": [],
+    "updated_at": "2026-04-23T03:23:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

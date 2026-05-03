@@ -23,13 +23,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ali-vilab/TeaCache",
-      "target": "welltop-cn/comfyui-teacache",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "ali-vilab/TeaCache",
@@ -86,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:25:25.764277+00:00",
+  "fetched_at": "2026-05-03T03:56:04.372556+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -134,11 +127,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "thudm/cogvideo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "welltop-cn/comfyui-teacache",
       "source_file": "README.md"
     }
   ],

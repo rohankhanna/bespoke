@@ -164,6 +164,18 @@
       "source_repo": "clojure/core.unify",
       "status": "candidate-context",
       "text": "Build API Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.deps.graph",
+      "status": "candidate-context",
+      "text": "Dependency graphs for deps.edn projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.deps.graph",
+      "status": "candidate-context",
+      "text": "Build API Docs"
     }
   ],
   "candidate_glosses": [
@@ -242,6 +254,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "clojure/core.unify",
+      "status": "candidate",
+      "text": "Build API Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.deps.graph",
       "status": "candidate",
       "text": "Build API Docs"
     }
@@ -365,11 +383,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/doc-build.yml",
       "source_repo": "clojure/core.unify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/tools.deps.graph"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

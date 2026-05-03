@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "volar"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jadestrong/lsp-volar",
+      "status": "candidate-context",
+      "text": "Language support for Vue3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jadestrong/lsp-volar",
+      "status": "candidate-context",
+      "text": "Language support for Vue3"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jadestrong/lsp-volar",
+      "status": "candidate",
+      "text": "Language support for Vue3"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003297,
+      "status": "candidate",
+      "text": "onwing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003296,
+      "status": "candidate",
+      "text": "aflight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003295,
+      "status": "candidate",
+      "text": "overwing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003294,
+      "status": "candidate",
+      "text": "midair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10003293,
+      "status": "candidate",
+      "text": "pedomotive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "volar",
+  "concept_id": "volar",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jadestrong/lsp-volar"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "volar",
+      "sense_id": "volar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

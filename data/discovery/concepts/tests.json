@@ -5725,6 +5725,378 @@
       "source_repo": "haskell/ghcup-metadata",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate-context",
+      "text": " Accelerate your web app development  | Build fast. Run fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countries/countries",
+      "status": "candidate-context",
+      "text": "All sorts of useful information about every country packaged as convenient little country objects. It includes data from ISO 3166 (countries and states/subdivisions ), ISO 4217 (currency), and E.164 (phone numbers)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olirice/alembic_utils",
+      "status": "candidate-context",
+      "text": "An alembic/sqlalchemy extension for migrating sql views, functions, triggers, and policies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olirice/alembic_utils",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate-context",
+      "text": "Ruby wrapper for the Qdrant vector search database API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "solidjs/solid-router",
+      "status": "candidate-context",
+      "text": "A universal router for Solid inspired by Ember and React Router"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid-router",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-perceval-weblate",
+      "status": "candidate-context",
+      "text": "GrimoireLab: Bundle of Perceval backends for Weblate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-perceval-weblate",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "perceval-backends/grimoirelab-perceval-airtable",
+      "status": "candidate-context",
+      "text": " Perceval backend for Airtable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "perceval-backends/grimoirelab-perceval-airtable",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "status": "candidate-context",
+      "text": "Perceval backend for Bitbucket"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bubenshchykov/ngrok",
+      "status": "candidate-context",
+      "text": "Expose your localhost to the web. Node wrapper for ngrok."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bubenshchykov/ngrok",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gltf-rs/gltf",
+      "status": "candidate-context",
+      "text": "A crate for loading glTF 2.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gltf-rs/gltf",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/cli",
+      "status": "candidate-context",
+      "text": "Turn Clojure functions into CLIs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/cli",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgjones/quart",
+      "status": "candidate-context",
+      "text": "An async Python micro framework for building web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgjones/quart",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rochacbruno/dynaconf-mirror",
+      "status": "candidate-context",
+      "text": "dynaconf mirror (mainly for stats)- ORIGINAL REPO ON - https://github.com/dynaconf/dynaconf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rochacbruno/dynaconf-mirror",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes Operator for Lakekeeper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tvogels/pyexr",
+      "status": "candidate-context",
+      "text": "One-line EXR IO-library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tvogels/pyexr",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "status": "candidate-context",
+      "text": "Conversion of neuroimaging data for display in Neuroglancer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate-context",
+      "text": "Offline testing for Scaleway Serverless Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate-context",
+      "text": "\"tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karma-runner/karma-qunit",
+      "status": "candidate-context",
+      "text": "A Karma plugin. Adapter for QUnit testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma-qunit",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "status": "candidate-context",
+      "text": "Build LLM-powered applications in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "offline-ai/cli",
+      "status": "candidate-context",
+      "text": "The AI agent script CLI for Programmable Prompt Engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "offline-ai/cli",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clibs/clib",
+      "status": "candidate-context",
+      "text": "Package manager for the C programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibs/clib",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate-context",
+      "text": "Add Conda dependencies to your Julia project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sympy/sympy-bot",
+      "status": "candidate-context",
+      "text": "GitHub bot for SymPy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy-bot",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DamageLabs/paper_trail_manager",
+      "status": "candidate-context",
+      "text": "Browse, subscribe, view and revert changes to records when using Ruby on Rails 3 and the `paper_trail` gem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DamageLabs/paper_trail_manager",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate-context",
+      "text": "A Ruby library for testing your library against different versions of dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bitergia/release-tools",
+      "status": "candidate-context",
+      "text": "Tools to create GrimoireLab releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bitergia/release-tools",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "floating-ui/floating-ui",
+      "status": "candidate-context",
+      "text": "A JavaScript library to position floating elements and create interactions for them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floating-ui/floating-ui",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weavejester/ring-refresh",
+      "status": "candidate-context",
+      "text": "A Clojure middleware library for Ring that automatically triggers a browser refresh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weavejester/ring-refresh",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.build",
+      "status": "candidate-context",
+      "text": "Clojure builds as Clojure programs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.build",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hal9ai/awesome-dataviz",
+      "status": "candidate-context",
+      "text": ":chart_with_upwards_trend:  A curated list of awesome data visualization libraries and resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hal9ai/awesome-dataviz",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/quart",
+      "status": "candidate-context",
+      "text": "An async Python micro framework for building web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/quart",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -8635,6 +9007,192 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "haskell/ghcup-metadata",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olirice/alembic_utils",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid-router",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-perceval-weblate",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "perceval-backends/grimoirelab-perceval-airtable",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bubenshchykov/ngrok",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gltf-rs/gltf",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/cli",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgjones/quart",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rochacbruno/dynaconf-mirror",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tvogels/pyexr",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate",
+      "text": "\"tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma-qunit",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "offline-ai/cli",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibs/clib",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy-bot",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DamageLabs/paper_trail_manager",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bitergia/release-tools",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floating-ui/floating-ui",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weavejester/ring-refresh",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.build",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hal9ai/awesome-dataviz",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/quart",
       "status": "candidate",
       "text": "Tests"
     }
@@ -12849,11 +13407,329 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TencentCloudADP/youtu-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "sanic-org/sanic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "dracory/hb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "countries/countries"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "olirice/alembic_utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "solidjs/solid-router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-perceval-weblate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-airtable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "bubenshchykov/ngrok"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gltf-rs/gltf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "nvim-neotest/neotest-jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "coasys/perspective-diff-sync"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Uniswap/v3-periphery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pgjones/quart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rochacbruno/dynaconf-mirror"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "wardencommunity/warden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "tvogels/pyexr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tox.yaml",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "scaleway/serverless-functions-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "karma-runner/karma-qunit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "offline-ai/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "clibs/clib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "sympy/sympy-bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "DamageLabs/paper_trail_manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "thoughtbot/appraisal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Bitergia/release-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "floating-ui/floating-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weavejester/ring-refresh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clojure/tools.build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "hal9ai/awesome-dataviz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/quart"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

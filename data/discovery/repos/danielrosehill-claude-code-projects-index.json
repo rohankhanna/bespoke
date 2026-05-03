@@ -18,7 +18,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-mcp-list",
+      "target": "danielrosehill/claude-content-writing-plugin",
       "target_type": "repository"
     },
     {
@@ -64,11 +64,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T19:39:00.983217+00:00",
+  "fetched_at": "2026-05-03T05:05:19.840394+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 91090
+      "size": 91526
     },
     {
       "path": "package.json",
@@ -84,14 +84,14 @@
     "full_name": "danielrosehill/Claude-Code-Projects-Index",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
-    "pushed_at": "2026-04-30T21:46:51Z",
-    "stargazers_count": 437,
+    "pushed_at": "2026-05-02T19:57:25Z",
+    "stargazers_count": 442,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-05-02T15:17:38Z"
+    "updated_at": "2026-05-03T03:51:11Z"
   },
   "repo_links": [
     {
@@ -111,7 +111,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-mcp-list",
+      "full_name": "danielrosehill/claude-content-writing-plugin",
       "source_file": "README.md"
     }
   ],

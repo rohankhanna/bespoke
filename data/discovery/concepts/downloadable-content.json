@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Downloadable Content"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "status": "candidate-context",
+      "text": "the documentation for the ir_datasets package (https://github.com/allenai/ir_datasets/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "status": "candidate-context",
+      "text": "Downloadable Content"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "status": "candidate",
+      "text": "Downloadable Content"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42363,
+      "status": "candidate",
+      "text": "expansion pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42362,
+      "status": "candidate",
+      "text": "season"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42361,
+      "status": "candidate",
+      "text": "episodic video game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42359,
+      "status": "candidate",
+      "text": "fan disc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42358,
+      "status": "candidate",
+      "text": "free-to-play"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Downloadable Content",
+  "concept_id": "downloadable-content",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/verify_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Downloadable Content",
+      "sense_id": "downloadable-content#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

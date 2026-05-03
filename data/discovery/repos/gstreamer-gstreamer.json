@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GStreamer/gstreamer",
+      "target": "mesonbuild/meson",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:35.860393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GStreamer open-source multimedia framework",
+    "fork": false,
+    "full_name": "GStreamer/gstreamer",
+    "html_url": "https://github.com/GStreamer/gstreamer",
+    "language": "C",
+    "pushed_at": "2026-05-02T17:17:52Z",
+    "stargazers_count": 3150,
+    "topics": [],
+    "updated_at": "2026-05-02T16:52:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mesonbuild/meson",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICLR 2024] Controlling Vision-Language Models for Universal Image Restoration. 5th place in the NTIRE 2024 Restore Any Image Model in the Wild Challenge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "all-in-one-image-restoration",
+      "sense_id": "all-in-one-image-restoration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "all-in-one-image-restoration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "all-in-one-image-restoration",
+  "observation_id": "7bc9a61552574000",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "all-in-one-image-restoration",
+  "source_context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+  "source_file": null,
+  "source_repo": "Algolzw/daclip-uir",
+  "source_repo_description": "[ICLR 2024] Controlling Vision-Language Models for Universal Image Restoration. 5th place in the NTIRE 2024 Restore Any Image Model in the Wild Challenge."
+}

@@ -119,6 +119,30 @@
       "source_repo": "agentscope-ai/Trinity-RFT",
       "status": "candidate-context",
       "text": "unittest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Your Intelligent Copilot for Data Exploration and Processing Pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "status": "candidate-context",
+      "text": "unittest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Cross platform code coverage for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026"
     }
   ],
   "candidate_glosses": [
@@ -181,6 +205,18 @@
       "source_repo": "agentscope-ai/Trinity-RFT",
       "status": "candidate",
       "text": "unittest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "status": "candidate",
+      "text": "unittest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -284,11 +320,29 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/unittest.yaml",
       "source_repo": "agentscope-ai/Trinity-RFT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "datajuicer/data-juicer-agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "agentscope-ai/Trinity-RFT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

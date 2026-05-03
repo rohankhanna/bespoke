@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ci-javascript-samples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "status": "candidate-context",
+      "text": "Welcome to the Bot Framework samples repository. Here you will find task-focused samples in C#, JavaScript/TypeScript, and Python to help you get started with the Bot Framework SDK!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "status": "candidate-context",
+      "text": "ci-javascript-samples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "status": "candidate",
+      "text": "ci-javascript-samples"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ci-javascript-samples",
+  "concept_id": "ci-javascript-samples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci-javascript-samples.yml",
+      "source_repo": "microsoft/BotBuilder-Samples"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ci-javascript-samples",
+      "sense_id": "ci-javascript-samples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

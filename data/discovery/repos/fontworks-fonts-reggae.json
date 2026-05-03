@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fontworks-fonts/Reggae",
+      "target": "adobe-type-tools/adobe-japan1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:59.181262+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1644
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A font file available from Google Fonts.",
+    "fork": false,
+    "full_name": "fontworks-fonts/Reggae",
+    "html_url": "https://github.com/fontworks-fonts/Reggae",
+    "language": "Python",
+    "pushed_at": "2022-10-07T04:55:58Z",
+    "stargazers_count": 243,
+    "topics": [],
+    "updated_at": "2026-02-15T13:12:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-type-tools/adobe-japan1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

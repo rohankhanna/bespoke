@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "target": "lightly-ai/lightly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "target": "pytorchlightning/pytorch-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:44:54.032206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1421
+    },
+    {
+      "path": "requirements.txt",
+      "size": 21
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code to train the SimSiam model on cifar10 using PyTorch",
+    "fork": false,
+    "full_name": "IgorSusmelj/simsiam-cifar10",
+    "html_url": "https://github.com/IgorSusmelj/simsiam-cifar10",
+    "language": "Python",
+    "pushed_at": "2021-10-15T11:03:04Z",
+    "stargazers_count": 41,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "machine-learning",
+      "pytorch",
+      "self-supervised-learning"
+    ],
+    "updated_at": "2025-06-20T09:46:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightly-ai/lightly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorchlightning/pytorch-lightning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    }
+  ]
+}

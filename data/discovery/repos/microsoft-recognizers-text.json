@@ -1,0 +1,228 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "datetime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "datetime-normalization-and-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "entity-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "number-expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "numbers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "numex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "parser-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "time-expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "time-expression-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Recognizers-Text",
+      "target": "timex",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:52:05.604949+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Microsoft.Recognizers.Text provides recognition and resolution of numbers, units, date/time, etc. in multiple languages (ZH, EN, FR, ES, PT, DE, IT, TR, HI, NL. Partial support for JA, KO, AR, SV). Packages available at: https://www.nuget.org/profiles/Recognizers.Text, https://www.npmjs.com/~recognizers.text",
+    "fork": false,
+    "full_name": "microsoft/Recognizers-Text",
+    "html_url": "https://github.com/microsoft/Recognizers-Text",
+    "language": "C#",
+    "pushed_at": "2026-04-17T06:19:03Z",
+    "stargazers_count": 1778,
+    "topics": [
+      "date",
+      "datetime",
+      "datetime-normalization-and-resolution",
+      "entity-extraction",
+      "hacktoberfest",
+      "ner",
+      "nlp",
+      "number-expression",
+      "numbers",
+      "numex",
+      "parser",
+      "parser-library",
+      "time",
+      "time-expression",
+      "time-expression-recognition",
+      "timex"
+    ],
+    "updated_at": "2026-05-02T08:15:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "date"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datetime"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datetime-normalization-and-resolution"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "entity-extraction"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "number-expression"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numbers"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numex"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser-library"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-expression"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-expression-recognition"
+    },
+    {
+      "context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timex"
+    }
+  ]
+}

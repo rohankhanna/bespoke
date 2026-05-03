@@ -649,6 +649,210 @@
       "source_repo": "MakieOrg/Makie.jl",
       "status": "candidate-context",
       "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate-context",
+      "text": "Python and Julia in harmony."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "status": "candidate-context",
+      "text": "Basic color definitions and traits "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jverzani/SymPyCore.jl",
+      "status": "candidate-context",
+      "text": "Package to help connect Julia with the SymPy library of Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyCore.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jverzani/SymPyPythonCall.jl",
+      "status": "candidate-context",
+      "text": "SymPy with PythonCall backend (not PyCall)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyPythonCall.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "Interface designs for enforcing static computations in array functions with Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate-context",
+      "text": "Arrays for working with categorical data (both nominal and ordinal)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/StatsPlots.jl",
+      "status": "candidate-context",
+      "text": "Statistical plotting recipes for Plots.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/StatsPlots.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nalimilan/FreqTables.jl",
+      "status": "candidate-context",
+      "text": "Frequency tables in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalimilan/FreqTables.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate-context",
+      "text": "Add Conda dependencies to your Julia project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaStats/RDatasets.jl",
+      "status": "candidate-context",
+      "text": "Julia package for loading many of the data sets available in R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/RDatasets.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate-context",
+      "text": "Color manipulation utilities for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "status": "candidate-context",
+      "text": "Treat colors as if they are n-vectors for the purposes of arithmetic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "status": "candidate-context",
+      "text": "A latex math mode engine in pure Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jverzani/SymPyPyCall.jl",
+      "status": "candidate-context",
+      "text": "PyCall backend to SymPyCore, a Julia package to access the SymPy library of Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyPyCall.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "status": "candidate-context",
+      "text": "Wrapping deep learning models from the package Flux.jl for use in the MLJ.jl toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaML/MLUtils.jl",
+      "status": "candidate-context",
+      "text": "Utilities and abstractions for Machine Learning tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLUtils.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "status": "candidate-context",
+      "text": "A Julia package for multivariate statistics and data analysis (e.g. dimension reduction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
     }
   ],
   "candidate_glosses": [
@@ -979,6 +1183,108 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyCore.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyPythonCall.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/StatsPlots.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalimilan/FreqTables.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/RDatasets.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyPyCall.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLUtils.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
       "status": "candidate",
       "text": "CompatHelper"
     }
@@ -1378,11 +1684,155 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPy/PythonCall.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "jverzani/SymPyCore.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "jverzani/SymPyPythonCall.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaDebug/SnoopCompile.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaData/CategoricalArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPlots/StatsPlots.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "nalimilan/FreqTables.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/compathelper.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/compathelper.yml",
+      "source_repo": "JuliaStats/RDatasets.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/Colors.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "jverzani/SymPyPyCall.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "FluxML/MLJFlux.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaML/MLUtils.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "MakieOrg/Makie.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

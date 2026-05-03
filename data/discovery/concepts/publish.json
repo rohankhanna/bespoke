@@ -2878,6 +2878,240 @@
       "source_repo": "rthalley/dnspython",
       "status": "candidate-context",
       "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate-context",
+      "text": "Plugin for Serverless Framework to allow users to deploy their serverless applications on Scaleway Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate-context",
+      "text": "\"publish\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ng-packagr/ng-packagr",
+      "status": "candidate-context",
+      "text": "Compile and package Angular libraries in Angular Package Format (APF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-packagr/ng-packagr",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mindreframer/sqlean",
+      "status": "candidate-context",
+      "text": "All the missing SQLite functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mindreframer/sqlean",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KazariEX/dxup",
+      "status": "candidate-context",
+      "text": "A collection of plugins to improve your development experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KazariEX/dxup",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pengx17/logseq-publish",
+      "status": "candidate-context",
+      "text": "Archived. Please check https://github.com/logseq/publish-spa instead"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pengx17/logseq-publish",
+      "status": "candidate-context",
+      "text": "> **Note**: Logseq team has published [its official solution](https://github.com/logseq/publish-spa). As a result, I will archive mine here. Thanks for your supports thus far!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "Error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "Multidimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databendlabs/iceberg-rust",
+      "status": "candidate-context",
+      "text": "Apache Iceberg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/iceberg-rust",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "status": "candidate-context",
+      "text": "Apache Iceberg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate-context",
+      "text": "Offline testing for Scaleway Serverless Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate-context",
+      "text": "\"publish\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "offline-ai/cli",
+      "status": "candidate-context",
+      "text": "The AI agent script CLI for Programmable Prompt Engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "offline-ai/cli",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-app-blueprint",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/eslint-config",
+      "status": "candidate-context",
+      "text": "An ESLint config for Svelte"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/eslint-config",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "Complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "Inverse complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "Inverse error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "Create a typed array."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "Buffer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "Multidimensional array constructor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/quart",
+      "status": "candidate-context",
+      "text": "An async Python micro framework for building web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/quart",
+      "status": "candidate-context",
+      "text": "Publish"
     }
   ],
   "candidate_glosses": [
@@ -4330,6 +4564,126 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rthalley/dnspython",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate",
+      "text": "\"publish\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-packagr/ng-packagr",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mindreframer/sqlean",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KazariEX/dxup",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pengx17/logseq-publish",
+      "status": "candidate",
+      "text": "> **Note**: Logseq team has published [its official solution](https://github.com/logseq/publish-spa). As a result, I will archive mine here. Thanks for your supports thus far!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/iceberg-rust",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate",
+      "text": "\"publish\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "offline-ai/cli",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-app-blueprint",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/eslint-config",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/quart",
       "status": "candidate",
       "text": "Publish"
     }
@@ -7057,11 +7411,257 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "scaleway/serverless-scaleway-functions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ng-packagr/ng-packagr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mindreframer/sqlean"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "KazariEX/dxup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mattpocock/ts-reset"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pengx17/logseq-publish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hermit-os/hermit-gcc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "holochain/launcher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "databendlabs/iceberg-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lakekeeper/iceberg-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "scaleway/serverless-functions-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "offline-ai/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ember-cli/ember-app-blueprint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "sveltejs/eslint-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/quart"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

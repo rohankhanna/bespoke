@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boppreh/mouse",
+      "target": "boppreh/keyboard",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:04:28.559659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11515
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": " Hook and simulate global mouse events in pure Python",
+    "fork": false,
+    "full_name": "boppreh/mouse",
+    "html_url": "https://github.com/boppreh/mouse",
+    "language": "Python",
+    "pushed_at": "2024-07-09T15:35:54Z",
+    "stargazers_count": 960,
+    "topics": [],
+    "updated_at": "2026-04-19T16:02:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boppreh/keyboard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

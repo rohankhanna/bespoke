@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csm-actions/docs",
+      "target": "csm-actions/approve-pr-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csm-actions/docs",
+      "target": "csm-actions/update-branch-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csm-actions/docs",
+      "target": "document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csm-actions/docs",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csm-actions/docs",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:18.029549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Client / Server Model for GitHub Actions",
+    "fork": false,
+    "full_name": "csm-actions/docs",
+    "html_url": "https://github.com/csm-actions/docs",
+    "language": null,
+    "pushed_at": "2026-04-01T07:13:46Z",
+    "stargazers_count": 6,
+    "topics": [
+      "document",
+      "github-actions",
+      "oss",
+      "security"
+    ],
+    "updated_at": "2026-04-10T08:02:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csm-actions/approve-pr-action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csm-actions/update-branch-action",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

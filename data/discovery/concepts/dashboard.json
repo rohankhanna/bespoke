@@ -189,6 +189,18 @@
       "source_repo": "kwent/pgbouncerhero",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/pgbouncerhero.svg)](https://badge.fury.io/rb/pgbouncerhero)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate-context",
+      "text": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -281,6 +293,12 @@
       "source_repo": "kwent/pgbouncerhero",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/pgbouncerhero.svg)](https://badge.fury.io/rb/pgbouncerhero)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -446,11 +464,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PanJiaChen/vue-element-admin"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

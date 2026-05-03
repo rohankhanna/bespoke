@@ -91,6 +91,42 @@
       "source_repo": "JuliaArrays/StaticArraysCore.jl",
       "status": "candidate-context",
       "text": "Invalidations"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "Interface designs for enforcing static computations in array functions with Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "Invalidations"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "status": "candidate-context",
+      "text": "fixed point types for julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "status": "candidate-context",
+      "text": "Invalidations"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate-context",
+      "text": "An interface for tables in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate-context",
+      "text": "Invalidations"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +169,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaArrays/StaticArraysCore.jl",
+      "status": "candidate",
+      "text": "Invalidations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "status": "candidate",
+      "text": "Invalidations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "status": "candidate",
+      "text": "Invalidations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Tables.jl",
       "status": "candidate",
       "text": "Invalidations"
     }
@@ -220,11 +274,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/Invalidations.yml",
       "source_repo": "JuliaArrays/StaticArraysCore.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaData/Tables.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

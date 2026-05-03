@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msasanmh/DNSveil",
+      "target": "msasanmh/msmhagnosticserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msasanmh/DNSveil",
+      "target": "valdikss/goodbyedpi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "anonymized-dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "anti-censorship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dns-over-htttps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dns-over-tcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dns-over-tls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dns-over-udp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dns-stamp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dnslookup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dpi-bypassing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "goodbyedpi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "http3",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "msasanmh/DNSveil"
+}

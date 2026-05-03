@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Run your tests with randomization, splitting, and parallelization for beautiful tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://github.com/ember-cli/ember-exam/actions/workflows/ci.yml/badge.svg?event=push)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/ember-cli/ember-exam/actions/workflows/ci.yml/badge.svg?event=push)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031005,
+      "status": "candidate",
+      "text": "coal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29938885,
+      "status": "candidate",
+      "text": "dec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29836830,
+      "status": "candidate",
+      "text": "sept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038623,
+      "status": "candidate",
+      "text": "cinder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038621,
+      "status": "candidate",
+      "text": "carbon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ember",
+      "sense_id": "ember#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9056,
+      "status": "candidate",
+      "text": "coal"
+    }
+  ],
+  "concept_id": "ember",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ember",
+  "observation_id": "e6b8322f0451dd0f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "ember",
+  "source_context_snippet": "![Build Status](https://github.com/ember-cli/ember-exam/actions/workflows/ci.yml/badge.svg?event=push)",
+  "source_file": null,
+  "source_repo": "ember-cli/ember-exam",
+  "source_repo_description": "Run your tests with randomization, splitting, and parallelization for beautiful tests."
+}

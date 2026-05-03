@@ -19,6 +19,30 @@
       "source_repo": "smeetrs/deep_avsr",
       "status": "candidate-context",
       "text": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpc001/Visual_Speech_Recognition_for_Multiple_Languages",
+      "status": "candidate-context",
+      "text": "Visual Speech Recognition for Multiple Languages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpc001/Visual_Speech_Recognition_for_Multiple_Languages",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"160\" src=\"doc/lip_white.png\" alt=\"logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpc001/auto_avsr",
+      "status": "candidate-context",
+      "text": "Auto-AVSR: Lip-Reading Sentences Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpc001/auto_avsr",
+      "status": "candidate-context",
+      "text": "`2025-01-06`: Reduced package dependencies."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "smeetrs/deep_avsr",
       "status": "candidate",
       "text": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpc001/Visual_Speech_Recognition_for_Multiple_Languages",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"160\" src=\"doc/lip_white.png\" alt=\"logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpc001/auto_avsr",
+      "status": "candidate",
+      "text": "`2025-01-06`: Reduced package dependencies."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "smeetrs/deep_avsr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mpc001/Visual_Speech_Recognition_for_Multiple_Languages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mpc001/auto_avsr"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

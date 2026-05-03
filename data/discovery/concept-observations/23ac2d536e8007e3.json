@@ -84,7 +84,7 @@
   "normalized_form": "build-package",
   "observation_id": "23ac2d536e8007e3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Build Package",
   "source_context_snippet": "Build Package",
   "source_file": ".github/workflows/build_package.yml",

@@ -19,12 +19,84 @@
       "source_repo": "gazebosim/sdformat",
       "status": "candidate-context",
       "text": "Validate package.xml"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-cmake",
+      "status": "candidate-context",
+      "text": "A set of CMake modules that are used by the C++-based Gazebo projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-cmake",
+      "status": "candidate-context",
+      "text": "Validate package.xml"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate-context",
+      "text": "An audio-visual library supports processing audio and video files, a graphics library can load a variety 3D mesh file formats into a generic in-memory representation, and the core library of Gazebo Common contains functionality that spans Base64 encoding/decoding to thread pools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate-context",
+      "text": "Validate package.xml"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-fuel-tools",
+      "status": "candidate-context",
+      "text": "A client library and command line tools for interacting with Gazebo Fuel servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-fuel-tools",
+      "status": "candidate-context",
+      "text": "Validate package.xml"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate-context",
+      "text": "Abstract physics interface designed to support simulation and rapid development of robot applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate-context",
+      "text": "Validate package.xml"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "gazebosim/sdformat",
+      "status": "candidate",
+      "text": "Validate package.xml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-cmake",
+      "status": "candidate",
+      "text": "Validate package.xml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate",
+      "text": "Validate package.xml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-fuel-tools",
+      "status": "candidate",
+      "text": "Validate package.xml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-physics",
       "status": "candidate",
       "text": "Validate package.xml"
     }
@@ -76,11 +148,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/package_xml.yml",
       "source_repo": "gazebosim/sdformat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-cmake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-common"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-fuel-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-physics"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

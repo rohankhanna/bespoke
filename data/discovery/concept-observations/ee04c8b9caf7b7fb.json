@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An alembic/sqlalchemy extension for migrating sql views, functions, triggers, and policies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948237,
+      "status": "candidate",
+      "text": "kerotakis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948236,
+      "status": "candidate",
+      "text": "alembication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948235,
+      "status": "candidate",
+      "text": "dephlegmator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948234,
+      "status": "candidate",
+      "text": "still"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19948233,
+      "status": "candidate",
+      "text": "distillatory"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "alembic",
+      "sense_id": "alembic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "alembic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "alembic",
+  "observation_id": "ee04c8b9caf7b7fb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "alembic",
+  "source_context_snippet": "<p>",
+  "source_file": null,
+  "source_repo": "olirice/alembic_utils",
+  "source_repo_description": "An alembic/sqlalchemy extension for migrating sql views, functions, triggers, and policies"
+}

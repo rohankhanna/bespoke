@@ -1,0 +1,432 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml"
+    },
+    {
+      "component": "julia-actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml"
+    },
+    {
+      "component": "julia-actions/julia-docdeploy@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "juliagraphics/colorvectorspace.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentations.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "julia-actions/julia-docdeploy@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Documentations.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "Unit test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "color-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "color-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "color-scheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "color-schemes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "colorschemes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "colour",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "colours",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "target": "gradients",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:58:08.934617+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1944
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 529
+    },
+    {
+      "path": ".github/workflows/Documentations.yml",
+      "size": 944
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 828
+    },
+    {
+      "path": ".github/workflows/UnitTest.yml",
+      "size": 1593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Color manipulation utilities for Julia",
+    "fork": false,
+    "full_name": "JuliaGraphics/Colors.jl",
+    "html_url": "https://github.com/JuliaGraphics/Colors.jl",
+    "language": "Julia",
+    "pushed_at": "2025-11-24T05:10:56Z",
+    "stargazers_count": 223,
+    "topics": [
+      "color",
+      "color-conversion",
+      "color-manipulation",
+      "color-scheme",
+      "color-schemes",
+      "colors",
+      "colorschemes",
+      "colour",
+      "colours",
+      "gradients"
+    ],
+    "updated_at": "2026-04-14T09:20:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliagraphics/colorvectorspace.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Documentations.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Unit test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "term": "Unit test"
+    },
+    {
+      "context_snippet": "| **Documentation** | **Build Status** | **Code Coverage** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    },
+    {
+      "context_snippet": "| **Documentation** | **Build Status** | **Code Coverage** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-conversion"
+    },
+    {
+      "context_snippet": "| **Documentation** | **Build Status** | **Code Coverage** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-manipulation"
+    },
+    {
+      "context_snippet": "| **Documentation** | **Build Status** | **Code Coverage** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-scheme"
+    },
+    {
+      "context_snippet": "| **Documentation** | **Build Status** | **Code Coverage** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color-schemes"
+    },
+    {
+      "context_snippet": "| **Documentation** | **Build Status** | **Code Coverage** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colors"
+    },
+    {
+      "context_snippet": "| **Documentation** | **Build Status** | **Code Coverage** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorschemes"
+    },
+    {
+      "context_snippet": "| **Documentation** | **Build Status** | **Code Coverage** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colour"
+    },
+    {
+      "context_snippet": "| **Documentation** | **Build Status** | **Code Coverage** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colours"
+    },
+    {
+      "context_snippet": "| **Documentation** | **Build Status** | **Code Coverage** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradients"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpc001/auto_avsr",
+      "target": "pytorch/audio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpc001/auto_avsr",
+      "target": "ahaliassos/raven",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mpc001/auto_avsr",
+      "target": "facebookresearch/av_hubert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpc001/auto_avsr",
+      "target": "lipreading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mpc001/auto_avsr",
+      "target": "visual-speech-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:15.162370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Auto-AVSR: Lip-Reading Sentences Project",
+    "fork": false,
+    "full_name": "mpc001/auto_avsr",
+    "html_url": "https://github.com/mpc001/auto_avsr",
+    "language": "Python",
+    "pushed_at": "2025-01-08T12:54:54Z",
+    "stargazers_count": 417,
+    "topics": [
+      "lipreading",
+      "visual-speech-recognition"
+    ],
+    "updated_at": "2026-04-28T20:12:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahaliassos/raven",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/av_hubert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/audio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`2025-01-06`: Reduced package dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lipreading"
+    },
+    {
+      "context_snippet": "`2025-01-06`: Reduced package dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-speech-recognition"
+    }
+  ]
+}

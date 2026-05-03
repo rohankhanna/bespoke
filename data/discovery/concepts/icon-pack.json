@@ -55,6 +55,18 @@
       "source_repo": "kenangundogan/fontisto",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate-context",
+      "text": "\ud83d\udc21 An icon expansion pack for Maki"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "kenangundogan/fontisto",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "kenangundogan/fontisto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

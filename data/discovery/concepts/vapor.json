@@ -19,12 +19,30 @@
       "source_repo": "vapor/redis",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udda5 Server-side code for the nef editor app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "vapor/redis",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-server",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "vapor/redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

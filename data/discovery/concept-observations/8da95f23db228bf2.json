@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Israeli Red Alert Service for Home Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "***Not Official Pikud Ha-Oref***"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "***Not Official Pikud Ha-Oref***"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031727,
+      "status": "candidate",
+      "text": "hebrew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031701,
+      "status": "candidate",
+      "text": "zionist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013242,
+      "status": "candidate",
+      "text": "palestinian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008613,
+      "status": "candidate",
+      "text": "jerusalem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001486,
+      "status": "candidate",
+      "text": "israel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "israeli",
+      "sense_id": "israeli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "israeli",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "israeli",
+  "observation_id": "8da95f23db228bf2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "israeli",
+  "source_context_snippet": "***Not Official Pikud Ha-Oref***",
+  "source_file": null,
+  "source_repo": "idodov/RedAlert",
+  "source_repo_description": "Israeli Red Alert Service for Home Assistant"
+}

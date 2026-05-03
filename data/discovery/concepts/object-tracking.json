@@ -55,6 +55,18 @@
       "source_repo": "cheind/py-motmetrics",
       "status": "candidate-context",
       "text": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate-context",
+      "text": "[CVPR2023] The official repo for OC-SORT: Observation-Centric SORT on video Multi-Object Tracking. OC-SORT is simple, online and robust to occlusion/non-linear motion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "cheind/py-motmetrics",
       "status": "candidate",
       "text": "FROM ubuntu:latest MAINTAINER Avgerinos Christos <christosavg@gmail.com> #ARG GT_DIR #ARG TEST_DIR RUN apt-get update \\ && apt-get install -y python3-pip python3-dev vim \\ && cd /usr/local/bin \\ && ln -s /usr/bin/python3 python \\ && pip3 install --upgrade pip RUN pip3 install --\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "cheind/py-motmetrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "noahcao/OC_SORT"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

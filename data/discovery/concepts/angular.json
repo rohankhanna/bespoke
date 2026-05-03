@@ -346,6 +346,54 @@
       "source_repo": "Badisi/wdio-harness",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ng-packagr/ng-packagr",
+      "status": "candidate-context",
+      "text": "Compile and package Angular libraries in Angular Package Format (APF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-packagr/ng-packagr",
+      "status": "candidate-context",
+      "text": "> Compile and package Angular libraries in Angular Package Format (APF)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-web",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Web SDK \ud83e\udde1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-web",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/appwrite/sdk-for-web.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate-context",
+      "text": "Javascript codes you will always need  & Cheatsheets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate-context",
+      "text": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogjs/analog",
+      "status": "candidate-context",
+      "text": "The fullstack meta-framework for Angular. Powered by Vite and Nitro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogjs/analog",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_glosses": [
@@ -522,6 +570,30 @@
       "source_repo": "Badisi/wdio-harness",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-packagr/ng-packagr",
+      "status": "candidate",
+      "text": "> Compile and package Angular libraries in Angular Package Format (APF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-web",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/appwrite/sdk-for-web.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate",
+      "text": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogjs/analog",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_related_terms": [
@@ -781,11 +853,47 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ng-packagr/ng-packagr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "devsmitra/javascript-quick-functions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "analogjs/analog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

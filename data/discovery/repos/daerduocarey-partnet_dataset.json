@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daerduoCarey/partnet_dataset",
+      "target": "daerduocarey/partnet_anno_system",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daerduoCarey/partnet_dataset",
+      "target": "daerduocarey/partnet_seg_exps",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:02.986714+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PartNet Dataset Official Release Repo",
+    "fork": false,
+    "full_name": "daerduoCarey/partnet_dataset",
+    "html_url": "https://github.com/daerduoCarey/partnet_dataset",
+    "language": "Python",
+    "pushed_at": "2023-02-02T21:04:41Z",
+    "stargazers_count": 418,
+    "topics": [],
+    "updated_at": "2026-04-23T11:09:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daerduocarey/partnet_anno_system",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daerduocarey/partnet_seg_exps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

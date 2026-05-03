@@ -84,7 +84,7 @@
   "normalized_form": "simple-benchmarks",
   "observation_id": "efc45ffc1fd10d45",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Simple benchmarks",
   "source_context_snippet": "Simple benchmarks",
   "source_file": ".github/workflows/python-bench.yml",

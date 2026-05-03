@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Will It Blend\u2122"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "Build Postgres Extensions with Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "Will It Blend\u2122"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate",
+      "text": "Will It Blend\u2122"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28043,
+      "status": "candidate",
+      "text": "break point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11749,
+      "status": "candidate",
+      "text": "future"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11706,
+      "status": "candidate",
+      "text": "east"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11706,
+      "status": "candidate",
+      "text": "estate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11706,
+      "status": "candidate",
+      "text": "left"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Will It Blend\u2122",
+  "concept_id": "will-it-blend",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/will-it-blend-develop.yml",
+      "source_repo": "pgcentralfoundation/pgrx"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Will It Blend\u2122",
+      "sense_id": "will-it-blend#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

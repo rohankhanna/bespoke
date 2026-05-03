@@ -1,0 +1,12 @@
+{
+  "component": "t1m0thyj/unlock-keyring@cbcf205c879ebd86add70bab3a6abfcce59a5cae",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "supabase/cli"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "occupancy-grid-map"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate-context",
+      "text": "[IROS2024] SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate-context",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "occupancy-grid-map",
+  "concept_id": "occupancy-grid-map",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "occupancy-grid-map",
+      "sense_id": "occupancy-grid-map#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

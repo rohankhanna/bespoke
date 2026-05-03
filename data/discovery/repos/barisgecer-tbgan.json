@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/TBGAN",
+      "target": "3dface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/TBGAN",
+      "target": "generative-adversarial-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/TBGAN",
+      "target": "photorealistic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/TBGAN",
+      "target": "synthetic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:02.485751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project Page of 'Synthesizing Coupled 3D Face Modalities by Trunk-Branch Generative Adversarial Networks'",
+    "fork": false,
+    "full_name": "barisgecer/TBGAN",
+    "html_url": "https://github.com/barisgecer/TBGAN",
+    "language": "Python",
+    "pushed_at": "2021-10-28T11:05:41Z",
+    "stargazers_count": 246,
+    "topics": [
+      "3dface",
+      "gan",
+      "generative-adversarial-networks",
+      "photorealistic",
+      "synthetic"
+    ],
+    "updated_at": "2025-11-19T11:20:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "(Requires to sign End User License Agreement)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dface"
+    },
+    {
+      "context_snippet": "(Requires to sign End User License Agreement)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-networks"
+    },
+    {
+      "context_snippet": "(Requires to sign End User License Agreement)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "photorealistic"
+    },
+    {
+      "context_snippet": "(Requires to sign End User License Agreement)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synthetic"
+    }
+  ]
+}

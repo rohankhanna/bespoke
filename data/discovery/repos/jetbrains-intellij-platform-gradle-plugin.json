@@ -319,7 +319,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T07:06:27.095316+00:00",
+  "fetched_at": "2026-05-03T03:03:09.197366+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -371,7 +371,7 @@
     "full_name": "JetBrains/intellij-platform-gradle-plugin",
     "html_url": "https://github.com/JetBrains/intellij-platform-gradle-plugin",
     "language": "Kotlin",
-    "pushed_at": "2026-05-01T06:41:22Z",
+    "pushed_at": "2026-05-01T20:11:19Z",
     "stargazers_count": 1527,
     "topics": [
       "gradle",

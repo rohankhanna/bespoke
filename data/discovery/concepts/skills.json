@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "skills"
+    "skills",
+    "Skills"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -181,6 +184,42 @@
       "source_repo": "agentscope-ai/QwenPaw",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botframework-solutions",
+      "status": "candidate-context",
+      "text": "Welcome to the Bot Framework Solutions repository which is the home for a set of templates and solutions to help build advanced conversational experiences using Azure Bot Service and Bot Framework. Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-solutions",
+      "status": "candidate-context",
+      "text": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate-context",
+      "text": "SumUp's design system for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate-context",
+      "text": "Skills"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botframework-components",
+      "status": "candidate-context",
+      "text": "The repository for components built by Microsoft for the Azure Bot Framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-components",
+      "status": "candidate-context",
+      "text": "This project is no longer actively maintained and will be archived in January of 2025. Functions of this project were superseded by [Microsoft Copilot Studio](https://aka.ms/copilotstudio)"
     }
   ],
   "candidate_glosses": [
@@ -267,6 +306,24 @@
       "source_repo": "agentscope-ai/QwenPaw",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-solutions",
+      "status": "candidate",
+      "text": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate",
+      "text": "Skills"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-components",
+      "status": "candidate",
+      "text": "This project is no longer actively maintained and will be archived in January of 2025. Functions of this project were superseded by [Microsoft Copilot Studio](https://aka.ms/copilotstudio)"
     }
   ],
   "candidate_related_terms": [
@@ -478,11 +535,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/skills.yml",
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "agentscope-ai/QwenPaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-components"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

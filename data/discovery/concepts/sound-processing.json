@@ -43,6 +43,18 @@
       "source_repo": "iver56/torch-audiomentations",
       "status": "candidate-context",
       "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KentoNishi/torch-pitch-shift",
+      "status": "candidate-context",
+      "text": "Pitch-shift audio clips quickly with PyTorch (CUDA supported)! Additional utilities for searching efficient transformations are included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KentoNishi/torch-pitch-shift",
+      "status": "candidate-context",
+      "text": "torch>=1.7.0 torchaudio>=0.7.0 primePy>=1.3 packaging>=21.3"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "iver56/torch-audiomentations",
       "status": "candidate",
       "text": "![torch-audiomentations](images/torch_audiomentations_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KentoNishi/torch-pitch-shift",
+      "status": "candidate",
+      "text": "torch>=1.7.0 torchaudio>=0.7.0 primePy>=1.3 packaging>=21.3"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "KentoNishi/torch-pitch-shift"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

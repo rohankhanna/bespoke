@@ -1,0 +1,361 @@
+{
+  "components": [
+    {
+      "component": "@antfu/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antfu/utils",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/color",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vscode/vsce",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@xterm/xterm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bumpp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "color",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ovsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vsxpub",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "antfu/vitesse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "primer/github-vscode-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "@antfu/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "@antfu/utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "@types/color",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "@types/fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "@vscode/vsce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "@xterm/xterm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "bumpp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "color",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "ovsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "vsxpub",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "pnpm/action-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "Publish Extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "vscode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "target": "vscode-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:59:36.205932+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1793
+    },
+    {
+      "path": "package.json",
+      "size": 2143
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 943
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udfd5 Vitesse theme for VS Code",
+    "fork": false,
+    "full_name": "antfu/vscode-theme-vitesse",
+    "html_url": "https://github.com/antfu/vscode-theme-vitesse",
+    "language": "TypeScript",
+    "pushed_at": "2025-08-22T01:15:13Z",
+    "stargazers_count": 689,
+    "topics": [
+      "dark-theme",
+      "theme",
+      "vscode",
+      "vscode-theme"
+    ],
+    "updated_at": "2026-04-23T21:55:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vitesse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "primer/github-vscode-theme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Extension",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Publish Extension"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Vitesse Theme for VS Code</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dark-theme"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Vitesse Theme for VS Code</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Vitesse Theme for VS Code</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Vitesse Theme for VS Code</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-theme"
+    }
+  ]
+}

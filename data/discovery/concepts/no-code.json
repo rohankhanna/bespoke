@@ -79,6 +79,18 @@
       "source_repo": "BuilderIO/mitosis",
       "status": "candidate-context",
       "text": "@builder.io/mitosis-repo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/formily",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1\ud83d\ude80 \ud83e\udde9 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/formily",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-cn.md)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "BuilderIO/mitosis",
       "status": "candidate",
       "text": "@builder.io/mitosis-repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/formily",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-cn.md)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "BuilderIO/mitosis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/formily"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

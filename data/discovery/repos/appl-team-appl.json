@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appl-team/appl",
+      "target": "appl-team/reppl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appl-team/appl",
+      "target": "appl-team/twitterpersonality",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appl-team/appl",
+      "target": "appl-team/autonaming",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appl-team/appl",
+      "target": "appl-team/explerr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appl-team/appl",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appl-team/appl",
+      "target": "prompt-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:12.987291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14689
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3808
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf4eAPPL: A Prompt Programming Language. Seamlessly integrate LLMs with programs.",
+    "fork": false,
+    "full_name": "appl-team/appl",
+    "html_url": "https://github.com/appl-team/appl",
+    "language": "Python",
+    "pushed_at": "2025-02-20T05:26:00Z",
+    "stargazers_count": 264,
+    "topics": [
+      "developer-tools",
+      "llm",
+      "prompt-language",
+      "python"
+    ],
+    "updated_at": "2026-04-10T00:37:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appl-team/autonaming",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appl-team/explerr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appl-team/reppl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appl-team/twitterpersonality",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/applang.svg)](https://pypi.python.org/pypi/applang)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "[![version](https://img.shields.io/pypi/v/applang.svg)](https://pypi.python.org/pypi/applang)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-language"
+    }
+  ]
+}

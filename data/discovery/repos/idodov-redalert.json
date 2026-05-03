@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "idodov/RedAlert",
+      "target": "appdaemon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "idodov/RedAlert",
+      "target": "appdaemon-apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "idodov/RedAlert",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "idodov/RedAlert",
+      "target": "hacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "idodov/RedAlert",
+      "target": "hacs-custom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "idodov/RedAlert",
+      "target": "home-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "idodov/RedAlert",
+      "target": "israeli",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:48:13.292287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 62643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Israeli Red Alert Service for Home Assistant",
+    "fork": false,
+    "full_name": "idodov/RedAlert",
+    "html_url": "https://github.com/idodov/RedAlert",
+    "language": "Python",
+    "pushed_at": "2026-04-03T17:08:16Z",
+    "stargazers_count": 59,
+    "topics": [
+      "appdaemon",
+      "appdaemon-apps",
+      "automation",
+      "hacs",
+      "hacs-custom",
+      "home-assistant",
+      "israeli"
+    ],
+    "updated_at": "2026-04-04T17:42:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "***Not Official Pikud Ha-Oref***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appdaemon"
+    },
+    {
+      "context_snippet": "***Not Official Pikud Ha-Oref***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appdaemon-apps"
+    },
+    {
+      "context_snippet": "***Not Official Pikud Ha-Oref***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "***Not Official Pikud Ha-Oref***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacs"
+    },
+    {
+      "context_snippet": "***Not Official Pikud Ha-Oref***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacs-custom"
+    },
+    {
+      "context_snippet": "***Not Official Pikud Ha-Oref***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "home-assistant"
+    },
+    {
+      "context_snippet": "***Not Official Pikud Ha-Oref***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "israeli"
+    }
+  ]
+}

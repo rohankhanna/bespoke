@@ -1,0 +1,409 @@
+{
+  "components": [
+    {
+      "component": "@types/mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-pr-release.yaml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-pr-release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-pr-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "HaaLeo/publish-vscode-extension@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "HaaLeo/publish-vscode-extension@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml"
+    },
+    {
+      "component": "snok/install-poetry@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "aws-cloudformation/cfn-python-lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "awslabs/aws-cfn-lint-visual-studio-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "awslabs/aws-cfn-lint-visual-studio-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "@types/mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-pr-release.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-pr-release.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-pr-release.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "HaaLeo/publish-vscode-extension@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "Upload package to VSCode Marketplace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "snok/install-poetry@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "Update CloudFormation schemas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "aws-cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "cfn-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "cloudformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "cloudformation-linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "target": "visual-studio-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:48:44.480697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1788
+    },
+    {
+      "path": "package.json",
+      "size": 5694
+    },
+    {
+      "path": ".github/workflows/branch-pr-release.yaml",
+      "size": 953
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 796
+    },
+    {
+      "path": ".github/workflows/template-schema-updater.yaml",
+      "size": 1912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CloudFormation Linter IDE integration, autocompletion, and documentation",
+    "fork": false,
+    "full_name": "aws-cloudformation/cfn-lint-visual-studio-code",
+    "html_url": "https://github.com/aws-cloudformation/cfn-lint-visual-studio-code",
+    "language": "JavaScript",
+    "pushed_at": "2026-05-02T08:31:26Z",
+    "stargazers_count": 286,
+    "topics": [
+      "aws",
+      "aws-cloudformation",
+      "cfn-lint",
+      "cloudformation",
+      "cloudformation-linter",
+      "linter",
+      "visual-studio-code"
+    ],
+    "updated_at": "2026-04-10T21:46:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/cfn-python-lint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/aws-cfn-lint-visual-studio-code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/aws-cfn-lint-visual-studio-code",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Upload package to VSCode Marketplace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Upload package to VSCode Marketplace"
+    },
+    {
+      "context_snippet": "Update CloudFormation schemas",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "term": "Update CloudFormation schemas"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/visual-studio-marketplace/v/kddejong.vscode-cfn-lint.svg?style=flat)](https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-cloudformation"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/visual-studio-marketplace/v/kddejong.vscode-cfn-lint.svg?style=flat)](https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cfn-lint"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/visual-studio-marketplace/v/kddejong.vscode-cfn-lint.svg?style=flat)](https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudformation"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/visual-studio-marketplace/v/kddejong.vscode-cfn-lint.svg?style=flat)](https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudformation-linter"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/visual-studio-marketplace/v/kddejong.vscode-cfn-lint.svg?style=flat)](https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/visual-studio-marketplace/v/kddejong.vscode-cfn-lint.svg?style=flat)](https://marketplace.visualstudio.com/items?itemName=kddejong.vscode-cfn-lint)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio-code"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Wheels for llama-cpp-python compiled with cuBLAS support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Batch Build MacOS Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Batch Build MacOS Wheels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17933,
+      "status": "candidate",
+      "text": "series"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17933,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17544,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17539,
+      "status": "candidate",
+      "text": "carriage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17539,
+      "status": "candidate",
+      "text": "convoy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Batch Build MacOS Wheels",
+      "sense_id": "batch-build-macos-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "batch-build-macos-wheels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "batch-build-macos-wheels",
+  "observation_id": "3303cdf7b001c171",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Batch Build MacOS Wheels",
+  "source_context_snippet": "Batch Build MacOS Wheels",
+  "source_file": ".github/workflows/build-wheels-batch-macos.yml",
+  "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+  "source_repo_description": "Wheels for llama-cpp-python compiled with cuBLAS support"
+}

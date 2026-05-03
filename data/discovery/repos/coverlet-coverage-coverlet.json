@@ -1,0 +1,543 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "danielpalme/ReportGenerator-GitHub-Action@5.5.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v3.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action/linux@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action/macos@v2.21.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action/windows@v2.21.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "bibipkins/dotnet-test-reporter@v1.6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-close.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-inactive.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-untriaged.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-draft.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "microsoft/vstest-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "romanx/cake.coverlet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "ademanuele/vsmac-codecoverage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "actions/setup-dotnet@v5.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "danielpalme/ReportGenerator-GitHub-Action@5.5.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "marocchino/sticky-pull-request-comment@v3.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "EnricoMi/publish-unit-test-result-action/linux@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "EnricoMi/publish-unit-test-result-action/macos@v2.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "EnricoMi/publish-unit-test-result-action/windows@v2.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "bibipkins/dotnet-test-reporter@v1.6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-close.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-close.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-inactive.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-inactive.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "Label inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-untriaged.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-untriaged.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "Label issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-draft.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-draft.yml",
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "bytecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "code-coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "coverage-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "coverlet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "instrumentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet",
+      "target": "unittest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:53:48.822986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13667
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2817
+    },
+    {
+      "path": ".github/workflows/dotnet.yml",
+      "size": 9935
+    },
+    {
+      "path": ".github/workflows/issue-close.yml",
+      "size": 803
+    },
+    {
+      "path": ".github/workflows/issue-inactive.yml",
+      "size": 828
+    },
+    {
+      "path": ".github/workflows/issue-untriaged.yml",
+      "size": 788
+    },
+    {
+      "path": ".github/workflows/release-draft.yml",
+      "size": 754
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross platform code coverage for .NET",
+    "fork": false,
+    "full_name": "coverlet-coverage/coverlet",
+    "html_url": "https://github.com/coverlet-coverage/coverlet",
+    "language": "C#",
+    "pushed_at": "2026-05-02T07:15:21Z",
+    "stargazers_count": 3148,
+    "topics": [
+      "bytecode",
+      "code-coverage",
+      "coverage",
+      "coverage-library",
+      "coverlet",
+      "cross-platform",
+      "dotnet",
+      "dotnet-core",
+      "instrumentation",
+      "unittest"
+    ],
+    "updated_at": "2026-05-02T07:15:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ademanuele/vsmac-codecoverage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vstest-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "romanx/cake.coverlet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-close.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "Label inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-inactive.yml",
+      "term": "Label inactive issues"
+    },
+    {
+      "context_snippet": "Label issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-untriaged.yml",
+      "term": "Label issues"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-draft.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bytecode"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-coverage"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coverage"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coverage-library"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coverlet"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instrumentation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unittest"
+    }
+  ]
+}

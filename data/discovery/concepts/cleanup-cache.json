@@ -44,6 +44,18 @@
       "source_repo": "appwrite/appwrite",
       "status": "candidate-context",
       "text": "Cleanup Cache"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withastro/astro",
+      "status": "candidate-context",
+      "text": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/astro",
+      "status": "candidate-context",
+      "text": "Cleanup cache"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "appwrite/appwrite",
       "status": "candidate",
       "text": "Cleanup Cache"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/astro",
+      "status": "candidate",
+      "text": "Cleanup cache"
     }
   ],
   "candidate_related_terms": [
@@ -143,11 +161,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/cleanup-cache.yml",
       "source_repo": "appwrite/appwrite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/cleanup-cache.yml",
+      "source_repo": "withastro/astro"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

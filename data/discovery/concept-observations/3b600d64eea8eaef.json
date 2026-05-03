@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udde9 Make everything designable \ud83e\udde9 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968319,
+      "status": "candidate",
+      "text": "interior designer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959977,
+      "status": "candidate",
+      "text": "custom-made"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953403,
+      "status": "candidate",
+      "text": "architect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945401,
+      "status": "candidate",
+      "text": "fashion designer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941459,
+      "status": "candidate",
+      "text": "couturier"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "designer",
+      "sense_id": "designer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6044,
+      "status": "candidate",
+      "text": "architect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30,
+      "status": "candidate",
+      "text": "decorator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "interior designer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "interior decorator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "fashion designer"
+    }
+  ],
+  "concept_id": "designer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "designer",
+  "observation_id": "3b600d64eea8eaef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "designer",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "alibaba/designable",
+  "source_repo_description": "\ud83e\udde9 Make everything designable \ud83e\udde9 "
+}

@@ -1,0 +1,252 @@
+{
+  "components": [
+    {
+      "component": "@mathjax/mathjax-newcm-font",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@mathjax/src",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathjax/MathJax",
+      "target": "mathjax/mathjax-demos-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathjax/MathJax",
+      "target": "mathjax/mathjax-demos-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mathjax/MathJax",
+      "target": "@mathjax/mathjax-newcm-font",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathjax/MathJax",
+      "target": "@mathjax/src",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mathjax/MathJax",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mathjax/MathJax",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mathjax/MathJax",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mathjax/MathJax",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax",
+      "target": "accessibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax",
+      "target": "asciimath-notation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax",
+      "target": "mathematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax",
+      "target": "mathjax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax",
+      "target": "mathml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax",
+      "target": "typography",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:43.068315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10085
+    },
+    {
+      "path": "package.json",
+      "size": 2436
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Beautiful and accessible math in all browsers",
+    "fork": false,
+    "full_name": "mathjax/MathJax",
+    "html_url": "https://github.com/mathjax/MathJax",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-19T22:25:43Z",
+    "stargazers_count": 10823,
+    "topics": [
+      "accessibility",
+      "asciimath-notation",
+      "css",
+      "html",
+      "javascript",
+      "latex",
+      "mathematics",
+      "mathjax",
+      "mathml",
+      "svg",
+      "typography"
+    ],
+    "updated_at": "2026-05-03T00:10:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mathjax/mathjax-demos-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mathjax/mathjax-demos-web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accessibility"
+    },
+    {
+      "context_snippet": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asciimath-notation"
+    },
+    {
+      "context_snippet": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    },
+    {
+      "context_snippet": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematics"
+    },
+    {
+      "context_snippet": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathjax"
+    },
+    {
+      "context_snippet": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathml"
+    },
+    {
+      "context_snippet": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typography"
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "magefile/mage-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "magefile/mage-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "magefile/mage-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-status@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-virustotal@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/released.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-virustotal@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/released.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "magefile/mage-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "crazy-max/ghaction-github-status@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "crazy-max/ghaction-github-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "crazy-max/ghaction-github-labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/released.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "crazy-max/ghaction-virustotal@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/released.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "released",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "blocker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "firewall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "hostsfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "ncsi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "openwrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "proxifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "qemu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "sysmon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "telemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "target": "wireshark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:05:03.423481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2903
+    },
+    {
+      "path": "go.mod",
+      "size": 1191
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1906
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1851
+    },
+    {
+      "path": ".github/workflows/labels.yml",
+      "size": 771
+    },
+    {
+      "path": ".github/workflows/released.yml",
+      "size": 949
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Block spying and tracking on Windows",
+    "fork": false,
+    "full_name": "crazy-max/WindowsSpyBlocker",
+    "html_url": "https://github.com/crazy-max/WindowsSpyBlocker",
+    "language": "Go",
+    "pushed_at": "2025-02-02T14:27:43Z",
+    "stargazers_count": 5113,
+    "topics": [
+      "blocker",
+      "dnscrypt",
+      "firewall",
+      "hostsfile",
+      "ncsi",
+      "openwrt",
+      "proxifier",
+      "qemu",
+      "spy",
+      "sysmon",
+      "telemetry",
+      "windows",
+      "wireshark"
+    ],
+    "updated_at": "2026-04-30T08:35:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "term": "labels"
+    },
+    {
+      "context_snippet": "released",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/released.yml",
+      "term": "released"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blocker"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firewall"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hostsfile"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncsi"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openwrt"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxifier"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qemu"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sysmon"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telemetry"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wireshark"
+    }
+  ]
+}

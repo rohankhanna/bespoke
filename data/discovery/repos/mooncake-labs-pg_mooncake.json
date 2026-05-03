@@ -1,0 +1,173 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "target": "duckdb/pg_duckdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "target": "pgcentralfoundation/pgrx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "target": "mooncake-labs/rust-postgres",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "target": "columnstore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "target": "delta-lake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "target": "iceberg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "target": "lakehouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "target": "parquet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "target": "postgresql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:51:09.974346+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4709
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 783
+    },
+    {
+      "path": "Dockerfile",
+      "size": 778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Real-time analytics on Postgres tables",
+    "fork": false,
+    "full_name": "Mooncake-Labs/pg_mooncake",
+    "html_url": "https://github.com/Mooncake-Labs/pg_mooncake",
+    "language": "Rust",
+    "pushed_at": "2026-03-31T05:53:29Z",
+    "stargazers_count": 1957,
+    "topics": [
+      "analytics",
+      "columnstore",
+      "delta-lake",
+      "iceberg",
+      "lakehouse",
+      "parquet",
+      "postgresql"
+    ],
+    "updated_at": "2026-04-30T16:44:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "duckdb/pg_duckdb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pgcentralfoundation/pgrx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mooncake-labs/rust-postgres",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analytics"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "columnstore"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delta-lake"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iceberg"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lakehouse"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    }
+  ]
+}

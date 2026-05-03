@@ -2308,6 +2308,138 @@
       "source_repo": "xtensor-stack/xtensor-blas",
       "status": "candidate-context",
       "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "status": "candidate-context",
+      "text": "LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfaces, such as o1,ollama, gemini, grok, qwen, GLM, deepseek, kimi,doubao. Adapted to local llms, vlm, gguf such as llama-3.3 Janus-Pro, Linkage graphRAG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "status": "candidate-context",
+      "text": "![\u56fe\u7247](img/\u5c01\u9762.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nmwsharp/happly",
+      "status": "candidate-context",
+      "text": "A C++ header-only parser for the PLY file format. Parse .ply happily!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmwsharp/happly",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libusb/libusb",
+      "status": "candidate-context",
+      "text": "A cross-platform library to access USB devices "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/libusb",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate-context",
+      "text": "A Simple cross-platform library for communicating with HID devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate-context",
+      "text": "| CI instance | Status |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate-context",
+      "text": "[![status](https://github.com/heiher/hev-socks5-server/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-server)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xtensor-python",
+      "status": "candidate-context",
+      "text": "Python bindings for xtensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-python",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "status": "candidate-context",
+      "text": "R bindings for xtensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "todbot/hidapitester",
+      "status": "candidate-context",
+      "text": "Simple command-line program to test HIDAPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "todbot/hidapitester",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate-context",
+      "text": "DPI bypass multi platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 transparent proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate-context",
+      "text": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "A simple, lightweight multi-task system (coroutines)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
     }
   ],
   "candidate_glosses": [
@@ -3474,6 +3606,72 @@
       "source_repo": "xtensor-stack/xtensor-blas",
       "status": "candidate",
       "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "status": "candidate",
+      "text": "![\u56fe\u7247](img/\u5c01\u9762.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmwsharp/happly",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/libusb",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate",
+      "text": "| CI instance | Status |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/hev-socks5-server/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-server)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-python",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "todbot/hidapitester",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
     }
   ],
   "candidate_related_terms": [
@@ -5281,11 +5479,155 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/linux.yml",
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "nmwsharp/happly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "libusb/libusb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "libusb/hidapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor-r"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "todbot/hidapitester"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bol-van/zapret"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-tproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/hev-task-system"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

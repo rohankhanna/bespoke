@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jphall663/basic_data_viz_rules_and_links",
+      "target": "fasouto/awesome-dataviz",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:56:12.776090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6254
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Some Basic (Hopefully Not Terrible) Data Visualization Rules and Links",
+    "fork": false,
+    "full_name": "jphall663/basic_data_viz_rules_and_links",
+    "html_url": "https://github.com/jphall663/basic_data_viz_rules_and_links",
+    "language": null,
+    "pushed_at": "2023-03-05T17:18:38Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2023-05-30T17:44:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fasouto/awesome-dataviz",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

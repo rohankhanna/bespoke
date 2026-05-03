@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edwardzhou130/PolarSeg",
+      "target": "edwardzhou130/panoptic-polarnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edwardzhou130/PolarSeg",
+      "target": "miguelvr/dropblock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edwardzhou130/PolarSeg",
+      "target": "prbonn/semantic-kitti-api",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:53.846815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5866
+    },
+    {
+      "path": "requirements.txt",
+      "size": 96
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation for PolarNet: An Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation (CVPR 2020)",
+    "fork": false,
+    "full_name": "edwardzhou130/PolarSeg",
+    "html_url": "https://github.com/edwardzhou130/PolarSeg",
+    "language": "Python",
+    "pushed_at": "2021-05-19T17:08:17Z",
+    "stargazers_count": 418,
+    "topics": [],
+    "updated_at": "2026-04-22T09:36:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edwardzhou130/panoptic-polarnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miguelvr/dropblock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prbonn/semantic-kitti-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

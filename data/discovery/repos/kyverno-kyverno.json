@@ -1,0 +1,454 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ah-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ah-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-cli-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-cli-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codegen.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codegen.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codegen.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ct-lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ct-lint.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ct-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ct-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-devcontainer.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-devcontainer.yaml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-devcontainer.yaml"
+    },
+    {
+      "component": "devcontainers/ci@b63b30de439b47a52267f241112c5b453b673db5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-devcontainer.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-devcontainer.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-golangci-lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-golangci-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-golangci-lint.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kyverno/kyverno",
+      "target": "kyverno/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "Caching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ah-lint.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-ah-lint.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "Artifact Hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-cli-tests.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-cli-tests.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codegen.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-codegen.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "Codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ct-lint.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ct-lint.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-ct-lint.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-ct-lint.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "Chart-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-devcontainer.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-devcontainer.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-devcontainer.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-devcontainer.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "devcontainers/ci@b63b30de439b47a52267f241112c5b453b673db5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-devcontainer.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "Devcontainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-fmt.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "Go format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-golangci-lint.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-golangci-lint.yaml",
+      "source_repo": "kyverno/kyverno",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyverno/kyverno",
+      "target": "compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyverno/kyverno",
+      "target": "governance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyverno/kyverno",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyverno/kyverno",
+      "target": "policy-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyverno/kyverno",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:51:01.128589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6927
+    },
+    {
+      "path": "go.mod",
+      "size": 22591
+    },
+    {
+      "path": ".github/workflows/cache.yaml",
+      "size": 2696
+    },
+    {
+      "path": ".github/workflows/check-ah-lint.yaml",
+      "size": 1227
+    },
+    {
+      "path": ".github/workflows/check-cli-tests.yaml",
+      "size": 2013
+    },
+    {
+      "path": ".github/workflows/check-codegen.yaml",
+      "size": 1734
+    },
+    {
+      "path": ".github/workflows/check-ct-lint.yaml",
+      "size": 1803
+    },
+    {
+      "path": ".github/workflows/check-devcontainer.yaml",
+      "size": 2010
+    },
+    {
+      "path": ".github/workflows/check-fmt.yaml",
+      "size": 1186
+    },
+    {
+      "path": ".github/workflows/check-golangci-lint.yaml",
+      "size": 1311
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unified Policy as Code",
+    "fork": false,
+    "full_name": "kyverno/kyverno",
+    "html_url": "https://github.com/kyverno/kyverno",
+    "language": "Go",
+    "pushed_at": "2026-05-01T07:28:17Z",
+    "stargazers_count": 7695,
+    "topics": [
+      "compliance",
+      "governance",
+      "kubernetes",
+      "policy-as-code",
+      "security"
+    ],
+    "updated_at": "2026-05-03T01:05:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyverno/community",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Caching",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yaml",
+      "term": "Caching"
+    },
+    {
+      "context_snippet": "Artifact Hub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-ah-lint.yaml",
+      "term": "Artifact Hub"
+    },
+    {
+      "context_snippet": "CLI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-cli-tests.yaml",
+      "term": "CLI"
+    },
+    {
+      "context_snippet": "Codegen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-codegen.yaml",
+      "term": "Codegen"
+    },
+    {
+      "context_snippet": "Chart-testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-ct-lint.yaml",
+      "term": "Chart-testing"
+    },
+    {
+      "context_snippet": "Devcontainer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-devcontainer.yaml",
+      "term": "Devcontainer"
+    },
+    {
+      "context_snippet": "Go format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-fmt.yaml",
+      "term": "Go format"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compliance"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "governance"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "policy-as-code"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

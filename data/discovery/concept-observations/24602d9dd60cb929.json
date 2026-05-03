@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unity support for both ReSharper and Rider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39913977,
+      "status": "candidate",
+      "text": "passenger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977700,
+      "status": "candidate",
+      "text": "knight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29976096,
+      "status": "candidate",
+      "text": "escort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29971625,
+      "status": "candidate",
+      "text": "trooper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964078,
+      "status": "candidate",
+      "text": "conductor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rider",
+      "sense_id": "rider#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2040,
+      "status": "candidate",
+      "text": "passenger"
+    }
+  ],
+  "concept_id": "rider",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rider",
+  "observation_id": "24602d9dd60cb929",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "rider",
+  "source_context_snippet": "CI",
+  "source_file": null,
+  "source_repo": "JetBrains/resharper-unity",
+  "source_repo_description": "Unity support for both ReSharper and Rider"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T01:46:25.892677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wide-Depth-Range 6D Object Pose Estimation in Space, CVPR 2021",
+    "fork": false,
+    "full_name": "cvlab-epfl/wide-depth-range-pose",
+    "html_url": "https://github.com/cvlab-epfl/wide-depth-range-pose",
+    "language": "Python",
+    "pushed_at": "2024-11-01T12:32:27Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2026-04-06T09:42:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

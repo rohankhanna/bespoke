@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/RealRobot",
+      "target": "intelrealsense/librealsense",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/RealRobot",
+      "target": "alexanderkoch-koch/low_cost_robot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/RealRobot",
+      "target": "galaxies99/easyrobot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/RealRobot",
+      "target": "airexo/collector",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "HaoyiZhu/RealRobot"
+}

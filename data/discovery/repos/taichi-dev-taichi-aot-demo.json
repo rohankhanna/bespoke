@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/taichi-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/taichi-pr.yml",
+      "source_repo": "taichi-dev/taichi-aot-demo",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/taichi-pr.yml",
+      "source_repo": "taichi-dev/taichi-aot-demo",
+      "target": "Taichi Pull Request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:11.929480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 600
+    },
+    {
+      "path": ".github/workflows/taichi-pr.yml",
+      "size": 4473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A demo illustrating how to use Taichi as an AOT shader compiler",
+    "fork": false,
+    "full_name": "taichi-dev/taichi-aot-demo",
+    "html_url": "https://github.com/taichi-dev/taichi-aot-demo",
+    "language": "C++",
+    "pushed_at": "2025-04-07T20:51:50Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2026-03-31T14:41:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Taichi Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/taichi-pr.yml",
+      "term": "Taichi Pull Request"
+    }
+  ]
+}

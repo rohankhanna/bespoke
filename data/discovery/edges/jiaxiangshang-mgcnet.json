@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiaxiangshang/MGCNet",
+      "target": "google/tf_mesh_renderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiaxiangshang/MGCNet",
+      "target": "anilbas/3dmmasstn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiaxiangshang/MGCNet",
+      "target": "1adrianb/2d-and-3d-face-alignment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiaxiangshang/MGCNet",
+      "target": "cleardusk/3ddfa",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "jiaxiangshang/MGCNet"
+}

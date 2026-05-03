@@ -9,13 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-research/frame-interpolation",
-      "target": "sniklaus/softmax-splatting",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "google-research/frame-interpolation",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T07:22:57.050005+00:00",
+  "fetched_at": "2026-05-03T02:57:48.486959+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,7 +65,7 @@
     "html_url": "https://github.com/google-research/frame-interpolation",
     "language": "Python",
     "pushed_at": "2024-08-10T01:12:48Z",
-    "stargazers_count": 3122,
+    "stargazers_count": 3123,
     "topics": [
       "forward-warp",
       "frame-interpolation",
@@ -80,17 +73,12 @@
       "splatting",
       "video"
     ],
-    "updated_at": "2026-05-01T08:47:50Z"
+    "updated_at": "2026-05-02T15:16:15Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "googlestaging/frame-interpolation",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sniklaus/softmax-splatting",
       "source_file": "README.md"
     }
   ],

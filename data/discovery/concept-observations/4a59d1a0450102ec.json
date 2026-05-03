@@ -84,7 +84,7 @@
   "normalized_form": "sync-default-branch",
   "observation_id": "4a59d1a0450102ec",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Sync Default Branch",
   "source_context_snippet": "Sync Default Branch",
   "source_file": ".github/workflows/sync-default-branch.yml",

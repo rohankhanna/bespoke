@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/seeker.nvim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/seeker.nvim",
+      "target": "JohnnyMorganz/stylua-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/seeker.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "2KAbhishek/seeker.nvim",
+      "target": "CI Lint and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/seeker.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/seeker.nvim",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/seeker.nvim",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "2KAbhishek/seeker.nvim",
+      "target": "Generate Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/seeker.nvim",
+      "target": "fuzzy-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/seeker.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/seeker.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:57:01.981972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9489
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 696
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 770
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Progressive file seeker for Neovim \ud83d\udd0d\ud83c\udfaf",
+    "fork": false,
+    "full_name": "2KAbhishek/seeker.nvim",
+    "html_url": "https://github.com/2KAbhishek/seeker.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-03-12T19:41:27Z",
+    "stargazers_count": 132,
+    "topics": [
+      "cli",
+      "fuzzy-search",
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-28T01:11:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI Lint and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI Lint and Test"
+    },
+    {
+      "context_snippet": "Generate Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Generate Docs"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy-search"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<div align = \"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

@@ -1354,7 +1354,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T12:55:37.426808+00:00",
+  "fetched_at": "2026-05-03T03:50:25.146212+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1382,7 +1382,7 @@
     },
     {
       "path": ".github/workflows/nodejs.yml",
-      "size": 7248
+      "size": 7413
     },
     {
       "path": ".github/workflows/pkg-pr-new.yml",
@@ -1406,7 +1406,7 @@
     "full_name": "jestjs/jest",
     "html_url": "https://github.com/jestjs/jest",
     "language": "TypeScript",
-    "pushed_at": "2026-05-02T11:03:12Z",
+    "pushed_at": "2026-05-02T21:12:15Z",
     "stargazers_count": 45336,
     "topics": [
       "easy",
@@ -1419,7 +1419,7 @@
       "snapshot",
       "testing"
     ],
-    "updated_at": "2026-05-02T11:55:29Z"
+    "updated_at": "2026-05-02T21:12:19Z"
   },
   "repo_links": [
     {

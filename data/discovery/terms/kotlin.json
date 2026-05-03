@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -266,6 +266,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "LucasGinard/AireLibre-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-ui-test-robot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "coil-kt/coil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/kotlinx.coroutines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kotlin/KEEP"
     }
   ],
   "term": "kotlin"

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A JavaScript library to position floating elements and create interactions for them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921119,
+      "status": "candidate",
+      "text": "muffin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921118,
+      "status": "candidate",
+      "text": "american muffin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921117,
+      "status": "candidate",
+      "text": "oven bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921116,
+      "status": "candidate",
+      "text": "english muffin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19921115,
+      "status": "candidate",
+      "text": "muffin cup"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "popover",
+      "sense_id": "popover#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "popover",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "popover",
+  "observation_id": "5e856bf749f867ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "popover",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "floating-ui/floating-ui",
+  "source_repo_description": "A JavaScript library to position floating elements and create interactions for them."
+}

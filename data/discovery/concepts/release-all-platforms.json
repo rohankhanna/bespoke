@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "release all platforms"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate-context",
+      "text": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate-context",
+      "text": "release all platforms"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate",
+      "text": "release all platforms"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26490,
+      "status": "candidate",
+      "text": "salvo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26479,
+      "status": "candidate",
+      "text": "jail delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26479,
+      "status": "candidate",
+      "text": "nirvana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24757,
+      "status": "candidate",
+      "text": "deck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23226,
+      "status": "candidate",
+      "text": "decking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "release all platforms",
+  "concept_id": "release-all-platforms",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "2dust/v2rayN"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "release all platforms",
+      "sense_id": "release-all-platforms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

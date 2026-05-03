@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hkulekci/qdrant-php",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hkulekci/qdrant-php",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hkulekci/qdrant-php",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hkulekci/qdrant-php",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hkulekci/qdrant-php",
+      "target": "Test Application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hkulekci/qdrant-php",
+      "target": "php-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hkulekci/qdrant-php",
+      "target": "qdrant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hkulekci/qdrant-php",
+      "target": "qdrant-vector-database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:03.478988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3908
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Qdrant is a vector similarity engine & vector database. It deploys as an API service providing search for the nearest high-dimensional vectors. With Qdrant, embeddings or neural network encoders can be turned into full-fledged applications for matching, searching, recommending, and much more!",
+    "fork": false,
+    "full_name": "hkulekci/qdrant-php",
+    "html_url": "https://github.com/hkulekci/qdrant-php",
+    "language": "PHP",
+    "pushed_at": "2026-04-18T06:56:14Z",
+    "stargazers_count": 166,
+    "topics": [
+      "php",
+      "php-client",
+      "qdrant",
+      "qdrant-vector-database"
+    ],
+    "updated_at": "2026-04-28T21:01:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test Application",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test Application"
+    },
+    {
+      "context_snippet": "[![Test Application](https://github.com/hkulekci/qdrant-php/actions/workflows/test.yaml/badge.svg)](https://github.com/hkulekci/qdrant-php/actions/workflows/test.yaml) [![codecov](https://codecov.io/github/hkulekci/qdrant-php/branch/main/graph/badge.svg?token=5K8FAI0C9B)](https:\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "php-client"
+    },
+    {
+      "context_snippet": "[![Test Application](https://github.com/hkulekci/qdrant-php/actions/workflows/test.yaml/badge.svg)](https://github.com/hkulekci/qdrant-php/actions/workflows/test.yaml) [![codecov](https://codecov.io/github/hkulekci/qdrant-php/branch/main/graph/badge.svg?token=5K8FAI0C9B)](https:\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qdrant"
+    },
+    {
+      "context_snippet": "[![Test Application](https://github.com/hkulekci/qdrant-php/actions/workflows/test.yaml/badge.svg)](https://github.com/hkulekci/qdrant-php/actions/workflows/test.yaml) [![codecov](https://codecov.io/github/hkulekci/qdrant-php/branch/main/graph/badge.svg?token=5K8FAI0C9B)](https:\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qdrant-vector-database"
+    }
+  ]
+}

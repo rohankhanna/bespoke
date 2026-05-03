@@ -31,6 +31,18 @@
       "source_repo": "anonrig/fast-querystring",
       "status": "candidate-context",
       "text": "![Test](https://github.com/anonrig/fast-querystring/workflows/test/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathiasbynens/jsesc",
+      "status": "candidate-context",
+      "text": "Given some data, jsesc returns the shortest possible stringified & ASCII-safe representation of that data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/jsesc",
+      "status": "candidate-context",
+      "text": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "anonrig/fast-querystring",
       "status": "candidate",
       "text": "![Test](https://github.com/anonrig/fast-querystring/workflows/test/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/jsesc",
+      "status": "candidate",
+      "text": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +124,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "anonrig/fast-querystring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mathiasbynens/jsesc"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

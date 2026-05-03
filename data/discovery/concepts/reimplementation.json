@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "reimplementation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appl-team/reppl",
+      "status": "candidate-context",
+      "text": "Using APPL to reimplement popular algorithms for Large Language Models (LLMs) and prompts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appl-team/reppl",
+      "status": "candidate-context",
+      "text": "Using [APPL](https://github.com/appl-team/appl) to reimplement popular algorithms for Large Language Models (LLMs) and prompts."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appl-team/reppl",
+      "status": "candidate",
+      "text": "Using [APPL](https://github.com/appl-team/appl) to reimplement popular algorithms for Large Language Models (LLMs) and prompts."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030314,
+      "status": "candidate",
+      "text": "reimplantation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030313,
+      "status": "candidate",
+      "text": "replanning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030312,
+      "status": "candidate",
+      "text": "reintroduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030311,
+      "status": "candidate",
+      "text": "reapplication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030310,
+      "status": "candidate",
+      "text": "reperpetration"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "reimplementation",
+  "concept_id": "reimplementation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appl-team/reppl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reimplementation",
+      "sense_id": "reimplementation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

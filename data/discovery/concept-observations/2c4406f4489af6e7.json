@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of very fast approximations to common geodesic measurements in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Actions][actions badge]][actions]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Actions][actions badge]][actions]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897415,
+      "status": "candidate",
+      "text": "supporting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39896470,
+      "status": "candidate",
+      "text": "posture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885150,
+      "status": "candidate",
+      "text": "comportment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39884142,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39878580,
+      "status": "candidate",
+      "text": "mien"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bearing",
+      "sense_id": "bearing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43077,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29048,
+      "status": "candidate",
+      "text": "presence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23045,
+      "status": "candidate",
+      "text": "posture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22026,
+      "status": "candidate",
+      "text": "comportment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15047,
+      "status": "candidate",
+      "text": "carriage"
+    }
+  ],
+  "concept_id": "bearing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bearing",
+  "observation_id": "2c4406f4489af6e7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "bearing",
+  "source_context_snippet": "[![GitHub Actions][actions badge]][actions]",
+  "source_file": null,
+  "source_repo": "vipera/cheap-ruler-rs",
+  "source_repo_description": "A collection of very fast approximations to common geodesic measurements in Rust"
+}

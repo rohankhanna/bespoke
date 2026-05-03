@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcharatan/pixelsplat",
+      "target": "dcharatan/diff-gaussian-rasterization-modified",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcharatan/pixelsplat",
+      "target": "dcharatan/real_estate_10k_tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcharatan/pixelsplat",
+      "target": "donydchen/mvsplat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "dcharatan/pixelsplat",
+      "target": "dcharatan/diff-gaussian-rasterization-modified",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:29.098719+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9647
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 929
+    },
+    {
+      "path": "requirements.txt",
+      "size": 255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024 Oral, Best Paper Runner-Up] Code for \"pixelSplat: 3D Gaussian Splats from Image Pairs for Scalable Generalizable 3D Reconstruction\" by David Charatan, Sizhe Lester Li, Andrea Tagliasacchi, and Vincent Sitzmann",
+    "fork": false,
+    "full_name": "dcharatan/pixelsplat",
+    "html_url": "https://github.com/dcharatan/pixelsplat",
+    "language": "Python",
+    "pushed_at": "2025-01-13T15:36:14Z",
+    "stargazers_count": 1234,
+    "topics": [],
+    "updated_at": "2026-04-28T08:04:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcharatan/diff-gaussian-rasterization-modified",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcharatan/real_estate_10k_tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "donydchen/mvsplat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcharatan/diff-gaussian-rasterization-modified",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

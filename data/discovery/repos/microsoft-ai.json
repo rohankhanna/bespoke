@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/AI",
+      "target": "azure-samples/cognitive-services-python-sdk-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/AI",
+      "target": "azure/batch-scoring-deep-learning-models-with-aml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/AI",
+      "target": "azure/batchsparkscoringpredictivemaintenance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/AI",
+      "target": "azure/distributeddeeplearning",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:52:05.129995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Microsoft AI",
+    "fork": false,
+    "full_name": "microsoft/AI",
+    "html_url": "https://github.com/microsoft/AI",
+    "language": "Python",
+    "pushed_at": "2025-05-10T20:24:19Z",
+    "stargazers_count": 2525,
+    "topics": [],
+    "updated_at": "2026-05-03T03:47:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/cognitive-services-python-sdk-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/batch-scoring-deep-learning-models-with-aml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/batchsparkscoringpredictivemaintenance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/distributeddeeplearning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

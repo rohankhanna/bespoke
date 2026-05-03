@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "samylee/towards-realtime-mot-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "ytoon/synchronized-batchnorm-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "longcw/motdt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "multi-object-tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "multi-pedestrian-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "multiple-object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "realtime-mot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "tracking-by-detection",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "Zhongdao/Towards-Realtime-MOT"
+}

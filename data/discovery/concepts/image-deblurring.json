@@ -43,6 +43,18 @@
       "source_repo": "swz30/MPRNet",
       "status": "candidate-context",
       "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Algolzw/daclip-uir",
+      "status": "candidate-context",
+      "text": "[ICLR 2024] Controlling Vision-Language Models for Universal Image Restoration. 5th place in the NTIRE 2024 Restore Any Image Model in the Wild Challenge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Algolzw/daclip-uir",
+      "status": "candidate-context",
+      "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "swz30/MPRNet",
       "status": "candidate",
       "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Algolzw/daclip-uir",
+      "status": "candidate",
+      "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "swz30/MPRNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

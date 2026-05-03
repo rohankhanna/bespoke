@@ -84,7 +84,7 @@
   "normalized_form": "publish-to-github",
   "observation_id": "79a34f8549e915db",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "publish to GitHub",
   "source_context_snippet": "publish to GitHub",
   "source_file": ".github/workflows/publish-ci.yml",

@@ -3,7 +3,8 @@
     "Run Tests",
     "Run tests",
     "run tests",
-    "run-tests"
+    "run-tests",
+    "Run Tests \ud83e\uddea"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -1444,6 +1445,102 @@
       "source_repo": "horriblename/lzn-auto-require",
       "status": "candidate-context",
       "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate-context",
+      "text": "Yet Another Document Translator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate-context",
+      "text": "Run Tests \ud83e\uddea"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KentoNishi/torch-pitch-shift",
+      "status": "candidate-context",
+      "text": "Pitch-shift audio clips quickly with PyTorch (CUDA supported)! Additional utilities for searching efficient transformations are included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KentoNishi/torch-pitch-shift",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate-context",
+      "text": "A minimalistic ClojureScript interface to React.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "status": "candidate-context",
+      "text": "Julia type that implements a drop-in replacement of Array with named dimensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate-context",
+      "text": "Clojure library for fast JSON encoding and decoding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j-hui/fidget.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcab  Extensible UI for Neovim notifications and LSP progress messages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j-hui/fidget.nvim",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate-context",
+      "text": "A collection of LS_COLORS definitions; needs your contribution!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate-context",
+      "text": "'Run Tests'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate-context",
+      "text": "The Cluster API provider for creating microvm (i.e. Firecracker, Cloud Hypervisor) clusters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate-context",
+      "text": "run tests"
     }
   ],
   "candidate_glosses": [
@@ -2184,6 +2281,54 @@
       "source_repo": "horriblename/lzn-auto-require",
       "status": "candidate",
       "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate",
+      "text": "Run Tests \ud83e\uddea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KentoNishi/torch-pitch-shift",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j-hui/fidget.nvim",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate",
+      "text": "'Run Tests'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate",
+      "text": "run tests"
     }
   ],
   "candidate_related_terms": [
@@ -3343,11 +3488,113 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/run-tests.yml",
       "source_repo": "horriblename/lzn-auto-require"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/github-action-run-tests.yml",
+      "source_repo": "jxddk/prettier-plugin-nginx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "KentoNishi/torch-pitch-shift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "marin-community/haliax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "reagent-project/reagent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-maktaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "davidavdav/NamedArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/jsonista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j-hui/fidget.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "trapd00r/LS_COLORS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

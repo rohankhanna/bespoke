@@ -31,6 +31,30 @@
       "source_repo": "earthly/earthly",
       "status": "candidate-context",
       "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate-context",
+      "text": "Independent verification of binary packages - Reproducible Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate-context",
+      "text": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archlinux/archlinux-repro",
+      "status": "candidate-context",
+      "text": "Tools to reproduce arch linux packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archlinux/archlinux-repro",
+      "status": "candidate-context",
+      "text": "archlinux-repro"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "earthly/earthly",
       "status": "candidate",
       "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate",
+      "text": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archlinux/archlinux-repro",
+      "status": "candidate",
+      "text": "archlinux-repro"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "earthly/earthly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kpcyrd/rebuilderd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "archlinux/archlinux-repro"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

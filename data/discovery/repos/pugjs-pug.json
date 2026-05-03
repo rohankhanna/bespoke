@@ -78,14 +78,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "pugjs/pug",
-      "target": "bkwld/laravel-pug",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pugjs/pug",
-      "target": "brianc/jade-mode",
+      "target": "digitaltoad/vim-pug",
       "target_type": "repository"
     },
     {
@@ -93,6 +86,13 @@
       "source_file": "README.md",
       "source_repo": "pugjs/pug",
       "target": "aaronmccall/jade.mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pugjs/pug",
+      "target": "ctrlaltdev/pug-server",
       "target_type": "repository"
     },
     {
@@ -173,7 +173,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:21:03.745877+00:00",
+  "fetched_at": "2026-05-03T01:41:50.995080+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -202,9 +202,9 @@
     "html_url": "https://github.com/pugjs/pug",
     "language": "JavaScript",
     "pushed_at": "2026-03-13T15:12:43Z",
-    "stargazers_count": 21848,
+    "stargazers_count": 21849,
     "topics": [],
-    "updated_at": "2026-04-20T15:22:30Z"
+    "updated_at": "2026-05-01T15:40:00Z"
   },
   "repo_links": [
     {
@@ -219,12 +219,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bkwld/laravel-pug",
+      "full_name": "ctrlaltdev/pug-server",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "brianc/jade-mode",
+      "full_name": "digitaltoad/vim-pug",
       "source_file": "README.md"
     }
   ],

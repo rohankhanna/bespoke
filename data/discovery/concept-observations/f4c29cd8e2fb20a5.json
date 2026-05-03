@@ -84,7 +84,7 @@
   "normalized_form": "spec-pr",
   "observation_id": "f4c29cd8e2fb20a5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Spec PR",
   "source_context_snippet": "Spec PR",
   "source_file": ".github/workflows/spec.pr.yml",

@@ -927,6 +927,66 @@
       "source_repo": "leezng/vue-json-pretty",
       "status": "candidate-context",
       "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "calcom/docker",
+      "status": "candidate-context",
+      "text": "The Docker configuration for Cal.com is an effort powered by people within the community. Cal.com, Inc. does not provide official support for Docker, but we will accept fixes and documentation. Use at your own risk."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/docker",
+      "status": "candidate-context",
+      "text": "\"Create Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate-context",
+      "text": "World.JS is a JavaScript Wrapper for World Vocoder Powered by Emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arcaputo3/mcp-server-whisper",
+      "status": "candidate-context",
+      "text": "An MCP Server for audio transcription using OpenAI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arcaputo3/mcp-server-whisper",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "status": "candidate-context",
+      "text": "Go SDK for HCP API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "status": "candidate-context",
+      "text": "Lua based interactive firmware for ESP8266, ESP8285 and ESP32"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -1389,6 +1449,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "leezng/vue-json-pretty",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/docker",
+      "status": "candidate",
+      "text": "\"Create Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arcaputo3/mcp-server-whisper",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodemcu/nodemcu-firmware",
       "status": "candidate",
       "text": "Create Release"
     }
@@ -2202,11 +2292,71 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/bump-version.yml",
       "source_repo": "leezng/vue-json-pretty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "calcom/docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "vuejs/devtools-v6"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "YuzukiTsuru/World.JS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "arcaputo3/mcp-server-whisper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "hashicorp/hcp-sdk-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/AutoCreateRelease.yml",
+      "source_repo": "nodemcu/nodemcu-firmware"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

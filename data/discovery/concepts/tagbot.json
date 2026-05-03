@@ -1154,6 +1154,366 @@
       "source_repo": "queryverse/ElectronDisplay.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate-context",
+      "text": "Python and Julia in harmony."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "status": "candidate-context",
+      "text": "Basic color definitions and traits "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaStrings/LaTeXStrings.jl",
+      "status": "candidate-context",
+      "text": "convenient input and display of LaTeX equation strings for the Julia language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStrings/LaTeXStrings.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jverzani/SymPyCore.jl",
+      "status": "candidate-context",
+      "text": "Package to help connect Julia with the SymPy library of Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyCore.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jverzani/SymPyPythonCall.jl",
+      "status": "candidate-context",
+      "text": "SymPy with PythonCall backend (not PyCall)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyPythonCall.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "Interface designs for enforcing static computations in array functions with Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "status": "candidate-context",
+      "text": "No-overhead breakpoints in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "status": "candidate-context",
+      "text": "utilities for \"soft\" global scope in interactive Julia environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate-context",
+      "text": "Arrays for working with categorical data (both nominal and ordinal)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/StatsPlots.jl",
+      "status": "candidate-context",
+      "text": "Statistical plotting recipes for Plots.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/StatsPlots.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate-context",
+      "text": "Metaprogramming tools for DataFrames"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nalimilan/FreqTables.jl",
+      "status": "candidate-context",
+      "text": "Frequency tables in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalimilan/FreqTables.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGtk/Gtk4Makie.jl",
+      "status": "candidate-context",
+      "text": "GLMakie + Gtk4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGtk/Gtk4Makie.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "status": "candidate-context",
+      "text": "Fast, general-purpose interactive applications for complex systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/CSVFiles.jl",
+      "status": "candidate-context",
+      "text": "FileIO.jl integration for CSV files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/CSVFiles.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate-context",
+      "text": "Add Conda dependencies to your Julia project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaStats/RDatasets.jl",
+      "status": "candidate-context",
+      "text": "Julia package for loading many of the data sets available in R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/RDatasets.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate-context",
+      "text": "Color manipulation utilities for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "status": "candidate-context",
+      "text": "Treat colors as if they are n-vectors for the purposes of arithmetic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "status": "candidate-context",
+      "text": "fixed point types for julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "status": "candidate-context",
+      "text": "A latex math mode engine in pure Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jverzani/SymPyPyCall.jl",
+      "status": "candidate-context",
+      "text": "PyCall backend to SymPyCore, a Julia package to access the SymPy library of Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyPyCall.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SciML/Static.jl",
+      "status": "candidate-context",
+      "text": "Static types useful for dispatch and generated functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/Static.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "status": "candidate-context",
+      "text": "Wrapping deep learning models from the package Flux.jl for use in the MLJ.jl toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate-context",
+      "text": "Utility package for accessing common Machine Learning datasets in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaML/MLUtils.jl",
+      "status": "candidate-context",
+      "text": "Utilities and abstractions for Machine Learning tasks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLUtils.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "status": "candidate-context",
+      "text": "A Julia package for multivariate statistics and data analysis (e.g. dimension reduction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "status": "candidate-context",
+      "text": "Julia type that implements a drop-in replacement of Array with named dimensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate-context",
+      "text": "An interface for tables in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDocs/FranklinTemplates.jl",
+      "status": "candidate-context",
+      "text": "Simple website templates for Franklin.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/FranklinTemplates.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -1754,6 +2114,186 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "queryverse/ElectronDisplay.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStrings/LaTeXStrings.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyCore.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyPythonCall.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/StatsPlots.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalimilan/FreqTables.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGtk/Gtk4Makie.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/CSVFiles.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/RDatasets.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kolaru/MathTeXEngine.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jverzani/SymPyPyCall.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SciML/Static.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/MLJFlux.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLUtils.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidavdav/NamedArrays.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDocs/FranklinTemplates.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -2411,11 +2951,251 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "JuliaPy/PythonCall.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPy/Conda.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaStrings/LaTeXStrings.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "jverzani/SymPyCore.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "jverzani/SymPyPythonCall.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDebug/SnoopCompile.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaData/CategoricalArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPlots/StatsPlots.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaData/DataFramesMeta.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "nalimilan/FreqTables.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGtk/Gtk4Makie.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "source_repo": "queryverse/VegaLite.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
+      "source_repo": "queryverse/CSVFiles.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaStats/RDatasets.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/Colors.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "Kolaru/MathTeXEngine.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "jverzani/SymPyPyCall.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "SciML/Static.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "FluxML/MLJFlux.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaML/MLDatasets.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaML/MLUtils.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "davidavdav/NamedArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaData/Tables.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDocs/FranklinTemplates.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "MakieOrg/Makie.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc09 Making Rust a first-class language and ecosystem for GPU shaders \ud83d\udea7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012306,
+      "status": "candidate",
+      "text": "fragment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31464,
+      "status": "candidate",
+      "text": "tessellation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31463,
+      "status": "candidate",
+      "text": "renderer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31462,
+      "status": "candidate",
+      "text": "antialiasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31461,
+      "status": "candidate",
+      "text": "plugins"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shaders",
+      "sense_id": "shaders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shaders",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shaders",
+  "observation_id": "203c25169b6d477b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "shaders",
+  "source_context_snippet": "<!-- Allow this file to not have a first line heading -->",
+  "source_file": null,
+  "source_repo": "EmbarkStudios/rust-gpu",
+  "source_repo_description": "\ud83d\udc09 Making Rust a first-class language and ecosystem for GPU shaders \ud83d\udea7"
+}

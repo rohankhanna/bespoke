@@ -281,6 +281,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@lobechat/builtin-tool-lobe-agent",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@lobechat/builtin-tool-local-system",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -1921,6 +1926,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
+      "target": "codespaces/badge.svg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobehub",
+      "target": "actions/workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobehub",
       "target": "lobehub/lobe-commit",
       "target_type": "repository"
     },
@@ -2314,6 +2333,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/builtin-tool-knowledge-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/builtin-tool-lobe-agent",
       "target_type": "component"
     },
     {
@@ -4697,7 +4723,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T13:06:15.850063+00:00",
+  "fetched_at": "2026-05-03T03:53:58.365809+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4709,7 +4735,7 @@
     },
     {
       "path": "package.json",
-      "size": 22539
+      "size": 22595
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4749,8 +4775,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-05-02T12:18:34Z",
-    "stargazers_count": 75946,
+    "pushed_at": "2026-05-03T03:15:16Z",
+    "stargazers_count": 75967,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4765,9 +4791,19 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-05-02T12:46:46Z"
+    "updated_at": "2026-05-03T03:37:10Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/workflows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codespaces/badge.svg",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lobehub/lobe-commit",

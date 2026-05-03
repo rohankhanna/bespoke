@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repro.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "archlinux/archlinux-repro",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "archlinux/archlinux-repro",
+      "target": "Makefile CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repro.yml",
+      "source_repo": "archlinux/archlinux-repro",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repro.yml",
+      "source_repo": "archlinux/archlinux-repro",
+      "target": "archlinux-repro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archlinux/archlinux-repro",
+      "target": "arch-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "archlinux/archlinux-repro",
+      "target": "reproducible-builds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:01:20.768835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 552
+    },
+    {
+      "path": ".github/workflows/make.yml",
+      "size": 315
+    },
+    {
+      "path": ".github/workflows/repro.yml",
+      "size": 772
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools to reproduce arch linux packages",
+    "fork": false,
+    "full_name": "archlinux/archlinux-repro",
+    "html_url": "https://github.com/archlinux/archlinux-repro",
+    "language": "Shell",
+    "pushed_at": "2026-01-19T15:41:45Z",
+    "stargazers_count": 146,
+    "topics": [
+      "arch-linux",
+      "reproducible-builds"
+    ],
+    "updated_at": "2026-03-26T17:32:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Makefile CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make.yml",
+      "term": "Makefile CI"
+    },
+    {
+      "context_snippet": "archlinux-repro",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repro.yml",
+      "term": "archlinux-repro"
+    },
+    {
+      "context_snippet": "archlinux-repro",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arch-linux"
+    },
+    {
+      "context_snippet": "archlinux-repro",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproducible-builds"
+    }
+  ]
+}

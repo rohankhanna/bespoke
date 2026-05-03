@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:54:12.960501+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Pre-training Reusable Representations for Robotic Manipulation Using Diverse Human Video Data",
+    "fork": false,
+    "full_name": "facebookresearch/r3m",
+    "html_url": "https://github.com/facebookresearch/r3m",
+    "language": "Python",
+    "pushed_at": "2023-03-21T05:24:57Z",
+    "stargazers_count": 370,
+    "topics": [],
+    "updated_at": "2026-04-19T08:11:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tulerfeng/Video-R1",
+      "target": "tulerfeng/onethinker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tulerfeng/Video-R1",
+      "target": "deep-agent/r1-v",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:41.326075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Video-R1: Reinforcing Video Reasoning in MLLMs [\ud83d\udd25the first paper to explore R1 for video]",
+    "fork": false,
+    "full_name": "tulerfeng/Video-R1",
+    "html_url": "https://github.com/tulerfeng/Video-R1",
+    "language": "Python",
+    "pushed_at": "2025-12-14T14:22:08Z",
+    "stargazers_count": 858,
+    "topics": [],
+    "updated_at": "2026-04-29T07:04:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-agent/r1-v",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tulerfeng/onethinker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

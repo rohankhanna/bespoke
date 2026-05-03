@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "scaleway/serverless-functions-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "scaleway/serverless-functions-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "faas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "functions-as-a-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "scaleway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-functions-go",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:03:33.663503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6764
+    },
+    {
+      "path": "go.mod",
+      "size": 447
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 340
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scaleway Serverless Functions (FaaS) framework to increase developer experience, local testing and more",
+    "fork": false,
+    "full_name": "scaleway/serverless-functions-go",
+    "html_url": "https://github.com/scaleway/serverless-functions-go",
+    "language": "Go",
+    "pushed_at": "2023-05-16T16:55:01Z",
+    "stargazers_count": 11,
+    "topics": [
+      "cloud",
+      "faas",
+      "functions-as-a-service",
+      "scaleway",
+      "serverless"
+    ],
+    "updated_at": "2025-11-13T05:11:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scaleway/serverless-functions-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scaleway/serverless-functions-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "[![build-and-test](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml/badge.svg)](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "[![build-and-test](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml/badge.svg)](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faas"
+    },
+    {
+      "context_snippet": "[![build-and-test](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml/badge.svg)](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functions-as-a-service"
+    },
+    {
+      "context_snippet": "[![build-and-test](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml/badge.svg)](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaleway"
+    },
+    {
+      "context_snippet": "[![build-and-test](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml/badge.svg)](https://github.com/scaleway/serverless-functions-go/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    }
+  ]
+}

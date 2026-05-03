@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -297,6 +297,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bindists.yaml",
       "source_repo": "haskell/ghcup-metadata"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "faisalman/ua-parser-js"
     }
   ]
 }

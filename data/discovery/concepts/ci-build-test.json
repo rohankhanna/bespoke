@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "CI Build & Test"
+    "CI Build & Test",
+    "CI: Build & Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
       "status": "candidate-context",
       "text": "CI Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate-context",
+      "text": "UAParser.js - The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser (client-side) or Node.js (server-side)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate-context",
+      "text": "\"CI: Build & Test\""
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge",
       "status": "candidate",
       "text": "CI Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate",
+      "text": "\"CI: Build & Test\""
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": 15336,
       "status": "candidate",
       "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "kludge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11612,
+      "status": "candidate",
+      "text": "rugged"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +130,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "OsgiliathEnterprise/acp-langgraph-langchain-bridge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci-build-test.yml",
+      "source_repo": "faisalman/ua-parser-js"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "@datastructures-js/heap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-airbnb-base",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-mocha-istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-mocha-test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-grunt.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-grunt.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "@datastructures-js/heap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "eslint-config-airbnb-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "grunt-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "grunt-mocha-istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "grunt-mocha-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-grunt.yml",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-grunt.yml",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-grunt.yml",
+      "source_repo": "datastructures-js/priority-queue",
+      "target": "NodeJS with Grunt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:48:51.712983+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 96
+    },
+    {
+      "path": "package.json",
+      "size": 1125
+    },
+    {
+      "path": ".github/workflows/npm-grunt.yml",
+      "size": 483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Priority Queue based on Heap data structure",
+    "fork": false,
+    "full_name": "datastructures-js/priority-queue",
+    "html_url": "https://github.com/datastructures-js/priority-queue",
+    "language": "JavaScript",
+    "pushed_at": "2025-10-13T05:34:04Z",
+    "stargazers_count": 679,
+    "topics": [],
+    "updated_at": "2026-04-29T06:04:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "NodeJS with Grunt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-grunt.yml",
+      "term": "NodeJS with Grunt"
+    }
+  ]
+}

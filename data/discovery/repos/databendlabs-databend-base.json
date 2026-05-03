@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "gsactions/commit-message-checker@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "databendlabs/databend-base",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "databendlabs/databend-base",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "source_repo": "databendlabs/databend-base",
+      "target": "gsactions/commit-message-checker@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "source_repo": "databendlabs/databend-base",
+      "target": "commit-message-check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:50:54.874825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 63
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 553
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1079
+    },
+    {
+      "path": ".github/workflows/commit-message-check.yml",
+      "size": 2500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "shared utilities for databendlabs repositories",
+    "fork": false,
+    "full_name": "databendlabs/databend-base",
+    "html_url": "https://github.com/databendlabs/databend-base",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T08:55:03Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-22T08:53:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'commit-message-check'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "term": "commit-message-check"
+    }
+  ]
+}

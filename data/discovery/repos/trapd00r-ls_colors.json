@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre_commit.yaml"
+    },
+    {
+      "component": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre_commit.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre_commit.yaml",
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre_commit.yaml",
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre_commit.yaml",
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "pineapple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/LS_COLORS",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:13.274919+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 630
+    },
+    {
+      "path": ".github/workflows/pre_commit.yaml",
+      "size": 653
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 302
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of LS_COLORS definitions; needs your contribution!",
+    "fork": false,
+    "full_name": "trapd00r/LS_COLORS",
+    "html_url": "https://github.com/trapd00r/LS_COLORS",
+    "language": "Shell",
+    "pushed_at": "2025-06-06T14:23:09Z",
+    "stargazers_count": 2265,
+    "topics": [
+      "bash",
+      "color",
+      "pineapple",
+      "shell",
+      "terminal",
+      "zsh"
+    ],
+    "updated_at": "2026-04-29T11:48:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Release'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre_commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "'Run Tests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "'Release'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "'Release'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    },
+    {
+      "context_snippet": "'Release'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pineapple"
+    },
+    {
+      "context_snippet": "'Release'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "'Release'",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

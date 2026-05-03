@@ -281,6 +281,42 @@
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
       "status": "candidate-context",
       "text": "'PR title'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "status": "candidate-context",
+      "text": "Search & replace in the current buffer or workspace with incremental preview, a convenient UI, and modern regex syntax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "status": "candidate-context",
+      "text": "PR title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrisgrieser/nvim-spider",
+      "status": "candidate-context",
+      "text": "Use the w, e, b motions like a spider. Move by subwords and skip insignificant punctuation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-spider",
+      "status": "candidate-context",
+      "text": "PR title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "status": "candidate-context",
+      "text": "Bundle of more than 30 new text objects for Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "status": "candidate-context",
+      "text": "PR title"
     }
   ],
   "candidate_glosses": [
@@ -421,6 +457,24 @@
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams",
       "status": "candidate",
       "text": "'PR title'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "status": "candidate",
+      "text": "PR title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-spider",
+      "status": "candidate",
+      "text": "PR title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "status": "candidate",
+      "text": "PR title"
     }
   ],
   "candidate_related_terms": [
@@ -608,11 +662,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/pr-title.yaml",
       "source_repo": "aws-ia/terraform-aws-eks-blueprints-teams"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "chrisgrieser/nvim-spider"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

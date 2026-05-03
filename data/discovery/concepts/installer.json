@@ -289,6 +289,18 @@
       "source_repo": "haskell/ghcup-hs",
       "status": "candidate-context",
       "text": "[![Join the chat at Libera.chat](https://img.shields.io/badge/chat-on%20libera%20IRC-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Guest%7C?#haskell,#haskell-ghcup)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bpkg/bpkg",
+      "status": "candidate-context",
+      "text": "Lightweight bash package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpkg/bpkg",
+      "status": "candidate-context",
+      "text": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_"
     }
   ],
   "candidate_glosses": [
@@ -435,6 +447,12 @@
       "source_repo": "haskell/ghcup-hs",
       "status": "candidate",
       "text": "[![Join the chat at Libera.chat](https://img.shields.io/badge/chat-on%20libera%20IRC-brightgreen.svg)](https://kiwiirc.com/nextclient/irc.libera.chat/?nick=Guest%7C?#haskell,#haskell-ghcup)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpkg/bpkg",
+      "status": "candidate",
+      "text": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_"
     }
   ],
   "candidate_related_terms": [
@@ -736,11 +754,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "electron-userland/electron-wix-msi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "electron-userland/electron-wix-msi"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

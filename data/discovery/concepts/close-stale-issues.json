@@ -1665,6 +1665,54 @@
       "source_repo": "IDEA-Research/Rex-Omni",
       "status": "candidate-context",
       "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botframework-solutions",
+      "status": "candidate-context",
+      "text": "Welcome to the Bot Framework Solutions repository which is the home for a set of templates and solutions to help build advanced conversational experiences using Azure Bot Service and Bot Framework. Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-solutions",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "status": "candidate-context",
+      "text": "Welcome to the Bot Framework SDK for .NET repository, which is the home for the libraries and packages that enable developers to build sophisticated bot applications using .NET. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databendlabs/iceberg-rust",
+      "status": "candidate-context",
+      "text": "Apache Iceberg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/iceberg-rust",
+      "status": "candidate-context",
+      "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate-context",
+      "text": "Build OpenAPI-compliant REST APIs using TypeScript and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
     }
   ],
   "candidate_glosses": [
@@ -2531,6 +2579,30 @@
       "source_repo": "IDEA-Research/Rex-Omni",
       "status": "candidate",
       "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-solutions",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/iceberg-rust",
+      "status": "candidate",
+      "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate",
+      "text": "'Close stale issues'"
     }
   ],
   "candidate_related_terms": [
@@ -3996,11 +4068,113 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "probe-lab/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/contributors-hex-grid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/team-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "rescript-lang/rescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/botframework-solutions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/state-issues.yml.disabled",
+      "source_repo": "microsoft/botbuilder-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/close_tale_issue.yaml",
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/close-slate-issues.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "databendlabs/iceberg-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/closeStaleIssuesAndPRs.yml",
+      "source_repo": "lukeautry/tsoa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "helm/helm"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

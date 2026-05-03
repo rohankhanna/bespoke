@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "istio/community",
+      "target": "istio/istio.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/community",
+      "target": "community-meeting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/community",
+      "target": "governance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/community",
+      "target": "istio-authors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "istio/community",
+      "target": "istio-community",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:56:03.807877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4861
+    },
+    {
+      "path": "go.mod",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Istio governance material.",
+    "fork": false,
+    "full_name": "istio/community",
+    "html_url": "https://github.com/istio/community",
+    "language": "Go",
+    "pushed_at": "2026-04-21T04:12:04Z",
+    "stargazers_count": 3073,
+    "topics": [
+      "community-meeting",
+      "governance",
+      "istio-authors",
+      "istio-community"
+    ],
+    "updated_at": "2026-04-29T21:56:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "istio/istio.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Welcome to the Istio community!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community-meeting"
+    },
+    {
+      "context_snippet": "Welcome to the Istio community!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "governance"
+    },
+    {
+      "context_snippet": "Welcome to the Istio community!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "istio-authors"
+    },
+    {
+      "context_snippet": "Welcome to the Istio community!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "istio-community"
+    }
+  ]
+}

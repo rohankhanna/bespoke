@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MORAN: A Multi-Object Rectified Attention Network for Scene Text Recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://img.shields.io/badge/version-v2-brightgreen.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://img.shields.io/badge/version-v2-brightgreen.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scene-text",
+      "sense_id": "scene-text#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scene-text",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scene-text",
+  "observation_id": "4b5394deac955084",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "scene-text",
+  "source_context_snippet": "![](https://img.shields.io/badge/version-v2-brightgreen.svg)",
+  "source_file": null,
+  "source_repo": "Canjie-Luo/MORAN_v2",
+  "source_repo_description": "MORAN: A Multi-Object Rectified Attention Network for Scene Text Recognition"
+}

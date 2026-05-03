@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "color-schemes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate-context",
+      "text": "Color manipulation utilities for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate-context",
+      "text": "| **Documentation** | **Build Status** | **Code Coverage** |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate",
+      "text": "| **Documentation** | **Build Status** | **Code Coverage** |"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "color-schemes",
+  "concept_id": "color-schemes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "color-schemes",
+      "sense_id": "color-schemes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

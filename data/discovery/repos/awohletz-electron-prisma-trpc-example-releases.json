@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:58:12.622415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Testing releases for electron-prisma-trpc-example",
+    "fork": false,
+    "full_name": "awohletz/electron-prisma-trpc-example-releases",
+    "html_url": "https://github.com/awohletz/electron-prisma-trpc-example-releases",
+    "language": null,
+    "pushed_at": "2022-10-08T15:46:58Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-10-05T20:44:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

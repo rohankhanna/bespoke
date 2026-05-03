@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpbruyere/VkChess.net",
+      "target": "chess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpbruyere/VkChess.net",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpbruyere/VkChess.net",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpbruyere/VkChess.net",
+      "target": "stockfish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:14.591485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "3D Stockfish Chess client powered by Vulkan",
+    "fork": false,
+    "full_name": "jpbruyere/VkChess.net",
+    "html_url": "https://github.com/jpbruyere/VkChess.net",
+    "language": "C#",
+    "pushed_at": "2022-12-25T06:36:51Z",
+    "stargazers_count": 4,
+    "topics": [
+      "3d",
+      "chess",
+      "dotnet",
+      "game",
+      "stockfish"
+    ],
+    "updated_at": "2023-03-05T13:20:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chess"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stockfish"
+    }
+  ]
+}

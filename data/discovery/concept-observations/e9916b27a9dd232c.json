@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official ReScript bindings for ReactJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> The Official [ReScript](https://rescript-lang.org) Bindings for [ReactJS](https://react.dev/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> The Official [ReScript](https://rescript-lang.org) Bindings for [ReactJS](https://react.dev/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004464,
+      "status": "candidate",
+      "text": "edict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003932,
+      "status": "candidate",
+      "text": "decree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002920,
+      "status": "candidate",
+      "text": "fiat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987008,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984369,
+      "status": "candidate",
+      "text": "revision"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rescript",
+      "sense_id": "rescript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42086,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18040,
+      "status": "candidate",
+      "text": "edict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16048,
+      "status": "candidate",
+      "text": "decree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5038,
+      "status": "candidate",
+      "text": "revision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5036,
+      "status": "candidate",
+      "text": "revise"
+    }
+  ],
+  "concept_id": "rescript",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rescript",
+  "observation_id": "e9916b27a9dd232c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "rescript",
+  "source_context_snippet": "> The Official [ReScript](https://rescript-lang.org) Bindings for [ReactJS](https://react.dev/)",
+  "source_file": null,
+  "source_repo": "rescript-lang/rescript-react",
+  "source_repo_description": "Official ReScript bindings for ReactJS"
+}

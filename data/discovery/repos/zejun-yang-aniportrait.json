@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zejun-Yang/AniPortrait",
+      "target": "celebv-hq/celebv-hq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zejun-Yang/AniPortrait",
+      "target": "humanaigc/emo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:45.468897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9716
+    },
+    {
+      "path": "requirements.txt",
+      "size": 733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AniPortrait: Audio-Driven Synthesis of Photorealistic Portrait Animation",
+    "fork": false,
+    "full_name": "Zejun-Yang/AniPortrait",
+    "html_url": "https://github.com/Zejun-Yang/AniPortrait",
+    "language": "Python",
+    "pushed_at": "2024-07-02T02:22:52Z",
+    "stargazers_count": 5023,
+    "topics": [],
+    "updated_at": "2026-05-02T10:01:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celebv-hq/celebv-hq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humanaigc/emo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

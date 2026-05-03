@@ -1,0 +1,280 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dts.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dts.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "google-github-actions/release-please-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml"
+    },
+    {
+      "component": "stevearc/nvim-typecheck-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dts.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dts.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dts.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "DTS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_tests.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_tests.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_tests.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "Format Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "google-github-actions/release-please-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "tris203/precognition.nvim",
+      "target": "stevearc/nvim-typecheck-action@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:00.590909+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3954
+    },
+    {
+      "path": ".github/workflows/dts.yml",
+      "size": 477
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 632
+    },
+    {
+      "path": ".github/workflows/format_tests.yml",
+      "size": 640
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 424
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 319
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 562
+    },
+    {
+      "path": ".github/workflows/typecheck.yml",
+      "size": 357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcad\ud83d\udc40precognition.nvim - Precognition uses virtual text and gutter signs to show available motions.",
+    "fork": false,
+    "full_name": "tris203/precognition.nvim",
+    "html_url": "https://github.com/tris203/precognition.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-01-31T08:02:22Z",
+    "stargazers_count": 1324,
+    "topics": [],
+    "updated_at": "2026-04-29T08:27:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "DTS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dts.yml",
+      "term": "DTS"
+    },
+    {
+      "context_snippet": "Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Format"
+    },
+    {
+      "context_snippet": "Format Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_tests.yml",
+      "term": "Format Tests"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Test"
+    }
+  ]
+}

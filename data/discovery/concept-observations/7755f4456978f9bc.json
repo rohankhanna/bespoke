@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python and Julia in harmony."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1><img src=\"docs/src/assets/logo.png\" alt=\"PythonCall.jl logo\" style=\"width: 100px;\"><br>PythonCall &amp;&nbsp;JuliaCall</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1><img src=\"docs/src/assets/logo.png\" alt=\"PythonCall.jl logo\" style=\"width: 100px;\"><br>PythonCall &amp;&nbsp;JuliaCall</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29830315,
+      "status": "candidate",
+      "text": "interop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29786368,
+      "status": "candidate",
+      "text": "interworking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29783896,
+      "status": "candidate",
+      "text": "interaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29782930,
+      "status": "candidate",
+      "text": "compatibility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29781299,
+      "status": "candidate",
+      "text": "synergy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interoperability",
+      "sense_id": "interoperability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "interoperability",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "interoperability",
+  "observation_id": "7755f4456978f9bc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "interoperability",
+  "source_context_snippet": "<h1><img src=\"docs/src/assets/logo.png\" alt=\"PythonCall.jl logo\" style=\"width: 100px;\"><br>PythonCall &amp;&nbsp;JuliaCall</h1>",
+  "source_file": null,
+  "source_repo": "JuliaPy/PythonCall.jl",
+  "source_repo_description": "Python and Julia in harmony."
+}

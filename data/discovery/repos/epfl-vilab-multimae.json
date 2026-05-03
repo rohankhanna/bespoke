@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EPFL-VILAB/MultiMAE",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EPFL-VILAB/MultiMAE",
+      "target": "facebookresearch/moco-v3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EPFL-VILAB/MultiMAE",
+      "target": "bupt-priv/mae-priv",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:55:52.782903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7629
+    },
+    {
+      "path": "requirements.txt",
+      "size": 112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MultiMAE: Multi-modal Multi-task Masked Autoencoders, ECCV 2022",
+    "fork": false,
+    "full_name": "EPFL-VILAB/MultiMAE",
+    "html_url": "https://github.com/EPFL-VILAB/MultiMAE",
+    "language": "Python",
+    "pushed_at": "2022-12-13T12:47:30Z",
+    "stargazers_count": 626,
+    "topics": [],
+    "updated_at": "2026-04-26T11:03:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bupt-priv/mae-priv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/moco-v3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

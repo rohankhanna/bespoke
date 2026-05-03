@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve.yaml",
+      "source_repo": "csm-actions/demo-server",
+      "target": "csm-actions/approve-pr-action@452271472f121d6d2f8e7a0761488d2fcc29b715",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve.yaml",
+      "source_repo": "csm-actions/demo-server",
+      "target": "Approve Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yaml",
+      "source_repo": "csm-actions/demo-server",
+      "target": "csm-actions/securefix-action@4d885e1bcb71f4f110215c833002ce9fa0ee0fa6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yaml",
+      "source_repo": "csm-actions/demo-server",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/securefix.yaml",
+      "source_repo": "csm-actions/demo-server",
+      "target": "csm-actions/securefix-action@4d885e1bcb71f4f110215c833002ce9fa0ee0fa6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/securefix.yaml",
+      "source_repo": "csm-actions/demo-server",
+      "target": "Fix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_branch.yaml",
+      "source_repo": "csm-actions/demo-server",
+      "target": "csm-actions/update-branch-action@bbebaea1a2ba545074cad89fb8e6364ed1873a20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_branch.yaml",
+      "source_repo": "csm-actions/demo-server",
+      "target": "Update Branch",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "csm-actions/demo-server"
+}

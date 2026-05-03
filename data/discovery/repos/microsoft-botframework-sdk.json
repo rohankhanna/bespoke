@@ -5,21 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "microsoft/botframework-sdk",
-      "target": "botbuildercommunity/botbuilder-community-dotnet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/botframework-sdk",
-      "target": "botbuildercommunity/botbuilder-community-js",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/botframework-sdk",
-      "target": "howdyai/botkit",
+      "target": "microsoft/botbuilder-python",
       "target_type": "repository"
     },
     {
@@ -27,6 +13,20 @@
       "source_file": "README.md",
       "source_repo": "microsoft/botframework-sdk",
       "target": "botbuildercommunity/botbuilder-community-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "microsoft/botframework-webchat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botframework-sdk",
+      "target": "microsoft/botframework-directlinejs",
       "target_type": "repository"
     },
     {
@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:55:33.911536+00:00",
+  "fetched_at": "2026-05-03T03:52:14.063460+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -103,7 +103,7 @@
     "html_url": "https://github.com/microsoft/botframework-sdk",
     "language": "JavaScript",
     "pushed_at": "2025-12-29T17:45:58Z",
-    "stargazers_count": 7803,
+    "stargazers_count": 7804,
     "topics": [
       "azure-bot-service",
       "bot",
@@ -119,19 +119,9 @@
       "sdk",
       "typescript"
     ],
-    "updated_at": "2026-04-30T10:31:22Z"
+    "updated_at": "2026-05-01T20:51:23Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "botbuildercommunity/botbuilder-community-dotnet",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "botbuildercommunity/botbuilder-community-js",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "botbuildercommunity/botbuilder-community-python",
@@ -139,7 +129,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "howdyai/botkit",
+      "full_name": "microsoft/botbuilder-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botframework-directlinejs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botframework-webchat",
       "source_file": "README.md"
     }
   ],

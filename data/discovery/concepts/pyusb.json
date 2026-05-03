@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "pyusb/pyusb",
       "status": "candidate-context",
       "text": "pyusb"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyocd/libusb-package",
+      "status": "candidate-context",
+      "text": "Packaged libusb shared libraries for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyocd/libusb-package",
+      "status": "candidate-context",
+      "text": "This Python package functions as an installation vehicle for libusb shared libraries, to"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "pyusb/pyusb",
       "status": "candidate",
       "text": "pyusb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyocd/libusb-package",
+      "status": "candidate",
+      "text": "This Python package functions as an installation vehicle for libusb shared libraries, to"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +60,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/run_tox.yml",
       "source_repo": "pyusb/pyusb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pyocd/libusb-package"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

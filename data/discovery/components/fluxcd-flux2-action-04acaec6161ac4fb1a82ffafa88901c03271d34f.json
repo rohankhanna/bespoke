@@ -1,7 +1,7 @@
 {
   "component": "fluxcd/flux2/action@04acaec6161ac4fb1a82ffafa88901c03271d34f",
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scan-controllers.yaml",
       "source_repo": "controlplaneio-fluxcd/distribution"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fluxcd/flux-schema"
     }
   ]
 }

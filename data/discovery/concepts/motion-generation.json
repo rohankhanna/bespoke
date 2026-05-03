@@ -55,6 +55,78 @@
       "source_repo": "Mael-zys/T2M-GPT",
       "status": "candidate-context",
       "text": "Pytorch implementation of paper \"T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate-context",
+      "text": "HumanML3D: A large and diverse 3d human motion-language dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate-context",
+      "text": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mathux/TEMOS",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of the paper \"TEMOS: Generating diverse human motions from textual descriptions\", ECCV 2022 (Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mathux/TEMOS",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "status": "candidate-context",
+      "text": "[ICML 2024] \ud83c\udf45HumanTOMATO: Text-aligned Whole-body Motion Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "status": "candidate-context",
+      "text": "![](./assets/tomato-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricGuo5513/TM2T",
+      "status": "candidate-context",
+      "text": "Official implementation of \"TM2T: Stochastic and Tokenized Modeling for the Reciprocal Generation of 3D Human Motions and Texts (ECCV2022)\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/TM2T",
+      "status": "candidate-context",
+      "text": "![teaser_image](https://github.com/EricGuo5513/TM2T/blob/main/docs/teaser_image.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MotrixLab/MotionDiffuse",
+      "status": "candidate-context",
+      "text": "MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MotrixLab/MotionDiffuse",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricGuo5513/action-to-motion",
+      "status": "candidate-context",
+      "text": "Official implementations for \"Action2Motion: Conditioned Generation of 3D Human Motions (ACM MultiMedia 2020)\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/action-to-motion",
+      "status": "candidate-context",
+      "text": "* Motion feature extractors are pre-trained action classifiers, they are in ./model_file"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +153,42 @@
       "source_repo": "Mael-zys/T2M-GPT",
       "status": "candidate",
       "text": "Pytorch implementation of paper \"T2M-GPT: Generating Human Motion from Textual Descriptions with Discrete Representations\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate",
+      "text": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mathux/TEMOS",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "status": "candidate",
+      "text": "![](./assets/tomato-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/TM2T",
+      "status": "candidate",
+      "text": "![teaser_image](https://github.com/EricGuo5513/TM2T/blob/main/docs/teaser_image.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MotrixLab/MotionDiffuse",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/action-to-motion",
+      "status": "candidate",
+      "text": "* Motion feature extractors are pre-trained action classifiers, they are in ./model_file"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +220,47 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "Mael-zys/T2M-GPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EricGuo5513/HumanML3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Mathux/TEMOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EricGuo5513/TM2T"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MotrixLab/MotionDiffuse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EricGuo5513/action-to-motion"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

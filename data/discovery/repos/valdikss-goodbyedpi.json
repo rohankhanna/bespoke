@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "target": "basil00/divert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "target": "bol-van/zapret",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "target": "hufrea/byedpi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "target": "dovecoteescapee/byedpiandroid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "target": "Build GoodbyeDPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "target": "anticensorship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "target": "censorship-circumvention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "target": "deep-packet-inspection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:24.013307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13029
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility (for Windows)",
+    "fork": false,
+    "full_name": "ValdikSS/GoodbyeDPI",
+    "html_url": "https://github.com/ValdikSS/GoodbyeDPI",
+    "language": "C",
+    "pushed_at": "2026-01-19T12:59:23Z",
+    "stargazers_count": 28226,
+    "topics": [
+      "anticensorship",
+      "censorship-circumvention",
+      "deep-packet-inspection",
+      "dpi"
+    ],
+    "updated_at": "2026-05-03T00:32:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "basil00/divert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bol-van/zapret",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dovecoteescapee/byedpiandroid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hufrea/byedpi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build GoodbyeDPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build GoodbyeDPI"
+    },
+    {
+      "context_snippet": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anticensorship"
+    },
+    {
+      "context_snippet": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "censorship-circumvention"
+    },
+    {
+      "context_snippet": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-packet-inspection"
+    }
+  ]
+}

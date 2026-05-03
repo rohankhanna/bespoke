@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "quantumultx"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Loyalsoldier/geoip",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1a \ud83c\udf0d \ud83c\udf1d GeoIP \u589e\u5f3a\u7248\uff0c\u652f\u6301\u81ea\u7531\u5b9a\u5236 V2Ray dat \u683c\u5f0f\u6587\u4ef6 geoip.dat\u3001MaxMind mmdb \u683c\u5f0f\u6587\u4ef6\u3001sing-box SRS \u683c\u5f0f\u6587\u4ef6\u3001mihomo MRS \u683c\u5f0f\u6587\u4ef6\u3001Clash ruleset\u3001Surge ruleset \u7b49\u3002Enhanced edition of GeoIP for V2Ray, Xray-core, sing-box, Clash, mihomo, Shadowrocket, Quantumult X, Surge, hysteria, Trojan-Go, Leaf, Nginx, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Loyalsoldier/geoip",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Loyalsoldier/geoip",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "quantumultx",
+  "concept_id": "quantumultx",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/geoip"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quantumultx",
+      "sense_id": "quantumultx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

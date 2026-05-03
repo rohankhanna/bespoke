@@ -208,13 +208,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "calcom/cal.diy",
-      "target": "calcom/docker",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "calcom/cal.diy",
@@ -607,7 +600,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T12:46:42.677539+00:00",
+  "fetched_at": "2026-05-03T03:48:13.816311+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -660,7 +653,7 @@
     "html_url": "https://github.com/calcom/cal.diy",
     "language": "TypeScript",
     "pushed_at": "2026-05-01T02:52:36Z",
-    "stargazers_count": 42295,
+    "stargazers_count": 42306,
     "topics": [
       "next-auth",
       "nextjs",
@@ -674,15 +667,9 @@
       "typescript",
       "zod"
     ],
-    "updated_at": "2026-05-02T10:06:06Z"
+    "updated_at": "2026-05-03T02:17:46Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "calcom/docker",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "All checks",

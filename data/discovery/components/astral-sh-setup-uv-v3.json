@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v3",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -177,6 +177,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "pipecat-ai/pipecat-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-extension.yml",
+      "source_repo": "benjaminr/chrome-devtools-mcp"
     }
   ]
 }

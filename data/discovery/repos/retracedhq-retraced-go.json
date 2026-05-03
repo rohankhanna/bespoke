@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:48:12.237088+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 402
+    },
+    {
+      "path": "go.mod",
+      "size": 281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "retracedhq/retraced-go",
+    "html_url": "https://github.com/retracedhq/retraced-go",
+    "language": "Go",
+    "pushed_at": "2025-08-28T05:05:44Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-11-27T10:38:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

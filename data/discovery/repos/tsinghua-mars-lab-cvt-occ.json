@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:58:32.348553+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5351
+    },
+    {
+      "path": "requirements.txt",
+      "size": 7350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CVT-Occ: Cost Volume Temporal Fusion for 3D Occupancy Prediction",
+    "fork": false,
+    "full_name": "Tsinghua-MARS-Lab/CVT-Occ",
+    "html_url": "https://github.com/Tsinghua-MARS-Lab/CVT-Occ",
+    "language": "Python",
+    "pushed_at": "2026-01-31T11:16:51Z",
+    "stargazers_count": 175,
+    "topics": [],
+    "updated_at": "2026-04-10T11:02:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

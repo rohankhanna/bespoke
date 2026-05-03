@@ -31,6 +31,66 @@
       "source_repo": "tc39/proposal-function-helpers",
       "status": "candidate-context",
       "text": "Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate-context",
+      "text": "Plugin for Serverless Framework to allow users to deploy their serverless applications on Scaleway Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate-context",
+      "text": "Plugin for using Scaleway [Serverless Functions](https://www.scaleway.com/en/serverless-functions/) and [Serverless Containers](https://www.scaleway.com/en/serverless-containers/) with [Serverless Framework](https://github.com/oss-serverless/serverless)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "Error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "Complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "Inverse complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "Inverse error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "tc39/proposal-function-helpers",
       "status": "candidate",
       "text": "Withdrawn ECMAScript Stage-0 Proposal. J. S. Choi, 2021."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate",
+      "text": "Plugin for using Scaleway [Serverless Functions](https://www.scaleway.com/en/serverless-functions/) and [Serverless Containers](https://www.scaleway.com/en/serverless-containers/) with [Serverless Framework](https://github.com/oss-serverless/serverless)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +238,47 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "tc39/proposal-function-helpers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-scaleway-functions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-function-helpers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

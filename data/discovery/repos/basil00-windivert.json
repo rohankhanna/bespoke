@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basil00/WinDivert",
+      "target": "divert-sockets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basil00/WinDivert",
+      "target": "firewall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basil00/WinDivert",
+      "target": "network-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basil00/WinDivert",
+      "target": "packet-capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basil00/WinDivert",
+      "target": "packet-sniffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basil00/WinDivert",
+      "target": "traffic-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basil00/WinDivert",
+      "target": "windivert",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:49.318418+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WinDivert: Windows Packet Divert",
+    "fork": false,
+    "full_name": "basil00/WinDivert",
+    "html_url": "https://github.com/basil00/WinDivert",
+    "language": "C",
+    "pushed_at": "2023-03-15T23:09:58Z",
+    "stargazers_count": 3159,
+    "topics": [
+      "divert-sockets",
+      "firewall",
+      "network-programming",
+      "packet-capture",
+      "packet-sniffer",
+      "traffic-analysis",
+      "windivert"
+    ],
+    "updated_at": "2026-05-02T23:57:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "WinDivert: Windows Packet Divert",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "divert-sockets"
+    },
+    {
+      "context_snippet": "WinDivert: Windows Packet Divert",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firewall"
+    },
+    {
+      "context_snippet": "WinDivert: Windows Packet Divert",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-programming"
+    },
+    {
+      "context_snippet": "WinDivert: Windows Packet Divert",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packet-capture"
+    },
+    {
+      "context_snippet": "WinDivert: Windows Packet Divert",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packet-sniffer"
+    },
+    {
+      "context_snippet": "WinDivert: Windows Packet Divert",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traffic-analysis"
+    },
+    {
+      "context_snippet": "WinDivert: Windows Packet Divert",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windivert"
+    }
+  ]
+}

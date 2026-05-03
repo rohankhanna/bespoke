@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/MsmhAgnosticServer",
+      "target": "dns-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/MsmhAgnosticServer",
+      "target": "proxy-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:23.186224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A DNS And Proxy Server in C# - Supports: UDP, TCP, DNS-Over-HTTPS (DoH), HTTP, HTTPS, SOCKS4, SOCKS4A, SOCKS5.",
+    "fork": false,
+    "full_name": "msasanmh/MsmhAgnosticServer",
+    "html_url": "https://github.com/msasanmh/MsmhAgnosticServer",
+    "language": "C#",
+    "pushed_at": "2025-10-22T11:45:09Z",
+    "stargazers_count": 19,
+    "topics": [
+      "dns-server",
+      "proxy-server"
+    ],
+    "updated_at": "2026-04-17T02:58:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "_I'm sharing this library for developers due to recieved requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-server"
+    },
+    {
+      "context_snippet": "_I'm sharing this library for developers due to recieved requests.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy-server"
+    }
+  ]
+}

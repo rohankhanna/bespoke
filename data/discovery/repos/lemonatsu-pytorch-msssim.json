@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LemonATsu/pytorch-msssim",
+      "target": "po-hsun-su/pytorch-ssim.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:13.817757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch differentiable Multi-Scale Structural Similarity (MS-SSIM) loss",
+    "fork": true,
+    "full_name": "LemonATsu/pytorch-msssim",
+    "html_url": "https://github.com/LemonATsu/pytorch-msssim",
+    "language": "Python",
+    "pushed_at": "2021-12-07T06:59:53Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-03-05T05:52:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "po-hsun-su/pytorch-ssim.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

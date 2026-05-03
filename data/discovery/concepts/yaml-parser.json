@@ -67,6 +67,18 @@
       "source_repo": "jwindgassen/UnrealYAML",
       "status": "candidate-context",
       "text": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ethiraric/yaml-rust2",
+      "status": "candidate-context",
+      "text": "A pure Rust YAML implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ethiraric/yaml-rust2",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "jwindgassen/UnrealYAML",
       "status": "candidate",
       "text": "Welcome to the UnrealYAML Plugin, a Plugin that allows the parsing and emitting of YAML files, based on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ethiraric/yaml-rust2",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "jwindgassen/UnrealYAML"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Ethiraric/yaml-rust2"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

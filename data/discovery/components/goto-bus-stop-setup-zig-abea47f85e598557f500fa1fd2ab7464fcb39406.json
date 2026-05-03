@@ -1,7 +1,7 @@
 {
   "component": "goto-bus-stop/setup-zig@abea47f85e598557f500fa1fd2ab7464fcb39406",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-napi.yml",
       "source_repo": "oxc-project/oxc-resolver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "unrs/unrs-resolver"
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:00:05.452680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9541
+    },
+    {
+      "path": "requirements.txt",
+      "size": 183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "T2Ranking: A large-scale Chinese benchmark for passage ranking.",
+    "fork": false,
+    "full_name": "THUIR/T2Ranking",
+    "html_url": "https://github.com/THUIR/T2Ranking",
+    "language": "Python",
+    "pushed_at": "2023-07-03T08:47:00Z",
+    "stargazers_count": 162,
+    "topics": [],
+    "updated_at": "2026-01-08T13:21:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

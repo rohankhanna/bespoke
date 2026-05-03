@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:57:00.175674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1175
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 68
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "netdur/llama_cpp_rust",
+    "html_url": "https://github.com/netdur/llama_cpp_rust",
+    "language": "Rust",
+    "pushed_at": "2026-04-13T14:31:16Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-13T14:31:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

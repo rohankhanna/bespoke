@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/GenerativeImage2Text",
+      "target": "microsoft/azfuse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/GenerativeImage2Text",
+      "target": "amsword/generativeimage2text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/GenerativeImage2Text",
+      "target": "kdexd/virtex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "microsoft/GenerativeImage2Text",
+      "target": "microsoft/azfuse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "microsoft/GenerativeImage2Text",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "microsoft/GenerativeImage2Text",
+      "target": "Test Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:35.833601+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17216
+    },
+    {
+      "path": "requirements.txt",
+      "size": 128
+    },
+    {
+      "path": ".github/workflows/test-build.yml",
+      "size": 1386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GIT: A Generative Image-to-text Transformer for Vision and Language",
+    "fork": false,
+    "full_name": "microsoft/GenerativeImage2Text",
+    "html_url": "https://github.com/microsoft/GenerativeImage2Text",
+    "language": "Python",
+    "pushed_at": "2023-12-02T12:15:14Z",
+    "stargazers_count": 578,
+    "topics": [],
+    "updated_at": "2026-04-01T17:55:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amsword/generativeimage2text",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kdexd/virtex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/azfuse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/azfuse",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "term": "Test Build"
+    }
+  ]
+}

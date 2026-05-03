@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official ReScript bindings for ReactJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> The Official [ReScript](https://rescript-lang.org) Bindings for [ReactJS](https://react.dev/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> The Official [ReScript](https://rescript-lang.org) Bindings for [ReactJS](https://react.dev/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reactjs",
+      "sense_id": "reactjs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reactjs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reactjs",
+  "observation_id": "0bf987199ff996c5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "reactjs",
+  "source_context_snippet": "> The Official [ReScript](https://rescript-lang.org) Bindings for [ReactJS](https://react.dev/)",
+  "source_file": null,
+  "source_repo": "rescript-lang/rescript-react",
+  "source_repo_description": "Official ReScript bindings for ReactJS"
+}

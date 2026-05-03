@@ -31,6 +31,18 @@
       "source_repo": "rrousselGit/provider",
       "status": "candidate-context",
       "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate-context",
+      "text": "Plugin for Serverless Framework to allow users to deploy their serverless applications on Scaleway Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate-context",
+      "text": "Plugin for using Scaleway [Serverless Functions](https://www.scaleway.com/en/serverless-functions/) and [Serverless Containers](https://www.scaleway.com/en/serverless-containers/) with [Serverless Framework](https://github.com/oss-serverless/serverless)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "rrousselGit/provider",
       "status": "candidate",
       "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-scaleway-functions",
+      "status": "candidate",
+      "text": "Plugin for using Scaleway [Serverless Functions](https://www.scaleway.com/en/serverless-functions/) and [Serverless Containers](https://www.scaleway.com/en/serverless-containers/) with [Serverless Framework](https://github.com/oss-serverless/serverless)."
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +126,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "rrousselGit/provider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-scaleway-functions"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

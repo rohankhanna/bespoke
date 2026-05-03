@@ -1,0 +1,22 @@
+{
+  "component": "caltechlibrary/codemeta2cff@main",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "caltechlibrary/codemeta2cff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/iga.yml",
+      "source_repo": "caltechlibrary/codemeta2cff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yaml",
+      "source_repo": "caltechlibrary/datatools"
+    }
+  ]
+}

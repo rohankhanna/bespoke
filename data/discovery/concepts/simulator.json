@@ -67,6 +67,18 @@
       "source_repo": "facebookresearch/habitat-lab",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/AirSim",
+      "status": "candidate-context",
+      "text": "Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/AirSim",
+      "status": "candidate-context",
+      "text": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "facebookresearch/habitat-lab",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/AirSim",
+      "status": "candidate",
+      "text": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/habitat-lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

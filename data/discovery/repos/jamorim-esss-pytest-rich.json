@@ -56,13 +56,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.rst",
       "source_repo": "Jamorim-esss/pytest-rich",
-      "target": "zen-xu/pytest-modern",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "Jamorim-esss/pytest-rich",
       "target": "audreyr/cookiecutter",
       "target_type": "repository"
     },
@@ -151,7 +144,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T19:43:08.010583+00:00",
+  "fetched_at": "2026-05-03T05:09:07.476686+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -197,11 +190,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "nicoddemus/pytest-rich",
-      "source_file": "README.rst"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zen-xu/pytest-modern",
       "source_file": "README.rst"
     }
   ],

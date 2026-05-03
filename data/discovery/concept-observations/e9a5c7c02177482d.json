@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fork of v2rayng with customized core. (mahsa-core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Download Latest aar"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Download Latest aar"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19906,
+      "status": "candidate",
+      "text": "merger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19906,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19464,
+      "status": "candidate",
+      "text": "ally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19464,
+      "status": "candidate",
+      "text": "break up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19464,
+      "status": "candidate",
+      "text": "breakup"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Download Latest aar",
+      "sense_id": "download-latest-aar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "download-latest-aar",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "download-latest-aar",
+  "observation_id": "e9a5c7c02177482d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Download Latest aar",
+  "source_context_snippet": "Download Latest aar",
+  "source_file": ".github/workflows/build2.yml",
+  "source_repo": "mahsanet/NikaNG",
+  "source_repo_description": "A fork of v2rayng with customized core. (mahsa-core)"
+}

@@ -1,0 +1,268 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/setup-java@17f84c3641ba7b8f6deff6309fc4c864478f5d62",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@db71d41eb79864e25ab0337e395c352e84523afe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/setup-java@17f84c3641ba7b8f6deff6309fc4c864478f5d62",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "dev-vince/actions-publish-javadoc@4004c6ca5881690e83c49a28a0b16fcab089e860",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-java@17f84c3641ba7b8f6deff6309fc4c864478f5d62",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "qdrant/java-client",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "qdrant/java-client",
+      "target": "actions/setup-java@17f84c3641ba7b8f6deff6309fc4c864478f5d62",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "qdrant/java-client",
+      "target": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "qdrant/java-client",
+      "target": "mikepenz/action-junit-report@db71d41eb79864e25ab0337e395c352e84523afe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "qdrant/java-client",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "qdrant/java-client",
+      "target": "dev-vince/actions-publish-javadoc@4004c6ca5881690e83c49a28a0b16fcab089e860",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "qdrant/java-client",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "qdrant/java-client",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "qdrant/java-client",
+      "target": "actions/setup-java@17f84c3641ba7b8f6deff6309fc4c864478f5d62",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "qdrant/java-client",
+      "target": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "qdrant/java-client",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qdrant/java-client",
+      "target": "grpc-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qdrant/java-client",
+      "target": "qdrant-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qdrant/java-client",
+      "target": "vector-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qdrant/java-client",
+      "target": "vector-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qdrant/java-client",
+      "target": "vector-search-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:56:38.077727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6226
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 3101
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Java client for Qdrant ",
+    "fork": false,
+    "full_name": "qdrant/java-client",
+    "html_url": "https://github.com/qdrant/java-client",
+    "language": "Java",
+    "pushed_at": "2026-05-01T09:08:24Z",
+    "stargazers_count": 92,
+    "topics": [
+      "grpc-client",
+      "qdrant-client",
+      "vector-database",
+      "vector-search",
+      "vector-search-engine"
+    ],
+    "updated_at": "2026-04-27T09:22:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "term": "Build and Deploy"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-client"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qdrant-client"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search-engine"
+    }
+  ]
+}

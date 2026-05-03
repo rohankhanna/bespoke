@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "e18e/ecosystem-issues",
+      "target": "testing-library/dom-testing-library",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:59:34.078168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A place to keep track of ongoing efforts to improve performance in the JS ecosystem",
+    "fork": false,
+    "full_name": "e18e/ecosystem-issues",
+    "html_url": "https://github.com/e18e/ecosystem-issues",
+    "language": null,
+    "pushed_at": "2026-04-04T20:30:17Z",
+    "stargazers_count": 553,
+    "topics": [],
+    "updated_at": "2026-04-27T19:45:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "testing-library/dom-testing-library",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

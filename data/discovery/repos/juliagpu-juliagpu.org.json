@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "thollander/actions-comment-pull-request@71efef56b184328c7ef1f213577c3a90edaa4aff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "tlienart/franklin.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "thollander/actions-comment-pull-request@71efef56b184328c7ef1f213577c3a90edaa4aff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "Comment on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "julia-actions/julia-buildpkg@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "JamesIves/github-pages-deploy-action@releases/v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:51:35.207313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 851
+    },
+    {
+      "path": ".github/workflows/comment.yml",
+      "size": 688
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1997
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The JuliaGPU landing page.",
+    "fork": false,
+    "full_name": "JuliaGPU/juliagpu.org",
+    "html_url": "https://github.com/JuliaGPU/juliagpu.org",
+    "language": "HTML",
+    "pushed_at": "2026-04-15T03:58:16Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-04-08T11:31:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tlienart/franklin.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Comment on PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment.yml",
+      "term": "Comment on PR"
+    },
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Build and Deploy"
+    }
+  ]
+}

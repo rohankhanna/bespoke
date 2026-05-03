@@ -1,0 +1,260 @@
+{
+  "components": [
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@microsoft/m365agentsplayground",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "neostandard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-samples.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-samples.yml"
+    },
+    {
+      "component": "actions/labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullrequestlabeler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Agents",
+      "target": "features/codespaces",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Agents",
+      "target": "microsoft/agents-for-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Agents",
+      "target": "microsoft/agents-for-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Agents",
+      "target": "microsoft/agents-for-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/Agents",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/Agents",
+      "target": "@microsoft/m365agentsplayground",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/Agents",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/Agents",
+      "target": "neostandard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/Agents",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-samples.yml",
+      "source_repo": "microsoft/Agents",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-samples.yml",
+      "source_repo": "microsoft/Agents",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-samples.yml",
+      "source_repo": "microsoft/Agents",
+      "target": "cd-samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pullrequestlabeler.yml",
+      "source_repo": "microsoft/Agents",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pullrequestlabeler.yml",
+      "source_repo": "microsoft/Agents",
+      "target": "Pull request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Agents",
+      "target": "botframework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Agents",
+      "target": "copilotstudio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Agents",
+      "target": "teams",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:52:03.611894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8756
+    },
+    {
+      "path": "package.json",
+      "size": 295
+    },
+    {
+      "path": ".github/workflows/cd-samples.yml",
+      "size": 2115
+    },
+    {
+      "path": ".github/workflows/pullrequestlabeler.yml",
+      "size": 844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Microsoft 365 Agent SDK simplifies building full stack, multichannel, trusted agents for platforms including M365, Teams, Copilot Studio, and Webchat.",
+    "fork": false,
+    "full_name": "microsoft/Agents",
+    "html_url": "https://github.com/microsoft/Agents",
+    "language": "PowerShell",
+    "pushed_at": "2026-05-02T02:50:59Z",
+    "stargazers_count": 876,
+    "topics": [
+      "agents",
+      "bot",
+      "botframework",
+      "copilot",
+      "copilotstudio",
+      "sdk",
+      "teams"
+    ],
+    "updated_at": "2026-05-02T01:09:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "features/codespaces",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/agents-for-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/agents-for-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/agents-for-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cd-samples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-samples.yml",
+      "term": "cd-samples"
+    },
+    {
+      "context_snippet": "Pull request Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pullrequestlabeler.yml",
+      "term": "Pull request Labeler"
+    },
+    {
+      "context_snippet": "With the Microsoft 365 Agents SDK, you can create agents deployable to channels of your choice, such as Microsoft 365 Copilot, Microsoft Teams, Web & Custom Apps and more, with scaffolding to handle the required communication. Developers can use the AI Services of their choice, \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "botframework"
+    },
+    {
+      "context_snippet": "With the Microsoft 365 Agents SDK, you can create agents deployable to channels of your choice, such as Microsoft 365 Copilot, Microsoft Teams, Web & Custom Apps and more, with scaffolding to handle the required communication. Developers can use the AI Services of their choice, \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "copilotstudio"
+    },
+    {
+      "context_snippet": "With the Microsoft 365 Agents SDK, you can create agents deployable to channels of your choice, such as Microsoft 365 Copilot, Microsoft Teams, Web & Custom Apps and more, with scaffolding to handle the required communication. Developers can use the AI Services of their choice, \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "teams"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aliasgharkhani/SLiMe",
+      "target": "1-shot-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aliasgharkhani/SLiMe",
+      "target": "cross-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aliasgharkhani/SLiMe",
+      "target": "few-shot-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aliasgharkhani/SLiMe",
+      "target": "image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aliasgharkhani/SLiMe",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aliasgharkhani/SLiMe",
+      "target": "self-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aliasgharkhani/SLiMe",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aliasgharkhani/SLiMe",
+      "target": "was-attention",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:47:00.376734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11160
+    },
+    {
+      "path": "requirements.txt",
+      "size": 166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "1-shot image segmentation using Stable Diffusion",
+    "fork": false,
+    "full_name": "aliasgharkhani/SLiMe",
+    "html_url": "https://github.com/aliasgharkhani/SLiMe",
+    "language": "Python",
+    "pushed_at": "2024-03-04T21:07:35Z",
+    "stargazers_count": 144,
+    "topics": [
+      "1-shot-segmentation",
+      "cross-attention",
+      "few-shot-segmentation",
+      "image-segmentation",
+      "python",
+      "pytorch",
+      "self-attention",
+      "stable-diffusion",
+      "was-attention"
+    ],
+    "updated_at": "2026-04-06T21:28:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**[Paper](https://arxiv.org/abs/2309.03179)** | **[Colab Notebook](https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "1-shot-segmentation"
+    },
+    {
+      "context_snippet": "**[Paper](https://arxiv.org/abs/2309.03179)** | **[Colab Notebook](https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-attention"
+    },
+    {
+      "context_snippet": "**[Paper](https://arxiv.org/abs/2309.03179)** | **[Colab Notebook](https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-segmentation"
+    },
+    {
+      "context_snippet": "**[Paper](https://arxiv.org/abs/2309.03179)** | **[Colab Notebook](https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-segmentation"
+    },
+    {
+      "context_snippet": "**[Paper](https://arxiv.org/abs/2309.03179)** | **[Colab Notebook](https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "**[Paper](https://arxiv.org/abs/2309.03179)** | **[Colab Notebook](https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-attention"
+    },
+    {
+      "context_snippet": "**[Paper](https://arxiv.org/abs/2309.03179)** | **[Colab Notebook](https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "**[Paper](https://arxiv.org/abs/2309.03179)** | **[Colab Notebook](https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "was-attention"
+    }
+  ]
+}

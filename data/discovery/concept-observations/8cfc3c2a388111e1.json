@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udff9 Bow is a cross-platform library for Typed Functional Programming in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://github.com/bow-swift/bow-art/blob/master/assets/bow-header-github.png?raw=true)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://github.com/bow-swift/bow-art/blob/master/assets/bow-header-github.png?raw=true)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021350,
+      "status": "candidate",
+      "text": "monas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999284,
+      "status": "candidate",
+      "text": "demiurgic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990590,
+      "status": "candidate",
+      "text": "leibnitzian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984897,
+      "status": "candidate",
+      "text": "leibnizian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29960013,
+      "status": "candidate",
+      "text": "unit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "monad",
+      "sense_id": "monad#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "monas"
+    }
+  ],
+  "concept_id": "monad",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "monad",
+  "observation_id": "8cfc3c2a388111e1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "monad",
+  "source_context_snippet": "![](https://github.com/bow-swift/bow-art/blob/master/assets/bow-header-github.png?raw=true)",
+  "source_file": null,
+  "source_repo": "bow-swift/bow",
+  "source_repo_description": "\ud83c\udff9 Bow is a cross-platform library for Typed Functional Programming in Swift"
+}

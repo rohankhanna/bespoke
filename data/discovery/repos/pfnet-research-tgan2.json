@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pfnet-research/tgan2",
+      "target": "rezoo/tgan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfnet-research/tgan2",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfnet-research/tgan2",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfnet-research/tgan2",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pfnet-research/tgan2",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:42:14.894042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8775
+    },
+    {
+      "path": "requirements.txt",
+      "size": 225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The official implementation of \"Train Sparsely, Generate Densely: Memory-efficient Unsupervised Training of High-resolution Temporal GAN\"",
+    "fork": false,
+    "full_name": "pfnet-research/tgan2",
+    "html_url": "https://github.com/pfnet-research/tgan2",
+    "language": "Python",
+    "pushed_at": "2026-02-05T17:44:35Z",
+    "stargazers_count": 83,
+    "topics": [
+      "deep-learning",
+      "generative-adversarial-network",
+      "machine-learning",
+      "video-generation"
+    ],
+    "updated_at": "2026-02-02T09:59:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rezoo/tgan2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

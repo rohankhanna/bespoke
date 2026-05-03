@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GoGoCode is a transformer for JavaScript/Typescript/HTML based on AST but providing a more intuitive API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Code transform has never been easier: GoGoCode](https://img.alicdn.com/imgextra/i1/O1CN01KMiK8i1uEL75yOSuc_!!6000000006005-2-tps-1949-552.png)](https://gogocode.io)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Code transform has never been easier: GoGoCode](https://img.alicdn.com/imgextra/i1/O1CN01KMiK8i1uEL75yOSuc_!!6000000006005-2-tps-1949-552.png)](https://gogocode.io)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012889,
+      "status": "candidate",
+      "text": "reforge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012784,
+      "status": "candidate",
+      "text": "remould"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012780,
+      "status": "candidate",
+      "text": "remold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011099,
+      "status": "candidate",
+      "text": "remodel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013002,
+      "status": "candidate",
+      "text": "reworked"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "recast",
+      "sense_id": "recast#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1034,
+      "status": "candidate",
+      "text": "remodel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "remould"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "remold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "reforge"
+    }
+  ],
+  "concept_id": "recast",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "recast",
+  "observation_id": "9da57cba14f3fc8a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "recast",
+  "source_context_snippet": "[![Code transform has never been easier: GoGoCode](https://img.alicdn.com/imgextra/i1/O1CN01KMiK8i1uEL75yOSuc_!!6000000006005-2-tps-1949-552.png)](https://gogocode.io)",
+  "source_file": null,
+  "source_repo": "thx/gogocode",
+  "source_repo_description": "GoGoCode is a transformer for JavaScript/Typescript/HTML based on AST but providing a more intuitive API."
+}

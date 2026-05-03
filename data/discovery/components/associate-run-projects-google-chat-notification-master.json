@@ -1,0 +1,17 @@
+{
+  "component": "associate-run-projects/google-chat-notification@master",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notify-fork.yml",
+      "source_repo": "1-Platform/op-components"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notify-main.yml",
+      "source_repo": "1-Platform/op-components"
+    }
+  ]
+}

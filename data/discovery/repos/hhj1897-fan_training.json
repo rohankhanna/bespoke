@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hhj1897/fan_training",
+      "target": "1adrianb/face-alignment-training",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:13.094241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2740
+    },
+    {
+      "path": "requirements.txt",
+      "size": 96
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Training code for FAN",
+    "fork": false,
+    "full_name": "hhj1897/fan_training",
+    "html_url": "https://github.com/hhj1897/fan_training",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-04-11T21:25:26Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-08-01T05:27:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1adrianb/face-alignment-training",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

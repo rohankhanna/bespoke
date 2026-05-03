@@ -1,0 +1,340 @@
+{
+  "components": [
+    {
+      "component": "extract-zip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "got",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash.clonedeep",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uuid",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "delvedor/hpagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "extract-zip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "got",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "lodash.clonedeep",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "uuid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "Node.js Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "localhost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "ngrok",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "tunnel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "tunneling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bubenshchykov/ngrok",
+      "target": "webhook",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:15.575459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13228
+    },
+    {
+      "path": "package.json",
+      "size": 1421
+    },
+    {
+      "path": ".github/workflows/npm-publish.yml",
+      "size": 1185
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Expose your localhost to the web. Node wrapper for ngrok.",
+    "fork": false,
+    "full_name": "bubenshchykov/ngrok",
+    "html_url": "https://github.com/bubenshchykov/ngrok",
+    "language": "JavaScript",
+    "pushed_at": "2025-06-19T01:58:31Z",
+    "stargazers_count": 2415,
+    "topics": [
+      "localhost",
+      "ngrok",
+      "tunnel",
+      "tunneling",
+      "webhook"
+    ],
+    "updated_at": "2026-04-20T10:17:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "delvedor/hpagent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node.js Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "term": "Node.js Package"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "This project is the Node.js wrapper for the [ngrok client](https://ngrok.com/download). Version 5 of this project uses ngrok client version 3. For ngrok client version 2, check out version 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localhost"
+    },
+    {
+      "context_snippet": "This project is the Node.js wrapper for the [ngrok client](https://ngrok.com/download). Version 5 of this project uses ngrok client version 3. For ngrok client version 2, check out version 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ngrok"
+    },
+    {
+      "context_snippet": "This project is the Node.js wrapper for the [ngrok client](https://ngrok.com/download). Version 5 of this project uses ngrok client version 3. For ngrok client version 2, check out version 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tunnel"
+    },
+    {
+      "context_snippet": "This project is the Node.js wrapper for the [ngrok client](https://ngrok.com/download). Version 5 of this project uses ngrok client version 3. For ngrok client version 2, check out version 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tunneling"
+    },
+    {
+      "context_snippet": "This project is the Node.js wrapper for the [ngrok client](https://ngrok.com/download). Version 5 of this project uses ngrok client version 3. For ngrok client version 2, check out version 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webhook"
+    }
+  ]
+}

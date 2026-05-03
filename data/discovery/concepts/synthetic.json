@@ -43,6 +43,18 @@
       "source_repo": "kuberhealthy/kuberhealthy",
       "status": "candidate-context",
       "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "barisgecer/TBGAN",
+      "status": "candidate-context",
+      "text": "Project Page of 'Synthesizing Coupled 3D Face Modalities by Trunk-Branch Generative Adversarial Networks'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barisgecer/TBGAN",
+      "status": "candidate-context",
+      "text": "(Requires to sign End User License Agreement)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "kuberhealthy/kuberhealthy",
       "status": "candidate",
       "text": "<center><img src=\"https://github.com/kuberhealthy/kuberhealthy/blob/master/images/kuberhealthy.png?raw=true\"></center><br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barisgecer/TBGAN",
+      "status": "candidate",
+      "text": "(Requires to sign End User License Agreement)"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "kuberhealthy/kuberhealthy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "barisgecer/TBGAN"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

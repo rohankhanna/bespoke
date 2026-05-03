@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DNS-Challenge",
+      "target": "jungjee/rawnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DNS-Challenge",
+      "target": "microsoft/p.808",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/DNS-Challenge",
+      "target": "cheyneycomputerscience/crema-d",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:44:53.436596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16182
+    },
+    {
+      "path": "requirements.txt",
+      "size": 195
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repo contains the scripts, models, and required files for the Deep Noise Suppression (DNS) Challenge.  ",
+    "fork": false,
+    "full_name": "microsoft/DNS-Challenge",
+    "html_url": "https://github.com/microsoft/DNS-Challenge",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:19:06Z",
+    "stargazers_count": 1409,
+    "topics": [],
+    "updated_at": "2026-05-02T10:58:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cheyneycomputerscience/crema-d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jungjee/rawnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/p.808",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

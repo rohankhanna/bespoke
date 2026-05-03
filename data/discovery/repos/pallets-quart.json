@@ -1,0 +1,400 @@
+{
+  "components": [
+    {
+      "component": "dessant/lock-threads@1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "pre-commit-ci/lite-action@5d6cc0eb514c891a40562a58a8e71576c5c7fb43",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "pallets/quart",
+      "target": "dessant/lock-threads@1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "pallets/quart",
+      "target": "Lock inactive closed issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/quart",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/quart",
+      "target": "astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/quart",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/quart",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/quart",
+      "target": "pre-commit-ci/lite-action@5d6cc0eb514c891a40562a58a8e71576c5c7fb43",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/quart",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/quart",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/quart",
+      "target": "astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/quart",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/quart",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/quart",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/quart",
+      "target": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/quart",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/quart",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/quart",
+      "target": "astral-sh/setup-uv@f0ec1fc3b38f5e7cd731bb6ce540c5af426746bb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/quart",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/quart",
+      "target": "actions/cache@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/quart",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pallets/quart",
+      "target": "asgi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pallets/quart",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pallets/quart",
+      "target": "flask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pallets/quart",
+      "target": "jinja",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pallets/quart",
+      "target": "quart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pallets/quart",
+      "target": "web-framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:55.762494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2720
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5358
+    },
+    {
+      "path": ".github/workflows/lock.yaml",
+      "size": 682
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 983
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1539
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 1762
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An async Python micro framework for building web applications. ",
+    "fork": false,
+    "full_name": "pallets/quart",
+    "html_url": "https://github.com/pallets/quart",
+    "language": "Python",
+    "pushed_at": "2025-09-01T18:49:41Z",
+    "stargazers_count": 3629,
+    "topics": [
+      "asgi",
+      "asyncio",
+      "flask",
+      "jinja",
+      "python",
+      "quart",
+      "web-framework"
+    ],
+    "updated_at": "2026-05-02T22:55:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lock inactive closed issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yaml",
+      "term": "Lock inactive closed issues"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asgi"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flask"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jinja"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quart"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-framework"
+    }
+  ]
+}

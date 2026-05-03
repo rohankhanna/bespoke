@@ -55,6 +55,30 @@
       "source_repo": "HaoyiZhu/SPA",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 D&B] Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "SAPIEN Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "![teaser](figures/teaser.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "HaoyiZhu/SPA",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate",
+      "text": "![teaser](figures/teaser.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "HaoyiZhu/SPA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

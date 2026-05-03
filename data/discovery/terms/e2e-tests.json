@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -156,6 +156,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/e2e-tests.yml",
       "source_repo": "TanStack/db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gradle-nexus/publish-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator"
     }
   ],
   "term": "E2E Tests"

@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "taoensso/roadmap",
+      "target": "taoensso",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:53:32.461240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Taoensso open source roadmap",
+    "fork": false,
+    "full_name": "taoensso/roadmap",
+    "html_url": "https://github.com/taoensso/roadmap",
+    "language": null,
+    "pushed_at": "2024-05-08T09:11:31Z",
+    "stargazers_count": 0,
+    "topics": [
+      "taoensso"
+    ],
+    "updated_at": "2024-05-08T09:11:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"480\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "taoensso"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "position"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "floating-ui/floating-ui",
+      "status": "candidate-context",
+      "text": "A JavaScript library to position floating elements and create interactions for them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floating-ui/floating-ui",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "floating-ui/floating-ui",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988541,
+      "status": "candidate",
+      "text": "placement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988233,
+      "status": "candidate",
+      "text": "lieu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988161,
+      "status": "candidate",
+      "text": "location"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987861,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984449,
+      "status": "candidate",
+      "text": "status"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39108,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36054,
+      "status": "candidate",
+      "text": "perspective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27048,
+      "status": "candidate",
+      "text": "view"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27039,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26045,
+      "status": "candidate",
+      "text": "berth"
+    }
+  ],
+  "canonical_name": "position",
+  "concept_id": "position",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "floating-ui/floating-ui"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "position",
+      "sense_id": "position#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

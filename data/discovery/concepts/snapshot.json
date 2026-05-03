@@ -64,6 +64,18 @@
       "source_repo": "joshwooding/vite-plugin-react-docgen-typescript",
       "status": "candidate-context",
       "text": "Snapshot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactor/BlockHound",
+      "status": "candidate-context",
+      "text": "Java agent to detect blocking calls from non-blocking threads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/BlockHound",
+      "status": "candidate-context",
+      "text": "Snapshot"
     }
   ],
   "candidate_glosses": [
@@ -94,6 +106,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "joshwooding/vite-plugin-react-docgen-typescript",
+      "status": "candidate",
+      "text": "Snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/BlockHound",
       "status": "candidate",
       "text": "Snapshot"
     }
@@ -255,11 +273,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "reactor/BlockHound"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:56:03.185784+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 896
+    },
+    {
+      "path": "go.mod",
+      "size": 2825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go client libraries for the Istio API.",
+    "fork": false,
+    "full_name": "istio/client-go",
+    "html_url": "https://github.com/istio/client-go",
+    "language": "Makefile",
+    "pushed_at": "2026-05-02T13:19:57Z",
+    "stargazers_count": 274,
+    "topics": [],
+    "updated_at": "2026-05-02T13:20:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

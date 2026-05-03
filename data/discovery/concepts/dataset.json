@@ -819,6 +819,90 @@
       "source_repo": "xavysp/UDED",
       "status": "candidate-context",
       "text": "This dataset is a collection of 1, 2, or 3 images from:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate-context",
+      "text": "HumanML3D: A large and diverse 3d human motion-language dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate-context",
+      "text": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/ir_datasets",
+      "status": "candidate-context",
+      "text": "Provides a common interface to many IR ranking datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/ir_datasets",
+      "status": "candidate-context",
+      "text": "`ir_datasets` is a python package that provides a common interface to many IR ad-hoc ranking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QingyongHu/SensatUrban",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25Urban-scale point cloud dataset (CVPR 2021 & IJCV 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/SensatUrban",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2009.03137-b31b1b.svg)](https://arxiv.org/abs/2009.03137)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate-context",
+      "text": "Toolkit of BDD100K Dataset for Heterogeneous Multitask Learning - CVPR 2020 Oral Paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate-context",
+      "text": "[IROS2024] SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate-context",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "waymo-research/waymo-open-dataset",
+      "status": "candidate-context",
+      "text": "Waymo Open Dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "waymo-research/waymo-open-dataset",
+      "status": "candidate-context",
+      "text": "The Waymo Open Dataset is a collection of datasets and evaluation code that we"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate-context",
+      "text": "Utility package for accessing common Machine Learning datasets in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate-context",
+      "text": "[![Docs Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaML.github.io/MLDatasets.jl/stable)"
     }
   ],
   "candidate_glosses": [
@@ -1229,6 +1313,48 @@
       "source_repo": "xavysp/UDED",
       "status": "candidate",
       "text": "This dataset is a collection of 1, 2, or 3 images from:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate",
+      "text": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/ir_datasets",
+      "status": "candidate",
+      "text": "`ir_datasets` is a python package that provides a common interface to many IR ad-hoc ranking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/SensatUrban",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2009.03137-b31b1b.svg)](https://arxiv.org/abs/2009.03137)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "waymo-research/waymo-open-dataset",
+      "status": "candidate",
+      "text": "The Waymo Open Dataset is a collection of datasets and evaluation code that we"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate",
+      "text": "[![Docs Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaML.github.io/MLDatasets.jl/stable)"
     }
   ],
   "candidate_related_terms": [
@@ -1716,11 +1842,59 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "xavysp/UDED"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EricGuo5513/HumanML3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "allenai/ir_datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "QingyongHu/SensatUrban"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bdd100k/bdd100k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "waymo-research/waymo-open-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaML/MLDatasets.jl"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

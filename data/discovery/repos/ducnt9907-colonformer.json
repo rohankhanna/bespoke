@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:39:32.780119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3376
+    },
+    {
+      "path": "requirements.txt",
+      "size": 40
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official Pytorch implementation of training & evaluation code for ColonFormer",
+    "fork": false,
+    "full_name": "ducnt9907/ColonFormer",
+    "html_url": "https://github.com/ducnt9907/ColonFormer",
+    "language": "Python",
+    "pushed_at": "2023-11-14T10:08:08Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-01-13T05:18:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

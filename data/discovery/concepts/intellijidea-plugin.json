@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "intellijidea-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate-context",
+      "text": "IntelliJ SDK Platform Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate-context",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "intellijidea-plugin",
+  "concept_id": "intellijidea-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-docs"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "intellijidea-plugin",
+      "sense_id": "intellijidea-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

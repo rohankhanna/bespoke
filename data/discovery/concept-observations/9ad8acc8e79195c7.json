@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lightweight tsconfig.json parser & paths resolver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018824,
+      "status": "candidate",
+      "text": "happen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017107,
+      "status": "candidate",
+      "text": "chance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015826,
+      "status": "candidate",
+      "text": "encounter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015807,
+      "status": "candidate",
+      "text": "discover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014185,
+      "status": "candidate",
+      "text": "get"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "find",
+      "sense_id": "find#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 108039,
+      "status": "candidate",
+      "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43035,
+      "status": "candidate",
+      "text": "observe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28057,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25040,
+      "status": "candidate",
+      "text": "determine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25035,
+      "status": "candidate",
+      "text": "obtain"
+    }
+  ],
+  "concept_id": "find",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "find",
+  "observation_id": "9ad8acc8e79195c7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "find",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "privatenumber/get-tsconfig",
+  "source_repo_description": "Lightweight tsconfig.json parser & paths resolver"
+}

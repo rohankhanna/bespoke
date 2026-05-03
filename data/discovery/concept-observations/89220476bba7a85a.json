@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[IROS2024] SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "2d-to-3d",
+      "sense_id": "2d-to-3d#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "2d-to-3d",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "2d-to-3d",
+  "observation_id": "89220476bba7a85a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "2d-to-3d",
+  "source_context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+  "source_file": null,
+  "source_repo": "ai4ce/SSCBench",
+  "source_repo_description": "[IROS2024] SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving"
+}

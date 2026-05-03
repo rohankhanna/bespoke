@@ -1,7 +1,7 @@
 {
   "component": "@octokit/rest",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -297,6 +297,26 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "actions-cool/issues-helper"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "actions-cool/labels-helper"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "actions-cool/test-issues-helper"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/approve-pr-action"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action"
     }
   ]
 }

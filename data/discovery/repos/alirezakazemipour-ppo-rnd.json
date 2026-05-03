@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "openai/random-network-distillation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "openai/large-scale-curiosity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "jcwleo/random-network-distillation-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "damnever/pigar.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "montezuma-revenge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "ppo-gru",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "random-network-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "super-mario-bros",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:54:39.116165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7330
+    },
+    {
+      "path": "requirements.txt",
+      "size": 179
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Random network distillation on Montezuma's Revenge and Super Mario Bros.",
+    "fork": false,
+    "full_name": "alirezakazemipour/PPO-RND",
+    "html_url": "https://github.com/alirezakazemipour/PPO-RND",
+    "language": "Python",
+    "pushed_at": "2025-05-12T15:25:23Z",
+    "stargazers_count": 55,
+    "topics": [
+      "montezuma-revenge",
+      "ppo",
+      "ppo-gru",
+      "random-network-distillation",
+      "super-mario-bros"
+    ],
+    "updated_at": "2026-03-05T01:55:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcwleo/random-network-distillation-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/large-scale-curiosity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/random-network-distillation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damnever/pigar.",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "montezuma-revenge"
+    },
+    {
+      "context_snippet": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ppo-gru"
+    },
+    {
+      "context_snippet": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "random-network-distillation"
+    },
+    {
+      "context_snippet": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-mario-bros"
+    }
+  ]
+}

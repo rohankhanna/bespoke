@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@18283e04ce6e62d37312384ff67231eb8fd56d24",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "un-ts/synckit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "un-ts/eslint-plugin-import-x"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "unrs/unrs-resolver"
     }
   ]
 }

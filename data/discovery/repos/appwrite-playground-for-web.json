@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "appwrite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-appwrite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appwrite/playground-for-web",
+      "target": "your_username/playground-for-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "appwrite/playground-for-web",
+      "target": "appwrite/playground-for-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "appwrite/playground-for-web",
+      "target": "appwrite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "appwrite/playground-for-web",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "appwrite/playground-for-web",
+      "target": "node-appwrite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-web",
+      "target": "appwrite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-web",
+      "target": "baas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-web",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:59:51.088911+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2284
+    },
+    {
+      "path": "package.json",
+      "size": 841
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple examples that help you get started with Appwrite + Web (=\u2764\ufe0f)",
+    "fork": false,
+    "full_name": "appwrite/playground-for-web",
+    "html_url": "https://github.com/appwrite/playground-for-web",
+    "language": "HTML",
+    "pushed_at": "2026-02-13T00:30:17Z",
+    "stargazers_count": 109,
+    "topics": [
+      "appwrite",
+      "baas",
+      "hacktoberfest",
+      "javascript"
+    ],
+    "updated_at": "2026-04-22T05:33:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "your_username/playground-for-web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appwrite/playground-for-js",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Web SDK. Use the source code of this page to learn how to use the different Appwrite Web SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appwrite"
+    },
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Web SDK. Use the source code of this page to learn how to use the different Appwrite Web SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baas"
+    },
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Web SDK. Use the source code of this page to learn how to use the different Appwrite Web SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

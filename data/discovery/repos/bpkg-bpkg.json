@@ -1,0 +1,279 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "pipeline-components/shellcheck@v0.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bpkg/bpkg",
+      "target": "stephenmathieson/git-standup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bpkg/bpkg",
+      "target": "clibs/clib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bpkg/bpkg",
+      "target": "bpkg/term",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "bpkg/bpkg",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "bpkg/bpkg",
+      "target": "pipeline-components/shellcheck@v0.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versions.yml",
+      "source_repo": "bpkg/bpkg",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/versions.yml",
+      "source_repo": "bpkg/bpkg",
+      "target": "versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg",
+      "target": "bash-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg",
+      "target": "bash-scripting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg",
+      "target": "bpkg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg",
+      "target": "installer-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg",
+      "target": "package-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg",
+      "target": "shell-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg",
+      "target": "shell-scripts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:44.883621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13173
+    },
+    {
+      "path": ".github/workflows/shellcheck.yml",
+      "size": 582
+    },
+    {
+      "path": ".github/workflows/versions.yml",
+      "size": 582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lightweight bash package manager",
+    "fork": false,
+    "full_name": "bpkg/bpkg",
+    "html_url": "https://github.com/bpkg/bpkg",
+    "language": "Shell",
+    "pushed_at": "2025-07-07T16:29:21Z",
+    "stargazers_count": 1967,
+    "topics": [
+      "bash",
+      "bash-script",
+      "bash-scripting",
+      "bpkg",
+      "installer",
+      "installer-script",
+      "package-management",
+      "package-manager",
+      "shell",
+      "shell-script",
+      "shell-scripts"
+    ],
+    "updated_at": "2026-04-29T06:10:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bpkg/term",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clibs/clib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stephenmathieson/git-standup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/versions.yml",
+      "term": "versions"
+    },
+    {
+      "context_snippet": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash-script"
+    },
+    {
+      "context_snippet": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash-scripting"
+    },
+    {
+      "context_snippet": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bpkg"
+    },
+    {
+      "context_snippet": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer-script"
+    },
+    {
+      "context_snippet": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-management"
+    },
+    {
+      "context_snippet": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-script"
+    },
+    {
+      "context_snippet": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-scripts"
+    }
+  ]
+}

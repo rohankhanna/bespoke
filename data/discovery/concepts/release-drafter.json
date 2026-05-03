@@ -627,6 +627,42 @@
       "source_repo": "http-party/http-server",
       "status": "candidate-context",
       "text": "release-drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Cross platform code coverage for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbt/sbt-native-packager",
+      "status": "candidate-context",
+      "text": "sbt Native Packager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-native-packager",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactor/BlockHound",
+      "status": "candidate-context",
+      "text": "Java agent to detect blocking calls from non-blocking threads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/BlockHound",
+      "status": "candidate-context",
+      "text": "Release Drafter"
     }
   ],
   "candidate_glosses": [
@@ -941,6 +977,24 @@
       "source_repo": "http-party/http-server",
       "status": "candidate",
       "text": "release-drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-native-packager",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/BlockHound",
+      "status": "candidate",
+      "text": "Release Drafter"
     }
   ],
   "candidate_related_terms": [
@@ -1668,11 +1722,71 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/release-drafter.yml",
       "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/draft.yml",
+      "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-draft.yml",
+      "source_repo": "coverlet-coverage/coverlet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "sbt/sbt-native-packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "reactor/BlockHound"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

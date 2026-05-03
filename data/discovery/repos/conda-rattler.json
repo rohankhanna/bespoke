@@ -133,20 +133,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "conda/rattler",
-      "target": "prefix-dev/rattler-build",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "conda/rattler",
-      "target": "emscripten-forge/mambajs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "conda/rattler",
@@ -343,7 +329,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:49:06.223445+00:00",
+  "fetched_at": "2026-05-03T00:47:18.322800+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -396,25 +382,14 @@
     "html_url": "https://github.com/conda/rattler",
     "language": "Rust",
     "pushed_at": "2026-05-01T11:56:58Z",
-    "stargazers_count": 430,
+    "stargazers_count": 432,
     "topics": [
       "conda",
       "rust"
     ],
-    "updated_at": "2026-05-01T14:13:16Z"
+    "updated_at": "2026-05-02T00:31:04Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "emscripten-forge/mambajs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "prefix-dev/rattler-build",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Deploy Docs",

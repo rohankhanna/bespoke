@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "openai/random-network-distillation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "openai/large-scale-curiosity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "jcwleo/random-network-distillation-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "damnever/pigar.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "montezuma-revenge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "ppo-gru",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "random-network-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezakazemipour/PPO-RND",
+      "target": "super-mario-bros",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "alirezakazemipour/PPO-RND"
+}

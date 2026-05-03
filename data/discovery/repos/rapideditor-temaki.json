@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "component": "@types/bun",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-stringify-pretty-compact",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svg-path-parse",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svg-sprite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xmlbuilder2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapideditor/temaki",
+      "target": "facebook/rapid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapideditor/temaki",
+      "target": "osmlab/name-suggestion-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rapideditor/temaki",
+      "target": "@types/bun",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rapideditor/temaki",
+      "target": "json-stringify-pretty-compact",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rapideditor/temaki",
+      "target": "svg-path-parse",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rapideditor/temaki",
+      "target": "svg-sprite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rapideditor/temaki",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rapideditor/temaki",
+      "target": "xmlbuilder2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rapideditor/temaki",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rapideditor/temaki",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rapideditor/temaki",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki",
+      "target": "icon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki",
+      "target": "icon-pack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rapideditor/temaki",
+      "target": "mapping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:51:40.824178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2654
+    },
+    {
+      "path": "package.json",
+      "size": 1982
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 461
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc21 An icon expansion pack for Maki",
+    "fork": false,
+    "full_name": "rapideditor/temaki",
+    "html_url": "https://github.com/rapideditor/temaki",
+    "language": "SVG",
+    "pushed_at": "2026-04-29T18:01:43Z",
+    "stargazers_count": 102,
+    "topics": [
+      "hacktoberfest",
+      "icon",
+      "icon-pack",
+      "icons",
+      "map",
+      "mapping",
+      "svg"
+    ],
+    "updated_at": "2026-04-29T18:02:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/rapid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osmlab/name-suggestion-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icon"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icon-pack"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapping"
+    }
+  ]
+}

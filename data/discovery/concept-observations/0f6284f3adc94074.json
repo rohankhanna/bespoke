@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A modern, high customizable, responsive Jekyll theme for documentation with built-in search."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"right\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"right\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28605259,
+      "status": "candidate",
+      "text": "hyde"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635685,
+      "status": "candidate",
+      "text": "jukes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635684,
+      "status": "candidate",
+      "text": "jelf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635683,
+      "status": "candidate",
+      "text": "jinkings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635682,
+      "status": "candidate",
+      "text": "jyles"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jekyll",
+      "sense_id": "jekyll#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jekyll",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jekyll",
+  "observation_id": "0f6284f3adc94074",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "jekyll",
+  "source_context_snippet": "<p align=\"right\">",
+  "source_file": null,
+  "source_repo": "just-the-docs/just-the-docs",
+  "source_repo_description": "A modern, high customizable, responsive Jekyll theme for documentation with built-in search."
+}

@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zstandard-wasm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "101arrowz/fzstd",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "101arrowz/fzstd",
+      "target": "terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "101arrowz/fzstd",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "101arrowz/fzstd",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "101arrowz/fzstd",
+      "target": "zstandard-wasm",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:51:16.038528+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3815
+    },
+    {
+      "path": "package.json",
+      "size": 1347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High performance Zstandard decompression in a pure JavaScript, 8kB package",
+    "fork": false,
+    "full_name": "101arrowz/fzstd",
+    "html_url": "https://github.com/101arrowz/fzstd",
+    "language": "TypeScript",
+    "pushed_at": "2024-03-15T06:44:44Z",
+    "stargazers_count": 313,
+    "topics": [],
+    "updated_at": "2026-04-18T05:37:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

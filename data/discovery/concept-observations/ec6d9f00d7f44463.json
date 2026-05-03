@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A library to invoke CMake for Dart Native Assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Format Code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Format Code"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28166,
+      "status": "candidate",
+      "text": "prc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11778,
+      "status": "candidate",
+      "text": "ascii"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11778,
+      "status": "candidate",
+      "text": "encode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11778,
+      "status": "candidate",
+      "text": "encoding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11778,
+      "status": "candidate",
+      "text": "protocol"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Format Code",
+      "sense_id": "format-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "format-code",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "format-code",
+  "observation_id": "ec6d9f00d7f44463",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Format Code",
+  "source_context_snippet": "Format Code",
+  "source_file": ".github/workflows/formatter.yaml",
+  "source_repo": "rainyl/native_toolchain_cmake",
+  "source_repo_description": "A library to invoke CMake for Dart Native Assets."
+}

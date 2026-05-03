@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/textgrad-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:23.933168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6842
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for textgrad.",
+    "fork": false,
+    "full_name": "conda-forge/textgrad-feedstock",
+    "html_url": "https://github.com/conda-forge/textgrad-feedstock",
+    "language": null,
+    "pushed_at": "2026-04-24T03:45:49Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-24T03:45:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

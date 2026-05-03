@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "hecomi/create-upm-branch-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hecomi/uLipSync",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hecomi/uLipSync",
+      "target": "hecomi/create-upm-branch-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hecomi/uLipSync",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hecomi/uLipSync",
+      "target": "burst-compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hecomi/uLipSync",
+      "target": "job-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hecomi/uLipSync",
+      "target": "lip-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hecomi/uLipSync",
+      "target": "microphone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hecomi/uLipSync",
+      "target": "timeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hecomi/uLipSync",
+      "target": "unity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hecomi/uLipSync",
+      "target": "webgl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:46:02.109698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30439
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 791
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MFCC-based LipSync plug-in for Unity using Job System and Burst Compiler",
+    "fork": false,
+    "full_name": "hecomi/uLipSync",
+    "html_url": "https://github.com/hecomi/uLipSync",
+    "language": "C#",
+    "pushed_at": "2026-01-06T09:12:01Z",
+    "stargazers_count": 1590,
+    "topics": [
+      "burst-compiler",
+      "job-system",
+      "lip-sync",
+      "microphone",
+      "timeline",
+      "unity",
+      "vrm",
+      "webgl"
+    ],
+    "updated_at": "2026-05-02T05:43:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "uLipSync",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "burst-compiler"
+    },
+    {
+      "context_snippet": "uLipSync",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "job-system"
+    },
+    {
+      "context_snippet": "uLipSync",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lip-sync"
+    },
+    {
+      "context_snippet": "uLipSync",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microphone"
+    },
+    {
+      "context_snippet": "uLipSync",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timeline"
+    },
+    {
+      "context_snippet": "uLipSync",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    },
+    {
+      "context_snippet": "uLipSync",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgl"
+    }
+  ]
+}

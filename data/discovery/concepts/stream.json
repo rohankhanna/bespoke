@@ -103,6 +103,30 @@
       "source_repo": "0no-co/wonka",
       "status": "candidate-context",
       "text": "A tiny but capable push & pull stream library for TypeScript and Flow,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/Unity_live_caption",
+      "status": "candidate-context",
+      "text": "Use Google Speech-to-Text API to do real-time live stream caption on Unity! Best when combined with your virtual character!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/Unity_live_caption",
+      "status": "candidate-context",
+      "text": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-commons/manifold",
+      "status": "candidate-context",
+      "text": "A compatibility layer for event-driven abstractions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/manifold",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "0no-co/wonka",
       "status": "candidate",
       "text": "A tiny but capable push & pull stream library for TypeScript and Flow,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/Unity_live_caption",
+      "status": "candidate",
+      "text": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/manifold",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)"
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +346,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "0no-co/wonka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "0no-co/wonka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/Unity_live_caption"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clj-commons/manifold"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

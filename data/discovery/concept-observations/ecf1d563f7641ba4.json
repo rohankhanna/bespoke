@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A latex math mode engine in pure Julia."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024453,
+      "status": "candidate",
+      "text": "character encoding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024452,
+      "status": "candidate",
+      "text": "charset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024451,
+      "status": "candidate",
+      "text": "character set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024450,
+      "status": "candidate",
+      "text": "extended ascii"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20024449,
+      "status": "candidate",
+      "text": "windows-1252"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unicode",
+      "sense_id": "unicode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unicode",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unicode",
+  "observation_id": "ecf1d563f7641ba4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "unicode",
+  "source_context_snippet": "This is a package aimed at providing a pure Julia engine for LaTeX math mode. It is composed of two main parts: a LaTeX parser and a LaTeX engine, both only for LaTeX math mode.",
+  "source_file": null,
+  "source_repo": "Kolaru/MathTeXEngine.jl",
+  "source_repo_description": "A latex math mode engine in pure Julia."
+}

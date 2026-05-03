@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4d49/scene-library",
+      "target": "assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4d49/scene-library",
+      "target": "gdscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4d49/scene-library",
+      "target": "godot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4d49/scene-library",
+      "target": "godot-addon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4d49/scene-library",
+      "target": "godot-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4d49/scene-library",
+      "target": "godot-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4d49/scene-library",
+      "target": "godotengine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:55:12.182348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tool for easy work with your scenes in Godot 4.4+",
+    "fork": false,
+    "full_name": "4d49/scene-library",
+    "html_url": "https://github.com/4d49/scene-library",
+    "language": "GDScript",
+    "pushed_at": "2026-02-23T04:44:33Z",
+    "stargazers_count": 106,
+    "topics": [
+      "assets",
+      "gdscript",
+      "godot",
+      "godot-addon",
+      "godot-engine",
+      "godot-plugin",
+      "godotengine"
+    ],
+    "updated_at": "2026-04-27T13:30:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assets"
+    },
+    {
+      "context_snippet": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gdscript"
+    },
+    {
+      "context_snippet": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot"
+    },
+    {
+      "context_snippet": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-addon"
+    },
+    {
+      "context_snippet": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-engine"
+    },
+    {
+      "context_snippet": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-plugin"
+    },
+    {
+      "context_snippet": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godotengine"
+    }
+  ]
+}

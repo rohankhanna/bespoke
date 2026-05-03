@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MikeMcl/big.js",
+      "target": "mikemcl/bignumber.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MikeMcl/big.js",
+      "target": "mikemcl/decimal.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MikeMcl/big.js",
+      "target": "borisyankov/definitelytyped",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MikeMcl/big.js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MikeMcl/big.js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/big.js",
+      "target": "arbitrary-precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/big.js",
+      "target": "bigdecimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/big.js",
+      "target": "bignumber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/big.js",
+      "target": "decimal-places",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:20.802498+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6029
+    },
+    {
+      "path": "package.json",
+      "size": 1108
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 521
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A small, fast JavaScript library for arbitrary-precision decimal arithmetic.",
+    "fork": false,
+    "full_name": "MikeMcl/big.js",
+    "html_url": "https://github.com/MikeMcl/big.js",
+    "language": "JavaScript",
+    "pushed_at": "2025-04-22T19:47:27Z",
+    "stargazers_count": 5171,
+    "topics": [
+      "arbitrary-precision",
+      "bigdecimal",
+      "bignumber",
+      "decimal-places",
+      "javascript"
+    ],
+    "updated_at": "2026-04-24T01:14:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borisyankov/definitelytyped",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikemcl/bignumber.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikemcl/decimal.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**A small, fast JavaScript library for arbitrary-precision decimal arithmetic.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arbitrary-precision"
+    },
+    {
+      "context_snippet": "**A small, fast JavaScript library for arbitrary-precision decimal arithmetic.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigdecimal"
+    },
+    {
+      "context_snippet": "**A small, fast JavaScript library for arbitrary-precision decimal arithmetic.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bignumber"
+    },
+    {
+      "context_snippet": "**A small, fast JavaScript library for arbitrary-precision decimal arithmetic.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decimal-places"
+    }
+  ]
+}

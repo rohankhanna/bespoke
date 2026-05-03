@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use the w, e, b motions like a spider. Move by subwords and skip insignificant punctuation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "nvim type check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "nvim type check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48227,
+      "status": "candidate",
+      "text": "claim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48227,
+      "status": "candidate",
+      "text": "rain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11892,
+      "status": "candidate",
+      "text": "bearer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11892,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11892,
+      "status": "candidate",
+      "text": "brand"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nvim type check",
+      "sense_id": "nvim-type-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nvim-type-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nvim-type-check",
+  "observation_id": "443754893a9d6ced",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "nvim type check",
+  "source_context_snippet": "nvim type check",
+  "source_file": ".github/workflows/nvim-type-check.yml",
+  "source_repo": "chrisgrieser/nvim-spider",
+  "source_repo_description": "Use the w, e, b motions like a spider. Move by subwords and skip insignificant punctuation."
+}

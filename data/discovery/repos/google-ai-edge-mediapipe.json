@@ -376,7 +376,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:32:06.944225+00:00",
+  "fetched_at": "2026-05-03T04:01:25.191367+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -409,7 +409,7 @@
     "html_url": "https://github.com/google-ai-edge/mediapipe",
     "language": "C++",
     "pushed_at": "2026-05-02T04:42:10Z",
-    "stargazers_count": 35036,
+    "stargazers_count": 35043,
     "topics": [
       "android",
       "audio-processing",
@@ -429,7 +429,7 @@
       "stream-processing",
       "video-processing"
     ],
-    "updated_at": "2026-05-02T14:41:15Z"
+    "updated_at": "2026-05-03T02:45:37Z"
   },
   "repo_links": [
     {

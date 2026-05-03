@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HarisIqbal88/PlotNeuralNet",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HarisIqbal88/PlotNeuralNet",
+      "target": "latex",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:44:05.762557+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Latex code for making neural networks diagrams",
+    "fork": false,
+    "full_name": "HarisIqbal88/PlotNeuralNet",
+    "html_url": "https://github.com/HarisIqbal88/PlotNeuralNet",
+    "language": "TeX",
+    "pushed_at": "2023-08-21T17:47:04Z",
+    "stargazers_count": 24689,
+    "topics": [
+      "deep-neural-networks",
+      "latex"
+    ],
+    "updated_at": "2026-05-02T17:06:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2526396.svg)](https://doi.org/10.5281/zenodo.2526396)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2526396.svg)](https://doi.org/10.5281/zenodo.2526396)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    }
+  ]
+}

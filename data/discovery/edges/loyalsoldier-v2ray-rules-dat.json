@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "eycorsican/leaf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "17mon/china_ip_list",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "cokebar/gfwlist2dnsmasq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "crazy-max/windowsspyblocker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "Build V2Ray rules dat files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "adguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "anticensorship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "chinalist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "dnsmasq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "easylist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "geoip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "geosite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "gfwlist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "hysteria",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "ipv4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "ipv6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "mihomo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "routing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "trojan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "trojan-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "v2ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "xray",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "Loyalsoldier/v2ray-rules-dat"
+}

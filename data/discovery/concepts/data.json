@@ -283,6 +283,126 @@
       "source_repo": "datajuicer/data-juicer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate-context",
+      "text": "Arrays for working with categorical data (both nominal and ordinal)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate-context",
+      "text": "CategoricalArrays.jl"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate-context",
+      "text": "Metaprogramming tools for DataFrames"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate-context",
+      "text": "[![Coveralls](https://coveralls.io/repos/github/JuliaStats/DataFramesMeta.jl/badge.svg?branch=master)](https://coveralls.io/github/JuliaStats/DataFramesMeta.jl?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faker-js/faker",
+      "status": "candidate-context",
+      "text": "Generate massive amounts of fake data in the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faker-js/faker",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "Multidimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate-context",
+      "text": "ISO 3116 country information in JSON format to be included in other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate-context",
+      "text": "Countries data - JSON"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countries/countries-data-yaml",
+      "status": "candidate-context",
+      "text": "ISO 3116 country information in YAML format to be included in other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-yaml",
+      "status": "candidate-context",
+      "text": "Countries data - YAML"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate-context",
+      "text": "An interface for tables in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "Create a typed array."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "Buffer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "Multidimensional array constructor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +543,66 @@
       "source_repo": "datajuicer/data-juicer",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate",
+      "text": "CategoricalArrays.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate",
+      "text": "[![Coveralls](https://coveralls.io/repos/github/JuliaStats/DataFramesMeta.jl/badge.svg?branch=master)](https://coveralls.io/github/JuliaStats/DataFramesMeta.jl?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faker-js/faker",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate",
+      "text": "Countries data - JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-yaml",
+      "status": "candidate",
+      "text": "Countries data - YAML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -702,11 +882,83 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "dat-ecosystem-archive/datBase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/CategoricalArrays.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/DataFramesMeta.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "faker-js/faker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "dat-ecosystem-archive/datBase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "countries/countries-data-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "countries/countries-data-yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/Tables.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/ndarray-ctor"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

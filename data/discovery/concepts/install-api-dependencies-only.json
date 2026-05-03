@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Install API Dependencies Only"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "A python library for self-supervised learning on images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "Install API Dependencies Only"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate",
+      "text": "Install API Dependencies Only"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34044,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34024,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23992,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23840,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23840,
+      "status": "candidate",
+      "text": "pipe"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Install API Dependencies Only",
+  "concept_id": "install-api-dependencies-only",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test_api_deps_only.yml",
+      "source_repo": "lightly-ai/lightly"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Install API Dependencies Only",
+      "sense_id": "install-api-dependencies-only#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

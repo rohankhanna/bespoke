@@ -1508,6 +1508,30 @@
       "source_repo": "paullouisageneau/libjuice",
       "status": "candidate-context",
       "text": "Build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arielagor/jetbrains-mono-hebrew",
+      "status": "candidate-context",
+      "text": "Bridge font adding Hebrew coverage to JetBrains Mono \u2014 addresses JetBrainsMono#119"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arielagor/jetbrains-mono-hebrew",
+      "status": "candidate-context",
+      "text": "build-and-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate-context",
+      "text": "Build OpenAPI-compliant REST APIs using TypeScript and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate-context",
+      "text": "Build and Test"
     }
   ],
   "candidate_glosses": [
@@ -2272,6 +2296,18 @@
       "source_repo": "paullouisageneau/libjuice",
       "status": "candidate",
       "text": "Build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arielagor/jetbrains-mono-hebrew",
+      "status": "candidate",
+      "text": "build-and-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate",
+      "text": "Build and Test"
     }
   ],
   "candidate_related_terms": [
@@ -3203,11 +3239,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/build_and_test.yml",
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "arielagor/jetbrains-mono-hebrew"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/runTestsOnPush.yml",
+      "source_repo": "lukeautry/tsoa"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

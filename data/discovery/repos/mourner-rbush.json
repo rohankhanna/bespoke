@@ -1,0 +1,266 @@
+{
+  "components": [
+    {
+      "component": "quickselect",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-buble",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "benchmark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-mourner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mourner/rbush",
+      "target": "mourner/kdbush",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mourner/rbush",
+      "target": "mourner/rbush-knn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mourner/rbush",
+      "target": "imbcmdth/rtree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush",
+      "target": "quickselect",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush",
+      "target": "@rollup/plugin-buble",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush",
+      "target": "benchmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush",
+      "target": "eslint-config-mourner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/rbush",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/rbush",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/rbush",
+      "target": "Node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/rbush",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/rbush",
+      "target": "computational-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/rbush",
+      "target": "r-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/rbush",
+      "target": "spatial-index",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:23.760099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7821
+    },
+    {
+      "path": "package.json",
+      "size": 1321
+    },
+    {
+      "path": ".github/workflows/node.yml",
+      "size": 386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RBush \u2014 a high-performance JavaScript R-tree-based 2D spatial index for points and rectangles",
+    "fork": false,
+    "full_name": "mourner/rbush",
+    "html_url": "https://github.com/mourner/rbush",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-03T09:44:53Z",
+    "stargazers_count": 2738,
+    "topics": [
+      "algorithm",
+      "computational-geometry",
+      "javascript",
+      "r-tree",
+      "spatial-index"
+    ],
+    "updated_at": "2026-04-30T09:39:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imbcmdth/rtree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mourner/kdbush",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mourner/rbush-knn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "term": "Node"
+    },
+    {
+      "context_snippet": "RBush",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "RBush",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-geometry"
+    },
+    {
+      "context_snippet": "RBush",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "r-tree"
+    },
+    {
+      "context_snippet": "RBush",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatial-index"
+    }
+  ]
+}

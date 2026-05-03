@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Documentation Build & Deploy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/AirSim",
+      "status": "candidate-context",
+      "text": "Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/AirSim",
+      "status": "candidate-context",
+      "text": "Documentation Build & Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/AirSim",
+      "status": "candidate",
+      "text": "Documentation Build & Deploy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20142,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19663,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19638,
+      "status": "candidate",
+      "text": "implemented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19638,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19613,
+      "status": "candidate",
+      "text": "file"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Documentation Build & Deploy",
+  "concept_id": "documentation-build-deploy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "microsoft/AirSim"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation Build & Deploy",
+      "sense_id": "documentation-build-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

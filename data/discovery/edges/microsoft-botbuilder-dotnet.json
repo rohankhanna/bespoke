@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft/agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft/botbuilder-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft/botbuilder-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft/botbuilder-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-botbuilder-parity-issues.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "joshgummersall/base64-encode@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-botbuilder-parity-issues.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "joshgummersall/dispatch-workflow@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-style.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "joshgummersall/pr-style@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/state-issues.yml.disabled",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "actions/stale@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/state-issues.yml.disabled",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-labels.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-labels.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "bahmutov/npm-install@v1.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-pr-labels.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "Verify Pull Request Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "dotnet-core2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft-bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft-cognitive-services",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "microsoft/botbuilder-dotnet"
+}

@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "@mathjax/mathjax-modern-font",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@mathjax/src",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "terser-webpack-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mathjax/MathJax-demos-web",
+      "target": "@mathjax/mathjax-modern-font",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mathjax/MathJax-demos-web",
+      "target": "@mathjax/src",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mathjax/MathJax-demos-web",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathjax/MathJax-demos-web",
+      "target": "terser-webpack-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathjax/MathJax-demos-web",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathjax/MathJax-demos-web",
+      "target": "webpack-cli",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:45.505739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10414
+    },
+    {
+      "path": "package.json",
+      "size": 936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A repository with examples using mathjax-v3",
+    "fork": false,
+    "full_name": "mathjax/MathJax-demos-web",
+    "html_url": "https://github.com/mathjax/MathJax-demos-web",
+    "language": "HTML",
+    "pushed_at": "2026-02-22T12:03:05Z",
+    "stargazers_count": 296,
+    "topics": [],
+    "updated_at": "2026-03-10T01:33:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

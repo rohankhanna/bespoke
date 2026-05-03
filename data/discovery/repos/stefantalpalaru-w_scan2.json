@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylecheck.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylecheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stefantalpalaru/w_scan2",
+      "target": "stefantalpalaru/gentoo-overlay",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stefantalpalaru/w_scan2",
+      "target": "rhysd/vim-clang-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stefantalpalaru/w_scan2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stefantalpalaru/w_scan2",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stefantalpalaru/w_scan2",
+      "target": "Create release draft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylecheck.yml",
+      "source_repo": "stefantalpalaru/w_scan2",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylecheck.yml",
+      "source_repo": "stefantalpalaru/w_scan2",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylecheck.yml",
+      "source_repo": "stefantalpalaru/w_scan2",
+      "target": "stylecheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:34.775270+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4087
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1273
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/stylecheck.yml",
+      "size": 1619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "w_scan fork (channel scan tool which generates ATSC, DVB-C, DVB-S/S2 and DVB-T/T2 channels.conf files)",
+    "fork": false,
+    "full_name": "stefantalpalaru/w_scan2",
+    "html_url": "https://github.com/stefantalpalaru/w_scan2",
+    "language": "C",
+    "pushed_at": "2025-12-15T14:52:47Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-03-19T14:50:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rhysd/vim-clang-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stefantalpalaru/gentoo-overlay",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create release draft",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create release draft"
+    },
+    {
+      "context_snippet": "stylecheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylecheck.yml",
+      "term": "stylecheck"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-versions.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-versions.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "quantco/ui-actions/version-metadata@adeb1cf49655487534b4ddaab09c3b7bdfd1d628",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-versions.yml",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-versions.yml",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-versions.yml",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "Bump versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "quantco/ui-actions/version-metadata@adeb1cf49655487534b4ddaab09c3b7bdfd1d628",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "packaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build-action",
+      "target": "rattler-build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:47:20.975736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7136
+    },
+    {
+      "path": ".github/workflows/bump-versions.yml",
+      "size": 1407
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1199
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GitHub Action to build conda packages :octocat: \ud83d\udce6",
+    "fork": false,
+    "full_name": "prefix-dev/rattler-build-action",
+    "html_url": "https://github.com/prefix-dev/rattler-build-action",
+    "language": null,
+    "pushed_at": "2026-04-28T06:46:45Z",
+    "stargazers_count": 21,
+    "topics": [
+      "conda",
+      "github-actions",
+      "packaging",
+      "rattler-build"
+    ],
+    "updated_at": "2026-04-14T09:32:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bump versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-versions.yml",
+      "term": "Bump versions"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packaging"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rattler-build"
+    }
+  ]
+}

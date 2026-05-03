@@ -211,6 +211,18 @@
       "source_repo": "iduta/iresnet",
       "status": "candidate-context",
       "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d-li14/mobilenetv3.pytorch",
+      "status": "candidate-context",
+      "text": "74.3% MobileNetV3-Large and 67.2% MobileNetV3-Small model on ImageNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d-li14/mobilenetv3.pytorch",
+      "status": "candidate-context",
+      "text": "Reproduction of MobileNet V3 architecture as described in [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244) by Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V. Le, Hartwig \u2026"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "iduta/iresnet",
       "status": "candidate",
       "text": "This is a PyTorch implementation of [\"Improved Residual Networks for Image and Video Recognition\"](https://arxiv.org/abs/2004.04989) paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d-li14/mobilenetv3.pytorch",
+      "status": "candidate",
+      "text": "Reproduction of MobileNet V3 architecture as described in [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244) by Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V. Le, Hartwig \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -586,11 +604,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "d-li14/mobilenetv3.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

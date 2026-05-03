@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet3",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet3",
+      "target": "cost-volume-modulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet3",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet3",
+      "target": "eccv2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet3",
+      "target": "flow-field-deformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet3",
+      "target": "flow-propagation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet3",
+      "target": "flow-warping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet3",
+      "target": "liteflownet3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet3",
+      "target": "opitcal-flow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:38:50.268276+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LiteFlowNet3: Resolving Correspondence Ambiguity for More Accurate Optical Flow Estimation, ECCV 2020",
+    "fork": false,
+    "full_name": "twhui/LiteFlowNet3",
+    "html_url": "https://github.com/twhui/LiteFlowNet3",
+    "language": "Python",
+    "pushed_at": "2023-04-04T15:57:02Z",
+    "stargazers_count": 288,
+    "topics": [
+      "cnn",
+      "computer-vision",
+      "cost-volume-modulation",
+      "deeplearning",
+      "eccv2020",
+      "flow-field-deformation",
+      "flow-propagation",
+      "flow-warping",
+      "liteflownet3",
+      "opitcal-flow"
+    ],
+    "updated_at": "2026-04-22T03:35:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://github.com/twhui/LiteFlowNet3#Declaration\"> <strong>[Important] Declaration</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#Overview\"> <strong>Overview</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#cost-volume-modulation-cm\"> <str\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/twhui/LiteFlowNet3#Declaration\"> <strong>[Important] Declaration</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#Overview\"> <strong>Overview</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#cost-volume-modulation-cm\"> <str\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cost-volume-modulation"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/twhui/LiteFlowNet3#Declaration\"> <strong>[Important] Declaration</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#Overview\"> <strong>Overview</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#cost-volume-modulation-cm\"> <str\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/twhui/LiteFlowNet3#Declaration\"> <strong>[Important] Declaration</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#Overview\"> <strong>Overview</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#cost-volume-modulation-cm\"> <str\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eccv2020"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/twhui/LiteFlowNet3#Declaration\"> <strong>[Important] Declaration</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#Overview\"> <strong>Overview</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#cost-volume-modulation-cm\"> <str\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow-field-deformation"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/twhui/LiteFlowNet3#Declaration\"> <strong>[Important] Declaration</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#Overview\"> <strong>Overview</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#cost-volume-modulation-cm\"> <str\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow-propagation"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/twhui/LiteFlowNet3#Declaration\"> <strong>[Important] Declaration</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#Overview\"> <strong>Overview</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#cost-volume-modulation-cm\"> <str\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flow-warping"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/twhui/LiteFlowNet3#Declaration\"> <strong>[Important] Declaration</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#Overview\"> <strong>Overview</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#cost-volume-modulation-cm\"> <str\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "liteflownet3"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/twhui/LiteFlowNet3#Declaration\"> <strong>[Important] Declaration</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#Overview\"> <strong>Overview</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#cost-volume-modulation-cm\"> <str\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opitcal-flow"
+    }
+  ]
+}

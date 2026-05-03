@@ -1,0 +1,249 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "ichitenfont/inheritedglyphs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "githubnext/monaspace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "ayaginu-sue/astalia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "fwhp-enfun/mixed-vswekai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "Build font and specimen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "Package fonts and upload to release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "chinese-traditional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwWenkaiTC",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:10.227211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10156
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 2164
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Traditional Chinese Edition of LXGW WenKai.",
+    "fork": false,
+    "full_name": "lxgw/LxgwWenkaiTC",
+    "html_url": "https://github.com/lxgw/LxgwWenkaiTC",
+    "language": "Python",
+    "pushed_at": "2026-04-08T17:42:28Z",
+    "stargazers_count": 748,
+    "topics": [
+      "chinese-traditional",
+      "font",
+      "typeface"
+    ],
+    "updated_at": "2026-05-01T05:35:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ayaginu-sue/astalia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fwhp-enfun/mixed-vswekai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "githubnext/monaspace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ichitenfont/inheritedglyphs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build font and specimen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build font and specimen"
+    },
+    {
+      "context_snippet": "Package fonts and upload to release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Package fonts and upload to release"
+    },
+    {
+      "context_snippet": "The Traditional Chinese Version of LXGW WenKai. \u971e\u9da9\u6587\u6977\u7e41\u9ad4\u4e2d\u6587\u7248\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-traditional"
+    },
+    {
+      "context_snippet": "The Traditional Chinese Version of LXGW WenKai. \u971e\u9da9\u6587\u6977\u7e41\u9ad4\u4e2d\u6587\u7248\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "The Traditional Chinese Version of LXGW WenKai. \u971e\u9da9\u6587\u6977\u7e41\u9ad4\u4e2d\u6587\u7248\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

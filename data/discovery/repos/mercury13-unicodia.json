@@ -1,0 +1,179 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mercury13/unicodia",
+      "target": "mercury13/unicodia-sesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mercury13/unicodia",
+      "target": "mercury13/utranslator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mercury13/unicodia",
+      "target": "razrfalcon/svgcleaner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia",
+      "target": "character-table",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia",
+      "target": "emoji-picker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia",
+      "target": "emoji-unicode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia",
+      "target": "encyclopedia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia",
+      "target": "unicode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia",
+      "target": "unicode-characters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia",
+      "target": "unicode-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mercury13/unicodia",
+      "target": "unicode-table",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:05.498200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Encyclopedia of Unicode characters",
+    "fork": false,
+    "full_name": "Mercury13/unicodia",
+    "html_url": "https://github.com/Mercury13/unicodia",
+    "language": "C++",
+    "pushed_at": "2026-05-02T14:37:43Z",
+    "stargazers_count": 169,
+    "topics": [
+      "character-table",
+      "emoji-picker",
+      "emoji-unicode",
+      "encyclopedia",
+      "unicode",
+      "unicode-characters",
+      "unicode-data",
+      "unicode-table"
+    ],
+    "updated_at": "2026-05-02T14:25:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mercury13/unicodia-sesh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mercury13/utranslator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "razrfalcon/svgcleaner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ufeff# What is Unicodia?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "character-table"
+    },
+    {
+      "context_snippet": "\ufeff# What is Unicodia?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emoji-picker"
+    },
+    {
+      "context_snippet": "\ufeff# What is Unicodia?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emoji-unicode"
+    },
+    {
+      "context_snippet": "\ufeff# What is Unicodia?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encyclopedia"
+    },
+    {
+      "context_snippet": "\ufeff# What is Unicodia?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    },
+    {
+      "context_snippet": "\ufeff# What is Unicodia?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode-characters"
+    },
+    {
+      "context_snippet": "\ufeff# What is Unicodia?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode-data"
+    },
+    {
+      "context_snippet": "\ufeff# What is Unicodia?",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode-table"
+    }
+  ]
+}

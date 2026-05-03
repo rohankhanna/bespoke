@@ -1,12 +1,22 @@
 {
   "component": "stylelint-no-unsupported-browser-features",
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "mayurankv/Obsidian-Code-Styler"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bladeacer/flexcyon"
     }
   ]
 }

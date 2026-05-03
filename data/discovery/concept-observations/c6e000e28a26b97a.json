@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build Postgres Extensions with Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "verify package can build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "verify package can build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45425,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37351,
+      "status": "candidate",
+      "text": "fractal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34369,
+      "status": "candidate",
+      "text": "escape cock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34369,
+      "status": "candidate",
+      "text": "escape valve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34369,
+      "status": "candidate",
+      "text": "escaped"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "verify package can build",
+      "sense_id": "verify-package-can-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "verify-package-can-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "verify-package-can-build",
+  "observation_id": "c6e000e28a26b97a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "verify package can build",
+  "source_context_snippet": "verify package can build",
+  "source_file": ".github/workflows/package-test.yaml",
+  "source_repo": "pgcentralfoundation/pgrx",
+  "source_repo_description": "Build Postgres Extensions with Rust!"
+}

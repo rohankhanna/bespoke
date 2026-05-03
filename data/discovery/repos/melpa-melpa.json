@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "melpa/melpa",
+      "target": "melpa/package-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "melpa/melpa",
+      "target": "milkypostman/package-filter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "melpa/melpa",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:51:14.998689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17193
+    },
+    {
+      "path": ".github/workflows/ci.sh",
+      "size": 1368
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Recipes and build machinery for the biggest Emacs package repo",
+    "fork": false,
+    "full_name": "melpa/melpa",
+    "html_url": "https://github.com/melpa/melpa",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-05-02T18:38:20Z",
+    "stargazers_count": 2937,
+    "topics": [],
+    "updated_at": "2026-05-02T18:38:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "melpa/package-build",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milkypostman/package-filter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

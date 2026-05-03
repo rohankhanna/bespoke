@@ -1,0 +1,87 @@
+{
+  "component": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
+    }
+  ]
+}

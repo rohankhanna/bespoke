@@ -92,7 +92,7 @@
   "normalized_form": "telegram",
   "observation_id": "63ca55010fb7a5da",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "telegram",
   "source_context_snippet": "Please, enjoy this starter template for Telegram bots based on [grammY](https://grammy.dev). It includes most common middlewares, MongoDB integration, language picker and internationalization and shows basic encapsulation techniques used by me.",
   "source_file": null,

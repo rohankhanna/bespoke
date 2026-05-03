@@ -1,7 +1,7 @@
 {
   "component": "sclorg/auto-merge-wrapper@v1",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "sclorg/s2i-php-container"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-on-demand.yml",
+      "source_repo": "sclorg/s2i-ruby-container"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/s2i-ruby-container"
     }
   ]
 }

@@ -19,6 +19,18 @@
       "source_repo": "huawei-noah/bolt",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "status": "candidate-context",
+      "text": "Neo4j Movies Example application with Flask backend using the neo4j-python-driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "status": "candidate-context",
+      "text": "# common requirements for sync and async example # neo4j bolt driver to connect to the DBMS neo4j==6.1.0 # optionally with Rust extensions for better performance neo4j-rust-ext==6.1.0.* typing_extensions==4.15.0"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "huawei-noah/bolt",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "status": "candidate",
+      "text": "# common requirements for sync and async example # neo4j bolt driver to connect to the DBMS neo4j==6.1.0 # optionally with Rust extensions for better performance neo4j-rust-ext==6.1.0.* typing_extensions==4.15.0"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "huawei-noah/bolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

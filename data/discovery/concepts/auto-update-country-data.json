@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Auto Update Country Data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate-context",
+      "text": "ISO 3116 country information in JSON format to be included in other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate-context",
+      "text": "Auto Update Country Data"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countries/countries-data-yaml",
+      "status": "candidate-context",
+      "text": "ISO 3116 country information in YAML format to be included in other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-yaml",
+      "status": "candidate-context",
+      "text": "Auto Update Country Data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate",
+      "text": "Auto Update Country Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-yaml",
+      "status": "candidate",
+      "text": "Auto Update Country Data"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31090,
+      "status": "candidate",
+      "text": "power"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31063,
+      "status": "candidate",
+      "text": "brakes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30936,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30855,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30842,
+      "status": "candidate",
+      "text": "out"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Update Country Data",
+  "concept_id": "auto-update-country-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "countries/countries-data-json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "countries/countries-data-yaml"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Update Country Data",
+      "sense_id": "auto-update-country-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

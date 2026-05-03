@@ -55,6 +55,18 @@
       "source_repo": "pillarjs/path-to-regexp",
       "status": "candidate-context",
       "text": "path-to-regexp \u2014 Express style path to RegExp utility"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate-context",
+      "text": "Javascript codes you will always need  & Cheatsheets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate-context",
+      "text": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "pillarjs/path-to-regexp",
       "status": "candidate",
       "text": "path-to-regexp \u2014 Express style path to RegExp utility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate",
+      "text": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "pillarjs/path-to-regexp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "devsmitra/javascript-quick-functions"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

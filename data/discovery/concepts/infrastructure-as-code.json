@@ -271,6 +271,18 @@
       "source_repo": "aws-cloudformation/aws-guard-rules-registry",
       "status": "candidate-context",
       "text": "AWS Guard Rules Registry is an open-source repository of [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) rule files and managed rule sets that help organizations *shift left* in their Software Development Life Cycle (SDLC) processes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidz/dad",
+      "status": "candidate-context",
+      "text": "Small configuration management tool for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/dad",
+      "status": "candidate-context",
+      "text": "FROM clojure:openjdk-11-tools-deps WORKDIR /tmp RUN apt update \\ && apt install -y curl make sudo \\ && apt-get clean \\ && rm -rf /var/lib/apt/lists/* \\ && mkdir /src COPY Makefile /tmp/Makefile RUN make graalvm WORKDIR /src"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "aws-cloudformation/aws-guard-rules-registry",
       "status": "candidate",
       "text": "AWS Guard Rules Registry is an open-source repository of [AWS CloudFormation Guard](https://github.com/aws-cloudformation/cloudformation-guard) rule files and managed rule sets that help organizations *shift left* in their Software Development Life Cycle (SDLC) processes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/dad",
+      "status": "candidate",
+      "text": "FROM clojure:openjdk-11-tools-deps WORKDIR /tmp RUN apt update \\ && apt install -y curl make sudo \\ && apt-get clean \\ && rm -rf /var/lib/apt/lists/* \\ && mkdir /src COPY Makefile /tmp/Makefile RUN make graalvm WORKDIR /src"
     }
   ],
   "candidate_related_terms": [],
@@ -616,11 +634,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vmware-archive/kubecfg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "liquidz/dad"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

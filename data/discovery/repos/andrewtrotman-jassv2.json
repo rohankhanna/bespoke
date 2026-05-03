@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "andrewtrotman/JASSv2",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "andrewtrotman/JASSv2",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewtrotman/JASSv2",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewtrotman/JASSv2",
+      "target": "integer-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewtrotman/JASSv2",
+      "target": "search-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:47:45.280134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2235
+    },
+    {
+      "path": "requirements.txt",
+      "size": 36
+    },
+    {
+      "path": ".github/workflows/ccpp.yml",
+      "size": 260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Experimental search engine in C/C++17 - still in early development.",
+    "fork": false,
+    "full_name": "andrewtrotman/JASSv2",
+    "html_url": "https://github.com/andrewtrotman/JASSv2",
+    "language": "C++",
+    "pushed_at": "2025-09-05T04:55:35Z",
+    "stargazers_count": 27,
+    "topics": [
+      "c-plus-plus",
+      "integer-compression",
+      "search-engine"
+    ],
+    "updated_at": "2025-09-05T04:55:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ccpp.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "The JASS experimental search engine is still in development. Please see the [wiki](../../wiki) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "The JASS experimental search engine is still in development. Please see the [wiki](../../wiki) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "integer-compression"
+    },
+    {
+      "context_snippet": "The JASS experimental search engine is still in development. Please see the [wiki](../../wiki) for details.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-engine"
+    }
+  ]
+}

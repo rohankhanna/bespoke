@@ -1,0 +1,423 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepareDraftRelease.yml"
+    },
+    {
+      "component": "actions/create-release@v1.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepareDraftRelease.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishMaster.yml"
+    },
+    {
+      "component": "actions/setup-java@v4.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishMaster.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishRelease.yml"
+    },
+    {
+      "component": "actions/setup-java@v4.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishRelease.yml"
+    },
+    {
+      "component": "skx/github-action-publish-binaries@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishRelease.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runLauncherTest.yml"
+    },
+    {
+      "component": "actions/setup-java@v4.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runLauncherTest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runLauncherTest.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTest.yml"
+    },
+    {
+      "component": "actions/setup-java@v4.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTest.yml"
+    },
+    {
+      "component": "FedericoCarboni/setup-ffmpeg@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTest.yml"
+    },
+    {
+      "component": "jtalk/url-health-check-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTest.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testBranch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "jetbrains/gradle-intellij-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepareDraftRelease.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/checkout@v4.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepareDraftRelease.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/create-release@v1.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepareDraftRelease.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "Prepare Draft Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishMaster.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/checkout@v4.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishMaster.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/setup-java@v4.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publishMaster.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "Publish Master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishRelease.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/checkout@v4.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishRelease.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/setup-java@v4.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publishRelease.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "skx/github-action-publish-binaries@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publishRelease.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runLauncherTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/checkout@v4.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runLauncherTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/setup-java@v4.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runLauncherTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runLauncherTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "Run launcher example UI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/checkout@v4.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/setup-java@v4.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "FedericoCarboni/setup-ffmpeg@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "jtalk/url-health-check-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "Run example UI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testBranch.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "actions/checkout@v4.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testBranch.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "Test Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "idea-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "intellij",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "intellij-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "target": "test-automation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:45:05.174437+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14407
+    },
+    {
+      "path": ".github/workflows/prepareDraftRelease.yml",
+      "size": 1761
+    },
+    {
+      "path": ".github/workflows/publishMaster.yml",
+      "size": 3052
+    },
+    {
+      "path": ".github/workflows/publishRelease.yml",
+      "size": 2545
+    },
+    {
+      "path": ".github/workflows/runLauncherTest.yml",
+      "size": 591
+    },
+    {
+      "path": ".github/workflows/runTest.yml",
+      "size": 2513
+    },
+    {
+      "path": ".github/workflows/testBranch.yml",
+      "size": 578
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The library allows you to write and execute UI tests among IntelliJ IDEA. You can test your Plugin.",
+    "fork": false,
+    "full_name": "JetBrains/intellij-ui-test-robot",
+    "html_url": "https://github.com/JetBrains/intellij-ui-test-robot",
+    "language": "Kotlin",
+    "pushed_at": "2026-02-10T15:11:51Z",
+    "stargazers_count": 126,
+    "topics": [
+      "ide",
+      "idea-plugin",
+      "intellij",
+      "intellij-plugin",
+      "java",
+      "kotlin",
+      "test-automation"
+    ],
+    "updated_at": "2026-04-13T05:46:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jetbrains/gradle-intellij-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Prepare Draft Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepareDraftRelease.yml",
+      "term": "Prepare Draft Release"
+    },
+    {
+      "context_snippet": "Publish Master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publishMaster.yml",
+      "term": "Publish Master"
+    },
+    {
+      "context_snippet": "Publish Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publishRelease.yml",
+      "term": "Publish Release"
+    },
+    {
+      "context_snippet": "Run launcher example UI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runLauncherTest.yml",
+      "term": "Run launcher example UI Tests"
+    },
+    {
+      "context_snippet": "Run example UI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runTest.yml",
+      "term": "Run example UI Tests"
+    },
+    {
+      "context_snippet": "Test Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testBranch.yml",
+      "term": "Test Branch"
+    },
+    {
+      "context_snippet": "![official JetBrains project](https://jb.gg/badges/official.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "idea-plugin"
+    },
+    {
+      "context_snippet": "![official JetBrains project](https://jb.gg/badges/official.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij"
+    },
+    {
+      "context_snippet": "![official JetBrains project](https://jb.gg/badges/official.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-plugin"
+    },
+    {
+      "context_snippet": "![official JetBrains project](https://jb.gg/badges/official.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "![official JetBrains project](https://jb.gg/badges/official.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "![official JetBrains project](https://jb.gg/badges/official.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-automation"
+    }
+  ]
+}

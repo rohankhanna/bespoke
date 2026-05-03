@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unity.Abstractions package "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Regression Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Regression Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11073,
+      "status": "candidate",
+      "text": "decline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11073,
+      "status": "candidate",
+      "text": "regressions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11029,
+      "status": "candidate",
+      "text": "retreat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11029,
+      "status": "candidate",
+      "text": "setbacks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10806,
+      "status": "candidate",
+      "text": "checking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Regression Tests",
+      "sense_id": "regression-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "regression-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "regression-tests",
+  "observation_id": "4566fbc3972e6dc2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Regression Tests",
+  "source_context_snippet": "Regression Tests",
+  "source_file": ".github/workflows/regression.yml",
+  "source_repo": "unitycontainer/abstractions",
+  "source_repo_description": "Unity.Abstractions package "
+}

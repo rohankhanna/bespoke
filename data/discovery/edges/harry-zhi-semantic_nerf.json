@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Harry-Zhi/semantic_nerf",
+      "target": "kxhit/vmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Harry-Zhi/semantic_nerf",
+      "target": "aliutkus/torchsearchsorted",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Harry-Zhi/semantic_nerf",
+      "target": "kwea123/nerf_pl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Harry-Zhi/semantic_nerf",
+      "target": "magicleap/atlas",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "Harry-Zhi/semantic_nerf"
+}

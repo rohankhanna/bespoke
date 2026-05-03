@@ -244,6 +244,30 @@
       "source_repo": "un-ts/synckit",
       "status": "candidate-context",
       "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/synckit/ci.yml?branch=main)](https://github.com/un-ts/synckit/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vutran/zel",
+      "status": "candidate-context",
+      "text": ":computer: zel is a small, and simple command-line tool that helps kickstart new projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vutran/zel",
+      "status": "candidate-context",
+      "text": "\ud83d\udea7 Discontinued. Please use [Github templates](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-template-repository)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViscousPot/GitSync",
+      "status": "candidate-context",
+      "text": "Mobile Git client for syncing a repository between remote and a local directory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViscousPot/GitSync",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -390,6 +414,18 @@
       "source_repo": "un-ts/synckit",
       "status": "candidate",
       "text": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/un-ts/synckit/ci.yml?branch=main)](https://github.com/un-ts/synckit/actions/workflows/ci.yml?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vutran/zel",
+      "status": "candidate",
+      "text": "\ud83d\udea7 Discontinued. Please use [Github templates](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-template-repository)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViscousPot/GitSync",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -633,11 +669,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/sync.yml",
       "source_repo": "probe-lab/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipdxco/github-as-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "probe-lab/github-mgmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vutran/zel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ViscousPot/GitSync"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

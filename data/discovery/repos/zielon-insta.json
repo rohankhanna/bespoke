@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zielon/INSTA",
+      "target": "zielon/insta-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zielon/INSTA",
+      "target": "philgras/neural-head-avatars",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zielon/INSTA",
+      "target": "gafniguy/4d-facial-avatars",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zielon/INSTA",
+      "target": "zhengyuf/imavatar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA",
+      "target": "3dmm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA",
+      "target": "avatars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA",
+      "target": "flame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA",
+      "target": "instant-ngp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA",
+      "target": "volumetric-rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:07.537563+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "INSTA - Instant Volumetric Head Avatars [CVPR2023]",
+    "fork": false,
+    "full_name": "Zielon/INSTA",
+    "html_url": "https://github.com/Zielon/INSTA",
+    "language": "C++",
+    "pushed_at": "2025-08-03T08:46:39Z",
+    "stargazers_count": 516,
+    "topics": [
+      "3dmm",
+      "avatars",
+      "cuda",
+      "flame",
+      "instant-ngp",
+      "nerf",
+      "neural-network",
+      "volumetric-rendering"
+    ],
+    "updated_at": "2026-04-29T09:08:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gafniguy/4d-facial-avatars",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philgras/neural-head-avatars",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhengyuf/imavatar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zielon/insta-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dmm"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avatars"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instant-ngp"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volumetric-rendering"
+    }
+  ]
+}

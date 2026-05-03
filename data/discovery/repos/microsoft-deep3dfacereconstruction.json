@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Deep3DFaceReconstruction",
+      "target": "3d-face-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Deep3DFaceReconstruction",
+      "target": "basel-face-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Deep3DFaceReconstruction",
+      "target": "faces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Deep3DFaceReconstruction",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:43:56.538584+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set (CVPRW 2019)",
+    "fork": false,
+    "full_name": "microsoft/Deep3DFaceReconstruction",
+    "html_url": "https://github.com/microsoft/Deep3DFaceReconstruction",
+    "language": "Python",
+    "pushed_at": "2024-01-04T16:15:41Z",
+    "stargazers_count": 2346,
+    "topics": [
+      "3d-face-reconstruction",
+      "basel-face-model",
+      "faces",
+      "tensorflow"
+    ],
+    "updated_at": "2026-05-02T13:51:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set (CVPRW 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face-reconstruction"
+    },
+    {
+      "context_snippet": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set (CVPRW 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "basel-face-model"
+    },
+    {
+      "context_snippet": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set (CVPRW 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faces"
+    },
+    {
+      "context_snippet": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set (CVPRW 2019)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

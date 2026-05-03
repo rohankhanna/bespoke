@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appwrite/playground-for-apple-swiftui",
+      "target": "appwrite/sdk-for-swift",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:58:03.761907+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple examples that help you get started with Appwrite + Apple with SwiftUI (=\u2764\ufe0f)",
+    "fork": false,
+    "full_name": "appwrite/playground-for-apple-swiftui",
+    "html_url": "https://github.com/appwrite/playground-for-apple-swiftui",
+    "language": "Swift",
+    "pushed_at": "2025-07-26T16:57:32Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-03-28T04:07:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appwrite/sdk-for-swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

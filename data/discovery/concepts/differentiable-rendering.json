@@ -31,6 +31,30 @@
       "source_repo": "NVIDIAGameWorks/kaolin",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "barisgecer/GANFit",
+      "status": "candidate-context",
+      "text": "Project Page of 'GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction' [CVPR2019]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barisgecer/GANFit",
+      "status": "candidate-context",
+      "text": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nv-tlabs/DIB-R",
+      "status": "candidate-context",
+      "text": "Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer (NeurIPS 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nv-tlabs/DIB-R",
+      "status": "candidate-context",
+      "text": "This is the official inference code for:"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "NVIDIAGameWorks/kaolin",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barisgecer/GANFit",
+      "status": "candidate",
+      "text": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nv-tlabs/DIB-R",
+      "status": "candidate",
+      "text": "This is the official inference code for:"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "NVIDIAGameWorks/kaolin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "barisgecer/GANFit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nv-tlabs/DIB-R"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -151,6 +151,30 @@
       "source_repo": "cloudfoundry/uaa",
       "status": "candidate-context",
       "text": "**Slack** [&#35;uaa](https://cloudfoundry.slack.com/archives/C03FXANBV)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/polis",
+      "status": "candidate-context",
+      "text": "Streamline your web application's authentication with Polis, an SSO service supporting SAML and OpenID Connect protocols. Beyond enterprise-grade Single Sign-On, it also supports Directory Sync via the SCIM 2.0 protocol for automatic user and group provisioning/de-provisioning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/polis",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Ory polis - Open source Enterprise SSO and Directory Sync</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "Internet-scale OpenID Certified\u2122 OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "cloudfoundry/uaa",
       "status": "candidate",
       "text": "**Slack** [&#35;uaa](https://cloudfoundry.slack.com/archives/C03FXANBV)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/polis",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Ory polis - Open source Enterprise SSO and Directory Sync</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -382,11 +418,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/polis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/hydra"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

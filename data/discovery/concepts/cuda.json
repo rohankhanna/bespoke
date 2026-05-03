@@ -1267,6 +1267,78 @@
       "source_repo": "NVIDIA/DL4AGX",
       "status": "candidate-context",
       "text": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/revisiting-sepconv",
+      "status": "candidate-context",
+      "text": "an implementation of Revisiting Adaptive Convolutions for Video Frame Interpolation using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/revisiting-sepconv",
+      "status": "candidate-context",
+      "text": "This is a reference implementation of Revisiting Adaptive Convolutions for Video Frame Interpolation [1] using PyTorch. Given two frames, it will make use of [adaptive convolution](http://sniklaus.com/papers/adaconv) [2] in a [separable manner](http://sniklaus.com/papers/sepconv\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "status": "candidate-context",
+      "text": "SDK for GPU accelerated genome assembly and analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "status": "candidate-context",
+      "text": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unlimblue/KNN_CUDA",
+      "status": "candidate-context",
+      "text": "pytorch knn [cuda version]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unlimblue/KNN_CUDA",
+      "status": "candidate-context",
+      "text": "+ ref: [kNN-CUDA](https://github.com/vincentfpgarcia/kNN-CUDA)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/sepconv-slomo",
+      "status": "candidate-context",
+      "text": "an implementation of Video Frame Interpolation via Adaptive Separable Convolution using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/sepconv-slomo",
+      "status": "candidate-context",
+      "text": "This work has now been superseded by: https://github.com/sniklaus/revisiting-sepconv"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddemidov/amgcl",
+      "status": "candidate-context",
+      "text": "C++ library for solving large sparse linear systems with algebraic multigrid method"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddemidov/amgcl",
+      "status": "candidate-context",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate-context",
+      "text": "INSTA - Instant Volumetric Head Avatars [CVPR2023]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
     }
   ],
   "candidate_glosses": [
@@ -1899,6 +1971,42 @@
       "source_repo": "NVIDIA/DL4AGX",
       "status": "candidate",
       "text": "[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/revisiting-sepconv",
+      "status": "candidate",
+      "text": "This is a reference implementation of Revisiting Adaptive Convolutions for Video Frame Interpolation [1] using PyTorch. Given two frames, it will make use of [adaptive convolution](http://sniklaus.com/papers/adaconv) [2] in a [separable manner](http://sniklaus.com/papers/sepconv\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "status": "candidate",
+      "text": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unlimblue/KNN_CUDA",
+      "status": "candidate",
+      "text": "+ ref: [kNN-CUDA](https://github.com/vincentfpgarcia/kNN-CUDA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/sepconv-slomo",
+      "status": "candidate",
+      "text": "This work has now been superseded by: https://github.com/sniklaus/revisiting-sepconv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddemidov/amgcl",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
     }
   ],
   "candidate_related_terms": [
@@ -2872,11 +2980,77 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/DL4AGX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/revisiting-sepconv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unlimblue/KNN_CUDA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/sepconv-slomo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ddemidov/amgcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

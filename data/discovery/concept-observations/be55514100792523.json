@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A JavaScript library to position floating elements and create interactions for them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023529,
+      "status": "candidate",
+      "text": "pull-down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023368,
+      "status": "candidate",
+      "text": "scrollable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023216,
+      "status": "candidate",
+      "text": "scrolling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20012797,
+      "status": "candidate",
+      "text": "pop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19974622,
+      "status": "candidate",
+      "text": "popup"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dropdown",
+      "sense_id": "dropdown#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dropdown",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dropdown",
+  "observation_id": "be55514100792523",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "dropdown",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "floating-ui/floating-ui",
+  "source_repo_description": "A JavaScript library to position floating elements and create interactions for them."
+}

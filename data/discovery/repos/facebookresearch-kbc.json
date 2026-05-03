@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:48:16.876703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4074
+    },
+    {
+      "path": "requirements.txt",
+      "size": 37
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tools for state of the art Knowledge Base Completion.",
+    "fork": false,
+    "full_name": "facebookresearch/kbc",
+    "html_url": "https://github.com/facebookresearch/kbc",
+    "language": "Python",
+    "pushed_at": "2021-08-16T09:12:01Z",
+    "stargazers_count": 257,
+    "topics": [],
+    "updated_at": "2026-01-02T08:31:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

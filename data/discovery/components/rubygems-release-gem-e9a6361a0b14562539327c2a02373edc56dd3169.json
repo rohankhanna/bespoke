@@ -1,0 +1,12 @@
+{
+  "component": "rubygems/release-gem@e9a6361a0b14562539327c2a02373edc56dd3169",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "halostatue/diff-lcs"
+    }
+  ]
+}

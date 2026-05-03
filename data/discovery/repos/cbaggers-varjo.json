@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbaggers/varjo",
+      "target": "common-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbaggers/varjo",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbaggers/varjo",
+      "target": "glsl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cbaggers/varjo",
+      "target": "lisp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:10.577460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lisp to GLSL Language Translator",
+    "fork": false,
+    "full_name": "cbaggers/varjo",
+    "html_url": "https://github.com/cbaggers/varjo",
+    "language": "Common Lisp",
+    "pushed_at": "2025-08-15T06:20:46Z",
+    "stargazers_count": 229,
+    "topics": [
+      "common-lisp",
+      "compiler",
+      "glsl",
+      "lisp"
+    ],
+    "updated_at": "2026-04-18T19:08:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Varjo is a Lisp to GLSL compiler.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "common-lisp"
+    },
+    {
+      "context_snippet": "Varjo is a Lisp to GLSL compiler.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "Varjo is a Lisp to GLSL compiler.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glsl"
+    },
+    {
+      "context_snippet": "Varjo is a Lisp to GLSL compiler.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lisp"
+    }
+  ]
+}

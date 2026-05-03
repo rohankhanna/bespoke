@@ -1,0 +1,576 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-cometbft.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-cometbft.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-cometbft.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-cometbft.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-cometbft.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-e2e-node.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-e2e-node.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-e2e-node.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-e2e-node.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-e2e-node.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-toc.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-toc.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual-multiversion.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual-multiversion.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-38x.yml "
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-38x.yml "
+    },
+    {
+      "component": "slackapi/slack-github-action@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-38x.yml "
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cometbft/cometbft",
+      "target": "cosmos/security",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cometbft/cometbft",
+      "target": "cosmos/ibc-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cometbft/cometbft",
+      "target": "cosmos/evm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cometbft/cometbft",
+      "target": "moovweb/gvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "dorny/paths-filter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-generated.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "Check generated code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-cometbft.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-cometbft.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-cometbft.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-cometbft.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-cometbft.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "docker-build-cometbft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-e2e-node.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-e2e-node.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-e2e-node.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-e2e-node.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-e2e-node.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "docker-build-e2e-node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-toc.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-toc.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "technote-space/get-diff-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-toc.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "Check documentation ToC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual-multiversion.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual-multiversion.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-manual-multiversion.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "e2e-manual-multiversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-manual.yml",
+      "source_repo": "cometbft/cometbft",
+      "target": "e2e-manual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-38x.yml ",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-38x.yml ",
+      "source_repo": "cometbft/cometbft",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-38x.yml ",
+      "source_repo": "cometbft/cometbft",
+      "target": "slackapi/slack-github-action@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-nightly-38x.yml ",
+      "source_repo": "cometbft/cometbft",
+      "target": "e2e-nightly-38x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cometbft/cometbft",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cometbft/cometbft",
+      "target": "cosmos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cometbft/cometbft",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cometbft/cometbft",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cometbft/cometbft",
+      "target": "tendermint-consensus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:00:48.598175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8624
+    },
+    {
+      "path": "go.mod",
+      "size": 9729
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1330
+    },
+    {
+      "path": ".github/workflows/check-generated.yml",
+      "size": 2251
+    },
+    {
+      "path": ".github/workflows/docker-build-cometbft.yml",
+      "size": 2683
+    },
+    {
+      "path": ".github/workflows/docker-build-e2e-node.yml",
+      "size": 2692
+    },
+    {
+      "path": ".github/workflows/docs-toc.yml",
+      "size": 435
+    },
+    {
+      "path": ".github/workflows/e2e-manual-multiversion.yml",
+      "size": 1529
+    },
+    {
+      "path": ".github/workflows/e2e-manual.yml",
+      "size": 1315
+    },
+    {
+      "path": ".github/workflows/e2e-nightly-38x.yml ",
+      "size": 2771
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CometBFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core.",
+    "fork": false,
+    "full_name": "cometbft/cometbft",
+    "html_url": "https://github.com/cometbft/cometbft",
+    "language": "Go",
+    "pushed_at": "2026-04-30T12:01:42Z",
+    "stargazers_count": 889,
+    "topics": [
+      "bft",
+      "blockchain",
+      "cosmos",
+      "database",
+      "distributed-systems",
+      "go",
+      "tendermint-consensus"
+    ],
+    "updated_at": "2026-04-30T06:52:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/evm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/ibc-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosmos/security",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moovweb/gvm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Check generated code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-generated.yml",
+      "term": "Check generated code"
+    },
+    {
+      "context_snippet": "docker-build-cometbft",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-cometbft.yml",
+      "term": "docker-build-cometbft"
+    },
+    {
+      "context_snippet": "docker-build-e2e-node",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-e2e-node.yml",
+      "term": "docker-build-e2e-node"
+    },
+    {
+      "context_snippet": "Check documentation ToC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-toc.yml",
+      "term": "Check documentation ToC"
+    },
+    {
+      "context_snippet": "e2e-manual-multiversion",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-manual-multiversion.yml",
+      "term": "e2e-manual-multiversion"
+    },
+    {
+      "context_snippet": "e2e-manual",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-manual.yml",
+      "term": "e2e-manual"
+    },
+    {
+      "context_snippet": "e2e-nightly-38x",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-nightly-38x.yml ",
+      "term": "e2e-nightly-38x"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosmos"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "<div align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tendermint-consensus"
+    }
+  ]
+}

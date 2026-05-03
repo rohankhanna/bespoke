@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:58:05.019926+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Contains linux dotfiles",
+    "fork": false,
+    "full_name": "Hitesh-Aggarwal/dotfiles",
+    "html_url": "https://github.com/Hitesh-Aggarwal/dotfiles",
+    "language": "Lua",
+    "pushed_at": "2026-01-16T12:48:53Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-16T12:48:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

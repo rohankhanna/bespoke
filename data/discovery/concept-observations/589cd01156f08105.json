@@ -84,7 +84,7 @@
   "normalized_form": "all-checks",
   "observation_id": "589cd01156f08105",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "All checks",
   "source_context_snippet": "All checks",
   "source_file": ".github/workflows/all-checks.yml",

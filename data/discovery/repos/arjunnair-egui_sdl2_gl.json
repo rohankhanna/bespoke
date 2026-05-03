@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ArjunNair/egui_sdl2_gl",
+      "target": "rust-sdl2/rust-sdl2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ArjunNair/egui_sdl2_gl",
+      "target": "brendanzab/gl-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ArjunNair/egui_sdl2_gl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ArjunNair/egui_sdl2_gl",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ArjunNair/egui_sdl2_gl",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:06.201816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2688
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1155
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Egui backend for SDL2 + OpenGL",
+    "fork": false,
+    "full_name": "ArjunNair/egui_sdl2_gl",
+    "html_url": "https://github.com/ArjunNair/egui_sdl2_gl",
+    "language": "Rust",
+    "pushed_at": "2026-01-10T13:35:52Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-01-10T13:35:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brendanzab/gl-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-sdl2/rust-sdl2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

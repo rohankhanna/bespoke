@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,246 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "chaoss/grimoirelab-sortinghat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
     }
   ]
 }

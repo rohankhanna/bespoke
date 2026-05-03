@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:54:12.408597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The repository for the largest and most comprehensive empirical study of visual foundation models for Embodied AI (EAI).",
+    "fork": false,
+    "full_name": "facebookresearch/eai-vc",
+    "html_url": "https://github.com/facebookresearch/eai-vc",
+    "language": "Python",
+    "pushed_at": "2024-05-01T05:50:12Z",
+    "stargazers_count": 502,
+    "topics": [],
+    "updated_at": "2026-04-23T11:52:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

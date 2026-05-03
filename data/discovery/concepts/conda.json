@@ -238,6 +238,42 @@
       "source_repo": "JuliaPy/Conda.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to build conda packages :octocat: \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda-build",
+      "status": "candidate-context",
+      "text": "Commands and tools for building conda packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-build",
+      "status": "candidate-context",
+      "text": "[tests-badge]: https://img.shields.io/github/actions/workflow/status/conda/conda-build/tests.yml?branch=main&event=schedule&logo=github&label=tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate-context",
+      "text": "Add Conda dependencies to your Julia project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/JuliaPy/CondaPkg.jl/raw/main/logo.png\" alt=\"CondaPkg.jl logo\" style=\"width: 100px;\">"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +390,24 @@
       "source_repo": "JuliaPy/Conda.jl",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/JuliaPy/Conda.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda-build",
+      "status": "candidate",
+      "text": "[tests-badge]: https://img.shields.io/github/actions/workflow/status/conda/conda-build/tests.yml?branch=main&event=schedule&logo=github&label=tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/JuliaPy/CondaPkg.jl/raw/main/logo.png\" alt=\"CondaPkg.jl logo\" style=\"width: 100px;\">"
     }
   ],
   "candidate_related_terms": [],
@@ -475,11 +529,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "JuliaPy/Conda.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "conda/rattler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/Conda.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "conda/conda-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/CondaPkg.jl"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/RTX-AI-Toolkit",
+      "target": "nvidia/workbench-llamafactory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/RTX-AI-Toolkit",
+      "target": "nvidia/trt-llm-as-openai-windows",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:59:56.589260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3938
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The NVIDIA RTX\u2122 AI Toolkit is a suite of tools and SDKs for Windows developers to customize, optimize, and deploy AI models across RTX PCs and cloud. ",
+    "fork": false,
+    "full_name": "NVIDIA/RTX-AI-Toolkit",
+    "html_url": "https://github.com/NVIDIA/RTX-AI-Toolkit",
+    "language": null,
+    "pushed_at": "2025-11-24T18:09:03Z",
+    "stargazers_count": 184,
+    "topics": [],
+    "updated_at": "2026-05-01T06:31:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/trt-llm-as-openai-windows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/workbench-llamafactory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

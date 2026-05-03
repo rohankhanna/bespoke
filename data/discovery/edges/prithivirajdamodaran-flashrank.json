@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "amazon-science/esci-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "cross-encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "full-text-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "hybrid-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "lexical-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "ranking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "reranking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "semantic-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "vector-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "target": "vector-search",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "PrithivirajDamodaran/FlashRank"
+}

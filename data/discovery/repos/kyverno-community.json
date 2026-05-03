@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kyverno/community",
+      "target": "kyverno/.github",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:32.674836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kyverno/community",
+    "html_url": "https://github.com/kyverno/community",
+    "language": null,
+    "pushed_at": "2026-04-22T15:23:39Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-22T15:23:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyverno/.github",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

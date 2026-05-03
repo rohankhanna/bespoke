@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v4.1.5",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "awslabs/eks-node-viewer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepareDraftRelease.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publishMaster.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publishRelease.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/runLauncherTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/runTest.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testBranch.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot"
     }
   ]
 }

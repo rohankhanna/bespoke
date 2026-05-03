@@ -1,0 +1,370 @@
+{
+  "components": [
+    {
+      "component": "feather-icons",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom-server",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-icons",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remixicon",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sortablejs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/feather-icons",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/sortablejs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "obsidian",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-watch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typings",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "vinzent03/obsidian-hotkeys-for-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "deathau/sliding-panes-obsidian",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "feather-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "react-dom-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "react-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "remixicon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "sortablejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "@rollup/plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "@types/feather-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "@types/sortablejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "obsidian",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "rollup-watch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "typings",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "obsidian-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "target": "text-editor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:31.898402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11293
+    },
+    {
+      "path": "package.json",
+      "size": 1206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Obsidian.md plugin that adds a minimal text editor modal for a smoother writing/editing experience \u270d\ud83c\udffd.",
+    "fork": false,
+    "full_name": "chetachiezikeuzor/cMenu-Plugin",
+    "html_url": "https://github.com/chetachiezikeuzor/cMenu-Plugin",
+    "language": "TypeScript",
+    "pushed_at": "2022-09-05T07:06:58Z",
+    "stargazers_count": 477,
+    "topics": [
+      "markdown",
+      "obsidian-md",
+      "obsidian-plugin",
+      "plugin",
+      "text-editor"
+    ],
+    "updated_at": "2026-05-02T22:24:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deathau/sliding-panes-obsidian",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vinzent03/obsidian-hotkeys-for-templates",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-plugin"
+    },
+    {
+      "context_snippet": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-editor"
+    }
+  ]
+}

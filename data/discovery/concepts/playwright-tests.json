@@ -128,6 +128,30 @@
       "source_repo": "Epistimio/orion",
       "status": "candidate-context",
       "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posva/unplugin-vue-router",
+      "status": "candidate-context",
+      "text": "Next Generation file based typed routing for Vue Router"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posva/unplugin-vue-router",
+      "status": "candidate-context",
+      "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonwep/nanopop",
+      "status": "candidate-context",
+      "text": "\ud83c\udf66 Minimalistic, small, positioning engine. Build for high-performance, minimal footprint and maximum control over positioning behavior."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonwep/nanopop",
+      "status": "candidate-context",
+      "text": "Playwright Tests"
     }
   ],
   "candidate_glosses": [
@@ -188,6 +212,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Epistimio/orion",
+      "status": "candidate",
+      "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posva/unplugin-vue-router",
+      "status": "candidate",
+      "text": "Playwright Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonwep/nanopop",
       "status": "candidate",
       "text": "Playwright Tests"
     }
@@ -353,11 +389,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/playwright.yml",
       "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "posva/unplugin-vue-router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "simonwep/nanopop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "jupyter/nbclassic"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

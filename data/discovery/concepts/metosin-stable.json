@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "metosin-stable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate-context",
+      "text": "Clojure library for fast JSON encoding and decoding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration status](https://github.com/metosin/jsonista/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/jsonista/actions/workflows/clojure.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate",
+      "text": "[![Continuous Integration status](https://github.com/metosin/jsonista/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/jsonista/actions/workflows/clojure.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "metosin-stable",
+  "concept_id": "metosin-stable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "metosin/jsonista"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "metosin-stable",
+      "sense_id": "metosin-stable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

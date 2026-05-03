@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes",
+      "target": "function-calling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes",
+      "target": "llm-frameworks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes",
+      "target": "vector-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes",
+      "target": "vector-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:48:25.021754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3076
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository shares end-to-end notebooks on how to use various Weaviate features and integrations!",
+    "fork": false,
+    "full_name": "weaviate/recipes",
+    "html_url": "https://github.com/weaviate/recipes",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-29T09:06:30Z",
+    "stargazers_count": 941,
+    "topics": [
+      "function-calling",
+      "generative-ai",
+      "llm-frameworks",
+      "python",
+      "retrieval-augmented-generation",
+      "vector-database",
+      "vector-search"
+    ],
+    "updated_at": "2026-04-30T01:51:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Weaviate logo](.github/Weaviate.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "function-calling"
+    },
+    {
+      "context_snippet": "![Weaviate logo](.github/Weaviate.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "![Weaviate logo](.github/Weaviate.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-frameworks"
+    },
+    {
+      "context_snippet": "![Weaviate logo](.github/Weaviate.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    },
+    {
+      "context_snippet": "![Weaviate logo](.github/Weaviate.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    },
+    {
+      "context_snippet": "![Weaviate logo](.github/Weaviate.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    }
+  ]
+}

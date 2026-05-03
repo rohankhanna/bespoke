@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rexthinker/rexthinker.github.io",
+      "target": "idea-research/rexthinker.github.io",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:42:47.274111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6898
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Project page for Rex-Thinker",
+    "fork": false,
+    "full_name": "rexthinker/rexthinker.github.io",
+    "html_url": "https://github.com/rexthinker/rexthinker.github.io",
+    "language": "HTML",
+    "pushed_at": "2025-06-05T07:39:25Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-12-02T10:06:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/rexthinker.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

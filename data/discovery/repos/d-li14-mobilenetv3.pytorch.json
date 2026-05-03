@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d-li14/mobilenetv3.pytorch",
+      "target": "iccv2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d-li14/mobilenetv3.pytorch",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d-li14/mobilenetv3.pytorch",
+      "target": "mobilenetv3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d-li14/mobilenetv3.pytorch",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "d-li14/mobilenetv3.pytorch",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:34.226656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2848
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "74.3% MobileNetV3-Large and 67.2% MobileNetV3-Small model on ImageNet",
+    "fork": false,
+    "full_name": "d-li14/mobilenetv3.pytorch",
+    "html_url": "https://github.com/d-li14/mobilenetv3.pytorch",
+    "language": "Python",
+    "pushed_at": "2023-03-08T04:53:24Z",
+    "stargazers_count": 586,
+    "topics": [
+      "iccv2019",
+      "imagenet",
+      "mobilenetv3",
+      "pretrained-models",
+      "pytorch-implementation"
+    ],
+    "updated_at": "2026-04-29T12:17:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Reproduction of MobileNet V3 architecture as described in [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244) by Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V. Le, Hartwig \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2019"
+    },
+    {
+      "context_snippet": "Reproduction of MobileNet V3 architecture as described in [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244) by Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V. Le, Hartwig \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": "Reproduction of MobileNet V3 architecture as described in [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244) by Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V. Le, Hartwig \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenetv3"
+    },
+    {
+      "context_snippet": "Reproduction of MobileNet V3 architecture as described in [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244) by Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V. Le, Hartwig \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "Reproduction of MobileNet V3 architecture as described in [Searching for MobileNetV3](https://arxiv.org/abs/1905.02244) by Andrew Howard, Mark Sandler, Grace Chu, Liang-Chieh Chen, Bo Chen, Mingxing Tan, Weijun Wang, Yukun Zhu, Ruoming Pang, Vijay Vasudevan, Quoc V. Le, Hartwig \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    }
+  ]
+}

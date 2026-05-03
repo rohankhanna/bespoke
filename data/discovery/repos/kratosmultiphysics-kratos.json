@@ -1,0 +1,352 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml"
+    },
+    {
+      "component": "azure/docker-login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml"
+    },
+    {
+      "component": "azure/docker-login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "kratosmultiphysics/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "kratosmultiphysics/documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "ddemidov/amgcl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "kratosmultiphysics/cosimio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml",
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml",
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "azure/docker-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml",
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "Build Docker Images for CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "bsd-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "kratos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "kratos-multiphysics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "multi-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "multiphysics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "numerical-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "openmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/Kratos",
+      "target": "parallel-computing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:43:59.681111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11439
+    },
+    {
+      "path": ".github/workflows/build_docker_images_for_ci.yml",
+      "size": 2273
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 25372
+    },
+    {
+      "path": ".github/workflows/ci_apps_intel.json",
+      "size": 2
+    },
+    {
+      "path": ".github/workflows/ci_apps_linux.json",
+      "size": 914
+    },
+    {
+      "path": ".github/workflows/ci_apps_rocky.json",
+      "size": 230
+    },
+    {
+      "path": ".github/workflows/ci_apps_windows.json",
+      "size": 818
+    },
+    {
+      "path": ".github/workflows/configure.cmd",
+      "size": 3877
+    },
+    {
+      "path": ".github/workflows/configure_core.sh",
+      "size": 2012
+    },
+    {
+      "path": ".github/workflows/configure_core_applications.sh",
+      "size": 2395
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kratos Multiphysics (A.K.A Kratos) is a framework for building parallel multi-disciplinary simulation software. Modularity, extensibility and HPC are the main objectives. Kratos has BSD license and is written in C++ with extensive Python interface.",
+    "fork": false,
+    "full_name": "KratosMultiphysics/Kratos",
+    "html_url": "https://github.com/KratosMultiphysics/Kratos",
+    "language": "C++",
+    "pushed_at": "2026-05-02T17:58:40Z",
+    "stargazers_count": 1258,
+    "topics": [
+      "bsd-license",
+      "c-plus-plus",
+      "dem",
+      "fem",
+      "kratos",
+      "kratos-multiphysics",
+      "mpi",
+      "multi-platform",
+      "multiphysics",
+      "numerical-methods",
+      "openmp",
+      "parallel-computing",
+      "python"
+    ],
+    "updated_at": "2026-05-02T13:09:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ddemidov/amgcl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kratosmultiphysics/cosimio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kratosmultiphysics/documentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kratosmultiphysics/examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docker Images for CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml",
+      "term": "Build Docker Images for CI"
+    },
+    {
+      "context_snippet": "<p align=center><img height=\"72.125%\" width=\"72.125%\" src=\"https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Home/kratos.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bsd-license"
+    },
+    {
+      "context_snippet": "<p align=center><img height=\"72.125%\" width=\"72.125%\" src=\"https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Home/kratos.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "<p align=center><img height=\"72.125%\" width=\"72.125%\" src=\"https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Home/kratos.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kratos"
+    },
+    {
+      "context_snippet": "<p align=center><img height=\"72.125%\" width=\"72.125%\" src=\"https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Home/kratos.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kratos-multiphysics"
+    },
+    {
+      "context_snippet": "<p align=center><img height=\"72.125%\" width=\"72.125%\" src=\"https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Home/kratos.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-platform"
+    },
+    {
+      "context_snippet": "<p align=center><img height=\"72.125%\" width=\"72.125%\" src=\"https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Home/kratos.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiphysics"
+    },
+    {
+      "context_snippet": "<p align=center><img height=\"72.125%\" width=\"72.125%\" src=\"https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Home/kratos.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerical-methods"
+    },
+    {
+      "context_snippet": "<p align=center><img height=\"72.125%\" width=\"72.125%\" src=\"https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Home/kratos.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmp"
+    },
+    {
+      "context_snippet": "<p align=center><img height=\"72.125%\" width=\"72.125%\" src=\"https://raw.githubusercontent.com/KratosMultiphysics/Documentation/master/Wiki_files/Home/kratos.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel-computing"
+    }
+  ]
+}

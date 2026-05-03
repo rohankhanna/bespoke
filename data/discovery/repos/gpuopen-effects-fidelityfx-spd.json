@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GPUOpen-Effects/FidelityFX-SPD",
+      "target": "cauldron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GPUOpen-Effects/FidelityFX-SPD",
+      "target": "dx12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GPUOpen-Effects/FidelityFX-SPD",
+      "target": "fidelityfx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GPUOpen-Effects/FidelityFX-SPD",
+      "target": "gpuopen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GPUOpen-Effects/FidelityFX-SPD",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:42:11.053249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Single Pass Downsampler (SPD)",
+    "fork": false,
+    "full_name": "GPUOpen-Effects/FidelityFX-SPD",
+    "html_url": "https://github.com/GPUOpen-Effects/FidelityFX-SPD",
+    "language": "Objective-C",
+    "pushed_at": "2022-10-15T08:34:27Z",
+    "stargazers_count": 206,
+    "topics": [
+      "cauldron",
+      "dx12",
+      "fidelityfx",
+      "gpuopen",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-13T08:49:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Copyright (c) 2020 Advanced Micro Devices, Inc. All rights reserved. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cauldron"
+    },
+    {
+      "context_snippet": "Copyright (c) 2020 Advanced Micro Devices, Inc. All rights reserved. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dx12"
+    },
+    {
+      "context_snippet": "Copyright (c) 2020 Advanced Micro Devices, Inc. All rights reserved. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fidelityfx"
+    },
+    {
+      "context_snippet": "Copyright (c) 2020 Advanced Micro Devices, Inc. All rights reserved. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpuopen"
+    },
+    {
+      "context_snippet": "Copyright (c) 2020 Advanced Micro Devices, Inc. All rights reserved. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

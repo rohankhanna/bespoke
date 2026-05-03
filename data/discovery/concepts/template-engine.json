@@ -127,6 +127,18 @@
       "source_repo": "CloudyKit/jet",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/CloudyKit/jet.svg?branch=master)](https://travis-ci.org/CloudyKit/jet) [![Build status](https://ci.appveyor.com/api/projects/status/5g4whw3c6518vvku?svg=true)](https://ci.appveyor.com/project/CloudyKit/jet) [![Join the chat at https://gitte\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jknack/handlebars.java",
+      "status": "candidate-context",
+      "text": "Logic-less and semantic Mustache templates with Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jknack/handlebars.java",
+      "status": "candidate-context",
+      "text": "[![Become a Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://patreon.com/edgarespina)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "CloudyKit/jet",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/CloudyKit/jet.svg?branch=master)](https://travis-ci.org/CloudyKit/jet) [![Build status](https://ci.appveyor.com/api/projects/status/5g4whw3c6518vvku?svg=true)](https://ci.appveyor.com/project/CloudyKit/jet) [![Join the chat at https://gitte\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jknack/handlebars.java",
+      "status": "candidate",
+      "text": "[![Become a Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://patreon.com/edgarespina)"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +280,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "CloudyKit/jet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jknack/handlebars.java"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

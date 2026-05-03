@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issue-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issue-pr.yml",
+      "source_repo": "NVIDIA/NeMo-text-processing",
+      "target": "actions/stale@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issue-pr.yml",
+      "source_repo": "NVIDIA/NeMo-text-processing",
+      "target": "Stale-Close-Inactive-Issues-PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA/NeMo-text-processing",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA/NeMo-text-processing",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA/NeMo-text-processing",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA/NeMo-text-processing",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "NVIDIA/NeMo-text-processing",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/NeMo-text-processing",
+      "target": "inverse-text-n",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/NeMo-text-processing",
+      "target": "text-normalization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:42:17.732923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4211
+    },
+    {
+      "path": ".github/workflows/close-inactive-issue-pr.yml",
+      "size": 1107
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NeMo text processing for ASR and TTS",
+    "fork": false,
+    "full_name": "NVIDIA/NeMo-text-processing",
+    "html_url": "https://github.com/NVIDIA/NeMo-text-processing",
+    "language": "Python",
+    "pushed_at": "2026-05-01T22:10:44Z",
+    "stargazers_count": 455,
+    "topics": [
+      "inverse-text-n",
+      "text-normalization"
+    ],
+    "updated_at": "2026-04-28T16:14:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Stale-Close-Inactive-Issues-PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issue-pr.yml",
+      "term": "Stale-Close-Inactive-Issues-PRs"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "**NeMo Text Processing**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inverse-text-n"
+    },
+    {
+      "context_snippet": "**NeMo Text Processing**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-normalization"
+    }
+  ]
+}

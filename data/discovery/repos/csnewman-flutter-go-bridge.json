@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "futureware-tech/simulator-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "pyvista/setup-headless-display-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "csnewman/flutter-go-bridge",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "csnewman/flutter-go-bridge",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "csnewman/flutter-go-bridge",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "csnewman/flutter-go-bridge",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "csnewman/flutter-go-bridge",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "csnewman/flutter-go-bridge",
+      "target": "futureware-tech/simulator-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "csnewman/flutter-go-bridge",
+      "target": "pyvista/setup-headless-display-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "csnewman/flutter-go-bridge",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csnewman/flutter-go-bridge",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csnewman/flutter-go-bridge",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csnewman/flutter-go-bridge",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:23.257469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6266
+    },
+    {
+      "path": "go.mod",
+      "size": 315
+    },
+    {
+      "path": ".github/workflows/integration.yaml",
+      "size": 3069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Flutter/Dart to Go FFI generator ",
+    "fork": false,
+    "full_name": "csnewman/flutter-go-bridge",
+    "html_url": "https://github.com/csnewman/flutter-go-bridge",
+    "language": "C",
+    "pushed_at": "2024-05-30T19:24:49Z",
+    "stargazers_count": 99,
+    "topics": [
+      "dart",
+      "ffi",
+      "flutter",
+      "go",
+      "golang"
+    ],
+    "updated_at": "2026-03-20T18:35:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yaml",
+      "term": "Integration Tests"
+    },
+    {
+      "context_snippet": "Reuse existing Go libraries in Flutter by calling Go from Dart using auto generated bindings.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "Reuse existing Go libraries in Flutter by calling Go from Dart using auto generated bindings.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "Reuse existing Go libraries in Flutter by calling Go from Dart using auto generated bindings.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

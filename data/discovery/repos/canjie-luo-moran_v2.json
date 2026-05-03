@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Canjie-Luo/MORAN_v2",
+      "target": "bgshih/crnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Canjie-Luo/MORAN_v2",
+      "target": "chengzhanzhan/str",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Canjie-Luo/MORAN_v2",
+      "target": "marvis/ocr_attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Canjie-Luo/MORAN_v2",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Canjie-Luo/MORAN_v2",
+      "target": "image-deformation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Canjie-Luo/MORAN_v2",
+      "target": "image-rectification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Canjie-Luo/MORAN_v2",
+      "target": "scene-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Canjie-Luo/MORAN_v2",
+      "target": "scene-text-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:42:45.359855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5627
+    },
+    {
+      "path": "requirements.txt",
+      "size": 76
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MORAN: A Multi-Object Rectified Attention Network for Scene Text Recognition",
+    "fork": false,
+    "full_name": "Canjie-Luo/MORAN_v2",
+    "html_url": "https://github.com/Canjie-Luo/MORAN_v2",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:12:40Z",
+    "stargazers_count": 650,
+    "topics": [
+      "attention-mechanism",
+      "image-deformation",
+      "image-rectification",
+      "scene-text",
+      "scene-text-recognition"
+    ],
+    "updated_at": "2026-04-16T19:29:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bgshih/crnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chengzhanzhan/str",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marvis/ocr_attention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](https://img.shields.io/badge/version-v2-brightgreen.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/badge/version-v2-brightgreen.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-deformation"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/badge/version-v2-brightgreen.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-rectification"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/badge/version-v2-brightgreen.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text"
+    },
+    {
+      "context_snippet": "![](https://img.shields.io/badge/version-v2-brightgreen.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text-recognition"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -349,6 +349,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "supabase/etl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/quart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/quart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "pallets/quart"
     }
   ]
 }

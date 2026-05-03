@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "derivator/egui_vulkano",
+      "target": "matchachoco010/egui_winit_ash_vk_mem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "derivator/egui_vulkano",
+      "target": "arjunnair/egui_sdl2_gl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:50:35.421776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1698
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vulkano rendering backend for egui",
+    "fork": false,
+    "full_name": "derivator/egui_vulkano",
+    "html_url": "https://github.com/derivator/egui_vulkano",
+    "language": "Rust",
+    "pushed_at": "2023-03-12T23:51:40Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2025-06-15T07:44:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arjunnair/egui_sdl2_gl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matchachoco010/egui_winit_ash_vk_mem",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

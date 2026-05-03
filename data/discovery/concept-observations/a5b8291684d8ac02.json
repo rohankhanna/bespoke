@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of LS_COLORS definitions; needs your contribution!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Release'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Release'"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048161,
+      "status": "candidate",
+      "text": "ananas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048850,
+      "status": "candidate",
+      "text": "ananas comosus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048850,
+      "status": "candidate",
+      "text": "pineapple plant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039354,
+      "status": "candidate",
+      "text": "fruit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19816475,
+      "status": "candidate",
+      "text": "grenade"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pineapple",
+      "sense_id": "pineapple#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4029,
+      "status": "candidate",
+      "text": "ananas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "ananas comosus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "pineapple plant"
+    }
+  ],
+  "concept_id": "pineapple",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pineapple",
+  "observation_id": "a5b8291684d8ac02",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "pineapple",
+  "source_context_snippet": "'Release'",
+  "source_file": null,
+  "source_repo": "trapd00r/LS_COLORS",
+  "source_repo_description": "A collection of LS_COLORS definitions; needs your contribution!"
+}

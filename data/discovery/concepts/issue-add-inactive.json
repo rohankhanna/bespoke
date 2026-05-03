@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Issue Add Inactive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-cool/test-issues-helper",
+      "status": "candidate-context",
+      "text": "Issue Add Inactive"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-cool/test-issues-helper",
+      "status": "candidate",
+      "text": "Issue Add Inactive"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18209,
+      "status": "candidate",
+      "text": "rest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18162,
+      "status": "candidate",
+      "text": "deactivate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18108,
+      "status": "candidate",
+      "text": "steam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18108,
+      "status": "candidate",
+      "text": "steamed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18108,
+      "status": "candidate",
+      "text": "steaming"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Add Inactive",
+  "concept_id": "issue-add-inactive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/issue-add-inactive.yml",
+      "source_repo": "actions-cool/test-issues-helper"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Add Inactive",
+      "sense_id": "issue-add-inactive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Independent verification of binary packages - Reproducible Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "supply-chain-security",
+      "sense_id": "supply-chain-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "supply-chain-security",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "supply-chain-security",
+  "observation_id": "6d4f611bb9ec88e4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "supply-chain-security",
+  "source_context_snippet": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg",
+  "source_file": null,
+  "source_repo": "kpcyrd/rebuilderd",
+  "source_repo_description": "Independent verification of binary packages - Reproducible Builds"
+}

@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SOTAMak1r/GST",
+      "target": "kylesargent/zeronvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SOTAMak1r/GST",
+      "target": "jasonyzhang/raydiffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/GST",
+      "target": "autoregressive-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/GST",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/GST",
+      "target": "next-token-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/GST",
+      "target": "novel-view-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/GST",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/GST",
+      "target": "spatial-intelligence",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:55:42.261811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3978
+    },
+    {
+      "path": "requirements.txt",
+      "size": 251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] Where Am I and What Will I See : An Auto-Regressive Model for Spatial Localization and View Prediction",
+    "fork": false,
+    "full_name": "SOTAMak1r/GST",
+    "html_url": "https://github.com/SOTAMak1r/GST",
+    "language": "Python",
+    "pushed_at": "2025-08-09T09:38:19Z",
+    "stargazers_count": 44,
+    "topics": [
+      "autoregressive-model",
+      "generative-model",
+      "next-token-prediction",
+      "novel-view-synthesis",
+      "pose-estimation",
+      "spatial-intelligence"
+    ],
+    "updated_at": "2026-02-12T09:09:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jasonyzhang/raydiffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kylesargent/zeronvs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoregressive-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "next-token-prediction"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "novel-view-synthesis"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatial-intelligence"
+    }
+  ]
+}

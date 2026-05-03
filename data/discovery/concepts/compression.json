@@ -547,6 +547,42 @@
       "source_repo": "YihangChen-ee/FCGS",
       "status": "candidate-context",
       "text": "Official Pytorch implementation of **Fast Feedforward 3D Gaussian Splatting Compression**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "101arrowz/fflate",
+      "status": "candidate-context",
+      "text": "High performance (de)compression in an 8kB package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "101arrowz/fflate",
+      "status": "candidate-context",
+      "text": "High performance (de)compression in an 8kB package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hysnappy",
+      "status": "candidate-context",
+      "text": "Snappy decompression with WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hysnappy",
+      "status": "candidate-context",
+      "text": "![hysnappy penguin](hysnappy.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blosc/c-blosc",
+      "status": "candidate-context",
+      "text": "A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/c-blosc",
+      "status": "candidate-context",
+      "text": "| Author | Contact | URL |"
     }
   ],
   "candidate_glosses": [
@@ -819,6 +855,24 @@
       "source_repo": "YihangChen-ee/FCGS",
       "status": "candidate",
       "text": "Official Pytorch implementation of **Fast Feedforward 3D Gaussian Splatting Compression**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "101arrowz/fflate",
+      "status": "candidate",
+      "text": "High performance (de)compression in an 8kB package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hysnappy",
+      "status": "candidate",
+      "text": "![hysnappy penguin](hysnappy.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/c-blosc",
+      "status": "candidate",
+      "text": "| Author | Contact | URL |"
     }
   ],
   "candidate_related_terms": [
@@ -1252,11 +1306,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "YihangChen-ee/FCGS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "101arrowz/fflate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hysnappy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Blosc/c-blosc"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

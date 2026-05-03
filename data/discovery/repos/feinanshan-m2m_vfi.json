@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "feinanshan/M2M_VFI",
+      "target": "cvpr2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "feinanshan/M2M_VFI",
+      "target": "optical-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "feinanshan/M2M_VFI",
+      "target": "videoframeinterpolation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:38.566759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3063
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Many-to-many Splatting for Efficient Video Frame Interpolation",
+    "fork": false,
+    "full_name": "feinanshan/M2M_VFI",
+    "html_url": "https://github.com/feinanshan/M2M_VFI",
+    "language": "Python",
+    "pushed_at": "2023-11-04T02:40:53Z",
+    "stargazers_count": 90,
+    "topics": [
+      "cvpr2022",
+      "optical-flow",
+      "videoframeinterpolation"
+    ],
+    "updated_at": "2026-04-22T10:29:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Ping Hu](https://feinanshan.github.io/), [Simon Niklaus](https://sniklaus.com/), [Stan Sclaroff](http://www.cs.bu.edu/fac/sclaroff/), [Kate Saenko](http://ai.bu.edu/ksaenko.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2022"
+    },
+    {
+      "context_snippet": "[Ping Hu](https://feinanshan.github.io/), [Simon Niklaus](https://sniklaus.com/), [Stan Sclaroff](http://www.cs.bu.edu/fac/sclaroff/), [Kate Saenko](http://ai.bu.edu/ksaenko.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    },
+    {
+      "context_snippet": "[Ping Hu](https://feinanshan.github.io/), [Simon Niklaus](https://sniklaus.com/), [Stan Sclaroff](http://www.cs.bu.edu/fac/sclaroff/), [Kate Saenko](http://ai.bu.edu/ksaenko.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "videoframeinterpolation"
+    }
+  ]
+}

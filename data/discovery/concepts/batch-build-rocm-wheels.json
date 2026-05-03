@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Batch Build ROCm Wheels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "status": "candidate-context",
+      "text": "Wheels for llama-cpp-python compiled with cuBLAS support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "status": "candidate-context",
+      "text": "Batch Build ROCm Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "status": "candidate",
+      "text": "Batch Build ROCm Wheels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18933,
+      "status": "candidate",
+      "text": "series"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18933,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18544,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18539,
+      "status": "candidate",
+      "text": "carriage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18539,
+      "status": "candidate",
+      "text": "convoy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Batch Build ROCm Wheels",
+  "concept_id": "batch-build-rocm-wheels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-wheels-batch-rocm.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Batch Build ROCm Wheels",
+      "sense_id": "batch-build-rocm-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

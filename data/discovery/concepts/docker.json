@@ -3298,6 +3298,150 @@
       "source_repo": "hansen7/OcCo",
       "status": "candidate-context",
       "text": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitnami/containers",
+      "status": "candidate-context",
+      "text": "Bitnami container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitnami/containers",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate-context",
+      "text": "Independent verification of binary packages - Reproducible Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/s2i-ruby-container",
+      "status": "candidate-context",
+      "text": "Ruby container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running Ruby applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-ruby-container",
+      "status": "candidate-context",
+      "text": "Ruby container images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "Internet-scale OpenID Certified\u2122 OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "runpod/runpodctl",
+      "status": "candidate-context",
+      "text": "interact with Runpod via the cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runpod/runpodctl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "A vulnerability scanner for container images and filesystems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adalkiran/inventa-examples",
+      "status": "candidate-context",
+      "text": "Cross-language example projects to demonstrate how Inventa works and how to use it as microservice registry and for executing RPC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/inventa-examples",
+      "status": "candidate-context",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Docker image to export Godot Engine games. Templates for Gitlab CI and GitHub Actions to deploy to GitLab Pages/GitHub Pages/Itch.io."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbt/sbt-native-packager",
+      "status": "candidate-context",
+      "text": "sbt Native Packager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-native-packager",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://api.travis-ci.org/sbt/sbt-native-packager.png?branch=master)](https://travis-ci.org/sbt/sbt-native-packager)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aleskxyz/reality-ezpz",
+      "status": "candidate-context",
+      "text": "Install sing-box/xray and configure vless / tuic / hysteria2 / shadowtls for reality or tls (letsencrypt) over different transport protocols (tcp, http, grpc and websocket) with user management capability in CLI, TUI and Telegram bot by a single command in docker compose!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aleskxyz/reality-ezpz",
+      "status": "candidate-context",
+      "text": "Install and configure vless with reality or TLS on your linux server by executing a single command!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hufrea/byedpi",
+      "status": "candidate-context",
+      "text": "Bypass DPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hufrea/byedpi",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 transparent proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate-context",
+      "text": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)"
     }
   ],
   "candidate_glosses": [
@@ -4956,6 +5100,78 @@
       "source_repo": "hansen7/OcCo",
       "status": "candidate",
       "text": "[ICCV '21] \"Unsupervised Point Cloud Pre-training via Occlusion Completion\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitnami/containers",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-ruby-container",
+      "status": "candidate",
+      "text": "Ruby container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runpod/runpodctl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/inventa-examples",
+      "status": "candidate",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate",
+      "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-native-packager",
+      "status": "candidate",
+      "text": "[![Build Status](https://api.travis-ci.org/sbt/sbt-native-packager.png?branch=master)](https://travis-ci.org/sbt/sbt-native-packager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aleskxyz/reality-ezpz",
+      "status": "candidate",
+      "text": "Install and configure vless with reality or TLS on your linux server by executing a single command!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hufrea/byedpi",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)"
     }
   ],
   "candidate_related_terms": [
@@ -7855,11 +8071,197 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "hansen7/OcCo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bitnami/containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "kpcyrd/rebuilderd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-ruby-container"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "containers/podman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/hydra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "runpod/runpodctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "anchore/grype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adalkiran/inventa-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sbt/sbt-native-packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "hufrea/byedpi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-tproxy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

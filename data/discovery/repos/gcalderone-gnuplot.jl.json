@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "target": "julia-actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "target": "julia-actions/julia-runtest@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "target": "gnuplot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "target": "plotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:52:05.896334+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3638
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 578
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Julia interface to gnuplot",
+    "fork": false,
+    "full_name": "gcalderone/Gnuplot.jl",
+    "html_url": "https://github.com/gcalderone/Gnuplot.jl",
+    "language": "Julia",
+    "pushed_at": "2025-10-14T20:10:30Z",
+    "stargazers_count": 124,
+    "topics": [
+      "gnuplot",
+      "julia",
+      "plotting",
+      "visualization"
+    ],
+    "updated_at": "2025-10-14T20:10:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnuplot"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotting"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

@@ -151,14 +151,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "unplugin/unplugin-icons",
-      "target": "antfu/unplugin-icons",
+      "target": "iconify/iconify",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "unplugin/unplugin-icons",
-      "target": "embroider-build/embroider",
+      "target": "antfu/unplugin-icons",
       "target_type": "repository"
     },
     {
@@ -442,7 +442,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:29:24.147553+00:00",
+  "fetched_at": "2026-05-03T03:58:50.913931+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -503,7 +503,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "embroider-build/embroider",
+      "full_name": "iconify/iconify",
       "source_file": "README.md"
     }
   ],

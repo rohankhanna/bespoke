@@ -77,13 +77,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
-      "target": "fluxcd/flux2-multi-tenancy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-gitops.yml",
       "source_repo": "apollographql/supergraph-demo-k8s-graph-ops",
@@ -217,7 +210,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:41:08.793967+00:00",
+  "fetched_at": "2026-05-03T04:52:30.586481+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -272,11 +265,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "apollographql/supergraph-demo-k8s-graphops",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "fluxcd/flux2-multi-tenancy",
       "source_file": "README.md"
     }
   ],

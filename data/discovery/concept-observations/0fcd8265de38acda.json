@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lua based interactive firmware for ESP8266, ESP8285 and ESP32"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Lua-based firmware for ESP8266 WiFi SOC"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Lua-based firmware for ESP8266 WiFi SOC"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030737,
+      "status": "candidate",
+      "text": "software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030804,
+      "status": "candidate",
+      "text": "warmware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030803,
+      "status": "candidate",
+      "text": "softwear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030802,
+      "status": "candidate",
+      "text": "hardware"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030800,
+      "status": "candidate",
+      "text": "computer program"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "firmware",
+      "sense_id": "firmware#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "firmware",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "firmware",
+  "observation_id": "0fcd8265de38acda",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "firmware",
+  "source_context_snippet": "> Lua-based firmware for ESP8266 WiFi SOC",
+  "source_file": null,
+  "source_repo": "nodemcu/nodemcu-firmware",
+  "source_repo_description": "Lua based interactive firmware for ESP8266, ESP8285 and ESP32"
+}

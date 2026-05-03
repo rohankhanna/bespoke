@@ -1,0 +1,320 @@
+{
+  "components": [
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "julia-actions/julia-invalidations@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "julia-actions/julia-invalidations@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-docdeploy@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "julia-actions/julia-invalidations@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "Invalidations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "julia-actions/julia-docdeploy@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "interfaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaData/Tables.jl",
+      "target": "tables",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:51:28.050532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1502
+    },
+    {
+      "path": ".github/workflows/Invalidations.yml",
+      "size": 1472
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An interface for tables in Julia",
+    "fork": false,
+    "full_name": "JuliaData/Tables.jl",
+    "html_url": "https://github.com/JuliaData/Tables.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-20T11:48:53Z",
+    "stargazers_count": 318,
+    "topics": [
+      "data",
+      "hacktoberfest",
+      "interfaces",
+      "julia",
+      "tables"
+    ],
+    "updated_at": "2026-04-21T03:14:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Invalidations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "term": "Invalidations"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interfaces"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tables"
+    }
+  ]
+}

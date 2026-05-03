@@ -84,7 +84,7 @@
   "normalized_form": "sync-release-to-gitee",
   "observation_id": "26dfb987437a2118",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Sync Release to Gitee",
   "source_context_snippet": "Sync Release to Gitee",
   "source_file": ".github/workflows/sync-to-gitee.yml",

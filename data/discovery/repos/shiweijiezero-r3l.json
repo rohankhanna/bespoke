@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shiweijiezero/R3L",
+      "target": "modelscope/trinity-rft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shiweijiezero/R3L",
+      "target": "allenai/scienceworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "shiweijiezero/R3L",
+      "target": "modelscope/trinity-rft",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:00:24.877618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6517
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "shiweijiezero/R3L",
+    "html_url": "https://github.com/shiweijiezero/R3L",
+    "language": "Python",
+    "pushed_at": "2026-04-05T19:45:58Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-04-05T19:46:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/scienceworld",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelscope/trinity-rft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelscope/trinity-rft",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

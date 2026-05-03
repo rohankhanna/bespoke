@@ -44,6 +44,30 @@
       "source_repo": "autowarefoundation/autoware_launch",
       "status": "candidate-context",
       "text": "comment-on-pr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrefectHQ/fastmcp",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The fast, Pythonic way to build MCP servers and clients."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrefectHQ/fastmcp",
+      "status": "candidate-context",
+      "text": "Comment on PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "status": "candidate-context",
+      "text": "The JuliaGPU landing page."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "status": "candidate-context",
+      "text": "Comment on PR"
     }
   ],
   "candidate_glosses": [
@@ -70,6 +94,18 @@
       "source_repo": "autowarefoundation/autoware_launch",
       "status": "candidate",
       "text": "comment-on-pr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrefectHQ/fastmcp",
+      "status": "candidate",
+      "text": "Comment on PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "status": "candidate",
+      "text": "Comment on PR"
     }
   ],
   "candidate_related_terms": [
@@ -143,11 +179,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/comment-on-pr.yaml",
       "source_repo": "autowarefoundation/autoware_launch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/marvin-comment-on-pr.yml",
+      "source_repo": "PrefectHQ/fastmcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "JuliaGPU/juliagpu.org"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

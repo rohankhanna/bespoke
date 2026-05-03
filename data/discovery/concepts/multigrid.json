@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "multigrid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddemidov/amgcl",
+      "status": "candidate-context",
+      "text": "C++ library for solving large sparse linear systems with algebraic multigrid method"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddemidov/amgcl",
+      "status": "candidate-context",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddemidov/amgcl",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023118,
+      "status": "candidate",
+      "text": "algebraic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023904,
+      "status": "candidate",
+      "text": "subgridding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023903,
+      "status": "candidate",
+      "text": "grid method"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023902,
+      "status": "candidate",
+      "text": "hypermatrix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023901,
+      "status": "candidate",
+      "text": "gridding"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "multigrid",
+  "concept_id": "multigrid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ddemidov/amgcl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multigrid",
+      "sense_id": "multigrid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

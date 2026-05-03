@@ -19,6 +19,18 @@
       "source_repo": "HumanSignal/label-studio",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate-context",
+      "text": "HumanML3D: A large and diverse 3d human motion-language dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate-context",
+      "text": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "HumanSignal/label-studio",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/12534576/192582340-4c9e4401-1fe6-4dbb-95bb-fdbba5493f61.png\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate",
+      "text": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +76,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EricGuo5513/HumanML3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

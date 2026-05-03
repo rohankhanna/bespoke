@@ -995,6 +995,114 @@
       "source_repo": "logseq/publish-spa",
       "status": "candidate-context",
       "text": "This is a [github action](https://github.com/features/actions) to publish a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to build conda packages :octocat: \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate-context",
+      "text": "StandardRB Action: A GitHub Action to run StandardRB against your code!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/docs",
+      "status": "candidate-context",
+      "text": "Client / Server Model for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/docs",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/docs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate-context",
+      "text": "SumUp's design system for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate-context",
+      "text": "Github Actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "obsei/demo-workflow-action",
+      "status": "candidate-context",
+      "text": "Showcase Obsei workflow execution via GitHub actions. Created this for DataTalkClub demo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsei/demo-workflow-action",
+      "status": "candidate-context",
+      "text": "This repo Showcase [Obsei](https://github.com/obsei/obsei) workflow execution via GitHub actions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to approve pull requests securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "[![DeepWiki](https://img.shields.io/badge/Ask_DeepWiki-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to update pull request branches securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate-context",
+      "text": "[![DeepWiki](https://img.shields.io/badge/Ask_DeepWiki-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c2corg/browserslist-update-action",
+      "status": "candidate-context",
+      "text": "A Github Action that runs `npx update-browserslist-db@latest` on a repository and proposes a pull request to merge updates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c2corg/browserslist-update-action",
+      "status": "candidate-context",
+      "text": "A GitHub Action that runs `update-browserslist-db@latest` on a repository and proposes a pull request to merge updates. Since v2.5, also supports other package managers (yarn, pnpm, bun, deno)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Docker image to export Godot Engine games. Templates for Gitlab CI and GitHub Actions to deploy to GitLab Pages/GitHub Pages/Itch.io."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
     }
   ],
   "candidate_glosses": [
@@ -1495,6 +1603,60 @@
       "source_repo": "logseq/publish-spa",
       "status": "candidate",
       "text": "This is a [github action](https://github.com/features/actions) to publish a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/docs",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/docs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate",
+      "text": "Github Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "obsei/demo-workflow-action",
+      "status": "candidate",
+      "text": "This repo Showcase [Obsei](https://github.com/obsei/obsei) workflow execution via GitHub actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate",
+      "text": "[![DeepWiki](https://img.shields.io/badge/Ask_DeepWiki-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate",
+      "text": "[![DeepWiki](https://img.shields.io/badge/Ask_DeepWiki-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c2corg/browserslist-update-action",
+      "status": "candidate",
+      "text": "A GitHub Action that runs `update-browserslist-db@latest` on a repository and proposes a pull request to merge updates. Since v2.5, also supports other package managers (yarn, pnpm, bun, deno)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate",
+      "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
     }
   ],
   "candidate_related_terms": [
@@ -2168,11 +2330,77 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "prefix-dev/rattler-build-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "csm-actions/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "obsei/demo-workflow-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "csm-actions/approve-pr-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "csm-actions/update-branch-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "c2corg/browserslist-update-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

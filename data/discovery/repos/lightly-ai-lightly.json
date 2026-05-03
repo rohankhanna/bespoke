@@ -1,0 +1,569 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_example_nbs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_example_nbs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_deps_only.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_deps_only.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_deps_only.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_deps_only.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_code_format.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_code_format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_minimal_deps.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_minimal_deps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_minimal_deps.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_minimal_deps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_setup.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_setup.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_setup.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_setup.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lightly-ai/lightly",
+      "target": "aim-harvard/dinov2-3d-med",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lightly-ai/lightly",
+      "target": "lightly-ai/awesome-self-supervised-learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_example_nbs.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_example_nbs.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_example_nbs.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "Check Example Notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord_release_notification.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "Discord Release Notification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "rtCamp/action-slack-notify@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "Build and release lightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_deps_only.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_deps_only.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_api_deps_only.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_api_deps_only.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "Install API Dependencies Only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_code_format.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_code_format.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_code_format.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "Code Format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_minimal_deps.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_minimal_deps.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_minimal_deps.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_minimal_deps.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "Minimal Dependency Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_setup.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_setup.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_setup.yml",
+      "source_repo": "lightly-ai/lightly",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly",
+      "target": "contrastive-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly",
+      "target": "contributions-welcome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly",
+      "target": "embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:03:24.334363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34920
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 10225
+    },
+    {
+      "path": ".github/workflows/check_example_nbs.yml",
+      "size": 1075
+    },
+    {
+      "path": ".github/workflows/discord_release_notification.yml",
+      "size": 1429
+    },
+    {
+      "path": ".github/workflows/release_pypi.yml",
+      "size": 1931
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2236
+    },
+    {
+      "path": ".github/workflows/test_api_deps_only.yml",
+      "size": 1317
+    },
+    {
+      "path": ".github/workflows/test_code_format.yml",
+      "size": 943
+    },
+    {
+      "path": ".github/workflows/test_minimal_deps.yml",
+      "size": 1407
+    },
+    {
+      "path": ".github/workflows/test_setup.yml",
+      "size": 1893
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A python library for self-supervised learning on images.",
+    "fork": false,
+    "full_name": "lightly-ai/lightly",
+    "html_url": "https://github.com/lightly-ai/lightly",
+    "language": "Python",
+    "pushed_at": "2026-04-23T14:04:04Z",
+    "stargazers_count": 3732,
+    "topics": [
+      "computer-vision",
+      "contrastive-learning",
+      "contributions-welcome",
+      "deep-learning",
+      "embeddings",
+      "hacktoberfest",
+      "machine-learning",
+      "pytorch",
+      "self-supervised-learning"
+    ],
+    "updated_at": "2026-04-30T17:29:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aim-harvard/dinov2-3d-med",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightly-ai/awesome-self-supervised-learning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Check Example Notebooks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_example_nbs.yml",
+      "term": "Check Example Notebooks"
+    },
+    {
+      "context_snippet": "Discord Release Notification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord_release_notification.yml",
+      "term": "Discord Release Notification"
+    },
+    {
+      "context_snippet": "Build and release lightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_pypi.yml",
+      "term": "Build and release lightly"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "Install API Dependencies Only",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_api_deps_only.yml",
+      "term": "Install API Dependencies Only"
+    },
+    {
+      "context_snippet": "Code Format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_code_format.yml",
+      "term": "Code Format Check"
+    },
+    {
+      "context_snippet": "Minimal Dependency Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_minimal_deps.yml",
+      "term": "Minimal Dependency Tests"
+    },
+    {
+      "context_snippet": "<a name=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<a name=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrastive-learning"
+    },
+    {
+      "context_snippet": "<a name=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributions-welcome"
+    },
+    {
+      "context_snippet": "<a name=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<a name=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embeddings"
+    },
+    {
+      "context_snippet": "<a name=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<a name=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<a name=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<a name=\"top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    }
+  ]
+}

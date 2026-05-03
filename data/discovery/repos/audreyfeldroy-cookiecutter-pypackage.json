@@ -325,7 +325,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T07:03:27.700665+00:00",
+  "fetched_at": "2026-05-03T04:51:30.423368+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -366,9 +366,9 @@
     "html_url": "https://github.com/audreyfeldroy/cookiecutter-pypackage",
     "language": "Python",
     "pushed_at": "2026-04-20T19:07:39Z",
-    "stargazers_count": 4563,
+    "stargazers_count": 4564,
     "topics": [],
-    "updated_at": "2026-05-01T01:50:26Z"
+    "updated_at": "2026-05-01T21:26:40Z"
   },
   "repo_links": [],
   "terms": [

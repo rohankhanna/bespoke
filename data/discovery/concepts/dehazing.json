@@ -19,6 +19,18 @@
       "source_repo": "liuh127/NTIRE-2021-Dehazing-Two-branch",
       "status": "candidate-context",
       "text": "This is the official PyTorch implementation of Two-branch Dehazing. See more details in [[report]](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Ancuti_NTIRE_2021_NonHomogeneous_Dehazing_Challenge_Report_CVPRW_2021_paper.pdf) , [[paper]](https://openaccess.thecvf.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Algolzw/image-restoration-sde",
+      "status": "candidate-context",
+      "text": "Image Restoration with Mean-Reverting Stochastic Differential Equations, ICML 2023. Winning solution of the NTIRE 2023 Image Shadow Removal Challenge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Algolzw/image-restoration-sde",
+      "status": "candidate-context",
+      "text": "[Ziwei Luo](https://algolzw.github.io/),"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "liuh127/NTIRE-2021-Dehazing-Two-branch",
       "status": "candidate",
       "text": "This is the official PyTorch implementation of Two-branch Dehazing. See more details in [[report]](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Ancuti_NTIRE_2021_NonHomogeneous_Dehazing_Challenge_Report_CVPRW_2021_paper.pdf) , [[paper]](https://openaccess.thecvf.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Algolzw/image-restoration-sde",
+      "status": "candidate",
+      "text": "[Ziwei Luo](https://algolzw.github.io/),"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "liuh127/NTIRE-2021-Dehazing-Two-branch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

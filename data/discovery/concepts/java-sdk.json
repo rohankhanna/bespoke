@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "java-sdk"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botbuilder-java",
+      "status": "candidate-context",
+      "text": "The Microsoft Bot Framework provides what you need to build and connect intelligent bots that interact naturally wherever your users are talking, from text/sms to Skype, Slack, Office 365 mail and other popular services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-java",
+      "status": "candidate-context",
+      "text": "**The Bot Framework Java SDK is being retired with final long-term support ending in November 2023, after which this repository will be archived. There will be no further feature development, with only critical security and bug fixes within this repository being undertaken. Exis\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-java",
+      "status": "candidate",
+      "text": "**The Bot Framework Java SDK is being retired with final long-term support ending in November 2023, after which this repository will be archived. There will be no further feature development, with only critical security and bug fixes within this repository being undertaken. Exis\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "java-sdk",
+  "concept_id": "java-sdk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-java"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "java-sdk",
+      "sense_id": "java-sdk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

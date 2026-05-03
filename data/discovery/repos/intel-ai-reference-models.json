@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:25:46.217617+00:00",
+  "fetched_at": "2026-05-03T03:56:24.879867+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,7 +65,7 @@
     "html_url": "https://github.com/intel/ai-reference-models",
     "language": "Python",
     "pushed_at": "2026-02-11T17:53:04Z",
-    "stargazers_count": 731,
+    "stargazers_count": 732,
     "topics": [
       "ai",
       "cpu",
@@ -75,7 +75,7 @@
       "performance",
       "tensorflow"
     ],
-    "updated_at": "2026-04-28T10:28:06Z"
+    "updated_at": "2026-05-02T20:50:07Z"
   },
   "repo_links": [
     {

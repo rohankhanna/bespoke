@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "autonoumous-driving"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wzzheng/PointOcc",
+      "status": "candidate-context",
+      "text": "Efficient Point-based 3D Semantic Occupancy Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wzzheng/PointOcc",
+      "status": "candidate-context",
+      "text": "> PointOcc: Cylindrical Tri-Perspective View for Point-based 3D Semantic Occupancy Prediction"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wzzheng/PointOcc",
+      "status": "candidate",
+      "text": "> PointOcc: Cylindrical Tri-Perspective View for Point-based 3D Semantic Occupancy Prediction"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "autonoumous-driving",
+  "concept_id": "autonoumous-driving",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "wzzheng/PointOcc"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autonoumous-driving",
+      "sense_id": "autonoumous-driving#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

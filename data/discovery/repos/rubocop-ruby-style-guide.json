@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "rubocop/ruby-style-guide",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "rubocop/ruby-style-guide",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "rubocop/ruby-style-guide",
+      "target": "Spell Checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubocop/ruby-style-guide",
+      "target": "rubocop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubocop/ruby-style-guide",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubocop/ruby-style-guide",
+      "target": "style-guide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:58:02.603149+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/spell_checking.yml",
+      "size": 1027
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A community-driven Ruby coding style guide",
+    "fork": false,
+    "full_name": "rubocop/ruby-style-guide",
+    "html_url": "https://github.com/rubocop/ruby-style-guide",
+    "language": null,
+    "pushed_at": "2026-02-14T14:20:45Z",
+    "stargazers_count": 16539,
+    "topics": [
+      "rubocop",
+      "ruby",
+      "style-guide"
+    ],
+    "updated_at": "2026-04-30T20:31:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Spell Checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "term": "Spell Checking"
+    },
+    {
+      "context_snippet": "Spell Checking",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubocop"
+    },
+    {
+      "context_snippet": "Spell Checking",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Spell Checking",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-guide"
+    }
+  ]
+}

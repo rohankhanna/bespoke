@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "egor-tensin/setup-gcc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osx.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osx.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "xtensor-stack/xtensor.r.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "egor-tensin/setup-gcc@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osx.yml",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osx.yml",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/osx.yml",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "OSX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "ndarray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "rlang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/xtensor-r",
+      "target": "rstats",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:20.840945+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4340
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 3623
+    },
+    {
+      "path": ".github/workflows/osx.yml",
+      "size": 1907
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 1242
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "R bindings for xtensor",
+    "fork": false,
+    "full_name": "xtensor-stack/xtensor-r",
+    "html_url": "https://github.com/xtensor-stack/xtensor-r",
+    "language": "C++",
+    "pushed_at": "2025-12-06T21:10:45Z",
+    "stargazers_count": 90,
+    "topics": [
+      "cpp14",
+      "ndarray",
+      "numpy",
+      "r",
+      "rlang",
+      "rstats"
+    ],
+    "updated_at": "2026-04-09T03:10:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xtensor-stack/xtensor.r.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "OSX",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/osx.yml",
+      "term": "OSX"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ndarray"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rlang"
+    },
+    {
+      "context_snippet": "[![GHA Linux](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml/badge.svg)](https://github.com/xtensor-stack/xtensor-r/actions/workflows/linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rstats"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/particle-sfm",
+      "target": "bertabescos/dynaslam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/particle-sfm",
+      "target": "b1ueber2y/trianflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/particle-sfm",
+      "target": "htkseason/voldor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/particle-sfm",
+      "target": "dynamic-scenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/particle-sfm",
+      "target": "motion-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/particle-sfm",
+      "target": "research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/particle-sfm",
+      "target": "structure-from-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/particle-sfm",
+      "target": "video-correspondence",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:55:57.266478+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ParticleSfM: Exploiting Dense Point Trajectories for Localizing Moving Cameras in the Wild. ECCV 2022.",
+    "fork": false,
+    "full_name": "bytedance/particle-sfm",
+    "html_url": "https://github.com/bytedance/particle-sfm",
+    "language": "C++",
+    "pushed_at": "2025-02-06T09:07:52Z",
+    "stargazers_count": 336,
+    "topics": [
+      "dynamic-scenes",
+      "motion-segmentation",
+      "research",
+      "structure-from-motion",
+      "video-correspondence"
+    ],
+    "updated_at": "2026-03-17T15:31:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b1ueber2y/trianflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bertabescos/dynaslam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "htkseason/voldor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-scenes"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-segmentation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structure-from-motion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-correspondence"
+    }
+  ]
+}

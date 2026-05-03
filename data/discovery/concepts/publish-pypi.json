@@ -112,6 +112,18 @@
       "source_repo": "ttktjmt/mjswan",
       "status": "candidate-context",
       "text": "publish-pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Your Intelligent Copilot for Data Exploration and Processing Pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "status": "candidate-context",
+      "text": "Publish PyPI"
     }
   ],
   "candidate_glosses": [
@@ -168,6 +180,12 @@
       "source_repo": "ttktjmt/mjswan",
       "status": "candidate",
       "text": "publish-pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "status": "candidate",
+      "text": "Publish PyPI"
     }
   ],
   "candidate_related_terms": [
@@ -385,11 +403,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/pypi-publish.yaml",
       "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "datajuicer/data-juicer-agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pypi-publish.yaml",
+      "source_repo": "redis/redis-om-python"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

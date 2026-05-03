@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:57:21.584673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Terminal fun written in bash inspired by clibs/term",
+    "fork": false,
+    "full_name": "bpkg/term",
+    "html_url": "https://github.com/bpkg/term",
+    "language": "Shell",
+    "pushed_at": "2023-07-20T04:37:14Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-01-11T18:12:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Deploy Docs Preview"
+    "Deploy Docs Preview",
+    "Deploy docs preview"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "harbor-framework/harbor",
       "status": "candidate-context",
       "text": "Deploy Docs Preview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/neuroglancer",
+      "status": "candidate-context",
+      "text": "WebGL-based viewer for volumetric data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/neuroglancer",
+      "status": "candidate-context",
+      "text": "Deploy docs preview"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "harbor-framework/harbor",
       "status": "candidate",
       "text": "Deploy Docs Preview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/neuroglancer",
+      "status": "candidate",
+      "text": "Deploy docs preview"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +173,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/deploy-docs-preview.yml",
       "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/deploy_docs_preview.yml",
+      "source_repo": "google/neuroglancer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/deploy-docs-preview.yml",
+      "source_repo": "harbor-framework/harbor"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

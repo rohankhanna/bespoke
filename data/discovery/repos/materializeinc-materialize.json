@@ -1,0 +1,587 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "MaterializeInc/claude-code-action@0433f2aa93835ea8b1de27f6ed7a48724b2d510a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "dorny/paths-filter@4512585405083f25c027a35db413c2b3b9006d50",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_design_doc.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-slack-notifier@fc778468d09c43a6f4d1b8cccaca59766656996a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_design_doc.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-slack-notifier@fc778468d09c43a6f4d1b8cccaca59766656996a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_labeled.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_qa_risky.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-slack-notifier@fc778468d09c43a6f4d1b8cccaca59766656996a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_qa_risky.yml"
+    },
+    {
+      "component": "dorny/paths-filter@4512585405083f25c027a35db413c2b3b9006d50",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_sql_parser.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_sql_parser.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-slack-notifier@fc778468d09c43a6f4d1b8cccaca59766656996a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_sql_parser.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-generated-docs.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@02438e66d09982e371c6559d3a2ccdff9032f203",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-generated-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "launchdarkly/rust-server-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "edenhill/librdkafka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "materializeinc/async-compression",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "materializeinc/duckdb-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "CLA Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "MaterializeInc/claude-code-action@0433f2aa93835ea8b1de27f6ed7a48724b2d510a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_design_doc.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "dorny/paths-filter@4512585405083f25c027a35db413c2b3b9006d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_design_doc.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "actions-ecosystem/action-slack-notifier@fc778468d09c43a6f4d1b8cccaca59766656996a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack_notify_design_doc.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "Slack Design Doc Notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_labeled.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "actions-ecosystem/action-slack-notifier@fc778468d09c43a6f4d1b8cccaca59766656996a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack_notify_labeled.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "Slack Label Notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_qa_risky.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_qa_risky.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "actions-ecosystem/action-slack-notifier@fc778468d09c43a6f4d1b8cccaca59766656996a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack_notify_qa_risky.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "Slack QA Risky Notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_sql_parser.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "dorny/paths-filter@4512585405083f25c027a35db413c2b3b9006d50",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_sql_parser.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_sql_parser.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "actions-ecosystem/action-slack-notifier@fc778468d09c43a6f4d1b8cccaca59766656996a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack_notify_sql_parser.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "Slack SQL Council Notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-generated-docs.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-generated-docs.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "anthropics/claude-code-action@02438e66d09982e371c6559d3a2ccdff9032f203",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-generated-docs.yml",
+      "source_repo": "MaterializeInc/materialize",
+      "target": "Update Generated Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "data-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "data-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "materialized-view",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "mysql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "operational-data-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "postgresql-dialect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "sql-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "stream-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize",
+      "target": "streaming-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:08:31.544758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9330
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 23482
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2233
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 2771
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 2221
+    },
+    {
+      "path": ".github/workflows/slack_notify_design_doc.yml",
+      "size": 3064
+    },
+    {
+      "path": ".github/workflows/slack_notify_labeled.yml",
+      "size": 1685
+    },
+    {
+      "path": ".github/workflows/slack_notify_qa_risky.yml",
+      "size": 3298
+    },
+    {
+      "path": ".github/workflows/slack_notify_sql_parser.yml",
+      "size": 4267
+    },
+    {
+      "path": ".github/workflows/update-generated-docs.yml",
+      "size": 5944
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The live data layer for apps and AI agents. Create up-to-the-second views into your business, just using SQL",
+    "fork": false,
+    "full_name": "MaterializeInc/materialize",
+    "html_url": "https://github.com/MaterializeInc/materialize",
+    "language": "Rust",
+    "pushed_at": "2026-05-03T00:02:04Z",
+    "stargazers_count": 6280,
+    "topics": [
+      "cdc",
+      "data-mesh",
+      "data-store",
+      "database",
+      "distributed-systems",
+      "kafka",
+      "materialized-view",
+      "mysql",
+      "operational-data-store",
+      "postgresql",
+      "postgresql-dialect",
+      "rust",
+      "sql",
+      "sql-server",
+      "stream-processing",
+      "streaming",
+      "streaming-data"
+    ],
+    "updated_at": "2026-05-03T00:02:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edenhill/librdkafka",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "launchdarkly/rust-server-sdk",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "materializeinc/async-compression",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "materializeinc/duckdb-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CLA Assistant",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "CLA Assistant"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Slack Design Doc Notifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack_notify_design_doc.yml",
+      "term": "Slack Design Doc Notifications"
+    },
+    {
+      "context_snippet": "Slack Label Notifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack_notify_labeled.yml",
+      "term": "Slack Label Notifications"
+    },
+    {
+      "context_snippet": "Slack QA Risky Notifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack_notify_qa_risky.yml",
+      "term": "Slack QA Risky Notifications"
+    },
+    {
+      "context_snippet": "Slack SQL Council Notifications",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slack_notify_sql_parser.yml",
+      "term": "Slack SQL Council Notifications"
+    },
+    {
+      "context_snippet": "Update Generated Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-generated-docs.yml",
+      "term": "Update Generated Docs"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-mesh"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-store"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "materialized-view"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "operational-data-store"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql-dialect"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sql-server"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream-processing"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    },
+    {
+      "context_snippet": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming-data"
+    }
+  ]
+}

@@ -163,6 +163,18 @@
       "source_repo": "Vchitect/SEINE",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2310.20700-b31b1b.svg)](https://arxiv.org/abs/2310.20700)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "status": "candidate-context",
+      "text": "Docker image for Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "Vchitect/SEINE",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2310.20700-b31b1b.svg)](https://arxiv.org/abs/2310.20700)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -412,11 +430,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "AILab-CVC/VideoCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-I2V"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ashleykleynhans/hallo-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

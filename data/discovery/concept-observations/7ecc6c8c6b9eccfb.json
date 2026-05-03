@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official Pytorch Implementation of SMIRK: 3D Facial Expressions through Analysis-by-Neural-Synthesis (CVPR 2024) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027471,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023157,
+      "status": "candidate",
+      "text": "flare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032371,
+      "status": "candidate",
+      "text": "fireball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032294,
+      "status": "candidate",
+      "text": "ignition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032060,
+      "status": "candidate",
+      "text": "blaze"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flame",
+      "sense_id": "flame#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28067,
+      "status": "candidate",
+      "text": "flare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19065,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8043,
+      "status": "candidate",
+      "text": "flaming"
+    }
+  ],
+  "concept_id": "flame",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flame",
+  "observation_id": "7ecc6c8c6b9eccfb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "flame",
+  "source_context_snippet": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026",
+  "source_file": null,
+  "source_repo": "georgeretsi/smirk",
+  "source_repo_description": "Official Pytorch Implementation of SMIRK: 3D Facial Expressions through Analysis-by-Neural-Synthesis (CVPR 2024) "
+}

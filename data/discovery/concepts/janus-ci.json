@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "janus-ci"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meetecho/janus-gateway",
+      "status": "candidate-context",
+      "text": "Janus WebRTC Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meetecho/janus-gateway",
+      "status": "candidate-context",
+      "text": "janus-ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meetecho/janus-gateway",
+      "status": "candidate",
+      "text": "janus-ci"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "janus-ci",
+  "concept_id": "janus-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/janus-ci.yml",
+      "source_repo": "meetecho/janus-gateway"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "janus-ci",
+      "sense_id": "janus-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

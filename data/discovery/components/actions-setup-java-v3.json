@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v3",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -812,6 +812,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/releaseBeta.yml",
       "source_repo": "LucasGinard/AireLibre-Android"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_avatars.yml",
+      "source_repo": "taichi-dev/public_files"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-central.yml",
+      "source_repo": "jknack/handlebars.java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "metaloom/qdrant-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration.yaml",
+      "source_repo": "csnewman/flutter-go-bridge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-format.yml",
+      "source_repo": "castorini/rank_llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-dsl.yaml",
+      "source_repo": "gazebo-tooling/release-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "terrierteam/pyterrier_colbert"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weavejester/ring-refresh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "borkdude/quickdoc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "clojure/tools.build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "lambdaisland/kaocha"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "lambdaisland/kaocha"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec-example"
     }
   ]
 }

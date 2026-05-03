@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Microsoft.Recognizers.Text provides recognition and resolution of numbers, units, date/time, etc. in multiple languages (ZH, EN, FR, ES, PT, DE, IT, TR, HI, NL. Partial support for JA, KO, AR, SV). Packages available at: https://www.nuget.org/profiles/Recognizers.Text, https://www.npmjs.com/~recognizers.text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38955644,
+      "status": "candidate",
+      "text": "go steady"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38948669,
+      "status": "candidate",
+      "text": "escort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38920462,
+      "status": "candidate",
+      "text": "engagement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38892119,
+      "status": "candidate",
+      "text": "go out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38827812,
+      "status": "candidate",
+      "text": "appointment"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "date",
+      "sense_id": "date#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28057,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28051,
+      "status": "candidate",
+      "text": "engagement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19038,
+      "status": "candidate",
+      "text": "escort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9042,
+      "status": "candidate",
+      "text": "appointment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1029,
+      "status": "candidate",
+      "text": "go out"
+    }
+  ],
+  "concept_id": "date",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "date",
+  "observation_id": "8620ab1cfec66dc4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "date",
+  "source_context_snippet": "![Build Status](https://msrasia.visualstudio.com/_apis/public/build/definitions/310c848f-b260-4305-9255-b97bfb69974b/116/badge)",
+  "source_file": null,
+  "source_repo": "microsoft/Recognizers-Text",
+  "source_repo_description": "Microsoft.Recognizers.Text provides recognition and resolution of numbers, units, date/time, etc. in multiple languages (ZH, EN, FR, ES, PT, DE, IT, TR, HI, NL. Partial support for JA, KO, AR, SV). Packages available at: https://www.nuget.org/profiles/Recognizers.Text, https://www.npmjs.com/~recognizers.text"
+}

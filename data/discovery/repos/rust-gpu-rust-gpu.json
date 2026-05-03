@@ -1,0 +1,454 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jakoch/install-vulkan-sdk-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@nextest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jakoch/install-vulkan-sdk-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jakoch/install-vulkan-sdk-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jakoch/install-vulkan-sdk-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@nextest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "jakoch/install-vulkan-sdk-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@3.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "release-plz/action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "release-plz/action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-toolchain-upgrade.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-toolchain-upgrade.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "bjorn3/rustc_codegen_cranelift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "antoyo/rustc_codegen_gcc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "kmcallister/glassful",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "japaric-archived/nvptx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "jakoch/install-vulkan-sdk-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "JamesIves/github-pages-deploy-action@3.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "Deploy docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "release-plz/action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "Release-plz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-toolchain-upgrade.yml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-toolchain-upgrade.yml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-toolchain-upgrade.yml",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "Rust Toolchain Upgrade",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "gpu-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "graphics-programing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "shaders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "spirv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rust-GPU/rust-gpu",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:17.625142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8593
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4836
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 15116
+    },
+    {
+      "path": ".github/workflows/deploy_docs.yml",
+      "size": 704
+    },
+    {
+      "path": ".github/workflows/docs.sh",
+      "size": 453
+    },
+    {
+      "path": ".github/workflows/lint.sh",
+      "size": 3113
+    },
+    {
+      "path": ".github/workflows/release-plz.yml",
+      "size": 1413
+    },
+    {
+      "path": ".github/workflows/rust-toolchain-upgrade.yml",
+      "size": 3272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc09 Making Rust a first-class language and ecosystem for GPU shaders \ud83d\udea7",
+    "fork": false,
+    "full_name": "Rust-GPU/rust-gpu",
+    "html_url": "https://github.com/Rust-GPU/rust-gpu",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T12:15:01Z",
+    "stargazers_count": 3058,
+    "topics": [
+      "compiler",
+      "gpu-programming",
+      "graphics-programing",
+      "rust",
+      "shaders",
+      "spirv",
+      "vulkan"
+    ],
+    "updated_at": "2026-05-02T18:51:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antoyo/rustc_codegen_gcc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bjorn3/rustc_codegen_cranelift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "japaric-archived/nvptx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kmcallister/glassful",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "term": "Deploy docs"
+    },
+    {
+      "context_snippet": "Release-plz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "term": "Release-plz"
+    },
+    {
+      "context_snippet": "Rust Toolchain Upgrade",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-toolchain-upgrade.yml",
+      "term": "Rust Toolchain Upgrade"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-programming"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-programing"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shaders"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spirv"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

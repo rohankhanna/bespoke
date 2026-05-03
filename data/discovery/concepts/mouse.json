@@ -31,6 +31,18 @@
       "source_repo": "cjbassi/gotop",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AltF02/mouse-rs",
+      "status": "candidate-context",
+      "text": "Rust library to control the mouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AltF02/mouse-rs",
+      "status": "candidate-context",
+      "text": "![Rust](https://github.com/DankDumpster/mouse-rs/workflows/Rust/badge.svg?style=flat-square) [![Docs](https://docs.rs/mouse-rs/badge.svg?style=flat-square)](https://docs.rs/mouse-rs) [![Crates.io](https://img.shields.io/crates/v/mouse-rs)](https://crates.io/crates/mouse-rs)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "cjbassi/gotop",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AltF02/mouse-rs",
+      "status": "candidate",
+      "text": "![Rust](https://github.com/DankDumpster/mouse-rs/workflows/Rust/badge.svg?style=flat-square) [![Docs](https://docs.rs/mouse-rs/badge.svg?style=flat-square)](https://docs.rs/mouse-rs) [![Crates.io](https://img.shields.io/crates/v/mouse-rs)](https://crates.io/crates/mouse-rs)"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +147,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "cjbassi/gotop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

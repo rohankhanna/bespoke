@@ -120,7 +120,7 @@
   "normalized_form": "swift",
   "observation_id": "1b1030dbe96be5ff",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "swift",
   "source_context_snippet": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026",
   "source_file": null,

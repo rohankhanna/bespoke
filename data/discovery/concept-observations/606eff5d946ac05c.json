@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Wheels for llama-cpp-python compiled with cuBLAS support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Tensor Core Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Tensor Core Wheels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21609,
+      "status": "candidate",
+      "text": "belly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21609,
+      "status": "candidate",
+      "text": "bellying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21609,
+      "status": "candidate",
+      "text": "hamstrung"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21609,
+      "status": "candidate",
+      "text": "rep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21589,
+      "status": "candidate",
+      "text": "head"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Tensor Core Wheels",
+      "sense_id": "build-tensor-core-wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-tensor-core-wheels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-tensor-core-wheels",
+  "observation_id": "606eff5d946ac05c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Build Tensor Core Wheels",
+  "source_context_snippet": "Build Tensor Core Wheels",
+  "source_file": ".github/workflows/build-wheels-tensorcores.yml",
+  "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels",
+  "source_repo_description": "Wheels for llama-cpp-python compiled with cuBLAS support"
+}

@@ -1087,6 +1087,18 @@
       "source_repo": "ngxson/wllama",
       "status": "candidate-context",
       "text": "![](./README_banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "status": "candidate-context",
+      "text": "LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfaces, such as o1,ollama, gemini, grok, qwen, GLM, deepseek, kimi,doubao. Adapted to local llms, vlm, gguf such as llama-3.3 Janus-Pro, Linkage graphRAG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "status": "candidate-context",
+      "text": "![\u56fe\u7247](img/\u5c01\u9762.png)"
     }
   ],
   "candidate_glosses": [
@@ -1629,6 +1641,12 @@
       "source_repo": "ngxson/wllama",
       "status": "candidate",
       "text": "![](./README_banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "status": "candidate",
+      "text": "![\u56fe\u7247](img/\u5c01\u9762.png)"
     }
   ],
   "candidate_related_terms": [
@@ -2788,11 +2806,77 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

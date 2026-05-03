@@ -2,34 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
-      "target": "megvii-research/petr",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
-      "target": "megvii-basedetection/bevdepth",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
-      "target": "mit-han-lab/bevfusion",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
-      "target": "adlab-autodrive/bevfusion",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "OpenDriveLab/Birds-eye-view-Perception",
@@ -65,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T09:27:08.145589+00:00",
+  "fetched_at": "2026-05-03T02:56:32.838872+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -92,28 +64,7 @@
     ],
     "updated_at": "2026-04-25T10:02:28Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "adlab-autodrive/bevfusion",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "megvii-basedetection/bevdepth",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "megvii-research/petr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mit-han-lab/bevfusion",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "> [!IMPORTANT]",

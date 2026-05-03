@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "mutation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0a Policy Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate-context",
+      "text": "![Static Badge](https://img.shields.io/badge/OPA%20Version-v0.60.0-blue)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate",
+      "text": "![Static Badge](https://img.shields.io/badge/OPA%20Version-v0.60.0-blue)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911379,
+      "status": "candidate",
+      "text": "mutant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39480288,
+      "status": "candidate",
+      "text": "sport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29911758,
+      "status": "candidate",
+      "text": "mutagenicity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29910457,
+      "status": "candidate",
+      "text": "mutagenesis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29816449,
+      "status": "candidate",
+      "text": "flux"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12048,
+      "status": "candidate",
+      "text": "sport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4042,
+      "status": "candidate",
+      "text": "mutant"
+    }
+  ],
+  "canonical_name": "mutation",
+  "concept_id": "mutation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mutation",
+      "sense_id": "mutation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

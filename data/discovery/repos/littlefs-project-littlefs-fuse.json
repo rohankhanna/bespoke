@@ -21,13 +21,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "littlefs-project/littlefs-fuse",
-      "target": "libfuse/libfuse",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "littlefs-project/littlefs-fuse",
       "target": "geky/littlefs",
       "target_type": "repository"
     },
@@ -67,7 +60,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T06:58:48.105021+00:00",
+  "fetched_at": "2026-05-03T02:48:04.137743+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -102,11 +95,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "geky/littlefs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "libfuse/libfuse",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,1293 @@
+{
+  "components": [
+    {
+      "component": "@rtsao/scc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "array-includes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "array.prototype.findlastindex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "array.prototype.flat",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "array.prototype.flatmap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "debug",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "doctrine",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-import-resolver-node",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-module-utils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hasown",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-core-module",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimatch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "object.fromentries",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "object.groupby",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "object.values",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "string.prototype.trimend",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsconfig-paths",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@angular-eslint/template-parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/import-test-order-redirect-scoped",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@test-scope/some-module",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-module-resolver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-airbnb",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-flow",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-register",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babylon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cross-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "escope",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-doc-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-import-resolver-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-import-resolver-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-import-resolver-webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-import-test-order-redirect",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-module-utils",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "find-babel-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-copy-file-sync",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "in-publish",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jackspeak",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonc-parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "linklocal",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash.isarray",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdownlint-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-which",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "redux",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "safe-publish-latest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tmp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint-parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ljharb/actions/node/matrix@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-8+.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-8+.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-8+.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-8+.yml"
+    },
+    {
+      "component": "ljharb/actions/node/matrix@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-old.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-old.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-old.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-old.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-wsl.yml"
+    },
+    {
+      "component": "Vampire/setup-wsl@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-wsl.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-wsl.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml"
+    },
+    {
+      "component": "ljharb/actions/node/matrix@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3.1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml"
+    },
+    {
+      "component": "ljharb/actions/.github/workflows/rebase.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml"
+    },
+    {
+      "component": "ljharb/require-allow-edits@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-allow-edits.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "roadhump/sublimelinter-eslint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "@rtsao/scc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "array-includes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "array.prototype.findlastindex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "array.prototype.flat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "array.prototype.flatmap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "doctrine",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-import-resolver-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-module-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "hasown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "is-core-module",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "is-glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "minimatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "object.fromentries",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "object.groupby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "object.values",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "string.prototype.trimend",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "tsconfig-paths",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "@angular-eslint/template-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "@eslint/import-test-order-redirect-scoped",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "@test-scope/some-module",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "@types/eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "babel-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "babel-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "babel-plugin-istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "babel-plugin-module-resolver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "babel-preset-airbnb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "babel-preset-flow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "babel-register",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "babylon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "cross-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "escope",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-doc-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-import-resolver-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-import-resolver-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-import-resolver-webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-import-test-order-redirect",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-module-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-plugin-eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-plugin-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "find-babel-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "fs-copy-file-sync",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "in-publish",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "jackspeak",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "jsonc-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "linklocal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "lodash.isarray",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "markdownlint-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "npm-which",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "redux",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "safe-publish-latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "tmp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "typescript-eslint-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-8+.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "ljharb/actions/node/matrix@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-8+.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-8+.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-8+.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "codecov/codecov-action@v3.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eslint-8+.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "Tests: eslint 8+",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-old.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "ljharb/actions/node/matrix@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-old.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-old.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eslint-old.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "codecov/codecov-action@v3.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eslint-old.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "Tests: eslint (old versions)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-wsl.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-wsl.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "Vampire/setup-wsl@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-wsl.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "codecov/codecov-action@v3.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-wsl.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "Native and WSL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node-pretest.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "ljharb/actions/node/matrix@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "codecov/codecov-action@v3.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packages.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "Tests: packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "ljharb/actions/.github/workflows/rebase.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "Automatic Rebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/require-allow-edits.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "ljharb/require-allow-edits@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-allow-edits.yml",
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "Require \u201cAllow Edits\u201d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "eslint-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "import-js/eslint-plugin-import",
+      "target": "linting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:59:25.211776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28247
+    },
+    {
+      "path": "package.json",
+      "size": 4966
+    },
+    {
+      "path": ".github/workflows/eslint-8+.yml",
+      "size": 1779
+    },
+    {
+      "path": ".github/workflows/eslint-old.yml",
+      "size": 2983
+    },
+    {
+      "path": ".github/workflows/native-wsl.yml",
+      "size": 5564
+    },
+    {
+      "path": ".github/workflows/node-pretest.yml",
+      "size": 1096
+    },
+    {
+      "path": ".github/workflows/packages.yml",
+      "size": 1827
+    },
+    {
+      "path": ".github/workflows/rebase.yml",
+      "size": 315
+    },
+    {
+      "path": ".github/workflows/require-allow-edits.yml",
+      "size": 322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ESLint plugin with rules that help validate proper imports.",
+    "fork": false,
+    "full_name": "import-js/eslint-plugin-import",
+    "html_url": "https://github.com/import-js/eslint-plugin-import",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-27T17:30:38Z",
+    "stargazers_count": 5909,
+    "topics": [
+      "code-quality",
+      "eslint",
+      "eslint-plugin",
+      "hacktoberfest",
+      "import",
+      "javascript",
+      "lint",
+      "linting"
+    ],
+    "updated_at": "2026-05-02T12:33:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roadhump/sublimelinter-eslint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Tests: eslint 8+'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eslint-8+.yml",
+      "term": "Tests: eslint 8+"
+    },
+    {
+      "context_snippet": "'Tests: eslint (old versions)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eslint-old.yml",
+      "term": "Tests: eslint (old versions)"
+    },
+    {
+      "context_snippet": "Native and WSL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-wsl.yml",
+      "term": "Native and WSL"
+    },
+    {
+      "context_snippet": "'Tests: packages'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/packages.yml",
+      "term": "Tests: packages"
+    },
+    {
+      "context_snippet": "Automatic Rebase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebase.yml",
+      "term": "Automatic Rebase"
+    },
+    {
+      "context_snippet": "Require \u201cAllow Edits\u201d",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/require-allow-edits.yml",
+      "term": "Require \u201cAllow Edits\u201d"
+    },
+    {
+      "context_snippet": "[![github actions][actions-image]][actions-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-quality"
+    },
+    {
+      "context_snippet": "[![github actions][actions-image]][actions-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    },
+    {
+      "context_snippet": "[![github actions][actions-image]][actions-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint-plugin"
+    },
+    {
+      "context_snippet": "[![github actions][actions-image]][actions-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![github actions][actions-image]][actions-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "import"
+    },
+    {
+      "context_snippet": "[![github actions][actions-image]][actions-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    },
+    {
+      "context_snippet": "[![github actions][actions-image]][actions-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linting"
+    }
+  ]
+}

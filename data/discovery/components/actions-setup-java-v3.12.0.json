@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v3.12.0",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "apache/incubator-seata-samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/jsonista"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "metosin/jsonista"
     }
   ]
 }

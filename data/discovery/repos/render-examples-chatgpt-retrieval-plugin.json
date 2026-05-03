@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "render-examples/chatgpt-retrieval-plugin",
+      "target": "jerryjliu/llama_index",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:56:39.872494+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41367
+    },
+    {
+      "path": "Dockerfile",
+      "size": 997
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The ChatGPT Retrieval Plugin lets you easily search and find personal or work documents by asking questions in everyday language.",
+    "fork": true,
+    "full_name": "render-examples/chatgpt-retrieval-plugin",
+    "html_url": "https://github.com/render-examples/chatgpt-retrieval-plugin",
+    "language": "Python",
+    "pushed_at": "2024-03-12T22:38:04Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-02-16T14:01:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jerryjliu/llama_index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

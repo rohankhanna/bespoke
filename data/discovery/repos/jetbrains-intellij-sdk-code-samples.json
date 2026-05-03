@@ -1,0 +1,169 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "target": "jetbrains/intellij-sdk-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "target": "intellij",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "target": "intellij-idea",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "target": "intellij-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "target": "intellij-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "target": "intellij-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "target": "intellij-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "target": "jetbrains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "target": "jetbrains-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "target": "jetbrains-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:45:02.587479+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8614
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mirror of the IntelliJ SDK Docs Code Samples",
+    "fork": false,
+    "full_name": "JetBrains/intellij-sdk-code-samples",
+    "html_url": "https://github.com/JetBrains/intellij-sdk-code-samples",
+    "language": "Java",
+    "pushed_at": "2026-04-17T09:02:25Z",
+    "stargazers_count": 1237,
+    "topics": [
+      "intellij",
+      "intellij-idea",
+      "intellij-platform",
+      "intellij-plugin",
+      "intellij-plugins",
+      "intellij-sdk",
+      "jetbrains",
+      "jetbrains-plugin",
+      "jetbrains-plugins"
+    ],
+    "updated_at": "2026-05-01T17:27:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jetbrains/intellij-sdk-docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-idea"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-platform"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-plugin"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-plugins"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-sdk"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetbrains"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetbrains-plugin"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetbrains-plugins"
+    }
+  ]
+}

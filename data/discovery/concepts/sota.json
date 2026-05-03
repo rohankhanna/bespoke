@@ -19,6 +19,18 @@
       "source_repo": "baidu-baige/LoongFlow",
       "status": "candidate-context",
       "text": "[**\u4e2d\u6587\u7248**](./README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "princeton-vl/SimpleView",
+      "status": "candidate-context",
+      "text": "Official Code for ICML 2021 paper \"Revisiting Point Cloud Shape Classification with a Simple and Effective Baseline\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "princeton-vl/SimpleView",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "baidu-baige/LoongFlow",
       "status": "candidate",
       "text": "[**\u4e2d\u6587\u7248**](./README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "princeton-vl/SimpleView",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/revisiting-point-cloud-classification-with-a/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=revisiting-point-cloud-cl\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "baidu-baige/LoongFlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "princeton-vl/SimpleView"
     }
   ],
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

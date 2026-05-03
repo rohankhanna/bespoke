@@ -238,34 +238,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "webpack/mini-css-extract-plugin",
-      "target": "ztoben/assets-webpack-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "webpack/mini-css-extract-plugin",
-      "target": "webpack/style-loader",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "webpack/mini-css-extract-plugin",
-      "target": "sassninja/media-query-plugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "webpack/mini-css-extract-plugin",
-      "target": "mike-diamond/media-query-splitting-plugin",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "webpack/mini-css-extract-plugin",
@@ -574,7 +546,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:30:03.233426+00:00",
+  "fetched_at": "2026-05-03T03:59:58.577684+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -609,28 +581,7 @@
     ],
     "updated_at": "2026-04-21T13:04:01Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mike-diamond/media-query-splitting-plugin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sassninja/media-query-plugin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "webpack/style-loader",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ztoben/assets-webpack-plugin",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"Dependency Review\"",

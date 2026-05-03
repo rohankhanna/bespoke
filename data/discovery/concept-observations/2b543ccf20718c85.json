@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WinGet submission on release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WinGet submission on release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11704,
+      "status": "candidate",
+      "text": "announcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11704,
+      "status": "candidate",
+      "text": "communication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11704,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11704,
+      "status": "candidate",
+      "text": "deposit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11704,
+      "status": "candidate",
+      "text": "disclosure"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "WinGet submission on release",
+      "sense_id": "winget-submission-on-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "winget-submission-on-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "winget-submission-on-release",
+  "observation_id": "2b543ccf20718c85",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "WinGet submission on release",
+  "source_context_snippet": "WinGet submission on release",
+  "source_file": ".github/workflows/winget-publish.yml",
+  "source_repo": "2dust/v2rayN",
+  "source_repo_description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others"
+}

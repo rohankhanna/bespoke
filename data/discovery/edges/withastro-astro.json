@@ -1,41 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "withastro/astro",
-      "target": "withastro/compiler",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "withastro/astro",
-      "target": "withastro/starlight",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "withastro/astro",
-      "target": "withastro/.github",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "withastro/astro",
-      "target": "bash npm create astro@latest",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "withastro/astro",
-      "target": "bash npm install astro",
-      "target_type": "term"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "withastro/astro",
@@ -242,14 +207,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-merge.yml",
       "source_repo": "withastro/astro",
-      "target": "tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/check-merge.yml",
-      "source_repo": "withastro/astro",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
       "target_type": "component"
     },
     {
@@ -277,7 +235,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "withastro/astro",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -312,7 +270,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "withastro/astro",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -321,34 +279,6 @@
       "source_repo": "withastro/astro",
       "target": "biomejs/setup-biome@4c91541eaada48f67d7dbd7833600ce162b68f51",
       "target_type": "component"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "withastro/astro",
-      "target": "turbo",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "withastro/astro",
-      "target": "next",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "withastro/astro",
-      "target": "ref_name",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/ci.yml",
-      "source_repo": "withastro/astro",
-      "target": "base_ref",
-      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -375,7 +305,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/congrats.yml",
       "source_repo": "withastro/astro",
-      "target": "withastro/automation/.github/workflows/congratsbot.yml@a5bd0c5748c4d56e687cdd558064f9ee8adfb1f2",
+      "target": "withastro/automation/.github/workflows/congratsbot.yml@497c9268ad4267c842a8f6c4d830ad0182d6f6b3",
       "target_type": "component"
     },
     {
@@ -403,14 +333,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/continuous_benchmark.yml",
       "source_repo": "withastro/astro",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/continuous_benchmark.yml",
       "source_repo": "withastro/astro",
-      "target": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "target": "CodSpeedHQ/action@658a901452bb54c799643e060733b7afe9121b8d",
       "target_type": "component"
     },
     {
@@ -440,8 +370,85 @@
       "source_repo": "withastro/astro",
       "target": "Diff Dependencies",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/astro",
+      "target": "astro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/astro",
+      "target": "blog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/astro",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/astro",
+      "target": "components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/astro",
+      "target": "hybrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/astro",
+      "target": "islands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/astro",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/astro",
+      "target": "server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/astro",
+      "target": "static",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/astro",
+      "target": "static-site-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "withastro/astro",
+      "target": "universal",
+      "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T03:42:01.586113+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "withastro/astro"
 }

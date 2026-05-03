@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dynamic.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-static.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "target": "paullouisageneau/libdatachannel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "target": "wngr/async-datachannel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-dynamic.yaml",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dynamic.yaml",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "target": "Build & test with dynamic deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-static.yaml",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-static.yaml",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "target": "Build & test with static deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "target": "datachannel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "target": "webrtc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:21.295556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4211
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1170
+    },
+    {
+      "path": ".github/workflows/ci-dynamic.yaml",
+      "size": 1454
+    },
+    {
+      "path": ".github/workflows/ci-static.yaml",
+      "size": 695
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust wrappers for libdatachannel",
+    "fork": false,
+    "full_name": "lerouxrgd/datachannel-rs",
+    "html_url": "https://github.com/lerouxrgd/datachannel-rs",
+    "language": "Rust",
+    "pushed_at": "2025-11-12T00:29:39Z",
+    "stargazers_count": 153,
+    "topics": [
+      "datachannel",
+      "p2p",
+      "rust",
+      "webrtc"
+    ],
+    "updated_at": "2026-03-10T12:49:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paullouisageneau/libdatachannel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wngr/async-datachannel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build & test with dynamic deps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-dynamic.yaml",
+      "term": "Build & test with dynamic deps"
+    },
+    {
+      "context_snippet": "Build & test with static deps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-static.yaml",
+      "term": "Build & test with static deps"
+    },
+    {
+      "context_snippet": "[latest]: https://img.shields.io/crates/v/datachannel.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datachannel"
+    },
+    {
+      "context_snippet": "[latest]: https://img.shields.io/crates/v/datachannel.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[latest]: https://img.shields.io/crates/v/datachannel.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webrtc"
+    }
+  ]
+}

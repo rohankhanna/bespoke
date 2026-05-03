@@ -9221,6 +9221,696 @@
       "source_repo": "httprb/http",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dschep/lambda-decorators",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0d\u03bb\u2728 - A collection of useful decorators for making AWS Lambda handlers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dschep/lambda-decorators",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to build conda packages :octocat: \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/ir_datasets",
+      "status": "candidate-context",
+      "text": "Provides a common interface to many IR ranking datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/ir_datasets",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karma-runner/karma",
+      "status": "candidate-context",
+      "text": "Spectacular Test Runner for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate-context",
+      "text": "StandardRB Action: A GitHub Action to run StandardRB against your code!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfredericks/test.chuck",
+      "status": "candidate-context",
+      "text": "A utility library for test.check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfredericks/test.chuck",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/demo-server",
+      "status": "candidate-context",
+      "text": "Example of a server repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/demo-server",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "A computer algebra system written in pure Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/nuxt-windicss",
+      "status": "candidate-context",
+      "text": "\ud83c\udf43 Windi CSS for Nuxt \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/nuxt-windicss",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/svelte-windicss-preprocess",
+      "status": "candidate-context",
+      "text": "A Svelte Preprocessor to compile windicss at build time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/svelte-windicss-preprocess",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KazariEX/dxup",
+      "status": "candidate-context",
+      "text": "A collection of plugins to improve your development experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KazariEX/dxup",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-vue-markdown",
+      "status": "candidate-context",
+      "text": "Compile Markdown to Vue component"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-markdown",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fuziki/WorldInApple",
+      "status": "candidate-context",
+      "text": "Swift wrapper for vocoder World(https://github.com/mmorise/World)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuziki/WorldInApple",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-git/go-billy",
+      "status": "candidate-context",
+      "text": "The missing interface filesystem abstraction for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-git/go-billy",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/example-webrtc-applications",
+      "status": "candidate-context",
+      "text": "Examples of WebRTC applications that are large, or use 3rd party libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/example-webrtc-applications",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/interceptor",
+      "status": "candidate-context",
+      "text": "Pluggable RTP/RTCP processors for building real time communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/interceptor",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/rtp",
+      "status": "candidate-context",
+      "text": "A Go implementation of RTP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/rtp",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux-schema",
+      "status": "candidate-context",
+      "text": "Flux CLI plugin for Kubernetes manifests validation against JSON Schemas and CEL rules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux-schema",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: ESLint plugin for Vue I18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vinzent03/obsidian-git",
+      "status": "candidate-context",
+      "text": "Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinzent03/obsidian-git",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate-context",
+      "text": "Rust client framework for interacting with CometBFT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "Error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "Multidimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate-context",
+      "text": "Test Anything Protocol tools for node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate-context",
+      "text": "Workspace for node-tap development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GFW-knocker/Xray-core",
+      "status": "candidate-context",
+      "text": "customized Xray-core for MahsaNG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GFW-knocker/Xray-core",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "littlefs-project/ramcrc32bd",
+      "status": "candidate-context",
+      "text": "An example of a CRC-32 based error-correcting block device backed by RAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littlefs-project/ramcrc32bd",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "littlefs-project/ramrsbd",
+      "status": "candidate-context",
+      "text": "An example of a Reed-Solomon based error-correcting block device backed by RAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littlefs-project/ramrsbd",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hjson/hjson-rust",
+      "status": "candidate-context",
+      "text": "Hjson for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hjson/hjson-rust",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weisslj/cpp-optparse",
+      "status": "candidate-context",
+      "text": "Python's excellent OptionParser in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weisslj/cpp-optparse",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate-context",
+      "text": "Toolkit of BDD100K Dataset for Heterogeneous Multitask Learning - CVPR 2020 Oral Paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karma-runner/karma-jasmine",
+      "status": "candidate-context",
+      "text": "A Karma plugin - adapter for Jasmine testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma-jasmine",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "status": "candidate-context",
+      "text": "A playground for neuro-san"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "runpod/runpodctl",
+      "status": "candidate-context",
+      "text": "interact with Runpod via the cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runpod/runpodctl",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qdrant/java-client",
+      "status": "candidate-context",
+      "text": "Official Java client for Qdrant "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/java-client",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to approve pull requests securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "status": "candidate-context",
+      "text": "Go SDK for HCP API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vueuse/vue-demi",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa9 Creates Universal Library for Vue 2 & 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vue-demi",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "Intelligent WindiCSS tooling for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate-context",
+      "text": "\ud83c\udf43 Windi CSS for webpack \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate-context",
+      "text": "Vite & Vue powered static site generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/get-tsconfig",
+      "status": "candidate-context",
+      "text": "Lightweight tsconfig.json parser & paths resolver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/get-tsconfig",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "A set of RSpec matchers for testing Pundit authorisation policies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/stun",
+      "status": "candidate-context",
+      "text": "A Go implementation of STUN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/stun",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidz/dad",
+      "status": "candidate-context",
+      "text": "Small configuration management tool for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/dad",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pengx17/knowledge-garden",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.deps.graph",
+      "status": "candidate-context",
+      "text": "Dependency graphs for deps.edn projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.deps.graph",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcad\ud83d\udc40precognition.nvim - Precognition uses virtual text and gutter signs to show available motions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/reth-bsc-triedb",
+      "status": "candidate-context",
+      "text": "Rust geth-compatible trie database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/reth-bsc-triedb",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/tendermint-rs-parlia",
+      "status": "candidate-context",
+      "text": "Tendermint in Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tendermint-rs-parlia",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate-context",
+      "text": "Rust client framework for interacting with CometBFT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "Complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "Inverse complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "Inverse error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "Create a typed array."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "Buffer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "Multidimensional array constructor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esbuild-kit/cjs-loader",
+      "status": "candidate-context",
+      "text": "Node.js loader for compiling ESM & TypeScript modules to CommonJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esbuild-kit/cjs-loader",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esbuild-kit/esm-loader",
+      "status": "candidate-context",
+      "text": "Node.js loader for compiling TypeScript modules to ESM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esbuild-kit/esm-loader",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -13883,6 +14573,354 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "httprb/http",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dschep/lambda-decorators",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/ir_datasets",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfredericks/test.chuck",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/demo-server",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/nuxt-windicss",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/svelte-windicss-preprocess",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KazariEX/dxup",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-markdown",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuziki/WorldInApple",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-git/go-billy",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/example-webrtc-applications",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/interceptor",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/rtp",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux-schema",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinzent03/obsidian-git",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate",
+      "text": "Workspace for node-tap development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GFW-knocker/Xray-core",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littlefs-project/ramcrc32bd",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littlefs-project/ramrsbd",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hjson/hjson-rust",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weisslj/cpp-optparse",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma-jasmine",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runpod/runpodctl",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qdrant/java-client",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vue-demi",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/get-tsconfig",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/stun",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidz/dad",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pengx17/knowledge-garden",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.deps.graph",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/reth-bsc-triedb",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tendermint-rs-parlia",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esbuild-kit/cjs-loader",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esbuild-kit/esm-loader",
       "status": "candidate",
       "text": "Test"
     }
@@ -20611,11 +21649,629 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "NVlabs/trajdata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dschep/lambda-decorators"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prefix-dev/rattler-build-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "allenai/ir_datasets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dukesoferl/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "karma-runner/karma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test-nightly.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "andrewmcodes/standardrb-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gfredericks/test.chuck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jelly-beam/rebar3_ex_doc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pull_request.yaml",
+      "source_repo": "csm-actions/demo-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/runtests.yml",
+      "source_repo": "sympy/sympy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "windicss/nuxt-windicss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "windicss/svelte-windicss-preprocess"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "KazariEX/dxup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "windicss/windicss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vuejs/language-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "unplugin/unplugin-vue-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pugjs/pug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "heartcombo/devise"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fuziki/WorldInApple"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "go-git/go-billy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/example-webrtc-applications"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/interceptor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/rtp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/caniuse-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "browserslist/browserslist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "fluxcd/flux-schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "astroturfcss/astroturf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/fall.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-extra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vim-fall/deno-fall-std"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "intlify/eslint-plugin-vue-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyCQA/eradicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Vinzent03/obsidian-git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "erigontech/mdbx-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tapjs/tapjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GFW-knocker/Xray-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/littlefs-fuse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/ramcrc32bd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/ramrsbd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hjson/hjson-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Jamorim-esss/pytest-rich"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NVlabs/trajdata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weisslj/cpp-optparse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bdd100k/bdd100k"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "karma-runner/karma-jasmine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "csstools/postcss-normalize"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "runpod/runpodctl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "qdrant/java-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "csm-actions/approve-pr-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hashicorp/hcp-sdk-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vueuse/vue-demi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "windicss/windicss-intellisense"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "windicss/windicss-webpack-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vuejs/vitepress"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "privatenumber/get-tsconfig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pundit-community/pundit-matchers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "minitest/minitest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/stun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "liquidz/dad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pengx17/knowledge-garden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/tools.deps.graph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "tris203/precognition.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bnb-chain/reth-bsc-triedb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bnb-chain/tendermint-rs-parlia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cometbft/cometbft-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "esbuild-kit/cjs-loader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "esbuild-kit/esm-loader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/littlefs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

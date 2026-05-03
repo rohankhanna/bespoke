@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:50:40.603852+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "The sample app and documentation of the Microsoft Speech Devices SDK. ",
+    "fork": false,
+    "full_name": "Azure-Samples/Cognitive-Services-Speech-Devices-SDK",
+    "html_url": "https://github.com/Azure-Samples/Cognitive-Services-Speech-Devices-SDK",
+    "language": null,
+    "pushed_at": "2021-11-18T22:59:54Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2025-02-13T06:51:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

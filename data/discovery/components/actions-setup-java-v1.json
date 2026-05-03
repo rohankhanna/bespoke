@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -387,6 +387,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pipeline.yml",
       "source_repo": "stleary/JSON-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "metaloom/qdrant-java-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "terrierteam/pyterrier_ance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "terrierteam/pyterrier_deepct"
     }
   ]
 }

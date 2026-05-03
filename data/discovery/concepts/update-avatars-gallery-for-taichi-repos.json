@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Update Avatars Gallery for Taichi Repos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/public_files",
+      "status": "candidate-context",
+      "text": "Update Avatars Gallery for Taichi Repos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taichi-dev/public_files",
+      "status": "candidate",
+      "text": "Update Avatars Gallery for Taichi Repos"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21490,
+      "status": "candidate",
+      "text": "exhibitioner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21432,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21432,
+      "status": "candidate",
+      "text": "daybed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21432,
+      "status": "candidate",
+      "text": "vary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17490,
+      "status": "candidate",
+      "text": "direct"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Avatars Gallery for Taichi Repos",
+  "concept_id": "update-avatars-gallery-for-taichi-repos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/update_avatars.yml",
+      "source_repo": "taichi-dev/public_files"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Avatars Gallery for Taichi Repos",
+      "sense_id": "update-avatars-gallery-for-taichi-repos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

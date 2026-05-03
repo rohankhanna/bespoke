@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Rosetta stone for JVM byte representations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/org.clj-commons/byte-streams.svg)](https://clojars.org/org.clj-commons/byte-streams)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/org.clj-commons/byte-streams.svg)](https://clojars.org/org.clj-commons/byte-streams)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051367,
+      "status": "candidate",
+      "text": "watercourse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038554,
+      "status": "candidate",
+      "text": "rain cats and dogs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10037854,
+      "status": "candidate",
+      "text": "rain buckets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10026635,
+      "status": "candidate",
+      "text": "current"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017436,
+      "status": "candidate",
+      "text": "flow"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "streams",
+      "sense_id": "streams#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "streams",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "streams",
+  "observation_id": "c480e19ad67189d6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "streams",
+  "source_context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/org.clj-commons/byte-streams.svg)](https://clojars.org/org.clj-commons/byte-streams)",
+  "source_file": null,
+  "source_repo": "clj-commons/byte-streams",
+  "source_repo_description": "A Rosetta stone for JVM byte representations"
+}

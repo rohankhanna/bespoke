@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 ice.js: The Progressive App Framework Based On React\uff08\u57fa\u4e8e React \u7684\u6e10\u8fdb\u5f0f\u5e94\u7528\u6846\u67b6\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish canary"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish canary"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10521,
+      "status": "candidate",
+      "text": "canaries"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10467,
+      "status": "candidate",
+      "text": "bilirubin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10467,
+      "status": "candidate",
+      "text": "bittersweet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10467,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10467,
+      "status": "candidate",
+      "text": "booking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish canary",
+      "sense_id": "publish-canary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-canary",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-canary",
+  "observation_id": "9a59b4933080f64a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Publish canary",
+  "source_context_snippet": "Publish canary",
+  "source_file": ".github/workflows/canary.yml",
+  "source_repo": "alibaba/ice",
+  "source_repo_description": "\ud83d\ude80 ice.js: The Progressive App Framework Based On React\uff08\u57fa\u4e8e React \u7684\u6e10\u8fdb\u5f0f\u5e94\u7528\u6846\u67b6\uff09"
+}

@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "s-weigand/setup-conda@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terrierteam/pyterrier_ance",
+      "target": "cmacdonald/ance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "terrierteam/pyterrier_ance",
+      "target": "cmacdonald/ance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "terrierteam/pyterrier_ance",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "terrierteam/pyterrier_ance",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "terrierteam/pyterrier_ance",
+      "target": "s-weigand/setup-conda@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:49:32.812096+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3687
+    },
+    {
+      "path": "requirements.txt",
+      "size": 85
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 1219
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "terrierteam/pyterrier_ance",
+    "html_url": "https://github.com/terrierteam/pyterrier_ance",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-03-04T07:44:54Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2024-01-23T12:07:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmacdonald/ance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmacdonald/ance",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

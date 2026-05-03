@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-jupyterlite.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-jupyterlite.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-jupyterlite.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-jupyterlite.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "nick-invision/retry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "nick-invision/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "jupyter-widgets/ipywidgets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-jupyterlite.yml",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-jupyterlite.yml",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-jupyterlite.yml",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-jupyterlite.yml",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-jupyterlite.yml",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "Jupyterlite deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "SimenB/github-actions-cpu-cores@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "nick-invision/retry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xwidgets",
+      "target": "nick-invision/retry@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:06.045830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7287
+    },
+    {
+      "path": ".github/workflows/deploy-jupyterlite.yml",
+      "size": 1392
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C++ backend for Jupyter interactive widgets",
+    "fork": false,
+    "full_name": "jupyter-xeus/xwidgets",
+    "html_url": "https://github.com/jupyter-xeus/xwidgets",
+    "language": "C++",
+    "pushed_at": "2026-04-21T10:02:52Z",
+    "stargazers_count": 147,
+    "topics": [],
+    "updated_at": "2026-04-21T10:02:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jupyter-widgets/ipywidgets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Jupyterlite deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-jupyterlite.yml",
+      "term": "Jupyterlite deployment"
+    }
+  ]
+}

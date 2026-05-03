@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "lint spec"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-decimal",
+      "status": "candidate-context",
+      "text": "Built-in exact decimal numbers for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-decimal",
+      "status": "candidate-context",
+      "text": "lint spec"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-decimal",
+      "status": "candidate",
+      "text": "lint spec"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10505,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10505,
+      "status": "candidate",
+      "text": "stripped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10455,
+      "status": "candidate",
+      "text": "hospital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10436,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10436,
+      "status": "candidate",
+      "text": "bits"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lint spec",
+  "concept_id": "lint-spec",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "tc39/proposal-decimal"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "lint spec",
+      "sense_id": "lint-spec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Chrome DevTools Extension"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "An MCP Server for Chrome DevTools, following the Chrome DevTools Protocol. Integrates with Claude Desktop and Claude Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "Build Chrome DevTools Extension"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "Build Chrome DevTools Extension"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23187,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22040,
+      "status": "candidate",
+      "text": "tab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22022,
+      "status": "candidate",
+      "text": "steel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22004,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21627,
+      "status": "candidate",
+      "text": "vault"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Chrome DevTools Extension",
+  "concept_id": "build-chrome-devtools-extension",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-extension.yml",
+      "source_repo": "benjaminr/chrome-devtools-mcp"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Chrome DevTools Extension",
+      "sense_id": "build-chrome-devtools-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

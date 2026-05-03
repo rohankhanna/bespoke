@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "citation-file-format/doi2cff",
+      "target": "nlesc/boatswain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "citation-file-format/doi2cff",
+      "target": "audreyr/cookiecutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "citation-file-format/doi2cff",
+      "target": "audreyr/cookiecutter-pypackage",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:50:05.432305+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate a CFF file using the metadata from a software release on Zenodo.",
+    "fork": false,
+    "full_name": "citation-file-format/doi2cff",
+    "html_url": "https://github.com/citation-file-format/doi2cff",
+    "language": "Python",
+    "pushed_at": "2022-12-26T20:36:18Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-08-26T07:22:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter-pypackage",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nlesc/boatswain",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

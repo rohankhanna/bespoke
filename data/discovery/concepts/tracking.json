@@ -115,6 +115,42 @@
       "source_repo": "roboflow/supervision",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "status": "candidate-context",
+      "text": "Joint Detection and Embedding for fast multi-object tracking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "status": "candidate-context",
+      "text": "**NEWS:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate-context",
+      "text": "Toolkit of BDD100K Dataset for Heterogeneous Multitask Learning - CVPR 2020 Oral Paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate-context",
+      "text": "[CVPR2023] The official repo for OC-SORT: Observation-Centric SORT on video Multi-Object Tracking. OC-SORT is simple, online and robust to occlusion/non-linear motion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "roboflow/supervision",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "status": "candidate",
+      "text": "**NEWS:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -330,11 +384,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bdd100k/bdd100k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "noahcao/OC_SORT"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

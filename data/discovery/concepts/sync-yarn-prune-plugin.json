@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync Yarn Prune Plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpacks for Node.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "status": "candidate-context",
+      "text": "Sync Yarn Prune Plugin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "status": "candidate",
+      "text": "Sync Yarn Prune Plugin"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23799,
+      "status": "candidate",
+      "text": "nine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23799,
+      "status": "candidate",
+      "text": "shutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21617,
+      "status": "candidate",
+      "text": "dancer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21617,
+      "status": "candidate",
+      "text": "diode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21617,
+      "status": "candidate",
+      "text": "garble"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync Yarn Prune Plugin",
+  "concept_id": "sync-yarn-prune-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/sync-yarn-plugin.yml",
+      "source_repo": "heroku/buildpacks-nodejs"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Yarn Prune Plugin",
+      "sense_id": "sync-yarn-prune-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

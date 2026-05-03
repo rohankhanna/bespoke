@@ -163,6 +163,18 @@
       "source_repo": "intelligent-machine-learning/dlrover",
       "status": "candidate-context",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FlagAI-Open/Aquila2",
+      "status": "candidate-context",
+      "text": "The official repo of Aquila2 series proposed by BAAI, including pretrained & chat large language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagAI-Open/Aquila2",
+      "status": "candidate-context",
+      "text": "[<img src=\"assets/flagopen.jpeg\">](https://flagopen.baai.ac.cn/)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "intelligent-machine-learning/dlrover",
       "status": "candidate",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FlagAI-Open/Aquila2",
+      "status": "candidate",
+      "text": "[<img src=\"assets/flagopen.jpeg\">](https://flagopen.baai.ac.cn/)"
     }
   ],
   "candidate_related_terms": [],
@@ -424,11 +442,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "FlagAI-Open/Aquila2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

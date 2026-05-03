@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "App to bypass censorship on Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**English** | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](README-ru.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**English** | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](README-ru.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-packet-inspection",
+      "sense_id": "deep-packet-inspection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-packet-inspection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-packet-inspection",
+  "observation_id": "330c3352263f4033",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "deep-packet-inspection",
+  "source_context_snippet": "**English** | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](README-ru.md)",
+  "source_file": null,
+  "source_repo": "dovecoteescapee/ByeDPIAndroid",
+  "source_repo_description": "App to bypass censorship on Android"
+}

@@ -415,6 +415,18 @@
       "source_repo": "prisma/prisma",
       "status": "candidate-context",
       "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate-context",
+      "text": "GDExtension wrapper for SQLite (Godot 4.x+)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate-context",
+      "text": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*"
     }
   ],
   "candidate_glosses": [
@@ -621,6 +633,12 @@
       "source_repo": "prisma/prisma",
       "status": "candidate",
       "text": "![Prisma](https://i.imgur.com/h6UIYTu.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate",
+      "text": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*"
     }
   ],
   "candidate_related_terms": [
@@ -994,11 +1012,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "2shady4u/godot-sqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

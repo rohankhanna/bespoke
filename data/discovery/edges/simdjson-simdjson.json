@@ -4,21 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "logicalclocks/rondb",
+      "target": "microsoft/fishstore",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "michaeleisel/zippyjson",
+      "target": "nozbe/watermelondb",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "luizperes/simdjson_nodejs",
+      "target": "minio/simdjson-go",
       "target_type": "repository"
     },
     {
@@ -365,6 +365,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T12:32:24.464365+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "simdjson/simdjson"
 }

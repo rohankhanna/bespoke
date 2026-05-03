@@ -171,28 +171,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/iceberg-rust",
+      "target": "databendlabs/opensrv",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/databend-base",
+      "target": "datafuse-extras/arrow-udf",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/databend-meta",
+      "target": "datafuse-extras/async-backtrace",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/map-api",
+      "target": "databendlabs/sub-cache",
       "target_type": "repository"
     },
     {
@@ -469,7 +469,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T19:42:21.098456+00:00",
+  "fetched_at": "2026-05-03T05:08:10.690733+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -521,7 +521,7 @@
     "full_name": "databendlabs/databend",
     "html_url": "https://github.com/databendlabs/databend",
     "language": "Rust",
-    "pushed_at": "2026-05-02T16:06:50Z",
+    "pushed_at": "2026-05-03T03:44:34Z",
     "stargazers_count": 9275,
     "topics": [
       "ai",
@@ -544,22 +544,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "databendlabs/databend-base",
+      "full_name": "databendlabs/opensrv",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "databendlabs/databend-meta",
+      "full_name": "databendlabs/sub-cache",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "databendlabs/iceberg-rust",
+      "full_name": "datafuse-extras/arrow-udf",
       "source_file": "Cargo.toml"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "databendlabs/map-api",
+      "full_name": "datafuse-extras/async-backtrace",
       "source_file": "Cargo.toml"
     }
   ],

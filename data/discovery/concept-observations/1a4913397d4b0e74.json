@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "the documentation for the ir_datasets package (https://github.com/allenai/ir_datasets/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Downloadable Content"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Downloadable Content"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42363,
+      "status": "candidate",
+      "text": "expansion pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42362,
+      "status": "candidate",
+      "text": "season"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42361,
+      "status": "candidate",
+      "text": "episodic video game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42359,
+      "status": "candidate",
+      "text": "fan disc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42358,
+      "status": "candidate",
+      "text": "free-to-play"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Downloadable Content",
+      "sense_id": "downloadable-content#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "downloadable-content",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "downloadable-content",
+  "observation_id": "1a4913397d4b0e74",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Downloadable Content",
+  "source_context_snippet": "Downloadable Content",
+  "source_file": ".github/workflows/verify_downloads.yml",
+  "source_repo": "seanmacavaney/ir-datasets.com",
+  "source_repo_description": "the documentation for the ir_datasets package (https://github.com/allenai/ir_datasets/)"
+}

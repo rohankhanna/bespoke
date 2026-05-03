@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/bake-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml",
+      "source_repo": "duckdb/pg_duckdb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml",
+      "source_repo": "duckdb/pg_duckdb",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml",
+      "source_repo": "duckdb/pg_duckdb",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml",
+      "source_repo": "duckdb/pg_duckdb",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "duckdb/pg_duckdb",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "duckdb/pg_duckdb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "duckdb/pg_duckdb",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "duckdb/pg_duckdb",
+      "target": "docker/bake-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "duckdb/pg_duckdb",
+      "target": "Build Docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:08:23.937844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9070
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2166
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 441
+    },
+    {
+      "path": "requirements.txt",
+      "size": 74
+    },
+    {
+      "path": ".github/workflows/build_and_test.yaml",
+      "size": 5400
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "size": 5093
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DuckDB-powered Postgres for high performance apps & analytics.",
+    "fork": false,
+    "full_name": "duckdb/pg_duckdb",
+    "html_url": "https://github.com/duckdb/pg_duckdb",
+    "language": "C++",
+    "pushed_at": "2026-03-16T09:08:43Z",
+    "stargazers_count": 3063,
+    "topics": [],
+    "updated_at": "2026-05-02T12:37:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "term": "Build Docker"
+    }
+  ]
+}

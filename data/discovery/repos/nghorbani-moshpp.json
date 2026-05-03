@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nghorbani/moshpp",
+      "target": "nghorbani/soma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/moshpp",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/moshpp",
+      "target": "marker-based",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/moshpp",
+      "target": "mocap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/moshpp",
+      "target": "solving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nghorbani/moshpp",
+      "target": "vicon",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:38.363407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4644
+    },
+    {
+      "path": "requirements.txt",
+      "size": 126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Motion and Shape Capture from Sparse Markers",
+    "fork": false,
+    "full_name": "nghorbani/moshpp",
+    "html_url": "https://github.com/nghorbani/moshpp",
+    "language": "Python",
+    "pushed_at": "2022-03-23T18:33:27Z",
+    "stargazers_count": 277,
+    "topics": [
+      "computer-vision",
+      "marker-based",
+      "mocap",
+      "solving",
+      "vicon"
+    ],
+    "updated_at": "2026-04-27T11:37:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nghorbani/soma",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the official chumpy implementation of mocap body solver used for AMASS:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository contains the official chumpy implementation of mocap body solver used for AMASS:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "marker-based"
+    },
+    {
+      "context_snippet": "This repository contains the official chumpy implementation of mocap body solver used for AMASS:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mocap"
+    },
+    {
+      "context_snippet": "This repository contains the official chumpy implementation of mocap body solver used for AMASS:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solving"
+    },
+    {
+      "context_snippet": "This repository contains the official chumpy implementation of mocap body solver used for AMASS:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vicon"
+    }
+  ]
+}

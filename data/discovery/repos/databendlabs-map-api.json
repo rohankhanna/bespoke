@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1.0.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "korandoru/hawkeye@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gsactions/commit-message-checker@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "databendlabs/map-api",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "databendlabs/map-api",
+      "target": "actions-rs/toolchain@v1.0.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "databendlabs/map-api",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "databendlabs/map-api",
+      "target": "korandoru/hawkeye@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "source_repo": "databendlabs/map-api",
+      "target": "gsactions/commit-message-checker@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "source_repo": "databendlabs/map-api",
+      "target": "commit-message-check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:50:59.737173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5289
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1017
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2226
+    },
+    {
+      "path": ".github/workflows/commit-message-check.yml",
+      "size": 2423
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A map-like API with set, get and range.",
+    "fork": false,
+    "full_name": "databendlabs/map-api",
+    "html_url": "https://github.com/databendlabs/map-api",
+    "language": "Rust",
+    "pushed_at": "2025-09-17T02:20:52Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-09-17T02:20:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'commit-message-check'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "term": "commit-message-check"
+    }
+  ]
+}

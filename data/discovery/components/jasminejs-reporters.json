@@ -1,0 +1,12 @@
+{
+  "component": "@jasminejs/reporters",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jasmine/jasmine-browser-runner"
+    }
+  ]
+}

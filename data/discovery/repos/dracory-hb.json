@@ -23,21 +23,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dracory/hb",
-      "target": "goradd/html5tag",
+      "target": "julvo/htmlgo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dracory/hb",
-      "target": "dannyvankooten/extemplate",
+      "target": "joncalhoun/form",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dracory/hb",
-      "target": "chasefleming/elem-go",
+      "target": "jpincas/htmlfunc",
       "target_type": "repository"
     },
     {
@@ -62,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T12:48:50.165159+00:00",
+  "fetched_at": "2026-05-03T03:48:36.322150+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -94,22 +94,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chasefleming/elem-go",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dannyvankooten/extemplate",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "goradd/html5tag",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "gouniverse/html",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joncalhoun/form",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpincas/htmlfunc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "julvo/htmlgo",
       "source_file": "README.md"
     }
   ],

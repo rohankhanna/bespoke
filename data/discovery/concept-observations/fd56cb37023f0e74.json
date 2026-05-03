@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Unified Policy as Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006294,
+      "status": "candidate",
+      "text": "compliancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005875,
+      "status": "candidate",
+      "text": "obligingness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003461,
+      "status": "candidate",
+      "text": "conformation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002855,
+      "status": "candidate",
+      "text": "conformity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002809,
+      "status": "candidate",
+      "text": "deference"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compliance",
+      "sense_id": "compliance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32035,
+      "status": "candidate",
+      "text": "deference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20044,
+      "status": "candidate",
+      "text": "submission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "conformity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15021,
+      "status": "candidate",
+      "text": "abidance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14032,
+      "status": "candidate",
+      "text": "complaisance"
+    }
+  ],
+  "concept_id": "compliance",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compliance",
+  "observation_id": "fd56cb37023f0e74",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "compliance",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "kyverno/kyverno",
+  "source_repo_description": "Unified Policy as Code"
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jordipons/sklearn-audio-transfer-learning",
+      "target": "jordipons/musicnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jordipons/sklearn-audio-transfer-learning",
+      "target": "marl/openl3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:44:57.519177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7913
+    },
+    {
+      "path": "requirements.txt",
+      "size": 765
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A didactic toolkit to rapidly prototype audio classifiers with pre-trained Tensorflow models and Scikit-learn",
+    "fork": false,
+    "full_name": "jordipons/sklearn-audio-transfer-learning",
+    "html_url": "https://github.com/jordipons/sklearn-audio-transfer-learning",
+    "language": "Python",
+    "pushed_at": "2022-11-21T21:30:52Z",
+    "stargazers_count": 147,
+    "topics": [],
+    "updated_at": "2026-04-21T12:47:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jordipons/musicnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marl/openl3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

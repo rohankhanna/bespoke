@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Image loading for Android and Compose Multiplatform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ufeff![Coil](logo.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ufeff![Coil](logo.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008116,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006700,
+      "status": "candidate",
+      "text": "draw up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006120,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999171,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995579,
+      "status": "candidate",
+      "text": "indite"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compose",
+      "sense_id": "compose#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28041,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25085,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18033,
+      "status": "candidate",
+      "text": "indite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11042,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7066,
+      "status": "candidate",
+      "text": "pen"
+    }
+  ],
+  "concept_id": "compose",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compose",
+  "observation_id": "764448ddcad3631c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "compose",
+  "source_context_snippet": "\ufeff![Coil](logo.svg)",
+  "source_file": null,
+  "source_repo": "coil-kt/coil",
+  "source_repo_description": "Image loading for Android and Compose Multiplatform."
+}

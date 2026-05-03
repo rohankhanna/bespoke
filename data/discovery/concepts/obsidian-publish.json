@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "obsidian-publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/obsidian-minimal-publish",
+      "status": "candidate-context",
+      "text": "Minimal Theme for Obsidian Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal-publish",
+      "status": "candidate-context",
+      "text": "Minimal Publish is a stripped-down version of [Minimal Theme](https://github.com/kepano/obsidian-minimal) for [Obsidian Publish](https://obsidian.md/publish). The theme was rewritten from scratch to optimize loading speed."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal-publish",
+      "status": "candidate",
+      "text": "Minimal Publish is a stripped-down version of [Minimal Theme](https://github.com/kepano/obsidian-minimal) for [Obsidian Publish](https://obsidian.md/publish). The theme was rewritten from scratch to optimize loading speed."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "obsidian-publish",
+  "concept_id": "obsidian-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-minimal-publish"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obsidian-publish",
+      "sense_id": "obsidian-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

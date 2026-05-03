@@ -1,0 +1,249 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/install-juliaup@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runic.yml"
+    },
+    {
+      "component": "fredrikekre/runic-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runic.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "nightmachinary/pyexfiltrator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "julia-actions/install-juliaup@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runic.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runic.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "fredrikekre/runic-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runic.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "Runic formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "breakpoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "debugging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "target": "julia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:46:52.701625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8720
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 487
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 802
+    },
+    {
+      "path": ".github/workflows/runic.yml",
+      "size": 304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "No-overhead breakpoints in Julia",
+    "fork": false,
+    "full_name": "JuliaDebug/Infiltrator.jl",
+    "html_url": "https://github.com/JuliaDebug/Infiltrator.jl",
+    "language": "Julia",
+    "pushed_at": "2026-05-02T02:55:22Z",
+    "stargazers_count": 492,
+    "topics": [
+      "breakpoint",
+      "debugging",
+      "julia"
+    ],
+    "updated_at": "2026-04-28T13:58:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nightmachinary/pyexfiltrator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "Runic formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runic.yml",
+      "term": "Runic formatting"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "breakpoint"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "maajor/maajor-voxel-challenge",
+      "target": "taichi-dev/voxel-challenge",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:07.031394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 684
+    },
+    {
+      "path": "requirements.txt",
+      "size": 28
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Girl with a Voxel Earring",
+    "fork": false,
+    "full_name": "maajor/maajor-voxel-challenge",
+    "html_url": "https://github.com/maajor/maajor-voxel-challenge",
+    "language": "Python",
+    "pushed_at": "2022-04-24T12:59:53Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-04-09T01:47:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taichi-dev/voxel-challenge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

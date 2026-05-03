@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yaml",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format.yaml",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "Check code formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "iptables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "nftables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "socks5-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "tproxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "target": "transparent-proxy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:05:06.662681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8295
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 5536
+    },
+    {
+      "path": ".github/workflows/code-format.yaml",
+      "size": 501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight, fast and reliable socks5 transparent proxy",
+    "fork": false,
+    "full_name": "heiher/hev-socks5-tproxy",
+    "html_url": "https://github.com/heiher/hev-socks5-tproxy",
+    "language": "C",
+    "pushed_at": "2026-05-02T09:08:17Z",
+    "stargazers_count": 537,
+    "topics": [
+      "docker",
+      "iptables",
+      "linux",
+      "nftables",
+      "socks5-proxy",
+      "tcp",
+      "tproxy",
+      "transparent-proxy",
+      "udp"
+    ],
+    "updated_at": "2026-05-02T09:08:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"Check code formatting\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format.yaml",
+      "term": "Check code formatting"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iptables"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nftables"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socks5-proxy"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tproxy"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/hev-socks5-tproxy/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-tproxy)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transparent-proxy"
+    }
+  ]
+}

@@ -127,6 +127,30 @@
       "source_repo": "Rubikplayer/flame-fitting",
       "status": "candidate-context",
       "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate-context",
+      "text": "The PyTorch improved version of TPAMI 2017 paper: Face Alignment in Full Pose Range: A 3D Total Solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate-context",
+      "text": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate-context",
+      "text": "Official repository accompanying a CVPR 2022 paper EMOCA: Emotion Driven Monocular Face Capture And Animation. EMOCA takes a single image of a face as input and produces a 3D reconstruction. EMOCA sets the new standard on reconstructing highly emotional images in-the-wild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate-context",
+      "text": "<!-- # EMOCA -->"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "Rubikplayer/flame-fitting",
       "status": "candidate",
       "text": "This is an official [FLAME](http://flame.is.tue.mpg.de/) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate",
+      "text": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate",
+      "text": "<!-- # EMOCA -->"
     }
   ],
   "candidate_related_terms": [],
@@ -292,11 +328,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "radekd91/emoca"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

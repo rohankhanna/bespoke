@@ -1,0 +1,615 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml"
+    },
+    {
+      "component": "anchore/workflows/.github/workflows/dependabot-automation.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-automation.yaml"
+    },
+    {
+      "component": "anchore/workflows/.github/workflows/oss-project-board-add.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-project-board-add.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "anchore/sbom-action@e22c389904149dbc22b58101806040fa8d37a610",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "anchore/workflows/.github/workflows/release-install-script.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "anchore/workflows/.github/workflows/remove-awaiting-response-label.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-awaiting-response-label.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-github-actions.yaml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-github-actions.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anchore/grype",
+      "target": "sylabs/singularity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "anchore/grype",
+      "target": "scylladb/go-set",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "anchore/grype",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "anchore/grype",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "anchore/grype",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "anchore/grype",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "anchore/grype",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-automation.yaml",
+      "source_repo": "anchore/grype",
+      "target": "anchore/workflows/.github/workflows/dependabot-automation.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-automation.yaml",
+      "source_repo": "anchore/grype",
+      "target": "Dependabot Automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oss-project-board-add.yaml",
+      "source_repo": "anchore/grype",
+      "target": "anchore/workflows/.github/workflows/oss-project-board-add.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-project-board-add.yaml",
+      "source_repo": "anchore/grype",
+      "target": "Add to OSS board",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "anchore/grype",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "anchore/grype",
+      "target": "fountainhead/action-wait-for-check@5a908a24814494009c4bb27c242ea38c93c593be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "anchore/grype",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "anchore/grype",
+      "target": "anchore/sbom-action@e22c389904149dbc22b58101806040fa8d37a610",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "anchore/grype",
+      "target": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "anchore/grype",
+      "target": "anchore/workflows/.github/workflows/release-install-script.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "anchore/grype",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-awaiting-response-label.yaml",
+      "source_repo": "anchore/grype",
+      "target": "anchore/workflows/.github/workflows/remove-awaiting-response-label.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-awaiting-response-label.yaml",
+      "source_repo": "anchore/grype",
+      "target": "Manage Awaiting Response Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "source_repo": "anchore/grype",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "source_repo": "anchore/grype",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "source_repo": "anchore/grype",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "source_repo": "anchore/grype",
+      "target": "Scorecards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-github-actions.yaml",
+      "source_repo": "anchore/grype",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-github-actions.yaml",
+      "source_repo": "anchore/grype",
+      "target": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-github-actions.yaml",
+      "source_repo": "anchore/grype",
+      "target": "Validate GitHub Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "container-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "cyclonedx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "openvex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "vulnerabilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anchore/grype",
+      "target": "vulnerability",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:57:39.840950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6161
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1126
+    },
+    {
+      "path": "go.mod",
+      "size": 17720
+    },
+    {
+      "path": ".github/workflows/codeql.yaml",
+      "size": 2877
+    },
+    {
+      "path": ".github/workflows/dependabot-automation.yaml",
+      "size": 177
+    },
+    {
+      "path": ".github/workflows/oss-project-board-add.yaml",
+      "size": 305
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 11067
+    },
+    {
+      "path": ".github/workflows/remove-awaiting-response-label.yaml",
+      "size": 311
+    },
+    {
+      "path": ".github/workflows/scorecards.yaml",
+      "size": 1351
+    },
+    {
+      "path": ".github/workflows/validate-github-actions.yaml",
+      "size": 833
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A vulnerability scanner for container images and filesystems",
+    "fork": false,
+    "full_name": "anchore/grype",
+    "html_url": "https://github.com/anchore/grype",
+    "language": "Go",
+    "pushed_at": "2026-05-01T21:41:37Z",
+    "stargazers_count": 12121,
+    "topics": [
+      "container-image",
+      "containers",
+      "cyclonedx",
+      "docker",
+      "go",
+      "golang",
+      "hacktoberfest",
+      "oci",
+      "openvex",
+      "security",
+      "static-analysis",
+      "tool",
+      "vex",
+      "vulnerabilities",
+      "vulnerability"
+    ],
+    "updated_at": "2026-05-03T02:15:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sylabs/singularity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scylladb/go-set",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yaml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Dependabot Automation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-automation.yaml",
+      "term": "Dependabot Automation"
+    },
+    {
+      "context_snippet": "Add to OSS board",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oss-project-board-add.yaml",
+      "term": "Add to OSS board"
+    },
+    {
+      "context_snippet": "\"Release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "\"Manage Awaiting Response Label\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-awaiting-response-label.yaml",
+      "term": "Manage Awaiting Response Label"
+    },
+    {
+      "context_snippet": "Scorecards",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yaml",
+      "term": "Scorecards"
+    },
+    {
+      "context_snippet": "\"Validate GitHub Actions\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-github-actions.yaml",
+      "term": "Validate GitHub Actions"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container-image"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cyclonedx"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvex"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerabilities"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerability"
+    }
+  ]
+}

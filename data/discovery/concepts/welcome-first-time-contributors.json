@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Welcome First-Time Contributors"
+    "Welcome First-Time Contributors",
+    "Welcome first time contributors"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "hao-ai-lab/FastVideo",
       "status": "candidate-context",
       "text": "Welcome First-Time Contributors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate-context",
+      "text": "Build OpenAPI-compliant REST APIs using TypeScript and Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate-context",
+      "text": "Welcome first time contributors"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "hao-ai-lab/FastVideo",
       "status": "candidate",
       "text": "Welcome First-Time Contributors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukeautry/tsoa",
+      "status": "candidate",
+      "text": "Welcome first time contributors"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": 10307,
       "status": "candidate",
       "text": "initial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 41187,
+      "status": "candidate",
+      "text": "payday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37759,
+      "status": "candidate",
+      "text": "broach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36559,
+      "status": "candidate",
+      "text": "broached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36159,
+      "status": "candidate",
+      "text": "carmagnole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36143,
+      "status": "candidate",
+      "text": "discover"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +130,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/community-welcome.yml",
       "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/welcome-first-time-contributors.yml",
+      "source_repo": "lukeautry/tsoa"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

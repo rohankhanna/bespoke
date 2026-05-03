@@ -19,6 +19,30 @@
       "source_repo": "BusKill/buskill-app",
       "status": "candidate-context",
       "text": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libusb/libusb",
+      "status": "candidate-context",
+      "text": "A cross-platform library to access USB devices "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/libusb",
+      "status": "candidate-context",
+      "text": "libusb is a library for USB device access from Linux, macOS,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyocd/libusb-package",
+      "status": "candidate-context",
+      "text": "Packaged libusb shared libraries for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyocd/libusb-package",
+      "status": "candidate-context",
+      "text": "This Python package functions as an installation vehicle for libusb shared libraries, to"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "BusKill/buskill-app",
       "status": "candidate",
       "text": "![build](https://github.com/BusKill/buskill-app/workflows/build/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/libusb",
+      "status": "candidate",
+      "text": "libusb is a library for USB device access from Linux, macOS,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyocd/libusb-package",
+      "status": "candidate",
+      "text": "This Python package functions as an installation vehicle for libusb shared libraries, to"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "BusKill/buskill-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "libusb/libusb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pyocd/libusb-package"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csxmli2016/MARCONetPlusPlus",
+      "target": "mjq11302010044/real-ce",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:48.186811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7265
+    },
+    {
+      "path": "requirements.txt",
+      "size": 164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enhanced Generative Structure Prior for Text Image Super-Resolution [TPAMI]",
+    "fork": false,
+    "full_name": "csxmli2016/MARCONetPlusPlus",
+    "html_url": "https://github.com/csxmli2016/MARCONetPlusPlus",
+    "language": "Python",
+    "pushed_at": "2025-08-20T06:18:47Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-04-29T07:41:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mjq11302010044/real-ce",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

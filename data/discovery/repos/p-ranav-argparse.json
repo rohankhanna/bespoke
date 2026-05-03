@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tidy-analysis-stage-01.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tidy-analysis-stage-01.yml"
+    },
+    {
+      "component": "actions/github-script@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tidy-analysis-stage-02.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tidy-analysis-stage-02.yml"
+    },
+    {
+      "component": "actions/github-script@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tidy-analysis-stage-02.yml"
+    },
+    {
+      "component": "platisd/clang-tidy-pr-comments@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tidy-analysis-stage-02.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "p-ranav/argparse",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tidy-analysis-stage-01.yml",
+      "source_repo": "p-ranav/argparse",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tidy-analysis-stage-01.yml",
+      "source_repo": "p-ranav/argparse",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tidy-analysis-stage-01.yml",
+      "source_repo": "p-ranav/argparse",
+      "target": "Tidy analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tidy-analysis-stage-02.yml",
+      "source_repo": "p-ranav/argparse",
+      "target": "actions/github-script@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tidy-analysis-stage-02.yml",
+      "source_repo": "p-ranav/argparse",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tidy-analysis-stage-02.yml",
+      "source_repo": "p-ranav/argparse",
+      "target": "platisd/clang-tidy-pr-comments@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tidy-analysis-stage-02.yml",
+      "source_repo": "p-ranav/argparse",
+      "target": "Post the Tidy analysis results",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p-ranav/argparse",
+      "target": "argument-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p-ranav/argparse",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p-ranav/argparse",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p-ranav/argparse",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p-ranav/argparse",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p-ranav/argparse",
+      "target": "mit-license",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:07.078441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 46527
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2036
+    },
+    {
+      "path": ".github/workflows/tidy-analysis-stage-01.yml",
+      "size": 1176
+    },
+    {
+      "path": ".github/workflows/tidy-analysis-stage-02.yml",
+      "size": 3163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Argument Parser for Modern C++",
+    "fork": false,
+    "full_name": "p-ranav/argparse",
+    "html_url": "https://github.com/p-ranav/argparse",
+    "language": "C++",
+    "pushed_at": "2025-01-26T23:27:21Z",
+    "stargazers_count": 3446,
+    "topics": [
+      "argument-parser",
+      "cpp17",
+      "cross-platform",
+      "header-only",
+      "library",
+      "mit-license"
+    ],
+    "updated_at": "2026-05-02T15:13:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tidy analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tidy-analysis-stage-01.yml",
+      "term": "Tidy analysis"
+    },
+    {
+      "context_snippet": "Post the Tidy analysis results",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tidy-analysis-stage-02.yml",
+      "term": "Post the Tidy analysis results"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-parser"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mit-license"
+    }
+  ]
+}

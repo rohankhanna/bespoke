@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EmbarkStudios/kajiya",
+      "target": "ron-rs/ron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EmbarkStudios/kajiya",
+      "target": "fewes/minimalatmosphere",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EmbarkStudios/kajiya",
+      "target": "maikklein/ash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EmbarkStudios/kajiya",
+      "target": "jasper-bekkers/blue-noise-sampler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EmbarkStudios/kajiya",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EmbarkStudios/kajiya",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:04.421634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10150
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 972
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udca1 Experimental real-time global illumination renderer \ud83e\udd80",
+    "fork": false,
+    "full_name": "EmbarkStudios/kajiya",
+    "html_url": "https://github.com/EmbarkStudios/kajiya",
+    "language": "Rust",
+    "pushed_at": "2025-07-07T21:27:20Z",
+    "stargazers_count": 5321,
+    "topics": [],
+    "updated_at": "2026-05-03T02:49:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fewes/minimalatmosphere",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jasper-bekkers/blue-noise-sampler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maikklein/ash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ron-rs/ron",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

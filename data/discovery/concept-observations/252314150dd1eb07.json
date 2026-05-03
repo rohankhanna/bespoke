@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "adam implements a collection of algorithms for calculating rigid-body dynamics in Jax, CasADi, PyTorch, and Numpy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963100,
+      "status": "candidate",
+      "text": "optimizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29960763,
+      "status": "candidate",
+      "text": "streamlining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29951428,
+      "status": "candidate",
+      "text": "optimisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29950947,
+      "status": "candidate",
+      "text": "optimizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29944846,
+      "status": "candidate",
+      "text": "maximise"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "optimization",
+      "sense_id": "optimization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "optimization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "optimization",
+  "observation_id": "252314150dd1eb07",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "optimization",
+  "source_context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+  "source_file": null,
+  "source_repo": "gbionics/adam",
+  "source_repo_description": "adam implements a collection of algorithms for calculating rigid-body dynamics in Jax, CasADi, PyTorch, and Numpy."
+}

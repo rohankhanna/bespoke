@@ -1,0 +1,416 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "aghayecoder/tx-themehub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "chocolate4u/iran-v2ray-rules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "runetfreedom/russia-v2ray-rules-dat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "Release TX-UI for Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "Release TX-UI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "mixed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "panel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "reality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "shadowsocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "trojan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "vless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "vmess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "vpn-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "wireguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "xray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "xray-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/tx-ui",
+      "target": "xtls-rprx-vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:43.219914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19066
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1401
+    },
+    {
+      "path": "go.mod",
+      "size": 4694
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1447
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 8555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Advanced Xray Panel Support Multi Protocols, Successor of MHSanaei/3x-ui",
+    "fork": false,
+    "full_name": "AghayeCoder/tx-ui",
+    "html_url": "https://github.com/AghayeCoder/tx-ui",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-25T03:53:46Z",
+    "stargazers_count": 452,
+    "topics": [
+      "gfw",
+      "mixed",
+      "panel",
+      "reality",
+      "shadowsocks",
+      "trojan",
+      "vless",
+      "vmess",
+      "vpn",
+      "vpn-service",
+      "wireguard",
+      "xray",
+      "xray-core",
+      "xtls-rprx-vision",
+      "xui"
+    ],
+    "updated_at": "2026-05-01T19:37:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aghayecoder/tx-themehub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chocolate4u/iran-v2ray-rules",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "runetfreedom/russia-v2ray-rules-dat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release TX-UI for Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Release TX-UI for Docker"
+    },
+    {
+      "context_snippet": "Release TX-UI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release TX-UI"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixed"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "panel"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reality"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shadowsocks"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trojan"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vless"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vmess"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vpn-service"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wireguard"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray-core"
+    },
+    {
+      "context_snippet": "[English](/README.md) | [\u4e2d\u6587](/README.zh_CN.md) | [Espa\u00f1ol](/README.es_ES.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](/README.ru_RU.md) | [\u0641\u0627\u0631\u0633\u06cc](/README.fa_IR.md) | [\u0627\u0644\u0639\u0631\u0628\u064a\u0629](/README.ar_EG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xtls-rprx-vision"
+    }
+  ]
+}

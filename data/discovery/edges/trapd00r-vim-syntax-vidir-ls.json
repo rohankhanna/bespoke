@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "target": "trapd00r/ls_colors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "target": "dircolors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "target": "file-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "target": "ls-colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "target": "vidir",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "trapd00r/vim-syntax-vidir-ls"
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ami-iit/matlab-whole-body-simulator",
+      "target": "robotology/idyntree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ami-iit/matlab-whole-body-simulator",
+      "target": "robotology-dependencies/qpoases",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ami-iit/matlab-whole-body-simulator",
+      "target": "robotology/icub-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ami-iit/matlab-whole-body-simulator",
+      "target": "robotology/robotology-superbuild",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "ami-iit/matlab-whole-body-simulator"
+}

@@ -43,6 +43,18 @@
       "source_repo": "zip-rs/zip2",
       "status": "candidate-context",
       "text": "DevSkim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databendlabs/openraft",
+      "status": "candidate-context",
+      "text": "rust raft with improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/openraft",
+      "status": "candidate-context",
+      "text": "DevSkim"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zip-rs/zip2",
+      "status": "candidate",
+      "text": "DevSkim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/openraft",
       "status": "candidate",
       "text": "DevSkim"
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/devskim.yml",
       "source_repo": "zip-rs/zip2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/devskim-analysis.yml",
+      "source_repo": "databendlabs/openraft"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly_standup.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@d60bea1e77c1b5c523216f7c31493883d76ffad7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly_standup.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly_standup.yml",
+      "source_repo": "stdlib-js/meetings",
+      "target": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly_standup.yml",
+      "source_repo": "stdlib-js/meetings",
+      "target": "peter-evans/create-issue-from-file@d60bea1e77c1b5c523216f7c31493883d76ffad7",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:46:49.416285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1362
+    },
+    {
+      "path": ".github/workflows/weekly_standup.yml",
+      "size": 2085
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agendas and minutes for official public meetings involving stdlib.",
+    "fork": false,
+    "full_name": "stdlib-js/meetings",
+    "html_url": "https://github.com/stdlib-js/meetings",
+    "language": null,
+    "pushed_at": "2026-05-01T06:18:32Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-05-01T06:18:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

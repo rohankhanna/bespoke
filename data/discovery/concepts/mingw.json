@@ -59,6 +59,24 @@
       "source_repo": "coturn/coturn",
       "status": "candidate-context",
       "text": "MinGW"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "status": "candidate-context",
+      "text": "Fully tested Ruby Windows Mingw, ucrt & mswin builds. Available on GitHub Actions via setup-ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "status": "candidate-context",
+      "text": "mingw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "status": "candidate-context",
+      "text": "[![ucrt](https://github.com/MSP-Greg/ruby-loco/workflows/ucrt/badge.svg)](https://github.com/MSP-Greg/ruby-loco/actions?query=workflow%3Acucrt)"
     }
   ],
   "candidate_glosses": [
@@ -85,6 +103,18 @@
       "source_repo": "coturn/coturn",
       "status": "candidate",
       "text": "MinGW"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "status": "candidate",
+      "text": "mingw"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "status": "candidate",
+      "text": "[![ucrt](https://github.com/MSP-Greg/ruby-loco/workflows/ucrt/badge.svg)](https://github.com/MSP-Greg/ruby-loco/actions?query=workflow%3Acucrt)"
     }
   ],
   "candidate_related_terms": [
@@ -152,11 +182,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/mingw.yml",
       "source_repo": "coturn/coturn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/mingw.yml_",
+      "source_repo": "MSP-Greg/ruby-loco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MSP-Greg/ruby-loco"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

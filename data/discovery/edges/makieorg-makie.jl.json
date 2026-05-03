@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "MakieOrg/Makie.jl",
-      "target": "gcalderone/gnuplot.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "MakieOrg/Makie.jl",
       "target": "juliadynamics/interactivechaos.jl",
       "target_type": "repository"
     },
@@ -198,41 +191,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/_formatting.yml",
-      "source_repo": "MakieOrg/Makie.jl",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/_formatting.yml",
-      "source_repo": "MakieOrg/Makie.jl",
-      "target": "julia-actions/setup-julia@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/_formatting.yml",
-      "source_repo": "MakieOrg/Makie.jl",
-      "target": "julia-actions/cache@v3",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/_formatting.yml",
-      "source_repo": "MakieOrg/Makie.jl",
-      "target": "fredrikekre/runic-action@v1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/_formatting.yml",
-      "source_repo": "MakieOrg/Makie.jl",
-      "target": "Formatting",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_glmakie.yml",
       "source_repo": "MakieOrg/Makie.jl",
       "target": "actions/checkout@v6",
@@ -316,6 +274,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "MakieOrg/Makie.jl"
 }

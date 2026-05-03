@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dom8509/hugo-PaperMod",
+      "target": "nanxiaobei/hugo-paper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dom8509/hugo-PaperMod",
+      "target": "adityatelange/hugo-papermod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dom8509/hugo-PaperMod",
+      "target": "krisk/fuse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dom8509/hugo-PaperMod",
+      "target": "feathericons/feather",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "dom8509/hugo-PaperMod",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "dom8509/hugo-PaperMod",
+      "target": "actions/configure-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "dom8509/hugo-PaperMod",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "dom8509/hugo-PaperMod",
+      "target": "actions/deploy-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "dom8509/hugo-PaperMod",
+      "target": "Deploy Hugo PaperMod Demo to Pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:52:59.484347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4526
+    },
+    {
+      "path": "go.mod",
+      "size": 55
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 2039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " A fast, clean, responsive Hugo theme.",
+    "fork": true,
+    "full_name": "dom8509/hugo-PaperMod",
+    "html_url": "https://github.com/dom8509/hugo-PaperMod",
+    "language": "HTML",
+    "pushed_at": "2022-09-25T16:00:34Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-05-04T05:49:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adityatelange/hugo-papermod",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feathericons/feather",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krisk/fuse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanxiaobei/hugo-paper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Hugo PaperMod Demo to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "Deploy Hugo PaperMod Demo to Pages"
+    }
+  ]
+}

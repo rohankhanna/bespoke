@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Node.js Package for webfont"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chiron-fonts/chiron-hei-hk",
+      "status": "candidate-context",
+      "text": "\u662d\u6e90\u9ed1\u9ad4\uff1a\u73fe\u4ee3\u7b46\u5f62\u98a8\u683c\uff0c\u5e73\u8861\u6a19\u6e96\u5b57\u5f62\u548c\u5370\u5237\u9ad4\u6163\u7528\u7b46\u5f62\u7684\u514d\u8cbb\u958b\u6e90\u9ed1\u9ad4\u5b57\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chiron-fonts/chiron-hei-hk",
+      "status": "candidate-context",
+      "text": "Node.js Package for webfont"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chiron-fonts/chiron-hei-hk",
+      "status": "candidate",
+      "text": "Node.js Package for webfont"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "all"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assembly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "bale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "bloc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "block"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Node.js Package for webfont",
+  "concept_id": "node.js-package-for-webfont",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "chiron-fonts/chiron-hei-hk"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Node.js Package for webfont",
+      "sense_id": "node.js-package-for-webfont#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

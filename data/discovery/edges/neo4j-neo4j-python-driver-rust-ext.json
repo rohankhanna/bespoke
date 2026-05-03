@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "binary-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "cypher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "database-driver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "driver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "graph-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "neo4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "query-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "neo4j/neo4j-python-driver-rust-ext"
+}

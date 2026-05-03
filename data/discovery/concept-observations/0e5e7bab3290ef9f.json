@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easily and securely send things from one computer to another :crocodile: :package:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29996564,
+      "status": "candidate",
+      "text": "point-to-point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29985260,
+      "status": "candidate",
+      "text": "workgroup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964381,
+      "status": "candidate",
+      "text": "reciprocal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29956691,
+      "status": "candidate",
+      "text": "corresponding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29956417,
+      "status": "candidate",
+      "text": "equivalence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "peer-to-peer",
+      "sense_id": "peer-to-peer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "peer-to-peer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "peer-to-peer",
+  "observation_id": "0e5e7bab3290ef9f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "peer-to-peer",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "schollz/croc",
+  "source_repo_description": "Easily and securely send things from one computer to another :crocodile: :package:"
+}

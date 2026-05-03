@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-mourner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mourner/tinyqueue",
+      "target": "mourner/flatqueue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mourner/tinyqueue",
+      "target": "adamhooper/js-priority-queue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/tinyqueue",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/tinyqueue",
+      "target": "eslint-config-mourner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/tinyqueue",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/tinyqueue",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/tinyqueue",
+      "target": "Node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/tinyqueue",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/tinyqueue",
+      "target": "binary-heap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/tinyqueue",
+      "target": "data-structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/tinyqueue",
+      "target": "priority-queue",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:26.888791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1268
+    },
+    {
+      "path": "package.json",
+      "size": 856
+    },
+    {
+      "path": ".github/workflows/node.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The smallest and simplest priority queue in JavaScript.",
+    "fork": false,
+    "full_name": "mourner/tinyqueue",
+    "html_url": "https://github.com/mourner/tinyqueue",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-05T21:05:19Z",
+    "stargazers_count": 464,
+    "topics": [
+      "algorithm",
+      "binary-heap",
+      "data-structure",
+      "javascript",
+      "priority-queue"
+    ],
+    "updated_at": "2026-04-09T20:06:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamhooper/js-priority-queue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mourner/flatqueue",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "term": "Node"
+    },
+    {
+      "context_snippet": "The smallest and simplest binary heap priority queue in JavaScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "The smallest and simplest binary heap priority queue in JavaScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-heap"
+    },
+    {
+      "context_snippet": "The smallest and simplest binary heap priority queue in JavaScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-structure"
+    },
+    {
+      "context_snippet": "The smallest and simplest binary heap priority queue in JavaScript.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "priority-queue"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "PyO3/maturin-action@v1",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -262,6 +262,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "G-Research/ahocorasick_rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bindings_python_ci.yml",
+      "source_repo": "databendlabs/iceberg-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml",
+      "source_repo": "databendlabs/iceberg-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_python_nightly.yml",
+      "source_repo": "databendlabs/iceberg-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bindings_python_ci.yml",
+      "source_repo": "lakekeeper/iceberg-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml",
+      "source_repo": "lakekeeper/iceberg-rust"
     }
   ]
 }

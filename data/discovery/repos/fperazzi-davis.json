@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fperazzi/davis",
+      "target": "fperazzi/davis-2017",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fperazzi/davis",
+      "target": "jponttuset/davis-matlab",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:36.350369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3043
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "fperazzi/davis",
+    "html_url": "https://github.com/fperazzi/davis",
+    "language": "C++",
+    "pushed_at": "2021-08-01T16:00:45Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-04-18T05:13:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fperazzi/davis-2017",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jponttuset/davis-matlab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

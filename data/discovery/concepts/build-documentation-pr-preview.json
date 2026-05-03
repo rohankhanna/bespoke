@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Documentation (PR Preview)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "status": "candidate-context",
+      "text": "This repository contains the Karpenter Provider implementation for IBM Cloud, enabling dynamic node provisioning in IBM Cloud Kubernetes clusters using Karpenter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "status": "candidate-context",
+      "text": "Build Documentation (PR Preview)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "status": "candidate",
+      "text": "Build Documentation (PR Preview)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10717,
+      "status": "candidate",
+      "text": "adventure playground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10717,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10717,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10717,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10717,
+      "status": "candidate",
+      "text": "beef up"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Documentation (PR Preview)",
+  "concept_id": "build-documentation-pr-preview",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Documentation (PR Preview)",
+      "sense_id": "build-documentation-pr-preview#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

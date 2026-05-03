@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C# Rapid Open Widgets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987376,
+      "status": "candidate",
+      "text": "capital of egypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987376,
+      "status": "candidate",
+      "text": "egyptian capital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987376,
+      "status": "candidate",
+      "text": "el qahira"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987375,
+      "status": "candidate",
+      "text": "baghdad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986618,
+      "status": "candidate",
+      "text": "egypt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cairo",
+      "sense_id": "cairo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "el qahira"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "capital of egypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "egyptian capital"
+    }
+  ],
+  "concept_id": "cairo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cairo",
+  "observation_id": "3287e234c17007b3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "cairo",
+  "source_context_snippet": "<h1 align=\"center\">",
+  "source_file": null,
+  "source_repo": "jpbruyere/Crow",
+  "source_repo_description": "C# Rapid Open Widgets"
+}

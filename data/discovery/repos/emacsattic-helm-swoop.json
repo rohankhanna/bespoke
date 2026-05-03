@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "conao3/setup-cask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emacsattic/helm-swoop",
+      "target": "emacsorphanage/helm-swoop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacsattic/helm-swoop",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacsattic/helm-swoop",
+      "target": "actions/setup-python@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacsattic/helm-swoop",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacsattic/helm-swoop",
+      "target": "conao3/setup-cask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacsattic/helm-swoop",
+      "target": "Main workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:51:17.095915+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7758
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Efficiently hopping squeezed lines powered by Emacs helm interface",
+    "fork": false,
+    "full_name": "emacsattic/helm-swoop",
+    "html_url": "https://github.com/emacsattic/helm-swoop",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-01-04T23:56:46Z",
+    "stargazers_count": 700,
+    "topics": [],
+    "updated_at": "2026-04-05T18:57:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacsorphanage/helm-swoop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Main workflow"
+    }
+  ]
+}

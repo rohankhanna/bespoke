@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    "Closed Reference Notifier"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "Internet-scale OpenID Certified\u2122 OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "Closed Reference Notifier"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/keto",
+      "status": "candidate-context",
+      "text": "The most scalable and customizable permission server on the market. Fix your slow or broken permission system with Google's proven \"Zanzibar\" approach. Supports ACL, RBAC, and more. Written in Go, cloud native, headless, API-first. Available as a service on Ory Network and for self-hosters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/keto",
+      "status": "candidate-context",
+      "text": "Closed Reference Notifier"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/kratos",
+      "status": "candidate-context",
+      "text": "Headless cloud-native authentication and identity management written in Go. Scales to a billion+ users. Replace Homegrown, Auth0, Okta, Firebase with better UX and DX. Passkeys, Social Sign In, OIDC, Magic Link, Multi-Factor Auth, SMS, SAML, TOTP, and more. Runs everywhere, runs best on Ory Network. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/kratos",
+      "status": "candidate-context",
+      "text": "Closed Reference Notifier"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/oathkeeper",
+      "status": "candidate-context",
+      "text": "A cloud native Identity & Access Proxy / API (IAP) and Access Control Decision API that authenticates, authorizes, and mutates incoming HTTP(s) requests. Inspired by the BeyondCorp / Zero Trust white paper. Written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/oathkeeper",
+      "status": "candidate-context",
+      "text": "Closed Reference Notifier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate",
+      "text": "Closed Reference Notifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/keto",
+      "status": "candidate",
+      "text": "Closed Reference Notifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/kratos",
+      "status": "candidate",
+      "text": "Closed Reference Notifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/oathkeeper",
+      "status": "candidate",
+      "text": "Closed Reference Notifier"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22476,
+      "status": "candidate",
+      "text": "himself"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22415,
+      "status": "candidate",
+      "text": "divorce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22415,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18476,
+      "status": "candidate",
+      "text": "informant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18445,
+      "status": "candidate",
+      "text": "handy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Closed Reference Notifier",
+  "concept_id": "closed-reference-notifier",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/closed_references.yml",
+      "source_repo": "ory/hydra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/closed_references.yml",
+      "source_repo": "ory/keto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/closed_references.yml",
+      "source_repo": "ory/kratos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/closed_references.yml",
+      "source_repo": "ory/oathkeeper"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Closed Reference Notifier",
+      "sense_id": "closed-reference-notifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

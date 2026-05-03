@@ -1,0 +1,169 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donydchen/mvsplat360",
+      "target": "stability-ai/generative-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "donydchen/mvsplat360",
+      "target": "chrixtar/latent-gaussian-rasterization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "donydchen/mvsplat360",
+      "target": "stability-ai/generative-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat360",
+      "target": "feed-forward-gaussian-splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat360",
+      "target": "gaussian-splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat360",
+      "target": "generative-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat360",
+      "target": "neurips-2024",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat360",
+      "target": "novel-view-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat360",
+      "target": "stable-video-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat360",
+      "target": "video-diffusion-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:31.023238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5347
+    },
+    {
+      "path": "requirements.txt",
+      "size": 405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf9e\ufe0f [NeurIPS'24] MVSplat360: Feed-Forward 360 Scene Synthesis from Sparse Views",
+    "fork": false,
+    "full_name": "donydchen/mvsplat360",
+    "html_url": "https://github.com/donydchen/mvsplat360",
+    "language": "Python",
+    "pushed_at": "2024-12-03T00:08:49Z",
+    "stargazers_count": 305,
+    "topics": [
+      "feed-forward-gaussian-splatting",
+      "gaussian-splatting",
+      "generative-models",
+      "neurips-2024",
+      "novel-view-synthesis",
+      "stable-video-diffusion",
+      "video-diffusion-model"
+    ],
+    "updated_at": "2026-04-10T10:47:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/generative-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrixtar/latent-gaussian-rasterization",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/generative-models",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feed-forward-gaussian-splatting"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaussian-splatting"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips-2024"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "novel-view-synthesis"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-video-diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-diffusion-model"
+    }
+  ]
+}

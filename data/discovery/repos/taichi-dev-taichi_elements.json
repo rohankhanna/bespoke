@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/taichi_elements",
+      "target": "yuanming-hu/public_files",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:27.827054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4218
+    },
+    {
+      "path": "requirements.txt",
+      "size": 22
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High-performance multi-material continuum physics engine in Taichi",
+    "fork": false,
+    "full_name": "taichi-dev/taichi_elements",
+    "html_url": "https://github.com/taichi-dev/taichi_elements",
+    "language": "Python",
+    "pushed_at": "2024-04-14T20:43:07Z",
+    "stargazers_count": 559,
+    "topics": [],
+    "updated_at": "2026-04-28T14:27:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuanming-hu/public_files",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "Homebrew/actions/setup-homebrew@master",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pkl-patterns.yml",
       "source_repo": "aws-cloudformation/cloudformation-pkl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "osrf/homebrew-simulation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "gazebosim/gz-common"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pgcentralfoundation/pgrx"
     }
   ]
 }

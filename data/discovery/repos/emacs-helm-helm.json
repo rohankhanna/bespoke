@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-helm/helm",
+      "target": "completions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-helm/helm",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-helm/helm",
+      "target": "emacs-helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-helm/helm",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-helm/helm",
+      "target": "helm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:51:15.516451+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs incremental completion and selection narrowing framework",
+    "fork": false,
+    "full_name": "emacs-helm/helm",
+    "html_url": "https://github.com/emacs-helm/helm",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-24T14:01:01Z",
+    "stargazers_count": 3488,
+    "topics": [
+      "completions",
+      "emacs",
+      "emacs-helm",
+      "emacs-lisp",
+      "helm"
+    ],
+    "updated_at": "2026-04-30T17:30:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "completions"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-helm"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    }
+  ]
+}

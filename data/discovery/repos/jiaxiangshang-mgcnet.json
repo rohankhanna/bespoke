@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiaxiangshang/MGCNet",
+      "target": "google/tf_mesh_renderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiaxiangshang/MGCNet",
+      "target": "anilbas/3dmmasstn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiaxiangshang/MGCNet",
+      "target": "1adrianb/2d-and-3d-face-alignment",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jiaxiangshang/MGCNet",
+      "target": "cleardusk/3ddfa",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:43:56.235547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4544
+    },
+    {
+      "path": "requirements.txt",
+      "size": 241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Self-Supervised Monocular 3D Face Reconstruction by Occlusion-Aware Multi-view Geometry Consistency[ECCV 2020]",
+    "fork": false,
+    "full_name": "jiaxiangshang/MGCNet",
+    "html_url": "https://github.com/jiaxiangshang/MGCNet",
+    "language": "Python",
+    "pushed_at": "2022-11-21T21:03:08Z",
+    "stargazers_count": 353,
+    "topics": [],
+    "updated_at": "2026-02-05T17:57:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1adrianb/2d-and-3d-face-alignment",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anilbas/3dmmasstn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cleardusk/3ddfa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/tf_mesh_renderer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,144 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "target": "matchachoco010/egui-winit-ash-integration",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "target": "maikklein/ash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "target": "egui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "target": "vk-mem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "target": "winit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:09.204323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2436
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the egui integration crate for winit, ash and vk_mem.",
+    "fork": false,
+    "full_name": "MatchaChoco010/egui_winit_ash_vk_mem",
+    "html_url": "https://github.com/MatchaChoco010/egui_winit_ash_vk_mem",
+    "language": "Rust",
+    "pushed_at": "2021-09-09T22:55:30Z",
+    "stargazers_count": 12,
+    "topics": [
+      "ash",
+      "egui",
+      "gamedev",
+      "rust",
+      "vk-mem",
+      "vulkan",
+      "winit"
+    ],
+    "updated_at": "2025-12-09T13:43:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maikklein/ash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matchachoco010/egui-winit-ash-integration",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[_DEPRECATED_]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "egui"
+    },
+    {
+      "context_snippet": "[_DEPRECATED_]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "[_DEPRECATED_]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[_DEPRECATED_]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vk-mem"
+    },
+    {
+      "context_snippet": "[_DEPRECATED_]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "[_DEPRECATED_]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winit"
+    }
+  ]
+}

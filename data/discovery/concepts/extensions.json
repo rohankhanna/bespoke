@@ -79,6 +79,18 @@
       "source_repo": "Adobe-CEP/CEP-Resources",
       "status": "candidate-context",
       "text": "Getting Started with Common Extensibility Platform (CEP)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate-context",
+      "text": "vue-i18n extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/@intlify/vue-i18n-extensions/next.svg)](https://www.npmjs.com/package/@intlify/vue-i18n-extensions)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "Adobe-CEP/CEP-Resources",
       "status": "candidate",
       "text": "Getting Started with Common Extensibility Platform (CEP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/@intlify/vue-i18n-extensions/next.svg)](https://www.npmjs.com/package/@intlify/vue-i18n-extensions)"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Adobe-CEP/CEP-Resources"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "intlify/vue-i18n-extensions"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

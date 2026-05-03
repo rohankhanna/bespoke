@@ -1,0 +1,159 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddemidov/amgcl",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddemidov/amgcl",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddemidov/amgcl",
+      "target": "gpgpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddemidov/amgcl",
+      "target": "linear-solvers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddemidov/amgcl",
+      "target": "multigrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddemidov/amgcl",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddemidov/amgcl",
+      "target": "openmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddemidov/amgcl",
+      "target": "scientific-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ddemidov/amgcl",
+      "target": "sparse-linear-systems",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:18.416748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2791
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ library for solving large sparse linear systems with algebraic multigrid method",
+    "fork": false,
+    "full_name": "ddemidov/amgcl",
+    "html_url": "https://github.com/ddemidov/amgcl",
+    "language": "C++",
+    "pushed_at": "2026-05-01T15:23:35Z",
+    "stargazers_count": 846,
+    "topics": [
+      "amg",
+      "c-plus-plus",
+      "cpp",
+      "cuda",
+      "gpgpu",
+      "linear-solvers",
+      "mpi",
+      "multigrid",
+      "opencl",
+      "openmp",
+      "scientific-computing",
+      "sparse-linear-systems"
+    ],
+    "updated_at": "2026-05-02T13:08:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpgpu"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-solvers"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multigrid"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmp"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/amgcl/badge/?version=latest)](http://amgcl.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-linear-systems"
+    }
+  ]
+}

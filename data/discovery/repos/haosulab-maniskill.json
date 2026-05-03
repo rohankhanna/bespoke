@@ -1,0 +1,327 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "nicklashansen/tdmpc2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "octo-models/octo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "thu-ml/roboticsdiffusiontransformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "haosulab/sapien",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "Publish nightly pypi distributions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "haosulab/ManiSkill",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill",
+      "target": "3d-computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill",
+      "target": "embodied-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill",
+      "target": "robot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill",
+      "target": "robot-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill",
+      "target": "simulation-environment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:55:53.509446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6970
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 317
+    },
+    {
+      "path": ".github/workflows/publish-nightly.yml",
+      "size": 1488
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 855
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SAPIEN Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark",
+    "fork": false,
+    "full_name": "haosulab/ManiSkill",
+    "html_url": "https://github.com/haosulab/ManiSkill",
+    "language": "Python",
+    "pushed_at": "2026-04-21T05:51:06Z",
+    "stargazers_count": 2848,
+    "topics": [
+      "3d-computer-vision",
+      "computer-vision",
+      "embodied-ai",
+      "reinforcement-learning",
+      "robot-learning",
+      "robot-manipulation",
+      "robotics",
+      "robotics-simulation",
+      "simulation-environment"
+    ],
+    "updated_at": "2026-05-02T10:58:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haosulab/sapien",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicklashansen/tdmpc2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "octo-models/octo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thu-ml/roboticsdiffusiontransformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish nightly pypi distributions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-nightly.yml",
+      "term": "Publish nightly pypi distributions"
+    },
+    {
+      "context_snippet": "![teaser](figures/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-computer-vision"
+    },
+    {
+      "context_snippet": "![teaser](figures/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![teaser](figures/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embodied-ai"
+    },
+    {
+      "context_snippet": "![teaser](figures/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "![teaser](figures/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-learning"
+    },
+    {
+      "context_snippet": "![teaser](figures/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-manipulation"
+    },
+    {
+      "context_snippet": "![teaser](figures/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "![teaser](figures/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    },
+    {
+      "context_snippet": "![teaser](figures/teaser.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation-environment"
+    }
+  ]
+}

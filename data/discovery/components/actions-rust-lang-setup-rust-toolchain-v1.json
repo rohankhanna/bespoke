@@ -1,7 +1,7 @@
 {
   "component": "actions-rust-lang/setup-rust-toolchain@v1",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -477,6 +477,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "rust-diplomat/diplomat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hjson/hjson-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "databendlabs/databend-base"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chaos.yml",
+      "source_repo": "databendlabs/openraft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "databendlabs/openraft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "databendlabs/openraft"
     }
   ]
 }

@@ -19,12 +19,30 @@
       "source_repo": "commercialhaskell/stack",
       "status": "candidate-context",
       "text": "Apply stan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stable-haskell/stack",
+      "status": "candidate-context",
+      "text": "The Haskell Tool Stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stable-haskell/stack",
+      "status": "candidate-context",
+      "text": "Apply stan"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "commercialhaskell/stack",
+      "status": "candidate",
+      "text": "Apply stan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stable-haskell/stack",
       "status": "candidate",
       "text": "Apply stan"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/stan.yml",
       "source_repo": "commercialhaskell/stack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stan.yml",
+      "source_repo": "stable-haskell/stack"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

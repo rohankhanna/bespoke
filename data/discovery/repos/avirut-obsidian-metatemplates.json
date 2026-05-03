@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-copy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "target": "@rollup/plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "target": "rollup-plugin-copy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avirut/obsidian-metatemplates",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avirut/obsidian-metatemplates",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avirut/obsidian-metatemplates",
+      "target": "obsidian-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:54:25.172529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2335
+    },
+    {
+      "path": "package.json",
+      "size": 831
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Take advantage of YAML front-matter in generating notes from templates (for obsidian.md)",
+    "fork": false,
+    "full_name": "avirut/obsidian-metatemplates",
+    "html_url": "https://github.com/avirut/obsidian-metatemplates",
+    "language": "TypeScript",
+    "pushed_at": "2022-03-24T16:04:41Z",
+    "stargazers_count": 134,
+    "topics": [
+      "obsidian",
+      "obsidian-md",
+      "obsidian-plugin"
+    ],
+    "updated_at": "2026-03-12T11:38:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Take advantage of YAML front-matter in generating notes from templates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "Take advantage of YAML front-matter in generating notes from templates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "Take advantage of YAML front-matter in generating notes from templates",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-plugin"
+    }
+  ]
+}

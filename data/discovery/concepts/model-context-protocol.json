@@ -175,6 +175,30 @@
       "source_repo": "microsoft/mcp-for-beginners",
       "status": "candidate-context",
       "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrefectHQ/fastmcp",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The fast, Pythonic way to build MCP servers and clients."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrefectHQ/fastmcp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "augmnt/augments-mcp-server",
+      "status": "candidate-context",
+      "text": "Comprehensive MCP server providing real-time framework documentation access for Claude Code with intelligent caching, multi-source integration, and context-aware assistance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "augmnt/augments-mcp-server",
+      "status": "candidate-context",
+      "text": "![Augments MCP Server](https://raw.githubusercontent.com/augmnt/augments-mcp-server/main/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "microsoft/mcp-for-beginners",
       "status": "candidate",
       "text": "![MCP-for-beginners](./images/mcp-beginners.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrefectHQ/fastmcp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "augmnt/augments-mcp-server",
+      "status": "candidate",
+      "text": "![Augments MCP Server](https://raw.githubusercontent.com/augmnt/augments-mcp-server/main/banner.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -460,11 +496,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PrefectHQ/fastmcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "augmnt/augments-mcp-server"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

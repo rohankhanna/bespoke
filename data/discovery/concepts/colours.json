@@ -19,6 +19,18 @@
       "source_repo": "ms-jpq/chadtree",
       "status": "candidate-context",
       "text": "File Manager for Neovim, Better than NERDTree."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate-context",
+      "text": "Color manipulation utilities for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate-context",
+      "text": "| **Documentation** | **Build Status** | **Code Coverage** |"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ms-jpq/chadtree",
       "status": "candidate",
       "text": "File Manager for Neovim, Better than NERDTree."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate",
+      "text": "| **Documentation** | **Build Status** | **Code Coverage** |"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ms-jpq/chadtree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Colors.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

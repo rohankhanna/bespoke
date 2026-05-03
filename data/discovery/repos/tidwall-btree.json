@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tidwall/btree",
+      "target": "tidwall/btree-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "tidwall/btree",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "tidwall/btree",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:11.953673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10449
+    },
+    {
+      "path": "go.mod",
+      "size": 41
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "B-tree implementation for Go",
+    "fork": false,
+    "full_name": "tidwall/btree",
+    "html_url": "https://github.com/tidwall/btree",
+    "language": "Go",
+    "pushed_at": "2026-02-28T09:44:19Z",
+    "stargazers_count": 1213,
+    "topics": [],
+    "updated_at": "2026-04-29T23:55:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tidwall/btree-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

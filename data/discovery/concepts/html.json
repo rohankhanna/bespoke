@@ -691,6 +691,78 @@
       "source_repo": "juancarlospaco/css-html-js-minify",
       "status": "candidate-context",
       "text": "Async single-file cross-platform no-dependencies Minifier for the Web. [![GPL License](http://img.shields.io/badge/license-GPL-blue.svg?style=plastic)](http://opensource.org/licenses/GPL-3.0) [![LGPL License](http://img.shields.io/badge/license-LGPL-blue.svg?style=plastic)](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chasefleming/elem-go",
+      "status": "candidate-context",
+      "text": "Type-safe Go library for creating and manipulating HTML elements (with htmx helpers)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chasefleming/elem-go",
+      "status": "candidate-context",
+      "text": "![elem-go logo](./logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ng-packagr/ng-packagr",
+      "status": "candidate-context",
+      "text": "Compile and package Angular libraries in Angular Package Format (APF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-packagr/ng-packagr",
+      "status": "candidate-context",
+      "text": "> Compile and package Angular libraries in Angular Package Format (APF)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathjax/MathJax",
+      "status": "candidate-context",
+      "text": "Beautiful and accessible math in all browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax",
+      "status": "candidate-context",
+      "text": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 A simple pug server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/pugserver.svg?style=for-the-badge)](https://www.npmjs.com/package/pugserver)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alangdm/helium-animated-pages",
+      "status": "candidate-context",
+      "text": "A light spiritual succesor to neon-animated-pages using only css animations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alangdm/helium-animated-pages",
+      "status": "candidate-context",
+      "text": "[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/helium-animated-pages)[![npm version](https://badge.fury.io/js/helium-animated-pages.svg)](https://badge.fury.io/js/helium-animated-pages)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keychera/panas.reload",
+      "status": "candidate-context",
+      "text": "a hot reload for babashka serving html+css (or htmx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keychera/panas.reload",
+      "status": "candidate-context",
+      "text": "[![bb compatible](https://raw.githubusercontent.com/babashka/babashka/master/logo/badge.svg)](https://babashka.org)"
     }
   ],
   "candidate_glosses": [
@@ -1035,6 +1107,42 @@
       "source_repo": "juancarlospaco/css-html-js-minify",
       "status": "candidate",
       "text": "Async single-file cross-platform no-dependencies Minifier for the Web. [![GPL License](http://img.shields.io/badge/license-GPL-blue.svg?style=plastic)](http://opensource.org/licenses/GPL-3.0) [![LGPL License](http://img.shields.io/badge/license-LGPL-blue.svg?style=plastic)](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chasefleming/elem-go",
+      "status": "candidate",
+      "text": "![elem-go logo](./logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ng-packagr/ng-packagr",
+      "status": "candidate",
+      "text": "> Compile and package Angular libraries in Angular Package Format (APF)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax",
+      "status": "candidate",
+      "text": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/pugserver.svg?style=for-the-badge)](https://www.npmjs.com/package/pugserver)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alangdm/helium-animated-pages",
+      "status": "candidate",
+      "text": "[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/helium-animated-pages)[![npm version](https://badge.fury.io/js/helium-animated-pages.svg)](https://badge.fury.io/js/helium-animated-pages)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keychera/panas.reload",
+      "status": "candidate",
+      "text": "[![bb compatible](https://raw.githubusercontent.com/babashka/babashka/master/logo/badge.svg)](https://babashka.org)"
     }
   ],
   "candidate_related_terms": [
@@ -1596,11 +1704,83 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chasefleming/elem-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ng-packagr/ng-packagr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ctrlaltdev/pug-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alangdm/helium-animated-pages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "keychera/panas.reload"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

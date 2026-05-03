@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -732,6 +732,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scan-controllers.yaml",
       "source_repo": "controlplaneio-fluxcd/distribution"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "Shopify/rubocop-sorbet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/assign-asset-label.yml",
+      "source_repo": "bitnami/containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builds-review.yaml",
+      "source_repo": "conda/conda-build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-nightly-builds.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud"
     }
   ]
 }

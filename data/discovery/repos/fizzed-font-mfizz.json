@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T01:54:52.504821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3727
+    },
+    {
+      "path": "package.json",
+      "size": 583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Font Mfizz - Vector Icons for Technology and Software Geeks",
+    "fork": false,
+    "full_name": "fizzed/font-mfizz",
+    "html_url": "https://github.com/fizzed/font-mfizz",
+    "language": "Groovy",
+    "pushed_at": "2021-05-11T03:09:39Z",
+    "stargazers_count": 538,
+    "topics": [],
+    "updated_at": "2026-03-24T15:40:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

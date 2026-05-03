@@ -14418,6 +14418,1086 @@
       "source_repo": "zen-xu/pytest-modern",
       "status": "candidate-context",
       "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate-context",
+      "text": "Yet Another Document Translator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate-context",
+      "text": "Apollo Client browser developer tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "status": "candidate-context",
+      "text": "Plugin for parsing and managing the Changelog in a \"keep a changelog\" style."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to build conda packages :octocat: \ud83d\udce6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karma-runner/karma",
+      "status": "candidate-context",
+      "text": "Spectacular Test Runner for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate-context",
+      "text": "StandardRB Action: A GitHub Action to run StandardRB against your code!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Turbo87/flat-projection-rs",
+      "status": "candidate-context",
+      "text": "Fast geodesic distance approximations via flat surface projection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Turbo87/flat-projection-rs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "status": "candidate-context",
+      "text": "An asdf plugin for the semver tool https://github.com/fsaintjacques/semver-tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsops/sops",
+      "status": "candidate-context",
+      "text": "Simple and flexible tool for managing secrets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsops/sops",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "A computer algebra system written in pure Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/nuxt-windicss",
+      "status": "candidate-context",
+      "text": "\ud83c\udf43 Windi CSS for Nuxt \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/nuxt-windicss",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unjs/unimport",
+      "status": "candidate-context",
+      "text": "Unified utils for auto importing APIs in modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unimport",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vite-pwa/vite-plugin-pwa",
+      "status": "candidate-context",
+      "text": "Zero-config PWA for Vite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vite-pwa/vite-plugin-pwa",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "solidjs/solid-router",
+      "status": "candidate-context",
+      "text": "A universal router for Solid inspired by Ember and React Router"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid-router",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unplugin/unplugin-vue-markdown",
+      "status": "candidate-context",
+      "text": "Compile Markdown to Vue component"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-markdown",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "9romise/eslint-config",
+      "status": "candidate-context",
+      "text": "Vida's ESLint config"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-config",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate-context",
+      "text": "Monorepo for ESLint Stylistic plugins and configs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "un-ts/eslint-plugin-import-x",
+      "status": "candidate-context",
+      "text": "`eslint-plugin-import-x` is a fork of `eslint-plugin-import` that aims to provide a more performant and more lightweight version of the original plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/eslint-plugin-import-x",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/starter-ts",
+      "status": "candidate-context",
+      "text": "Starter template for TypeScript library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/starter-ts",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kingwl/monaco-volar",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-perceval-weblate",
+      "status": "candidate-context",
+      "text": "GrimoireLab: Bundle of Perceval backends for Weblate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-perceval-weblate",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "perceval-backends/grimoirelab-perceval-airtable",
+      "status": "candidate-context",
+      "text": " Perceval backend for Airtable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "perceval-backends/grimoirelab-perceval-airtable",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "status": "candidate-context",
+      "text": "Perceval backend for Bitbucket"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate-context",
+      "text": "NAT type diagnosis CLI. Tells you why WebRTC/P2P/VPN connections fail and whether TURN is required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/example-webrtc-applications",
+      "status": "candidate-context",
+      "text": "Examples of WebRTC applications that are large, or use 3rd party libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/example-webrtc-applications",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/interceptor",
+      "status": "candidate-context",
+      "text": "Pluggable RTP/RTCP processors for building real time communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/interceptor",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/mediadevices",
+      "status": "candidate-context",
+      "text": "Go implementation of the MediaDevices API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/mediadevices",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/rtp",
+      "status": "candidate-context",
+      "text": "A Go implementation of RTP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/rtp",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack-cli",
+      "status": "candidate-context",
+      "text": "Webpack's Command Line Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-cli",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathjax/MathJax",
+      "status": "candidate-context",
+      "text": "Beautiful and accessible math in all browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluxcd/flux-schema",
+      "status": "candidate-context",
+      "text": "Flux CLI plugin for Kubernetes manifests validation against JSON Schemas and CEL rules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux-schema",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adyscorpius/logseq-jira",
+      "status": "candidate-context",
+      "text": "A simple Jira plugin for Logseq users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adyscorpius/logseq-jira",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/bundle-tools",
+      "status": "candidate-context",
+      "text": "bundling for intlify i18n tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/bundle-tools",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/cli",
+      "status": "candidate-context",
+      "text": "CLI Tooling for i18n development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/cli",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate-context",
+      "text": ":globe_with_meridians: ESLint plugin for Vue I18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate-context",
+      "text": "vue-i18n extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogjs/analog",
+      "status": "candidate-context",
+      "text": "The fullstack meta-framework for Angular. Powered by Vite and Nitro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogjs/analog",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-jvm-application-deployer",
+      "status": "candidate-context",
+      "text": "Command line tool to deploy JVM applications directly to Heroku without pushing to a Git repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-jvm-application-deployer",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactjs/react-docgen",
+      "status": "candidate-context",
+      "text": "A CLI and library to extract information from React component files for documentation generation purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactjs/react-docgen",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate-context",
+      "text": "Rust client framework for interacting with CometBFT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sporkmonger/addressable",
+      "status": "candidate-context",
+      "text": "Addressable is an alternative implementation to the URI implementation that is part of Ruby's standard library. It is flexible, offers heuristic parsing, and additionally provides extensive support for IRIs and URI templates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sporkmonger/addressable",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "status": "candidate-context",
+      "text": "Lock, Stock, and Two Smoking MicroVMs. Create and manage the lifecycle of MicroVMs backed by containerd."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EbrahimTahernejad/Tun2SocksKit",
+      "status": "candidate-context",
+      "text": "Tun2Socks Solution for Apple Devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EbrahimTahernejad/Tun2SocksKit",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guaguastandup/zotero-pdf2zh",
+      "status": "candidate-context",
+      "text": "PDF2zh for Zotero | Zotero PDF\u4e2d\u6587\u7ffb\u8bd1\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guaguastandup/zotero-pdf2zh",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oss-serverless/serverless",
+      "status": "candidate-context",
+      "text": "Serverless Framework CLI v3 alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oss-serverless/serverless",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "handlebars-lang/handlebars.js",
+      "status": "candidate-context",
+      "text": "Minimal templating on steroids."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handlebars-lang/handlebars.js",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karma-runner/karma-jasmine",
+      "status": "candidate-context",
+      "text": "A Karma plugin - adapter for Jasmine testing framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma-jasmine",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/hf-mount",
+      "status": "candidate-context",
+      "text": "Mount Hugging Face Buckets and repos as local filesystems. No download, no copy, no waiting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/hf-mount",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/ifrnet-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation implemented with ncnn library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/ifrnet-ncnn-vulkan",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "runpod/runpodctl",
+      "status": "candidate-context",
+      "text": "interact with Runpod via the cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runpod/runpodctl",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "schollz/croc",
+      "status": "candidate-context",
+      "text": "Easily and securely send things from one computer to another :crocodile: :package:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schollz/croc",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to approve pull requests securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to update pull request branches securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "status": "candidate-context",
+      "text": "An implementation of Karpenter that uses Cluster API as the infrastructure provider."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clibs/clib",
+      "status": "candidate-context",
+      "text": "Package manager for the C programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibs/clib",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "A vulnerability scanner for container images and filesystems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vueuse/vue-demi",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa9 Creates Universal Library for Vue 2 & 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vue-demi",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unjs/unplugin",
+      "status": "candidate-context",
+      "text": "Unified plugin system for Vite, Rollup, Webpack, esbuild, Rolldown, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unplugin",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "Intelligent WindiCSS tooling for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate-context",
+      "text": "\ud83c\udf43 Windi CSS for webpack \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/kit",
+      "status": "candidate-context",
+      "text": "web development, streamlined"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/kit",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate-context",
+      "text": "Vite & Vue powered static site generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu-collective/vite-ssg",
+      "status": "candidate-context",
+      "text": "Static site generation for Vue 3 on Vite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu-collective/vite-ssg",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "status": "candidate-context",
+      "text": "This resolver adds `TypeScript` support to `eslint-plugin-import(-x)`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/get-tsconfig",
+      "status": "candidate-context",
+      "text": "Lightweight tsconfig.json parser & paths resolver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/get-tsconfig",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ember-cli/ember-exam",
+      "status": "candidate-context",
+      "text": "Run your tests with randomization, splitting, and parallelization for beautiful tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-exam",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate-context",
+      "text": "Generate difference sets between Ruby sequences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "status": "candidate-context",
+      "text": "GrimoireLab: toolset for software development analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Bitergia/release-tools",
+      "status": "candidate-context",
+      "text": "Tools to create GrimoireLab releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bitergia/release-tools",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/stun",
+      "status": "candidate-context",
+      "text": "A Go implementation of STUN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/stun",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/eslint-config",
+      "status": "candidate-context",
+      "text": "An ESLint config for Svelte"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/eslint-config",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate-context",
+      "text": "Clojure library for fast JSON encoding and decoding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feathericons/feather",
+      "status": "candidate-context",
+      "text": "Simply beautiful open-source icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feathericons/feather",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "violentmonkey/violentmonkey",
+      "status": "candidate-context",
+      "text": "Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "violentmonkey/violentmonkey",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Docker image to export Godot Engine games. Templates for Gitlab CI and GitHub Actions to deploy to GitLab Pages/GitHub Pages/Itch.io."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/libcnb.rs",
+      "status": "candidate-context",
+      "text": "A framework for writing Cloud Native Buildpacks in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/libcnb.rs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbt/sbt-native-packager",
+      "status": "candidate-context",
+      "text": "sbt Native Packager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-native-packager",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/webapp-runner",
+      "status": "candidate-context",
+      "text": "Lightweight Application Launcher. Launch your webapp in the most popular open source web container available with a single command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/webapp-runner",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcad\ud83d\udc40precognition.nvim - Precognition uses virtual text and gutter signs to show available motions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate-context",
+      "text": "A collection of LS_COLORS definitions; needs your contribution!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate-context",
+      "text": "'Release'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/addon-events",
+      "status": "candidate-context",
+      "text": "Add events to your Storybook stories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/addon-events",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/addon-google-analytics",
+      "status": "candidate-context",
+      "text": "Storybook addon for google analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/addon-google-analytics",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybook-eol/addon-graphql",
+      "status": "candidate-context",
+      "text": "Storybook addon to display the GraphiQL IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybook-eol/addon-graphql",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/addon-jest",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate-context",
+      "text": "Rust client framework for interacting with CometBFT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate-context",
+      "text": "The Cluster API provider for creating microvm (i.e. Firecracker, Cloud Hypervisor) clusters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esbuild-kit/cjs-loader",
+      "status": "candidate-context",
+      "text": "Node.js loader for compiling ESM & TypeScript modules to CommonJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esbuild-kit/cjs-loader",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esbuild-kit/esm-loader",
+      "status": "candidate-context",
+      "text": "Node.js loader for compiling TypeScript modules to ESM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esbuild-kit/esm-loader",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactor/BlockHound",
+      "status": "candidate-context",
+      "text": "Java agent to detect blocking calls from non-blocking threads."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/BlockHound",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/ice",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 ice.js: The Progressive App Framework Based On React\uff08\u57fa\u4e8e React \u7684\u6e10\u8fdb\u5f0f\u5e94\u7528\u6846\u67b6\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ice",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate-context",
+      "text": "Postgres Foreign Data Wrapper development framework in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate-context",
+      "text": "Release"
     }
   ],
   "candidate_glosses": [
@@ -21720,6 +22800,552 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zen-xu/pytest-modern",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prefix-dev/rattler-build-action",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Turbo87/flat-projection-rs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsops/sops",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/nuxt-windicss",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unimport",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vite-pwa/vite-plugin-pwa",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid-router",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unplugin/unplugin-vue-markdown",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-config",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/eslint-plugin-import-x",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/starter-ts",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kingwl/monaco-volar",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-perceval-weblate",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "perceval-backends/grimoirelab-perceval-airtable",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/example-webrtc-applications",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/interceptor",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/mediadevices",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/rtp",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-cli",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluxcd/flux-schema",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adyscorpius/logseq-jira",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/bundle-tools",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/cli",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/eslint-plugin-vue-i18n",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogjs/analog",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-jvm-application-deployer",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactjs/react-docgen",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sporkmonger/addressable",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EbrahimTahernejad/Tun2SocksKit",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guaguastandup/zotero-pdf2zh",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oss-serverless/serverless",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "handlebars-lang/handlebars.js",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karma-runner/karma-jasmine",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/hf-mount",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/ifrnet-ncnn-vulkan",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "runpod/runpodctl",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schollz/croc",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clibs/clib",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vueuse/vue-demi",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unplugin",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/kit",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu-collective/vite-ssg",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/get-tsconfig",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-exam",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bitergia/release-tools",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/stun",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/eslint-config",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feathericons/feather",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "violentmonkey/violentmonkey",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/libcnb.rs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbt/sbt-native-packager",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/webapp-runner",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/LS_COLORS",
+      "status": "candidate",
+      "text": "'Release'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/addon-events",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/addon-google-analytics",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybook-eol/addon-graphql",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/addon-jest",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esbuild-kit/cjs-loader",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esbuild-kit/esm-loader",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/BlockHound",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ice",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/wrappers",
       "status": "candidate",
       "text": "Release"
     }
@@ -33920,11 +35546,1127 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fla-org/flash-linear-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/apollo-client-devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reduxjs/redux-devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/DiffSynth-Studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lindera/lindera-tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "phodal/chapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "prefix-dev/rattler-build-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "karma-runner/karma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andrewmcodes/standardrb-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-python.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/multileveldown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Turbo87/flat-projection-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "git-lfs/git-lfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-package.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "0no-co/wonka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/karpenter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mathew-fleisch/asdf-semver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "getsops/sops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sympy/sympy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "windicss/nuxt-windicss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unplugin/unplugin-auto-import"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unjs/unimport"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unocss/unocss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "solidjs/solid-router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vuejs/language-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unplugin/unplugin-vue-markdown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "9romise/eslint-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eslint-stylistic/eslint-stylistic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "un-ts/eslint-plugin-import-x"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antfu/starter-ts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Kingwl/monaco-volar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vuejs/devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rollingversions.yml",
+      "source_repo": "pugjs/pug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "huggingface/hf-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval-weblate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-airtable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "1mb-dev/natcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pion/example-webrtc-applications"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pion/interceptor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "pion/mediadevices"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pion/rtp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webpack/webpack-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "browserslist/browserslist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mathjax/MathJax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "PyCQA/isort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "fluxcd/flux-schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sveltejs/devalue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "adyscorpius/logseq-jira"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "vmware-archive/buildkit-cli-for-kubectl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "intlify/bundle-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "intlify/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "intlify/eslint-plugin-vue-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "intlify/vue-i18n-extensions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "analogjs/analog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lite-xl/lite-xl-plugin-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/ForkUnion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/SmashTable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heroku/heroku-jvm-application-deployer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazeltools/bazel-deps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/changesets.yml",
+      "source_repo": "reactjs/react-docgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alloy-rs/svm-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sporkmonger/addressable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrueFiEng/Waffle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/flintlock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shareAI-lab/Kode-Agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joshsymonds/cc-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "EbrahimTahernejad/Tun2SocksKit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "littlefs-project/littlefs-fuse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/omp-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "compozy/kb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "guaguastandup/zotero-pdf2zh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "oss-serverless/serverless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "handlebars-lang/handlebars.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "karma-runner/karma-jasmine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "huggingface/hf-mount"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nihui/ifrnet-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "runpod/runpodctl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "schollz/croc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "csm-actions/approve-pr-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "csm-actions/update-branch-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clibs/clib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "anchore/grype"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vueuse/vue-demi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "unjs/unplugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "windicss/windicss-intellisense"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "windicss/windicss-webpack-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sveltejs/kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-tag.yml",
+      "source_repo": "vuejs/vitepress"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antfu-collective/vite-ssg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "privatenumber/get-tsconfig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ember-cli/ember-exam"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "halostatue/diff-lcs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Bitergia/release-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pion/stun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sveltejs/eslint-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "emotion-js/emotion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "metosin/jsonista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "feathericons/feather"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "violentmonkey/violentmonkey"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "abarichello/godot-ci"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heroku/libcnb.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sbt/sbt-native-packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heroku/webapp-runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tris203/precognition.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "trapd00r/LS_COLORS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "storybookjs/addon-events"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "storybookjs/addon-google-analytics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "storybook-eol/addon-graphql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "storybookjs/addon-jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cometbft/cometbft-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "esbuild-kit/cjs-loader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "esbuild-kit/esm-loader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "reactor/BlockHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "littlefs-project/littlefs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alibaba/ice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "supabase/wrappers"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

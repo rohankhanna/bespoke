@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:46:47.581498+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "adiSuper94/dns-rs",
+    "html_url": "https://github.com/adiSuper94/dns-rs",
+    "language": "Rust",
+    "pushed_at": "2024-04-27T01:18:37Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-05-05T14:40:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

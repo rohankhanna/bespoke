@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:51:09.741954+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs package database",
+    "fork": false,
+    "full_name": "emacsmirror/epkgs",
+    "html_url": "https://github.com/emacsmirror/epkgs",
+    "language": "Makefile",
+    "pushed_at": "2026-05-01T19:38:31Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-05-01T19:38:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

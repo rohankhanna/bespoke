@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:54:21.390891+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ztzhang/casualSAM",
+    "html_url": "https://github.com/ztzhang/casualSAM",
+    "language": "JavaScript",
+    "pushed_at": "2023-04-13T15:04:22Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-05-01T22:01:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

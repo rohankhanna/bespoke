@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@v1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litescope",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litescope",
+      "target": "hendrikmuhs/ccache-action@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "enjoy-digital/litescope",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:59:29.218770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6281
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small footprint and configurable embedded FPGA logic analyzer",
+    "fork": false,
+    "full_name": "enjoy-digital/litescope",
+    "html_url": "https://github.com/enjoy-digital/litescope",
+    "language": "Python",
+    "pushed_at": "2026-04-30T09:01:34Z",
+    "stargazers_count": 203,
+    "topics": [],
+    "updated_at": "2026-04-30T09:01:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NAT type diagnosis CLI. Tells you why WebRTC/P2P/VPN connections fail and whether TURN is required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nat-traversal",
+      "sense_id": "nat-traversal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nat-traversal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nat-traversal",
+  "observation_id": "620351b53de8ad5a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "nat-traversal",
+  "source_context_snippet": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required.",
+  "source_file": null,
+  "source_repo": "1mb-dev/natcheck",
+  "source_repo_description": "NAT type diagnosis CLI. Tells you why WebRTC/P2P/VPN connections fail and whether TURN is required."
+}

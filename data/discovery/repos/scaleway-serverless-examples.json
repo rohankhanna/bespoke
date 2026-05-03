@@ -1,0 +1,312 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-function-offline-testing.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-function-offline-testing.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-function-offline-testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-function-offline-testing.yml"
+    },
+    {
+      "component": "BerniWittmann/background-server-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-function-offline-testing.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml"
+    },
+    {
+      "component": "BerniWittmann/background-server-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml"
+    },
+    {
+      "component": "BerniWittmann/background-server-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml"
+    },
+    {
+      "component": "BerniWittmann/background-server-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "scaleway/serverless-gateway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "scaleway/scaleway-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "scaleway/serverless-api-project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-function-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-function-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-function-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "golang-function-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-function-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-function-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-function-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "BerniWittmann/background-server-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "BerniWittmann/background-server-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples",
+      "target": "triggers-offline-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-examples",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-examples",
+      "target": "functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-examples",
+      "target": "scaleway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scaleway/serverless-examples",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:03:31.909016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18003
+    },
+    {
+      "path": ".github/workflows/go-function-offline-testing.yml",
+      "size": 1138
+    },
+    {
+      "path": ".github/workflows/python-function-offline-testing.yml",
+      "size": 798
+    },
+    {
+      "path": ".github/workflows/triggers-functions-offline-testing.yml",
+      "size": 2914
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example projects and patterns for use with Scaleway's serverless products",
+    "fork": false,
+    "full_name": "scaleway/serverless-examples",
+    "html_url": "https://github.com/scaleway/serverless-examples",
+    "language": "Go",
+    "pushed_at": "2026-03-30T12:14:12Z",
+    "stargazers_count": 64,
+    "topics": [
+      "containers",
+      "functions",
+      "scaleway",
+      "serverless"
+    ],
+    "updated_at": "2026-04-29T23:14:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scaleway/scaleway-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scaleway/serverless-api-project",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scaleway/serverless-gateway",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "golang-function-testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-function-offline-testing.yml",
+      "term": "golang-function-testing"
+    },
+    {
+      "context_snippet": "triggers-offline-testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml",
+      "term": "triggers-offline-testing"
+    },
+    {
+      "context_snippet": "This is a collection of example projects and patterns for use with Scaleway's serverless products.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "This is a collection of example projects and patterns for use with Scaleway's serverless products.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functions"
+    },
+    {
+      "context_snippet": "This is a collection of example projects and patterns for use with Scaleway's serverless products.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaleway"
+    },
+    {
+      "context_snippet": "This is a collection of example projects and patterns for use with Scaleway's serverless products.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    }
+  ]
+}

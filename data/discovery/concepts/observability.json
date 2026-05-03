@@ -361,6 +361,30 @@
       "source_repo": "mlflow/mlflow",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taoensso/telemere",
+      "status": "candidate-context",
+      "text": "Structured logs and telemetry for Clojure/Script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/telemere",
+      "status": "candidate-context",
+      "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"340\"/></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrunoBonacci/mulog",
+      "status": "candidate-context",
+      "text": "\u03bc/log is a micro-logging library that logs events and data, not words!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrunoBonacci/mulog",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)"
     }
   ],
   "candidate_glosses": [
@@ -543,6 +567,18 @@
       "source_repo": "mlflow/mlflow",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/telemere",
+      "status": "candidate",
+      "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"340\"/></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrunoBonacci/mulog",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)"
     }
   ],
   "candidate_related_terms": [
@@ -820,11 +856,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "taoensso/telemere"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "BrunoBonacci/mulog"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

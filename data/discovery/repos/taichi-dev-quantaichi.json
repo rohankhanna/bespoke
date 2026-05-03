@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/quantaichi",
+      "target": "taichi-dev/taichi_elements",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:11.228290+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5094
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "QuanTaichi evaluation suite",
+    "fork": false,
+    "full_name": "taichi-dev/quantaichi",
+    "html_url": "https://github.com/taichi-dev/quantaichi",
+    "language": "Python",
+    "pushed_at": "2023-11-21T06:19:25Z",
+    "stargazers_count": 166,
+    "topics": [],
+    "updated_at": "2026-04-04T12:59:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taichi-dev/taichi_elements",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

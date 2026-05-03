@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml"
+    },
+    {
+      "component": "KyleMayes/install-llvm-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "godot-rust/godot4-prebuilt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "godot-rust/godot4-prebuilt",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "godot-rust/godot4-prebuilt",
+      "target": "KyleMayes/install-llvm-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "godot-rust/godot4-prebuilt",
+      "target": "Nightly Linux artifacts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:04:36.494803+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build-nightly.yml",
+      "size": 7331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Godot 4 artifacts to be consumed by `gdext`",
+    "fork": false,
+    "full_name": "godot-rust/godot4-prebuilt",
+    "html_url": "https://github.com/godot-rust/godot4-prebuilt",
+    "language": "Rust",
+    "pushed_at": "2026-05-02T07:09:28Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-12-21T14:40:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Nightly Linux artifacts\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "term": "Nightly Linux artifacts"
+    }
+  ]
+}

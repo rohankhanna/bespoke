@@ -79,6 +79,30 @@
       "source_repo": "apache/age-viewer",
       "status": "candidate-context",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate-context",
+      "text": "Postgres Foreign Data Wrapper development framework in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate-context",
+      "text": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "Build Postgres Extensions with Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "![Logo](art/pgrx-logo-color-transparent-475x518.png)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "apache/age-viewer",
       "status": "candidate",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate",
+      "text": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate",
+      "text": "![Logo](art/pgrx-logo-color-transparent-475x518.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "apache/age-viewer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "supabase/wrappers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pgcentralfoundation/pgrx"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

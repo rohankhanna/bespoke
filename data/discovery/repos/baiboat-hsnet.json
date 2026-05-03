@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:39:32.298441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CIBM22] HSNet: A Hybrid Semantic Network for Polyp Segmentation. ",
+    "fork": false,
+    "full_name": "baiboat/HSNet",
+    "html_url": "https://github.com/baiboat/HSNet",
+    "language": "Python",
+    "pushed_at": "2024-07-27T14:33:02Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-04-03T20:08:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

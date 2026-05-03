@@ -103,6 +103,18 @@
       "source_repo": "antoniusnaumann/cargo-swift",
       "status": "candidate-context",
       "text": "[![Language: Rust](https://img.shields.io/badge/Language-Rust-F46623)](https://www.rust-lang.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef-editor-client",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1Client-side code for the nef editor app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-client",
+      "status": "candidate-context",
+      "text": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "antoniusnaumann/cargo-swift",
       "status": "candidate",
       "text": "[![Language: Rust](https://img.shields.io/badge/Language-Rust-F46623)](https://www.rust-lang.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-client",
+      "status": "candidate",
+      "text": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "antoniusnaumann/cargo-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-client"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

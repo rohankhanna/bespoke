@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-mdcs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-watch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lo-th/Oimo.js",
+      "target": "saharan/oimophysics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lo-th/Oimo.js",
+      "target": "lo-th/phy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lo-th/Oimo.js",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lo-th/Oimo.js",
+      "target": "eslint-config-mdcs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lo-th/Oimo.js",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lo-th/Oimo.js",
+      "target": "rollup-watch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lo-th/Oimo.js",
+      "target": "terser",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:12.755910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3640
+    },
+    {
+      "path": "package.json",
+      "size": 1537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Lightweight 3d physics engine for javascript",
+    "fork": false,
+    "full_name": "lo-th/Oimo.js",
+    "html_url": "https://github.com/lo-th/Oimo.js",
+    "language": "JavaScript",
+    "pushed_at": "2021-07-08T16:40:21Z",
+    "stargazers_count": 3159,
+    "topics": [],
+    "updated_at": "2026-05-01T05:29:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lo-th/phy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saharan/oimophysics",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -48,7 +48,7 @@
   "normalized_form": "credhub",
   "observation_id": "731a5e5bb691ce24",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "credhub",
   "source_context_snippet": "CredHub manages credentials like passwords, certificates, ssh keys, rsa keys, strings (arbitrary values) and CAs. CredHub provides a CLI and API to get, set, generate and securely store such credentials.",
   "source_file": null,

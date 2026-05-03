@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:02:37.456313+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Proceedings of IEEE CVF. ICCV 2021 \"Synthesis of Compositional Animations from Textual Descriptions.\"",
+    "fork": false,
+    "full_name": "anindita127/Complextext2animation",
+    "html_url": "https://github.com/anindita127/Complextext2animation",
+    "language": "Python",
+    "pushed_at": "2023-04-20T00:24:32Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2026-02-17T14:45:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,307 @@
+{
+  "components": [
+    {
+      "component": "@tc39/ecma262-biblio",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tc39/ecma402-biblio",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "marked",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prismjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "proposal-decimal",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "elstudio/actions-js-build/commit@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "webassembly/js-bigint-integration",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "tc39/proposal-amount",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "tc39/proposal-bigint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "@tc39/ecma262-biblio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "@tc39/ecma402-biblio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "marked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "prismjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "proposal-decimal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "elstudio/actions-js-build/commit@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "Deploy spec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "tc39/proposal-decimal",
+      "target": "lint spec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-decimal",
+      "target": "arithmetic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-decimal",
+      "target": "decimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-decimal",
+      "target": "decimal128",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc39/proposal-decimal",
+      "target": "ieee754",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:18.047707+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34620
+    },
+    {
+      "path": "package.json",
+      "size": 1324
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 402
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 608
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Built-in exact decimal numbers for JavaScript",
+    "fork": false,
+    "full_name": "tc39/proposal-decimal",
+    "html_url": "https://github.com/tc39/proposal-decimal",
+    "language": "HTML",
+    "pushed_at": "2026-02-12T15:35:20Z",
+    "stargazers_count": 617,
+    "topics": [
+      "arithmetic",
+      "decimal",
+      "decimal128",
+      "ieee754",
+      "javascript"
+    ],
+    "updated_at": "2026-04-27T08:55:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-amount",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-bigint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/js-bigint-integration",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy spec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Deploy spec"
+    },
+    {
+      "context_snippet": "lint spec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "lint spec"
+    },
+    {
+      "context_snippet": "The TC39 Decimal proposal aims to add exact decimal arithmetic to JavaScript, eliminating the rounding errors that occur with binary floating-point numbers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arithmetic"
+    },
+    {
+      "context_snippet": "The TC39 Decimal proposal aims to add exact decimal arithmetic to JavaScript, eliminating the rounding errors that occur with binary floating-point numbers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decimal"
+    },
+    {
+      "context_snippet": "The TC39 Decimal proposal aims to add exact decimal arithmetic to JavaScript, eliminating the rounding errors that occur with binary floating-point numbers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decimal128"
+    },
+    {
+      "context_snippet": "The TC39 Decimal proposal aims to add exact decimal arithmetic to JavaScript, eliminating the rounding errors that occur with binary floating-point numbers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ieee754"
+    }
+  ]
+}

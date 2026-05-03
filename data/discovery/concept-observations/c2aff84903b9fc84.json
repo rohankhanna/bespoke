@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Traditional Chinese Edition of LXGW WenKai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build font and specimen"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build font and specimen"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18505,
+      "status": "candidate",
+      "text": "type"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18422,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18298,
+      "status": "candidate",
+      "text": "redevelop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18255,
+      "status": "candidate",
+      "text": "serif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18252,
+      "status": "candidate",
+      "text": "typify"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build font and specimen",
+      "sense_id": "build-font-and-specimen#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-font-and-specimen",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-font-and-specimen",
+  "observation_id": "c2aff84903b9fc84",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Build font and specimen",
+  "source_context_snippet": "Build font and specimen",
+  "source_file": ".github/workflows/build.yaml",
+  "source_repo": "lxgw/LxgwWenkaiTC",
+  "source_repo_description": "The Traditional Chinese Edition of LXGW WenKai."
+}

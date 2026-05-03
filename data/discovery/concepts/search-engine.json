@@ -199,6 +199,18 @@
       "source_repo": "qdrant/qdrant",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewtrotman/JASSv2",
+      "status": "candidate-context",
+      "text": "Experimental search engine in C/C++17 - still in early development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewtrotman/JASSv2",
+      "status": "candidate-context",
+      "text": "The JASS experimental search engine is still in development. Please see the [wiki](../../wiki) for details."
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
       "source_repo": "qdrant/qdrant",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewtrotman/JASSv2",
+      "status": "candidate",
+      "text": "The JASS experimental search engine is still in development. Please see the [wiki](../../wiki) for details."
     }
   ],
   "candidate_related_terms": [],
@@ -436,11 +454,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "weaviate/weaviate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "andrewtrotman/JASSv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "weaviate/weaviate"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

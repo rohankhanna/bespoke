@@ -1,0 +1,326 @@
+{
+  "components": [
+    {
+      "component": "a-b-r-o-w-n/add-pr-owner-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-pr-owner.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_updates.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_updates.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    },
+    {
+      "component": "actions/cache@preview",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "microsoft/botframework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-pr-owner.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "a-b-r-o-w-n/add-pr-owner-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-pr-owner.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "Add PR Owner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_updates.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency_updates.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "peter-evans/create-pull-request@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency_updates.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "Update Composer dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "Docker Build Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "coverallsapp/github-action@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "Composer CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "actions/cache@preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "Pull Request Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "chatbots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "conversational-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/BotFramework-Composer",
+      "target": "microsoft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:52:11.095009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8259
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2105
+    },
+    {
+      "path": ".github/workflows/add-pr-owner.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/dependency_updates.yml",
+      "size": 1043
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1056
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1951
+    },
+    {
+      "path": ".github/workflows/validate-pr.yml",
+      "size": 854
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Dialog creation and management for Microsoft Bot Framework Applications",
+    "fork": false,
+    "full_name": "microsoft/BotFramework-Composer",
+    "html_url": "https://github.com/microsoft/BotFramework-Composer",
+    "language": "TypeScript",
+    "pushed_at": "2025-02-14T17:34:59Z",
+    "stargazers_count": 887,
+    "topics": [
+      "bots",
+      "chatbots",
+      "conversational-ai",
+      "microsoft"
+    ],
+    "updated_at": "2026-04-30T10:33:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botframework",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add PR Owner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-pr-owner.yml",
+      "term": "Add PR Owner"
+    },
+    {
+      "context_snippet": "Update Composer dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency_updates.yml",
+      "term": "Update Composer dependencies"
+    },
+    {
+      "context_snippet": "Docker Build Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker Build Validation"
+    },
+    {
+      "context_snippet": "Composer CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Composer CI"
+    },
+    {
+      "context_snippet": "Pull Request Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "term": "Pull Request Validation"
+    },
+    {
+      "context_snippet": "Bot Framework Composer migration to Microsoft Copilot Studio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bots"
+    },
+    {
+      "context_snippet": "Bot Framework Composer migration to Microsoft Copilot Studio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbots"
+    },
+    {
+      "context_snippet": "Bot Framework Composer migration to Microsoft Copilot Studio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-ai"
+    },
+    {
+      "context_snippet": "Bot Framework Composer migration to Microsoft Copilot Studio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    }
+  ]
+}

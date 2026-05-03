@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An MCP Server for Chrome DevTools, following the Chrome DevTools Protocol. Integrates with Claude Desktop and Claude Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Chrome DevTools Extension"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Chrome DevTools Extension"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23187,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22040,
+      "status": "candidate",
+      "text": "tab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22022,
+      "status": "candidate",
+      "text": "steel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22004,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21627,
+      "status": "candidate",
+      "text": "vault"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Chrome DevTools Extension",
+      "sense_id": "build-chrome-devtools-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-chrome-devtools-extension",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-chrome-devtools-extension",
+  "observation_id": "b3caea4e95eb8640",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Build Chrome DevTools Extension",
+  "source_context_snippet": "Build Chrome DevTools Extension",
+  "source_file": ".github/workflows/build-extension.yml",
+  "source_repo": "benjaminr/chrome-devtools-mcp",
+  "source_repo_description": "An MCP Server for Chrome DevTools, following the Chrome DevTools Protocol. Integrates with Claude Desktop and Claude Code."
+}

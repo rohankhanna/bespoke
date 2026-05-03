@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "convenient input and display of LaTeX equation strings for the Julia language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/JuliaStrings/LaTeXStrings.jl/workflows/CI/badge.svg)](https://github.com/JuliaStrings/LaTeXStrings.jl/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/JuliaStrings/LaTeXStrings.jl/workflows/CI/badge.svg)](https://github.com/JuliaStrings/LaTeXStrings.jl/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947801,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945870,
+      "status": "candidate",
+      "text": "drawstring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39939852,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39939337,
+      "status": "candidate",
+      "text": "train"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39926720,
+      "status": "candidate",
+      "text": "twine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "strings",
+      "sense_id": "strings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "strings",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "strings",
+  "observation_id": "dfd30aa09360948c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "strings",
+  "source_context_snippet": "[![Build Status](https://github.com/JuliaStrings/LaTeXStrings.jl/workflows/CI/badge.svg)](https://github.com/JuliaStrings/LaTeXStrings.jl/actions)",
+  "source_file": null,
+  "source_repo": "JuliaStrings/LaTeXStrings.jl",
+  "source_repo_description": "convenient input and display of LaTeX equation strings for the Julia language"
+}

@@ -634,6 +634,102 @@
       "source_repo": "webpack/css-loader",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unjs/unimport",
+      "status": "candidate-context",
+      "text": "Unified utils for auto importing APIs in modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unimport",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/style-loader",
+      "status": "candidate-context",
+      "text": "Style Loader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/style-loader",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack-cli",
+      "status": "candidate-context",
+      "text": "Webpack's Command Line Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-cli",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate-context",
+      "text": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unjs/unplugin",
+      "status": "candidate-context",
+      "text": "Unified plugin system for Vite, Rollup, Webpack, esbuild, Rolldown, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unplugin",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate-context",
+      "text": "\ud83c\udf43 Windi CSS for webpack \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate-context",
+      "text": "<h1 align='center'>windicss-webpack-plugin</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reZach/secure-electron-template",
+      "status": "candidate-context",
+      "text": "The best way to build Electron apps with security in mind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reZach/secure-electron-template",
+      "status": "candidate-context",
+      "text": "A current electron app template with the most popular frameworks, designed and built with security in mind. (If you are curious about what makes an electron app secure, please check out [this page](https://github.com/reZach/secure-electron-template/blob/master/docs/secureapps.md\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/ice",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 ice.js: The Progressive App Framework Based On React\uff08\u57fa\u4e8e React \u7684\u6e10\u8fdb\u5f0f\u5e94\u7528\u6846\u67b6\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ice",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -948,6 +1044,54 @@
       "source_repo": "webpack/css-loader",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unimport",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/style-loader",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-cli",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unplugin",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-webpack-plugin",
+      "status": "candidate",
+      "text": "<h1 align='center'>windicss-webpack-plugin</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reZach/secure-electron-template",
+      "status": "candidate",
+      "text": "A current electron app template with the most popular frameworks, designed and built with security in mind. (If you are curious about what makes an electron app secure, please check out [this page](https://github.com/reZach/secure-electron-template/blob/master/docs/secureapps.md\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ice",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1405,11 +1549,95 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unjs/unimport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "webpack/style-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "webpack/webpack-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PanJiaChen/vue-element-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unjs/unplugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "windicss/windicss-webpack-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "reZach/secure-electron-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/ice"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

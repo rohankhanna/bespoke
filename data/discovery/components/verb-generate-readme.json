@@ -1,7 +1,7 @@
 {
   "component": "verb-generate-readme",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

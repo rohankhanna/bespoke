@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udeba A simple, clean, customizable Hugo theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012134,
+      "status": "candidate",
+      "text": "uncomplicated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011883,
+      "status": "candidate",
+      "text": "unpretentious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011782,
+      "status": "candidate",
+      "text": "simplex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011350,
+      "status": "candidate",
+      "text": "simplistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010742,
+      "status": "candidate",
+      "text": "bare"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "simple",
+      "sense_id": "simple#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54037,
+      "status": "candidate",
+      "text": "modest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 53036,
+      "status": "candidate",
+      "text": "naive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48025,
+      "status": "candidate",
+      "text": "naif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45049,
+      "status": "candidate",
+      "text": "obtuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40051,
+      "status": "candidate",
+      "text": "common"
+    }
+  ],
+  "concept_id": "simple",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "simple",
+  "observation_id": "722b4d0f93c1217a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "simple",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "nanxiaobei/hugo-paper",
+  "source_repo_description": "\ud83e\udeba A simple, clean, customizable Hugo theme"
+}

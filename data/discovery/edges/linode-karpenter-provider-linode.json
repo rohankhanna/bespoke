@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "jetify-com/devbox-install-action@v0.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "Test and Upload Coverage Reports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-main-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-main-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-main-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-main-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "e2e-main-trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-manual-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "e2e-manual-trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-nightly-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "e2e-nightly-trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-pr-cleanup-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-pr-cleanup-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "e2e-pr-cleanup-trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-pr-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-pr-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "step-security/harden-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-pr-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-pr-trigger.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "e2e-pr-trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "linode/karpenter-provider-linode",
+      "target": "e2e",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "linode/karpenter-provider-linode"
+}

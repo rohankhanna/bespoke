@@ -83,27 +83,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lumen-oss/lz.n",
-      "target": "horriblename/lzn-auto-require",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lumen-oss/lz.n",
-      "target": "lumen-oss/rtp.nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lumen-oss/lz.n",
-      "target": "ntbbloodbath/sweetie.nvim",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/luarocks.yml",
       "source_repo": "lumen-oss/lz.n",
@@ -258,7 +237,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T19:07:18.167957+00:00",
+  "fetched_at": "2026-05-03T01:57:45.489118+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -310,23 +289,7 @@
     ],
     "updated_at": "2026-04-28T15:36:56Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "horriblename/lzn-auto-require",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lumen-oss/rtp.nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ntbbloodbath/sweetie.nvim",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Push to LuaRocks",

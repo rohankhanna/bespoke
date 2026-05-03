@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "snippet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "status": "candidate-context",
+      "text": "An initiative to standardize the Alternative Checkboxes feature commonly used by the community in Obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/damiankorczAlternative-Checkboxes-Reference-Set/releases\"><img src=\"https://img.shields.io/github/v/release/damiankorcz/Alternative-Checkboxes-Reference-Set?style=for-the-badge&color=%23A47B61&labelColor=%23252525&logo=data:image/png;base64,iVBORw0KGg\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/damiankorczAlternative-Checkboxes-Reference-Set/releases\"><img src=\"https://img.shields.io/github/v/release/damiankorcz/Alternative-Checkboxes-Reference-Set?style=for-the-badge&color=%23A47B61&labelColor=%23252525&logo=data:image/png;base64,iVBORw0KGg\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903880,
+      "status": "candidate",
+      "text": "snipping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39902445,
+      "status": "candidate",
+      "text": "snip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999184,
+      "status": "candidate",
+      "text": "excerpt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991304,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986447,
+      "status": "candidate",
+      "text": "chunk"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10040,
+      "status": "candidate",
+      "text": "snip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20,
+      "status": "candidate",
+      "text": "snipping"
+    }
+  ],
+  "canonical_name": "snippet",
+  "concept_id": "snippet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snippet",
+      "sense_id": "snippet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

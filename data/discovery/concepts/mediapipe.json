@@ -55,6 +55,18 @@
       "source_repo": "j20001970/GDMP",
       "status": "candidate-context",
       "text": "GDMP is a [Godot Engine](https://godotengine.org) plugin for utilizing [MediaPipe](https://developers.google.com/mediapipe) framework and solutions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j20001970/GDMP-demo",
+      "status": "candidate-context",
+      "text": "Demo project for GDMP plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP-demo",
+      "status": "candidate-context",
+      "text": "This is the demo project for [GDMP](https://github.com/j20001970/GDMP) plugin."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "j20001970/GDMP",
       "status": "candidate",
       "text": "GDMP is a [Godot Engine](https://godotengine.org) plugin for utilizing [MediaPipe](https://developers.google.com/mediapipe) framework and solutions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP-demo",
+      "status": "candidate",
+      "text": "This is the demo project for [GDMP](https://github.com/j20001970/GDMP) plugin."
     }
   ],
   "candidate_related_terms": [],
@@ -154,11 +172,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "j20001970/GDMP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP-demo"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

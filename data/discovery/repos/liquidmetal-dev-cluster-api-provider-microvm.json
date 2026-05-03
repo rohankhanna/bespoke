@@ -1,0 +1,335 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "codelytv/pr-size-labeler@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_size.yml"
+    },
+    {
+      "component": "docker://agilepathway/pull-request-label-checker:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_type.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "kubernetes-sigs/cluster-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "kubernetes-sigs/cluster-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_size.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "codelytv/pr-size-labeler@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_type.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "docker://agilepathway/pull-request-label-checker:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "cloud-hypervisor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "cluster-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "firecracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "kubernetes-cluster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "target": "microvm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:01:48.751915+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3401
+    },
+    {
+      "path": "Dockerfile",
+      "size": 858
+    },
+    {
+      "path": "go.mod",
+      "size": 7683
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 253
+    },
+    {
+      "path": ".github/workflows/pr_size.yml",
+      "size": 434
+    },
+    {
+      "path": ".github/workflows/pr_type.yml",
+      "size": 467
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1527
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 967
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Cluster API provider for creating microvm (i.e. Firecracker, Cloud Hypervisor) clusters",
+    "fork": false,
+    "full_name": "liquidmetal-dev/cluster-api-provider-microvm",
+    "html_url": "https://github.com/liquidmetal-dev/cluster-api-provider-microvm",
+    "language": "Go",
+    "pushed_at": "2025-11-24T03:38:20Z",
+    "stargazers_count": 145,
+    "topics": [
+      "cloud-hypervisor",
+      "cluster-api",
+      "firecracker",
+      "kubernetes-cluster",
+      "microvm"
+    ],
+    "updated_at": "2026-04-22T08:48:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/cluster-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/cluster-api",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "run tests"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-hypervisor"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cluster-api"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firecracker"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-cluster"
+    },
+    {
+      "context_snippet": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microvm"
+    }
+  ]
+}

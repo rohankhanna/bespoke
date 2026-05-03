@@ -1,0 +1,183 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ltkong218/IFRNet",
+      "target": "nihui/ifrnet-ncnn-vulkan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet",
+      "target": "deep-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet",
+      "target": "frame-interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet",
+      "target": "knowledge-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet",
+      "target": "optical-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet",
+      "target": "slow-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet",
+      "target": "view-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:40.319573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation (CVPR 2022)",
+    "fork": false,
+    "full_name": "ltkong218/IFRNet",
+    "html_url": "https://github.com/ltkong218/IFRNet",
+    "language": "Python",
+    "pushed_at": "2024-02-19T12:02:49Z",
+    "stargazers_count": 337,
+    "topics": [
+      "deep-learning",
+      "deep-networks",
+      "frame-interpolation",
+      "knowledge-distillation",
+      "optical-flow",
+      "pytorch",
+      "real-time",
+      "slow-motion",
+      "video",
+      "view-synthesis"
+    ],
+    "updated_at": "2026-04-22T04:34:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nihui/ifrnet-ncnn-vulkan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-networks"
+    },
+    {
+      "context_snippet": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frame-interpolation"
+    },
+    {
+      "context_snippet": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-distillation"
+    },
+    {
+      "context_snippet": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    },
+    {
+      "context_snippet": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slow-motion"
+    },
+    {
+      "context_snippet": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    },
+    {
+      "context_snippet": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "view-synthesis"
+    }
+  ]
+}

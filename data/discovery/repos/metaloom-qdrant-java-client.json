@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "advanced-security/maven-dependency-submission-action@571e99aab1055c2e71a1e2309b9691de18d6b7d6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metaloom/qdrant-java-client",
+      "target": "qdrant/java-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "metaloom/qdrant-java-client",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "metaloom/qdrant-java-client",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "metaloom/qdrant-java-client",
+      "target": "advanced-security/maven-dependency-submission-action@571e99aab1055c2e71a1e2309b9691de18d6b7d6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "metaloom/qdrant-java-client",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "metaloom/qdrant-java-client",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "metaloom/qdrant-java-client",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:04.921421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6079
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 1704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HTTP and gRPC Java Client for qdrant vector database",
+    "fork": false,
+    "full_name": "metaloom/qdrant-java-client",
+    "html_url": "https://github.com/metaloom/qdrant-java-client",
+    "language": "Java",
+    "pushed_at": "2024-02-26T10:19:58Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-04-07T09:28:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qdrant/java-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "@llamaindex/anthropic",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@llamaindex/openai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@llamaindex/workflow",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vonage/auth",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vonage/server-sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "llamaindex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pdf-to-png-converter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "resend",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "weaviate-agents",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "weaviate-client",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "@llamaindex/anthropic",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "@llamaindex/openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "@llamaindex/workflow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "@vonage/auth",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "@vonage/server-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "llamaindex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "pdf-to-png-converter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "resend",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "weaviate-agents",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "weaviate-client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "weaviate/recipes-ts",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes-ts",
+      "target": "ai-engineer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes-ts",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes-ts",
+      "target": "llm-frameworks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes-ts",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes-ts",
+      "target": "vector-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "weaviate/recipes-ts",
+      "target": "vector-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:48:26.324731+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository shares end-to-end scripts on how to use various Weaviate features and integrations!",
+    "fork": false,
+    "full_name": "weaviate/recipes-ts",
+    "html_url": "https://github.com/weaviate/recipes-ts",
+    "language": "TypeScript",
+    "pushed_at": "2025-10-17T09:35:55Z",
+    "stargazers_count": 19,
+    "topics": [
+      "agents",
+      "ai-engineer",
+      "generative-ai",
+      "javascript",
+      "llm-frameworks",
+      "retrieval-augmented-generation",
+      "vector-database",
+      "vector-search"
+    ],
+    "updated_at": "2025-10-17T09:35:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "recipes-js \u2014 a repository of weaviate recipes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-engineer"
+    },
+    {
+      "context_snippet": "recipes-js \u2014 a repository of weaviate recipes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "recipes-js \u2014 a repository of weaviate recipes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-frameworks"
+    },
+    {
+      "context_snippet": "recipes-js \u2014 a repository of weaviate recipes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    },
+    {
+      "context_snippet": "recipes-js \u2014 a repository of weaviate recipes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    },
+    {
+      "context_snippet": "recipes-js \u2014 a repository of weaviate recipes",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    }
+  ]
+}

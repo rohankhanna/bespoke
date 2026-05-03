@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "target": "botbuildercommunity/botbuilder-community-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "target": "botbuildercommunity/botbuilder-community-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "target": "bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "target": "bot-framework-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "BotBuilderCommunity/botbuilder-community-tools"
+}

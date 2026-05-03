@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "asdf-vm/actions/plugin-test@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "asdf-vm/actions/install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "asdf-vm/actions/install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "GoogleCloudPlatform/release-please-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "target": "asdf-vm/actions/plugin-test@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "target": "asdf-vm/actions/install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "target": "GoogleCloudPlatform/release-please-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:47.700760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1492
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 648
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An asdf plugin for the semver tool https://github.com/fsaintjacques/semver-tool",
+    "fork": false,
+    "full_name": "mathew-fleisch/asdf-semver",
+    "html_url": "https://github.com/mathew-fleisch/asdf-semver",
+    "language": "Shell",
+    "pushed_at": "2024-02-26T01:52:17Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-11-12T12:45:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

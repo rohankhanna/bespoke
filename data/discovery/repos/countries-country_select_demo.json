@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:49:00.871014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Demo app for the country_select gem",
+    "fork": false,
+    "full_name": "countries/country_select_demo",
+    "html_url": "https://github.com/countries/country_select_demo",
+    "language": "Ruby",
+    "pushed_at": "2025-08-28T15:39:23Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-08-28T15:39:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

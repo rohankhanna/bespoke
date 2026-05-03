@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/release-please-action@v3",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "Issafalcon/neotest-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andrewmcodes/standardrb-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/fantasy-statblocks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/dice-roller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/initiative-tracker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "javalent/obsidian-leaflet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tris203/precognition.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rebelot/heirline.nvim"
     }
   ]
 }

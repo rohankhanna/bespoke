@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "https://code-inspiration.surge.sh Capture snippets of code inspiration. Works offline after your 1st visit. Built with Svelte (migrated from React)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034356,
+      "status": "candidate",
+      "text": "upsurge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027854,
+      "status": "candidate",
+      "text": "heave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019709,
+      "status": "candidate",
+      "text": "billow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019441,
+      "status": "candidate",
+      "text": "zoom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008614,
+      "status": "candidate",
+      "text": "soar"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "surge",
+      "sense_id": "surge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37046,
+      "status": "candidate",
+      "text": "heave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23062,
+      "status": "candidate",
+      "text": "rush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21039,
+      "status": "candidate",
+      "text": "spate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14027,
+      "status": "candidate",
+      "text": "upsurge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10041,
+      "status": "candidate",
+      "text": "soar"
+    }
+  ],
+  "concept_id": "surge",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "surge",
+  "observation_id": "0417a5ca61a7a6f2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "surge",
+  "source_context_snippet": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026",
+  "source_file": null,
+  "source_repo": "hchiam/code-inspiration",
+  "source_repo_description": "https://code-inspiration.surge.sh Capture snippets of code inspiration. Works offline after your 1st visit. Built with Svelte (migrated from React)."
+}

@@ -2079,6 +2079,138 @@
       "source_repo": "storybookjs/babel-plugin-react-docgen",
       "status": "candidate-context",
       "text": "[react-docgen](https://github.com/reactjs/react-docgen) allows you to write propType descriptions, class descriptions and access propType metadata programatically."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vite-pwa/vite-plugin-pwa",
+      "status": "candidate-context",
+      "text": "Zero-config PWA for Vite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vite-pwa/vite-plugin-pwa",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/code-inspiration",
+      "status": "candidate-context",
+      "text": "https://code-inspiration.surge.sh Capture snippets of code inspiration. Works offline after your 1st visit. Built with Svelte (migrated from React)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/code-inspiration",
+      "status": "candidate-context",
+      "text": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate-context",
+      "text": "SumUp's design system for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate-context",
+      "text": "A minimalistic ClojureScript interface to React.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactjs/react-docgen",
+      "status": "candidate-context",
+      "text": "A CLI and library to extract information from React component files for documentation generation purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactjs/react-docgen",
+      "status": "candidate-context",
+      "text": "[`react-docgen`](./packages/react-docgen/) is a highly customizable library that"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/formily",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1\ud83d\ude80 \ud83e\udde9 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/formily",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vigetlabs/microcosm",
+      "status": "candidate-context",
+      "text": "Flux with actions at center stage. Write optimistic updates, cancel requests, and track changes with ease. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vigetlabs/microcosm",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://img.shields.io/circleci/project/vigetlabs/microcosm.svg?maxAge=2592000)](https://circleci.com/gh/vigetlabs/microcosm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nozbe/WatermelonDB",
+      "status": "candidate-context",
+      "text": "\ud83c\udf49 Reactive & asynchronous database for powerful React and React Native apps \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nozbe/WatermelonDB",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reZach/secure-electron-template",
+      "status": "candidate-context",
+      "text": "The best way to build Electron apps with security in mind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reZach/secure-electron-template",
+      "status": "candidate-context",
+      "text": "A current electron app template with the most popular frameworks, designed and built with security in mind. (If you are curious about what makes an electron app secure, please check out [this page](https://github.com/reZach/secure-electron-template/blob/master/docs/secureapps.md\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/designable",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9 Make everything designable \ud83e\udde9 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/designable",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/ice",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 ice.js: The Progressive App Framework Based On React\uff08\u57fa\u4e8e React \u7684\u6e10\u8fdb\u5f0f\u5e94\u7528\u6846\u67b6\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ice",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -3119,6 +3251,72 @@
       "source_repo": "storybookjs/babel-plugin-react-docgen",
       "status": "candidate",
       "text": "[react-docgen](https://github.com/reactjs/react-docgen) allows you to write propType descriptions, class descriptions and access propType metadata programatically."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vite-pwa/vite-plugin-pwa",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/code-inspiration",
+      "status": "candidate",
+      "text": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactjs/react-docgen",
+      "status": "candidate",
+      "text": "[`react-docgen`](./packages/react-docgen/) is a highly customizable library that"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/formily",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vigetlabs/microcosm",
+      "status": "candidate",
+      "text": "[![CircleCI](https://img.shields.io/circleci/project/vigetlabs/microcosm.svg?maxAge=2592000)](https://circleci.com/gh/vigetlabs/microcosm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nozbe/WatermelonDB",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reZach/secure-electron-template",
+      "status": "candidate",
+      "text": "A current electron app template with the most popular frameworks, designed and built with security in mind. (If you are curious about what makes an electron app secure, please check out [this page](https://github.com/reZach/secure-electron-template/blob/master/docs/secureapps.md\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/designable",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ice",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -4833,11 +5031,203 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/code-inspiration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "reagent-project/reagent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/brand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "reactjs/react-docgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/babel-plugin-react-docgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "storybook-eol/addon-smart-knobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/formily"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vigetlabs/microcosm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Nozbe/WatermelonDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "reZach/secure-electron-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "emotion-js/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/designable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/ice"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "stylecheck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stefantalpalaru/w_scan2",
+      "status": "candidate-context",
+      "text": "w_scan fork (channel scan tool which generates ATSC, DVB-C, DVB-S/S2 and DVB-T/T2 channels.conf files)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefantalpalaru/w_scan2",
+      "status": "candidate-context",
+      "text": "stylecheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefantalpalaru/w_scan2",
+      "status": "candidate",
+      "text": "stylecheck"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "stylecheck",
+  "concept_id": "stylecheck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stylecheck.yml",
+      "source_repo": "stefantalpalaru/w_scan2"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "stylecheck",
+      "sense_id": "stylecheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

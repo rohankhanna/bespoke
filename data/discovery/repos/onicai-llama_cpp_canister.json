@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-mac.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-mac.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-ubuntu.yml-TODO"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-ubuntu.yml-TODO"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-ubuntu.yml-TODO"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "onicai/iconfucius",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "icppworld/icgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "onicai/llama_cpp_onicai_fork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-mac.yml",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-mac.yml",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-mac.yml",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "cicd-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-ubuntu.yml-TODO",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-ubuntu.yml-TODO",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-ubuntu.yml-TODO",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "cicd-ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-onicai-LLMs.yml",
+      "source_repo": "onicai/llama_cpp_canister",
+      "target": "verify-wasm-onicai-SNS-LLMs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:56:58.882003+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27086
+    },
+    {
+      "path": "requirements.txt",
+      "size": 242
+    },
+    {
+      "path": ".github/workflows/cicd-mac.yml",
+      "size": 3440
+    },
+    {
+      "path": ".github/workflows/cicd-ubuntu.yml-TODO",
+      "size": 2636
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5735
+    },
+    {
+      "path": ".github/workflows/verify-onicai-LLMs.yml",
+      "size": 8144
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "llama.cpp for the Internet Computer",
+    "fork": false,
+    "full_name": "onicai/llama_cpp_canister",
+    "html_url": "https://github.com/onicai/llama_cpp_canister",
+    "language": "C++",
+    "pushed_at": "2026-03-18T19:10:37Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-04-15T11:09:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "icppworld/icgpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onicai/iconfucius",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onicai/llama_cpp_onicai_fork",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cicd-mac",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-mac.yml",
+      "term": "cicd-mac"
+    },
+    {
+      "context_snippet": "cicd-ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd-ubuntu.yml-TODO",
+      "term": "cicd-ubuntu"
+    },
+    {
+      "context_snippet": "verify-wasm-onicai-SNS-LLMs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-onicai-LLMs.yml",
+      "term": "verify-wasm-onicai-SNS-LLMs"
+    }
+  ]
+}

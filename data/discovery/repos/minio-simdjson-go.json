@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minio/simdjson-go",
+      "target": "lemire/simdjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "minio/simdjson-go",
+      "target": "ndjson/ndjson-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "minio/simdjson-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "minio/simdjson-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "source_repo": "minio/simdjson-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "source_repo": "minio/simdjson-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "source_repo": "minio/simdjson-go",
+      "target": "VulnCheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/simdjson-go",
+      "target": "golang-standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/simdjson-go",
+      "target": "json-document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/simdjson-go",
+      "target": "json-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/simdjson-go",
+      "target": "ndjson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/simdjson-go",
+      "target": "simdjson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/simdjson-go",
+      "target": "tape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "minio/simdjson-go",
+      "target": "tape-format",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:58:25.239073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30023
+    },
+    {
+      "path": "go.mod",
+      "size": 182
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1091
+    },
+    {
+      "path": ".github/workflows/vulncheck.yml",
+      "size": 643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Golang port of simdjson: parsing gigabytes of JSON per second",
+    "fork": false,
+    "full_name": "minio/simdjson-go",
+    "html_url": "https://github.com/minio/simdjson-go",
+    "language": "Go",
+    "pushed_at": "2025-08-26T16:59:04Z",
+    "stargazers_count": 2021,
+    "topics": [
+      "golang-standard",
+      "json-document",
+      "json-files",
+      "ndjson",
+      "simdjson",
+      "tape",
+      "tape-format"
+    ],
+    "updated_at": "2026-05-01T06:36:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemire/simdjson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ndjson/ndjson-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "VulnCheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "term": "VulnCheck"
+    },
+    {
+      "context_snippet": "This is a Golang port of [simdjson](https://github.com/lemire/simdjson),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-standard"
+    },
+    {
+      "context_snippet": "This is a Golang port of [simdjson](https://github.com/lemire/simdjson),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-document"
+    },
+    {
+      "context_snippet": "This is a Golang port of [simdjson](https://github.com/lemire/simdjson),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-files"
+    },
+    {
+      "context_snippet": "This is a Golang port of [simdjson](https://github.com/lemire/simdjson),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ndjson"
+    },
+    {
+      "context_snippet": "This is a Golang port of [simdjson](https://github.com/lemire/simdjson),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simdjson"
+    },
+    {
+      "context_snippet": "This is a Golang port of [simdjson](https://github.com/lemire/simdjson),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tape"
+    },
+    {
+      "context_snippet": "This is a Golang port of [simdjson](https://github.com/lemire/simdjson),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tape-format"
+    }
+  ]
+}

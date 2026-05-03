@@ -907,6 +907,78 @@
       "source_repo": "lumen-oss/rtp.nvim",
       "status": "candidate-context",
       "text": "Release Please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "9romise/eslint-import-resolver-oxc",
+      "status": "candidate-context",
+      "text": "A simply wrapped oxc-resolver for eslint-plugin-import-x"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-import-resolver-oxc",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Obsidian-TTRPG-Community/fantasy-statblocks",
+      "status": "candidate-context",
+      "text": "Create Dungeons and Dragons style statblocks for Obsidian.md "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Obsidian-TTRPG-Community/fantasy-statblocks",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Obsidian-TTRPG-Community/dice-roller",
+      "status": "candidate-context",
+      "text": "Inline dice rolling for Obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Obsidian-TTRPG-Community/dice-roller",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Obsidian-TTRPG-Community/initiative-tracker",
+      "status": "candidate-context",
+      "text": "TTRPG Initiative Tracker for Obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Obsidian-TTRPG-Community/initiative-tracker",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "javalent/obsidian-leaflet",
+      "status": "candidate-context",
+      "text": "Adds interactive maps to Obsidian.md using Leaflet.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "javalent/obsidian-leaflet",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j-hui/fidget.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcab  Extensible UI for Neovim notifications and LSP progress messages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j-hui/fidget.nvim",
+      "status": "candidate-context",
+      "text": "Release Please"
     }
   ],
   "candidate_glosses": [
@@ -1369,6 +1441,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lumen-oss/rtp.nvim",
+      "status": "candidate",
+      "text": "Release Please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-import-resolver-oxc",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Obsidian-TTRPG-Community/fantasy-statblocks",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Obsidian-TTRPG-Community/dice-roller",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Obsidian-TTRPG-Community/initiative-tracker",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "javalent/obsidian-leaflet",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j-hui/fidget.nvim",
       "status": "candidate",
       "text": "Release Please"
     }
@@ -2300,11 +2408,119 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "9romise/eslint-import-resolver-oxc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/fantasy-statblocks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/dice-roller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/lz.n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/rocks-dev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/rocks-lazy.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "codymikol/neotest-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/initiative-tracker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "javalent/obsidian-leaflet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "j-hui/fidget.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gradle/wrapper-validation-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "gradle/wrapper-validation-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "jetbrains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "resharper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "resharper-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "rider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "unity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity",
+      "target": "unity-editor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:03:12.630670+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unity support for both ReSharper and Rider",
+    "fork": false,
+    "full_name": "JetBrains/resharper-unity",
+    "html_url": "https://github.com/JetBrains/resharper-unity",
+    "language": "C#",
+    "pushed_at": "2026-04-30T14:16:43Z",
+    "stargazers_count": 1232,
+    "topics": [
+      "hacktoberfest",
+      "jetbrains",
+      "plugin",
+      "resharper",
+      "resharper-plugin",
+      "rider",
+      "unity",
+      "unity-editor"
+    ],
+    "updated_at": "2026-04-30T14:22:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetbrains"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resharper"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resharper-plugin"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rider"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity-editor"
+    }
+  ]
+}

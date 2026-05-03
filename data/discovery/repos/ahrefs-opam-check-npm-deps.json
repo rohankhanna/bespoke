@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml",
+      "source_repo": "ahrefs/opam-check-npm-deps",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml",
+      "source_repo": "ahrefs/opam-check-npm-deps",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-sample-project.yml",
+      "source_repo": "ahrefs/opam-check-npm-deps",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "ahrefs/opam-check-npm-deps",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "ahrefs/opam-check-npm-deps",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "ahrefs/opam-check-npm-deps",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "ahrefs/opam-check-npm-deps",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "ahrefs/opam-check-npm-deps",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "ahrefs/opam-check-npm-deps",
+      "target": "opam CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:48:32.466216+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3201
+    },
+    {
+      "path": ".github/workflows/build-sample-project.yml",
+      "size": 954
+    },
+    {
+      "path": ".github/workflows/opam.yml",
+      "size": 2034
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An opam plugin that checks the opam switch to gather npm packages in depexts to check against installed packages in node_modules.",
+    "fork": false,
+    "full_name": "ahrefs/opam-check-npm-deps",
+    "html_url": "https://github.com/ahrefs/opam-check-npm-deps",
+    "language": "OCaml",
+    "pushed_at": "2025-12-24T03:18:43Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-12-24T03:17:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "opam CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/opam.yml",
+      "term": "opam CI"
+    }
+  ]
+}

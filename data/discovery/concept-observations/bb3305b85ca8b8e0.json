@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Data manipulation and transformation for audio signal processing, powered by PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "torchaudio: an audio library for PyTorch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "torchaudio: an audio library for PyTorch"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941113,
+      "status": "candidate",
+      "text": "language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924738,
+      "status": "candidate",
+      "text": "lecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915879,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911820,
+      "status": "candidate",
+      "text": "talking to"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39888750,
+      "status": "candidate",
+      "text": "delivery"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "speech",
+      "sense_id": "speech#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43060,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17039,
+      "status": "candidate",
+      "text": "lecture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8070,
+      "status": "candidate",
+      "text": "language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6063,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "words"
+    }
+  ],
+  "concept_id": "speech",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "speech",
+  "observation_id": "bb3305b85ca8b8e0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "speech",
+  "source_context_snippet": "torchaudio: an audio library for PyTorch",
+  "source_file": null,
+  "source_repo": "pytorch/audio",
+  "source_repo_description": "Data manipulation and transformation for audio signal processing, powered by PyTorch"
+}

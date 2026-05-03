@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "artexjay/obsidian-cyberglow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "antokeinanen/obsidian-sanctum-reborn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "7368697661/origami",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "anotherlusitano/spectrumplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "customisable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "snippet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:20.196330+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An initiative to standardize the Alternative Checkboxes feature commonly used by the community in Obsidian.md",
+    "fork": false,
+    "full_name": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+    "html_url": "https://github.com/damiankorcz/Alternative-Checkboxes-Reference-Set",
+    "language": "CSS",
+    "pushed_at": "2025-06-26T19:01:11Z",
+    "stargazers_count": 50,
+    "topics": [
+      "css",
+      "customisable",
+      "obsidian",
+      "obsidian-md",
+      "snippet"
+    ],
+    "updated_at": "2026-04-27T18:41:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "7368697661/origami",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anotherlusitano/spectrumplus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antokeinanen/obsidian-sanctum-reborn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artexjay/obsidian-cyberglow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://github.com/damiankorczAlternative-Checkboxes-Reference-Set/releases\"><img src=\"https://img.shields.io/github/v/release/damiankorcz/Alternative-Checkboxes-Reference-Set?style=for-the-badge&color=%23A47B61&labelColor=%23252525&logo=data:image/png;base64,iVBORw0KGg\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "customisable"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/damiankorczAlternative-Checkboxes-Reference-Set/releases\"><img src=\"https://img.shields.io/github/v/release/damiankorcz/Alternative-Checkboxes-Reference-Set?style=for-the-badge&color=%23A47B61&labelColor=%23252525&logo=data:image/png;base64,iVBORw0KGg\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/damiankorczAlternative-Checkboxes-Reference-Set/releases\"><img src=\"https://img.shields.io/github/v/release/damiankorcz/Alternative-Checkboxes-Reference-Set?style=for-the-badge&color=%23A47B61&labelColor=%23252525&logo=data:image/png;base64,iVBORw0KGg\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/damiankorczAlternative-Checkboxes-Reference-Set/releases\"><img src=\"https://img.shields.io/github/v/release/damiankorcz/Alternative-Checkboxes-Reference-Set?style=for-the-badge&color=%23A47B61&labelColor=%23252525&logo=data:image/png;base64,iVBORw0KGg\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippet"
+    }
+  ]
+}

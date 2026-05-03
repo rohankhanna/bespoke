@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ofirpress/attention_with_linear_biases",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ofirpress/attention_with_linear_biases",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ofirpress/attention_with_linear_biases",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ofirpress/attention_with_linear_biases",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "ofirpress/attention_with_linear_biases",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "ofirpress/attention_with_linear_biases",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "ofirpress/attention_with_linear_biases",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:43:58.995180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10338
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 100
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1692
+    },
+    {
+      "path": ".github/workflows/build_wheels.yml",
+      "size": 934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for the ALiBi method for transformer language models (ICLR 2022)",
+    "fork": false,
+    "full_name": "ofirpress/attention_with_linear_biases",
+    "html_url": "https://github.com/ofirpress/attention_with_linear_biases",
+    "language": "Python",
+    "pushed_at": "2023-10-30T02:13:07Z",
+    "stargazers_count": 556,
+    "topics": [],
+    "updated_at": "2026-04-27T18:47:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    }
+  ]
+}

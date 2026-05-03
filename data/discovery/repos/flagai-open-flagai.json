@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagAI-Open/FlagAI",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagAI-Open/FlagAI",
+      "target": "microsoft/deepspeedexamples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagAI-Open/FlagAI",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlagAI-Open/FlagAI",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "FlagAI-Open/FlagAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "FlagAI-Open/FlagAI",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "FlagAI-Open/FlagAI",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "FlagAI-Open/FlagAI",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "FlagAI-Open/FlagAI",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:59:09.724132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19137
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2185
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    },
+    {
+      "path": ".github/workflows/python-app.yml",
+      "size": 1417
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FlagAI (Fast LArge-scale General AI models) is a fast, easy-to-use and extensible toolkit for large-scale model.",
+    "fork": false,
+    "full_name": "FlagAI-Open/FlagAI",
+    "html_url": "https://github.com/FlagAI-Open/FlagAI",
+    "language": "Python",
+    "pushed_at": "2025-11-11T07:28:41Z",
+    "stargazers_count": 3875,
+    "topics": [],
+    "updated_at": "2026-04-29T21:57:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeedexamples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

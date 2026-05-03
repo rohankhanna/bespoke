@@ -377,6 +377,42 @@
       "source_repo": "apache/datasketches-cpp",
       "status": "candidate-context",
       "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate-context",
+      "text": "Test Anything Protocol tools for node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate-context",
+      "text": "Workspace for node-tap development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Cross platform code coverage for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate-context",
+      "text": "Postgres Foreign Data Wrapper development framework in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate-context",
+      "text": "Code Coverage"
     }
   ],
   "candidate_glosses": [
@@ -563,6 +599,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/datasketches-cpp",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate",
+      "text": "Workspace for node-tap development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/wrappers",
       "status": "candidate",
       "text": "Code Coverage"
     }
@@ -1040,11 +1094,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tapjs/tapjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/code-coverage.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "supabase/wrappers"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

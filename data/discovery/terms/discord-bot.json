@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -26,6 +26,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "technobird22/TechnoBot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "3ddelano/discord.gd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/super-agent-party"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "3ddelano/discord_gd_examples"
     }
   ],
   "term": "discord-bot"

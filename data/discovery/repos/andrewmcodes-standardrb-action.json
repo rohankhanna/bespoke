@@ -1,0 +1,410 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "google-github-actions/release-please-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/standard.yml"
+    },
+    {
+      "component": "andrewmcodes/actions/setup-ruby@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/standard.yml"
+    },
+    {
+      "component": "andrewmcodes/actions/standard@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/standard.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "andrewmcodes/actions/setup-ruby@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "testdouble/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "google-github-actions/release-please-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/standard.yml",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/standard.yml",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "andrewmcodes/actions/setup-ruby@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/standard.yml",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "andrewmcodes/actions/standard@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/standard.yml",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "StandardRB",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "andrewmcodes/actions/setup-ruby@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "annotations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "ruby-on-rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "standard-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "standard-linter-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "standardrb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "standardrb-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "standardrb-linter-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:49:04.195144+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2252
+    },
+    {
+      "path": "Dockerfile",
+      "size": 172
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 317
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 292
+    },
+    {
+      "path": ".github/workflows/standard.yml",
+      "size": 409
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "StandardRB Action: A GitHub Action to run StandardRB against your code!",
+    "fork": false,
+    "full_name": "andrewmcodes/standardrb-action",
+    "html_url": "https://github.com/andrewmcodes/standardrb-action",
+    "language": "Ruby",
+    "pushed_at": "2024-08-02T01:53:00Z",
+    "stargazers_count": 32,
+    "topics": [
+      "action",
+      "actions",
+      "annotations",
+      "github-actions",
+      "lint",
+      "linter",
+      "ruby",
+      "ruby-on-rails",
+      "standard",
+      "standard-action",
+      "standard-linter-action",
+      "standardrb",
+      "standardrb-action",
+      "standardrb-linter-action",
+      "workflow"
+    ],
+    "updated_at": "2026-02-22T17:24:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "testdouble/standard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "StandardRB",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/standard.yml",
+      "term": "StandardRB"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "action"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annotations"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-on-rails"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard-action"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard-linter-action"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standardrb"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standardrb-action"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standardrb-linter-action"
+    },
+    {
+      "context_snippet": "> [!CAUTION]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ngrok"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bubenshchykov/ngrok",
+      "status": "candidate-context",
+      "text": "Expose your localhost to the web. Node wrapper for ngrok."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bubenshchykov/ngrok",
+      "status": "candidate-context",
+      "text": "This project is the Node.js wrapper for the [ngrok client](https://ngrok.com/download). Version 5 of this project uses ngrok client version 3. For ngrok client version 2, check out version 4."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bubenshchykov/ngrok",
+      "status": "candidate",
+      "text": "This project is the Node.js wrapper for the [ngrok client](https://ngrok.com/download). Version 5 of this project uses ngrok client version 3. For ngrok client version 2, check out version 4."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ngrok",
+  "concept_id": "ngrok",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bubenshchykov/ngrok"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ngrok",
+      "sense_id": "ngrok#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

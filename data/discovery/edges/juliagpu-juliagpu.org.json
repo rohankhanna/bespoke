@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "tlienart/franklin.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "thollander/actions-comment-pull-request@71efef56b184328c7ef1f213577c3a90edaa4aff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "Comment on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "julia-actions/julia-buildpkg@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "JamesIves/github-pages-deploy-action@releases/v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaGPU/juliagpu.org",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "JuliaGPU/juliagpu.org"
+}

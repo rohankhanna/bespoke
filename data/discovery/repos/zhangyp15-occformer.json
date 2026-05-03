@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhangyp15/OccFormer",
+      "target": "astra-vision/monoscene",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhangyp15/OccFormer",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhangyp15/OccFormer",
+      "target": "multi-camera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhangyp15/OccFormer",
+      "target": "occupancy-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhangyp15/OccFormer",
+      "target": "semantic-scene-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhangyp15/OccFormer",
+      "target": "semantic-scene-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zhangyp15/OccFormer",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:47.085444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] OccFormer: Dual-path Transformer for Vision-based 3D Semantic Occupancy Prediction",
+    "fork": false,
+    "full_name": "zhangyp15/OccFormer",
+    "html_url": "https://github.com/zhangyp15/OccFormer",
+    "language": "Python",
+    "pushed_at": "2023-04-20T04:59:32Z",
+    "stargazers_count": 399,
+    "topics": [
+      "autonomous-driving",
+      "multi-camera",
+      "occupancy-prediction",
+      "semantic-scene-completion",
+      "semantic-scene-understanding",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2026-04-26T05:08:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astra-vision/monoscene",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- **[2023/04/20]** Update more pretrained weights.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "- **[2023/04/20]** Update more pretrained weights.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-camera"
+    },
+    {
+      "context_snippet": "- **[2023/04/20]** Update more pretrained weights.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "occupancy-prediction"
+    },
+    {
+      "context_snippet": "- **[2023/04/20]** Update more pretrained weights.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-scene-completion"
+    },
+    {
+      "context_snippet": "- **[2023/04/20]** Update more pretrained weights.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-scene-understanding"
+    },
+    {
+      "context_snippet": "- **[2023/04/20]** Update more pretrained weights.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

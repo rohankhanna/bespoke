@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A powerful community plugin for [Obsidian.md](Obsidian.md) that brings Git integration right into your vault. Automatically commit, pull, push, and see your changes \u2014 all within Obsidian."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A powerful community plugin for [Obsidian.md](Obsidian.md) that brings Git integration right into your vault. Automatically commit, pull, push, and see your changes \u2014 all within Obsidian."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obsidian-md",
+      "sense_id": "obsidian-md#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "obsidian-md",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "obsidian-md",
+  "observation_id": "6edb54d435ffe1bf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "obsidian-md",
+  "source_context_snippet": "A powerful community plugin for [Obsidian.md](Obsidian.md) that brings Git integration right into your vault. Automatically commit, pull, push, and see your changes \u2014 all within Obsidian.",
+  "source_file": null,
+  "source_repo": "Vinzent03/obsidian-git",
+  "source_repo_description": "Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md"
+}

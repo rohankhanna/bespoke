@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "mathux/tmr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "motion-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "smplx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "whole-body",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "whole-body-motion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "IDEA-Research/HumanTOMATO"
+}

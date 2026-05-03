@@ -1,0 +1,245 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "adversarial-diffusion-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "adversarial-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "cvpr2025",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "image-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "one-step-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "one-step-diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "pruning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:43.922555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6913
+    },
+    {
+      "path": "requirements.txt",
+      "size": 305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(CVPR 2025) Adversarial Diffusion Compression for Real-World Image Super-Resolution [PyTorch]",
+    "fork": false,
+    "full_name": "Guaishou74851/AdcSR",
+    "html_url": "https://github.com/Guaishou74851/AdcSR",
+    "language": "Python",
+    "pushed_at": "2025-04-05T03:32:15Z",
+    "stargazers_count": 274,
+    "topics": [
+      "adversarial-diffusion-compression",
+      "adversarial-distillation",
+      "computer-vision",
+      "cvpr2025",
+      "deep-learning",
+      "deep-neural-networks",
+      "diffusion-models",
+      "image-reconstruction",
+      "image-restoration",
+      "one-step-diffusion",
+      "one-step-diffusion-model",
+      "pruning",
+      "python",
+      "python3",
+      "pytorch",
+      "super-resolution"
+    ],
+    "updated_at": "2026-04-24T06:56:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adversarial-diffusion-compression"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adversarial-distillation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2025"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-reconstruction"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "one-step-diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "one-step-diffusion-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pruning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

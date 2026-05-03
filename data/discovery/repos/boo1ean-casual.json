@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "mersenne-twister",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "moment",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "realist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "should",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "text-table",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boo1ean/casual",
+      "target": "boo1ean/mersenne-twister",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boo1ean/casual",
+      "target": "klowner/casual-browserify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "boo1ean/casual",
+      "target": "fzaninotto/faker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "boo1ean/casual",
+      "target": "mersenne-twister",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "boo1ean/casual",
+      "target": "moment",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "boo1ean/casual",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "boo1ean/casual",
+      "target": "realist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "boo1ean/casual",
+      "target": "should",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "boo1ean/casual",
+      "target": "text-table",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boo1ean/casual",
+      "target": "data-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boo1ean/casual",
+      "target": "faker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boo1ean/casual",
+      "target": "generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:59:58.716143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10964
+    },
+    {
+      "path": "package.json",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fake data generator for javascript",
+    "fork": false,
+    "full_name": "boo1ean/casual",
+    "html_url": "https://github.com/boo1ean/casual",
+    "language": "JavaScript",
+    "pushed_at": "2023-06-25T20:46:30Z",
+    "stargazers_count": 3008,
+    "topics": [
+      "data-generator",
+      "faker",
+      "generator",
+      "javascript"
+    ],
+    "updated_at": "2026-05-01T06:42:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boo1ean/mersenne-twister",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fzaninotto/faker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "klowner/casual-browserify",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "https://github.com/boo1ean/casual/issues/109",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-generator"
+    },
+    {
+      "context_snippet": "https://github.com/boo1ean/casual/issues/109",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faker"
+    },
+    {
+      "context_snippet": "https://github.com/boo1ean/casual/issues/109",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    }
+  ]
+}

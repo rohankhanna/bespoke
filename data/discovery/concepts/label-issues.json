@@ -43,6 +43,18 @@
       "source_repo": "microsoft/agent-framework",
       "status": "candidate-context",
       "text": "Label issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Cross platform code coverage for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Label issues"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/agent-framework",
+      "status": "candidate",
+      "text": "Label issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
       "status": "candidate",
       "text": "Label issues"
     }
@@ -220,11 +238,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/label-issue.yml",
       "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/label-issue.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/issue-untriaged.yml",
+      "source_repo": "coverlet-coverage/coverlet"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozillazg/phrase-pinyin-data",
+      "target": "mozillazg/pinyin-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozillazg/phrase-pinyin-data",
+      "target": "mozillazg/pypinyin-dict",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/phrase-pinyin-data",
+      "target": "pinyin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/phrase-pinyin-data",
+      "target": "pinyin-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:03:19.540894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u8bcd\u8bed\u62fc\u97f3\u6570\u636e",
+    "fork": false,
+    "full_name": "mozillazg/phrase-pinyin-data",
+    "html_url": "https://github.com/mozillazg/phrase-pinyin-data",
+    "language": "Python",
+    "pushed_at": "2025-07-20T10:05:19Z",
+    "stargazers_count": 523,
+    "topics": [
+      "pinyin",
+      "pinyin-data"
+    ],
+    "updated_at": "2026-05-01T08:25:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozillazg/pinyin-data",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozillazg/pypinyin-dict",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u8bcd\u8bed\u62fc\u97f3\u6570\u636e\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pinyin"
+    },
+    {
+      "context_snippet": "\u8bcd\u8bed\u62fc\u97f3\u6570\u636e\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pinyin-data"
+    }
+  ]
+}

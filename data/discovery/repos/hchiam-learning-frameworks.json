@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-frameworks",
+      "target": "hchiam/learning-angular",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-frameworks",
+      "target": "hchiam/learning-closure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-frameworks",
+      "target": "hchiam/learning-backbone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-frameworks",
+      "target": "hchiam/learning-alpine",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:02.178370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning frameworks",
+    "fork": false,
+    "full_name": "hchiam/learning-frameworks",
+    "html_url": "https://github.com/hchiam/learning-frameworks",
+    "language": "HTML",
+    "pushed_at": "2021-08-13T02:34:21Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2021-08-13T02:34:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-alpine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-angular",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-backbone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-closure",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

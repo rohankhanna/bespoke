@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "hhyyrylainen/godotpcktool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83e\udd16 Android Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83c\udf4f iOS Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83c\udf10 Javascript Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83d\udc27 Linux Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83c\udf4e macOS Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher",
+      "target": "\ud83c\udfc1 Windows Builds",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "abcjjy/godot-sqlcipher"
+}

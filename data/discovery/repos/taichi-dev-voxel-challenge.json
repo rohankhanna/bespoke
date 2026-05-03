@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/voxel-challenge",
+      "target": "victoriacity/voxel-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/voxel-challenge",
+      "target": "yuanming-hu/voxel-art",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/voxel-challenge",
+      "target": "neozhaoliang/voxel-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/voxel-challenge",
+      "target": "rexwangcc/taichi-voxel-challenge",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:25.670967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3092
+    },
+    {
+      "path": "requirements.txt",
+      "size": 28
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "taichi-dev/voxel-challenge",
+    "html_url": "https://github.com/taichi-dev/voxel-challenge",
+    "language": "Python",
+    "pushed_at": "2022-08-05T16:09:42Z",
+    "stargazers_count": 243,
+    "topics": [],
+    "updated_at": "2026-04-30T10:44:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neozhaoliang/voxel-challenge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rexwangcc/taichi-voxel-challenge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "victoriacity/voxel-challenge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuanming-hu/voxel-art",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

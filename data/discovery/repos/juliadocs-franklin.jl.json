@@ -71,14 +71,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "juliacon/www.juliacon.org",
+      "target": "juliadocs/franklintemplates.jl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "fluxml/fluxml.github.io",
+      "target": "juliagpu/juliagpu.org",
       "target_type": "repository"
     },
     {
@@ -92,7 +92,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "juancarlospaco/css-html-js-minify",
+      "target": "juliadocs/xranklin.jl",
       "target_type": "repository"
     },
     {
@@ -250,7 +250,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T18:43:04.680545+00:00",
+  "fetched_at": "2026-05-03T01:50:10.180594+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -303,17 +303,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fluxml/fluxml.github.io",
+      "full_name": "juliadocs/franklintemplates.jl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "juancarlospaco/css-html-js-minify",
+      "full_name": "juliadocs/xranklin.jl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "juliacon/www.juliacon.org",
+      "full_name": "juliagpu/juliagpu.org",
       "source_file": "README.md"
     }
   ],

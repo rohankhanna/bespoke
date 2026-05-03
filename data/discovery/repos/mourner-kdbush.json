@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-mourner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mourner/kdbush",
+      "target": "mourner/flatbush",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/kdbush",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/kdbush",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/kdbush",
+      "target": "eslint-config-mourner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/kdbush",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/kdbush",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/kdbush",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/kdbush",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/kdbush",
+      "target": "Node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/kdbush",
+      "target": "2d-points",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/kdbush",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/kdbush",
+      "target": "computational-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/kdbush",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mourner/kdbush",
+      "target": "spatial-index",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:51:49.832875+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3785
+    },
+    {
+      "path": "package.json",
+      "size": 1006
+    },
+    {
+      "path": ".github/workflows/node.yml",
+      "size": 217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fast static index for 2D points",
+    "fork": false,
+    "full_name": "mourner/kdbush",
+    "html_url": "https://github.com/mourner/kdbush",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-30T00:53:02Z",
+    "stargazers_count": 698,
+    "topics": [
+      "2d-points",
+      "algorithm",
+      "computational-geometry",
+      "fast",
+      "javascript",
+      "spatial-index"
+    ],
+    "updated_at": "2026-05-02T04:54:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mourner/flatbush",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.yml",
+      "term": "Node"
+    },
+    {
+      "context_snippet": "A very fast static spatial index for 2D points based on a flat KD-tree.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2d-points"
+    },
+    {
+      "context_snippet": "A very fast static spatial index for 2D points based on a flat KD-tree.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "A very fast static spatial index for 2D points based on a flat KD-tree.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-geometry"
+    },
+    {
+      "context_snippet": "A very fast static spatial index for 2D points based on a flat KD-tree.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    },
+    {
+      "context_snippet": "A very fast static spatial index for 2D points based on a flat KD-tree.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatial-index"
+    }
+  ]
+}

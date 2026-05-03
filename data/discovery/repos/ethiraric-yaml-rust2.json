@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Ethiraric/yaml-rust2",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Ethiraric/yaml-rust2",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ethiraric/yaml-rust2",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ethiraric/yaml-rust2",
+      "target": "yaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ethiraric/yaml-rust2",
+      "target": "yaml-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:05:47.650005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4335
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1188
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1452
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A pure Rust YAML implementation.",
+    "fork": true,
+    "full_name": "Ethiraric/yaml-rust2",
+    "html_url": "https://github.com/Ethiraric/yaml-rust2",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T23:12:55Z",
+    "stargazers_count": 257,
+    "topics": [
+      "rust",
+      "yaml",
+      "yaml-parser"
+    ],
+    "updated_at": "2026-03-10T06:19:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml-parser"
+    }
+  ]
+}

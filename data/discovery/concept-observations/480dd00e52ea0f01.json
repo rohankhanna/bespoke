@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Built-in exact decimal numbers for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The TC39 Decimal proposal aims to add exact decimal arithmetic to JavaScript, eliminating the rounding errors that occur with binary floating-point numbers."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The TC39 Decimal proposal aims to add exact decimal arithmetic to JavaScript, eliminating the rounding errors that occur with binary floating-point numbers."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decimal128",
+      "sense_id": "decimal128#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "decimal128",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "decimal128",
+  "observation_id": "480dd00e52ea0f01",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "decimal128",
+  "source_context_snippet": "The TC39 Decimal proposal aims to add exact decimal arithmetic to JavaScript, eliminating the rounding errors that occur with binary floating-point numbers.",
+  "source_file": null,
+  "source_repo": "tc39/proposal-decimal",
+  "source_repo_description": "Built-in exact decimal numbers for JavaScript"
+}

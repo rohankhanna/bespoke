@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bshepherdson/athens-export",
+      "target": "shepheb/athens-export",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:54:18.211638+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Standalone tool that converts an Athens Research database into a logseq directory",
+    "fork": false,
+    "full_name": "bshepherdson/athens-export",
+    "html_url": "https://github.com/bshepherdson/athens-export",
+    "language": "Clojure",
+    "pushed_at": "2022-11-16T23:31:24Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2025-09-04T17:54:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shepheb/athens-export",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

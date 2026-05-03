@@ -199,6 +199,30 @@
       "source_repo": "aiortc/aioquic",
       "status": "candidate-context",
       "text": "aioquic"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exelban/stats",
+      "status": "candidate-context",
+      "text": "macOS system monitor in your menu bar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exelban/stats",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "A simple, lightweight multi-task system (coroutines)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +321,18 @@
       "source_repo": "aiortc/aioquic",
       "status": "candidate",
       "text": "aioquic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exelban/stats",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
     }
   ],
   "candidate_related_terms": [
@@ -658,11 +694,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/dysentery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "exelban/stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/hev-task-system"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

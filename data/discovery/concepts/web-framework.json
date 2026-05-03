@@ -151,6 +151,30 @@
       "source_repo": "Pylons/pyramid",
       "status": "candidate-context",
       "text": "Pyramid"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate-context",
+      "text": " Accelerate your web app development  | Build fast. Run fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/sanic-org/sanic-assets/master/png/sanic-framework-logo-400x97.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/quart",
+      "status": "candidate-context",
+      "text": "An async Python micro framework for building web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/quart",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "Pylons/pyramid",
       "status": "candidate",
       "text": "Pyramid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/sanic-org/sanic-assets/master/png/sanic-framework-logo-400x97.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/quart",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +340,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "Pylons/pyramid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sanic-org/sanic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pallets/quart"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

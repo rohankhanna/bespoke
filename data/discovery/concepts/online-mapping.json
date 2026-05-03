@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "online-mapping"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "status": "candidate-context",
+      "text": "[ICLR 2024] Map Learning with Lane Segment for Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/LaneSegNet",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "online-mapping",
+  "concept_id": "online-mapping",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/LaneSegNet"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "online-mapping",
+      "sense_id": "online-mapping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

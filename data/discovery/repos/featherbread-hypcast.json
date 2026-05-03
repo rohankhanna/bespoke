@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml"
+    },
+    {
+      "component": "reproducible-containers/buildkit-cache-dance@6f699a72a59e4252f05a7435430009b77e25fe06",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "reproducible-containers/buildkit-cache-dance@6f699a72a59e4252f05a7435430009b77e25fe06",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "featherbread/hypcast",
+      "target": "featherbread/hypcast-v1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "featherbread/hypcast",
+      "target": "stefantalpalaru/w_scan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "featherbread/hypcast",
+      "target": "gstreamer/gstreamer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "featherbread/hypcast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "featherbread/hypcast",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "featherbread/hypcast",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "featherbread/hypcast",
+      "target": "reproducible-containers/buildkit-cache-dance@6f699a72a59e4252f05a7435430009b77e25fe06",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "featherbread/hypcast",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "featherbread/hypcast",
+      "target": "Build Image (without publishing)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml",
+      "source_repo": "featherbread/hypcast",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml",
+      "source_repo": "featherbread/hypcast",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-tests.yml",
+      "source_repo": "featherbread/hypcast",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-tests.yml",
+      "source_repo": "featherbread/hypcast",
+      "target": "Main Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "featherbread/hypcast",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "featherbread/hypcast",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "featherbread/hypcast",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "featherbread/hypcast",
+      "target": "reproducible-containers/buildkit-cache-dance@6f699a72a59e4252f05a7435430009b77e25fe06",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "featherbread/hypcast",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "featherbread/hypcast",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "featherbread/hypcast",
+      "target": "Publish Image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:48:32.507129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4257
+    },
+    {
+      "path": "Dockerfile",
+      "size": 7290
+    },
+    {
+      "path": "go.mod",
+      "size": 1260
+    },
+    {
+      "path": ".github/workflows/build-image.yaml",
+      "size": 1011
+    },
+    {
+      "path": ".github/workflows/main-tests.yml",
+      "size": 997
+    },
+    {
+      "path": ".github/workflows/publish-image.yml",
+      "size": 1390
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A web-based multi-party live television streamer",
+    "fork": false,
+    "full_name": "featherbread/hypcast",
+    "html_url": "https://github.com/featherbread/hypcast",
+    "language": "Go",
+    "pushed_at": "2026-04-08T04:15:38Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-04-08T04:10:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "featherbread/hypcast-v1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stefantalpalaru/w_scan2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gstreamer/gstreamer",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Image (without publishing)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-image.yaml",
+      "term": "Build Image (without publishing)"
+    },
+    {
+      "context_snippet": "Main Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-tests.yml",
+      "term": "Main Tests"
+    },
+    {
+      "context_snippet": "Publish Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-image.yml",
+      "term": "Publish Image"
+    }
+  ]
+}

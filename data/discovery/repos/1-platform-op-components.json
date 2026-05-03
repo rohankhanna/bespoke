@@ -1,0 +1,559 @@
+{
+  "components": [
+    {
+      "component": "@storybook/addon-notes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lit-element",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "storybook-readme",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/plugin-proposal-private-property-in-object",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@storybook/addon-actions",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@storybook/addon-controls",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@storybook/addon-essentials",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@storybook/addon-links",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@storybook/addons",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@storybook/theming",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@storybook/web-components",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lit-html",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yeoman-generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yosay",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "GabrielBB/xvfb-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "associate-run-projects/google-chat-notification@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-fork.yml"
+    },
+    {
+      "component": "associate-run-projects/google-chat-notification@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storybook-build-deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storybook-build-deploy.yml"
+    },
+    {
+      "component": "GabrielBB/xvfb-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storybook-build-deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storybook-build-deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "@storybook/addon-notes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "lit-element",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "storybook-readme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "@babel/plugin-proposal-private-property-in-object",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "@storybook/addon-actions",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "@storybook/addon-controls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "@storybook/addon-essentials",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "@storybook/addon-links",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "@storybook/addons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "@storybook/theming",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "@storybook/web-components",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "babel-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "lit-html",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "webpack-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "yeoman-generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "yo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "1-Platform/op-components",
+      "target": "yosay",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "GabrielBB/xvfb-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "Test CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-fork.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "associate-run-projects/google-chat-notification@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-main.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "associate-run-projects/google-chat-notification@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storybook-build-deploy.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storybook-build-deploy.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storybook-build-deploy.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "GabrielBB/xvfb-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storybook-build-deploy.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "JamesIves/github-pages-deploy-action@releases/v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/storybook-build-deploy.yml",
+      "source_repo": "1-Platform/op-components",
+      "target": "Storybook deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1-Platform/op-components",
+      "target": "lit-element",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1-Platform/op-components",
+      "target": "lit-html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1-Platform/op-components",
+      "target": "redhat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1-Platform/op-components",
+      "target": "webcomponents",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:56.247648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1748
+    },
+    {
+      "path": "package.json",
+      "size": 1563
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 518
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1987
+    },
+    {
+      "path": ".github/workflows/notify-fork.yml",
+      "size": 406
+    },
+    {
+      "path": ".github/workflows/notify-main.yml",
+      "size": 413
+    },
+    {
+      "path": ".github/workflows/storybook-build-deploy.yml",
+      "size": 845
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "One platform component library.",
+    "fork": false,
+    "full_name": "1-Platform/op-components",
+    "html_url": "https://github.com/1-Platform/op-components",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T15:22:12Z",
+    "stargazers_count": 31,
+    "topics": [
+      "lit-element",
+      "lit-html",
+      "redhat",
+      "web",
+      "webcomponents"
+    ],
+    "updated_at": "2026-04-07T14:04:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Test CI"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Storybook deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/storybook-build-deploy.yml",
+      "term": "Storybook deployment"
+    },
+    {
+      "context_snippet": "![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lit-element"
+    },
+    {
+      "context_snippet": "![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lit-html"
+    },
+    {
+      "context_snippet": "![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redhat"
+    },
+    {
+      "context_snippet": "![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webcomponents"
+    }
+  ]
+}

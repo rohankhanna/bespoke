@@ -103,6 +103,66 @@
       "source_repo": "bdovaz/UnityNuGet",
       "status": "candidate-context",
       "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unitycontainer/unity",
+      "status": "candidate-context",
+      "text": "This repository contains all relevant information about Unity Container suit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitycontainer/unity",
+      "status": "candidate-context",
+      "text": "The Unity Container (Unity) is a full featured, extensible dependency injection container. It facilitates building loosely coupled applications and provides developers with the following advantages:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecomi/uLipSync",
+      "status": "candidate-context",
+      "text": "MFCC-based LipSync plug-in for Unity using Job System and Burst Compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecomi/uLipSync",
+      "status": "candidate-context",
+      "text": "uLipSync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hecomi/uDesktopDuplication",
+      "status": "candidate-context",
+      "text": "Desktop Duplication API implementation for Unity (only for Windows 8/10)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecomi/uDesktopDuplication",
+      "status": "candidate-context",
+      "text": "uDesktopDuplication"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/Unity_live_caption",
+      "status": "candidate-context",
+      "text": "Use Google Speech-to-Text API to do real-time live stream caption on Unity! Best when combined with your virtual character!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/Unity_live_caption",
+      "status": "candidate-context",
+      "text": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate-context",
+      "text": "Unity support for both ReSharper and Rider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +213,36 @@
       "source_repo": "bdovaz/UnityNuGet",
       "status": "candidate",
       "text": "FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:10.0@sha256:8a90a473da5205a16979de99d2fc20975e922c68304f5c79d564e666dc3982fc AS build ARG TARGETARCH WORKDIR /app RUN mkdir -p src/UnityNuGet && \\ mkdir -p src/UnityNuGet.Server && \\ mkdir -p src/UnityNuGet.Server.Tests\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitycontainer/unity",
+      "status": "candidate",
+      "text": "The Unity Container (Unity) is a full featured, extensible dependency injection container. It facilitates building loosely coupled applications and provides developers with the following advantages:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecomi/uLipSync",
+      "status": "candidate",
+      "text": "uLipSync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hecomi/uDesktopDuplication",
+      "status": "candidate",
+      "text": "uDesktopDuplication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/Unity_live_caption",
+      "status": "candidate",
+      "text": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +370,41 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "bdovaz/UnityNuGet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unitycontainer/unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hecomi/uLipSync"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hecomi/uDesktopDuplication"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/Unity_live_caption"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

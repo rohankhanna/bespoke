@@ -79,6 +79,42 @@
       "source_repo": "DL3DV-10K/Dataset",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donydchen/mvsplat",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0a [ECCV'24 Oral] MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/mvsplat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donydchen/mvsplat360",
+      "status": "candidate-context",
+      "text": "\ud83c\udf9e\ufe0f [NeurIPS'24] MVSplat360: Feed-Forward 360 Scene Synthesis from Sparse Views"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/mvsplat360",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SOTAMak1r/GST",
+      "status": "candidate-context",
+      "text": "[ICLR 2025] Where Am I and What Will I See : An Auto-Regressive Model for Spatial Localization and View Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SOTAMak1r/GST",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "DL3DV-10K/Dataset",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/mvsplat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/mvsplat360",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SOTAMak1r/GST",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +214,29 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "DL3DV-10K/Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat360"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/GST"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

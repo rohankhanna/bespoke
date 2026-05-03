@@ -622,6 +622,18 @@
       "source_repo": "vectordotdev/vrl",
       "status": "candidate-context",
       "text": "Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "status": "candidate-context",
+      "text": "Plugin for parsing and managing the Changelog in a \"keep a changelog\" style."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "status": "candidate-context",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
     }
   ],
   "candidate_glosses": [
@@ -930,6 +942,12 @@
       "source_repo": "vectordotdev/vrl",
       "status": "candidate",
       "text": "Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "status": "candidate",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]"
     }
   ],
   "candidate_related_terms": [
@@ -1471,11 +1489,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/gradle-changelog-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

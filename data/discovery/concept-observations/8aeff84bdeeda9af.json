@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Offline testing for Scaleway Serverless Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Tests](https://github.com/scaleway/serverless-functions-node/actions/workflows/tests.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Tests](https://github.com/scaleway/serverless-functions-node/actions/workflows/tests.yml/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26729500,
+      "status": "candidate",
+      "text": "bia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26724007,
+      "status": "candidate",
+      "text": "aif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26710175,
+      "status": "candidate",
+      "text": "asf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26690469,
+      "status": "candidate",
+      "text": "aviation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26633834,
+      "status": "candidate",
+      "text": "law"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "faas",
+      "sense_id": "faas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "faas",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "faas",
+  "observation_id": "8aeff84bdeeda9af",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "faas",
+  "source_context_snippet": "![Tests](https://github.com/scaleway/serverless-functions-node/actions/workflows/tests.yml/badge.svg)",
+  "source_file": null,
+  "source_repo": "scaleway/serverless-functions-node",
+  "source_repo_description": "Offline testing for Scaleway Serverless Functions"
+}

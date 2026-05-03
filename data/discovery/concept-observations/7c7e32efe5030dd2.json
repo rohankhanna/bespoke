@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hjson for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/hjson/hjson-rust/workflows/test/badge.svg)](https://github.com/hjson/hjson-rust/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/hjson/hjson-rust/workflows/test/badge.svg)](https://github.com/hjson/hjson-rust/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serde",
+      "sense_id": "serde#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "serde",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "serde",
+  "observation_id": "7c7e32efe5030dd2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "serde",
+  "source_context_snippet": "[![Build Status](https://github.com/hjson/hjson-rust/workflows/test/badge.svg)](https://github.com/hjson/hjson-rust/actions)",
+  "source_file": null,
+  "source_repo": "hjson/hjson-rust",
+  "source_repo_description": "Hjson for Rust"
+}

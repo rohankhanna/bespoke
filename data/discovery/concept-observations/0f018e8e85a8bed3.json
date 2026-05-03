@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust port of webpack/enhanced-resolve with PNP support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!NOTE]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!NOTE]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29983969,
+      "status": "candidate",
+      "text": "resolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991306,
+      "status": "candidate",
+      "text": "resolutions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991305,
+      "status": "candidate",
+      "text": "resolutionist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991304,
+      "status": "candidate",
+      "text": "resolutioner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19991303,
+      "status": "candidate",
+      "text": "solver"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "resolver",
+      "sense_id": "resolver#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "resolver",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "resolver",
+  "observation_id": "0f018e8e85a8bed3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "resolver",
+  "source_context_snippet": "> [!NOTE]",
+  "source_file": null,
+  "source_repo": "unrs/unrs-resolver",
+  "source_repo_description": "Rust port of webpack/enhanced-resolve with PNP support"
+}

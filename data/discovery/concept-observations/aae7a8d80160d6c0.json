@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apollo Client browser developer tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create PR for new error codes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create PR for new error codes"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39337,
+      "status": "candidate",
+      "text": "misprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38558,
+      "status": "candidate",
+      "text": "overlay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33682,
+      "status": "candidate",
+      "text": "regenerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33669,
+      "status": "candidate",
+      "text": "aplastic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33108,
+      "status": "candidate",
+      "text": "press"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create PR for new error codes",
+      "sense_id": "create-pr-for-new-error-codes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-pr-for-new-error-codes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-pr-for-new-error-codes",
+  "observation_id": "aae7a8d80160d6c0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Create PR for new error codes",
+  "source_context_snippet": "Create PR for new error codes",
+  "source_file": ".github/workflows/update-errorcodes.yml",
+  "source_repo": "apollographql/apollo-client-devtools",
+  "source_repo_description": "Apollo Client browser developer tools."
+}

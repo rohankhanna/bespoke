@@ -31,6 +31,18 @@
       "source_repo": "agent-sh/repo-intel",
       "status": "candidate-context",
       "text": "Unified static analysis for AI agents - git history, AST symbols, project metadata, and doc-code sync via a cached, incrementally-updatable Rust binary."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "status": "candidate-context",
+      "text": "Small standalone tool for interprocess communication in CoSimulation contexts for coupling and exchanging data between different solvers or other software-tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "status": "candidate-context",
+      "text": "~~~"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +51,12 @@
       "source_repo": "agent-sh/repo-intel",
       "status": "candidate",
       "text": "Unified static analysis for AI agents - git history, AST symbols, project metadata, and doc-code sync via a cached, incrementally-updatable Rust binary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "status": "candidate",
+      "text": "~~~"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "agent-sh/repo-intel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/CoSimIO"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

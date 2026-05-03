@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:00:54.424137+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2.0",
+    "description": "[CVPR 2023] Official Implementation of X-Decoder for generalized decoding for pixel, image and language",
+    "fork": false,
+    "full_name": "microsoft/X-Decoder",
+    "html_url": "https://github.com/microsoft/X-Decoder",
+    "language": "Python",
+    "pushed_at": "2023-10-05T04:07:00Z",
+    "stargazers_count": 1344,
+    "topics": [],
+    "updated_at": "2026-04-29T04:30:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

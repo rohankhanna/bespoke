@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saharan/OimoPhysics",
+      "target": "haxefoundation/dox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saharan/OimoPhysics",
+      "target": "haxe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saharan/OimoPhysics",
+      "target": "haxe-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saharan/OimoPhysics",
+      "target": "javascript-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saharan/OimoPhysics",
+      "target": "physics-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "saharan/OimoPhysics",
+      "target": "physics-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:29.533702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2356
+    },
+    {
+      "path": "package.json",
+      "size": 682
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cross-platform 3D physics engine",
+    "fork": false,
+    "full_name": "saharan/OimoPhysics",
+    "html_url": "https://github.com/saharan/OimoPhysics",
+    "language": "JavaScript",
+    "pushed_at": "2025-05-18T14:53:08Z",
+    "stargazers_count": 941,
+    "topics": [
+      "haxe",
+      "haxe-library",
+      "javascript",
+      "javascript-library",
+      "physics-3d",
+      "physics-engine"
+    ],
+    "updated_at": "2026-04-25T17:28:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haxefoundation/dox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "OimoPhysics 1.2.5",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haxe"
+    },
+    {
+      "context_snippet": "OimoPhysics 1.2.5",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haxe-library"
+    },
+    {
+      "context_snippet": "OimoPhysics 1.2.5",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascript-library"
+    },
+    {
+      "context_snippet": "OimoPhysics 1.2.5",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-3d"
+    },
+    {
+      "context_snippet": "OimoPhysics 1.2.5",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-engine"
+    }
+  ]
+}

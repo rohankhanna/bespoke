@@ -1,0 +1,159 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xinge008/Cylinder3D",
+      "target": "cardwing/codes-for-pvkd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinge008/Cylinder3D",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinge008/Cylinder3D",
+      "target": "lidar-point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinge008/Cylinder3D",
+      "target": "lidar-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinge008/Cylinder3D",
+      "target": "nuscenes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinge008/Cylinder3D",
+      "target": "panoptic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinge008/Cylinder3D",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinge008/Cylinder3D",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xinge008/Cylinder3D",
+      "target": "semantickitti",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:24.688489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4395
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1919
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rank 1st in the leaderboard of SemanticKITTI semantic segmentation (both single-scan and multi-scan) (Nov. 2020) (CVPR2021 Oral)",
+    "fork": false,
+    "full_name": "xinge008/Cylinder3D",
+    "html_url": "https://github.com/xinge008/Cylinder3D",
+    "language": "Python",
+    "pushed_at": "2023-04-05T08:18:32Z",
+    "stargazers_count": 950,
+    "topics": [
+      "cvpr2021",
+      "lidar-point-cloud",
+      "lidar-segmentation",
+      "nuscenes",
+      "panoptic-segmentation",
+      "point-cloud",
+      "semantic-segmentation",
+      "semantickitti"
+    ],
+    "updated_at": "2026-04-30T17:24:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cardwing/codes-for-pvkd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-point-cloud"
+    },
+    {
+      "context_snippet": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-segmentation"
+    },
+    {
+      "context_snippet": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuscenes"
+    },
+    {
+      "context_snippet": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "panoptic-segmentation"
+    },
+    {
+      "context_snippet": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "The source code of our work **\"Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantickitti"
+    }
+  ]
+}

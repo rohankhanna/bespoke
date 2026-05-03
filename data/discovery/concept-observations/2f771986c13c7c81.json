@@ -84,7 +84,7 @@
   "normalized_form": "parsing",
   "observation_id": "2f771986c13c7c81",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "parsing",
   "source_context_snippet": "[![CI](https://img.shields.io/github/actions/workflow/status/pydantic/pydantic/ci.yml?branch=main&logo=github&label=CI)](https://github.com/pydantic/pydantic/actions?query=event%3Apush+branch%3Amain+workflow%3ACI)",
   "source_file": null,

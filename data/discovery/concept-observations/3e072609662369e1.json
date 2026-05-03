@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A compatibility layer for event-driven abstractions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049443,
+      "status": "candidate",
+      "text": "futurity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048607,
+      "status": "candidate",
+      "text": "hereafter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048530,
+      "status": "candidate",
+      "text": "early"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048199,
+      "status": "candidate",
+      "text": "subsequent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047998,
+      "status": "candidate",
+      "text": "later"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "future",
+      "sense_id": "future#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27031,
+      "status": "candidate",
+      "text": "forthcoming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24046,
+      "status": "candidate",
+      "text": "prospective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17031,
+      "status": "candidate",
+      "text": "proximo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14034,
+      "status": "candidate",
+      "text": "ulterior"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13027,
+      "status": "candidate",
+      "text": "succeeding"
+    }
+  ],
+  "concept_id": "future",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "future",
+  "observation_id": "3e072609662369e1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "future",
+  "source_context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)",
+  "source_file": null,
+  "source_repo": "clj-commons/manifold",
+  "source_repo_description": "A compatibility layer for event-driven abstractions"
+}

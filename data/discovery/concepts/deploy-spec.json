@@ -73,6 +73,18 @@
       "source_repo": "tc39/proposal-pattern-matching",
       "status": "candidate-context",
       "text": "Deploy spec"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-decimal",
+      "status": "candidate-context",
+      "text": "Built-in exact decimal numbers for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-decimal",
+      "status": "candidate-context",
+      "text": "Deploy spec"
     }
   ],
   "candidate_glosses": [
@@ -109,6 +121,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tc39/proposal-pattern-matching",
+      "status": "candidate",
+      "text": "Deploy spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-decimal",
       "status": "candidate",
       "text": "Deploy spec"
     }
@@ -229,11 +247,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "tc39/proposal-source-phase-imports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tc39/proposal-source-phase-imports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "tc39/proposal-decimal"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

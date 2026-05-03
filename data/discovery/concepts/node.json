@@ -1390,6 +1390,222 @@
       "source_repo": "stdlib-js/stdlib",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/delaunator",
+      "status": "candidate-context",
+      "text": "An incredibly fast JavaScript library for Delaunay triangulation of 2D points"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/delaunator",
+      "status": "candidate-context",
+      "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mourner/rbush",
+      "status": "candidate-context",
+      "text": "RBush \u2014 a high-performance JavaScript R-tree-based 2D spatial index for points and rectangles"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/rbush",
+      "status": "candidate-context",
+      "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mourner/robust-predicates",
+      "status": "candidate-context",
+      "text": "Fast robust predicates for computational geometry in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/robust-predicates",
+      "status": "candidate-context",
+      "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mourner/tinyqueue",
+      "status": "candidate-context",
+      "text": "The smallest and simplest priority queue in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/tinyqueue",
+      "status": "candidate-context",
+      "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withastro/astro",
+      "status": "candidate-context",
+      "text": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/astro",
+      "status": "candidate-context",
+      "text": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "Error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "Multidimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate-context",
+      "text": "Test Anything Protocol tools for node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate-context",
+      "text": "Workspace for node-tap development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mourner/kdbush",
+      "status": "candidate-context",
+      "text": "A fast static index for 2D points"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/kdbush",
+      "status": "candidate-context",
+      "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mourner/flatqueue",
+      "status": "candidate-context",
+      "text": "A very fast and simple JavaScript priority queue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/flatqueue",
+      "status": "candidate-context",
+      "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/get-tsconfig",
+      "status": "candidate-context",
+      "text": "Lightweight tsconfig.json parser & paths resolver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/get-tsconfig",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "Complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "Inverse complementary error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "Inverse error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "Create a typed array."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "Buffer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "Multidimensional array constructor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/http-parser",
+      "status": "candidate-context",
+      "text": "http request/response parser for c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/http-parser",
+      "status": "candidate-context",
+      "text": "HTTP Parser"
     }
   ],
   "candidate_glosses": [
@@ -2082,6 +2298,114 @@
       "source_repo": "stdlib-js/stdlib",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/delaunator",
+      "status": "candidate",
+      "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/rbush",
+      "status": "candidate",
+      "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/robust-predicates",
+      "status": "candidate",
+      "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/tinyqueue",
+      "status": "candidate",
+      "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/astro",
+      "status": "candidate",
+      "text": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erf",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-array",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate",
+      "text": "Workspace for node-tap development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/kdbush",
+      "status": "candidate",
+      "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/flatqueue",
+      "status": "candidate",
+      "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/get-tsconfig",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfc",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfcinv",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/buffer-ctor",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/ndarray-ctor",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/http-parser",
+      "status": "candidate",
+      "text": "HTTP Parser"
     }
   ],
   "candidate_related_terms": [
@@ -3577,11 +3901,191 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "stdlib-js/stdlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mapbox/delaunator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/rbush"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/robust-predicates"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/tinyqueue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "withastro/astro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/ndarray-array"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tapjs/tapjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/kdbush"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/flatqueue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "privatenumber/get-tsconfig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfcinv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/buffer-ctor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/http-parser"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "KratosMultiphysics/Documentation",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "KratosMultiphysics/Documentation",
+      "target": "Nightly Doxygen Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:22.195064+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 687
+    },
+    {
+      "path": ".github/workflows/doxygen.yml",
+      "size": 1399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "KratosMultiphysics/Documentation",
+    "html_url": "https://github.com/KratosMultiphysics/Documentation",
+    "language": "HTML",
+    "pushed_at": "2025-10-01T09:31:57Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-10-01T09:32:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Nightly Doxygen Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doxygen.yml",
+      "term": "Nightly Doxygen Build"
+    }
+  ]
+}

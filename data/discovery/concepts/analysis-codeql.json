@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Analysis: CodeQL"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate-context",
+      "text": "UAParser.js - The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser (client-side) or Node.js (server-side)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate-context",
+      "text": "\"Analysis: CodeQL\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate",
+      "text": "\"Analysis: CodeQL\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Analysis: CodeQL",
+  "concept_id": "analysis-codeql",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/analysis-codeql.yml",
+      "source_repo": "faisalman/ua-parser-js"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Analysis: CodeQL",
+      "sense_id": "analysis-codeql#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

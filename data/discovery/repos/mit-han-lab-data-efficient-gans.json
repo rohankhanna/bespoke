@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/data-efficient-gans",
+      "target": "data-efficient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/data-efficient-gans",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/data-efficient-gans",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/data-efficient-gans",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/data-efficient-gans",
+      "target": "neurips-2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/data-efficient-gans",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/data-efficient-gans",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:35.944350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8412
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[NeurIPS 2020] Differentiable Augmentation for Data-Efficient GAN Training",
+    "fork": false,
+    "full_name": "mit-han-lab/data-efficient-gans",
+    "html_url": "https://github.com/mit-han-lab/data-efficient-gans",
+    "language": "Python",
+    "pushed_at": "2024-09-24T17:46:07Z",
+    "stargazers_count": 1310,
+    "topics": [
+      "data-efficient",
+      "gans",
+      "generative-adversarial-network",
+      "image-generation",
+      "neurips-2020",
+      "pytorch",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-20T23:31:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"imgs/interp.gif\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-efficient"
+    },
+    {
+      "context_snippet": "<img src=\"imgs/interp.gif\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "<img src=\"imgs/interp.gif\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "<img src=\"imgs/interp.gif\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<img src=\"imgs/interp.gif\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips-2020"
+    },
+    {
+      "context_snippet": "<img src=\"imgs/interp.gif\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<img src=\"imgs/interp.gif\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

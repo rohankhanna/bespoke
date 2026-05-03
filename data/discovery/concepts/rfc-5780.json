@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "rfc-5780"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate-context",
+      "text": "NAT type diagnosis CLI. Tells you why WebRTC/P2P/VPN connections fail and whether TURN is required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate-context",
+      "text": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate",
+      "text": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rfc-5780",
+  "concept_id": "rfc-5780",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "1mb-dev/natcheck"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rfc-5780",
+      "sense_id": "rfc-5780#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,265 @@
+{
+  "components": [
+    {
+      "component": "supports-color",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@sinonjs/referee-sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@studio/changes",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@studio/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha-referee-sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mantoni/core_d.js",
+      "target": "mantoni/core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mantoni/core_d.js",
+      "target": "mantoni/eslint_d.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mantoni/core_d.js",
+      "target": "supports-color",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mantoni/core_d.js",
+      "target": "@sinonjs/referee-sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mantoni/core_d.js",
+      "target": "@studio/changes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mantoni/core_d.js",
+      "target": "@studio/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mantoni/core_d.js",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mantoni/core_d.js",
+      "target": "eslint-plugin-mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mantoni/core_d.js",
+      "target": "eslint-plugin-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mantoni/core_d.js",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mantoni/core_d.js",
+      "target": "mocha-referee-sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mantoni/core_d.js",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mantoni/core_d.js",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mantoni/core_d.js",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mantoni/core_d.js",
+      "target": "background-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mantoni/core_d.js",
+      "target": "daemon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mantoni/core_d.js",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mantoni/core_d.js",
+      "target": "process",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:31.019635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3989
+    },
+    {
+      "path": "package.json",
+      "size": 1256
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 607
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Offload your heavy lifting to a daemon. Extracted from eslint_d.",
+    "fork": false,
+    "full_name": "mantoni/core_d.js",
+    "html_url": "https://github.com/mantoni/core_d.js",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-04T15:59:18Z",
+    "stargazers_count": 67,
+    "topics": [
+      "background-service",
+      "daemon",
+      "nodejs",
+      "process"
+    ],
+    "updated_at": "2026-02-18T04:13:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mantoni/core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mantoni/eslint_d.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/mantoni/core_d.js/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "background-service"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/mantoni/core_d.js/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "daemon"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/mantoni/core_d.js/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/mantoni/core_d.js/workflows/Build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "process"
+    }
+  ]
+}

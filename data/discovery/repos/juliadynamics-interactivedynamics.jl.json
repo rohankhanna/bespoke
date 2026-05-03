@@ -1,0 +1,290 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "styfle/cancel-workflow-action@0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "agent-based-modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "bifurcation-diagram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "chaos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "dynamical-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "dynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "gui-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "interactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "nonlinear",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "target": "orbit-diagram",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:52:07.268248+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 122
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 361
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Fast, general-purpose interactive applications for complex systems",
+    "fork": false,
+    "full_name": "JuliaDynamics/InteractiveDynamics.jl",
+    "html_url": "https://github.com/JuliaDynamics/InteractiveDynamics.jl",
+    "language": "Julia",
+    "pushed_at": "2024-06-21T09:43:17Z",
+    "stargazers_count": 176,
+    "topics": [
+      "agent-based-modeling",
+      "bifurcation-diagram",
+      "chaos",
+      "dynamical-systems",
+      "dynamics",
+      "gui-application",
+      "hacktoberfest",
+      "interactive",
+      "julia",
+      "nonlinear",
+      "orbit-diagram"
+    ],
+    "updated_at": "2026-03-02T23:14:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-based-modeling"
+    },
+    {
+      "context_snippet": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bifurcation-diagram"
+    },
+    {
+      "context_snippet": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chaos"
+    },
+    {
+      "context_snippet": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamical-systems"
+    },
+    {
+      "context_snippet": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamics"
+    },
+    {
+      "context_snippet": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-application"
+    },
+    {
+      "context_snippet": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive"
+    },
+    {
+      "context_snippet": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nonlinear"
+    },
+    {
+      "context_snippet": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orbit-diagram"
+    }
+  ]
+}

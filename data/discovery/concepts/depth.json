@@ -43,6 +43,18 @@
       "source_repo": "YvanYin/Metric3D",
       "status": "candidate-context",
       "text": "**Official PyTorch implementation of Metric3Dv1 and Metric3Dv2:**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/unimatch",
+      "status": "candidate-context",
+      "text": "[TPAMI'23] Unifying Flow, Stereo and Depth Estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/unimatch",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "YvanYin/Metric3D",
       "status": "candidate",
       "text": "**Official PyTorch implementation of Metric3Dv1 and Metric3Dv2:**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/unimatch",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -152,11 +170,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "yfeng95/DECA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "yfeng95/DECA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/unimatch"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

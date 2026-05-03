@@ -84,7 +84,7 @@
   "normalized_form": "bindings-regeneration",
   "observation_id": "a7ea313be836303a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Bindings Regeneration",
   "source_context_snippet": "Bindings Regeneration",
   "source_file": ".github/workflows/bindings-regeneration.yml",

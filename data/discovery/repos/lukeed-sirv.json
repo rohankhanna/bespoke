@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "bump",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bundt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "httpie",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mrmime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "selfsigned",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uvu",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeed/sirv",
+      "target": "bump",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeed/sirv",
+      "target": "bundt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeed/sirv",
+      "target": "httpie",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeed/sirv",
+      "target": "mrmime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeed/sirv",
+      "target": "selfsigned",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeed/sirv",
+      "target": "uvu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lukeed/sirv",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lukeed/sirv",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lukeed/sirv",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:03.402499+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 448
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 966
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An optimized middleware & CLI application for serving static files~!",
+    "fork": false,
+    "full_name": "lukeed/sirv",
+    "html_url": "https://github.com/lukeed/sirv",
+    "language": "JavaScript",
+    "pushed_at": "2025-09-03T22:05:10Z",
+    "stargazers_count": 1167,
+    "topics": [],
+    "updated_at": "2026-05-01T02:11:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

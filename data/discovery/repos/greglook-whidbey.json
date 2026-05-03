@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "greglook/whidbey",
+      "target": "greglook/lein-cprint",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:54:00.991349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "nREPL middleware to pretty-print colored values",
+    "fork": false,
+    "full_name": "greglook/whidbey",
+    "html_url": "https://github.com/greglook/whidbey",
+    "language": "Clojure",
+    "pushed_at": "2023-01-07T21:27:45Z",
+    "stargazers_count": 160,
+    "topics": [],
+    "updated_at": "2026-01-24T22:00:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "greglook/lein-cprint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

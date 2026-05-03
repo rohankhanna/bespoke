@@ -331,6 +331,18 @@
       "source_repo": "MichaelGrupp/evo",
       "status": "candidate-context",
       "text": "***Python package for the evaluation of odometry and SLAM***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmenRa/ranx",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0fA Blazing-Fast Python Library for Ranking Evaluation, Comparison, and Fusion \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmenRa/ranx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +507,12 @@
       "source_repo": "MichaelGrupp/evo",
       "status": "candidate",
       "text": "***Python package for the evaluation of odometry and SLAM***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmenRa/ranx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -727,11 +745,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "MichaelGrupp/evo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

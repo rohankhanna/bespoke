@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Minimal Dependency Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "A python library for self-supervised learning on images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "Minimal Dependency Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate",
+      "text": "Minimal Dependency Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17917,
+      "status": "candidate",
+      "text": "small"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17917,
+      "status": "candidate",
+      "text": "stub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17917,
+      "status": "candidate",
+      "text": "trace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17851,
+      "status": "candidate",
+      "text": "bobbin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17851,
+      "status": "candidate",
+      "text": "cryobiology"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Minimal Dependency Tests",
+  "concept_id": "minimal-dependency-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test_minimal_deps.yml",
+      "source_repo": "lightly-ai/lightly"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Minimal Dependency Tests",
+      "sense_id": "minimal-dependency-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Source code for OntoPortal user, admin and developer guides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository hosts the OntoPortal website and product instructions for administering the OntoPortal Appliance (3.0 and later)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository hosts the OntoPortal website and product instructions for administering the OntoPortal Appliance (3.0 and later)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969905,
+      "status": "candidate",
+      "text": "driven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026536,
+      "status": "candidate",
+      "text": "cosmology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026535,
+      "status": "candidate",
+      "text": "metaphysics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026534,
+      "status": "candidate",
+      "text": "being"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026533,
+      "status": "candidate",
+      "text": "existence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ontology",
+      "sense_id": "ontology#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ontology",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ontology",
+  "observation_id": "73f39900a8b3c796",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "ontology",
+  "source_context_snippet": "This repository hosts the OntoPortal website and product instructions for administering the OntoPortal Appliance (3.0 and later).",
+  "source_file": null,
+  "source_repo": "ontoportal/documentation",
+  "source_repo_description": "Source code for OntoPortal user, admin and developer guides"
+}

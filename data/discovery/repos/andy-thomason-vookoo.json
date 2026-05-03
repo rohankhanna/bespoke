@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andy-thomason/Vookoo",
+      "target": "overv/vulkantutorial",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:12.111273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A set of utilities for taking the pain out of Vulkan in header only modern C++",
+    "fork": false,
+    "full_name": "andy-thomason/Vookoo",
+    "html_url": "https://github.com/andy-thomason/Vookoo",
+    "language": "C++",
+    "pushed_at": "2024-06-04T00:45:00Z",
+    "stargazers_count": 538,
+    "topics": [],
+    "updated_at": "2026-05-02T19:08:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "overv/vulkantutorial",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

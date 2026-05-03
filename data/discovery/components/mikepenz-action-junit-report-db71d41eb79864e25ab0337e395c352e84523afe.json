@@ -1,0 +1,12 @@
+{
+  "component": "mikepenz/action-junit-report@db71d41eb79864e25ab0337e395c352e84523afe",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "qdrant/java-client"
+    }
+  ]
+}

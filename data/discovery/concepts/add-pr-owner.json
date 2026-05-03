@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add PR Owner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "status": "candidate-context",
+      "text": "Dialog creation and management for Microsoft Bot Framework Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "status": "candidate-context",
+      "text": "Add PR Owner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "status": "candidate",
+      "text": "Add PR Owner"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19351,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19351,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19351,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19232,
+      "status": "candidate",
+      "text": "imprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19232,
+      "status": "candidate",
+      "text": "present"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add PR Owner",
+  "concept_id": "add-pr-owner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/add-pr-owner.yml",
+      "source_repo": "microsoft/BotFramework-Composer"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add PR Owner",
+      "sense_id": "add-pr-owner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

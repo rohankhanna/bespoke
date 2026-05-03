@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ai-engineer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "weaviate/recipes-ts",
+      "status": "candidate-context",
+      "text": "This repository shares end-to-end scripts on how to use various Weaviate features and integrations!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/recipes-ts",
+      "status": "candidate-context",
+      "text": "recipes-js \u2014 a repository of weaviate recipes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "weaviate/recipes-ts",
+      "status": "candidate",
+      "text": "recipes-js \u2014 a repository of weaviate recipes"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ai-engineer",
+  "concept_id": "ai-engineer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "weaviate/recipes-ts"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-engineer",
+      "sense_id": "ai-engineer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

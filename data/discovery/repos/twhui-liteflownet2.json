@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "twhui/LiteFlowNet2",
+      "target": "twhui/liteflownet3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet2",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet2",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet2",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet2",
+      "target": "liteflownet2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet2",
+      "target": "optical-flow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:38:49.076958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization, TPAMI 2020",
+    "fork": false,
+    "full_name": "twhui/LiteFlowNet2",
+    "html_url": "https://github.com/twhui/LiteFlowNet2",
+    "language": "Python",
+    "pushed_at": "2022-05-17T05:58:28Z",
+    "stargazers_count": 286,
+    "topics": [
+      "caffe",
+      "cnn",
+      "computer-vision",
+      "deeplearning",
+      "liteflownet2",
+      "optical-flow"
+    ],
+    "updated_at": "2026-04-17T03:37:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twhui/liteflownet3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "liteflownet2"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    }
+  ]
+}

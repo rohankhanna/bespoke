@@ -145,6 +145,30 @@
       "source_repo": "famiu/feline.nvim",
       "status": "candidate-context",
       "text": "A minimal, stylish and customizable statusline / winbar for Neovim written in Lua"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "status": "candidate-context",
+      "text": "Feline configuration that picks colors from your current colorscheme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "status": "candidate-context",
+      "text": "This is a opinionated feline config designed to be used as a plugin. It automatically picks colors from applied colorscheme."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rebelot/heirline.nvim",
+      "status": "candidate-context",
+      "text": "Heirline.nvim is a no-nonsense Neovim Statusline plugin designed around recursive inheritance to be exceptionally fast and versatile."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rebelot/heirline.nvim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -213,6 +237,18 @@
       "source_repo": "famiu/feline.nvim",
       "status": "candidate",
       "text": "A minimal, stylish and customizable statusline / winbar for Neovim written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "status": "candidate",
+      "text": "This is a opinionated feline config designed to be used as a plugin. It automatically picks colors from applied colorscheme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rebelot/heirline.nvim",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -346,11 +382,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rebelot/heirline.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

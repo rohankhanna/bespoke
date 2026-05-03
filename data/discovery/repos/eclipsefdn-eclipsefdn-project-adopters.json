@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "chai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eclipsefdn-hugo-solstice-theme",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-minify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonlint",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-java@v1.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "eclipsefdn-hugo-solstice-theme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "json-minify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "jsonlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "actions/setup-java@v1.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "EclipseFdn/eclipsefdn-project-adopters",
+      "target": "CodeQL",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:26.884928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5426
+    },
+    {
+      "path": "package.json",
+      "size": 1523
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Adopters are organizations that voluntarily show their support for the Eclipse projects.",
+    "fork": false,
+    "full_name": "EclipseFdn/eclipsefdn-project-adopters",
+    "html_url": "https://github.com/EclipseFdn/eclipsefdn-project-adopters",
+    "language": "Java",
+    "pushed_at": "2022-05-09T13:16:25Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2023-01-28T00:58:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    }
+  ]
+}

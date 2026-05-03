@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:53:31.544195+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Unity.AspNet.WebApi package",
+    "fork": false,
+    "full_name": "unitycontainer/aspnet-webapi",
+    "html_url": "https://github.com/unitycontainer/aspnet-webapi",
+    "language": "C#",
+    "pushed_at": "2021-10-31T18:10:05Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-08-10T21:28:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

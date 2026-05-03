@@ -1,0 +1,503 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "TheMrMilchmann/setup-msvc-dev@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libusb/hidapi",
+      "target": "todbot/hidapitester",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "libusb/hidapi",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "libusb/hidapi",
+      "target": "andstor/file-existence-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "libusb/hidapi",
+      "target": "microsoft/setup-msbuild@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "libusb/hidapi",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builds.yml",
+      "source_repo": "libusb/hidapi",
+      "target": "GitHub Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "libusb/hidapi",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "libusb/hidapi",
+      "target": "TheMrMilchmann/setup-msvc-dev@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "libusb/hidapi",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "libusb/hidapi",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "libusb/hidapi",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "libusb/hidapi",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "libusb/hidapi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "libusb/hidapi",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "libusb/hidapi",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "libusb/hidapi",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "libusb/hidapi",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libusb/hidapi",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libusb/hidapi",
+      "target": "bluetooth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libusb/hidapi",
+      "target": "hidapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libusb/hidapi",
+      "target": "hidapi-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libusb/hidapi",
+      "target": "hidraw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libusb/hidapi",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libusb/hidapi",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libusb/hidapi",
+      "target": "usb-hid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libusb/hidapi",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:53:54.706692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7052
+    },
+    {
+      "path": ".github/workflows/builds.yml",
+      "size": 22315
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 7711
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 1075
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Simple cross-platform library for communicating with HID devices",
+    "fork": false,
+    "full_name": "libusb/hidapi",
+    "html_url": "https://github.com/libusb/hidapi",
+    "language": "C",
+    "pushed_at": "2026-04-26T22:28:12Z",
+    "stargazers_count": 2196,
+    "topics": [
+      "android",
+      "bluetooth",
+      "bsd",
+      "c",
+      "hid",
+      "hidapi",
+      "hidapi-library",
+      "hidraw",
+      "i2c",
+      "linux",
+      "macos",
+      "spi",
+      "usb",
+      "usb-hid",
+      "windows"
+    ],
+    "updated_at": "2026-05-02T23:13:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "todbot/hidapitester",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GitHub Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builds.yml",
+      "term": "GitHub Builds"
+    },
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "| CI instance | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "| CI instance | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bluetooth"
+    },
+    {
+      "context_snippet": "| CI instance | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hidapi"
+    },
+    {
+      "context_snippet": "| CI instance | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hidapi-library"
+    },
+    {
+      "context_snippet": "| CI instance | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hidraw"
+    },
+    {
+      "context_snippet": "| CI instance | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "| CI instance | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "| CI instance | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "usb-hid"
+    },
+    {
+      "context_snippet": "| CI instance | Status |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

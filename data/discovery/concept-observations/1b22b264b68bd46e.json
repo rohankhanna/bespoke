@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf1a \ud83c\udf0d \ud83c\udf1d GeoIP \u589e\u5f3a\u7248\uff0c\u652f\u6301\u81ea\u7531\u5b9a\u5236 V2Ray dat \u683c\u5f0f\u6587\u4ef6 geoip.dat\u3001MaxMind mmdb \u683c\u5f0f\u6587\u4ef6\u3001sing-box SRS \u683c\u5f0f\u6587\u4ef6\u3001mihomo MRS \u683c\u5f0f\u6587\u4ef6\u3001Clash ruleset\u3001Surge ruleset \u7b49\u3002Enhanced edition of GeoIP for V2Ray, Xray-core, sing-box, Clash, mihomo, Shadowrocket, Quantumult X, Surge, hysteria, Trojan-Go, Leaf, Nginx, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sing-box",
+      "sense_id": "sing-box#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sing-box",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sing-box",
+  "observation_id": "1b22b264b68bd46e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "sing-box",
+  "source_context_snippet": "<h1 align=\"center\">GeoIP \u589e\u5f3a\u7248\uff1a\u81ea\u7531\u5b9a\u5236\u591a\u79cd\u683c\u5f0f GeoIP \u6587\u4ef6</h1>",
+  "source_file": null,
+  "source_repo": "Loyalsoldier/geoip",
+  "source_repo_description": "\ud83c\udf1a \ud83c\udf0d \ud83c\udf1d GeoIP \u589e\u5f3a\u7248\uff0c\u652f\u6301\u81ea\u7531\u5b9a\u5236 V2Ray dat \u683c\u5f0f\u6587\u4ef6 geoip.dat\u3001MaxMind mmdb \u683c\u5f0f\u6587\u4ef6\u3001sing-box SRS \u683c\u5f0f\u6587\u4ef6\u3001mihomo MRS \u683c\u5f0f\u6587\u4ef6\u3001Clash ruleset\u3001Surge ruleset \u7b49\u3002Enhanced edition of GeoIP for V2Ray, Xray-core, sing-box, Clash, mihomo, Shadowrocket, Quantumult X, Surge, hysteria, Trojan-Go, Leaf, Nginx, etc."
+}

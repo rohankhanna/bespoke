@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dschep/install-pipenv-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "dschep/lambda-decorators",
+      "target": "unitedincome/serverless-python-requirements",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dschep/lambda-decorators",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dschep/lambda-decorators",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dschep/lambda-decorators",
+      "target": "dschep/install-pipenv-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dschep/lambda-decorators",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dschep/lambda-decorators",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dschep/lambda-decorators",
+      "target": "decorators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dschep/lambda-decorators",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:45:16.928914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6044
+    },
+    {
+      "path": "requirements.txt",
+      "size": 883
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "\ud83d\udc0d\u03bb\u2728 - A collection of useful decorators for making AWS Lambda handlers",
+    "fork": false,
+    "full_name": "dschep/lambda-decorators",
+    "html_url": "https://github.com/dschep/lambda-decorators",
+    "language": "Python",
+    "pushed_at": "2025-03-06T18:32:36Z",
+    "stargazers_count": 245,
+    "topics": [
+      "aws-lambda",
+      "decorators",
+      "python",
+      "serverless"
+    ],
+    "updated_at": "2026-01-12T03:33:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unitedincome/serverless-python-requirements",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "\ud83d\udc0d\u03bb\u2728 - lambda_decorators",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda"
+    },
+    {
+      "context_snippet": "\ud83d\udc0d\u03bb\u2728 - lambda_decorators",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decorators"
+    },
+    {
+      "context_snippet": "\ud83d\udc0d\u03bb\u2728 - lambda_decorators",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    }
+  ]
+}

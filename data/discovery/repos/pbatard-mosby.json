@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml",
+      "source_repo": "pbatard/Mosby",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml",
+      "source_repo": "pbatard/Mosby",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml",
+      "source_repo": "pbatard/Mosby",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Linux.yml",
+      "source_repo": "pbatard/Mosby",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Linux.yml",
+      "source_repo": "pbatard/Mosby",
+      "target": "Linux (gcc with EDK2)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/Mosby",
+      "target": "arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/Mosby",
+      "target": "edk2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/Mosby",
+      "target": "ia32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/Mosby",
+      "target": "secure-boot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/Mosby",
+      "target": "secureboot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/Mosby",
+      "target": "uefi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/Mosby",
+      "target": "uefi-secureboot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pbatard/Mosby",
+      "target": "uefi-shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:44:49.126880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14744
+    },
+    {
+      "path": ".github/workflows/Linux.yml",
+      "size": 4276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mosby \u2013 More Secure Secure Boot",
+    "fork": false,
+    "full_name": "pbatard/Mosby",
+    "html_url": "https://github.com/pbatard/Mosby",
+    "language": "C",
+    "pushed_at": "2026-04-23T23:40:33Z",
+    "stargazers_count": 161,
+    "topics": [
+      "arm64",
+      "edk2",
+      "ia32",
+      "secure-boot",
+      "secureboot",
+      "uefi",
+      "uefi-secureboot",
+      "uefi-shell",
+      "x64"
+    ],
+    "updated_at": "2026-05-02T22:00:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux (gcc with EDK2)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Linux.yml",
+      "term": "Linux (gcc with EDK2)"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/Mosby/Linux.yml?style=flat-square&label=Linux/EDK2%20Build)](https://github.com/pbatard/Mosby/actions/workflows/Linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm64"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/Mosby/Linux.yml?style=flat-square&label=Linux/EDK2%20Build)](https://github.com/pbatard/Mosby/actions/workflows/Linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edk2"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/Mosby/Linux.yml?style=flat-square&label=Linux/EDK2%20Build)](https://github.com/pbatard/Mosby/actions/workflows/Linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ia32"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/Mosby/Linux.yml?style=flat-square&label=Linux/EDK2%20Build)](https://github.com/pbatard/Mosby/actions/workflows/Linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secure-boot"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/Mosby/Linux.yml?style=flat-square&label=Linux/EDK2%20Build)](https://github.com/pbatard/Mosby/actions/workflows/Linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secureboot"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/Mosby/Linux.yml?style=flat-square&label=Linux/EDK2%20Build)](https://github.com/pbatard/Mosby/actions/workflows/Linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uefi"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/Mosby/Linux.yml?style=flat-square&label=Linux/EDK2%20Build)](https://github.com/pbatard/Mosby/actions/workflows/Linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uefi-secureboot"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/pbatard/Mosby/Linux.yml?style=flat-square&label=Linux/EDK2%20Build)](https://github.com/pbatard/Mosby/actions/workflows/Linux.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uefi-shell"
+    }
+  ]
+}

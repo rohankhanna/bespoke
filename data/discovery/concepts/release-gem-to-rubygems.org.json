@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Gem to rubygems.org"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "globalize/globalize",
+      "status": "candidate-context",
+      "text": "Rails I18n de-facto standard library for ActiveRecord model/data translation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "globalize/globalize",
+      "status": "candidate-context",
+      "text": "Release Gem to rubygems.org"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "globalize/globalize",
+      "status": "candidate",
+      "text": "Release Gem to rubygems.org"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11721,
+      "status": "candidate",
+      "text": "setting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11526,
+      "status": "candidate",
+      "text": "spread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10643,
+      "status": "candidate",
+      "text": "announcements"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10643,
+      "status": "candidate",
+      "text": "communication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10643,
+      "status": "candidate",
+      "text": "disclosures"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Gem to rubygems.org",
+  "concept_id": "release-gem-to-rubygems.org",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "globalize/globalize"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Gem to rubygems.org",
+      "sense_id": "release-gem-to-rubygems.org#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

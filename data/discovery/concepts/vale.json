@@ -31,6 +31,18 @@
       "source_repo": "vale-cli/vale",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vale-cli/packages",
+      "status": "candidate-context",
+      "text": ":package: A collection of pre-packaged, Vale-compatible style guides and configurations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/packages",
+      "status": "candidate-context",
+      "text": "This repository contains a library of all officially supported styles for Vale. The benefits of using these styles over their original implementations include:"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "vale-cli/vale",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vale-cli/packages",
+      "status": "candidate",
+      "text": "This repository contains a library of all officially supported styles for Vale. The benefits of using these styles over their original implementations include:"
     }
   ],
   "candidate_related_terms": [
@@ -114,11 +132,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "vale-cli/vale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/Microsoft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/vale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vale-cli/packages"
     }
   ],
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

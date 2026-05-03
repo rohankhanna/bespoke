@@ -1,0 +1,481 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build2.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build2.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build2.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml"
+    },
+    {
+      "component": "r0adkll/sign-android-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml"
+    },
+    {
+      "component": "timheuer/base64-to-file@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml"
+    },
+    {
+      "component": "ashutoshgngwr/validate-fastlane-supply-metadata@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "robinraju/release-downloader@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "android-actions/setup-android@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "Build APK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build2.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build2.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "robinraju/release-downloader@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build2.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build2.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "Download Latest aar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "android-actions/setup-android@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "robinraju/release-downloader@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "r0adkll/sign-android-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build3.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "Build Release APK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "android-actions/setup-android@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "robinraju/release-downloader@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "timheuer/base64-to-file@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build4.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "Build Release APK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "ashutoshgngwr/validate-fastlane-supply-metadata@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fastlane.yml",
+      "source_repo": "mahsanet/NikaNG",
+      "target": "Validate Fastlane metadata",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:18.149210+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 989
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 6195
+    },
+    {
+      "path": ".github/workflows/build2.yml",
+      "size": 1022
+    },
+    {
+      "path": ".github/workflows/build3.yml",
+      "size": 2114
+    },
+    {
+      "path": ".github/workflows/build4.yml",
+      "size": 2453
+    },
+    {
+      "path": ".github/workflows/fastlane.yml",
+      "size": 343
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fork of v2rayng with customized core. (mahsa-core)",
+    "fork": true,
+    "full_name": "mahsanet/NikaNG",
+    "html_url": "https://github.com/mahsanet/NikaNG",
+    "language": "Kotlin",
+    "pushed_at": "2025-02-06T16:22:33Z",
+    "stargazers_count": 337,
+    "topics": [],
+    "updated_at": "2026-05-02T16:03:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build APK",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build APK"
+    },
+    {
+      "context_snippet": "Download Latest aar",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build2.yml",
+      "term": "Download Latest aar"
+    },
+    {
+      "context_snippet": "Build Release APK",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build3.yml",
+      "term": "Build Release APK"
+    },
+    {
+      "context_snippet": "Build Release APK",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build4.yml",
+      "term": "Build Release APK"
+    },
+    {
+      "context_snippet": "Validate Fastlane metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fastlane.yml",
+      "term": "Validate Fastlane metadata"
+    }
+  ]
+}

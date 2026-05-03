@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly_standup.yml",
+      "source_repo": "stdlib-js/meetings",
+      "target": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly_standup.yml",
+      "source_repo": "stdlib-js/meetings",
+      "target": "peter-evans/create-issue-from-file@d60bea1e77c1b5c523216f7c31493883d76ffad7",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "stdlib-js/meetings"
+}

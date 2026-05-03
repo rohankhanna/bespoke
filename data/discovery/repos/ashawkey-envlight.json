@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "ashawkey/envlight",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "ashawkey/envlight",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "ashawkey/envlight",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:40:59.715953+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/pypi-publish.yml",
+      "size": 943
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Environment light tools.",
+    "fork": false,
+    "full_name": "ashawkey/envlight",
+    "html_url": "https://github.com/ashawkey/envlight",
+    "language": "Python",
+    "pushed_at": "2024-01-19T02:10:52Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-04-15T13:47:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

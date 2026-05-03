@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:53:53.455339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3550
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An implementation of StyleCop rules using the .NET Compiler Platform",
+    "fork": false,
+    "full_name": "DotNetAnalyzers/StyleCopAnalyzers",
+    "html_url": "https://github.com/DotNetAnalyzers/StyleCopAnalyzers",
+    "language": "C#",
+    "pushed_at": "2025-12-31T16:00:59Z",
+    "stargazers_count": 2840,
+    "topics": [],
+    "updated_at": "2026-04-30T23:35:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

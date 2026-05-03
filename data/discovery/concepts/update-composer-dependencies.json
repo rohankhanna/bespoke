@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Composer dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "status": "candidate-context",
+      "text": "Dialog creation and management for Microsoft Bot Framework Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "status": "candidate-context",
+      "text": "Update Composer dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "status": "candidate",
+      "text": "Update Composer dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23069,
+      "status": "candidate",
+      "text": "group"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23069,
+      "status": "candidate",
+      "text": "strophe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23048,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23048,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23037,
+      "status": "candidate",
+      "text": "field"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Composer dependencies",
+  "concept_id": "update-composer-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/dependency_updates.yml",
+      "source_repo": "microsoft/BotFramework-Composer"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Composer dependencies",
+      "sense_id": "update-composer-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

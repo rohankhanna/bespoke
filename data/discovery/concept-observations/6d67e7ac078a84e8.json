@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Inverse error function."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017930,
+      "status": "candidate",
+      "text": "reverse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016053,
+      "status": "candidate",
+      "text": "backward"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001527,
+      "status": "candidate",
+      "text": "opposite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985896,
+      "status": "candidate",
+      "text": "reciprocal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30018056,
+      "status": "candidate",
+      "text": "conversely"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inverse",
+      "sense_id": "inverse#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15048,
+      "status": "candidate",
+      "text": "reciprocal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13042,
+      "status": "candidate",
+      "text": "opposite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10054,
+      "status": "candidate",
+      "text": "reverse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7038,
+      "status": "candidate",
+      "text": "backward"
+    }
+  ],
+  "concept_id": "inverse",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inverse",
+  "observation_id": "6d67e7ac078a84e8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "inverse",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "stdlib-js/math-base-special-erfinv",
+  "source_repo_description": "Inverse error function."
+}

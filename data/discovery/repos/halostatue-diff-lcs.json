@@ -1,0 +1,549 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@648a8eb78e6d50909eff900e4ec85cab4524a45b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yml"
+    },
+    {
+      "component": "KineticCafe/actions-dco@6e1652ef3027ce128e65e6edd215ae053350bd16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml"
+    },
+    {
+      "component": "rubygems/release-gem@e9a6361a0b14562539327c2a02373edc56dd3169",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "reviewdog/action-typos@d5eb1bbcd1b3bfde596f6eeb470322727862fe98",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "reviewdog/action-actionlint@0d952c597ef8459f634d7145b0b044a9699e5e43",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "coverallsapp/github-action@648a8eb78e6d50909eff900e4ec85cab4524a45b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "Ruby CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "KineticCafe/actions-dco@6e1652ef3027ce128e65e6edd215ae053350bd16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco-check.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "Check DCO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "Publish docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "rubygems/release-gem@e9a6361a0b14562539327c2a02373edc56dd3169",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "reviewdog/action-typos@d5eb1bbcd1b3bfde596f6eeb470322727862fe98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "reviewdog/action-actionlint@0d952c597ef8459f634d7145b0b044a9699e5e43",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "Reviewdog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "step-security/harden-runner@5ef0c079ce82195b2a36a210272d6b661572d83e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "zizmorcore/zizmor-action@71321a20a9ded102f6e9ce5718a2fcec2c4f70d8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "halostatue/diff-lcs",
+      "target": "GitHub Actions Security Analysis with zizmor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:06.758325+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4538
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 9047
+    },
+    {
+      "path": ".github/workflows/dco-check.yml",
+      "size": 677
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 1333
+    },
+    {
+      "path": ".github/workflows/publish-docs.yml",
+      "size": 1713
+    },
+    {
+      "path": ".github/workflows/publish-gem.yml",
+      "size": 2920
+    },
+    {
+      "path": ".github/workflows/reviewdog.yml",
+      "size": 1785
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "size": 1050
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generate difference sets between Ruby sequences.",
+    "fork": false,
+    "full_name": "halostatue/diff-lcs",
+    "html_url": "https://github.com/halostatue/diff-lcs",
+    "language": "Ruby",
+    "pushed_at": "2026-05-01T01:50:45Z",
+    "stargazers_count": 304,
+    "topics": [],
+    "updated_at": "2026-04-23T00:02:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ruby CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Ruby CI"
+    },
+    {
+      "context_snippet": "Check DCO",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco-check.yml",
+      "term": "Check DCO"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Publish docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "term": "Publish docs"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Reviewdog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "term": "Reviewdog"
+    },
+    {
+      "context_snippet": "GitHub Actions Security Analysis with zizmor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "term": "GitHub Actions Security Analysis with zizmor"
+    }
+  ]
+}

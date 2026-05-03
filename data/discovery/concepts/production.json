@@ -70,6 +70,18 @@
       "source_repo": "NVIDIA/multi-storage-client",
       "status": "candidate-context",
       "text": "Production"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optimizely/nuclear-js",
+      "status": "candidate-context",
+      "text": "Reactive Flux built with ImmutableJS data structures. Framework agnostic."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optimizely/nuclear-js",
+      "status": "candidate-context",
+      "text": "NuclearJS"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "NVIDIA/multi-storage-client",
       "status": "candidate",
       "text": "Production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optimizely/nuclear-js",
+      "status": "candidate",
+      "text": "NuclearJS"
     }
   ],
   "candidate_related_terms": [
@@ -183,11 +201,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/.production.yml",
       "source_repo": "NVIDIA/multi-storage-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "optimizely/nuclear-js"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

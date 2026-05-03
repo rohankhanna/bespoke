@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "3b/cl-vulkan",
+      "target": "awolven/krma.git.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:50:37.113449+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vulkan bindings for Common Lisp.",
+    "fork": true,
+    "full_name": "3b/cl-vulkan",
+    "html_url": "https://github.com/3b/cl-vulkan",
+    "language": "Common Lisp",
+    "pushed_at": "2025-09-14T20:27:06Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-09-14T20:27:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awolven/krma.git.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -493,6 +493,30 @@
       "source_repo": "YuvalNirkin/face_segmentation",
       "status": "candidate-context",
       "text": "![alt text](https://yuvalnirkin.github.io/assets/img/projects/face_segmentation/face_segmentation_teaser.jpg \"Samples\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate-context",
+      "text": "Toolkit of BDD100K Dataset for Heterogeneous Multitask Learning - CVPR 2020 Oral Paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "echonet/dynamic",
+      "status": "candidate-context",
+      "text": "EchoNet-Dynamic is a deep learning model for assessing cardiac function in echocardiogram videos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "echonet/dynamic",
+      "status": "candidate-context",
+      "text": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment"
     }
   ],
   "candidate_glosses": [
@@ -741,6 +765,18 @@
       "source_repo": "YuvalNirkin/face_segmentation",
       "status": "candidate",
       "text": "![alt text](https://yuvalnirkin.github.io/assets/img/projects/face_segmentation/face_segmentation_teaser.jpg \"Samples\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bdd100k/bdd100k",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "echonet/dynamic",
+      "status": "candidate",
+      "text": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment"
     }
   ],
   "candidate_related_terms": [
@@ -1252,11 +1288,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/PFENet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bdd100k/bdd100k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "echonet/dynamic"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -115,6 +115,30 @@
       "source_repo": "ruby-numo/numo-linalg",
       "status": "candidate-context",
       "text": "[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ruby-numo/numo-linalg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eigenteam/eigen-git-mirror",
+      "status": "candidate-context",
+      "text": "THIS MIRROR IS DEPRECATED -- New url: https://gitlab.com/libeigen/eigen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigenteam/eigen-git-mirror",
+      "status": "candidate-context",
+      "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "Create a typed array."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "ruby-numo/numo-linalg",
       "status": "candidate",
       "text": "[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/ruby-numo/numo-linalg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigenteam/eigen-git-mirror",
+      "status": "candidate",
+      "text": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stdlib-js/array-typed",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -313,11 +349,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eigenteam/eigen-git-mirror"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

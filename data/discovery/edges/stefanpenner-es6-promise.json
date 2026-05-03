@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "stefanpenner/es6-promise",
-      "target": "tildeio/rsvp.js",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "stefanpenner/es6-promise",
@@ -176,6 +169,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "stefanpenner/es6-promise"
 }

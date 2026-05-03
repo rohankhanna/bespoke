@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donydchen/mvsplat",
+      "target": "chengzhag/pansplat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donydchen/mvsplat",
+      "target": "donydchen/mvsplat360",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "donydchen/mvsplat",
+      "target": "dcharatan/real_estate_10k_tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "donydchen/mvsplat",
+      "target": "dcharatan/diff-gaussian-rasterization-modified",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat",
+      "target": "cost-volume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat",
+      "target": "eccv2024",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat",
+      "target": "feed-forward-gaussian-splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat",
+      "target": "gaussian-splatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat",
+      "target": "novel-view-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:29.532518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9043
+    },
+    {
+      "path": "requirements.txt",
+      "size": 296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf0a [ECCV'24 Oral] MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images",
+    "fork": false,
+    "full_name": "donydchen/mvsplat",
+    "html_url": "https://github.com/donydchen/mvsplat",
+    "language": "Python",
+    "pushed_at": "2025-08-27T03:54:10Z",
+    "stargazers_count": 1236,
+    "topics": [
+      "cost-volume",
+      "eccv2024",
+      "feed-forward-gaussian-splatting",
+      "gaussian-splatting",
+      "novel-view-synthesis"
+    ],
+    "updated_at": "2026-04-28T07:42:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chengzhag/pansplat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcharatan/real_estate_10k_tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "donydchen/mvsplat360",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dcharatan/diff-gaussian-rasterization-modified",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cost-volume"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eccv2024"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feed-forward-gaussian-splatting"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaussian-splatting"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "novel-view-synthesis"
+    }
+  ]
+}

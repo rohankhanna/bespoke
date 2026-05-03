@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "YARD Lint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "A set of RSpec matchers for testing Pundit authorisation policies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "YARD Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate",
+      "text": "YARD Lint"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11065,
+      "status": "candidate",
+      "text": "foot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10954,
+      "status": "candidate",
+      "text": "bellybutton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10954,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10954,
+      "status": "candidate",
+      "text": "flue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10954,
+      "status": "candidate",
+      "text": "screen"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "YARD Lint",
+  "concept_id": "yard-lint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/yard.yml",
+      "source_repo": "pundit-community/pundit-matchers"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "YARD Lint",
+      "sense_id": "yard-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

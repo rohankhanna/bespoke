@@ -1,0 +1,357 @@
+{
+  "components": [
+    {
+      "component": "pion/.goassets/.github/workflows/api.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/codeql-analysis.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/fuzz.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/lint.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/release.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/renovate-go-sum-fix.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate-go-sum-fix.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/reuse.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/test.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/test-i386.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/test-windows.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/test-macos.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "pion/.goassets/.github/workflows/test-wasm.reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "meetecho/janus-gateway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/api.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "API",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/codeql-analysis.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/fuzz.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/lint.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/release.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovate-go-sum-fix.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/renovate-go-sum-fix.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate-go-sum-fix.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "Fix go.sum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/reuse.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "REUSE Compliance Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/test.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/test-i386.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/test-windows.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/test-macos.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion/.goassets/.github/workflows/test-wasm.reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pion/example-webrtc-applications",
+      "target": "pion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:48:35.485065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3225
+    },
+    {
+      "path": "go.mod",
+      "size": 2331
+    },
+    {
+      "path": ".github/workflows/api.yaml",
+      "size": 586
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 716
+    },
+    {
+      "path": ".github/workflows/fuzz.yaml",
+      "size": 734
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 634
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 678
+    },
+    {
+      "path": ".github/workflows/renovate-go-sum-fix.yaml",
+      "size": 693
+    },
+    {
+      "path": ".github/workflows/reuse.yml",
+      "size": 615
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples of WebRTC applications that are large, or use 3rd party libraries",
+    "fork": false,
+    "full_name": "pion/example-webrtc-applications",
+    "html_url": "https://github.com/pion/example-webrtc-applications",
+    "language": "Go",
+    "pushed_at": "2026-05-01T18:44:58Z",
+    "stargazers_count": 1336,
+    "topics": [
+      "go",
+      "golang",
+      "pion"
+    ],
+    "updated_at": "2026-05-01T18:44:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meetecho/janus-gateway",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "API",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api.yaml",
+      "term": "API"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yaml",
+      "term": "Fuzz"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Fix go.sum",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate-go-sum-fix.yaml",
+      "term": "Fix go.sum"
+    },
+    {
+      "context_snippet": "REUSE Compliance Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reuse.yml",
+      "term": "REUSE Compliance Check"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pion"
+    }
+  ]
+}

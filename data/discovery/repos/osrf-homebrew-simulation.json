@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "Homebrew/actions/setup-homebrew@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "gazebosim/gz-cmake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "gazebosim/gz-common",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "gazebosim/gz-fuel-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "gazebo-tooling/release-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "brew test-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "gazebo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "ignition-gazebo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "ignition-robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "osrf/homebrew-simulation",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:43:28.739828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 73303
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Homebrew tap for osrf simulation software",
+    "fork": false,
+    "full_name": "osrf/homebrew-simulation",
+    "html_url": "https://github.com/osrf/homebrew-simulation",
+    "language": "Ruby",
+    "pushed_at": "2026-05-01T20:11:14Z",
+    "stargazers_count": 68,
+    "topics": [
+      "gazebo",
+      "hacktoberfest",
+      "homebrew",
+      "ignition-gazebo",
+      "ignition-robotics",
+      "macos",
+      "robotics",
+      "robotics-simulation"
+    ],
+    "updated_at": "2026-05-01T20:11:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebo-tooling/release-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-cmake",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-common",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-fuel-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "brew test-bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "brew test-bot"
+    },
+    {
+      "context_snippet": "Build | Status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo"
+    },
+    {
+      "context_snippet": "Build | Status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Build | Status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew"
+    },
+    {
+      "context_snippet": "Build | Status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-gazebo"
+    },
+    {
+      "context_snippet": "Build | Status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-robotics"
+    },
+    {
+      "context_snippet": "Build | Status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Build | Status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "Build | Status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    }
+  ]
+}

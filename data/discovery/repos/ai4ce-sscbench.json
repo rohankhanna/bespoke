@@ -1,0 +1,247 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4ce/SSCBench",
+      "target": "ai4ce/occ4cast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4ce/SSCBench",
+      "target": "shurans/sscnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4ce/SSCBench",
+      "target": "astra-vision/lmscnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai4ce/SSCBench",
+      "target": "nvlabs/voxformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "2d-to-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "3d-perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "3d-scene-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "occupancy-grid-map",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "semantic-scene-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench",
+      "target": "semantic-scene-understanding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:26.230219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[IROS2024] SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving",
+    "fork": false,
+    "full_name": "ai4ce/SSCBench",
+    "html_url": "https://github.com/ai4ce/SSCBench",
+    "language": "Python",
+    "pushed_at": "2025-04-09T07:33:14Z",
+    "stargazers_count": 218,
+    "topics": [
+      "2d-to-3d",
+      "3d-perception",
+      "3d-scene-understanding",
+      "artificial-intelligence",
+      "autonomous-driving",
+      "autonomous-vehicles",
+      "computer-vision",
+      "dataset",
+      "machine-learning",
+      "occupancy-grid-map",
+      "semantic-scene-completion",
+      "semantic-scene-understanding"
+    ],
+    "updated_at": "2026-04-18T15:02:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai4ce/occ4cast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astra-vision/lmscnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/voxformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shurans/sscnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2d-to-3d"
+    },
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-perception"
+    },
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-scene-understanding"
+    },
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "occupancy-grid-map"
+    },
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-scene-completion"
+    },
+    {
+      "context_snippet": "[Yiming Li*](https://roboticsyimingli.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-scene-understanding"
+    }
+  ]
+}

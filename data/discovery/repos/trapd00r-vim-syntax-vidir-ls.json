@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "target": "trapd00r/ls_colors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "target": "dircolors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "target": "file-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "target": "ls-colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "target": "vidir",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:57:19.302613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "dircolors in your vidir session",
+    "fork": false,
+    "full_name": "trapd00r/vim-syntax-vidir-ls",
+    "html_url": "https://github.com/trapd00r/vim-syntax-vidir-ls",
+    "language": "Vim script",
+    "pushed_at": "2024-06-08T08:07:07Z",
+    "stargazers_count": 41,
+    "topics": [
+      "dircolors",
+      "file-manager",
+      "ls-colors",
+      "vidir",
+      "vim"
+    ],
+    "updated_at": "2025-11-27T11:18:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trapd00r/ls_colors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "use LS\\_COLORS in your [vidir](https://github.com/trapd00r/vidir)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dircolors"
+    },
+    {
+      "context_snippet": "use LS\\_COLORS in your [vidir](https://github.com/trapd00r/vidir)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-manager"
+    },
+    {
+      "context_snippet": "use LS\\_COLORS in your [vidir](https://github.com/trapd00r/vidir)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ls-colors"
+    },
+    {
+      "context_snippet": "use LS\\_COLORS in your [vidir](https://github.com/trapd00r/vidir)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vidir"
+    }
+  ]
+}

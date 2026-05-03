@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Go implementation of STUN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047661,
+      "status": "candidate",
+      "text": "pi-meson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19968894,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19893669,
+      "status": "candidate",
+      "text": "asset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19877133,
+      "status": "candidate",
+      "text": "prefect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19706933,
+      "status": "candidate",
+      "text": "pawn"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pion",
+      "sense_id": "pion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "pi-meson"
+    }
+  ],
+  "concept_id": "pion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pion",
+  "observation_id": "69f24648aba6e770",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "pion",
+  "source_context_snippet": "<h1 align=\"center\">",
+  "source_file": null,
+  "source_repo": "pion/stun",
+  "source_repo_description": "A Go implementation of STUN"
+}

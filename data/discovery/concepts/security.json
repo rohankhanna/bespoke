@@ -1666,6 +1666,126 @@
       "source_repo": "mitmproxy/mitmproxy",
       "status": "candidate-context",
       "text": "[![Continuous Integration Status](https://github.com/mitmproxy/mitmproxy/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mitmproxy/mitmproxy/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/docs",
+      "status": "candidate-context",
+      "text": "Client / Server Model for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/docs",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/docs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsops/sops",
+      "status": "candidate-context",
+      "text": "Simple and flexible tool for managing secrets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsops/sops",
+      "status": "candidate-context",
+      "text": "SOPS: Secrets OPerationS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kyverno/kyverno",
+      "status": "candidate-context",
+      "text": "Unified Policy as Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyverno/kyverno",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0a Policy Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate-context",
+      "text": "![Static Badge](https://img.shields.io/badge/OPA%20Version-v0.60.0-blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "databendlabs/databend-meta",
+      "status": "candidate-context",
+      "text": "Standalone meta-service for Databend, built on OpenRaft."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend-meta",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "Internet-scale OpenID Certified\u2122 OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to approve pull requests securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "[![DeepWiki](https://img.shields.io/badge/Ask_DeepWiki-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to update pull request branches securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate-context",
+      "text": "[![DeepWiki](https://img.shields.io/badge/Ask_DeepWiki-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "A vulnerability scanner for container images and filesystems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reZach/secure-electron-template",
+      "status": "candidate-context",
+      "text": "The best way to build Electron apps with security in mind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reZach/secure-electron-template",
+      "status": "candidate-context",
+      "text": "A current electron app template with the most popular frameworks, designed and built with security in mind. (If you are curious about what makes an electron app secure, please check out [this page](https://github.com/reZach/secure-electron-template/blob/master/docs/secureapps.md\u2026"
     }
   ],
   "candidate_glosses": [
@@ -2490,6 +2610,66 @@
       "source_repo": "mitmproxy/mitmproxy",
       "status": "candidate",
       "text": "[![Continuous Integration Status](https://github.com/mitmproxy/mitmproxy/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mitmproxy/mitmproxy/actions?query=branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/docs",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/csm-actions/docs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsops/sops",
+      "status": "candidate",
+      "text": "SOPS: Secrets OPerationS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyverno/kyverno",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate",
+      "text": "![Static Badge](https://img.shields.io/badge/OPA%20Version-v0.60.0-blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "databendlabs/databend-meta",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate",
+      "text": "[![DeepWiki](https://img.shields.io/badge/Ask_DeepWiki-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate",
+      "text": "[![DeepWiki](https://img.shields.io/badge/Ask_DeepWiki-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reZach/secure-electron-template",
+      "status": "candidate",
+      "text": "A current electron app template with the most popular frameworks, designed and built with security in mind. (If you are curious about what makes an electron app secure, please check out [this page](https://github.com/reZach/secure-electron-template/blob/master/docs/secureapps.md\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -3745,11 +3925,119 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/enforce-sha.yml",
+      "source_repo": "conda/rattler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "csm-actions/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "getsops/sops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kyverno/kyverno"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "open-policy-agent/gatekeeper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "databendlabs/databend-meta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/hydra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "csm-actions/approve-pr-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "csm-actions/update-branch-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "anchore/grype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "reZach/secure-electron-template"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

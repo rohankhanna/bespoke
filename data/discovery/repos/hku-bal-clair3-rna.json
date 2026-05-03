@@ -1,0 +1,173 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "hku-bal/clairs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "hku-bal/clairs-to",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "long-read-sequencing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "nanopore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "pacbio-iso-seq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "rna-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "rna-seq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "rna-seq-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "target": "variant-calling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:54:32.599607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18618
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3060
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Clair3-RNA - a long-read small variant caller for RNA sequencing data",
+    "fork": false,
+    "full_name": "HKU-BAL/Clair3-RNA",
+    "html_url": "https://github.com/HKU-BAL/Clair3-RNA",
+    "language": "Python",
+    "pushed_at": "2026-04-16T04:55:43Z",
+    "stargazers_count": 42,
+    "topics": [
+      "deep-learning",
+      "long-read-sequencing",
+      "nanopore",
+      "ont",
+      "pacbio-iso-seq",
+      "rna",
+      "rna-editing",
+      "rna-seq",
+      "rna-seq-pipeline",
+      "variant-calling"
+    ],
+    "updated_at": "2026-04-23T07:49:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-bal/clairs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hku-bal/clairs-to",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-read-sequencing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nanopore"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacbio-iso-seq"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rna-editing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rna-seq"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rna-seq-pipeline"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variant-calling"
+    }
+  ]
+}

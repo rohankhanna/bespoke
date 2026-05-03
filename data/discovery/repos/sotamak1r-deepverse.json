@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SOTAMak1r/DeepVerse",
+      "target": "openrobotlab/aether",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SOTAMak1r/DeepVerse",
+      "target": "stability-ai/sd3.5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SOTAMak1r/DeepVerse",
+      "target": "sotamak1r/gst",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/DeepVerse",
+      "target": "4d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/DeepVerse",
+      "target": "autoregressive-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/DeepVerse",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/DeepVerse",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/DeepVerse",
+      "target": "world-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SOTAMak1r/DeepVerse",
+      "target": "world-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:55:40.926479+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8729
+    },
+    {
+      "path": "requirements.txt",
+      "size": 354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DeepVerse: 4D Autoregressive Video Generation as a World Model",
+    "fork": false,
+    "full_name": "SOTAMak1r/DeepVerse",
+    "html_url": "https://github.com/SOTAMak1r/DeepVerse",
+    "language": "Python",
+    "pushed_at": "2025-08-11T05:46:58Z",
+    "stargazers_count": 226,
+    "topics": [
+      "4d-generation",
+      "autoregressive-model",
+      "generative-model",
+      "multimodal",
+      "world-engine",
+      "world-model"
+    ],
+    "updated_at": "2026-05-02T17:14:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openrobotlab/aether",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sotamak1r/gst",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/sd3.5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "4d-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoregressive-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-engine"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-model"
+    }
+  ]
+}

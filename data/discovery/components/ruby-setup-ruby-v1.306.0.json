@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1.306.0",
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "activeadmin/activeadmin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rubocop.yml",
+      "source_repo": "pundit-community/pundit-matchers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pundit-community/pundit-matchers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/yard.yml",
+      "source_repo": "pundit-community/pundit-matchers"
     }
   ]
 }

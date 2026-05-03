@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "weaviate/Verba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "weaviate/Verba",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "weaviate/Verba",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "weaviate/Verba",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "weaviate/Verba",
+      "target": "Docker Build and Push",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:48:27.932923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31779
+    },
+    {
+      "path": "Dockerfile",
+      "size": 136
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Retrieval Augmented Generation (RAG) chatbot powered by Weaviate",
+    "fork": false,
+    "full_name": "weaviate/Verba",
+    "html_url": "https://github.com/weaviate/Verba",
+    "language": "Python",
+    "pushed_at": "2026-04-27T14:55:29Z",
+    "stargazers_count": 7675,
+    "topics": [],
+    "updated_at": "2026-05-02T19:56:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docker Build and Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Docker Build and Push"
+    }
+  ]
+}

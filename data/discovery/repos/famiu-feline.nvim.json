@@ -43,13 +43,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "famiu/feline.nvim",
-      "target": "ibhagwan/nvim-lua",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "famiu/feline.nvim",
       "target": "hitesh-aggarwal/feline_one_monokai.nvim",
       "target_type": "repository"
     },
@@ -138,7 +131,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T19:31:22.482228+00:00",
+  "fetched_at": "2026-05-03T04:58:02.467876+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -182,11 +175,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "hitesh-aggarwal/feline_one_monokai.nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ibhagwan/nvim-lua",
       "source_file": "README.md"
     },
     {

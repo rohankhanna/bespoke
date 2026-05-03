@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dotnet-core2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "status": "candidate-context",
+      "text": "Welcome to the Bot Framework SDK for .NET repository, which is the home for the libraries and packages that enable developers to build sophisticated bot applications using .NET. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "status": "candidate-context",
+      "text": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "status": "candidate",
+      "text": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dotnet-core2",
+  "concept_id": "dotnet-core2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dotnet-core2",
+      "sense_id": "dotnet-core2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:53:31.051321+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "ASP.NET MVC 5 Adapter",
+    "fork": false,
+    "full_name": "unitycontainer/aspnet-mvc",
+    "html_url": "https://github.com/unitycontainer/aspnet-mvc",
+    "language": "C#",
+    "pushed_at": "2021-10-08T01:38:36Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2023-05-02T11:02:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

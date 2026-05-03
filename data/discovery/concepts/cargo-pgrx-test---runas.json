@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cargo pgrx test --runas"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "Build Postgres Extensions with Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "cargo pgrx test --runas"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate",
+      "text": "cargo pgrx test --runas"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11694,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11694,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11694,
+      "status": "candidate",
+      "text": "search"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11694,
+      "status": "candidate",
+      "text": "swing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11638,
+      "status": "candidate",
+      "text": "dna"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cargo pgrx test --runas",
+  "concept_id": "cargo-pgrx-test---runas",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/runas.yml",
+      "source_repo": "pgcentralfoundation/pgrx"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cargo pgrx test --runas",
+      "sense_id": "cargo-pgrx-test---runas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,272 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "nvim-neorocks/luarocks-tag-release@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "petertriho/nvim-scrollbar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "nvim-neorocks/rocks.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "mrded/nvim-lsp-notify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "arkav/lualine-lsp-progress",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "nvim-neorocks/luarocks-tag-release@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "Push to Luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "Release Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "j-hui/fidget.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:07.760161+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18924
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 1027
+    },
+    {
+      "path": ".github/workflows/luarocks.yml",
+      "size": 1208
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 303
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcab  Extensible UI for Neovim notifications and LSP progress messages.",
+    "fork": false,
+    "full_name": "j-hui/fidget.nvim",
+    "html_url": "https://github.com/j-hui/fidget.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-01T18:12:24Z",
+    "stargazers_count": 2518,
+    "topics": [
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-05-02T17:38:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkav/lualine-lsp-progress",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrded/nvim-lsp-notify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-neorocks/rocks.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "petertriho/nvim-scrollbar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Push to Luarocks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luarocks.yml",
+      "term": "Push to Luarocks"
+    },
+    {
+      "context_snippet": "Release Please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Release Please"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<!-- panvimdoc-ignore-start -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

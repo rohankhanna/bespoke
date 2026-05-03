@@ -43,6 +43,18 @@
       "source_repo": "soubhiksanyal/now_evaluation",
       "status": "candidate-context",
       "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] \"MonoScene: Monocular 3D Semantic Scene Completion\": 3D Semantic Occupancy Prediction from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate-context",
+      "text": "**MonoScene: Monocular 3D Semantic Scene Completion**\\"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "soubhiksanyal/now_evaluation",
       "status": "candidate",
       "text": "The original README continues below:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate",
+      "text": "**MonoScene: Monocular 3D Semantic Scene Completion**\\"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "soubhiksanyal/now_evaluation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

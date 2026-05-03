@@ -44,6 +44,18 @@
       "source_repo": "flagos-ai/flir",
       "status": "candidate-context",
       "text": "Code-Format-Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "A python library for self-supervised learning on images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "Code Format Check"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "flagos-ai/flir",
       "status": "candidate",
       "text": "Code-Format-Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate",
+      "text": "Code Format Check"
     }
   ],
   "candidate_related_terms": [
@@ -131,11 +149,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/code-format-check.yml",
       "source_repo": "flagos-ai/FlagTree"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test_code_format.yml",
+      "source_repo": "lightly-ai/lightly"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -4735,6 +4735,174 @@
       "source_repo": "davisking/dlib",
       "status": "candidate-context",
       "text": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate-context",
+      "text": "Ruby wrapper for the Qdrant vector search database API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate-context",
+      "text": "The official implementation of \"Train Sparsely, Generate Densely: Memory-efficient Unsupervised Training of High-resolution Temporal GAN\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate-context",
+      "text": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sergeytulyakov/mocogan",
+      "status": "candidate-context",
+      "text": "MoCoGAN: Decomposing Motion and Content for Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sergeytulyakov/mocogan",
+      "status": "candidate-context",
+      "text": "This repository contains an implementation and further details of [MoCoGAN: Decomposing Motion and Content for Video Generation](http://arxiv.org/abs/1707.04993) by Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, Jan Kautz."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keras-team/keras-contrib",
+      "status": "candidate-context",
+      "text": "Keras community contributions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras-contrib",
+      "status": "candidate-context",
+      "text": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "status": "candidate-context",
+      "text": "Code to train the SimSiam model on cifar10 using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "status": "candidate-context",
+      "text": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate-context",
+      "text": "Please do not feed the models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate-context",
+      "text": "A project to demonstrate an approach to designing cross-language and distributed pipeline in deep learning/machine learning domain, using WebRTC and Redis Streams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate-context",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/mediadevices",
+      "status": "candidate-context",
+      "text": "Go implementation of the MediaDevices API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/mediadevices",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate-context",
+      "text": "[IROS2024] SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate-context",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate-context",
+      "text": "[IJCAI 2024]Official PyTorch Implementation of Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate-context",
+      "text": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "status": "candidate-context",
+      "text": "Build LLM-powered applications in Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "status": "candidate-context",
+      "text": "\ud83d\udc8e\ud83d\udd17 Langchain.rb"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/audio",
+      "status": "candidate-context",
+      "text": "Data manipulation and transformation for audio signal processing, powered by PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/audio",
+      "status": "candidate-context",
+      "text": "torchaudio: an audio library for PyTorch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "A python library for self-supervised learning on images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "<a name=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate-context",
+      "text": "Utility package for accessing common Machine Learning datasets in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate-context",
+      "text": "[![Docs Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaML.github.io/MLDatasets.jl/stable)"
     }
   ],
   "candidate_glosses": [
@@ -7101,6 +7269,90 @@
       "source_repo": "davisking/dlib",
       "status": "candidate",
       "text": "Dlib is a modern C++ toolkit containing machine learning algorithms and tools for creating complex software in C++ to solve real world problems. See [http://dlib.net](http://dlib.net) for the main project documentation and API reference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate",
+      "text": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sergeytulyakov/mocogan",
+      "status": "candidate",
+      "text": "This repository contains an implementation and further details of [MoCoGAN: Decomposing Motion and Content for Video Generation](http://arxiv.org/abs/1707.04993) by Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, Jan Kautz."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras-contrib",
+      "status": "candidate",
+      "text": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "status": "candidate",
+      "text": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/mediadevices",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate",
+      "text": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "status": "candidate",
+      "text": "\ud83d\udc8e\ud83d\udd17 Langchain.rb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/audio",
+      "status": "candidate",
+      "text": "torchaudio: an audio library for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate",
+      "text": "<a name=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate",
+      "text": "[![Docs Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaML.github.io/MLDatasets.jl/stable)"
     }
   ],
   "candidate_related_terms": [],
@@ -11176,11 +11428,299 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "neosr-project/neosr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gpu-mode/Triton-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLASLt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pfnet-research/tgan2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sergeytulyakov/mocogan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "keras-team/keras-contrib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "IgorSusmelj/simsiam-cifar10"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "FMInference/FlexLLMGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/model-zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adalkiran/distributed-inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pion/mediadevices"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/audio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaML/MLDatasets.jl"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

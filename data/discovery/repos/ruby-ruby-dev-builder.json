@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "eregon/keep-last-n-releases@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/ruby-dev-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/ruby-dev-builder",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/ruby-dev-builder",
+      "target": "ruby/setup-ruby@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/ruby-dev-builder",
+      "target": "eregon/keep-last-n-releases@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/ruby-dev-builder",
+      "target": "CRuby Dev Builds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:50:42.998942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 287
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 13709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CRuby Dev Builds for GitHub Actions",
+    "fork": false,
+    "full_name": "ruby/ruby-dev-builder",
+    "html_url": "https://github.com/ruby/ruby-dev-builder",
+    "language": "Ruby",
+    "pushed_at": "2026-05-02T19:42:22Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-04-27T13:32:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CRuby Dev Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "CRuby Dev Builds"
+    }
+  ]
+}

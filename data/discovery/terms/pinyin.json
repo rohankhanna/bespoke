@@ -1,0 +1,32 @@
+{
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/python-pinyin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hotoo/pinyin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/go-pinyin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/phrase-pinyin-data"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/pinyin-data"
+    }
+  ],
+  "term": "pinyin"
+}

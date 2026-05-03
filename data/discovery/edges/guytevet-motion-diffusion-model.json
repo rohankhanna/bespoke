@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuyTevet/motion-diffusion-model",
+      "target": "guytevet/mdm-page",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuyTevet/motion-diffusion-model",
+      "target": "aiganimation/camdm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuyTevet/motion-diffusion-model",
+      "target": "guytevet/motionclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuyTevet/motion-diffusion-model",
+      "target": "mathux/actor",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "GuyTevet/motion-diffusion-model"
+}

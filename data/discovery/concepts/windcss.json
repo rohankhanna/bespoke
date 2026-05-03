@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "windcss"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss-analysis",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0d A visual analyzer for Windi CSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-analysis",
+      "status": "candidate-context",
+      "text": "An analyser tool for [Windi CSS](https://github.com/windicss/windicss). Browse your utilities usages, have an overview of your design system, identify \"bad practices\", and more!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-analysis",
+      "status": "candidate",
+      "text": "An analyser tool for [Windi CSS](https://github.com/windicss/windicss). Browse your utilities usages, have an overview of your design system, identify \"bad practices\", and more!"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "windcss",
+  "concept_id": "windcss",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "windicss/windicss-analysis"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "windcss",
+      "sense_id": "windcss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

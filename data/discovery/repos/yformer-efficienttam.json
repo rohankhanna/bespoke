@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yformer/EfficientTAM",
+      "target": "yformer/efficientsam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yformer/EfficientTAM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yformer/EfficientTAM",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "yformer/EfficientTAM",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:48:42.202054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4921
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2434
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient Track Anything",
+    "fork": false,
+    "full_name": "yformer/EfficientTAM",
+    "html_url": "https://github.com/yformer/EfficientTAM",
+    "language": "Python",
+    "pushed_at": "2025-01-06T00:03:01Z",
+    "stargazers_count": 797,
+    "topics": [],
+    "updated_at": "2026-05-02T08:43:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yformer/efficientsam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/FishStore",
+      "target": "lemire/simdjson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/FishStore",
+      "target": "tessil/hopscotch-map",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:58:24.464038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FishStore is a prototype fast ingestion and querying layer for flexible-schema data",
+    "fork": false,
+    "full_name": "microsoft/FishStore",
+    "html_url": "https://github.com/microsoft/FishStore",
+    "language": "C++",
+    "pushed_at": "2023-09-19T19:40:33Z",
+    "stargazers_count": 231,
+    "topics": [],
+    "updated_at": "2026-03-15T14:12:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemire/simdjson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tessil/hopscotch-map",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

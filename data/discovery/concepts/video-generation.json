@@ -619,6 +619,54 @@
       "source_repo": "universome/stylegan-v",
       "status": "candidate-context",
       "text": "[[Project website]](https://universome.github.io/stylegan-v)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "status": "candidate-context",
+      "text": "Docker image for Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate-context",
+      "text": "The official implementation of \"Train Sparsely, Generate Densely: Memory-efficient Unsupervised Training of High-resolution Temporal GAN\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate-context",
+      "text": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sihyun-yu/digan",
+      "status": "candidate-context",
+      "text": "[ICLR'22] Generating Videos with Dynamics-aware Implicit Generative Adversarial Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sihyun-yu/digan",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of **[\"Generating Videos with Dynamics-aware Implicit Generative Adversarial Networks\"](https://openreview.net/forum?id=Czsdv-S4-w9)** by"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "status": "candidate-context",
+      "text": "Notably, GenAD & Dataset Survey. A Collection of Foundation Driving Models by OpenDriveLab. For Vista and DriveLM, please refer to individual page."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -927,6 +975,30 @@
       "source_repo": "universome/stylegan-v",
       "status": "candidate",
       "text": "[[Project website]](https://universome.github.io/stylegan-v)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate",
+      "text": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sihyun-yu/digan",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of **[\"Generating Videos with Dynamics-aware Implicit Generative Adversarial Networks\"](https://openreview.net/forum?id=Czsdv-S4-w9)** by"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [],
@@ -1378,11 +1450,77 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "AILab-CVC/VideoCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ashleykleynhans/hallo-docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pfnet-research/tgan2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sihyun-yu/digan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

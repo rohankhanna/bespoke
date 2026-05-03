@@ -1,7 +1,7 @@
 {
   "component": "actions/configure-pages@v6",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -172,6 +172,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "browserslist/browserslist-useragent-regexp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "gazebosim/sdf_tutorials"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "just-the-docs/just-the-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "1mb-dev/natcheck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "just-the-docs/just-the-docs-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "adityatelange/hugo-PaperMod"
     }
   ]
 }

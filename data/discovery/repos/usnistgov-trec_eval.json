@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "usnistgov/trec_eval",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "usnistgov/trec_eval",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "usnistgov/trec_eval",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:49:36.640030+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 1601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evaluation software used in the Text Retrieval Conference",
+    "fork": false,
+    "full_name": "usnistgov/trec_eval",
+    "html_url": "https://github.com/usnistgov/trec_eval",
+    "language": "C",
+    "pushed_at": "2026-03-09T17:41:09Z",
+    "stargazers_count": 279,
+    "topics": [],
+    "updated_at": "2026-05-01T15:53:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "Continuous Integration"
+    }
+  ]
+}

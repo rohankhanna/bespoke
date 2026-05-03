@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec-example",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec-example",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:57:14.404848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1521
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "BerkleyTechnologyServices/restdocs-spec-example",
+    "html_url": "https://github.com/BerkleyTechnologyServices/restdocs-spec-example",
+    "language": "Java",
+    "pushed_at": "2026-04-29T12:11:29Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-23T23:11:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

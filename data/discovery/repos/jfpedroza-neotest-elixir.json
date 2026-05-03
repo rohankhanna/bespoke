@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "jfpedroza/neotest-elixir",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "jfpedroza/neotest-elixir",
+      "target": "JohnnyMorganz/stylua-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "source_repo": "jfpedroza/neotest-elixir",
+      "target": "neotest-elixir Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfpedroza/neotest-elixir",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfpedroza/neotest-elixir",
+      "target": "exunit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfpedroza/neotest-elixir",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfpedroza/neotest-elixir",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfpedroza/neotest-elixir",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jfpedroza/neotest-elixir",
+      "target": "treesitter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:58:17.689271+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3189
+    },
+    {
+      "path": ".github/workflows/workflow.yaml",
+      "size": 359
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Neotest adapter for Elixir",
+    "fork": false,
+    "full_name": "jfpedroza/neotest-elixir",
+    "html_url": "https://github.com/jfpedroza/neotest-elixir",
+    "language": "Lua",
+    "pushed_at": "2025-01-19T01:43:26Z",
+    "stargazers_count": 48,
+    "topics": [
+      "elixir",
+      "exunit",
+      "neovim",
+      "neovim-plugin",
+      "testing",
+      "treesitter"
+    ],
+    "updated_at": "2026-04-11T03:32:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "neotest-elixir Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yaml",
+      "term": "neotest-elixir Workflow"
+    },
+    {
+      "context_snippet": "Neotest adapter for Elixir",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "Neotest adapter for Elixir",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exunit"
+    },
+    {
+      "context_snippet": "Neotest adapter for Elixir",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Neotest adapter for Elixir",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "Neotest adapter for Elixir",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "Neotest adapter for Elixir",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "treesitter"
+    }
+  ]
+}

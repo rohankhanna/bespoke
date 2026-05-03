@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "@astrojs/react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@astrojs/svelte",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "astro",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/astro-calendar",
+      "target": "snowpackjs/astro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/astro-calendar",
+      "target": "@astrojs/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/astro-calendar",
+      "target": "@astrojs/svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/astro-calendar",
+      "target": "astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/astro-calendar",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/astro-calendar",
+      "target": "react-dom",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:06.047839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1626
+    },
+    {
+      "path": "package.json",
+      "size": 415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "hchiam/astro-calendar",
+    "html_url": "https://github.com/hchiam/astro-calendar",
+    "language": "TypeScript",
+    "pushed_at": "2025-08-21T01:08:14Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-08-21T01:08:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "snowpackjs/astro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

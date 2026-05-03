@@ -631,6 +631,138 @@
       "source_repo": "MichaelGrupp/evo",
       "status": "candidate-context",
       "text": "***Python package for the evaluation of odometry and SLAM***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osrf/homebrew-simulation",
+      "status": "candidate-context",
+      "text": "Homebrew tap for osrf simulation software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osrf/homebrew-simulation",
+      "status": "candidate-context",
+      "text": "Build | Status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate-context",
+      "text": "Multibody Dynamics Library designed for Free Floating Robots "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate-context",
+      "text": "iDynTree [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![ZenHub](https://img.shields.io/badge/Shipping_faster_with-ZenHub-435198.svg)](https://zenhub.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2024 D&B] Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-cmake",
+      "status": "candidate-context",
+      "text": "A set of CMake modules that are used by the C++-based Gazebo projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-cmake",
+      "status": "candidate-context",
+      "text": "**Maintainer:** scpeters AT openrobotics.org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate-context",
+      "text": "An audio-visual library supports processing audio and video files, a graphics library can load a variety 3D mesh file formats into a generic in-memory representation, and the core library of Gazebo Common contains functionality that spans Base64 encoding/decoding to thread pools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate-context",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-fuel-tools",
+      "status": "candidate-context",
+      "text": "A client library and command line tools for interacting with Gazebo Fuel servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-fuel-tools",
+      "status": "candidate-context",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/adam",
+      "status": "candidate-context",
+      "text": "adam implements a collection of algorithms for calculating rigid-body dynamics in Jax, CasADi, PyTorch, and Numpy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/adam",
+      "status": "candidate-context",
+      "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/jaxsim",
+      "status": "candidate-context",
+      "text": "A differentiable physics engine and multibody dynamics library for control and robot learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/jaxsim",
+      "status": "candidate-context",
+      "text": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate-context",
+      "text": "Abstract physics interface designed to support simulation and rapid development of robot applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate-context",
+      "text": "**Maintainer:** scpeters AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rainx0r/metaworld-algorithms",
+      "status": "candidate-context",
+      "text": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rainx0r/metaworld-algorithms",
+      "status": "candidate-context",
+      "text": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "SAPIEN Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "![teaser](figures/teaser.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -945,6 +1077,72 @@
       "source_repo": "MichaelGrupp/evo",
       "status": "candidate",
       "text": "***Python package for the evaluation of odometry and SLAM***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osrf/homebrew-simulation",
+      "status": "candidate",
+      "text": "Build | Status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate",
+      "text": "iDynTree [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![ZenHub](https://img.shields.io/badge/Shipping_faster_with-ZenHub-435198.svg)](https://zenhub.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-cmake",
+      "status": "candidate",
+      "text": "**Maintainer:** scpeters AT openrobotics.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-fuel-tools",
+      "status": "candidate",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/adam",
+      "status": "candidate",
+      "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/jaxsim",
+      "status": "candidate",
+      "text": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate",
+      "text": "**Maintainer:** scpeters AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rainx0r/metaworld-algorithms",
+      "status": "candidate",
+      "text": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate",
+      "text": "![teaser](figures/teaser.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -1378,11 +1576,101 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "MichaelGrupp/evo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "osrf/homebrew-simulation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-fuel-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rainx0r/metaworld-algorithms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

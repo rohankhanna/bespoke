@@ -91,6 +91,18 @@
       "source_repo": "elihunter173/dirbuf.nvim",
       "status": "candidate-context",
       "text": "A directory buffer for Neovim that lets you edit your filesystem like you edit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "status": "candidate-context",
+      "text": "dircolors in your vidir session"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "status": "candidate-context",
+      "text": "use LS\\_COLORS in your [vidir](https://github.com/trapd00r/vidir)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "elihunter173/dirbuf.nvim",
       "status": "candidate",
       "text": "A directory buffer for Neovim that lets you edit your filesystem like you edit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trapd00r/vim-syntax-vidir-ls",
+      "status": "candidate",
+      "text": "use LS\\_COLORS in your [vidir](https://github.com/trapd00r/vidir)"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "elihunter173/dirbuf.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "trapd00r/vim-syntax-vidir-ls"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

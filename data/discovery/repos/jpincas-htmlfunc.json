@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpincas/htmlfunc",
+      "target": "validator/validator",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:48:38.539928+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 849
+    },
+    {
+      "path": "go.mod",
+      "size": 44
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Golang library to produce HTML with functions instead of templates",
+    "fork": false,
+    "full_name": "jpincas/htmlfunc",
+    "html_url": "https://github.com/jpincas/htmlfunc",
+    "language": "Go",
+    "pushed_at": "2025-11-19T17:33:36Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-11-19T17:33:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "validator/validator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

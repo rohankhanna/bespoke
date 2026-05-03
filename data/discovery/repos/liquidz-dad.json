@@ -1,0 +1,439 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency.yml"
+    },
+    {
+      "component": "liquidz/antq-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clj-kondo@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "0918nobita/setup-cljstyle@v0.5.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml",
+      "source_repo": "liquidz/dad",
+      "target": "DeLaGuardo/setup-clojure@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/download-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_maybe_release.yml",
+      "source_repo": "liquidz/dad",
+      "target": "Build native image and maybe release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency.yml",
+      "source_repo": "liquidz/dad",
+      "target": "liquidz/antq-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency.yml",
+      "source_repo": "liquidz/dad",
+      "target": "dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yml",
+      "source_repo": "liquidz/dad",
+      "target": "DeLaGuardo/setup-clojure@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/document.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/document.yml",
+      "source_repo": "liquidz/dad",
+      "target": "document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "liquidz/dad",
+      "target": "DeLaGuardo/setup-clj-kondo@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "liquidz/dad",
+      "target": "0918nobita/setup-cljstyle@v0.5.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "liquidz/dad",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "liquidz/dad",
+      "target": "DeLaGuardo/setup-clojure@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "liquidz/dad",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "liquidz/dad",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liquidz/dad",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liquidz/dad",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "liquidz/dad",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:53:51.024565+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 236
+    },
+    {
+      "path": ".github/workflows/build_and_maybe_release.yml",
+      "size": 4037
+    },
+    {
+      "path": ".github/workflows/dependency.yml",
+      "size": 193
+    },
+    {
+      "path": ".github/workflows/document.yml",
+      "size": 401
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 564
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Small configuration management tool for Clojure",
+    "fork": false,
+    "full_name": "liquidz/dad",
+    "html_url": "https://github.com/liquidz/dad",
+    "language": "Clojure",
+    "pushed_at": "2022-09-02T22:40:01Z",
+    "stargazers_count": 136,
+    "topics": [
+      "clojure",
+      "graalvm",
+      "infrastructure-as-code"
+    ],
+    "updated_at": "2026-03-28T21:12:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build native image and maybe release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_maybe_release.yml",
+      "term": "Build native image and maybe release"
+    },
+    {
+      "context_snippet": "dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency.yml",
+      "term": "dependencies"
+    },
+    {
+      "context_snippet": "document",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/document.yml",
+      "term": "document"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "FROM clojure:openjdk-11-tools-deps WORKDIR /tmp RUN apt update \\ && apt install -y curl make sudo \\ && apt-get clean \\ && rm -rf /var/lib/apt/lists/* \\ && mkdir /src COPY Makefile /tmp/Makefile RUN make graalvm WORKDIR /src",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "FROM clojure:openjdk-11-tools-deps WORKDIR /tmp RUN apt update \\ && apt install -y curl make sudo \\ && apt-get clean \\ && rm -rf /var/lib/apt/lists/* \\ && mkdir /src COPY Makefile /tmp/Makefile RUN make graalvm WORKDIR /src",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "FROM clojure:openjdk-11-tools-deps WORKDIR /tmp RUN apt update \\ && apt install -y curl make sudo \\ && apt-get clean \\ && rm -rf /var/lib/apt/lists/* \\ && mkdir /src COPY Makefile /tmp/Makefile RUN make graalvm WORKDIR /src",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    }
+  ]
+}

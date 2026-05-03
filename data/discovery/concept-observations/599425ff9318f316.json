@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust wrappers for libdatachannel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[latest]: https://img.shields.io/crates/v/datachannel.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[latest]: https://img.shields.io/crates/v/datachannel.svg"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "datachannel",
+      "sense_id": "datachannel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "datachannel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "datachannel",
+  "observation_id": "599425ff9318f316",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "datachannel",
+  "source_context_snippet": "[latest]: https://img.shields.io/crates/v/datachannel.svg",
+  "source_file": null,
+  "source_repo": "lerouxrgd/datachannel-rs",
+  "source_repo_description": "Rust wrappers for libdatachannel"
+}

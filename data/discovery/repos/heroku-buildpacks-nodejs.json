@@ -1,0 +1,439 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@d858f8113943481093e02986a7586a4819a3bfd6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "buildpacks/github-actions/setup-pack@06e250da5bb4ccb9a2103719a21d2a7f2252fe83",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@d858f8113943481093e02986a7586a4819a3bfd6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml"
+    },
+    {
+      "component": "buildpacks/github-actions/setup-pack@06e250da5bb4ccb9a2103719a21d2a7f2252fe83",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml"
+    },
+    {
+      "component": "taiki-e/install-action@d858f8113943481093e02986a7586a4819a3bfd6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml"
+    },
+    {
+      "component": "heroku/languages-github-actions/.github/workflows/_buildpacks-prepare-release.yml@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "heroku/languages-github-actions/.github/workflows/_buildpacks-release.yml@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-yarn-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-yarn-plugin.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-yarn-plugin.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-yarn-plugin.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "heroku/heroku-buildpack-nodejs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "Check Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "taiki-e/install-action@d858f8113943481093e02986a7586a4819a3bfd6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "buildpacks/github-actions/setup-pack@06e250da5bb4ccb9a2103719a21d2a7f2252fe83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "buildpacks/github-actions/setup-pack@06e250da5bb4ccb9a2103719a21d2a7f2252fe83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "taiki-e/install-action@d858f8113943481093e02986a7586a4819a3bfd6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inventory.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inventory.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "Update Inventory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "heroku/languages-github-actions/.github/workflows/_buildpacks-prepare-release.yml@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "Prepare Buildpack Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "heroku/languages-github-actions/.github/workflows/_buildpacks-release.yml@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "Release Buildpacks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-yarn-plugin.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-yarn-plugin.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-yarn-plugin.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-yarn-plugin.yml",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "Sync Yarn Prune Plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "cloud-native-buildpacks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "heroku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "heroku-languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-nodejs",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:55:55.746480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7572
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2334
+    },
+    {
+      "path": ".github/workflows/check_changelog.yml",
+      "size": 598
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4770
+    },
+    {
+      "path": ".github/workflows/inventory.yml",
+      "size": 4293
+    },
+    {
+      "path": ".github/workflows/prepare-release.yml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 842
+    },
+    {
+      "path": ".github/workflows/sync-yarn-plugin.yml",
+      "size": 3251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Heroku's Cloud Native Buildpacks for Node.js applications.",
+    "fork": false,
+    "full_name": "heroku/buildpacks-nodejs",
+    "html_url": "https://github.com/heroku/buildpacks-nodejs",
+    "language": "Rust",
+    "pushed_at": "2026-05-01T10:36:24Z",
+    "stargazers_count": 28,
+    "topics": [
+      "cloud-native-buildpacks",
+      "heroku",
+      "heroku-languages",
+      "javascript",
+      "nodejs",
+      "typescript"
+    ],
+    "updated_at": "2026-04-30T16:22:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heroku/heroku-buildpack-nodejs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "term": "Check Changelog"
+    },
+    {
+      "context_snippet": "Update Inventory",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inventory.yml",
+      "term": "Update Inventory"
+    },
+    {
+      "context_snippet": "Prepare Buildpack Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "term": "Prepare Buildpack Releases"
+    },
+    {
+      "context_snippet": "Release Buildpacks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Buildpacks"
+    },
+    {
+      "context_snippet": "Sync Yarn Prune Plugin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-yarn-plugin.yml",
+      "term": "Sync Yarn Prune Plugin"
+    },
+    {
+      "context_snippet": "[![Cloud Native Buildpacks Registry: heroku/nodejs][registry-badge]][registry-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native-buildpacks"
+    },
+    {
+      "context_snippet": "[![Cloud Native Buildpacks Registry: heroku/nodejs][registry-badge]][registry-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku"
+    },
+    {
+      "context_snippet": "[![Cloud Native Buildpacks Registry: heroku/nodejs][registry-badge]][registry-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-languages"
+    },
+    {
+      "context_snippet": "[![Cloud Native Buildpacks Registry: heroku/nodejs][registry-badge]][registry-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

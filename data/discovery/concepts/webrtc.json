@@ -187,6 +187,78 @@
       "source_repo": "peers/peerjs-server",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/peers/peerjs-server.png?branch=master)](https://travis-ci.org/peers/peerjs-server)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate-context",
+      "text": "NAT type diagnosis CLI. Tells you why WebRTC/P2P/VPN connections fail and whether TURN is required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate-context",
+      "text": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate-context",
+      "text": "A project to demonstrate an approach to designing cross-language and distributed pipeline in deep learning/machine learning domain, using WebRTC and Redis Streams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate-context",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/mediadevices",
+      "status": "candidate-context",
+      "text": "Go implementation of the MediaDevices API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/mediadevices",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/rtp",
+      "status": "candidate-context",
+      "text": "A Go implementation of RTP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/rtp",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "status": "candidate-context",
+      "text": "Rust wrappers for libdatachannel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "status": "candidate-context",
+      "text": "[latest]: https://img.shields.io/crates/v/datachannel.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pion/stun",
+      "status": "candidate-context",
+      "text": "A Go implementation of STUN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/stun",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +351,42 @@
       "source_repo": "peers/peerjs-server",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/peers/peerjs-server.png?branch=master)](https://travis-ci.org/peers/peerjs-server)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate",
+      "text": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/mediadevices",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/rtp",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "status": "candidate",
+      "text": "[latest]: https://img.shields.io/crates/v/datachannel.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pion/stun",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +520,47 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "peers/peerjs-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "1mb-dev/natcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adalkiran/distributed-inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pion/mediadevices"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pion/rtp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lerouxrgd/datachannel-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pion/stun"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

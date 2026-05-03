@@ -1528,6 +1528,114 @@
       "source_repo": "LucasGinard/AireLibre-Android",
       "status": "candidate-context",
       "text": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps in native Android powered by vector tiles and OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "status": "candidate-context",
+      "text": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libusb/libusb",
+      "status": "candidate-context",
+      "text": "A cross-platform library to access USB devices "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/libusb",
+      "status": "candidate-context",
+      "text": "Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/compose-multiplatform",
+      "status": "candidate-context",
+      "text": "Compose Multiplatform, a modern UI framework for Kotlin that makes building performant and beautiful user interfaces easy and enjoyable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/compose-multiplatform",
+      "status": "candidate-context",
+      "text": "[![official project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate-context",
+      "text": "A Simple cross-platform library for communicating with HID devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate-context",
+      "text": "| CI instance | Status |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate-context",
+      "text": "[![status](https://github.com/heiher/hev-socks5-server/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-server)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/sockstun",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable tun2socks for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/sockstun",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/heiher/sockstun/blob/main/README.md ) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](https://github.com/heiher/sockstun/blob/main/README_RU.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coil-kt/coil",
+      "status": "candidate-context",
+      "text": "Image loading for Android and Compose Multiplatform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coil-kt/coil",
+      "status": "candidate-context",
+      "text": "\ufeff![Coil](logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "A simple, lightweight multi-task system (coroutines)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/socks5",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 server for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/socks5",
+      "status": "candidate-context",
+      "text": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)"
     }
   ],
   "candidate_glosses": [
@@ -2310,6 +2418,60 @@
       "source_repo": "LucasGinard/AireLibre-Android",
       "status": "candidate",
       "text": "![GitHub Release](https://img.shields.io/github/v/release/lucasginard/AireLibre-Android?color=30C151) [![Build](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/androidBuild.yml/badge.svg)](https://github.com/LucasGinard/AireLibre-Android/actions/workflows/andr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "status": "candidate",
+      "text": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/libusb",
+      "status": "candidate",
+      "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/compose-multiplatform",
+      "status": "candidate",
+      "text": "[![official project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate",
+      "text": "| CI instance | Status |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/hev-socks5-server/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-server)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/sockstun",
+      "status": "candidate",
+      "text": "[English](https://github.com/heiher/sockstun/blob/main/README.md ) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](https://github.com/heiher/sockstun/blob/main/README_RU.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coil-kt/coil",
+      "status": "candidate",
+      "text": "\ufeff![Coil](logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/socks5",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)"
     }
   ],
   "candidate_related_terms": [
@@ -3400,11 +3562,101 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "libusb/libusb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "libusb/hidapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/sockstun"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "coil-kt/coil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/hev-task-system"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/socks5"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

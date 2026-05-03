@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/MCP-Projects-Index",
+      "target": "danielrosehill/claude-hannah-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/MCP-Projects-Index",
+      "target": "danielrosehill/checkid-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/MCP-Projects-Index",
+      "target": "danielrosehill/all-about-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/MCP-Projects-Index",
+      "target": "danielrosehill/agent-task-repo-pattern-with-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/MCP-Projects-Index",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/MCP-Projects-Index",
+      "target": "index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/MCP-Projects-Index",
+      "target": "indexing-repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/MCP-Projects-Index",
+      "target": "mcp-ideas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/MCP-Projects-Index",
+      "target": "mcp-servers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:05:36.338913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Various MCP related projects I'm either working on (or have worked on)",
+    "fork": false,
+    "full_name": "danielrosehill/MCP-Projects-Index",
+    "html_url": "https://github.com/danielrosehill/MCP-Projects-Index",
+    "language": null,
+    "pushed_at": "2026-04-10T13:17:02Z",
+    "stargazers_count": 2,
+    "topics": [
+      "documentation",
+      "index",
+      "indexing-repo",
+      "mcp",
+      "mcp-ideas",
+      "mcp-servers"
+    ],
+    "updated_at": "2026-04-10T13:17:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agent-task-repo-pattern-with-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/all-about-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/checkid-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-hannah-mcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index) [![NPM Profile](https://img.shields.io/badge/NPM-Profile-CB3837?style=for-the-badge&logo=npm)](https://www.npmjs.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index) [![NPM Profile](https://img.shields.io/badge/NPM-Profile-CB3837?style=for-the-badge&logo=npm)](https://www.npmjs.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "index"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index) [![NPM Profile](https://img.shields.io/badge/NPM-Profile-CB3837?style=for-the-badge&logo=npm)](https://www.npmjs.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexing-repo"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index) [![NPM Profile](https://img.shields.io/badge/NPM-Profile-CB3837?style=for-the-badge&logo=npm)](https://www.npmjs.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-ideas"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index) [![NPM Profile](https://img.shields.io/badge/NPM-Profile-CB3837?style=for-the-badge&logo=npm)](https://www.npmjs.com/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-servers"
+    }
+  ]
+}

@@ -19,6 +19,30 @@
       "source_repo": "alexmojaki/snoop",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml) [![Supports Python versions 2.7 and 3.5+, including PyPy](https://img.shields.io/pypi/pyversions/snoop.svg)](https://py\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "An MCP Server for Chrome DevTools, following the Chrome DevTools Protocol. Integrates with Claude Desktop and Claude Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "status": "candidate-context",
+      "text": "Julia's `@exfiltrate` for Python; Exports the local variables into a global dictionary for later debugging."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "status": "candidate-context",
+      "text": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "alexmojaki/snoop",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml/badge.svg)](https://github.com/alexmojaki/snoop/actions/workflows/pytest.yml) [![Supports Python versions 2.7 and 3.5+, including PyPy](https://img.shields.io/pypi/pyversions/snoop.svg)](https://py\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "status": "candidate",
+      "text": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "alexmojaki/snoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "benjaminr/chrome-devtools-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "NightMachinery/PyExfiltrator"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

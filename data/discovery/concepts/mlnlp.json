@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mlnlp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "status": "candidate-context",
+      "text": "MLNLP\u793e\u533a\u7528\u6765\u5e2e\u52a9\u5927\u5bb6\u907f\u514d\u8bba\u6587\u6295\u7a3f\u5c0f\u9519\u8bef\u7684\u6574\u7406\u4ed3\u5e93\u3002 Paper Writing Tips"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mlnlp",
+  "concept_id": "mlnlp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MLNLP-World/Paper-Writing-Tips"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mlnlp",
+      "sense_id": "mlnlp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

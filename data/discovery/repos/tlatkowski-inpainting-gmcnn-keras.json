@@ -15,20 +15,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tlatkowski/inpainting-gmcnn-keras",
-      "target": "keras-team/keras-contrib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tlatkowski/inpainting-gmcnn-keras",
-      "target": "harisiqbal88/plotneuralnet",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/greetings.yml",
       "source_repo": "tlatkowski/inpainting-gmcnn-keras",
@@ -169,7 +155,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:33:15.386822+00:00",
+  "fetched_at": "2026-05-03T04:02:19.809422+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -216,16 +202,6 @@
     "updated_at": "2026-04-09T18:29:28Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "harisiqbal88/plotneuralnet",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "keras-team/keras-contrib",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "tlatkowski/inpainting-gmcnn",

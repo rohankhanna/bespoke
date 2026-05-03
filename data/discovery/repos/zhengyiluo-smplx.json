@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:44:16.407680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9645
+    },
+    {
+      "path": "requirements.txt",
+      "size": 50
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SMPL-X",
+    "fork": true,
+    "full_name": "ZhengyiLuo/smplx",
+    "html_url": "https://github.com/ZhengyiLuo/smplx",
+    "language": "Python",
+    "pushed_at": "2022-10-10T22:03:12Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-11-09T21:36:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

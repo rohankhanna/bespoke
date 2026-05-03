@@ -2207,6 +2207,174 @@
       "source_repo": "MakieOrg/Makie.jl",
       "status": "candidate-context",
       "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate-context",
+      "text": "Yet Another Document Translator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psyonicinc/ability-hand-api",
+      "status": "candidate-context",
+      "text": "Materials for the ability hand API, including documentation, URDF, Matlab, & Python examples. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psyonicinc/ability-hand-api",
+      "status": "candidate-context",
+      "text": "This repository contains the [PSYONIC Ability Hand API documentation](https://github.com/psyonicinc/ability-hand-api/blob/master/Documentation/ABILITY-HAND-ICD.pdf) and examples/wrappers using the API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmenRa/ranx",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0fA Blazing-Fast Python Library for Ranking Evaluation, Comparison, and Fusion \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmenRa/ranx",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SteffenDE/makeup_syntect",
+      "status": "candidate-context",
+      "text": "Makeup syntax highlighting using the syntect Rust library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SteffenDE/makeup_syntect",
+      "status": "candidate-context",
+      "text": "\"Docs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "librosa/librosa",
+      "status": "candidate-context",
+      "text": "Python library for audio and music analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librosa/librosa",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getsops/sops",
+      "status": "candidate-context",
+      "text": "Simple and flexible tool for managing secrets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsops/sops",
+      "status": "candidate-context",
+      "text": "\"Docs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate-context",
+      "text": "Python and Julia in harmony."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate-context",
+      "text": "A Simple cross-platform library for communicating with HID devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc",
+      "status": "candidate-context",
+      "text": "Realtime Video and Audio Streaming with WebRTC and Gradio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/tensorstore",
+      "status": "candidate-context",
+      "text": "Library for reading and writing large multi-dimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/tensorstore",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate-context",
+      "text": "IntelliJ SDK Platform Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate-context",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/audio",
+      "status": "candidate-context",
+      "text": "Data manipulation and transformation for audio signal processing, powered by PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/audio",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j-hui/fidget.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcab  Extensible UI for Neovim notifications and LSP progress messages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j-hui/fidget.nvim",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate-context",
+      "text": "Block spying and tracking on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate-context",
+      "text": "docs"
     }
   ],
   "candidate_glosses": [
@@ -3313,6 +3481,90 @@
       "source_repo": "MakieOrg/Makie.jl",
       "status": "candidate",
       "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psyonicinc/ability-hand-api",
+      "status": "candidate",
+      "text": "This repository contains the [PSYONIC Ability Hand API documentation](https://github.com/psyonicinc/ability-hand-api/blob/master/Documentation/ABILITY-HAND-ICD.pdf) and examples/wrappers using the API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmenRa/ranx",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SteffenDE/makeup_syntect",
+      "status": "candidate",
+      "text": "\"Docs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "librosa/librosa",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getsops/sops",
+      "status": "candidate",
+      "text": "\"Docs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/tensorstore",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/audio",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j-hui/fidget.nvim",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate",
+      "text": "docs"
     }
   ],
   "candidate_related_terms": [
@@ -5160,11 +5412,179 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "psyonicinc/ability-hand-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AmenRa/ranx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "SteffenDE/makeup_syntect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "viser-project/viser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "librosa/librosa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "getsops/sops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaPy/PythonCall.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "libusb/hidapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AcademySoftwareFoundation/OpenImageIO"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google/tensorstore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "pytorch/audio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "j-hui/fidget.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/_docs.yml",
+      "source_repo": "MakieOrg/Makie.jl"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

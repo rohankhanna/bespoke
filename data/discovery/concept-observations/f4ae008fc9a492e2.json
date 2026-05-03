@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Desktop Duplication API implementation for Unity (only for Windows 8/10)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "uDesktopDuplication"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "uDesktopDuplication"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "desktop-duplication-api",
+      "sense_id": "desktop-duplication-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "desktop-duplication-api",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "desktop-duplication-api",
+  "observation_id": "f4ae008fc9a492e2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "desktop-duplication-api",
+  "source_context_snippet": "uDesktopDuplication",
+  "source_file": null,
+  "source_repo": "hecomi/uDesktopDuplication",
+  "source_repo_description": "Desktop Duplication API implementation for Unity (only for Windows 8/10)"
+}

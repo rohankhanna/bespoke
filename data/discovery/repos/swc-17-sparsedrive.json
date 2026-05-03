@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swc-17/SparseDrive",
+      "target": "swc-17/sparsedrivev2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swc-17/SparseDrive",
+      "target": "opendrivelab/uniad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swc-17/SparseDrive",
+      "target": "hustvl/vad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "swc-17/SparseDrive",
+      "target": "yuantianyuan01/streammapnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:25.881076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SparseDrive: End-to-End Autonomous Driving via Sparse Scene Representation",
+    "fork": false,
+    "full_name": "swc-17/SparseDrive",
+    "html_url": "https://github.com/swc-17/SparseDrive",
+    "language": "Python",
+    "pushed_at": "2026-04-01T02:48:10Z",
+    "stargazers_count": 928,
+    "topics": [],
+    "updated_at": "2026-05-02T06:59:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hustvl/vad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendrivelab/uniad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swc-17/sparsedrivev2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuantianyuan01/streammapnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

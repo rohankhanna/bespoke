@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Welcome to the Bot Framework Solutions repository which is the home for a set of templates and solutions to help build advanced conversational experiences using Azure Bot Service and Bot Framework. Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036990,
+      "status": "candidate",
+      "text": "supporter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035271,
+      "status": "candidate",
+      "text": "helper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031362,
+      "status": "candidate",
+      "text": "help"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030225,
+      "status": "candidate",
+      "text": "subordinate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022893,
+      "status": "candidate",
+      "text": "adjunct"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "assistant",
+      "sense_id": "assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48041,
+      "status": "candidate",
+      "text": "subordinate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31050,
+      "status": "candidate",
+      "text": "adjunct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14034,
+      "status": "candidate",
+      "text": "supporter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4022,
+      "status": "candidate",
+      "text": "low-level"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "help"
+    }
+  ],
+  "concept_id": "assistant",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "assistant",
+  "observation_id": "1201ce9360f111b4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "assistant",
+  "source_context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+  "source_file": null,
+  "source_repo": "microsoft/botframework-solutions",
+  "source_repo_description": "Welcome to the Bot Framework Solutions repository which is the home for a set of templates and solutions to help build advanced conversational experiences using Azure Bot Service and Bot Framework. Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences."
+}

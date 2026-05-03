@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/distil-whisper",
+      "target": "huggingface/safetensors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/distil-whisper",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/distil-whisper",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/distil-whisper",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:06.466345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Distilled variant of Whisper for speech recognition. 6x faster, 50% smaller, within 1% word error rate.",
+    "fork": false,
+    "full_name": "huggingface/distil-whisper",
+    "html_url": "https://github.com/huggingface/distil-whisper",
+    "language": "Python",
+    "pushed_at": "2025-01-08T10:09:47Z",
+    "stargazers_count": 4078,
+    "topics": [
+      "audio",
+      "speech-recognition",
+      "whisper"
+    ],
+    "updated_at": "2026-05-03T00:53:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/safetensors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/2311.00430)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/2311.00430)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/2311.00430)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    }
+  ]
+}

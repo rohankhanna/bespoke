@@ -1,0 +1,547 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "rui314/setup-mold@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml"
+    },
+    {
+      "component": "rui314/setup-mold@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compact.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compact.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compact.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compact.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compact.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compact.yml"
+    },
+    {
+      "component": "tempoxyz/ci/.github/workflows/cargo-update-pr.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-git.yml"
+    },
+    {
+      "component": "rui314/setup-mold@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-git.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-git.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-git.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "laverdet/remove-bloatware@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "rui314/setup-mold@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bnb-chain/reth",
+      "target": "ledgerwatch/erigon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bnb-chain/reth",
+      "target": "loocapro/reth-bsc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "bnb-chain/reth",
+      "target": "bnb-chain/reth-bsc-triedb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "rui314/setup-mold@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "CodSpeedHQ/action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "bench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "book",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compact.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "rui314/setup-mold@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compact.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compact.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compact.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compact.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compact.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "compact-codec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "tempoxyz/ci/.github/workflows/cargo-update-pr.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "Update Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-git.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-git.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "rui314/setup-mold@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-git.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-git.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-git.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "docker-git",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "laverdet/remove-bloatware@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "rui314/setup-mold@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "docker-nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-tag-latest.yml",
+      "source_repo": "bnb-chain/reth",
+      "target": "docker-tag-latest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:00:07.883729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11679
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 28392
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1443
+    },
+    {
+      "path": ".github/workflows/bench.yml",
+      "size": 1089
+    },
+    {
+      "path": ".github/workflows/book.yml",
+      "size": 2043
+    },
+    {
+      "path": ".github/workflows/compact.yml",
+      "size": 1501
+    },
+    {
+      "path": ".github/workflows/dependencies.yml",
+      "size": 373
+    },
+    {
+      "path": ".github/workflows/docker-git.yml",
+      "size": 1991
+    },
+    {
+      "path": ".github/workflows/docker-nightly.yml",
+      "size": 2710
+    },
+    {
+      "path": ".github/workflows/docker-tag-latest.yml",
+      "size": 2177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bnb-chain/reth",
+    "html_url": "https://github.com/bnb-chain/reth",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T06:38:14Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-28T16:38:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ledgerwatch/erigon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "loocapro/reth-bsc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bnb-chain/reth-bsc-triedb",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "bench",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "term": "bench"
+    },
+    {
+      "context_snippet": "book",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book.yml",
+      "term": "book"
+    },
+    {
+      "context_snippet": "compact-codec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compact.yml",
+      "term": "compact-codec"
+    },
+    {
+      "context_snippet": "Update Dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependencies.yml",
+      "term": "Update Dependencies"
+    },
+    {
+      "context_snippet": "docker-git",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-git.yml",
+      "term": "docker-git"
+    },
+    {
+      "context_snippet": "docker-nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-nightly.yml",
+      "term": "docker-nightly"
+    },
+    {
+      "context_snippet": "docker-tag-latest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-tag-latest.yml",
+      "term": "docker-tag-latest"
+    }
+  ]
+}

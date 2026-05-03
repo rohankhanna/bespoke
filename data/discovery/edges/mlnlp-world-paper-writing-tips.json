@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "target": "cooelf/paperwritingtips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "target": "acmi-lab/cmu-10717-the-art-of-the-paper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "target": "acl-org/aclpubcheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "target": "dspinellis/latex-advice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "target": "mlnlp",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "MLNLP-World/Paper-Writing-Tips"
+}

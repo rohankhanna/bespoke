@@ -105,6 +105,18 @@
       "source_repo": "buildpacks/lifecycle",
       "status": "candidate-context",
       "text": "draft-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faker-js/faker",
+      "status": "candidate-context",
+      "text": "Generate massive amounts of fake data in the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faker-js/faker",
+      "status": "candidate-context",
+      "text": "Draft Release"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +167,12 @@
       "source_repo": "buildpacks/lifecycle",
       "status": "candidate",
       "text": "draft-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faker-js/faker",
+      "status": "candidate",
+      "text": "Draft Release"
     }
   ],
   "candidate_related_terms": [
@@ -252,11 +270,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/draft-release.yml",
       "source_repo": "buildpacks/lifecycle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "faker-js/faker"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "appraisal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate-context",
+      "text": "A Ruby library for testing your library against different versions of dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate-context",
+      "text": "Appraisal"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate",
+      "text": "Appraisal"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978450,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976993,
+      "status": "candidate",
+      "text": "estimate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974734,
+      "status": "candidate",
+      "text": "estimation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980718,
+      "status": "candidate",
+      "text": "appraise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980650,
+      "status": "candidate",
+      "text": "appraiser"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24060,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8048,
+      "status": "candidate",
+      "text": "estimate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2038,
+      "status": "candidate",
+      "text": "estimation"
+    }
+  ],
+  "canonical_name": "appraisal",
+  "concept_id": "appraisal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "thoughtbot/appraisal"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "appraisal",
+      "sense_id": "appraisal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

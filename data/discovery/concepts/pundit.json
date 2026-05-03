@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "pundit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "A set of RSpec matchers for testing Pundit authorisation policies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "[![Gem Version][version-badge]][rubygems]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate",
+      "text": "[![Gem Version][version-badge]][rubygems]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003712,
+      "status": "candidate",
+      "text": "savant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995700,
+      "status": "candidate",
+      "text": "initiate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005457,
+      "status": "candidate",
+      "text": "learned person"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29904445,
+      "status": "candidate",
+      "text": "wag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29860638,
+      "status": "candidate",
+      "text": "swami"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28039,
+      "status": "candidate",
+      "text": "initiate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "learned person"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "savant"
+    }
+  ],
+  "canonical_name": "pundit",
+  "concept_id": "pundit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pundit",
+      "sense_id": "pundit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

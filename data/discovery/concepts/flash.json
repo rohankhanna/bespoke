@@ -31,6 +31,18 @@
       "source_repo": "shumatech/BOSSA",
       "status": "candidate-context",
       "text": "BOSSA 1.9.1"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pellepl/spiffs",
+      "status": "candidate-context",
+      "text": "Wear-leveled SPI flash file system for embedded devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pellepl/spiffs",
+      "status": "candidate-context",
+      "text": "**V0.3.7**"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "shumatech/BOSSA",
       "status": "candidate",
       "text": "BOSSA 1.9.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pellepl/spiffs",
+      "status": "candidate",
+      "text": "**V0.3.7**"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "shumatech/BOSSA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pellepl/spiffs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

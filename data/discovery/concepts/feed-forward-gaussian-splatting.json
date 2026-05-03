@@ -19,12 +19,48 @@
       "source_repo": "cvg/depthsplat",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donydchen/mvsplat",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0a [ECCV'24 Oral] MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/mvsplat",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donydchen/mvsplat360",
+      "status": "candidate-context",
+      "text": "\ud83c\udf9e\ufe0f [NeurIPS'24] MVSplat360: Feed-Forward 360 Scene Synthesis from Sparse Views"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/mvsplat360",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "cvg/depthsplat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/mvsplat",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donydchen/mvsplat360",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -40,11 +76,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "cvg/depthsplat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "donydchen/mvsplat360"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

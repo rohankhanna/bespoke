@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "1-shot image segmentation using Stable Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**[Paper](https://arxiv.org/abs/2309.03179)** | **[Colab Notebook](https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing)**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**[Paper](https://arxiv.org/abs/2309.03179)** | **[Colab Notebook](https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing)**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cross-attention",
+      "sense_id": "cross-attention#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cross-attention",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cross-attention",
+  "observation_id": "41a549b1c2f4ab8d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "cross-attention",
+  "source_context_snippet": "**[Paper](https://arxiv.org/abs/2309.03179)** | **[Colab Notebook](https://colab.research.google.com/drive/1fpKx6b2hQGEx1GK269vOw_sKeV9Rpnuj?usp=sharing)**",
+  "source_file": null,
+  "source_repo": "aliasgharkhani/SLiMe",
+  "source_repo_description": "1-shot image segmentation using Stable Diffusion"
+}

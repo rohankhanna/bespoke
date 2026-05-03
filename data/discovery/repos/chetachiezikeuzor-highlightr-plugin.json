@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "@simonwep/pickr",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "copy",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-copy",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-css-only",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sortablejs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/sortablejs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "obsidian",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "chetachiezikeuzor/cmenu-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "@simonwep/pickr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "copy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "rollup-plugin-copy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "rollup-plugin-css-only",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "sortablejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "@rollup/plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "@types/sortablejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "obsidian",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "highlight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "highlighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "obsidian-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "target": "plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:57:35.500918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8776
+    },
+    {
+      "path": "package.json",
+      "size": 941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A minimal and aesthetically pleasing highlighting menu that makes color-coded highlighting much easier \ud83c\udfa8.",
+    "fork": false,
+    "full_name": "chetachiezikeuzor/Highlightr-Plugin",
+    "html_url": "https://github.com/chetachiezikeuzor/Highlightr-Plugin",
+    "language": "TypeScript",
+    "pushed_at": "2023-11-15T02:31:30Z",
+    "stargazers_count": 792,
+    "topics": [
+      "highlight",
+      "highlighting",
+      "obsidian-md",
+      "obsidian-plugin",
+      "plugin"
+    ],
+    "updated_at": "2026-05-02T22:19:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chetachiezikeuzor/cmenu-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Highlightr-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/Highlightr-Plugin/total.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highlight"
+    },
+    {
+      "context_snippet": "![Highlightr-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/Highlightr-Plugin/total.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highlighting"
+    },
+    {
+      "context_snippet": "![Highlightr-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/Highlightr-Plugin/total.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "![Highlightr-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/Highlightr-Plugin/total.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-plugin"
+    },
+    {
+      "context_snippet": "![Highlightr-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/Highlightr-Plugin/total.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    }
+  ]
+}

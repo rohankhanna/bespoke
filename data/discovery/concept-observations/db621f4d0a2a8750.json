@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - \u57fa\u4e8e AI \u5b8c\u6574\u4fdd\u7559\u6392\u7248\u7684 PDF \u6587\u6863\u5168\u6587\u53cc\u8bed\u7ffb\u8bd1\uff0c\u652f\u6301 Google/DeepL/Ollama/OpenAI \u7b49\u670d\u52a1\uff0c\u63d0\u4f9b CLI/GUI/MCP/Docker/Zotero"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014466,
+      "status": "candidate",
+      "text": "mathematics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016230,
+      "status": "candidate",
+      "text": "mathematically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016125,
+      "status": "candidate",
+      "text": "calculus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016106,
+      "status": "candidate",
+      "text": "calculation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30015927,
+      "status": "candidate",
+      "text": "calculated"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "math",
+      "sense_id": "math#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2040,
+      "status": "candidate",
+      "text": "mathematics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "maths"
+    }
+  ],
+  "concept_id": "math",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "math",
+  "observation_id": "db621f4d0a2a8750",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "math",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "PDFMathTranslate/PDFMathTranslate",
+  "source_repo_description": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - \u57fa\u4e8e AI \u5b8c\u6574\u4fdd\u7559\u6392\u7248\u7684 PDF \u6587\u6863\u5168\u6587\u53cc\u8bed\u7ffb\u8bd1\uff0c\u652f\u6301 Google/DeepL/Ollama/OpenAI \u7b49\u670d\u52a1\uff0c\u63d0\u4f9b CLI/GUI/MCP/Docker/Zotero"
+}

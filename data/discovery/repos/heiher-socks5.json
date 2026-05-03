@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/socks5",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/socks5",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/socks5",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/socks5",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/socks5",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/socks5",
+      "target": "ipv4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/socks5",
+      "target": "ipv6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/socks5",
+      "target": "socks5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/socks5",
+      "target": "socks5-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/socks5",
+      "target": "socks5-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:05:11.551745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 723
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 2220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight, fast and reliable socks5 server for Android",
+    "fork": false,
+    "full_name": "heiher/socks5",
+    "html_url": "https://github.com/heiher/socks5",
+    "language": "Java",
+    "pushed_at": "2025-10-06T03:21:51Z",
+    "stargazers_count": 45,
+    "topics": [
+      "android",
+      "dns",
+      "ipv4",
+      "ipv6",
+      "socks5",
+      "socks5-proxy",
+      "socks5-server",
+      "tcp",
+      "udp"
+    ],
+    "updated_at": "2026-05-02T04:12:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipv4"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipv6"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socks5"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socks5-proxy"
+    },
+    {
+      "context_snippet": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socks5-server"
+    }
+  ]
+}

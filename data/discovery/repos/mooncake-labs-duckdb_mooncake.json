@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "duckdb/extension-ci-tools/.github/workflows/_extension_distribution.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MainDistributionPipeline.yml"
+    },
+    {
+      "component": "duckdb/extension-ci-tools/.github/workflows/_extension_distribution.yml@v1.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MainDistributionPipeline.yml"
+    },
+    {
+      "component": "duckdb/extension-ci-tools/.github/workflows/_extension_code_quality.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MainDistributionPipeline.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MainDistributionPipeline.yml",
+      "source_repo": "Mooncake-Labs/duckdb_mooncake",
+      "target": "duckdb/extension-ci-tools/.github/workflows/_extension_distribution.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MainDistributionPipeline.yml",
+      "source_repo": "Mooncake-Labs/duckdb_mooncake",
+      "target": "duckdb/extension-ci-tools/.github/workflows/_extension_distribution.yml@v1.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/MainDistributionPipeline.yml",
+      "source_repo": "Mooncake-Labs/duckdb_mooncake",
+      "target": "duckdb/extension-ci-tools/.github/workflows/_extension_code_quality.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MainDistributionPipeline.yml",
+      "source_repo": "Mooncake-Labs/duckdb_mooncake",
+      "target": "Main Extension Distribution Pipeline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:51:08.939802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1160
+    },
+    {
+      "path": ".github/workflows/MainDistributionPipeline.yml",
+      "size": 1292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Read Iceberg tables written by moonlink in real time",
+    "fork": false,
+    "full_name": "Mooncake-Labs/duckdb_mooncake",
+    "html_url": "https://github.com/Mooncake-Labs/duckdb_mooncake",
+    "language": "C++",
+    "pushed_at": "2025-10-26T07:13:05Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-05-01T23:57:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Main Extension Distribution Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/MainDistributionPipeline.yml",
+      "term": "Main Extension Distribution Pipeline"
+    }
+  ]
+}

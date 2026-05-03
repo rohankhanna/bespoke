@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sniklaus/revisiting-sepconv",
+      "target": "sniklaus/sepconv-slomo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/revisiting-sepconv",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/revisiting-sepconv",
+      "target": "cupy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/revisiting-sepconv",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/revisiting-sepconv",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:38:44.875333+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2769
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "an implementation of Revisiting Adaptive Convolutions for Video Frame Interpolation using PyTorch",
+    "fork": false,
+    "full_name": "sniklaus/revisiting-sepconv",
+    "html_url": "https://github.com/sniklaus/revisiting-sepconv",
+    "language": "Python",
+    "pushed_at": "2025-05-26T23:43:44Z",
+    "stargazers_count": 91,
+    "topics": [
+      "cuda",
+      "cupy",
+      "deep-learning",
+      "python",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-17T03:29:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sniklaus/sepconv-slomo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a reference implementation of Revisiting Adaptive Convolutions for Video Frame Interpolation [1] using PyTorch. Given two frames, it will make use of [adaptive convolution](http://sniklaus.com/papers/adaconv) [2] in a [separable manner](http://sniklaus.com/papers/sepconv\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "This is a reference implementation of Revisiting Adaptive Convolutions for Video Frame Interpolation [1] using PyTorch. Given two frames, it will make use of [adaptive convolution](http://sniklaus.com/papers/adaconv) [2] in a [separable manner](http://sniklaus.com/papers/sepconv\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cupy"
+    },
+    {
+      "context_snippet": "This is a reference implementation of Revisiting Adaptive Convolutions for Video Frame Interpolation [1] using PyTorch. Given two frames, it will make use of [adaptive convolution](http://sniklaus.com/papers/adaconv) [2] in a [separable manner](http://sniklaus.com/papers/sepconv\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is a reference implementation of Revisiting Adaptive Convolutions for Video Frame Interpolation [1] using PyTorch. Given two frames, it will make use of [adaptive convolution](http://sniklaus.com/papers/adaconv) [2] in a [separable manner](http://sniklaus.com/papers/sepconv\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

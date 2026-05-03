@@ -84,7 +84,7 @@
   "normalized_form": "post-benchmark-comment",
   "observation_id": "dfa52b0810410f4e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Post Benchmark Comment",
   "source_context_snippet": "Post Benchmark Comment",
   "source_file": ".github/workflows/comment.yml",

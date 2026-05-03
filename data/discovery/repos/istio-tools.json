@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:57:44.060655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 423
+    },
+    {
+      "path": "go.mod",
+      "size": 5468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools shared by several Istio repositories",
+    "fork": false,
+    "full_name": "istio/tools",
+    "html_url": "https://github.com/istio/tools",
+    "language": "Go",
+    "pushed_at": "2026-04-30T14:18:15Z",
+    "stargazers_count": 371,
+    "topics": [],
+    "updated_at": "2026-04-28T12:11:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

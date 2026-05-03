@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Getting Started with Go on Heroku."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A barebones Go app, which can easily be deployed to Heroku."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A barebones Go app, which can easily be deployed to Heroku."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "heroku-languages",
+      "sense_id": "heroku-languages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "heroku-languages",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "heroku-languages",
+  "observation_id": "57ac23dbea515165",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "heroku-languages",
+  "source_context_snippet": "A barebones Go app, which can easily be deployed to Heroku.",
+  "source_file": null,
+  "source_repo": "heroku/go-getting-started",
+  "source_repo_description": "Getting Started with Go on Heroku."
+}

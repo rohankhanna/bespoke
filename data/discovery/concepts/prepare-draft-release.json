@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Prepare draft release"
+    "Prepare draft release",
+    "Prepare Draft Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "tats-u/markdown-cjk-friendly",
       "status": "candidate-context",
       "text": "Prepare draft release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate-context",
+      "text": "The library allows you to write and execute UI tests among IntelliJ IDEA. You can test your Plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate-context",
+      "text": "Prepare Draft Release"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "tats-u/markdown-cjk-friendly",
       "status": "candidate",
       "text": "Prepare draft release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate",
+      "text": "Prepare Draft Release"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/prepare-draft.yml",
       "source_repo": "tats-u/markdown-cjk-friendly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/prepareDraftRelease.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

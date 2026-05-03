@@ -1,0 +1,709 @@
+{
+  "components": [
+    {
+      "component": "@babel/code-frame",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/generator",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/helper-compilation-targets",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/traverse",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/types",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-react-app",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-flowtype",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-jsx-a11y",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react-hooks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "netlify-plugin-cache",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-redux",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "release-it",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size.yml"
+    },
+    {
+      "component": "EskiMojo14/size-limit-action@af0584be5b6cc2d056bd31a314fc2ce9c9c1a929",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "@babel/code-frame",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "@babel/generator",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "@babel/helper-compilation-targets",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "@babel/traverse",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "@babel/types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "eslint-config-react-app",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "eslint-plugin-flowtype",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "eslint-plugin-jsx-a11y",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "eslint-plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "eslint-plugin-react-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "netlify-plugin-cache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "react-redux",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "release-it",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "serve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "Publish Package to npmjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "EskiMojo14/size-limit-action@af0584be5b6cc2d056bd31a314fc2ce9c9c1a929",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "size",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-codegen.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-codegen.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "RTKQ OpenAPI Codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "reduxjs/redux-toolkit",
+      "target": "actions/setup-java@c1e323688fd81a25caa38c78aa6df2d33d3e20d9",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:51:08.353445+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 2311
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1363
+    },
+    {
+      "path": ".github/workflows/size.yml",
+      "size": 594
+    },
+    {
+      "path": ".github/workflows/test-codegen.yml",
+      "size": 4344
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 16847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The official, opinionated, batteries-included toolset for efficient Redux development",
+    "fork": false,
+    "full_name": "reduxjs/redux-toolkit",
+    "html_url": "https://github.com/reduxjs/redux-toolkit",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-22T16:39:34Z",
+    "stargazers_count": 11204,
+    "topics": [],
+    "updated_at": "2026-05-02T06:17:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Package to npmjs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Package to npmjs"
+    },
+    {
+      "context_snippet": "size",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/size.yml",
+      "term": "size"
+    },
+    {
+      "context_snippet": "RTKQ OpenAPI Codegen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-codegen.yml",
+      "term": "RTKQ OpenAPI Codegen"
+    }
+  ]
+}

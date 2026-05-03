@@ -1,12 +1,17 @@
 {
   "component": "Jimver/cuda-toolkit@v0.2.16",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "CVCUDA/CV-CUDA"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/onnxruntime-builder"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -5857,6 +5857,261 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint-typecheck.yml",
       "source_repo": "element-plus/element-plus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ory/polis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "just-the-docs/just-the-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/opam.yml",
+      "source_repo": "ahrefs/opam-check-npm-deps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "rescript-lang/rescript-react"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "mourner/robust-predicates"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "posva/unplugin-vue-router"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "posva/unplugin-vue-router"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "posva/unplugin-vue-router"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "posva/unplugin-vue-router"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "posva/unplugin-vue-router"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mainmatter/ember-vite-codemod"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mainmatter/ember-vite-codemod"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cr.yml",
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/skills.yml",
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "reagent-project/reagent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Release.yml",
+      "source_repo": "intlify/eslint-plugin-vue-i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "intlify/eslint-plugin-vue-i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tapjs/tapjs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typedoc.yml",
+      "source_repo": "tapjs/tapjs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "oss-serverless/serverless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "oss-serverless/serverless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/closed_references.yml",
+      "source_repo": "ory/hydra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ory/keto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/closed_references.yml",
+      "source_repo": "ory/keto"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ory/kratos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/closed_references.yml",
+      "source_repo": "ory/kratos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/closed_references.yml",
+      "source_repo": "ory/oathkeeper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "handlebars-lang/handlebars.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "handlebars-lang/handlebars.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "unjs/listhen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "unjs/listhen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "sveltejs/kit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix-lint.yml",
+      "source_repo": "sveltejs/kit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sveltejs/kit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sveltejs/kit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cr.yml",
+      "source_repo": "vuejs/vitepress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vuejs/vitepress"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ember-cli/ember-addon-blueprint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ember-cli/ember-app-blueprint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ember-cli/ember-app-blueprint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ember-cli/ember-exam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ember-cli/ember-exam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ember-cli/ember-exam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ember-cli/ember-exam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "firebase/snippets-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "isaacs/clock-mock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typedoc.yml",
+      "source_repo": "isaacs/clock-mock"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "helm/chart-releaser-action@v1.7.0",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cd-chart.yml",
       "source_repo": "dunglas/mercure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-chart.yaml",
+      "source_repo": "lakekeeper/lakekeeper-charts"
     }
   ]
 }

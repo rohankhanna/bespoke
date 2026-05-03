@@ -355,6 +355,66 @@
       "source_repo": "godotengine/godot-docs",
       "status": "candidate-context",
       "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godot-rust/gdnative",
+      "status": "candidate-context",
+      "text": "Rust bindings for Godot 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdnative",
+      "status": "candidate-context",
+      "text": "<a href=\"https://godot-rust.github.io/\"><img align=\"right\" width=\"200\" height=\"200\" src=\"assets/godot-ferris.svg\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate-context",
+      "text": "Rust bindings for Godot 4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate-context",
+      "text": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "attackgoat/vk-graph",
+      "status": "candidate-context",
+      "text": "High-performance Vulkan driver with automated resource management and execution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attackgoat/vk-graph",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate-context",
+      "text": "GDExtension wrapper for SQLite (Godot 4.x+)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate-context",
+      "text": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "status": "candidate-context",
+      "text": "This is the egui integration crate for winit, ash and vk_mem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "status": "candidate-context",
+      "text": "[_DEPRECATED_]"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +591,36 @@
       "source_repo": "godotengine/godot-docs",
       "status": "candidate",
       "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdnative",
+      "status": "candidate",
+      "text": "<a href=\"https://godot-rust.github.io/\"><img align=\"right\" width=\"200\" height=\"200\" src=\"assets/godot-ferris.svg\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate",
+      "text": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attackgoat/vk-graph",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate",
+      "text": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "status": "candidate",
+      "text": "[_DEPRECATED_]"
     }
   ],
   "candidate_related_terms": [],
@@ -796,11 +886,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "2shady4u/godot-sqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

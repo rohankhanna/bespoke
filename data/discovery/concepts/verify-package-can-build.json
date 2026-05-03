@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "verify package can build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "Build Postgres Extensions with Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "verify package can build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate",
+      "text": "verify package can build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45425,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37351,
+      "status": "candidate",
+      "text": "fractal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34369,
+      "status": "candidate",
+      "text": "escape cock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34369,
+      "status": "candidate",
+      "text": "escape valve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34369,
+      "status": "candidate",
+      "text": "escaped"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "verify package can build",
+  "concept_id": "verify-package-can-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/package-test.yaml",
+      "source_repo": "pgcentralfoundation/pgrx"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "verify package can build",
+      "sense_id": "verify-package-can-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

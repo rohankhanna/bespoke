@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyrocat101/opal",
+      "target": "parser-combinators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyrocat101/opal",
+      "target": "parser-monad",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:53:05.124890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12686
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Self-contained monadic parser combinators for OCaml",
+    "fork": false,
+    "full_name": "pyrocat101/opal",
+    "html_url": "https://github.com/pyrocat101/opal",
+    "language": "OCaml",
+    "pushed_at": "2023-07-24T22:23:49Z",
+    "stargazers_count": 153,
+    "topics": [
+      "parser-combinators",
+      "parser-monad"
+    ],
+    "updated_at": "2026-03-10T17:34:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Opal is a minimum collection of useful parsers and combinators (~150 loc of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser-combinators"
+    },
+    {
+      "context_snippet": "Opal is a minimum collection of useful parsers and combinators (~150 loc of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser-monad"
+    }
+  ]
+}

@@ -67,6 +67,30 @@
       "source_repo": "Teemu/pytest-sugar",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "status": "candidate-context",
+      "text": "pytest plugin for aiohttp support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "status": "candidate-context",
+      "text": "pytest-aiohttp"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest-asyncio",
+      "status": "candidate-context",
+      "text": "Asyncio support for pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-asyncio",
+      "status": "candidate-context",
+      "text": "pytest-asyncio"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "Teemu/pytest-sugar",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/Teemu/pytest-sugar/build-and-test.yaml?branch=main)](https://github.com/Teemu/pytest-sugar/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "status": "candidate",
+      "text": "pytest-aiohttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-asyncio",
+      "status": "candidate",
+      "text": "pytest-asyncio"
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +214,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aio-libs/pytest-aiohttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest-asyncio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

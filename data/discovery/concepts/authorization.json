@@ -163,6 +163,66 @@
       "source_repo": "jgrodziski/keycloak-clojure",
       "status": "candidate-context",
       "text": "![Keycloak plus Clojure](keycloak-plus-clojure.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CanCanCommunity/cancancan",
+      "status": "candidate-context",
+      "text": "The authorization Gem for Ruby on Rails."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CanCanCommunity/cancancan",
+      "status": "candidate-context",
+      "text": "<img src=\"./logo/cancancan.png\" width=\"200\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "Internet-scale OpenID Certified\u2122 OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/keto",
+      "status": "candidate-context",
+      "text": "The most scalable and customizable permission server on the market. Fix your slow or broken permission system with Google's proven \"Zanzibar\" approach. Supports ACL, RBAC, and more. Written in Go, cloud native, headless, API-first. Available as a service on Ory Network and for self-hosters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/keto",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anurag90x/flask-pundit",
+      "status": "candidate-context",
+      "text": "A flask extension for managing permissions and scopes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anurag90x/flask-pundit",
+      "status": "candidate-context",
+      "text": "A simple flask extension to organize resource authorization and scoping. This extension is heavily inspired by the ruby Pundit library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "A set of RSpec matchers for testing Pundit authorisation policies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "[![Gem Version][version-badge]][rubygems]"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +303,36 @@
       "source_repo": "jgrodziski/keycloak-clojure",
       "status": "candidate",
       "text": "![Keycloak plus Clojure](keycloak-plus-clojure.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CanCanCommunity/cancancan",
+      "status": "candidate",
+      "text": "<img src=\"./logo/cancancan.png\" width=\"200\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/keto",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anurag90x/flask-pundit",
+      "status": "candidate",
+      "text": "A simple flask extension to organize resource authorization and scoping. This extension is heavily inspired by the ruby Pundit library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate",
+      "text": "[![Gem Version][version-badge]][rubygems]"
     }
   ],
   "candidate_related_terms": [
@@ -801,11 +891,77 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "CanCanCommunity/cancancan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/hydra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/keto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "anurag90x/flask-pundit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -271,6 +271,18 @@
       "source_repo": "nihui/realsr-ncnn-vulkan",
       "status": "candidate-context",
       "text": "![CI](https://github.com/nihui/realsr-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Star-Clouds/CenterFace",
+      "status": "candidate-context",
+      "text": "face detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Star-Clouds/CenterFace",
+      "status": "candidate-context",
+      "text": "CenterFace(size of 7.3MB) is a practical anchor-free face detection and alignment method for edge devices."
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "nihui/realsr-ncnn-vulkan",
       "status": "candidate",
       "text": "![CI](https://github.com/nihui/realsr-ncnn-vulkan/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Star-Clouds/CenterFace",
+      "status": "candidate",
+      "text": "CenterFace(size of 7.3MB) is a practical anchor-free face detection and alignment method for edge devices."
     }
   ],
   "candidate_related_terms": [],
@@ -634,11 +652,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "DayBreak-u/yolo-face-with-landmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/chineseocr_lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/yolo-face-with-landmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Star-Clouds/CenterFace"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

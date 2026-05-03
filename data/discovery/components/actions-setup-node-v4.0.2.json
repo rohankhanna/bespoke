@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4.0.2",
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/typescript_library.yml",
       "source_repo": "aws-cloudformation/cloudformation-guard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml",
+      "source_repo": "fnando/i18n-js"
     }
   ]
 }

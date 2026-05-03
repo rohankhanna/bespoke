@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v2",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -927,6 +927,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "athensresearch/athens"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-torch-hub.yml",
+      "source_repo": "SivilTaram/tapex_transformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/model-templates.yml",
+      "source_repo": "SivilTaram/tapex_transformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "midsdsy/LOD-Net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "xingyizhou/CenterNet2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "VollmondT/juice-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/botframework-components"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "microsoft/BotFramework-Composer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nuxt/vite"
     }
   ]
 }

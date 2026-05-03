@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metasoarous/datsync",
+      "target": "metasoarous/datspec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metasoarous/datsync",
+      "target": "metasoarous/datsys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metasoarous/datsync",
+      "target": "metasoarous/datreactor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metasoarous/datsync",
+      "target": "metasoarous/datview",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metasoarous/datsync",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metasoarous/datsync",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metasoarous/datsync",
+      "target": "datascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metasoarous/datsync",
+      "target": "datomic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:53:13.760571+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Datomic <-> DataScript syncing/replication utilities",
+    "fork": false,
+    "full_name": "metasoarous/datsync",
+    "html_url": "https://github.com/metasoarous/datsync",
+    "language": "Clojure",
+    "pushed_at": "2021-12-22T23:00:45Z",
+    "stargazers_count": 330,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "datascript",
+      "datomic",
+      "frp"
+    ],
+    "updated_at": "2026-04-24T13:58:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metasoarous/datreactor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metasoarous/datspec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metasoarous/datsys",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metasoarous/datview",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Datsync](datsync.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "![Datsync](datsync.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "![Datsync](datsync.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datascript"
+    },
+    {
+      "context_snippet": "![Datsync](datsync.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datomic"
+    }
+  ]
+}

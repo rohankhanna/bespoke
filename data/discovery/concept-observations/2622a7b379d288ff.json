@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Godot project containing various examples using the Discord.gd Plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Discord.gd Examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Discord.gd Examples"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018360,
+      "status": "candidate",
+      "text": "disaccord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017497,
+      "status": "candidate",
+      "text": "discordance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015065,
+      "status": "candidate",
+      "text": "disagree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012248,
+      "status": "candidate",
+      "text": "dissension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975725,
+      "status": "candidate",
+      "text": "strife"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "discord",
+      "sense_id": "discord#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 49036,
+      "status": "candidate",
+      "text": "strife"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23034,
+      "status": "candidate",
+      "text": "dissension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9027,
+      "status": "candidate",
+      "text": "discordance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9022,
+      "status": "candidate",
+      "text": "disaccord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7036,
+      "status": "candidate",
+      "text": "disagree"
+    }
+  ],
+  "concept_id": "discord",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "discord",
+  "observation_id": "2622a7b379d288ff",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "discord",
+  "source_context_snippet": "Discord.gd Examples",
+  "source_file": null,
+  "source_repo": "3ddelano/discord_gd_examples",
+  "source_repo_description": "A Godot project containing various examples using the Discord.gd Plugin."
+}

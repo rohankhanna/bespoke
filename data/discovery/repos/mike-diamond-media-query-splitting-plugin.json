@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "clean-css",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "crypto-hash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "css",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "css-mediaquery",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "webpack-sources",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-minify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "webpack-contrib/mini-css-extract-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "rguerreiro/express-device",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "clean-css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "crypto-hash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "css-mediaquery",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "webpack",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "webpack-sources",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mike-diamond/media-query-splitting-plugin",
+      "target": "babel-minify",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:41:48.366816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6585
+    },
+    {
+      "path": "package.json",
+      "size": 1308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Webpack 4 plugin for styles splitting by media query",
+    "fork": false,
+    "full_name": "mike-diamond/media-query-splitting-plugin",
+    "html_url": "https://github.com/mike-diamond/media-query-splitting-plugin",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-28T08:58:57Z",
+    "stargazers_count": 107,
+    "topics": [],
+    "updated_at": "2024-12-15T13:57:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rguerreiro/express-device",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webpack-contrib/mini-css-extract-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

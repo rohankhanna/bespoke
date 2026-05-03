@@ -9576,6 +9576,642 @@
       "source_repo": "openxrlab/xrnerf",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libimobiledevice/usbmuxd",
+      "status": "candidate-context",
+      "text": "A socket daemon to multiplex connections from and to iOS devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/usbmuxd",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/neuroglancer",
+      "status": "candidate-context",
+      "text": "WebGL-based viewer for volumetric data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/neuroglancer",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate-context",
+      "text": "Apollo Client browser developer tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "status": "candidate-context",
+      "text": "Plugin for parsing and managing the Changelog in a \"keep a changelog\" style."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jknack/handlebars.java",
+      "status": "candidate-context",
+      "text": "Logic-less and semantic Mustache templates with Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jknack/handlebars.java",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewtrotman/JASSv2",
+      "status": "candidate-context",
+      "text": "Experimental search engine in C/C++17 - still in early development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewtrotman/JASSv2",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate-context",
+      "text": "StandardRB Action: A GitHub Action to run StandardRB against your code!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mindreframer/sqlean",
+      "status": "candidate-context",
+      "text": "All the missing SQLite functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mindreframer/sqlean",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "status": "candidate-context",
+      "text": "Lint your JSON files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluentassertions/fluentassertions",
+      "status": "candidate-context",
+      "text": "A very extensive set of extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit tests. Targets .NET Framework 4.7, as well as .NET Core 2.1, .NET Core 3.0, .NET 6, .NET Standard 2.0 and 2.1. Supports the unit test frameworks MSTest2, NUnit3, XUnit2, MSpec, and NSpec3."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentassertions/fluentassertions",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "status": "candidate-context",
+      "text": "Collections of robotics environments geared towards benchmarking multi-task and meta reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate-context",
+      "text": "Rust support for Dart\u2019s Native Assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/GregoryConrad/native_toolchain_rust/actions/workflows/build.yml/badge.svg)](https://github.com/GregoryConrad/native_toolchain_rust/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "status": "candidate-context",
+      "text": "\u7121\u6599\u3067\u4f7f\u3048\u308b\u4e2d\u54c1\u8cea\u306a\u30c6\u30ad\u30b9\u30c8\u8aad\u307f\u4e0a\u3052\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3001VOICEVOX\u306e\u97f3\u58f0\u5408\u6210\u30a8\u30f3\u30b8\u30f3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "status": "candidate-context",
+      "text": "An asdf plugin for the semver tool https://github.com/fsaintjacques/semver-tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "status": "candidate-context",
+      "text": "Terraform Helm provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ofirpress/attention_with_linear_biases",
+      "status": "candidate-context",
+      "text": "Code for the ALiBi method for transformer language models (ICLR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ofirpress/attention_with_linear_biases",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j20001970/GDMP-demo",
+      "status": "candidate-context",
+      "text": "Demo project for GDMP plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP-demo",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mantoni/core_d.js",
+      "status": "candidate-context",
+      "text": "Offload your heavy lifting to a daemon. Extracted from eslint_d."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/core_d.js",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JolifantoBambla/vk-generator",
+      "status": "candidate-context",
+      "text": "A generator for low-level Common Lisp/CFFI bindings for the Vulkan API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JolifantoBambla/vk-generator",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exelban/stats",
+      "status": "candidate-context",
+      "text": "macOS system monitor in your menu bar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exelban/stats",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate-context",
+      "text": "Rust client framework for interacting with CometBFT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite",
+      "status": "candidate-context",
+      "text": "customized xray-core aar for MahsaNG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ameshkov/dnslookup",
+      "status": "candidate-context",
+      "text": "Simple command line utility to make DNS lookups to the specified server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ameshkov/dnslookup",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/AndroidLibV2rayLite",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/AndroidLibXrayLite",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/sockstun",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable tun2socks for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/sockstun",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuiWonder/Shanggu",
+      "status": "candidate-context",
+      "text": "\u57fa\u65bc\u601d\u6e90\u7cfb\u5217\u7684\u50b3\u627f\u5b57\u5f62\uff08\u820a\u5b57\u5f62\uff09CJK \u5b57\u9ad4  Shanggu Fonts \u5c19\u53e4\u7cfb\u5217\u5b57\u9ad4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuiWonder/Shanggu",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openxrlab/xrlocalization",
+      "status": "candidate-context",
+      "text": "OpenXRLab Visual Localization Toolbox and Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrlocalization",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openxrlab/xrmocap",
+      "status": "candidate-context",
+      "text": "OpenXRLab Multi-view Motion Capture Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrmocap",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openxrlab/xrmogen",
+      "status": "candidate-context",
+      "text": "OpenXRLab Multi-Modal Motion Generation Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrmogen",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openxrlab/xrprimer",
+      "status": "candidate-context",
+      "text": "OpenXRLab foundational library for XR-related algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrprimer",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/tensorstore",
+      "status": "candidate-context",
+      "text": "Library for reading and writing large multi-dimensional arrays."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/tensorstore",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate-context",
+      "text": "Offline testing for Scaleway Serverless Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate-context",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate-context",
+      "text": "\ud83d\udc21 An icon expansion pack for Maki"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reginald-mclean/Metaworld",
+      "status": "candidate-context",
+      "text": "Collections of robotics environments geared towards benchmarking multi-task and meta reinforcement learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reginald-mclean/Metaworld",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElMassimo/iles",
+      "status": "candidate-context",
+      "text": "\ud83c\udfdd The joyful site generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElMassimo/iles",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sp-nitech/SPTK",
+      "status": "candidate-context",
+      "text": "A suite of speech signal processing tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sp-nitech/SPTK",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "delvedor/hpagent",
+      "status": "candidate-context",
+      "text": "A ready to use http and https agent for working with proxies that keeps connections alive!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delvedor/hpagent",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mantoni/eslint_d.js",
+      "status": "candidate-context",
+      "text": "\ud83e\ude84 Speed up eslint to accelerate your development workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/eslint_d.js",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brandonbloom/fipp",
+      "status": "candidate-context",
+      "text": "Fast Idiomatic Pretty Printer for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brandonbloom/fipp",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.build",
+      "status": "candidate-context",
+      "text": "Clojure builds as Clojure programs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.build",
+      "status": "candidate-context",
+      "text": "tools.build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate-context",
+      "text": "A pure JavaScript implementation of git for node and browsers!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/reth-bsc-triedb",
+      "status": "candidate-context",
+      "text": "Rust geth-compatible trie database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/reth-bsc-triedb",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/tendermint-rs-parlia",
+      "status": "candidate-context",
+      "text": "Tendermint in Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tendermint-rs-parlia",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cometbft/cometbft",
+      "status": "candidate-context",
+      "text": "CometBFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate-context",
+      "text": "Rust client framework for interacting with CometBFT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate-context",
+      "text": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate-context",
+      "text": "DPI bypass multi platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gaoyifan/china-operator-ip",
+      "status": "candidate-context",
+      "text": "\u4e2d\u56fd\u8fd0\u8425\u5546IPv4/IPv6\u5730\u5740\u5e93-\u6bcf\u65e5\u66f4\u65b0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gaoyifan/china-operator-ip",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate-context",
+      "text": "Block spying and tracking on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 transparent proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "A simple, lightweight multi-task system (coroutines)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/socks5",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 server for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/socks5",
+      "status": "candidate-context",
+      "text": "\"Build\""
     }
   ],
   "candidate_glosses": [
@@ -14444,6 +15080,330 @@
       "source_repo": "openxrlab/xrnerf",
       "status": "candidate",
       "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/usbmuxd",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/neuroglancer",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-client-devtools",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jknack/handlebars.java",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewtrotman/JASSv2",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mindreframer/sqlean",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluentassertions/fluentassertions",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/GregoryConrad/native_toolchain_rust/actions/workflows/build.yml/badge.svg)](https://github.com/GregoryConrad/native_toolchain_rust/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathew-fleisch/asdf-semver",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-helm",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ofirpress/attention_with_linear_biases",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP-demo",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/core_d.js",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JolifantoBambla/vk-generator",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exelban/stats",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ameshkov/dnslookup",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/AndroidLibV2rayLite",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/AndroidLibXrayLite",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/sockstun",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuiWonder/Shanggu",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrlocalization",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrmocap",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrmogen",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrprimer",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/tensorstore",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-functions-node",
+      "status": "candidate",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapideditor/temaki",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reginald-mclean/Metaworld",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElMassimo/iles",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sp-nitech/SPTK",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "delvedor/hpagent",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/eslint_d.js",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brandonbloom/fipp",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.build",
+      "status": "candidate",
+      "text": "tools.build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/reth-bsc-triedb",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tendermint-rs-parlia",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gaoyifan/china-operator-ip",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/socks5",
+      "status": "candidate",
+      "text": "\"Build\""
     }
   ],
   "candidate_related_terms": [
@@ -21878,11 +22838,611 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "openxrlab/xrnerf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-pypi.yaml",
+      "source_repo": "PoseLib/PoseLib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/usbmuxd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/neuroglancer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google-deepmind/mujoco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "apollographql/apollo-client-devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "Farama-Foundation/Minigrid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-matrix.yml",
+      "source_repo": "jknack/handlebars.java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "andrewtrotman/JASSv2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Venly/web3-react-venly"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "andrewmcodes/standardrb-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mindreframer/sqlean"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mongodb/winkerberos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "azeemba/eslint-plugin-json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kurrent-io/es-gencert-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kurrent-io/KurrentDB-Bridge-Client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kurrent-io/EventStoreDB-Client-Dotnet-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "falcoframework/Falco.Markup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fluentassertions/fluentassertions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Farama-Foundation/Metaworld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "GregoryConrad/native_toolchain_rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-engine.yml",
+      "source_repo": "Hiroshiba/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mathew-fleisch/asdf-semver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hashicorp/terraform-provider-helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ofirpress/attention_with_linear_biases"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "j20001970/GDMP-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mantoni/core_d.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JolifantoBambla/vk-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.binaries.yml",
+      "source_repo": "datalevin/datalevin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "exelban/stats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "powturbo/Turbo-Base64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "databrickslabs/ucx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-reusable.yaml",
+      "source_repo": "riscv-collab/riscv-gnu-toolchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "riscv-collab/riscv-gnu-toolchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ameshkov/dnslookup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "2dust/AndroidLibV2rayLite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "2dust/AndroidLibXrayLite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/hev-socks5-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/sockstun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LuaLS/vscode-lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GuiWonder/Shanggu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openxrlab/xrlocalization"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openxrlab/xrmocap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openxrlab/xrmogen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openxrlab/xrprimer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/tensorstore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/intellij-platform-gradle-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "scaleway/serverless-functions-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rapideditor/temaki"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "reginald-mclean/Metaworld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ElMassimo/iles"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "sp-nitech/SPTK"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "delvedor/hpagent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mantoni/eslint_d.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "brandonbloom/fipp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clojure/tools.build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "isomorphic-git/isomorphic-git"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bnb-chain/reth-bsc-triedb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bnb-chain/tendermint-rs-parlia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cometbft/cometbft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cometbft/cometbft-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2dust/v2rayN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bol-van/zapret"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gaoyifan/china-operator-ip"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "crazy-max/WindowsSpyBlocker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/hev-socks5-tproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/hev-task-system"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/socks5"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

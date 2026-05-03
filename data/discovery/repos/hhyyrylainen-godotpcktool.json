@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hhyyrylainen/GodotPckTool",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hhyyrylainen/GodotPckTool",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hhyyrylainen/GodotPckTool",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hhyyrylainen/GodotPckTool",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hhyyrylainen/GodotPckTool",
+      "target": "godot-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hhyyrylainen/GodotPckTool",
+      "target": "thrive",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:56:04.568048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8378
+    },
+    {
+      "path": "Dockerfile",
+      "size": 225
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Standalone tool for extracting and creating Godot .pck files",
+    "fork": false,
+    "full_name": "hhyyrylainen/GodotPckTool",
+    "html_url": "https://github.com/hhyyrylainen/GodotPckTool",
+    "language": "C++",
+    "pushed_at": "2026-02-27T07:02:57Z",
+    "stargazers_count": 535,
+    "topics": [
+      "cpp",
+      "cpp17",
+      "godot-engine",
+      "thrive"
+    ],
+    "updated_at": "2026-05-01T13:03:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous integration"
+    },
+    {
+      "context_snippet": "Godot Pck Tool",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "Godot Pck Tool",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-engine"
+    },
+    {
+      "context_snippet": "Godot Pck Tool",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thrive"
+    }
+  ]
+}

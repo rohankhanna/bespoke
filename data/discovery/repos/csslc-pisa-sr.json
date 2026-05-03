@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csslc/PiSA-SR",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csslc/PiSA-SR",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:43.186360+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8407
+    },
+    {
+      "path": "requirements.txt",
+      "size": 209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2025] Official code repository for \"Pixel-level and Semantic-level Adjustable Super-resolution: A Dual-LoRA Approach\"",
+    "fork": false,
+    "full_name": "csslc/PiSA-SR",
+    "html_url": "https://github.com/csslc/PiSA-SR",
+    "language": "Python",
+    "pushed_at": "2026-03-15T15:13:36Z",
+    "stargazers_count": 327,
+    "topics": [
+      "diffusion",
+      "super-resolution"
+    ],
+    "updated_at": "2026-04-22T11:37:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

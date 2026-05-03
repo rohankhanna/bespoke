@@ -1,7 +1,7 @@
 {
   "component": "julia-actions/cache@v3",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -317,6 +317,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/_glmakie.yml",
       "source_repo": "MakieOrg/Makie.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl"
     }
   ]
 }

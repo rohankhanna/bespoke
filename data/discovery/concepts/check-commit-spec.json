@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Check Commit spec"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/formily",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1\ud83d\ude80 \ud83e\udde9 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/formily",
+      "status": "candidate-context",
+      "text": "Check Commit spec"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/designable",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9 Make everything designable \ud83e\udde9 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/designable",
+      "status": "candidate-context",
+      "text": "Check Commit spec"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/formily",
+      "status": "candidate",
+      "text": "Check Commit spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/designable",
+      "status": "candidate",
+      "text": "Check Commit spec"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26086,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20780,
+      "status": "candidate",
+      "text": "option"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20780,
+      "status": "candidate",
+      "text": "throw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20702,
+      "status": "candidate",
+      "text": "gauge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20702,
+      "status": "candidate",
+      "text": "read"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Commit spec",
+  "concept_id": "check-commit-spec",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "alibaba/formily"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "alibaba/designable"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Commit spec",
+      "sense_id": "check-commit-spec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

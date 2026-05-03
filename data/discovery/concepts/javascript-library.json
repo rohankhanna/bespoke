@@ -67,6 +67,30 @@
       "source_repo": "CirclonGroup/angular-tree-component",
       "status": "candidate-context",
       "text": "[![npm version](https://badge.fury.io/js/%40circlon%2Fangular-tree-component.svg)](https://badge.fury.io/js/%40circlon%2Fangular-tree-component)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate-context",
+      "text": "World.JS is a JavaScript Wrapper for World Vocoder Powered by Emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"300\" src=\".github/ScreenShots/logo.v3.png\" alt=\"World.JS logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saharan/OimoPhysics",
+      "status": "candidate-context",
+      "text": "A cross-platform 3D physics engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharan/OimoPhysics",
+      "status": "candidate-context",
+      "text": "OimoPhysics 1.2.5"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "CirclonGroup/angular-tree-component",
       "status": "candidate",
       "text": "[![npm version](https://badge.fury.io/js/%40circlon%2Fangular-tree-component.svg)](https://badge.fury.io/js/%40circlon%2Fangular-tree-component)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"300\" src=\".github/ScreenShots/logo.v3.png\" alt=\"World.JS logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharan/OimoPhysics",
+      "status": "candidate",
+      "text": "OimoPhysics 1.2.5"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "CirclonGroup/angular-tree-component"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "YuzukiTsuru/World.JS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "saharan/OimoPhysics"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

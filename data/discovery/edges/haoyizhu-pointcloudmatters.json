@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "haoyizhu/realrobot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "mohitshridhar/rlbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "haosulab/maniskill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "epfl-vilab/multimae",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "Formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "observation-space",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "robot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "robot-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "HaoyiZhu/PointCloudMatters"
+}

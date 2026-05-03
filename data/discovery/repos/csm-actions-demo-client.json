@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "csm-actions/approve-pr-action@452271472f121d6d2f8e7a0761488d2fcc29b715",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/securefix.yaml"
+    },
+    {
+      "component": "csm-actions/securefix-action@4d885e1bcb71f4f110215c833002ce9fa0ee0fa6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/securefix.yaml"
+    },
+    {
+      "component": "csm-actions/update-branch-action@bbebaea1a2ba545074cad89fb8e6364ed1873a20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_branch.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/approve.yaml",
+      "source_repo": "csm-actions/demo-client",
+      "target": "csm-actions/approve-pr-action@452271472f121d6d2f8e7a0761488d2fcc29b715",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve.yaml",
+      "source_repo": "csm-actions/demo-client",
+      "target": "Approve pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/securefix.yaml",
+      "source_repo": "csm-actions/demo-client",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/securefix.yaml",
+      "source_repo": "csm-actions/demo-client",
+      "target": "csm-actions/securefix-action@4d885e1bcb71f4f110215c833002ce9fa0ee0fa6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/securefix.yaml",
+      "source_repo": "csm-actions/demo-client",
+      "target": "securefix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_branch.yaml",
+      "source_repo": "csm-actions/demo-client",
+      "target": "csm-actions/update-branch-action@bbebaea1a2ba545074cad89fb8e6364ed1873a20",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:19.416042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14
+    },
+    {
+      "path": ".github/workflows/approve.yaml",
+      "size": 735
+    },
+    {
+      "path": ".github/workflows/securefix.yaml",
+      "size": 637
+    },
+    {
+      "path": ".github/workflows/update_branch.yaml",
+      "size": 569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example of a client repository",
+    "fork": false,
+    "full_name": "csm-actions/demo-client",
+    "html_url": "https://github.com/csm-actions/demo-client",
+    "language": null,
+    "pushed_at": "2026-04-30T16:35:51Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T16:35:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Approve pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approve.yaml",
+      "term": "Approve pull requests"
+    },
+    {
+      "context_snippet": "securefix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/securefix.yaml",
+      "term": "securefix"
+    }
+  ]
+}

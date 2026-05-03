@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "istio/api",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "istio/api",
+      "target": "istio/tools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:56:02.558845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1363
+    },
+    {
+      "path": "go.mod",
+      "size": 464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "API definitions for the Istio project",
+    "fork": false,
+    "full_name": "istio/api",
+    "html_url": "https://github.com/istio/api",
+    "language": "Go",
+    "pushed_at": "2026-05-02T13:15:58Z",
+    "stargazers_count": 510,
+    "topics": [
+      "api"
+    ],
+    "updated_at": "2026-05-02T13:16:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "istio/tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

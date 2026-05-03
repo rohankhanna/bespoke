@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "@octokit/rest",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@umijs/fabric",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "actions-cool/labels-helper",
+      "target": "@octokit/rest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "actions-cool/labels-helper",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "actions-cool/labels-helper",
+      "target": "@umijs/fabric",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "actions-cool/labels-helper",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "actions-cool/labels-helper",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yml",
+      "source_repo": "actions-cool/labels-helper",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions-cool/labels-helper",
+      "target": "issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions-cool/labels-helper",
+      "target": "labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions-cool/labels-helper",
+      "target": "manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actions-cool/labels-helper",
+      "target": "tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:50:39.414497+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 702
+    },
+    {
+      "path": "package.json",
+      "size": 853
+    },
+    {
+      "path": ".github/workflows/test-all.yml",
+      "size": 238
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80 Automatically create and delete labels in batches.",
+    "fork": false,
+    "full_name": "actions-cool/labels-helper",
+    "html_url": "https://github.com/actions-cool/labels-helper",
+    "language": "JavaScript",
+    "pushed_at": "2021-11-29T05:45:36Z",
+    "stargazers_count": 4,
+    "topics": [
+      "issues",
+      "labels",
+      "manager",
+      "tools"
+    ],
+    "updated_at": "2024-02-11T12:12:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u81ea\u52a8\u6279\u91cf\u65b0\u589e\u3001\u5220\u9664\u6807\u7b7e\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "issues"
+    },
+    {
+      "context_snippet": "\u81ea\u52a8\u6279\u91cf\u65b0\u589e\u3001\u5220\u9664\u6807\u7b7e\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labels"
+    },
+    {
+      "context_snippet": "\u81ea\u52a8\u6279\u91cf\u65b0\u589e\u3001\u5220\u9664\u6807\u7b7e\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manager"
+    },
+    {
+      "context_snippet": "\u81ea\u52a8\u6279\u91cf\u65b0\u589e\u3001\u5220\u9664\u6807\u7b7e\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    }
+  ]
+}

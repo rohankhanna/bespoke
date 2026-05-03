@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mindreframer/sqlean",
+      "target": "nalgeon/sqlite.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mindreframer/sqlean",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mindreframer/sqlean",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mindreframer/sqlean",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mindreframer/sqlean",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mindreframer/sqlean",
+      "target": "publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:49:16.273895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1814
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1422
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1267
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "forked",
+    "description": "All the missing SQLite functions",
+    "fork": true,
+    "full_name": "mindreframer/sqlean",
+    "html_url": "https://github.com/mindreframer/sqlean",
+    "language": "C",
+    "pushed_at": "2021-10-16T10:46:38Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-10-16T10:46:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nalgeon/sqlite.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    }
+  ]
+}

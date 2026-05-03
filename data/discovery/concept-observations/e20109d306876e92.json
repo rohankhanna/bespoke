@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pitch-shift audio clips quickly with PyTorch (CUDA supported)! Additional utilities for searching efficient transformations are included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "torch>=1.7.0 torchaudio>=0.7.0 primePy>=1.3 packaging>=21.3"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "torch>=1.7.0 torchaudio>=0.7.0 primePy>=1.3 packaging>=21.3"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "torchaudio",
+      "sense_id": "torchaudio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "torchaudio",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "torchaudio",
+  "observation_id": "e20109d306876e92",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "torchaudio",
+  "source_context_snippet": "torch>=1.7.0 torchaudio>=0.7.0 primePy>=1.3 packaging>=21.3",
+  "source_file": null,
+  "source_repo": "KentoNishi/torch-pitch-shift",
+  "source_repo_description": "Pitch-shift audio clips quickly with PyTorch (CUDA supported)! Additional utilities for searching efficient transformations are included."
+}

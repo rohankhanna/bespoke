@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -4992,6 +4992,296 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/json-smart-unit-tests.yml",
       "source_repo": "netplex/json-smart-v2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "osrf/homebrew-simulation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kreeti/kt-paperclip"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "reduxjs/redux-thunk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gfredericks/test.chuck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-ci.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-ci.yml",
+      "source_repo": "microsoft/aitour26-WRK540-unlock-your-agents-potential-with-model-context-protocol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depcheck.yml",
+      "source_repo": "microsoft/botbuilder-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/botbuilder-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-compat.yml",
+      "source_repo": "microsoft/botbuilder-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-consumer.yml",
+      "source_repo": "microsoft/botbuilder-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-repoutils.yml",
+      "source_repo": "microsoft/botbuilder-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-schemas.yml",
+      "source_repo": "microsoft/botbuilder-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SteffenDE/makeup_syntect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "hkulekci/qdrant-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/onnxruntime-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "librosa/librosa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-ci.yml",
+      "source_repo": "librosa/librosa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "librosa/librosa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "librosa/librosa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "kpcyrd/rebuilderd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "kpcyrd/rebuilderd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-oobabooga.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-tensorcores.yml",
+      "source_repo": "oobabooga/llama-cpp-python-cuBLAS-wheels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "featherbread/hypcast"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-image.yml",
+      "source_repo": "featherbread/hypcast"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nalimilan/FreqTables.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clj-tests.yml",
+      "source_repo": "taoensso/telemere"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cljs-tests.yml",
+      "source_repo": "taoensso/telemere"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graal-tests.yml",
+      "source_repo": "taoensso/telemere"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-desktop-release.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ios-release.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "reagent-project/reagent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "intlify/vue-i18n-extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bootstrap.yml",
+      "source_repo": "stable-haskell/cabal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "stable-haskell/stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stan.yml",
+      "source_repo": "stable-haskell/stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "stable-haskell/stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ValdikSS/GoodbyeDPI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenkaiGB"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwWenkaiTC"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "tvogels/pyexr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "tvogels/pyexr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml",
+      "source_repo": "fnando/i18n-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml_",
+      "source_repo": "MSP-Greg/ruby-loco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allenai/cached_path"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Nozbe/WatermelonDB"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly.yml",
+      "source_repo": "godot-rust/godot4-prebuilt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "firebase/snippets-web"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "tris203/precognition.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format_tests.yml",
+      "source_repo": "tris203/precognition.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smoke-test.yml",
+      "source_repo": "bnb-chain/reth-bsc-triedb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bnb-chain/reth-bsc-triedb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yaml",
+      "source_repo": "duckdb/pg_duckdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pgcentralfoundation/pgrx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MaterializeInc/rust-postgres"
     }
   ]
 }

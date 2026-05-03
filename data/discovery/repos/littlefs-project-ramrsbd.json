@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "littlefs-project/ramrsbd",
+      "target": "geky/ramcrc32bd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/ramrsbd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "littlefs-project/ramrsbd",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "littlefs-project/ramrsbd",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "littlefs-project/ramrsbd",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "littlefs-project/ramrsbd",
+      "target": "microcontroller",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:05:30.713619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 71023
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 755
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An example of a Reed-Solomon based error-correcting block device backed by RAM",
+    "fork": false,
+    "full_name": "littlefs-project/ramrsbd",
+    "html_url": "https://github.com/littlefs-project/ramrsbd",
+    "language": "C",
+    "pushed_at": "2024-10-31T19:37:21Z",
+    "stargazers_count": 10,
+    "topics": [
+      "embedded",
+      "filesystem",
+      "microcontroller"
+    ],
+    "updated_at": "2025-12-25T09:27:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geky/ramcrc32bd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "An example of a Reed-Solomon based error-correcting block device backed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "An example of a Reed-Solomon based error-correcting block device backed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "An example of a Reed-Solomon based error-correcting block device backed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microcontroller"
+    }
+  ]
+}

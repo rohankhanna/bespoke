@@ -95,27 +95,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "viser-project/viser",
-      "target": "pmndrs/react-three-fiber",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "viser-project/viser",
-      "target": "pmndrs/drei",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "viser-project/viser",
-      "target": "pmndrs/zustand",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "viser-project/viser",
@@ -291,7 +270,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T01:09:45.113039+00:00",
+  "fetched_at": "2026-05-03T00:54:19.334434+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -343,31 +322,16 @@
     "full_name": "viser-project/viser",
     "html_url": "https://github.com/viser-project/viser",
     "language": "Python",
-    "pushed_at": "2026-04-30T19:22:41Z",
-    "stargazers_count": 2529,
+    "pushed_at": "2026-05-02T00:29:25Z",
+    "stargazers_count": 2531,
     "topics": [
       "python",
       "visualization",
       "web"
     ],
-    "updated_at": "2026-04-30T22:41:06Z"
+    "updated_at": "2026-05-02T00:25:12Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pmndrs/drei",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pmndrs/react-three-fiber",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pmndrs/zustand",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "rdeits/meshcat",

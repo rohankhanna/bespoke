@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/integration-tests.yaml",
       "source_repo": "hashicorp/vault-plugin-auth-kerberos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog-checker.yml",
+      "source_repo": "hashicorp/terraform-provider-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "hashicorp/terraform-provider-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hc-copywrite.yml",
+      "source_repo": "hashicorp/terraform-provider-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "hashicorp/terraform-provider-helm"
     }
   ]
 }

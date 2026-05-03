@@ -1,0 +1,629 @@
+{
+  "components": [
+    {
+      "component": "xt0rted/slash-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "arduino/setup-protoc@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "gsactions/commit-message-checker@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-llvm-cov",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim-analysis.yml"
+    },
+    {
+      "component": "microsoft/DevSkim-Action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gtp-translate.yml"
+    },
+    {
+      "component": "drmingdrmer/gpt-refine-md@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gtp-translate.yml"
+    },
+    {
+      "component": "xt0rted/slash-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-cmds.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-assignees@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-cmds.yml"
+    },
+    {
+      "component": "xt0rted/slash-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-cmds.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-cmds.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "databendlabs/openraft",
+      "target": "cnosdb/cnosdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "databendlabs/openraft",
+      "target": "raymondshe/matchengine-raft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "databendlabs/openraft",
+      "target": "helyim/helyim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "databendlabs/openraft",
+      "target": "robustmq/robustmq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "databendlabs/openraft",
+      "target": "xt0rted/slash-command-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions/github-script@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chaos.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chaos.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "chaos-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "databendlabs/openraft",
+      "target": "arduino/setup-protoc@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "gsactions/commit-message-checker@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "commit-message-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "taiki-e/install-action@cargo-llvm-cov",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "coverallsapp/github-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "Unit test coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim-analysis.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim-analysis.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "microsoft/DevSkim-Action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim-analysis.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "github/codeql-action/upload-sarif@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devskim-analysis.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "DevSkim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gtp-translate.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gtp-translate.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "drmingdrmer/gpt-refine-md@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-cmds.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "xt0rted/slash-command-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-cmds.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "actions-ecosystem/action-add-assignees@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-cmds.yml",
+      "source_repo": "databendlabs/openraft",
+      "target": "peter-evans/create-or-update-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "databendlabs/openraft",
+      "target": "consensus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "databendlabs/openraft",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "databendlabs/openraft",
+      "target": "raft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:08:05.225944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13695
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3123
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 3072
+    },
+    {
+      "path": ".github/workflows/chaos.yml",
+      "size": 1212
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 13525
+    },
+    {
+      "path": ".github/workflows/commit-message-check.yml",
+      "size": 2503
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/devskim-analysis.yml",
+      "size": 805
+    },
+    {
+      "path": ".github/workflows/gtp-translate.yml",
+      "size": 445
+    },
+    {
+      "path": ".github/workflows/issue-cmds.yml",
+      "size": 1181
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "rust raft with improvements",
+    "fork": false,
+    "full_name": "databendlabs/openraft",
+    "html_url": "https://github.com/databendlabs/openraft",
+    "language": "Rust",
+    "pushed_at": "2026-05-03T00:10:00Z",
+    "stargazers_count": 1895,
+    "topics": [
+      "consensus",
+      "distributed-systems",
+      "raft"
+    ],
+    "updated_at": "2026-05-01T07:23:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cnosdb/cnosdb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helyim/helyim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raymondshe/matchengine-raft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robustmq/robustmq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "chaos-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chaos.yml",
+      "term": "chaos-test"
+    },
+    {
+      "context_snippet": "'commit-message-check'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "term": "commit-message-check"
+    },
+    {
+      "context_snippet": "Unit test coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Unit test coverage"
+    },
+    {
+      "context_snippet": "DevSkim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devskim-analysis.yml",
+      "term": "DevSkim"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consensus"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raft"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hhj1897/face_alignment",
+      "target": "hhj1897/fan_training",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hhj1897/face_alignment",
+      "target": "hhj1897/face_detection",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:44:03.067986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3027
+    },
+    {
+      "path": "requirements.txt",
+      "size": 49
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "hhj1897/face_alignment",
+    "html_url": "https://github.com/hhj1897/face_alignment",
+    "language": "Python",
+    "pushed_at": "2023-10-10T12:26:30Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2025-09-25T01:40:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hhj1897/face_detection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hhj1897/fan_training",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

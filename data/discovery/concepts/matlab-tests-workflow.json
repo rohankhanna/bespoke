@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "MATLAB Tests Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate-context",
+      "text": "Multibody Dynamics Library designed for Free Floating Robots "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate-context",
+      "text": "MATLAB Tests Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate",
+      "text": "MATLAB Tests Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "activity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "cryptography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23064,
+      "status": "candidate",
+      "text": "methods"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15054,
+      "status": "candidate",
+      "text": "correlation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "MATLAB Tests Workflow",
+  "concept_id": "matlab-tests-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/matlab.yml",
+      "source_repo": "gbionics/idyntree"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MATLAB Tests Workflow",
+      "sense_id": "matlab-tests-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

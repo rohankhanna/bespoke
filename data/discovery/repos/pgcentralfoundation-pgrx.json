@@ -1,0 +1,362 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-test.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runas.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runas.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/will-it-blend-develop.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/will-it-blend-develop.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "maulingmonkey/cargo-local-install",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-test.yaml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-test.yaml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-test.yaml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "verify package can build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runas.yml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runas.yml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runas.yml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "cargo pgrx test --runas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "Run PGRX tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/will-it-blend-develop.yml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/will-it-blend-develop.yml",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "Will It Blend\u2122",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "postgresql-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgcentralfoundation/pgrx",
+      "target": "rustlang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:08:25.349790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20684
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3085
+    },
+    {
+      "path": ".github/workflows/package-test.yaml",
+      "size": 3734
+    },
+    {
+      "path": ".github/workflows/runas.yml",
+      "size": 3444
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 25655
+    },
+    {
+      "path": ".github/workflows/will-it-blend-develop.yml",
+      "size": 2503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Build Postgres Extensions with Rust!",
+    "fork": false,
+    "full_name": "pgcentralfoundation/pgrx",
+    "html_url": "https://github.com/pgcentralfoundation/pgrx",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T12:22:16Z",
+    "stargazers_count": 4655,
+    "topics": [
+      "postgres",
+      "postgresql",
+      "postgresql-extension",
+      "rust",
+      "rustlang"
+    ],
+    "updated_at": "2026-05-02T17:47:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maulingmonkey/cargo-local-install",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "verify package can build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-test.yaml",
+      "term": "verify package can build"
+    },
+    {
+      "context_snippet": "cargo pgrx test --runas",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runas.yml",
+      "term": "cargo pgrx test --runas"
+    },
+    {
+      "context_snippet": "Run PGRX tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run PGRX tests"
+    },
+    {
+      "context_snippet": "Will It Blend\u2122",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/will-it-blend-develop.yml",
+      "term": "Will It Blend\u2122"
+    },
+    {
+      "context_snippet": "![Logo](art/pgrx-logo-color-transparent-475x518.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres"
+    },
+    {
+      "context_snippet": "![Logo](art/pgrx-logo-color-transparent-475x518.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "![Logo](art/pgrx-logo-color-transparent-475x518.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql-extension"
+    },
+    {
+      "context_snippet": "![Logo](art/pgrx-logo-color-transparent-475x518.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "![Logo](art/pgrx-logo-color-transparent-475x518.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rustlang"
+    }
+  ]
+}

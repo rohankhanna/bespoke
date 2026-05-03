@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-check.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-internal-and-public.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-internal-and-public.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-check.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-check.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "Changelog Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-internal-and-public.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-internal-and-public.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "Sync Internal and Public Repos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "actions/setup-go@44694675825211faa026b3c33043df3e48a5fa00",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:57:33.160570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6398
+    },
+    {
+      "path": "go.mod",
+      "size": 2473
+    },
+    {
+      "path": ".github/workflows/changelog-check.yml",
+      "size": 2225
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 4111
+    },
+    {
+      "path": ".github/workflows/sync-internal-and-public.yml",
+      "size": 2979
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 957
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go SDK for HCP API.",
+    "fork": false,
+    "full_name": "hashicorp/hcp-sdk-go",
+    "html_url": "https://github.com/hashicorp/hcp-sdk-go",
+    "language": "Go",
+    "pushed_at": "2026-04-15T08:45:18Z",
+    "stargazers_count": 16,
+    "topics": [
+      "golang"
+    ],
+    "updated_at": "2026-04-15T08:45:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Changelog Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-check.yml",
+      "term": "Changelog Check"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "Sync Internal and Public Repos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-internal-and-public.yml",
+      "term": "Sync Internal and Public Repos"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "This SDK provides versioned Go packages for using HashiCorp Cloud Platform services. This is a *preview* version and may undergo breaking changes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

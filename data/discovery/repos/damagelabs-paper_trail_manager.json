@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DamageLabs/paper_trail_manager",
+      "target": "mislav/will_paginate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DamageLabs/paper_trail_manager",
+      "target": "kaminari/kaminari",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DamageLabs/paper_trail_manager",
+      "target": "thoughtbot/appraisal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "DamageLabs/paper_trail_manager",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "DamageLabs/paper_trail_manager",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "DamageLabs/paper_trail_manager",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:03.638586+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5382
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Browse, subscribe, view and revert changes to records when using Ruby on Rails 3 and the `paper_trail` gem.",
+    "fork": false,
+    "full_name": "DamageLabs/paper_trail_manager",
+    "html_url": "https://github.com/DamageLabs/paper_trail_manager",
+    "language": "Ruby",
+    "pushed_at": "2026-03-18T19:08:48Z",
+    "stargazers_count": 64,
+    "topics": [],
+    "updated_at": "2026-03-18T19:08:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaminari/kaminari",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mislav/will_paginate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thoughtbot/appraisal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    }
+  ]
+}

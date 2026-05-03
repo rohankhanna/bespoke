@@ -1090,6 +1090,42 @@
       "source_repo": "netplex/json-smart-v2",
       "status": "candidate-context",
       "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlueBrain/HighFive",
+      "status": "candidate-context",
+      "text": "HighFive - Header-only C++ HDF5 interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlueBrain/HighFive",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Cross platform code coverage for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/ice",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 ice.js: The Progressive App Framework Based On React\uff08\u57fa\u4e8e React \u7684\u6e10\u8fdb\u5f0f\u5e94\u7528\u6846\u67b6\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ice",
+      "status": "candidate-context",
+      "text": "Coverage"
     }
   ],
   "candidate_glosses": [
@@ -1636,6 +1672,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "netplex/json-smart-v2",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlueBrain/HighFive",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/tonerdo/coverlet/_apis/build/status/coverlet-coverage.coverlet?branchName=master)](https://dev.azure.com/tonerdo/coverlet/_build/latest?definitionId=5&branchName=master) ![Code%20Coverage](https://img.shields.io/azure-devops/coverage/tonerd\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ice",
       "status": "candidate",
       "text": "Coverage"
     }
@@ -2489,11 +2543,65 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "netplex/json-smart-v2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "BlueBrain/HighFive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "alibaba/ice"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

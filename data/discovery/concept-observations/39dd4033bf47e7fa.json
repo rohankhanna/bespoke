@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HighFive - Header-only C++ HDF5 interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto-update doxygen-awesome"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto-update doxygen-awesome"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-update doxygen-awesome",
+      "sense_id": "auto-update-doxygen-awesome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-update-doxygen-awesome",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-update-doxygen-awesome",
+  "observation_id": "39dd4033bf47e7fa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Auto-update doxygen-awesome",
+  "source_context_snippet": "Auto-update doxygen-awesome",
+  "source_file": ".github/workflows/check_doxygen_awesome_version.yml",
+  "source_repo": "BlueBrain/HighFive",
+  "source_repo_description": "HighFive - Header-only C++ HDF5 interface"
+}

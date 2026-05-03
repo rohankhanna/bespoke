@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "avsm/setup-ocaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "avsm/setup-ocaml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4.11.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "logseq/mldoc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "logseq/mldoc",
+      "target": "avsm/setup-ocaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "logseq/mldoc",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "logseq/mldoc",
+      "target": "avsm/setup-ocaml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "logseq/mldoc",
+      "target": "stefanzweifel/git-auto-commit-action@v4.11.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "logseq/mldoc",
+      "target": "Format",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:52:57.866542+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 881
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Another Emacs Org-mode and Markdown parser.",
+    "fork": false,
+    "full_name": "logseq/mldoc",
+    "html_url": "https://github.com/logseq/mldoc",
+    "language": "OCaml",
+    "pushed_at": "2024-08-03T07:16:35Z",
+    "stargazers_count": 274,
+    "topics": [],
+    "updated_at": "2026-04-26T16:57:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Format"
+    }
+  ]
+}

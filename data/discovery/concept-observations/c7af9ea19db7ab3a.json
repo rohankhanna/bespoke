@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922226,
+      "status": "candidate",
+      "text": "l10n"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922225,
+      "status": "candidate",
+      "text": "transl."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922224,
+      "status": "candidate",
+      "text": "int'l"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922223,
+      "status": "candidate",
+      "text": "a11y"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922222,
+      "status": "candidate",
+      "text": "trans."
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "i18n",
+      "sense_id": "i18n#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "i18n",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "i18n",
+  "observation_id": "c7af9ea19db7ab3a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "i18n",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "PanJiaChen/vue-element-admin",
+  "source_repo_description": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin"
+}

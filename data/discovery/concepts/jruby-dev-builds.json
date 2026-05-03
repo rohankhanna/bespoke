@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "JRuby Dev Builds"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/jruby-dev-builder",
+      "status": "candidate-context",
+      "text": "JRuby Dev Builds for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/jruby-dev-builder",
+      "status": "candidate-context",
+      "text": "JRuby Dev Builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/jruby-dev-builder",
+      "status": "candidate",
+      "text": "JRuby Dev Builds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12605,
+      "status": "candidate",
+      "text": "accelerator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12605,
+      "status": "candidate",
+      "text": "androgen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12605,
+      "status": "candidate",
+      "text": "bacterial plaque"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12605,
+      "status": "candidate",
+      "text": "banked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12605,
+      "status": "candidate",
+      "text": "breeding"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "JRuby Dev Builds",
+  "concept_id": "jruby-dev-builds",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/jruby-dev-builder"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "JRuby Dev Builds",
+      "sense_id": "jruby-dev-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

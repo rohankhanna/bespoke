@@ -1,7 +1,7 @@
 {
   "discovered_via": "github-hosted-files",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -78,6 +78,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/nix.yml",
       "source_repo": "ocamllabs/vscode-ocaml-platform"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "stable-haskell/haskell-language-server"
     }
   ],
   "term": "Nix"

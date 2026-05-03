@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate SDUI fixtures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgnosticUI/agnosticui",
+      "status": "candidate-context",
+      "text": "AgnosticUI Local (v2) is a CLI-based UI component library that copies components directly into your project. Works with AI tools, agent-driven UIs, and prompt-ready workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnosticUI/agnosticui",
+      "status": "candidate-context",
+      "text": "Validate SDUI fixtures"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgnosticUI/agnosticui",
+      "status": "candidate",
+      "text": "Validate SDUI fixtures"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10513,
+      "status": "candidate",
+      "text": "admit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10513,
+      "status": "candidate",
+      "text": "amp"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate SDUI fixtures",
+  "concept_id": "validate-sdui-fixtures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/validate-fixtures.yml",
+      "source_repo": "AgnosticUI/agnosticui"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate SDUI fixtures",
+      "sense_id": "validate-sdui-fixtures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

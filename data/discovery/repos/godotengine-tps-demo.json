@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml",
+      "source_repo": "godotengine/tps-demo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_checks.yml",
+      "source_repo": "godotengine/tps-demo",
+      "target": "Static Checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:55:13.869041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2750
+    },
+    {
+      "path": ".github/workflows/static_checks.yml",
+      "size": 437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Godot Third Person Shooter with high quality assets and lighting",
+    "fork": false,
+    "full_name": "godotengine/tps-demo",
+    "html_url": "https://github.com/godotengine/tps-demo",
+    "language": "GDScript",
+    "pushed_at": "2026-04-28T22:58:45Z",
+    "stargazers_count": 1291,
+    "topics": [],
+    "updated_at": "2026-05-03T01:39:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Static Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_checks.yml",
+      "term": "Static Checks"
+    }
+  ]
+}

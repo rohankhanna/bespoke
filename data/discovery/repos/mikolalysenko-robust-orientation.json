@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "robust-scale",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "robust-sum",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "two-product",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "robust-subtract",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mikolalysenko/robust-orientation",
+      "target": "robust-scale",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mikolalysenko/robust-orientation",
+      "target": "robust-sum",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mikolalysenko/robust-orientation",
+      "target": "two-product",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mikolalysenko/robust-orientation",
+      "target": "robust-subtract",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mikolalysenko/robust-orientation",
+      "target": "tape",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:51:52.713489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1843
+    },
+    {
+      "path": "package.json",
+      "size": 1152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Robustly computes the orientation of a tuple of points",
+    "fork": false,
+    "full_name": "mikolalysenko/robust-orientation",
+    "html_url": "https://github.com/mikolalysenko/robust-orientation",
+    "language": "JavaScript",
+    "pushed_at": "2021-08-04T23:20:06Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-01-15T12:19:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

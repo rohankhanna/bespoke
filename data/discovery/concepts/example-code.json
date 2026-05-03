@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "example-code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jherico/VulkanExamples",
+      "status": "candidate-context",
+      "text": "Examples and demos for the Vulkan C++ API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jherico/VulkanExamples",
+      "status": "candidate-context",
+      "text": "<img src=\"./documentation/images/vulkanlogoscene.png\" alt=\"Vulkan demo scene\" height=\"256px\"><img src=\"./documentation/images/c_0.jpg\" alt=\"C++\" height=\"256px\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jherico/VulkanExamples",
+      "status": "candidate",
+      "text": "<img src=\"./documentation/images/vulkanlogoscene.png\" alt=\"Vulkan demo scene\" height=\"256px\"><img src=\"./documentation/images/c_0.jpg\" alt=\"C++\" height=\"256px\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "example-code",
+  "concept_id": "example-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jherico/VulkanExamples"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "example-code",
+      "sense_id": "example-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

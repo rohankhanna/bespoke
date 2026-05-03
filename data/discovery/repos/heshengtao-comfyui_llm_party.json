@@ -1,0 +1,317 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "heshengtao/let-llm-party",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "heshengtao/super-agent-party",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "dify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "gguf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "gpt-sovits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "graphrag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "janus-pro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "omost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "target": "workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:19.271212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19329
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2063
+    },
+    {
+      "path": "requirements.txt",
+      "size": 826
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 663
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfaces, such as o1,ollama, gemini, grok, qwen, GLM, deepseek, kimi,doubao. Adapted to local llms, vlm, gguf such as llama-3.3 Janus-Pro, Linkage graphRAG",
+    "fork": false,
+    "full_name": "heshengtao/comfyui_LLM_party",
+    "html_url": "https://github.com/heshengtao/comfyui_LLM_party",
+    "language": "Python",
+    "pushed_at": "2026-03-08T17:40:45Z",
+    "stargazers_count": 2212,
+    "topics": [
+      "agent",
+      "comfyui",
+      "dify",
+      "flux",
+      "gemini",
+      "gguf",
+      "gpt-sovits",
+      "graphrag",
+      "janus-pro",
+      "linux",
+      "llama",
+      "mcp",
+      "o1",
+      "ocr",
+      "ollama",
+      "omost",
+      "openai",
+      "vlm",
+      "workflow"
+    ],
+    "updated_at": "2026-05-02T14:50:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heshengtao/let-llm-party",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heshengtao/super-agent-party",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to Comfy registry"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dify"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gguf"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-sovits"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphrag"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "janus-pro"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "omost"
+    },
+    {
+      "context_snippet": "![\u56fe\u7247](img/\u5c01\u9762.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow"
+    }
+  ]
+}

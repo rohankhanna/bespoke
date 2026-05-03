@@ -1,0 +1,151 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "target": "mgmeyers/obsidian-style-settings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "target": "aaaaalexis/obsidian-pseudo-mica",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "target": "damiankorcz/alternative-checkboxes-reference-set",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "target": "light-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "target": "obsidian-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:57:29.350508+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9074
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A native look and feel Obsidian theme crafted for the way you think.",
+    "fork": false,
+    "full_name": "aaaaalexis/obsidian-cupertino",
+    "html_url": "https://github.com/aaaaalexis/obsidian-cupertino",
+    "language": "SCSS",
+    "pushed_at": "2026-03-29T05:30:11Z",
+    "stargazers_count": 1032,
+    "topics": [
+      "dark-theme",
+      "light-theme",
+      "obsidian",
+      "obsidian-md",
+      "obsidian-theme",
+      "theme"
+    ],
+    "updated_at": "2026-05-02T18:24:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaaaalexis/obsidian-pseudo-mica",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damiankorcz/alternative-checkboxes-reference-set",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgmeyers/obsidian-style-settings",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dark-theme"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light-theme"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-theme"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

@@ -334,7 +334,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:41:04.643088+00:00",
+  "fetched_at": "2026-05-03T03:59:31.414843+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -359,13 +359,13 @@
     "html_url": "https://github.com/jonaskello/tsconfig-paths",
     "language": "TypeScript",
     "pushed_at": "2026-02-23T07:34:11Z",
-    "stargazers_count": 1903,
+    "stargazers_count": 1902,
     "topics": [
       "tsconfig",
       "tsconfig-paths",
       "typescript"
     ],
-    "updated_at": "2026-04-27T19:34:03Z"
+    "updated_at": "2026-05-01T23:05:54Z"
   },
   "repo_links": [],
   "terms": [

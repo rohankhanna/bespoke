@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vale-cli/packages",
+      "target": "errata-ai/microsoft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vale-cli/packages",
+      "target": "errata-ai/google",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vale-cli/packages",
+      "target": "errata-ai/joblint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vale-cli/packages",
+      "target": "errata-ai/alex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vale-cli/packages",
+      "target": "vale",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:01.309192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":package: A collection of pre-packaged, Vale-compatible style guides and configurations.",
+    "fork": false,
+    "full_name": "vale-cli/packages",
+    "html_url": "https://github.com/vale-cli/packages",
+    "language": "Python",
+    "pushed_at": "2025-10-23T12:01:45Z",
+    "stargazers_count": 118,
+    "topics": [
+      "vale"
+    ],
+    "updated_at": "2026-04-15T06:23:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "errata-ai/alex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "errata-ai/google",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "errata-ai/joblint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "errata-ai/microsoft",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains a library of all officially supported styles for Vale. The benefits of using these styles over their original implementations include:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vale"
+    }
+  ]
+}

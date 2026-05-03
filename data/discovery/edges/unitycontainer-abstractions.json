@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "unitycontainer/abstractions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "unitycontainer/abstractions",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "unitycontainer/abstractions",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "unitycontainer/abstractions",
+      "target": "nuget/setup-nuget@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "unitycontainer/abstractions",
+      "target": "Regression Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "unitycontainer/abstractions"
+}

@@ -1,0 +1,224 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml"
+    },
+    {
+      "component": "azure/docker-login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "target": "onqtam/doctest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml",
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml",
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "target": "azure/docker-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml",
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "target": "Build Docker Images for CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "target": "jwlawson/actions-setup-cmake@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "target": "co-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "target": "coupling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KratosMultiphysics/CoSimIO",
+      "target": "multi-physics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:20.497345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4512
+    },
+    {
+      "path": ".github/workflows/build_docker_images_for_ci.yml",
+      "size": 1148
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 11967
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small standalone tool for interprocess communication in CoSimulation contexts for coupling and exchanging data between different solvers or other software-tools.",
+    "fork": false,
+    "full_name": "KratosMultiphysics/CoSimIO",
+    "html_url": "https://github.com/KratosMultiphysics/CoSimIO",
+    "language": "C++",
+    "pushed_at": "2025-10-29T15:00:55Z",
+    "stargazers_count": 20,
+    "topics": [
+      "co-simulation",
+      "coupling",
+      "multi-physics"
+    ],
+    "updated_at": "2026-04-24T00:41:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "onqtam/doctest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docker Images for CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_images_for_ci.yml",
+      "term": "Build Docker Images for CI"
+    },
+    {
+      "context_snippet": "~~~",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "co-simulation"
+    },
+    {
+      "context_snippet": "~~~",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coupling"
+    },
+    {
+      "context_snippet": "~~~",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-physics"
+    }
+  ]
+}

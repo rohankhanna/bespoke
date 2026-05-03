@@ -8,20 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "observablehq/stdlib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "mathjax/mathjax-src",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/Bundle.yml",
       "source_repo": "JuliaPluto/Pluto.jl",
@@ -302,6 +288,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T18:29:39.500037+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "JuliaPluto/Pluto.jl"
 }

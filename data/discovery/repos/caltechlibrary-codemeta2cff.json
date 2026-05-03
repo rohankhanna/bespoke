@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff-validator.yaml"
+    },
+    {
+      "component": "dieghernan/cff-validator@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff-validator.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml"
+    },
+    {
+      "component": "caltechlibrary/codemeta2cff@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml"
+    },
+    {
+      "component": "caltechlibrary/iga@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iga.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iga.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iga.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iga.yml"
+    },
+    {
+      "component": "caltechlibrary/codemeta2cff@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iga.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iga.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "caltechlibrary/datatools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff-validator.yaml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cff-validator.yaml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "dieghernan/cff-validator@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cff-validator.yaml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "CFF Validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "caltechlibrary/codemeta2cff@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "CodeMeta2CFF",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iga.yml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "caltechlibrary/iga@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iga.yml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iga.yml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "EndBug/add-and-commit@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/iga.yml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "caltechlibrary/codemeta2cff@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/iga.yml",
+      "source_repo": "caltechlibrary/codemeta2cff",
+      "target": "InvenioRDM GitHub Archiver",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:59.007687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3100
+    },
+    {
+      "path": ".github/workflows/cff-validator.yaml",
+      "size": 839
+    },
+    {
+      "path": ".github/workflows/codemeta2cff.yml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/iga.yml",
+      "size": 3638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GitHub Action converting a codemeta file to CITATION.cff",
+    "fork": false,
+    "full_name": "caltechlibrary/codemeta2cff",
+    "html_url": "https://github.com/caltechlibrary/codemeta2cff",
+    "language": null,
+    "pushed_at": "2025-04-25T23:36:58Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-01-15T19:44:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caltechlibrary/datatools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CFF Validator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cff-validator.yaml",
+      "term": "CFF Validator"
+    },
+    {
+      "context_snippet": "CodeMeta2CFF",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codemeta2cff.yml",
+      "term": "CodeMeta2CFF"
+    },
+    {
+      "context_snippet": "InvenioRDM GitHub Archiver",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/iga.yml",
+      "term": "InvenioRDM GitHub Archiver"
+    }
+  ]
+}

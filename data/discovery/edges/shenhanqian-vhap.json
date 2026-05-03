@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/VHAP",
+      "target": "shenhanqian/nvdiffrast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/VHAP",
+      "target": "shenhanqian/star",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ShenhanQian/VHAP",
+      "target": "shenhanqian/nvdiffrast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ShenhanQian/VHAP",
+      "target": "shenhanqian/backgroundmattingv2",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "ShenhanQian/VHAP"
+}

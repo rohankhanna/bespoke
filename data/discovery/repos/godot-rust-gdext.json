@@ -1,0 +1,369 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@v0.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@v0.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "godot-rust/gdext",
+      "target": "godot-rust/godot4-prebuilt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "apache/skywalking-eyes/header@v0.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-ci.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "Full CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "apache/skywalking-eyes/header@v0.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimal-ci.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "Minimal CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "Release workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "peter-evans/repository-dispatch@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "godot-rust/gdext",
+      "target": "Compile + Sync Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext",
+      "target": "godot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:04:31.183511+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 2216
+    },
+    {
+      "path": ".github/workflows/full-ci.yml",
+      "size": 22604
+    },
+    {
+      "path": ".github/workflows/minimal-ci.yml",
+      "size": 12753
+    },
+    {
+      "path": ".github/workflows/release-version.yml",
+      "size": 9033
+    },
+    {
+      "path": ".github/workflows/update-docs.yml",
+      "size": 4879
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust bindings for Godot 4",
+    "fork": false,
+    "full_name": "godot-rust/gdext",
+    "html_url": "https://github.com/godot-rust/gdext",
+    "language": "Rust",
+    "pushed_at": "2026-05-02T20:20:59Z",
+    "stargazers_count": 4734,
+    "topics": [
+      "game-development",
+      "gamedev",
+      "godot",
+      "rust"
+    ],
+    "updated_at": "2026-05-02T23:56:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "godot-rust/godot4-prebuilt",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Full CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-ci.yml",
+      "term": "Full CI"
+    },
+    {
+      "context_snippet": "Minimal CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimal-ci.yml",
+      "term": "Minimal CI"
+    },
+    {
+      "context_snippet": "\"Release workflow\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-version.yml",
+      "term": "Release workflow"
+    },
+    {
+      "context_snippet": "Compile + Sync Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yml",
+      "term": "Compile + Sync Docs"
+    },
+    {
+      "context_snippet": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot"
+    },
+    {
+      "context_snippet": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

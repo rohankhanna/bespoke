@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:57:40.231936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python Wrapper for Embree",
+    "fork": false,
+    "full_name": "scopatz/pyembree",
+    "html_url": "https://github.com/scopatz/pyembree",
+    "language": "Python",
+    "pushed_at": "2023-09-15T15:41:58Z",
+    "stargazers_count": 96,
+    "topics": [],
+    "updated_at": "2026-03-24T07:13:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

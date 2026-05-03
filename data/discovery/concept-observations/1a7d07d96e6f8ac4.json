@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A minimalistic ClojureScript interface to React.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036745,
+      "status": "candidate",
+      "text": "reactant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962787,
+      "status": "candidate",
+      "text": "carton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29929413,
+      "status": "candidate",
+      "text": "cartridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29837446,
+      "status": "candidate",
+      "text": "agile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29824700,
+      "status": "candidate",
+      "text": "reactive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reagent",
+      "sense_id": "reagent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reagent",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reagent",
+  "observation_id": "1a7d07d96e6f8ac4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "reagent",
+  "source_context_snippet": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">",
+  "source_file": null,
+  "source_repo": "reagent-project/reagent",
+  "source_repo_description": "A minimalistic ClojureScript interface to React.js"
+}

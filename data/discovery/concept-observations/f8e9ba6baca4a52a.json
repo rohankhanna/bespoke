@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Helm chart for Lakekeeper - a Rust Native Iceberg REST Catalog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lint and Test Charts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lint and Test Charts"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20930,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20116,
+      "status": "candidate",
+      "text": "dummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20095,
+      "status": "candidate",
+      "text": "bag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20095,
+      "status": "candidate",
+      "text": "hurl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20095,
+      "status": "candidate",
+      "text": "lick"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint and Test Charts",
+      "sense_id": "lint-and-test-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lint-and-test-charts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lint-and-test-charts",
+  "observation_id": "f8e9ba6baca4a52a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Lint and Test Charts",
+  "source_context_snippet": "Lint and Test Charts",
+  "source_file": ".github/workflows/lint-and-test.yaml",
+  "source_repo": "lakekeeper/lakekeeper-charts",
+  "source_repo_description": "Helm chart for Lakekeeper - a Rust Native Iceberg REST Catalog"
+}

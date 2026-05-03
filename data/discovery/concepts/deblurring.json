@@ -43,6 +43,18 @@
       "source_repo": "JingyunLiang/VRT",
       "status": "candidate-context",
       "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yuchen Fan](https://ychfan.github.io/), [Kai Zhang](https://cszn.github.io/), Rakesh Ranjan, [Yawei Li](https://ofsoundof.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofte\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Algolzw/image-restoration-sde",
+      "status": "candidate-context",
+      "text": "Image Restoration with Mean-Reverting Stochastic Differential Equations, ICML 2023. Winning solution of the NTIRE 2023 Image Shadow Removal Challenge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Algolzw/image-restoration-sde",
+      "status": "candidate-context",
+      "text": "[Ziwei Luo](https://algolzw.github.io/),"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "JingyunLiang/VRT",
       "status": "candidate",
       "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yuchen Fan](https://ychfan.github.io/), [Kai Zhang](https://cszn.github.io/), Rakesh Ranjan, [Yawei Li](https://ofsoundof.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofte\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Algolzw/image-restoration-sde",
+      "status": "candidate",
+      "text": "[Ziwei Luo](https://algolzw.github.io/),"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "JingyunLiang/VRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

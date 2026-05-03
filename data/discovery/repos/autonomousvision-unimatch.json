@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/unimatch",
+      "target": "haofeixu/flow1d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/unimatch",
+      "target": "haofeixu/aanet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/unimatch",
+      "target": "correspondence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/unimatch",
+      "target": "cross-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/unimatch",
+      "target": "depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/unimatch",
+      "target": "matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/unimatch",
+      "target": "optical-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/unimatch",
+      "target": "stereo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/unimatch",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/unimatch",
+      "target": "unified-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:27.249877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[TPAMI'23] Unifying Flow, Stereo and Depth Estimation",
+    "fork": false,
+    "full_name": "autonomousvision/unimatch",
+    "html_url": "https://github.com/autonomousvision/unimatch",
+    "language": "Python",
+    "pushed_at": "2025-01-04T22:09:34Z",
+    "stargazers_count": 1366,
+    "topics": [
+      "correspondence",
+      "cross-attention",
+      "depth",
+      "matching",
+      "optical-flow",
+      "stereo",
+      "transformer",
+      "unified-model"
+    ],
+    "updated_at": "2026-04-30T04:13:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haofeixu/aanet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haofeixu/flow1d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "correspondence"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-attention"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matching"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unified-model"
+    }
+  ]
+}

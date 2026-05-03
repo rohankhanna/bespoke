@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/usbmuxd",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/usbmuxd",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/usbmuxd",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libimobiledevice/usbmuxd",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/usbmuxd",
+      "target": "daemon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/usbmuxd",
+      "target": "libimobiledevice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/usbmuxd",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libimobiledevice/usbmuxd",
+      "target": "usbmuxd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:41:35.283000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5068
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A socket daemon to multiplex connections from and to iOS devices",
+    "fork": false,
+    "full_name": "libimobiledevice/usbmuxd",
+    "html_url": "https://github.com/libimobiledevice/usbmuxd",
+    "language": "C",
+    "pushed_at": "2025-12-06T01:14:51Z",
+    "stargazers_count": 1700,
+    "topics": [
+      "c",
+      "daemon",
+      "ios",
+      "libimobiledevice",
+      "library",
+      "usb",
+      "usbmuxd"
+    ],
+    "updated_at": "2026-04-28T23:54:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "*A socket daemon to multiplex connections from and to iOS devices.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "daemon"
+    },
+    {
+      "context_snippet": "*A socket daemon to multiplex connections from and to iOS devices.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libimobiledevice"
+    },
+    {
+      "context_snippet": "*A socket daemon to multiplex connections from and to iOS devices.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "*A socket daemon to multiplex connections from and to iOS devices.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "usbmuxd"
+    }
+  ]
+}

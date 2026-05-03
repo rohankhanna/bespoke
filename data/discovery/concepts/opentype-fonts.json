@@ -43,6 +43,18 @@
       "source_repo": "twardoch/fonttools-opentype-feature-freezer",
       "status": "candidate-context",
       "text": "**OpenType Feature Freezer** is a powerful tool designed to make sophisticated typographic features, like small caps or old-style numerals, accessible by default in your fonts. This means you can use these features even in applications with limited or no OpenType support."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caryll/otfcc",
+      "status": "candidate-context",
+      "text": "Optimized OpenType builder and inspector."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caryll/otfcc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "twardoch/fonttools-opentype-feature-freezer",
       "status": "candidate",
       "text": "**OpenType Feature Freezer** is a powerful tool designed to make sophisticated typographic features, like small caps or old-style numerals, accessible by default in your fonts. This means you can use these features even in applications with limited or no OpenType support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caryll/otfcc",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "twardoch/fonttools-opentype-feature-freezer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "caryll/otfcc"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

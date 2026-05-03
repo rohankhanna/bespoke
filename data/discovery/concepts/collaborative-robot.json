@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "collaborative-robot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xArm-Developer/xArm-Python-SDK",
+      "status": "candidate-context",
+      "text": "Python SDK for UFACTORY robots, 850, xArm5/6/7, and Lite6."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xArm-Developer/xArm-Python-SDK",
+      "status": "candidate-context",
+      "text": "[![PyPI Downloads](https://static.pepy.tech/badge/xarm-python-sdk)](https://pepy.tech/projects/xarm-python-sdk)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xArm-Developer/xArm-Python-SDK",
+      "status": "candidate",
+      "text": "[![PyPI Downloads](https://static.pepy.tech/badge/xarm-python-sdk)](https://pepy.tech/projects/xarm-python-sdk)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "collaborative-robot",
+  "concept_id": "collaborative-robot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "xArm-Developer/xArm-Python-SDK"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "collaborative-robot",
+      "sense_id": "collaborative-robot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

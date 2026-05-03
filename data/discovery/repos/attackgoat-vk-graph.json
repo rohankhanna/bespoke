@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "attackgoat/screen-13",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "themaister/granite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "embarkstudios/kajiya",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "attackgoat/screen-13",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "github/codeql-action/upload-sarif@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "rust-clippy analyze",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "attackgoat/vk-graph",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph",
+      "target": "3d-game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:02.461938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5487
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2334
+    },
+    {
+      "path": ".github/workflows/rust-clippy.yml",
+      "size": 1614
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-performance Vulkan driver with automated resource management and execution",
+    "fork": false,
+    "full_name": "attackgoat/vk-graph",
+    "html_url": "https://github.com/attackgoat/vk-graph",
+    "language": "Rust",
+    "pushed_at": "2026-03-27T14:42:56Z",
+    "stargazers_count": 335,
+    "topics": [
+      "3d",
+      "3d-game-engine",
+      "game-development",
+      "game-engine",
+      "gamedev",
+      "rust",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-29T03:13:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "attackgoat/screen-13",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarkstudios/kajiya",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "themaister/granite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "attackgoat/screen-13",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "rust-clippy analyze",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-clippy.yml",
+      "term": "rust-clippy analyze"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-game-engine"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

@@ -31,6 +31,30 @@
       "source_repo": "ufoym/deepo",
       "status": "candidate-context",
       "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keras-team/keras-contrib",
+      "status": "candidate-context",
+      "text": "Keras community contributions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras-contrib",
+      "status": "candidate-context",
+      "text": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lasagne/Lasagne",
+      "status": "candidate-context",
+      "text": "Lightweight library to build and train neural networks in Theano"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lasagne/Lasagne",
+      "status": "candidate-context",
+      "text": ".. image:: https://readthedocs.org/projects/lasagne/badge/"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "ufoym/deepo",
       "status": "candidate",
       "text": "![deepo](https://user-images.githubusercontent.com/2270240/32102393-aecf573c-bb4e-11e7-811c-dc673cae7b9c.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras-contrib",
+      "status": "candidate",
+      "text": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lasagne/Lasagne",
+      "status": "candidate",
+      "text": ".. image:: https://readthedocs.org/projects/lasagne/badge/"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "ufoym/deepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "keras-team/keras-contrib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Lasagne/Lasagne"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

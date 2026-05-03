@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manage Awaiting Response Label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "A vulnerability scanner for container images and filesystems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate-context",
+      "text": "\"Manage Awaiting Response Label\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anchore/grype",
+      "status": "candidate",
+      "text": "\"Manage Awaiting Response Label\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28069,
+      "status": "candidate",
+      "text": "own"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27995,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27992,
+      "status": "candidate",
+      "text": "serve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27955,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27918,
+      "status": "candidate",
+      "text": "bear"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manage Awaiting Response Label",
+  "concept_id": "manage-awaiting-response-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/remove-awaiting-response-label.yaml",
+      "source_repo": "anchore/grype"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manage Awaiting Response Label",
+      "sense_id": "manage-awaiting-response-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

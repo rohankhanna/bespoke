@@ -6559,6 +6559,330 @@
       "source_repo": "facebookresearch/habitat-lab",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/revisiting-sepconv",
+      "status": "candidate-context",
+      "text": "an implementation of Revisiting Adaptive Convolutions for Video Frame Interpolation using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/revisiting-sepconv",
+      "status": "candidate-context",
+      "text": "This is a reference implementation of Revisiting Adaptive Convolutions for Video Frame Interpolation [1] using PyTorch. Given two frames, it will make use of [adaptive convolution](http://sniklaus.com/papers/adaconv) [2] in a [separable manner](http://sniklaus.com/papers/sepconv\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] \"MonoScene: Monocular 3D Semantic Scene Completion\": 3D Semantic Occupancy Prediction from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate-context",
+      "text": "**MonoScene: Monocular 3D Semantic Scene Completion**\\"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate-context",
+      "text": "HumanML3D: A large and diverse 3d human motion-language dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate-context",
+      "text": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ltkong218/IFRNet",
+      "status": "candidate-context",
+      "text": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation (CVPR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ltkong218/IFRNet",
+      "status": "candidate-context",
+      "text": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate-context",
+      "text": "The official implementation of \"Train Sparsely, Generate Densely: Memory-efficient Unsupervised Training of High-resolution Temporal GAN\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate-context",
+      "text": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sp-nitech/diffsptk",
+      "status": "candidate-context",
+      "text": "A differentiable version of SPTK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sp-nitech/diffsptk",
+      "status": "candidate-context",
+      "text": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keras-team/keras-contrib",
+      "status": "candidate-context",
+      "text": "Keras community contributions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras-contrib",
+      "status": "candidate-context",
+      "text": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "status": "candidate-context",
+      "text": "Code to train the SimSiam model on cifar10 using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "status": "candidate-context",
+      "text": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate-context",
+      "text": "Please do not feed the models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate-context",
+      "text": "A project to demonstrate an approach to designing cross-language and distributed pipeline in deep learning/machine learning domain, using WebRTC and Redis Streams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate-context",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquaskyline/Clairvoyante",
+      "status": "candidate-context",
+      "text": "Clairvoyante: a multi-task convolutional deep neural network for variant calling in Single Molecule Sequencing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquaskyline/Clairvoyante",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKU-BAL/Clair",
+      "status": "candidate-context",
+      "text": "Clair: Exploring the limit of using deep neural network on pileup data for germline variant calling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/Clair",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "status": "candidate-context",
+      "text": "Clair3-RNA - a long-read small variant caller for RNA sequencing data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QingyongHu/SQN",
+      "status": "candidate-context",
+      "text": "SQN in Tensorflow (ECCV'2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/SQN",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2104.04891-b31b1b.svg)](https://arxiv.org/abs/2104.04891)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate-context",
+      "text": "[CVPR2023] The official repo for OC-SORT: Observation-Centric SORT on video Multi-Object Tracking. OC-SORT is simple, online and robust to occlusion/non-linear motion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Guaishou74851/AdcSR",
+      "status": "candidate-context",
+      "text": "(CVPR 2025) Adversarial Diffusion Compression for Real-World Image Super-Resolution [PyTorch]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Guaishou74851/AdcSR",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/monodepth2",
+      "status": "candidate-context",
+      "text": "[ICCV 2019] Monocular depth estimation from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/monodepth2",
+      "status": "candidate-context",
+      "text": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sniklaus/sepconv-slomo",
+      "status": "candidate-context",
+      "text": "an implementation of Video Frame Interpolation via Adaptive Separable Convolution using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/sepconv-slomo",
+      "status": "candidate-context",
+      "text": "This work has now been superseded by: https://github.com/sniklaus/revisiting-sepconv"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate-context",
+      "text": "[IJCAI 2024]Official PyTorch Implementation of Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate-context",
+      "text": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricGuo5513/action-to-motion",
+      "status": "candidate-context",
+      "text": "Official implementations for \"Action2Motion: Conditioned Generation of 3D Human Motions (ACM MultiMedia 2020)\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/action-to-motion",
+      "status": "candidate-context",
+      "text": "* Motion feature extractors are pre-trained action classifiers, they are in ./model_file"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axelspringer/DeepPhonemizer",
+      "status": "candidate-context",
+      "text": "Grapheme to phoneme conversion with deep learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axelspringer/DeepPhonemizer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "status": "candidate-context",
+      "text": "This repository contains the source code for the paper First Order Motion Model for Image Animation "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "status": "candidate-context",
+      "text": "<b>!!! Check out our new [paper](https://arxiv.org/pdf/2104.11280.pdf) and [framework](https://github.com/snap-research/articulated-animation) improved for articulated objects</b>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate-context",
+      "text": "The PyTorch improved version of TPAMI 2017 paper: Face Alignment in Full Pose Range: A 3D Total Solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate-context",
+      "text": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate-context",
+      "text": "Official repository accompanying a CVPR 2022 paper EMOCA: Emotion Driven Monocular Face Capture And Animation. EMOCA takes a single image of a face as input and produces a 3D reconstruction. EMOCA sets the new standard on reconstructing highly emotional images in-the-wild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate-context",
+      "text": "<!-- # EMOCA -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "A python library for self-supervised learning on images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "<a name=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "marl/openl3",
+      "status": "candidate-context",
+      "text": "OpenL3: Open-source deep audio and image embeddings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marl/openl3",
+      "status": "candidate-context",
+      "text": "OpenL3 is an open-source Python library for computing deep audio and image embeddings."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Algolzw/daclip-uir",
+      "status": "candidate-context",
+      "text": "[ICLR 2024] Controlling Vision-Language Models for Universal Image Restoration. 5th place in the NTIRE 2024 Restore Any Image Model in the Wild Challenge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Algolzw/daclip-uir",
+      "status": "candidate-context",
+      "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
     }
   ],
   "candidate_glosses": [
@@ -9843,6 +10167,168 @@
       "source_repo": "facebookresearch/habitat-lab",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/revisiting-sepconv",
+      "status": "candidate",
+      "text": "This is a reference implementation of Revisiting Adaptive Convolutions for Video Frame Interpolation [1] using PyTorch. Given two frames, it will make use of [adaptive convolution](http://sniklaus.com/papers/adaconv) [2] in a [separable manner](http://sniklaus.com/papers/sepconv\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate",
+      "text": "**MonoScene: Monocular 3D Semantic Scene Completion**\\"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "status": "candidate",
+      "text": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ltkong218/IFRNet",
+      "status": "candidate",
+      "text": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate",
+      "text": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sp-nitech/diffsptk",
+      "status": "candidate",
+      "text": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keras-team/keras-contrib",
+      "status": "candidate",
+      "text": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "status": "candidate",
+      "text": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/distributed-inference",
+      "status": "candidate",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquaskyline/Clairvoyante",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/Clair",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKU-BAL/Clair3-RNA",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/SQN",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2104.04891-b31b1b.svg)](https://arxiv.org/abs/2104.04891)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Guaishou74851/AdcSR",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/monodepth2",
+      "status": "candidate",
+      "text": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sniklaus/sepconv-slomo",
+      "status": "candidate",
+      "text": "This work has now been superseded by: https://github.com/sniklaus/revisiting-sepconv"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate",
+      "text": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/action-to-motion",
+      "status": "candidate",
+      "text": "* Motion feature extractors are pre-trained action classifiers, they are in ./model_file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axelspringer/DeepPhonemizer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "status": "candidate",
+      "text": "<b>!!! Check out our new [paper](https://arxiv.org/pdf/2104.11280.pdf) and [framework](https://github.com/snap-research/articulated-animation) improved for articulated objects</b>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate",
+      "text": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate",
+      "text": "<!-- # EMOCA -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate",
+      "text": "<a name=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "marl/openl3",
+      "status": "candidate",
+      "text": "OpenL3 is an open-source Python library for computing deep audio and image embeddings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Algolzw/daclip-uir",
+      "status": "candidate",
+      "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
     }
   ],
   "candidate_related_terms": [],
@@ -15022,11 +15508,437 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/habitat-lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/revisiting-sepconv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/GraNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/sonnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EricGuo5513/HumanML3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pfnet-research/tgan2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "keras-team/keras-contrib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "IgorSusmelj/simsiam-cifar10"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "FMInference/FlexLLMGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clearml/clearml-pycharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/model-zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adalkiran/distributed-inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aquaskyline/Clairvoyante"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "HKU-BAL/Clair3-RNA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "QingyongHu/SQN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "noahcao/OC_SORT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/monodepth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sniklaus/sepconv-slomo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EricGuo5513/action-to-motion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "AliaksandrSiarohin/first-order-model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "radekd91/emoca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "marl/openl3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

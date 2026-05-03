@@ -213,6 +213,78 @@
       "source_repo": "JuliaArrays/OffsetArrays.jl",
       "status": "candidate-context",
       "text": "Unit test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helmfile/vals",
+      "status": "candidate-context",
+      "text": "Helm-like configuration values loader with support for various sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/vals",
+      "status": "candidate-context",
+      "text": "Unit Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "status": "candidate-context",
+      "text": "Basic color definitions and traits "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "status": "candidate-context",
+      "text": "Unit test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "9romise/eslint-config",
+      "status": "candidate-context",
+      "text": "Vida's ESLint config"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-config",
+      "status": "candidate-context",
+      "text": "Unit Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate-context",
+      "text": "Color manipulation utilities for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate-context",
+      "text": "Unit test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "status": "candidate-context",
+      "text": "Treat colors as if they are n-vectors for the purposes of arithmetic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "status": "candidate-context",
+      "text": "Unit test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "status": "candidate-context",
+      "text": "fixed point types for julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "status": "candidate-context",
+      "text": "Unit test"
     }
   ],
   "candidate_glosses": [
@@ -327,6 +399,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaArrays/OffsetArrays.jl",
+      "status": "candidate",
+      "text": "Unit test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/vals",
+      "status": "candidate",
+      "text": "Unit Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorTypes.jl",
+      "status": "candidate",
+      "text": "Unit test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-config",
+      "status": "candidate",
+      "text": "Unit Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Colors.jl",
+      "status": "candidate",
+      "text": "Unit test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "status": "candidate",
+      "text": "Unit test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
       "status": "candidate",
       "text": "Unit test"
     }
@@ -648,11 +756,65 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/unit_test.yaml",
       "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unit-test.yaml",
+      "source_repo": "helmfile/vals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorTypes.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "9romise/eslint-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "cloudfoundry/credhub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/Colors.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

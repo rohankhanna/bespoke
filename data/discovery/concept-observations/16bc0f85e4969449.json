@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An incredibly fast JavaScript library for Delaunay triangulation of 2D points"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An incredibly fast and robust JavaScript library for"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An incredibly fast and robust JavaScript library for"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29834508,
+      "status": "candidate",
+      "text": "trace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19905069,
+      "status": "candidate",
+      "text": "delaunay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19905068,
+      "status": "candidate",
+      "text": "trig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19905067,
+      "status": "candidate",
+      "text": "retriangulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19905066,
+      "status": "candidate",
+      "text": "trigonometrics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "triangulation",
+      "sense_id": "triangulation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "triangulation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "triangulation",
+  "observation_id": "16bc0f85e4969449",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "triangulation",
+  "source_context_snippet": "An incredibly fast and robust JavaScript library for",
+  "source_file": null,
+  "source_repo": "mapbox/delaunator",
+  "source_repo_description": "An incredibly fast JavaScript library for Delaunay triangulation of 2D points"
+}

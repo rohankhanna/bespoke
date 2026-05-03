@@ -1,0 +1,184 @@
+{
+  "components": [
+    {
+      "component": "@codemirror/state",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@codemirror/view",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lezer/common",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lezer/highlight",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lezer/lr",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "style-mod",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@codemirror/buildhelper",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lezer/javascript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mvasigh/dispatch-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lishid/cm-language",
+      "target": "codemirror/language",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "lishid/cm-language",
+      "target": "codemirror/language",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lishid/cm-language",
+      "target": "@codemirror/state",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lishid/cm-language",
+      "target": "@codemirror/view",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lishid/cm-language",
+      "target": "@lezer/common",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lishid/cm-language",
+      "target": "@lezer/highlight",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lishid/cm-language",
+      "target": "@lezer/lr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lishid/cm-language",
+      "target": "style-mod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lishid/cm-language",
+      "target": "@codemirror/buildhelper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lishid/cm-language",
+      "target": "@lezer/javascript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch.yml",
+      "source_repo": "lishid/cm-language",
+      "target": "mvasigh/dispatch-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch.yml",
+      "source_repo": "lishid/cm-language",
+      "target": "Trigger CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:42:43.283982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2189
+    },
+    {
+      "path": "package.json",
+      "size": 1063
+    },
+    {
+      "path": ".github/workflows/dispatch.yml",
+      "size": 415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Language support infrastructure for the CodeMirror code editor",
+    "fork": true,
+    "full_name": "lishid/cm-language",
+    "html_url": "https://github.com/lishid/cm-language",
+    "language": "TypeScript",
+    "pushed_at": "2025-12-09T17:57:28Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-12-09T17:57:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codemirror/language",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codemirror/language",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Trigger CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch.yml",
+      "term": "Trigger CI"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "multi-object-tracker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "status": "candidate-context",
+      "text": "Joint Detection and Embedding for fast multi-object tracking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "status": "candidate-context",
+      "text": "**NEWS:**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "status": "candidate",
+      "text": "**NEWS:**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "multi-object-tracker",
+  "concept_id": "multi-object-tracker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-object-tracker",
+      "sense_id": "multi-object-tracker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

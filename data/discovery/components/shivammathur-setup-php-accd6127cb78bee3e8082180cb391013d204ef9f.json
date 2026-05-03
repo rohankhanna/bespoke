@@ -1,7 +1,7 @@
 {
   "component": "shivammathur/setup-php@accd6127cb78bee3e8082180cb391013d204ef9f",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "wp-cli/scaffold-package-command"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/heroku-buildpack-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml",
+      "source_repo": "heroku/heroku-buildpack-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-devcenter.yml",
+      "source_repo": "heroku/heroku-buildpack-php"
     }
   ]
 }

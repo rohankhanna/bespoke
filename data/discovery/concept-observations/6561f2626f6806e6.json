@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Block spying and tracking on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "released"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "released"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "discharged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "acquitted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "advertised"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "aired"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "released",
+      "sense_id": "released#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45066,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1023,
+      "status": "candidate",
+      "text": "discharged"
+    }
+  ],
+  "concept_id": "released",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "released",
+  "observation_id": "6561f2626f6806e6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "released",
+  "source_context_snippet": "released",
+  "source_file": ".github/workflows/released.yml",
+  "source_repo": "crazy-max/WindowsSpyBlocker",
+  "source_repo_description": "Block spying and tracking on Windows"
+}

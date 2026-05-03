@@ -32,13 +32,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "heartcombo/devise",
-      "target": "wardencommunity/warden",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "heartcombo/devise",
@@ -95,7 +88,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T09:25:53.604672+00:00",
+  "fetched_at": "2026-05-03T01:41:57.787995+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -116,14 +109,14 @@
     "html_url": "https://github.com/heartcombo/devise",
     "language": "Ruby",
     "pushed_at": "2026-04-10T14:43:55Z",
-    "stargazers_count": 24345,
+    "stargazers_count": 24346,
     "topics": [
       "authentication",
       "devise",
       "rails",
       "ruby"
     ],
-    "updated_at": "2026-04-28T16:32:31Z"
+    "updated_at": "2026-05-03T00:34:21Z"
   },
   "repo_links": [
     {
@@ -134,11 +127,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "seattlerb/minitest",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wardencommunity/warden",
       "source_file": "README.md"
     }
   ],

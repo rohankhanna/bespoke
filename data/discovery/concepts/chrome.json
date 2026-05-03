@@ -256,6 +256,18 @@
       "source_repo": "browserslist/map-to-chrome",
       "status": "candidate-context",
       "text": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "An MCP Server for Chrome DevTools, following the Chrome DevTools Protocol. Integrates with Claude Desktop and Claude Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
     }
   ],
   "candidate_glosses": [
@@ -384,6 +396,12 @@
       "source_repo": "browserslist/map-to-chrome",
       "status": "candidate",
       "text": "<img width=\"520\" height=\"68\" src=\"./logo.svg\" alt=\"Map-to-Chrome logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benjaminr/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "A Model Context Protocol (MCP) server that provides Chrome DevTools Protocol integration through MCP. This allows you to debug web applications by connecting to Chrome's developer tools."
     }
   ],
   "candidate_related_terms": [
@@ -705,11 +723,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "benjaminr/chrome-devtools-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "browserslist/map-to-chrome"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

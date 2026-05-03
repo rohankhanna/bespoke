@@ -79,6 +79,18 @@
       "source_repo": "rubik/hydroconf",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Layered configuration system for Rust applications (with strong support for 12-factor applications). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate-context",
+      "text": "> Layered configuration system for Rust applications (with strong support for [12-factor] applications)."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "rubik/hydroconf",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate",
+      "text": "> Layered configuration system for Rust applications (with strong support for [12-factor] applications)."
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "rubik/hydroconf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rust-cli/config-rs"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

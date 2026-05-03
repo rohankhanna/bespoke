@@ -7504,6 +7504,396 @@
       "source_repo": "supabase/etl",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamchalmers/fountain-rs",
+      "status": "candidate-context",
+      "text": "Parser for Fountain markup, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamchalmers/fountain-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "status": "candidate-context",
+      "text": "Optional Rust Extensions to Speed Up the Python Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "status": "candidate-context",
+      "text": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pisa-engine/ciff",
+      "status": "candidate-context",
+      "text": "The inverted index exchange format as defined as part of the Open-Source IR Replicability Challenge (OSIRRC) initiative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pisa-engine/ciff",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Turbo87/flat-projection-rs",
+      "status": "candidate-context",
+      "text": "Fast geodesic distance approximations via flat surface projection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Turbo87/flat-projection-rs",
+      "status": "candidate-context",
+      "text": "flat-projection"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vipera/cheap-ruler-rs",
+      "status": "candidate-context",
+      "text": "A collection of very fast approximations to common geodesic measurements in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipera/cheap-ruler-rs",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions][actions badge]][actions]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "netdur/hugind",
+      "status": "candidate-context",
+      "text": "vLLM for poor GPUs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netdur/hugind",
+      "status": "candidate-context",
+      "text": "Local-only LLM inference and agent system. Uses `llama.cpp` as the engine, Rust as the implementation language. Aims to keep agents under control."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate-context",
+      "text": "Rust support for Dart\u2019s Native Assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/GregoryConrad/native_toolchain_rust/actions/workflows/build.yml/badge.svg)](https://github.com/GregoryConrad/native_toolchain_rust/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate-context",
+      "text": "Independent verification of binary packages - Reproducible Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate-context",
+      "text": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AltF02/mouse-rs",
+      "status": "candidate-context",
+      "text": "Rust library to control the mouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AltF02/mouse-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AltF02/mouse-rs",
+      "status": "candidate-context",
+      "text": "![Rust](https://github.com/DankDumpster/mouse-rs/workflows/Rust/badge.svg?style=flat-square) [![Docs](https://docs.rs/mouse-rs/badge.svg?style=flat-square)](https://docs.rs/mouse-rs) [![Crates.io](https://img.shields.io/crates/v/mouse-rs)](https://crates.io/crates/mouse-rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godot-rust/gdnative",
+      "status": "candidate-context",
+      "text": "Rust bindings for Godot 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdnative",
+      "status": "candidate-context",
+      "text": "<a href=\"https://godot-rust.github.io/\"><img align=\"right\" width=\"200\" height=\"200\" src=\"assets/godot-ferris.svg\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate-context",
+      "text": "Rust bindings for Godot 4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate-context",
+      "text": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "status": "candidate-context",
+      "text": "\ud83d\udc09 Making Rust a first-class language and ecosystem for GPU shaders \ud83d\udea7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "status": "candidate-context",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "attackgoat/vk-graph",
+      "status": "candidate-context",
+      "text": "High-performance Vulkan driver with automated resource management and execution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attackgoat/vk-graph",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attackgoat/vk-graph",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate-context",
+      "text": "Rust client framework for interacting with CometBFT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hjson/hjson-rust",
+      "status": "candidate-context",
+      "text": "Hjson for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hjson/hjson-rust",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/hjson/hjson-rust/workflows/test/badge.svg)](https://github.com/hjson/hjson-rust/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Layered configuration system for Rust applications (with strong support for 12-factor applications). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate-context",
+      "text": "> Layered configuration system for Rust applications (with strong support for [12-factor] applications)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "status": "candidate-context",
+      "text": "GCP BigQuery Client (Rust)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GammaTauAI/opentau",
+      "status": "candidate-context",
+      "text": "Using Large Language Models for Repo-wide Type Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GammaTauAI/opentau",
+      "status": "candidate-context",
+      "text": "Implementation for the paper: [Type Prediction With Program Decomposition and Fill-in-the-Type Training. Federico Cassano, Ming-Ho Yee, Noah Shinn, Arjun Guha, Steven Holtzen.](https://arxiv.org/abs/2305.17145)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "status": "candidate-context",
+      "text": "\ud83d\udc09 Making Rust a first-class language and ecosystem for GPU shaders \ud83d\udea7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "status": "candidate-context",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "status": "candidate-context",
+      "text": "Rust wrappers for libdatachannel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "status": "candidate-context",
+      "text": "[latest]: https://img.shields.io/crates/v/datachannel.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-windowing/gl-rs",
+      "status": "candidate-context",
+      "text": "An OpenGL function pointer loader for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/gl-rs",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "status": "candidate-context",
+      "text": "This is the egui integration crate for winit, ash and vk_mem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "status": "candidate-context",
+      "text": "[_DEPRECATED_]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnb-chain/tendermint-rs-parlia",
+      "status": "candidate-context",
+      "text": "Tendermint in Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tendermint-rs-parlia",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate-context",
+      "text": "Rust client framework for interacting with CometBFT"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ethiraric/yaml-rust2",
+      "status": "candidate-context",
+      "text": "A pure Rust YAML implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ethiraric/yaml-rust2",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ron-rs/ron",
+      "status": "candidate-context",
+      "text": "Rusty Object Notation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ron-rs/ron",
+      "status": "candidate-context",
+      "text": "[![MSRV](https://img.shields.io/badge/MSRV-1.64.0-orange)](https://github.com/ron-rs/ron)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate-context",
+      "text": "Postgres Foreign Data Wrapper development framework in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate-context",
+      "text": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nats-io/nats.rs",
+      "status": "candidate-context",
+      "text": "Rust client for NATS, the cloud native messaging system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nats-io/nats.rs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "Build Postgres Extensions with Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate-context",
+      "text": "![Logo](art/pgrx-logo-color-transparent-475x518.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lquerel/gcp-bigquery-client",
+      "status": "candidate-context",
+      "text": "GCP BigQuery Client (Rust)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lquerel/gcp-bigquery-client",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaterializeInc/materialize",
+      "status": "candidate-context",
+      "text": "The live data layer for apps and AI agents. Create up-to-the-second views into your business, just using SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterializeInc/materialize",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)"
     }
   ],
   "candidate_glosses": [
@@ -11352,6 +11742,210 @@
       "source_repo": "supabase/etl",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamchalmers/fountain-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "status": "candidate",
+      "text": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pisa-engine/ciff",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Turbo87/flat-projection-rs",
+      "status": "candidate",
+      "text": "flat-projection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vipera/cheap-ruler-rs",
+      "status": "candidate",
+      "text": "[![GitHub Actions][actions badge]][actions]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netdur/hugind",
+      "status": "candidate",
+      "text": "Local-only LLM inference and agent system. Uses `llama.cpp` as the engine, Rust as the implementation language. Aims to keep agents under control."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/GregoryConrad/native_toolchain_rust/actions/workflows/build.yml/badge.svg)](https://github.com/GregoryConrad/native_toolchain_rust/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate",
+      "text": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AltF02/mouse-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AltF02/mouse-rs",
+      "status": "candidate",
+      "text": "![Rust](https://github.com/DankDumpster/mouse-rs/workflows/Rust/badge.svg?style=flat-square) [![Docs](https://docs.rs/mouse-rs/badge.svg?style=flat-square)](https://docs.rs/mouse-rs) [![Crates.io](https://img.shields.io/crates/v/mouse-rs)](https://crates.io/crates/mouse-rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdnative",
+      "status": "candidate",
+      "text": "<a href=\"https://godot-rust.github.io/\"><img align=\"right\" width=\"200\" height=\"200\" src=\"assets/godot-ferris.svg\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate",
+      "text": "[workspace] resolver = \"2\" members = [ \"godot-bindings\", \"godot-codegen\", \"godot-ffi\", \"godot-core\", \"godot-macros\", \"godot-cell\", \"godot\", # Godot integration \"itest/rust\", \"itest/repo-tweak\", \"itest/hot-reload/rust\", \"itest/itest-dependency\" ] [workspace.package] edition = \"20\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "status": "candidate",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attackgoat/vk-graph",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attackgoat/vk-graph",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/screen-13.svg)](https://crates.io/crates/screen-13)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hjson/hjson-rust",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/hjson/hjson-rust/workflows/test/badge.svg)](https://github.com/hjson/hjson-rust/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate",
+      "text": "> Layered configuration system for Rust applications (with strong support for [12-factor] applications)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GammaTauAI/opentau",
+      "status": "candidate",
+      "text": "Implementation for the paper: [Type Prediction With Program Decomposition and Fill-in-the-Type Training. Federico Cassano, Ming-Ho Yee, Noah Shinn, Arjun Guha, Steven Holtzen.](https://arxiv.org/abs/2305.17145)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "status": "candidate",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerouxrgd/datachannel-rs",
+      "status": "candidate",
+      "text": "[latest]: https://img.shields.io/crates/v/datachannel.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-windowing/gl-rs",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem",
+      "status": "candidate",
+      "text": "[_DEPRECATED_]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/tendermint-rs-parlia",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ethiraric/yaml-rust2",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ron-rs/ron",
+      "status": "candidate",
+      "text": "[![MSRV](https://img.shields.io/badge/MSRV-1.64.0-orange)](https://github.com/ron-rs/ron)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/wrappers",
+      "status": "candidate",
+      "text": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nats-io/nats.rs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgcentralfoundation/pgrx",
+      "status": "candidate",
+      "text": "![Logo](art/pgrx-logo-color-transparent-475x518.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lquerel/gcp-bigquery-client",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterializeInc/materialize",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)"
     }
   ],
   "candidate_related_terms": [
@@ -17659,11 +18253,461 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "supabase/etl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "adamchalmers/fountain-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "conda/rattler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "pisa-engine/ciff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Turbo87/flat-projection-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vipera/cheap-ruler-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "netdur/hugind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "GregoryConrad/native_toolchain_rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "kpcyrd/rebuilderd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kpcyrd/rebuilderd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rust-gpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rust-rse/reed-solomon-erasure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hjson/hjson-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rust-cli/config-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "GammaTauAI/opentau"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rust-bakery/nom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Rust-GPU/rust-gpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lerouxrgd/datachannel-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/gl-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MatchaChoco010/egui_winit_ash_vk_mem"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "bnb-chain/tendermint-rs-parlia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cometbft/cometbft-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Ethiraric/yaml-rust2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ron-rs/ron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "supabase/wrappers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nats-io/nats.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pgcentralfoundation/pgrx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "lquerel/gcp-bigquery-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MaterializeInc/materialize"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

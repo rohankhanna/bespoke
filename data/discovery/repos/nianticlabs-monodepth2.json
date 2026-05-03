@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nianticlabs/monodepth2",
+      "target": "tinghuiz/sfmlearner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/monodepth2",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/monodepth2",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/monodepth2",
+      "target": "depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/monodepth2",
+      "target": "monodepth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/monodepth2",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/monodepth2",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nianticlabs/monodepth2",
+      "target": "self-supervision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:53.302786+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICCV 2019] Monocular depth estimation from a single image",
+    "fork": false,
+    "full_name": "nianticlabs/monodepth2",
+    "html_url": "https://github.com/nianticlabs/monodepth2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-10T22:20:36Z",
+    "stargazers_count": 4481,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "depth-estimation",
+      "monodepth",
+      "neural-network",
+      "pytorch",
+      "self-supervision"
+    ],
+    "updated_at": "2026-05-02T06:47:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tinghuiz/sfmlearner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-estimation"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monodepth"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervision"
+    }
+  ]
+}

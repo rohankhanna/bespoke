@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:44:14.591131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5761
+    },
+    {
+      "path": "requirements.txt",
+      "size": 29
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "rail-berkeley/oculus_reader",
+    "html_url": "https://github.com/rail-berkeley/oculus_reader",
+    "language": "C++",
+    "pushed_at": "2025-09-30T07:00:27Z",
+    "stargazers_count": 158,
+    "topics": [],
+    "updated_at": "2026-04-22T15:03:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

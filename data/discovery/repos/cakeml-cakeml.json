@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CakeML/cakeml",
+      "target": "hol-theorem-prover/hol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CakeML/cakeml",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CakeML/cakeml",
+      "target": "formal-semantics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CakeML/cakeml",
+      "target": "formal-verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CakeML/cakeml",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CakeML/cakeml",
+      "target": "theorem-proving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:59:30.605246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CakeML: A Verified Implementation of ML",
+    "fork": false,
+    "full_name": "CakeML/cakeml",
+    "html_url": "https://github.com/CakeML/cakeml",
+    "language": "Standard ML",
+    "pushed_at": "2026-05-02T22:33:57Z",
+    "stargazers_count": 1149,
+    "topics": [
+      "compiler",
+      "formal-semantics",
+      "formal-verification",
+      "hol",
+      "programming-language",
+      "sml",
+      "theorem-proving"
+    ],
+    "updated_at": "2026-05-02T15:37:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hol-theorem-prover/hol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The CakeML project: https://cakeml.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "The CakeML project: https://cakeml.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formal-semantics"
+    },
+    {
+      "context_snippet": "The CakeML project: https://cakeml.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formal-verification"
+    },
+    {
+      "context_snippet": "The CakeML project: https://cakeml.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "The CakeML project: https://cakeml.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theorem-proving"
+    }
+  ]
+}

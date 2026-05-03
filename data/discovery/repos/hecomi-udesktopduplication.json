@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "hecomi/create-upm-branch-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hecomi/uDesktopDuplication",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hecomi/uDesktopDuplication",
+      "target": "hecomi/create-upm-branch-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hecomi/uDesktopDuplication",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hecomi/uDesktopDuplication",
+      "target": "desktop-duplication-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hecomi/uDesktopDuplication",
+      "target": "native-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hecomi/uDesktopDuplication",
+      "target": "unity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:34.847057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 963
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Desktop Duplication API implementation for Unity (only for Windows 8/10)",
+    "fork": false,
+    "full_name": "hecomi/uDesktopDuplication",
+    "html_url": "https://github.com/hecomi/uDesktopDuplication",
+    "language": "C++",
+    "pushed_at": "2021-11-21T09:26:29Z",
+    "stargazers_count": 781,
+    "topics": [
+      "desktop-duplication-api",
+      "native-plugin",
+      "unity"
+    ],
+    "updated_at": "2026-04-17T04:13:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "uDesktopDuplication",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-duplication-api"
+    },
+    {
+      "context_snippet": "uDesktopDuplication",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "native-plugin"
+    },
+    {
+      "context_snippet": "uDesktopDuplication",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    }
+  ]
+}

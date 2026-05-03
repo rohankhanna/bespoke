@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joncalhoun/form",
+      "target": "gorilla/schema",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:48:36.983275+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9692
+    },
+    {
+      "path": "go.mod",
+      "size": 85
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easily create HTML forms with Go structs.",
+    "fork": false,
+    "full_name": "joncalhoun/form",
+    "html_url": "https://github.com/joncalhoun/form",
+    "language": "Go",
+    "pushed_at": "2024-08-13T02:28:39Z",
+    "stargazers_count": 400,
+    "topics": [],
+    "updated_at": "2026-04-11T10:33:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gorilla/schema",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

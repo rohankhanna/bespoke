@@ -9,13 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "megvii-research/MOTR",
-      "target": "dancetrack/dancetrack",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "megvii-research/MOTR",
@@ -44,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T19:47:52.791137+00:00",
+  "fetched_at": "2026-05-03T02:56:26.879792+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -75,11 +68,6 @@
     "updated_at": "2026-04-23T12:17:39Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dancetrack/dancetrack",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "megvii-model/motr",

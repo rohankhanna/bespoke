@@ -1,0 +1,474 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_format.yml"
+    },
+    {
+      "component": "jidicula/clang-format-action@v4.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/AirSim",
+      "target": "iamaisim/projectairsim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/AirSim",
+      "target": "simondlevy/airsimtensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_format.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang_format.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "jidicula/clang-format-action@v4.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang_format.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "clang-format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "Documentation Build & Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_macos.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_macos.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "MacOS Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_ubuntu.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_ubuntu.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "Ubuntu Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_windows.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_windows.yml",
+      "source_repo": "microsoft/AirSim",
+      "target": "Windows Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "airsim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "autonomous-quadcoptor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "control-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "drones",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "pixhawk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "platform-independent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "self-driving-car",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "simulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim",
+      "target": "unreal-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:23.095073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11176
+    },
+    {
+      "path": ".github/workflows/clang_format.yml",
+      "size": 427
+    },
+    {
+      "path": ".github/workflows/test_docs.yml",
+      "size": 1358
+    },
+    {
+      "path": ".github/workflows/test_macos.yml",
+      "size": 436
+    },
+    {
+      "path": ".github/workflows/test_ubuntu.yml",
+      "size": 1352
+    },
+    {
+      "path": ".github/workflows/test_windows.yml",
+      "size": 527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research",
+    "fork": false,
+    "full_name": "microsoft/AirSim",
+    "html_url": "https://github.com/microsoft/AirSim",
+    "language": "C++",
+    "pushed_at": "2026-03-15T23:17:10Z",
+    "stargazers_count": 18146,
+    "topics": [
+      "ai",
+      "airsim",
+      "artificial-intelligence",
+      "autonomous-quadcoptor",
+      "autonomous-vehicles",
+      "computer-vision",
+      "control-systems",
+      "cross-platform",
+      "deep-reinforcement-learning",
+      "deeplearning",
+      "drones",
+      "pixhawk",
+      "platform-independent",
+      "research",
+      "self-driving-car",
+      "simulator",
+      "unreal-engine"
+    ],
+    "updated_at": "2026-05-01T21:38:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iamaisim/projectairsim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simondlevy/airsimtensorflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "clang-format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang_format.yml",
+      "term": "clang-format Check"
+    },
+    {
+      "context_snippet": "Documentation Build & Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "term": "Documentation Build & Deploy"
+    },
+    {
+      "context_snippet": "MacOS Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_macos.yml",
+      "term": "MacOS Build"
+    },
+    {
+      "context_snippet": "Ubuntu Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_ubuntu.yml",
+      "term": "Ubuntu Build"
+    },
+    {
+      "context_snippet": "Windows Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_windows.yml",
+      "term": "Windows Build"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "airsim"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-quadcoptor"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "control-systems"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-reinforcement-learning"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drones"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixhawk"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "platform-independent"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-driving-car"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulator"
+    },
+    {
+      "context_snippet": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal-engine"
+    }
+  ]
+}

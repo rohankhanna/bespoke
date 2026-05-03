@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appl-team/reppl",
+      "target": "princeton-nlp/tree-of-thought-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appl-team/reppl",
+      "target": "google-deepmind/opro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appl-team/reppl",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appl-team/reppl",
+      "target": "reimplementation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:13.701809+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1088
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Using APPL to reimplement popular algorithms for Large Language Models (LLMs) and prompts",
+    "fork": false,
+    "full_name": "appl-team/reppl",
+    "html_url": "https://github.com/appl-team/reppl",
+    "language": "Python",
+    "pushed_at": "2025-01-14T06:07:57Z",
+    "stargazers_count": 45,
+    "topics": [
+      "large-language-models",
+      "llm",
+      "python",
+      "reimplementation"
+    ],
+    "updated_at": "2026-04-22T16:27:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-deepmind/opro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-nlp/tree-of-thought-llm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Using [APPL](https://github.com/appl-team/appl) to reimplement popular algorithms for Large Language Models (LLMs) and prompts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "Using [APPL](https://github.com/appl-team/appl) to reimplement popular algorithms for Large Language Models (LLMs) and prompts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reimplementation"
+    }
+  ]
+}

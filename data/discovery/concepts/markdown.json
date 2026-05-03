@@ -1063,6 +1063,54 @@
       "source_repo": "getzola/zola",
       "status": "candidate-context",
       "text": "[![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build/latest?definitionId=1&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrblevin/markdown-mode",
+      "status": "candidate-context",
+      "text": "Emacs Markdown Mode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrblevin/markdown-mode",
+      "status": "candidate-context",
+      "text": "[![NonGNU ELPA badge][nongnu-elpa-badge]][nongnu-elpa-link] [![MELPA badge][melpa-badge]][melpa-link] [![MELPA stable badge][melpa-stable-badge]][melpa-stable-link] [![Github Actions Status][github-actions-badge]][github-actions-link] [![Guide to Markdown Mode for Emacs][leanpub\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate-context",
+      "text": "Vite & Vue powered static site generator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/vuejs/vitepress/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/vuejs/vitepress/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "status": "candidate-context",
+      "text": "Plugin to improve viewing Markdown files in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "status": "candidate-context",
+      "text": "Plugin to improve viewing Markdown files in Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "status": "candidate-context",
+      "text": "An Obsidian.md plugin that adds a minimal text editor modal for a smoother writing/editing experience \u270d\ud83c\udffd."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "status": "candidate-context",
+      "text": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)"
     }
   ],
   "candidate_glosses": [
@@ -1593,6 +1641,30 @@
       "source_repo": "getzola/zola",
       "status": "candidate",
       "text": "[![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build/latest?definitionId=1&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrblevin/markdown-mode",
+      "status": "candidate",
+      "text": "[![NonGNU ELPA badge][nongnu-elpa-badge]][nongnu-elpa-link] [![MELPA badge][melpa-badge]][melpa-link] [![MELPA stable badge][melpa-stable-badge]][melpa-stable-link] [![Github Actions Status][github-actions-badge]][github-actions-link] [![Guide to Markdown Mode for Emacs][leanpub\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/vitepress",
+      "status": "candidate",
+      "text": "[![test](https://github.com/vuejs/vitepress/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/vuejs/vitepress/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "status": "candidate",
+      "text": "Plugin to improve viewing Markdown files in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "status": "candidate",
+      "text": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -2362,11 +2434,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "getzola/zola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jrblevin/markdown-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vuejs/vitepress"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:56:55.258460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Code for the habitat challenge",
+    "fork": false,
+    "full_name": "facebookresearch/habitat-challenge",
+    "html_url": "https://github.com/facebookresearch/habitat-challenge",
+    "language": "Python",
+    "pushed_at": "2023-04-24T11:59:34Z",
+    "stargazers_count": 355,
+    "topics": [],
+    "updated_at": "2026-04-27T20:13:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Canonical sources for HOL4 theorem-proving system.   Branch develop is where \u201cmainline development\u201d occurs; when develop passes our regression tests, master is merged forward to catch up."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "higher-order-logic",
+      "sense_id": "higher-order-logic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "higher-order-logic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "higher-order-logic",
+  "observation_id": "2037535108ea5332",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "higher-order-logic",
+  "source_context_snippet": "[![Build Status](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml)",
+  "source_file": null,
+  "source_repo": "HOL-Theorem-Prover/HOL",
+  "source_repo_description": "Canonical sources for HOL4 theorem-proving system.   Branch develop is where \u201cmainline development\u201d occurs; when develop passes our regression tests, master is merged forward to catch up."
+}

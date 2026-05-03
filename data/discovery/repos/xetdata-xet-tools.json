@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:54:28.585096+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "XetHub Issue Tracker",
+    "fork": false,
+    "full_name": "xetdata/xet-tools",
+    "html_url": "https://github.com/xetdata/xet-tools",
+    "language": "Shell",
+    "pushed_at": "2024-10-16T17:47:15Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-23T03:12:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

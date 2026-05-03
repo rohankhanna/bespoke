@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PistonDevelopers/glfw-rs",
+      "target": "bjz/glfw-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PistonDevelopers/glfw-rs",
+      "target": "jeaye/q3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PistonDevelopers/glfw-rs",
+      "target": "cyndis/rsmc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PistonDevelopers/glfw-rs",
+      "target": "ozkriff/zoc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "PistonDevelopers/glfw-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "PistonDevelopers/glfw-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "PistonDevelopers/glfw-rs",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "PistonDevelopers/glfw-rs",
+      "target": "Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:08.518726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4393
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1800
+    },
+    {
+      "path": ".github/workflows/check.yaml",
+      "size": 1226
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GLFW3 bindings and idiomatic wrapper for Rust.",
+    "fork": false,
+    "full_name": "PistonDevelopers/glfw-rs",
+    "html_url": "https://github.com/PistonDevelopers/glfw-rs",
+    "language": "Rust",
+    "pushed_at": "2026-03-25T14:30:42Z",
+    "stargazers_count": 690,
+    "topics": [],
+    "updated_at": "2026-04-27T18:36:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bjz/glfw-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyndis/rsmc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeaye/q3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ozkriff/zoc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "term": "Check"
+    }
+  ]
+}

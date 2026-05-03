@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CelebV-HQ/CelebV-HQ",
+      "target": "wilson1yan/videogpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CelebV-HQ/CelebV-HQ",
+      "target": "snap-research/mocogan-hd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CelebV-HQ/CelebV-HQ",
+      "target": "celebv-text/celebv-text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CelebV-HQ/CelebV-HQ",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CelebV-HQ/CelebV-HQ",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CelebV-HQ/CelebV-HQ",
+      "target": "generative-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:56:14.260747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2022] CelebV-HQ: A Large-Scale Video Facial Attributes Dataset",
+    "fork": false,
+    "full_name": "CelebV-HQ/CelebV-HQ",
+    "html_url": "https://github.com/CelebV-HQ/CelebV-HQ",
+    "language": "Python",
+    "pushed_at": "2023-01-04T00:29:28Z",
+    "stargazers_count": 488,
+    "topics": [
+      "datasets",
+      "gans",
+      "generative-model"
+    ],
+    "updated_at": "2026-04-26T21:46:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celebv-text/celebv-text",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "snap-research/mocogan-hd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wilson1yan/videogpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./assets/teaser.png\" width=\"96%\" height=\"96%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "<img src=\"./assets/teaser.png\" width=\"96%\" height=\"96%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "<img src=\"./assets/teaser.png\" width=\"96%\" height=\"96%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    }
+  ]
+}

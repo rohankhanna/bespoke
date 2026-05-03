@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICLR 2024] Controlling Vision-Language Models for Universal Image Restoration. 5th place in the NTIRE 2024 Restore Any Image Model in the Wild Challenge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024211,
+      "status": "candidate",
+      "text": "quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024186,
+      "status": "candidate",
+      "text": "expeditious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021196,
+      "status": "candidate",
+      "text": "propel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016222,
+      "status": "candidate",
+      "text": "instigate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015883,
+      "status": "candidate",
+      "text": "incite"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prompt",
+      "sense_id": "prompt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50045,
+      "status": "candidate",
+      "text": "incite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41035,
+      "status": "candidate",
+      "text": "propel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27033,
+      "status": "candidate",
+      "text": "instigate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23028,
+      "status": "candidate",
+      "text": "expeditious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22039,
+      "status": "candidate",
+      "text": "efficient"
+    }
+  ],
+  "concept_id": "prompt",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prompt",
+  "observation_id": "196d8db6f81381d7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "prompt",
+  "source_context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+  "source_file": null,
+  "source_repo": "Algolzw/daclip-uir",
+  "source_repo_description": "[ICLR 2024] Controlling Vision-Language Models for Universal Image Restoration. 5th place in the NTIRE 2024 Restore Any Image Model in the Wild Challenge."
+}

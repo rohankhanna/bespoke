@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/add-to-project@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "gazebosim/sdf_tutorials",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "gazebosim/sdf_tutorials",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "gazebosim/sdf_tutorials",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "gazebosim/sdf_tutorials",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "gazebosim/sdf_tutorials",
+      "target": "Deploy Website and Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/sdf_tutorials",
+      "target": "actions/add-to-project@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/sdf_tutorials",
+      "target": "Ticket opened",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:43:27.592610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3116
+    },
+    {
+      "path": "Dockerfile",
+      "size": 161
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1997
+    },
+    {
+      "path": ".github/workflows/triage.yml",
+      "size": 394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SDFormat documentation and proposals.",
+    "fork": false,
+    "full_name": "gazebosim/sdf_tutorials",
+    "html_url": "https://github.com/gazebosim/sdf_tutorials",
+    "language": "XSLT",
+    "pushed_at": "2026-04-28T17:33:56Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-04-28T17:33:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy Website and Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy Website and Docs"
+    },
+    {
+      "context_snippet": "Ticket opened",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "term": "Ticket opened"
+    }
+  ]
+}

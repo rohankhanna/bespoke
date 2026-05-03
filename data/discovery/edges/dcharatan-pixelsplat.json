@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcharatan/pixelsplat",
+      "target": "dcharatan/diff-gaussian-rasterization-modified",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcharatan/pixelsplat",
+      "target": "dcharatan/real_estate_10k_tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dcharatan/pixelsplat",
+      "target": "donydchen/mvsplat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "dcharatan/pixelsplat",
+      "target": "dcharatan/diff-gaussian-rasterization-modified",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "dcharatan/pixelsplat"
+}

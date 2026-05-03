@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Descriptor Pages Content"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate-context",
+      "text": "IntelliJ SDK Platform Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate-context",
+      "text": "Generate Descriptor Pages Content"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate",
+      "text": "Generate Descriptor Pages Content"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17705,
+      "status": "candidate",
+      "text": "generative grammar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17593,
+      "status": "candidate",
+      "text": "corrosive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17593,
+      "status": "candidate",
+      "text": "exogenous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17557,
+      "status": "candidate",
+      "text": "directory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17552,
+      "status": "candidate",
+      "text": "capacity"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Descriptor Pages Content",
+  "concept_id": "generate-descriptor-pages-content",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/generate-descriptor-pages.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Descriptor Pages Content",
+      "sense_id": "generate-descriptor-pages-content#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

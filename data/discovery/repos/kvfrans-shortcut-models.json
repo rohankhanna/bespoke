@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kvfrans/shortcut-models",
+      "target": "kvfrans/tfds_builders",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:47.299966+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4396
+    },
+    {
+      "path": "requirements.txt",
+      "size": 354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kvfrans/shortcut-models",
+    "html_url": "https://github.com/kvfrans/shortcut-models",
+    "language": "Python",
+    "pushed_at": "2024-12-05T17:41:18Z",
+    "stargazers_count": 755,
+    "topics": [],
+    "updated_at": "2026-04-28T08:44:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kvfrans/tfds_builders",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

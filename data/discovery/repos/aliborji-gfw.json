@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T01:47:02.000121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generated Faces in the Wild Dataset and Code",
+    "fork": false,
+    "full_name": "aliborji/GFW",
+    "html_url": "https://github.com/aliborji/GFW",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-03-02T21:20:58Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-02-05T08:48:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

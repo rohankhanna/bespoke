@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jrblevin/markdown-mode",
+      "target": "fanael/edit-indirect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jrblevin/markdown-mode",
+      "target": "blog/1825-task-lists-in-all-markdown-documents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jrblevin/markdown-mode",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jrblevin/markdown-mode",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrblevin/markdown-mode",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrblevin/markdown-mode",
+      "target": "gnu-emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrblevin/markdown-mode",
+      "target": "leanpub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrblevin/markdown-mode",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrblevin/markdown-mode",
+      "target": "markdown-editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jrblevin/markdown-mode",
+      "target": "plain-text",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:32.955848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57092
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs Markdown Mode",
+    "fork": false,
+    "full_name": "jrblevin/markdown-mode",
+    "html_url": "https://github.com/jrblevin/markdown-mode",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-25T09:55:03Z",
+    "stargazers_count": 1015,
+    "topics": [
+      "emacs",
+      "gfm",
+      "gnu-emacs",
+      "leanpub",
+      "markdown",
+      "markdown-editor",
+      "plain-text"
+    ],
+    "updated_at": "2026-04-25T09:55:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blog/1825-task-lists-in-all-markdown-documents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fanael/edit-indirect",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![NonGNU ELPA badge][nongnu-elpa-badge]][nongnu-elpa-link] [![MELPA badge][melpa-badge]][melpa-link] [![MELPA stable badge][melpa-stable-badge]][melpa-stable-link] [![Github Actions Status][github-actions-badge]][github-actions-link] [![Guide to Markdown Mode for Emacs][leanpub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![NonGNU ELPA badge][nongnu-elpa-badge]][nongnu-elpa-link] [![MELPA badge][melpa-badge]][melpa-link] [![MELPA stable badge][melpa-stable-badge]][melpa-stable-link] [![Github Actions Status][github-actions-badge]][github-actions-link] [![Guide to Markdown Mode for Emacs][leanpub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnu-emacs"
+    },
+    {
+      "context_snippet": "[![NonGNU ELPA badge][nongnu-elpa-badge]][nongnu-elpa-link] [![MELPA badge][melpa-badge]][melpa-link] [![MELPA stable badge][melpa-stable-badge]][melpa-stable-link] [![Github Actions Status][github-actions-badge]][github-actions-link] [![Guide to Markdown Mode for Emacs][leanpub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leanpub"
+    },
+    {
+      "context_snippet": "[![NonGNU ELPA badge][nongnu-elpa-badge]][nongnu-elpa-link] [![MELPA badge][melpa-badge]][melpa-link] [![MELPA stable badge][melpa-stable-badge]][melpa-stable-link] [![Github Actions Status][github-actions-badge]][github-actions-link] [![Guide to Markdown Mode for Emacs][leanpub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![NonGNU ELPA badge][nongnu-elpa-badge]][nongnu-elpa-link] [![MELPA badge][melpa-badge]][melpa-link] [![MELPA stable badge][melpa-stable-badge]][melpa-stable-link] [![Github Actions Status][github-actions-badge]][github-actions-link] [![Guide to Markdown Mode for Emacs][leanpub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-editor"
+    },
+    {
+      "context_snippet": "[![NonGNU ELPA badge][nongnu-elpa-badge]][nongnu-elpa-link] [![MELPA badge][melpa-badge]][melpa-link] [![MELPA stable badge][melpa-stable-badge]][melpa-stable-link] [![Github Actions Status][github-actions-badge]][github-actions-link] [![Guide to Markdown Mode for Emacs][leanpub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plain-text"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "target": "thudm/visualglm-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "target": "xinyu1205/tag2text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "target": "opentalker/sadtalker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "target": "winfredy/sadtalker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "target": "automatic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "target": "grouned",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "target": "segment-anything",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "target": "visualglm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:43.826895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15444
+    },
+    {
+      "path": "requirements.txt",
+      "size": 574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "You can do anything by sota AI with prompt ,auto AI tools , VL larger model fine and project",
+    "fork": false,
+    "full_name": "positive666/Prompt-Can-Anything",
+    "html_url": "https://github.com/positive666/Prompt-Can-Anything",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-09-25T02:47:39Z",
+    "stargazers_count": 159,
+    "topics": [
+      "automatic",
+      "chatgpt",
+      "detection",
+      "grouned",
+      "python",
+      "segment-anything",
+      "stable-diffusion",
+      "visualglm"
+    ],
+    "updated_at": "2026-04-22T14:49:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opentalker/sadtalker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/visualglm-6b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "winfredy/sadtalker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinyu1205/tag2text",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"> English | <a href=\"README_zh.md\">\u4e2d\u6587</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> English | <a href=\"README_zh.md\">\u4e2d\u6587</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> English | <a href=\"README_zh.md\">\u4e2d\u6587</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> English | <a href=\"README_zh.md\">\u4e2d\u6587</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grouned"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> English | <a href=\"README_zh.md\">\u4e2d\u6587</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment-anything"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> English | <a href=\"README_zh.md\">\u4e2d\u6587</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> English | <a href=\"README_zh.md\">\u4e2d\u6587</a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualglm"
+    }
+  ]
+}

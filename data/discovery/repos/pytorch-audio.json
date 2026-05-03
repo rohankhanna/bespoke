@@ -1,0 +1,349 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_macos.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_aarch64_linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_aarch64_linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_windows.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "pytorch/audio",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/audio",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/audio",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_macos.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "source_repo": "pytorch/audio",
+      "target": "Build M1 Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_aarch64_linux.yml",
+      "source_repo": "pytorch/audio",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_aarch64_linux.yml",
+      "source_repo": "pytorch/audio",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_aarch64_linux.yml",
+      "source_repo": "pytorch/audio",
+      "target": "Build Aarch64 Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux.yml",
+      "source_repo": "pytorch/audio",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_linux.yml",
+      "source_repo": "pytorch/audio",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux.yml",
+      "source_repo": "pytorch/audio",
+      "target": "Build Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml",
+      "source_repo": "pytorch/audio",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels_windows.yml",
+      "source_repo": "pytorch/audio",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_windows.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_windows.yml",
+      "source_repo": "pytorch/audio",
+      "target": "Build Windows Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "pytorch/audio",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "pytorch/audio",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "pytorch/audio",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "pytorch/audio",
+      "target": "Integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/audio",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/audio",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/audio",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/audio",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/audio",
+      "target": "speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:16.862235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5357
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 158
+    },
+    {
+      "path": "requirements.txt",
+      "size": 152
+    },
+    {
+      "path": ".github/workflows/bandit.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/build-wheels-m1.yml",
+      "size": 1789
+    },
+    {
+      "path": ".github/workflows/build_wheels_aarch64_linux.yml",
+      "size": 1952
+    },
+    {
+      "path": ".github/workflows/build_wheels_linux.yml",
+      "size": 1774
+    },
+    {
+      "path": ".github/workflows/build_wheels_windows.yml",
+      "size": 1702
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 3024
+    },
+    {
+      "path": ".github/workflows/integration-test.yml",
+      "size": 2688
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Data manipulation and transformation for audio signal processing, powered by PyTorch",
+    "fork": false,
+    "full_name": "pytorch/audio",
+    "html_url": "https://github.com/pytorch/audio",
+    "language": "Python",
+    "pushed_at": "2026-05-02T11:48:06Z",
+    "stargazers_count": 2874,
+    "topics": [
+      "audio",
+      "audio-processing",
+      "io",
+      "machine-learning",
+      "python",
+      "pytorch",
+      "speech"
+    ],
+    "updated_at": "2026-05-01T04:25:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build M1 Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-m1.yml",
+      "term": "Build M1 Wheels"
+    },
+    {
+      "context_snippet": "Build Aarch64 Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_aarch64_linux.yml",
+      "term": "Build Aarch64 Linux Wheels"
+    },
+    {
+      "context_snippet": "Build Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_linux.yml",
+      "term": "Build Linux Wheels"
+    },
+    {
+      "context_snippet": "Build Windows Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels_windows.yml",
+      "term": "Build Windows Wheels"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "term": "Integration tests"
+    },
+    {
+      "context_snippet": "torchaudio: an audio library for PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "torchaudio: an audio library for PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "torchaudio: an audio library for PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "torchaudio: an audio library for PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "torchaudio: an audio library for PyTorch",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    }
+  ]
+}

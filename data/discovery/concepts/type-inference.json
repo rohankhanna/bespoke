@@ -67,6 +67,18 @@
       "source_repo": "gvergnaud/ts-pattern",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GammaTauAI/opentau",
+      "status": "candidate-context",
+      "text": "Using Large Language Models for Repo-wide Type Prediction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GammaTauAI/opentau",
+      "status": "candidate-context",
+      "text": "Implementation for the paper: [Type Prediction With Program Decomposition and Fill-in-the-Type Training. Federico Cassano, Ming-Ho Yee, Noah Shinn, Arjun Guha, Steven Holtzen.](https://arxiv.org/abs/2305.17145)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "gvergnaud/ts-pattern",
       "status": "candidate",
       "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GammaTauAI/opentau",
+      "status": "candidate",
+      "text": "Implementation for the paper: [Type Prediction With Program Decomposition and Fill-in-the-Type Training. Federico Cassano, Ming-Ho Yee, Noah Shinn, Arjun Guha, Steven Holtzen.](https://arxiv.org/abs/2305.17145)"
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +196,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "GammaTauAI/opentau"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

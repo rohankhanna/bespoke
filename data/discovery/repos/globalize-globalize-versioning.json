@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "globalize/globalize-versioning",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "globalize/globalize-versioning",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:05.531256+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1088
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Versioning support for the Globalize library",
+    "fork": false,
+    "full_name": "globalize/globalize-versioning",
+    "html_url": "https://github.com/globalize/globalize-versioning",
+    "language": "Ruby",
+    "pushed_at": "2025-07-30T09:26:16Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2025-08-30T16:11:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

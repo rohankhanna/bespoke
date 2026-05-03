@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T05:05:37.544821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1300
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Plans/WIP for MCP servers",
+    "fork": false,
+    "full_name": "danielrosehill/MCP-Server-Ideas",
+    "html_url": "https://github.com/danielrosehill/MCP-Server-Ideas",
+    "language": null,
+    "pushed_at": "2025-12-02T11:58:19Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-12-02T11:58:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

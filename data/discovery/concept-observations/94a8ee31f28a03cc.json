@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MFCC-based LipSync plug-in for Unity using Job System and Burst Compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "uLipSync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "uLipSync"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "job-system",
+      "sense_id": "job-system#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "job-system",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "job-system",
+  "observation_id": "94a8ee31f28a03cc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "job-system",
+  "source_context_snippet": "uLipSync",
+  "source_file": null,
+  "source_repo": "hecomi/uLipSync",
+  "source_repo_description": "MFCC-based LipSync plug-in for Unity using Job System and Burst Compiler"
+}

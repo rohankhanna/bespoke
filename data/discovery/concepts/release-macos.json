@@ -19,12 +19,30 @@
       "source_repo": "krzysztofzablocki/Sourcery",
       "status": "candidate-context",
       "text": "release macOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate-context",
+      "text": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate-context",
+      "text": "release macOS"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "krzysztofzablocki/Sourcery",
+      "status": "candidate",
+      "text": "release macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayN",
       "status": "candidate",
       "text": "release macOS"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release_macOS.yml",
       "source_repo": "krzysztofzablocki/Sourcery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-osx.yml",
+      "source_repo": "2dust/v2rayN"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "ai-forever/MoVQGAN",
       "status": "candidate-context",
       "text": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Guaishou74851/AdcSR",
+      "status": "candidate-context",
+      "text": "(CVPR 2025) Adversarial Diffusion Compression for Real-World Image Super-Resolution [PyTorch]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Guaishou74851/AdcSR",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ai-forever/MoVQGAN",
       "status": "candidate",
       "text": "[![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange.svg)](https://pytorch.org/) [![Huggingface space](https://img.shields.io/badge/\ud83e\udd17-Huggingface-yello.svg)](https://huggingface.co/ai-forever/MoVQGAN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Guaishou74851/AdcSR",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ai-forever/MoVQGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

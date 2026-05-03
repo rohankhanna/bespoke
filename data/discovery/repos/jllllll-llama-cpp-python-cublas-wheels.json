@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-basic.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-ggml.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-oobabooga-basic.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-oobabooga.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-rocm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheel-rocm.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "Build ROCm Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-basic.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "Build Basic Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-basic.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch-basic.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "Batch Build Basic Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-cpu.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch-cpu.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "Batch Build CPU-only Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-ggml.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch-ggml.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "Batch Build GGML Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-macos.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch-macos.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "Batch Build MacOS Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-oobabooga-basic.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-oobabooga.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-batch-rocm.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch-rocm.yml",
+      "source_repo": "jllllll/llama-cpp-python-cuBLAS-wheels",
+      "target": "Batch Build ROCm Wheels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:04:00.224952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3054
+    },
+    {
+      "path": ".github/workflows/build-wheel-rocm.yml",
+      "size": 616
+    },
+    {
+      "path": ".github/workflows/build-wheels-basic.yml",
+      "size": 630
+    },
+    {
+      "path": ".github/workflows/build-wheels-batch-basic.yml",
+      "size": 1115
+    },
+    {
+      "path": ".github/workflows/build-wheels-batch-cpu.yml",
+      "size": 1114
+    },
+    {
+      "path": ".github/workflows/build-wheels-batch-ggml.yml",
+      "size": 1102
+    },
+    {
+      "path": ".github/workflows/build-wheels-batch-macos.yml",
+      "size": 1135
+    },
+    {
+      "path": ".github/workflows/build-wheels-batch-oobabooga-basic.yml",
+      "size": 1140
+    },
+    {
+      "path": ".github/workflows/build-wheels-batch-oobabooga.yml",
+      "size": 1152
+    },
+    {
+      "path": ".github/workflows/build-wheels-batch-rocm.yml",
+      "size": 1741
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wheels for llama-cpp-python compiled with cuBLAS support",
+    "fork": false,
+    "full_name": "jllllll/llama-cpp-python-cuBLAS-wheels",
+    "html_url": "https://github.com/jllllll/llama-cpp-python-cuBLAS-wheels",
+    "language": "HTML",
+    "pushed_at": "2024-02-01T17:52:40Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-04-10T18:50:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build ROCm Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheel-rocm.yml",
+      "term": "Build ROCm Wheels"
+    },
+    {
+      "context_snippet": "Build Basic Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-basic.yml",
+      "term": "Build Basic Wheels"
+    },
+    {
+      "context_snippet": "Batch Build Basic Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch-basic.yml",
+      "term": "Batch Build Basic Wheels"
+    },
+    {
+      "context_snippet": "Batch Build CPU-only Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch-cpu.yml",
+      "term": "Batch Build CPU-only Wheels"
+    },
+    {
+      "context_snippet": "Batch Build GGML Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch-ggml.yml",
+      "term": "Batch Build GGML Wheels"
+    },
+    {
+      "context_snippet": "Batch Build MacOS Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch-macos.yml",
+      "term": "Batch Build MacOS Wheels"
+    },
+    {
+      "context_snippet": "Batch Build ROCm Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-batch-rocm.yml",
+      "term": "Batch Build ROCm Wheels"
+    }
+  ]
+}

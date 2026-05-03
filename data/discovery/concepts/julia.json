@@ -877,6 +877,198 @@
       "source_repo": "queryverse/ElectronDisplay.jl",
       "status": "candidate-context",
       "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate-context",
+      "text": "Python and Julia in harmony."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"docs/src/assets/logo.png\" alt=\"PythonCall.jl logo\" style=\"width: 100px;\"><br>PythonCall &amp;&nbsp;JuliaCall</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaStrings/LaTeXStrings.jl",
+      "status": "candidate-context",
+      "text": "convenient input and display of LaTeX equation strings for the Julia language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStrings/LaTeXStrings.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/JuliaStrings/LaTeXStrings.jl/workflows/CI/badge.svg)](https://github.com/JuliaStrings/LaTeXStrings.jl/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate-context",
+      "text": "Please do not feed the models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "status": "candidate-context",
+      "text": "No-overhead breakpoints in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "status": "candidate-context",
+      "text": "utilities for \"soft\" global scope in interactive Julia environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaLang/SoftGlobalScope.jl/workflows/CI/badge.svg)](https://github.com/JuliaLang/SoftGlobalScope.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate-context",
+      "text": "Arrays for working with categorical data (both nominal and ordinal)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate-context",
+      "text": "CategoricalArrays.jl"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate-context",
+      "text": "Metaprogramming tools for DataFrames"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate-context",
+      "text": "[![Coveralls](https://coveralls.io/repos/github/JuliaStats/DataFramesMeta.jl/badge.svg?branch=master)](https://coveralls.io/github/JuliaStats/DataFramesMeta.jl?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nalimilan/FreqTables.jl",
+      "status": "candidate-context",
+      "text": "Frequency tables in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalimilan/FreqTables.jl",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/nalimilan/FreqTables.jl/workflows/CI/badge.svg)](https://github.com/nalimilan/FreqTables.jl/actions?query=workflow%3ACI+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "status": "candidate-context",
+      "text": "Julia interface to gnuplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "status": "candidate-context",
+      "text": "Fast, general-purpose interactive applications for complex systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "status": "candidate-context",
+      "text": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/CSVFiles.jl",
+      "status": "candidate-context",
+      "text": "FileIO.jl integration for CSV files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/CSVFiles.jl",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/Query.jl",
+      "status": "candidate-context",
+      "text": "Query almost anything in julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/Query.jl",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate-context",
+      "text": "Add Conda dependencies to your Julia project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/JuliaPy/CondaPkg.jl/raw/main/logo.png\" alt=\"CondaPkg.jl logo\" style=\"width: 100px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate-context",
+      "text": "Utility package for accessing common Machine Learning datasets in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate-context",
+      "text": "[![Docs Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaML.github.io/MLDatasets.jl/stable)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "status": "candidate-context",
+      "text": "A Julia package for multivariate statistics and data analysis (e.g. dimension reduction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "status": "candidate-context",
+      "text": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate-context",
+      "text": "An interface for tables in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)"
     }
   ],
   "candidate_glosses": [
@@ -1317,6 +1509,102 @@
       "source_repo": "queryverse/ElectronDisplay.jl",
       "status": "candidate",
       "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate",
+      "text": "<h1><img src=\"docs/src/assets/logo.png\" alt=\"PythonCall.jl logo\" style=\"width: 100px;\"><br>PythonCall &amp;&nbsp;JuliaCall</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStrings/LaTeXStrings.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/JuliaStrings/LaTeXStrings.jl/workflows/CI/badge.svg)](https://github.com/JuliaStrings/LaTeXStrings.jl/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/SoftGlobalScope.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaLang/SoftGlobalScope.jl/workflows/CI/badge.svg)](https://github.com/JuliaLang/SoftGlobalScope.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/CategoricalArrays.jl",
+      "status": "candidate",
+      "text": "CategoricalArrays.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate",
+      "text": "[![Coveralls](https://coveralls.io/repos/github/JuliaStats/DataFramesMeta.jl/badge.svg?branch=master)](https://coveralls.io/github/JuliaStats/DataFramesMeta.jl?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nalimilan/FreqTables.jl",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/nalimilan/FreqTables.jl/workflows/CI/badge.svg)](https://github.com/nalimilan/FreqTables.jl/actions?query=workflow%3ACI+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl",
+      "status": "candidate",
+      "text": "DEPRECATED! Use Julia 1.9+. All plotting/animating code has been moved to the individual packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/CSVFiles.jl",
+      "status": "candidate",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/Query.jl",
+      "status": "candidate",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/JuliaPy/CondaPkg.jl/raw/main/logo.png\" alt=\"CondaPkg.jl logo\" style=\"width: 100px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLDatasets.jl",
+      "status": "candidate",
+      "text": "[![Docs Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://JuliaML.github.io/MLDatasets.jl/stable)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "status": "candidate",
+      "text": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/Tables.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/JuliaData/Tables.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/Tables.jl/actions?query=workflow%3ACI+branch%3Amaster)"
     }
   ],
   "candidate_related_terms": [
@@ -1864,11 +2152,155 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "queryverse/ElectronDisplay.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/PythonCall.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/Conda.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaStrings/LaTeXStrings.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDiff/BlueStyle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/model-zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDebug/Infiltrator.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/NBInclude.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/SoftGlobalScope.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/CategoricalArrays.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/DataFramesMeta.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nalimilan/FreqTables.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gcalderone/Gnuplot.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "queryverse/CSVFiles.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "queryverse/Query.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPy/CondaPkg.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaML/MLDatasets.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/Tables.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MakieOrg/Makie.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AltF02/mouse-rs",
+      "target": "dankdumpster/mouse-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AltF02/mouse-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AltF02/mouse-rs",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs",
+      "target": "mouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs",
+      "target": "mouse-emulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:04:29.348779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1656
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 943
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust library to control the mouse",
+    "fork": false,
+    "full_name": "AltF02/mouse-rs",
+    "html_url": "https://github.com/AltF02/mouse-rs",
+    "language": "Rust",
+    "pushed_at": "2023-08-19T06:29:25Z",
+    "stargazers_count": 126,
+    "topics": [
+      "library",
+      "mouse",
+      "mouse-emulation",
+      "rust"
+    ],
+    "updated_at": "2026-03-26T20:22:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dankdumpster/mouse-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "![Rust](https://github.com/DankDumpster/mouse-rs/workflows/Rust/badge.svg?style=flat-square) [![Docs](https://docs.rs/mouse-rs/badge.svg?style=flat-square)](https://docs.rs/mouse-rs) [![Crates.io](https://img.shields.io/crates/v/mouse-rs)](https://crates.io/crates/mouse-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "![Rust](https://github.com/DankDumpster/mouse-rs/workflows/Rust/badge.svg?style=flat-square) [![Docs](https://docs.rs/mouse-rs/badge.svg?style=flat-square)](https://docs.rs/mouse-rs) [![Crates.io](https://img.shields.io/crates/v/mouse-rs)](https://crates.io/crates/mouse-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mouse"
+    },
+    {
+      "context_snippet": "![Rust](https://github.com/DankDumpster/mouse-rs/workflows/Rust/badge.svg?style=flat-square) [![Docs](https://docs.rs/mouse-rs/badge.svg?style=flat-square)](https://docs.rs/mouse-rs) [![Crates.io](https://img.shields.io/crates/v/mouse-rs)](https://crates.io/crates/mouse-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mouse-emulation"
+    },
+    {
+      "context_snippet": "![Rust](https://github.com/DankDumpster/mouse-rs/workflows/Rust/badge.svg?style=flat-square) [![Docs](https://docs.rs/mouse-rs/badge.svg?style=flat-square)](https://docs.rs/mouse-rs) [![Crates.io](https://img.shields.io/crates/v/mouse-rs)](https://crates.io/crates/mouse-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

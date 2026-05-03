@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-windowing/gl-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-windowing/gl-rs",
+      "target": "binding-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-windowing/gl-rs",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-windowing/gl-rs",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-windowing/gl-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:07.082011+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2233
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 316
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An OpenGL function pointer loader for Rust",
+    "fork": false,
+    "full_name": "rust-windowing/gl-rs",
+    "html_url": "https://github.com/rust-windowing/gl-rs",
+    "language": "Rust",
+    "pushed_at": "2025-11-25T09:08:08Z",
+    "stargazers_count": 742,
+    "topics": [
+      "binding-generator",
+      "computer-graphics",
+      "opengl",
+      "rust"
+    ],
+    "updated_at": "2026-04-22T14:21:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binding-generator"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/rust-windowing/gl-rs/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

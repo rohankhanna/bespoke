@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:01:22.028580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2075
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1679
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "keszybz/fedora-repro",
+    "html_url": "https://github.com/keszybz/fedora-repro",
+    "language": "Python",
+    "pushed_at": "2025-10-30T13:18:49Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-03-03T15:04:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

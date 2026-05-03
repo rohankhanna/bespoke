@@ -1,0 +1,223 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msasanmh/DNSveil",
+      "target": "msasanmh/msmhagnosticserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "msasanmh/DNSveil",
+      "target": "valdikss/goodbyedpi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "anonymized-dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "anti-censorship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dns-over-htttps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dns-over-tcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dns-over-tls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dns-over-udp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dns-stamp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dnscrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dnslookup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "dpi-bypassing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "goodbyedpi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil",
+      "target": "http3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:20.888995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A DNS Client Supporting DNSCrypt, Anonymized DNSCrypt, DoH, DoT, UDP And TCP.",
+    "fork": false,
+    "full_name": "msasanmh/DNSveil",
+    "html_url": "https://github.com/msasanmh/DNSveil",
+    "language": "C#",
+    "pushed_at": "2026-02-23T17:00:48Z",
+    "stargazers_count": 1261,
+    "topics": [
+      "anonymized-dnscrypt",
+      "anti-censorship",
+      "dns-over-htttps",
+      "dns-over-tcp",
+      "dns-over-tls",
+      "dns-over-udp",
+      "dns-stamp",
+      "dnscrypt",
+      "dnslookup",
+      "dpi-bypassing",
+      "goodbyedpi",
+      "http3"
+    ],
+    "updated_at": "2026-05-01T17:51:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msasanmh/msmhagnosticserver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valdikss/goodbyedpi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anonymized-dnscrypt"
+    },
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anti-censorship"
+    },
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-htttps"
+    },
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-tcp"
+    },
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-tls"
+    },
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-over-udp"
+    },
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dns-stamp"
+    },
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnscrypt"
+    },
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnslookup"
+    },
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dpi-bypassing"
+    },
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "goodbyedpi"
+    },
+    {
+      "context_snippet": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http3"
+    }
+  ]
+}

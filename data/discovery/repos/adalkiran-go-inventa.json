@@ -1,0 +1,229 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adalkiran/go-inventa",
+      "target": "adalkiran/py-inventa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adalkiran/go-inventa",
+      "target": "adalkiran/inventa-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "cross-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "distributed-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "golang-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "remote-procedure-calls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "rpc-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "rpc-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/go-inventa",
+      "target": "service-discovery",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:26.747027+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3110
+    },
+    {
+      "path": "go.mod",
+      "size": 243
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Go library for microservice registry and executing RPC (Remote Procedure Call) over Redis.",
+    "fork": false,
+    "full_name": "adalkiran/go-inventa",
+    "html_url": "https://github.com/adalkiran/go-inventa",
+    "language": "Go",
+    "pushed_at": "2022-08-20T20:25:27Z",
+    "stargazers_count": 5,
+    "topics": [
+      "cross-language",
+      "cross-platform",
+      "distributed-computing",
+      "distributed-systems",
+      "go",
+      "golang-library",
+      "microservices",
+      "orchestration",
+      "redis",
+      "remote-procedure-calls",
+      "rpc",
+      "rpc-framework",
+      "rpc-library",
+      "service-discovery"
+    ],
+    "updated_at": "2025-03-19T03:40:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adalkiran/inventa-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adalkiran/py-inventa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-language"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-computing"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-library"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchestration"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remote-procedure-calls"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rpc-framework"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rpc-library"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-discovery"
+    }
+  ]
+}

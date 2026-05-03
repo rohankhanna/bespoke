@@ -1,0 +1,446 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-cheatsheet.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-cheatsheet.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker-ci-for-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-ci.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate-cheatsheet.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate-cheatsheet.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "Regenerate tactic cheatsheet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/self-runner.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "self-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "higher-order-logic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "lambda-calculus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "target": "theorem-proving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:00:04.601637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2993
+    },
+    {
+      "path": ".github/workflows/docker-ci-for-pr.yml",
+      "size": 2246
+    },
+    {
+      "path": ".github/workflows/docker-ci.yml",
+      "size": 4414
+    },
+    {
+      "path": ".github/workflows/regenerate-cheatsheet.yml",
+      "size": 1828
+    },
+    {
+      "path": ".github/workflows/self-runner.yml",
+      "size": 3003
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Canonical sources for HOL4 theorem-proving system.   Branch develop is where \u201cmainline development\u201d occurs; when develop passes our regression tests, master is merged forward to catch up.",
+    "fork": false,
+    "full_name": "HOL-Theorem-Prover/HOL",
+    "html_url": "https://github.com/HOL-Theorem-Prover/HOL",
+    "language": "Standard ML",
+    "pushed_at": "2026-05-03T01:28:37Z",
+    "stargazers_count": 740,
+    "topics": [
+      "higher-order-logic",
+      "lambda-calculus",
+      "theorem-proving"
+    ],
+    "updated_at": "2026-05-01T15:38:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "docker-ci-for-pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-ci-for-pr.yml",
+      "term": "docker-ci-for-pr"
+    },
+    {
+      "context_snippet": "docker-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-ci.yml",
+      "term": "docker-ci"
+    },
+    {
+      "context_snippet": "Regenerate tactic cheatsheet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate-cheatsheet.yml",
+      "term": "Regenerate tactic cheatsheet"
+    },
+    {
+      "context_snippet": "self-runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/self-runner.yml",
+      "term": "self-runner"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "higher-order-logic"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lambda-calculus"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/HOL-Theorem-Prover/HOL/actions/workflows/docker-ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theorem-proving"
+    }
+  ]
+}

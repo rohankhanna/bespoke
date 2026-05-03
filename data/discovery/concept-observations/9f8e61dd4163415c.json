@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "EchoNet-Dynamic is a deep learning model for assessing cardiac function in echocardiogram videos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034794,
+      "status": "candidate",
+      "text": "cardio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034625,
+      "status": "candidate",
+      "text": "cardiac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034595,
+      "status": "candidate",
+      "text": "cardiovascular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033561,
+      "status": "candidate",
+      "text": "heart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29832635,
+      "status": "candidate",
+      "text": "interventional"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cardiology",
+      "sense_id": "cardiology#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cardiology",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cardiology",
+  "observation_id": "9f8e61dd4163415c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "cardiology",
+  "source_context_snippet": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment",
+  "source_file": null,
+  "source_repo": "echonet/dynamic",
+  "source_repo_description": "EchoNet-Dynamic is a deep learning model for assessing cardiac function in echocardiogram videos."
+}

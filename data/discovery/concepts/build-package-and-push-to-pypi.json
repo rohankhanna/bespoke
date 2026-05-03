@@ -31,6 +31,18 @@
       "source_repo": "BrianPugh/cyclopts",
       "status": "candidate-context",
       "text": "Build package and push to PyPi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tvogels/pyexr",
+      "status": "candidate-context",
+      "text": "One-line EXR IO-library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tvogels/pyexr",
+      "status": "candidate-context",
+      "text": "Build package and push to PyPi"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "BrianPugh/cyclopts",
+      "status": "candidate",
+      "text": "Build package and push to PyPi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tvogels/pyexr",
       "status": "candidate",
       "text": "Build package and push to PyPi"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/deploy.yaml",
       "source_repo": "BrianPugh/cyclopts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "tvogels/pyexr"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

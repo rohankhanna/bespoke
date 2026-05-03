@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-commons/byte-streams",
+      "target": "clj-commons/manifold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-commons/byte-streams",
+      "target": "bytes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-commons/byte-streams",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-commons/byte-streams",
+      "target": "streams",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:49:49.679340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Rosetta stone for JVM byte representations",
+    "fork": false,
+    "full_name": "clj-commons/byte-streams",
+    "html_url": "https://github.com/clj-commons/byte-streams",
+    "language": "Clojure",
+    "pushed_at": "2025-03-30T10:35:54Z",
+    "stargazers_count": 429,
+    "topics": [
+      "bytes",
+      "clojure",
+      "streams"
+    ],
+    "updated_at": "2026-03-24T11:42:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clj-commons/manifold",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/org.clj-commons/byte-streams.svg)](https://clojars.org/org.clj-commons/byte-streams)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bytes"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/org.clj-commons/byte-streams.svg)](https://clojars.org/org.clj-commons/byte-streams)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/org.clj-commons/byte-streams.svg)](https://clojars.org/org.clj-commons/byte-streams)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streams"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "@codemirror/state",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@codemirror/view",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lezer/common",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lezer/highlight",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lezer/lr",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "style-mod",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@codemirror/buildhelper",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lezer/javascript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/language",
+      "target": "@codemirror/state",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/language",
+      "target": "@codemirror/view",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/language",
+      "target": "@lezer/common",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/language",
+      "target": "@lezer/highlight",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/language",
+      "target": "@lezer/lr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/language",
+      "target": "style-mod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/language",
+      "target": "@codemirror/buildhelper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/language",
+      "target": "@lezer/javascript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:54.096145+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2305
+    },
+    {
+      "path": "package.json",
+      "size": 1078
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Language support infrastructure for the CodeMirror code editor",
+    "fork": false,
+    "full_name": "codemirror/language",
+    "html_url": "https://github.com/codemirror/language",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-15T10:19:22Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-04-15T10:23:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jadestrong/lsp-volar",
+      "target": "raxod502/straight.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jadestrong/lsp-volar",
+      "target": "johnsoncodehk/volar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jadestrong/lsp-volar",
+      "target": "doom-emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jadestrong/lsp-volar",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jadestrong/lsp-volar",
+      "target": "lsp-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jadestrong/lsp-volar",
+      "target": "vetur",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jadestrong/lsp-volar",
+      "target": "volar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jadestrong/lsp-volar",
+      "target": "vue3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jadestrong/lsp-volar",
+      "target": "vue3-composition-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:57:47.343235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Language support for Vue3",
+    "fork": false,
+    "full_name": "jadestrong/lsp-volar",
+    "html_url": "https://github.com/jadestrong/lsp-volar",
+    "language": "Emacs Lisp",
+    "pushed_at": "2022-10-29T15:03:29Z",
+    "stargazers_count": 27,
+    "topics": [
+      "doom-emacs",
+      "emacs",
+      "lsp-mode",
+      "vetur",
+      "volar",
+      "vue",
+      "vue3",
+      "vue3-composition-api"
+    ],
+    "updated_at": "2026-01-01T10:14:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "johnsoncodehk/volar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raxod502/straight.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Language support for Vue3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doom-emacs"
+    },
+    {
+      "context_snippet": "Language support for Vue3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "Language support for Vue3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-mode"
+    },
+    {
+      "context_snippet": "Language support for Vue3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vetur"
+    },
+    {
+      "context_snippet": "Language support for Vue3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volar"
+    },
+    {
+      "context_snippet": "Language support for Vue3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue3"
+    },
+    {
+      "context_snippet": "Language support for Vue3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue3-composition-api"
+    }
+  ]
+}

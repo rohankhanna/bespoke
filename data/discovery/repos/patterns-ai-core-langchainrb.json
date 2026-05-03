@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "target": "patterns-ai-core/langchainrb_rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "target": "palladius/gemini-news-crawler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "target": "explodinggradients/ragas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "target": "patterns-ai-core/langchainrb.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/langchainrb",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb",
+      "target": "rubyml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/langchainrb",
+      "target": "vector-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:56:34.551784+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27148
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1488
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build LLM-powered applications in Ruby",
+    "fork": false,
+    "full_name": "patterns-ai-core/langchainrb",
+    "html_url": "https://github.com/patterns-ai-core/langchainrb",
+    "language": "Ruby",
+    "pushed_at": "2026-05-01T13:06:13Z",
+    "stargazers_count": 1982,
+    "topics": [
+      "agents",
+      "ai-agents",
+      "artificial-intelligence",
+      "machine-learning",
+      "ml",
+      "rubyml",
+      "vector-search"
+    ],
+    "updated_at": "2026-05-01T13:06:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "explodinggradients/ragas",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "palladius/gemini-news-crawler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patterns-ai-core/langchainrb.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patterns-ai-core/langchainrb_rails",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "\ud83d\udc8e\ud83d\udd17 Langchain.rb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "\ud83d\udc8e\ud83d\udd17 Langchain.rb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "\ud83d\udc8e\ud83d\udd17 Langchain.rb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubyml"
+    },
+    {
+      "context_snippet": "\ud83d\udc8e\ud83d\udd17 Langchain.rb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    }
+  ]
+}

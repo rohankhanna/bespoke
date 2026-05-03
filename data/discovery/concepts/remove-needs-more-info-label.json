@@ -31,6 +31,18 @@
       "source_repo": "MaureenZOU/detectron2-xyz",
       "status": "candidate-context",
       "text": "Remove needs-more-info label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xingyizhou/CenterNet2",
+      "status": "candidate-context",
+      "text": "Two-stage CenterNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xingyizhou/CenterNet2",
+      "status": "candidate-context",
+      "text": "Remove needs-more-info label"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "MaureenZOU/detectron2-xyz",
+      "status": "candidate",
+      "text": "Remove needs-more-info label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xingyizhou/CenterNet2",
       "status": "candidate",
       "text": "Remove needs-more-info label"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/remove-needs-reply.yml",
       "source_repo": "MaureenZOU/detectron2-xyz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/remove-needs-reply.yml",
+      "source_repo": "xingyizhou/CenterNet2"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

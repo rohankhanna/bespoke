@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benjiebob/StanfordExtra",
+      "target": "benjiebob/wldo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benjiebob/StanfordExtra",
+      "target": "camera-bath/rgbd-dog",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:43:57.664400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4921
+    },
+    {
+      "path": "requirements.txt",
+      "size": 141
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "12k labelled instances of dogs in-the-wild with 2D keypoint and segmentations. Dataset released with our ECCV 2020 paper: Who Left the Dogs Out? 3D Animal Reconstruction with Expectation Maximization in the Loop.",
+    "fork": false,
+    "full_name": "benjiebob/StanfordExtra",
+    "html_url": "https://github.com/benjiebob/StanfordExtra",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-11-02T19:34:01Z",
+    "stargazers_count": 110,
+    "topics": [],
+    "updated_at": "2026-01-23T03:17:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benjiebob/wldo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camera-bath/rgbd-dog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

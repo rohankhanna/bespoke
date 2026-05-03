@@ -43,6 +43,30 @@
       "source_repo": "handsontable/hyperformula",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caltechlibrary/datatools",
+      "status": "candidate-context",
+      "text": "A set of tools for working with JSON, CSV and Excel workbooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caltechlibrary/datatools",
+      "status": "candidate-context",
+      "text": "datatools"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate-context",
+      "text": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "handsontable/hyperformula",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caltechlibrary/datatools",
+      "status": "candidate",
+      "text": "datatools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PanJiaChen/vue-element-admin",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +130,23 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "docling-project/docling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "caltechlibrary/datatools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PanJiaChen/vue-element-admin"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

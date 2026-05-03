@@ -1,0 +1,316 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "reginald-mclean/metaworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "rainx0r/metaworld-algorithms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "Build and Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "Build artifact for PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "benchmark-environments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "meta-rl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "mujoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Farama-Foundation/Metaworld",
+      "target": "multi-task",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:13.948898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8109
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2166
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 892
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 625
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 562
+    },
+    {
+      "path": ".github/workflows/pypi-publish.yml",
+      "size": 1387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collections of robotics environments geared towards benchmarking multi-task and meta reinforcement learning",
+    "fork": false,
+    "full_name": "Farama-Foundation/Metaworld",
+    "html_url": "https://github.com/Farama-Foundation/Metaworld",
+    "language": "Python",
+    "pushed_at": "2026-01-20T16:15:11Z",
+    "stargazers_count": 1807,
+    "topics": [
+      "benchmark-environments",
+      "meta-rl",
+      "mujoco",
+      "multi-task"
+    ],
+    "updated_at": "2026-05-02T12:01:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rainx0r/metaworld-algorithms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reginald-mclean/metaworld",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build and Deploy Docs"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Build artifact for PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "term": "Build artifact for PyPI"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/metaworld.svg)](https://badge.fury.io/py/metaworld)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark-environments"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/metaworld.svg)](https://badge.fury.io/py/metaworld)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta-rl"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/metaworld.svg)](https://badge.fury.io/py/metaworld)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/pypi/pyversions/metaworld.svg)](https://badge.fury.io/py/metaworld)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-task"
+    }
+  ]
+}

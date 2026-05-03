@@ -1,0 +1,489 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "kgryte/tape",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "planeshifter/tap-min",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/constants-float64-ninf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/constants-float64-pinf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/math-base-assert-is-nan",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/math-base-napi-unary",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/math-base-special-ln",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/math-base-special-sqrt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/utils-library-manifest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/console-log-each-map",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/constants-float64-eps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/fs-read-file",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/fs-write-file",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/math-base-assert-is-negative-zero",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/math-base-assert-is-positive-zero",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/math-base-special-abs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/math-base-tools-evalrational-compile",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/math-base-tools-evalrational-compile-c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/random-array-uniform",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/string-format",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/string-substring-after",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/string-substring-before",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/time-current-year",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/utils-try-require",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "tap-min",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "@stdlib/bench-harness",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "cancel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_pull_requests.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "superbrothers/close-pull-request@9c18513d320d7b2c7185fb93396d0c664d5d8448",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "distributhor/workflow-webhook@48a40b380ce4593b6a6676528cd005986ae56629",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "stdlib-js/transform-errors-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "stdlib-js/bundle-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "productionize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "JS-DevTools/npm-publish@19c28f1ef146469e409470805ea4279d47c3d35c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "erfinv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "error",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "function",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "inverse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "math",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "mathematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "node-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "number",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "special",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/math-base-special-erfinv",
+      "target": "stdlib",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "stdlib-js/math-base-special-erfinv"
+}

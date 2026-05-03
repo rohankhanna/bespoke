@@ -1,0 +1,346 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2_clang64-aarch64.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2_clang64-aarch64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2_clang64-aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2_clang64.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2_clang64.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "libusb/libusb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "libusb/libusb",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "libusb/libusb",
+      "target": "Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "libusb/libusb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "libusb/libusb",
+      "target": "mymindstorm/setup-emsdk@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "libusb/libusb",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "libusb/libusb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "libusb/libusb",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "libusb/libusb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "libusb/libusb",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "libusb/libusb",
+      "target": "MSYS2 build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2_clang64-aarch64.yml",
+      "source_repo": "libusb/libusb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2_clang64-aarch64.yml",
+      "source_repo": "libusb/libusb",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2_clang64-aarch64.yml",
+      "source_repo": "libusb/libusb",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2_clang64-aarch64.yml",
+      "source_repo": "libusb/libusb",
+      "target": "MSYS2 aarch64 clang64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2_clang64.yml",
+      "source_repo": "libusb/libusb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2_clang64.yml",
+      "source_repo": "libusb/libusb",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2_clang64.yml",
+      "source_repo": "libusb/libusb",
+      "target": "MSYS2 clang64 build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "libusb/libusb",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "libusb/libusb",
+      "target": "microsoft/setup-msbuild@v1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "libusb/libusb",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "libusb/libusb",
+      "target": "Windows build and Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libusb/libusb",
+      "target": "libusb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:52:16.057451+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 895
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 1610
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 3374
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 987
+    },
+    {
+      "path": ".github/workflows/msys2.yml",
+      "size": 695
+    },
+    {
+      "path": ".github/workflows/msys2_clang64-aarch64.yml",
+      "size": 881
+    },
+    {
+      "path": ".github/workflows/msys2_clang64.yml",
+      "size": 534
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 1266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cross-platform library to access USB devices ",
+    "fork": false,
+    "full_name": "libusb/libusb",
+    "html_url": "https://github.com/libusb/libusb",
+    "language": "C",
+    "pushed_at": "2026-04-29T17:07:10Z",
+    "stargazers_count": 6045,
+    "topics": [
+      "c",
+      "libusb",
+      "usb"
+    ],
+    "updated_at": "2026-04-30T09:05:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "Android"
+    },
+    {
+      "context_snippet": "linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "linux"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "MSYS2 build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "term": "MSYS2 build"
+    },
+    {
+      "context_snippet": "MSYS2 aarch64 clang64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2_clang64-aarch64.yml",
+      "term": "MSYS2 aarch64 clang64"
+    },
+    {
+      "context_snippet": "MSYS2 clang64 build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2_clang64.yml",
+      "term": "MSYS2 clang64 build"
+    },
+    {
+      "context_snippet": "Windows build and Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows build and Package"
+    },
+    {
+      "context_snippet": "libusb is a library for USB device access from Linux, macOS,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libusb"
+    }
+  ]
+}

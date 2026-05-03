@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of very fast approximations to common geodesic measurements in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub Actions][actions badge]][actions]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub Actions][actions badge]][actions]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39901635,
+      "status": "candidate",
+      "text": "geodesical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39881922,
+      "status": "candidate",
+      "text": "geodetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29943463,
+      "status": "candidate",
+      "text": "geodesic line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29943462,
+      "status": "candidate",
+      "text": "timelike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19944732,
+      "status": "candidate",
+      "text": "geodesicity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "geodesic",
+      "sense_id": "geodesic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1023,
+      "status": "candidate",
+      "text": "geodetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14,
+      "status": "candidate",
+      "text": "geodesical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "geodesic line"
+    }
+  ],
+  "concept_id": "geodesic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "geodesic",
+  "observation_id": "38e83e99ea6119a8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "geodesic",
+  "source_context_snippet": "[![GitHub Actions][actions badge]][actions]",
+  "source_file": null,
+  "source_repo": "vipera/cheap-ruler-rs",
+  "source_repo_description": "A collection of very fast approximations to common geodesic measurements in Rust"
+}

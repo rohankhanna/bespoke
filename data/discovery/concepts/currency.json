@@ -31,6 +31,30 @@
       "source_repo": "attack68/rateslib",
       "status": "candidate-context",
       "text": "<div style=\"text-align: center; padding: 2em 0 2em\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate-context",
+      "text": "ISO 3116 country information in JSON format to be included in other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate-context",
+      "text": "Countries data - JSON"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countries/countries-data-yaml",
+      "status": "candidate-context",
+      "text": "ISO 3116 country information in YAML format to be included in other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-yaml",
+      "status": "candidate-context",
+      "text": "Countries data - YAML"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "attack68/rateslib",
       "status": "candidate",
       "text": "<div style=\"text-align: center; padding: 2em 0 2em\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate",
+      "text": "Countries data - JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-yaml",
+      "status": "candidate",
+      "text": "Countries data - YAML"
     }
   ],
   "candidate_related_terms": [
@@ -122,11 +158,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "attack68/rateslib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "countries/countries-data-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "countries/countries-data-yaml"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

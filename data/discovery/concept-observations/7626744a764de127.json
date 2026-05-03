@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Avatars Gallery for Taichi Repos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Avatars Gallery for Taichi Repos"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21490,
+      "status": "candidate",
+      "text": "exhibitioner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21432,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21432,
+      "status": "candidate",
+      "text": "daybed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21432,
+      "status": "candidate",
+      "text": "vary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17490,
+      "status": "candidate",
+      "text": "direct"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Avatars Gallery for Taichi Repos",
+      "sense_id": "update-avatars-gallery-for-taichi-repos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-avatars-gallery-for-taichi-repos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-avatars-gallery-for-taichi-repos",
+  "observation_id": "7626744a764de127",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Update Avatars Gallery for Taichi Repos",
+  "source_context_snippet": "Update Avatars Gallery for Taichi Repos",
+  "source_file": ".github/workflows/update_avatars.yml",
+  "source_repo": "taichi-dev/public_files",
+  "source_repo_description": null
+}

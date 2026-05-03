@@ -1,0 +1,166 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "bmuschko/gradle-nexus-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "cbeust/testng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "allegro/hermes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "braintree/braintree_android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "continuous-delivery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "gradle-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "groovy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "mavencentral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "target": "nexus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:57:14.847058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automatize releasing Gradle projects to Maven Central.",
+    "fork": false,
+    "full_name": "Codearte/gradle-nexus-staging-plugin",
+    "html_url": "https://github.com/Codearte/gradle-nexus-staging-plugin",
+    "language": "Groovy",
+    "pushed_at": "2022-10-22T15:19:32Z",
+    "stargazers_count": 175,
+    "topics": [
+      "artifacts",
+      "cd",
+      "ci",
+      "continuous-delivery",
+      "gradle-plugin",
+      "groovy",
+      "jar",
+      "mavencentral",
+      "nexus"
+    ],
+    "updated_at": "2026-04-24T10:47:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allegro/hermes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bmuschko/gradle-nexus-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "braintree/braintree_android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cbeust/testng",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin.svg?branch=master)](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artifacts"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin.svg?branch=master)](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "continuous-delivery"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin.svg?branch=master)](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-plugin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin.svg?branch=master)](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "groovy"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin.svg?branch=master)](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mavencentral"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin.svg?branch=master)](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nexus"
+    }
+  ]
+}

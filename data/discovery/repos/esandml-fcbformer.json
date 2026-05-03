@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:39:33.215156+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8036
+    },
+    {
+      "path": "requirements.txt",
+      "size": 136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official code repository for: FCN-Transformer Feature Fusion for Polyp Segmention (MIUA 2022 paper) ",
+    "fork": false,
+    "full_name": "ESandML/FCBFormer",
+    "html_url": "https://github.com/ESandML/FCBFormer",
+    "language": "Python",
+    "pushed_at": "2024-01-17T17:04:28Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-04-08T05:27:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

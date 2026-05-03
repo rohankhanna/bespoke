@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "target": "charleschiugit/logseq-hugo-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "target": "features/actions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "target": "peaceiris/actions-hugo@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "target": "github pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "target": "hugo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "target": "logseq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:54:11.196005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8268
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 789
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is a HUGO website template for Logseq users who wants their published posts to look more like a personal website, using GitHub Pages to host the website and logseq-schrodinger to export your Logseq pages.",
+    "fork": false,
+    "full_name": "charliie-dev/Logseq-Hugo-Template",
+    "html_url": "https://github.com/charliie-dev/Logseq-Hugo-Template",
+    "language": "HTML",
+    "pushed_at": "2024-09-30T20:58:27Z",
+    "stargazers_count": 92,
+    "topics": [
+      "github-pages",
+      "hugo",
+      "logseq"
+    ],
+    "updated_at": "2026-02-26T08:38:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charleschiugit/logseq-hugo-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "features/actions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "github pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "github pages"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-pages"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hugo"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logseq"
+    }
+  ]
+}

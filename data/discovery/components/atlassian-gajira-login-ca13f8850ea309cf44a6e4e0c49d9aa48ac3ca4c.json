@@ -1,0 +1,12 @@
+{
+  "component": "atlassian/gajira-login@ca13f8850ea309cf44a6e4e0c49d9aa48ac3ca4c",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jira-issues.yml",
+      "source_repo": "hashicorp/terraform-provider-helm"
+    }
+  ]
+}

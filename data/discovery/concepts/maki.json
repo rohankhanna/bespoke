@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "maki"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/maki",
+      "status": "candidate-context",
+      "text": "A POI Icon Set"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/maki",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/mapbox/maki.svg?branch=main)](https://travis-ci.com/mapbox/maki)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/maki",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/mapbox/maki.svg?branch=main)](https://travis-ci.com/mapbox/maki)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19935377,
+      "status": "candidate",
+      "text": "macchi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19843542,
+      "status": "candidate",
+      "text": "mackay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18917236,
+      "status": "candidate",
+      "text": "davy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18490121,
+      "status": "candidate",
+      "text": "mckee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18452627,
+      "status": "candidate",
+      "text": "mackie"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "maki",
+  "concept_id": "maki",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/maki"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maki",
+      "sense_id": "maki#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

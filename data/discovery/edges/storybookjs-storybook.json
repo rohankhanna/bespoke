@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
-      "target": "literalpie/storybook-framework-qwik",
+      "target": "storybookjs/native",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
-      "target": "solidjs-community/storybook",
+      "target": "storybookjs/addon-graphql",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
-      "target": "storybookjs/addon-cssresources",
+      "target": "storybookjs/addon-queryparams",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
-      "target": "storybookjs/addon-design-assets",
+      "target": "storybookjs/brand",
       "target_type": "repository"
     },
     {
@@ -407,6 +407,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "storybookjs/storybook"
 }

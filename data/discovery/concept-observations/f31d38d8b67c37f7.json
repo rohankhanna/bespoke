@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Small standalone tool for interprocess communication in CoSimulation contexts for coupling and exchanging data between different solvers or other software-tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "~~~"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "~~~"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007141,
+      "status": "candidate",
+      "text": "pairing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006704,
+      "status": "candidate",
+      "text": "conjugation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005900,
+      "status": "candidate",
+      "text": "union"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005049,
+      "status": "candidate",
+      "text": "mating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39928527,
+      "status": "candidate",
+      "text": "sexual union"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "coupling",
+      "sense_id": "coupling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20064,
+      "status": "candidate",
+      "text": "yoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5035,
+      "status": "candidate",
+      "text": "pairing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5012,
+      "status": "candidate",
+      "text": "sexual union"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4048,
+      "status": "candidate",
+      "text": "conjugation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4035,
+      "status": "candidate",
+      "text": "mating"
+    }
+  ],
+  "concept_id": "coupling",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "coupling",
+  "observation_id": "f31d38d8b67c37f7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "coupling",
+  "source_context_snippet": "~~~",
+  "source_file": null,
+  "source_repo": "KratosMultiphysics/CoSimIO",
+  "source_repo_description": "Small standalone tool for interprocess communication in CoSimulation contexts for coupling and exchanging data between different solvers or other software-tools."
+}

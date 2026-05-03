@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unlimblue/KNN_CUDA",
+      "target": "vincentfpgarcia/knn-cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unlimblue/KNN_CUDA",
+      "target": "chrischoy/pytorch_knn_cuda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unlimblue/KNN_CUDA",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unlimblue/KNN_CUDA",
+      "target": "knn-cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unlimblue/KNN_CUDA",
+      "target": "pytorch-knn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:54.330872+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2005
+    },
+    {
+      "path": "requirements.txt",
+      "size": 32
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pytorch knn [cuda version]",
+    "fork": false,
+    "full_name": "unlimblue/KNN_CUDA",
+    "html_url": "https://github.com/unlimblue/KNN_CUDA",
+    "language": "Cuda",
+    "pushed_at": "2021-12-14T04:04:48Z",
+    "stargazers_count": 315,
+    "topics": [
+      "cuda",
+      "knn-cuda",
+      "pytorch-knn"
+    ],
+    "updated_at": "2026-04-18T10:04:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrischoy/pytorch_knn_cuda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vincentfpgarcia/knn-cuda",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "+ ref: [kNN-CUDA](https://github.com/vincentfpgarcia/kNN-CUDA)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "+ ref: [kNN-CUDA](https://github.com/vincentfpgarcia/kNN-CUDA)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knn-cuda"
+    },
+    {
+      "context_snippet": "+ ref: [kNN-CUDA](https://github.com/vincentfpgarcia/kNN-CUDA)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-knn"
+    }
+  ]
+}

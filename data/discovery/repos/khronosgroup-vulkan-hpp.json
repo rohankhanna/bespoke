@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-spec.yml"
+    },
+    {
+      "component": "actions/checkout@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "TheMrMilchmann/setup-msvc-dev@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set-version-tag.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-header-pr.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-header-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "jherico/vulkan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "andy-thomason/vookoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-spec.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-spec.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "CI Build with latest Vulkan-Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "actions/checkout@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "TheMrMilchmann/setup-msvc-dev@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "CI Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set-version-tag.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/set-version-tag.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "Set Version Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-header-pr.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-header-pr.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-header-pr.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "Update Vulkan-Headers PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:50:39.452767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6323
+    },
+    {
+      "path": ".github/workflows/build-latest-spec.yml",
+      "size": 1225
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 8529
+    },
+    {
+      "path": ".github/workflows/set-version-tag.yml",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/update-header-pr.yml",
+      "size": 2499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open-Source Vulkan C++ API",
+    "fork": false,
+    "full_name": "KhronosGroup/Vulkan-Hpp",
+    "html_url": "https://github.com/KhronosGroup/Vulkan-Hpp",
+    "language": "C++",
+    "pushed_at": "2026-05-02T00:36:41Z",
+    "stargazers_count": 3691,
+    "topics": [
+      "cpp",
+      "vulkan"
+    ],
+    "updated_at": "2026-05-02T19:12:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andy-thomason/vookoo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jherico/vulkan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Build with latest Vulkan-Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-latest-spec.yml",
+      "term": "CI Build with latest Vulkan-Docs"
+    },
+    {
+      "context_snippet": "CI Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "CI Build"
+    },
+    {
+      "context_snippet": "Set Version Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/set-version-tag.yml",
+      "term": "Set Version Tag"
+    },
+    {
+      "context_snippet": "Update Vulkan-Headers PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-header-pr.yml",
+      "term": "Update Vulkan-Headers PR"
+    },
+    {
+      "context_snippet": "- [Overview](#overview)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

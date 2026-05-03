@@ -31,6 +31,18 @@
       "source_repo": "cvg/depthsplat",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ltkong218/IFRNet",
+      "status": "candidate-context",
+      "text": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation (CVPR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ltkong218/IFRNet",
+      "status": "candidate-context",
+      "text": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "cvg/depthsplat",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ltkong218/IFRNet",
+      "status": "candidate",
+      "text": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022)."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "cvg/depthsplat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ltkong218/IFRNet"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

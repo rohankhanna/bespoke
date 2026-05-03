@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/voxel-challenge",
+      "target": "victoriacity/voxel-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/voxel-challenge",
+      "target": "yuanming-hu/voxel-art",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/voxel-challenge",
+      "target": "neozhaoliang/voxel-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "taichi-dev/voxel-challenge",
+      "target": "rexwangcc/taichi-voxel-challenge",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "taichi-dev/voxel-challenge"
+}

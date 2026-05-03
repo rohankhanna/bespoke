@@ -31,6 +31,18 @@
       "source_repo": "lit/lit",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1-Platform/op-components",
+      "status": "candidate-context",
+      "text": "One platform component library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1-Platform/op-components",
+      "status": "candidate-context",
+      "text": "![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "lit/lit",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1-Platform/op-components",
+      "status": "candidate",
+      "text": "![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "lit/lit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "1-Platform/op-components"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -197,6 +197,18 @@
       "source_repo": "proper-testing/proper",
       "status": "candidate-context",
       "text": "shellcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VOICEVOX/onnxruntime-builder",
+      "status": "candidate-context",
+      "text": "VOICEVOX CORE\u3067\u5229\u7528\u3059\u308bonnxruntime\u306e\u30d3\u30eb\u30c9\u3092\u884c\u3046\u30ea\u30dd\u30b8\u30c8\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/onnxruntime-builder",
+      "status": "candidate-context",
+      "text": "ShellCheck"
     }
   ],
   "candidate_glosses": [
@@ -295,6 +307,12 @@
       "source_repo": "proper-testing/proper",
       "status": "candidate",
       "text": "shellcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/onnxruntime-builder",
+      "status": "candidate",
+      "text": "ShellCheck"
     }
   ],
   "candidate_related_terms": [],
@@ -398,11 +416,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/shellcheck.yml",
       "source_repo": "proper-testing/proper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/shellcheck.yml",
+      "source_repo": "VOICEVOX/onnxruntime-builder"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

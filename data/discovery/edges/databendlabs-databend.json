@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/iceberg-rust",
+      "target": "databendlabs/opensrv",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/databend-base",
+      "target": "datafuse-extras/arrow-udf",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/databend-meta",
+      "target": "datafuse-extras/async-backtrace",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "databendlabs/databend",
-      "target": "databendlabs/map-api",
+      "target": "databendlabs/sub-cache",
       "target_type": "repository"
     },
     {
@@ -302,6 +302,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "databendlabs/databend"
 }

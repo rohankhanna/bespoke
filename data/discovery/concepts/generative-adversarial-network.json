@@ -343,6 +343,42 @@
       "source_repo": "tlatkowski/inpainting-gmcnn-keras",
       "status": "candidate-context",
       "text": "![](https://img.shields.io/badge/Python-3.6-blue.svg) ![](https://img.shields.io/badge/Keras-2.2.4-blue.svg) ![](https://img.shields.io/badge/TensorFlow-1.12.0-blue.svg) ![](https://img.shields.io/badge/License-MIT-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate-context",
+      "text": "The official implementation of \"Train Sparsely, Generate Densely: Memory-efficient Unsupervised Training of High-resolution Temporal GAN\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate-context",
+      "text": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "barisgecer/GANFit",
+      "status": "candidate-context",
+      "text": "Project Page of 'GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction' [CVPR2019]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barisgecer/GANFit",
+      "status": "candidate-context",
+      "text": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/data-efficient-gans",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2020] Differentiable Augmentation for Data-Efficient GAN Training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/data-efficient-gans",
+      "status": "candidate-context",
+      "text": "<img src=\"imgs/interp.gif\"/>"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +549,24 @@
       "source_repo": "tlatkowski/inpainting-gmcnn-keras",
       "status": "candidate",
       "text": "![](https://img.shields.io/badge/Python-3.6-blue.svg) ![](https://img.shields.io/badge/Keras-2.2.4-blue.svg) ![](https://img.shields.io/badge/TensorFlow-1.12.0-blue.svg) ![](https://img.shields.io/badge/License-MIT-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pfnet-research/tgan2",
+      "status": "candidate",
+      "text": "![Generated samples by TGANv2](./images/tgan2_generated_faceforensics.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barisgecer/GANFit",
+      "status": "candidate",
+      "text": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/data-efficient-gans",
+      "status": "candidate",
+      "text": "<img src=\"imgs/interp.gif\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -802,11 +856,47 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pfnet-research/tgan2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "barisgecer/GANFit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/data-efficient-gans"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "bitergia/release-tools-check-changelog@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@643bc377ffa44ace6394b2b5d0d3950076de9f63",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "Bitergia/release-tools",
+      "target": "bitergia/release-tools-check-changelog@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "Bitergia/release-tools",
+      "target": "Check changelog file included",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Bitergia/release-tools",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Bitergia/release-tools",
+      "target": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Bitergia/release-tools",
+      "target": "actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Bitergia/release-tools",
+      "target": "actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Bitergia/release-tools",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Bitergia/release-tools",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Bitergia/release-tools",
+      "target": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Bitergia/release-tools",
+      "target": "coverallsapp/github-action@643bc377ffa44ace6394b2b5d0d3950076de9f63",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Bitergia/release-tools",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:06:04.636548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12510
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1138
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 217
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2930
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tools to create GrimoireLab releases",
+    "fork": false,
+    "full_name": "Bitergia/release-tools",
+    "html_url": "https://github.com/Bitergia/release-tools",
+    "language": "Python",
+    "pushed_at": "2025-10-10T08:45:54Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-10-10T08:45:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check changelog file included",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Check changelog file included"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    }
+  ]
+}

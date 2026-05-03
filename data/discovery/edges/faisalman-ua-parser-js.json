@@ -1,0 +1,363 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "detect-europe-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "is-standalone-pwa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "ua-is-frozen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "@babel/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "@babel/traverse",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "@jazzer.js/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "@playwright/test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "jshint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "lockfile-lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "requirejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "safe-regex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "tsd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "uglify-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-assistant-spam-detection.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-assistant-spam-detection.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "github/ai-moderator@81159c370785e295c97461ade67d7c33576e9319",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-assistant-spam-detection.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "AI Assistant: Spam Detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-codeql.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-codeql.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "github/codeql-action/init@ce64ddcb0d8d890d2df4a9d1c04ff297367dea2a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-codeql.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-codeql.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "github/codeql-action/analyze@ce64ddcb0d8d890d2df4a9d1c04ff297367dea2a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis-codeql.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "Analysis: CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-dependency.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-dependency.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis-dependency.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "Analysis: Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "ossf/scorecard-action@f49aabe0b5af0936a0987cfb85d86b75731b0186",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analysis-scorecard.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "github/codeql-action/upload-sarif@ce64ddcb0d8d890d2df4a9d1c04ff297367dea2a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analysis-scorecard.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "Analysis: Scorecard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-test.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-test.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-build-test.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "CI: Build & Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "docker/setup-buildx-action@4c0219f9ac200910dac592e362cb6617a21cc34b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "docker/login-action@343f7c4344506bcbf27e6996fab575069dac9d16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "docker/build-push-action@2cdde995de11925a030ce8070c3e4cbbdf0d34fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "Publish: Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "Publish: NPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "bot-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "browser-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "client-hints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "device-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "mobile-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "user-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faisalman/ua-parser-js",
+      "target": "user-agent-parser",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "faisalman/ua-parser-js"
+}

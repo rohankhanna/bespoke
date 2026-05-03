@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lightweight Application Launcher. Launch your webapp in the most popular open source web container available with a single command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Webapp Runner is designed to allow you to launch an exploded or compressed war that is on your filesystem into a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Webapp Runner is designed to allow you to launch an exploded or compressed war that is on your filesystem into a"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032462,
+      "status": "candidate",
+      "text": "tom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032638,
+      "status": "candidate",
+      "text": "ram-cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032637,
+      "status": "candidate",
+      "text": "she-cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032636,
+      "status": "candidate",
+      "text": "ingle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20032635,
+      "status": "candidate",
+      "text": "tonk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tomcat",
+      "sense_id": "tomcat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9052,
+      "status": "candidate",
+      "text": "tom"
+    }
+  ],
+  "concept_id": "tomcat",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tomcat",
+  "observation_id": "3681dce0d7ec8271",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "tomcat",
+  "source_context_snippet": "Webapp Runner is designed to allow you to launch an exploded or compressed war that is on your filesystem into a",
+  "source_file": null,
+  "source_repo": "heroku/webapp-runner",
+  "source_repo_description": "Lightweight Application Launcher. Launch your webapp in the most popular open source web container available with a single command."
+}

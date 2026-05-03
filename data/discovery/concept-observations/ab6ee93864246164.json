@@ -84,7 +84,7 @@
   "normalized_form": "lint-pr",
   "observation_id": "ab6ee93864246164",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Lint PR",
   "source_context_snippet": "\"Lint PR\"",
   "source_file": ".github/workflows/lint-pr.yml",

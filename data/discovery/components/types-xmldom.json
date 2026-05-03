@@ -1,7 +1,7 @@
 {
   "component": "@types/xmldom",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -17,6 +17,16 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "arthwang/vsc-logtalk"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Obsidian-TTRPG-Community/fantasy-statblocks"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "javalent/obsidian-leaflet"
     }
   ]
 }

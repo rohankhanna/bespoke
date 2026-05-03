@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WinDivert: Windows Packet Divert"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WinDivert: Windows Packet Divert"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WinDivert: Windows Packet Divert"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29937269,
+      "status": "candidate",
+      "text": "fire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29836816,
+      "status": "candidate",
+      "text": "server"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29836528,
+      "status": "candidate",
+      "text": "cybersecurity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29834524,
+      "status": "candidate",
+      "text": "stateful"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "firewall",
+      "sense_id": "firewall#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "firewall",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "firewall",
+  "observation_id": "5a15ba2d9fabe0dc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "firewall",
+  "source_context_snippet": "WinDivert: Windows Packet Divert",
+  "source_file": null,
+  "source_repo": "basil00/WinDivert",
+  "source_repo_description": "WinDivert: Windows Packet Divert"
+}

@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@3.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "target": "rust-gpu/rust-gpu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "target": "EmbarkStudios/cargo-deny-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "target": "JamesIves/github-pages-deploy-action@3.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "target": "Deploy docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "target": "gpu-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "target": "shaders",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:48:20.329263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3382
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2283
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 6069
+    },
+    {
+      "path": ".github/workflows/deploy_docs.yml",
+      "size": 704
+    },
+    {
+      "path": ".github/workflows/docs.sh",
+      "size": 453
+    },
+    {
+      "path": ".github/workflows/lint.sh",
+      "size": 2932
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\ud83d\udc09 Making Rust a first-class language and ecosystem for GPU shaders \ud83d\udea7",
+    "fork": false,
+    "full_name": "EmbarkStudios/rust-gpu",
+    "html_url": "https://github.com/EmbarkStudios/rust-gpu",
+    "language": "Rust",
+    "pushed_at": "2025-10-31T14:58:57Z",
+    "stargazers_count": 7582,
+    "topics": [
+      "gpu-programming",
+      "rust",
+      "shaders"
+    ],
+    "updated_at": "2026-05-02T07:17:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-gpu/rust-gpu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_docs.yml",
+      "term": "Deploy docs"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpu-programming"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<!-- Allow this file to not have a first line heading -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shaders"
+    }
+  ]
+}

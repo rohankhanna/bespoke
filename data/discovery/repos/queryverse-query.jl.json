@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "julia-testitems/testitem-workflow/.github/workflows/juliaci.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/juliaci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "queryverse/Query.jl",
+      "target": "juliadata/csv.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "queryverse/Query.jl",
+      "target": "juliacomputing/indexedtables.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "queryverse/Query.jl",
+      "target": "dysonance/temporal.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "queryverse/Query.jl",
+      "target": "fugroroames/typedtables.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/juliaci.yml",
+      "source_repo": "queryverse/Query.jl",
+      "target": "julia-testitems/testitem-workflow/.github/workflows/juliaci.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/juliaci.yml",
+      "source_repo": "queryverse/Query.jl",
+      "target": "Julia CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "queryverse/Query.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "queryverse/Query.jl",
+      "target": "queryverse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:51:22.811552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5192
+    },
+    {
+      "path": ".github/workflows/juliaci.yml",
+      "size": 594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Query almost anything in julia",
+    "fork": false,
+    "full_name": "queryverse/Query.jl",
+    "html_url": "https://github.com/queryverse/Query.jl",
+    "language": "Julia",
+    "pushed_at": "2026-03-21T19:47:48Z",
+    "stargazers_count": 401,
+    "topics": [
+      "julia",
+      "queryverse"
+    ],
+    "updated_at": "2026-04-07T13:58:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dysonance/temporal.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fugroroames/typedtables.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliacomputing/indexedtables.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliadata/csv.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Julia CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/juliaci.yml",
+      "term": "Julia CI"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "queryverse"
+    }
+  ]
+}

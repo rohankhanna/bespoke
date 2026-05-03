@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bkoelman/CSharpGuidelinesAnalyzer",
+      "target": "dennisdoomen/csharpguidelines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bkoelman/CSharpGuidelinesAnalyzer",
+      "target": "analyzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bkoelman/CSharpGuidelinesAnalyzer",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bkoelman/CSharpGuidelinesAnalyzer",
+      "target": "coding-guidelines",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:53:47.258989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6027
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Reports diagnostics for C# coding guidelines that are not already covered by Resharper.",
+    "fork": false,
+    "full_name": "bkoelman/CSharpGuidelinesAnalyzer",
+    "html_url": "https://github.com/bkoelman/CSharpGuidelinesAnalyzer",
+    "language": "C#",
+    "pushed_at": "2026-04-20T01:23:03Z",
+    "stargazers_count": 149,
+    "topics": [
+      "analyzer",
+      "c-sharp",
+      "coding-guidelines"
+    ],
+    "updated_at": "2026-04-20T01:44:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dennisdoomen/csharpguidelines",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/q37dldfggtcwf6u4/branch/master?svg=true)](https://ci.appveyor.com/project/bkoelman/csharpguidelinesanalyzer/branch/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analyzer"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/q37dldfggtcwf6u4/branch/master?svg=true)](https://ci.appveyor.com/project/bkoelman/csharpguidelinesanalyzer/branch/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "[![Build status](https://ci.appveyor.com/api/projects/status/q37dldfggtcwf6u4/branch/master?svg=true)](https://ci.appveyor.com/project/bkoelman/csharpguidelinesanalyzer/branch/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coding-guidelines"
+    }
+  ]
+}

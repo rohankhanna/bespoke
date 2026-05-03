@@ -1,0 +1,190 @@
+{
+  "components": [
+    {
+      "component": "clojure/build.ci/.github/workflows/doc-build.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/release.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/snapshot.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml"
+    },
+    {
+      "component": "clojure/build.ci/.github/workflows/test.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "clojure/build.ci/.github/workflows/doc-build.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "Build API Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "clojure/build.ci/.github/workflows/release.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "Release on demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "clojure/build.ci/.github/workflows/snapshot.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "Snapshot on demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "clojure/build.ci/.github/workflows/test.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "graph",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:54:42.095008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4005
+    },
+    {
+      "path": ".github/workflows/doc-build.yml",
+      "size": 229
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 528
+    },
+    {
+      "path": ".github/workflows/snapshot.yml",
+      "size": 191
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dependency graphs for deps.edn projects",
+    "fork": false,
+    "full_name": "clojure/tools.deps.graph",
+    "html_url": "https://github.com/clojure/tools.deps.graph",
+    "language": "Clojure",
+    "pushed_at": "2026-01-02T16:01:13Z",
+    "stargazers_count": 107,
+    "topics": [
+      "clojure",
+      "deps",
+      "edn",
+      "graph"
+    ],
+    "updated_at": "2026-01-02T16:01:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build API Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "term": "Build API Docs"
+    },
+    {
+      "context_snippet": "Release on demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release on demand"
+    },
+    {
+      "context_snippet": "Snapshot on demand",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "term": "Snapshot on demand"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "tools.deps.graph",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "tools.deps.graph",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deps"
+    },
+    {
+      "context_snippet": "tools.deps.graph",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    }
+  ]
+}

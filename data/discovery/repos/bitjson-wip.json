@@ -1,0 +1,225 @@
+{
+  "components": [
+    {
+      "component": "boxen",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "configstore",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "play-sound",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "update-notifier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cz-conventional-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ghooks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "validate-commit-msg",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "watch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bitjson/wip",
+      "target": "boxen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bitjson/wip",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bitjson/wip",
+      "target": "configstore",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bitjson/wip",
+      "target": "play-sound",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bitjson/wip",
+      "target": "update-notifier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bitjson/wip",
+      "target": "cz-conventional-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bitjson/wip",
+      "target": "ghooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bitjson/wip",
+      "target": "validate-commit-msg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bitjson/wip",
+      "target": "watch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitjson/wip",
+      "target": "naenae",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitjson/wip",
+      "target": "ship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitjson/wip",
+      "target": "simple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitjson/wip",
+      "target": "sound-effects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitjson/wip",
+      "target": "version-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitjson/wip",
+      "target": "work-in-progress",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:00:32.335538+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1391
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WIP & naenae: CLI utilities to easily manage Work In Progress with Git",
+    "fork": false,
+    "full_name": "bitjson/wip",
+    "html_url": "https://github.com/bitjson/wip",
+    "language": "JavaScript",
+    "pushed_at": "2023-11-25T14:12:22Z",
+    "stargazers_count": 49,
+    "topics": [
+      "git",
+      "naenae",
+      "ship",
+      "simple",
+      "sound-effects",
+      "version-control",
+      "wip",
+      "work-in-progress"
+    ],
+    "updated_at": "2025-11-06T03:07:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "wip \u2014 command line utilities to better manage WIP (Work In Progress) with Git",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "naenae"
+    },
+    {
+      "context_snippet": "wip \u2014 command line utilities to better manage WIP (Work In Progress) with Git",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ship"
+    },
+    {
+      "context_snippet": "wip \u2014 command line utilities to better manage WIP (Work In Progress) with Git",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simple"
+    },
+    {
+      "context_snippet": "wip \u2014 command line utilities to better manage WIP (Work In Progress) with Git",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sound-effects"
+    },
+    {
+      "context_snippet": "wip \u2014 command line utilities to better manage WIP (Work In Progress) with Git",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-control"
+    },
+    {
+      "context_snippet": "wip \u2014 command line utilities to better manage WIP (Work In Progress) with Git",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "work-in-progress"
+    }
+  ]
+}

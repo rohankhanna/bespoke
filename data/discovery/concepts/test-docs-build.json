@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test docs build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "status": "candidate-context",
+      "text": "Lock, Stock, and Two Smoking MicroVMs. Create and manage the lifecycle of MicroVMs backed by containerd."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "status": "candidate-context",
+      "text": "Test docs build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/flintlock",
+      "status": "candidate",
+      "text": "Test docs build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22555,
+      "status": "candidate",
+      "text": "plexor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22491,
+      "status": "candidate",
+      "text": "accountancy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22491,
+      "status": "candidate",
+      "text": "accounting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22491,
+      "status": "candidate",
+      "text": "baron jean baptiste joseph fourier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22491,
+      "status": "candidate",
+      "text": "documentary"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test docs build",
+  "concept_id": "test-docs-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test-docs.yaml",
+      "source_repo": "liquidmetal-dev/flintlock"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test docs build",
+      "sense_id": "test-docs-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "synthesis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate-context",
+      "text": "World.JS is a JavaScript Wrapper for World Vocoder Powered by Emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"300\" src=\".github/ScreenShots/logo.v3.png\" alt=\"World.JS logo\"></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"300\" src=\".github/ScreenShots/logo.v3.png\" alt=\"World.JS logo\"></p>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028267,
+      "status": "candidate",
+      "text": "deductive reasoning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008450,
+      "status": "candidate",
+      "text": "deduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045185,
+      "status": "candidate",
+      "text": "synthetic thinking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045184,
+      "status": "candidate",
+      "text": "synthesize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045177,
+      "status": "candidate",
+      "text": "combination"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6064,
+      "status": "candidate",
+      "text": "deduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "deductive reasoning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "synthetic thinking"
+    }
+  ],
+  "canonical_name": "synthesis",
+  "concept_id": "synthesis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "YuzukiTsuru/World.JS"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "synthesis",
+      "sense_id": "synthesis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QuantuMope/GroundingDINO",
+      "target": "facebookresearch/segment-anything-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QuantuMope/GroundingDINO",
+      "target": "optimalscale/detgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QuantuMope/GroundingDINO",
+      "target": "microsoft/x-decoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QuantuMope/GroundingDINO",
+      "target": "ideacvr/awesome-detection-transformer",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "QuantuMope/GroundingDINO"
+}

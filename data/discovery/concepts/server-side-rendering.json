@@ -31,6 +31,30 @@
       "source_repo": "a-h/templ",
       "status": "candidate-context",
       "text": "![templ](https://github.com/a-h/templ/raw/main/templ.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate-context",
+      "text": "vue-i18n extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/@intlify/vue-i18n-extensions/next.svg)](https://www.npmjs.com/package/@intlify/vue-i18n-extensions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogjs/analog",
+      "status": "candidate-context",
+      "text": "The fullstack meta-framework for Angular. Powered by Vite and Nitro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogjs/analog",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "a-h/templ",
       "status": "candidate",
       "text": "![templ](https://github.com/a-h/templ/raw/main/templ.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/@intlify/vue-i18n-extensions/next.svg)](https://www.npmjs.com/package/@intlify/vue-i18n-extensions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogjs/analog",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "a-h/templ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "intlify/vue-i18n-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "analogjs/analog"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

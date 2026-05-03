@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Physics for three. Game engine "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Oimo](https://github.com/saharan/OimoPhysics/) &mdash;"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Oimo](https://github.com/saharan/OimoPhysics/) &mdash;"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "threejs",
+      "sense_id": "threejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "threejs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "threejs",
+  "observation_id": "89b1e641f2ac042c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "threejs",
+  "source_context_snippet": "[Oimo](https://github.com/saharan/OimoPhysics/) &mdash;",
+  "source_file": null,
+  "source_repo": "lo-th/phy",
+  "source_repo_description": "Physics for three. Game engine "
+}

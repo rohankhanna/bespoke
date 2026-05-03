@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Update docs"
+    "Update docs",
+    "Update Docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "unifyai/ivy",
       "status": "candidate-context",
       "text": "Update docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KentoNishi/torch-pitch-shift",
+      "status": "candidate-context",
+      "text": "Pitch-shift audio clips quickly with PyTorch (CUDA supported)! Additional utilities for searching efficient transformations are included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KentoNishi/torch-pitch-shift",
+      "status": "candidate-context",
+      "text": "Update Docs"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "unifyai/ivy",
       "status": "candidate",
       "text": "Update docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KentoNishi/torch-pitch-shift",
+      "status": "candidate",
+      "text": "Update Docs"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +185,29 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "KentoNishi/torch-pitch-shift"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

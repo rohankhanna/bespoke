@@ -268,14 +268,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "prime-rl/entropy-mechanism-of-rl",
+      "target": "project-numina/kimina-prover-rl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "pokee-ai/pokeeresearchoss",
+      "target": "prime-rl/simplevla-rl",
       "target_type": "repository"
     },
     {
@@ -531,7 +531,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-02T12:35:09.659609+00:00",
+  "fetched_at": "2026-05-03T03:00:13.518583+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -584,9 +584,9 @@
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
     "pushed_at": "2026-04-30T21:49:59Z",
-    "stargazers_count": 21046,
+    "stargazers_count": 21050,
     "topics": [],
-    "updated_at": "2026-05-02T07:06:14Z"
+    "updated_at": "2026-05-03T02:42:09Z"
   },
   "repo_links": [
     {
@@ -601,12 +601,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "pokee-ai/pokeeresearchoss",
+      "full_name": "prime-rl/simplevla-rl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "prime-rl/entropy-mechanism-of-rl",
+      "full_name": "project-numina/kimina-prover-rl",
       "source_file": "README.md"
     }
   ],

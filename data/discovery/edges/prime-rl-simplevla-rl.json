@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRIME-RL/SimpleVLA-RL",
+      "target": "moojink/openvla-oft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRIME-RL/SimpleVLA-RL",
+      "target": "lifelong-robot-learning/libero",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRIME-RL/SimpleVLA-RL",
+      "target": "behavior-robot-suite/brs-algo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRIME-RL/SimpleVLA-RL",
+      "target": "mees/calvin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRIME-RL/SimpleVLA-RL",
+      "target": "reasoning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "PRIME-RL/SimpleVLA-RL"
+}

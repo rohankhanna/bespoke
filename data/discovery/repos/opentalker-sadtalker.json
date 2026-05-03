@@ -1,0 +1,209 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "feiiyin/styleheat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "doubiiu/codetalker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "carlyx/dpe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "feiiyin/spi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "audio-driven-talking-face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "cvpr2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "deep-fake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "deep-fakes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "image-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "talking-face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "talking-face-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "talking-head",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenTalker/SadTalker",
+      "target": "talking-heads",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:56:11.730900+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17068
+    },
+    {
+      "path": "requirements.txt",
+      "size": 277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2023] SadTalker\uff1aLearning Realistic 3D Motion Coefficients for Stylized Audio-Driven Single Image Talking Face Animation",
+    "fork": false,
+    "full_name": "OpenTalker/SadTalker",
+    "html_url": "https://github.com/OpenTalker/SadTalker",
+    "language": "Python",
+    "pushed_at": "2024-06-26T12:51:53Z",
+    "stargazers_count": 13773,
+    "topics": [
+      "audio-driven-talking-face",
+      "cvpr2023",
+      "deep-fake",
+      "deep-fakes",
+      "image-animation",
+      "talking-face",
+      "talking-face-generation",
+      "talking-head",
+      "talking-heads"
+    ],
+    "updated_at": "2026-05-02T12:46:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carlyx/dpe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "doubiiu/codetalker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feiiyin/spi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feiiyin/styleheat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-driven-talking-face"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2023"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-fake"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-fakes"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-animation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "talking-face"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "talking-face-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "talking-head"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "talking-heads"
+    }
+  ]
+}

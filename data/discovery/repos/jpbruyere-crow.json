@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpbruyere/Crow",
+      "target": "jpbruyere/crowedit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpbruyere/Crow",
+      "target": "jpbruyere/vkchess.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpbruyere/Crow",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpbruyere/Crow",
+      "target": "cairo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:13.905408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C# Rapid Open Widgets",
+    "fork": false,
+    "full_name": "jpbruyere/Crow",
+    "html_url": "https://github.com/jpbruyere/Crow",
+    "language": "C#",
+    "pushed_at": "2025-07-29T08:47:15Z",
+    "stargazers_count": 60,
+    "topics": [
+      "c-sharp",
+      "cairo",
+      "gui",
+      "ui"
+    ],
+    "updated_at": "2025-07-12T15:45:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpbruyere/crowedit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpbruyere/vkchess.net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cairo"
+    }
+  ]
+}

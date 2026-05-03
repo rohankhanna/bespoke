@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "StandardRB Action: A GitHub Action to run StandardRB against your code!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018288,
+      "status": "candidate",
+      "text": "standardized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016175,
+      "status": "candidate",
+      "text": "common"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015937,
+      "status": "candidate",
+      "text": "criterial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013112,
+      "status": "candidate",
+      "text": "normative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011721,
+      "status": "candidate",
+      "text": "prescriptive"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "standard",
+      "sense_id": "standard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40051,
+      "status": "candidate",
+      "text": "common"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26089,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25038,
+      "status": "candidate",
+      "text": "definitive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21062,
+      "status": "candidate",
+      "text": "basic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19048,
+      "status": "candidate",
+      "text": "regular"
+    }
+  ],
+  "concept_id": "standard",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "standard",
+  "observation_id": "76594df35aab5def",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "standard",
+  "source_context_snippet": "> [!CAUTION]",
+  "source_file": null,
+  "source_repo": "andrewmcodes/standardrb-action",
+  "source_repo_description": "StandardRB Action: A GitHub Action to run StandardRB against your code!"
+}

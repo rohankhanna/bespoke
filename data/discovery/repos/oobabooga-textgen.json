@@ -275,11 +275,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:26:21.115466+00:00",
+  "fetched_at": "2026-05-03T03:56:50.930849+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 30925
+      "size": 30766
     },
     {
       "path": ".github/workflows/build-everything-tgw.yml",
@@ -287,42 +287,42 @@
     },
     {
       "path": ".github/workflows/build-portable-release-cuda.yml",
-      "size": 6346
+      "size": 8486
     },
     {
       "path": ".github/workflows/build-portable-release-ik-cuda.yml",
-      "size": 6536
+      "size": 8854
     },
     {
       "path": ".github/workflows/build-portable-release-ik.yml",
-      "size": 6267
+      "size": 8585
     },
     {
       "path": ".github/workflows/build-portable-release-rocm.yml",
-      "size": 6031
+      "size": 8171
     },
     {
       "path": ".github/workflows/build-portable-release-vulkan.yml",
-      "size": 6034
+      "size": 8174
     },
     {
       "path": ".github/workflows/build-portable-release.yml",
-      "size": 7491
+      "size": 9631
     }
   ],
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "The original local LLM interface. Text, vision, tool-calling, training. UI + API, 100% offline and private.",
+    "description": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API.",
     "fork": false,
     "full_name": "oobabooga/textgen",
     "html_url": "https://github.com/oobabooga/textgen",
     "language": "Python",
-    "pushed_at": "2026-05-02T05:12:51Z",
-    "stargazers_count": 46920,
+    "pushed_at": "2026-05-03T02:39:10Z",
+    "stargazers_count": 46923,
     "topics": [],
-    "updated_at": "2026-05-02T15:54:18Z"
+    "updated_at": "2026-05-03T02:38:48Z"
   },
   "repo_links": [
     {

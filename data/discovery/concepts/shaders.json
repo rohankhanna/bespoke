@@ -94,6 +94,30 @@
       "source_repo": "naelstrof/slop",
       "status": "candidate-context",
       "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "status": "candidate-context",
+      "text": "\ud83d\udc09 Making Rust a first-class language and ecosystem for GPU shaders \ud83d\udea7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "status": "candidate-context",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "status": "candidate-context",
+      "text": "\ud83d\udc09 Making Rust a first-class language and ecosystem for GPU shaders \ud83d\udea7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "status": "candidate-context",
+      "text": "<!-- Allow this file to not have a first line heading -->"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +162,18 @@
       "source_repo": "naelstrof/slop",
       "status": "candidate",
       "text": "slop (Select Operation) is an application that queries for a selection from the user and prints the region to stdout."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/rust-gpu",
+      "status": "candidate",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rust-GPU/rust-gpu",
+      "status": "candidate",
+      "text": "<!-- Allow this file to not have a first line heading -->"
     }
   ],
   "candidate_related_terms": [
@@ -229,11 +265,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "AcademySoftwareFoundation/OpenShadingLanguage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rust-gpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Rust-GPU/rust-gpu"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

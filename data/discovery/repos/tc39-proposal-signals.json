@@ -1,0 +1,201 @@
+{
+  "components": [
+    {
+      "component": "@tc39/ecma262-biblio",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ecmarkup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "ljharb/actions/node/install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-signals",
+      "target": "proposal-signals/signal-polyfill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-signals",
+      "target": "proposal-signals/proposal-signals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-signals",
+      "target": "tc39/proposal-async-context",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-signals",
+      "target": "nullvoxpopuli/signal-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-signals",
+      "target": "@tc39/ecma262-biblio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-signals",
+      "target": "ecmarkup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tc39/proposal-signals",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tc39/proposal-signals",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tc39/proposal-signals",
+      "target": "Build spec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "tc39/proposal-signals",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "tc39/proposal-signals",
+      "target": "ljharb/actions/node/install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "tc39/proposal-signals",
+      "target": "JamesIves/github-pages-deploy-action@v4.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "tc39/proposal-signals",
+      "target": "Deploy gh-pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:51.886086+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 65354
+    },
+    {
+      "path": "package.json",
+      "size": 718
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 287
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A proposal to add signals to JavaScript.",
+    "fork": false,
+    "full_name": "tc39/proposal-signals",
+    "html_url": "https://github.com/tc39/proposal-signals",
+    "language": null,
+    "pushed_at": "2026-01-25T20:23:21Z",
+    "stargazers_count": 4104,
+    "topics": [],
+    "updated_at": "2026-05-01T01:16:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nullvoxpopuli/signal-utils",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "proposal-signals/proposal-signals",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "proposal-signals/signal-polyfill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-async-context",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build spec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build spec"
+    },
+    {
+      "context_snippet": "Deploy gh-pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy gh-pages"
+    }
+  ]
+}

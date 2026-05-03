@@ -271,20 +271,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cocos/cocos-engine",
-      "target": "cocos/cocos-tutorial-mind-your-step",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "cocos/cocos-engine",
-      "target": "cocos/cocos-test-projects",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "cocos/cocos-engine",
       "target": "cocos-creator/engine",
@@ -753,7 +739,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:37:38.530370+00:00",
+  "fetched_at": "2026-05-03T04:05:54.902848+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -829,16 +815,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "cocos-creator/engine",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cocos/cocos-test-projects",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cocos/cocos-tutorial-mind-your-step",
       "source_file": "README.md"
     },
     {

@@ -128,6 +128,12 @@
       "source_repo": "kysely-org/kysely",
       "status": "candidate-context",
       "text": "bench"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/reth",
+      "status": "candidate-context",
+      "text": "bench"
     }
   ],
   "candidate_glosses": [
@@ -188,6 +194,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kysely-org/kysely",
+      "status": "candidate",
+      "text": "bench"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnb-chain/reth",
       "status": "candidate",
       "text": "bench"
     }
@@ -328,11 +340,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/bench.yml",
       "source_repo": "kysely-org/kysely"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "bnb-chain/reth"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

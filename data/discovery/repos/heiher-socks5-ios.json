@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T05:05:13.269477+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple and lightweight socks5 server for iOS.",
+    "fork": false,
+    "full_name": "heiher/socks5-ios",
+    "html_url": "https://github.com/heiher/socks5-ios",
+    "language": "Swift",
+    "pushed_at": "2025-10-06T03:21:36Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-05-02T04:12:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

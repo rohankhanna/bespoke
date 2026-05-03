@@ -82,6 +82,18 @@
       "source_repo": "ocaml/dune",
       "status": "candidate-context",
       "text": "Binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate-context",
+      "text": "Independent verification of binary packages - Reproducible Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate-context",
+      "text": "Binaries"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ocaml/dune",
+      "status": "candidate",
+      "text": "Binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
       "status": "candidate",
       "text": "Binaries"
     }
@@ -253,11 +271,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/binaries.yml",
       "source_repo": "ocaml/dune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/binaries.yml",
+      "source_repo": "kpcyrd/rebuilderd"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

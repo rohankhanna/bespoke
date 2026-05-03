@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "netdur/hugind",
+      "target": "netdur/llama_cpp_rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "netdur/hugind",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "netdur/hugind",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "netdur/hugind",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "netdur/hugind",
+      "target": "llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "netdur/hugind",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "netdur/hugind",
+      "target": "scrum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "netdur/hugind",
+      "target": "vllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "netdur/hugind",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:15.329452+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7163
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1441
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "vLLM for poor GPUs",
+    "fork": false,
+    "full_name": "netdur/hugind",
+    "html_url": "https://github.com/netdur/hugind",
+    "language": "Rust",
+    "pushed_at": "2026-04-13T16:57:52Z",
+    "stargazers_count": 8,
+    "topics": [
+      "agent",
+      "ai",
+      "llamacpp",
+      "llm",
+      "rust",
+      "scrum",
+      "vllm",
+      "wasm"
+    ],
+    "updated_at": "2026-04-13T19:29:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "netdur/llama_cpp_rust",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Local-only LLM inference and agent system. Uses `llama.cpp` as the engine, Rust as the implementation language. Aims to keep agents under control.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamacpp"
+    },
+    {
+      "context_snippet": "Local-only LLM inference and agent system. Uses `llama.cpp` as the engine, Rust as the implementation language. Aims to keep agents under control.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Local-only LLM inference and agent system. Uses `llama.cpp` as the engine, Rust as the implementation language. Aims to keep agents under control.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrum"
+    },
+    {
+      "context_snippet": "Local-only LLM inference and agent system. Uses `llama.cpp` as the engine, Rust as the implementation language. Aims to keep agents under control.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vllm"
+    },
+    {
+      "context_snippet": "Local-only LLM inference and agent system. Uses `llama.cpp` as the engine, Rust as the implementation language. Aims to keep agents under control.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

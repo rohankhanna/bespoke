@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "macOS system monitor in your menu bar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044434,
+      "status": "candidate",
+      "text": "ride herd on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042652,
+      "status": "candidate",
+      "text": "supervise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033229,
+      "status": "candidate",
+      "text": "proctor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020311,
+      "status": "candidate",
+      "text": "reminder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972947,
+      "status": "candidate",
+      "text": "admonisher"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "monitor",
+      "sense_id": "monitor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14019,
+      "status": "candidate",
+      "text": "admonisher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12033,
+      "status": "candidate",
+      "text": "supervise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4030,
+      "status": "candidate",
+      "text": "reminder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "monitor lizard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1019,
+      "status": "candidate",
+      "text": "varan"
+    }
+  ],
+  "concept_id": "monitor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "monitor",
+  "observation_id": "406297c045590dba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "monitor",
+  "source_context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+  "source_file": null,
+  "source_repo": "exelban/stats",
+  "source_repo_description": "macOS system monitor in your menu bar"
+}

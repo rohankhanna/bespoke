@@ -141,13 +141,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ebullient/obsidian-admonition",
-      "target": "silentvoid13/templater",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ebullient/obsidian-admonition",
       "target": "ebullient/obsidian-admonitions",
       "target_type": "repository"
     },
@@ -163,6 +156,13 @@
       "source_file": "README.md",
       "source_repo": "ebullient/obsidian-admonition",
       "target": "valentine195/obsidian-5e-statblocks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ebullient/obsidian-admonition",
+      "target": "valentine195/obsidian-initiative-tracker",
       "target_type": "repository"
     },
     {
@@ -376,7 +376,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:43:15.156477+00:00",
+  "fetched_at": "2026-05-03T04:54:22.685429+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -419,17 +419,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "silentvoid13/templater",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "valentine195/obsidian-5e-statblocks",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "valentine195/obsidian-dice-roller",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valentine195/obsidian-initiative-tracker",
       "source_file": "README.md"
     }
   ],

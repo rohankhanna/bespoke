@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-release-asset@v1",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -767,6 +767,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deb-build.yml",
       "source_repo": "sergei-mironov/xkb-switch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "YuzukiTsuru/World.JS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sawhney17/logseq-schrodinger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/fantasy-statblocks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/dice-roller"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nihui/ifrnet-ncnn-vulkan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clibs/clib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_maybe_release.yml",
+      "source_repo": "liquidz/dad"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "Obsidian-TTRPG-Community/initiative-tracker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "javalent/obsidian-leaflet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "jdanielmourao/obsidian-sanctum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "CreArts-Community/CreArts-Obsidian"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eycorsican/leaf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/AutoCreateRelease.yml",
+      "source_repo": "nodemcu/nodemcu-firmware"
     }
   ]
 }

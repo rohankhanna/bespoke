@@ -907,6 +907,30 @@
       "source_repo": "lumen-oss/rtp.nvim",
       "status": "candidate-context",
       "text": "Source `plugin` and `ftdetect` directories on the Neovim `:h runtimepath`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "status": "candidate-context",
+      "text": "Feline configuration that picks colors from your current colorscheme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "status": "candidate-context",
+      "text": "This is a opinionated feline config designed to be used as a plugin. It automatically picks colors from applied colorscheme."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "status": "candidate-context",
+      "text": "Plugin to improve viewing Markdown files in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "status": "candidate-context",
+      "text": "Plugin to improve viewing Markdown files in Neovim"
     }
   ],
   "candidate_glosses": [
@@ -1365,6 +1389,18 @@
       "source_repo": "lumen-oss/rtp.nvim",
       "status": "candidate",
       "text": "Source `plugin` and `ftdetect` directories on the Neovim `:h runtimepath`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "status": "candidate",
+      "text": "This is a opinionated feline config designed to be used as a plugin. It automatically picks colors from applied colorscheme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim",
+      "status": "candidate",
+      "text": "Plugin to improve viewing Markdown files in Neovim"
     }
   ],
   "candidate_related_terms": [],
@@ -2068,11 +2104,65 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/lz.n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MeanderingProgrammer/render-markdown.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

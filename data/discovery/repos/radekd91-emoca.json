@@ -1,0 +1,305 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radekd91/emoca",
+      "target": "radekd91/inferno",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radekd91/emoca",
+      "target": "yadiraf/deca",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radekd91/emoca",
+      "target": "face-analysis/emonet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "3d-face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "3d-face-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "3d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "3d-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "cvpr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "emotion-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "face-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "face-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "flame-fitting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "morphable-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "radekd91/emoca",
+      "target": "pytorch-lightning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:09.994577+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11230
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release/EMOCA_v2",
+    "description": "Official repository accompanying a CVPR 2022 paper EMOCA: Emotion Driven Monocular Face Capture And Animation. EMOCA takes a single image of a face as input and produces a 3D reconstruction. EMOCA sets the new standard on reconstructing highly emotional images in-the-wild",
+    "fork": false,
+    "full_name": "radekd91/emoca",
+    "html_url": "https://github.com/radekd91/emoca",
+    "language": "Python",
+    "pushed_at": "2024-12-06T16:53:28Z",
+    "stargazers_count": 837,
+    "topics": [
+      "3d-face-alignment",
+      "3d-face-reconstruction",
+      "3d-graphics",
+      "3d-reconstruction",
+      "3d-vision",
+      "computer-vision",
+      "cvpr",
+      "deep-learning",
+      "emotion-recognition",
+      "face",
+      "face-alignment",
+      "face-model",
+      "face-reconstruction",
+      "flame-fitting",
+      "morphable-model",
+      "pytorch",
+      "pytorch-lightning"
+    ],
+    "updated_at": "2026-05-02T11:17:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "face-analysis/emonet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "radekd91/inferno",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yadiraf/deca",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face-alignment"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face-reconstruction"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-graphics"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-vision"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emotion-recognition"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-alignment"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-model"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-reconstruction"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame-fitting"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "morphable-model"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<!-- # EMOCA -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-lightning"
+    }
+  ]
+}

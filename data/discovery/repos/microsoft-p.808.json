@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/P.808",
+      "target": "babaknaderi/hitapp_p808",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:03:22.986414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is an open-source implementation of the ITU P.808 standard for \"Subjective evaluation of speech quality with a crowdsourcing approach\" (see https://www.itu.int/rec/T-REC-P.808/en). It uses Amazon Mechanical Turk as the crowdsourcing platform. It includes implementations for Absolute Category Rating (ACR), Degradation Category Rating (DCR), and Comparison Category Rating (CCR). ",
+    "fork": false,
+    "full_name": "microsoft/P.808",
+    "html_url": "https://github.com/microsoft/P.808",
+    "language": "HTML",
+    "pushed_at": "2026-03-29T07:36:18Z",
+    "stargazers_count": 227,
+    "topics": [],
+    "updated_at": "2026-04-10T14:44:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babaknaderi/hitapp_p808",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

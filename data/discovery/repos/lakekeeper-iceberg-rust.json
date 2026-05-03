@@ -1,0 +1,454 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "rustsec/audit-check@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings_python_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings_python_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings_python_ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings_python_ci.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings_python_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@v0.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_typos.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.29.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_typos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "peaceiris/actions-mdbook@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "datafuselabs/databend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "rustsec/audit-check@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "Security audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings_python_ci.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings_python_ci.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bindings_python_ci.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "PyO3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "apache/skywalking-eyes/header@v0.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_typos.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_typos.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "crate-ci/typos@v1.29.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_typos.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "Typos Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "PyO3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_python.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "peaceiris/actions-mdbook@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "peaceiris/actions-gh-pages@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "lakekeeper/iceberg-rust",
+      "target": "Website",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:51:05.323456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7067
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3101
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 1324
+    },
+    {
+      "path": ".github/workflows/bindings_python_ci.yml",
+      "size": 2361
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4466
+    },
+    {
+      "path": ".github/workflows/ci_typos.yml",
+      "size": 1262
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2005
+    },
+    {
+      "path": ".github/workflows/release_python.yml",
+      "size": 4303
+    },
+    {
+      "path": ".github/workflows/website.yml",
+      "size": 1843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Iceberg",
+    "fork": true,
+    "full_name": "lakekeeper/iceberg-rust",
+    "html_url": "https://github.com/lakekeeper/iceberg-rust",
+    "language": "Rust",
+    "pushed_at": "2026-05-02T22:52:17Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-02-19T11:28:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datafuselabs/databend",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Security audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Security audit"
+    },
+    {
+      "context_snippet": "Typos Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_typos.yml",
+      "term": "Typos Check"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yml",
+      "term": "Website"
+    }
+  ]
+}

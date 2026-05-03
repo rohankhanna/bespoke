@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u6c49\u5b57\u8f6c\u62fc\u97f3(pypinyin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022350,
+      "status": "candidate",
+      "text": "taiwanese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021077,
+      "status": "candidate",
+      "text": "formosan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026072,
+      "status": "candidate",
+      "text": "renminbi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024341,
+      "status": "candidate",
+      "text": "cantonese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023750,
+      "status": "candidate",
+      "text": "mandarin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese",
+      "sense_id": "chinese#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "formosan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "taiwanese"
+    }
+  ],
+  "concept_id": "chinese",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chinese",
+  "observation_id": "5bc9331836cb4e4e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "chinese",
+  "source_context_snippet": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09",
+  "source_file": null,
+  "source_repo": "mozillazg/python-pinyin",
+  "source_repo_description": "\u6c49\u5b57\u8f6c\u62fc\u97f3(pypinyin)"
+}

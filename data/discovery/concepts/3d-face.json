@@ -67,6 +67,18 @@
       "source_repo": "filby89/spectre",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate-context",
+      "text": "The PyTorch improved version of TPAMI 2017 paper: Face Alignment in Full Pose Range: A 3D Total Solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate-context",
+      "text": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "filby89/spectre",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate",
+      "text": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "filby89/spectre"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

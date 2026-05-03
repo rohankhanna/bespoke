@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-mourner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mourner/simpleheat",
+      "target": "pa7/heatmap.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/simpleheat",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/simpleheat",
+      "target": "eslint-config-mourner",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:19.579049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1147
+    },
+    {
+      "path": "package.json",
+      "size": 705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "A tiny JavaScript library for drawing heatmaps with Canvas",
+    "fork": false,
+    "full_name": "mourner/simpleheat",
+    "html_url": "https://github.com/mourner/simpleheat",
+    "language": "JavaScript",
+    "pushed_at": "2024-07-29T14:28:45Z",
+    "stargazers_count": 955,
+    "topics": [],
+    "updated_at": "2026-04-25T04:57:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pa7/heatmap.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

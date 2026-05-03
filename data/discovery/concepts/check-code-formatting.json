@@ -55,6 +55,54 @@
       "source_repo": "micropython/micropython",
       "status": "candidate-context",
       "text": "Check code formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-core",
+      "status": "candidate-context",
+      "text": "A simple, lightweight socks5 library (IPv4/IPv6/TCP/UDP/Client/Server)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-core",
+      "status": "candidate-context",
+      "text": "\"Check code formatting\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate-context",
+      "text": "\"Check code formatting\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 transparent proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate-context",
+      "text": "\"Check code formatting\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "A simple, lightweight multi-task system (coroutines)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "\"Check code formatting\""
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "micropython/micropython",
       "status": "candidate",
       "text": "Check code formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-core",
+      "status": "candidate",
+      "text": "\"Check code formatting\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate",
+      "text": "\"Check code formatting\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-tproxy",
+      "status": "candidate",
+      "text": "\"Check code formatting\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate",
+      "text": "\"Check code formatting\""
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +220,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/code_formatting.yml",
       "source_repo": "micropython/micropython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/code-format.yaml",
+      "source_repo": "heiher/hev-socks5-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/code-format.yaml",
+      "source_repo": "heiher/hev-socks5-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/code-format.yaml",
+      "source_repo": "heiher/hev-socks5-tproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/code-format.yaml",
+      "source_repo": "heiher/hev-task-system"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

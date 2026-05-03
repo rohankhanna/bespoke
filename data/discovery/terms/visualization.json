@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -261,6 +261,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "dogyoonlee/pointcloud_visualizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gcalderone/Gnuplot.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "pa7/heatmap.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hal9ai/awesome-dataviz"
     }
   ],
   "term": "visualization"

@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "appwrite/.github/.github/workflows/autoclose.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "appwrite/sdk-for-swift",
+      "target": "appwrite/playground-for-swift-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-swift",
+      "target": "appwrite/.github/.github/workflows/autoclose.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "appwrite/sdk-for-swift",
+      "target": "Auto-close External Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-swift",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:59:50.285470+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8038
+    },
+    {
+      "path": ".github/workflows/autoclose.yml",
+      "size": 264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[READ-ONLY] Official Appwrite Swift SDK \ud83e\udd85\ud83c\udf4e",
+    "fork": false,
+    "full_name": "appwrite/sdk-for-swift",
+    "html_url": "https://github.com/appwrite/sdk-for-swift",
+    "language": "Swift",
+    "pushed_at": "2026-04-16T12:51:53Z",
+    "stargazers_count": 55,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-16T12:47:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appwrite/playground-for-swift-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-close External Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose.yml",
+      "term": "Auto-close External Pull Requests"
+    },
+    {
+      "context_snippet": "![Swift Package Manager](https://img.shields.io/github/v/release/appwrite/sdk-for-swift.svg?color=green&style=flat-square)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

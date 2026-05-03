@@ -136,6 +136,30 @@
       "source_repo": "leezng/vue-json-pretty",
       "status": "candidate-context",
       "text": "Gh Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate-context",
+      "text": "Multibody Dynamics Library designed for Free Floating Robots "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate-context",
+      "text": "gh-pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlueBrain/HighFive",
+      "status": "candidate-context",
+      "text": "HighFive - Header-only C++ HDF5 interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlueBrain/HighFive",
+      "status": "candidate-context",
+      "text": "gh-pages"
     }
   ],
   "candidate_glosses": [
@@ -204,6 +228,18 @@
       "source_repo": "leezng/vue-json-pretty",
       "status": "candidate",
       "text": "Gh Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate",
+      "text": "gh-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlueBrain/HighFive",
+      "status": "candidate",
+      "text": "gh-pages"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +361,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "BlueBrain/HighFive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "xtensor-stack/xtensor"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

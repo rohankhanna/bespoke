@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official repo of Aquila2 series proposed by BAAI, including pretrained & chat large language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[<img src=\"assets/flagopen.jpeg\">](https://flagopen.baai.ac.cn/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[<img src=\"assets/flagopen.jpeg\">](https://flagopen.baai.ac.cn/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llm-inference",
+      "sense_id": "llm-inference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llm-inference",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llm-inference",
+  "observation_id": "646c35cd29f2841a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "llm-inference",
+  "source_context_snippet": "[<img src=\"assets/flagopen.jpeg\">](https://flagopen.baai.ac.cn/)",
+  "source_file": null,
+  "source_repo": "FlagAI-Open/Aquila2",
+  "source_repo_description": "The official repo of Aquila2 series proposed by BAAI, including pretrained & chat large language models."
+}

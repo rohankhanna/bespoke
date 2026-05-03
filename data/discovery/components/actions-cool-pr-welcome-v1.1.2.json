@@ -1,12 +1,22 @@
 {
   "component": "actions-cool/pr-welcome@v1.1.2",
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-welcome.yml",
       "source_repo": "umijs/dumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-welcome.yml",
+      "source_repo": "alibaba/formily"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-welcome.yml",
+      "source_repo": "alibaba/designable"
     }
   ]
 }

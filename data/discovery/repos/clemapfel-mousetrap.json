@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Clemapfel/mousetrap",
+      "target": "clemapfel/mousetrap_julia_binding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Clemapfel/mousetrap",
+      "target": "juliabinarywrappers/libadwaita_jll.jl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:09:24.856562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4609
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Stand-alone C++ Back End of https://github.com/Clemapfel/mousetrap.jl",
+    "fork": false,
+    "full_name": "Clemapfel/mousetrap",
+    "html_url": "https://github.com/Clemapfel/mousetrap",
+    "language": "C++",
+    "pushed_at": "2024-02-22T17:13:04Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-08-08T11:59:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clemapfel/mousetrap_julia_binding",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/libadwaita_jll.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

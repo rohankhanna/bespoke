@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Harry-Zhi/semantic_nerf",
+      "target": "kxhit/vmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Harry-Zhi/semantic_nerf",
+      "target": "aliutkus/torchsearchsorted",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Harry-Zhi/semantic_nerf",
+      "target": "kwea123/nerf_pl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Harry-Zhi/semantic_nerf",
+      "target": "magicleap/atlas",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:55:58.917080+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5945
+    },
+    {
+      "path": "requirements.txt",
+      "size": 262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The implementation of \"In-Place Scene Labelling and Understanding with Implicit Scene Representation\" [ICCV 2021].",
+    "fork": false,
+    "full_name": "Harry-Zhi/semantic_nerf",
+    "html_url": "https://github.com/Harry-Zhi/semantic_nerf",
+    "language": "Python",
+    "pushed_at": "2023-06-16T17:25:39Z",
+    "stargazers_count": 454,
+    "topics": [],
+    "updated_at": "2026-04-08T04:36:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliutkus/torchsearchsorted",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kwea123/nerf_pl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kxhit/vmap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magicleap/atlas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

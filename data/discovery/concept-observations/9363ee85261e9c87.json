@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of the Jupyter kernel protocol in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GithubActions](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml/badge.svg)](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GithubActions](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml/badge.svg)](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038554,
+      "status": "candidate",
+      "text": "voice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038010,
+      "status": "candidate",
+      "text": "translator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031072,
+      "status": "candidate",
+      "text": "representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011286,
+      "status": "candidate",
+      "text": "spokesperson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043101,
+      "status": "candidate",
+      "text": "interpretive program"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interpreter",
+      "sense_id": "interpreter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24048,
+      "status": "candidate",
+      "text": "representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2040,
+      "status": "candidate",
+      "text": "translator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2031,
+      "status": "candidate",
+      "text": "spokesperson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "interpretive program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "voice"
+    }
+  ],
+  "concept_id": "interpreter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "interpreter",
+  "observation_id": "9363ee85261e9c87",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "interpreter",
+  "source_context_snippet": "[![GithubActions](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml/badge.svg)](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml)",
+  "source_file": null,
+  "source_repo": "jupyter-xeus/xeus",
+  "source_repo_description": "Implementation of the Jupyter kernel protocol in C++"
+}

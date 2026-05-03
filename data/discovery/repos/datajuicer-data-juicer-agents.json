@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "actions/setup-python@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "Deploy Sphinx documentation to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "Publish PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "datajuicer/data-juicer-agents",
+      "target": "unittest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:42:08.757535+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5403
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3001
+    },
+    {
+      "path": ".github/workflows/deploy_sphinx_docs.yml",
+      "size": 2814
+    },
+    {
+      "path": ".github/workflows/publish_pypi.yml",
+      "size": 1886
+    },
+    {
+      "path": ".github/workflows/unittest.yml",
+      "size": 1166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd16 Your Intelligent Copilot for Data Exploration and Processing Pipeline",
+    "fork": false,
+    "full_name": "datajuicer/data-juicer-agents",
+    "html_url": "https://github.com/datajuicer/data-juicer-agents",
+    "language": "Python",
+    "pushed_at": "2026-04-20T12:38:57Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2026-05-02T14:35:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy Sphinx documentation to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_sphinx_docs.yml",
+      "term": "Deploy Sphinx documentation to Pages"
+    },
+    {
+      "context_snippet": "Publish PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "term": "Publish PyPI"
+    },
+    {
+      "context_snippet": "unittest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yml",
+      "term": "unittest"
+    }
+  ]
+}

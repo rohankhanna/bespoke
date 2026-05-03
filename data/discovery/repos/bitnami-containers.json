@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-asset-label.yml"
+    },
+    {
+      "component": "fmulero/labeler@d3ef0aadb212cd1656bd6d5ce1e772787bf1682b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-asset-label.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@61275cc80d0798a405cb070f7d3a8aaf7cf2c2c1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clossing-issues.yml"
+    },
+    {
+      "component": "bitnami/support/.github/workflows/comment-created.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comments.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-linter.yml"
+    },
+    {
+      "component": "bitnami/support/.github/workflows/item-closed.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/move-closed-issues.yml"
+    },
+    {
+      "component": "bitnami/support/.github/workflows/pr-review-comment.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-review-hack.yml"
+    },
+    {
+      "component": "bitnami/support/.github/workflows/pr-review-requested-sync.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-reviews-requested.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-reviews.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitnami/containers",
+      "target": "anchore/grype",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-asset-label.yml",
+      "source_repo": "bitnami/containers",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-asset-label.yml",
+      "source_repo": "bitnami/containers",
+      "target": "fmulero/labeler@d3ef0aadb212cd1656bd6d5ce1e772787bf1682b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/containers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/containers",
+      "target": "apache/skywalking-eyes/header@61275cc80d0798a405cb070f7d3a8aaf7cf2c2c1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pipeline.yml",
+      "source_repo": "bitnami/containers",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clossing-issues.yml",
+      "source_repo": "bitnami/containers",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comments.yml",
+      "source_repo": "bitnami/containers",
+      "target": "bitnami/support/.github/workflows/comment-created.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-linter.yml",
+      "source_repo": "bitnami/containers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/move-closed-issues.yml",
+      "source_repo": "bitnami/containers",
+      "target": "bitnami/support/.github/workflows/item-closed.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-review-hack.yml",
+      "source_repo": "bitnami/containers",
+      "target": "bitnami/support/.github/workflows/pr-review-comment.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-reviews-requested.yml",
+      "source_repo": "bitnami/containers",
+      "target": "bitnami/support/.github/workflows/pr-review-requested-sync.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-reviews.yml",
+      "source_repo": "bitnami/containers",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitnami/containers",
+      "target": "bitnami",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitnami/containers",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitnami/containers",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitnami/containers",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitnami/containers",
+      "target": "non-root",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitnami/containers",
+      "target": "vmware",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:56:01.014190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5407
+    },
+    {
+      "path": ".github/workflows/assign-asset-label.yml",
+      "size": 2011
+    },
+    {
+      "path": ".github/workflows/ci-pipeline.yml",
+      "size": 6130
+    },
+    {
+      "path": ".github/workflows/clossing-issues.yml",
+      "size": 743
+    },
+    {
+      "path": ".github/workflows/comments.yml",
+      "size": 659
+    },
+    {
+      "path": ".github/workflows/markdown-linter.yml",
+      "size": 2179
+    },
+    {
+      "path": ".github/workflows/move-closed-issues.yml",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/pr-review-hack.yml",
+      "size": 3054
+    },
+    {
+      "path": ".github/workflows/pr-reviews-requested.yml",
+      "size": 657
+    },
+    {
+      "path": ".github/workflows/pr-reviews.yml",
+      "size": 1208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bitnami container images",
+    "fork": false,
+    "full_name": "bitnami/containers",
+    "html_url": "https://github.com/bitnami/containers",
+    "language": "Shell",
+    "pushed_at": "2026-05-03T00:02:14Z",
+    "stargazers_count": 4420,
+    "topics": [
+      "bitnami",
+      "containers",
+      "docker",
+      "docker-image",
+      "non-root",
+      "vmware"
+    ],
+    "updated_at": "2026-05-03T00:02:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anchore/grype",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitnami"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "non-root"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vmware"
+    }
+  ]
+}

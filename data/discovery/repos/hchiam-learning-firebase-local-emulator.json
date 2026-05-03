@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "@firebase/testing",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-firebase-local-emulator",
+      "target": "firebase/snippets-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-firebase-local-emulator",
+      "target": "@firebase/testing",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-firebase-local-emulator",
+      "target": "jest",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:22.441806+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1951
+    },
+    {
+      "path": "package.json",
+      "size": 672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning Firebase Local Emulator",
+    "fork": false,
+    "full_name": "hchiam/learning-firebase-local-emulator",
+    "html_url": "https://github.com/hchiam/learning-firebase-local-emulator",
+    "language": "JavaScript",
+    "pushed_at": "2024-03-31T06:57:03Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2022-06-17T04:38:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "firebase/snippets-web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

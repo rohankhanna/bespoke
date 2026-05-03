@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "nmwsharp/happly",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "nmwsharp/happly",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS.yml",
+      "source_repo": "nmwsharp/happly",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS.yml",
+      "source_repo": "nmwsharp/happly",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "nmwsharp/happly",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "nmwsharp/happly",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:04.776578+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11418
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 578
+    },
+    {
+      "path": ".github/workflows/macOS.yml",
+      "size": 510
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C++ header-only parser for the PLY file format. Parse .ply happily!",
+    "fork": false,
+    "full_name": "nmwsharp/happly",
+    "html_url": "https://github.com/nmwsharp/happly",
+    "language": "C++",
+    "pushed_at": "2025-09-15T00:02:22Z",
+    "stargazers_count": 398,
+    "topics": [],
+    "updated_at": "2026-05-02T03:06:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "linux"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "windows"
+    }
+  ]
+}

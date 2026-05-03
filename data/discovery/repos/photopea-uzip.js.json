@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T05:08:37.356696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple ZIPping library for Javascript",
+    "fork": false,
+    "full_name": "photopea/UZIP.js",
+    "html_url": "https://github.com/photopea/UZIP.js",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-09T07:14:40Z",
+    "stargazers_count": 216,
+    "topics": [],
+    "updated_at": "2026-04-22T13:34:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

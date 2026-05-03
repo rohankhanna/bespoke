@@ -265,6 +265,30 @@
       "source_repo": "apache/age-viewer",
       "status": "candidate-context",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate-context",
+      "text": "UAParser.js - The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser (client-side) or Node.js (server-side)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate-context",
+      "text": "[![https://ref.wisprflow.ai/Rxj3n8H](https://github.com/user-attachments/assets/e39fc98d-5d1b-4f7b-a355-4648e1f79a94)](https://ref.wisprflow.ai/Rxj3n8H)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "status": "candidate-context",
+      "text": "Real-time analytics on Postgres tables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -399,6 +423,18 @@
       "source_repo": "apache/age-viewer",
       "status": "candidate",
       "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate",
+      "text": "[![https://ref.wisprflow.ai/Rxj3n8H](https://github.com/user-attachments/assets/e39fc98d-5d1b-4f7b-a355-4648e1f79a94)](https://ref.wisprflow.ai/Rxj3n8H)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -598,11 +634,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "duckdb/duckdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "faisalman/ua-parser-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Mooncake-Labs/pg_mooncake"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

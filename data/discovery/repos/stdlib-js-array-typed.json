@@ -1,0 +1,1177 @@
+{
+  "components": [
+    {
+      "component": "@stdlib/array-defaults",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-typed-ctors",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/assert-is-string",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/strided-base-reinterpret-boolean",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/strided-base-reinterpret-complex128",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/strided-base-reinterpret-complex64",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/string-format",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/types",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/error-tools-fmtprodmsg",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-bool",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-buffer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-complex128",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-complex64",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-float32",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-float64",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-int16",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-int32",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-int8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-uint16",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-uint32",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-uint8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/array-uint8c",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/assert-instance-of",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/assert-is-booleanarray",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/assert-is-complex-typed-array",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/assert-is-typed-array",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/math-base-special-pow",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/random-base-randu",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap-min",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/bench-harness",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml"
+    },
+    {
+      "component": "superbrothers/close-pull-request@9c18513d320d7b2c7185fb93396d0c664d5d8448",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_pull_requests.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml"
+    },
+    {
+      "component": "actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml"
+    },
+    {
+      "component": "distributhor/workflow-webhook@48a40b380ce4593b6a6676528cd005986ae56629",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "stdlib-js/transform-errors-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "stdlib-js/bundle-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "stdlib-js/bundle-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "stdlib-js/bundle-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "stdlib-js/bundle-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "JS-DevTools/npm-publish@19c28f1ef146469e409470805ea4279d47c3d35c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "stdlib-js/array-complex128",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "stdlib-js/array-complex64",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "stdlib-js/array-float64",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "stdlib-js/array-float32",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-defaults",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-typed-ctors",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/assert-is-string",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/strided-base-reinterpret-boolean",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/strided-base-reinterpret-complex128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/strided-base-reinterpret-complex64",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/string-format",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/error-tools-fmtprodmsg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-bool",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-buffer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-complex128",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-complex64",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-float32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-float64",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-int16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-int32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-int8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-uint16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-uint32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-uint8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/array-uint8c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/assert-instance-of",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/assert-is-booleanarray",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/assert-is-complex-typed-array",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/assert-is-typed-array",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/math-base-special-pow",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/random-base-randu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "tap-min",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "@stdlib/bench-harness",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "cancel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_pull_requests.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "superbrothers/close-pull-request@9c18513d320d7b2c7185fb93396d0c664d5d8448",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_downloads.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "distributhor/workflow-webhook@48a40b380ce4593b6a6676528cd005986ae56629",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "stdlib-js/transform-errors-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "stdlib-js/bundle-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/productionize.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "productionize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "JS-DevTools/npm-publish@19c28f1ef146469e409470805ea4279d47c3d35c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "styfle/cancel-workflow-action@85880fa0301c86cca9da44039ee3bb12d3bedbfa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "zulip/github-actions-zulip/send-message@e4c8f27c732ba9bd98ac6be0583096dea82feea5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "stdlib-js/array-typed",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "float32array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "float64array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "int16array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "int32array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "ndarray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "node-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "stdlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "typed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "typed-array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "types",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "uint32array",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/array-typed",
+      "target": "vector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:02.570179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12467
+    },
+    {
+      "path": "package.json",
+      "size": 3458
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 1745
+    },
+    {
+      "path": ".github/workflows/cancel.yml",
+      "size": 1531
+    },
+    {
+      "path": ".github/workflows/close_pull_requests.yml",
+      "size": 2188
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "size": 1764
+    },
+    {
+      "path": ".github/workflows/npm_downloads.yml",
+      "size": 3845
+    },
+    {
+      "path": ".github/workflows/productionize.yml",
+      "size": 36322
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 10497
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Create a typed array.",
+    "fork": false,
+    "full_name": "stdlib-js/array-typed",
+    "html_url": "https://github.com/stdlib-js/array-typed",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-02T03:34:17Z",
+    "stargazers_count": 1,
+    "topics": [
+      "array",
+      "data",
+      "float32array",
+      "float64array",
+      "int16array",
+      "int32array",
+      "javascript",
+      "matrix",
+      "ndarray",
+      "node",
+      "node-js",
+      "nodejs",
+      "stdlib",
+      "structure",
+      "typed",
+      "typed-array",
+      "types",
+      "uint32array",
+      "vector"
+    ],
+    "updated_at": "2026-04-02T03:21:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stdlib-js/array-complex128",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stdlib-js/array-complex64",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stdlib-js/array-float32",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stdlib-js/array-float64",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "cancel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel.yml",
+      "term": "cancel"
+    },
+    {
+      "context_snippet": "examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "term": "examples"
+    },
+    {
+      "context_snippet": "productionize",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/productionize.yml",
+      "term": "productionize"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "array"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "float32array"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "float64array"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int16array"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int32array"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ndarray"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-js"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stdlib"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structure"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typed"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typed-array"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "types"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uint32array"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/vite-project-example-minimal",
+      "target": "vite",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:52.502166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 124
+    },
+    {
+      "path": "package.json",
+      "size": 211
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example generated minimal Vite project",
+    "fork": false,
+    "full_name": "hchiam/vite-project-example-minimal",
+    "html_url": "https://github.com/hchiam/vite-project-example-minimal",
+    "language": "HTML",
+    "pushed_at": "2021-12-26T21:15:54Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-12-26T21:15:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

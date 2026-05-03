@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "artexjay/obsidian-cyberglow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "antokeinanen/obsidian-sanctum-reborn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "7368697661/origami",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "anotherlusitano/spectrumplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "customisable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "target": "snippet",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set"
+}

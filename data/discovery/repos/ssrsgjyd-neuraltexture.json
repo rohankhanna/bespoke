@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SSRSGJYD/NeuralTexture",
+      "target": "a-dying-pig/opengl_neuraltexture.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SSRSGJYD/NeuralTexture",
+      "target": "gerwang/infinitam",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:13.374090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2059
+    },
+    {
+      "path": "requirements.txt",
+      "size": 93
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unofficial implementation of the paper \"Deferred Neural Rendering: Image Synthesis using Neural Textures\" in Pytorch.",
+    "fork": false,
+    "full_name": "SSRSGJYD/NeuralTexture",
+    "html_url": "https://github.com/SSRSGJYD/NeuralTexture",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:15:14Z",
+    "stargazers_count": 281,
+    "topics": [],
+    "updated_at": "2026-03-19T01:58:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-dying-pig/opengl_neuraltexture.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gerwang/infinitam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

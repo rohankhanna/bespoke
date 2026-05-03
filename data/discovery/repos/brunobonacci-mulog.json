@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrunoBonacci/mulog",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrunoBonacci/mulog",
+      "target": "events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrunoBonacci/mulog",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrunoBonacci/mulog",
+      "target": "mulog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrunoBonacci/mulog",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BrunoBonacci/mulog",
+      "target": "tracing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:53:29.371606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u03bc/log is a micro-logging library that logs events and data, not words!",
+    "fork": false,
+    "full_name": "BrunoBonacci/mulog",
+    "html_url": "https://github.com/BrunoBonacci/mulog",
+    "language": "Clojure",
+    "pushed_at": "2026-02-06T13:21:46Z",
+    "stargazers_count": 532,
+    "topics": [
+      "clojure",
+      "events",
+      "logging",
+      "mulog",
+      "observability",
+      "tracing"
+    ],
+    "updated_at": "2026-04-28T02:08:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "events"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mulog"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/com.brunobonacci/mulog.svg)](https://clojars.org/com.brunobonacci/mulog)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracing"
+    }
+  ]
+}

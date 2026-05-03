@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "julia-actions/julia-invalidations@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "Invalidations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "target": "Unit test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "JuliaMath/FixedPointNumbers.jl"
+}

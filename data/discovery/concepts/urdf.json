@@ -55,6 +55,30 @@
       "source_repo": "robotology/gym-ignition-models",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate-context",
+      "text": "Multibody Dynamics Library designed for Free Floating Robots "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate-context",
+      "text": "iDynTree [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![ZenHub](https://img.shields.io/badge/Shipping_faster_with-ZenHub-435198.svg)](https://zenhub.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/adam",
+      "status": "candidate-context",
+      "text": "adam implements a collection of algorithms for calculating rigid-body dynamics in Jax, CasADi, PyTorch, and Numpy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/adam",
+      "status": "candidate-context",
+      "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "robotology/gym-ignition-models",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/idyntree",
+      "status": "candidate",
+      "text": "iDynTree [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) [![ZenHub](https://img.shields.io/badge/Shipping_faster_with-ZenHub-435198.svg)](https://zenhub.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/adam",
+      "status": "candidate",
+      "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "robotology/gym-ignition-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

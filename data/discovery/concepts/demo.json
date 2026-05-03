@@ -298,6 +298,18 @@
       "source_repo": "amilajack/eslint-plugin-compat-demo",
       "status": "candidate-context",
       "text": "eslint-plugin-compat-demo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "j20001970/GDMP-demo",
+      "status": "candidate-context",
+      "text": "Demo project for GDMP plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP-demo",
+      "status": "candidate-context",
+      "text": "This is the demo project for [GDMP](https://github.com/j20001970/GDMP) plugin."
     }
   ],
   "candidate_glosses": [
@@ -444,6 +456,12 @@
       "source_repo": "amilajack/eslint-plugin-compat-demo",
       "status": "candidate",
       "text": "eslint-plugin-compat-demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "j20001970/GDMP-demo",
+      "status": "candidate",
+      "text": "This is the demo project for [GDMP](https://github.com/j20001970/GDMP) plugin."
     }
   ],
   "candidate_related_terms": [
@@ -853,11 +871,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "j20001970/GDMP-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

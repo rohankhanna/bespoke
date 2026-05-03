@@ -1,0 +1,120 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA",
+      "target": "3d-face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA",
+      "target": "3dmm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA",
+      "target": "face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:04.559614+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 762
+    },
+    {
+      "path": "requirements.txt",
+      "size": 194
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The PyTorch improved version of TPAMI 2017 paper: Face Alignment in Full Pose Range: A 3D Total Solution.",
+    "fork": false,
+    "full_name": "cleardusk/3DDFA",
+    "html_url": "https://github.com/cleardusk/3DDFA",
+    "language": "Python",
+    "pushed_at": "2022-05-14T12:12:21Z",
+    "stargazers_count": 3680,
+    "topics": [
+      "3d",
+      "3d-face",
+      "3dmm",
+      "computer-vision",
+      "deep-learning",
+      "face-alignment",
+      "python",
+      "pytorch"
+    ],
+    "updated_at": "2026-05-01T15:45:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face"
+    },
+    {
+      "context_snippet": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dmm"
+    },
+    {
+      "context_snippet": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-alignment"
+    },
+    {
+      "context_snippet": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

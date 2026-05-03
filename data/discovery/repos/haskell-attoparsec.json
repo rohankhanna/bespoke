@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/attoparsec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/attoparsec",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/attoparsec",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "source_repo": "haskell/attoparsec",
+      "target": "Haskell-CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:53:03.619019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 654
+    },
+    {
+      "path": ".github/workflows/haskell-ci.yml",
+      "size": 11799
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast Haskell library for parsing ByteStrings",
+    "fork": false,
+    "full_name": "haskell/attoparsec",
+    "html_url": "https://github.com/haskell/attoparsec",
+    "language": "Haskell",
+    "pushed_at": "2024-12-12T03:38:13Z",
+    "stargazers_count": 530,
+    "topics": [],
+    "updated_at": "2026-05-01T13:19:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Haskell-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/haskell-ci.yml",
+      "term": "Haskell-CI"
+    }
+  ]
+}

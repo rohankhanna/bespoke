@@ -68,6 +68,18 @@
       "source_repo": "EdenEast/nightfox.nvim",
       "status": "candidate-context",
       "text": "Vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "previm/previm",
+      "status": "candidate-context",
+      "text": "Realtime preview by Vim. (Markdown, reStructuredText, textile)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "previm/previm",
+      "status": "candidate-context",
+      "text": "Vim"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +110,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "EdenEast/nightfox.nvim",
+      "status": "candidate",
+      "text": "Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "previm/previm",
       "status": "candidate",
       "text": "Vim"
     }
@@ -406,11 +424,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/vim.yml",
       "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/vim.yml",
+      "source_repo": "previm/previm"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

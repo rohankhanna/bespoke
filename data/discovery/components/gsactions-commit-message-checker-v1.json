@@ -1,0 +1,27 @@
+{
+  "component": "gsactions/commit-message-checker@v1",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "source_repo": "databendlabs/databend-base"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "source_repo": "databendlabs/map-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "source_repo": "databendlabs/openraft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commit-message-check.yml",
+      "source_repo": "databendlabs/watcher"
+    }
+  ]
+}

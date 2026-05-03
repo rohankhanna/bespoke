@@ -241,28 +241,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "windicss/windicss",
+      "target": "windicss/windicss-intellisense",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "windicss/windicss",
+      "target": "windicss/windicss-webpack-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "windicss/windicss",
       "target": "windicss/nuxt-windicss-module",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "windicss/windicss",
-      "target": "windicss/svelte-windicss-preprocess",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "windicss/windicss",
-      "target": "codeperate/stencil-windicss",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "windicss/windicss",
-      "target": "windicss/plugins",
       "target_type": "repository"
     },
     {
@@ -658,7 +651,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:28:40.510698+00:00",
+  "fetched_at": "2026-05-03T00:57:16.365141+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -703,22 +696,17 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "codeperate/stencil-windicss",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "windicss/nuxt-windicss-module",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "windicss/plugins",
+      "full_name": "windicss/windicss-intellisense",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "windicss/svelte-windicss-preprocess",
+      "full_name": "windicss/windicss-webpack-plugin",
       "source_file": "README.md"
     }
   ],

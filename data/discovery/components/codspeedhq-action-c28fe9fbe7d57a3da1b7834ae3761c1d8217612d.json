@@ -1,0 +1,12 @@
+{
+  "component": "CodSpeedHQ/action@c28fe9fbe7d57a3da1b7834ae3761c1d8217612d",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "unrs/unrs-resolver"
+    }
+  ]
+}

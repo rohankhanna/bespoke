@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "level-set",
+      "sense_id": "level-set#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "level-set",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "level-set",
+  "observation_id": "fa897d69c3c0bb0a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "level-set",
+  "source_context_snippet": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh.",
+  "source_file": null,
+  "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+  "source_repo_description": "Header only, single file, simple and efficient C++11 library to compute the signed distance function (SDF) to a triangle mesh"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Reactive Flux built with ImmutableJS data structures. Framework agnostic."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "NuclearJS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "NuclearJS"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "optimizely-owner-cjs",
+      "sense_id": "optimizely-owner-cjs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "optimizely-owner-cjs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "optimizely-owner-cjs",
+  "observation_id": "436f81675e849cf3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "optimizely-owner-cjs",
+  "source_context_snippet": "NuclearJS",
+  "source_file": null,
+  "source_repo": "optimizely/nuclear-js",
+  "source_repo_description": "Reactive Flux built with ImmutableJS data structures. Framework agnostic."
+}

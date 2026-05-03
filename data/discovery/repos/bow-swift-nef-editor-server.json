@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bow-swift/nef-editor-server",
+      "target": "47deg/nef-editor-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "bow-swift/nef-editor-server",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "bow-swift/nef-editor-server",
+      "target": "Compile and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server",
+      "target": "functional-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server",
+      "target": "server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server",
+      "target": "vapor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server",
+      "target": "vapor-swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:53:22.047653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8440
+    },
+    {
+      "path": "Dockerfile",
+      "size": 667
+    },
+    {
+      "path": ".github/workflows/swift.yml",
+      "size": 511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udda5 Server-side code for the nef editor app",
+    "fork": false,
+    "full_name": "bow-swift/nef-editor-server",
+    "html_url": "https://github.com/bow-swift/nef-editor-server",
+    "language": "Swift",
+    "pushed_at": "2021-10-31T17:05:52Z",
+    "stargazers_count": 7,
+    "topics": [
+      "bow",
+      "fp",
+      "functional-programming",
+      "hacktoberfest",
+      "nef",
+      "openapi",
+      "server",
+      "swift",
+      "vapor",
+      "vapor-swift"
+    ],
+    "updated_at": "2021-10-31T17:10:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "47deg/nef-editor-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Compile and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "term": "Compile and test"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional-programming"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vapor"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vapor-swift"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "andymckay/cancel-action@0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "godot-rust/gdnative",
+      "target": "godot-rust/gdextension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "godot-rust/gdnative",
+      "target": "godot-rust/godot-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml",
+      "source_repo": "godot-rust/gdnative",
+      "target": "andymckay/cancel-action@0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml",
+      "source_repo": "godot-rust/gdnative",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/full-ci.yml",
+      "source_repo": "godot-rust/gdnative",
+      "target": "baptiste0928/cargo-install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-ci.yml",
+      "source_repo": "godot-rust/gdnative",
+      "target": "Full CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/minimal-ci.yml",
+      "source_repo": "godot-rust/gdnative",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimal-ci.yml",
+      "source_repo": "godot-rust/gdnative",
+      "target": "Minimal CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "godot-rust/gdnative",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "godot-rust/gdnative",
+      "target": "Publish to crates.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "godot-rust/gdnative",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "godot-rust/gdnative",
+      "target": "peter-evans/repository-dispatch@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "godot-rust/gdnative",
+      "target": "Compile + Sync Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative",
+      "target": "godot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:04:34.126095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11323
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 600
+    },
+    {
+      "path": ".github/workflows/full-ci.yml",
+      "size": 13928
+    },
+    {
+      "path": ".github/workflows/minimal-ci.yml",
+      "size": 3387
+    },
+    {
+      "path": ".github/workflows/release-version.yml",
+      "size": 4150
+    },
+    {
+      "path": ".github/workflows/update-docs.yml",
+      "size": 4014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Rust bindings for Godot 3",
+    "fork": false,
+    "full_name": "godot-rust/gdnative",
+    "html_url": "https://github.com/godot-rust/gdnative",
+    "language": "Rust",
+    "pushed_at": "2025-12-31T11:42:26Z",
+    "stargazers_count": 3633,
+    "topics": [
+      "game-development",
+      "gamedev",
+      "godot",
+      "rust"
+    ],
+    "updated_at": "2026-04-30T14:49:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "godot-rust/gdextension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "godot-rust/godot-rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Full CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/full-ci.yml",
+      "term": "Full CI"
+    },
+    {
+      "context_snippet": "Minimal CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/minimal-ci.yml",
+      "term": "Minimal CI"
+    },
+    {
+      "context_snippet": "\"Publish to crates.io\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-version.yml",
+      "term": "Publish to crates.io"
+    },
+    {
+      "context_snippet": "Compile + Sync Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yml",
+      "term": "Compile + Sync Docs"
+    },
+    {
+      "context_snippet": "<a href=\"https://godot-rust.github.io/\"><img align=\"right\" width=\"200\" height=\"200\" src=\"assets/godot-ferris.svg\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "<a href=\"https://godot-rust.github.io/\"><img align=\"right\" width=\"200\" height=\"200\" src=\"assets/godot-ferris.svg\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "<a href=\"https://godot-rust.github.io/\"><img align=\"right\" width=\"200\" height=\"200\" src=\"assets/godot-ferris.svg\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot"
+    },
+    {
+      "context_snippet": "<a href=\"https://godot-rust.github.io/\"><img align=\"right\" width=\"200\" height=\"200\" src=\"assets/godot-ferris.svg\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

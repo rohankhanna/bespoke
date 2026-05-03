@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Java Test Coverage with Maven, Coveralls"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datasketches-hive",
+      "status": "candidate-context",
+      "text": "Sketch adaptors for Hive."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-hive",
+      "status": "candidate-context",
+      "text": "Java Test Coverage with Maven, Coveralls"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/datasketches-pig",
+      "status": "candidate-context",
+      "text": "Sketch adaptors for Pig."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-pig",
+      "status": "candidate-context",
+      "text": "Java Test Coverage with Maven, Coveralls"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-hive",
+      "status": "candidate",
+      "text": "Java Test Coverage with Maven, Coveralls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/datasketches-pig",
+      "status": "candidate",
+      "text": "Java Test Coverage with Maven, Coveralls"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30812,
+      "status": "candidate",
+      "text": "bar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30337,
+      "status": "candidate",
+      "text": "duster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28323,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27165,
+      "status": "candidate",
+      "text": "nurse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26452,
+      "status": "candidate",
+      "text": "decaf"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Java Test Coverage with Maven, Coveralls",
+  "concept_id": "java-test-coverage-with-maven-coveralls",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "apache/datasketches-hive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "apache/datasketches-pig"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Java Test Coverage with Maven, Coveralls",
+      "sense_id": "java-test-coverage-with-maven-coveralls#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

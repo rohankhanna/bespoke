@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "codegen"
+    "codegen",
+    "Codegen"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -207,6 +208,18 @@
       "source_repo": "smithy-lang/awesome-smithy",
       "status": "candidate-context",
       "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kyverno/kyverno",
+      "status": "candidate-context",
+      "text": "Unified Policy as Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyverno/kyverno",
+      "status": "candidate-context",
+      "text": "Codegen"
     }
   ],
   "candidate_glosses": [
@@ -311,6 +324,12 @@
       "source_repo": "smithy-lang/awesome-smithy",
       "status": "candidate",
       "text": "[<img src=\"/assets/smithy-light.svg#gh-light-mode-only\" align=\"right\" width=\"300\">](https://smithy.io#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyverno/kyverno",
+      "status": "candidate",
+      "text": "Codegen"
     }
   ],
   "candidate_related_terms": [],
@@ -426,11 +445,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "smithy-lang/awesome-smithy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check-codegen.yaml",
+      "source_repo": "kyverno/kyverno"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

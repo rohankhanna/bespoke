@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T01:42:29.688596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C# wrapper for the WORLD vocoder",
+    "fork": false,
+    "full_name": "aqtq314/World.NET",
+    "html_url": "https://github.com/aqtq314/World.NET",
+    "language": "C++",
+    "pushed_at": "2021-06-21T08:45:57Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-02-02T08:53:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

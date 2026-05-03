@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daswer123/hallo-webui",
+      "target": "yourusername/hallo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:50.344453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13283
+    },
+    {
+      "path": "requirements.txt",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Webui for Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation",
+    "fork": true,
+    "full_name": "daswer123/hallo-webui",
+    "html_url": "https://github.com/daswer123/hallo-webui",
+    "language": "Python",
+    "pushed_at": "2024-06-21T11:28:00Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-04-25T07:44:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yourusername/hallo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

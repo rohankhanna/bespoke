@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-node@v2-beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "joshgummersall/pr-style@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-maintenance.yml"
+    },
+    {
+      "component": "actions/labeler@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-maintenance.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botframework-components",
+      "target": "microsoft/botframework-composer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/botframework-components",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/botframework-components",
+      "target": "actions/setup-node@v2-beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/botframework-components",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "microsoft/botframework-components",
+      "target": "Lint Workspaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-maintenance.yml",
+      "source_repo": "microsoft/botframework-components",
+      "target": "joshgummersall/pr-style@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-maintenance.yml",
+      "source_repo": "microsoft/botframework-components",
+      "target": "actions/labeler@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-maintenance.yml",
+      "source_repo": "microsoft/botframework-components",
+      "target": "Pull request maintenance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-components",
+      "target": "bfskills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-components",
+      "target": "bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-components",
+      "target": "botskills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-components",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-components",
+      "target": "skills",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:52:08.651268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8607
+    },
+    {
+      "path": "package.json",
+      "size": 758
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 549
+    },
+    {
+      "path": ".github/workflows/pr-maintenance.yml",
+      "size": 608
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The repository for components built by Microsoft for the Azure Bot Framework.",
+    "fork": false,
+    "full_name": "microsoft/botframework-components",
+    "html_url": "https://github.com/microsoft/botframework-components",
+    "language": "C#",
+    "pushed_at": "2025-01-14T15:08:51Z",
+    "stargazers_count": 116,
+    "topics": [
+      "bfskills",
+      "bot",
+      "bot-framework",
+      "botskills",
+      "framework",
+      "skills"
+    ],
+    "updated_at": "2026-01-19T16:48:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botframework-composer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint Workspaces",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint Workspaces"
+    },
+    {
+      "context_snippet": "Pull request maintenance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-maintenance.yml",
+      "term": "Pull request maintenance"
+    },
+    {
+      "context_snippet": "This project is no longer actively maintained and will be archived in January of 2025. Functions of this project were superseded by [Microsoft Copilot Studio](https://aka.ms/copilotstudio)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bfskills"
+    },
+    {
+      "context_snippet": "This project is no longer actively maintained and will be archived in January of 2025. Functions of this project were superseded by [Microsoft Copilot Studio](https://aka.ms/copilotstudio)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-framework"
+    },
+    {
+      "context_snippet": "This project is no longer actively maintained and will be archived in January of 2025. Functions of this project were superseded by [Microsoft Copilot Studio](https://aka.ms/copilotstudio)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "botskills"
+    },
+    {
+      "context_snippet": "This project is no longer actively maintained and will be archived in January of 2025. Functions of this project were superseded by [Microsoft Copilot Studio](https://aka.ms/copilotstudio)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "This project is no longer actively maintained and will be archived in January of 2025. Functions of this project were superseded by [Microsoft Copilot Studio](https://aka.ms/copilotstudio)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
+    }
+  ]
+}

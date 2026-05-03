@@ -4,28 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "windicss/windicss",
+      "target": "windicss/windicss-intellisense",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "windicss/windicss",
+      "target": "windicss/windicss-webpack-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "windicss/windicss",
       "target": "windicss/nuxt-windicss-module",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "windicss/windicss",
-      "target": "windicss/svelte-windicss-preprocess",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "windicss/windicss",
-      "target": "codeperate/stencil-windicss",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "windicss/windicss",
-      "target": "windicss/plugins",
       "target_type": "repository"
     },
     {
@@ -421,6 +414,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "windicss/windicss"
 }

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/TM2T",
+      "target": "motion-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/TM2T",
+      "target": "motion-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/TM2T",
+      "target": "motion-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/TM2T",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/TM2T",
+      "target": "text-to-motion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:20.928274+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of \"TM2T: Stochastic and Tokenized Modeling for the Reciprocal Generation of 3D Human Motions and Texts (ECCV2022)\"",
+    "fork": false,
+    "full_name": "EricGuo5513/TM2T",
+    "html_url": "https://github.com/EricGuo5513/TM2T",
+    "language": "Python",
+    "pushed_at": "2024-08-18T00:23:39Z",
+    "stargazers_count": 139,
+    "topics": [
+      "motion-generation",
+      "motion-generator",
+      "motion-to-text",
+      "pytorch-implementation",
+      "text-to-motion"
+    ],
+    "updated_at": "2026-04-25T01:36:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![teaser_image](https://github.com/EricGuo5513/TM2T/blob/main/docs/teaser_image.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-generation"
+    },
+    {
+      "context_snippet": "![teaser_image](https://github.com/EricGuo5513/TM2T/blob/main/docs/teaser_image.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-generator"
+    },
+    {
+      "context_snippet": "![teaser_image](https://github.com/EricGuo5513/TM2T/blob/main/docs/teaser_image.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-to-text"
+    },
+    {
+      "context_snippet": "![teaser_image](https://github.com/EricGuo5513/TM2T/blob/main/docs/teaser_image.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    },
+    {
+      "context_snippet": "![teaser_image](https://github.com/EricGuo5513/TM2T/blob/main/docs/teaser_image.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-motion"
+    }
+  ]
+}

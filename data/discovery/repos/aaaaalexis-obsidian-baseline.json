@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "aaaaalexis/obsidian-cupertino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "damiankorcz/alternative-checkboxes-reference-set",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "jdanielmourao/obsidian-sanctum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "bwya77/obsidian-baseline-customization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "light-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "obsidian-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:57:28.008846+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A foundational Obsidian theme as the baseline of your thoughts.",
+    "fork": false,
+    "full_name": "aaaaalexis/obsidian-baseline",
+    "html_url": "https://github.com/aaaaalexis/obsidian-baseline",
+    "language": "SCSS",
+    "pushed_at": "2026-05-02T07:54:47Z",
+    "stargazers_count": 1317,
+    "topics": [
+      "dark-theme",
+      "light-theme",
+      "obsidian",
+      "obsidian-md",
+      "obsidian-theme",
+      "theme"
+    ],
+    "updated_at": "2026-05-02T22:41:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaaaalexis/obsidian-cupertino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwya77/obsidian-baseline-customization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damiankorcz/alternative-checkboxes-reference-set",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdanielmourao/obsidian-sanctum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dark-theme"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light-theme"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-theme"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

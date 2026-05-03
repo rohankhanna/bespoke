@@ -91,6 +91,18 @@
       "source_repo": "google/argh",
       "status": "candidate-context",
       "text": "**Argh is an opinionated Derive-based argument parser optimized for code size**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "p-ranav/argparse",
+      "status": "candidate-context",
+      "text": "Argument Parser for Modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p-ranav/argparse",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "google/argh",
       "status": "candidate",
       "text": "**Argh is an opinionated Derive-based argument parser optimized for code size**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p-ranav/argparse",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +208,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "google/argh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "p-ranav/argparse"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

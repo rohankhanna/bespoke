@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "WinDivert: Windows Packet Divert"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "WinDivert: Windows Packet Divert"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "WinDivert: Windows Packet Divert"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "packet-sniffer",
+      "sense_id": "packet-sniffer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "packet-sniffer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "packet-sniffer",
+  "observation_id": "aa895e7c567b24a9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "packet-sniffer",
+  "source_context_snippet": "WinDivert: Windows Packet Divert",
+  "source_file": null,
+  "source_repo": "basil00/WinDivert",
+  "source_repo_description": "WinDivert: Windows Packet Divert"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Downloadable Content, HEAD"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "status": "candidate-context",
+      "text": "the documentation for the ir_datasets package (https://github.com/allenai/ir_datasets/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "status": "candidate-context",
+      "text": "Downloadable Content, HEAD"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "status": "candidate",
+      "text": "Downloadable Content, HEAD"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22906,
+      "status": "candidate",
+      "text": "account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22884,
+      "status": "candidate",
+      "text": "detective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22862,
+      "status": "candidate",
+      "text": "come"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22851,
+      "status": "candidate",
+      "text": "capital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22851,
+      "status": "candidate",
+      "text": "scare"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Downloadable Content, HEAD",
+  "concept_id": "downloadable-content-head",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/head_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Downloadable Content, HEAD",
+      "sense_id": "downloadable-content-head#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

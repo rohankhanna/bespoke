@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "istio/ztunnel",
+      "target": "istio/tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "istio/ztunnel",
+      "target": "tofay/rustls-openssl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:56:05.146736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8064
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 5684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The `ztunnel` component of ambient mesh",
+    "fork": false,
+    "full_name": "istio/ztunnel",
+    "html_url": "https://github.com/istio/ztunnel",
+    "language": "Rust",
+    "pushed_at": "2026-04-30T22:19:13Z",
+    "stargazers_count": 460,
+    "topics": [],
+    "updated_at": "2026-05-01T19:05:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "istio/tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tofay/rustls-openssl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

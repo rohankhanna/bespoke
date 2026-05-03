@@ -1,0 +1,12 @@
+{
+  "component": "EndBug/version-check@36ff30f37c7deabe56a30caa043d127be658c425",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "unrs/unrs-resolver"
+    }
+  ]
+}

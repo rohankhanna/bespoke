@@ -187,6 +187,18 @@
       "source_repo": "mit-han-lab/efficientvit",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "status": "candidate-context",
+      "text": "You can do anything by sota AI with prompt ,auto AI tools , VL larger model fine and project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> English | <a href=\"README_zh.md\">\u4e2d\u6587</a></p>"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "mit-han-lab/efficientvit",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-compression-autoencoder-for-efficient/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=deep-compression-autoencoder-for-efficient)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "positive666/Prompt-Can-Anything",
+      "status": "candidate",
+      "text": "<p align=\"center\"> English | <a href=\"README_zh.md\">\u4e2d\u6587</a></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -376,11 +394,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mit-han-lab/efficientvit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "positive666/Prompt-Can-Anything"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

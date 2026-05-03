@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:44:05.848921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1004
+    },
+    {
+      "path": "requirements.txt",
+      "size": 28
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Voxel challenge at Taichi dev.",
+    "fork": false,
+    "full_name": "houkensjtu/qbao_voxel_art",
+    "html_url": "https://github.com/houkensjtu/qbao_voxel_art",
+    "language": "Python",
+    "pushed_at": "2022-05-12T07:53:20Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2023-11-25T15:00:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

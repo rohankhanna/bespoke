@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Homebrew tap for osrf simulation software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build | Status"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build | Status"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864320,
+      "status": "candidate",
+      "text": "hophead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864319,
+      "status": "candidate",
+      "text": "hellbrew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864318,
+      "status": "candidate",
+      "text": "hopback"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864317,
+      "status": "candidate",
+      "text": "homecraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19864316,
+      "status": "candidate",
+      "text": "heineken"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "homebrew",
+      "sense_id": "homebrew#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "homebrew",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "homebrew",
+  "observation_id": "cb3dbf9d9bdb6e74",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "homebrew",
+  "source_context_snippet": "Build | Status",
+  "source_file": null,
+  "source_repo": "osrf/homebrew-simulation",
+  "source_repo_description": "Homebrew tap for osrf simulation software"
+}

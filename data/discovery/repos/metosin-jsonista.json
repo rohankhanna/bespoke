@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/setup-java@v3.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v3.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/jsonista",
+      "target": "clojure/data.json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/jsonista",
+      "target": "metosin/muuntaja",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/jsonista",
+      "target": "clj-time/clj-time",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/jsonista",
+      "target": "jgpc42/lein-jmh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/jsonista",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/jsonista",
+      "target": "actions/setup-java@v3.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/jsonista",
+      "target": "DeLaGuardo/setup-clojure@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/jsonista",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "metosin/jsonista",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "metosin/jsonista",
+      "target": "actions/setup-java@v3.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "metosin/jsonista",
+      "target": "DeLaGuardo/setup-clojure@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "metosin/jsonista",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/jsonista",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/jsonista",
+      "target": "jackson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/jsonista",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/jsonista",
+      "target": "metosin-stable",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:53:31.072538+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11102
+    },
+    {
+      "path": ".github/workflows/clojure.yml",
+      "size": 617
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojure library for fast JSON encoding and decoding.",
+    "fork": false,
+    "full_name": "metosin/jsonista",
+    "html_url": "https://github.com/metosin/jsonista",
+    "language": "Clojure",
+    "pushed_at": "2026-03-27T10:54:02Z",
+    "stargazers_count": 468,
+    "topics": [
+      "clojure",
+      "jackson",
+      "json",
+      "metosin-stable"
+    ],
+    "updated_at": "2026-04-19T06:37:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clj-time/clj-time",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/data.json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jgpc42/lein-jmh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metosin/muuntaja",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[![Continuous Integration status](https://github.com/metosin/jsonista/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/jsonista/actions/workflows/clojure.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![Continuous Integration status](https://github.com/metosin/jsonista/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/jsonista/actions/workflows/clojure.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jackson"
+    },
+    {
+      "context_snippet": "[![Continuous Integration status](https://github.com/metosin/jsonista/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/jsonista/actions/workflows/clojure.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![Continuous Integration status](https://github.com/metosin/jsonista/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/jsonista/actions/workflows/clojure.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metosin-stable"
+    }
+  ]
+}

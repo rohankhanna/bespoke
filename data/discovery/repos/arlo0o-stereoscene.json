@@ -1,0 +1,233 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "waterljwant/ssc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "astra-vision/lmscnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "prbonn/semantic-kitti-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "mileyan/pseudo_lidar_v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "3d-scene-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "semantic-kitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "semantic-scene-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene",
+      "target": "semantic-scene-understanding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:28.348979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[IJCAI 2024]Official PyTorch Implementation of Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion ",
+    "fork": false,
+    "full_name": "Arlo0o/StereoScene",
+    "html_url": "https://github.com/Arlo0o/StereoScene",
+    "language": "Python",
+    "pushed_at": "2025-01-31T06:39:17Z",
+    "stargazers_count": 110,
+    "topics": [
+      "3d-scene-understanding",
+      "artificial-intelligence",
+      "autonomous-driving",
+      "autonomous-vehicles",
+      "computer-vision",
+      "deep-learning",
+      "machine-learning",
+      "pytorch",
+      "semantic-kitti",
+      "semantic-scene-completion",
+      "semantic-scene-understanding"
+    ],
+    "updated_at": "2026-04-07T06:05:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astra-vision/lmscnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mileyan/pseudo_lidar_v2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prbonn/semantic-kitti-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "waterljwant/ssc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-scene-understanding"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-kitti"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-scene-completion"
+    },
+    {
+      "context_snippet": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-scene-understanding"
+    }
+  ]
+}

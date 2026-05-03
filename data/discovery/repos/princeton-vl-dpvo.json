@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "princeton-vl/DPVO",
+      "target": "princeton-vl/dpvo_docker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:55:59.293692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deep Patch Visual Odometry/SLAM",
+    "fork": false,
+    "full_name": "princeton-vl/DPVO",
+    "html_url": "https://github.com/princeton-vl/DPVO",
+    "language": "C++",
+    "pushed_at": "2024-10-12T23:16:08Z",
+    "stargazers_count": 989,
+    "topics": [],
+    "updated_at": "2026-04-28T05:56:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-vl/dpvo_docker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

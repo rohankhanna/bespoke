@@ -352,6 +352,18 @@
       "source_repo": "radashi-org/radashi",
       "status": "candidate-context",
       "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate-context",
+      "text": "Generate difference sets between Ruby sequences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate-context",
+      "text": "Publish docs"
     }
   ],
   "candidate_glosses": [
@@ -528,6 +540,12 @@
       "source_repo": "radashi-org/radashi",
       "status": "candidate",
       "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate",
+      "text": "Publish docs"
     }
   ],
   "candidate_related_terms": [
@@ -871,11 +889,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "halostatue/diff-lcs"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

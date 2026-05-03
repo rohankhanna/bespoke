@@ -43,6 +43,18 @@
       "source_repo": "haiwen/seafile",
       "status": "candidate-context",
       "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "schollz/croc",
+      "status": "candidate-context",
+      "text": "Easily and securely send things from one computer to another :crocodile: :package:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schollz/croc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "haiwen/seafile",
       "status": "candidate",
       "text": "Beyond file syncing and sharing, a new way to organize your files with extensible file properties and flexible views"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "schollz/croc",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "haiwen/seafile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "schollz/croc"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

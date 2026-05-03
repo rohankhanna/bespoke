@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4e2d\u56fd\u8fd0\u8425\u5546IPv4/IPv6\u5730\u5740\u5e93-\u6bcf\u65e5\u66f4\u65b0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- Keep these links. Translations will automatically update with the README. -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- Keep these links. Translations will automatically update with the README. -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011955,
+      "status": "candidate",
+      "text": "every day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008701,
+      "status": "candidate",
+      "text": "everyday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007090,
+      "status": "candidate",
+      "text": "day-to-day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997997,
+      "status": "candidate",
+      "text": "day by day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930919,
+      "status": "candidate",
+      "text": "regular"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "daily",
+      "sense_id": "daily#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19048,
+      "status": "candidate",
+      "text": "regular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9035,
+      "status": "candidate",
+      "text": "everyday"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4025,
+      "status": "candidate",
+      "text": "day-to-day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "day by day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "every day"
+    }
+  ],
+  "concept_id": "daily",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "daily",
+  "observation_id": "2cb9eb9327c13bc9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "daily",
+  "source_context_snippet": "<!-- Keep these links. Translations will automatically update with the README. -->",
+  "source_file": null,
+  "source_repo": "gaoyifan/china-operator-ip",
+  "source_repo_description": "\u4e2d\u56fd\u8fd0\u8425\u5546IPv4/IPv6\u5730\u5740\u5e93-\u6bcf\u65e5\u66f4\u65b0"
+}

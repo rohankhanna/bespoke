@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "magic-string",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "three",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lo-th/phy",
+      "target": "dimforge/rapier.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lo-th/phy",
+      "target": "jrouwe/joltphysics.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lo-th/phy",
+      "target": "babylonjs/babylon.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lo-th/phy",
+      "target": "fabmax/physx-js-webidl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lo-th/phy",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lo-th/phy",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lo-th/phy",
+      "target": "magic-string",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lo-th/phy",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "lo-th/phy",
+      "target": "three",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lo-th/phy",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lo-th/phy",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lo-th/phy",
+      "target": "physics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lo-th/phy",
+      "target": "threejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:28.476484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2100
+    },
+    {
+      "path": "package.json",
+      "size": 2165
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Physics for three. Game engine ",
+    "fork": false,
+    "full_name": "lo-th/phy",
+    "html_url": "https://github.com/lo-th/phy",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-30T16:50:22Z",
+    "stargazers_count": 703,
+    "topics": [
+      "game",
+      "game-engine",
+      "physics",
+      "threejs"
+    ],
+    "updated_at": "2026-05-01T18:03:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babylonjs/babylon.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dimforge/rapier.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fabmax/physx-js-webidl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jrouwe/joltphysics.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Oimo](https://github.com/saharan/OimoPhysics/) &mdash;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "[Oimo](https://github.com/saharan/OimoPhysics/) &mdash;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "[Oimo](https://github.com/saharan/OimoPhysics/) &mdash;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics"
+    },
+    {
+      "context_snippet": "[Oimo](https://github.com/saharan/OimoPhysics/) &mdash;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threejs"
+    }
+  ]
+}

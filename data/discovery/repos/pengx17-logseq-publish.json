@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "electron",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "playwright",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "benc-uk/workflow-dispatch@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "oilbeater/smart-review@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smart-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "pengx17/knowledge-garden",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "playwright",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "Build Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "Manual Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "benc-uk/workflow-dispatch@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "Nightly Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smart-review.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "oilbeater/smart-review@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smart-review.yml",
+      "source_repo": "pengx17/logseq-publish",
+      "target": "Smart Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pengx17/logseq-publish",
+      "target": "logseq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pengx17/logseq-publish",
+      "target": "publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:52:54.415127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5058
+    },
+    {
+      "path": "Dockerfile",
+      "size": 576
+    },
+    {
+      "path": "package.json",
+      "size": 546
+    },
+    {
+      "path": ".github/workflows/build-docker.yml",
+      "size": 1279
+    },
+    {
+      "path": ".github/workflows/manual.yml",
+      "size": 516
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 1273
+    },
+    {
+      "path": ".github/workflows/smart-review.yml",
+      "size": 374
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Archived. Please check https://github.com/logseq/publish-spa instead",
+    "fork": false,
+    "full_name": "pengx17/logseq-publish",
+    "html_url": "https://github.com/pengx17/logseq-publish",
+    "language": "JavaScript",
+    "pushed_at": "2023-04-14T02:12:24Z",
+    "stargazers_count": 359,
+    "topics": [
+      "logseq",
+      "publish"
+    ],
+    "updated_at": "2026-04-13T00:27:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pengx17/knowledge-garden",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docker.yml",
+      "term": "Build Docker Images"
+    },
+    {
+      "context_snippet": "Manual Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "term": "Manual Build"
+    },
+    {
+      "context_snippet": "Nightly Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly Build"
+    },
+    {
+      "context_snippet": "Smart Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smart-review.yml",
+      "term": "Smart Review"
+    },
+    {
+      "context_snippet": "> **Note**: Logseq team has published [its official solution](https://github.com/logseq/publish-spa). As a result, I will archive mine here. Thanks for your supports thus far!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logseq"
+    },
+    {
+      "context_snippet": "> **Note**: Logseq team has published [its official solution](https://github.com/logseq/publish-spa). As a result, I will archive mine here. Thanks for your supports thus far!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "publish"
+    }
+  ]
+}

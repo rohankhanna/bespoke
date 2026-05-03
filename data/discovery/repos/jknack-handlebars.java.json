@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-matrix.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jknack/handlebars.java",
+      "target": "wycats/handlebars.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jknack/handlebars.java",
+      "target": "fnando/i18n-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jknack/handlebars.java",
+      "target": "mbosecke/template-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jknack/handlebars.java",
+      "target": "mustache/spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-matrix.yml",
+      "source_repo": "jknack/handlebars.java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-matrix.yml",
+      "source_repo": "jknack/handlebars.java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-matrix.yml",
+      "source_repo": "jknack/handlebars.java",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central.yml",
+      "source_repo": "jknack/handlebars.java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central.yml",
+      "source_repo": "jknack/handlebars.java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-central.yml",
+      "source_repo": "jknack/handlebars.java",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-central.yml",
+      "source_repo": "jknack/handlebars.java",
+      "target": "Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jknack/handlebars.java",
+      "target": "handlebars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jknack/handlebars.java",
+      "target": "template-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jknack/handlebars.java",
+      "target": "templates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:46:38.747517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30334
+    },
+    {
+      "path": ".github/workflows/build-matrix.yml",
+      "size": 795
+    },
+    {
+      "path": ".github/workflows/maven-central.yml",
+      "size": 1115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Logic-less and semantic Mustache templates with Java",
+    "fork": false,
+    "full_name": "jknack/handlebars.java",
+    "html_url": "https://github.com/jknack/handlebars.java",
+    "language": "Java",
+    "pushed_at": "2025-08-07T21:09:36Z",
+    "stargazers_count": 1550,
+    "topics": [
+      "handlebars",
+      "template-engine",
+      "templates"
+    ],
+    "updated_at": "2026-05-01T16:19:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnando/i18n-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbosecke/template-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mustache/spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wycats/handlebars.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-matrix.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-central.yml",
+      "term": "Maven Central"
+    },
+    {
+      "context_snippet": "[![Become a Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://patreon.com/edgarespina)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "handlebars"
+    },
+    {
+      "context_snippet": "[![Become a Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://patreon.com/edgarespina)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-engine"
+    },
+    {
+      "context_snippet": "[![Become a Patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://patreon.com/edgarespina)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "templates"
+    }
+  ]
+}

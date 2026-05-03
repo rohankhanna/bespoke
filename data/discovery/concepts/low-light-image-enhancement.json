@@ -103,6 +103,18 @@
       "source_repo": "tuvovan/Zero_DCE_TF",
       "status": "candidate-context",
       "text": "The Tensorflow Implementation of the [Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Zero-Reference_Deep_Curve_Estimation_for_Low-Light_Image_Enhancement_CVPR_2020_paper.pdf) - CVPR 2020"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Algolzw/daclip-uir",
+      "status": "candidate-context",
+      "text": "[ICLR 2024] Controlling Vision-Language Models for Universal Image Restoration. 5th place in the NTIRE 2024 Restore Any Image Model in the Wild Challenge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Algolzw/daclip-uir",
+      "status": "candidate-context",
+      "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "tuvovan/Zero_DCE_TF",
       "status": "candidate",
       "text": "The Tensorflow Implementation of the [Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement](https://openaccess.thecvf.com/content_CVPR_2020/papers/Guo_Zero-Reference_Deep_Curve_Estimation_for_Low-Light_Image_Enhancement_CVPR_2020_paper.pdf) - CVPR 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Algolzw/daclip-uir",
+      "status": "candidate",
+      "text": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)"
     }
   ],
   "candidate_related_terms": [],
@@ -250,11 +268,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

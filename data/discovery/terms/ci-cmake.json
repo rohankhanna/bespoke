@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci-cmake.yml",
       "source_repo": "google/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "Blosc/c-blosc"
     }
   ],
   "term": "CI (CMake)"

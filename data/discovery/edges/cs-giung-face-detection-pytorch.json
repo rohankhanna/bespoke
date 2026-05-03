@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "varunagrawal/tiny-faces-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "yxlijun/pyramidbox.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "yxlijun/dsfd.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "tencentyouturesearch/facedetection-dsfd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "dsfd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "faceboxes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "mtcnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "pyramidbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "s3fd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-giung/face-detection-pytorch",
+      "target": "tinyface",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "cs-giung/face-detection-pytorch"
+}

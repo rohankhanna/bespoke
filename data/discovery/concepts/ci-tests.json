@@ -279,6 +279,18 @@
       "source_repo": "justinfx/fileseq",
       "status": "candidate-context",
       "text": "CI Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/snippets-web",
+      "status": "candidate-context",
+      "text": "Web snippets for firebase.google.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/snippets-web",
+      "status": "candidate-context",
+      "text": "CI Tests"
     }
   ],
   "candidate_glosses": [
@@ -417,6 +429,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "justinfx/fileseq",
+      "status": "candidate",
+      "text": "CI Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/snippets-web",
       "status": "candidate",
       "text": "CI Tests"
     }
@@ -696,11 +714,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "commonmark/commonmark.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chipsalliance/python-fpga-interchange"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "datalab-to/marker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "firebase/snippets-web"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

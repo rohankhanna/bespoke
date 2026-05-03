@@ -1,0 +1,375 @@
+{
+  "components": [
+    {
+      "component": "@actions/github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@octokit/rest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions-cool/issues-helper@up",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-add-inactive.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-assing.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@up",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-close-need.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@up",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-close-otherday.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@up",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-close-otherday.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@test",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-duplicate.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@dad28fdb88da5f082c04659b7373d85790f9b135",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@test",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@up",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml"
+    },
+    {
+      "component": "actions-cool/test-ci@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml"
+    },
+    {
+      "component": "actions-cool/check-user-permission@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@up",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@up",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@up",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml"
+    },
+    {
+      "component": "actions-cool/issues-month-statistics@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-month-statistics.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@up",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-open-website.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@up",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-open-website.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "@octokit/rest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-add-inactive.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/issues-helper@up",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-add-inactive.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "Issue Add Inactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-assing.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-assing.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "Add Assigness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-close-need.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/issues-helper@up",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-close-need.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "close need issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-close-otherday.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/issues-helper@up",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-close-otherday.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "Issue Close Require",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-duplicate.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/issues-helper@test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-duplicate.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "Issue Mark Duplicate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/issues-helper@dad28fdb88da5f082c04659b7373d85790f9b135",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/issues-helper@test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/issues-helper@up",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/test-ci@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/check-user-permission@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "Issue Labeled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-month-statistics.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/issues-month-statistics@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-month-statistics.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "Issue Month Statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-open-website.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "actions-cool/issues-helper@up",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-open-website.yml",
+      "source_repo": "actions-cool/test-issues-helper",
+      "target": "Check Issue",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:50:41.493991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 970
+    },
+    {
+      "path": "package.json",
+      "size": 120
+    },
+    {
+      "path": ".github/workflows/issue-add-inactive.yml",
+      "size": 352
+    },
+    {
+      "path": ".github/workflows/issue-assing.yml",
+      "size": 390
+    },
+    {
+      "path": ".github/workflows/issue-close-need.yml",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/issue-close-otherday.yml",
+      "size": 767
+    },
+    {
+      "path": ".github/workflows/issue-duplicate.yml",
+      "size": 404
+    },
+    {
+      "path": ".github/workflows/issue-labeled.yml",
+      "size": 4265
+    },
+    {
+      "path": ".github/workflows/issue-month-statistics.yml",
+      "size": 429
+    },
+    {
+      "path": ".github/workflows/issue-open-website.yml",
+      "size": 1706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "actions-cool/test-issues-helper",
+    "html_url": "https://github.com/actions-cool/test-issues-helper",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-20T09:39:28Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-20T09:48:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Issue Add Inactive",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-add-inactive.yml",
+      "term": "Issue Add Inactive"
+    },
+    {
+      "context_snippet": "Add Assigness",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-assing.yml",
+      "term": "Add Assigness"
+    },
+    {
+      "context_snippet": "close need issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-close-need.yml",
+      "term": "close need issues"
+    },
+    {
+      "context_snippet": "Issue Close Require",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-close-otherday.yml",
+      "term": "Issue Close Require"
+    },
+    {
+      "context_snippet": "Issue Mark Duplicate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-duplicate.yml",
+      "term": "Issue Mark Duplicate"
+    },
+    {
+      "context_snippet": "Issue Labeled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "term": "Issue Labeled"
+    },
+    {
+      "context_snippet": "Issue Month Statistics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-month-statistics.yml",
+      "term": "Issue Month Statistics"
+    },
+    {
+      "context_snippet": "Check Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-open-website.yml",
+      "term": "Check Issue"
+    }
+  ]
+}

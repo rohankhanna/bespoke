@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fperazzi/davis-2017",
+      "target": "jponttuset/davis-matlab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fperazzi/davis-2017",
+      "target": "ndarray/boost.numpy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:17.649289+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "fperazzi/davis-2017",
+    "html_url": "https://github.com/fperazzi/davis-2017",
+    "language": "C++",
+    "pushed_at": "2021-08-01T15:59:47Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-03-23T09:25:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jponttuset/davis-matlab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ndarray/boost.numpy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

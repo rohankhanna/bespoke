@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "collision-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "distance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "level-set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "signed-distance-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance",
+      "target": "triangle",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "InteractiveComputerGraphics/TriangleMeshDistance"
+}

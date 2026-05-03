@@ -43,6 +43,30 @@
       "source_repo": "f90/Wave-U-Net",
       "status": "candidate-context",
       "text": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "p-ranav/argparse",
+      "status": "candidate-context",
+      "text": "Argument Parser for Modern C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p-ranav/argparse",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "status": "candidate-context",
+      "text": " A fast, clean, responsive Hugo theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "status": "candidate-context",
+      "text": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "f90/Wave-U-Net",
       "status": "candidate",
       "text": "Implementation of the [Wave-U-Net](https://arxiv.org/abs/1806.03185) for audio source separation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "p-ranav/argparse",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "status": "candidate",
+      "text": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +232,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "p-ranav/argparse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

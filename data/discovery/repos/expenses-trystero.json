@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "firebase",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ipfs-core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simple-peer-light",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expenses/trystero",
+      "target": "firebase",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expenses/trystero",
+      "target": "ipfs-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "expenses/trystero",
+      "target": "simple-peer-light",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "expenses/trystero",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "expenses/trystero",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "expenses/trystero",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "expenses/trystero",
+      "target": "terser",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:48:21.670189+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23248
+    },
+    {
+      "path": "package.json",
+      "size": 1173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcef Serverless WebRTC matchmaking for painless P2P \u2014 Make any site multiplayer in a few lines \u2014 Use BitTorrent, IPFS, or Firebase",
+    "fork": true,
+    "full_name": "expenses/trystero",
+    "html_url": "https://github.com/expenses/trystero",
+    "language": null,
+    "pushed_at": "2022-04-29T13:21:35Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-04-13T11:20:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

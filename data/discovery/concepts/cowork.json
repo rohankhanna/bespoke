@@ -31,6 +31,18 @@
       "source_repo": "bytedance/UI-TARS-desktop",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heshengtao/super-agent-party",
+      "status": "candidate-context",
+      "text": "\u2b50 All-in-one AI companion! Super Agent Party = Self hosted neuro sama + openclaw! \u2b50 \u5168\u80fdAI\u4f34\u4fa3\uff01\u8d85\u7ea7\u667a\u80fd\u4f53\u6d3e\u5bf9 = \u81ea\u6258\u7ba1neuro sama + openclaw!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heshengtao/super-agent-party",
+      "status": "candidate-context",
+      "text": "![image](static/source/cover.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "bytedance/UI-TARS-desktop",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heshengtao/super-agent-party",
+      "status": "candidate",
+      "text": "![image](static/source/cover.png)"
     }
   ],
   "candidate_related_terms": [
@@ -86,11 +104,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "bytedance/UI-TARS-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heshengtao/super-agent-party"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

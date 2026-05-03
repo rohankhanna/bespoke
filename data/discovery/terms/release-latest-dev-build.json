@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release_latest_dev.yml",
       "source_repo": "VOICEVOX/voicevox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-latest-dev.yml",
+      "source_repo": "Hiroshiba/voicevox_engine"
     }
   ],
   "term": "Release latest dev build"

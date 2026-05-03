@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "verify-wasm-onicai-SNS-LLMs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onicai/llama_cpp_canister",
+      "status": "candidate-context",
+      "text": "llama.cpp for the Internet Computer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onicai/llama_cpp_canister",
+      "status": "candidate-context",
+      "text": "verify-wasm-onicai-SNS-LLMs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onicai/llama_cpp_canister",
+      "status": "candidate",
+      "text": "verify-wasm-onicai-SNS-LLMs"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "verify-wasm-onicai-SNS-LLMs",
+  "concept_id": "verify-wasm-onicai-sns-llms",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/verify-onicai-LLMs.yml",
+      "source_repo": "onicai/llama_cpp_canister"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "verify-wasm-onicai-SNS-LLMs",
+      "sense_id": "verify-wasm-onicai-sns-llms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

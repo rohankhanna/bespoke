@@ -163,6 +163,42 @@
       "source_repo": "element-plus/element-plus",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/sdk-for-web",
+      "status": "candidate-context",
+      "text": "[READ-ONLY] Official Appwrite Web SDK \ud83e\udde1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-web",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/appwrite/sdk-for-web.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate-context",
+      "text": "Javascript codes you will always need  & Cheatsheets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate-context",
+      "text": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElemeFE/element",
+      "status": "candidate-context",
+      "text": "A Vue.js 2.0 UI Toolkit for Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElemeFE/element",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -241,6 +277,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "element-plus/element-plus",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/sdk-for-web",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/appwrite/sdk-for-web.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "status": "candidate",
+      "text": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElemeFE/element",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -394,11 +448,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "element-plus/element-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "windicss/windicss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/sdk-for-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "devsmitra/javascript-quick-functions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ElemeFE/element"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

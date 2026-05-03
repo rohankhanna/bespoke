@@ -1,7 +1,7 @@
 {
   "component": "nick-invision/retry@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "googleapis/google-api-php-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xwidgets"
     }
   ]
 }

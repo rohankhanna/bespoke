@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "ruby/setup-ruby-pkgs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml_",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml_",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "ruby/setup-ruby-pkgs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml_",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml_",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mingw.yml_",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "mingw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mswin.yml",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mswin.yml",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mswin.yml",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mswin.yml",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mswin.yml",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mswin.yml",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "mswin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ucrt.yml",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ucrt.yml",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "ruby/setup-ruby-pkgs@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ucrt.yml",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ucrt.yml",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ucrt.yml",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "ucrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "mingw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "mswin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "ucrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MSP-Greg/ruby-loco",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "MSP-Greg/ruby-loco"
+}

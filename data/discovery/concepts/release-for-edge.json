@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release for Edge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "violentmonkey/violentmonkey",
+      "status": "candidate-context",
+      "text": "Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "violentmonkey/violentmonkey",
+      "status": "candidate-context",
+      "text": "Release for Edge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "violentmonkey/violentmonkey",
+      "status": "candidate",
+      "text": "Release for Edge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11645,
+      "status": "candidate",
+      "text": "cut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11645,
+      "status": "candidate",
+      "text": "entry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11645,
+      "status": "candidate",
+      "text": "flash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11645,
+      "status": "candidate",
+      "text": "flies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11645,
+      "status": "candidate",
+      "text": "fly"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release for Edge",
+  "concept_id": "release-for-edge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-edge.yml",
+      "source_repo": "violentmonkey/violentmonkey"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release for Edge",
+      "sense_id": "release-for-edge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

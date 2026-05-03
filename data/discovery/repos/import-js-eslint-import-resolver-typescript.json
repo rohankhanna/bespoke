@@ -1,0 +1,860 @@
+{
+  "components": [
+    {
+      "component": "debug",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-import-context",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "get-tsconfig",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-bun-module",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stable-hash-x",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tinyglobby",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "unrs-resolver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@1stg/common-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/changelog-github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@mozilla/glean",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@pkgr/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@total-typescript/ts-reset",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/debug",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/pnpapi",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/unist",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clean-pkg-json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dummy.js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-import-resolver-typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import-x",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nano-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "path-serializer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "premove",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simple-git-hooks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "size-limit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "size-limit-preset-node-lib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tinyexec",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "type-coverage",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yarn-berry-deduplicate",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import-x",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "autofix-ci/action@635ffb0c9798bd160680f18fd73371e355b85f27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@18283e04ce6e62d37312384ff67231eb8fd56d24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-pr-new.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-pr-new.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "changesets/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size-limit.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size-limit.yml"
+    },
+    {
+      "component": "andresz1/size-limit-action@94bc357df29c36c8f8d50ea497c3e225c3c95d1d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size-limit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "import-js/eslint-plugin-import",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "unrs/unrs-resolver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "eslint-import-context",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "get-tsconfig",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "is-bun-module",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "stable-hash-x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "tinyglobby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "unrs-resolver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@1stg/common-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@changesets/changelog-github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@mozilla/glean",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@pkgr/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@total-typescript/ts-reset",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@types/debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@types/pnpapi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@types/unist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "@vitest/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "clean-pkg-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "dummy.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "eslint-import-resolver-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "eslint-plugin-import-x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "nano-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "npm-run-all2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "path-serializer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "premove",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "simple-git-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "size-limit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "size-limit-preset-node-lib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "tinyexec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "tsdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "type-coverage",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "yarn-berry-deduplicate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "eslint-plugin-import-x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "autofix-ci/action@635ffb0c9798bd160680f18fd73371e355b85f27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "codecov/codecov-action@18283e04ce6e62d37312384ff67231eb8fd56d24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-pr-new.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-pr-new.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg-pr-new.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "Publish Any Commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "changesets/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size-limit.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size-limit.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/size-limit.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "andresz1/size-limit-action@94bc357df29c36c8f8d50ea497c3e225c3c95d1d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/size-limit.yml",
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "Size Limit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "eslint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "eslint-import-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "eslint-import-resolver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "import-js/eslint-import-resolver-typescript",
+      "target": "eslint-plugin-import",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:59:22.792744+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14674
+    },
+    {
+      "path": "package.json",
+      "size": 3602
+    },
+    {
+      "path": ".github/workflows/autofix.yml",
+      "size": 917
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1332
+    },
+    {
+      "path": ".github/workflows/pkg-pr-new.yml",
+      "size": 680
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1446
+    },
+    {
+      "path": ".github/workflows/size-limit.yml",
+      "size": 818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This resolver adds `TypeScript` support to `eslint-plugin-import(-x)`",
+    "fork": false,
+    "full_name": "import-js/eslint-import-resolver-typescript",
+    "html_url": "https://github.com/import-js/eslint-import-resolver-typescript",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-01T00:39:06Z",
+    "stargazers_count": 821,
+    "topics": [
+      "eslint",
+      "eslint-import-plugin",
+      "eslint-import-resolver",
+      "eslint-plugin-import",
+      "typescript"
+    ],
+    "updated_at": "2026-05-01T05:30:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "import-js/eslint-plugin-import",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unrs/unrs-resolver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Any Commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg-pr-new.yml",
+      "term": "Publish Any Commit"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Size Limit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/size-limit.yml",
+      "term": "Size Limit"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/import-js/eslint-import-resolver-typescript/ci.yml?branch=master)](https://github.com/import-js/eslint-import-resolver-typescript/actions/workflows/ci.yml?query=branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/import-js/eslint-import-resolver-typescript/ci.yml?branch=master)](https://github.com/import-js/eslint-import-resolver-typescript/actions/workflows/ci.yml?query=branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint-import-plugin"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/import-js/eslint-import-resolver-typescript/ci.yml?branch=master)](https://github.com/import-js/eslint-import-resolver-typescript/actions/workflows/ci.yml?query=branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint-import-resolver"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/import-js/eslint-import-resolver-typescript/ci.yml?branch=master)](https://github.com/import-js/eslint-import-resolver-typescript/actions/workflows/ci.yml?query=branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint-plugin-import"
+    }
+  ]
+}

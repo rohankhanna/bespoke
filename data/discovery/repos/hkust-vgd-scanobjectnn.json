@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hkust-vgd/scanobjectnn",
+      "target": "yangyanli/pointcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hkust-vgd/scanobjectnn",
+      "target": "xyf513/spidercnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hkust-vgd/scanobjectnn",
+      "target": "sitzikbs/3dmfv-net",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:03.394803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8066
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for Revisiting Point Cloud Classification: A New Benchmark Dataset and Classification Model on Real-World Data, ICCV 2019",
+    "fork": false,
+    "full_name": "hkust-vgd/scanobjectnn",
+    "html_url": "https://github.com/hkust-vgd/scanobjectnn",
+    "language": "Python",
+    "pushed_at": "2022-08-11T07:18:43Z",
+    "stargazers_count": 253,
+    "topics": [],
+    "updated_at": "2026-04-27T08:19:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sitzikbs/3dmfv-net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xyf513/spidercnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yangyanli/pointcnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

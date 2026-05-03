@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "runpod/runpodctl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "kodxana/ohmyrunpod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "kodxana/runpod-filleuploader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "schollz/croc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "face-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "image-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "image-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "runpod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "video-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleykleynhans/hallo-docker",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:48.641986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5773
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Docker image for Hallo: Hierarchical Audio-Driven Visual Synthesis for Portrait Image Animation",
+    "fork": false,
+    "full_name": "ashleykleynhans/hallo-docker",
+    "html_url": "https://github.com/ashleykleynhans/hallo-docker",
+    "language": "Shell",
+    "pushed_at": "2024-07-02T08:46:39Z",
+    "stargazers_count": 4,
+    "topics": [
+      "docker-image",
+      "face-animation",
+      "generative-ai",
+      "image-animation",
+      "image-to-video",
+      "runpod",
+      "video-animation",
+      "video-generation"
+    ],
+    "updated_at": "2025-08-17T06:30:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kodxana/ohmyrunpod",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kodxana/runpod-filleuploader",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "runpod/runpodctl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "schollz/croc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-animation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-animation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-video"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runpod"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-animation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

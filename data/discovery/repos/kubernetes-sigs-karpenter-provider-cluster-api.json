@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "ko-build/setup-ko@d006021bd0c28d1ce33a07e7943d48b079944c8d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "kubernetes-sigs/cluster-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "ko-build/setup-ko@d006021bd0c28d1ce33a07e7943d48b079944c8d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "e2e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:57:11.022848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4415
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1687
+    },
+    {
+      "path": "go.mod",
+      "size": 4195
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 1218
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 886
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1478
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An implementation of Karpenter that uses Cluster API as the infrastructure provider.",
+    "fork": false,
+    "full_name": "kubernetes-sigs/karpenter-provider-cluster-api",
+    "html_url": "https://github.com/kubernetes-sigs/karpenter-provider-cluster-api",
+    "language": "Go",
+    "pushed_at": "2026-04-29T21:23:24Z",
+    "stargazers_count": 106,
+    "topics": [],
+    "updated_at": "2026-04-29T21:23:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/cluster-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "e2e",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "term": "e2e"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csslc/CCSR",
+      "target": "nju-pcalab/addsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csslc/CCSR",
+      "target": "arbitrary-steps-image-super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csslc/CCSR",
+      "target": "ccsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csslc/CCSR",
+      "target": "diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:42.204619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13941
+    },
+    {
+      "path": "requirements.txt",
+      "size": 230
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "CCSR-v2.0",
+    "description": "[TIP2026] Official codes of CCSRv2 and CCSRv1: Improving the Stability and Efficiency of Diffusion Models for Content Consistent Super-Resolution",
+    "fork": false,
+    "full_name": "csslc/CCSR",
+    "html_url": "https://github.com/csslc/CCSR",
+    "language": "Python",
+    "pushed_at": "2025-07-17T14:53:44Z",
+    "stargazers_count": 601,
+    "topics": [
+      "arbitrary-steps-image-super-resolution",
+      "ccsr",
+      "diffusion"
+    ],
+    "updated_at": "2026-04-21T18:19:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nju-pcalab/addsr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arbitrary-steps-image-super-resolution"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ccsr"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    }
+  ]
+}

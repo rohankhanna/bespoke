@@ -1,0 +1,290 @@
+{
+  "components": [
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typedoc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closeStaleIssuesAndPRs.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTestsOnPush.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTestsOnPush.yml"
+    },
+    {
+      "component": "jossef/action-set-json-field@v2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTestsOnPush.yml"
+    },
+    {
+      "component": "actions/first-interaction@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-first-time-contributors.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeautry/tsoa",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeautry/tsoa",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeautry/tsoa",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeautry/tsoa",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeautry/tsoa",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeautry/tsoa",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeautry/tsoa",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeautry/tsoa",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeautry/tsoa",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeautry/tsoa",
+      "target": "typedoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closeStaleIssuesAndPRs.yml",
+      "source_repo": "lukeautry/tsoa",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closeStaleIssuesAndPRs.yml",
+      "source_repo": "lukeautry/tsoa",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTestsOnPush.yml",
+      "source_repo": "lukeautry/tsoa",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTestsOnPush.yml",
+      "source_repo": "lukeautry/tsoa",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/runTestsOnPush.yml",
+      "source_repo": "lukeautry/tsoa",
+      "target": "jossef/action-set-json-field@v2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runTestsOnPush.yml",
+      "source_repo": "lukeautry/tsoa",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome-first-time-contributors.yml",
+      "source_repo": "lukeautry/tsoa",
+      "target": "actions/first-interaction@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome-first-time-contributors.yml",
+      "source_repo": "lukeautry/tsoa",
+      "target": "Welcome first time contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukeautry/tsoa",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukeautry/tsoa",
+      "target": "hacktoberfest2021",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:48:09.106662+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1943
+    },
+    {
+      "path": ".github/workflows/closeStaleIssuesAndPRs.yml",
+      "size": 729
+    },
+    {
+      "path": ".github/workflows/runTestsOnPush.yml",
+      "size": 1292
+    },
+    {
+      "path": ".github/workflows/welcome-first-time-contributors.yml",
+      "size": 709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build OpenAPI-compliant REST APIs using TypeScript and Node",
+    "fork": false,
+    "full_name": "lukeautry/tsoa",
+    "html_url": "https://github.com/lukeautry/tsoa",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-15T11:10:32Z",
+    "stargazers_count": 3964,
+    "topics": [
+      "hacktoberfest",
+      "hacktoberfest2021"
+    ],
+    "updated_at": "2026-05-01T09:37:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closeStaleIssuesAndPRs.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/runTestsOnPush.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Welcome first time contributors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome-first-time-contributors.yml",
+      "term": "Welcome first time contributors"
+    },
+    {
+      "context_snippet": "tsoa-monorepo \u2014 Build swagger-compliant REST APIs using TypeScript and Node",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "tsoa-monorepo \u2014 Build swagger-compliant REST APIs using TypeScript and Node",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2021"
+    }
+  ]
+}

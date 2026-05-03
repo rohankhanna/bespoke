@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "bitergia/release-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "bitbucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "grimoirelab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
+      "target": "perceval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:47:39.396853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3565
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1492
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3023
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Perceval backend for Bitbucket",
+    "fork": false,
+    "full_name": "perceval-backends/grimoirelab-perceval-bitbucket",
+    "html_url": "https://github.com/perceval-backends/grimoirelab-perceval-bitbucket",
+    "language": "Python",
+    "pushed_at": "2021-09-11T08:46:38Z",
+    "stargazers_count": 1,
+    "topics": [
+      "bitbucket",
+      "grimoirelab",
+      "perceval"
+    ],
+    "updated_at": "2022-06-10T19:11:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitergia/release-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/perceval-backends/grimoirelab-perceval-bitbucket/workflows/tests/badge.svg)](https://github.com/perceval-backends/grimoirelab-perceval-bitbucket/actions?query=workflow:tests+branch:master+event:push) [![Coverage Status](https://img.shields.io/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitbucket"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/perceval-backends/grimoirelab-perceval-bitbucket/workflows/tests/badge.svg)](https://github.com/perceval-backends/grimoirelab-perceval-bitbucket/actions?query=workflow:tests+branch:master+event:push) [![Coverage Status](https://img.shields.io/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grimoirelab"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/perceval-backends/grimoirelab-perceval-bitbucket/workflows/tests/badge.svg)](https://github.com/perceval-backends/grimoirelab-perceval-bitbucket/actions?query=workflow:tests+branch:master+event:push) [![Coverage Status](https://img.shields.io/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perceval"
+    }
+  ]
+}

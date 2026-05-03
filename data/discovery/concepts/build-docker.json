@@ -70,6 +70,54 @@
       "source_repo": "logseq/logseq",
       "status": "candidate-context",
       "text": "Build-Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "status": "candidate-context",
+      "text": "\u7121\u6599\u3067\u4f7f\u3048\u308b\u4e2d\u54c1\u8cea\u306a\u30c6\u30ad\u30b9\u30c8\u8aad\u307f\u4e0a\u3052\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2\u3001VOICEVOX\u306e\u97f3\u58f0\u5408\u6210\u30a8\u30f3\u30b8\u30f3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "status": "candidate-context",
+      "text": "build-docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "L-Trump/logseq-publish-docker",
+      "status": "candidate-context",
+      "text": "A docker image to publish logseq graphs on your server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "L-Trump/logseq-publish-docker",
+      "status": "candidate-context",
+      "text": "Build-Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logseq/og",
+      "status": "candidate-context",
+      "text": "Logseq og (file version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/og",
+      "status": "candidate-context",
+      "text": "Build-Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "duckdb/pg_duckdb",
+      "status": "candidate-context",
+      "text": "DuckDB-powered Postgres for high performance apps & analytics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duckdb/pg_duckdb",
+      "status": "candidate-context",
+      "text": "Build Docker"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +150,30 @@
       "source_repo": "logseq/logseq",
       "status": "candidate",
       "text": "Build-Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Hiroshiba/voicevox_engine",
+      "status": "candidate",
+      "text": "build-docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "L-Trump/logseq-publish-docker",
+      "status": "candidate",
+      "text": "Build-Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logseq/og",
+      "status": "candidate",
+      "text": "Build-Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duckdb/pg_duckdb",
+      "status": "candidate",
+      "text": "Build Docker"
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +247,35 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "logseq/logseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "L-Trump/logseq-publish-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "duckdb/pg_duckdb"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

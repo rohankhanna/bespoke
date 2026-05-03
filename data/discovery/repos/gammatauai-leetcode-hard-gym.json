@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:58:14.713581+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5681
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 861
+    },
+    {
+      "path": "requirements.txt",
+      "size": 217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A hard gym for programming",
+    "fork": false,
+    "full_name": "GammaTauAI/leetcode-hard-gym",
+    "html_url": "https://github.com/GammaTauAI/leetcode-hard-gym",
+    "language": "Python",
+    "pushed_at": "2024-07-07T23:24:13Z",
+    "stargazers_count": 165,
+    "topics": [],
+    "updated_at": "2026-05-01T03:37:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

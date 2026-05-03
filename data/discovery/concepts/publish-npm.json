@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Publish NPM",
-    "publish-npm"
+    "publish-npm",
+    "Publish: NPM"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -56,6 +57,18 @@
       "source_repo": "ttktjmt/mjswan",
       "status": "candidate-context",
       "text": "publish-npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate-context",
+      "text": "UAParser.js - The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser (client-side) or Node.js (server-side)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate-context",
+      "text": "\"Publish: NPM\""
     }
   ],
   "candidate_glosses": [
@@ -82,6 +95,12 @@
       "source_repo": "ttktjmt/mjswan",
       "status": "candidate",
       "text": "publish-npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faisalman/ua-parser-js",
+      "status": "candidate",
+      "text": "\"Publish: NPM\""
     }
   ],
   "candidate_related_terms": [
@@ -119,6 +138,41 @@
       "score": 15304,
       "status": "candidate",
       "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "absolutist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "alk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "benthamite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "bismarckian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "buddhistic"
     }
   ],
   "candidate_synonyms": [],
@@ -173,11 +227,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/publish-npm.yml",
       "source_repo": "ogx-ai/ogx-client-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "faisalman/ua-parser-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "ogx-ai/ogx-client-typescript"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

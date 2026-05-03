@@ -48,7 +48,7 @@
   "normalized_form": "nodejs",
   "observation_id": "57e83b90f100ba8f",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "nodejs",
   "source_context_snippet": "The Bot Framework SDK is being retired with final long term support ending December 2025. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted and bots built with the SDK will continue to function. However, the too\u2026",
   "source_file": null,

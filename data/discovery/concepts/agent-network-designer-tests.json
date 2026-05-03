@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Agent Network Designer Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "status": "candidate-context",
+      "text": "A playground for neuro-san"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "status": "candidate-context",
+      "text": "Agent Network Designer Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "status": "candidate",
+      "text": "Agent Network Designer Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27300,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17814,
+      "status": "candidate",
+      "text": "intelligence test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17707,
+      "status": "candidate",
+      "text": "intelligence quotient"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17676,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17649,
+      "status": "candidate",
+      "text": "daniel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Agent Network Designer Tests",
+  "concept_id": "agent-network-designer-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/agent_network_designer.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Agent Network Designer Tests",
+      "sense_id": "agent-network-designer-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "triggers-offline-testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/serverless-examples",
+      "status": "candidate-context",
+      "text": "Example projects and patterns for use with Scaleway's serverless products"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-examples",
+      "status": "candidate-context",
+      "text": "triggers-offline-testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/serverless-examples",
+      "status": "candidate",
+      "text": "triggers-offline-testing"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "triggers-offline-testing",
+  "concept_id": "triggers-offline-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/triggers-functions-offline-testing.yml",
+      "source_repo": "scaleway/serverless-examples"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "triggers-offline-testing",
+      "sense_id": "triggers-offline-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ruby container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running Ruby applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Ruby container images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Ruby container images"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39727953,
+      "status": "candidate",
+      "text": "homburg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39727615,
+      "status": "candidate",
+      "text": "trilby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39726603,
+      "status": "candidate",
+      "text": "stetson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29727960,
+      "status": "candidate",
+      "text": "felt hat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29727959,
+      "status": "candidate",
+      "text": "hat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fedora",
+      "sense_id": "fedora#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "trilby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1026,
+      "status": "candidate",
+      "text": "homburg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28,
+      "status": "candidate",
+      "text": "stetson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "felt hat"
+    }
+  ],
+  "concept_id": "fedora",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fedora",
+  "observation_id": "ad00187002f5531a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "fedora",
+  "source_context_snippet": "Ruby container images",
+  "source_file": null,
+  "source_repo": "sclorg/s2i-ruby-container",
+  "source_repo_description": "Ruby container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running Ruby applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+}

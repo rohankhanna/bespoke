@@ -79,6 +79,18 @@
       "source_repo": "baskeboler/cljs-karaoke-client",
       "status": "candidate-context",
       "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate-context",
+      "text": "A minimalistic ClojureScript interface to React.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "baskeboler/cljs-karaoke-client",
       "status": "candidate",
       "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/8cdcf70f-1a6c-40bb-a3f0-02cb24eda852/deploy-status)](https://app.netlify.com/sites/karaoke-player/deploys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reagent-project/reagent",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-text.png\" width=\"264px\" alt=\"Reagent\">"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "day8/re-frame-10x"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "reagent-project/reagent"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Star-Clouds/CenterFace",
+      "target": "yonghaohe/a-light-and-fast-face-detector-for-edge-devices",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Star-Clouds/CenterFace",
+      "target": "anchor-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Star-Clouds/CenterFace",
+      "target": "face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Star-Clouds/CenterFace",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Star-Clouds/CenterFace",
+      "target": "ncnn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:06.589865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "face detection",
+    "fork": false,
+    "full_name": "Star-Clouds/CenterFace",
+    "html_url": "https://github.com/Star-Clouds/CenterFace",
+    "language": "C++",
+    "pushed_at": "2021-11-12T03:44:00Z",
+    "stargazers_count": 1341,
+    "topics": [
+      "anchor-free",
+      "face",
+      "face-detection",
+      "ncnn"
+    ],
+    "updated_at": "2026-04-28T12:31:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yonghaohe/a-light-and-fast-face-detector-for-edge-devices",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CenterFace(size of 7.3MB) is a practical anchor-free face detection and alignment method for edge devices.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anchor-free"
+    },
+    {
+      "context_snippet": "CenterFace(size of 7.3MB) is a practical anchor-free face detection and alignment method for edge devices.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face"
+    },
+    {
+      "context_snippet": "CenterFace(size of 7.3MB) is a practical anchor-free face detection and alignment method for edge devices.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "CenterFace(size of 7.3MB) is a practical anchor-free face detection and alignment method for edge devices.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    }
+  ]
+}

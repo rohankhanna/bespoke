@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Master"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate-context",
+      "text": "The library allows you to write and execute UI tests among IntelliJ IDEA. You can test your Plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate-context",
+      "text": "Publish Master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate",
+      "text": "Publish Master"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11747,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11747,
+      "status": "candidate",
+      "text": "protest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11747,
+      "status": "candidate",
+      "text": "protesting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11747,
+      "status": "candidate",
+      "text": "voice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10784,
+      "status": "candidate",
+      "text": "aut"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Master",
+  "concept_id": "publish-master",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publishMaster.yml",
+      "source_repo": "JetBrains/intellij-ui-test-robot"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Master",
+      "sense_id": "publish-master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

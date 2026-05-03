@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci@noble",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci@resolute",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci/validate_package_xml@jammy",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_xml.yml"
+    },
+    {
+      "component": "gazebo-tooling/pr-collection-labeler@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-collection-labeler.yml"
+    },
+    {
+      "component": "actions/add-to-project@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "gazebosim/gz-sim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "gazebo-tooling/action-gz-ci@noble",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "gazebo-tooling/action-gz-ci@resolute",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "Ubuntu CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "gazebo-tooling/action-gz-ci/validate_package_xml@jammy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "Validate package.xml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "gazebo-tooling/pr-collection-labeler@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "PR Collection Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "actions/add-to-project@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "Ticket opened",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "build-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "cmake-modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "gazebo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "gazebosim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "ignition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "ignition-cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "ignition-robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-cmake",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:01:34.318317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5327
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 872
+    },
+    {
+      "path": ".github/workflows/package_xml.yml",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/pr-collection-labeler.yml",
+      "size": 313
+    },
+    {
+      "path": ".github/workflows/triage.yml",
+      "size": 393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of CMake modules that are used by the C++-based Gazebo projects.",
+    "fork": false,
+    "full_name": "gazebosim/gz-cmake",
+    "html_url": "https://github.com/gazebosim/gz-cmake",
+    "language": "CMake",
+    "pushed_at": "2026-04-24T19:09:31Z",
+    "stargazers_count": 33,
+    "topics": [
+      "build-tools",
+      "cmake",
+      "cmake-modules",
+      "gazebo",
+      "gazebosim",
+      "hacktoberfest",
+      "ignition",
+      "ignition-cmake",
+      "ignition-robotics",
+      "robotics",
+      "robotics-simulation"
+    ],
+    "updated_at": "2026-04-24T19:09:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-sim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ubuntu CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Ubuntu CI"
+    },
+    {
+      "context_snippet": "Validate package.xml",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_xml.yml",
+      "term": "Validate package.xml"
+    },
+    {
+      "context_snippet": "PR Collection Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "term": "PR Collection Labeler"
+    },
+    {
+      "context_snippet": "Ticket opened",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "term": "Ticket opened"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tools"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake-modules"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebosim"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-cmake"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-robotics"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics.org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    }
+  ]
+}

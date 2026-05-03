@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:56:48.677634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6149
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is a simple text image blind super-resolution model, using BSRGAN",
+    "fork": false,
+    "full_name": "csxmli2016/textbsr",
+    "html_url": "https://github.com/csxmli2016/textbsr",
+    "language": "Python",
+    "pushed_at": "2024-02-02T03:19:18Z",
+    "stargazers_count": 123,
+    "topics": [],
+    "updated_at": "2026-04-27T09:53:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

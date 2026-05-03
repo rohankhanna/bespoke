@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fast static index for 2D points"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A very fast static spatial index for 2D points based on a flat KD-tree."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A very fast static spatial index for 2D points based on a flat KD-tree."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024838,
+      "status": "candidate",
+      "text": "algorithmic program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024838,
+      "status": "candidate",
+      "text": "algorithmic rule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021757,
+      "status": "candidate",
+      "text": "calculus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021456,
+      "status": "candidate",
+      "text": "arithmetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29939009,
+      "status": "candidate",
+      "text": "significance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "algorithm",
+      "sense_id": "algorithm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "algorithmic program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "algorithmic rule"
+    }
+  ],
+  "concept_id": "algorithm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "algorithm",
+  "observation_id": "4594b820d7027f54",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "algorithm",
+  "source_context_snippet": "A very fast static spatial index for 2D points based on a flat KD-tree.",
+  "source_file": null,
+  "source_repo": "mourner/kdbush",
+  "source_repo_description": "A fast static index for 2D points"
+}

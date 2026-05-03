@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "pytorch knn [cuda version]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "+ ref: [kNN-CUDA](https://github.com/vincentfpgarcia/kNN-CUDA)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "+ ref: [kNN-CUDA](https://github.com/vincentfpgarcia/kNN-CUDA)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pytorch-knn",
+      "sense_id": "pytorch-knn#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pytorch-knn",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pytorch-knn",
+  "observation_id": "13135c7d2b7c1906",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "pytorch-knn",
+  "source_context_snippet": "+ ref: [kNN-CUDA](https://github.com/vincentfpgarcia/kNN-CUDA)",
+  "source_file": null,
+  "source_repo": "unlimblue/KNN_CUDA",
+  "source_repo_description": "pytorch knn [cuda version]"
+}

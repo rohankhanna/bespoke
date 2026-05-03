@@ -67,6 +67,18 @@
       "source_repo": "csstools/sanitize.css",
       "status": "candidate-context",
       "text": "[sanitize.css] is a CSS library that provides consistent, cross-browser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tomaarsen/TTSTextNormalization",
+      "status": "candidate-context",
+      "text": "Convert English text from written expressions into spoken forms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomaarsen/TTSTextNormalization",
+      "status": "candidate-context",
+      "text": "This repository houses my solution to Google's [Text Normalization Challenge - English Language](https://www.kaggle.com/c/text-normalization-challenge-english-language). Most of the magic happens within the converter directory, which is responsible for the actual conversions fro\u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "csstools/sanitize.css",
       "status": "candidate",
       "text": "[sanitize.css] is a CSS library that provides consistent, cross-browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomaarsen/TTSTextNormalization",
+      "status": "candidate",
+      "text": "This repository houses my solution to Google's [Text Normalization Challenge - English Language](https://www.kaggle.com/c/text-normalization-challenge-english-language). Most of the magic happens within the converter directory, which is responsible for the actual conversions fro\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "csstools/sanitize.css"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tomaarsen/TTSTextNormalization"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

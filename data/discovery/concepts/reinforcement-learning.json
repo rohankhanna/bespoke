@@ -1207,6 +1207,42 @@
       "source_repo": "facebookresearch/habitat-lab",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/adam",
+      "status": "candidate-context",
+      "text": "adam implements a collection of algorithms for calculating rigid-body dynamics in Jax, CasADi, PyTorch, and Numpy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/adam",
+      "status": "candidate-context",
+      "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rainx0r/metaworld-algorithms",
+      "status": "candidate-context",
+      "text": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rainx0r/metaworld-algorithms",
+      "status": "candidate-context",
+      "text": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "SAPIEN Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "![teaser](figures/teaser.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -1809,6 +1845,24 @@
       "source_repo": "facebookresearch/habitat-lab",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/gh/facebookresearch/habitat-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/facebookresearch/habitat-lab)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/adam",
+      "status": "candidate",
+      "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rainx0r/metaworld-algorithms",
+      "status": "candidate",
+      "text": "Implementations of Multi-Task and Meta-Learning baselines for the Metaworld benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate",
+      "text": "![teaser](figures/teaser.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -2662,11 +2716,65 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "facebookresearch/habitat-lab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rainx0r/metaworld-algorithms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

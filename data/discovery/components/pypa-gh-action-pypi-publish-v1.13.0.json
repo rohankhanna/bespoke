@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@v1.13.0",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-pycolmap.yml",
       "source_repo": "colmap/colmap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_to_pypi.yaml",
+      "source_repo": "HumanBrainProject/neuroglancer-scripts"
     }
   ]
 }

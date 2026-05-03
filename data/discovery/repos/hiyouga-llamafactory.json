@@ -142,7 +142,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
-      "target": "nlpjcl/rag-retrieval",
+      "target": "nvidia/rtx-ai-toolkit",
       "target_type": "repository"
     },
     {
@@ -412,7 +412,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T12:34:29.586112+00:00",
+  "fetched_at": "2026-05-03T02:59:53.364325+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -461,7 +461,7 @@
     "html_url": "https://github.com/hiyouga/LlamaFactory",
     "language": "Python",
     "pushed_at": "2026-05-01T04:10:13Z",
-    "stargazers_count": 70836,
+    "stargazers_count": 70847,
     "topics": [
       "agent",
       "ai",
@@ -484,7 +484,7 @@
       "rlhf",
       "transformers"
     ],
-    "updated_at": "2026-05-02T12:00:45Z"
+    "updated_at": "2026-05-03T02:18:46Z"
   },
   "repo_links": [
     {
@@ -504,7 +504,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "nlpjcl/rag-retrieval",
+      "full_name": "nvidia/rtx-ai-toolkit",
       "source_file": "README.md"
     }
   ],

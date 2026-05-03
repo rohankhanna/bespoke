@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Generate massive amounts of fake data in the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017570,
+      "status": "candidate",
+      "text": "phoney"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017538,
+      "status": "candidate",
+      "text": "faux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017506,
+      "status": "candidate",
+      "text": "phony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017488,
+      "status": "candidate",
+      "text": "bogus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017256,
+      "status": "candidate",
+      "text": "sham"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fake",
+      "sense_id": "fake#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29041,
+      "status": "candidate",
+      "text": "faux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26045,
+      "status": "candidate",
+      "text": "sham"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22048,
+      "status": "candidate",
+      "text": "counterfeit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22032,
+      "status": "candidate",
+      "text": "pretender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20062,
+      "status": "candidate",
+      "text": "fraud"
+    }
+  ],
+  "concept_id": "fake",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fake",
+  "observation_id": "ed153bd8947bb8ef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "fake",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "faker-js/faker",
+  "source_repo_description": "Generate massive amounts of fake data in the browser and node.js"
+}

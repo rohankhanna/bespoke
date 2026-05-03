@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "berkleytechnologyservices/restdocs-spec-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "api-documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "maven-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "spring-rest-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "target": "swagger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:56:21.313310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7208
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 405
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A maven plugin for generating Open API and Postman Collection specifications using Spring Restdocs.",
+    "fork": false,
+    "full_name": "BerkleyTechnologyServices/restdocs-spec",
+    "html_url": "https://github.com/BerkleyTechnologyServices/restdocs-spec",
+    "language": "Java",
+    "pushed_at": "2026-04-27T10:09:27Z",
+    "stargazers_count": 61,
+    "topics": [
+      "api-documentation",
+      "maven",
+      "maven-plugin",
+      "openapi",
+      "spring-rest-docs",
+      "swagger"
+    ],
+    "updated_at": "2026-04-26T18:08:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "berkleytechnologyservices/restdocs-spec-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-documentation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven-plugin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-rest-docs"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    }
+  ]
+}

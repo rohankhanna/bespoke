@@ -16,13 +16,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/HunyuanCustom",
-      "target": "tencent/mimicmotion",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Tencent-Hunyuan/HunyuanCustom",
@@ -65,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T07:22:39.029555+00:00",
+  "fetched_at": "2026-05-03T02:57:44.474010+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -106,11 +99,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "tencent/hunyuanvideo",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tencent/mimicmotion",
       "source_file": "README.md"
     }
   ],

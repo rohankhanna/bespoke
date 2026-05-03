@@ -1,12 +1,17 @@
 {
   "component": "crate-ci/typos@v1.36.2",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "EspressoSystems/jellyfish-compat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "intlify/vue-i18n-extensions"
     }
   ]
 }

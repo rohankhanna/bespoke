@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Diff Dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Diff Dependencies"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11974,
+      "status": "candidate",
+      "text": "var"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11456,
+      "status": "candidate",
+      "text": "abvolt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11456,
+      "status": "candidate",
+      "text": "allometry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11456,
+      "status": "candidate",
+      "text": "allowance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11456,
+      "status": "candidate",
+      "text": "anatomy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Diff Dependencies",
+      "sense_id": "diff-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "diff-dependencies",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "diff-dependencies",
+  "observation_id": "606750e92c0c5a44",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Diff Dependencies",
+  "source_context_snippet": "Diff Dependencies",
+  "source_file": ".github/workflows/diff-dependencies.yml",
+  "source_repo": "withastro/astro",
+  "source_repo_description": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+}

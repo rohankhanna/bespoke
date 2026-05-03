@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/SimpleOccupancy",
+      "target": "ganwanshui/gaussianocc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/SimpleOccupancy",
+      "target": "aharley/simple_bev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/SimpleOccupancy",
+      "target": "weiyithu/surrounddepth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/SimpleOccupancy",
+      "target": "nvlabs/voxformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:30.295137+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5788
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "(IEEE TIV) A Comprehensive Framework for 3D Occupancy Estimation in Autonomous Driving",
+    "fork": false,
+    "full_name": "GANWANSHUI/SimpleOccupancy",
+    "html_url": "https://github.com/GANWANSHUI/SimpleOccupancy",
+    "language": "Python",
+    "pushed_at": "2024-12-05T01:47:49Z",
+    "stargazers_count": 221,
+    "topics": [],
+    "updated_at": "2026-04-30T03:41:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aharley/simple_bev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ganwanshui/gaussianocc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/voxformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weiyithu/surrounddepth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

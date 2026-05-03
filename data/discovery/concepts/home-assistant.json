@@ -55,6 +55,30 @@
       "source_repo": "GuyKh/ims-custom-component",
       "status": "candidate-context",
       "text": "[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "idodov/RedAlert",
+      "status": "candidate-context",
+      "text": "Israeli Red Alert Service for Home Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idodov/RedAlert",
+      "status": "candidate-context",
+      "text": "***Not Official Pikud Ha-Oref***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heshengtao/super-agent-party",
+      "status": "candidate-context",
+      "text": "\u2b50 All-in-one AI companion! Super Agent Party = Self hosted neuro sama + openclaw! \u2b50 \u5168\u80fdAI\u4f34\u4fa3\uff01\u8d85\u7ea7\u667a\u80fd\u4f53\u6d3e\u5bf9 = \u81ea\u6258\u7ba1neuro sama + openclaw!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heshengtao/super-agent-party",
+      "status": "candidate-context",
+      "text": "![image](static/source/cover.png)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "GuyKh/ims-custom-component",
       "status": "candidate",
       "text": "[![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idodov/RedAlert",
+      "status": "candidate",
+      "text": "***Not Official Pikud Ha-Oref***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heshengtao/super-agent-party",
+      "status": "candidate",
+      "text": "![image](static/source/cover.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +154,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "GuyKh/ims-custom-component"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "idodov/RedAlert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heshengtao/super-agent-party"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

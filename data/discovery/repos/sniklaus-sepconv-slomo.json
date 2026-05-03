@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sniklaus/sepconv-slomo",
+      "target": "martkartasev/sepconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sniklaus/sepconv-slomo",
+      "target": "hyeongminlee/pytorch-sepconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/sepconv-slomo",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/sepconv-slomo",
+      "target": "cupy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/sepconv-slomo",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sniklaus/sepconv-slomo",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:49.728176+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3087
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "an implementation of Video Frame Interpolation via Adaptive Separable Convolution using PyTorch",
+    "fork": false,
+    "full_name": "sniklaus/sepconv-slomo",
+    "html_url": "https://github.com/sniklaus/sepconv-slomo",
+    "language": "Python",
+    "pushed_at": "2025-05-26T23:43:33Z",
+    "stargazers_count": 1024,
+    "topics": [
+      "cuda",
+      "cupy",
+      "deep-learning",
+      "python",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-10T11:20:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyeongminlee/pytorch-sepconv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "martkartasev/sepconv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This work has now been superseded by: https://github.com/sniklaus/revisiting-sepconv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "This work has now been superseded by: https://github.com/sniklaus/revisiting-sepconv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cupy"
+    },
+    {
+      "context_snippet": "This work has now been superseded by: https://github.com/sniklaus/revisiting-sepconv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This work has now been superseded by: https://github.com/sniklaus/revisiting-sepconv",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

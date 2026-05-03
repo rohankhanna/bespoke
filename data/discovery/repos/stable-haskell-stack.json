@@ -1,0 +1,345 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "xresloader/upload-to-github-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "xresloader/upload-to-github-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ibiqlik/action-yamllint@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "haskell-actions/hlint-setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stan.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stan.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tmate.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "ncipollo/release-action@v1.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "xresloader/upload-to-github-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "Integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "ibiqlik/action-yamllint@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "haskell-actions/hlint-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stan.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stan.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stan.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stan.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "Apply stan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tmate.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tmate.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "tmate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "stable-haskell/stack",
+      "target": "Unit tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:58:07.455074+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1275
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 10063
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 625
+    },
+    {
+      "path": ".github/workflows/stan.yml",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/tmate.yml",
+      "size": 924
+    },
+    {
+      "path": ".github/workflows/unit-tests.yml",
+      "size": 3287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Haskell Tool Stack",
+    "fork": true,
+    "full_name": "stable-haskell/stack",
+    "html_url": "https://github.com/stable-haskell/stack",
+    "language": "Haskell",
+    "pushed_at": "2026-03-13T07:55:18Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-14T05:25:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "Integration tests"
+    },
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "Apply stan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stan.yml",
+      "term": "Apply stan"
+    },
+    {
+      "context_snippet": "tmate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tmate.yml",
+      "term": "tmate"
+    },
+    {
+      "context_snippet": "Unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "term": "Unit tests"
+    }
+  ]
+}

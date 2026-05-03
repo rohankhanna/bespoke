@@ -2,7 +2,7 @@
   "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -304,6 +304,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-build.yml",
       "source_repo": "supabase/etl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-latest-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-engine-container.yml",
+      "source_repo": "Hiroshiba/voicevox_engine"
     }
   ]
 }

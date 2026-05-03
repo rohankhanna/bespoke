@@ -1,0 +1,749 @@
+{
+  "components": [
+    {
+      "component": "napi-postinstall",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@napi-rs/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@napi-rs/wasm-runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clean-pkg-json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "emnapi",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-pkg",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "actions/cache/restore@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "autofix-ci/action@635ffb0c9798bd160680f18fd73371e355b85f27",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@c28fe9fbe7d57a3da1b7834ae3761c1d8217612d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "crate-ci/typos@392b78fe18a52790c53f42456e46124f77346842",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "codecov/codecov-action@18283e04ce6e62d37312384ff67231eb8fd56d24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml"
+    },
+    {
+      "component": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "EndBug/version-check@36ff30f37c7deabe56a30caa043d127be658c425",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "goto-bus-stop/setup-zig@abea47f85e598557f500fa1fd2ab7464fcb39406",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "cross-platform-actions/action@97419d18f6470332677e345e9df97cdc71244ead",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "release-plz/action@8724d33cd97b8295051102e2e19ca592962238f5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "dherman/defense-of-dot-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "dividab/tsconfig-paths",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "napi-rs/mimalloc-safe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "dividab/tsconfig-paths-webpack-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "napi-postinstall",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "@napi-rs/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "@napi-rs/wasm-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "clean-pkg-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "emnapi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "prettier-plugin-pkg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "actions/cache/restore@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "autofix-ci/action@635ffb0c9798bd160680f18fd73371e355b85f27",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "actions/cache/save@5a3ec84eff668545956fd18022155c47e93e2684",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "CodSpeedHQ/action@c28fe9fbe7d57a3da1b7834ae3761c1d8217612d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "crate-ci/typos@392b78fe18a52790c53f42456e46124f77346842",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "codecov/codecov-action@18283e04ce6e62d37312384ff67231eb8fd56d24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "oxc-project/setup-rust@cd82e1efec7fef815e2c23d296756f31c7cdc03d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "Cargo Deny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "taiki-e/checkout-action@b13d20b7cda4e2f325ef19895128f7ff735c0b3d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "EndBug/version-check@36ff30f37c7deabe56a30caa043d127be658c425",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "goto-bus-stop/setup-zig@abea47f85e598557f500fa1fd2ab7464fcb39406",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "cross-platform-actions/action@97419d18f6470332677e345e9df97cdc71244ead",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-napi.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "Release NAPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "release-plz/action@8724d33cd97b8295051102e2e19ca592962238f5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "unrs/unrs-resolver",
+      "target": "Release Plz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unrs/unrs-resolver",
+      "target": "enhanced-resolve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unrs/unrs-resolver",
+      "target": "napi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unrs/unrs-resolver",
+      "target": "napi-rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unrs/unrs-resolver",
+      "target": "resolver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unrs/unrs-resolver",
+      "target": "rspack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:59:28.998853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24230
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4457
+    },
+    {
+      "path": "package.json",
+      "size": 2198
+    },
+    {
+      "path": ".github/workflows/autofix.yml",
+      "size": 1381
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2783
+    },
+    {
+      "path": ".github/workflows/codecov.yml",
+      "size": 2063
+    },
+    {
+      "path": ".github/workflows/deny.yml",
+      "size": 780
+    },
+    {
+      "path": ".github/workflows/release-napi.yml",
+      "size": 7499
+    },
+    {
+      "path": ".github/workflows/release-plz.yml",
+      "size": 1652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust port of webpack/enhanced-resolve with PNP support",
+    "fork": false,
+    "full_name": "unrs/unrs-resolver",
+    "html_url": "https://github.com/unrs/unrs-resolver",
+    "language": "Rust",
+    "pushed_at": "2026-05-01T01:17:31Z",
+    "stargazers_count": 76,
+    "topics": [
+      "enhanced-resolve",
+      "napi",
+      "napi-rs",
+      "resolver",
+      "rspack"
+    ],
+    "updated_at": "2026-04-28T10:15:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dherman/defense-of-dot-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dividab/tsconfig-paths",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dividab/tsconfig-paths-webpack-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "napi-rs/mimalloc-safe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Cargo Deny",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deny.yml",
+      "term": "Cargo Deny"
+    },
+    {
+      "context_snippet": "Release NAPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-napi.yml",
+      "term": "Release NAPI"
+    },
+    {
+      "context_snippet": "Release Plz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "term": "Release Plz"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enhanced-resolve"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "napi"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "napi-rs"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resolver"
+    },
+    {
+      "context_snippet": "> [!NOTE]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rspack"
+    }
+  ]
+}

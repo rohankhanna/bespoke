@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KratosMultiphysics/Examples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KratosMultiphysics/Examples",
+      "target": "Examples-CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:23.097692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11591
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "All benchmarks, examples and applications cases to be run by Kratos. Note that unit tests are in Kratos repository and NOT here",
+    "fork": false,
+    "full_name": "KratosMultiphysics/Examples",
+    "html_url": "https://github.com/KratosMultiphysics/Examples",
+    "language": "Python",
+    "pushed_at": "2026-03-31T08:55:29Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-03-31T08:55:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Examples-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Examples-CI"
+    }
+  ]
+}

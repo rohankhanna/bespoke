@@ -130,20 +130,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "observablehq/stdlib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaPluto/Pluto.jl",
-      "target": "mathjax/mathjax-src",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/Bundle.yml",
       "source_repo": "JuliaPluto/Pluto.jl",
@@ -424,7 +410,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T18:42:09.002589+00:00",
+  "fetched_at": "2026-05-03T03:58:01.290553+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -476,7 +462,7 @@
     "full_name": "JuliaPluto/Pluto.jl",
     "html_url": "https://github.com/JuliaPluto/Pluto.jl",
     "language": "JavaScript",
-    "pushed_at": "2026-05-01T10:51:01Z",
+    "pushed_at": "2026-05-01T21:13:59Z",
     "stargazers_count": 5318,
     "topics": [
       "designed-for-teachers",
@@ -495,16 +481,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "codemirror/codemirror.next",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mathjax/mathjax-src",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "observablehq/stdlib",
       "source_file": "README.md"
     }
   ],

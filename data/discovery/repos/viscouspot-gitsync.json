@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "flutter-actions/setup-flutter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "SimonMarquis/android-accept-licenses@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "ilharp/sign-android-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "jungwinter/split@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "ardalanamini/auto-changelog@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "mad9000/actions-find-and-replace-string@5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "mad9000/actions-find-and-replace-string@5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "mad9000/actions-find-and-replace-string@5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1.21.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "fzyzcjy/flutter_rust_bridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "flutter-actions/setup-flutter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "SimonMarquis/android-accept-licenses@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "ilharp/sign-android-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "jungwinter/split@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "ardalanamini/auto-changelog@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "mad9000/actions-find-and-replace-string@5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "ncipollo/release-action@v1.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync",
+      "target": "Release OSS (APK)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViscousPot/GitSync",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViscousPot/GitSync",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViscousPot/GitSync",
+      "target": "sync",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:18.600916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9099
+    },
+    {
+      "path": ".github/workflows/generate-apk-release.yml",
+      "size": 5142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mobile Git client for syncing a repository between remote and a local directory",
+    "fork": false,
+    "full_name": "ViscousPot/GitSync",
+    "html_url": "https://github.com/ViscousPot/GitSync",
+    "language": "Dart",
+    "pushed_at": "2026-05-03T03:07:53Z",
+    "stargazers_count": 1735,
+    "topics": [
+      "git",
+      "obsidian",
+      "productivity",
+      "sync"
+    ],
+    "updated_at": "2026-05-03T04:42:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fzyzcjy/flutter_rust_bridge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release OSS (APK)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "term": "Release OSS (APK)"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sync"
+    }
+  ]
+}

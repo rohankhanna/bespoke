@@ -444,6 +444,18 @@
       "source_repo": "serverless/serverless-python-requirements",
       "status": "candidate-context",
       "text": "Validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oss-serverless/serverless",
+      "status": "candidate-context",
+      "text": "Serverless Framework CLI v3 alternative"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oss-serverless/serverless",
+      "status": "candidate-context",
+      "text": "Validate"
     }
   ],
   "candidate_glosses": [
@@ -660,6 +672,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "serverless/serverless-python-requirements",
+      "status": "candidate",
+      "text": "Validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oss-serverless/serverless",
       "status": "candidate",
       "text": "Validate"
     }
@@ -1187,11 +1205,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/validate.yml",
       "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "serverless/serverless-python-requirements"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "oss-serverless/serverless"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

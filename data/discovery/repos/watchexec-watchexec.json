@@ -136,28 +136,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "watchexec/watchexec",
-      "target": "kurtbuilds/checkexec",
+      "target": "watchexec/clearscreen",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "watchexec/watchexec",
-      "target": "cargo-lambda/cargo-lambda",
+      "target": "watchexec/command-group",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "watchexec/watchexec",
-      "target": "cachix/devenv",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "watchexec/watchexec",
-      "target": "mercurytechnologies/ghciwatch",
+      "target": "supercuber/dotter",
       "target_type": "repository"
     },
     {
@@ -308,7 +301,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T04:04:55.498391+00:00",
+  "fetched_at": "2026-05-03T04:51:12.272455+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -345,7 +338,7 @@
     "html_url": "https://github.com/watchexec/watchexec",
     "language": "Rust",
     "pushed_at": "2026-04-27T18:59:59Z",
-    "stargazers_count": 6938,
+    "stargazers_count": 6946,
     "topics": [
       "command-line",
       "developer-tools",
@@ -355,27 +348,22 @@
       "rust",
       "windows"
     ],
-    "updated_at": "2026-04-29T18:19:30Z"
+    "updated_at": "2026-05-03T04:20:13Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cachix/devenv",
+      "full_name": "supercuber/dotter",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cargo-lambda/cargo-lambda",
+      "full_name": "watchexec/clearscreen",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kurtbuilds/checkexec",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mercurytechnologies/ghciwatch",
+      "full_name": "watchexec/command-group",
       "source_file": "README.md"
     }
   ],

@@ -4,28 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "watchexec/watchexec",
-      "target": "kurtbuilds/checkexec",
+      "target": "watchexec/clearscreen",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "watchexec/watchexec",
-      "target": "cargo-lambda/cargo-lambda",
+      "target": "watchexec/command-group",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "watchexec/watchexec",
-      "target": "cachix/devenv",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "watchexec/watchexec",
-      "target": "mercurytechnologies/ghciwatch",
+      "target": "supercuber/dotter",
       "target_type": "repository"
     },
     {
@@ -176,6 +169,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T00:37:16.824464+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "watchexec/watchexec"
 }

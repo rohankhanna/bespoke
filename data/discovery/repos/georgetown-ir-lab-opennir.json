@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "target": "ntmc-community/matchzoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "target": "allenai/scibert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "target": "dmis-lab/biobert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "target": "trema-unh/trec-car-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "target": "neural-information-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:49:31.937921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5570
+    },
+    {
+      "path": "requirements.txt",
+      "size": 608
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An end-to-end neural ad-hoc ranking pipeline.",
+    "fork": false,
+    "full_name": "Georgetown-IR-Lab/OpenNIR",
+    "html_url": "https://github.com/Georgetown-IR-Lab/OpenNIR",
+    "language": "Python",
+    "pushed_at": "2025-07-13T09:24:59Z",
+    "stargazers_count": 153,
+    "topics": [
+      "neural-information-retrieval"
+    ],
+    "updated_at": "2026-03-19T15:23:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/scibert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmis-lab/biobert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ntmc-community/matchzoo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trema-unh/trec-car-tools",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "An end-to-end neural ad-hoc ranking pipeline.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-information-retrieval"
+    }
+  ]
+}

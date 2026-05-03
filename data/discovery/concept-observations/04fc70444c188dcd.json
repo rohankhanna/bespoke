@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd25 JavaScript Library for HTML5 canvas based heatmaps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dynamic Heatmaps for the Web."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dynamic Heatmaps for the Web."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000758,
+      "status": "candidate",
+      "text": "sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945037,
+      "status": "candidate",
+      "text": "sail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885055,
+      "status": "candidate",
+      "text": "poll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012902,
+      "status": "candidate",
+      "text": "canvas tent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012901,
+      "status": "candidate",
+      "text": "screen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "canvas",
+      "sense_id": "canvas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7055,
+      "status": "candidate",
+      "text": "sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6052,
+      "status": "candidate",
+      "text": "sail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6040,
+      "status": "candidate",
+      "text": "canvass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4054,
+      "status": "candidate",
+      "text": "poll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "canvas tent"
+    }
+  ],
+  "concept_id": "canvas",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "canvas",
+  "observation_id": "04fc70444c188dcd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "canvas",
+  "source_context_snippet": "Dynamic Heatmaps for the Web.",
+  "source_file": null,
+  "source_repo": "pa7/heatmap.js",
+  "source_repo_description": "\ud83d\udd25 JavaScript Library for HTML5 canvas based heatmaps"
+}

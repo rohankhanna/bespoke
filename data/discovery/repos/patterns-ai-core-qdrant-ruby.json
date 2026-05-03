@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "andreibondarev/langchainrb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "andreibondarev/qdrant-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "andreibondarev/qdrant.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "api-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "embedding-vectors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "qdrant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "rubyml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "vector-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "target": "vector-search-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:56:36.017994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11153
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ruby wrapper for the Qdrant vector search database API",
+    "fork": false,
+    "full_name": "patterns-ai-core/qdrant-ruby",
+    "html_url": "https://github.com/patterns-ai-core/qdrant-ruby",
+    "language": "Ruby",
+    "pushed_at": "2025-11-25T15:30:06Z",
+    "stargazers_count": 58,
+    "topics": [
+      "api-client",
+      "embedding-vectors",
+      "machine-learning",
+      "ml",
+      "qdrant",
+      "ruby",
+      "rubyml",
+      "vector-search",
+      "vector-search-engine"
+    ],
+    "updated_at": "2026-02-19T15:47:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreibondarev/langchainrb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreibondarev/qdrant-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreibondarev/qdrant.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-client"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedding-vectors"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qdrant"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubyml"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search-engine"
+    }
+  ]
+}

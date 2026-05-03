@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Welcome"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openxrlab/xrmocap",
+      "status": "candidate-context",
+      "text": "OpenXRLab Multi-view Motion Capture Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrmocap",
+      "status": "candidate-context",
+      "text": "Issue Welcome"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxrlab/xrmocap",
+      "status": "candidate",
+      "text": "Issue Welcome"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11787,
+      "status": "candidate",
+      "text": "anything"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11787,
+      "status": "candidate",
+      "text": "nothing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11589,
+      "status": "candidate",
+      "text": "bye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11589,
+      "status": "candidate",
+      "text": "return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11540,
+      "status": "candidate",
+      "text": "admission"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Welcome",
+  "concept_id": "issue-welcome",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/issue-welcome.yml",
+      "source_repo": "openxrlab/xrmocap"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Welcome",
+      "sense_id": "issue-welcome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

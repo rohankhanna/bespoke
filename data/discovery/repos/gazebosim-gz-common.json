@@ -1,0 +1,496 @@
+{
+  "components": [
+    {
+      "component": "bazel-contrib/.github/.github/workflows/bazel.yaml@v7.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci@noble",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci/validate_package_xml@jammy",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_xml.yml"
+    },
+    {
+      "component": "gazebo-tooling/pr-collection-labeler@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-collection-labeler.yml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/add-to-project@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gazebosim/gz-common",
+      "target": "gazebosim/gz-sim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "bazel-contrib/.github/.github/workflows/bazel.yaml@v7.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "Bazel CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "gazebo-tooling/action-gz-ci@noble",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "Ubuntu CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "macOS latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "gazebo-tooling/action-gz-ci/validate_package_xml@jammy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "Validate package.xml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "gazebo-tooling/pr-collection-labeler@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "PR Collection Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "actions/add-to-project@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/gz-common",
+      "target": "Ticket opened",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "3d-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "decoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "gazebo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "gazebosim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "ignition-robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "profiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "thread-pool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:01:37.908169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4752
+    },
+    {
+      "path": ".github/workflows/bazel.yml",
+      "size": 557
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 549
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 2205
+    },
+    {
+      "path": ".github/workflows/package_xml.yml",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/pr-collection-labeler.yml",
+      "size": 313
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 2030
+    },
+    {
+      "path": ".github/workflows/triage.yml",
+      "size": 393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An audio-visual library supports processing audio and video files, a graphics library can load a variety 3D mesh file formats into a generic in-memory representation, and the core library of Gazebo Common contains functionality that spans Base64 encoding/decoding to thread pools.",
+    "fork": false,
+    "full_name": "gazebosim/gz-common",
+    "html_url": "https://github.com/gazebosim/gz-common",
+    "language": "C++",
+    "pushed_at": "2026-05-02T02:16:30Z",
+    "stargazers_count": 26,
+    "topics": [
+      "3d-mesh",
+      "audio",
+      "cpp",
+      "decoding",
+      "events",
+      "gazebo",
+      "gazebosim",
+      "graphics",
+      "hacktoberfest",
+      "ignition-robotics",
+      "library",
+      "profiler",
+      "robotics",
+      "robotics-simulation",
+      "thread-pool",
+      "tools",
+      "video"
+    ],
+    "updated_at": "2026-04-30T19:23:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-sim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bazel CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "term": "Bazel CI"
+    },
+    {
+      "context_snippet": "Ubuntu CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Ubuntu CI"
+    },
+    {
+      "context_snippet": "macOS latest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS latest"
+    },
+    {
+      "context_snippet": "Validate package.xml",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_xml.yml",
+      "term": "Validate package.xml"
+    },
+    {
+      "context_snippet": "PR Collection Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "term": "PR Collection Labeler"
+    },
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to BCR"
+    },
+    {
+      "context_snippet": "Ticket opened",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "term": "Ticket opened"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-mesh"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decoding"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "events"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebosim"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-robotics"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profiler"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thread-pool"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    },
+    {
+      "context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

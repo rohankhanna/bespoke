@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomaarsen/TTSTextNormalization",
+      "target": "competition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomaarsen/TTSTextNormalization",
+      "target": "normalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomaarsen/TTSTextNormalization",
+      "target": "spoken-forms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomaarsen/TTSTextNormalization",
+      "target": "text-normalization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:42:18.791975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert English text from written expressions into spoken forms",
+    "fork": false,
+    "full_name": "tomaarsen/TTSTextNormalization",
+    "html_url": "https://github.com/tomaarsen/TTSTextNormalization",
+    "language": "Python",
+    "pushed_at": "2022-06-22T20:53:44Z",
+    "stargazers_count": 28,
+    "topics": [
+      "competition",
+      "nlp",
+      "normalization",
+      "spoken-forms",
+      "text-normalization",
+      "tts"
+    ],
+    "updated_at": "2026-01-21T22:18:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository houses my solution to Google's [Text Normalization Challenge - English Language](https://www.kaggle.com/c/text-normalization-challenge-english-language). Most of the magic happens within the converter directory, which is responsible for the actual conversions fro\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "competition"
+    },
+    {
+      "context_snippet": "This repository houses my solution to Google's [Text Normalization Challenge - English Language](https://www.kaggle.com/c/text-normalization-challenge-english-language). Most of the magic happens within the converter directory, which is responsible for the actual conversions fro\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normalization"
+    },
+    {
+      "context_snippet": "This repository houses my solution to Google's [Text Normalization Challenge - English Language](https://www.kaggle.com/c/text-normalization-challenge-english-language). Most of the magic happens within the converter directory, which is responsible for the actual conversions fro\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spoken-forms"
+    },
+    {
+      "context_snippet": "This repository houses my solution to Google's [Text Normalization Challenge - English Language](https://www.kaggle.com/c/text-normalization-challenge-english-language). Most of the magic happens within the converter directory, which is responsible for the actual conversions fro\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-normalization"
+    }
+  ]
+}

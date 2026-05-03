@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "thoughtbot/templates/.github/workflows/dynamic-security.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-security.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "source_repo": "thoughtbot/appraisal",
+      "target": "thoughtbot/templates/.github/workflows/dynamic-security.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "source_repo": "thoughtbot/appraisal",
+      "target": "update-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "thoughtbot/appraisal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "thoughtbot/appraisal",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "thoughtbot/appraisal",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/appraisal",
+      "target": "appraisal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/appraisal",
+      "target": "gemfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/appraisal",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/appraisal",
+      "target": "rubygems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/appraisal",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/appraisal",
+      "target": "thoughtbot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:09.578958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8460
+    },
+    {
+      "path": ".github/workflows/dynamic-security.yml",
+      "size": 355
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 944
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Ruby library for testing your library against different versions of dependencies.",
+    "fork": false,
+    "full_name": "thoughtbot/appraisal",
+    "html_url": "https://github.com/thoughtbot/appraisal",
+    "language": "Ruby",
+    "pushed_at": "2025-09-08T14:17:05Z",
+    "stargazers_count": 1320,
+    "topics": [
+      "appraisal",
+      "gemfile",
+      "ruby",
+      "rubygems",
+      "testing",
+      "thoughtbot"
+    ],
+    "updated_at": "2026-04-26T10:35:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "update-security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "term": "update-security"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Appraisal",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appraisal"
+    },
+    {
+      "context_snippet": "Appraisal",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemfile"
+    },
+    {
+      "context_snippet": "Appraisal",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "Appraisal",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rubygems"
+    },
+    {
+      "context_snippet": "Appraisal",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "Appraisal",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thoughtbot"
+    }
+  ]
+}

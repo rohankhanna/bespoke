@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3ddelano/discord_gd_examples",
+      "target": "discord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3ddelano/discord_gd_examples",
+      "target": "discord-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3ddelano/discord_gd_examples",
+      "target": "discord-gd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3ddelano/discord_gd_examples",
+      "target": "gdscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3ddelano/discord_gd_examples",
+      "target": "godot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3ddelano/discord_gd_examples",
+      "target": "godot-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3ddelano/discord_gd_examples",
+      "target": "godot-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3ddelano/discord_gd_examples",
+      "target": "godotengine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:56:09.534023+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Godot project containing various examples using the Discord.gd Plugin.",
+    "fork": false,
+    "full_name": "3ddelano/discord_gd_examples",
+    "html_url": "https://github.com/3ddelano/discord_gd_examples",
+    "language": "GDScript",
+    "pushed_at": "2021-11-08T05:34:47Z",
+    "stargazers_count": 2,
+    "topics": [
+      "bot",
+      "discord",
+      "discord-bot",
+      "discord-gd",
+      "gdscript",
+      "godot",
+      "godot-engine",
+      "godot-project",
+      "godotengine"
+    ],
+    "updated_at": "2023-08-08T11:07:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Discord.gd Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discord"
+    },
+    {
+      "context_snippet": "Discord.gd Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discord-bot"
+    },
+    {
+      "context_snippet": "Discord.gd Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discord-gd"
+    },
+    {
+      "context_snippet": "Discord.gd Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gdscript"
+    },
+    {
+      "context_snippet": "Discord.gd Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot"
+    },
+    {
+      "context_snippet": "Discord.gd Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-engine"
+    },
+    {
+      "context_snippet": "Discord.gd Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-project"
+    },
+    {
+      "context_snippet": "Discord.gd Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godotengine"
+    }
+  ]
+}

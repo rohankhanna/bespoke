@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "user"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/kratos",
+      "status": "candidate-context",
+      "text": "Headless cloud-native authentication and identity management written in Go. Scales to a billion+ users. Replace Homegrown, Auth0, Okta, Firebase with better UX and DX. Passkeys, Social Sign In, OIDC, Magic Link, Multi-Factor Auth, SMS, SAML, TOTP, and more. Runs everywhere, runs best on Ory Network. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/kratos",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/kratos",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39946542,
+      "status": "candidate",
+      "text": "exploiter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39901783,
+      "status": "candidate",
+      "text": "enjoyer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29982459,
+      "status": "candidate",
+      "text": "drug user"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29982459,
+      "status": "candidate",
+      "text": "substance abuser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29982458,
+      "status": "candidate",
+      "text": "customer"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4023,
+      "status": "candidate",
+      "text": "exploiter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1019,
+      "status": "candidate",
+      "text": "enjoyer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1013,
+      "status": "candidate",
+      "text": "drug user"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "substance abuser"
+    }
+  ],
+  "canonical_name": "user",
+  "concept_id": "user",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/kratos"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "user",
+      "sense_id": "user#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,7 +1,7 @@
 {
   "component": "onchange",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -27,6 +27,21 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "BetterThanTomorrow/calva"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alibaba/formily"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bladeacer/flexcyon"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "alibaba/designable"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Treat colors as if they are n-vectors for the purposes of arithmetic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/JuliaGraphics/ColorVectorSpace.jl/workflows/Unit%20test/badge.svg)](https://github.com/JuliaGraphics/ColorVectorSpace.jl/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/JuliaGraphics/ColorVectorSpace.jl/workflows/Unit%20test/badge.svg)](https://github.com/JuliaGraphics/ColorVectorSpace.jl/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047368,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045931,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045874,
+      "status": "candidate",
+      "text": "effigy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043442,
+      "status": "candidate",
+      "text": "simulacrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040238,
+      "status": "candidate",
+      "text": "double"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "images",
+      "sense_id": "images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "images",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "images",
+  "observation_id": "a4b5dbd19f5f187f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "images",
+  "source_context_snippet": "[![Build Status](https://github.com/JuliaGraphics/ColorVectorSpace.jl/workflows/Unit%20test/badge.svg)](https://github.com/JuliaGraphics/ColorVectorSpace.jl/actions)",
+  "source_file": null,
+  "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+  "source_repo_description": "Treat colors as if they are n-vectors for the purposes of arithmetic"
+}

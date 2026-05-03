@@ -103,6 +103,30 @@
       "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
       "status": "candidate-context",
       "text": "![banner](banner.webp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathjax/MathJax",
+      "status": "candidate-context",
+      "text": "Beautiful and accessible math in all browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax",
+      "status": "candidate-context",
+      "text": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caryll/otfcc",
+      "status": "candidate-context",
+      "text": "Optimized OpenType builder and inspector."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caryll/otfcc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "danielrosehill/Awesome-Hebrew-Fonts",
       "status": "candidate",
       "text": "![banner](banner.webp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathjax/MathJax",
+      "status": "candidate",
+      "text": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caryll/otfcc",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -306,11 +342,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Awesome-Hebrew-Fonts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mathjax/MathJax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "caryll/otfcc"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

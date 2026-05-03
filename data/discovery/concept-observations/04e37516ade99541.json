@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A lightweight, fast and reliable socks5 server for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022011,
+      "status": "candidate",
+      "text": "ipv4"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022010,
+      "status": "candidate",
+      "text": "dhcp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022009,
+      "status": "candidate",
+      "text": "ipsec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022008,
+      "status": "candidate",
+      "text": "icmp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022007,
+      "status": "candidate",
+      "text": "pppoe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ipv6",
+      "sense_id": "ipv6#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ipv6",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ipv6",
+  "observation_id": "04e37516ade99541",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "ipv6",
+  "source_context_snippet": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)",
+  "source_file": null,
+  "source_repo": "heiher/socks5",
+  "source_repo_description": "A lightweight, fast and reliable socks5 server for Android"
+}

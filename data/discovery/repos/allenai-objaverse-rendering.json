@@ -1,0 +1,64 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/objaverse-rendering",
+      "target": "blender",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/objaverse-rendering",
+      "target": "objaverse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:41:02.722747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2340
+    },
+    {
+      "path": "requirements.txt",
+      "size": 40
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcf7 Scripts for rendering Objaverse",
+    "fork": false,
+    "full_name": "allenai/objaverse-rendering",
+    "html_url": "https://github.com/allenai/objaverse-rendering",
+    "language": "Python",
+    "pushed_at": "2023-08-17T18:29:00Z",
+    "stargazers_count": 262,
+    "topics": [
+      "3d",
+      "ai",
+      "blender",
+      "objaverse"
+    ],
+    "updated_at": "2026-04-15T09:32:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Scripts to perform distributed rendering of Objaverse objects in Blender across many GPUs and processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blender"
+    },
+    {
+      "context_snippet": "Scripts to perform distributed rendering of Objaverse objects in Blender across many GPUs and processes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objaverse"
+    }
+  ]
+}

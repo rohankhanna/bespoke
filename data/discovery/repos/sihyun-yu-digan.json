@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sihyun-yu/digan",
+      "target": "weixiong-ur/mdgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sihyun-yu/digan",
+      "target": "aliaksandrsiarohin/first-order-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sihyun-yu/digan",
+      "target": "universome/inr-gan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sihyun-yu/digan",
+      "target": "mit-han-lab/data-efficient-gans",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sihyun-yu/digan",
+      "target": "implicit-neural-representation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sihyun-yu/digan",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:42:16.745912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5944
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICLR'22] Generating Videos with Dynamics-aware Implicit Generative Adversarial Networks",
+    "fork": false,
+    "full_name": "sihyun-yu/digan",
+    "html_url": "https://github.com/sihyun-yu/digan",
+    "language": "Python",
+    "pushed_at": "2023-03-13T14:09:33Z",
+    "stargazers_count": 184,
+    "topics": [
+      "gan",
+      "implicit-neural-representation",
+      "inr",
+      "video-generation"
+    ],
+    "updated_at": "2025-03-19T05:59:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliaksandrsiarohin/first-order-model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/data-efficient-gans",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "universome/inr-gan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weixiong-ur/mdgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Official PyTorch implementation of **[\"Generating Videos with Dynamics-aware Implicit Generative Adversarial Networks\"](https://openreview.net/forum?id=Czsdv-S4-w9)** by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "implicit-neural-representation"
+    },
+    {
+      "context_snippet": "Official PyTorch implementation of **[\"Generating Videos with Dynamics-aware Implicit Generative Adversarial Networks\"](https://openreview.net/forum?id=Czsdv-S4-w9)** by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

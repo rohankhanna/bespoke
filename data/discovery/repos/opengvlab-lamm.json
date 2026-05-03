@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:56:40.926291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5675
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2023 Datasets and Benchmarks Track] LAMM: Multi-Modal Large Language Models and Applications as AI Agents",
+    "fork": false,
+    "full_name": "OpenGVLab/LAMM",
+    "html_url": "https://github.com/OpenGVLab/LAMM",
+    "language": "Python",
+    "pushed_at": "2024-04-16T11:30:23Z",
+    "stargazers_count": 319,
+    "topics": [],
+    "updated_at": "2026-04-04T03:48:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

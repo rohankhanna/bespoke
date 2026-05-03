@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Style Loader"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9817176,
+      "status": "candidate",
+      "text": "xsl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9817175,
+      "status": "candidate",
+      "text": "style sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9817174,
+      "status": "candidate",
+      "text": "styles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9817173,
+      "status": "candidate",
+      "text": "javascript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9817172,
+      "status": "candidate",
+      "text": "stylebook"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stylesheets",
+      "sense_id": "stylesheets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stylesheets",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stylesheets",
+  "observation_id": "df2b6f3bdd6829bb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "stylesheets",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "webpack/style-loader",
+  "source_repo_description": "Style Loader"
+}

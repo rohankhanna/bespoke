@@ -229,6 +229,24 @@
       "source_repo": "axodox/AxoCover",
       "status": "candidate-context",
       "text": "Nice and free .Net code coverage support for Visual Studio with OpenCover."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "Intelligent WindiCSS tooling for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "synadia-io/orbit.rs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -345,6 +363,18 @@
       "source_repo": "axodox/AxoCover",
       "status": "candidate",
       "text": "Nice and free .Net code coverage support for Visual Studio with OpenCover."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "synadia-io/orbit.rs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -736,11 +766,47 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kabachuha/sd-webui-text2video"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "windicss/windicss-intellisense"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "synadia-io/orbit.rs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

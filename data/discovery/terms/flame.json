@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -46,6 +46,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "TimoBolkart/FLAME-Universe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "georgeretsi/smirk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA"
     }
   ],
   "term": "flame"

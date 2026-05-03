@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -792,6 +792,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/push_gem.yml",
       "source_repo": "simplecov-ruby/simplecov"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "open-policy-agent/gatekeeper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-manifest.yaml",
+      "source_repo": "open-policy-agent/gatekeeper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "open-policy-agent/gatekeeper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dapr-export.yaml",
+      "source_repo": "open-policy-agent/gatekeeper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "open-policy-agent/gatekeeper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/disk-export.yaml",
+      "source_repo": "open-policy-agent/gatekeeper"
     }
   ]
 }

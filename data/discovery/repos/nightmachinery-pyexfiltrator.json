@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "target": "debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "target": "debugging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "target": "debugging-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "target": "debugging-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "target": "exfiltrator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "target": "infiltrator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "target": "ipython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "target": "repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightMachinery/PyExfiltrator",
+      "target": "repl-driven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:05:22.683401+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 319
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Julia's `@exfiltrate` for Python; Exports the local variables into a global dictionary for later debugging.",
+    "fork": false,
+    "full_name": "NightMachinery/PyExfiltrator",
+    "html_url": "https://github.com/NightMachinery/PyExfiltrator",
+    "language": "Python",
+    "pushed_at": "2023-12-15T17:33:15Z",
+    "stargazers_count": 6,
+    "topics": [
+      "debug",
+      "debugging",
+      "debugging-tool",
+      "debugging-tools",
+      "exfiltrator",
+      "infiltrator",
+      "ipython",
+      "python",
+      "repl",
+      "repl-driven"
+    ],
+    "updated_at": "2022-11-07T20:15:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debug"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging-tool"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugging-tools"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exfiltrator"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infiltrator"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipython"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"PyExfiltrator\" version = \"0.1.0\" description = \"\" authors = [\"NightMachinary <rudiwillalwaysloveyou@gmail.com>\"] [tool.poetry.dependencies] python = \"^3.7\" [tool.poetry.dev-dependencies] pytest = \"^5.2\" [build-system] requires = [\"poetry-core>=1.0.0\"] build\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl-driven"
+    }
+  ]
+}

@@ -33,13 +33,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "semver/semver",
-      "target": "semver/semver.org",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "semver/semver",
@@ -89,7 +82,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:58:52.618550+00:00",
+  "fetched_at": "2026-05-03T00:55:49.301170+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -114,17 +107,11 @@
     "html_url": "https://github.com/semver/semver",
     "language": null,
     "pushed_at": "2025-11-05T20:57:47Z",
-    "stargazers_count": 7733,
+    "stargazers_count": 7739,
     "topics": [],
-    "updated_at": "2026-04-23T22:36:39Z"
+    "updated_at": "2026-05-02T12:43:41Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "semver/semver.org",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Check changes",

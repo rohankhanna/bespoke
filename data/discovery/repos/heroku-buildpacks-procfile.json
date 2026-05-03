@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "buildpacks/github-actions/setup-pack@06e250da5bb4ccb9a2103719a21d2a7f2252fe83",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "heroku/languages-github-actions/.github/workflows/_buildpacks-prepare-release.yml@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml"
+    },
+    {
+      "component": "heroku/languages-github-actions/.github/workflows/_buildpacks-release.yml@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "Check Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "buildpacks/github-actions/setup-pack@06e250da5bb4ccb9a2103719a21d2a7f2252fe83",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "heroku/languages-github-actions/.github/workflows/_buildpacks-prepare-release.yml@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "Prepare Buildpack Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "heroku/languages-github-actions/.github/workflows/_buildpacks-release.yml@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "Release Buildpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "cloud-native-buildpacks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "heroku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "heroku-languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/buildpacks-procfile",
+      "target": "procfile",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:56:01.638923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5488
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 600
+    },
+    {
+      "path": ".github/workflows/check_changelog.yml",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2131
+    },
+    {
+      "path": ".github/workflows/prepare-release.yml",
+      "size": 637
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Heroku's Procfile Cloud Native Buildpack.",
+    "fork": false,
+    "full_name": "heroku/buildpacks-procfile",
+    "html_url": "https://github.com/heroku/buildpacks-procfile",
+    "language": "Rust",
+    "pushed_at": "2026-05-01T19:37:16Z",
+    "stargazers_count": 9,
+    "topics": [
+      "cloud-native-buildpacks",
+      "heroku",
+      "heroku-languages",
+      "procfile"
+    ],
+    "updated_at": "2026-04-14T07:59:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "term": "Check Changelog"
+    },
+    {
+      "context_snippet": "Prepare Buildpack Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "term": "Prepare Buildpack Release"
+    },
+    {
+      "context_snippet": "Release Buildpack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Buildpack"
+    },
+    {
+      "context_snippet": "[![Cloud Native Buildpacks Registry: heroku/procfile][registry-badge]][registry-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native-buildpacks"
+    },
+    {
+      "context_snippet": "[![Cloud Native Buildpacks Registry: heroku/procfile][registry-badge]][registry-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku"
+    },
+    {
+      "context_snippet": "[![Cloud Native Buildpacks Registry: heroku/procfile][registry-badge]][registry-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-languages"
+    },
+    {
+      "context_snippet": "[![Cloud Native Buildpacks Registry: heroku/procfile][registry-badge]][registry-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "procfile"
+    }
+  ]
+}

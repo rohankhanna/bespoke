@@ -123,13 +123,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "stefanpenner/es6-promise",
-      "target": "tildeio/rsvp.js",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "stefanpenner/es6-promise",
@@ -298,7 +291,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-29T21:57:14.959869+00:00",
+  "fetched_at": "2026-05-03T00:49:43.093781+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -319,16 +312,10 @@
     "html_url": "https://github.com/stefanpenner/es6-promise",
     "language": "JavaScript",
     "pushed_at": "2022-11-14T21:47:12Z",
-    "stargazers_count": 7278,
+    "stargazers_count": 7277,
     "topics": [],
-    "updated_at": "2026-04-29T08:39:57Z"
+    "updated_at": "2026-04-30T16:07:02Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tildeio/rsvp.js",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

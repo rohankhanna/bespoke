@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:42:38.583631+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "microsoft/Phi3-Chat-WinUI3-Sample",
+    "html_url": "https://github.com/microsoft/Phi3-Chat-WinUI3-Sample",
+    "language": "C#",
+    "pushed_at": "2024-06-02T06:30:16Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-04-25T04:30:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

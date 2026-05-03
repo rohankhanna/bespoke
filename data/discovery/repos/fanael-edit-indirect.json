@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:51:09.406523+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Edit regions in separate buffers",
+    "fork": false,
+    "full_name": "Fanael/edit-indirect",
+    "html_url": "https://github.com/Fanael/edit-indirect",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-03-19T21:17:36Z",
+    "stargazers_count": 110,
+    "topics": [],
+    "updated_at": "2026-04-30T14:50:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

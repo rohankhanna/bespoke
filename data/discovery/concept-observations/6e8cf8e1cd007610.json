@@ -84,7 +84,7 @@
   "normalized_form": "reactivesearch-api-server---docker-build",
   "observation_id": "6e8cf8e1cd007610",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "ReactiveSearch API server - Docker build",
   "source_context_snippet": "ReactiveSearch API server - Docker build",
   "source_file": ".github/workflows/docker-image.yml",

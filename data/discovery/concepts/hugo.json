@@ -133,6 +133,54 @@
       "source_repo": "apache/dubbo-website",
       "status": "candidate-context",
       "text": "![CI Status](https://github.com/apache/dubbo-website/workflows/Website%20Deploy/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sawhney17/logseq-schrodinger",
+      "status": "candidate-context",
+      "text": " A plugin to export pages in Logseq to Hugo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sawhney17/logseq-schrodinger",
+      "status": "candidate-context",
+      "text": "<div id=\"top\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "status": "candidate-context",
+      "text": " A fast, clean, responsive Hugo theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "status": "candidate-context",
+      "text": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanxiaobei/hugo-paper",
+      "status": "candidate-context",
+      "text": "\ud83e\udeba A simple, clean, customizable Hugo theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanxiaobei/hugo-paper",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "status": "candidate-context",
+      "text": "This is a HUGO website template for Logseq users who wants their published posts to look more like a personal website, using GitHub Pages to host the website and logseq-schrodinger to export your Logseq pages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -195,6 +243,30 @@
       "source_repo": "apache/dubbo-website",
       "status": "candidate",
       "text": "![CI Status](https://github.com/apache/dubbo-website/workflows/Website%20Deploy/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sawhney17/logseq-schrodinger",
+      "status": "candidate",
+      "text": "<div id=\"top\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adityatelange/hugo-PaperMod",
+      "status": "candidate",
+      "text": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanxiaobei/hugo-paper",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charliie-dev/Logseq-Hugo-Template",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -319,11 +391,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "apache/dubbo-website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sawhney17/logseq-schrodinger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adityatelange/hugo-PaperMod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nanxiaobei/hugo-paper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "charliie-dev/Logseq-Hugo-Template"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

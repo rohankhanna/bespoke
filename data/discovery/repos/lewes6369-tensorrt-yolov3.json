@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lewes6369/TensorRT-Yolov3",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lewes6369/TensorRT-Yolov3",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lewes6369/TensorRT-Yolov3",
+      "target": "yolov3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:05.704103+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TensorRT for Yolov3",
+    "fork": false,
+    "full_name": "lewes6369/TensorRT-Yolov3",
+    "html_url": "https://github.com/lewes6369/TensorRT-Yolov3",
+    "language": "C++",
+    "pushed_at": "2022-09-26T19:26:41Z",
+    "stargazers_count": 483,
+    "topics": [
+      "caffe",
+      "tensorrt",
+      "yolov3"
+    ],
+    "updated_at": "2026-03-20T11:44:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TensorRT for Yolov3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "TensorRT for Yolov3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "TensorRT for Yolov3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov3"
+    }
+  ]
+}

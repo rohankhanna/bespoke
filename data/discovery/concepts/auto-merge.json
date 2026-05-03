@@ -273,6 +273,18 @@
       "source_repo": "sclorg/s2i-php-container",
       "status": "candidate-context",
       "text": "Auto Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/s2i-ruby-container",
+      "status": "candidate-context",
+      "text": "Ruby container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running Ruby applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-ruby-container",
+      "status": "candidate-context",
+      "text": "Auto Merge"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sclorg/s2i-php-container",
+      "status": "candidate",
+      "text": "Auto Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-ruby-container",
       "status": "candidate",
       "text": "Auto Merge"
     }
@@ -612,11 +630,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/auto-merge.yaml",
       "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/auto-merge.yaml",
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "sclorg/s2i-ruby-container"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

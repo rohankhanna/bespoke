@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/go-getting-started",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/go-getting-started",
+      "target": "heroku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/go-getting-started",
+      "target": "heroku-languages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:56:05.527302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2122
+    },
+    {
+      "path": "Dockerfile",
+      "size": 545
+    },
+    {
+      "path": "go.mod",
+      "size": 1615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Getting Started with Go on Heroku.",
+    "fork": false,
+    "full_name": "heroku/go-getting-started",
+    "html_url": "https://github.com/heroku/go-getting-started",
+    "language": "Dockerfile",
+    "pushed_at": "2026-05-01T18:46:59Z",
+    "stargazers_count": 250,
+    "topics": [
+      "go",
+      "golang",
+      "heroku",
+      "heroku-languages"
+    ],
+    "updated_at": "2026-03-31T08:13:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A barebones Go app, which can easily be deployed to Heroku.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "A barebones Go app, which can easily be deployed to Heroku.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku"
+    },
+    {
+      "context_snippet": "A barebones Go app, which can easily be deployed to Heroku.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-languages"
+    }
+  ]
+}

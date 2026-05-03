@@ -1,0 +1,502 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "taiki-e/install-action@80a23c5ba9e1100fd8b777106e810018ed662a7b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@5cbfd81b66ca5d10c19b062c04de0199c215fb6e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@b7e9a28eded4986ec6b1fa40eeee8f8f165559ec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wasm_fdw.yml"
+    },
+    {
+      "component": "jmgilman/actions-generate-checksum@238073f4c02f2810adb91c96bdd1e276a5ae9ed6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wasm_fdw.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wasm_fdw.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_supabase_wrappers.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_supabase_wrappers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_wrappers.yml"
+    },
+    {
+      "component": "useblacksmith/cache-delete@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_wrappers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_wrappers.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_wrappers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_wrappers.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_wrappers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_wrappers.yml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_wrappers.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "supabase/wrappers",
+      "target": "tcdi/pgrx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "taiki-e/install-action@80a23c5ba9e1100fd8b777106e810018ed662a7b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "coverallsapp/github-action@5cbfd81b66ca5d10c19b062c04de0199c215fb6e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "Deploy docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "rust-lang/crates-io-auth-action@b7e9a28eded4986ec6b1fa40eeee8f8f165559ec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wasm_fdw.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wasm_fdw.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "jmgilman/actions-generate-checksum@238073f4c02f2810adb91c96bdd1e276a5ae9ed6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_wasm_fdw.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_wasm_fdw.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "Wasm FDW Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "Test Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_supabase_wrappers.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_supabase_wrappers.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_supabase_wrappers.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "Test Wrappers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_wrappers.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_wrappers.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "useblacksmith/cache-delete@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_wrappers.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "actions-rust-lang/setup-rust-toolchain@150fca883cd4034361b621bd4e6a9d34e5143606",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_wrappers.yml",
+      "source_repo": "supabase/wrappers",
+      "target": "Test Wrappers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supabase/wrappers",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supabase/wrappers",
+      "target": "foreign-data-wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supabase/wrappers",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supabase/wrappers",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supabase/wrappers",
+      "target": "postgresql-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "supabase/wrappers",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:08:15.243019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6879
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 439
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 2984
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 498
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 10694
+    },
+    {
+      "path": ".github/workflows/release_wasm_fdw.yml",
+      "size": 4503
+    },
+    {
+      "path": ".github/workflows/test_docs.yml",
+      "size": 666
+    },
+    {
+      "path": ".github/workflows/test_supabase_wrappers.yml",
+      "size": 2282
+    },
+    {
+      "path": ".github/workflows/test_wrappers.yml",
+      "size": 11143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Postgres Foreign Data Wrapper development framework in Rust.",
+    "fork": false,
+    "full_name": "supabase/wrappers",
+    "html_url": "https://github.com/supabase/wrappers",
+    "language": "Rust",
+    "pushed_at": "2026-05-01T14:10:36Z",
+    "stargazers_count": 839,
+    "topics": [
+      "database",
+      "foreign-data-wrapper",
+      "postgres",
+      "postgresql",
+      "postgresql-extension",
+      "rust"
+    ],
+    "updated_at": "2026-05-01T14:10:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tcdi/pgrx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Code Coverage"
+    },
+    {
+      "context_snippet": "Deploy docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Deploy docs"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Wasm FDW Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_wasm_fdw.yml",
+      "term": "Wasm FDW Release"
+    },
+    {
+      "context_snippet": "Test Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "term": "Test Docs"
+    },
+    {
+      "context_snippet": "Test Wrappers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_supabase_wrappers.yml",
+      "term": "Test Wrappers"
+    },
+    {
+      "context_snippet": "Test Wrappers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_wrappers.yml",
+      "term": "Test Wrappers"
+    },
+    {
+      "context_snippet": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foreign-data-wrapper"
+    },
+    {
+      "context_snippet": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres"
+    },
+    {
+      "context_snippet": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql-extension"
+    },
+    {
+      "context_snippet": "`Wrappers` is a development framework for Postgres Foreign Data Wrappers ([FDW](https://wiki.postgresql.org/wiki/Foreign_data_wrappers)), written in Rust. Its goal is to make Postgres FDW development easier while keeping Rust language's modern capabilities, such as high performa\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

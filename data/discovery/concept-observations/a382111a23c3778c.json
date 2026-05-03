@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hide Obsidian UI elements such as tooltips, status, titlebar and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This plugin enables you to hide certain parts of the Obsidian UI. Note that your CSS theme may override Hider."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This plugin enables you to hide certain parts of the Obsidian UI. Note that your CSS theme may override Hider."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obsidian-plugin",
+      "sense_id": "obsidian-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "obsidian-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "obsidian-plugin",
+  "observation_id": "a382111a23c3778c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "obsidian-plugin",
+  "source_context_snippet": "This plugin enables you to hide certain parts of the Obsidian UI. Note that your CSS theme may override Hider.",
+  "source_file": null,
+  "source_repo": "kepano/obsidian-hider",
+  "source_repo_description": "Hide Obsidian UI elements such as tooltips, status, titlebar and more"
+}

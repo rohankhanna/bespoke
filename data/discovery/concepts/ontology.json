@@ -31,6 +31,18 @@
       "source_repo": "FAIR-IMPACT/MOD",
       "status": "candidate-context",
       "text": "Metadata for Ontology Description and Publication Ontology"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ontoportal/documentation",
+      "status": "candidate-context",
+      "text": "Source code for OntoPortal user, admin and developer guides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ontoportal/documentation",
+      "status": "candidate-context",
+      "text": "This repository hosts the OntoPortal website and product instructions for administering the OntoPortal Appliance (3.0 and later)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "FAIR-IMPACT/MOD",
       "status": "candidate",
       "text": "Metadata for Ontology Description and Publication Ontology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ontoportal/documentation",
+      "status": "candidate",
+      "text": "This repository hosts the OntoPortal website and product instructions for administering the OntoPortal Appliance (3.0 and later)."
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +124,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "FAIR-IMPACT/MOD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ontoportal/documentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "FAIR-IMPACT/MOD"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

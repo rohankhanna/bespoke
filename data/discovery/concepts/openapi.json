@@ -658,6 +658,30 @@
       "source_repo": "ePages-de/restdocs-api-spec",
       "status": "candidate-context",
       "text": "[![oss lifecycle](https://img.shields.io/badge/oss_lifecycle-maintenance-yellow.svg)](https://github.com/ePages-de/restdocs-api-spec/issues/204)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "status": "candidate-context",
+      "text": "A maven plugin for generating Open API and Postman Collection specifications using Spring Restdocs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udda5 Server-side code for the nef editor app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -984,6 +1008,18 @@
       "source_repo": "ePages-de/restdocs-api-spec",
       "status": "candidate",
       "text": "[![oss lifecycle](https://img.shields.io/badge/oss_lifecycle-maintenance-yellow.svg)](https://github.com/ePages-de/restdocs-api-spec/issues/204)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/BerkleyTechnologyServices/restdocs-spec/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/BerkleyTechnologyServices/restdocs-spec/actions?query=branch%3Amaster+workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1465,11 +1501,47 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apisyouwonthate/style-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "BerkleyTechnologyServices/restdocs-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

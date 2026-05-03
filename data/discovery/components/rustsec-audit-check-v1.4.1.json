@@ -1,7 +1,7 @@
 {
   "component": "rustsec/audit-check@v1.4.1",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/security_audit.yml",
       "source_repo": "aws-cloudformation/cloudformation-guard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bnb-chain/greenfield-cometbft-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "cometbft/cometbft-rs"
     }
   ]
 }

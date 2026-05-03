@@ -19,6 +19,18 @@
       "source_repo": "nayuki/Nayuki-web-published-code",
       "status": "candidate-context",
       "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mourner/tinyqueue",
+      "status": "candidate-context",
+      "text": "The smallest and simplest priority queue in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/tinyqueue",
+      "status": "candidate-context",
+      "text": "The smallest and simplest binary heap priority queue in JavaScript."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nayuki/Nayuki-web-published-code",
       "status": "candidate",
       "text": "Complete collection of code files (*.java/js/py/cpp/etc.) published on Project Nayuki website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mourner/tinyqueue",
+      "status": "candidate",
+      "text": "The smallest and simplest binary heap priority queue in JavaScript."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "nayuki/Nayuki-web-published-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mourner/tinyqueue"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

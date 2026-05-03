@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:49:36.088411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15774
+    },
+    {
+      "path": "requirements.txt",
+      "size": 174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "nyu-dl/dl4marco-bert",
+    "html_url": "https://github.com/nyu-dl/dl4marco-bert",
+    "language": "Python",
+    "pushed_at": "2022-01-26T13:32:15Z",
+    "stargazers_count": 484,
+    "topics": [],
+    "updated_at": "2026-02-14T15:29:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

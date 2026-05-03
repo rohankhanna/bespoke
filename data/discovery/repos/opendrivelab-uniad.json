@@ -1,0 +1,197 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "autonomousvision/navsim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "thinklab-sjtu/bench2drive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "openperceptionx/st-p3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "autonomous-driving-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "bev-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "end-to-end-autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "motion-planning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "motion-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "multi-object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "occupancy-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/UniAD",
+      "target": "perception-prediction-planning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:39.117444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9659
+    },
+    {
+      "path": "requirements.txt",
+      "size": 208
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2.0",
+    "description": "[CVPR 2023 Best Paper Award] Planning-oriented Autonomous Driving",
+    "fork": false,
+    "full_name": "OpenDriveLab/UniAD",
+    "html_url": "https://github.com/OpenDriveLab/UniAD",
+    "language": "Python",
+    "pushed_at": "2025-10-29T03:13:35Z",
+    "stargazers_count": 4591,
+    "topics": [
+      "autonomous-driving",
+      "autonomous-driving-framework",
+      "bev-segmentation",
+      "end-to-end-autonomous-driving",
+      "motion-planning",
+      "motion-prediction",
+      "multi-object-tracking",
+      "occupancy-prediction",
+      "perception-prediction-planning"
+    ],
+    "updated_at": "2026-05-02T12:36:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/navsim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openperceptionx/st-p3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thinklab-sjtu/bench2drive",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving-framework"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bev-segmentation"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "end-to-end-autonomous-driving"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-planning"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-prediction"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-object-tracking"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "occupancy-prediction"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perception-prediction-planning"
+    }
+  ]
+}

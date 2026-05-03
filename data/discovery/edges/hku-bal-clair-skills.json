@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair-skills",
+      "target": "hku-bal/clair3-rna",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair-skills",
+      "target": "hku-bal/clairs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair-skills",
+      "target": "hku-bal/clairs-to",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKU-BAL/Clair-skills",
+      "target": "hku-bal/clair-mosaic",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "HKU-BAL/Clair-skills"
+}

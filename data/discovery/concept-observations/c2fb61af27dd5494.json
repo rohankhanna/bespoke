@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Beautiful and accessible math in all browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "katex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "mathtype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "pdf.js"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "three.js"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "d3.js"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mathjax",
+      "sense_id": "mathjax#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mathjax",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mathjax",
+  "observation_id": "c2fb61af27dd5494",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "mathjax",
+  "source_context_snippet": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs.",
+  "source_file": null,
+  "source_repo": "mathjax/MathJax",
+  "source_repo_description": "Beautiful and accessible math in all browsers"
+}

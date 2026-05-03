@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Publish new theme version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdanielmourao/obsidian-sanctum",
+      "status": "candidate-context",
+      "text": "A minimalist theme for Obsidian.md, with the aim of creating a serene space of retreat, for thought and uninterrupted work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdanielmourao/obsidian-sanctum",
+      "status": "candidate-context",
+      "text": "Publish new theme version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "status": "candidate-context",
+      "text": "Obsidian Theme | v1.0.0 | by Corellan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "status": "candidate-context",
+      "text": "Publish new theme version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdanielmourao/obsidian-sanctum",
+      "status": "candidate",
+      "text": "Publish new theme version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "status": "candidate",
+      "text": "Publish new theme version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44325,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37012,
+      "status": "candidate",
+      "text": "reissue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36536,
+      "status": "candidate",
+      "text": "revision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36136,
+      "status": "candidate",
+      "text": "revise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35736,
+      "status": "candidate",
+      "text": "reissuing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish new theme version",
+  "concept_id": "publish-new-theme-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "jdanielmourao/obsidian-sanctum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "CreArts-Community/CreArts-Obsidian"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish new theme version",
+      "sense_id": "publish-new-theme-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -67,6 +67,18 @@
       "source_repo": "mapbox/pbf",
       "status": "candidate-context",
       "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate-context",
+      "text": "An audio-visual library supports processing audio and video files, a graphics library can load a variety 3D mesh file formats into a generic in-memory representation, and the core library of Gazebo Common contains functionality that spans Base64 encoding/decoding to thread pools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate-context",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "mapbox/pbf",
       "status": "candidate",
       "text": "[![Node](https://github.com/mapbox/pbf/actions/workflows/node.yml/badge.svg)](https://github.com/mapbox/pbf/actions/workflows/node.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
     }
   ],
   "candidate_related_terms": [
@@ -187,11 +205,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "mapbox/pbf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility (for Windows)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990546,
+      "status": "candidate",
+      "text": "anticensor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990545,
+      "status": "candidate",
+      "text": "censorious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990544,
+      "status": "candidate",
+      "text": "antitaxation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990543,
+      "status": "candidate",
+      "text": "antiespionage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990542,
+      "status": "candidate",
+      "text": "antitorture"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "anticensorship",
+      "sense_id": "anticensorship#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "anticensorship",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "anticensorship",
+  "observation_id": "42dcecfa96c22bc8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "anticensorship",
+  "source_context_snippet": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility",
+  "source_file": null,
+  "source_repo": "ValdikSS/GoodbyeDPI",
+  "source_repo_description": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility (for Windows)"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:56:24.660406+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4983
+    },
+    {
+      "path": "requirements.txt",
+      "size": 302
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generative Sparse Detection Networks for 3D Single-shot Object Detection",
+    "fork": false,
+    "full_name": "jgwak/GSDN",
+    "html_url": "https://github.com/jgwak/GSDN",
+    "language": "Python",
+    "pushed_at": "2022-06-23T05:21:31Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-01-20T10:11:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -84,7 +84,7 @@
   "normalized_form": "publish-docker-image-alpha",
   "observation_id": "03bb8abdd9e4242d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Publish Docker image (alpha)",
   "source_context_snippet": "Publish Docker image (alpha)",
   "source_file": ".github/workflows/docker-image-alpha.yml",

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ISO 3116 country information in YAML format to be included in other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Countries data - YAML"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Countries data - YAML"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996339,
+      "status": "candidate",
+      "text": "up-to-dateness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994352,
+      "status": "candidate",
+      "text": "currentness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953975,
+      "status": "candidate",
+      "text": "vogue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048957,
+      "status": "candidate",
+      "text": "cash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048403,
+      "status": "candidate",
+      "text": "money"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "currency",
+      "sense_id": "currency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7039,
+      "status": "candidate",
+      "text": "vogue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2021,
+      "status": "candidate",
+      "text": "currentness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2014,
+      "status": "candidate",
+      "text": "up-to-dateness"
+    }
+  ],
+  "concept_id": "currency",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "currency",
+  "observation_id": "3b1e9cf1732a1197",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "currency",
+  "source_context_snippet": "Countries data - YAML",
+  "source_file": null,
+  "source_repo": "countries/countries-data-yaml",
+  "source_repo_description": "ISO 3116 country information in YAML format to be included in other projects."
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:58:12.321342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2274
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "HumanAIGC/lite-avatar",
+    "html_url": "https://github.com/HumanAIGC/lite-avatar",
+    "language": "Python",
+    "pushed_at": "2025-06-30T03:09:20Z",
+    "stargazers_count": 443,
+    "topics": [],
+    "updated_at": "2026-04-30T09:40:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -153,6 +153,18 @@
       "source_repo": "LedgerHQ/ledger-app-builder",
       "status": "candidate-context",
       "text": "Build Docker images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pengx17/logseq-publish",
+      "status": "candidate-context",
+      "text": "Archived. Please check https://github.com/logseq/publish-spa instead"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pengx17/logseq-publish",
+      "status": "candidate-context",
+      "text": "Build Docker Images"
     }
   ],
   "candidate_glosses": [
@@ -227,6 +239,12 @@
       "source_repo": "LedgerHQ/ledger-app-builder",
       "status": "candidate",
       "text": "Build Docker images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pengx17/logseq-publish",
+      "status": "candidate",
+      "text": "Build Docker Images"
     }
   ],
   "candidate_related_terms": [
@@ -354,11 +372,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/docker-build.yml",
       "source_repo": "LedgerHQ/ledger-app-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "pengx17/logseq-publish"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -8,7 +8,7 @@
     {
       "source_kind": "repo-description",
       "status": "context-only",
-      "text": "The original local LLM interface. Text, vision, tool-calling, training. UI + API, 100% offline and private."
+      "text": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API."
     },
     {
       "source_kind": "source-snippet",
@@ -84,10 +84,10 @@
   "normalized_form": "build-everything-tgw",
   "observation_id": "bae02460367af423",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Build Everything TGW",
   "source_context_snippet": "Build Everything TGW",
   "source_file": ".github/workflows/build-everything-tgw.yml",
   "source_repo": "oobabooga/textgen",
-  "source_repo_description": "The original local LLM interface. Text, vision, tool-calling, training. UI + API, 100% offline and private."
+  "source_repo_description": "Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API."
 }

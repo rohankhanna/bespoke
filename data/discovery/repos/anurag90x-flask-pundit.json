@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anurag90x/flask-pundit",
+      "target": "flask-restful/flask-restful",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anurag90x/flask-pundit",
+      "target": "authorization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anurag90x/flask-pundit",
+      "target": "flask-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anurag90x/flask-pundit",
+      "target": "permissions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:11.725981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6691
+    },
+    {
+      "path": "Dockerfile",
+      "size": 35
+    },
+    {
+      "path": "requirements.txt",
+      "size": 37
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A flask extension for managing permissions and scopes",
+    "fork": false,
+    "full_name": "anurag90x/flask-pundit",
+    "html_url": "https://github.com/anurag90x/flask-pundit",
+    "language": "Python",
+    "pushed_at": "2023-05-01T20:19:26Z",
+    "stargazers_count": 53,
+    "topics": [
+      "authorization",
+      "flask-extension",
+      "permissions"
+    ],
+    "updated_at": "2026-01-06T09:47:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flask-restful/flask-restful",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A simple flask extension to organize resource authorization and scoping. This extension is heavily inspired by the ruby Pundit library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authorization"
+    },
+    {
+      "context_snippet": "A simple flask extension to organize resource authorization and scoping. This extension is heavily inspired by the ruby Pundit library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flask-extension"
+    },
+    {
+      "context_snippet": "A simple flask extension to organize resource authorization and scoping. This extension is heavily inspired by the ruby Pundit library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "permissions"
+    }
+  ]
+}

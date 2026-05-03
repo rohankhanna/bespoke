@@ -1,0 +1,210 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Muennighoff/sgpt",
+      "target": "ukplab/sentence-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Muennighoff/sgpt",
+      "target": "muennighoff/sentence-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Muennighoff/sgpt",
+      "target": "ukplab/beir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Muennighoff/sgpt",
+      "target": "ukplab/useb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Muennighoff/sgpt",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Muennighoff/sgpt",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Muennighoff/sgpt",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Muennighoff/sgpt",
+      "target": "neural-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Muennighoff/sgpt",
+      "target": "retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Muennighoff/sgpt",
+      "target": "semantic-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Muennighoff/sgpt",
+      "target": "sentence-embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Muennighoff/sgpt",
+      "target": "sgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Muennighoff/sgpt",
+      "target": "text-embedding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:00:03.410234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24692
+    },
+    {
+      "path": "requirements.txt",
+      "size": 103
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SGPT: GPT Sentence Embeddings for Semantic Search",
+    "fork": false,
+    "full_name": "Muennighoff/sgpt",
+    "html_url": "https://github.com/Muennighoff/sgpt",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-02-17T10:37:36Z",
+    "stargazers_count": 873,
+    "topics": [
+      "gpt",
+      "information-retrieval",
+      "language-model",
+      "large-language-models",
+      "neural-search",
+      "retrieval",
+      "semantic-search",
+      "sentence-embeddings",
+      "sgpt",
+      "text-embedding"
+    ],
+    "updated_at": "2026-04-30T06:31:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "muennighoff/sentence-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ukplab/beir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ukplab/sentence-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ukplab/useb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains code, results & pre-trained models for the paper [SGPT: GPT Sentence Embeddings for Semantic Search](https://arxiv.org/abs/2202.08904).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "This repository contains code, results & pre-trained models for the paper [SGPT: GPT Sentence Embeddings for Semantic Search](https://arxiv.org/abs/2202.08904).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "This repository contains code, results & pre-trained models for the paper [SGPT: GPT Sentence Embeddings for Semantic Search](https://arxiv.org/abs/2202.08904).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "This repository contains code, results & pre-trained models for the paper [SGPT: GPT Sentence Embeddings for Semantic Search](https://arxiv.org/abs/2202.08904).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-search"
+    },
+    {
+      "context_snippet": "This repository contains code, results & pre-trained models for the paper [SGPT: GPT Sentence Embeddings for Semantic Search](https://arxiv.org/abs/2202.08904).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval"
+    },
+    {
+      "context_snippet": "This repository contains code, results & pre-trained models for the paper [SGPT: GPT Sentence Embeddings for Semantic Search](https://arxiv.org/abs/2202.08904).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-search"
+    },
+    {
+      "context_snippet": "This repository contains code, results & pre-trained models for the paper [SGPT: GPT Sentence Embeddings for Semantic Search](https://arxiv.org/abs/2202.08904).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentence-embeddings"
+    },
+    {
+      "context_snippet": "This repository contains code, results & pre-trained models for the paper [SGPT: GPT Sentence Embeddings for Semantic Search](https://arxiv.org/abs/2202.08904).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sgpt"
+    },
+    {
+      "context_snippet": "This repository contains code, results & pre-trained models for the paper [SGPT: GPT Sentence Embeddings for Semantic Search](https://arxiv.org/abs/2202.08904).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-embedding"
+    }
+  ]
+}

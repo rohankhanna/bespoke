@@ -120,7 +120,7 @@
   "normalized_form": "dispatch",
   "observation_id": "6c502afe2ac11b93",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Dispatch",
   "source_context_snippet": "\"Dispatch\"",
   "source_file": ".github/workflows/test-dispatch.yml",

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official implementations for \"Action2Motion: Conditioned Generation of 3D Human Motions (ACM MultiMedia 2020)\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "* Motion feature extractors are pre-trained action classifiers, they are in ./model_file"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "* Motion feature extractors are pre-trained action classifiers, they are in ./model_file"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "human-motion-analysis",
+      "sense_id": "human-motion-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "human-motion-analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "human-motion-analysis",
+  "observation_id": "c0a071566585ef95",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "human-motion-analysis",
+  "source_context_snippet": "* Motion feature extractors are pre-trained action classifiers, they are in ./model_file",
+  "source_file": null,
+  "source_repo": "EricGuo5513/action-to-motion",
+  "source_repo_description": "Official implementations for \"Action2Motion: Conditioned Generation of 3D Human Motions (ACM MultiMedia 2020)\""
+}

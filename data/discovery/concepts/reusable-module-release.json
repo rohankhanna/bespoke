@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable module release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "status": "candidate-context",
+      "text": "GrimoireLab: toolset for software development analytics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "status": "candidate-context",
+      "text": "Reusable module release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "status": "candidate",
+      "text": "Reusable module release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25380,
+      "status": "candidate",
+      "text": "recycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23560,
+      "status": "candidate",
+      "text": "lighter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23280,
+      "status": "candidate",
+      "text": "graze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23280,
+      "status": "candidate",
+      "text": "grazed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23280,
+      "status": "candidate",
+      "text": "lap"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable module release",
+  "concept_id": "reusable-module-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/reusable-module-release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable module release",
+      "sense_id": "reusable-module-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

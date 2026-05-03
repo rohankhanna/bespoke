@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Small configuration management tool for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM clojure:openjdk-11-tools-deps WORKDIR /tmp RUN apt update \\ && apt install -y curl make sudo \\ && apt-get clean \\ && rm -rf /var/lib/apt/lists/* \\ && mkdir /src COPY Makefile /tmp/Makefile RUN make graalvm WORKDIR /src"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM clojure:openjdk-11-tools-deps WORKDIR /tmp RUN apt update \\ && apt install -y curl make sudo \\ && apt-get clean \\ && rm -rf /var/lib/apt/lists/* \\ && mkdir /src COPY Makefile /tmp/Makefile RUN make graalvm WORKDIR /src"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "jruby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "openjdk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "jdk mission control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "java opengl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "jython"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graalvm",
+      "sense_id": "graalvm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "graalvm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graalvm",
+  "observation_id": "cfcb92bd4603246f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "graalvm",
+  "source_context_snippet": "FROM clojure:openjdk-11-tools-deps WORKDIR /tmp RUN apt update \\ && apt install -y curl make sudo \\ && apt-get clean \\ && rm -rf /var/lib/apt/lists/* \\ && mkdir /src COPY Makefile /tmp/Makefile RUN make graalvm WORKDIR /src",
+  "source_file": null,
+  "source_repo": "liquidz/dad",
+  "source_repo_description": "Small configuration management tool for Clojure"
+}

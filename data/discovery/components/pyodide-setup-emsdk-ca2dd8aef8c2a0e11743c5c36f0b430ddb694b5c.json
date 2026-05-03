@@ -1,0 +1,12 @@
+{
+  "component": "pyodide/setup-emsdk@ca2dd8aef8c2a0e11743c5c36f0b430ddb694b5c",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "sympy/sympy"
+    }
+  ]
+}

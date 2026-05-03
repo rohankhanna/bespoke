@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -346,6 +346,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jphall663/GWU_data_mining"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras-contrib"
     }
   ],
   "term": "data-science"

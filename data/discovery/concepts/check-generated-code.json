@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check generated code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cometbft/cometbft",
+      "status": "candidate-context",
+      "text": "CometBFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft",
+      "status": "candidate-context",
+      "text": "Check generated code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft",
+      "status": "candidate",
+      "text": "Check generated code"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26202,
+      "status": "candidate",
+      "text": "disassembly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18172,
+      "status": "candidate",
+      "text": "hack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18172,
+      "status": "candidate",
+      "text": "hacking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18142,
+      "status": "candidate",
+      "text": "inspection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18142,
+      "status": "candidate",
+      "text": "parity check"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check generated code",
+  "concept_id": "check-generated-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check-generated.yml",
+      "source_repo": "cometbft/cometbft"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check generated code",
+      "sense_id": "check-generated-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

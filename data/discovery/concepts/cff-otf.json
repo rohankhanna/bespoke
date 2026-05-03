@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cff-otf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caryll/otfcc",
+      "status": "candidate-context",
+      "text": "Optimized OpenType builder and inspector."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caryll/otfcc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caryll/otfcc",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cff-otf",
+  "concept_id": "cff-otf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "caryll/otfcc"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cff-otf",
+      "sense_id": "cff-otf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

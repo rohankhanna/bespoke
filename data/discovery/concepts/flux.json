@@ -199,6 +199,42 @@
       "source_repo": "FluxML/fluxml.github.io",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "status": "candidate-context",
+      "text": "LLM Agent Framework in ComfyUI includes MCP sever, Omost,GPT-sovits, ChatTTS,GOT-OCR2.0, and FLUX prompt nodes,access to Feishu,discord,and adapts to all llms with similar openai / aisuite interfaces, such as o1,ollama, gemini, grok, qwen, GLM, deepseek, kimi,doubao. Adapted to local llms, vlm, gguf such as llama-3.3 Janus-Pro, Linkage graphRAG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "status": "candidate-context",
+      "text": "![\u56fe\u7247](img/\u5c01\u9762.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate-context",
+      "text": "Please do not feed the models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vigetlabs/microcosm",
+      "status": "candidate-context",
+      "text": "Flux with actions at center stage. Write optimistic updates, cancel requests, and track changes with ease. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vigetlabs/microcosm",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://img.shields.io/circleci/project/vigetlabs/microcosm.svg?maxAge=2592000)](https://circleci.com/gh/vigetlabs/microcosm)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +333,24 @@
       "source_repo": "FluxML/fluxml.github.io",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heshengtao/comfyui_LLM_party",
+      "status": "candidate",
+      "text": "![\u56fe\u7247](img/\u5c01\u9762.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/model-zoo",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vigetlabs/microcosm",
+      "status": "candidate",
+      "text": "[![CircleCI](https://img.shields.io/circleci/project/vigetlabs/microcosm.svg?maxAge=2592000)](https://circleci.com/gh/vigetlabs/microcosm)"
     }
   ],
   "candidate_related_terms": [
@@ -591,11 +645,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heshengtao/comfyui_LLM_party"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "FluxML/model-zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vigetlabs/microcosm"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -71,6 +71,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "conda/conda-build"
     }
   ],
   "term": "Add to project"

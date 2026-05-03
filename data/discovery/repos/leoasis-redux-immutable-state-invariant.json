@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "invariant",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-stringify-safe",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-es2015",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-stage-3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "coveralls",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "expect",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/redux-immutable-state-invariant",
+      "target": "invariant",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/redux-immutable-state-invariant",
+      "target": "json-stringify-safe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/redux-immutable-state-invariant",
+      "target": "babel-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/redux-immutable-state-invariant",
+      "target": "babel-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/redux-immutable-state-invariant",
+      "target": "babel-preset-es2015",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/redux-immutable-state-invariant",
+      "target": "babel-preset-stage-3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/redux-immutable-state-invariant",
+      "target": "coveralls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/redux-immutable-state-invariant",
+      "target": "expect",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/redux-immutable-state-invariant",
+      "target": "istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "leoasis/redux-immutable-state-invariant",
+      "target": "mocha",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:53.832408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3601
+    },
+    {
+      "path": "package.json",
+      "size": 1240
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Redux middleware that detects mutations between and outside redux dispatches. For development use only.",
+    "fork": false,
+    "full_name": "leoasis/redux-immutable-state-invariant",
+    "html_url": "https://github.com/leoasis/redux-immutable-state-invariant",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-27T20:44:53Z",
+    "stargazers_count": 938,
+    "topics": [],
+    "updated_at": "2026-04-23T14:42:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

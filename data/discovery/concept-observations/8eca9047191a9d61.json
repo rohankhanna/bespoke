@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A ready to use http and https agent for working with proxies that keeps connections alive!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/) ![build](https://github.com/delvedor/hpagent/workflows/build/badge.svg). ![npm](https://img.shields.io/npm/dm/hpagent)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/) ![build](https://github.com/delvedor/hpagent/workflows/build/badge.svg). ![npm](https://img.shields.io/npm/dm/hpagent)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023765,
+      "status": "candidate",
+      "text": "hypertext transfer protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023764,
+      "status": "candidate",
+      "text": "dns"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023844,
+      "status": "candidate",
+      "text": "xmlhttp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023843,
+      "status": "candidate",
+      "text": "www."
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "https",
+      "sense_id": "https#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "https",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "https",
+  "observation_id": "8eca9047191a9d61",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "https",
+  "source_context_snippet": "[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/) ![build](https://github.com/delvedor/hpagent/workflows/build/badge.svg). ![npm](https://img.shields.io/npm/dm/hpagent)",
+  "source_file": null,
+  "source_repo": "delvedor/hpagent",
+  "source_repo_description": "A ready to use http and https agent for working with proxies that keeps connections alive!"
+}

@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mapbox/mapbox-maps-android",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mapbox/mapbox-maps-android",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mapbox/mapbox-maps-android",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mapbox/mapbox-maps-android",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "mapbox/mapbox-maps-android",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-maps-android",
+      "target": "in-scope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-maps-android",
+      "target": "priority",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:51:39.491963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3216
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3043
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Interactive, thoroughly customizable maps in native Android powered by vector tiles and OpenGL.",
+    "fork": false,
+    "full_name": "mapbox/mapbox-maps-android",
+    "html_url": "https://github.com/mapbox/mapbox-maps-android",
+    "language": "Kotlin",
+    "pushed_at": "2026-05-01T17:56:52Z",
+    "stargazers_count": 569,
+    "topics": [
+      "in-scope",
+      "priority"
+    ],
+    "updated_at": "2026-04-29T08:02:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-android)](https://cla-assistant.io/mapbox/mapbox-maps-android)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-scope"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-android)](https://cla-assistant.io/mapbox/mapbox-maps-android)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "priority"
+    }
+  ]
+}

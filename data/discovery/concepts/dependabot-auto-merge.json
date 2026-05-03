@@ -588,6 +588,54 @@
       "source_repo": "testem/testem",
       "status": "candidate-context",
       "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "status": "candidate-context",
+      "text": "pytest plugin for aiohttp support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "status": "candidate-context",
+      "text": "A collection of RuboCop rules for Sorbet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate-context",
+      "text": "NAT type diagnosis CLI. Tells you why WebRTC/P2P/VPN connections fail and whether TURN is required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "supabase/cli",
+      "status": "candidate-context",
+      "text": "Supabase CLI. Manage postgres migrations, run Supabase locally, deploy edge functions. Postgres backups. Generating types from your database schema."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/cli",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -870,6 +918,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "testem/testem",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "supabase/cli",
       "status": "candidate",
       "text": "Dependabot auto-merge"
     }
@@ -1203,11 +1275,35 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/dependabot-approve-and-request-merge.yml",
       "source_repo": "testem/testem"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "aio-libs/pytest-aiohttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "Shopify/rubocop-sorbet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "1mb-dev/natcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "supabase/cli"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

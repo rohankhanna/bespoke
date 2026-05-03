@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa8 Pickr - A simple, multi-themed, responsive and hackable Color-Picker library. No dependencies, no jQuery. Compatible with all CSS Frameworks e.g. Bootstrap, Materialize. Supports alpha channel, rgba, hsla, hsva and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h3 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022285,
+      "status": "candidate",
+      "text": "panchromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021759,
+      "status": "candidate",
+      "text": "colouring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010653,
+      "status": "candidate",
+      "text": "colour in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009187,
+      "status": "candidate",
+      "text": "color in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999615,
+      "status": "candidate",
+      "text": "gloss"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "color",
+      "sense_id": "color#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26035,
+      "status": "candidate",
+      "text": "distort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25032,
+      "status": "candidate",
+      "text": "semblance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19059,
+      "status": "candidate",
+      "text": "gloss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15027,
+      "status": "candidate",
+      "text": "emblazon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8019,
+      "status": "candidate",
+      "text": "vividness"
+    }
+  ],
+  "concept_id": "color",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "color",
+  "observation_id": "c3340f4cd9abd353",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "color",
+  "source_context_snippet": "<h3 align=\"center\">",
+  "source_file": null,
+  "source_repo": "simonwep/pickr",
+  "source_repo_description": "\ud83c\udfa8 Pickr - A simple, multi-themed, responsive and hackable Color-Picker library. No dependencies, no jQuery. Compatible with all CSS Frameworks e.g. Bootstrap, Materialize. Supports alpha channel, rgba, hsla, hsva and more!"
+}

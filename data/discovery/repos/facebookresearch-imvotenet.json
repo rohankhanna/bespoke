@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:56:23.749943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3922
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "ImVoteNet: Boosting 3D Object Detection in Point Clouds With Image Votes",
+    "fork": false,
+    "full_name": "facebookresearch/imvotenet",
+    "html_url": "https://github.com/facebookresearch/imvotenet",
+    "language": "Python",
+    "pushed_at": "2022-11-17T06:35:30Z",
+    "stargazers_count": 132,
+    "topics": [],
+    "updated_at": "2026-04-18T15:23:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

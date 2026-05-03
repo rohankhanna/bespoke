@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload package to VSCode Marketplace"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "status": "candidate-context",
+      "text": "CloudFormation Linter IDE integration, autocompletion, and documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "status": "candidate-context",
+      "text": "Upload package to VSCode Marketplace"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "status": "candidate",
+      "text": "Upload package to VSCode Marketplace"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20150,
+      "status": "candidate",
+      "text": "commerce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20098,
+      "status": "candidate",
+      "text": "market"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20083,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20057,
+      "status": "candidate",
+      "text": "consignment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20057,
+      "status": "candidate",
+      "text": "dispatch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload package to VSCode Marketplace",
+  "concept_id": "upload-package-to-vscode-marketplace",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload package to VSCode Marketplace",
+      "sense_id": "upload-package-to-vscode-marketplace#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

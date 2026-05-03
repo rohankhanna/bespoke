@@ -55,6 +55,42 @@
       "source_repo": "subtheme-dev/monokai-pro",
       "status": "candidate-context",
       "text": "The unofficial Monokai Pro theme, adapted by [Subtheme](https://subtheme.dev). This repository includes the default theme, classic theme, and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: [https://monokai.pro](https://monokai.pro)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "status": "candidate-context",
+      "text": "Mirror of the IntelliJ SDK Docs Code Samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "status": "candidate-context",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate-context",
+      "text": "Unity support for both ReSharper and Rider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate-context",
+      "text": "IntelliJ SDK Platform Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate-context",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "subtheme-dev/monokai-pro",
       "status": "candidate",
       "text": "The unofficial Monokai Pro theme, adapted by [Subtheme](https://subtheme.dev). This repository includes the default theme, classic theme, and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: [https://monokai.pro](https://monokai.pro)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-code-samples",
+      "status": "candidate",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/resharper-unity",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate",
+      "text": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]"
     }
   ],
   "candidate_related_terms": [],
@@ -130,11 +184,29 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "tinted-theming/base16-jetbrains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-code-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/resharper-unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-docs"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

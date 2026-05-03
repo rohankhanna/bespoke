@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "photorealistic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "barisgecer/TBGAN",
+      "status": "candidate-context",
+      "text": "Project Page of 'Synthesizing Coupled 3D Face Modalities by Trunk-Branch Generative Adversarial Networks'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barisgecer/TBGAN",
+      "status": "candidate-context",
+      "text": "(Requires to sign End User License Agreement)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barisgecer/TBGAN",
+      "status": "candidate",
+      "text": "(Requires to sign End User License Agreement)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015289,
+      "status": "candidate",
+      "text": "photorealist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015288,
+      "status": "candidate",
+      "text": "photoreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015287,
+      "status": "candidate",
+      "text": "hyperrealistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015286,
+      "status": "candidate",
+      "text": "neorealistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20015285,
+      "status": "candidate",
+      "text": "transrealistic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "photorealistic",
+  "concept_id": "photorealistic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "barisgecer/TBGAN"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "photorealistic",
+      "sense_id": "photorealistic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "target": "angular",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "target": "expressjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "target": "reactjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devsmitra/javascript-quick-functions",
+      "target": "vuejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:48:52.351625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18967
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Javascript codes you will always need  & Cheatsheets",
+    "fork": false,
+    "full_name": "devsmitra/javascript-quick-functions",
+    "html_url": "https://github.com/devsmitra/javascript-quick-functions",
+    "language": null,
+    "pushed_at": "2024-06-28T14:18:58Z",
+    "stargazers_count": 18,
+    "topics": [
+      "angular",
+      "expressjs",
+      "javascript",
+      "nodejs",
+      "reactjs",
+      "typescript",
+      "vuejs"
+    ],
+    "updated_at": "2025-05-08T04:38:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "angular"
+    },
+    {
+      "context_snippet": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expressjs"
+    },
+    {
+      "context_snippet": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactjs"
+    },
+    {
+      "context_snippet": "Most of you probably already know them, lodash/underscore was built to provide utility functions for common tasks in Javascript. But some you don\u2019t want to install a package for small use case. So I created this file to provide a quick access to the most used functions. I hope y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vuejs"
+    }
+  ]
+}

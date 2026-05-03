@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:57:33.298314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2972
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "fatPeter/mini-splatting",
+    "html_url": "https://github.com/fatPeter/mini-splatting",
+    "language": "Python",
+    "pushed_at": "2024-10-12T15:21:20Z",
+    "stargazers_count": 216,
+    "topics": [],
+    "updated_at": "2026-04-24T08:02:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

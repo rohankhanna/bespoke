@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SAPIEN Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish nightly pypi distributions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish nightly pypi distributions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18395,
+      "status": "candidate",
+      "text": "newspaper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10677,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10677,
+      "status": "candidate",
+      "text": "snore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10287,
+      "status": "candidate",
+      "text": "all-night"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10287,
+      "status": "candidate",
+      "text": "amateur"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish nightly pypi distributions",
+      "sense_id": "publish-nightly-pypi-distributions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-nightly-pypi-distributions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-nightly-pypi-distributions",
+  "observation_id": "9bc813f9c228f773",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Publish nightly pypi distributions",
+  "source_context_snippet": "Publish nightly pypi distributions",
+  "source_file": ".github/workflows/publish-nightly.yml",
+  "source_repo": "haosulab/ManiSkill",
+  "source_repo_description": "SAPIEN Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark"
+}

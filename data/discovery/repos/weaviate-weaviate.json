@@ -83,27 +83,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "weaviate/weaviate",
-      "target": "weaviate/verba",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "weaviate/weaviate",
-      "target": "weaviate/recipes",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "weaviate/weaviate",
-      "target": "weaviate/recipes-ts",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/cleanup.yaml",
       "source_repo": "weaviate/weaviate",
@@ -370,7 +349,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T19:39:46.347901+00:00",
+  "fetched_at": "2026-05-03T05:05:42.513071+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -423,7 +402,7 @@
     "html_url": "https://github.com/weaviate/weaviate",
     "language": "Go",
     "pushed_at": "2026-05-01T11:34:38Z",
-    "stargazers_count": 16119,
+    "stargazers_count": 16120,
     "topics": [
       "approximate-nearest-neighbor-search",
       "generative-search",
@@ -446,25 +425,9 @@
       "vectors",
       "weaviate"
     ],
-    "updated_at": "2026-05-02T11:19:04Z"
+    "updated_at": "2026-05-02T22:30:55Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "weaviate/recipes",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "weaviate/recipes-ts",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "weaviate/verba",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "cleanup caches by a branch",

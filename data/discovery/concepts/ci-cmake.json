@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "CI (CMake)"
+    "CI (CMake)",
+    "CI CMake"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "google/re2",
       "status": "candidate-context",
       "text": "CI (CMake)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blosc/c-blosc",
+      "status": "candidate-context",
+      "text": "A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/c-blosc",
+      "status": "candidate-context",
+      "text": "CI CMake"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "google/re2",
       "status": "candidate",
       "text": "CI (CMake)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/c-blosc",
+      "status": "candidate",
+      "text": "CI CMake"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/ci-cmake.yml",
       "source_repo": "google/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "Blosc/c-blosc"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

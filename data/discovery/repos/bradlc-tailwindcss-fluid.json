@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "babel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-transform-object-rest-spread",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "microbundle",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bradlc/tailwindcss-fluid",
+      "target": "babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bradlc/tailwindcss-fluid",
+      "target": "babel-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bradlc/tailwindcss-fluid",
+      "target": "babel-plugin-transform-object-rest-spread",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bradlc/tailwindcss-fluid",
+      "target": "microbundle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bradlc/tailwindcss-fluid",
+      "target": "tailwind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bradlc/tailwindcss-fluid",
+      "target": "tailwindcss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:58:41.539678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3053
+    },
+    {
+      "path": "package.json",
+      "size": 912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fluid utilities for Tailwind CSS",
+    "fork": false,
+    "full_name": "bradlc/tailwindcss-fluid",
+    "html_url": "https://github.com/bradlc/tailwindcss-fluid",
+    "language": "JavaScript",
+    "pushed_at": "2023-04-23T16:16:16Z",
+    "stargazers_count": 124,
+    "topics": [
+      "tailwind",
+      "tailwindcss"
+    ],
+    "updated_at": "2026-04-22T06:36:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> Fluid utilities for Tailwind CSS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tailwind"
+    },
+    {
+      "context_snippet": "> Fluid utilities for Tailwind CSS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tailwindcss"
+    }
+  ]
+}

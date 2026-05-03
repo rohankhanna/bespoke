@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "coveralls",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-template",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "regenerate",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "requirejs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "unicode-13.0.0",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "coveralls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "grunt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "grunt-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "grunt-template",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "regenerate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "requirejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "unicode-13.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "ascii-safe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "ecmascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "escape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "escape-sequences",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "stringify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathiasbynens/jsesc",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:51:15.385653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13991
+    },
+    {
+      "path": "package.json",
+      "size": 1359
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Given some data, jsesc returns the shortest possible stringified & ASCII-safe representation of that data.",
+    "fork": false,
+    "full_name": "mathiasbynens/jsesc",
+    "html_url": "https://github.com/mathiasbynens/jsesc",
+    "language": "JavaScript",
+    "pushed_at": "2024-12-11T08:25:58Z",
+    "stargazers_count": 794,
+    "topics": [
+      "ascii-safe",
+      "code-generation",
+      "ecmascript",
+      "escape",
+      "escape-sequences",
+      "javascript",
+      "json",
+      "stringify",
+      "unicode"
+    ],
+    "updated_at": "2026-04-08T12:41:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii-safe"
+    },
+    {
+      "context_snippet": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecmascript"
+    },
+    {
+      "context_snippet": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "escape"
+    },
+    {
+      "context_snippet": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "escape-sequences"
+    },
+    {
+      "context_snippet": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stringify"
+    },
+    {
+      "context_snippet": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    }
+  ]
+}

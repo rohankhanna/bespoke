@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "holman/spark",
+      "target": "holman/dotfiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "holman/spark",
+      "target": "mxcl/homebrew",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:55:28.593123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2785
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " \u2581\u2582\u2583\u2585\u2582\u2587 in your shell.",
+    "fork": false,
+    "full_name": "holman/spark",
+    "html_url": "https://github.com/holman/spark",
+    "language": "Shell",
+    "pushed_at": "2022-05-07T10:27:15Z",
+    "stargazers_count": 6062,
+    "topics": [],
+    "updated_at": "2026-05-02T13:40:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "holman/dotfiles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mxcl/homebrew",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

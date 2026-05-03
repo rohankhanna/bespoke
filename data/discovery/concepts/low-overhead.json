@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "low-overhead"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/sockstun",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable tun2socks for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/sockstun",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/heiher/sockstun/blob/main/README.md ) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](https://github.com/heiher/sockstun/blob/main/README_RU.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/sockstun",
+      "status": "candidate",
+      "text": "[English](https://github.com/heiher/sockstun/blob/main/README.md ) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](https://github.com/heiher/sockstun/blob/main/README_RU.md)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "low-overhead",
+  "concept_id": "low-overhead",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/sockstun"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "low-overhead",
+      "sense_id": "low-overhead#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

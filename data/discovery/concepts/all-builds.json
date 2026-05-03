@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "All builds"
+    "All builds",
+    "\ud83c\udf08 All Builds"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "stretchr/testify",
       "status": "candidate-context",
       "text": "All builds"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate-context",
+      "text": "GDExtension wrapper for SQLite (Godot 4.x+)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate-context",
+      "text": "\ud83c\udf08 All Builds"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "stretchr/testify",
       "status": "candidate",
       "text": "All builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate",
+      "text": "\ud83c\udf08 All Builds"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "stretchr/testify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2shady4u/godot-sqlite"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

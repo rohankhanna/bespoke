@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v5",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2957,6 +2957,151 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "mitmproxy/mitmproxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ory/polis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "just-the-docs/just-the-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "apache/datasketches-hive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "apache/datasketches-pig"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fluentassertions/fluentassertions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "source_repo": "JuliaPy/PythonCall.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaData/CategoricalArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/tensorstore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google/tensorstore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "oss-serverless/serverless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "oss-serverless/serverless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ory/hydra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mswin.yml",
+      "source_repo": "MSP-Greg/ruby-loco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ucrt.yml",
+      "source_repo": "MSP-Greg/ruby-loco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Devolutions/UniGetUI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-test.yml",
+      "source_repo": "Devolutions/UniGetUI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/RDatasets.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SciML/Static.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-build.yml",
+      "source_repo": "heroku/heroku-buildpack-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-sync.yml",
+      "source_repo": "heroku/heroku-buildpack-php"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-apk-release.yml",
+      "source_repo": "ViscousPot/GitSync"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gaoyifan/china-operator-ip"
     }
   ]
 }

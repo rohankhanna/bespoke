@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_avatars.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_avatars.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_avatars.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_avatars.yml",
+      "source_repo": "taichi-dev/public_files",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_avatars.yml",
+      "source_repo": "taichi-dev/public_files",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_avatars.yml",
+      "source_repo": "taichi-dev/public_files",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_avatars.yml",
+      "source_repo": "taichi-dev/public_files",
+      "target": "Update Avatars Gallery for Taichi Repos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:10.487585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 238
+    },
+    {
+      "path": ".github/workflows/update_avatars.yml",
+      "size": 1616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "taichi-dev/public_files",
+    "html_url": "https://github.com/taichi-dev/public_files",
+    "language": null,
+    "pushed_at": "2025-04-15T00:30:46Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-04-15T00:30:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update Avatars Gallery for Taichi Repos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_avatars.yml",
+      "term": "Update Avatars Gallery for Taichi Repos"
+    }
+  ]
+}

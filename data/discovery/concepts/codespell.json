@@ -494,6 +494,18 @@
       "source_repo": "MakieOrg/Makie.jl",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate-context",
+      "text": "A pure JavaScript implementation of git for node and browsers!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate-context",
+      "text": "Codespell"
     }
   ],
   "candidate_glosses": [
@@ -734,6 +746,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "MakieOrg/Makie.jl",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isomorphic-git/isomorphic-git",
       "status": "candidate",
       "text": "Codespell"
     }
@@ -1007,11 +1025,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/_codespell.yml",
       "source_repo": "MakieOrg/Makie.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "isomorphic-git/isomorphic-git"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/_codespell.yml",
+      "source_repo": "MakieOrg/Makie.jl"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

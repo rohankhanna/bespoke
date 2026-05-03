@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and push image to DockerHub"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "calcom/docker",
+      "status": "candidate-context",
+      "text": "The Docker configuration for Cal.com is an effort powered by people within the community. Cal.com, Inc. does not provide official support for Docker, but we will accept fixes and documentation. Use at your own risk."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/docker",
+      "status": "candidate-context",
+      "text": "Build and push image to DockerHub"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "calcom/docker",
+      "status": "candidate",
+      "text": "Build and push image to DockerHub"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18007,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17983,
+      "status": "candidate",
+      "text": "dream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17941,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17941,
+      "status": "candidate",
+      "text": "reconstruct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17941,
+      "status": "candidate",
+      "text": "reconstructed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and push image to DockerHub",
+  "concept_id": "build-and-push-image-to-dockerhub",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and push image to DockerHub",
+      "sense_id": "build-and-push-image-to-dockerhub#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

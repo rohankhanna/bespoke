@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Assign issue to DRI responsible"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "status": "candidate-context",
+      "text": "Assign issue to DRI responsible"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "status": "candidate",
+      "text": "Assign issue to DRI responsible"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33381,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27910,
+      "status": "candidate",
+      "text": "let"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27783,
+      "status": "candidate",
+      "text": "roll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27698,
+      "status": "candidate",
+      "text": "damp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17684,
+      "status": "candidate",
+      "text": "key"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Assign issue to DRI responsible",
+  "concept_id": "assign-issue-to-dri-responsible",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/assignIssueDRI.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Assign issue to DRI responsible",
+      "sense_id": "assign-issue-to-dri-responsible#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

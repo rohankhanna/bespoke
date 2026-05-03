@@ -43,6 +43,12 @@
       "source_repo": "cloudflare/miniflare",
       "status": "candidate-context",
       "text": "Semgrep config"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/cloudflare-workers-wasm-demo",
+      "status": "candidate-context",
+      "text": "Semgrep config"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +67,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cloudflare/miniflare",
+      "status": "candidate",
+      "text": "Semgrep config"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudflare/cloudflare-workers-wasm-demo",
       "status": "candidate",
       "text": "Semgrep config"
     }
@@ -117,11 +129,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/semgrep.yml",
       "source_repo": "cloudflare/miniflare"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "cloudflare/cloudflare-workers-wasm-demo"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

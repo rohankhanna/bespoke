@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/setup-java@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "shallwefootball/s3-upload-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "shallwefootball/s3-upload-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "danijar/minerl",
+      "target": "minerllabs/minerl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "danijar/minerl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "danijar/minerl",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "danijar/minerl",
+      "target": "actions/setup-java@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "danijar/minerl",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "danijar/minerl",
+      "target": "shallwefootball/s3-upload-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "danijar/minerl",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "danijar/minerl",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "danijar/minerl",
+      "target": "Build wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "danijar/minerl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "danijar/minerl",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:54:42.147209+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1113
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4380
+    },
+    {
+      "path": "requirements.txt",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/build_test.yml",
+      "size": 5079
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "options",
+    "description": null,
+    "fork": true,
+    "full_name": "danijar/minerl",
+    "html_url": "https://github.com/danijar/minerl",
+    "language": "Java",
+    "pushed_at": "2023-11-03T04:35:44Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-07-18T06:49:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minerllabs/minerl",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "term": "Build wheels"
+    }
+  ]
+}

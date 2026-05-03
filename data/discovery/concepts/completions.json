@@ -19,6 +19,18 @@
       "source_repo": "vladimir-kotikov/clink-completions",
       "status": "candidate-context",
       "text": "[![Build status](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml/badge.svg?branch=master)](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-helm/helm",
+      "status": "candidate-context",
+      "text": "Emacs incremental completion and selection narrowing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-helm/helm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "vladimir-kotikov/clink-completions",
       "status": "candidate",
       "text": "[![Build status](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml/badge.svg?branch=master)](https://github.com/vladimir-kotikov/clink-completions/actions/workflows/code-check.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-helm/helm",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "vladimir-kotikov/clink-completions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "emacs-helm/helm"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T01:49:21.971802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "hchiam/learning-firebase-hosting",
+    "html_url": "https://github.com/hchiam/learning-firebase-hosting",
+    "language": "HTML",
+    "pushed_at": "2024-11-04T03:36:02Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-11-04T03:37:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

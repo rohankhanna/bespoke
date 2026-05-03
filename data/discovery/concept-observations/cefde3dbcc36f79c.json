@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GDExtension wrapper for SQLite (Godot 4.x+)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gamedev",
+      "sense_id": "gamedev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gamedev",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gamedev",
+  "observation_id": "cefde3dbcc36f79c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "gamedev",
+  "source_context_snippet": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*",
+  "source_file": null,
+  "source_repo": "2shady4u/godot-sqlite",
+  "source_repo_description": "GDExtension wrapper for SQLite (Godot 4.x+)"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "package and release Zip"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate-context",
+      "text": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate-context",
+      "text": "package and release Zip"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate",
+      "text": "package and release Zip"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18481,
+      "status": "candidate",
+      "text": "dash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18481,
+      "status": "candidate",
+      "text": "unzip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18463,
+      "status": "candidate",
+      "text": "mail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18463,
+      "status": "candidate",
+      "text": "postage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18463,
+      "status": "candidate",
+      "text": "register"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "package and release Zip",
+  "concept_id": "package-and-release-zip",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/package-zip.yml",
+      "source_repo": "2dust/v2rayN"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package and release Zip",
+      "sense_id": "package-and-release-zip#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

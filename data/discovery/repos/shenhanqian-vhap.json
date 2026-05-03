@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/VHAP",
+      "target": "shenhanqian/nvdiffrast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/VHAP",
+      "target": "shenhanqian/star",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ShenhanQian/VHAP",
+      "target": "shenhanqian/nvdiffrast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ShenhanQian/VHAP",
+      "target": "shenhanqian/backgroundmattingv2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:07.176876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8454
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A complete head tracking pipeline from videos to NeRF/3DGS-ready datasets.",
+    "fork": false,
+    "full_name": "ShenhanQian/VHAP",
+    "html_url": "https://github.com/ShenhanQian/VHAP",
+    "language": "Python",
+    "pushed_at": "2025-07-19T13:52:46Z",
+    "stargazers_count": 363,
+    "topics": [],
+    "updated_at": "2026-04-30T07:21:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenhanqian/nvdiffrast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenhanqian/star",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenhanqian/backgroundmattingv2",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenhanqian/nvdiffrast",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georgeretsi/smirk",
+      "target": "3d-face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georgeretsi/smirk",
+      "target": "3d-face-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georgeretsi/smirk",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georgeretsi/smirk",
+      "target": "face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georgeretsi/smirk",
+      "target": "flame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georgeretsi/smirk",
+      "target": "morphable-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:44:01.703834+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Pytorch Implementation of SMIRK: 3D Facial Expressions through Analysis-by-Neural-Synthesis (CVPR 2024) ",
+    "fork": false,
+    "full_name": "georgeretsi/smirk",
+    "html_url": "https://github.com/georgeretsi/smirk",
+    "language": "Python",
+    "pushed_at": "2024-05-31T09:28:28Z",
+    "stargazers_count": 370,
+    "topics": [
+      "3d",
+      "3d-face-alignment",
+      "3d-face-reconstruction",
+      "3d-reconstruction",
+      "face",
+      "flame",
+      "morphable-model"
+    ],
+    "updated_at": "2026-04-26T20:11:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face-alignment"
+    },
+    {
+      "context_snippet": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face-reconstruction"
+    },
+    {
+      "context_snippet": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face"
+    },
+    {
+      "context_snippet": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame"
+    },
+    {
+      "context_snippet": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "morphable-model"
+    }
+  ]
+}

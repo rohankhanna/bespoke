@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:02:37.069886+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Pytorch implementation of the paper \"MotionCLIP: Exposing Human Motion Generation to CLIP Space\"",
+    "fork": false,
+    "full_name": "GuyTevet/MotionCLIP",
+    "html_url": "https://github.com/GuyTevet/MotionCLIP",
+    "language": "Python",
+    "pushed_at": "2023-12-18T15:17:15Z",
+    "stargazers_count": 497,
+    "topics": [],
+    "updated_at": "2026-05-01T19:42:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

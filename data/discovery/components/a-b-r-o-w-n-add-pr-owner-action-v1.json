@@ -1,0 +1,12 @@
+{
+  "component": "a-b-r-o-w-n/add-pr-owner-action@v1",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-pr-owner.yml",
+      "source_repo": "microsoft/BotFramework-Composer"
+    }
+  ]
+}

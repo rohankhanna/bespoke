@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Adobe-Japan1-7 Character Collection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[English](https://github.com/adobe-type-tools/Adobe-Japan1/) [\u65e5\u672c\u8a9e](README-JP.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[English](https://github.com/adobe-type-tools/Adobe-Japan1/) [\u65e5\u672c\u8a9e](README-JP.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028785,
+      "status": "candidate",
+      "text": "nipponese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030594,
+      "status": "candidate",
+      "text": "jap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030453,
+      "status": "candidate",
+      "text": "sino-japanese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029303,
+      "status": "candidate",
+      "text": "nippon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019159,
+      "status": "candidate",
+      "text": "japon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "japanese",
+      "sense_id": "japanese#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "nipponese"
+    }
+  ],
+  "concept_id": "japanese",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "japanese",
+  "observation_id": "9f12e1d6b3f1488a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "japanese",
+  "source_context_snippet": "[English](https://github.com/adobe-type-tools/Adobe-Japan1/) [\u65e5\u672c\u8a9e](README-JP.md)",
+  "source_file": null,
+  "source_repo": "adobe-type-tools/Adobe-Japan1",
+  "source_repo_description": "The Adobe-Japan1-7 Character Collection"
+}

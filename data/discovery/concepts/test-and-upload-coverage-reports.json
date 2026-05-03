@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test and Upload Coverage Reports"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "linode/karpenter-provider-linode",
+      "status": "candidate-context",
+      "text": "Linode Karpenter provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linode/karpenter-provider-linode",
+      "status": "candidate-context",
+      "text": "Test and Upload Coverage Reports"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "linode/karpenter-provider-linode",
+      "status": "candidate",
+      "text": "Test and Upload Coverage Reports"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33613,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33315,
+      "status": "candidate",
+      "text": "minutes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32244,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32144,
+      "status": "candidate",
+      "text": "rate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31924,
+      "status": "candidate",
+      "text": "call"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test and Upload Coverage Reports",
+  "concept_id": "test-and-upload-coverage-reports",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "linode/karpenter-provider-linode"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test and Upload Coverage Reports",
+      "sense_id": "test-and-upload-coverage-reports#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

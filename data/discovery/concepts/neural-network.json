@@ -799,6 +799,30 @@
       "source_repo": "neerajwagh/eeg-self-supervision",
       "status": "candidate-context",
       "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/monodepth2",
+      "status": "candidate-context",
+      "text": "[ICCV 2019] Monocular depth estimation from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/monodepth2",
+      "status": "candidate-context",
+      "text": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate-context",
+      "text": "INSTA - Instant Volumetric Head Avatars [CVPR2023]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
     }
   ],
   "candidate_glosses": [
@@ -1197,6 +1221,18 @@
       "source_repo": "neerajwagh/eeg-self-supervision",
       "status": "candidate",
       "text": "<!-- # eeg-self-supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/monodepth2",
+      "status": "candidate",
+      "text": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
     }
   ],
   "candidate_related_terms": [],
@@ -1714,11 +1750,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "neerajwagh/eeg-self-supervision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/monodepth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

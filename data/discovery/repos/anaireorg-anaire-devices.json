@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anaireorg/anaire-devices",
+      "target": "anaireorg/anaire-cloud",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:51.479947+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SW for anaire devices",
+    "fork": false,
+    "full_name": "anaireorg/anaire-devices",
+    "html_url": "https://github.com/anaireorg/anaire-devices",
+    "language": "Python",
+    "pushed_at": "2024-07-17T01:17:11Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2022-05-19T19:38:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anaireorg/anaire-cloud",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

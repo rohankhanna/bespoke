@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiaRenChang/RealtimeStereo",
+      "target": "psmnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiaRenChang/RealtimeStereo",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiaRenChang/RealtimeStereo",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiaRenChang/RealtimeStereo",
+      "target": "stereo-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JiaRenChang/RealtimeStereo",
+      "target": "stereo-vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:35.289642+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Attention-Aware Feature Aggregation for Real-time Stereo Matching on Edge Devices (ACCV, 2020)",
+    "fork": false,
+    "full_name": "JiaRenChang/RealtimeStereo",
+    "html_url": "https://github.com/JiaRenChang/RealtimeStereo",
+    "language": "Python",
+    "pushed_at": "2022-05-19T09:08:19Z",
+    "stargazers_count": 185,
+    "topics": [
+      "psmnet",
+      "pytorch",
+      "real-time",
+      "stereo-matching",
+      "stereo-vision"
+    ],
+    "updated_at": "2026-04-20T03:45:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Attention-Aware Feature Aggregation for Real-time Stereo Matching on Edge Devices](https://openaccess.thecvf.com/content/ACCV2020/papers/Chang_Attention-Aware_Feature_Aggregation_for_Real-time_Stereo_Matching_on_Edge_Devices_A\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psmnet"
+    },
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Attention-Aware Feature Aggregation for Real-time Stereo Matching on Edge Devices](https://openaccess.thecvf.com/content/ACCV2020/papers/Chang_Attention-Aware_Feature_Aggregation_for_Real-time_Stereo_Matching_on_Edge_Devices_A\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Attention-Aware Feature Aggregation for Real-time Stereo Matching on Edge Devices](https://openaccess.thecvf.com/content/ACCV2020/papers/Chang_Attention-Aware_Feature_Aggregation_for_Real-time_Stereo_Matching_on_Edge_Devices_A\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Attention-Aware Feature Aggregation for Real-time Stereo Matching on Edge Devices](https://openaccess.thecvf.com/content/ACCV2020/papers/Chang_Attention-Aware_Feature_Aggregation_for_Real-time_Stereo_Matching_on_Edge_Devices_A\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-matching"
+    },
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Attention-Aware Feature Aggregation for Real-time Stereo Matching on Edge Devices](https://openaccess.thecvf.com/content/ACCV2020/papers/Chang_Attention-Aware_Feature_Aggregation_for_Real-time_Stereo_Matching_on_Edge_Devices_A\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-vision"
+    }
+  ]
+}

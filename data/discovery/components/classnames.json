@@ -1,7 +1,7 @@
 {
   "component": "classnames",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -192,6 +192,16 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "boxyhq/saas-starter-kit"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ory/polis"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "feathericons/feather"
     }
   ]
 }

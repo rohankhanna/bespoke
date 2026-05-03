@@ -1,7 +1,7 @@
 {
   "component": "insightsengineering/disk-space-reclaimer@v1",
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

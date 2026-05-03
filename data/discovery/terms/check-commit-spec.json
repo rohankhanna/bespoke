@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "alibaba/formily"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "alibaba/designable"
+    }
+  ],
+  "term": "Check Commit spec"
+}

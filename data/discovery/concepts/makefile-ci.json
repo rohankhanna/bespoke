@@ -91,6 +91,18 @@
       "source_repo": "ParRes/Kernels",
       "status": "candidate-context",
       "text": "Makefile CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "archlinux/archlinux-repro",
+      "status": "candidate-context",
+      "text": "Tools to reproduce arch linux packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archlinux/archlinux-repro",
+      "status": "candidate-context",
+      "text": "Makefile CI"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +145,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ParRes/Kernels",
+      "status": "candidate",
+      "text": "Makefile CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "archlinux/archlinux-repro",
       "status": "candidate",
       "text": "Makefile CI"
     }
@@ -220,11 +238,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/makefile.yml",
       "source_repo": "ParRes/Kernels"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "archlinux/archlinux-repro"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

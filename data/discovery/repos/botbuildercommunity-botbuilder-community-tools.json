@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "target": "botbuildercommunity/botbuilder-community-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "target": "botbuildercommunity/botbuilder-community-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "target": "bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "target": "bot-framework-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BotBuilderCommunity/botbuilder-community-tools",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:46.951835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Part of the Bot Builder Community Project. Repository for tools relating to bot development using the Microsoft Bot Builder SDK.",
+    "fork": false,
+    "full_name": "BotBuilderCommunity/botbuilder-community-tools",
+    "html_url": "https://github.com/BotBuilderCommunity/botbuilder-community-tools",
+    "language": "PowerShell",
+    "pushed_at": "2023-03-05T18:05:14Z",
+    "stargazers_count": 36,
+    "topics": [
+      "bot-framework",
+      "bot-framework-tools",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-16T14:39:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "botbuildercommunity/botbuilder-community-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "botbuildercommunity/botbuilder-community-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository is part of the Bot Builder Community Project and contains Tools for use when building solutions with the Bot Builder SDKs. Other repos within the Bot Builder Community Project exist for extensions for [.NET](https://github.com/BotBuilderCommunity/botbuilder-commu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-framework"
+    },
+    {
+      "context_snippet": "This repository is part of the Bot Builder Community Project and contains Tools for use when building solutions with the Bot Builder SDKs. Other repos within the Bot Builder Community Project exist for extensions for [.NET](https://github.com/BotBuilderCommunity/botbuilder-commu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-framework-tools"
+    },
+    {
+      "context_snippet": "This repository is part of the Bot Builder Community Project and contains Tools for use when building solutions with the Bot Builder SDKs. Other repos within the Bot Builder Community Project exist for extensions for [.NET](https://github.com/BotBuilderCommunity/botbuilder-commu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

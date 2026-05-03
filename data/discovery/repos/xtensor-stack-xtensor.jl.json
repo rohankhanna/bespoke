@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xtensor-stack/Xtensor.jl",
+      "target": "juliainterop/cxxwrap.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "xtensor-stack/Xtensor.jl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "xtensor-stack/Xtensor.jl",
+      "target": "SimenB/github-actions-cpu-cores@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/Xtensor.jl",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/Xtensor.jl",
+      "target": "julia-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/Xtensor.jl",
+      "target": "numpy-arrays",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xtensor-stack/Xtensor.jl",
+      "target": "tensor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:22.647716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4928
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 787
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Julia package for xtensor-julia",
+    "fork": false,
+    "full_name": "xtensor-stack/Xtensor.jl",
+    "html_url": "https://github.com/xtensor-stack/Xtensor.jl",
+    "language": "Julia",
+    "pushed_at": "2022-07-02T11:52:34Z",
+    "stargazers_count": 43,
+    "topics": [
+      "c-plus-plus",
+      "julia-bindings",
+      "numpy-arrays",
+      "tensor"
+    ],
+    "updated_at": "2025-08-31T11:09:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliainterop/cxxwrap.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Documentation Status](http://readthedocs.org/projects/xtensor-julia/badge/?version=latest)](https://xtensor-julia.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![Documentation Status](http://readthedocs.org/projects/xtensor-julia/badge/?version=latest)](https://xtensor-julia.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-bindings"
+    },
+    {
+      "context_snippet": "[![Documentation Status](http://readthedocs.org/projects/xtensor-julia/badge/?version=latest)](https://xtensor-julia.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy-arrays"
+    },
+    {
+      "context_snippet": "[![Documentation Status](http://readthedocs.org/projects/xtensor-julia/badge/?version=latest)](https://xtensor-julia.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor"
+    }
+  ]
+}

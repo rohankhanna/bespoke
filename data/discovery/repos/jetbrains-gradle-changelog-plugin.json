@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeInspection.yml"
+    },
+    {
+      "component": "JetBrains/qodana-action@v2025.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeInspection.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "jetbrains/gradle-intellij-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "jetbrains/resharper-unity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "gradle/actions/setup-gradle@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "gradle/actions/setup-gradle@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeInspection.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeInspection.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "JetBrains/qodana-action@v2025.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-codeInspection.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "Reusable Code Inspection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "gradle/actions/wrapper-validation@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml",
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "Reusable Gradle Wrapper Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/gradle-changelog-plugin",
+      "target": "gradle-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:45:00.670338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28091
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 4799
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3165
+    },
+    {
+      "path": ".github/workflows/reusable-codeInspection.yml",
+      "size": 420
+    },
+    {
+      "path": ".github/workflows/reusable-gradleValidation.yml",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Plugin for parsing and managing the Changelog in a \"keep a changelog\" style.",
+    "fork": false,
+    "full_name": "JetBrains/gradle-changelog-plugin",
+    "html_url": "https://github.com/JetBrains/gradle-changelog-plugin",
+    "language": "Kotlin",
+    "pushed_at": "2026-03-04T13:23:10Z",
+    "stargazers_count": 295,
+    "topics": [
+      "changelog",
+      "gradle",
+      "gradle-plugin"
+    ],
+    "updated_at": "2026-04-01T11:53:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jetbrains/gradle-intellij-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jetbrains/resharper-unity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Reusable Code Inspection",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-codeInspection.yml",
+      "term": "Reusable Code Inspection"
+    },
+    {
+      "context_snippet": "Reusable Gradle Wrapper Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-gradleValidation.yml",
+      "term": "Reusable Gradle Wrapper Test"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "changelog"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-plugin"
+    }
+  ]
+}

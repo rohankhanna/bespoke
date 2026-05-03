@@ -1,0 +1,161 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/Unity_live_caption",
+      "target": "automatic-caption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/Unity_live_caption",
+      "target": "google-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/Unity_live_caption",
+      "target": "live-caption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/Unity_live_caption",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/Unity_live_caption",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/Unity_live_caption",
+      "target": "stream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/Unity_live_caption",
+      "target": "unity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/Unity_live_caption",
+      "target": "vtuber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/Unity_live_caption",
+      "target": "youtuber",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:36.437660+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5077
+    },
+    {
+      "path": "requirements.txt",
+      "size": 52
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Use Google Speech-to-Text API to do real-time live stream caption on Unity! Best when combined with your virtual character!",
+    "fork": false,
+    "full_name": "kwea123/Unity_live_caption",
+    "html_url": "https://github.com/kwea123/Unity_live_caption",
+    "language": "Python",
+    "pushed_at": "2022-04-21T06:58:42Z",
+    "stargazers_count": 36,
+    "topics": [
+      "automatic-caption",
+      "google-api",
+      "live-caption",
+      "python",
+      "speech-recognition",
+      "speech-to-text",
+      "stream",
+      "unity",
+      "vtuber",
+      "youtuber"
+    ],
+    "updated_at": "2026-01-08T15:42:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-caption"
+    },
+    {
+      "context_snippet": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-api"
+    },
+    {
+      "context_snippet": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "live-caption"
+    },
+    {
+      "context_snippet": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream"
+    },
+    {
+      "context_snippet": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    },
+    {
+      "context_snippet": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vtuber"
+    },
+    {
+      "context_snippet": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "youtuber"
+    }
+  ]
+}

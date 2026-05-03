@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-version-placeholders.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-version-placeholders.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-version-placeholders.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "Check Version Placeholders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "ruby/setup-ruby@a4effe49ee8ee5b8b5091268c473a4628afb5651",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "Shopify/shopify-cla-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "Contributor License Agreement (CLA)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "dependabot/fetch-metadata@25dd0e34f4fe68f24cc83900b1fe3fe149efef98",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot_automerge.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "Close stale PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "rubocop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shopify/rubocop-sorbet",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "Shopify/rubocop-sorbet"
+}

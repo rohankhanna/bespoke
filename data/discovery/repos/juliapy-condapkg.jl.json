@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagbot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "prefix-dev/setup-pixi@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "julia-actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "julia-actions/julia-downgrade-compat@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "cjdoris/preferencetools.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "juliapy/micromamba.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "juliabinarywrappers/pixi_jll.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compathelper.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "prefix-dev/setup-pixi@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "julia-actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "julia-actions/julia-downgrade-compat@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "mamba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "micromamba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPy/CondaPkg.jl",
+      "target": "package-management",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:58:05.743716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15993
+    },
+    {
+      "path": ".github/workflows/compathelper.yml",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/tagbot.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Add Conda dependencies to your Julia project",
+    "fork": false,
+    "full_name": "JuliaPy/CondaPkg.jl",
+    "html_url": "https://github.com/JuliaPy/CondaPkg.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-23T09:35:14Z",
+    "stargazers_count": 144,
+    "topics": [
+      "conda",
+      "julia",
+      "mamba",
+      "micromamba",
+      "package-management",
+      "python"
+    ],
+    "updated_at": "2026-04-30T03:16:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjdoris/preferencetools.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliabinarywrappers/pixi_jll.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliapy/micromamba.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compathelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagbot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/JuliaPy/CondaPkg.jl/raw/main/logo.png\" alt=\"CondaPkg.jl logo\" style=\"width: 100px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/JuliaPy/CondaPkg.jl/raw/main/logo.png\" alt=\"CondaPkg.jl logo\" style=\"width: 100px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/JuliaPy/CondaPkg.jl/raw/main/logo.png\" alt=\"CondaPkg.jl logo\" style=\"width: 100px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mamba"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/JuliaPy/CondaPkg.jl/raw/main/logo.png\" alt=\"CondaPkg.jl logo\" style=\"width: 100px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "micromamba"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/JuliaPy/CondaPkg.jl/raw/main/logo.png\" alt=\"CondaPkg.jl logo\" style=\"width: 100px;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-management"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "SimenB/github-actions-cpu-cores@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter-xeus/xeus",
+      "target": "jupyter-xeus/xeus-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter-xeus/xeus",
+      "target": "zeromq/cppzmq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xeus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xeus",
+      "target": "SimenB/github-actions-cpu-cores@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xeus",
+      "target": "mamba-org/setup-micromamba@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-xeus/xeus",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-xeus/xeus",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-xeus/xeus",
+      "target": "interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-xeus/xeus",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-xeus/xeus",
+      "target": "jupyter-kernels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:03.929886+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7458
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 4257
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of the Jupyter kernel protocol in C++",
+    "fork": false,
+    "full_name": "jupyter-xeus/xeus",
+    "html_url": "https://github.com/jupyter-xeus/xeus",
+    "language": "C++",
+    "pushed_at": "2026-04-16T08:08:08Z",
+    "stargazers_count": 960,
+    "topics": [
+      "c-plus-plus",
+      "interpreter",
+      "jupyter",
+      "jupyter-kernels"
+    ],
+    "updated_at": "2026-04-30T00:04:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jupyter-xeus/xeus-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zeromq/cppzmq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GithubActions](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml/badge.svg)](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![GithubActions](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml/badge.svg)](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpreter"
+    },
+    {
+      "context_snippet": "[![GithubActions](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml/badge.svg)](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "[![GithubActions](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml/badge.svg)](https://github.com/jupyter-xeus/xeus/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-kernels"
+    }
+  ]
+}

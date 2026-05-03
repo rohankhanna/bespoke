@@ -12,21 +12,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/israel-preparedness-index",
+      "target": "danielrosehill/mcp-projects-index",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/israel-projects-index",
+      "target": "danielrosehill/mcp-server-ideas",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Subindices",
-      "target": "danielrosehill/jewish-related-index",
+      "target": "danielrosehill/my-benchmarks",
       "target_type": "repository"
     },
     {
@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T13:49:06.883566+00:00",
+  "fetched_at": "2026-05-03T02:48:12.563501+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -76,17 +76,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/israel-preparedness-index",
+      "full_name": "danielrosehill/mcp-projects-index",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/israel-projects-index",
+      "full_name": "danielrosehill/mcp-server-ideas",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/jewish-related-index",
+      "full_name": "danielrosehill/my-benchmarks",
       "source_file": "README.md"
     }
   ],

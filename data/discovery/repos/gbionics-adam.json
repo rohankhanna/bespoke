@@ -1,0 +1,464 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-forge-tests.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-forge-tests.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-forge-tests.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-forge-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml"
+    },
+    {
+      "component": "readthedocs/actions/preview@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/read_the_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gbionics/adam",
+      "target": "ami-iit/adam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gbionics/adam",
+      "target": "robotology/icub-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "gbionics/adam",
+      "target": "ami-iit/adam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "gbionics/adam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "gbionics/adam",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "gbionics/adam",
+      "target": "Black action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-forge-tests.yml",
+      "source_repo": "gbionics/adam",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-forge-tests.yml",
+      "source_repo": "gbionics/adam",
+      "target": "mamba-org/setup-micromamba@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-forge-tests.yml",
+      "source_repo": "gbionics/adam",
+      "target": "Test adam with conda-forge dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml",
+      "source_repo": "gbionics/adam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml",
+      "source_repo": "gbionics/adam",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml",
+      "source_repo": "gbionics/adam",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml",
+      "source_repo": "gbionics/adam",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-ci.yml",
+      "source_repo": "gbionics/adam",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/read_the_docs.yml",
+      "source_repo": "gbionics/adam",
+      "target": "readthedocs/actions/preview@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/read_the_docs.yml",
+      "source_repo": "gbionics/adam",
+      "target": "Read the Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "gbionics/adam",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "gbionics/adam",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "gbionics/adam",
+      "target": "adam-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/adam",
+      "target": "adam-robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/adam",
+      "target": "automatic-differentiation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/adam",
+      "target": "casadi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/adam",
+      "target": "motion-planning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/adam",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/adam",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/adam",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/adam",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/adam",
+      "target": "rigid-body-dynamics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/adam",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/adam",
+      "target": "urdf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:01:52.237053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14411
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1702
+    },
+    {
+      "path": ".github/workflows/black.yml",
+      "size": 739
+    },
+    {
+      "path": ".github/workflows/conda-forge-tests.yml",
+      "size": 2239
+    },
+    {
+      "path": ".github/workflows/pypi-ci.yml",
+      "size": 2196
+    },
+    {
+      "path": ".github/workflows/read_the_docs.yml",
+      "size": 382
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 694
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "adam implements a collection of algorithms for calculating rigid-body dynamics in Jax, CasADi, PyTorch, and Numpy.",
+    "fork": false,
+    "full_name": "gbionics/adam",
+    "html_url": "https://github.com/gbionics/adam",
+    "language": "Python",
+    "pushed_at": "2026-04-30T14:18:47Z",
+    "stargazers_count": 217,
+    "topics": [
+      "adam-robotics",
+      "automatic-differentiation",
+      "casadi",
+      "jax",
+      "motion-planning",
+      "numpy",
+      "optimization",
+      "python",
+      "pytorch",
+      "reinforcement-learning",
+      "rigid-body-dynamics",
+      "robotics",
+      "urdf"
+    ],
+    "updated_at": "2026-04-29T07:55:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ami-iit/adam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology/icub-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ami-iit/adam",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Black action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "term": "Black action"
+    },
+    {
+      "context_snippet": "Test adam with conda-forge dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-forge-tests.yml",
+      "term": "Test adam with conda-forge dependencies"
+    },
+    {
+      "context_snippet": "Read the Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/read_the_docs.yml",
+      "term": "Read the Docs"
+    },
+    {
+      "context_snippet": "adam-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "adam-tests"
+    },
+    {
+      "context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adam-robotics"
+    },
+    {
+      "context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-differentiation"
+    },
+    {
+      "context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "casadi"
+    },
+    {
+      "context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-planning"
+    },
+    {
+      "context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rigid-body-dynamics"
+    },
+    {
+      "context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf"
+    }
+  ]
+}

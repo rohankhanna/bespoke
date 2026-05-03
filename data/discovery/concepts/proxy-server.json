@@ -19,6 +19,18 @@
       "source_repo": "MicahParks/jcp",
       "status": "candidate-context",
       "text": "This is a [JWK Set](https://www.rfc-editor.org/rfc/rfc7517) client proxy, JCP for short. It is used to validate JWTs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msasanmh/MsmhAgnosticServer",
+      "status": "candidate-context",
+      "text": "A DNS And Proxy Server in C# - Supports: UDP, TCP, DNS-Over-HTTPS (DoH), HTTP, HTTPS, SOCKS4, SOCKS4A, SOCKS5."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msasanmh/MsmhAgnosticServer",
+      "status": "candidate-context",
+      "text": "_I'm sharing this library for developers due to recieved requests."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "MicahParks/jcp",
       "status": "candidate",
       "text": "This is a [JWK Set](https://www.rfc-editor.org/rfc/rfc7517) client proxy, JCP for short. It is used to validate JWTs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msasanmh/MsmhAgnosticServer",
+      "status": "candidate",
+      "text": "_I'm sharing this library for developers due to recieved requests."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "MicahParks/jcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "msasanmh/MsmhAgnosticServer"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

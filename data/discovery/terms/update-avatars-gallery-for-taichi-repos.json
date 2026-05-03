@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/update_avatars.yml",
+      "source_repo": "taichi-dev/public_files"
+    }
+  ],
+  "term": "Update Avatars Gallery for Taichi Repos"
+}

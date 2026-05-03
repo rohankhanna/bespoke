@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "microsoft-congnitive-services"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "status": "candidate-context",
+      "text": "Welcome to the Bot Framework samples repository. Here you will find task-focused samples in C#, JavaScript/TypeScript, and Python to help you get started with the Bot Framework SDK!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "status": "candidate-context",
+      "text": "> We are in the process of archiving the Bot Framework SDK Samples repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotBuilder-Samples",
+      "status": "candidate",
+      "text": "> We are in the process of archiving the Bot Framework SDK Samples repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "microsoft-congnitive-services",
+  "concept_id": "microsoft-congnitive-services",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/BotBuilder-Samples"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "microsoft-congnitive-services",
+      "sense_id": "microsoft-congnitive-services#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

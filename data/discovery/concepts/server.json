@@ -393,6 +393,54 @@
       "source_repo": "http-party/http-server",
       "status": "candidate-context",
       "text": "[![GitHub Workflow Status (master)](https://img.shields.io/github/actions/workflow/status/http-party/http-server/node.js.yml?style=flat-square&branch=master)](https://github.com/http-party/http-server/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withastro/astro",
+      "status": "candidate-context",
+      "text": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/astro",
+      "status": "candidate-context",
+      "text": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "Internet-scale OpenID Certified\u2122 OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udda5 Server-side code for the nef editor app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 A simple pug server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/pugserver.svg?style=for-the-badge)](https://www.npmjs.com/package/pugserver)"
     }
   ],
   "candidate_glosses": [
@@ -587,6 +635,30 @@
       "source_repo": "http-party/http-server",
       "status": "candidate",
       "text": "[![GitHub Workflow Status (master)](https://img.shields.io/github/actions/workflow/status/http-party/http-server/node.js.yml?style=flat-square&branch=master)](https://github.com/http-party/http-server/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withastro/astro",
+      "status": "candidate",
+      "text": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/hydra",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/pugserver.svg?style=for-the-badge)](https://www.npmjs.com/package/pugserver)"
     }
   ],
   "candidate_related_terms": [
@@ -921,11 +993,47 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "withastro/astro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Billionmail/BillionMail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/hydra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ctrlaltdev/pug-server"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

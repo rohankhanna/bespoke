@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kimina-Prover RL pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Your Default Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Your Default Workflow"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25243,
+      "status": "candidate",
+      "text": "full-time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "subbing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25002,
+      "status": "candidate",
+      "text": "substituting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23480,
+      "status": "candidate",
+      "text": "hammer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23480,
+      "status": "candidate",
+      "text": "hammered"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Your Default Workflow",
+      "sense_id": "your-default-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "your-default-workflow",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "your-default-workflow",
+  "observation_id": "bd79650c3a2f6c3c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Your Default Workflow",
+  "source_context_snippet": "Your Default Workflow",
+  "source_file": ".github/workflows/README.md",
+  "source_repo": "project-numina/kimina-prover-rl",
+  "source_repo_description": "Kimina-Prover RL pipeline"
+}

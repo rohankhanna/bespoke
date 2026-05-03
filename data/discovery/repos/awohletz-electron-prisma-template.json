@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awohletz/electron-prisma-template",
+      "target": "rezach/secure-electron-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "awohletz/electron-prisma-template",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "awohletz/electron-prisma-template",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "awohletz/electron-prisma-template",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "awohletz/electron-prisma-template",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "awohletz/electron-prisma-template",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "awohletz/electron-prisma-template",
+      "target": "CodeQL",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:58:11.978438+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1892
+    },
+    {
+      "path": "package.json",
+      "size": 91
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Forked from secure-electron-template to add tRPC and Prisma",
+    "fork": true,
+    "full_name": "awohletz/electron-prisma-template",
+    "html_url": "https://github.com/awohletz/electron-prisma-template",
+    "language": "TypeScript",
+    "pushed_at": "2022-10-06T01:59:18Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2023-10-04T23:11:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rezach/secure-electron-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    }
+  ]
+}

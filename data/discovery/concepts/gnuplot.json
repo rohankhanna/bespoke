@@ -43,6 +43,18 @@
       "source_repo": "ruby-numo/numo-gnuplot",
       "status": "candidate-context",
       "text": "<div class=\"row\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "status": "candidate-context",
+      "text": "Julia interface to gnuplot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ruby-numo/numo-gnuplot",
       "status": "candidate",
       "text": "<div class=\"row\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gcalderone/Gnuplot.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/gcalderone/Gnuplot.jl/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "ruby-numo/numo-gnuplot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gcalderone/Gnuplot.jl"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

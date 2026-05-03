@@ -172,6 +172,18 @@
       "source_repo": "fsouza/prettierd",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitjson/typescript-starter",
+      "status": "candidate-context",
+      "text": "Quickly create and configure a new library or Node.js project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitjson/typescript-starter",
+      "status": "candidate-context",
+      "text": "<img height=\"0\" width=\"0\" alt=\"typescript-starter dark logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006840/4e2b0c6c-f3d2-11e6-8f32-11384ee0cc4b.png\"><img alt=\"typescript-starter logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006836/4c67a3b8-f3d2\u2026"
     }
   ],
   "candidate_glosses": [
@@ -258,6 +270,12 @@
       "source_repo": "fsouza/prettierd",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitjson/typescript-starter",
+      "status": "candidate",
+      "text": "<img height=\"0\" width=\"0\" alt=\"typescript-starter dark logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006840/4e2b0c6c-f3d2-11e6-8f32-11384ee0cc4b.png\"><img alt=\"typescript-starter logo\" src=\"https://cloud.githubusercontent.com/assets/904007/23006836/4c67a3b8-f3d2\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -385,11 +403,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "fsouza/prettierd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bitjson/typescript-starter"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

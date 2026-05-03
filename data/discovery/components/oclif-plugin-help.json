@@ -1,7 +1,7 @@
 {
   "component": "@oclif/plugin-help",
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -72,6 +72,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "forcedotcom/code-analyzer"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "offline-ai/cli"
     }
   ]
 }

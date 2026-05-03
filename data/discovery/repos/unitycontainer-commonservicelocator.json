@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unitycontainer/commonservicelocator",
+      "target": "microsoft-practices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unitycontainer/commonservicelocator",
+      "target": "service-locator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:53:32.125537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4034
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Microsoft.Practices.ServiceLocation",
+    "fork": false,
+    "full_name": "unitycontainer/commonservicelocator",
+    "html_url": "https://github.com/unitycontainer/commonservicelocator",
+    "language": "C#",
+    "pushed_at": "2023-02-22T01:39:44Z",
+    "stargazers_count": 155,
+    "topics": [
+      "microsoft-practices",
+      "service-locator"
+    ],
+    "updated_at": "2026-03-07T07:45:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/license-ms-pl.svg)](https://opensource.org/licenses/MS-PL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-practices"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/badge/license-ms-pl.svg)](https://opensource.org/licenses/MS-PL)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-locator"
+    }
+  ]
+}

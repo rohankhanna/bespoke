@@ -31,6 +31,18 @@
       "source_repo": "h2non/baloo",
       "status": "candidate-context",
       "text": "Expressive and versatile end-to-end HTTP API testing made easy in [Go](http://golang.org) (golang), built on top of [gentleman](https://github.com/h2non/gentleman) HTTP client toolkit."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate-context",
+      "text": "Test Anything Protocol tools for node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate-context",
+      "text": "Workspace for node-tap development."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "h2non/baloo",
       "status": "candidate",
       "text": "Expressive and versatile end-to-end HTTP API testing made easy in [Go](http://golang.org) (golang), built on top of [gentleman](https://github.com/h2non/gentleman) HTTP client toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate",
+      "text": "Workspace for node-tap development."
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "h2non/baloo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tapjs/tapjs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

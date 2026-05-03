@@ -67,6 +67,18 @@
       "source_repo": "lakekeeper/lakekeeper",
       "status": "candidate-context",
       "text": "[![Website](https://img.shields.io/badge/https-lakekeeper.io-blue?color=3d4db3&logo=firefox&style=for-the-badge&logoColor=white)](https://lakekeeper.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "status": "candidate-context",
+      "text": "Real-time analytics on Postgres tables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "status": "candidate-context",
+      "text": "<div align=center>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "lakekeeper/lakekeeper",
       "status": "candidate",
       "text": "[![Website](https://img.shields.io/badge/https-lakekeeper.io-blue?color=3d4db3&logo=firefox&style=for-the-badge&logoColor=white)](https://lakekeeper.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "status": "candidate",
+      "text": "<div align=center>"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "lakekeeper/lakekeeper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Mooncake-Labs/pg_mooncake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "databendlabs/databend"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

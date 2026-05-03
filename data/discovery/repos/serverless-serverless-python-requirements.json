@@ -176,20 +176,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "serverless/serverless-python-requirements",
-      "target": "dschep/lambda-decorators",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "serverless/serverless-python-requirements",
-      "target": "scaleway/serverless-scaleway-functions",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "serverless/serverless-python-requirements",
       "target": "unitedincome/serverless-python-requirements",
@@ -483,7 +469,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T12:44:15.255136+00:00",
+  "fetched_at": "2026-05-03T03:03:28.599253+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -530,16 +516,6 @@
     "updated_at": "2026-04-08T16:41:31Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dschep/lambda-decorators",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "scaleway/serverless-scaleway-functions",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "unitedincome/serverless-python-requirements",

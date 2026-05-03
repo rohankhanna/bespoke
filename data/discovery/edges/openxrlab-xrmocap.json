@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "openxrlab/xrprimer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "openxrlab/xrsfm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "openxrlab/xrmogen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "openxrlab/xrfeitoria",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-assignees.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-assignees.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "Add Assignees",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-inactive.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "actions-cool/issues-helper@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-inactive.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "Check Inactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-issues.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-issues.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "Check Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/find-issues.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/find-issues.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "Find Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-reply.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "actions-cool/issues-helper@v1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-reply.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "Issue Reply",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-statistics.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "actions-cool/issues-helper@v1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-statistics.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "Issue Month Statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-welcome.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "actions-cool/issues-helper@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-welcome.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "Issue Welcome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openxrlab/xrmocap",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openxrlab/xrmocap",
+      "target": "human-parametric-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openxrlab/xrmocap",
+      "target": "motion-capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openxrlab/xrmocap",
+      "target": "smpl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openxrlab/xrmocap",
+      "target": "smpl-x",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "openxrlab/xrmocap"
+}

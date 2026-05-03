@@ -1,21 +1,6 @@
 {
   "components": [
     {
-      "component": "@babel/cli",
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@babel/core",
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "@babel/preset-env",
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json"
-    },
-    {
       "component": "acorn",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -186,27 +171,6 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "emscripten-core/emscripten",
-      "target": "@babel/cli",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "emscripten-core/emscripten",
-      "target": "@babel/core",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "emscripten-core/emscripten",
-      "target": "@babel/preset-env",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "emscripten-core/emscripten",
       "target": "acorn",
       "target_type": "component"
     },
@@ -321,13 +285,6 @@
       "source_repo": "emscripten-core/emscripten",
       "target": "ws",
       "target_type": "component"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "pyproject.toml",
-      "source_repo": "emscripten-core/emscripten",
-      "target": "pycqa/flake8-bugbear",
-      "target_type": "repository"
     },
     {
       "edge_type": "workflow-uses",
@@ -484,7 +441,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:32:26.226808+00:00",
+  "fetched_at": "2026-05-03T01:48:48.594982+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -492,11 +449,11 @@
     },
     {
       "path": "package.json",
-      "size": 897
+      "size": 802
     },
     {
       "path": "pyproject.toml",
-      "size": 2651
+      "size": 3481
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -528,23 +485,17 @@
     "full_name": "emscripten-core/emscripten",
     "html_url": "https://github.com/emscripten-core/emscripten",
     "language": "C++",
-    "pushed_at": "2026-04-23T02:10:54Z",
-    "stargazers_count": 27331,
+    "pushed_at": "2026-05-02T09:32:51Z",
+    "stargazers_count": 27341,
     "topics": [
       "emscripten",
       "hacktoberfest",
       "wasm",
       "webassembly"
     ],
-    "updated_at": "2026-04-23T02:11:01Z"
+    "updated_at": "2026-05-02T17:51:04Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pycqa/flake8-bugbear",
-      "source_file": "pyproject.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Rebaseline Tests",

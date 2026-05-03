@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tsinghua-MARS-Lab/Occ3D",
+      "target": "tsinghua-mars-lab/cvt-occ",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tsinghua-MARS-Lab/Occ3D",
+      "target": "waymo-research/waymo-open-dataset",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:53.335676+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12211
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Tsinghua-MARS-Lab/Occ3D",
+    "html_url": "https://github.com/Tsinghua-MARS-Lab/Occ3D",
+    "language": "Python",
+    "pushed_at": "2024-07-29T12:18:16Z",
+    "stargazers_count": 555,
+    "topics": [],
+    "updated_at": "2026-04-27T09:25:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tsinghua-mars-lab/cvt-occ",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "waymo-research/waymo-open-dataset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

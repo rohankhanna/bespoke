@@ -1148,6 +1148,18 @@
       "source_repo": "databendlabs/databend",
       "status": "candidate-context",
       "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "varvet/pundit",
+      "status": "candidate-context",
+      "text": "Minimal authorization through OO design and pure Ruby classes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "varvet/pundit",
+      "status": "candidate-context",
+      "text": "Main"
     }
   ],
   "candidate_glosses": [
@@ -1724,6 +1736,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "databendlabs/databend",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "varvet/pundit",
       "status": "candidate",
       "text": "Main"
     }
@@ -2525,11 +2543,47 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "databendlabs/databend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "avocadowastaken/prettier-plugin-prisma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/OLMo-Eval-Legacy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "varvet/pundit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wamp-proto/wamp-xbr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "LuaLS/LLS-Addons-Action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "databendlabs/databend"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

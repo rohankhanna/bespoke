@@ -1,0 +1,242 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp-nitech/SPTK",
+      "target": "kylebgorman/swipe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp-nitech/SPTK",
+      "target": "google/reaper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp-nitech/SPTK",
+      "target": "libsndfile/libsamplerate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp-nitech/SPTK",
+      "target": "kubo/ya_getopt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "sp-nitech/SPTK",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "sp-nitech/SPTK",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "sp-nitech/SPTK",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/SPTK",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/SPTK",
+      "target": "cepstrum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/SPTK",
+      "target": "mfcc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/SPTK",
+      "target": "signal-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/SPTK",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/SPTK",
+      "target": "speech-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/SPTK",
+      "target": "sptk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/SPTK",
+      "target": "unix-command",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:46.215995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8365
+    },
+    {
+      "path": ".github/workflows/check-build.yml",
+      "size": 793
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A suite of speech signal processing tools",
+    "fork": false,
+    "full_name": "sp-nitech/SPTK",
+    "html_url": "https://github.com/sp-nitech/SPTK",
+    "language": "C++",
+    "pushed_at": "2026-04-20T08:35:07Z",
+    "stargazers_count": 245,
+    "topics": [
+      "audio-processing",
+      "cepstrum",
+      "cpp",
+      "dsp",
+      "lpc",
+      "lsp",
+      "mfcc",
+      "signal-processing",
+      "speech",
+      "speech-processing",
+      "sptk",
+      "unix-command"
+    ],
+    "updated_at": "2026-04-20T08:35:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/reaper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubo/ya_getopt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kylebgorman/swipe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libsndfile/libsamplerate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "The Speech Signal Processing Toolkit (SPTK) is a comprehensive suite of software tools for speech signal processing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "The Speech Signal Processing Toolkit (SPTK) is a comprehensive suite of software tools for speech signal processing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cepstrum"
+    },
+    {
+      "context_snippet": "The Speech Signal Processing Toolkit (SPTK) is a comprehensive suite of software tools for speech signal processing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mfcc"
+    },
+    {
+      "context_snippet": "The Speech Signal Processing Toolkit (SPTK) is a comprehensive suite of software tools for speech signal processing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signal-processing"
+    },
+    {
+      "context_snippet": "The Speech Signal Processing Toolkit (SPTK) is a comprehensive suite of software tools for speech signal processing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "The Speech Signal Processing Toolkit (SPTK) is a comprehensive suite of software tools for speech signal processing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-processing"
+    },
+    {
+      "context_snippet": "The Speech Signal Processing Toolkit (SPTK) is a comprehensive suite of software tools for speech signal processing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sptk"
+    },
+    {
+      "context_snippet": "The Speech Signal Processing Toolkit (SPTK) is a comprehensive suite of software tools for speech signal processing.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix-command"
+    }
+  ]
+}

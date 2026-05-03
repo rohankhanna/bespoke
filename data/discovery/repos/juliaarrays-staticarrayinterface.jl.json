@@ -1,0 +1,416 @@
+{
+  "components": [
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "julia-actions/julia-invalidations@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "julia-actions/julia-invalidations@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "sciml/static.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "IntegrationTest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/julia-invalidations@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "Invalidations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaArrays/StaticArrayInterface.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:46:40.177667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1971
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 635
+    },
+    {
+      "path": ".github/workflows/Documentation.yml",
+      "size": 849
+    },
+    {
+      "path": ".github/workflows/Downstream.yml",
+      "size": 2002
+    },
+    {
+      "path": ".github/workflows/Invalidations.yml",
+      "size": 1472
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1040
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Interface designs for enforcing static computations in array functions with Julia",
+    "fork": false,
+    "full_name": "JuliaArrays/StaticArrayInterface.jl",
+    "html_url": "https://github.com/JuliaArrays/StaticArrayInterface.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-29T11:46:26Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-04-29T11:46:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sciml/static.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "IntegrationTest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Downstream.yml",
+      "term": "IntegrationTest"
+    },
+    {
+      "context_snippet": "Invalidations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Invalidations.yml",
+      "term": "Invalidations"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "haoyizhu/realrobot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "mohitshridhar/rlbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "haosulab/maniskill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "epfl-vilab/multimae",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "Formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "observation-space",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "robot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "robot-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HaoyiZhu/PointCloudMatters",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:16.323210+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22917
+    },
+    {
+      "path": "requirements.txt",
+      "size": 604
+    },
+    {
+      "path": ".github/workflows/formatter.yaml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024 D&B] Point Cloud Matters: Rethinking the Impact of Different Observation Spaces on Robot Learning",
+    "fork": false,
+    "full_name": "HaoyiZhu/PointCloudMatters",
+    "html_url": "https://github.com/HaoyiZhu/PointCloudMatters",
+    "language": "Python",
+    "pushed_at": "2024-10-14T03:54:45Z",
+    "stargazers_count": 91,
+    "topics": [
+      "benchmark",
+      "observation-space",
+      "point-cloud",
+      "robot-learning",
+      "robot-manipulation",
+      "robotics"
+    ],
+    "updated_at": "2026-02-09T21:47:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "epfl-vilab/multimae",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haosulab/maniskill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haoyizhu/realrobot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mohitshridhar/rlbench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Formatter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatter.yaml",
+      "term": "Formatter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observation-space"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot-manipulation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

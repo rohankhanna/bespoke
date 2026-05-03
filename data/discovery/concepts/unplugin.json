@@ -43,6 +43,18 @@
       "source_repo": "unplugin/unplugin-auto-import",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-auto-import?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-auto-import)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unjs/unplugin",
+      "status": "candidate-context",
+      "text": "Unified plugin system for Vite, Rollup, Webpack, esbuild, Rolldown, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unplugin",
+      "status": "candidate-context",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "unplugin/unplugin-auto-import",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/unplugin-auto-import?color=a1b858&label=)](https://www.npmjs.com/package/unplugin-auto-import)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unjs/unplugin",
+      "status": "candidate",
+      "text": "[![npm version][npm-version-src]][npm-version-href]"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +118,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-auto-import"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unjs/unplugin"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

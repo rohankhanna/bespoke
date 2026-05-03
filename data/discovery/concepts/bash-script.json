@@ -67,6 +67,18 @@
       "source_repo": "drduh/pwd.sh",
       "status": "candidate-context",
       "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bpkg/bpkg",
+      "status": "candidate-context",
+      "text": "Lightweight bash package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpkg/bpkg",
+      "status": "candidate-context",
+      "text": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "drduh/pwd.sh",
       "status": "candidate",
       "text": "pwd.sh is a Bash shell script to manage text-based secrets, such as passwords."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bpkg/bpkg",
+      "status": "candidate",
+      "text": "_JavaScript has npm, Ruby has Gems, Python has pip and now Shell has bpkg!_"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "drduh/pwd.sh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bpkg/bpkg"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,54 @@
       "source_repo": "godotengine/godot-docs",
       "status": "candidate-context",
       "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate-context",
+      "text": "GDExtension wrapper for SQLite (Godot 4.x+)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate-context",
+      "text": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3ddelano/discord.gd",
+      "status": "candidate-context",
+      "text": "Discord Bot API wrapper for Godot. Make bots in GDScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3ddelano/discord.gd",
+      "status": "candidate-context",
+      "text": "Discord.gd"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4d49/scene-library",
+      "status": "candidate-context",
+      "text": "Tool for easy work with your scenes in Godot 4.4+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4d49/scene-library",
+      "status": "candidate-context",
+      "text": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3ddelano/discord_gd_examples",
+      "status": "candidate-context",
+      "text": "A Godot project containing various examples using the Discord.gd Plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3ddelano/discord_gd_examples",
+      "status": "candidate-context",
+      "text": "Discord.gd Examples"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "godotengine/godot-docs",
       "status": "candidate",
       "text": "This repository contains the source files of [Godot Engine](https://godotengine.org)'s documentation, in reStructuredText markup language (reST)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-sqlite",
+      "status": "candidate",
+      "text": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3ddelano/discord.gd",
+      "status": "candidate",
+      "text": "Discord.gd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4d49/scene-library",
+      "status": "candidate",
+      "text": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3ddelano/discord_gd_examples",
+      "status": "candidate",
+      "text": "Discord.gd Examples"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +136,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "godotengine/godot-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "2shady4u/godot-sqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "3ddelano/discord.gd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "4d49/scene-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "3ddelano/discord_gd_examples"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

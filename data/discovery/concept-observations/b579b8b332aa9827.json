@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "macOS system monitor in your menu bar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048610,
+      "status": "candidate",
+      "text": "meshwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048601,
+      "status": "candidate",
+      "text": "net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048015,
+      "status": "candidate",
+      "text": "mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920823,
+      "status": "candidate",
+      "text": "reticulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29866359,
+      "status": "candidate",
+      "text": "web"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "network",
+      "sense_id": "network#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14088,
+      "status": "candidate",
+      "text": "net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9053,
+      "status": "candidate",
+      "text": "mesh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2032,
+      "status": "candidate",
+      "text": "reticulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "meshwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7,
+      "status": "candidate",
+      "text": "communications network"
+    }
+  ],
+  "concept_id": "network",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "network",
+  "observation_id": "b579b8b332aa9827",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "network",
+  "source_context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+  "source_file": null,
+  "source_repo": "exelban/stats",
+  "source_repo_description": "macOS system monitor in your menu bar"
+}

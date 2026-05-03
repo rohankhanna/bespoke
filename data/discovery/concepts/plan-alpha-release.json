@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Plan Alpha Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-app-blueprint",
+      "status": "candidate-context",
+      "text": "Plan Alpha Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-app-blueprint",
+      "status": "candidate",
+      "text": "Plan Alpha Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26858,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18942,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18693,
+      "status": "candidate",
+      "text": "general"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18594,
+      "status": "candidate",
+      "text": "contrive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18594,
+      "status": "candidate",
+      "text": "contrived"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Plan Alpha Release",
+  "concept_id": "plan-alpha-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/plan-alpha-release.yml",
+      "source_repo": "ember-cli/ember-app-blueprint"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Plan Alpha Release",
+      "sense_id": "plan-alpha-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

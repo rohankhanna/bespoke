@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Format Code with Black"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "status": "candidate-context",
+      "text": "[EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - \u57fa\u4e8e AI \u5b8c\u6574\u4fdd\u7559\u6392\u7248\u7684 PDF \u6587\u6863\u5168\u6587\u53cc\u8bed\u7ffb\u8bd1\uff0c\u652f\u6301 Google/DeepL/Ollama/OpenAI \u7b49\u670d\u52a1\uff0c\u63d0\u4f9b CLI/GUI/MCP/Docker/Zotero"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "status": "candidate-context",
+      "text": "Format Code with Black"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "status": "candidate",
+      "text": "Format Code with Black"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27498,
+      "status": "candidate",
+      "text": "prc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19217,
+      "status": "candidate",
+      "text": "encode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19071,
+      "status": "candidate",
+      "text": "rock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19058,
+      "status": "candidate",
+      "text": "layout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18750,
+      "status": "candidate",
+      "text": "wav"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Format Code with Black",
+  "concept_id": "format-code-with-black",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/black.format.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Format Code with Black",
+      "sense_id": "format-code-with-black#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

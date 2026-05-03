@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EricGuo5513/HumanML3D",
+      "target": "ericguo5513/action-to-motion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/HumanML3D",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/HumanML3D",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/HumanML3D",
+      "target": "motion-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/HumanML3D",
+      "target": "text-annotation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:16.785580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HumanML3D: A large and diverse 3d human motion-language dataset.",
+    "fork": false,
+    "full_name": "EricGuo5513/HumanML3D",
+    "html_url": "https://github.com/EricGuo5513/HumanML3D",
+    "language": "Python",
+    "pushed_at": "2024-08-18T00:18:36Z",
+    "stargazers_count": 1460,
+    "topics": [
+      "dataset",
+      "deep-learning",
+      "motion-generation",
+      "text-annotation"
+    ],
+    "updated_at": "2026-05-01T21:46:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericguo5513/action-to-motion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-generation"
+    },
+    {
+      "context_snippet": "<!-- ![tesear_image](./HumanML3D/dataset_showcase.png) -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-annotation"
+    }
+  ]
+}

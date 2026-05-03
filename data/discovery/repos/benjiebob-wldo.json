@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "benjiebob/WLDO",
+      "target": "philferriere/cocoapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "benjiebob/WLDO",
+      "target": "philferriere/cocoapi",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:06.298244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5217
+    },
+    {
+      "path": "requirements.txt",
+      "size": 393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for paper ECCV 2020 paper: Who Left the Dogs Out? 3D Animal Reconstruction with Expectation Maximization in the Loop.",
+    "fork": false,
+    "full_name": "benjiebob/WLDO",
+    "html_url": "https://github.com/benjiebob/WLDO",
+    "language": "Python",
+    "pushed_at": "2024-11-02T19:36:43Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-02-16T00:45:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philferriere/cocoapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philferriere/cocoapi",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "designable"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/formily",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1\ud83d\ude80 \ud83e\udde9 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/formily",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/designable",
+      "status": "candidate-context",
+      "text": "\ud83e\udde9 Make everything designable \ud83e\udde9 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/designable",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/formily",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/designable",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998356,
+      "status": "candidate",
+      "text": "redesignable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998355,
+      "status": "candidate",
+      "text": "makable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998354,
+      "status": "candidate",
+      "text": "modellable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998353,
+      "status": "candidate",
+      "text": "figurable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998352,
+      "status": "candidate",
+      "text": "shapable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "designable",
+  "concept_id": "designable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/formily"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/designable"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "designable",
+      "sense_id": "designable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

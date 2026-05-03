@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnando/i18n-js",
+      "target": "fnando/i18n",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fnando/i18n-js",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fnando/i18n-js",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fnando/i18n-js",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml",
+      "source_repo": "fnando/i18n-js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml",
+      "source_repo": "fnando/i18n-js",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml",
+      "source_repo": "fnando/i18n-js",
+      "target": "actions/setup-node@v4.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby-tests.yml",
+      "source_repo": "fnando/i18n-js",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby-tests.yml",
+      "source_repo": "fnando/i18n-js",
+      "target": "ruby-tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:48:32.817346+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17869
+    },
+    {
+      "path": "package.json",
+      "size": 239
+    },
+    {
+      "path": ".github/workflows/ruby-tests.yml",
+      "size": 1706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "It's a small library to provide the I18n translations on the Javascript. It comes with Rails support.",
+    "fork": false,
+    "full_name": "fnando/i18n-js",
+    "html_url": "https://github.com/fnando/i18n-js",
+    "language": "Ruby",
+    "pushed_at": "2025-10-31T16:53:17Z",
+    "stargazers_count": 3795,
+    "topics": [],
+    "updated_at": "2026-04-07T10:48:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnando/i18n",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ruby-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby-tests.yml",
+      "term": "ruby-tests"
+    }
+  ]
+}

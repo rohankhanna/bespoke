@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-check.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-check.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-check.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "zonyitoo/rust-ini",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "zonyitoo/rust-ini",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "zonyitoo/rust-ini",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "zonyitoo/rust-ini",
+      "target": "Build & Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-check.yml",
+      "source_repo": "zonyitoo/rust-ini",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-check.yml",
+      "source_repo": "zonyitoo/rust-ini",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-check.yml",
+      "source_repo": "zonyitoo/rust-ini",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy-check.yml",
+      "source_repo": "zonyitoo/rust-ini",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy-check.yml",
+      "source_repo": "zonyitoo/rust-ini",
+      "target": "Clippy Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:48:37.406323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3026
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 842
+    },
+    {
+      "path": ".github/workflows/build-and-test.yml",
+      "size": 874
+    },
+    {
+      "path": ".github/workflows/clippy-check.yml",
+      "size": 993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "INI file parser in Rust",
+    "fork": false,
+    "full_name": "zonyitoo/rust-ini",
+    "html_url": "https://github.com/zonyitoo/rust-ini",
+    "language": "Rust",
+    "pushed_at": "2026-02-04T06:32:20Z",
+    "stargazers_count": 345,
+    "topics": [],
+    "updated_at": "2026-04-30T17:07:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build & Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "term": "Build & Test"
+    },
+    {
+      "context_snippet": "Clippy Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy-check.yml",
+      "term": "Clippy Check"
+    }
+  ]
+}

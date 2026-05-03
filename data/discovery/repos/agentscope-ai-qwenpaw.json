@@ -193,13 +193,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "agentscope-ai/QwenPaw",
-      "target": "agentscope-ai/reme",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/channel-tests.yml",
       "source_repo": "agentscope-ai/QwenPaw",
@@ -459,7 +452,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T12:35:30.363605+00:00",
+  "fetched_at": "2026-05-03T03:00:20.822939+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -512,7 +505,7 @@
     "html_url": "https://github.com/agentscope-ai/QwenPaw",
     "language": "Python",
     "pushed_at": "2026-04-30T10:03:45Z",
-    "stargazers_count": 16205,
+    "stargazers_count": 16228,
     "topics": [
       "agent",
       "agentscope",
@@ -521,15 +514,9 @@
       "llms",
       "skills"
     ],
-    "updated_at": "2026-05-02T12:14:20Z"
+    "updated_at": "2026-05-03T02:58:10Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "agentscope-ai/reme",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Channel Tests",

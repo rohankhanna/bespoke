@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HorizonRobotics/Sparse4D",
+      "target": "swc-17/sparsedrive",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:25.477851+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "HorizonRobotics/Sparse4D",
+    "html_url": "https://github.com/HorizonRobotics/Sparse4D",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-06-25T06:22:13Z",
+    "stargazers_count": 638,
+    "topics": [],
+    "updated_at": "2026-05-02T14:34:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swc-17/sparsedrive",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

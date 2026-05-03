@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cohaereo/egui_glfw_gl",
+      "target": "pistondevelopers/glfw-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cohaereo/egui_glfw_gl",
+      "target": "brendanzab/gl-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cohaereo/egui_glfw_gl",
+      "target": "arjunnair/egui_sdl2_gl",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "cohaereo/egui_glfw_gl"
+}

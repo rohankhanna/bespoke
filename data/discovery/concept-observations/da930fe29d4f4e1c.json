@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dialog creation and management for Microsoft Bot Framework Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Composer dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Composer dependencies"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23069,
+      "status": "candidate",
+      "text": "group"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23069,
+      "status": "candidate",
+      "text": "strophe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23048,
+      "status": "candidate",
+      "text": "bridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23048,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23037,
+      "status": "candidate",
+      "text": "field"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Composer dependencies",
+      "sense_id": "update-composer-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-composer-dependencies",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-composer-dependencies",
+  "observation_id": "da930fe29d4f4e1c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Update Composer dependencies",
+  "source_context_snippet": "Update Composer dependencies",
+  "source_file": ".github/workflows/dependency_updates.yml",
+  "source_repo": "microsoft/BotFramework-Composer",
+  "source_repo_description": "Dialog creation and management for Microsoft Bot Framework Applications"
+}

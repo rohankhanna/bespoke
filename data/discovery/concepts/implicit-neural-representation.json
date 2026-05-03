@@ -19,6 +19,18 @@
       "source_repo": "autonomousvision/sdfstudio",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sihyun-yu/digan",
+      "status": "candidate-context",
+      "text": "[ICLR'22] Generating Videos with Dynamics-aware Implicit Generative Adversarial Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sihyun-yu/digan",
+      "status": "candidate-context",
+      "text": "Official PyTorch implementation of **[\"Generating Videos with Dynamics-aware Implicit Generative Adversarial Networks\"](https://openreview.net/forum?id=Czsdv-S4-w9)** by"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "autonomousvision/sdfstudio",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sihyun-yu/digan",
+      "status": "candidate",
+      "text": "Official PyTorch implementation of **[\"Generating Videos with Dynamics-aware Implicit Generative Adversarial Networks\"](https://openreview.net/forum?id=Czsdv-S4-w9)** by"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "autonomousvision/sdfstudio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sihyun-yu/digan"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

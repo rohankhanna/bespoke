@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Main Extension Distribution Pipeline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mooncake-Labs/duckdb_mooncake",
+      "status": "candidate-context",
+      "text": "Read Iceberg tables written by moonlink in real time"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mooncake-Labs/duckdb_mooncake",
+      "status": "candidate-context",
+      "text": "Main Extension Distribution Pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mooncake-Labs/duckdb_mooncake",
+      "status": "candidate",
+      "text": "Main Extension Distribution Pipeline"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44573,
+      "status": "candidate",
+      "text": "ell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43773,
+      "status": "candidate",
+      "text": "axis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36849,
+      "status": "candidate",
+      "text": "gas main"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36529,
+      "status": "candidate",
+      "text": "aorta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30513,
+      "status": "candidate",
+      "text": "standpipe"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Main Extension Distribution Pipeline",
+  "concept_id": "main-extension-distribution-pipeline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/MainDistributionPipeline.yml",
+      "source_repo": "Mooncake-Labs/duckdb_mooncake"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Main Extension Distribution Pipeline",
+      "sense_id": "main-extension-distribution-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

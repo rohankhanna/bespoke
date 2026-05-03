@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update CloudFormation schemas"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "status": "candidate-context",
+      "text": "CloudFormation Linter IDE integration, autocompletion, and documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "status": "candidate-context",
+      "text": "Update CloudFormation schemas"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code",
+      "status": "candidate",
+      "text": "Update CloudFormation schemas"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14129,
+      "status": "candidate",
+      "text": "acquaint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14129,
+      "status": "candidate",
+      "text": "advised"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14129,
+      "status": "candidate",
+      "text": "agenda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14129,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14129,
+      "status": "candidate",
+      "text": "aware"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update CloudFormation schemas",
+  "concept_id": "update-cloudformation-schemas",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/template-schema-updater.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint-visual-studio-code"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update CloudFormation schemas",
+      "sense_id": "update-cloudformation-schemas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

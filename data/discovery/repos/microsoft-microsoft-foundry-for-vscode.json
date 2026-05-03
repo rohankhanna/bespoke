@@ -1,0 +1,341 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assignIssueDRI.yml"
+    },
+    {
+      "component": "actions/github-script@v6.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assignIssueDRI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_inactive_issues.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_inactive_issues.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_sample.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_sample.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_sample.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_sample.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_sample.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-agent-framework-samples.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-agent-framework-samples.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-agent-framework-samples.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-agent-framework-samples.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-dev-to-main.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-dev-to-main.yaml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assignIssueDRI.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assignIssueDRI.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/github-script@v6.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assignIssueDRI.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "Assign issue to DRI responsible",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_inactive_issues.yaml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_inactive_issues.yaml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_inactive_issues.yaml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_sample.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_sample.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_sample.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_sample.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_sample.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "Release Hosted Agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-agent-framework-samples.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-agent-framework-samples.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-agent-framework-samples.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-agent-framework-samples.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-agent-framework-samples.yml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "Sync Agent Framework Samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-dev-to-main.yaml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-dev-to-main.yaml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-dev-to-main.yaml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "Sync Dev to Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "target": "Sync Main to Dev",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:52:00.839447+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3083
+    },
+    {
+      "path": ".github/workflows/assignIssueDRI.yml",
+      "size": 2488
+    },
+    {
+      "path": ".github/workflows/close_inactive_issues.yaml",
+      "size": 5602
+    },
+    {
+      "path": ".github/workflows/dri.js",
+      "size": 493
+    },
+    {
+      "path": ".github/workflows/getPreviousMonth.js",
+      "size": 652
+    },
+    {
+      "path": ".github/workflows/getWeekNumber.js",
+      "size": 359
+    },
+    {
+      "path": ".github/workflows/release_sample.yml",
+      "size": 3157
+    },
+    {
+      "path": ".github/workflows/sync-agent-framework-samples.yml",
+      "size": 7581
+    },
+    {
+      "path": ".github/workflows/sync-dev-to-main.yaml",
+      "size": 3331
+    },
+    {
+      "path": ".github/workflows/sync-main-to-dev.yaml",
+      "size": 3326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "microsoft/microsoft-foundry-for-vscode",
+    "html_url": "https://github.com/microsoft/microsoft-foundry-for-vscode",
+    "language": null,
+    "pushed_at": "2026-05-03T03:12:25Z",
+    "stargazers_count": 82,
+    "topics": [],
+    "updated_at": "2026-04-29T23:16:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Assign issue to DRI responsible",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assignIssueDRI.yml",
+      "term": "Assign issue to DRI responsible"
+    },
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_inactive_issues.yaml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "Release Hosted Agents",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_sample.yml",
+      "term": "Release Hosted Agents"
+    },
+    {
+      "context_snippet": "Sync Agent Framework Samples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-agent-framework-samples.yml",
+      "term": "Sync Agent Framework Samples"
+    },
+    {
+      "context_snippet": "Sync Dev to Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-dev-to-main.yaml",
+      "term": "Sync Dev to Main"
+    },
+    {
+      "context_snippet": "Sync Main to Dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml",
+      "term": "Sync Main to Dev"
+    }
+  ]
+}

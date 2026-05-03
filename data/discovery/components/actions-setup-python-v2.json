@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2952,6 +2952,166 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "openxrlab/xrnerf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "midsdsy/LOD-Net"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "allenai/ir_datasets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AmenRa/ranx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "HaoyiZhu/PointCloudMatters"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "xingyizhou/CenterNet2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ofirpress/attention_with_linear_biases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "ofirpress/attention_with_linear_biases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-airtable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-airtable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yaml",
+      "source_repo": "exelban/stats"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "obsei/demo-workflow-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "marbl/verkko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "danijar/minerl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "danijar/minerl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bdd100k/bdd100k"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openxrlab/xrlocalization"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openxrlab/xrmocap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openxrlab/xrmogen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openxrlab/xrmogen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "openxrlab/xrprimer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/head_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "sympy/sympy-bot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "mozillazg/pinyin-data"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/grimoirelab-release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-module-release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaDocs/FranklinTemplates.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Themaister/Granite"
     }
   ]
 }

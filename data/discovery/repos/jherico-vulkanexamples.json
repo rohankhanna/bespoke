@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jherico/VulkanExamples",
+      "target": "g-truc/gli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jherico/VulkanExamples",
+      "target": "syoyo/tinyobjloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jherico/VulkanExamples",
+      "target": "example-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jherico/VulkanExamples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jherico/VulkanExamples",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jherico/VulkanExamples",
+      "target": "vulkan-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jherico/VulkanExamples",
+      "target": "vulkan-demos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:52:12.775646+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "cpp",
+    "description": "Examples and demos for the Vulkan C++ API",
+    "fork": true,
+    "full_name": "jherico/VulkanExamples",
+    "html_url": "https://github.com/jherico/VulkanExamples",
+    "language": "C++",
+    "pushed_at": "2024-10-18T21:00:29Z",
+    "stargazers_count": 357,
+    "topics": [
+      "cpp",
+      "example-code",
+      "examples",
+      "vulkan",
+      "vulkan-api",
+      "vulkan-demos"
+    ],
+    "updated_at": "2026-04-11T10:41:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "g-truc/gli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "syoyo/tinyobjloader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./documentation/images/vulkanlogoscene.png\" alt=\"Vulkan demo scene\" height=\"256px\"><img src=\"./documentation/images/c_0.jpg\" alt=\"C++\" height=\"256px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "example-code"
+    },
+    {
+      "context_snippet": "<img src=\"./documentation/images/vulkanlogoscene.png\" alt=\"Vulkan demo scene\" height=\"256px\"><img src=\"./documentation/images/c_0.jpg\" alt=\"C++\" height=\"256px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "<img src=\"./documentation/images/vulkanlogoscene.png\" alt=\"Vulkan demo scene\" height=\"256px\"><img src=\"./documentation/images/c_0.jpg\" alt=\"C++\" height=\"256px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "<img src=\"./documentation/images/vulkanlogoscene.png\" alt=\"Vulkan demo scene\" height=\"256px\"><img src=\"./documentation/images/c_0.jpg\" alt=\"C++\" height=\"256px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-api"
+    },
+    {
+      "context_snippet": "<img src=\"./documentation/images/vulkanlogoscene.png\" alt=\"Vulkan demo scene\" height=\"256px\"><img src=\"./documentation/images/c_0.jpg\" alt=\"C++\" height=\"256px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-demos"
+    }
+  ]
+}

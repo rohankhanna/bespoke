@@ -1,0 +1,362 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/stale@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "microsoft/botframework-components",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "microsoft/botframework-composer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "Code scanning - action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "actions/stale@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "azure-bot-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "conversation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "conversation-experiences",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "conversational-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "conversational-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "conversational-bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "conversational-interfaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "conversational-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "virtual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "virtual-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions",
+      "target": "virtualassistant",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:43.095305+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5459
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1569
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Welcome to the Bot Framework Solutions repository which is the home for a set of templates and solutions to help build advanced conversational experiences using Azure Bot Service and Bot Framework. Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences.",
+    "fork": false,
+    "full_name": "microsoft/botframework-solutions",
+    "html_url": "https://github.com/microsoft/botframework-solutions",
+    "language": "TypeScript",
+    "pushed_at": "2022-06-29T19:22:51Z",
+    "stargazers_count": 1059,
+    "topics": [
+      "assistant",
+      "azure-bot-service",
+      "bot",
+      "bot-framework",
+      "conversation",
+      "conversation-experiences",
+      "conversational-agents",
+      "conversational-ai",
+      "conversational-bots",
+      "conversational-interfaces",
+      "conversational-ui",
+      "microsoft",
+      "skills",
+      "va",
+      "virtual",
+      "virtual-assistant",
+      "virtualassistant"
+    ],
+    "updated_at": "2026-04-01T16:53:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botframework-components",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botframework-composer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Code scanning - action\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "Code scanning - action"
+    },
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assistant"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-bot-service"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-framework"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversation"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversation-experiences"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-agents"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-ai"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-bots"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-interfaces"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-ui"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-assistant"
+    },
+    {
+      "context_snippet": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualassistant"
+    }
+  ]
+}

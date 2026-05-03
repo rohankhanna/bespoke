@@ -1,0 +1,465 @@
+{
+  "components": [
+    {
+      "component": "compression",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "polka",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "redux",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shepherd.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sirv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svelte-highlight",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/plugin-syntax-dynamic-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/plugin-transform-runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-babel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-commonjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-replace",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-babel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup-plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sapper",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svelte-lazy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "compression",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "polka",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "redux",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "shepherd.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "sirv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "svelte-highlight",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "@babel/plugin-syntax-dynamic-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "@babel/plugin-transform-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "@babel/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "@rollup/plugin-babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "@rollup/plugin-replace",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "rollup-plugin-babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "rollup-plugin-svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "rollup-plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "sapper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "svelte-lazy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "hchiam/code-inspiration",
+      "target": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/code-inspiration",
+      "target": "cypress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/code-inspiration",
+      "target": "offline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/code-inspiration",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/code-inspiration",
+      "target": "redux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/code-inspiration",
+      "target": "sapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/code-inspiration",
+      "target": "selenium-webdriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/code-inspiration",
+      "target": "shepherd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/code-inspiration",
+      "target": "surge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/code-inspiration",
+      "target": "svelte",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:00.047100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2401
+    },
+    {
+      "path": "package.json",
+      "size": 1892
+    },
+    {
+      "path": ".github/workflows/dependabot_auto_merge.yml",
+      "size": 227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "https://code-inspiration.surge.sh Capture snippets of code inspiration. Works offline after your 1st visit. Built with Svelte (migrated from React).",
+    "fork": false,
+    "full_name": "hchiam/code-inspiration",
+    "html_url": "https://github.com/hchiam/code-inspiration",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-09T06:50:15Z",
+    "stargazers_count": 1,
+    "topics": [
+      "cypress",
+      "offline",
+      "react",
+      "redux",
+      "sapper",
+      "selenium-webdriver",
+      "shepherd",
+      "surge",
+      "svelte"
+    ],
+    "updated_at": "2024-11-20T16:44:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cypress"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "offline"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redux"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sapper"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "selenium-webdriver"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shepherd"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "surge"
+    },
+    {
+      "context_snippet": "![version](https://img.shields.io/github/release/hchiam/code-inspiration?style=for-the-badge) [![Build Status](https://img.shields.io/travis/hchiam/code-inspiration/master?style=for-the-badge)](https://travis-ci.org/hchiam/code-inspiration) [![License: MIT](https://img.shields.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svelte"
+    }
+  ]
+}

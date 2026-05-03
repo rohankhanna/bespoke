@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple, lightweight multi-task system (coroutines)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983714,
+      "status": "candidate",
+      "text": "xmooc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983713,
+      "status": "candidate",
+      "text": "mando"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983712,
+      "status": "candidate",
+      "text": "cmooc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983711,
+      "status": "candidate",
+      "text": "moddies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19983710,
+      "status": "candidate",
+      "text": "module"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "macos",
+      "sense_id": "macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "macos",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "macos",
+  "observation_id": "1161d627bc8b874d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "macos",
+  "source_context_snippet": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)",
+  "source_file": null,
+  "source_repo": "heiher/hev-task-system",
+  "source_repo_description": "A simple, lightweight multi-task system (coroutines)"
+}

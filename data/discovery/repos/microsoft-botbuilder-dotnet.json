@@ -1,0 +1,309 @@
+{
+  "components": [
+    {
+      "component": "joshgummersall/base64-encode@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-botbuilder-parity-issues.yml"
+    },
+    {
+      "component": "joshgummersall/base64-encode@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-botbuilder-parity-issues.yml"
+    },
+    {
+      "component": "joshgummersall/base64-encode@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-botbuilder-parity-issues.yml"
+    },
+    {
+      "component": "joshgummersall/base64-encode@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-botbuilder-parity-issues.yml"
+    },
+    {
+      "component": "joshgummersall/dispatch-workflow@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-botbuilder-parity-issues.yml"
+    },
+    {
+      "component": "joshgummersall/pr-style@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-style.yml"
+    },
+    {
+      "component": "actions/stale@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/state-issues.yml.disabled"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-labels.yml"
+    },
+    {
+      "component": "bahmutov/npm-install@v1.6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-labels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft/agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft/botbuilder-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft/botbuilder-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft/botbuilder-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-botbuilder-parity-issues.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "joshgummersall/base64-encode@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-botbuilder-parity-issues.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "joshgummersall/dispatch-workflow@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-style.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "joshgummersall/pr-style@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/state-issues.yml.disabled",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "actions/stale@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/state-issues.yml.disabled",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-labels.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-pr-labels.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "bahmutov/npm-install@v1.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-pr-labels.yml",
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "Verify Pull Request Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "dotnet-core2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft-bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-dotnet",
+      "target": "microsoft-cognitive-services",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:49.273026+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23850
+    },
+    {
+      "path": ".github/workflows/create-botbuilder-parity-issues.yml",
+      "size": 2379
+    },
+    {
+      "path": ".github/workflows/pr-style.yml",
+      "size": 348
+    },
+    {
+      "path": ".github/workflows/state-issues.yml.disabled",
+      "size": 470
+    },
+    {
+      "path": ".github/workflows/verify-pr-labels.yml",
+      "size": 608
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Welcome to the Bot Framework SDK for .NET repository, which is the home for the libraries and packages that enable developers to build sophisticated bot applications using .NET. ",
+    "fork": false,
+    "full_name": "microsoft/botbuilder-dotnet",
+    "html_url": "https://github.com/microsoft/botbuilder-dotnet",
+    "language": "C#",
+    "pushed_at": "2026-01-05T20:34:45Z",
+    "stargazers_count": 903,
+    "topics": [
+      "bot",
+      "bot-framework",
+      "bots",
+      "dotnet",
+      "dotnet-core",
+      "dotnet-core2",
+      "microsoft-bot-framework",
+      "microsoft-cognitive-services",
+      "sdk"
+    ],
+    "updated_at": "2026-03-19T21:23:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/agents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botbuilder-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botbuilder-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botbuilder-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/state-issues.yml.disabled",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "Verify Pull Request Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-pr-labels.yml",
+      "term": "Verify Pull Request Labels"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-framework"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bots"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core2"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-bot-framework"
+    },
+    {
+      "context_snippet": "> We are in the process of archiving the Bot Framework JS SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-cognitive-services"
+    }
+  ]
+}

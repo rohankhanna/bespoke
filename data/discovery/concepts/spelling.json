@@ -202,6 +202,18 @@
       "source_repo": "cobalt-org/liquid-rust",
       "status": "candidate-context",
       "text": "Spelling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Layered configuration system for Rust applications (with strong support for 12-factor applications). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate-context",
+      "text": "Spelling"
     }
   ],
   "candidate_glosses": [
@@ -298,6 +310,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cobalt-org/liquid-rust",
+      "status": "candidate",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/config-rs",
       "status": "candidate",
       "text": "Spelling"
     }
@@ -523,11 +541,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/spelling.yaml",
       "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/spelling.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "rust-cli/config-rs"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

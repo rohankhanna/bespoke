@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "naelstrof/slop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/rust-gpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Rust-GPU/rust-gpu"
     }
   ],
   "term": "Shaders"

@@ -1,7 +1,7 @@
 {
   "component": "DeLaGuardo/setup-clojure@10.1",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "Sasanidas/Rail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-demo.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-desktop-release.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ios-release.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-stage.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "weavejester/ring-refresh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "lambdaisland/kaocha"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "lambdaisland/kaocha"
     }
   ]
 }

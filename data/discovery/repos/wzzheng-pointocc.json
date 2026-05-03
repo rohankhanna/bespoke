@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wzzheng/PointOcc",
+      "target": "xinge008/cylinder3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wzzheng/PointOcc",
+      "target": "autonoumous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wzzheng/PointOcc",
+      "target": "occupancy-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wzzheng/PointOcc",
+      "target": "point-cloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:46.071124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient Point-based 3D Semantic Occupancy Prediction",
+    "fork": false,
+    "full_name": "wzzheng/PointOcc",
+    "html_url": "https://github.com/wzzheng/PointOcc",
+    "language": "Python",
+    "pushed_at": "2024-07-13T06:00:25Z",
+    "stargazers_count": 173,
+    "topics": [
+      "autonoumous-driving",
+      "occupancy-prediction",
+      "point-cloud"
+    ],
+    "updated_at": "2026-04-07T00:55:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinge008/cylinder3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> PointOcc: Cylindrical Tri-Perspective View for Point-based 3D Semantic Occupancy Prediction",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonoumous-driving"
+    },
+    {
+      "context_snippet": "> PointOcc: Cylindrical Tri-Perspective View for Point-based 3D Semantic Occupancy Prediction",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "occupancy-prediction"
+    },
+    {
+      "context_snippet": "> PointOcc: Cylindrical Tri-Perspective View for Point-based 3D Semantic Occupancy Prediction",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    }
+  ]
+}

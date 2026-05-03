@@ -1,0 +1,320 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-chart.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-chart.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "Docker Publish CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "Test Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-chart.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-chart.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-chart.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "Test Chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "E2E Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:51:02.491842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5996
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1256
+    },
+    {
+      "path": "go.mod",
+      "size": 4449
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 535
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 399
+    },
+    {
+      "path": ".github/workflows/test-build.yml",
+      "size": 435
+    },
+    {
+      "path": ".github/workflows/test-chart.yml",
+      "size": 1963
+    },
+    {
+      "path": ".github/workflows/test-e2e.yml",
+      "size": 668
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kubernetes Operator for Lakekeeper",
+    "fork": false,
+    "full_name": "lakekeeper/lakekeeper-operator",
+    "html_url": "https://github.com/lakekeeper/lakekeeper-operator",
+    "language": "Go",
+    "pushed_at": "2026-04-30T11:30:58Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-30T11:31:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docker Publish CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Docker Publish CI"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Test Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-build.yml",
+      "term": "Test Build"
+    },
+    {
+      "context_snippet": "Test Chart",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-chart.yml",
+      "term": "Test Chart"
+    },
+    {
+      "context_snippet": "E2E Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "term": "E2E Tests"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    }
+  ]
+}

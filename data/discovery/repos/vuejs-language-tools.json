@@ -186,28 +186,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vuejs/language-tools",
-      "target": "sublimelsp/lsp-volar",
+      "target": "yaegassy/coc-volar",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vuejs/language-tools",
-      "target": "kabiaa/atom-ide-volar",
+      "target": "tommasongr/nova-vue",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vuejs/language-tools",
-      "target": "jadestrong/lsp-volar",
+      "target": "xiaoxin-sky/lapce-vue",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vuejs/language-tools",
-      "target": "kingwl/monaco-volar",
+      "target": "volarjs/workspace.",
       "target_type": "repository"
     },
     {
@@ -456,7 +456,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:29:28.299980+00:00",
+  "fetched_at": "2026-05-03T03:59:20.307019+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -501,29 +501,29 @@
     "html_url": "https://github.com/vuejs/language-tools",
     "language": "TypeScript",
     "pushed_at": "2026-04-29T05:35:30Z",
-    "stargazers_count": 6653,
+    "stargazers_count": 6655,
     "topics": [],
-    "updated_at": "2026-05-01T13:19:04Z"
+    "updated_at": "2026-05-03T02:40:05Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "jadestrong/lsp-volar",
+      "full_name": "tommasongr/nova-vue",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kabiaa/atom-ide-volar",
+      "full_name": "volarjs/workspace.",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kingwl/monaco-volar",
+      "full_name": "xiaoxin-sky/lapce-vue",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sublimelsp/lsp-volar",
+      "full_name": "yaegassy/coc-volar",
       "source_file": "README.md"
     }
   ],

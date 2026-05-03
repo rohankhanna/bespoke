@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Project Page of 'Synthesizing Coupled 3D Face Modalities by Trunk-Branch Generative Adversarial Networks'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "(Requires to sign End User License Agreement)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "(Requires to sign End User License Agreement)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021554,
+      "status": "candidate",
+      "text": "synthetical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003048,
+      "status": "candidate",
+      "text": "combining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000692,
+      "status": "candidate",
+      "text": "celluloid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997535,
+      "status": "candidate",
+      "text": "polysynthetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995328,
+      "status": "candidate",
+      "text": "imitative"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "synthetic",
+      "sense_id": "synthetic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22048,
+      "status": "candidate",
+      "text": "counterfeit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17036,
+      "status": "candidate",
+      "text": "unreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16043,
+      "status": "candidate",
+      "text": "artificial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9029,
+      "status": "candidate",
+      "text": "imitative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8031,
+      "status": "candidate",
+      "text": "inflected"
+    }
+  ],
+  "concept_id": "synthetic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "synthetic",
+  "observation_id": "9caf9a6d4729f21a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "synthetic",
+  "source_context_snippet": "(Requires to sign End User License Agreement)",
+  "source_file": null,
+  "source_repo": "barisgecer/TBGAN",
+  "source_repo_description": "Project Page of 'Synthesizing Coupled 3D Face Modalities by Trunk-Branch Generative Adversarial Networks'"
+}

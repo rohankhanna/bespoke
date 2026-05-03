@@ -151,6 +151,30 @@
       "source_repo": "mmorise/World",
       "status": "candidate-context",
       "text": "WORLD is free software for high-quality speech analysis, manipulation and synthesis."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fuziki/WorldInApple",
+      "status": "candidate-context",
+      "text": "Swift wrapper for vocoder World(https://github.com/mmorise/World)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuziki/WorldInApple",
+      "status": "candidate-context",
+      "text": "![Platform](https://img.shields.io/badge/platform-%20iOS%20-lightgrey.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate-context",
+      "text": "World.JS is a JavaScript Wrapper for World Vocoder Powered by Emscripten"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"300\" src=\".github/ScreenShots/logo.v3.png\" alt=\"World.JS logo\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "mmorise/World",
       "status": "candidate",
       "text": "WORLD is free software for high-quality speech analysis, manipulation and synthesis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuziki/WorldInApple",
+      "status": "candidate",
+      "text": "![Platform](https://img.shields.io/badge/platform-%20iOS%20-lightgrey.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"300\" src=\".github/ScreenShots/logo.v3.png\" alt=\"World.JS logo\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -346,11 +382,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "mmorise/World"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fuziki/WorldInApple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "YuzukiTsuru/World.JS"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

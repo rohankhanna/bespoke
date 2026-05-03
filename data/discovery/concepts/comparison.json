@@ -55,6 +55,18 @@
       "source_repo": "Masterminds/semver",
       "status": "candidate-context",
       "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmenRa/ranx",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0fA Blazing-Fast Python Library for Ranking Evaluation, Comparison, and Fusion \ud83d\udc0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmenRa/ranx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Masterminds/semver",
       "status": "candidate",
       "text": "The `semver` package provides the ability to work with [Semantic Versions](http://semver.org) in Go. Specifically it provides the ability to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmenRa/ranx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -177,11 +195,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Masterminds/semver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "AmenRa/ranx"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

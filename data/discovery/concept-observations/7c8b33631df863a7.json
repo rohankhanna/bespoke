@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974961,
+      "status": "candidate",
+      "text": "unchanging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974865,
+      "status": "candidate",
+      "text": "unchangeable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968728,
+      "status": "candidate",
+      "text": "nonmoving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968703,
+      "status": "candidate",
+      "text": "still"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968365,
+      "status": "candidate",
+      "text": "unmoving"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "static",
+      "sense_id": "static#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16024,
+      "status": "candidate",
+      "text": "adynamic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14018,
+      "status": "candidate",
+      "text": "unmoving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13052,
+      "status": "candidate",
+      "text": "stable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10036,
+      "status": "candidate",
+      "text": "inactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9022,
+      "status": "candidate",
+      "text": "unchanging"
+    }
+  ],
+  "concept_id": "static",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "static",
+  "observation_id": "7c8b33631df863a7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "static",
+  "source_context_snippet": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')",
+  "source_file": null,
+  "source_repo": "withastro/astro",
+  "source_repo_description": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+}

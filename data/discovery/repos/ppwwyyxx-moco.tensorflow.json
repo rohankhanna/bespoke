@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ppwwyyxx/moco.tensorflow",
+      "target": "tensorpack/zmq_ops",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:44.254860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A TensorFlow re-implementation of Momentum Contrast (MoCo): https://arxiv.org/abs/1911.05722",
+    "fork": false,
+    "full_name": "ppwwyyxx/moco.tensorflow",
+    "html_url": "https://github.com/ppwwyyxx/moco.tensorflow",
+    "language": "Python",
+    "pushed_at": "2023-10-07T20:03:15Z",
+    "stargazers_count": 159,
+    "topics": [],
+    "updated_at": "2025-07-06T21:37:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorpack/zmq_ops",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

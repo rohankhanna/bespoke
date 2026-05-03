@@ -43,6 +43,30 @@
       "source_repo": "queryverse/ElectronDisplay.jl",
       "status": "candidate-context",
       "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/CSVFiles.jl",
+      "status": "candidate-context",
+      "text": "FileIO.jl integration for CSV files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/CSVFiles.jl",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "queryverse/Query.jl",
+      "status": "candidate-context",
+      "text": "Query almost anything in julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/Query.jl",
+      "status": "candidate-context",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "queryverse/ElectronDisplay.jl",
+      "status": "candidate",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/CSVFiles.jl",
+      "status": "candidate",
+      "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "queryverse/Query.jl",
       "status": "candidate",
       "text": "[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)"
     }
@@ -88,11 +124,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "queryverse/ElectronDisplay.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "queryverse/CSVFiles.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "queryverse/Query.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

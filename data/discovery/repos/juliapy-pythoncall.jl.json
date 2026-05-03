@@ -1,0 +1,454 @@
+{
+  "components": [
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml"
+    },
+    {
+      "component": "MilesCranmer/AirspeedVelocity.jl@action-v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docscleanup.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/register-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/register-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/register-pypi.yml"
+    },
+    {
+      "component": "julia-actions/RegisterAction@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/register.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagbot.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagbot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "fonsp/pluto.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "juliastats/rdatasets.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "juliapy/condapkg.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_pr.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "MilesCranmer/AirspeedVelocity.jl@action-v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_pr.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "Benchmark PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docscleanup.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docscleanup.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "Documentation Preview Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/register-pypi.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/register-pypi.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/register-pypi.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/register-pypi.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "Register to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/register.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "julia-actions/RegisterAction@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/register.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "Register Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagbot.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "Tests (nightly)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "interoperability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "target": "julia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:56:26.977081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4150
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 660
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 1381
+    },
+    {
+      "path": ".github/workflows/benchmark_pr.yml",
+      "size": 419
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 887
+    },
+    {
+      "path": ".github/workflows/docscleanup.yml",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/register-pypi.yml",
+      "size": 802
+    },
+    {
+      "path": ".github/workflows/register.yml",
+      "size": 325
+    },
+    {
+      "path": ".github/workflows/tagbot.yml",
+      "size": 828
+    },
+    {
+      "path": ".github/workflows/tests-nightly.yml",
+      "size": 1381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python and Julia in harmony.",
+    "fork": false,
+    "full_name": "JuliaPy/PythonCall.jl",
+    "html_url": "https://github.com/JuliaPy/PythonCall.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-23T02:23:40Z",
+    "stargazers_count": 1049,
+    "topics": [
+      "ffi",
+      "interoperability",
+      "julia",
+      "python"
+    ],
+    "updated_at": "2026-05-02T17:39:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fonsp/pluto.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliapy/condapkg.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliastats/rdatasets.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "Benchmark PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_pr.yml",
+      "term": "Benchmark PR"
+    },
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Documentation Preview Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docscleanup.yml",
+      "term": "Documentation Preview Cleanup"
+    },
+    {
+      "context_snippet": "Register to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/register-pypi.yml",
+      "term": "Register to PyPI"
+    },
+    {
+      "context_snippet": "Register Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/register.yml",
+      "term": "Register Package"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagbot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Tests (nightly)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-nightly.yml",
+      "term": "Tests (nightly)"
+    },
+    {
+      "context_snippet": "<h1><img src=\"docs/src/assets/logo.png\" alt=\"PythonCall.jl logo\" style=\"width: 100px;\"><br>PythonCall &amp;&nbsp;JuliaCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interoperability"
+    },
+    {
+      "context_snippet": "<h1><img src=\"docs/src/assets/logo.png\" alt=\"PythonCall.jl logo\" style=\"width: 100px;\"><br>PythonCall &amp;&nbsp;JuliaCall</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    }
+  ]
+}

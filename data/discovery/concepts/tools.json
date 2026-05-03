@@ -355,6 +355,30 @@
       "source_repo": "f4pga/prjxray-db",
       "status": "candidate-context",
       "text": "[TOC]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions-cool/labels-helper",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automatically create and delete labels in batches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-cool/labels-helper",
+      "status": "candidate-context",
+      "text": "\u81ea\u52a8\u6279\u91cf\u65b0\u589e\u3001\u5220\u9664\u6807\u7b7e\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate-context",
+      "text": "An audio-visual library supports processing audio and video files, a graphics library can load a variety 3D mesh file formats into a generic in-memory representation, and the core library of Gazebo Common contains functionality that spans Base64 encoding/decoding to thread pools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate-context",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +555,18 @@
       "source_repo": "f4pga/prjxray-db",
       "status": "candidate",
       "text": "[TOC]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions-cool/labels-helper",
+      "status": "candidate",
+      "text": "\u81ea\u52a8\u6279\u91cf\u65b0\u589e\u3001\u5220\u9664\u6807\u7b7e\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-common",
+      "status": "candidate",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
     }
   ],
   "candidate_related_terms": [
@@ -874,11 +910,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "phodal/coca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/labelImg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "actions-cool/labels-helper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-common"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

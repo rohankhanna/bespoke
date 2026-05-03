@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:47:51.925544+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SW for anaire devices",
+    "fork": true,
+    "full_name": "danielbernalb/AireCiudadano",
+    "html_url": "https://github.com/danielbernalb/AireCiudadano",
+    "language": "C",
+    "pushed_at": "2026-04-29T01:56:02Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-12-02T13:43:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

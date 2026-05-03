@@ -256,6 +256,18 @@
       "source_repo": "LunarG/gfxreconstruct",
       "status": "candidate-context",
       "text": "CI Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "status": "candidate-context",
+      "text": "Open-Source Vulkan C++ API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "status": "candidate-context",
+      "text": "CI Build"
     }
   ],
   "candidate_glosses": [
@@ -388,6 +400,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "LunarG/gfxreconstruct",
+      "status": "candidate",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Hpp",
       "status": "candidate",
       "text": "CI Build"
     }
@@ -739,11 +757,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "amazon-ion/ion-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "KhronosGroup/Vulkan-Hpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amazon-ion/ion-cli"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

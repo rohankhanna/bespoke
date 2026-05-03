@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "vitepress",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CanCanCommunity/cancancan",
+      "target": "thoughtbot/appraisal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "CanCanCommunity/cancancan",
+      "target": "vitepress",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "CanCanCommunity/cancancan",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "CanCanCommunity/cancancan",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "CanCanCommunity/cancancan",
+      "target": "Test & lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanCanCommunity/cancancan",
+      "target": "authorization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanCanCommunity/cancancan",
+      "target": "cancancan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CanCanCommunity/cancancan",
+      "target": "rails",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:41:54.737740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5954
+    },
+    {
+      "path": "package.json",
+      "size": 199
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "The authorization Gem for Ruby on Rails.",
+    "fork": false,
+    "full_name": "CanCanCommunity/cancancan",
+    "html_url": "https://github.com/CanCanCommunity/cancancan",
+    "language": "Ruby",
+    "pushed_at": "2025-01-27T07:26:12Z",
+    "stargazers_count": 5672,
+    "topics": [
+      "authorization",
+      "cancancan",
+      "rails"
+    ],
+    "updated_at": "2026-05-02T11:17:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thoughtbot/appraisal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test & lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test & lint"
+    },
+    {
+      "context_snippet": "<img src=\"./logo/cancancan.png\" width=\"200\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authorization"
+    },
+    {
+      "context_snippet": "<img src=\"./logo/cancancan.png\" width=\"200\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cancancan"
+    },
+    {
+      "context_snippet": "<img src=\"./logo/cancancan.png\" width=\"200\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    }
+  ]
+}

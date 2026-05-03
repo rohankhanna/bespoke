@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "editing-support"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrisgrieser/nvim-spider",
+      "status": "candidate-context",
+      "text": "Use the w, e, b motions like a spider. Move by subwords and skip insignificant punctuation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-spider",
+      "status": "candidate-context",
+      "text": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-spider\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisgrieser/nvim-spider",
+      "status": "candidate",
+      "text": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-spider\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "editing-support",
+  "concept_id": "editing-support",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-spider"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "editing-support",
+      "sense_id": "editing-support#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

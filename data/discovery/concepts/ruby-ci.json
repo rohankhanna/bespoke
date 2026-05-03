@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ruby CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate-context",
+      "text": "Generate difference sets between Ruby sequences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate-context",
+      "text": "Ruby CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate",
+      "text": "Ruby CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11524,
+      "status": "candidate",
+      "text": "irene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11524,
+      "status": "candidate",
+      "text": "radium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6048,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5756,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5756,
+      "status": "candidate",
+      "text": "ion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ruby CI",
+  "concept_id": "ruby-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "halostatue/diff-lcs"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ruby CI",
+      "sense_id": "ruby-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

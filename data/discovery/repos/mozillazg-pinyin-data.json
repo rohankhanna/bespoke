@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozillazg/pinyin-data",
+      "target": "mozillazg/pypinyin-dict",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "mozillazg/pinyin-data",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "mozillazg/pinyin-data",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/pinyin-data",
+      "target": "pinyin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/pinyin-data",
+      "target": "pinyin-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:03:20.371826+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3687
+    },
+    {
+      "path": ".github/workflows/python-app.yml",
+      "size": 779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u6c49\u5b57\u62fc\u97f3\u6570\u636e",
+    "fork": false,
+    "full_name": "mozillazg/pinyin-data",
+    "html_url": "https://github.com/mozillazg/pinyin-data",
+    "language": "Python",
+    "pushed_at": "2026-02-23T12:48:35Z",
+    "stargazers_count": 1458,
+    "topics": [
+      "pinyin",
+      "pinyin-data"
+    ],
+    "updated_at": "2026-04-30T06:56:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozillazg/pypinyin-dict",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u6c49\u5b57\u62fc\u97f3\u6570\u636e\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pinyin"
+    },
+    {
+      "context_snippet": "\u6c49\u5b57\u62fc\u97f3\u6570\u636e\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pinyin-data"
+    }
+  ]
+}

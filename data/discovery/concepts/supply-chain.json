@@ -79,6 +79,18 @@
       "source_repo": "theupdateframework/go-tuf",
       "status": "candidate-context",
       "text": "![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/theupdateframework/go-tuf/ci.yml?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate-context",
+      "text": "Independent verification of binary packages - Reproducible Builds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate-context",
+      "text": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "theupdateframework/go-tuf",
       "status": "candidate",
       "text": "![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/theupdateframework/go-tuf/ci.yml?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kpcyrd/rebuilderd",
+      "status": "candidate",
+      "text": "[crates-img]: https://img.shields.io/crates/v/rebuilderd.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +220,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "endojs/endo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kpcyrd/rebuilderd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "endojs/endo"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

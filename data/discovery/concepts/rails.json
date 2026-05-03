@@ -397,6 +397,18 @@
       "source_repo": "heartcombo/responders",
       "status": "candidate-context",
       "text": "[![Gem Version](https://badge.fury.io/rb/responders.svg)](https://badge.fury.io/rb/responders)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CanCanCommunity/cancancan",
+      "status": "candidate-context",
+      "text": "The authorization Gem for Ruby on Rails."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CanCanCommunity/cancancan",
+      "status": "candidate-context",
+      "text": "<img src=\"./logo/cancancan.png\" width=\"200\" />"
     }
   ],
   "candidate_glosses": [
@@ -597,6 +609,12 @@
       "source_repo": "heartcombo/responders",
       "status": "candidate",
       "text": "[![Gem Version](https://badge.fury.io/rb/responders.svg)](https://badge.fury.io/rb/responders)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CanCanCommunity/cancancan",
+      "status": "candidate",
+      "text": "<img src=\"./logo/cancancan.png\" width=\"200\" />"
     }
   ],
   "candidate_related_terms": [
@@ -865,11 +883,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "simplecov-ruby/simplecov"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "paper-trail-gem/paper_trail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "CanCanCommunity/cancancan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heartcombo/devise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

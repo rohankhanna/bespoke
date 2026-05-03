@@ -1,0 +1,312 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    },
+    {
+      "component": "norio-nomura/action-swiftlint@3.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "exelban/stats",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "exelban/stats",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yaml",
+      "source_repo": "exelban/stats",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i18n.yaml",
+      "source_repo": "exelban/stats",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/i18n.yaml",
+      "source_repo": "exelban/stats",
+      "target": "i18n check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "exelban/stats",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "exelban/stats",
+      "target": "norio-nomura/action-swiftlint@3.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "exelban/stats",
+      "target": "Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "battery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "bluetooth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "clock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "disk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "fans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "menubar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "sensors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exelban/stats",
+      "target": "temperature",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:54:18.886256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8086
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 380
+    },
+    {
+      "path": ".github/workflows/i18n.yaml",
+      "size": 357
+    },
+    {
+      "path": ".github/workflows/linter.yaml",
+      "size": 378
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "macOS system monitor in your menu bar",
+    "fork": false,
+    "full_name": "exelban/stats",
+    "html_url": "https://github.com/exelban/stats",
+    "language": "Swift",
+    "pushed_at": "2026-05-02T18:17:08Z",
+    "stargazers_count": 38487,
+    "topics": [
+      "battery",
+      "bluetooth",
+      "clock",
+      "cpu",
+      "disk",
+      "fans",
+      "gpu",
+      "macos",
+      "menubar",
+      "monitor",
+      "network",
+      "sensors",
+      "stats",
+      "temperature"
+    ],
+    "updated_at": "2026-05-03T01:34:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "i18n check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/i18n.yaml",
+      "term": "i18n check"
+    },
+    {
+      "context_snippet": "Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yaml",
+      "term": "Linter"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "battery"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bluetooth"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clock"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disk"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fans"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "menubar"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitor"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sensors"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stats"
+    },
+    {
+      "context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temperature"
+    }
+  ]
+}

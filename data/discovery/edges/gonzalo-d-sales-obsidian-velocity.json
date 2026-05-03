@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "jdanielmourao/obsidian-sanctum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "crearts-community/crearts-obsidian",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "bladeacer/flexcyon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "elsatam/obsidian-fancy-a-story",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "light-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "obsidian-md-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "obsidian-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "Gonzalo-D-Sales/obsidian-velocity"
+}

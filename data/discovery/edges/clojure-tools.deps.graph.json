@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "clojure/build.ci/.github/workflows/doc-build.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "Build API Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "clojure/build.ci/.github/workflows/release.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "Release on demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "clojure/build.ci/.github/workflows/snapshot.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "Snapshot on demand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "clojure/build.ci/.github/workflows/test.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure/tools.deps.graph",
+      "target": "graph",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "clojure/tools.deps.graph"
+}

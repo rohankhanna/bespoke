@@ -190,6 +190,18 @@
       "source_repo": "aws-cloudformation/cloudformation-guard",
       "status": "candidate-context",
       "text": "**Validate Cloud Environments with Policy-as-Code**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kyverno/kyverno",
+      "status": "candidate-context",
+      "text": "Unified Policy as Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyverno/kyverno",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -282,6 +294,12 @@
       "source_repo": "aws-cloudformation/cloudformation-guard",
       "status": "candidate",
       "text": "**Validate Cloud Environments with Policy-as-Code**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyverno/kyverno",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -451,11 +469,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "aws-cloudformation/cloudformation-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kyverno/kyverno"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

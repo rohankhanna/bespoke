@@ -1,0 +1,272 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "all-in-one-image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "face-inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "image-deblurring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "image-dehazing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "image-denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "image-deraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "image-desnowing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "jpeg-artifacts-removal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "low-level-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "low-light-image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "shadow-removal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/daclip-uir",
+      "target": "vision-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:05:25.900691+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16848
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2024] Controlling Vision-Language Models for Universal Image Restoration. 5th place in the NTIRE 2024 Restore Any Image Model in the Wild Challenge.",
+    "fork": false,
+    "full_name": "Algolzw/daclip-uir",
+    "html_url": "https://github.com/Algolzw/daclip-uir",
+    "language": "Python",
+    "pushed_at": "2024-08-07T07:32:50Z",
+    "stargazers_count": 813,
+    "topics": [
+      "all-in-one-image-restoration",
+      "deep-learning",
+      "diffusion-models",
+      "face-inpainting",
+      "image-deblurring",
+      "image-dehazing",
+      "image-denoising",
+      "image-deraining",
+      "image-desnowing",
+      "image-restoration",
+      "jpeg-artifacts-removal",
+      "low-level-vision",
+      "low-light-image-enhancement",
+      "prompt",
+      "pytorch",
+      "shadow-removal",
+      "vision-language"
+    ],
+    "updated_at": "2026-04-30T10:36:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "all-in-one-image-restoration"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-inpainting"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-deblurring"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-dehazing"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-denoising"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-deraining"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-desnowing"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpeg-artifacts-removal"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-level-vision"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-image-enhancement"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shadow-removal"
+    },
+    {
+      "context_snippet": "[Project Page](https://algolzw.github.io/daclip-uir) | [Paper](https://arxiv.org/abs/2310.01018) | [Model Card \ud83e\udd17](https://huggingface.co/weblzw/daclip-uir-ViT-B-32-irsde)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language"
+    }
+  ]
+}

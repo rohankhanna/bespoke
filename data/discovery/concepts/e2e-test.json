@@ -2,7 +2,8 @@
   "aliases": [
     "e2e-test",
     "e2e test",
-    "E2E Test"
+    "E2E Test",
+    "E2E test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -129,6 +130,18 @@
       "source_repo": "stackblitz-labs/pkg.pr.new",
       "status": "candidate-context",
       "text": "E2E Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helmfile/vals",
+      "status": "candidate-context",
+      "text": "Helm-like configuration values loader with support for various sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/vals",
+      "status": "candidate-context",
+      "text": "E2E test"
     }
   ],
   "candidate_glosses": [
@@ -191,6 +204,12 @@
       "source_repo": "stackblitz-labs/pkg.pr.new",
       "status": "candidate",
       "text": "E2E Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/vals",
+      "status": "candidate",
+      "text": "E2E test"
     }
   ],
   "candidate_related_terms": [
@@ -324,11 +343,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/e2e-test.yml",
       "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/e2e-test.yaml",
+      "source_repo": "helmfile/vals"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

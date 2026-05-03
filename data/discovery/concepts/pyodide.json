@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "pyodide"
+    "pyodide",
+    "Pyodide"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,18 @@
       "source_repo": "simonw/datasette-lite",
       "status": "candidate-context",
       "text": "Datasette running in your browser using WebAssembly and [Pyodide](https://pyodide.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "A computer algebra system written in pure Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "Pyodide"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +96,12 @@
       "source_repo": "simonw/datasette-lite",
       "status": "candidate",
       "text": "Datasette running in your browser using WebAssembly and [Pyodide](https://pyodide.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate",
+      "text": "Pyodide"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +133,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "simonw/datasette-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "sympy/sympy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

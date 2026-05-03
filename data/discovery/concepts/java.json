@@ -2578,6 +2578,42 @@
       "source_repo": "stleary/JSON-java",
       "status": "candidate-context",
       "text": "![Json-Java logo](https://github.com/stleary/JSON-java/blob/master/images/JsonJava.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate-context",
+      "text": "The library allows you to write and execute UI tests among IntelliJ IDEA. You can test your Plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate-context",
+      "text": "![official JetBrains project](https://jb.gg/badges/official.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "status": "candidate-context",
+      "text": "Interactive, thoroughly customizable maps in native Android powered by vector tiles and OpenGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "status": "candidate-context",
+      "text": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/webapp-runner",
+      "status": "candidate-context",
+      "text": "Lightweight Application Launcher. Launch your webapp in the most popular open source web container available with a single command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/webapp-runner",
+      "status": "candidate-context",
+      "text": "Webapp Runner is designed to allow you to launch an exploded or compressed war that is on your filesystem into a"
     }
   ],
   "candidate_glosses": [
@@ -3864,6 +3900,24 @@
       "source_repo": "stleary/JSON-java",
       "status": "candidate",
       "text": "![Json-Java logo](https://github.com/stleary/JSON-java/blob/master/images/JsonJava.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-ui-test-robot",
+      "status": "candidate",
+      "text": "![official JetBrains project](https://jb.gg/badges/official.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "status": "candidate",
+      "text": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/webapp-runner",
+      "status": "candidate",
+      "text": "Webapp Runner is designed to allow you to launch an exploded or compressed war that is on your filesystem into a"
     }
   ],
   "candidate_related_terms": [
@@ -5907,11 +5961,101 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "stleary/JSON-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-ui-test-robot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heroku/webapp-runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

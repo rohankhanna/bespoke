@@ -8,13 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "queryverse/VegaLite.jl",
-      "target": "jupyterlab/jupyterlab",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/jlpkgbutler-butler-workflow.yml",
       "source_repo": "queryverse/VegaLite.jl",
@@ -225,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "queryverse/VegaLite.jl"
 }

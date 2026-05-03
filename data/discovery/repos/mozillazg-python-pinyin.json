@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "hotoo/pinyin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "mozillazg/go-pinyin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "mozillazg/pinyin-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "mozillazg/phrase-pinyin-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "hanzi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "hanzi-pinyin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "pinyin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "pypinyin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "python2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/python-pinyin",
+      "target": "python3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:44:51.072311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7980
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2447
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u6c49\u5b57\u8f6c\u62fc\u97f3(pypinyin)",
+    "fork": false,
+    "full_name": "mozillazg/python-pinyin",
+    "html_url": "https://github.com/mozillazg/python-pinyin",
+    "language": "Python",
+    "pushed_at": "2026-04-19T06:42:31Z",
+    "stargazers_count": 5292,
+    "topics": [
+      "chinese",
+      "hanzi",
+      "hanzi-pinyin",
+      "pinyin",
+      "pypinyin",
+      "python",
+      "python2",
+      "python3"
+    ],
+    "updated_at": "2026-05-01T08:24:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hotoo/pinyin",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozillazg/go-pinyin",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozillazg/phrase-pinyin-data",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozillazg/pinyin-data",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hanzi"
+    },
+    {
+      "context_snippet": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hanzi-pinyin"
+    },
+    {
+      "context_snippet": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pinyin"
+    },
+    {
+      "context_snippet": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pypinyin"
+    },
+    {
+      "context_snippet": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python2"
+    },
+    {
+      "context_snippet": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    }
+  ]
+}

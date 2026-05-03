@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QuantuMope/GroundingDINO",
+      "target": "facebookresearch/segment-anything-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QuantuMope/GroundingDINO",
+      "target": "optimalscale/detgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QuantuMope/GroundingDINO",
+      "target": "microsoft/x-decoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QuantuMope/GroundingDINO",
+      "target": "ideacvr/awesome-detection-transformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:42:46.860663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19480
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1065
+    },
+    {
+      "path": "requirements.txt",
+      "size": 100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024] Official implementation of the paper \"Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection\"",
+    "fork": true,
+    "full_name": "QuantuMope/GroundingDINO",
+    "html_url": "https://github.com/QuantuMope/GroundingDINO",
+    "language": null,
+    "pushed_at": "2025-04-16T22:28:25Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-04-16T22:26:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/segment-anything-2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ideacvr/awesome-detection-transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/x-decoder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "optimalscale/detgpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

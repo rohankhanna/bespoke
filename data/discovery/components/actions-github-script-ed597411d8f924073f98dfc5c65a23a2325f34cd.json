@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -857,6 +857,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/azure-native-pr-review.lock.yml",
       "source_repo": "pulumi/pulumi-azure-native"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment-issue.yml",
+      "source_repo": "faker-js/faker"
     }
   ]
 }

@@ -1,0 +1,433 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@ant-design/icons-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@electron-toolkit/preload",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@electron-toolkit/utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@types/dagre",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@vue-flow/background",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@vue-flow/controls",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@vue-flow/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@vue-flow/minimap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "ant-design-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "base64-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "buffer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "click-outside-vue3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "dagre",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "electron-store",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "electron-updater",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "eventemitter3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "gaussian-splat-renderer-for-lam",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "hls.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "mrmime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "nanoid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "p-queue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "pinia",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "python-struct",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "vue-i18n",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@electron-toolkit/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@electron-toolkit/eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@electron-toolkit/eslint-config-ts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@electron-toolkit/tsconfig",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@eslint/eslintrc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@rushstack/eslint-patch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@types/python-struct",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@vitejs/plugin-legacy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@vitejs/plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@vue/eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "@vue/eslint-config-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "electron-builder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "electron-vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "eslint-plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "less",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "simple-git-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "vite-plugin-mkcert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "vue-eslint-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI",
+      "target": "vue-tsc",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "HumanAIGC-Engineering/OpenAvatarChat-WebUI"
+}

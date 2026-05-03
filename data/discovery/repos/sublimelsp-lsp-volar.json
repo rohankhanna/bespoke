@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:57:50.945836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5210
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 820
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vue support for Sublime's LSP plugin",
+    "fork": false,
+    "full_name": "sublimelsp/LSP-volar",
+    "html_url": "https://github.com/sublimelsp/LSP-volar",
+    "language": "Python",
+    "pushed_at": "2026-04-29T10:40:10Z",
+    "stargazers_count": 86,
+    "topics": [],
+    "updated_at": "2026-03-31T18:33:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

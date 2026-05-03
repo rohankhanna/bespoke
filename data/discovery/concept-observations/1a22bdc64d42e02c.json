@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd16  Collection GitHub actions template. Can be used directly after fork. Come try."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83e\udd16 GitHub Actions workflow template."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83e\udd16 GitHub Actions workflow template."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050877,
+      "status": "candidate",
+      "text": "activity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049520,
+      "status": "candidate",
+      "text": "activeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028252,
+      "status": "candidate",
+      "text": "legal action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "action at law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "military action"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "actions",
+      "sense_id": "actions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "actions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "actions",
+  "observation_id": "1a22bdc64d42e02c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "actions",
+  "source_context_snippet": "\ud83e\udd16 GitHub Actions workflow template.",
+  "source_file": null,
+  "source_repo": "actions-cool/.github",
+  "source_repo_description": "\ud83e\udd16  Collection GitHub actions template. Can be used directly after fork. Come try."
+}

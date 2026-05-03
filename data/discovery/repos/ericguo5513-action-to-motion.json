@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EricGuo5513/action-to-motion",
+      "target": "ericguo5513/action2motion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/action-to-motion",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/action-to-motion",
+      "target": "human-motion-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/action-to-motion",
+      "target": "motion-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EricGuo5513/action-to-motion",
+      "target": "motion-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:35.388771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6065
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official implementations for \"Action2Motion: Conditioned Generation of 3D Human Motions (ACM MultiMedia 2020)\"",
+    "fork": false,
+    "full_name": "EricGuo5513/action-to-motion",
+    "html_url": "https://github.com/EricGuo5513/action-to-motion",
+    "language": "Python",
+    "pushed_at": "2024-10-16T00:53:10Z",
+    "stargazers_count": 200,
+    "topics": [
+      "deep-learning",
+      "human-motion-analysis",
+      "motion-generation",
+      "motion-synthesis"
+    ],
+    "updated_at": "2026-04-29T04:01:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericguo5513/action2motion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* Motion feature extractors are pre-trained action classifiers, they are in ./model_file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "* Motion feature extractors are pre-trained action classifiers, they are in ./model_file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-motion-analysis"
+    },
+    {
+      "context_snippet": "* Motion feature extractors are pre-trained action classifiers, they are in ./model_file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-generation"
+    },
+    {
+      "context_snippet": "* Motion feature extractors are pre-trained action classifiers, they are in ./model_file",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-synthesis"
+    }
+  ]
+}

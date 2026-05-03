@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ros2.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ros2.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wuphilipp/gello_software",
+      "target": "wuphilipp/gello_mechanical",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wuphilipp/gello_software",
+      "target": "i2rt-robotics/i2rt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wuphilipp/gello_software",
+      "target": "xarm-developer/xarm-python-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wuphilipp/gello_software",
+      "target": "raindragond/factr_teleop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "wuphilipp/gello_software",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonapp.yml",
+      "source_repo": "wuphilipp/gello_software",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ros2.yml",
+      "source_repo": "wuphilipp/gello_software",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ros2.yml",
+      "source_repo": "wuphilipp/gello_software",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ros2.yml",
+      "source_repo": "wuphilipp/gello_software",
+      "target": "ROS 2 workspace",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:15.587590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13723
+    },
+    {
+      "path": "Dockerfile",
+      "size": 535
+    },
+    {
+      "path": "requirements.txt",
+      "size": 236
+    },
+    {
+      "path": ".github/workflows/pythonapp.yml",
+      "size": 1171
+    },
+    {
+      "path": ".github/workflows/ros2.yml",
+      "size": 605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "wuphilipp/gello_software",
+    "html_url": "https://github.com/wuphilipp/gello_software",
+    "language": "Python",
+    "pushed_at": "2026-04-07T12:03:44Z",
+    "stargazers_count": 467,
+    "topics": [],
+    "updated_at": "2026-05-02T03:44:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "i2rt-robotics/i2rt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raindragond/factr_teleop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wuphilipp/gello_mechanical",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xarm-developer/xarm-python-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ROS 2 workspace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ros2.yml",
+      "term": "ROS 2 workspace"
+    }
+  ]
+}

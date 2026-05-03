@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FoundationVision/ByteTrack",
+      "target": "ifzhang/bytetrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FoundationVision/ByteTrack",
+      "target": "peizesun/transtrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FoundationVision/ByteTrack",
+      "target": "samylee/towards-realtime-mot-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "FoundationVision/ByteTrack",
+      "target": "ifzhang/bytetrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack",
+      "target": "multi-object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack",
+      "target": "real-time",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:30.274417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15198
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2435
+    },
+    {
+      "path": "requirements.txt",
+      "size": 260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2022] ByteTrack: Multi-Object Tracking by Associating Every Detection Box",
+    "fork": false,
+    "full_name": "FoundationVision/ByteTrack",
+    "html_url": "https://github.com/FoundationVision/ByteTrack",
+    "language": "Python",
+    "pushed_at": "2024-06-19T11:45:05Z",
+    "stargazers_count": 6342,
+    "topics": [
+      "deployment",
+      "multi-object-tracking",
+      "pytorch",
+      "real-time"
+    ],
+    "updated_at": "2026-05-02T18:14:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ifzhang/bytetrack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peizesun/transtrack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samylee/towards-realtime-mot-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ifzhang/bytetrack",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bytetrack-multi-object-tracking-by-1/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=bytetrack-multi-object-tracking-by-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bytetrack-multi-object-tracking-by-1/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=bytetrack-multi-object-tracking-by-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-object-tracking"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bytetrack-multi-object-tracking-by-1/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=bytetrack-multi-object-tracking-by-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bytetrack-multi-object-tracking-by-1/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=bytetrack-multi-object-tracking-by-1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    }
+  ]
+}

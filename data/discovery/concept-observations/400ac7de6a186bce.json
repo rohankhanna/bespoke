@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Beautiful and accessible math in all browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "asciimath-notation",
+      "sense_id": "asciimath-notation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "asciimath-notation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "asciimath-notation",
+  "observation_id": "400ac7de6a186bce",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "asciimath-notation",
+  "source_context_snippet": "**Note:** MathJax code development is performed in the [MathJax-src](https://github.com/mathjax/MathJax-src) repository. This repository holds the packaged version of MathJax, along with the main issue tracker for MathJax bugs.",
+  "source_file": null,
+  "source_repo": "mathjax/MathJax",
+  "source_repo_description": "Beautiful and accessible math in all browsers"
+}

@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yogthos/migratus",
+      "target": "tomekw/hikari-cp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yogthos/migratus",
+      "target": "paulbutcher/clj-migratus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yogthos/migratus",
+      "target": "clojure-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yogthos/migratus",
+      "target": "migrations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:52:56.144281+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20072
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MIGRATE ALL THE THINGS!",
+    "fork": false,
+    "full_name": "yogthos/migratus",
+    "html_url": "https://github.com/yogthos/migratus",
+    "language": "Clojure",
+    "pushed_at": "2026-02-04T23:49:51Z",
+    "stargazers_count": 683,
+    "topics": [
+      "clojure-library",
+      "migrations"
+    ],
+    "updated_at": "2026-04-27T07:45:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paulbutcher/clj-migratus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tomekw/hikari-cp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://dl.circleci.com/status-badge/img/gh/yogthos/migratus/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/yogthos/migratus/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure-library"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://dl.circleci.com/status-badge/img/gh/yogthos/migratus/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/yogthos/migratus/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "migrations"
+    }
+  ]
+}

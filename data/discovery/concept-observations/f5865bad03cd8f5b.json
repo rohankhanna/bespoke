@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Given some data, jsesc returns the shortest possible stringified & ASCII-safe representation of that data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023186,
+      "status": "candidate",
+      "text": "javascript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023185,
+      "status": "candidate",
+      "text": "jscript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023184,
+      "status": "candidate",
+      "text": "emacs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023182,
+      "status": "candidate",
+      "text": "extensible markup language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023181,
+      "status": "candidate",
+      "text": "javame"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ecmascript",
+      "sense_id": "ecmascript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ecmascript",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ecmascript",
+  "observation_id": "f5865bad03cd8f5b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "ecmascript",
+  "source_context_snippet": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:",
+  "source_file": null,
+  "source_repo": "mathiasbynens/jsesc",
+  "source_repo_description": "Given some data, jsesc returns the shortest possible stringified & ASCII-safe representation of that data."
+}

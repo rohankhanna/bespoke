@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A vulnerability scanner for container images and filesystems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Add to OSS board"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Add to OSS board"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25976,
+      "status": "candidate",
+      "text": "coopt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22435,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22419,
+      "status": "candidate",
+      "text": "patch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14464,
+      "status": "candidate",
+      "text": "emulator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14387,
+      "status": "candidate",
+      "text": "dimercaprol"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add to OSS board",
+      "sense_id": "add-to-oss-board#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "add-to-oss-board",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "add-to-oss-board",
+  "observation_id": "5ef1d6a11ed2b472",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Add to OSS board",
+  "source_context_snippet": "Add to OSS board",
+  "source_file": ".github/workflows/oss-project-board-add.yaml",
+  "source_repo": "anchore/grype",
+  "source_repo_description": "A vulnerability scanner for container images and filesystems"
+}

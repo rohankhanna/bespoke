@@ -1,0 +1,205 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "apolloscapeauto/dataset-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "aras62/piepredict",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "autonomousvision/kitti360scripts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "asu-trans-ai-lab/dtalite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "embodied-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "foundation-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "general-artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "large-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "policy-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "video-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/DriveAGI",
+      "target": "world-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:34.131785+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 48170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Notably, GenAD & Dataset Survey. A Collection of Foundation Driving Models by OpenDriveLab. For Vista and DriveLM, please refer to individual page.",
+    "fork": false,
+    "full_name": "OpenDriveLab/DriveAGI",
+    "html_url": "https://github.com/OpenDriveLab/DriveAGI",
+    "language": "Python",
+    "pushed_at": "2026-02-27T12:40:42Z",
+    "stargazers_count": 796,
+    "topics": [
+      "autonomous-driving",
+      "embodied-ai",
+      "foundation-model",
+      "general-artificial-intelligence",
+      "large-dataset",
+      "policy-learning",
+      "video-dataset",
+      "video-generation",
+      "world-models"
+    ],
+    "updated_at": "2026-04-23T08:06:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apolloscapeauto/dataset-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aras62/piepredict",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asu-trans-ai-lab/dtalite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/kitti360scripts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embodied-ai"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-model"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "general-artificial-intelligence"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-dataset"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "policy-learning"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-dataset"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-models"
+    }
+  ]
+}

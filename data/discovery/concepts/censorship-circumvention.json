@@ -31,6 +31,42 @@
       "source_repo": "getlantern/lantern-binaries",
       "status": "candidate-context",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "status": "candidate-context",
+      "text": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility (for Windows)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "status": "candidate-context",
+      "text": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate-context",
+      "text": "DPI bypass multi platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dovecoteescapee/ByeDPIAndroid",
+      "status": "candidate-context",
+      "text": "App to bypass censorship on Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dovecoteescapee/ByeDPIAndroid",
+      "status": "candidate-context",
+      "text": "**English** | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](README-ru.md)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "getlantern/lantern-binaries",
       "status": "candidate",
       "text": "> [!NOTE]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ValdikSS/GoodbyeDPI",
+      "status": "candidate",
+      "text": "GoodbyeDPI \u2014 Deep Packet Inspection circumvention utility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dovecoteescapee/ByeDPIAndroid",
+      "status": "candidate",
+      "text": "**English** | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](README-ru.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,29 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "getlantern/lantern-binaries"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ValdikSS/GoodbyeDPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bol-van/zapret"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "dovecoteescapee/ByeDPIAndroid"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

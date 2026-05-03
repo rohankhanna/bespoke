@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "convenient input and display of LaTeX equation strings for the Julia language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/JuliaStrings/LaTeXStrings.jl/workflows/CI/badge.svg)](https://github.com/JuliaStrings/LaTeXStrings.jl/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/JuliaStrings/LaTeXStrings.jl/workflows/CI/badge.svg)](https://github.com/JuliaStrings/LaTeXStrings.jl/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014466,
+      "status": "candidate",
+      "text": "mathematics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016230,
+      "status": "candidate",
+      "text": "mathematically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016125,
+      "status": "candidate",
+      "text": "calculus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016106,
+      "status": "candidate",
+      "text": "calculation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30015927,
+      "status": "candidate",
+      "text": "calculated"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "math",
+      "sense_id": "math#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2040,
+      "status": "candidate",
+      "text": "mathematics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "maths"
+    }
+  ],
+  "concept_id": "math",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "math",
+  "observation_id": "a6a4c00814405af5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "math",
+  "source_context_snippet": "[![Build Status](https://github.com/JuliaStrings/LaTeXStrings.jl/workflows/CI/badge.svg)](https://github.com/JuliaStrings/LaTeXStrings.jl/actions)",
+  "source_file": null,
+  "source_repo": "JuliaStrings/LaTeXStrings.jl",
+  "source_repo_description": "convenient input and display of LaTeX equation strings for the Julia language"
+}

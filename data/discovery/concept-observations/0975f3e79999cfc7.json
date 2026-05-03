@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":package: A collection of pre-packaged, Vale-compatible style guides and configurations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains a library of all officially supported styles for Vale. The benefits of using these styles over their original implementations include:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains a library of all officially supported styles for Vale. The benefits of using these styles over their original implementations include:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028995,
+      "status": "candidate",
+      "text": "valley"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029069,
+      "status": "candidate",
+      "text": "dell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992663,
+      "status": "candidate",
+      "text": "sailing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991249,
+      "status": "candidate",
+      "text": "sail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29957411,
+      "status": "candidate",
+      "text": "veil"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vale",
+      "sense_id": "vale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "valley"
+    }
+  ],
+  "concept_id": "vale",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vale",
+  "observation_id": "0975f3e79999cfc7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "vale",
+  "source_context_snippet": "This repository contains a library of all officially supported styles for Vale. The benefits of using these styles over their original implementations include:",
+  "source_file": null,
+  "source_repo": "vale-cli/packages",
+  "source_repo_description": ":package: A collection of pre-packaged, Vale-compatible style guides and configurations."
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation (CVPR 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29827460,
+      "status": "candidate",
+      "text": "slow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19828278,
+      "status": "candidate",
+      "text": "time-lapse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19828277,
+      "status": "candidate",
+      "text": "infraslow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19828276,
+      "status": "candidate",
+      "text": "fast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19828275,
+      "status": "candidate",
+      "text": "miniature"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slow-motion",
+      "sense_id": "slow-motion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "slow-motion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "slow-motion",
+  "observation_id": "261309ceb3deb798",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "slow-motion",
+  "source_context_snippet": "The official PyTorch implementation of [IFRNet](https://arxiv.org/abs/2205.14620) (CVPR 2022).",
+  "source_file": null,
+  "source_repo": "ltkong218/IFRNet",
+  "source_repo_description": "IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation (CVPR 2022)"
+}

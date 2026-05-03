@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "alpinejs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-alpine",
+      "target": "alpinejs/alpine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-alpine",
+      "target": "hchiam/learning-csp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-alpine",
+      "target": "alpinejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-alpine",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-alpine",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-alpine",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-alpine",
+      "target": "prettier",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:38.193677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1240
+    },
+    {
+      "path": "package.json",
+      "size": 820
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning Alpine.js",
+    "fork": false,
+    "full_name": "hchiam/learning-alpine",
+    "html_url": "https://github.com/hchiam/learning-alpine",
+    "language": "HTML",
+    "pushed_at": "2021-09-19T22:21:48Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2022-08-16T09:38:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpinejs/alpine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-csp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

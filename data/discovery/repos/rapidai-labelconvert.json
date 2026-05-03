@@ -1,0 +1,257 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SyncToGitee.yml"
+    },
+    {
+      "component": "Yikun/hub-mirror-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SyncToGitee.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "Yikun/hub-mirror-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "syncToGitee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml",
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml",
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_whl_to_pypi.yml",
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "pypa/gh-action-pypi-publish@v1.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "coco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "convert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "labelimg-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "labelme-annotations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "publaynet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "yolov5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "yolov6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "yolov8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RapidAI/LabelConvert",
+      "target": "yolox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:03:25.949298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2236
+    },
+    {
+      "path": "requirements.txt",
+      "size": 31
+    },
+    {
+      "path": ".github/workflows/SyncToGitee.yml",
+      "size": 591
+    },
+    {
+      "path": ".github/workflows/gen_whl_to_pypi.yml",
+      "size": 1736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd04  A tool for object detection and image segmentation dataset format conversion. ",
+    "fork": false,
+    "full_name": "RapidAI/LabelConvert",
+    "html_url": "https://github.com/RapidAI/LabelConvert",
+    "language": "Python",
+    "pushed_at": "2024-12-11T00:16:45Z",
+    "stargazers_count": 319,
+    "topics": [
+      "coco",
+      "convert",
+      "labelimg-tool",
+      "labelme-annotations",
+      "publaynet",
+      "yolov5",
+      "yolov6",
+      "yolov8",
+      "yolox"
+    ],
+    "updated_at": "2026-04-28T10:15:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "syncToGitee",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "term": "syncToGitee"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convert"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labelimg-tool"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labelme-annotations"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "publaynet"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov5"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov6"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov8"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolox"
+    }
+  ]
+}

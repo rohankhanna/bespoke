@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "agentscope-ai/QwenPaw",
-      "target": "agentscope-ai/reme",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/channel-tests.yml",
       "source_repo": "agentscope-ai/QwenPaw",
@@ -267,6 +260,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "agentscope-ai/QwenPaw"
 }

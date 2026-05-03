@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:02:33.735845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "wuphilipp/gello_mechanical",
+    "html_url": "https://github.com/wuphilipp/gello_mechanical",
+    "language": "OpenSCAD",
+    "pushed_at": "2026-04-10T06:52:16Z",
+    "stargazers_count": 293,
+    "topics": [],
+    "updated_at": "2026-05-01T18:10:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

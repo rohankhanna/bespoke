@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Interactive, thoroughly customizable maps in native Android powered by vector tiles and OpenGL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-android)](https://cla-assistant.io/mapbox/mapbox-maps-android)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-android)](https://cla-assistant.io/mapbox/mapbox-maps-android)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044976,
+      "status": "candidate",
+      "text": "precedency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044970,
+      "status": "candidate",
+      "text": "precedence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044560,
+      "status": "candidate",
+      "text": "anteriority"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040425,
+      "status": "candidate",
+      "text": "antecedence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039954,
+      "status": "candidate",
+      "text": "antecedency"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "priority",
+      "sense_id": "priority#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21048,
+      "status": "candidate",
+      "text": "precedence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7027,
+      "status": "candidate",
+      "text": "antecedence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4021,
+      "status": "candidate",
+      "text": "anteriority"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4019,
+      "status": "candidate",
+      "text": "precedency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3017,
+      "status": "candidate",
+      "text": "antecedency"
+    }
+  ],
+  "concept_id": "priority",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "priority",
+  "observation_id": "e60580a9eff6ae22",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "priority",
+  "source_context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/mapbox/mapbox-maps-android)](https://cla-assistant.io/mapbox/mapbox-maps-android)",
+  "source_file": null,
+  "source_repo": "mapbox/mapbox-maps-android",
+  "source_repo_description": "Interactive, thoroughly customizable maps in native Android powered by vector tiles and OpenGL."
+}

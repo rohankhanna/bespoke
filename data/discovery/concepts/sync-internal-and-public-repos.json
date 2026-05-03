@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync Internal and Public Repos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "status": "candidate-context",
+      "text": "Go SDK for HCP API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "status": "candidate-context",
+      "text": "Sync Internal and Public Repos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/hcp-sdk-go",
+      "status": "candidate",
+      "text": "Sync Internal and Public Repos"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36324,
+      "status": "candidate",
+      "text": "nirvana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32370,
+      "status": "candidate",
+      "text": "hotel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32370,
+      "status": "candidate",
+      "text": "stage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32358,
+      "status": "candidate",
+      "text": "ship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32358,
+      "status": "candidate",
+      "text": "shipped"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync Internal and Public Repos",
+  "concept_id": "sync-internal-and-public-repos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/sync-internal-and-public.yml",
+      "source_repo": "hashicorp/hcp-sdk-go"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Internal and Public Repos",
+      "sense_id": "sync-internal-and-public-repos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "gittools/actions/gitversion/setup@v0.9.5",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "garyng/obsidian-temple"
+    }
+  ]
+}

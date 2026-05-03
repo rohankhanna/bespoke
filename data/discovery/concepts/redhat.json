@@ -19,6 +19,18 @@
       "source_repo": "chef/bento",
       "status": "candidate-context",
       "text": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1-Platform/op-components",
+      "status": "candidate-context",
+      "text": "One platform component library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1-Platform/op-components",
+      "status": "candidate-context",
+      "text": "![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "chef/bento",
       "status": "candidate",
       "text": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1-Platform/op-components",
+      "status": "candidate",
+      "text": "![Version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "1-Platform/op-components"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

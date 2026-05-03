@@ -1,7 +1,7 @@
 {
   "component": "JamesIves/github-pages-deploy-action@releases/v4",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/export_web.yml",
       "source_repo": "godotengine/godot-demo-projects"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2shady4u/godot-sqlite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/javascript_builds.yml",
+      "source_repo": "abcjjy/godot-sqlcipher"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/godot-ci.yml",
+      "source_repo": "abarichello/godot-ci"
     }
   ]
 }

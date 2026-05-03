@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fuziki/WorldInApple",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fuziki/WorldInApple",
+      "target": "actions/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fuziki/WorldInApple",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fuziki/WorldInApple",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fuziki/WorldInApple",
+      "target": "vocoder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:42:30.291339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1825
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Swift wrapper for vocoder World(https://github.com/mmorise/World)",
+    "fork": false,
+    "full_name": "fuziki/WorldInApple",
+    "html_url": "https://github.com/fuziki/WorldInApple",
+    "language": "Swift",
+    "pushed_at": "2024-08-01T23:25:08Z",
+    "stargazers_count": 22,
+    "topics": [
+      "ios",
+      "swift",
+      "vocoder"
+    ],
+    "updated_at": "2025-11-03T15:18:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "![Platform](https://img.shields.io/badge/platform-%20iOS%20-lightgrey.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "![Platform](https://img.shields.io/badge/platform-%20iOS%20-lightgrey.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    }
+  ]
+}

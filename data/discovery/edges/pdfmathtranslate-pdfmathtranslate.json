@@ -1,0 +1,391 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "byaidu/pdfmathtranslate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "guaguastandup/zotero-pdf2zh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "freddyaboulton/gradio-pdf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "opendatalab/doclayout-yolo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.format.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.format.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.format.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "Format Code with Black",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/exe-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "windows exe Release Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fork-build.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "fork-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fork-test.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "fork-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "salsify/action-detect-and-tag-new-version@b1778166f13188a9d478e2d1198f993011ba9864",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "release-drafter/release-drafter@139054aeaa9adc52ab36ddf67437541f039b88e2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "Test and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "astral-sh/setup-uv@85856786d1ce8acfbcc2f13a5f3fbd6b938f9f41",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-test.yml",
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "edit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "english",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "japanese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "korean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "math",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "modify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "pdf2zh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "russian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "translate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate",
+      "target": "zotero",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "PDFMathTranslate/PDFMathTranslate"
+}

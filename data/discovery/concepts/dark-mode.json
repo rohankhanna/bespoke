@@ -37,6 +37,42 @@
       "source_repo": "kepano/obsidian-minimal",
       "status": "candidate-context",
       "text": "![](/cover.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11",
+      "status": "candidate-context",
+      "text": "A simple theme that makes Obsidian feels a bit more like a modern app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nanxiaobei/hugo-paper",
+      "status": "candidate-context",
+      "text": "\ud83e\udeba A simple, clean, customizable Hugo theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanxiaobei/hugo-paper",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdanielmourao/obsidian-sanctum",
+      "status": "candidate-context",
+      "text": "A minimalist theme for Obsidian.md, with the aim of creating a serene space of retreat, for thought and uninterrupted work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdanielmourao/obsidian-sanctum",
+      "status": "candidate-context",
+      "text": "- The sidenote syntax has changed (they are now callouts. Example: `>[!aside|left]` will give a left aligned callout. If you want to make it go further left, you can add up to 5 `+` next to the `left` information (for example: `>[!aside|left +++++]` will push the sidenote to the\u2026"
     }
   ],
   "candidate_glosses": [
@@ -51,6 +87,24 @@
       "source_repo": "kepano/obsidian-minimal",
       "status": "candidate",
       "text": "![](/cover.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nanxiaobei/hugo-paper",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdanielmourao/obsidian-sanctum",
+      "status": "candidate",
+      "text": "- The sidenote syntax has changed (they are now callouts. Example: `>[!aside|left]` will give a left aligned callout. If you want to make it go further left, you can add up to 5 `+` next to the `left` information (for example: `>[!aside|left +++++]` will push the sidenote to the\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -76,11 +130,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "kepano/obsidian-minimal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nanxiaobei/hugo-paper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jdanielmourao/obsidian-sanctum"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

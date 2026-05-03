@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v3.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite",
+      "target": "actions/checkout@v6.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite",
+      "target": "actions/setup-go@v6.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite",
+      "target": "android-actions/setup-android@v3.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:14.189474+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 246
+    },
+    {
+      "path": "go.mod",
+      "size": 2525
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main2",
+    "description": "customized xray-core aar for MahsaNG",
+    "fork": true,
+    "full_name": "GFW-knocker/AndroidLibXrayLite",
+    "html_url": "https://github.com/GFW-knocker/AndroidLibXrayLite",
+    "language": "Go",
+    "pushed_at": "2026-03-31T17:44:00Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-05-01T01:39:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build"
+    }
+  ]
+}

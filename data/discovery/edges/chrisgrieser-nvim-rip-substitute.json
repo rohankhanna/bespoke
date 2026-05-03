@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvim-type-check.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvim-type-check.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "stevearc/nvim-typecheck-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvim-type-check.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "nvim type check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "panvimdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "amannn/action-semantic-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rumdl-lint.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rumdl-lint.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "rvben/rumdl@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "Stale bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "JohnnyMorganz/stylua-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "Stylua check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "replace-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "ripgrep-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "search-and-replace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-rip-substitute",
+      "target": "substitution",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "chrisgrieser/nvim-rip-substitute"
+}

@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "@stdlib/fs-read-file",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/fs-write-file",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/process-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/regexp-eol",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/string-base-snakecase",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/string-format",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/string-trim",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stdlib/time-current-year",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mustache",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ideas_list.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ideas_list.yml"
+    },
+    {
+      "component": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly_standup.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@d60bea1e77c1b5c523216f7c31493883d76ffad7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly_standup.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "@stdlib/fs-read-file",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "@stdlib/fs-write-file",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "@stdlib/process-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "@stdlib/regexp-eol",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "@stdlib/string-base-snakecase",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "@stdlib/string-format",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "@stdlib/string-trim",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "@stdlib/time-current-year",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "mustache",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ideas_list.yml",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ideas_list.yml",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly_standup.yml",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly_standup.yml",
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "peter-evans/create-issue-from-file@d60bea1e77c1b5c523216f7c31493883d76ffad7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "gsoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "mathematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "scientific-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "stdlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "stdlib-js/google-summer-of-code",
+      "target": "summerofcode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:46:43.755686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24103
+    },
+    {
+      "path": "package.json",
+      "size": 1378
+    },
+    {
+      "path": ".github/workflows/ideas_list.yml",
+      "size": 2924
+    },
+    {
+      "path": ".github/workflows/weekly_standup.yml",
+      "size": 1964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google Summer of Code resources.",
+    "fork": false,
+    "full_name": "stdlib-js/google-summer-of-code",
+    "html_url": "https://github.com/stdlib-js/google-summer-of-code",
+    "language": "JavaScript",
+    "pushed_at": "2026-05-01T06:07:03Z",
+    "stargazers_count": 78,
+    "topics": [
+      "gsoc",
+      "javascript",
+      "mathematics",
+      "nodejs",
+      "scientific-computing",
+      "statistics",
+      "stdlib",
+      "summerofcode"
+    ],
+    "updated_at": "2026-05-01T06:07:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gsoc"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematics"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stdlib"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "summerofcode"
+    }
+  ]
+}

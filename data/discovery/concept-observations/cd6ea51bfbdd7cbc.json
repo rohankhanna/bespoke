@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "UAParser.js - The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser (client-side) or Node.js (server-side)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![https://ref.wisprflow.ai/Rxj3n8H](https://github.com/user-attachments/assets/e39fc98d-5d1b-4f7b-a355-4648e1f79a94)](https://ref.wisprflow.ai/Rxj3n8H)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![https://ref.wisprflow.ai/Rxj3n8H](https://github.com/user-attachments/assets/e39fc98d-5d1b-4f7b-a355-4648e1f79a94)](https://ref.wisprflow.ai/Rxj3n8H)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mobile-detection",
+      "sense_id": "mobile-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mobile-detection",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mobile-detection",
+  "observation_id": "cd6ea51bfbdd7cbc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "mobile-detection",
+  "source_context_snippet": "[![https://ref.wisprflow.ai/Rxj3n8H](https://github.com/user-attachments/assets/e39fc98d-5d1b-4f7b-a355-4648e1f79a94)](https://ref.wisprflow.ai/Rxj3n8H)",
+  "source_file": null,
+  "source_repo": "faisalman/ua-parser-js",
+  "source_repo_description": "UAParser.js - The Essential Web Development Tool for User-Agent Detection. Detect Browsers, OS, Devices, Bots, Apps, AI Crawlers, and more. Run in Browser (client-side) or Node.js (server-side)."
+}

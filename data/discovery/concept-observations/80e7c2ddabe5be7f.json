@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Optional Rust Extensions to Speed Up the Python Driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047999,
+      "status": "candidate",
+      "text": "cipher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047952,
+      "status": "candidate",
+      "text": "cryptograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047930,
+      "status": "candidate",
+      "text": "encipher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047776,
+      "status": "candidate",
+      "text": "encrypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047280,
+      "status": "candidate",
+      "text": "encode"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cypher",
+      "sense_id": "cypher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24036,
+      "status": "candidate",
+      "text": "reckon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23063,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21051,
+      "status": "candidate",
+      "text": "cipher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18034,
+      "status": "candidate",
+      "text": "nought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17034,
+      "status": "candidate",
+      "text": "aught"
+    }
+  ],
+  "concept_id": "cypher",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cypher",
+  "observation_id": "80e7c2ddabe5be7f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "cypher",
+  "source_context_snippet": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver).",
+  "source_file": null,
+  "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+  "source_repo_description": "Optional Rust Extensions to Speed Up the Python Driver"
+}

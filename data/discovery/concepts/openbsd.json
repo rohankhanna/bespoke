@@ -142,6 +142,18 @@
       "source_repo": "northox/openbsd-apu2",
       "status": "candidate-context",
       "text": "This repo contains the necessary configs to create a WIFI router out of [PC Engine's APU2](http://pcengines.ch/apu2c4.htm) running OpenBSD >=5.9."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate-context",
+      "text": "DPI bypass multi platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -216,6 +228,12 @@
       "source_repo": "northox/openbsd-apu2",
       "status": "candidate",
       "text": "This repo contains the necessary configs to create a WIFI router out of [PC Engine's APU2](http://pcengines.ch/apu2c4.htm) running OpenBSD >=5.9."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate",
+      "text": "build"
     }
   ],
   "candidate_related_terms": [
@@ -355,11 +373,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bol-van/zapret"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

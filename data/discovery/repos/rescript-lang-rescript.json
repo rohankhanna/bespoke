@@ -474,7 +474,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T12:54:45.138121+00:00",
+  "fetched_at": "2026-05-03T00:48:30.443651+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -510,7 +510,7 @@
     "full_name": "rescript-lang/rescript",
     "html_url": "https://github.com/rescript-lang/rescript",
     "language": "ReScript",
-    "pushed_at": "2026-05-02T08:00:01Z",
+    "pushed_at": "2026-05-02T21:23:28Z",
     "stargazers_count": 7373,
     "topics": [
       "altjs",

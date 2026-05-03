@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "motion-to-text"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EricGuo5513/TM2T",
+      "status": "candidate-context",
+      "text": "Official implementation of \"TM2T: Stochastic and Tokenized Modeling for the Reciprocal Generation of 3D Human Motions and Texts (ECCV2022)\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/TM2T",
+      "status": "candidate-context",
+      "text": "![teaser_image](https://github.com/EricGuo5513/TM2T/blob/main/docs/teaser_image.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EricGuo5513/TM2T",
+      "status": "candidate",
+      "text": "![teaser_image](https://github.com/EricGuo5513/TM2T/blob/main/docs/teaser_image.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "motion-to-text",
+  "concept_id": "motion-to-text",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "EricGuo5513/TM2T"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "motion-to-text",
+      "sense_id": "motion-to-text#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimatch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "windicss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stencil/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "np",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stencil/core",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "codeperate/stencil-windicss",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "codeperate/stencil-windicss",
+      "target": "minimatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "codeperate/stencil-windicss",
+      "target": "windicss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codeperate/stencil-windicss",
+      "target": "@stencil/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codeperate/stencil-windicss",
+      "target": "np",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codeperate/stencil-windicss",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codeperate/stencil-windicss",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "codeperate/stencil-windicss",
+      "target": "@stencil/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codeperate/stencil-windicss",
+      "target": "stencil-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codeperate/stencil-windicss",
+      "target": "stencil-windicss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codeperate/stencil-windicss",
+      "target": "windicss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:57:00.422618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 932
+    },
+    {
+      "path": "package.json",
+      "size": 1043
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Use windicss in stenciljs!",
+    "fork": false,
+    "full_name": "codeperate/stencil-windicss",
+    "html_url": "https://github.com/codeperate/stencil-windicss",
+    "language": "TypeScript",
+    "pushed_at": "2021-09-17T05:35:34Z",
+    "stargazers_count": 1,
+    "topics": [
+      "stencil-plugin",
+      "stencil-windicss",
+      "windicss"
+    ],
+    "updated_at": "2021-09-17T05:35:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a stencil plugin for you to use windicss in your stencil project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stencil-plugin"
+    },
+    {
+      "context_snippet": "This is a stencil plugin for you to use windicss in your stencil project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stencil-windicss"
+    },
+    {
+      "context_snippet": "This is a stencil plugin for you to use windicss in your stencil project.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windicss"
+    }
+  ]
+}

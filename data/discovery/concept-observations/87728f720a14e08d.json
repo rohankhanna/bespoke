@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "macOS system monitor in your menu bar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012362,
+      "status": "candidate",
+      "text": "bombardment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009229,
+      "status": "candidate",
+      "text": "stamp battery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007218,
+      "status": "candidate",
+      "text": "barrage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995390,
+      "status": "candidate",
+      "text": "shelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39897791,
+      "status": "candidate",
+      "text": "assault and battery"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "battery",
+      "sense_id": "battery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31050,
+      "status": "candidate",
+      "text": "assault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14041,
+      "status": "candidate",
+      "text": "barrage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6032,
+      "status": "candidate",
+      "text": "bombardment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3028,
+      "status": "candidate",
+      "text": "assault and battery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2028,
+      "status": "candidate",
+      "text": "shelling"
+    }
+  ],
+  "concept_id": "battery",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "battery",
+  "observation_id": "87728f720a14e08d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "battery",
+  "source_context_snippet": "<a href=\"https://github.com/exelban/stats/releases\"><p align=\"center\"><img src=\"https://github.com/exelban/stats/raw/master/Stats/Supporting%20Files/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" width=\"120\"></p></a>",
+  "source_file": null,
+  "source_repo": "exelban/stats",
+  "source_repo_description": "macOS system monitor in your menu bar"
+}

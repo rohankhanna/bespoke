@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:56:24.149529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1528
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2020] Multi Proposal Aggregation for 3D Semantic Instance Segmentation",
+    "fork": false,
+    "full_name": "francisengelmann/3D-MPA",
+    "html_url": "https://github.com/francisengelmann/3D-MPA",
+    "language": null,
+    "pushed_at": "2023-05-23T09:16:42Z",
+    "stargazers_count": 75,
+    "topics": [],
+    "updated_at": "2025-04-17T14:13:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

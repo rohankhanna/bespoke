@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use Google Speech-to-Text API to do real-time live stream caption on Unity! Best when combined with your virtual character!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040961,
+      "status": "candidate",
+      "text": "oneness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031058,
+      "status": "candidate",
+      "text": "integrity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023266,
+      "status": "candidate",
+      "text": "wholeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988358,
+      "status": "candidate",
+      "text": "single"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986154,
+      "status": "candidate",
+      "text": "one"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unity",
+      "sense_id": "unity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 73047,
+      "status": "candidate",
+      "text": "integrity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26078,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13052,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12057,
+      "status": "candidate",
+      "text": "single"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8028,
+      "status": "candidate",
+      "text": "oneness"
+    }
+  ],
+  "concept_id": "unity",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unity",
+  "observation_id": "dd58fdb050cb615c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "unity",
+  "source_context_snippet": "[\u7e41\u9ad4\u4e2d\u6587\u89e3\u8aaa\u770b\u9019\u88e1](README_chinese.md)",
+  "source_file": null,
+  "source_repo": "kwea123/Unity_live_caption",
+  "source_repo_description": "Use Google Speech-to-Text API to do real-time live stream caption on Unity! Best when combined with your virtual character!"
+}

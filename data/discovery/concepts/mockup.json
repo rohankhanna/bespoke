@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mockup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udc36 A simple pug server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/pugserver.svg?style=for-the-badge)](https://www.npmjs.com/package/pugserver)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctrlaltdev/pug-server",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/pugserver.svg?style=for-the-badge)](https://www.npmjs.com/package/pugserver)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027954,
+      "status": "candidate",
+      "text": "sketch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044938,
+      "status": "candidate",
+      "text": "mockups"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044937,
+      "status": "candidate",
+      "text": "prototype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044936,
+      "status": "candidate",
+      "text": "wireframe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044935,
+      "status": "candidate",
+      "text": "prototypes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mockup",
+  "concept_id": "mockup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ctrlaltdev/pug-server"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mockup",
+      "sense_id": "mockup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

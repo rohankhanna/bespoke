@@ -1,12 +1,17 @@
 {
   "component": "bitnami/support/.github/workflows/pr-review-comment.yml@96bc169b45aa483cf2bafaaee9dae80eabd96cac",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-review-hack.yml",
       "source_repo": "bitnami/vulndb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-review-hack.yml",
+      "source_repo": "bitnami/containers"
     }
   ]
 }

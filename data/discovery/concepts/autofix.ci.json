@@ -289,6 +289,66 @@
       "source_repo": "mitmproxy/mitmproxy",
       "status": "candidate-context",
       "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posva/unplugin-vue-router",
+      "status": "candidate-context",
+      "text": "Next Generation file based typed routing for Vue Router"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posva/unplugin-vue-router",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "9romise/eslint-import-resolver-oxc",
+      "status": "candidate-context",
+      "text": "A simply wrapped oxc-resolver for eslint-plugin-import-x"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-import-resolver-oxc",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate-context",
+      "text": "Monorepo for ESLint Stylistic plugins and configs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to approve pull requests securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to update pull request branches securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate-context",
+      "text": "autofix.ci"
     }
   ],
   "candidate_glosses": [
@@ -439,6 +499,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mitmproxy/mitmproxy",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posva/unplugin-vue-router",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "9romise/eslint-import-resolver-oxc",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-stylistic/eslint-stylistic",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/update-branch-action",
       "status": "candidate",
       "text": "autofix.ci"
     }
@@ -640,11 +730,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "mitmproxy/mitmproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "unocss/unocss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "posva/unplugin-vue-router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "9romise/eslint-import-resolver-oxc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "eslint-stylistic/eslint-stylistic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "vuejs/devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "csm-actions/approve-pr-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "csm-actions/update-branch-action"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

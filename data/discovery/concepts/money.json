@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "money"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RubyMoney/money",
+      "status": "candidate-context",
+      "text": "A Ruby Library for dealing with money and currency conversion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RubyMoney/money",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/money.svg)](https://rubygems.org/gems/money)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RubyMoney/money",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/money.svg)](https://rubygems.org/gems/money)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041916,
+      "status": "candidate",
+      "text": "rich"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041869,
+      "status": "candidate",
+      "text": "monied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041859,
+      "status": "candidate",
+      "text": "wealthy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041807,
+      "status": "candidate",
+      "text": "affluent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008760,
+      "status": "candidate",
+      "text": "loaded"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "money",
+  "concept_id": "money",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "RubyMoney/money"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "money",
+      "sense_id": "money#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "controlplaneio-fluxcd/flux-operator/actions/setup@8fc996ab460c0aee9e02397fefaad1ff78f4e7bb",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-catalog.yaml",
+      "source_repo": "fluxcd/flux-schema"
+    }
+  ]
+}

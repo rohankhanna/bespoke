@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat",
+      "target": "humanaigc-engineering/openavatarchat-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat",
+      "target": "humanaigc-engineering/gradio-webrtc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat",
+      "target": "humanaigc/lite-avatar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat",
+      "target": "aigc3d/lam_audio2expression",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "HumanAIGC-Engineering/OpenAvatarChat",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:23.130098+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7107
+    },
+    {
+      "path": "Dockerfile",
+      "size": 6254
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2132
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "HumanAIGC-Engineering/OpenAvatarChat",
+    "html_url": "https://github.com/HumanAIGC-Engineering/OpenAvatarChat",
+    "language": "Python",
+    "pushed_at": "2026-04-26T13:50:02Z",
+    "stargazers_count": 3389,
+    "topics": [],
+    "updated_at": "2026-05-02T14:39:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aigc3d/lam_audio2expression",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humanaigc-engineering/gradio-webrtc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humanaigc-engineering/openavatarchat-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humanaigc/lite-avatar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy Docs"
+    }
+  ]
+}

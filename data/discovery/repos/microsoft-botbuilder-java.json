@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-parity-issue.yml"
+    },
+    {
+      "component": "joshgummersall/create-issue@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-parity-issue.yml"
+    },
+    {
+      "component": "joshgummersall/pr-style@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-style.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/botbuilder-java",
+      "target": "microsoft/botbuilder-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-parity-issue.yml",
+      "source_repo": "microsoft/botbuilder-java",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-parity-issue.yml",
+      "source_repo": "microsoft/botbuilder-java",
+      "target": "joshgummersall/create-issue@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-style.yml",
+      "source_repo": "microsoft/botbuilder-java",
+      "target": "joshgummersall/pr-style@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-java",
+      "target": "bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-java",
+      "target": "bots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-java",
+      "target": "java-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-java",
+      "target": "microsoft-bot-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-java",
+      "target": "microsoft-cognitive-services",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:52:15.981598+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8399
+    },
+    {
+      "path": ".github/workflows/create-parity-issue.yml",
+      "size": 1345
+    },
+    {
+      "path": ".github/workflows/pr-style.yml",
+      "size": 348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The Microsoft Bot Framework provides what you need to build and connect intelligent bots that interact naturally wherever your users are talking, from text/sms to Skype, Slack, Office 365 mail and other popular services.",
+    "fork": false,
+    "full_name": "microsoft/botbuilder-java",
+    "html_url": "https://github.com/microsoft/botbuilder-java",
+    "language": "Java",
+    "pushed_at": "2023-11-22T16:25:40Z",
+    "stargazers_count": 189,
+    "topics": [
+      "bot",
+      "bot-framework",
+      "bots",
+      "java-sdk",
+      "microsoft-bot-framework",
+      "microsoft-cognitive-services"
+    ],
+    "updated_at": "2026-04-03T15:00:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botbuilder-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**The Bot Framework Java SDK is being retired with final long-term support ending in November 2023, after which this repository will be archived. There will be no further feature development, with only critical security and bug fixes within this repository being undertaken. Exis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bot-framework"
+    },
+    {
+      "context_snippet": "**The Bot Framework Java SDK is being retired with final long-term support ending in November 2023, after which this repository will be archived. There will be no further feature development, with only critical security and bug fixes within this repository being undertaken. Exis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bots"
+    },
+    {
+      "context_snippet": "**The Bot Framework Java SDK is being retired with final long-term support ending in November 2023, after which this repository will be archived. There will be no further feature development, with only critical security and bug fixes within this repository being undertaken. Exis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-sdk"
+    },
+    {
+      "context_snippet": "**The Bot Framework Java SDK is being retired with final long-term support ending in November 2023, after which this repository will be archived. There will be no further feature development, with only critical security and bug fixes within this repository being undertaken. Exis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-bot-framework"
+    },
+    {
+      "context_snippet": "**The Bot Framework Java SDK is being retired with final long-term support ending in November 2023, after which this repository will be archived. There will be no further feature development, with only critical security and bug fixes within this repository being undertaken. Exis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-cognitive-services"
+    }
+  ]
+}

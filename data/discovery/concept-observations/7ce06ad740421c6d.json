@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Comprehensive MCP server providing real-time framework documentation access for Claude Code with intelligent caching, multi-source integration, and context-aware assistance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Augments MCP Server](https://raw.githubusercontent.com/augmnt/augments-mcp-server/main/banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Augments MCP Server](https://raw.githubusercontent.com/augmnt/augments-mcp-server/main/banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899019,
+      "status": "candidate",
+      "text": "fabric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39888808,
+      "status": "candidate",
+      "text": "framing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39862858,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39839038,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29900322,
+      "status": "candidate",
+      "text": "theoretical account"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "framework",
+      "sense_id": "framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33077,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25085,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6040,
+      "status": "candidate",
+      "text": "framing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5045,
+      "status": "candidate",
+      "text": "fabric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1009,
+      "status": "candidate",
+      "text": "theoretical account"
+    }
+  ],
+  "concept_id": "framework",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "framework",
+  "observation_id": "7ce06ad740421c6d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "framework",
+  "source_context_snippet": "![Augments MCP Server](https://raw.githubusercontent.com/augmnt/augments-mcp-server/main/banner.png)",
+  "source_file": null,
+  "source_repo": "augmnt/augments-mcp-server",
+  "source_repo_description": "Comprehensive MCP server providing real-time framework documentation access for Claude Code with intelligent caching, multi-source integration, and context-aware assistance."
+}

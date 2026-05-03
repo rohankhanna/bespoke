@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[CVPR 2021] SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinnet-learning-a-general-surface-descriptor/point-cloud-registration-on-3dmatch-benchmark)](https://paperswithcode.com/sota/point-cloud-registration-on-3dmatch-benchmark?p=spinnet-learning-a-gener\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinnet-learning-a-general-surface-descriptor/point-cloud-registration-on-3dmatch-benchmark)](https://paperswithcode.com/sota/point-cloud-registration-on-3dmatch-benchmark?p=spinnet-learning-a-gener\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047036,
+      "status": "candidate",
+      "text": "generality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041826,
+      "status": "candidate",
+      "text": "inductive reasoning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031027,
+      "status": "candidate",
+      "text": "induction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005723,
+      "status": "candidate",
+      "text": "transfer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989226,
+      "status": "candidate",
+      "text": "abstraction"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "generalization",
+      "sense_id": "generalization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21073,
+      "status": "candidate",
+      "text": "transfer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19071,
+      "status": "candidate",
+      "text": "induction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14044,
+      "status": "candidate",
+      "text": "abstraction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2019,
+      "status": "candidate",
+      "text": "inductive reasoning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1032,
+      "status": "candidate",
+      "text": "generality"
+    }
+  ],
+  "concept_id": "generalization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generalization",
+  "observation_id": "d264f6b608c92317",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "generalization",
+  "source_context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinnet-learning-a-general-surface-descriptor/point-cloud-registration-on-3dmatch-benchmark)](https://paperswithcode.com/sota/point-cloud-registration-on-3dmatch-benchmark?p=spinnet-learning-a-gener\u2026",
+  "source_file": null,
+  "source_repo": "QingyongHu/SpinNet",
+  "source_repo_description": "[CVPR 2021] SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration"
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdamFrey/clojure-html-server-live-reload-template",
+      "target": "weavejester/ring-refresh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdamFrey/clojure-html-server-live-reload-template",
+      "target": "keychera/panas.reload",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:53:28.825428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Template for setting up automatic reload for Clojure server-rendered HTML.",
+    "fork": false,
+    "full_name": "AdamFrey/clojure-html-server-live-reload-template",
+    "html_url": "https://github.com/AdamFrey/clojure-html-server-live-reload-template",
+    "language": "Clojure",
+    "pushed_at": "2023-09-03T00:59:06Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2023-12-19T20:37:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keychera/panas.reload",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weavejester/ring-refresh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

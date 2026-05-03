@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "greglook/clj-arrangement",
+      "target": "sorting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:54:00.368116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Micro-library to provide a total-ordering comparator for Clojure.",
+    "fork": false,
+    "full_name": "greglook/clj-arrangement",
+    "html_url": "https://github.com/greglook/clj-arrangement",
+    "language": "Clojure",
+    "pushed_at": "2022-11-05T18:04:51Z",
+    "stargazers_count": 20,
+    "topics": [
+      "sorting"
+    ],
+    "updated_at": "2022-11-24T15:47:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Arrangement",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sorting"
+    }
+  ]
+}

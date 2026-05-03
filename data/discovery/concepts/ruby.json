@@ -1882,6 +1882,144 @@
       "source_repo": "cucumber/aruba",
       "status": "candidate-context",
       "text": "[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cucumber/aruba/main/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countries/countries",
+      "status": "candidate-context",
+      "text": "All sorts of useful information about every country packaged as convenient little country objects. It includes data from ISO 3166 (countries and states/subdivisions ), ISO 4217 (currency), and E.164 (phone numbers)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries",
+      "status": "candidate-context",
+      "text": "Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1 (countries), ISO3166-2 (states/subdivisions), ISO4217 (currency) and E.164 (phone numbers)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate-context",
+      "text": "StandardRB Action: A GitHub Action to run StandardRB against your code!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "status": "candidate-context",
+      "text": "A collection of RuboCop rules for Sorbet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "status": "candidate-context",
+      "text": "A collection of Rubocop rules for Sorbet."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate-context",
+      "text": "Ruby wrapper for the Qdrant vector search database API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/ruby-style-guide",
+      "status": "candidate-context",
+      "text": "A community-driven Ruby coding style guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/ruby-style-guide",
+      "status": "candidate-context",
+      "text": "Spell Checking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "varvet/pundit",
+      "status": "candidate-context",
+      "text": "Minimal authorization through OO design and pure Ruby classes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "varvet/pundit",
+      "status": "candidate-context",
+      "text": "[![Main](https://github.com/varvet/pundit/actions/workflows/main.yml/badge.svg)](https://github.com/varvet/pundit/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sclorg/s2i-ruby-container",
+      "status": "candidate-context",
+      "text": "Ruby container images based on Red Hat Software Collections and intended for OpenShift and general usage, that provide a platform for building and running Ruby applications. Users can choose between Red Hat Enterprise Linux, Fedora, and CentOS based images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-ruby-container",
+      "status": "candidate-context",
+      "text": "Ruby container images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RubyMoney/money",
+      "status": "candidate-context",
+      "text": "A Ruby Library for dealing with money and currency conversion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RubyMoney/money",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RubyMoney/money",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/money.svg)](https://rubygems.org/gems/money)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "status": "candidate-context",
+      "text": "Fully tested Ruby Windows Mingw, ucrt & mswin builds. Available on GitHub Actions via setup-ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "status": "candidate-context",
+      "text": "[![ucrt](https://github.com/MSP-Greg/ruby-loco/workflows/ucrt/badge.svg)](https://github.com/MSP-Greg/ruby-loco/actions?query=workflow%3Acucrt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate-context",
+      "text": "A Ruby library for testing your library against different versions of dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate-context",
+      "text": "Appraisal"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "A set of RSpec matchers for testing Pundit authorisation policies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate-context",
+      "text": "[![Gem Version][version-badge]][rubygems]"
     }
   ],
   "candidate_glosses": [
@@ -2838,6 +2976,78 @@
       "source_repo": "cucumber/aruba",
       "status": "candidate",
       "text": "[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/cucumber/aruba/main/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries",
+      "status": "candidate",
+      "text": "Countries is a collection of all sorts of useful information for every country in the ISO 3166 standard. It contains info for the following standards ISO3166-1 (countries), ISO3166-2 (states/subdivisions), ISO4217 (currency) and E.164 (phone numbers)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andrewmcodes/standardrb-action",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shopify/rubocop-sorbet",
+      "status": "candidate",
+      "text": "A collection of Rubocop rules for Sorbet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patterns-ai-core/qdrant-ruby",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/ruby-style-guide",
+      "status": "candidate",
+      "text": "Spell Checking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "varvet/pundit",
+      "status": "candidate",
+      "text": "[![Main](https://github.com/varvet/pundit/actions/workflows/main.yml/badge.svg)](https://github.com/varvet/pundit/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sclorg/s2i-ruby-container",
+      "status": "candidate",
+      "text": "Ruby container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RubyMoney/money",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RubyMoney/money",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/money.svg)](https://rubygems.org/gems/money)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "status": "candidate",
+      "text": "[![ucrt](https://github.com/MSP-Greg/ruby-loco/workflows/ucrt/badge.svg)](https://github.com/MSP-Greg/ruby-loco/actions?query=workflow%3Acucrt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate",
+      "text": "Appraisal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pundit-community/pundit-matchers",
+      "status": "candidate",
+      "text": "[![Gem Version][version-badge]][rubygems]"
     }
   ],
   "candidate_related_terms": [
@@ -4045,11 +4255,125 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "cucumber/aruba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "countries/countries"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "andrewmcodes/standardrb-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Shopify/rubocop-sorbet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "standardrb/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "patterns-ai-core/qdrant-ruby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/ruby-style-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "paper-trail-gem/paper_trail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "varvet/pundit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heartcombo/devise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sclorg/s2i-ruby-container"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "RubyMoney/money"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "RubyMoney/money"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MSP-Greg/ruby-loco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "thoughtbot/appraisal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pundit-community/pundit-matchers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "minitest/minitest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "karafka/rdkafka-ruby"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

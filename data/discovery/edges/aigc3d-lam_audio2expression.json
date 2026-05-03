@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LAM_Audio2Expression",
+      "target": "aigc3d/lam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LAM_Audio2Expression",
+      "target": "facebookresearch/meshtalk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LAM_Audio2Expression",
+      "target": "pointcept/pointcept",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LAM_Audio2Expression",
+      "target": "aigc3d/lhm",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "aigc3d/LAM_Audio2Expression"
+}

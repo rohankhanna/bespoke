@@ -249,7 +249,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T19:44:18.232501+00:00",
+  "fetched_at": "2026-05-03T02:52:50.689083+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -301,8 +301,8 @@
     "full_name": "containers/podman",
     "html_url": "https://github.com/containers/podman",
     "language": "Go",
-    "pushed_at": "2026-05-01T18:37:36Z",
-    "stargazers_count": 31566,
+    "pushed_at": "2026-05-03T00:44:01Z",
+    "stargazers_count": 31568,
     "topics": [
       "containers",
       "docker",
@@ -310,7 +310,7 @@
       "linux",
       "oci"
     ],
-    "updated_at": "2026-05-02T18:43:15Z"
+    "updated_at": "2026-05-03T02:27:52Z"
   },
   "repo_links": [
     {

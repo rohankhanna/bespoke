@@ -1,7 +1,7 @@
 {
   "component": "release-drafter/release-drafter@v6",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release_draft.yml",
       "source_repo": "obsei/obsei"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-draft.yml",
+      "source_repo": "coverlet-coverage/coverlet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "sbt/sbt-native-packager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sbt/sbt-native-packager"
     }
   ]
 }

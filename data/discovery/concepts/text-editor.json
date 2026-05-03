@@ -79,6 +79,18 @@
       "source_repo": "lite-xl/lite-xl",
       "status": "candidate-context",
       "text": "[![CI]](https://github.com/lite-xl/lite-xl/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "status": "candidate-context",
+      "text": "An Obsidian.md plugin that adds a minimal text editor modal for a smoother writing/editing experience \u270d\ud83c\udffd."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "status": "candidate-context",
+      "text": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "lite-xl/lite-xl",
       "status": "candidate",
       "text": "[![CI]](https://github.com/lite-xl/lite-xl/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "status": "candidate",
+      "text": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "lite-xl/lite-xl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

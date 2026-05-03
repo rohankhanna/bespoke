@@ -193,6 +193,198 @@
       "source_repo": "kepano/obsidian-minimal",
       "status": "candidate-context",
       "text": "![](/cover.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SilentVoid13/Templater",
+      "status": "candidate-context",
+      "text": "A template plugin for obsidian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SilentVoid13/Templater",
+      "status": "candidate-context",
+      "text": "![templater_logo](./imgs/templater_logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11",
+      "status": "candidate-context",
+      "text": "A simple theme that makes Obsidian feels a bit more like a modern app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vinzent03/obsidian-git",
+      "status": "candidate-context",
+      "text": "Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinzent03/obsidian-git",
+      "status": "candidate-context",
+      "text": "A powerful community plugin for [Obsidian.md](Obsidian.md) that brings Git integration right into your vault. Automatically commit, pull, push, and see your changes \u2014 all within Obsidian."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/obsidian-hider",
+      "status": "candidate-context",
+      "text": "Hide Obsidian UI elements such as tooltips, status, titlebar and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-hider",
+      "status": "candidate-context",
+      "text": "This plugin enables you to hide certain parts of the Obsidian UI. Note that your CSS theme may override Hider."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kepano/obsidian-minimal-publish",
+      "status": "candidate-context",
+      "text": "Minimal Theme for Obsidian Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal-publish",
+      "status": "candidate-context",
+      "text": "Minimal Publish is a stripped-down version of [Minimal Theme](https://github.com/kepano/obsidian-minimal) for [Obsidian Publish](https://obsidian.md/publish). The theme was rewritten from scratch to optimize loading speed."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "status": "candidate-context",
+      "text": "A foundational Obsidian theme as the baseline of your thoughts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "status": "candidate-context",
+      "text": "A native look and feel Obsidian theme crafted for the way you think."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "status": "candidate-context",
+      "text": "A radically modern theme for Obsidian. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "status": "candidate-context",
+      "text": "![poster](./assets/poster.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "status": "candidate-context",
+      "text": "A minimal and aesthetically pleasing highlighting menu that makes color-coded highlighting much easier \ud83c\udfa8."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "status": "candidate-context",
+      "text": "![Highlightr-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/Highlightr-Plugin/total.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "status": "candidate-context",
+      "text": "Take advantage of YAML front-matter in generating notes from templates (for obsidian.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "status": "candidate-context",
+      "text": "Take advantage of YAML front-matter in generating notes from templates"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "garyng/obsidian-temple",
+      "status": "candidate-context",
+      "text": "A plugin for templating in Obsidian, powered by Nunjucks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garyng/obsidian-temple",
+      "status": "candidate-context",
+      "text": "![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/garyng/obsidian-temple?label=release&style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "javalent/obsidian-leaflet",
+      "status": "candidate-context",
+      "text": "Adds interactive maps to Obsidian.md using Leaflet.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "javalent/obsidian-leaflet",
+      "status": "candidate-context",
+      "text": "> **Development Status**: Maintenance Mode"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "status": "candidate-context",
+      "text": "An initiative to standardize the Alternative Checkboxes feature commonly used by the community in Obsidian.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/damiankorczAlternative-Checkboxes-Reference-Set/releases\"><img src=\"https://img.shields.io/github/v/release/damiankorcz/Alternative-Checkboxes-Reference-Set?style=for-the-badge&color=%23A47B61&labelColor=%23252525&logo=data:image/png;base64,iVBORw0KGg\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdanielmourao/obsidian-sanctum",
+      "status": "candidate-context",
+      "text": "A minimalist theme for Obsidian.md, with the aim of creating a serene space of retreat, for thought and uninterrupted work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdanielmourao/obsidian-sanctum",
+      "status": "candidate-context",
+      "text": "- The sidenote syntax has changed (they are now callouts. Example: `>[!aside|left]` will give a left aligned callout. If you want to make it go further left, you can add up to 5 `+` next to the `left` information (for example: `>[!aside|left +++++]` will push the sidenote to the\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bladeacer/flexcyon",
+      "status": "candidate-context",
+      "text": "An Obsidian.md theme combining the colour schemes of Halcyon and Flexoki"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bladeacer/flexcyon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "status": "candidate-context",
+      "text": "An Obsidian.md plugin that adds a minimal text editor modal for a smoother writing/editing experience \u270d\ud83c\udffd."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "status": "candidate-context",
+      "text": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)"
     }
   ],
   "candidate_glosses": [
@@ -291,6 +483,102 @@
       "source_repo": "kepano/obsidian-minimal",
       "status": "candidate",
       "text": "![](/cover.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SilentVoid13/Templater",
+      "status": "candidate",
+      "text": "![templater_logo](./imgs/templater_logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vinzent03/obsidian-git",
+      "status": "candidate",
+      "text": "A powerful community plugin for [Obsidian.md](Obsidian.md) that brings Git integration right into your vault. Automatically commit, pull, push, and see your changes \u2014 all within Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-hider",
+      "status": "candidate",
+      "text": "This plugin enables you to hide certain parts of the Obsidian UI. Note that your CSS theme may override Hider."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kepano/obsidian-minimal-publish",
+      "status": "candidate",
+      "text": "Minimal Publish is a stripped-down version of [Minimal Theme](https://github.com/kepano/obsidian-minimal) for [Obsidian Publish](https://obsidian.md/publish). The theme was rewritten from scratch to optimize loading speed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaaaalexis/obsidian-baseline",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaaaalexis/obsidian-cupertino",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity",
+      "status": "candidate",
+      "text": "![poster](./assets/poster.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin",
+      "status": "candidate",
+      "text": "![Highlightr-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/Highlightr-Plugin/total.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avirut/obsidian-metatemplates",
+      "status": "candidate",
+      "text": "Take advantage of YAML front-matter in generating notes from templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garyng/obsidian-temple",
+      "status": "candidate",
+      "text": "![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/garyng/obsidian-temple?label=release&style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "javalent/obsidian-leaflet",
+      "status": "candidate",
+      "text": "> **Development Status**: Maintenance Mode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/damiankorczAlternative-Checkboxes-Reference-Set/releases\"><img src=\"https://img.shields.io/github/v/release/damiankorcz/Alternative-Checkboxes-Reference-Set?style=for-the-badge&color=%23A47B61&labelColor=%23252525&logo=data:image/png;base64,iVBORw0KGg\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdanielmourao/obsidian-sanctum",
+      "status": "candidate",
+      "text": "- The sidenote syntax has changed (they are now callouts. Example: `>[!aside|left]` will give a left aligned callout. If you want to make it go further left, you can add up to 5 `+` next to the `left` information (for example: `>[!aside|left +++++]` will push the sidenote to the\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bladeacer/flexcyon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin",
+      "status": "candidate",
+      "text": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +688,113 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "obsidian-community/obsidian-style-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "SilentVoid13/Templater"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hydescarf/Obsidian-Theme-Mado-11"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-style-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Vinzent03/obsidian-git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-hider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "kepano/obsidian-minimal-publish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-baseline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aaaaalexis/obsidian-cupertino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Gonzalo-D-Sales/obsidian-velocity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/Highlightr-Plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "avirut/obsidian-metatemplates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "garyng/obsidian-temple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "javalent/obsidian-leaflet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "damiankorcz/Alternative-Checkboxes-Reference-Set"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jdanielmourao/obsidian-sanctum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bladeacer/flexcyon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chetachiezikeuzor/cMenu-Plugin"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

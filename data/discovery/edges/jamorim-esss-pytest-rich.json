@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.rst",
       "source_repo": "Jamorim-esss/pytest-rich",
-      "target": "zen-xu/pytest-modern",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "Jamorim-esss/pytest-rich",
       "target": "audreyr/cookiecutter",
       "target_type": "repository"
     },
@@ -99,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "Jamorim-esss/pytest-rich"
 }

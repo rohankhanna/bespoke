@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mathux/TEMOS",
+      "target": "anindita127/complextext2animation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mathux/TEMOS",
+      "target": "nghorbani/moshpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mathux/TEMOS",
+      "target": "chahuja/language2pose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mathux/TEMOS",
+      "target": "human-motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mathux/TEMOS",
+      "target": "motion-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mathux/TEMOS",
+      "target": "text-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:18.608194+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15860
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official PyTorch implementation of the paper \"TEMOS: Generating diverse human motions from textual descriptions\", ECCV 2022 (Oral)",
+    "fork": false,
+    "full_name": "Mathux/TEMOS",
+    "html_url": "https://github.com/Mathux/TEMOS",
+    "language": "Python",
+    "pushed_at": "2023-12-13T18:39:05Z",
+    "stargazers_count": 450,
+    "topics": [
+      "human-motion",
+      "motion-generation",
+      "text-analysis"
+    ],
+    "updated_at": "2026-05-01T19:42:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anindita127/complextext2animation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chahuja/language2pose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nghorbani/moshpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-motion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-analysis"
+    }
+  ]
+}

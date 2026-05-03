@@ -84,7 +84,7 @@
   "normalized_form": "node-nightly-ci",
   "observation_id": "223c4997d93cd8d8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Node Nightly CI",
   "source_context_snippet": "Node Nightly CI",
   "source_file": ".github/workflows/nightly.yml",

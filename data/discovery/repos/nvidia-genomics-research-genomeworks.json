@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "target": "clara-parabricks/genomeworks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "target": "alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "target": "mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "target": "partial-order-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks",
+      "target": "python-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:54:34.367185+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "SDK for GPU accelerated genome assembly and analysis",
+    "fork": false,
+    "full_name": "NVIDIA-Genomics-Research/GenomeWorks",
+    "html_url": "https://github.com/NVIDIA-Genomics-Research/GenomeWorks",
+    "language": "Cuda",
+    "pushed_at": "2024-05-03T19:45:20Z",
+    "stargazers_count": 301,
+    "topics": [
+      "alignment",
+      "cuda",
+      "genomics",
+      "gpu",
+      "mapping",
+      "nvidia",
+      "partial-order-alignment",
+      "poa",
+      "python-api"
+    ],
+    "updated_at": "2026-05-01T05:49:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clara-parabricks/genomeworks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment"
+    },
+    {
+      "context_snippet": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapping"
+    },
+    {
+      "context_snippet": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "partial-order-alignment"
+    },
+    {
+      "context_snippet": "GenomeWorks is a GPU-accelerated library for biological sequence analysis. This section provides a brief overview of the different components of GenomeWorks.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-api"
+    }
+  ]
+}

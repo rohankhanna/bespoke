@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A curated list of awesome Lit resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> A curated list of awesome Lit resources."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> A curated list of awesome Lit resources."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "awesome-list",
+      "sense_id": "awesome-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "awesome-list",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "awesome-list",
+  "observation_id": "7986c14c1286b829",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "awesome-list",
+  "source_context_snippet": "> A curated list of awesome Lit resources.",
+  "source_file": null,
+  "source_repo": "web-padawan/awesome-lit",
+  "source_repo_description": "A curated list of awesome Lit resources."
+}

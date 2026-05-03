@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29437950,
+      "status": "candidate",
+      "text": "space"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29369591,
+      "status": "candidate",
+      "text": "straw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19720556,
+      "status": "candidate",
+      "text": "angel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19720555,
+      "status": "candidate",
+      "text": "athletic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19720554,
+      "status": "candidate",
+      "text": "cardinal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "astro",
+      "sense_id": "astro#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "astro",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "astro",
+  "observation_id": "5f9c0dc0706a649b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "astro",
+  "source_context_snippet": "![Build the web you want](.github/assets/banner.jpg 'Build the web you want')",
+  "source_file": null,
+  "source_repo": "withastro/astro",
+  "source_repo_description": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!"
+}

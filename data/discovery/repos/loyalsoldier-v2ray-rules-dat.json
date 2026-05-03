@@ -1,0 +1,415 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "eycorsican/leaf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "17mon/china_ip_list",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "cokebar/gfwlist2dnsmasq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "crazy-max/windowsspyblocker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "Build V2Ray rules dat files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "adguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "anticensorship",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "chinalist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "dnsmasq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "easylist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "geoip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "geosite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "gfwlist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "hysteria",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "ipv4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "ipv6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "mihomo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "routing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "trojan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "trojan-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "v2ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Loyalsoldier/v2ray-rules-dat",
+      "target": "xray",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:35.726989+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20499
+    },
+    {
+      "path": ".github/workflows/run.yml",
+      "size": 13113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\udd84 \ud83c\udf83 \ud83d\udc7b V2Ray \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 geoip.dat \u548c geosite.dat\uff0c\u9002\u7528\u4e8e V2Ray\u3001Xray-core\u3001mihomo(Clash-Meta)\u3001hysteria\u3001Trojan-Go \u548c leaf\u3002Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go and leaf.",
+    "fork": false,
+    "full_name": "Loyalsoldier/v2ray-rules-dat",
+    "html_url": "https://github.com/Loyalsoldier/v2ray-rules-dat",
+    "language": null,
+    "pushed_at": "2026-05-02T22:34:48Z",
+    "stargazers_count": 19612,
+    "topics": [
+      "adblock",
+      "adguard",
+      "anticensorship",
+      "chinalist",
+      "dnsmasq",
+      "easylist",
+      "geoip",
+      "geosite",
+      "gfw",
+      "gfwlist",
+      "hysteria",
+      "ipv4",
+      "ipv6",
+      "mihomo",
+      "proxy",
+      "routing",
+      "trojan",
+      "trojan-go",
+      "v2ray",
+      "xray"
+    ],
+    "updated_at": "2026-05-03T02:21:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "17mon/china_ip_list",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cokebar/gfwlist2dnsmasq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crazy-max/windowsspyblocker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eycorsican/leaf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build V2Ray rules dat files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run.yml",
+      "term": "Build V2Ray rules dat files"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adblock"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adguard"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anticensorship"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinalist"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnsmasq"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "easylist"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geoip"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geosite"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gfwlist"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hysteria"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipv4"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipv6"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mihomo"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "routing"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trojan"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trojan-go"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "v2ray"
+    },
+    {
+      "context_snippet": "[**V2Ray**](https://github.com/v2fly/v2ray-core) \u8def\u7531\u89c4\u5219\u6587\u4ef6\u52a0\u5f3a\u7248\uff0c\u53ef\u4ee3\u66ff V2Ray \u5b98\u65b9 `geoip.dat` \u548c `geosite.dat`\uff0c\u9002\u7528\u4e8e [V2Ray](https://github.com/v2fly/v2ray-core)\u3001[Xray-core](https://github.com/XTLS/Xray-core)\u3001[mihomo](https://github.com/MetaCubeX/mihomo/tree/Meta)\u3001[hysteria](https://github.c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Commands and tools for building conda packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Review builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Review builds"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11075,
+      "status": "candidate",
+      "text": "builder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11075,
+      "status": "candidate",
+      "text": "follow-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11075,
+      "status": "candidate",
+      "text": "followup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11075,
+      "status": "candidate",
+      "text": "gadgeteer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10978,
+      "status": "candidate",
+      "text": "addressed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Review builds",
+      "sense_id": "review-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "review-builds",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "review-builds",
+  "observation_id": "f53258d8fd72eb0e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Review builds",
+  "source_context_snippet": "Review builds",
+  "source_file": ".github/workflows/builds-review.yaml",
+  "source_repo": "conda/conda-build",
+  "source_repo_description": "Commands and tools for building conda packages"
+}

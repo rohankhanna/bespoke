@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -277,6 +277,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "huggingface/xet-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench-regression.yml",
+      "source_repo": "go-git/go-billy"
     }
   ]
 }

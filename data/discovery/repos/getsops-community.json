@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "EndBug/label-sync@da00f2c11fdb78e4fae44adac2fdd713778ea3e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getsops/community",
+      "target": "cncf/sandbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-labels.yaml",
+      "source_repo": "getsops/community",
+      "target": "EndBug/label-sync@da00f2c11fdb78e4fae44adac2fdd713778ea3e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-labels.yaml",
+      "source_repo": "getsops/community",
+      "target": "Sync labels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:57:24.624673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 443
+    },
+    {
+      "path": ".github/workflows/sync-labels.yaml",
+      "size": 607
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SOPS community content",
+    "fork": false,
+    "full_name": "getsops/community",
+    "html_url": "https://github.com/getsops/community",
+    "language": null,
+    "pushed_at": "2024-03-12T06:28:53Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-08-19T06:46:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/sandbox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sync labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-labels.yaml",
+      "term": "Sync labels"
+    }
+  ]
+}

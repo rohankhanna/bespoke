@@ -1,0 +1,22 @@
+{
+  "component": "csm-actions/securefix-action@4d885e1bcb71f4f110215c833002ce9fa0ee0fa6",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/securefix.yaml",
+      "source_repo": "csm-actions/demo-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yaml",
+      "source_repo": "csm-actions/demo-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/securefix.yaml",
+      "source_repo": "csm-actions/demo-server"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-flutter",
+      "target": "appwrite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-flutter",
+      "target": "baas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-flutter",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-flutter",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:58:04.233823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple examples that help you get started with Appwrite + Flutter (=\u2764\ufe0f)",
+    "fork": false,
+    "full_name": "appwrite/playground-for-flutter",
+    "html_url": "https://github.com/appwrite/playground-for-flutter",
+    "language": "C++",
+    "pushed_at": "2026-01-01T08:12:17Z",
+    "stargazers_count": 127,
+    "topics": [
+      "appwrite",
+      "baas",
+      "flutter",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-02-25T00:10:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Flutter SDK. Use the source code of this page to learn how to use the different Appwrite Flutter SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appwrite"
+    },
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Flutter SDK. Use the source code of this page to learn how to use the different Appwrite Flutter SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baas"
+    },
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Flutter SDK. Use the source code of this page to learn how to use the different Appwrite Flutter SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Flutter SDK. Use the source code of this page to learn how to use the different Appwrite Flutter SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

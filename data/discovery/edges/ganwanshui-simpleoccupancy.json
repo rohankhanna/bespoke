@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/SimpleOccupancy",
+      "target": "ganwanshui/gaussianocc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/SimpleOccupancy",
+      "target": "aharley/simple_bev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/SimpleOccupancy",
+      "target": "weiyithu/surrounddepth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GANWANSHUI/SimpleOccupancy",
+      "target": "nvlabs/voxformer",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "GANWANSHUI/SimpleOccupancy"
+}

@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pr-labels.yml",
       "source_repo": "larksuite/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check-mergable-by-label.yml",
+      "source_repo": "faker-js/faker"
     }
   ],
   "term": "PR Labels"

@@ -2413,6 +2413,234 @@
       "source_repo": "naver/dune",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twhui/LiteFlowNet2",
+      "status": "candidate-context",
+      "text": "A Lightweight Optical Flow CNN - Revisiting Data Fidelity and Regularization, TPAMI 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet2",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twhui/LiteFlowNet3",
+      "status": "candidate-context",
+      "text": "LiteFlowNet3: Resolving Correspondence Ambiguity for More Accurate Optical Flow Estimation, ECCV 2020"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet3",
+      "status": "candidate-context",
+      "text": "<a href=\"https://github.com/twhui/LiteFlowNet3#Declaration\"> <strong>[Important] Declaration</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#Overview\"> <strong>Overview</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#cost-volume-modulation-cm\"> <str\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate-context",
+      "text": "[CVPR 2022] \"MonoScene: Monocular 3D Semantic Scene Completion\": 3D Semantic Occupancy Prediction from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate-context",
+      "text": "**MonoScene: Monocular 3D Semantic Scene Completion**\\"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ayumiymk/aster.pytorch",
+      "status": "candidate-context",
+      "text": "ASTER in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayumiymk/aster.pytorch",
+      "status": "candidate-context",
+      "text": "This repository implements the ASTER in pytorch. Origin software could be found in [here](https://github.com/bgshih/aster)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bgshih/aster",
+      "status": "candidate-context",
+      "text": "Recognizing cropped text in natural images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgshih/aster",
+      "status": "candidate-context",
+      "text": "ASTER is an accurate scene text recognizer with flexible rectification mechanism. The research paper can be found [here](https://ieeexplore.ieee.org/abstract/document/8395027/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sergeytulyakov/mocogan",
+      "status": "candidate-context",
+      "text": "MoCoGAN: Decomposing Motion and Content for Video Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sergeytulyakov/mocogan",
+      "status": "candidate-context",
+      "text": "This repository contains an implementation and further details of [MoCoGAN: Decomposing Motion and Content for Video Generation](http://arxiv.org/abs/1707.04993) by Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, Jan Kautz."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "status": "candidate-context",
+      "text": "Code to train the SimSiam model on cifar10 using PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "status": "candidate-context",
+      "text": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QingyongHu/SQN",
+      "status": "candidate-context",
+      "text": "SQN in Tensorflow (ECCV'2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/SQN",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2104.04891-b31b1b.svg)](https://arxiv.org/abs/2104.04891)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate-context",
+      "text": "[CVPR2023] The official repo for OC-SORT: Observation-Centric SORT on video Multi-Object Tracking. OC-SORT is simple, online and robust to occlusion/non-linear motion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate-context",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Guaishou74851/AdcSR",
+      "status": "candidate-context",
+      "text": "(CVPR 2025) Adversarial Diffusion Compression for Real-World Image Super-Resolution [PyTorch]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Guaishou74851/AdcSR",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nianticlabs/monodepth2",
+      "status": "candidate-context",
+      "text": "[ICCV 2019] Monocular depth estimation from a single image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/monodepth2",
+      "status": "candidate-context",
+      "text": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/AirSim",
+      "status": "candidate-context",
+      "text": "Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/AirSim",
+      "status": "candidate-context",
+      "text": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate-context",
+      "text": "[IROS2024] SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate-context",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate-context",
+      "text": "[IJCAI 2024]Official PyTorch Implementation of Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate-context",
+      "text": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nghorbani/moshpp",
+      "status": "candidate-context",
+      "text": "Motion and Shape Capture from Sparse Markers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/moshpp",
+      "status": "candidate-context",
+      "text": "This repository contains the official chumpy implementation of mocap body solver used for AMASS:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "SAPIEN Manipulation Skill Framework, an open source GPU parallelized robotics simulator and benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate-context",
+      "text": "![teaser](figures/teaser.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate-context",
+      "text": "The PyTorch improved version of TPAMI 2017 paper: Face Alignment in Full Pose Range: A 3D Total Solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate-context",
+      "text": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate-context",
+      "text": "Official repository accompanying a CVPR 2022 paper EMOCA: Emotion Driven Monocular Face Capture And Animation. EMOCA takes a single image of a face as input and produces a 3D reconstruction. EMOCA sets the new standard on reconstructing highly emotional images in-the-wild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate-context",
+      "text": "<!-- # EMOCA -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "A python library for self-supervised learning on images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate-context",
+      "text": "<a name=\"top\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -3621,6 +3849,120 @@
       "source_repo": "naver/dune",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet2",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"./figure/LiteFlowNet.png\" width=\"800\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twhui/LiteFlowNet3",
+      "status": "candidate",
+      "text": "<a href=\"https://github.com/twhui/LiteFlowNet3#Declaration\"> <strong>[Important] Declaration</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#Overview\"> <strong>Overview</strong></a> // <a href=\"https://github.com/twhui/LiteFlowNet3#cost-volume-modulation-cm\"> <str\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astra-vision/MonoScene",
+      "status": "candidate",
+      "text": "**MonoScene: Monocular 3D Semantic Scene Completion**\\"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayumiymk/aster.pytorch",
+      "status": "candidate",
+      "text": "This repository implements the ASTER in pytorch. Origin software could be found in [here](https://github.com/bgshih/aster)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgshih/aster",
+      "status": "candidate",
+      "text": "ASTER is an accurate scene text recognizer with flexible rectification mechanism. The research paper can be found [here](https://ieeexplore.ieee.org/abstract/document/8395027/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sergeytulyakov/mocogan",
+      "status": "candidate",
+      "text": "This repository contains an implementation and further details of [MoCoGAN: Decomposing Motion and Content for Video Generation](http://arxiv.org/abs/1707.04993) by Sergey Tulyakov, Ming-Yu Liu, Xiaodong Yang, Jan Kautz."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IgorSusmelj/simsiam-cifar10",
+      "status": "candidate",
+      "text": "A minimal PyTorch example of training [SimSiam](https://arxiv.org/abs/2011.10566)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QingyongHu/SQN",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2104.04891-b31b1b.svg)](https://arxiv.org/abs/2104.04891)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noahcao/OC_SORT",
+      "status": "candidate",
+      "text": "[![arXiv](https://img.shields.io/badge/arXiv-2203.14360-<COLOR>.svg)](https://arxiv.org/abs/2203.14360) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Guaishou74851/AdcSR",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nianticlabs/monodepth2",
+      "status": "candidate",
+      "text": "This is the reference PyTorch implementation for training and testing depth estimation models using the method described in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/AirSim",
+      "status": "candidate",
+      "text": "Microsoft and IAMAI collaborated to advance high-fidelity autonomy simulations through Project AirSim\u2014the evolution of AirSim\u2014 released under the MIT license as part of a DARPA-supported initiative. IAMAI is proud to have contributed to these efforts and has published its versio\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai4ce/SSCBench",
+      "status": "candidate",
+      "text": "[Yiming Li*](https://roboticsyimingli.github.io/),"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arlo0o/StereoScene",
+      "status": "candidate",
+      "text": "This repository contains the official implementation of the IJCAI2024 paper: \"Bridging Stereo Geometry and BEV Representation with Reliable Mutual Interaction for Semantic Scene Completion\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nghorbani/moshpp",
+      "status": "candidate",
+      "text": "This repository contains the official chumpy implementation of mocap body solver used for AMASS:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haosulab/ManiSkill",
+      "status": "candidate",
+      "text": "![teaser](figures/teaser.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA",
+      "status": "candidate",
+      "text": "FROM python:3.6-slim-stretch RUN apt-get -y update RUN apt-get install -y --fix-missing \\ build-essential \\ cmake \\ gfortran \\ git \\ wget \\ curl \\ libjpeg-dev \\ liblapack-dev \\ libswscale-dev \\ pkg-config \\ python3-numpy \\ zip \\ libboost-dev \\ libboost-all-dev \\ libsm6 \\ libxext\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate",
+      "text": "<!-- # EMOCA -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/lightly",
+      "status": "candidate",
+      "text": "<a name=\"top\"></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -5374,11 +5716,209 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "naver/dune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "twhui/LiteFlowNet3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/MonoScene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ayumiymk/aster.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bgshih/aster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sergeytulyakov/mocogan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "IgorSusmelj/simsiam-cifar10"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "QingyongHu/SQN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "noahcao/OC_SORT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Guaishou74851/AdcSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nianticlabs/monodepth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/AirSim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ai4ce/SSCBench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Arlo0o/StereoScene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nghorbani/moshpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "haosulab/ManiSkill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "radekd91/emoca"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/lightly"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

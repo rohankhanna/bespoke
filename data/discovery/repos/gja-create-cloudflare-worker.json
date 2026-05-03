@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "standard-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gja/create-cloudflare-worker",
+      "target": "standard-version",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:59:17.837582+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3429
+    },
+    {
+      "path": "package.json",
+      "size": 730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A starter kit for building a Cloudflare Worker",
+    "fork": false,
+    "full_name": "gja/create-cloudflare-worker",
+    "html_url": "https://github.com/gja/create-cloudflare-worker",
+    "language": "JavaScript",
+    "pushed_at": "2023-01-23T21:58:20Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-01-21T14:10:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

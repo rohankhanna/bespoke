@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HighFive - Header-only C++ HDF5 interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Integration Test Trigger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Integration Test Trigger"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26548,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26395,
+      "status": "candidate",
+      "text": "freedom rider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18667,
+      "status": "candidate",
+      "text": "accession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18667,
+      "status": "candidate",
+      "text": "involve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18642,
+      "status": "candidate",
+      "text": "area"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integration Test Trigger",
+      "sense_id": "integration-test-trigger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "integration-test-trigger",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "integration-test-trigger",
+  "observation_id": "be3722990b295923",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Integration Test Trigger",
+  "source_context_snippet": "Integration Test Trigger",
+  "source_file": ".github/workflows/integration_trigger.yml",
+  "source_repo": "BlueBrain/HighFive",
+  "source_repo_description": "HighFive - Header-only C++ HDF5 interface"
+}

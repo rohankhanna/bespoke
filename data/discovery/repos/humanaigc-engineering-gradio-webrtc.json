@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "rossjrw/pr-preview-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc",
+      "target": "freddyaboulton/fastrtc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc",
+      "target": "freddyaboulton/gradio-webrtc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc",
+      "target": "rossjrw/pr-preview-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "HumanAIGC-Engineering/gradio-webrtc",
+      "target": "docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:11.081689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5490
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2704
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "open-avatar-chat-0.3.0",
+    "description": "Realtime Video and Audio Streaming with WebRTC and Gradio",
+    "fork": true,
+    "full_name": "HumanAIGC-Engineering/gradio-webrtc",
+    "html_url": "https://github.com/HumanAIGC-Engineering/gradio-webrtc",
+    "language": "Svelte",
+    "pushed_at": "2025-06-30T15:11:13Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-21T10:23:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freddyaboulton/fastrtc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freddyaboulton/gradio-webrtc",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    }
+  ]
+}

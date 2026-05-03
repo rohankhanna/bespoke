@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "cypress-io/github-action@c495c3ddffba403ba11be95fffb67e25203b3799",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "cypress-io/github-action@c495c3ddffba403ba11be95fffb67e25203b3799",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "bolt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "cypher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "graph-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "movies-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "neo4j",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "neo4j-examples/movies-python-bolt"
+}

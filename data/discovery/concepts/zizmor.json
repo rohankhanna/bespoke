@@ -201,6 +201,18 @@
       "source_repo": "hynek/argon2-cffi-bindings",
       "status": "candidate-context",
       "text": "Zizmor \ud83c\udf08"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "A computer algebra system written in pure Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate-context",
+      "text": "zizmor"
     }
   ],
   "candidate_glosses": [
@@ -299,6 +311,12 @@
       "source_repo": "hynek/argon2-cffi-bindings",
       "status": "candidate",
       "text": "Zizmor \ud83c\udf08"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sympy/sympy",
+      "status": "candidate",
+      "text": "zizmor"
     }
   ],
   "candidate_related_terms": [],
@@ -408,11 +426,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "hynek/argon2-cffi-bindings"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "sympy/sympy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

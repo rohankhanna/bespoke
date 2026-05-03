@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "stroking-fishes-ml-corp/A-ESRGAN",
+      "target": "aergan/a-esrgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stroking-fishes-ml-corp/A-ESRGAN",
       "target": "aesrgan/a-esrgan",
       "target_type": "repository"
     },
@@ -16,7 +23,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-02T18:32:24.089701+00:00",
+  "fetched_at": "2026-05-03T04:01:36.392282+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -42,6 +49,11 @@
     "updated_at": "2026-04-18T06:21:44Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aergan/a-esrgan",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "aesrgan/a-esrgan",

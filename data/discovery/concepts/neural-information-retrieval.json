@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "neural-information-retrieval"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "status": "candidate-context",
+      "text": "An end-to-end neural ad-hoc ranking pipeline."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "status": "candidate-context",
+      "text": "An end-to-end neural ad-hoc ranking pipeline."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "status": "candidate",
+      "text": "An end-to-end neural ad-hoc ranking pipeline."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "neural-information-retrieval",
+  "concept_id": "neural-information-retrieval",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Georgetown-IR-Lab/OpenNIR"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-information-retrieval",
+      "sense_id": "neural-information-retrieval#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

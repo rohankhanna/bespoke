@@ -1138,6 +1138,30 @@
       "source_repo": "StevenBlack/hosts",
       "status": "candidate-context",
       "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate-context",
+      "text": "\ud83d\udc0a Policy Controller for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate-context",
+      "text": "Generate difference sets between Ruby sequences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halostatue/diff-lcs",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
     }
   ],
   "candidate_glosses": [
@@ -1702,6 +1726,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "StevenBlack/hosts",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-policy-agent/gatekeeper",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "halostatue/diff-lcs",
       "status": "candidate",
       "text": "'Dependency Review'"
     }
@@ -2437,11 +2473,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/depsreview.yaml",
       "source_repo": "StevenBlack/hosts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "open-policy-agent/gatekeeper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "webpack/mini-css-extract-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "halostatue/diff-lcs"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

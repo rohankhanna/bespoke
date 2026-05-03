@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vipera/cheap-ruler-rs",
+      "target": "mapbox/cheap-ruler-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "vipera/cheap-ruler-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "vipera/cheap-ruler-rs",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "vipera/cheap-ruler-rs",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vipera/cheap-ruler-rs",
+      "target": "bearing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vipera/cheap-ruler-rs",
+      "target": "distance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vipera/cheap-ruler-rs",
+      "target": "geodesic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vipera/cheap-ruler-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:22.265231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3599
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 580
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of very fast approximations to common geodesic measurements in Rust",
+    "fork": false,
+    "full_name": "vipera/cheap-ruler-rs",
+    "html_url": "https://github.com/vipera/cheap-ruler-rs",
+    "language": "Rust",
+    "pushed_at": "2025-02-06T09:43:12Z",
+    "stargazers_count": 10,
+    "topics": [
+      "bearing",
+      "distance",
+      "geodesic",
+      "rust"
+    ],
+    "updated_at": "2026-04-16T13:36:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/cheap-ruler-cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub Actions][actions badge]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bearing"
+    },
+    {
+      "context_snippet": "[![GitHub Actions][actions badge]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distance"
+    },
+    {
+      "context_snippet": "[![GitHub Actions][actions badge]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geodesic"
+    },
+    {
+      "context_snippet": "[![GitHub Actions][actions badge]][actions]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-docdeploy@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia-actions/julia-docdeploy@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "dimensionality-reduction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "isotonic-regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "linear-regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "multivariate-statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "ols-regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "ridge-regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaStats/MultivariateStats.jl",
+      "target": "statistics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:51:24.023663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1357
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 476
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Julia package for multivariate statistics and data analysis (e.g. dimension reduction)",
+    "fork": false,
+    "full_name": "JuliaStats/MultivariateStats.jl",
+    "html_url": "https://github.com/JuliaStats/MultivariateStats.jl",
+    "language": "Julia",
+    "pushed_at": "2026-04-17T19:25:23Z",
+    "stargazers_count": 386,
+    "topics": [
+      "cca",
+      "dimensionality-reduction",
+      "ica",
+      "isotonic-regression",
+      "julia",
+      "lda",
+      "linear-regression",
+      "mds",
+      "multivariate-statistics",
+      "ols-regression",
+      "pca",
+      "regression",
+      "ridge-regression",
+      "statistics"
+    ],
+    "updated_at": "2026-04-24T09:55:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dimensionality-reduction"
+    },
+    {
+      "context_snippet": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isotonic-regression"
+    },
+    {
+      "context_snippet": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-regression"
+    },
+    {
+      "context_snippet": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multivariate-statistics"
+    },
+    {
+      "context_snippet": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ols-regression"
+    },
+    {
+      "context_snippet": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regression"
+    },
+    {
+      "context_snippet": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ridge-regression"
+    },
+    {
+      "context_snippet": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "cs-chan/Total-Text-Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayumiymk/aster.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgshih/aster"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Canjie-Luo/MORAN_v2"
     }
   ],
   "term": "scene-text"

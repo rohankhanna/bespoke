@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "julia-actions/setup-julia@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "julia-actions/julia-runtest@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "julia-actions/julia-processcoverage@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "Unit test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "grayscale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/ColorVectorSpace.jl",
+      "target": "images",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:58:12.080028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6473
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 640
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 828
+    },
+    {
+      "path": ".github/workflows/UnitTest.yml",
+      "size": 1085
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Treat colors as if they are n-vectors for the purposes of arithmetic",
+    "fork": false,
+    "full_name": "JuliaGraphics/ColorVectorSpace.jl",
+    "html_url": "https://github.com/JuliaGraphics/ColorVectorSpace.jl",
+    "language": "Julia",
+    "pushed_at": "2026-03-30T23:09:01Z",
+    "stargazers_count": 55,
+    "topics": [
+      "grayscale",
+      "images",
+      "rgb"
+    ],
+    "updated_at": "2026-04-13T07:17:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    },
+    {
+      "context_snippet": "Unit test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "term": "Unit test"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/JuliaGraphics/ColorVectorSpace.jl/workflows/Unit%20test/badge.svg)](https://github.com/JuliaGraphics/ColorVectorSpace.jl/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grayscale"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/JuliaGraphics/ColorVectorSpace.jl/workflows/Unit%20test/badge.svg)](https://github.com/JuliaGraphics/ColorVectorSpace.jl/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "images"
+    }
+  ]
+}

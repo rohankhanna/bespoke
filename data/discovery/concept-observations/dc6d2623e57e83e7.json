@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Structured logs and telemetry for Clojure/Script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"340\"/></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"340\"/></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "taoensso",
+      "sense_id": "taoensso#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "taoensso",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "taoensso",
+  "observation_id": "dc6d2623e57e83e7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "taoensso",
+  "source_context_snippet": "<a href=\"https://www.taoensso.com/clojure\" title=\"More stuff by @ptaoussanis at www.taoensso.com\"><img src=\"https://www.taoensso.com/open-source.png\" alt=\"Taoensso open source\" width=\"340\"/></a>",
+  "source_file": null,
+  "source_repo": "taoensso/telemere",
+  "source_repo_description": "Structured logs and telemetry for Clojure/Script"
+}

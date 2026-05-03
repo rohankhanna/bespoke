@@ -1243,6 +1243,90 @@
       "source_repo": "stleary/JSON-java",
       "status": "candidate-context",
       "text": "![Json-Java logo](https://github.com/stleary/JSON-java/blob/master/images/JsonJava.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "status": "candidate-context",
+      "text": "Lint your JSON files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/eslint-plugin-json.svg)](https://www.npmjs.com/package/eslint-plugin-json)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caltechlibrary/datatools",
+      "status": "candidate-context",
+      "text": "A set of tools for working with JSON, CSV and Excel workbooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caltechlibrary/datatools",
+      "status": "candidate-context",
+      "text": "datatools"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathiasbynens/jsesc",
+      "status": "candidate-context",
+      "text": "Given some data, jsesc returns the shortest possible stringified & ASCII-safe representation of that data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/jsesc",
+      "status": "candidate-context",
+      "text": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactjs/react-docgen",
+      "status": "candidate-context",
+      "text": "A CLI and library to extract information from React component files for documentation generation purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactjs/react-docgen",
+      "status": "candidate-context",
+      "text": "[`react-docgen`](./packages/react-docgen/) is a highly customizable library that"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f Layered configuration system for Rust applications (with strong support for 12-factor applications). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate-context",
+      "text": "> Layered configuration system for Rust applications (with strong support for [12-factor] applications)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate-context",
+      "text": "ISO 3116 country information in JSON format to be included in other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate-context",
+      "text": "Countries data - JSON"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate-context",
+      "text": "Clojure library for fast JSON encoding and decoding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate-context",
+      "text": "[![Continuous Integration status](https://github.com/metosin/jsonista/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/jsonista/actions/workflows/clojure.yml)"
     }
   ],
   "candidate_glosses": [
@@ -1863,6 +1947,48 @@
       "source_repo": "stleary/JSON-java",
       "status": "candidate",
       "text": "![Json-Java logo](https://github.com/stleary/JSON-java/blob/master/images/JsonJava.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azeemba/eslint-plugin-json",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/eslint-plugin-json.svg)](https://www.npmjs.com/package/eslint-plugin-json)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caltechlibrary/datatools",
+      "status": "candidate",
+      "text": "datatools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathiasbynens/jsesc",
+      "status": "candidate",
+      "text": "Given some data, _jsesc_ returns a stringified representation of that data. jsesc is similar to `JSON.stringify()` except:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactjs/react-docgen",
+      "status": "candidate",
+      "text": "[`react-docgen`](./packages/react-docgen/) is a highly customizable library that"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/config-rs",
+      "status": "candidate",
+      "text": "> Layered configuration system for Rust applications (with strong support for [12-factor] applications)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "countries/countries-data-json",
+      "status": "candidate",
+      "text": "Countries data - JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/jsonista",
+      "status": "candidate",
+      "text": "[![Continuous Integration status](https://github.com/metosin/jsonista/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/jsonista/actions/workflows/clojure.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -2763,11 +2889,95 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "stleary/JSON-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "azeemba/eslint-plugin-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "caltechlibrary/datatools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mathiasbynens/jsesc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "reactjs/react-docgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rust-cli/config-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "countries/countries-data-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "metosin/jsonista"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

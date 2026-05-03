@@ -235,6 +235,66 @@
       "source_repo": "rthalley/dnspython",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/rthalley/dnspython/actions/workflows/ci.yml/badge.svg)](https://github.com/rthalley/dnspython/actions/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "status": "candidate-context",
+      "text": "pytest plugin for aiohttp support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "status": "candidate-context",
+      "text": "pytest-aiohttp"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate-context",
+      "text": " Accelerate your web app development  | Build fast. Run fast."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/sanic-org/sanic-assets/master/png/sanic-framework-logo-400x97.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest-asyncio",
+      "status": "candidate-context",
+      "text": "Asyncio support for pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-asyncio",
+      "status": "candidate-context",
+      "text": "pytest-asyncio"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adalkiran/py-inventa",
+      "status": "candidate-context",
+      "text": "A Python library for microservice registry and executing RPC (Remote Procedure Call) over Redis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/py-inventa",
+      "status": "candidate-context",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/quart",
+      "status": "candidate-context",
+      "text": "An async Python micro framework for building web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/quart",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +411,36 @@
       "source_repo": "rthalley/dnspython",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/rthalley/dnspython/actions/workflows/ci.yml/badge.svg)](https://github.com/rthalley/dnspython/actions/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/pytest-aiohttp",
+      "status": "candidate",
+      "text": "pytest-aiohttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sanic-org/sanic",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/sanic-org/sanic-assets/master/png/sanic-framework-logo-400x97.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-asyncio",
+      "status": "candidate",
+      "text": "pytest-asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adalkiran/py-inventa",
+      "status": "candidate",
+      "text": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/quart",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/pallets/quart/refs/heads/main/docs/_static/quart-name.svg\" alt=\"\" height=\"150\"></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -574,11 +664,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "aio-libs/pytest-aiohttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "sanic-org/sanic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest-asyncio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pallets/quart"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

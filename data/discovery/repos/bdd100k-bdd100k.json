@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doc.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doc.yml"
+    },
+    {
+      "component": "jakejarvis/s3-sync-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doc.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "bdd100k/bdd100k",
+      "target": "scalabel/scalabel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doc.yml",
+      "source_repo": "bdd100k/bdd100k",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doc.yml",
+      "source_repo": "bdd100k/bdd100k",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-doc.yml",
+      "source_repo": "bdd100k/bdd100k",
+      "target": "jakejarvis/s3-sync-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-doc.yml",
+      "source_repo": "bdd100k/bdd100k",
+      "target": "deploy doc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bdd100k/bdd100k",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bdd100k/bdd100k",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bdd100k/bdd100k",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bdd100k/bdd100k",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdd100k/bdd100k",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdd100k/bdd100k",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdd100k/bdd100k",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdd100k/bdd100k",
+      "target": "tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bdd100k/bdd100k",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:28.391973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1899
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 132
+    },
+    {
+      "path": "requirements.txt",
+      "size": 241
+    },
+    {
+      "path": ".github/workflows/deploy-doc.yml",
+      "size": 1164
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2771
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Toolkit of BDD100K Dataset for Heterogeneous Multitask Learning - CVPR 2020 Oral Paper",
+    "fork": false,
+    "full_name": "bdd100k/bdd100k",
+    "html_url": "https://github.com/bdd100k/bdd100k",
+    "language": "Python",
+    "pushed_at": "2024-03-09T10:30:02Z",
+    "stargazers_count": 545,
+    "topics": [
+      "dataset",
+      "detection",
+      "segmentation",
+      "tracking",
+      "video"
+    ],
+    "updated_at": "2026-04-29T22:28:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scalabel/scalabel",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "deploy doc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-doc.yml",
+      "term": "deploy doc"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img width=300 src=\"https://bdd100k.com/images/bdd100k-logo.svg\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

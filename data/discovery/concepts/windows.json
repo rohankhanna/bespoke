@@ -2068,6 +2068,150 @@
       "source_repo": "xtensor-stack/xtensor-blas",
       "status": "candidate-context",
       "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nmwsharp/happly",
+      "status": "candidate-context",
+      "text": "A C++ header-only parser for the PLY file format. Parse .ply happily!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmwsharp/happly",
+      "status": "candidate-context",
+      "text": "windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate-context",
+      "text": "A Simple cross-platform library for communicating with HID devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate-context",
+      "text": "| CI instance | Status |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate-context",
+      "text": "A lightweight, fast and reliable socks5 server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate-context",
+      "text": "[![status](https://github.com/heiher/hev-socks5-server/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-server)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xtensor-python",
+      "status": "candidate-context",
+      "text": "Python bindings for xtensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-python",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "status": "candidate-context",
+      "text": "R bindings for xtensor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "status": "candidate-context",
+      "text": "Fully tested Ruby Windows Mingw, ucrt & mswin builds. Available on GitHub Actions via setup-ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "status": "candidate-context",
+      "text": "[![ucrt](https://github.com/MSP-Greg/ruby-loco/workflows/ucrt/badge.svg)](https://github.com/MSP-Greg/ruby-loco/actions?query=workflow%3Acucrt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Devolutions/UniGetUI",
+      "status": "candidate-context",
+      "text": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Devolutions/UniGetUI",
+      "status": "candidate-context",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "todbot/hidapitester",
+      "status": "candidate-context",
+      "text": "Simple command-line program to test HIDAPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "todbot/hidapitester",
+      "status": "candidate-context",
+      "text": "windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate-context",
+      "text": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate-context",
+      "text": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate-context",
+      "text": "DPI bypass multi platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate-context",
+      "text": "Block spying and tracking on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "A simple, lightweight multi-task system (coroutines)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate-context",
+      "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
     }
   ],
   "candidate_glosses": [
@@ -3114,6 +3258,78 @@
       "source_repo": "xtensor-stack/xtensor-blas",
       "status": "candidate",
       "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nmwsharp/happly",
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libusb/hidapi",
+      "status": "candidate",
+      "text": "| CI instance | Status |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-socks5-server",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/hev-socks5-server/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-socks5-server)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-python",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtensor-stack/xtensor-r",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MSP-Greg/ruby-loco",
+      "status": "candidate",
+      "text": "[![ucrt](https://github.com/MSP-Greg/ruby-loco/workflows/ucrt/badge.svg)](https://github.com/MSP-Greg/ruby-loco/actions?query=workflow%3Acucrt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Devolutions/UniGetUI",
+      "status": "candidate",
+      "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "todbot/hidapitester",
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2dust/v2rayN",
+      "status": "candidate",
+      "text": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bol-van/zapret",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heiher/hev-task-system",
+      "status": "candidate",
+      "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
     }
   ],
   "candidate_related_terms": [
@@ -4729,11 +4945,143 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "nmwsharp/happly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "red-data-tools/pycall.rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "libusb/hidapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor-r"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "MSP-Greg/ruby-loco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Devolutions/UniGetUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "todbot/hidapitester"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "2dust/v2rayN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bol-van/zapret"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "heiher/hev-task-system"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

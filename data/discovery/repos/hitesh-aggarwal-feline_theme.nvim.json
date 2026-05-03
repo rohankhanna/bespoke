@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "target": "feline-nvim/feline.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "target": "rebelot/heirline.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "target": "hitesh-aggarwal/dotfiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "target": "feline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "target": "statusline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:03.869859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1840
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Feline configuration that picks colors from your current colorscheme.",
+    "fork": false,
+    "full_name": "Hitesh-Aggarwal/feline_theme.nvim",
+    "html_url": "https://github.com/Hitesh-Aggarwal/feline_theme.nvim",
+    "language": "Lua",
+    "pushed_at": "2023-03-04T16:56:03Z",
+    "stargazers_count": 11,
+    "topics": [
+      "feline",
+      "lua",
+      "neovim",
+      "nvim",
+      "statusline",
+      "theme"
+    ],
+    "updated_at": "2024-11-04T08:47:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feline-nvim/feline.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hitesh-aggarwal/dotfiles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rebelot/heirline.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a opinionated feline config designed to be used as a plugin. It automatically picks colors from applied colorscheme.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feline"
+    },
+    {
+      "context_snippet": "This is a opinionated feline config designed to be used as a plugin. It automatically picks colors from applied colorscheme.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "This is a opinionated feline config designed to be used as a plugin. It automatically picks colors from applied colorscheme.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "This is a opinionated feline config designed to be used as a plugin. It automatically picks colors from applied colorscheme.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline"
+    },
+    {
+      "context_snippet": "This is a opinionated feline config designed to be used as a plugin. It automatically picks colors from applied colorscheme.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:54:27.513743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2967
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of templates for Obsidian",
+    "fork": false,
+    "full_name": "lguenth/obsidian-templates",
+    "html_url": "https://github.com/lguenth/obsidian-templates",
+    "language": "CSS",
+    "pushed_at": "2024-07-24T11:49:44Z",
+    "stargazers_count": 176,
+    "topics": [],
+    "updated_at": "2026-05-02T04:43:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

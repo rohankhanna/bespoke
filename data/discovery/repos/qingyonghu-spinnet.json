@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "jonas-koehler/s2cnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "chrischoy/fcgf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "naver/r2d2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "qingyonghu/sensaturban",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "3dmatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "descriptor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "generalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "kitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "large-scale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "pointcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "pytorch-implementation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SpinNet",
+      "target": "registration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:00.159485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2021] SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration",
+    "fork": false,
+    "full_name": "QingyongHu/SpinNet",
+    "html_url": "https://github.com/QingyongHu/SpinNet",
+    "language": "Python",
+    "pushed_at": "2021-08-04T08:10:30Z",
+    "stargazers_count": 307,
+    "topics": [
+      "3dmatch",
+      "descriptor",
+      "generalization",
+      "kitti",
+      "large-scale",
+      "pointcloud",
+      "pytorch-implementation",
+      "registration"
+    ],
+    "updated_at": "2026-04-18T15:22:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrischoy/fcgf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonas-koehler/s2cnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naver/r2d2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qingyonghu/sensaturban",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinnet-learning-a-general-surface-descriptor/point-cloud-registration-on-3dmatch-benchmark)](https://paperswithcode.com/sota/point-cloud-registration-on-3dmatch-benchmark?p=spinnet-learning-a-gener\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dmatch"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinnet-learning-a-general-surface-descriptor/point-cloud-registration-on-3dmatch-benchmark)](https://paperswithcode.com/sota/point-cloud-registration-on-3dmatch-benchmark?p=spinnet-learning-a-gener\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "descriptor"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinnet-learning-a-general-surface-descriptor/point-cloud-registration-on-3dmatch-benchmark)](https://paperswithcode.com/sota/point-cloud-registration-on-3dmatch-benchmark?p=spinnet-learning-a-gener\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generalization"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinnet-learning-a-general-surface-descriptor/point-cloud-registration-on-3dmatch-benchmark)](https://paperswithcode.com/sota/point-cloud-registration-on-3dmatch-benchmark?p=spinnet-learning-a-gener\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinnet-learning-a-general-surface-descriptor/point-cloud-registration-on-3dmatch-benchmark)](https://paperswithcode.com/sota/point-cloud-registration-on-3dmatch-benchmark?p=spinnet-learning-a-gener\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-scale"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinnet-learning-a-general-surface-descriptor/point-cloud-registration-on-3dmatch-benchmark)](https://paperswithcode.com/sota/point-cloud-registration-on-3dmatch-benchmark?p=spinnet-learning-a-gener\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointcloud"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinnet-learning-a-general-surface-descriptor/point-cloud-registration-on-3dmatch-benchmark)](https://paperswithcode.com/sota/point-cloud-registration-on-3dmatch-benchmark?p=spinnet-learning-a-gener\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-implementation"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/spinnet-learning-a-general-surface-descriptor/point-cloud-registration-on-3dmatch-benchmark)](https://paperswithcode.com/sota/point-cloud-registration-on-3dmatch-benchmark?p=spinnet-learning-a-gener\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "registration"
+    }
+  ]
+}

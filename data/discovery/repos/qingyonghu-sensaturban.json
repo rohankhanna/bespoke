@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SensatUrban",
+      "target": "yang7879/3d-bonet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "QingyongHu/SensatUrban",
+      "target": "meidachen/stpls3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SensatUrban",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SensatUrban",
+      "target": "city-modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SensatUrban",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SensatUrban",
+      "target": "large-scale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SensatUrban",
+      "target": "photogrammetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SensatUrban",
+      "target": "pointcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "QingyongHu/SensatUrban",
+      "target": "urban-scale",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:04.196648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8374
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd25Urban-scale point cloud dataset (CVPR 2021 & IJCV 2022)",
+    "fork": false,
+    "full_name": "QingyongHu/SensatUrban",
+    "html_url": "https://github.com/QingyongHu/SensatUrban",
+    "language": "C++",
+    "pushed_at": "2022-07-22T02:34:45Z",
+    "stargazers_count": 573,
+    "topics": [
+      "benchmark",
+      "city-modeling",
+      "dataset",
+      "large-scale",
+      "photogrammetry",
+      "pointcloud",
+      "urban-scale"
+    ],
+    "updated_at": "2026-04-19T14:23:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meidachen/stpls3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yang7879/3d-bonet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2009.03137-b31b1b.svg)](https://arxiv.org/abs/2009.03137)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2009.03137-b31b1b.svg)](https://arxiv.org/abs/2009.03137)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "city-modeling"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2009.03137-b31b1b.svg)](https://arxiv.org/abs/2009.03137)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2009.03137-b31b1b.svg)](https://arxiv.org/abs/2009.03137)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-scale"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2009.03137-b31b1b.svg)](https://arxiv.org/abs/2009.03137)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "photogrammetry"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2009.03137-b31b1b.svg)](https://arxiv.org/abs/2009.03137)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pointcloud"
+    },
+    {
+      "context_snippet": "[![arXiv](https://img.shields.io/badge/arXiv-2009.03137-b31b1b.svg)](https://arxiv.org/abs/2009.03137)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urban-scale"
+    }
+  ]
+}

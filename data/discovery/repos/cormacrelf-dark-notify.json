@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cormacrelf/dark-notify",
+      "target": "patrik-csak/auto-terminal-profile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cormacrelf/dark-notify",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cormacrelf/dark-notify",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "cormacrelf/dark-notify",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "cormacrelf/dark-notify",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "cormacrelf/dark-notify",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "cormacrelf/dark-notify",
+      "target": "Homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cormacrelf/dark-notify",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cormacrelf/dark-notify",
+      "target": "neovim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:54:17.138140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3196
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 355
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 535
+    },
+    {
+      "path": ".github/workflows/homebrew.yml",
+      "size": 1900
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Watcher for macOS 10.14+ light/dark mode changes",
+    "fork": false,
+    "full_name": "cormacrelf/dark-notify",
+    "html_url": "https://github.com/cormacrelf/dark-notify",
+    "language": "Rust",
+    "pushed_at": "2026-02-21T06:47:33Z",
+    "stargazers_count": 240,
+    "topics": [
+      "macos",
+      "neovim"
+    ],
+    "updated_at": "2026-04-27T21:15:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patrik-csak/auto-terminal-profile",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Homebrew",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew.yml",
+      "term": "Homebrew"
+    },
+    {
+      "context_snippet": "It's a program for watching when macOS switches to dark mode. Useful for making",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "It's a program for watching when macOS switches to dark mode. Useful for making",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    }
+  ]
+}

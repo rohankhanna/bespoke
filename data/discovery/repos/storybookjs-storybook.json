@@ -476,28 +476,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
-      "target": "literalpie/storybook-framework-qwik",
+      "target": "storybookjs/native",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
-      "target": "solidjs-community/storybook",
+      "target": "storybookjs/addon-graphql",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
-      "target": "storybookjs/addon-cssresources",
+      "target": "storybookjs/addon-queryparams",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
-      "target": "storybookjs/addon-design-assets",
+      "target": "storybookjs/brand",
       "target_type": "repository"
     },
     {
@@ -879,7 +879,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T14:51:26.337953+00:00",
+  "fetched_at": "2026-05-03T05:00:22.241706+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -931,8 +931,8 @@
     "full_name": "storybookjs/storybook",
     "html_url": "https://github.com/storybookjs/storybook",
     "language": "TypeScript",
-    "pushed_at": "2026-04-30T14:47:21Z",
-    "stargazers_count": 89832,
+    "pushed_at": "2026-05-02T07:12:42Z",
+    "stargazers_count": 89838,
     "topics": [
       "angular",
       "components",
@@ -955,27 +955,27 @@
       "webpack",
       "workshop"
     ],
-    "updated_at": "2026-04-30T14:00:57Z"
+    "updated_at": "2026-05-03T02:45:37Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "literalpie/storybook-framework-qwik",
+      "full_name": "storybookjs/addon-graphql",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "solidjs-community/storybook",
+      "full_name": "storybookjs/addon-queryparams",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "storybookjs/addon-cssresources",
+      "full_name": "storybookjs/brand",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "storybookjs/addon-design-assets",
+      "full_name": "storybookjs/native",
       "source_file": "README.md"
     }
   ],

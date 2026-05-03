@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "faker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boo1ean/casual",
+      "status": "candidate-context",
+      "text": "Fake data generator for javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boo1ean/casual",
+      "status": "candidate-context",
+      "text": "https://github.com/boo1ean/casual/issues/109"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faker-js/faker",
+      "status": "candidate-context",
+      "text": "Generate massive amounts of fake data in the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faker-js/faker",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boo1ean/casual",
+      "status": "candidate",
+      "text": "https://github.com/boo1ean/casual/issues/109"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faker-js/faker",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019081,
+      "status": "candidate",
+      "text": "imposter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019019,
+      "status": "candidate",
+      "text": "impostor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018742,
+      "status": "candidate",
+      "text": "sham"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014752,
+      "status": "candidate",
+      "text": "pretender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013315,
+      "status": "candidate",
+      "text": "fraud"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26045,
+      "status": "candidate",
+      "text": "sham"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22032,
+      "status": "candidate",
+      "text": "pretender"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20062,
+      "status": "candidate",
+      "text": "fraud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16037,
+      "status": "candidate",
+      "text": "impostor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16029,
+      "status": "candidate",
+      "text": "pseud"
+    }
+  ],
+  "canonical_name": "faker",
+  "concept_id": "faker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "boo1ean/casual"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "faker-js/faker"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "faker",
+      "sense_id": "faker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -9,13 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-function-pipe-flow",
-      "target": "stdlib-js/stdlib",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "tc39/proposal-function-pipe-flow",
@@ -37,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T19:37:58.914782+00:00",
+  "fetched_at": "2026-05-03T05:03:46.477333+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -71,11 +64,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "js-choi/proposal-function-pipe-flow",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "stdlib-js/stdlib",
       "source_file": "README.md"
     }
   ],

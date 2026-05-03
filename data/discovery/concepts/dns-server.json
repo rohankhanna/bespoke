@@ -55,6 +55,18 @@
       "source_repo": "hickory-dns/hickory-dns",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/hickory-dns/hickory-dns/workflows/test/badge.svg?branch=main)](https://github.com/hickory-dns/hickory-dns/actions?query=workflow%3Atest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msasanmh/MsmhAgnosticServer",
+      "status": "candidate-context",
+      "text": "A DNS And Proxy Server in C# - Supports: UDP, TCP, DNS-Over-HTTPS (DoH), HTTP, HTTPS, SOCKS4, SOCKS4A, SOCKS5."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msasanmh/MsmhAgnosticServer",
+      "status": "candidate-context",
+      "text": "_I'm sharing this library for developers due to recieved requests."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "hickory-dns/hickory-dns",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/hickory-dns/hickory-dns/workflows/test/badge.svg?branch=main)](https://github.com/hickory-dns/hickory-dns/actions?query=workflow%3Atest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msasanmh/MsmhAgnosticServer",
+      "status": "candidate",
+      "text": "_I'm sharing this library for developers due to recieved requests."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "hickory-dns/hickory-dns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "msasanmh/MsmhAgnosticServer"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

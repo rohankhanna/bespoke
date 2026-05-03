@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:57:34.481649+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "  Computer Vision Toolkit. cvkit is available for Linux as well as for Windows. It offers useful tools for viewing and analyzing images and 3d models.",
+    "fork": false,
+    "full_name": "roboception/cvkit",
+    "html_url": "https://github.com/roboception/cvkit",
+    "language": "C++",
+    "pushed_at": "2026-04-10T14:29:40Z",
+    "stargazers_count": 279,
+    "topics": [],
+    "updated_at": "2026-04-10T14:29:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

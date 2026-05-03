@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Download translations from Transifex"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "violentmonkey/violentmonkey",
+      "status": "candidate-context",
+      "text": "Violentmonkey provides userscripts support for browsers. It works on browsers with WebExtensions support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "violentmonkey/violentmonkey",
+      "status": "candidate-context",
+      "text": "Download translations from Transifex"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "violentmonkey/violentmonkey",
+      "status": "candidate",
+      "text": "Download translations from Transifex"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22506,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22506,
+      "status": "candidate",
+      "text": "stream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22455,
+      "status": "candidate",
+      "text": "conveyancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22411,
+      "status": "candidate",
+      "text": "loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22390,
+      "status": "candidate",
+      "text": "inherit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Download translations from Transifex",
+  "concept_id": "download-translations-from-transifex",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/transifex-pull-translations.yml",
+      "source_repo": "violentmonkey/violentmonkey"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Download translations from Transifex",
+      "sense_id": "download-translations-from-transifex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

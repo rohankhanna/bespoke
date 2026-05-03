@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras-contrib",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras-contrib",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras-contrib",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras-contrib",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras-contrib",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras-contrib",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keras-team/keras-contrib",
+      "target": "theano",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:44:06.447103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Keras community contributions",
+    "fork": false,
+    "full_name": "keras-team/keras-contrib",
+    "html_url": "https://github.com/keras-team/keras-contrib",
+    "language": "Python",
+    "pushed_at": "2022-10-21T19:02:46Z",
+    "stargazers_count": 1584,
+    "topics": [
+      "data-science",
+      "deep-learning",
+      "keras",
+      "machine-learning",
+      "neural-networks",
+      "tensorflow",
+      "theano"
+    ],
+    "updated_at": "2026-04-20T08:21:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras"
+    },
+    {
+      "context_snippet": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "Keras-contrib is deprecated. Use [TensorFlow Addons](https://github.com/tensorflow/addons).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theano"
+    }
+  ]
+}

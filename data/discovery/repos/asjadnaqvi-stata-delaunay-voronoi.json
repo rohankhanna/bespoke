@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asjadnaqvi/stata-delaunay-voronoi",
+      "target": "convexhull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asjadnaqvi/stata-delaunay-voronoi",
+      "target": "delaunay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asjadnaqvi/stata-delaunay-voronoi",
+      "target": "package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asjadnaqvi/stata-delaunay-voronoi",
+      "target": "stata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asjadnaqvi/stata-delaunay-voronoi",
+      "target": "voronoi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:51:43.894084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11521
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of the S-Hull Delaunay triangulation algorithm in Stata. The Convex Hull is generated as a residual. The Voronoi are recovered as a dual to the Delaunay.",
+    "fork": false,
+    "full_name": "asjadnaqvi/stata-delaunay-voronoi",
+    "html_url": "https://github.com/asjadnaqvi/stata-delaunay-voronoi",
+    "language": "Stata",
+    "pushed_at": "2023-06-19T08:26:25Z",
+    "stargazers_count": 6,
+    "topics": [
+      "convexhull",
+      "delaunay",
+      "package",
+      "stata",
+      "voronoi"
+    ],
+    "updated_at": "2023-01-17T18:47:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![delaunay-1](https://github.com/asjadnaqvi/stata-delaunay-voronoi/assets/38498046/d99c079a-6f4b-423b-b003-5d17d0943e3d)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convexhull"
+    },
+    {
+      "context_snippet": "![delaunay-1](https://github.com/asjadnaqvi/stata-delaunay-voronoi/assets/38498046/d99c079a-6f4b-423b-b003-5d17d0943e3d)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delaunay"
+    },
+    {
+      "context_snippet": "![delaunay-1](https://github.com/asjadnaqvi/stata-delaunay-voronoi/assets/38498046/d99c079a-6f4b-423b-b003-5d17d0943e3d)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package"
+    },
+    {
+      "context_snippet": "![delaunay-1](https://github.com/asjadnaqvi/stata-delaunay-voronoi/assets/38498046/d99c079a-6f4b-423b-b003-5d17d0943e3d)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stata"
+    },
+    {
+      "context_snippet": "![delaunay-1](https://github.com/asjadnaqvi/stata-delaunay-voronoi/assets/38498046/d99c079a-6f4b-423b-b003-5d17d0943e3d)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voronoi"
+    }
+  ]
+}

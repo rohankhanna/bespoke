@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.14.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chart.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chart.yaml"
+    },
+    {
+      "component": "helm/chart-releaser-action@v1.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chart.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml",
+      "source_repo": "lakekeeper/lakekeeper-charts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml",
+      "source_repo": "lakekeeper/lakekeeper-charts",
+      "target": "azure/setup-helm@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml",
+      "source_repo": "lakekeeper/lakekeeper-charts",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml",
+      "source_repo": "lakekeeper/lakekeeper-charts",
+      "target": "helm/chart-testing-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml",
+      "source_repo": "lakekeeper/lakekeeper-charts",
+      "target": "helm/kind-action@v1.14.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-and-test.yaml",
+      "source_repo": "lakekeeper/lakekeeper-charts",
+      "target": "Lint and Test Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chart.yaml",
+      "source_repo": "lakekeeper/lakekeeper-charts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chart.yaml",
+      "source_repo": "lakekeeper/lakekeeper-charts",
+      "target": "azure/setup-helm@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chart.yaml",
+      "source_repo": "lakekeeper/lakekeeper-charts",
+      "target": "helm/chart-releaser-action@v1.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-chart.yaml",
+      "source_repo": "lakekeeper/lakekeeper-charts",
+      "target": "release charts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:51:00.614908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 158
+    },
+    {
+      "path": ".github/workflows/lint-and-test.yaml",
+      "size": 2026
+    },
+    {
+      "path": ".github/workflows/release-chart.yaml",
+      "size": 826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Helm chart for Lakekeeper - a Rust Native Iceberg REST Catalog",
+    "fork": false,
+    "full_name": "lakekeeper/lakekeeper-charts",
+    "html_url": "https://github.com/lakekeeper/lakekeeper-charts",
+    "language": "Open Policy Agent",
+    "pushed_at": "2026-05-01T14:04:46Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-05T21:34:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint and Test Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-and-test.yaml",
+      "term": "Lint and Test Charts"
+    },
+    {
+      "context_snippet": "\"release charts\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-chart.yaml",
+      "term": "release charts"
+    }
+  ]
+}

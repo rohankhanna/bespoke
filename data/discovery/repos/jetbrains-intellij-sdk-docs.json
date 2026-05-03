@@ -1,0 +1,403 @@
+{
+  "components": [
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-samples.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-samples.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-samples.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-samples.yml"
+    },
+    {
+      "component": "shimataro/ssh-key-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-samples.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-combine-prs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-combine-prs.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-combine-prs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-android-studio-releases.yml"
+    },
+    {
+      "component": "Endbug/add-and-commit@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-android-studio-releases.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-descriptor-pages.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-descriptor-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-libraries-releases.yml"
+    },
+    {
+      "component": "Endbug/add-and-commit@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-libraries-releases.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-api-changes-pages.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-api-changes-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-samples.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-samples.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-samples.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-samples.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-samples.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "shimataro/ssh-key-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-samples.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "Code Samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-combine-prs.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-combine-prs.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-combine-prs.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "Dependabot Combine PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-android-studio-releases.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-android-studio-releases.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "Endbug/add-and-commit@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-android-studio-releases.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "Generate Android Studio releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-descriptor-pages.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-descriptor-pages.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-descriptor-pages.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "Generate Descriptor Pages Content",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-libraries-releases.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-libraries-releases.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "Endbug/add-and-commit@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-libraries-releases.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "Generate Libraries releases variable file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-api-changes-pages.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-api-changes-pages.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-api-changes-pages.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "Check API Changes pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "intellij",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "intellij-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "intellij-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "intellijidea-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "target": "jetbrains",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:03:15.089996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1608
+    },
+    {
+      "path": ".github/workflows/code-samples.yml",
+      "size": 3245
+    },
+    {
+      "path": ".github/workflows/dependabot-combine-prs.yml",
+      "size": 5745
+    },
+    {
+      "path": ".github/workflows/generate-android-studio-releases.yml",
+      "size": 473
+    },
+    {
+      "path": ".github/workflows/generate-descriptor-pages.yml",
+      "size": 1099
+    },
+    {
+      "path": ".github/workflows/generate-libraries-releases.yml",
+      "size": 473
+    },
+    {
+      "path": ".github/workflows/verify-api-changes-pages.yml",
+      "size": 1249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IntelliJ SDK Platform Documentation",
+    "fork": false,
+    "full_name": "JetBrains/intellij-sdk-docs",
+    "html_url": "https://github.com/JetBrains/intellij-sdk-docs",
+    "language": "Markdown",
+    "pushed_at": "2026-05-02T01:41:39Z",
+    "stargazers_count": 1282,
+    "topics": [
+      "docs",
+      "intellij",
+      "intellij-platform",
+      "intellij-plugin",
+      "intellijidea-plugin",
+      "jetbrains",
+      "sdk"
+    ],
+    "updated_at": "2026-05-02T01:41:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Code Samples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-samples.yml",
+      "term": "Code Samples"
+    },
+    {
+      "context_snippet": "Dependabot Combine PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-combine-prs.yml",
+      "term": "Dependabot Combine PRs"
+    },
+    {
+      "context_snippet": "Generate Android Studio releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-android-studio-releases.yml",
+      "term": "Generate Android Studio releases"
+    },
+    {
+      "context_snippet": "Generate Descriptor Pages Content",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-descriptor-pages.yml",
+      "term": "Generate Descriptor Pages Content"
+    },
+    {
+      "context_snippet": "Generate Libraries releases variable file",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-libraries-releases.yml",
+      "term": "Generate Libraries releases variable file"
+    },
+    {
+      "context_snippet": "Check API Changes pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-api-changes-pages.yml",
+      "term": "Check API Changes pages"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-platform"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-plugin"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellijidea-plugin"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetbrains"
+    }
+  ]
+}

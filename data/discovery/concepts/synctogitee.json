@@ -32,6 +32,18 @@
       "source_repo": "RapidAI/RapidOCR",
       "status": "candidate-context",
       "text": "SyncToGitee"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RapidAI/LabelConvert",
+      "status": "candidate-context",
+      "text": "\ud83d\udd04  A tool for object detection and image segmentation dataset format conversion. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/LabelConvert",
+      "status": "candidate-context",
+      "text": "syncToGitee"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "RapidAI/RapidOCR",
       "status": "candidate",
       "text": "SyncToGitee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RapidAI/LabelConvert",
+      "status": "candidate",
+      "text": "syncToGitee"
     }
   ],
   "candidate_related_terms": [],
@@ -65,11 +83,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/SyncToGitee.yml",
       "source_repo": "RapidAI/RapidOCR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/SyncToGitee.yml",
+      "source_repo": "RapidAI/LabelConvert"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -103,6 +103,30 @@
       "source_repo": "AdguardTeam/AdGuardDNS",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable MD033 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msasanmh/DNSveil",
+      "status": "candidate-context",
+      "text": "A DNS Client Supporting DNSCrypt, Anonymized DNSCrypt, DoH, DoT, UDP And TCP."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msasanmh/DNSveil",
+      "status": "candidate-context",
+      "text": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate-context",
+      "text": "Block spying and tracking on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "AdguardTeam/AdGuardDNS",
       "status": "candidate",
       "text": "<!-- markdownlint-disable MD033 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msasanmh/DNSveil",
+      "status": "candidate",
+      "text": "![GitHub all releases](https://img.shields.io/github/downloads/msasanmh/DNSveil/total)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +286,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "AdguardTeam/AdGuardDNS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "msasanmh/DNSveil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

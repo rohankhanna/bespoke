@@ -1,0 +1,218 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "asyncio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "cross-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "distributed-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "remote-procedure-calls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "rpc-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "rpc-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adalkiran/py-inventa",
+      "target": "service-discovery",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:50:31.053953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3095
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Python library for microservice registry and executing RPC (Remote Procedure Call) over Redis.",
+    "fork": false,
+    "full_name": "adalkiran/py-inventa",
+    "html_url": "https://github.com/adalkiran/py-inventa",
+    "language": "Python",
+    "pushed_at": "2022-12-30T11:23:51Z",
+    "stargazers_count": 9,
+    "topics": [
+      "asyncio",
+      "cross-language",
+      "cross-platform",
+      "distributed-computing",
+      "distributed-systems",
+      "microservices",
+      "orchestration",
+      "python",
+      "python3",
+      "redis",
+      "remote-procedure-calls",
+      "rpc",
+      "rpc-framework",
+      "rpc-library",
+      "service-discovery"
+    ],
+    "updated_at": "2025-01-05T16:00:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asyncio"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-language"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-computing"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchestration"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remote-procedure-calls"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rpc-framework"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rpc-library"
+    },
+    {
+      "context_snippet": "[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/alper-dalkiran/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-discovery"
+    }
+  ]
+}

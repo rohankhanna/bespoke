@@ -211,6 +211,30 @@
       "source_repo": "bbatsov/neocaml",
       "status": "candidate-context",
       "text": "[![MELPA](https://melpa.org/packages/neocaml-badge.svg)](https://melpa.org/#/neocaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quelpa/quelpa",
+      "status": "candidate-context",
+      "text": "Build and install your Emacs Lisp packages on-the-fly directly from source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quelpa/quelpa",
+      "status": "candidate-context",
+      "text": "\"CI\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-helm/helm",
+      "status": "candidate-context",
+      "text": "Emacs incremental completion and selection narrowing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-helm/helm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "bbatsov/neocaml",
       "status": "candidate",
       "text": "[![MELPA](https://melpa.org/packages/neocaml-badge.svg)](https://melpa.org/#/neocaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quelpa/quelpa",
+      "status": "candidate",
+      "text": "\"CI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-helm/helm",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -454,11 +490,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "quelpa/quelpa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "emacs-helm/helm"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

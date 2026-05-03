@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml"
+    },
+    {
+      "component": "cypress-io/github-action@c495c3ddffba403ba11be95fffb67e25203b3799",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml"
+    },
+    {
+      "component": "cypress-io/github-action@c495c3ddffba403ba11be95fffb67e25203b3799",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-async-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "cypress-io/github-action@c495c3ddffba403ba11be95fffb67e25203b3799",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sync-app.yml",
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "cypress-io/github-action@c495c3ddffba403ba11be95fffb67e25203b3799",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "bolt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "cypher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "graph-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "movies-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j-examples/movies-python-bolt",
+      "target": "neo4j",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:47:11.553878+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 214
+    },
+    {
+      "path": ".github/workflows/python-async-app.yml",
+      "size": 3208
+    },
+    {
+      "path": ".github/workflows/python-sync-app.yml",
+      "size": 3202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neo4j Movies Example application with Flask backend using the neo4j-python-driver",
+    "fork": false,
+    "full_name": "neo4j-examples/movies-python-bolt",
+    "html_url": "https://github.com/neo4j-examples/movies-python-bolt",
+    "language": "Python",
+    "pushed_at": "2026-04-28T06:29:27Z",
+    "stargazers_count": 440,
+    "topics": [
+      "bolt",
+      "cypher",
+      "graph",
+      "graph-database",
+      "movies-api",
+      "neo4j",
+      "python"
+    ],
+    "updated_at": "2026-04-28T06:29:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "# common requirements for sync and async example # neo4j bolt driver to connect to the DBMS neo4j==6.1.0 # optionally with Rust extensions for better performance neo4j-rust-ext==6.1.0.* typing_extensions==4.15.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bolt"
+    },
+    {
+      "context_snippet": "# common requirements for sync and async example # neo4j bolt driver to connect to the DBMS neo4j==6.1.0 # optionally with Rust extensions for better performance neo4j-rust-ext==6.1.0.* typing_extensions==4.15.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cypher"
+    },
+    {
+      "context_snippet": "# common requirements for sync and async example # neo4j bolt driver to connect to the DBMS neo4j==6.1.0 # optionally with Rust extensions for better performance neo4j-rust-ext==6.1.0.* typing_extensions==4.15.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph"
+    },
+    {
+      "context_snippet": "# common requirements for sync and async example # neo4j bolt driver to connect to the DBMS neo4j==6.1.0 # optionally with Rust extensions for better performance neo4j-rust-ext==6.1.0.* typing_extensions==4.15.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-database"
+    },
+    {
+      "context_snippet": "# common requirements for sync and async example # neo4j bolt driver to connect to the DBMS neo4j==6.1.0 # optionally with Rust extensions for better performance neo4j-rust-ext==6.1.0.* typing_extensions==4.15.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "movies-api"
+    },
+    {
+      "context_snippet": "# common requirements for sync and async example # neo4j bolt driver to connect to the DBMS neo4j==6.1.0 # optionally with Rust extensions for better performance neo4j-rust-ext==6.1.0.* typing_extensions==4.15.0",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neo4j"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/sockstun",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/sockstun",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/sockstun",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "heiher/sockstun",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/sockstun",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/sockstun",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/sockstun",
+      "target": "ipv4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/sockstun",
+      "target": "ipv6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/sockstun",
+      "target": "low-overhead",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/sockstun",
+      "target": "socks5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/sockstun",
+      "target": "tun2socks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:44.399304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2002
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 2232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight, fast and reliable tun2socks for Android",
+    "fork": false,
+    "full_name": "heiher/sockstun",
+    "html_url": "https://github.com/heiher/sockstun",
+    "language": "Java",
+    "pushed_at": "2026-01-17T14:44:00Z",
+    "stargazers_count": 675,
+    "topics": [
+      "android",
+      "high-performance",
+      "ipv4",
+      "ipv6",
+      "low-overhead",
+      "socks5",
+      "tcp",
+      "tun2socks",
+      "udp",
+      "vpn"
+    ],
+    "updated_at": "2026-05-02T10:08:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[English](https://github.com/heiher/sockstun/blob/main/README.md ) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](https://github.com/heiher/sockstun/blob/main/README_RU.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[English](https://github.com/heiher/sockstun/blob/main/README.md ) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](https://github.com/heiher/sockstun/blob/main/README_RU.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "[English](https://github.com/heiher/sockstun/blob/main/README.md ) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](https://github.com/heiher/sockstun/blob/main/README_RU.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipv4"
+    },
+    {
+      "context_snippet": "[English](https://github.com/heiher/sockstun/blob/main/README.md ) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](https://github.com/heiher/sockstun/blob/main/README_RU.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipv6"
+    },
+    {
+      "context_snippet": "[English](https://github.com/heiher/sockstun/blob/main/README.md ) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](https://github.com/heiher/sockstun/blob/main/README_RU.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-overhead"
+    },
+    {
+      "context_snippet": "[English](https://github.com/heiher/sockstun/blob/main/README.md ) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](https://github.com/heiher/sockstun/blob/main/README_RU.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socks5"
+    },
+    {
+      "context_snippet": "[English](https://github.com/heiher/sockstun/blob/main/README.md ) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439](https://github.com/heiher/sockstun/blob/main/README_RU.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tun2socks"
+    }
+  ]
+}

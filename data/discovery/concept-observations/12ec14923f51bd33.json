@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Image Restoration with Mean-Reverting Stochastic Differential Equations, ICML 2023. Winning solution of the NTIRE 2023 Image Shadow Removal Challenge."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Ziwei Luo](https://algolzw.github.io/),"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Ziwei Luo](https://algolzw.github.io/),"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-restoration",
+      "sense_id": "image-restoration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-restoration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-restoration",
+  "observation_id": "12ec14923f51bd33",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "image-restoration",
+  "source_context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+  "source_file": null,
+  "source_repo": "Algolzw/image-restoration-sde",
+  "source_repo_description": "Image Restoration with Mean-Reverting Stochastic Differential Equations, ICML 2023. Winning solution of the NTIRE 2023 Image Shadow Removal Challenge."
+}

@@ -113,21 +113,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "target": "kubernetes-sigs/karpenter-provider-cluster-api",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "exoscale/karpenter-provider-exoscale",
+      "target": "kubernetes-sigs/karpenter-provider-ibm-cloud",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "cloudpilot-ai/karpenter-provider-gcp",
+      "target": "linode/karpenter-provider-linode",
       "target_type": "repository"
     },
     {
@@ -306,7 +306,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:27:05.279041+00:00",
+  "fetched_at": "2026-05-03T03:57:08.561699+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -371,17 +371,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cloudpilot-ai/karpenter-provider-alibabacloud",
+      "full_name": "kubernetes-sigs/karpenter-provider-cluster-api",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cloudpilot-ai/karpenter-provider-gcp",
+      "full_name": "kubernetes-sigs/karpenter-provider-ibm-cloud",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "exoscale/karpenter-provider-exoscale",
+      "full_name": "linode/karpenter-provider-linode",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T04:58:19.726243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "My custom changes to the Obsidian Baseline theme",
+    "fork": false,
+    "full_name": "bwya77/obsidian-baseline-customization",
+    "html_url": "https://github.com/bwya77/obsidian-baseline-customization",
+    "language": "CSS",
+    "pushed_at": "2026-01-19T22:00:53Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-27T03:57:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

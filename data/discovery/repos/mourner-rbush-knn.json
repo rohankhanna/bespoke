@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "tinyqueue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-node-resolve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rollup/plugin-terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-mourner",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rbush",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush-knn",
+      "target": "tinyqueue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush-knn",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush-knn",
+      "target": "@rollup/plugin-terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush-knn",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush-knn",
+      "target": "eslint-config-mourner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush-knn",
+      "target": "rbush",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mourner/rbush-knn",
+      "target": "rollup",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:51:51.340729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1005
+    },
+    {
+      "path": "package.json",
+      "size": 1062
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "k-nearest neighbors search (KNN) for RBush",
+    "fork": false,
+    "full_name": "mourner/rbush-knn",
+    "html_url": "https://github.com/mourner/rbush-knn",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-15T10:35:37Z",
+    "stargazers_count": 228,
+    "topics": [],
+    "updated_at": "2026-04-23T16:42:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

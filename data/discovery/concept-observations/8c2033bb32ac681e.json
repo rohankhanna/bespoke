@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plugin for Serverless Framework to allow users to deploy their serverless applications on Scaleway Functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Plugin for using Scaleway [Serverless Functions](https://www.scaleway.com/en/serverless-functions/) and [Serverless Containers](https://www.scaleway.com/en/serverless-containers/) with [Serverless Framework](https://github.com/oss-serverless/serverless)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Plugin for using Scaleway [Serverless Functions](https://www.scaleway.com/en/serverless-functions/) and [Serverless Containers](https://www.scaleway.com/en/serverless-containers/) with [Serverless Framework](https://github.com/oss-serverless/serverless)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39890880,
+      "status": "candidate",
+      "text": "ascendible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39890607,
+      "status": "candidate",
+      "text": "ascendable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39889426,
+      "status": "candidate",
+      "text": "climbable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29891006,
+      "status": "candidate",
+      "text": "scaling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884909,
+      "status": "candidate",
+      "text": "projection"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scalable",
+      "sense_id": "scalable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2018,
+      "status": "candidate",
+      "text": "ascendable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1016,
+      "status": "candidate",
+      "text": "ascendible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "climbable"
+    }
+  ],
+  "concept_id": "scalable",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scalable",
+  "observation_id": "8c2033bb32ac681e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "scalable",
+  "source_context_snippet": "Plugin for using Scaleway [Serverless Functions](https://www.scaleway.com/en/serverless-functions/) and [Serverless Containers](https://www.scaleway.com/en/serverless-containers/) with [Serverless Framework](https://github.com/oss-serverless/serverless).",
+  "source_file": null,
+  "source_repo": "scaleway/serverless-scaleway-functions",
+  "source_repo_description": "Plugin for Serverless Framework to allow users to deploy their serverless applications on Scaleway Functions"
+}

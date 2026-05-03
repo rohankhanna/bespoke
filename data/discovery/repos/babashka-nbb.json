@@ -110,14 +110,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/nbb",
-      "target": "mfikes/cljs-bean",
+      "target": "plumatic/schema",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/nbb",
-      "target": "logseq/publish-spa",
+      "target": "nextjournal/nbb-test-runner",
       "target_type": "repository"
     },
     {
@@ -261,7 +261,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T18:42:48.677238+00:00",
+  "fetched_at": "2026-05-03T04:53:41.248845+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -311,12 +311,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "logseq/publish-spa",
+      "full_name": "nextjournal/nbb-test-runner",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mfikes/cljs-bean",
+      "full_name": "plumatic/schema",
       "source_file": "README.md"
     }
   ],

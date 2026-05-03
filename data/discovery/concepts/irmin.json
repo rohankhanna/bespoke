@@ -1,0 +1,72 @@
+{
+  "aliases": [
+    "irmin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "talex5/cuekeeper",
+      "status": "candidate-context",
+      "text": "Browser-based GTD (TODO list) system. No server needed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "talex5/cuekeeper",
+      "status": "candidate-context",
+      "text": "CueKeeper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "talex5/cuekeeper",
+      "status": "candidate",
+      "text": "CueKeeper"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "beard"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "irmin",
+  "concept_id": "irmin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "talex5/cuekeeper"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "irmin",
+      "sense_id": "irmin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

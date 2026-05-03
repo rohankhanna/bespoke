@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AgnosticUI Local (v2) is a CLI-based UI component library that copies components directly into your project. Works with AI tools, agent-driven UIs, and prompt-ready workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate SDUI fixtures"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate SDUI fixtures"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10513,
+      "status": "candidate",
+      "text": "admit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10513,
+      "status": "candidate",
+      "text": "amp"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate SDUI fixtures",
+      "sense_id": "validate-sdui-fixtures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-sdui-fixtures",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-sdui-fixtures",
+  "observation_id": "26178dd458eb540e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Validate SDUI fixtures",
+  "source_context_snippet": "Validate SDUI fixtures",
+  "source_file": ".github/workflows/validate-fixtures.yml",
+  "source_repo": "AgnosticUI/agnosticui",
+  "source_repo_description": "AgnosticUI Local (v2) is a CLI-based UI component library that copies components directly into your project. Works with AI tools, agent-driven UIs, and prompt-ready workflows."
+}

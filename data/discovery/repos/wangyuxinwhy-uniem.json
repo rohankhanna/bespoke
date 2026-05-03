@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "JRubics/poetry-publish@v1.16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "abatilo/actions-poetry@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "muennighoff/sgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "microsoft/guidance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "thuir/t2ranking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "JRubics/poetry-publish@v1.16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "abatilo/actions-poetry@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "sentence-embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wangyuxinwhy/uniem",
+      "target": "sentence-transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:41:54.276456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5441
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 813
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "unified embedding model",
+    "fork": false,
+    "full_name": "wangyuxinwhy/uniem",
+    "html_url": "https://github.com/wangyuxinwhy/uniem",
+    "language": "Python",
+    "pushed_at": "2023-09-01T12:15:06Z",
+    "stargazers_count": 876,
+    "topics": [
+      "embeddings",
+      "huggingface",
+      "nlp",
+      "sentence-embeddings",
+      "sentence-transformers"
+    ],
+    "updated_at": "2026-05-01T06:27:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/guidance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "muennighoff/sgpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thuir/t2ranking",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Release](https://img.shields.io/pypi/v/uniem)](https://pypi.org/project/uniem/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embeddings"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/pypi/v/uniem)](https://pypi.org/project/uniem/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/pypi/v/uniem)](https://pypi.org/project/uniem/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentence-embeddings"
+    },
+    {
+      "context_snippet": "[![Release](https://img.shields.io/pypi/v/uniem)](https://pypi.org/project/uniem/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentence-transformers"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "web development, streamlined"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Platform Tests (All)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Platform Tests (All)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11532,
+      "status": "candidate",
+      "text": "battery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10664,
+      "status": "candidate",
+      "text": "audacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10664,
+      "status": "candidate",
+      "text": "console"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10664,
+      "status": "candidate",
+      "text": "footplate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10664,
+      "status": "candidate",
+      "text": "log"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Platform Tests (All)",
+      "sense_id": "platform-tests-all#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "platform-tests-all",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "platform-tests-all",
+  "observation_id": "18edbf38d7472dae",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Platform Tests (All)",
+  "source_context_snippet": "Platform Tests (All)",
+  "source_file": ".github/workflows/platform-tests-all.yml",
+  "source_repo": "sveltejs/kit",
+  "source_repo_description": "web development, streamlined"
+}

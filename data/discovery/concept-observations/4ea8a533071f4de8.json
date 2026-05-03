@@ -84,7 +84,7 @@
   "normalized_form": "configs",
   "observation_id": "4ea8a533071f4de8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "configs",
   "source_context_snippet": "configs",
   "source_file": ".github/workflows/configs-build.yml",

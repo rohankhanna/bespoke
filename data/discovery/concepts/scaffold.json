@@ -91,6 +91,42 @@
       "source_repo": "wp-cli/scaffold-package-command",
       "status": "candidate-context",
       "text": "wp-cli/scaffold-package-command"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate-context",
+      "text": "Blueprint for v2-formatted Ember addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack-cli",
+      "status": "candidate-context",
+      "text": "Webpack's Command Line Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-cli",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vutran/zel",
+      "status": "candidate-context",
+      "text": ":computer: zel is a small, and simple command-line tool that helps kickstart new projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vutran/zel",
+      "status": "candidate-context",
+      "text": "\ud83d\udea7 Discontinued. Please use [Github templates](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-template-repository)."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "wp-cli/scaffold-package-command",
       "status": "candidate",
       "text": "wp-cli/scaffold-package-command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack-cli",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vutran/zel",
+      "status": "candidate",
+      "text": "\ud83d\udea7 Discontinued. Please use [Github templates](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-template-repository)."
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +274,29 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "wp-cli/scaffold-package-command"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "embroider-build/addon-blueprint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "webpack/webpack-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "vutran/zel"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

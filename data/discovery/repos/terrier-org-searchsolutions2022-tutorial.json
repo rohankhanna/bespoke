@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terrier-org/searchsolutions2022-tutorial",
+      "target": "georgetown-ir-lab/opennir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terrier-org/searchsolutions2022-tutorial",
+      "target": "terrierteam/pyterrier_colbert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terrier-org/searchsolutions2022-tutorial",
+      "target": "terrierteam/pyterrier_deepct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terrier-org/searchsolutions2022-tutorial",
+      "target": "terrierteam/pyterrier_ance",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:47:51.095014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "terrier-org/searchsolutions2022-tutorial",
+    "html_url": "https://github.com/terrier-org/searchsolutions2022-tutorial",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-04-04T10:25:50Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-06-23T16:52:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "georgetown-ir-lab/opennir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "terrierteam/pyterrier_ance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "terrierteam/pyterrier_colbert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "terrierteam/pyterrier_deepct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutonomousAgentsLab/cr-dv3",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutonomousAgentsLab/cr-dv3",
+      "target": "autonomousagentslab/curiousreplay-dv3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:54:40.815065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4089
+    },
+    {
+      "path": "requirements.txt",
+      "size": 132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DreamerV3 implementation of Curious Replay, a method for prioritizing experience replay that is tailored to model-based reinforcement learning agents.",
+    "fork": false,
+    "full_name": "AutonomousAgentsLab/cr-dv3",
+    "html_url": "https://github.com/AutonomousAgentsLab/cr-dv3",
+    "language": "Python",
+    "pushed_at": "2023-07-05T15:06:46Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-04-02T20:20:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousagentslab/curiousreplay-dv3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

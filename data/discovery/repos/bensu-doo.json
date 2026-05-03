@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bensu/doo",
+      "target": "ingesolvoll/doo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bensu/doo",
+      "target": "crisptrutski/boot-cljs-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bensu/doo",
+      "target": "joyent/node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bensu/doo",
+      "target": "cemerick/clojurescript.test",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:51:11.801801+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15877
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "doo is a library and lein plugin to run cljs.test on different js environments.",
+    "fork": false,
+    "full_name": "bensu/doo",
+    "html_url": "https://github.com/bensu/doo",
+    "language": "Clojure",
+    "pushed_at": "2025-03-08T17:06:16Z",
+    "stargazers_count": 324,
+    "topics": [],
+    "updated_at": "2026-03-26T07:08:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cemerick/clojurescript.test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crisptrutski/boot-cljs-test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ingesolvoll/doo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joyent/node",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

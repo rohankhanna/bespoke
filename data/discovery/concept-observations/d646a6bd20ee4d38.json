@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Auto-AVSR: Lip-Reading Sentences Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`2025-01-06`: Reduced package dependencies."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`2025-01-06`: Reduced package dependencies."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019515,
+      "status": "candidate",
+      "text": "speechreading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019514,
+      "status": "candidate",
+      "text": "lip language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019513,
+      "status": "candidate",
+      "text": "lip-smacking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019512,
+      "status": "candidate",
+      "text": "lip-syncing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20019511,
+      "status": "candidate",
+      "text": "labras"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lipreading",
+      "sense_id": "lipreading#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lipreading",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lipreading",
+  "observation_id": "d646a6bd20ee4d38",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "lipreading",
+  "source_context_snippet": "`2025-01-06`: Reduced package dependencies.",
+  "source_file": null,
+  "source_repo": "mpc001/auto_avsr",
+  "source_repo_description": "Auto-AVSR: Lip-Reading Sentences Project"
+}

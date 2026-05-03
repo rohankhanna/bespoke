@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "barisgecer/GANFit",
+      "target": "barisgecer/tbgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/GANFit",
+      "target": "3d-face-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/GANFit",
+      "target": "3dface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/GANFit",
+      "target": "cvpr2019",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/GANFit",
+      "target": "differentiable-rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/GANFit",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/GANFit",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/GANFit",
+      "target": "identity-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "barisgecer/GANFit",
+      "target": "texture",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:43:54.464310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project Page of 'GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction' [CVPR2019]",
+    "fork": false,
+    "full_name": "barisgecer/GANFit",
+    "html_url": "https://github.com/barisgecer/GANFit",
+    "language": "Python",
+    "pushed_at": "2021-11-09T14:51:06Z",
+    "stargazers_count": 654,
+    "topics": [
+      "3d-face-reconstruction",
+      "3dface",
+      "cvpr2019",
+      "differentiable-rendering",
+      "face-recognition",
+      "generative-adversarial-network",
+      "identity-features",
+      "texture"
+    ],
+    "updated_at": "2026-03-18T05:18:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barisgecer/tbgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face-reconstruction"
+    },
+    {
+      "context_snippet": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dface"
+    },
+    {
+      "context_snippet": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2019"
+    },
+    {
+      "context_snippet": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differentiable-rendering"
+    },
+    {
+      "context_snippet": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "identity-features"
+    },
+    {
+      "context_snippet": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "texture"
+    }
+  ]
+}

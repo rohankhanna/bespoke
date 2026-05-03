@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-commons/manifold",
+      "target": "dm3/manifold-cljs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-commons/manifold",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-commons/manifold",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-commons/manifold",
+      "target": "future",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-commons/manifold",
+      "target": "stream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-commons/manifold",
+      "target": "stream-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:51:16.188513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4412
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A compatibility layer for event-driven abstractions",
+    "fork": false,
+    "full_name": "clj-commons/manifold",
+    "html_url": "https://github.com/clj-commons/manifold",
+    "language": "Clojure",
+    "pushed_at": "2026-03-16T13:27:37Z",
+    "stargazers_count": 1047,
+    "topics": [
+      "async",
+      "clojure",
+      "future",
+      "stream",
+      "stream-processing"
+    ],
+    "updated_at": "2026-04-20T18:23:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dm3/manifold-cljs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "future"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/manifold.svg)](https://clojars.org/manifold)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream-processing"
+    }
+  ]
+}

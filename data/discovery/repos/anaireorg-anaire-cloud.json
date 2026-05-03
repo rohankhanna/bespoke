@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T05:05:19.256219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SW for anaire apps in the cloud to manage anaire devices",
+    "fork": false,
+    "full_name": "anaireorg/anaire-cloud",
+    "html_url": "https://github.com/anaireorg/anaire-cloud",
+    "language": "Python",
+    "pushed_at": "2024-05-23T15:19:22Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-08-10T21:58:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

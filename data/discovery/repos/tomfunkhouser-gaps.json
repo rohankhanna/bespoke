@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:56:17.384229+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 2282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Geometric processing software",
+    "fork": false,
+    "full_name": "tomfunkhouser/gaps",
+    "html_url": "https://github.com/tomfunkhouser/gaps",
+    "language": "C++",
+    "pushed_at": "2025-12-16T16:56:46Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-01-22T09:30:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

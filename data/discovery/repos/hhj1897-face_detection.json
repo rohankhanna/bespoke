@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hhj1897/face_detection",
+      "target": "cs-giung/face-detection-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:44:03.583741+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4818
+    },
+    {
+      "path": "requirements.txt",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "hhj1897/face_detection",
+    "html_url": "https://github.com/hhj1897/face_detection",
+    "language": "Python",
+    "pushed_at": "2023-10-10T12:24:01Z",
+    "stargazers_count": 49,
+    "topics": [],
+    "updated_at": "2026-03-18T12:23:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cs-giung/face-detection-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

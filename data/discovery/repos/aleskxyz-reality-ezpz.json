@@ -1,0 +1,321 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "matsuridayo/nekoboxforandroid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "matsuridayo/nekoray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "loreneteval/furious",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "cloudflare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "hysteria2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "letsencrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "qrcode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "reality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "shadowtls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "sing-box",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "telegram-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "tuic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "user-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "vless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "warp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "websocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aleskxyz/reality-ezpz",
+      "target": "xray",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:46.312547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Install sing-box/xray and configure vless / tuic / hysteria2 / shadowtls for reality or tls (letsencrypt) over different transport protocols (tcp, http, grpc and websocket) with user management capability in CLI, TUI and Telegram bot by a single command in docker compose!",
+    "fork": false,
+    "full_name": "aleskxyz/reality-ezpz",
+    "html_url": "https://github.com/aleskxyz/reality-ezpz",
+    "language": "Shell",
+    "pushed_at": "2026-01-06T10:16:26Z",
+    "stargazers_count": 1532,
+    "topics": [
+      "bash",
+      "cdn",
+      "cloudflare",
+      "docker",
+      "docker-compose",
+      "grpc",
+      "hysteria2",
+      "letsencrypt",
+      "qrcode",
+      "reality",
+      "shadowtls",
+      "sing-box",
+      "telegram-bot",
+      "tls",
+      "tuic",
+      "user-management",
+      "vless",
+      "warp",
+      "websocket",
+      "xray"
+    ],
+    "updated_at": "2026-05-02T19:12:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "loreneteval/furious",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matsuridayo/nekoboxforandroid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matsuridayo/nekoray",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudflare"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-compose"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hysteria2"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "letsencrypt"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qrcode"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reality"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shadowtls"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sing-box"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telegram-bot"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tuic"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "user-management"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vless"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "warp"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    },
+    {
+      "context_snippet": "Install and configure vless with reality or TLS on your linux server by executing a single command!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray"
+    }
+  ]
+}

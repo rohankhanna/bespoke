@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "enterprise-software"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/polis",
+      "status": "candidate-context",
+      "text": "Streamline your web application's authentication with Polis, an SSO service supporting SAML and OpenID Connect protocols. Beyond enterprise-grade Single Sign-On, it also supports Directory Sync via the SCIM 2.0 protocol for automatic user and group provisioning/de-provisioning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/polis",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Ory polis - Open source Enterprise SSO and Directory Sync</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "retracedhq/retraced",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25 A fully open source audit logs service and embeddable UI easily deployed to your own Kubernetes cluster. Brought to you by replicated.com and boxyhq.com  \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "retracedhq/retraced",
+      "status": "candidate-context",
+      "text": "<p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/polis",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Ory polis - Open source Enterprise SSO and Directory Sync</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "retracedhq/retraced",
+      "status": "candidate",
+      "text": "<p>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "enterprise-software",
+  "concept_id": "enterprise-software",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ory/polis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "retracedhq/retraced"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "enterprise-software",
+      "sense_id": "enterprise-software#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

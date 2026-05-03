@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pr-scope-governance"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analogjs/analog",
+      "status": "candidate-context",
+      "text": "The fullstack meta-framework for Angular. Powered by Vite and Nitro"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogjs/analog",
+      "status": "candidate-context",
+      "text": "pr-scope-governance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analogjs/analog",
+      "status": "candidate",
+      "text": "pr-scope-governance"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pr-scope-governance",
+  "concept_id": "pr-scope-governance",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/pr-scope-governance.yml",
+      "source_repo": "analogjs/analog"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pr-scope-governance",
+      "sense_id": "pr-scope-governance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

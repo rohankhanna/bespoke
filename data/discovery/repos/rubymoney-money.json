@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RubyMoney/money",
+      "target": "askuratovsky/currencylayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RubyMoney/money",
+      "target": "matiaskorhonen/nordea",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RubyMoney/money",
+      "target": "phlegx/money-currencylayer-bank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RubyMoney/money",
+      "target": "atwam/money-historical-bank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "RubyMoney/money",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "RubyMoney/money",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "RubyMoney/money",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "RubyMoney/money",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "RubyMoney/money",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "RubyMoney/money",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "RubyMoney/money",
+      "target": "Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RubyMoney/money",
+      "target": "exchange-rate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RubyMoney/money",
+      "target": "money",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RubyMoney/money",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:50:33.061355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20364
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 445
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 829
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Ruby Library for dealing with money and currency conversion.",
+    "fork": false,
+    "full_name": "RubyMoney/money",
+    "html_url": "https://github.com/RubyMoney/money",
+    "language": "Ruby",
+    "pushed_at": "2026-03-29T18:54:22Z",
+    "stargazers_count": 2855,
+    "topics": [
+      "exchange-rate",
+      "money",
+      "ruby"
+    ],
+    "updated_at": "2026-04-28T06:56:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "askuratovsky/currencylayer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atwam/money-historical-bank",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matiaskorhonen/nordea",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phlegx/money-currencylayer-bank",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money.svg)](https://rubygems.org/gems/money)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exchange-rate"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money.svg)](https://rubygems.org/gems/money)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "money"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money.svg)](https://rubygems.org/gems/money)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

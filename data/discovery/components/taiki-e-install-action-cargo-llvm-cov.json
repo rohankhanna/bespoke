@@ -1,7 +1,7 @@
 {
   "component": "taiki-e/install-action@cargo-llvm-cov",
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -277,6 +277,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "ritchie46/simd-json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "tofay/rustls-openssl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "databendlabs/openraft"
     }
   ]
 }

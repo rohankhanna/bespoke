@@ -128,6 +128,18 @@
       "source_repo": "codiume/orbit",
       "status": "candidate-context",
       "text": "Publish packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "status": "candidate-context",
+      "text": "F# grammar for treesitter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionide/tree-sitter-fsharp",
+      "status": "candidate-context",
+      "text": "Publish packages"
     }
   ],
   "candidate_glosses": [
@@ -188,6 +200,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "codiume/orbit",
+      "status": "candidate",
+      "text": "Publish packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ionide/tree-sitter-fsharp",
       "status": "candidate",
       "text": "Publish packages"
     }
@@ -293,11 +311,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/pkgpr.yml",
       "source_repo": "codiume/orbit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ionide/tree-sitter-fsharp"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

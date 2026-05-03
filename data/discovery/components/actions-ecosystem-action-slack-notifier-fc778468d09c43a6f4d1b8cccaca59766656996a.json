@@ -1,0 +1,32 @@
+{
+  "component": "actions-ecosystem/action-slack-notifier@fc778468d09c43a6f4d1b8cccaca59766656996a",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_e2e.yml",
+      "source_repo": "liquidmetal-dev/flintlock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_design_doc.yml",
+      "source_repo": "MaterializeInc/materialize"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_labeled.yml",
+      "source_repo": "MaterializeInc/materialize"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_qa_risky.yml",
+      "source_repo": "MaterializeInc/materialize"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/slack_notify_sql_parser.yml",
+      "source_repo": "MaterializeInc/materialize"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Documentation Preview Cleanup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate-context",
+      "text": "Python and Julia in harmony."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate-context",
+      "text": "Documentation Preview Cleanup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/PythonCall.jl",
+      "status": "candidate",
+      "text": "Documentation Preview Cleanup"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17898,
+      "status": "candidate",
+      "text": "expurgate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17676,
+      "status": "candidate",
+      "text": "collection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17676,
+      "status": "candidate",
+      "text": "diagram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17676,
+      "status": "candidate",
+      "text": "screening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17676,
+      "status": "candidate",
+      "text": "show"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Documentation Preview Cleanup",
+  "concept_id": "documentation-preview-cleanup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docscleanup.yml",
+      "source_repo": "JuliaPy/PythonCall.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation Preview Cleanup",
+      "sense_id": "documentation-preview-cleanup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

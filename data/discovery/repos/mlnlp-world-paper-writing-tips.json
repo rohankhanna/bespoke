@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "target": "cooelf/paperwritingtips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "target": "acmi-lab/cmu-10717-the-art-of-the-paper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "target": "acl-org/aclpubcheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "target": "dspinellis/latex-advice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MLNLP-World/Paper-Writing-Tips",
+      "target": "mlnlp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:28.045349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MLNLP\u793e\u533a\u7528\u6765\u5e2e\u52a9\u5927\u5bb6\u907f\u514d\u8bba\u6587\u6295\u7a3f\u5c0f\u9519\u8bef\u7684\u6574\u7406\u4ed3\u5e93\u3002 Paper Writing Tips",
+    "fork": false,
+    "full_name": "MLNLP-World/Paper-Writing-Tips",
+    "html_url": "https://github.com/MLNLP-World/Paper-Writing-Tips",
+    "language": null,
+    "pushed_at": "2022-05-29T15:45:52Z",
+    "stargazers_count": 4434,
+    "topics": [
+      "mlnlp"
+    ],
+    "updated_at": "2026-05-02T15:43:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acl-org/aclpubcheck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acmi-lab/cmu-10717-the-art-of-the-paper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cooelf/paperwritingtips",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dspinellis/latex-advice",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlnlp"
+    }
+  ]
+}

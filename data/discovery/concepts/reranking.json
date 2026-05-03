@@ -55,6 +55,18 @@
       "source_repo": "Anush008/fastembed-rs",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "status": "candidate-context",
+      "text": "Lite & Super-fast re-ranking for your search & retrieval pipelines.  Supports SoTA Listwise and Pairwise reranking based on LLMs and  cross-encoders and more.  Created by Prithivi Da, open for PRs & Collaborations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "status": "candidate-context",
+      "text": "<p align =\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Anush008/fastembed-rs",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "status": "candidate",
+      "text": "<p align =\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "Anush008/fastembed-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

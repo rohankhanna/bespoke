@@ -1,0 +1,246 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grimoirelab-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grimoirelab-release.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/build@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-module-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-module-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "chaoss/grimoirelab-kibiter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "chaoss/grimoirelab-manuscripts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "chaoss/grimoirelab-bestiary",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "chaoss/grimoirelab-hatstall",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grimoirelab-release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/grimoirelab-release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/grimoirelab-release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "grimoirelab-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "chaoss/grimoirelab-github-actions/build@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "chaoss/grimoirelab-github-actions/release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "chaoss/grimoirelab-github-actions/publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-module-release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-module-release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-module-release.yml",
+      "source_repo": "grimoirelab-gitee/grimoirelab",
+      "target": "Reusable module release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:06:03.044305+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9076
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1340
+    },
+    {
+      "path": "requirements.txt",
+      "size": 302
+    },
+    {
+      "path": ".github/workflows/grimoirelab-release.yml",
+      "size": 14578
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1661
+    },
+    {
+      "path": ".github/workflows/reusable-module-release.yml",
+      "size": 5252
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GrimoireLab: toolset for software development analytics",
+    "fork": true,
+    "full_name": "grimoirelab-gitee/grimoirelab",
+    "html_url": "https://github.com/grimoirelab-gitee/grimoirelab",
+    "language": "Python",
+    "pushed_at": "2022-07-08T09:46:16Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-05-22T18:15:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-bestiary",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-hatstall",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-kibiter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-manuscripts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "grimoirelab-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/grimoirelab-release.yml",
+      "term": "grimoirelab-release"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Reusable module release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-module-release.yml",
+      "term": "Reusable module release"
+    }
+  ]
+}

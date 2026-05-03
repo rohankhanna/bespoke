@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:39:45.547664+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 56
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Personal Dashboard for Machine Learning Experiments",
+    "fork": false,
+    "full_name": "vacancy/JacMLDash",
+    "html_url": "https://github.com/vacancy/JacMLDash",
+    "language": "Python",
+    "pushed_at": "2025-08-21T23:30:07Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-12-18T03:22:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:49:31.383120+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5993
+    },
+    {
+      "path": "requirements.txt",
+      "size": 363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Test-time compute in information retrieval",
+    "fork": false,
+    "full_name": "orionw/rank1",
+    "html_url": "https://github.com/orionw/rank1",
+    "language": "Python",
+    "pushed_at": "2025-07-08T21:24:58Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2026-04-17T08:46:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

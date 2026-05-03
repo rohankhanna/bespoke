@@ -1,0 +1,401 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-test.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-test.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation-validation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "Build and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-test.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-test.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-test.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation-validation.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translation-validation.yml",
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "Translation Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "chocolatey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "scoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "unigetui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "windows-10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "windows-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Devolutions/UniGetUI",
+      "target": "winget",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:56:16.206639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10615
+    },
+    {
+      "path": ".github/workflows/build-release.yml",
+      "size": 24438
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4302
+    },
+    {
+      "path": ".github/workflows/dotnet-test.yml",
+      "size": 2072
+    },
+    {
+      "path": ".github/workflows/translation-validation.yml",
+      "size": 1487
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "UniGetUI: The Graphical Interface for your package managers. Could be terribly described as a package manager manager to manage your package managers",
+    "fork": false,
+    "full_name": "Devolutions/UniGetUI",
+    "html_url": "https://github.com/Devolutions/UniGetUI",
+    "language": "C#",
+    "pushed_at": "2026-05-02T22:18:13Z",
+    "stargazers_count": 23372,
+    "topics": [
+      "chocolatey",
+      "cli",
+      "npm",
+      "package",
+      "package-manager",
+      "pip",
+      "scoop",
+      "unigetui",
+      "windows",
+      "windows-10",
+      "windows-11",
+      "winget"
+    ],
+    "updated_at": "2026-05-03T03:25:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "term": "Build and Release"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Translation Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translation-validation.yml",
+      "term": "Translation Validation"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chocolatey"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unigetui"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-10"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-11"
+    },
+    {
+      "context_snippet": "<br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winget"
+    }
+  ]
+}

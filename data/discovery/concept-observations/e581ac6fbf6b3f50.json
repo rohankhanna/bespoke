@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " A fast, clean, responsive Hugo theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29886891,
+      "status": "candidate",
+      "text": "greyscale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005014,
+      "status": "candidate",
+      "text": "back gray"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005013,
+      "status": "candidate",
+      "text": "chromotype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005012,
+      "status": "candidate",
+      "text": "rotograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005011,
+      "status": "candidate",
+      "text": "shirley card"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grayscale",
+      "sense_id": "grayscale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "grayscale",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grayscale",
+  "observation_id": "e581ac6fbf6b3f50",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "grayscale",
+  "source_context_snippet": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**",
+  "source_file": null,
+  "source_repo": "adityatelange/hugo-PaperMod",
+  "source_repo_description": " A fast, clean, responsive Hugo theme."
+}

@@ -48,7 +48,7 @@
   "normalized_form": "playwright-e2e",
   "observation_id": "3354856caa49055a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T00:40:17.248794+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "playwright-e2e",
   "source_context_snippet": "playwright-e2e",
   "source_file": ".github/workflows/playwright.yml",

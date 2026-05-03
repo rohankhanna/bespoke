@@ -295,6 +295,42 @@
       "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botframework-solutions",
+      "status": "candidate-context",
+      "text": "Welcome to the Bot Framework Solutions repository which is the home for a set of templates and solutions to help build advanced conversational experiences using Azure Bot Service and Bot Framework. Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-solutions",
+      "status": "candidate-context",
+      "text": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "status": "candidate-context",
+      "text": "Dialog creation and management for Microsoft Bot Framework Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "status": "candidate-context",
+      "text": "Bot Framework Composer migration to Microsoft Copilot Studio"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/botbuilder-python",
+      "status": "candidate-context",
+      "text": "The Microsoft Bot Framework provides what you need to build and connect intelligent bots that interact naturally wherever your users are talking, from text/sms to Skype, Slack, Office 365 mail and other popular services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-python",
+      "status": "candidate-context",
+      "text": "> We are in the process of archiving the Bot Framework Python SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +477,24 @@
       "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botframework-solutions",
+      "status": "candidate",
+      "text": "![Bot Framework Solutions](/docs/assets/images/bot_framework_solutions_header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-Composer",
+      "status": "candidate",
+      "text": "Bot Framework Composer migration to Microsoft Copilot Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/botbuilder-python",
+      "status": "candidate",
+      "text": "> We are in the process of archiving the Bot Framework Python SDK repository on GitHub. This means that this project will no longer be updated or maintained. Customers using this tool will not be disrupted. However, the tool will no longer be supported through"
     }
   ],
   "candidate_related_terms": [
@@ -723,11 +777,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "Azure-Samples/Cognitive-Services-Voice-Assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botframework-solutions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/BotFramework-Composer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/botbuilder-python"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

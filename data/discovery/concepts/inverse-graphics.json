@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "inverse-graphics"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nv-tlabs/DIB-R",
+      "status": "candidate-context",
+      "text": "Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer (NeurIPS 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nv-tlabs/DIB-R",
+      "status": "candidate-context",
+      "text": "This is the official inference code for:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nv-tlabs/DIB-R",
+      "status": "candidate",
+      "text": "This is the official inference code for:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "inverse-graphics",
+  "concept_id": "inverse-graphics",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nv-tlabs/DIB-R"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inverse-graphics",
+      "sense_id": "inverse-graphics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

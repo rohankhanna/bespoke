@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ebullient/obsidian-admonition",
-      "target": "silentvoid13/templater",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ebullient/obsidian-admonition",
       "target": "ebullient/obsidian-admonitions",
       "target_type": "repository"
     },
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "ebullient/obsidian-admonition",
       "target": "valentine195/obsidian-5e-statblocks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ebullient/obsidian-admonition",
+      "target": "valentine195/obsidian-initiative-tracker",
       "target_type": "repository"
     },
     {
@@ -239,6 +239,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "ebullient/obsidian-admonition"
 }

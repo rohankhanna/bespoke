@@ -31,6 +31,18 @@
       "source_repo": "paullouisageneau/libjuice",
       "status": "candidate-context",
       "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate-context",
+      "text": "NAT type diagnosis CLI. Tells you why WebRTC/P2P/VPN connections fail and whether TURN is required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate-context",
+      "text": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "paullouisageneau/libjuice",
       "status": "candidate",
       "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1mb-dev/natcheck",
+      "status": "candidate",
+      "text": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "paullouisageneau/libjuice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "1mb-dev/natcheck"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

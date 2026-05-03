@@ -19,12 +19,30 @@
       "source_repo": "taoensso/timbre",
       "status": "candidate-context",
       "text": "Clj tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taoensso/telemere",
+      "status": "candidate-context",
+      "text": "Structured logs and telemetry for Clojure/Script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/telemere",
+      "status": "candidate-context",
+      "text": "Clj tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "taoensso/timbre",
+      "status": "candidate",
+      "text": "Clj tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taoensso/telemere",
       "status": "candidate",
       "text": "Clj tests"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/clj-tests.yml",
       "source_repo": "taoensso/timbre"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/clj-tests.yml",
+      "source_repo": "taoensso/telemere"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

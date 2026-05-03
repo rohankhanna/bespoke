@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ISO 3116 country information in JSON format to be included in other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Countries data - JSON"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Countries data - JSON"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "iso-3166-1",
+      "sense_id": "iso-3166-1#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "iso-3166-1",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "iso-3166-1",
+  "observation_id": "94ce60294dd0db1a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "iso-3166-1",
+  "source_context_snippet": "Countries data - JSON",
+  "source_file": null,
+  "source_repo": "countries/countries-data-json",
+  "source_repo_description": "ISO 3116 country information in JSON format to be included in other projects."
+}

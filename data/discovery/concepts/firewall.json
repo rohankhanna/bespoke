@@ -91,6 +91,30 @@
       "source_repo": "pion/ice",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "basil00/WinDivert",
+      "status": "candidate-context",
+      "text": "WinDivert: Windows Packet Divert"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basil00/WinDivert",
+      "status": "candidate-context",
+      "text": "WinDivert: Windows Packet Divert"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate-context",
+      "text": "Block spying and tracking on Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "pion/ice",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basil00/WinDivert",
+      "status": "candidate",
+      "text": "WinDivert: Windows Packet Divert"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crazy-max/WindowsSpyBlocker",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://crazymax.dev/WindowsSpyBlocker/\" target=\"_blank\"><img width=\"100\"src=\"https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/.res/logo.png\"></a></p>"
     }
   ],
   "candidate_related_terms": [
@@ -237,11 +273,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "basil00/WinDivert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "crazy-max/WindowsSpyBlocker"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

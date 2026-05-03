@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "mathux/tmr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "motion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "motion-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "smplx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "whole-body",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/HumanTOMATO",
+      "target": "whole-body-motion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:19.516013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5764
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML 2024] \ud83c\udf45HumanTOMATO: Text-aligned Whole-body Motion Generation",
+    "fork": false,
+    "full_name": "IDEA-Research/HumanTOMATO",
+    "html_url": "https://github.com/IDEA-Research/HumanTOMATO",
+    "language": "Python",
+    "pushed_at": "2024-06-19T04:51:49Z",
+    "stargazers_count": 364,
+    "topics": [
+      "generation",
+      "gpt",
+      "motion",
+      "motion-generation",
+      "smplx",
+      "whole-body",
+      "whole-body-motion"
+    ],
+    "updated_at": "2026-04-11T11:28:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mathux/tmr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](./assets/tomato-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generation"
+    },
+    {
+      "context_snippet": "![](./assets/tomato-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion"
+    },
+    {
+      "context_snippet": "![](./assets/tomato-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-generation"
+    },
+    {
+      "context_snippet": "![](./assets/tomato-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smplx"
+    },
+    {
+      "context_snippet": "![](./assets/tomato-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whole-body"
+    },
+    {
+      "context_snippet": "![](./assets/tomato-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whole-body-motion"
+    }
+  ]
+}

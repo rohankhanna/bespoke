@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:02:31.306458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3628
+    },
+    {
+      "path": "requirements.txt",
+      "size": 36
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ROS2 Implementation for the Ability Hand python wrapper",
+    "fork": false,
+    "full_name": "psyonicinc/ability-hand-ros2",
+    "html_url": "https://github.com/psyonicinc/ability-hand-ros2",
+    "language": "Python",
+    "pushed_at": "2025-10-28T20:21:29Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-02-03T19:50:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

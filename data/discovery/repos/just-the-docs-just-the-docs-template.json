@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "your-username/your-site-name",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "benbalter/jekyll-default-layout",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "actions/starter-workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "Deploy Jekyll site to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "jekyll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "just-the-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "just-the-docs/just-the-docs-template",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:48:20.345455+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6883
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 581
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 1853
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "one-click template to use just-the-docs on GitHub Pages",
+    "fork": false,
+    "full_name": "just-the-docs/just-the-docs-template",
+    "html_url": "https://github.com/just-the-docs/just-the-docs-template",
+    "language": "Ruby",
+    "pushed_at": "2026-04-14T10:08:06Z",
+    "stargazers_count": 222,
+    "topics": [
+      "github-pages",
+      "jekyll",
+      "just-the-docs",
+      "template"
+    ],
+    "updated_at": "2026-04-23T10:08:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/starter-workflows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benbalter/jekyll-default-layout",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "your-username/your-site-name",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Jekyll site to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Deploy Jekyll site to Pages"
+    },
+    {
+      "context_snippet": "This is a *bare-minimum* template to create a [Jekyll] site that:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-pages"
+    },
+    {
+      "context_snippet": "This is a *bare-minimum* template to create a [Jekyll] site that:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekyll"
+    },
+    {
+      "context_snippet": "This is a *bare-minimum* template to create a [Jekyll] site that:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "just-the-docs"
+    },
+    {
+      "context_snippet": "This is a *bare-minimum* template to create a [Jekyll] site that:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

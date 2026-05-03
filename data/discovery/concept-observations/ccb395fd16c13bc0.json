@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Plan Beta Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Plan Beta Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35330,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18912,
+      "status": "candidate",
+      "text": "beet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18912,
+      "status": "candidate",
+      "text": "knol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18881,
+      "status": "candidate",
+      "text": "alpha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18808,
+      "status": "candidate",
+      "text": "layout"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Plan Beta Release",
+      "sense_id": "plan-beta-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "plan-beta-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "plan-beta-release",
+  "observation_id": "ccb395fd16c13bc0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Plan Beta Release",
+  "source_context_snippet": "Plan Beta Release",
+  "source_file": ".github/workflows/plan-beta-release.yml",
+  "source_repo": "ember-cli/ember-app-blueprint",
+  "source_repo_description": null
+}

@@ -1,0 +1,179 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "binary-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "cypher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "database-driver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "driver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "graph-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "neo4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "query-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neo4j/neo4j-python-driver-rust-ext",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:47:13.356141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2363
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 275
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "6.x",
+    "description": "Optional Rust Extensions to Speed Up the Python Driver",
+    "fork": false,
+    "full_name": "neo4j/neo4j-python-driver-rust-ext",
+    "html_url": "https://github.com/neo4j/neo4j-python-driver-rust-ext",
+    "language": "Python",
+    "pushed_at": "2026-04-29T16:18:37Z",
+    "stargazers_count": 47,
+    "topics": [
+      "binary-protocol",
+      "cypher",
+      "database-driver",
+      "driver",
+      "graph-database",
+      "neo4j",
+      "protocol",
+      "python",
+      "python3",
+      "query-language",
+      "rust"
+    ],
+    "updated_at": "2026-05-02T01:42:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-protocol"
+    },
+    {
+      "context_snippet": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cypher"
+    },
+    {
+      "context_snippet": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database-driver"
+    },
+    {
+      "context_snippet": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "driver"
+    },
+    {
+      "context_snippet": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-database"
+    },
+    {
+      "context_snippet": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neo4j"
+    },
+    {
+      "context_snippet": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    },
+    {
+      "context_snippet": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "query-language"
+    },
+    {
+      "context_snippet": "This project contains Rust extensions to speed up the [official Python driver for Neo4j](https://github.com/neo4j/neo4j-python-driver).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

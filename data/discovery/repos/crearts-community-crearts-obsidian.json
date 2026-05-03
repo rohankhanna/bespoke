@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "merge-files",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pnpm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-css-order",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-config-recommended-scss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stylelint-scss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "merge-files",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "pnpm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "prettier-plugin-css-order",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "stylelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "stylelint-config-recommended-scss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "stylelint-scss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "Publish new theme version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "obsidian-community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CreArts-Community/CreArts-Obsidian",
+      "target": "obsidian-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:58:26.305130+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1895
+    },
+    {
+      "path": ".github/workflows/release-version.yml",
+      "size": 1503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Obsidian Theme | v1.0.0 | by Corellan",
+    "fork": false,
+    "full_name": "CreArts-Community/CreArts-Obsidian",
+    "html_url": "https://github.com/CreArts-Community/CreArts-Obsidian",
+    "language": "SCSS",
+    "pushed_at": "2025-10-12T07:14:45Z",
+    "stargazers_count": 25,
+    "topics": [
+      "obsidian",
+      "obsidian-community",
+      "obsidian-theme"
+    ],
+    "updated_at": "2026-04-04T02:50:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish new theme version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-version.yml",
+      "term": "Publish new theme version"
+    },
+    {
+      "context_snippet": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-community"
+    },
+    {
+      "context_snippet": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-theme"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikera/core.matrix",
+      "target": "mikera/vectorz-clj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikera/core.matrix",
+      "target": "tel/clatrix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikera/core.matrix",
+      "target": "ds923y/nd4clj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mikera/core.matrix",
+      "target": "thinktopic/aljabr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:49:48.690482+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "core.matrix : Multi-dimensional array programming API for Clojure",
+    "fork": false,
+    "full_name": "mikera/core.matrix",
+    "html_url": "https://github.com/mikera/core.matrix",
+    "language": "Clojure",
+    "pushed_at": "2022-12-07T13:09:38Z",
+    "stargazers_count": 715,
+    "topics": [],
+    "updated_at": "2026-04-15T03:06:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ds923y/nd4clj",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikera/vectorz-clj",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tel/clatrix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thinktopic/aljabr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

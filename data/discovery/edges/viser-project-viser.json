@@ -8,27 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "viser-project/viser",
-      "target": "pmndrs/react-three-fiber",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "viser-project/viser",
-      "target": "pmndrs/drei",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "viser-project/viser",
-      "target": "pmndrs/zustand",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "viser-project/viser",
@@ -204,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T00:40:17.248794+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "viser-project/viser"
 }

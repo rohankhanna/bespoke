@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Runic formatting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "status": "candidate-context",
+      "text": "No-overhead breakpoints in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "status": "candidate-context",
+      "text": "Runic formatting"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaDebug/Infiltrator.jl",
+      "status": "candidate",
+      "text": "Runic formatting"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10517,
+      "status": "candidate",
+      "text": "wen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10454,
+      "status": "candidate",
+      "text": "ron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10446,
+      "status": "candidate",
+      "text": "thorn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10171,
+      "status": "candidate",
+      "text": "demotic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10171,
+      "status": "candidate",
+      "text": "hieroglyphic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Runic formatting",
+  "concept_id": "runic-formatting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/runic.yml",
+      "source_repo": "JuliaDebug/Infiltrator.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Runic formatting",
+      "sense_id": "runic-formatting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:55:38.220914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenFace \u2013 a state-of-the art tool intended for facial landmark detection, head pose estimation, facial action unit recognition, and eye-gaze estimation.",
+    "fork": false,
+    "full_name": "TadasBaltrusaitis/OpenFace",
+    "html_url": "https://github.com/TadasBaltrusaitis/OpenFace",
+    "language": "MATLAB",
+    "pushed_at": "2024-06-01T00:44:07Z",
+    "stargazers_count": 7640,
+    "topics": [],
+    "updated_at": "2026-05-01T23:57:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

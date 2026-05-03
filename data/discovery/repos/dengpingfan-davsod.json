@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DengPingFan/DAVSOD",
+      "target": "wenguanwang/pdb-convlstm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:39:35.484622+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Shifting More Attention to Video Salient Objection Detection, CVPR 2019 (Best Paper Finalist)",
+    "fork": false,
+    "full_name": "DengPingFan/DAVSOD",
+    "html_url": "https://github.com/DengPingFan/DAVSOD",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-06-17T11:57:09Z",
+    "stargazers_count": 211,
+    "topics": [],
+    "updated_at": "2026-03-16T12:10:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wenguanwang/pdb-convlstm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

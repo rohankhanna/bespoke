@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An audio-visual library supports processing audio and video files, a graphics library can load a variety 3D mesh file formats into a generic in-memory representation, and the core library of Gazebo Common contains functionality that spans Base64 encoding/decoding to thread pools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Maintainer:** nate AT openrobotics DOT org"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044833,
+      "status": "candidate",
+      "text": "pecker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044783,
+      "status": "candidate",
+      "text": "shaft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033851,
+      "status": "candidate",
+      "text": "prick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10032790,
+      "status": "candidate",
+      "text": "joyride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995507,
+      "status": "candidate",
+      "text": "puppet"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tools",
+      "sense_id": "tools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tools",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tools",
+  "observation_id": "8cd202fa95336ea2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "tools",
+  "source_context_snippet": "**Maintainer:** nate AT openrobotics DOT org",
+  "source_file": null,
+  "source_repo": "gazebosim/gz-common",
+  "source_repo_description": "An audio-visual library supports processing audio and video files, a graphics library can load a variety 3D mesh file formats into a generic in-memory representation, and the core library of Gazebo Common contains functionality that spans Base64 encoding/decoding to thread pools."
+}

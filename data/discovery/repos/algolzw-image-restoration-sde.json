@@ -1,0 +1,201 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "algolzw/daclip-uir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "deblurring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "dehazing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "deraining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "score-based",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "stochastic-differential-equations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Algolzw/image-restoration-sde",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:46:58.001467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7818
+    },
+    {
+      "path": "requirements.txt",
+      "size": 215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Image Restoration with Mean-Reverting Stochastic Differential Equations, ICML 2023. Winning solution of the NTIRE 2023 Image Shadow Removal Challenge.",
+    "fork": false,
+    "full_name": "Algolzw/image-restoration-sde",
+    "html_url": "https://github.com/Algolzw/image-restoration-sde",
+    "language": "Python",
+    "pushed_at": "2024-07-23T09:34:46Z",
+    "stargazers_count": 710,
+    "topics": [
+      "deblurring",
+      "dehazing",
+      "denoising",
+      "deraining",
+      "diffusion-models",
+      "image-restoration",
+      "inpainting",
+      "pytorch",
+      "score-based",
+      "stochastic-differential-equations",
+      "super-resolution"
+    ],
+    "updated_at": "2026-04-27T02:01:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "algolzw/daclip-uir",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deblurring"
+    },
+    {
+      "context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dehazing"
+    },
+    {
+      "context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoising"
+    },
+    {
+      "context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deraining"
+    },
+    {
+      "context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpainting"
+    },
+    {
+      "context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "score-based"
+    },
+    {
+      "context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stochastic-differential-equations"
+    },
+    {
+      "context_snippet": "[Ziwei Luo](https://algolzw.github.io/),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

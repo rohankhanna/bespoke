@@ -175,6 +175,30 @@
       "source_repo": "hyparam/hyparquet-compressors",
       "status": "candidate-context",
       "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "status": "candidate-context",
+      "text": "Real-time analytics on Postgres tables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyparam/hysnappy",
+      "status": "candidate-context",
+      "text": "Snappy decompression with WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hysnappy",
+      "status": "candidate-context",
+      "text": "![hysnappy penguin](hysnappy.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "hyparam/hyparquet-compressors",
       "status": "candidate",
       "text": "![hyparquet parakeets](hyparquet-compressors.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mooncake-Labs/pg_mooncake",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyparam/hysnappy",
+      "status": "candidate",
+      "text": "![hysnappy penguin](hysnappy.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -402,11 +438,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "hyparam/hyparquet-compressors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Mooncake-Labs/pg_mooncake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hyparam/hysnappy"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

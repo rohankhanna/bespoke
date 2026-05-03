@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "psyonicinc/ability-hand-api",
+      "target": "psyonicinc/ability-hand-ros2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psyonicinc/ability-hand-api",
+      "target": "docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:13.878940+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3515
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Materials for the ability hand API, including documentation, URDF, Matlab, & Python examples. ",
+    "fork": false,
+    "full_name": "psyonicinc/ability-hand-api",
+    "html_url": "https://github.com/psyonicinc/ability-hand-api",
+    "language": "Python",
+    "pushed_at": "2026-04-14T16:22:13Z",
+    "stargazers_count": 44,
+    "topics": [
+      "api",
+      "docs",
+      "python"
+    ],
+    "updated_at": "2026-04-14T16:22:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "psyonicinc/ability-hand-ros2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the [PSYONIC Ability Hand API documentation](https://github.com/psyonicinc/ability-hand-api/blob/master/Documentation/ABILITY-HAND-ICD.pdf) and examples/wrappers using the API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    }
+  ]
+}

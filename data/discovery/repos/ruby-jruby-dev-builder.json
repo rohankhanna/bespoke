@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "eregon/clean-path@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "eregon/keep-last-n-releases@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/jruby-dev-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/jruby-dev-builder",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/jruby-dev-builder",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/jruby-dev-builder",
+      "target": "eregon/clean-path@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/jruby-dev-builder",
+      "target": "eregon/keep-last-n-releases@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ruby/jruby-dev-builder",
+      "target": "JRuby Dev Builds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:50:39.947732+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 287
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 6592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JRuby Dev Builds for GitHub Actions",
+    "fork": false,
+    "full_name": "ruby/jruby-dev-builder",
+    "html_url": "https://github.com/ruby/jruby-dev-builder",
+    "language": "Ruby",
+    "pushed_at": "2026-05-02T19:22:25Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-12-11T21:42:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "JRuby Dev Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "JRuby Dev Builds"
+    }
+  ]
+}

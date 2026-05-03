@@ -43,6 +43,18 @@
       "source_repo": "JuliaData/DataFrames.jl",
       "status": "candidate-context",
       "text": "DataFrames.jl"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate-context",
+      "text": "Metaprogramming tools for DataFrames"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate-context",
+      "text": "[![Coveralls](https://coveralls.io/repos/github/JuliaStats/DataFramesMeta.jl/badge.svg?branch=master)](https://coveralls.io/github/JuliaStats/DataFramesMeta.jl?branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "JuliaData/DataFrames.jl",
       "status": "candidate",
       "text": "DataFrames.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataFramesMeta.jl",
+      "status": "candidate",
+      "text": "[![Coveralls](https://coveralls.io/repos/github/JuliaStats/DataFramesMeta.jl/badge.svg?branch=master)](https://coveralls.io/github/JuliaStats/DataFramesMeta.jl?branch=master)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "JuliaData/DataFrames.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/DataFramesMeta.jl"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,475 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a11y-audit.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a11y-audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codegen.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codegen.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-fixtures.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-fixtures.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-playbook-schemas.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-playbook-schemas.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-playbooks.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-playbooks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "roblevintennis/agnosticui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a11y-audit.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a11y-audit.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codegen.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codegen.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-codegen.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "Check codegen drift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-tests.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-tests.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-tests.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "CLI Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-fixtures.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-fixtures.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-fixtures.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "Validate SDUI fixtures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-playbook-schemas.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-playbook-schemas.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-examples.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-examples.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "Verify Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-playbooks.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-playbooks.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-playbooks.yml",
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "Verify Playbooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "accessibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "context-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "generative-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "javascipt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "reactjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "svelte",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "ui-components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgnosticUI/agnosticui",
+      "target": "web-components",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:02:59.584254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10939
+    },
+    {
+      "path": "package.json",
+      "size": 1039
+    },
+    {
+      "path": ".github/workflows/a11y-audit.yml",
+      "size": 1046
+    },
+    {
+      "path": ".github/workflows/check-codegen.yml",
+      "size": 949
+    },
+    {
+      "path": ".github/workflows/cli-tests.yml",
+      "size": 594
+    },
+    {
+      "path": ".github/workflows/validate-fixtures.yml",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/validate-playbook-schemas.yml",
+      "size": 726
+    },
+    {
+      "path": ".github/workflows/verify-examples.yml",
+      "size": 1835
+    },
+    {
+      "path": ".github/workflows/verify-playbooks.yml",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AgnosticUI Local (v2) is a CLI-based UI component library that copies components directly into your project. Works with AI tools, agent-driven UIs, and prompt-ready workflows.",
+    "fork": false,
+    "full_name": "AgnosticUI/agnosticui",
+    "html_url": "https://github.com/AgnosticUI/agnosticui",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-02T14:09:38Z",
+    "stargazers_count": 802,
+    "topics": [
+      "accessibility",
+      "agent-skills",
+      "ai-agents",
+      "context-engineering",
+      "css",
+      "generative-ui",
+      "javascipt",
+      "lit",
+      "prompt-engineering",
+      "reactjs",
+      "svelte",
+      "ui-components",
+      "vue",
+      "web-components"
+    ],
+    "updated_at": "2026-05-02T14:09:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roblevintennis/agnosticui",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check codegen drift",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-codegen.yml",
+      "term": "Check codegen drift"
+    },
+    {
+      "context_snippet": "CLI Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-tests.yml",
+      "term": "CLI Integration Tests"
+    },
+    {
+      "context_snippet": "Validate SDUI fixtures",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-fixtures.yml",
+      "term": "Validate SDUI fixtures"
+    },
+    {
+      "context_snippet": "Verify Examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-examples.yml",
+      "term": "Verify Examples"
+    },
+    {
+      "context_snippet": "Verify Playbooks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-playbooks.yml",
+      "term": "Verify Playbooks"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accessibility"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context-engineering"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ui"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascipt"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactjs"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svelte"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ui-components"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-components"
+    }
+  ]
+}

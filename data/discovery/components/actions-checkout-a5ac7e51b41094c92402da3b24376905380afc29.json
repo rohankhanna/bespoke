@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/install_requirements.yml",
       "source_repo": "openvinotoolkit/openvino_notebooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/acceptance_test_dfa.yaml",
+      "source_repo": "hashicorp/terraform-provider-helm"
     }
   ]
 }

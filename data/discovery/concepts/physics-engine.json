@@ -19,6 +19,42 @@
       "source_repo": "HolyBlackCat/box2cpp",
       "status": "candidate-context",
       "text": "**C++ bindings for [box2d 3.x](https://github.com/erincatto/box2d) physics engine (aka box2c)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/jaxsim",
+      "status": "candidate-context",
+      "text": "A differentiable physics engine and multibody dynamics library for control and robot learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/jaxsim",
+      "status": "candidate-context",
+      "text": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate-context",
+      "text": "Abstract physics interface designed to support simulation and rapid development of robot applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate-context",
+      "text": "**Maintainer:** scpeters AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "saharan/OimoPhysics",
+      "status": "candidate-context",
+      "text": "A cross-platform 3D physics engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharan/OimoPhysics",
+      "status": "candidate-context",
+      "text": "OimoPhysics 1.2.5"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "HolyBlackCat/box2cpp",
       "status": "candidate",
       "text": "**C++ bindings for [box2d 3.x](https://github.com/erincatto/box2d) physics engine (aka box2c)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/jaxsim",
+      "status": "candidate",
+      "text": "**JaxSim** is a **differentiable physics engine** built with JAX, tailored for co-design and robotic learning applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-physics",
+      "status": "candidate",
+      "text": "**Maintainer:** scpeters AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "saharan/OimoPhysics",
+      "status": "candidate",
+      "text": "OimoPhysics 1.2.5"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "HolyBlackCat/box2cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "saharan/OimoPhysics"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

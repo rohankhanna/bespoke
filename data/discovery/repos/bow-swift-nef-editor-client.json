@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bow-swift/nef-editor-client",
+      "target": "bow-swift/nef-editor-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-client",
+      "target": "functional-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-client",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-client",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-client",
+      "target": "swift-package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-client",
+      "target": "swift-playgrounds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:52:00.804975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcf1Client-side code for the nef editor app",
+    "fork": false,
+    "full_name": "bow-swift/nef-editor-client",
+    "html_url": "https://github.com/bow-swift/nef-editor-client",
+    "language": "Swift",
+    "pushed_at": "2021-11-02T07:31:17Z",
+    "stargazers_count": 20,
+    "topics": [
+      "bow",
+      "fp",
+      "functional-programming",
+      "hacktoberfest",
+      "nef",
+      "swift",
+      "swift-package-manager",
+      "swift-playgrounds"
+    ],
+    "updated_at": "2022-12-21T06:14:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bow-swift/nef-editor-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional-programming"
+    },
+    {
+      "context_snippet": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-package-manager"
+    },
+    {
+      "context_snippet": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-playgrounds"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "acl-org/aclpubcheck",
+      "target": "teelinsan/aclpubcheck-gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "acl-org/aclpubcheck",
+      "target": "yuchenlin/rebiber",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:15.834770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tools for checking ACL paper submissions",
+    "fork": false,
+    "full_name": "acl-org/aclpubcheck",
+    "html_url": "https://github.com/acl-org/aclpubcheck",
+    "language": "Python",
+    "pushed_at": "2025-12-06T18:23:29Z",
+    "stargazers_count": 952,
+    "topics": [],
+    "updated_at": "2026-05-02T03:00:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "teelinsan/aclpubcheck-gui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuchenlin/rebiber",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

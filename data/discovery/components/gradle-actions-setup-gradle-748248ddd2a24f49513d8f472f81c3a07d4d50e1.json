@@ -1,0 +1,27 @@
+{
+  "component": "gradle/actions/setup-gradle@748248ddd2a24f49513d8f472f81c3a07d4d50e1",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gradle-nexus/publish-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-latest-versions.yml",
+      "source_repo": "gradle-nexus/publish-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java-versions.yml",
+      "source_repo": "gradle-nexus/publish-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gradle-nexus/publish-plugin"
+    }
+  ]
+}

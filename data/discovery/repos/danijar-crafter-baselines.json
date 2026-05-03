@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danijar/crafter-baselines",
+      "target": "kaixhin/rainbow",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:54:41.185178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Docker containers of baseline agents for the Crafter environment",
+    "fork": false,
+    "full_name": "danijar/crafter-baselines",
+    "html_url": "https://github.com/danijar/crafter-baselines",
+    "language": "Python",
+    "pushed_at": "2021-12-14T21:11:11Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2025-12-02T17:51:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaixhin/rainbow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

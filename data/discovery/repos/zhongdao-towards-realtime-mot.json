@@ -1,0 +1,151 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "samylee/towards-realtime-mot-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "ytoon/synchronized-batchnorm-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "longcw/motdt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "multi-object-tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "multi-pedestrian-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "multiple-object-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "realtime-mot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zhongdao/Towards-Realtime-MOT",
+      "target": "tracking-by-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:08.858136+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Joint Detection and Embedding for fast multi-object tracking",
+    "fork": false,
+    "full_name": "Zhongdao/Towards-Realtime-MOT",
+    "html_url": "https://github.com/Zhongdao/Towards-Realtime-MOT",
+    "language": "Python",
+    "pushed_at": "2021-12-29T06:37:22Z",
+    "stargazers_count": 2443,
+    "topics": [
+      "multi-object-tracker",
+      "multi-pedestrian-tracking",
+      "multiple-object-tracking",
+      "realtime-mot",
+      "tracking",
+      "tracking-by-detection"
+    ],
+    "updated_at": "2026-04-18T15:31:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "longcw/motdt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samylee/towards-realtime-mot-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ytoon/synchronized-batchnorm-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**NEWS:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-object-tracker"
+    },
+    {
+      "context_snippet": "**NEWS:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-pedestrian-tracking"
+    },
+    {
+      "context_snippet": "**NEWS:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiple-object-tracking"
+    },
+    {
+      "context_snippet": "**NEWS:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime-mot"
+    },
+    {
+      "context_snippet": "**NEWS:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking"
+    },
+    {
+      "context_snippet": "**NEWS:**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking-by-detection"
+    }
+  ]
+}

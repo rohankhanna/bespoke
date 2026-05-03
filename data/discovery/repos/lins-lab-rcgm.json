@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:56:47.710981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2026] Any-step Generation via N-th Order Recursive Consistent Velocity Field Estimation",
+    "fork": false,
+    "full_name": "LINs-lab/RCGM",
+    "html_url": "https://github.com/LINs-lab/RCGM",
+    "language": null,
+    "pushed_at": "2026-02-04T12:51:51Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-18T14:08:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

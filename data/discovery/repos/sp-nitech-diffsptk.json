@@ -1,0 +1,277 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "sp-nitech/sptk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "cepstrum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "ddsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "digital-signal-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "k-means",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "mdct",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "mfcc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "pqmf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "signal-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "sptk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sp-nitech/diffsptk",
+      "target": "stft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:42:34.711240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10303
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2511
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A differentiable version of SPTK",
+    "fork": false,
+    "full_name": "sp-nitech/diffsptk",
+    "html_url": "https://github.com/sp-nitech/diffsptk",
+    "language": "Python",
+    "pushed_at": "2026-04-29T05:28:42Z",
+    "stargazers_count": 197,
+    "topics": [
+      "cepstrum",
+      "cqt",
+      "ddsp",
+      "deep-learning",
+      "digital-signal-processing",
+      "dsp",
+      "gmm",
+      "k-means",
+      "lpc",
+      "lsp",
+      "mdct",
+      "mfcc",
+      "nmf",
+      "plp",
+      "pqmf",
+      "python",
+      "pytorch",
+      "signal-processing",
+      "sptk",
+      "stft"
+    ],
+    "updated_at": "2026-04-29T05:28:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sp-nitech/sptk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "package"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cepstrum"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddsp"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digital-signal-processing"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k-means"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mdct"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mfcc"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pqmf"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signal-processing"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sptk"
+    },
+    {
+      "context_snippet": "*diffsptk* is a differentiable version of [SPTK](https://github.com/sp-nitech/SPTK) built on the PyTorch framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stft"
+    }
+  ]
+}

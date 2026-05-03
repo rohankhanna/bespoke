@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T02:48:11.720926+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Taamey D font for Biblical Hebrew",
+    "fork": false,
+    "full_name": "bdenckla/Taamey_D",
+    "html_url": "https://github.com/bdenckla/Taamey_D",
+    "language": "Python",
+    "pushed_at": "2024-01-23T01:04:52Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-11-10T15:46:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

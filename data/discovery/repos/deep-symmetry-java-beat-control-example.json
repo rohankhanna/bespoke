@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Deep-Symmetry/java-beat-control-example",
+      "target": "kokospalme/java-bc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:52:20.999860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example and template for implementing something like Open Beat Control in Java",
+    "fork": false,
+    "full_name": "Deep-Symmetry/java-beat-control-example",
+    "html_url": "https://github.com/Deep-Symmetry/java-beat-control-example",
+    "language": "Java",
+    "pushed_at": "2023-11-06T02:50:49Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-10-23T16:22:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kokospalme/java-bc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

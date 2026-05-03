@@ -439,6 +439,30 @@
       "source_repo": "SciML/ModelingToolkit.jl",
       "status": "candidate-context",
       "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate-context",
+      "text": "vue-i18n extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate-context",
+      "text": "[![npm](https://img.shields.io/npm/v/@intlify/vue-i18n-extensions/next.svg)](https://www.npmjs.com/package/@intlify/vue-i18n-extensions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/adam",
+      "status": "candidate-context",
+      "text": "adam implements a collection of algorithms for calculating rigid-body dynamics in Jax, CasADi, PyTorch, and Numpy."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/adam",
+      "status": "candidate-context",
+      "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +681,18 @@
       "source_repo": "SciML/ModelingToolkit.jl",
       "status": "candidate",
       "text": "[![Join the chat at https://julialang.zulipchat.com #sciml-bridged](https://img.shields.io/static/v1?label=Zulip&message=chat&color=9558b2&labelColor=389826)](https://julialang.zulipchat.com/#narrow/stream/279055-sciml-bridged)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/vue-i18n-extensions",
+      "status": "candidate",
+      "text": "[![npm](https://img.shields.io/npm/v/@intlify/vue-i18n-extensions/next.svg)](https://www.npmjs.com/package/@intlify/vue-i18n-extensions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/adam",
+      "status": "candidate",
+      "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -1120,11 +1156,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "intlify/vue-i18n-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/prepack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

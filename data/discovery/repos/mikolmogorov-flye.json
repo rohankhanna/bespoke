@@ -12,7 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mikolmogorov/Flye",
-      "target": "almiheenko/agb",
+      "target": "human-pangenomics/hg002_data_freeze_v1.0",
       "target_type": "repository"
     },
     {
@@ -30,7 +30,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-02T19:45:53.857073+00:00",
+  "fetched_at": "2026-05-03T02:54:28.703203+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,16 +51,11 @@
     "html_url": "https://github.com/mikolmogorov/Flye",
     "language": "C",
     "pushed_at": "2026-04-03T20:56:14Z",
-    "stargazers_count": 921,
+    "stargazers_count": 922,
     "topics": [],
-    "updated_at": "2026-04-24T15:03:32Z"
+    "updated_at": "2026-05-02T21:41:40Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "almiheenko/agb",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ekg/intervaltree",
@@ -74,6 +69,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "fenderglass/hapdup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "human-pangenomics/hg002_data_freeze_v1.0",
       "source_file": "README.md"
     }
   ],

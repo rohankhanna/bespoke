@@ -1,0 +1,385 @@
+{
+  "components": [
+    {
+      "component": "bazel-contrib/.github/.github/workflows/bazel.yaml@v7.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci@noble",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci/validate_package_xml@jammy",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_xml.yml"
+    },
+    {
+      "component": "gazebo-tooling/pr-collection-labeler@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-collection-labeler.yml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/add-to-project@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "gazebosim/gz-sim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "bazel-contrib/.github/.github/workflows/bazel.yaml@v7.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "Bazel CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "gazebo-tooling/action-gz-ci@noble",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "Ubuntu CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "gazebo-tooling/action-gz-ci/validate_package_xml@jammy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "Validate package.xml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "gazebo-tooling/pr-collection-labeler@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "PR Collection Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "Publish to BCR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "actions/add-to-project@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/gz-physics",
+      "target": "Ticket opened",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics",
+      "target": "gazebo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics",
+      "target": "gazebosim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics",
+      "target": "ignition-physics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics",
+      "target": "ignition-robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics",
+      "target": "physics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics",
+      "target": "physics-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics",
+      "target": "physics-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics",
+      "target": "physics-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-physics",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:02:01.420990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7000
+    },
+    {
+      "path": ".github/workflows/bazel.yml",
+      "size": 565
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/package_xml.yml",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/pr-collection-labeler.yml",
+      "size": 313
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 2031
+    },
+    {
+      "path": ".github/workflows/triage.yml",
+      "size": 393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Abstract physics interface designed to support simulation and rapid development of robot applications.",
+    "fork": false,
+    "full_name": "gazebosim/gz-physics",
+    "html_url": "https://github.com/gazebosim/gz-physics",
+    "language": "C++",
+    "pushed_at": "2026-05-02T00:32:41Z",
+    "stargazers_count": 87,
+    "topics": [
+      "cpp",
+      "gazebo",
+      "gazebosim",
+      "hacktoberfest",
+      "ignition-physics",
+      "ignition-robotics",
+      "physics",
+      "physics-3d",
+      "physics-engine",
+      "physics-interface",
+      "robotics",
+      "robotics-simulation"
+    ],
+    "updated_at": "2026-05-01T17:13:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-sim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bazel CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "term": "Bazel CI"
+    },
+    {
+      "context_snippet": "Ubuntu CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Ubuntu CI"
+    },
+    {
+      "context_snippet": "Validate package.xml",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_xml.yml",
+      "term": "Validate package.xml"
+    },
+    {
+      "context_snippet": "PR Collection Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "term": "PR Collection Labeler"
+    },
+    {
+      "context_snippet": "Publish to BCR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish to BCR"
+    },
+    {
+      "context_snippet": "Ticket opened",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "term": "Ticket opened"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebosim"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-physics"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-robotics"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-3d"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-engine"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physics-interface"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "**Maintainer:** scpeters AT openrobotics DOT org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    }
+  ]
+}

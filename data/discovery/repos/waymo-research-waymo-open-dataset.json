@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waymo-research/waymo-open-dataset",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waymo-research/waymo-open-dataset",
+      "target": "dataset",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:32.722771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Waymo Open Dataset",
+    "fork": false,
+    "full_name": "waymo-research/waymo-open-dataset",
+    "html_url": "https://github.com/waymo-research/waymo-open-dataset",
+    "language": "Python",
+    "pushed_at": "2026-01-08T22:00:08Z",
+    "stargazers_count": 3309,
+    "topics": [
+      "autonomous-driving",
+      "dataset"
+    ],
+    "updated_at": "2026-04-30T01:59:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The Waymo Open Dataset is a collection of datasets and evaluation code that we",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "The Waymo Open Dataset is a collection of datasets and evaluation code that we",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    }
+  ]
+}

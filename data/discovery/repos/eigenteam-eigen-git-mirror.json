@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigenteam/eigen-git-mirror",
+      "target": "blas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigenteam/eigen-git-mirror",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigenteam/eigen-git-mirror",
+      "target": "lapack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigenteam/eigen-git-mirror",
+      "target": "linear-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigenteam/eigen-git-mirror",
+      "target": "matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigenteam/eigen-git-mirror",
+      "target": "solvers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eigenteam/eigen-git-mirror",
+      "target": "sparse-matrix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:56:55.638149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "THIS MIRROR IS DEPRECATED -- New url: https://gitlab.com/libeigen/eigen",
+    "fork": false,
+    "full_name": "eigenteam/eigen-git-mirror",
+    "html_url": "https://github.com/eigenteam/eigen-git-mirror",
+    "language": "C++",
+    "pushed_at": "2022-04-17T23:28:42Z",
+    "stargazers_count": 1820,
+    "topics": [
+      "blas",
+      "cplusplus",
+      "lapack",
+      "linear-algebra",
+      "matrix",
+      "solvers",
+      "sparse-matrix"
+    ],
+    "updated_at": "2026-03-31T06:22:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blas"
+    },
+    {
+      "context_snippet": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lapack"
+    },
+    {
+      "context_snippet": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-algebra"
+    },
+    {
+      "context_snippet": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix"
+    },
+    {
+      "context_snippet": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "solvers"
+    },
+    {
+      "context_snippet": "**Eigen's official git repository have been moved to https://gitlab.com/libeigen/eigen**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-matrix"
+    }
+  ]
+}

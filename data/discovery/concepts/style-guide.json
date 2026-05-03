@@ -163,6 +163,18 @@
       "source_repo": "kowainik/org",
       "status": "candidate-context",
       "text": "This repository contains organization-wide guidelines on the processes within Kowainik."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/ruby-style-guide",
+      "status": "candidate-context",
+      "text": "A community-driven Ruby coding style guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/ruby-style-guide",
+      "status": "candidate-context",
+      "text": "Spell Checking"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "kowainik/org",
       "status": "candidate",
       "text": "This repository contains organization-wide guidelines on the processes within Kowainik."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/ruby-style-guide",
+      "status": "candidate",
+      "text": "Spell Checking"
     }
   ],
   "candidate_related_terms": [],
@@ -460,11 +478,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/ruby-style-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

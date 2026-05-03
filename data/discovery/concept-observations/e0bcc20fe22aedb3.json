@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A JavaScript library to position floating elements and create interactions for them."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release Floating UI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release Floating UI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15197,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15068,
+      "status": "candidate",
+      "text": "allowances"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15068,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15068,
+      "status": "candidate",
+      "text": "benefits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15068,
+      "status": "candidate",
+      "text": "checkbox"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Floating UI",
+      "sense_id": "release-floating-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-floating-ui",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-floating-ui",
+  "observation_id": "e0bcc20fe22aedb3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Release Floating UI",
+  "source_context_snippet": "Release Floating UI",
+  "source_file": ".github/workflows/release-floating-ui.yml",
+  "source_repo": "floating-ui/floating-ui",
+  "source_repo_description": "A JavaScript library to position floating elements and create interactions for them."
+}

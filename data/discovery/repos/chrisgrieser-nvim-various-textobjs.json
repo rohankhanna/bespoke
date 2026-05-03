@@ -1,0 +1,399 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvim-type-check.yml"
+    },
+    {
+      "component": "stevearc/nvim-typecheck-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvim-type-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml"
+    },
+    {
+      "component": "kdheepak/panvimdoc@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rumdl-lint.yml"
+    },
+    {
+      "component": "rvben/rumdl@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rumdl-lint.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "michaeljsmith/vim-indent-object",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "nvim-treesitter/nvim-treesitter-textobjects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "rrethy/nvim-treesitter-textsubjects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "echasnovski/mini.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvim-type-check.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvim-type-check.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "stevearc/nvim-typecheck-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvim-type-check.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "nvim type check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "kdheepak/panvimdoc@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "panvimdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "amannn/action-semantic-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rumdl-lint.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rumdl-lint.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "rvben/rumdl@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "Stale bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "JohnnyMorganz/stylua-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "Stylua check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "indentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "subword",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "text-obj",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "text-object",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "target": "text-objects",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:57:57.428558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25785
+    },
+    {
+      "path": ".github/workflows/nvim-type-check.yml",
+      "size": 279
+    },
+    {
+      "path": ".github/workflows/panvimdoc.yml",
+      "size": 936
+    },
+    {
+      "path": ".github/workflows/pr-title.yml",
+      "size": 811
+    },
+    {
+      "path": ".github/workflows/rumdl-lint.yml",
+      "size": 388
+    },
+    {
+      "path": ".github/workflows/stale-bot.yml",
+      "size": 799
+    },
+    {
+      "path": ".github/workflows/stylua.yml",
+      "size": 375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bundle of more than 30 new text objects for Neovim.",
+    "fork": false,
+    "full_name": "chrisgrieser/nvim-various-textobjs",
+    "html_url": "https://github.com/chrisgrieser/nvim-various-textobjs",
+    "language": "Lua",
+    "pushed_at": "2026-04-13T15:03:14Z",
+    "stargazers_count": 762,
+    "topics": [
+      "indentation",
+      "neovim-plugin",
+      "nvim-plugin",
+      "subword",
+      "text-obj",
+      "text-object",
+      "text-objects"
+    ],
+    "updated_at": "2026-04-17T03:38:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "echasnovski/mini.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michaeljsmith/vim-indent-object",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-treesitter/nvim-treesitter-textobjects",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rrethy/nvim-treesitter-textsubjects",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "nvim type check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvim-type-check.yml",
+      "term": "nvim type check"
+    },
+    {
+      "context_snippet": "panvimdoc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "term": "panvimdoc"
+    },
+    {
+      "context_snippet": "PR title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "term": "PR title"
+    },
+    {
+      "context_snippet": "Stale bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yml",
+      "term": "Stale bot"
+    },
+    {
+      "context_snippet": "Stylua check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stylua.yml",
+      "term": "Stylua check"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-various-textobjs\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indentation"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-various-textobjs\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-various-textobjs\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-various-textobjs\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subword"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-various-textobjs\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-obj"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-various-textobjs\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-object"
+    },
+    {
+      "context_snippet": "<a href=\"https://dotfyle.com/plugins/chrisgrieser/nvim-various-textobjs\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-objects"
+    }
+  ]
+}

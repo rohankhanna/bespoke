@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/docTTTTTquery",
+      "target": "nyu-dl/dl4marco-bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/docTTTTTquery",
+      "target": "adedzy/deepct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/docTTTTTquery",
+      "target": "nyu-dl/dl4ir-doc2query",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "castorini/docTTTTTquery",
+      "target": "lintool/guide",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "castorini/docTTTTTquery"
+}

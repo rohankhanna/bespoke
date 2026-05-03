@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echonet/dynamic",
+      "target": "cardiology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echonet/dynamic",
+      "target": "echonet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echonet/dynamic",
+      "target": "echonet-dynamic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echonet/dynamic",
+      "target": "ejection-fraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echonet/dynamic",
+      "target": "heart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echonet/dynamic",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echonet/dynamic",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:00:31.616372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5679
+    },
+    {
+      "path": "requirements.txt",
+      "size": 475
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "EchoNet-Dynamic is a deep learning model for assessing cardiac function in echocardiogram videos.",
+    "fork": false,
+    "full_name": "echonet/dynamic",
+    "html_url": "https://github.com/echonet/dynamic",
+    "language": "Python",
+    "pushed_at": "2026-05-01T23:52:11Z",
+    "stargazers_count": 123,
+    "topics": [
+      "cardiology",
+      "echonet",
+      "echonet-dynamic",
+      "ejection-fraction",
+      "heart",
+      "segmentation",
+      "video"
+    ],
+    "updated_at": "2026-05-02T21:23:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cardiology"
+    },
+    {
+      "context_snippet": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "echonet"
+    },
+    {
+      "context_snippet": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "echonet-dynamic"
+    },
+    {
+      "context_snippet": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ejection-fraction"
+    },
+    {
+      "context_snippet": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heart"
+    },
+    {
+      "context_snippet": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

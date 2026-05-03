@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MotrixLab/MotionDiffuse",
+      "target": "3d-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MotrixLab/MotionDiffuse",
+      "target": "diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MotrixLab/MotionDiffuse",
+      "target": "motion-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MotrixLab/MotionDiffuse",
+      "target": "text-driven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:22.294234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3681
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MotionDiffuse: Text-Driven Human Motion Generation with Diffusion Model",
+    "fork": false,
+    "full_name": "MotrixLab/MotionDiffuse",
+    "html_url": "https://github.com/MotrixLab/MotionDiffuse",
+    "language": "Python",
+    "pushed_at": "2024-07-19T21:25:48Z",
+    "stargazers_count": 971,
+    "topics": [
+      "3d-generation",
+      "diffusion-model",
+      "motion-generation",
+      "text-driven"
+    ],
+    "updated_at": "2026-04-28T05:30:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-driven"
+    }
+  ]
+}

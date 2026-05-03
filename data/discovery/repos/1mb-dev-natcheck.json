@@ -1,0 +1,287 @@
+{
+  "components": [
+    {
+      "component": "1mb-dev/.github/.github/workflows/ci-go.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "1mb-dev/.github/.github/workflows/dependabot-auto-merge.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/jekyll-build-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "1mb-dev/.github/.github/workflows/release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "pion/stun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "1mb-dev/.github/.github/workflows/ci-go.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "1mb-dev/.github/.github/workflows/dependabot-auto-merge.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "Dependabot auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "1mb-dev/.github/.github/workflows/release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "1mb-dev/natcheck",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1mb-dev/natcheck",
+      "target": "nat-traversal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1mb-dev/natcheck",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1mb-dev/natcheck",
+      "target": "pion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1mb-dev/natcheck",
+      "target": "rfc-5780",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1mb-dev/natcheck",
+      "target": "stun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1mb-dev/natcheck",
+      "target": "webrtc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:48:27.110543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3741
+    },
+    {
+      "path": "go.mod",
+      "size": 356
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 199
+    },
+    {
+      "path": ".github/workflows/dependabot-auto-merge.yml",
+      "size": 140
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 705
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NAT type diagnosis CLI. Tells you why WebRTC/P2P/VPN connections fail and whether TURN is required.",
+    "fork": false,
+    "full_name": "1mb-dev/natcheck",
+    "html_url": "https://github.com/1mb-dev/natcheck",
+    "language": "Go",
+    "pushed_at": "2026-04-27T17:51:14Z",
+    "stargazers_count": 1,
+    "topics": [
+      "cli",
+      "go",
+      "nat",
+      "nat-traversal",
+      "networking",
+      "p2p",
+      "pion",
+      "rfc-5780",
+      "stun",
+      "webrtc"
+    ],
+    "updated_at": "2026-04-27T17:51:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pion/stun",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dependabot auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "term": "Dependabot auto-merge"
+    },
+    {
+      "context_snippet": "Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Pages"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nat-traversal"
+    },
+    {
+      "context_snippet": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pion"
+    },
+    {
+      "context_snippet": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-5780"
+    },
+    {
+      "context_snippet": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stun"
+    },
+    {
+      "context_snippet": "NAT type diagnosis CLI. One command tells you why your WebRTC, P2P, or VPN connections struggle \u2014 and whether TURN is required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webrtc"
+    }
+  ]
+}

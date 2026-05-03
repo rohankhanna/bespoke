@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chhylp123/hifiasm",
+      "target": "lh3/yak",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chhylp123/hifiasm",
+      "target": "pmelsted/gfa-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "chhylp123/hifiasm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chhylp123/hifiasm",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chhylp123/hifiasm",
+      "target": "denovo-assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chhylp123/hifiasm",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chhylp123/hifiasm",
+      "target": "hifi-read",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chhylp123/hifiasm",
+      "target": "pacbio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:54:35.978285+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15595
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hifiasm: a haplotype-resolved assembler for accurate Hifi reads ",
+    "fork": false,
+    "full_name": "chhylp123/hifiasm",
+    "html_url": "https://github.com/chhylp123/hifiasm",
+    "language": "C++",
+    "pushed_at": "2026-04-15T16:16:11Z",
+    "stargazers_count": 768,
+    "topics": [
+      "bioinformatics",
+      "denovo-assembly",
+      "genomics",
+      "hifi-read",
+      "pacbio"
+    ],
+    "updated_at": "2026-04-29T03:59:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lh3/yak",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pmelsted/gfa-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denovo-assembly"
+    },
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hifi-read"
+    },
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacbio"
+    }
+  ]
+}

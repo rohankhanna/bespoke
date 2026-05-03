@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Emacs incremental completion and selection narrowing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952572,
+      "status": "candidate",
+      "text": "text editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952571,
+      "status": "candidate",
+      "text": "editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952570,
+      "status": "candidate",
+      "text": "script editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952569,
+      "status": "candidate",
+      "text": "wysiwyg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19952568,
+      "status": "candidate",
+      "text": "input method editor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emacs",
+      "sense_id": "emacs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "emacs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "emacs",
+  "observation_id": "ef855f9a344f99ab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "emacs",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "emacs-helm/helm",
+  "source_repo_description": "Emacs incremental completion and selection narrowing framework"
+}

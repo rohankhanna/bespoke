@@ -55,6 +55,18 @@
       "source_repo": "ashawkey/torch-ngp",
       "status": "candidate-context",
       "text": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate-context",
+      "text": "INSTA - Instant Volumetric Head Avatars [CVPR2023]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ashawkey/torch-ngp",
       "status": "candidate",
       "text": "torch-ema ninja trimesh opencv-python tensorboardX torch numpy pandas tqdm matplotlib PyMCubes rich pysdf dearpygui packaging scipy lpips imageio torchmetrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
     }
   ],
   "candidate_related_terms": [],
@@ -124,11 +142,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "ashawkey/torch-ngp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nerfstudio-project/nerfacc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

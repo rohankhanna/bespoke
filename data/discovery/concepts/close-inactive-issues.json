@@ -741,6 +741,24 @@
       "source_repo": "mostlygeek/llama-swap",
       "status": "candidate-context",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Cross platform code coverage for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_glosses": [
@@ -1113,6 +1131,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coverlet-coverage/coverlet",
       "status": "candidate",
       "text": "Close inactive issues"
     }
@@ -1812,11 +1842,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/close-inactive-issues.yml",
       "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/clear_issues.yml.disabled",
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel-staging/text-generation-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/close_inactive_issues.yaml",
+      "source_repo": "microsoft/microsoft-foundry-for-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/issue-close.yml",
+      "source_repo": "coverlet-coverage/coverlet"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

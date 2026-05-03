@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby-pkgs@v1",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "jgarber/redcloth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml_",
+      "source_repo": "MSP-Greg/ruby-loco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ucrt.yml",
+      "source_repo": "MSP-Greg/ruby-loco"
     }
   ]
 }

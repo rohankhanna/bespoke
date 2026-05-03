@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md"
+    },
+    {
+      "component": "volcengine/vemlp-github-runner@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md"
+    },
+    {
+      "component": "volcengine/vemlp-github-runner@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkpoint_converter.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkpoint_converter.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_unit_tests.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_ascend.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_dapo.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "agent-rl/research",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "simple-efficient/rl-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "ritzz-ai/gui-r1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "ragen-ai/vagen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "volcengine/vemlp-github-runner@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "Your Default Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title.yml",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checkpoint_converter.yml",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu_unit_tests.yml",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_ascend.yml",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_dapo.yml",
+      "source_repo": "project-numina/kimina-prover-rl",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:00:18.809318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26091
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3225
+    },
+    {
+      "path": "requirements.txt",
+      "size": 381
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 2223
+    },
+    {
+      "path": ".github/workflows/check-pr-title.yml",
+      "size": 2480
+    },
+    {
+      "path": ".github/workflows/checkpoint_converter.yml",
+      "size": 5715
+    },
+    {
+      "path": ".github/workflows/cpu_unit_tests.yml",
+      "size": 3544
+    },
+    {
+      "path": ".github/workflows/doc.yml",
+      "size": 4191
+    },
+    {
+      "path": ".github/workflows/e2e_ascend.yml",
+      "size": 6033
+    },
+    {
+      "path": ".github/workflows/e2e_dapo.yml",
+      "size": 4128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kimina-Prover RL pipeline",
+    "fork": true,
+    "full_name": "project-numina/kimina-prover-rl",
+    "html_url": "https://github.com/project-numina/kimina-prover-rl",
+    "language": "Python",
+    "pushed_at": "2025-08-14T07:48:15Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-23T21:47:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agent-rl/research",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ragen-ai/vagen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ritzz-ai/gui-r1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simple-efficient/rl-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Your Default Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/README.md",
+      "term": "Your Default Workflow"
+    }
+  ]
+}

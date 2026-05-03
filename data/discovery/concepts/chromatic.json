@@ -79,6 +79,18 @@
       "source_repo": "storybook-eol/addon-smart-knobs",
       "status": "candidate-context",
       "text": "\"Chromatic\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate-context",
+      "text": "SumUp's design system for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate-context",
+      "text": "Chromatic"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "storybook-eol/addon-smart-knobs",
       "status": "candidate",
       "text": "\"Chromatic\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sumup-oss/circuit-ui",
+      "status": "candidate",
+      "text": "Chromatic"
     }
   ],
   "candidate_related_terms": [
@@ -238,11 +256,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/chromatic.yml",
       "source_repo": "storybook-eol/addon-smart-knobs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "sumup-oss/circuit-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "storybook-eol/addon-smart-knobs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T01:59:28.625898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2016
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "YKUSH Boards Control Application",
+    "fork": false,
+    "full_name": "Yepkit/ykush",
+    "html_url": "https://github.com/Yepkit/ykush",
+    "language": "C",
+    "pushed_at": "2026-01-16T02:53:30Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-01-30T13:52:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

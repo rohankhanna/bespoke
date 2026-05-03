@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Marvin Issue Dedupe"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrefectHQ/fastmcp",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 The fast, Pythonic way to build MCP servers and clients."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrefectHQ/fastmcp",
+      "status": "candidate-context",
+      "text": "Marvin Issue Dedupe"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrefectHQ/fastmcp",
+      "status": "candidate",
+      "text": "Marvin Issue Dedupe"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11696,
+      "status": "candidate",
+      "text": "lee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11696,
+      "status": "candidate",
+      "text": "lees"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11298,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11278,
+      "status": "candidate",
+      "text": "hotel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11278,
+      "status": "candidate",
+      "text": "mars"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Marvin Issue Dedupe",
+  "concept_id": "marvin-issue-dedupe",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/marvin-dedupe-issues.yml",
+      "source_repo": "PrefectHQ/fastmcp"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Marvin Issue Dedupe",
+      "sense_id": "marvin-issue-dedupe#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

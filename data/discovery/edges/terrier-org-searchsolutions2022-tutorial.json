@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terrier-org/searchsolutions2022-tutorial",
+      "target": "georgetown-ir-lab/opennir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terrier-org/searchsolutions2022-tutorial",
+      "target": "terrierteam/pyterrier_colbert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terrier-org/searchsolutions2022-tutorial",
+      "target": "terrierteam/pyterrier_deepct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "terrier-org/searchsolutions2022-tutorial",
+      "target": "terrierteam/pyterrier_ance",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "terrier-org/searchsolutions2022-tutorial"
+}

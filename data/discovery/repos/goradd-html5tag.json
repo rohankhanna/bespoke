@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "goradd/html5tag",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "goradd/html5tag",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:46:42.833946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1990
+    },
+    {
+      "path": "go.mod",
+      "size": 44
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "html5tag generates html 5 tags",
+    "fork": false,
+    "full_name": "goradd/html5tag",
+    "html_url": "https://github.com/goradd/html5tag",
+    "language": "Go",
+    "pushed_at": "2023-12-10T23:53:09Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-05-08T20:26:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

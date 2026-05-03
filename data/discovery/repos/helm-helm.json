@@ -16,17 +16,17 @@
       "source_file": ".github/workflows/codeql-analysis.yml"
     },
     {
-      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml"
     },
     {
-      "component": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/autobuild@e46ed2cbd01164d986452f91f178727624ae40d7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml"
     },
     {
-      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/analyze@e46ed2cbd01164d986452f91f178727624ae40d7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml"
     },
@@ -111,7 +111,7 @@
       "source_file": ".github/workflows/scorecards.yml"
     },
     {
-      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "component": "github/codeql-action/upload-sarif@e46ed2cbd01164d986452f91f178727624ae40d7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecards.yml"
     },
@@ -154,21 +154,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "helm/helm",
-      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/init@e46ed2cbd01164d986452f91f178727624ae40d7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "helm/helm",
-      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/autobuild@e46ed2cbd01164d986452f91f178727624ae40d7",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "helm/helm",
-      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/analyze@e46ed2cbd01164d986452f91f178727624ae40d7",
       "target_type": "component"
     },
     {
@@ -287,7 +287,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "helm/helm",
-      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target": "github/codeql-action/upload-sarif@e46ed2cbd01164d986452f91f178727624ae40d7",
       "target_type": "component"
     },
     {
@@ -347,7 +347,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-30T08:09:31.373513+00:00",
+  "fetched_at": "2026-05-03T03:57:28.058167+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -395,8 +395,8 @@
     "full_name": "helm/helm",
     "html_url": "https://github.com/helm/helm",
     "language": "Go",
-    "pushed_at": "2026-04-29T13:35:53Z",
-    "stargazers_count": 29768,
+    "pushed_at": "2026-05-02T12:30:56Z",
+    "stargazers_count": 29773,
     "topics": [
       "chart",
       "charts",
@@ -404,7 +404,7 @@
       "helm",
       "kubernetes"
     ],
-    "updated_at": "2026-04-30T07:10:51Z"
+    "updated_at": "2026-05-02T16:17:16Z"
   },
   "repo_links": [],
   "terms": [

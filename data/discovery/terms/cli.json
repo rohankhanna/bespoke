@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/cli.yml",
       "source_repo": "bencherdev/bencher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cli.yml",
+      "source_repo": "getsops/sops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check-cli-tests.yaml",
+      "source_repo": "kyverno/kyverno"
     }
   ],
   "term": "CLI"

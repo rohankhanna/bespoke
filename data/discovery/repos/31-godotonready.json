@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "31/GodotOnReady",
+      "target": "abarichello/godot-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "31/GodotOnReady",
+      "target": "csharp-sourcegenerator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "31/GodotOnReady",
+      "target": "godot-mono",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:55:09.586368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A C# Source Generator that adds convenient onready-like features to your C# scripts in Godot Mono (3.x) without any reflection.",
+    "fork": false,
+    "full_name": "31/GodotOnReady",
+    "html_url": "https://github.com/31/GodotOnReady",
+    "language": "C#",
+    "pushed_at": "2023-03-31T02:39:35Z",
+    "stargazers_count": 123,
+    "topics": [
+      "csharp-sourcegenerator",
+      "godot-mono"
+    ],
+    "updated_at": "2026-04-11T20:10:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abarichello/godot-ci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**GodotOnReady** is a [C# Source Generator] for Godot 3.x that adds convenient `onready`-like",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp-sourcegenerator"
+    },
+    {
+      "context_snippet": "**GodotOnReady** is a [C# Source Generator] for Godot 3.x that adds convenient `onready`-like",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-mono"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Clemapfel/mousetrap_julia_binding",
+      "target": "cpp-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Clemapfel/mousetrap_julia_binding",
+      "target": "julia-interface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:09:25.281593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Interface between  mousetrap C++ and Julia component, cf. https://github.com/Clemapfel/mousetrap.jl",
+    "fork": false,
+    "full_name": "Clemapfel/mousetrap_julia_binding",
+    "html_url": "https://github.com/Clemapfel/mousetrap_julia_binding",
+    "language": "C++",
+    "pushed_at": "2024-07-18T13:13:20Z",
+    "stargazers_count": 1,
+    "topics": [
+      "cpp-interface",
+      "julia-interface"
+    ],
+    "updated_at": "2025-08-08T11:59:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> **If you are looking to run mousetrap using Julia, you are in the wrong place. Please visit [mousetrap.jl](https://github.com/Clemapfel/mousetrap.jl) instead.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp-interface"
+    },
+    {
+      "context_snippet": "> **If you are looking to run mousetrap using Julia, you are in the wrong place. Please visit [mousetrap.jl](https://github.com/Clemapfel/mousetrap.jl) instead.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-interface"
+    }
+  ]
+}

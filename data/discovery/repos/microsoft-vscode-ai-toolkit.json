@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduleNotification.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/vscode-ai-toolkit",
+      "target": "microsoft/microsoft-foundry-for-vscode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduleNotification.yml",
+      "source_repo": "microsoft/vscode-ai-toolkit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:40.122688+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7865
+    },
+    {
+      "path": ".github/workflows/scheduleNotification.yml",
+      "size": 751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "microsoft/vscode-ai-toolkit",
+    "html_url": "https://github.com/microsoft/vscode-ai-toolkit",
+    "language": null,
+    "pushed_at": "2026-03-24T08:24:41Z",
+    "stargazers_count": 1958,
+    "topics": [],
+    "updated_at": "2026-04-30T15:48:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/microsoft-foundry-for-vscode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

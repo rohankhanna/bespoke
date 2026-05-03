@@ -1,7 +1,7 @@
 {
   "component": "actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -217,6 +217,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "ruby/rake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "halostatue/diff-lcs"
     }
   ]
 }

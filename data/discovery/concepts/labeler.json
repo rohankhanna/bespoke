@@ -356,6 +356,18 @@
       "source_repo": "cloudfoundry/uaa",
       "status": "candidate-context",
       "text": "labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate-context",
+      "text": "Yet Another Document Translator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate-context",
+      "text": "Labeler"
     }
   ],
   "candidate_glosses": [
@@ -532,6 +544,12 @@
       "source_repo": "cloudfoundry/uaa",
       "status": "candidate",
       "text": "labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "funstory-ai/BabelDOC",
+      "status": "candidate",
+      "text": "Labeler"
     }
   ],
   "candidate_related_terms": [
@@ -899,11 +917,35 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/dev_pr.yml",
       "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/dev_pr.yml",
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "PyCQA/isort"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

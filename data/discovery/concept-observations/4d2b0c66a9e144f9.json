@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Real-time analytics on Postgres tables"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=center>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042368,
+      "status": "candidate",
+      "text": "parquet floor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042367,
+      "status": "candidate",
+      "text": "flooring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041880,
+      "status": "candidate",
+      "text": "floor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29893970,
+      "status": "candidate",
+      "text": "procurator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29889684,
+      "status": "candidate",
+      "text": "procuracy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parquet",
+      "sense_id": "parquet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "parquet floor"
+    }
+  ],
+  "concept_id": "parquet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "parquet",
+  "observation_id": "4d2b0c66a9e144f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "parquet",
+  "source_context_snippet": "<div align=center>",
+  "source_file": null,
+  "source_repo": "Mooncake-Labs/pg_mooncake",
+  "source_repo_description": "Real-time analytics on Postgres tables"
+}

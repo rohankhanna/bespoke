@@ -80,13 +80,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "http-party/node-http-proxy",
-      "target": "donasaur/http-proxy-rules",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "http-party/node-http-proxy",
@@ -185,7 +178,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-02T19:38:08.186022+00:00",
+  "fetched_at": "2026-05-03T05:04:22.092823+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -206,16 +199,11 @@
     "html_url": "https://github.com/http-party/node-http-proxy",
     "language": "JavaScript",
     "pushed_at": "2026-04-30T21:10:24Z",
-    "stargazers_count": 14139,
+    "stargazers_count": 14140,
     "topics": [],
-    "updated_at": "2026-05-02T09:59:06Z"
+    "updated_at": "2026-05-02T20:00:10Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "donasaur/http-proxy-rules",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "no9/harmon",

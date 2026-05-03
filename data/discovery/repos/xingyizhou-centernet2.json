@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-template.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-template.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/needs-reply.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/needs-reply.yml"
+    },
+    {
+      "component": "octokit/request-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-needs-reply.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-template.yml",
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-template.yml",
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-template.yml",
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "Check issue template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/needs-reply.yml",
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/needs-reply.yml",
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "dessant/lock-threads@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-needs-reply.yml",
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "octokit/request-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-needs-reply.yml",
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "Remove needs-more-info label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "coco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xingyizhou/CenterNet2",
+      "target": "object-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:37.164748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3630
+    },
+    {
+      "path": "requirements.txt",
+      "size": 14
+    },
+    {
+      "path": ".github/workflows/check-template.yml",
+      "size": 3853
+    },
+    {
+      "path": ".github/workflows/levenshtein.js",
+      "size": 1980
+    },
+    {
+      "path": ".github/workflows/needs-reply.yml",
+      "size": 4091
+    },
+    {
+      "path": ".github/workflows/remove-needs-reply.yml",
+      "size": 838
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 2989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Two-stage CenterNet",
+    "fork": false,
+    "full_name": "xingyizhou/CenterNet2",
+    "html_url": "https://github.com/xingyizhou/CenterNet2",
+    "language": "Python",
+    "pushed_at": "2022-11-20T23:07:54Z",
+    "stargazers_count": 1219,
+    "topics": [
+      "coco",
+      "object-detection"
+    ],
+    "updated_at": "2026-04-28T16:49:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check issue template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-template.yml",
+      "term": "Check issue template"
+    },
+    {
+      "context_snippet": "Remove needs-more-info label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-needs-reply.yml",
+      "term": "Remove needs-more-info label"
+    },
+    {
+      "context_snippet": "Two-stage object detectors that use class-agnostic one-stage detectors as the proposal network.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco"
+    },
+    {
+      "context_snippet": "Two-stage object detectors that use class-agnostic one-stage detectors as the proposal network.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    }
+  ]
+}

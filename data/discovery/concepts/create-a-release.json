@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Create a release"
+    "Create a release",
+    "Create a Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "tomas-abrahamsson/gpb",
       "status": "candidate-context",
       "text": "Create a release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/setup-ruby",
+      "status": "candidate-context",
+      "text": "An action to download a prebuilt Ruby and add it to the PATH in 5 seconds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/setup-ruby",
+      "status": "candidate-context",
+      "text": "Create a Release"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "tomas-abrahamsson/gpb",
       "status": "candidate",
       "text": "Create a release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/setup-ruby",
+      "status": "candidate",
+      "text": "Create a Release"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "tomas-abrahamsson/gpb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ruby/setup-ruby"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

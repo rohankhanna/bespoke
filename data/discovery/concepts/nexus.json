@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "nexus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "status": "candidate-context",
+      "text": "Automatize releasing Gradle projects to Maven Central."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin.svg?branch=master)](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Codearte/gradle-nexus-staging-plugin",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin.svg?branch=master)](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040868,
+      "status": "candidate",
+      "text": "link"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041293,
+      "status": "candidate",
+      "text": "connection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041286,
+      "status": "candidate",
+      "text": "connexion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040997,
+      "status": "candidate",
+      "text": "interrelationship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040218,
+      "status": "candidate",
+      "text": "interdependence"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23073,
+      "status": "candidate",
+      "text": "link"
+    }
+  ],
+  "canonical_name": "nexus",
+  "concept_id": "nexus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "Codearte/gradle-nexus-staging-plugin"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nexus",
+      "sense_id": "nexus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

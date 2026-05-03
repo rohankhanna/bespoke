@@ -1,0 +1,420 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_network_designer.yml"
+    },
+    {
+      "component": "cognizant-ai-lab/build-common/actions/slack-notify@a5d90457ea6e44b8f24f878755f77c00216e2947",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_network_designer.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-to-deploy.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-to-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.24.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.24.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@v1.24.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "cognizant-ai-lab/neuro-san",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "cognizant-ai-lab/neuro-san-cc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "babakatwork/loopy_agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "cognizant-ai-lab/neuro-san-web-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_network_designer.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_network_designer.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "cognizant-ai-lab/build-common/actions/slack-notify@a5d90457ea6e44b8f24f878755f77c00216e2947",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent_network_designer.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "Agent Network Designer Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-to-deploy.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch-to-deploy.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch-to-deploy.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "Dispatch to deploy repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "slackapi/slack-github-action@v1.24.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "slackapi/slack-github-action@v1.24.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "aaosa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "agentic-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "ai-agents-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "multi-agent-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "nsflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san-studio",
+      "target": "sly-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:54:55.066129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14442
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1920
+    },
+    {
+      "path": "requirements.txt",
+      "size": 753
+    },
+    {
+      "path": ".github/workflows/agent_network_designer.yml",
+      "size": 2015
+    },
+    {
+      "path": ".github/workflows/dispatch-to-deploy.yml",
+      "size": 2682
+    },
+    {
+      "path": ".github/workflows/integration.yml",
+      "size": 1616
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 4190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A playground for neuro-san",
+    "fork": false,
+    "full_name": "cognizant-ai-lab/neuro-san-studio",
+    "html_url": "https://github.com/cognizant-ai-lab/neuro-san-studio",
+    "language": "Python",
+    "pushed_at": "2026-05-02T06:14:58Z",
+    "stargazers_count": 486,
+    "topics": [
+      "aaosa",
+      "agentic-ai",
+      "agentic-framework",
+      "agents",
+      "ai",
+      "ai-agents",
+      "ai-agents-framework",
+      "langchain",
+      "llms",
+      "mas",
+      "multi-agent",
+      "multi-agent-framework",
+      "multi-agent-systems",
+      "nsflow",
+      "sly-data"
+    ],
+    "updated_at": "2026-05-02T19:02:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babakatwork/loopy_agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cognizant-ai-lab/neuro-san",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cognizant-ai-lab/neuro-san-cc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cognizant-ai-lab/neuro-san-web-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Agent Network Designer Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent_network_designer.yml",
+      "term": "Agent Network Designer Tests"
+    },
+    {
+      "context_snippet": "Dispatch to deploy repo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch-to-deploy.yml",
+      "term": "Dispatch to deploy repo"
+    },
+    {
+      "context_snippet": "Integration Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration.yml",
+      "term": "Integration Test"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aaosa"
+    },
+    {
+      "context_snippet": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-framework"
+    },
+    {
+      "context_snippet": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-agents-framework"
+    },
+    {
+      "context_snippet": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "context_snippet": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-framework"
+    },
+    {
+      "context_snippet": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nsflow"
+    },
+    {
+      "context_snippet": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sly-data"
+    }
+  ]
+}

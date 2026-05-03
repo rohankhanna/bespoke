@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit-on-push.yml"
+    },
+    {
+      "component": "actions-rs/audit-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit-on-push.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions-rs/tarpaulin@v0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule-audit.yml"
+    },
+    {
+      "component": "actions-rs/audit-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule-audit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "lquerel/gcp-bigquery-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "lquerel/gcp-bigquery-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit-on-push.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit-on-push.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "actions-rs/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit-on-push.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "Security audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "actions-rs/tarpaulin@v0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/general.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule-audit.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule-audit.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "actions-rs/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule-audit.yml",
+      "source_repo": "iambriccardo/gcp-bigquery-client",
+      "target": "Security audit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:51:12.608412+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9448
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2389
+    },
+    {
+      "path": ".github/workflows/audit-on-push.yml",
+      "size": 286
+    },
+    {
+      "path": ".github/workflows/general.yml",
+      "size": 2277
+    },
+    {
+      "path": ".github/workflows/schedule-audit.yml",
+      "size": 246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GCP BigQuery Client (Rust)",
+    "fork": true,
+    "full_name": "iambriccardo/gcp-bigquery-client",
+    "html_url": "https://github.com/iambriccardo/gcp-bigquery-client",
+    "language": "Rust",
+    "pushed_at": "2026-03-16T15:32:50Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-16T15:32:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lquerel/gcp-bigquery-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lquerel/gcp-bigquery-client",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Security audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit-on-push.yml",
+      "term": "Security audit"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/general.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "Security audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule-audit.yml",
+      "term": "Security audit"
+    }
+  ]
+}

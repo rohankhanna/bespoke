@@ -19,6 +19,18 @@
       "source_repo": "IBM/FfDL",
       "status": "candidate-context",
       "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate-context",
+      "text": "The Cluster API provider for creating microvm (i.e. Firecracker, Cloud Hypervisor) clusters"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate-context",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "IBM/FfDL",
       "status": "candidate",
       "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm",
+      "status": "candidate",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "IBM/FfDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "liquidmetal-dev/cluster-api-provider-microvm"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,261 @@
+{
+  "components": [
+    {
+      "component": "@mapbox/cloudfriend",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ejs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pixelmatch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "aws-sdk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "mapbox/mapbox-maps-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "@mapbox/cloudfriend",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "ejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "esm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "pixelmatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "aws-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "geojson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "mapbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "mapbox-gl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "maps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "openstreetmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mapbox/mapbox-gl-native-android",
+      "target": "vector-tiles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:13.441282+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4223
+    },
+    {
+      "path": "package.json",
+      "size": 591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Interactive, thoroughly customizable maps in native Android powered by vector tiles and OpenGL",
+    "fork": false,
+    "full_name": "mapbox/mapbox-gl-native-android",
+    "html_url": "https://github.com/mapbox/mapbox-gl-native-android",
+    "language": "Java",
+    "pushed_at": "2023-08-21T13:46:32Z",
+    "stargazers_count": 219,
+    "topics": [
+      "android",
+      "c-plus-plus",
+      "geojson",
+      "java",
+      "map",
+      "mapbox",
+      "mapbox-gl",
+      "maps",
+      "opengl",
+      "openstreetmap",
+      "vector-tiles"
+    ],
+    "updated_at": "2026-02-03T06:44:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/mapbox-maps-android",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geojson"
+    },
+    {
+      "context_snippet": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapbox"
+    },
+    {
+      "context_snippet": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapbox-gl"
+    },
+    {
+      "context_snippet": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maps"
+    },
+    {
+      "context_snippet": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstreetmap"
+    },
+    {
+      "context_snippet": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-tiles"
+    }
+  ]
+}

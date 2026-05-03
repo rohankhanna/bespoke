@@ -657,6 +657,30 @@
       "source_repo": "mostlygeek/llama-swap",
       "status": "candidate-context",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helmfile/vals",
+      "status": "candidate-context",
+      "text": "Helm-like configuration values loader with support for various sources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/vals",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scaleway/scaleway-sdk-go",
+      "status": "candidate-context",
+      "text": "Integrate Scaleway with your Go application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/scaleway-sdk-go",
+      "status": "candidate-context",
+      "text": "goreleaser"
     }
   ],
   "candidate_glosses": [
@@ -975,6 +999,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mostlygeek/llama-swap",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helmfile/vals",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scaleway/scaleway-sdk-go",
       "status": "candidate",
       "text": "goreleaser"
     }
@@ -1344,11 +1380,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "mostlygeek/llama-swap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "helmfile/vals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "scaleway/scaleway-sdk-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

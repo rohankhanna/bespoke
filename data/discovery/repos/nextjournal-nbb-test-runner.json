@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "nbb",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "nextjournal/nbb-test-runner",
+      "target": "nbb",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:53:44.494148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 667
+    },
+    {
+      "path": "package.json",
+      "size": 50
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fork of cognitect-labs/test-runner for use with nbb",
+    "fork": true,
+    "full_name": "nextjournal/nbb-test-runner",
+    "html_url": "https://github.com/nextjournal/nbb-test-runner",
+    "language": "Clojure",
+    "pushed_at": "2025-06-10T07:24:18Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-06-10T07:24:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

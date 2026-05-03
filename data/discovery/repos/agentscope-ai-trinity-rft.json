@@ -108,21 +108,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "agentscope-ai/Trinity-RFT",
-      "target": "modelscope/trinity-studio",
+      "target": "shiweijiezero/r3l",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "agentscope-ai/Trinity-RFT",
-      "target": "datajuicer/data-juicer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "agentscope-ai/Trinity-RFT",
-      "target": "alibaba/chatlearn",
+      "target": "volcengine/verl",
       "target_type": "repository"
     },
     {
@@ -294,7 +287,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T14:10:21.680269+00:00",
+  "fetched_at": "2026-05-03T00:42:13.780097+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -351,17 +344,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alibaba/chatlearn",
+      "full_name": "shiweijiezero/r3l",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "datajuicer/data-juicer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "modelscope/trinity-studio",
+      "full_name": "volcengine/verl",
       "source_file": "README.md"
     }
   ],

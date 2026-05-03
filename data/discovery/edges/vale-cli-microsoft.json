@@ -11,13 +11,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vale-cli/Microsoft",
-      "target": "microsoftdocs/microsoft-style-guide",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vale-cli/Microsoft",
       "target": "errata-ai/microsoft",
       "target_type": "repository"
     },
@@ -78,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T18:23:34.576038+00:00",
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
   "source_repo": "vale-cli/Microsoft"
 }

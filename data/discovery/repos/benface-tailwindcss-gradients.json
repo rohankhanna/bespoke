@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "color",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "github-release-from-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-matcher-css",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "release-it",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "benface/tailwindcss-gradients",
+      "target": "color",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "benface/tailwindcss-gradients",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "benface/tailwindcss-gradients",
+      "target": "github-release-from-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "benface/tailwindcss-gradients",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "benface/tailwindcss-gradients",
+      "target": "jest-matcher-css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "benface/tailwindcss-gradients",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "benface/tailwindcss-gradients",
+      "target": "release-it",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "benface/tailwindcss-gradients",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benface/tailwindcss-gradients",
+      "target": "tailwindcss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "benface/tailwindcss-gradients",
+      "target": "tailwindcss-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:58:40.775237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7229
+    },
+    {
+      "path": "package.json",
+      "size": 829
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Tailwind CSS plugin to generate gradient background utilities",
+    "fork": false,
+    "full_name": "benface/tailwindcss-gradients",
+    "html_url": "https://github.com/benface/tailwindcss-gradients",
+    "language": "JavaScript",
+    "pushed_at": "2023-01-06T01:37:00Z",
+    "stargazers_count": 301,
+    "topics": [
+      "tailwindcss",
+      "tailwindcss-plugin"
+    ],
+    "updated_at": "2025-10-26T17:51:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This plugin requires Tailwind CSS 1.2 or later. If your project uses an older version of Tailwind, you should install the latest 2.x version of this plugin (`npm install tailwindcss-gradients@2.x`).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tailwindcss"
+    },
+    {
+      "context_snippet": "This plugin requires Tailwind CSS 1.2 or later. If your project uses an older version of Tailwind, you should install the latest 2.x version of this plugin (`npm install tailwindcss-gradients@2.x`).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tailwindcss-plugin"
+    }
+  ]
+}

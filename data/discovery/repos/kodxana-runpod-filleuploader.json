@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T03:56:19.243486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2800
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Web UI for easy file upload to runpod pods",
+    "fork": false,
+    "full_name": "kodxana/RunPod-FilleUploader",
+    "html_url": "https://github.com/kodxana/RunPod-FilleUploader",
+    "language": "HTML",
+    "pushed_at": "2024-03-27T19:41:46Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2025-11-15T20:36:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

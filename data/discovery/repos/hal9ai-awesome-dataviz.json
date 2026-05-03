@@ -1,0 +1,205 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "analyticalgraphicsinc/cesium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "alibaba/bizcharts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "ajstarks/svgo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "ankane/chartkick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "actions/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "chart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "dataviz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hal9ai/awesome-dataviz",
+      "target": "visualize-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:57:06.132548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19204
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 398
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":chart_with_upwards_trend:  A curated list of awesome data visualization libraries and resources.",
+    "fork": false,
+    "full_name": "hal9ai/awesome-dataviz",
+    "html_url": "https://github.com/hal9ai/awesome-dataviz",
+    "language": null,
+    "pushed_at": "2024-01-26T12:36:48Z",
+    "stargazers_count": 4319,
+    "topics": [
+      "awesome-list",
+      "chart",
+      "data-visualization",
+      "dataviz",
+      "visualization",
+      "visualize-data"
+    ],
+    "updated_at": "2026-04-30T16:47:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajstarks/svgo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/bizcharts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "analyticalgraphicsinc/cesium",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/chartkick",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![Test](https://github.com/javierluraschi/awesome-dataviz/actions/workflows/main.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![Test](https://github.com/javierluraschi/awesome-dataviz/actions/workflows/main.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chart"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![Test](https://github.com/javierluraschi/awesome-dataviz/actions/workflows/main.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![Test](https://github.com/javierluraschi/awesome-dataviz/actions/workflows/main.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataviz"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![Test](https://github.com/javierluraschi/awesome-dataviz/actions/workflows/main.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    },
+    {
+      "context_snippet": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![Test](https://github.com/javierluraschi/awesome-dataviz/actions/workflows/main.yaml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualize-data"
+    }
+  ]
+}

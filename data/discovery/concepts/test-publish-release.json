@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "test + publish + release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "status": "candidate-context",
+      "text": "A library to invoke CMake for Dart Native Assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "status": "candidate-context",
+      "text": "test + publish + release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "status": "candidate",
+      "text": "test + publish + release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36019,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26857,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25964,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18479,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18479,
+      "status": "candidate",
+      "text": "sound"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "test + publish + release",
+  "concept_id": "test-publish-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/test_publish.yml",
+      "source_repo": "rainyl/native_toolchain_cmake"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test + publish + release",
+      "sense_id": "test-publish-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

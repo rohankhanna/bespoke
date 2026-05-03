@@ -48,7 +48,7 @@
   "normalized_form": "presubmit",
   "observation_id": "c5f6820a654f8c2a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "PreSubmit",
   "source_context_snippet": "PreSubmit",
   "source_file": ".github/workflows/pull_request.yml",

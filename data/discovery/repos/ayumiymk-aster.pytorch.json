@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ayumiymk/aster.pytorch",
+      "target": "bgshih/aster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayumiymk/aster.pytorch",
+      "target": "aster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayumiymk/aster.pytorch",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayumiymk/aster.pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayumiymk/aster.pytorch",
+      "target": "scene-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayumiymk/aster.pytorch",
+      "target": "text-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ayumiymk/aster.pytorch",
+      "target": "text-rectification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:42:42.566540+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ASTER in Pytorch",
+    "fork": false,
+    "full_name": "ayumiymk/aster.pytorch",
+    "html_url": "https://github.com/ayumiymk/aster.pytorch",
+    "language": "Python",
+    "pushed_at": "2021-12-09T11:26:06Z",
+    "stargazers_count": 684,
+    "topics": [
+      "aster",
+      "computer-vision",
+      "ocr",
+      "pytorch",
+      "scene-text",
+      "text-recognition",
+      "text-rectification"
+    ],
+    "updated_at": "2026-03-03T01:18:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bgshih/aster",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository implements the ASTER in pytorch. Origin software could be found in [here](https://github.com/bgshih/aster).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aster"
+    },
+    {
+      "context_snippet": "This repository implements the ASTER in pytorch. Origin software could be found in [here](https://github.com/bgshih/aster).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository implements the ASTER in pytorch. Origin software could be found in [here](https://github.com/bgshih/aster).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository implements the ASTER in pytorch. Origin software could be found in [here](https://github.com/bgshih/aster).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text"
+    },
+    {
+      "context_snippet": "This repository implements the ASTER in pytorch. Origin software could be found in [here](https://github.com/bgshih/aster).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-recognition"
+    },
+    {
+      "context_snippet": "This repository implements the ASTER in pytorch. Origin software could be found in [here](https://github.com/bgshih/aster).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-rectification"
+    }
+  ]
+}

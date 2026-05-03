@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "calcom/docker",
+      "target": "calcom/cal.com",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "calcom/docker",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "calcom/docker",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "calcom/docker",
+      "target": "slackapi/slack-github-action@v1.24.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yaml",
+      "source_repo": "calcom/docker",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub-arm.yml",
+      "source_repo": "calcom/docker",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub-arm.yml",
+      "source_repo": "calcom/docker",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub-arm.yml",
+      "source_repo": "calcom/docker",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub-arm.yml",
+      "source_repo": "calcom/docker",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub-arm.yml",
+      "source_repo": "calcom/docker",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub-arm.yml",
+      "source_repo": "calcom/docker",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub-arm.yml",
+      "source_repo": "calcom/docker",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub-arm.yml",
+      "source_repo": "calcom/docker",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub-arm.yml",
+      "source_repo": "calcom/docker",
+      "target": "slackapi/slack-github-action@v1.24.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker",
+      "target": "slackapi/slack-github-action@v1.24.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker",
+      "target": "Build and push image to DockerHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scarf-data-export.yml",
+      "source_repo": "calcom/docker",
+      "target": "docker://scarf.docker.scarf.sh/scarf-sh/scarf-postgres-exporter:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scarf-data-export.yml",
+      "source_repo": "calcom/docker",
+      "target": "Export Scarf data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-submodules.yml",
+      "source_repo": "calcom/docker",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-submodules.yml",
+      "source_repo": "calcom/docker",
+      "target": "Update Calendso",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "calcom/docker"
+}

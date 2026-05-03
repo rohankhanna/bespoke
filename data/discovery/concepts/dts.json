@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "DTS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udcad\ud83d\udc40precognition.nvim - Precognition uses virtual text and gutter signs to show available motions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate-context",
+      "text": "DTS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tris203/precognition.nvim",
+      "status": "candidate",
+      "text": "DTS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016201,
+      "status": "candidate",
+      "text": "mst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30015431,
+      "status": "candidate",
+      "text": "imf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004072,
+      "status": "candidate",
+      "text": "std"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977037,
+      "status": "candidate",
+      "text": "sdr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29760421,
+      "status": "candidate",
+      "text": "jimjams"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "DTS",
+  "concept_id": "dts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/dts.yml",
+      "source_repo": "tris203/precognition.nvim"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "DTS",
+      "sense_id": "dts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

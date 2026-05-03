@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "cloudflare/cloudflare-workers-wasm-demo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "source_repo": "cloudflare/cloudflare-workers-wasm-demo",
+      "target": "Semgrep config",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:59:16.332024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3308
+    },
+    {
+      "path": ".github/workflows/semgrep.yml",
+      "size": 591
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "cloudflare/cloudflare-workers-wasm-demo",
+    "html_url": "https://github.com/cloudflare/cloudflare-workers-wasm-demo",
+    "language": "C",
+    "pushed_at": "2026-04-23T22:29:05Z",
+    "stargazers_count": 152,
+    "topics": [],
+    "updated_at": "2026-04-03T00:43:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Semgrep config",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semgrep.yml",
+      "term": "Semgrep config"
+    }
+  ]
+}

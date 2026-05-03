@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/BotBuilder-V3",
+      "target": "microsoft/botbuilder-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/BotBuilder-V3",
+      "target": "microsoft/botbuilder-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/BotBuilder-V3",
+      "target": "microsoft/botbuilder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/BotBuilder-V3",
+      "target": "microsoft/botbuilder-java",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:50:47.913271+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7893
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Microsoft Bot Builder V3 SDK for Microsoft Bot Framework",
+    "fork": false,
+    "full_name": "microsoft/BotBuilder-V3",
+    "html_url": "https://github.com/microsoft/BotBuilder-V3",
+    "language": "C#",
+    "pushed_at": "2022-07-07T00:48:23Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2025-11-25T19:28:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botbuilder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botbuilder-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botbuilder-java",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/botbuilder-js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

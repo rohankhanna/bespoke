@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "71/logseq-snippets",
+      "target": "violentmonkey/violentmonkey",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:53:05.819531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7336
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Snippets I'm using with logseq.com.",
+    "fork": false,
+    "full_name": "71/logseq-snippets",
+    "html_url": "https://github.com/71/logseq-snippets",
+    "language": "JavaScript",
+    "pushed_at": "2021-06-23T19:32:01Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-02-13T12:51:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "violentmonkey/violentmonkey",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

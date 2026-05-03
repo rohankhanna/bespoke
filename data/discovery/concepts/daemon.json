@@ -79,6 +79,30 @@
       "source_repo": "ipfs/js-ipfsd-ctl",
       "status": "candidate-context",
       "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libimobiledevice/usbmuxd",
+      "status": "candidate-context",
+      "text": "A socket daemon to multiplex connections from and to iOS devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/usbmuxd",
+      "status": "candidate-context",
+      "text": "*A socket daemon to multiplex connections from and to iOS devices.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mantoni/core_d.js",
+      "status": "candidate-context",
+      "text": "Offload your heavy lifting to a daemon. Extracted from eslint_d."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/core_d.js",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/mantoni/core_d.js/workflows/Build/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "ipfs/js-ipfsd-ctl",
       "status": "candidate",
       "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libimobiledevice/usbmuxd",
+      "status": "candidate",
+      "text": "*A socket daemon to multiplex connections from and to iOS devices.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/core_d.js",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/mantoni/core_d.js/workflows/Build/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +268,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "ipfs/js-ipfsd-ctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "libimobiledevice/usbmuxd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mantoni/core_d.js"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

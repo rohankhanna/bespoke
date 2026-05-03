@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mdn/webassembly-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mdn/webassembly-examples",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mdn/webassembly-examples",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:59:16.945630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code examples that accompany the MDN WebAssembly documentation \u2014 see https://developer.mozilla.org/en-US/docs/WebAssembly. ",
+    "fork": false,
+    "full_name": "mdn/webassembly-examples",
+    "html_url": "https://github.com/mdn/webassembly-examples",
+    "language": "WebAssembly",
+    "pushed_at": "2026-02-18T09:22:56Z",
+    "stargazers_count": 1202,
+    "topics": [
+      "examples",
+      "wasm",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-24T17:18:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Code examples that accompany the MDN WebAssembly documentation \u2014 see https://developer.mozilla.org/en-US/docs/WebAssembly.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "Code examples that accompany the MDN WebAssembly documentation \u2014 see https://developer.mozilla.org/en-US/docs/WebAssembly.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "Code examples that accompany the MDN WebAssembly documentation \u2014 see https://developer.mozilla.org/en-US/docs/WebAssembly.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

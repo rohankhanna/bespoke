@@ -1,0 +1,429 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/github",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@csm-actions/label",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@csm-actions/update-branch-action",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@octokit/rest",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@suzuki-shunsuke/github-app-token",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/tmp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "suzuki-shunsuke/actionlint-action@8297c48141939cdcf80a8341c3cd525b300e36db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml"
+    },
+    {
+      "component": "aquaproj/aqua-installer@11dd79b4e498d471a9385aa9fb7f62bb5f52a73c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml"
+    },
+    {
+      "component": "autofix-ci/action@c5b2d67aa2274e7b5a18224e8171550871fc7e4a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml"
+    },
+    {
+      "component": "suzuki-shunsuke/check-commit-signing-workflow/.github/workflows/check.yaml@547eee345f56310a656f271ec5eaa900af46b0fb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "suzuki-shunsuke/versioning-policy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "csm-actions/client-server-model-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "@actions/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "@csm-actions/label",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "@csm-actions/update-branch-action",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "@octokit/rest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "@suzuki-shunsuke/github-app-token",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "@types/tmp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "ts-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "suzuki-shunsuke/actionlint-action@8297c48141939cdcf80a8341c3cd525b300e36db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "actionlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "aquaproj/aqua-installer@11dd79b4e498d471a9385aa9fb7f62bb5f52a73c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "autofix-ci/action@c5b2d67aa2274e7b5a18224e8171550871fc7e4a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "autofix.ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "suzuki-shunsuke/check-commit-signing-workflow/.github/workflows/check.yaml@547eee345f56310a656f271ec5eaa900af46b0fb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "Check if all commits are signed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-pr-branch.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "Create Pull Request Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "Update the latest branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate-config-validator.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "renovate-config-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-action.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-action.yaml",
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "test action (actionlint)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csm-actions/update-branch-action",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:57:04.502924+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6573
+    },
+    {
+      "path": "package.json",
+      "size": 668
+    },
+    {
+      "path": ".github/workflows/actionlint.yaml",
+      "size": 348
+    },
+    {
+      "path": ".github/workflows/autofix.yaml",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/check-commit-signing.yaml",
+      "size": 475
+    },
+    {
+      "path": ".github/workflows/create-pr-branch.yaml",
+      "size": 602
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 253
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 435
+    },
+    {
+      "path": ".github/workflows/renovate-config-validator.yaml",
+      "size": 282
+    },
+    {
+      "path": ".github/workflows/test-action.yaml",
+      "size": 849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GitHub Action to update pull request branches securely",
+    "fork": false,
+    "full_name": "csm-actions/update-branch-action",
+    "html_url": "https://github.com/csm-actions/update-branch-action",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-30T19:38:03Z",
+    "stargazers_count": 1,
+    "topics": [
+      "github-actions",
+      "oss",
+      "security"
+    ],
+    "updated_at": "2026-04-30T19:37:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csm-actions/client-server-model-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "suzuki-shunsuke/versioning-policy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "actionlint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "term": "actionlint"
+    },
+    {
+      "context_snippet": "autofix.ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autofix.yaml",
+      "term": "autofix.ci"
+    },
+    {
+      "context_snippet": "Check if all commits are signed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-commit-signing.yaml",
+      "term": "Check if all commits are signed"
+    },
+    {
+      "context_snippet": "Create Pull Request Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-pr-branch.yaml",
+      "term": "Create Pull Request Branch"
+    },
+    {
+      "context_snippet": "Update the latest branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "Update the latest branch"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "renovate-config-validator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovate-config-validator.yaml",
+      "term": "renovate-config-validator"
+    },
+    {
+      "context_snippet": "test action (actionlint)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-action.yaml",
+      "term": "test action (actionlint)"
+    },
+    {
+      "context_snippet": "[![DeepWiki](https://img.shields.io/badge/Ask_DeepWiki-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "[![DeepWiki](https://img.shields.io/badge/Ask_DeepWiki-000000.svg?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAAnWDnqAAAAAXNSR0IArs4c6QAAA05JREFUaEPtmUtyEzEQhtWTQyQLHNak2AB7ZnyXZMEjXMGeK/AIi+QuHrMnbChYY7MIh8g01fJoopFb0uhhEqqcbWTp06/uv1saEDv4O3n3dV60RfP947Mm9/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

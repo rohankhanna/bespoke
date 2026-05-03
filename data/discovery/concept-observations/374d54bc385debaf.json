@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tool for easy work with your scenes in Godot 4.4+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "godot-plugin",
+      "sense_id": "godot-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "godot-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "godot-plugin",
+  "observation_id": "374d54bc385debaf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "godot-plugin",
+  "source_context_snippet": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease.",
+  "source_file": null,
+  "source_repo": "4d49/scene-library",
+  "source_repo_description": "Tool for easy work with your scenes in Godot 4.4+"
+}

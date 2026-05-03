@@ -48,7 +48,7 @@
   "normalized_form": "elasticsearch-plugin",
   "observation_id": "422639ada73bd64b",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-02T18:23:34.576038+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "elasticsearch-plugin",
   "source_context_snippet": "[![Tests](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml/badge.svg)](https://github.com/appbaseio/reactivesearch-api/actions/workflows/tests.yml) [![Docker](https://github.com/appbaseio/reactivesearch-api/actions/workflows/docker-image.yml/badge.svg)\u2026",
   "source_file": null,

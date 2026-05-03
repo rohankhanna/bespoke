@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Full CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godot-rust/gdnative",
+      "status": "candidate-context",
+      "text": "Rust bindings for Godot 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdnative",
+      "status": "candidate-context",
+      "text": "Full CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate-context",
+      "text": "Rust bindings for Godot 4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate-context",
+      "text": "Full CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdnative",
+      "status": "candidate",
+      "text": "Full CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate",
+      "text": "Full CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16064,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11424,
+      "status": "candidate",
+      "text": "fig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "affirmative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "curve"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Full CI",
+  "concept_id": "full-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/full-ci.yml",
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/full-ci.yml",
+      "source_repo": "godot-rust/gdext"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Full CI",
+      "sense_id": "full-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -731,6 +731,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close-stale-issues.yml",
       "source_repo": "IDEA-Research/Rex-Omni"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/botframework-solutions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/state-issues.yml.disabled",
+      "source_repo": "microsoft/botbuilder-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "databendlabs/iceberg-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/closeStaleIssuesAndPRs.yml",
+      "source_repo": "lukeautry/tsoa"
     }
   ],
   "term": "Close stale issues"

@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Blosc/c-blosc",
+      "target": "blosc/c-blosc2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Blosc/c-blosc",
+      "target": "blosc/python-blosc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Blosc/c-blosc",
+      "target": "blosc/bloscpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Blosc/c-blosc",
+      "target": "blosc/hdf5-blosc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "Blosc/c-blosc",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "Blosc/c-blosc",
+      "target": "CI CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "Blosc/c-blosc",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "Blosc/c-blosc",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "Blosc/c-blosc",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "Blosc/c-blosc",
+      "target": "CI Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blosc/c-blosc",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Blosc/c-blosc",
+      "target": "fast",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:55:09.603571+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7247
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 4416
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "size": 610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`.",
+    "fork": false,
+    "full_name": "Blosc/c-blosc",
+    "html_url": "https://github.com/Blosc/c-blosc",
+    "language": "C",
+    "pushed_at": "2025-12-15T01:03:00Z",
+    "stargazers_count": 1048,
+    "topics": [
+      "c",
+      "compression",
+      "fast"
+    ],
+    "updated_at": "2026-04-21T10:21:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blosc/bloscpack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blosc/c-blosc2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blosc/hdf5-blosc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blosc/python-blosc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CI CMake"
+    },
+    {
+      "context_snippet": "CI Fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "term": "CI Fuzz"
+    },
+    {
+      "context_snippet": "| Author | Contact | URL |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "| Author | Contact | URL |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fast"
+    }
+  ]
+}

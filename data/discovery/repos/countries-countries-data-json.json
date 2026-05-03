@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "countries/countries-data-json",
+      "target": "countries/countries-data-yaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "countries/countries-data-json",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "countries/countries-data-json",
+      "target": "Auto Update Country Data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-json",
+      "target": "countries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-json",
+      "target": "currency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-json",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-json",
+      "target": "iso-3166-1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-json",
+      "target": "iso-3166-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-json",
+      "target": "iso-4217",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "countries/countries-data-json",
+      "target": "json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:50:29.021075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1145
+    },
+    {
+      "path": ".github/workflows/auto-update.sh",
+      "size": 3471
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1077
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ISO 3116 country information in JSON format to be included in other projects.",
+    "fork": false,
+    "full_name": "countries/countries-data-json",
+    "html_url": "https://github.com/countries/countries-data-json",
+    "language": "Ruby",
+    "pushed_at": "2026-05-02T22:01:39Z",
+    "stargazers_count": 76,
+    "topics": [
+      "countries",
+      "currency",
+      "data",
+      "iso-3166-1",
+      "iso-3166-2",
+      "iso-4217",
+      "json"
+    ],
+    "updated_at": "2026-05-02T22:01:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "countries/countries-data-yaml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Update Country Data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Auto Update Country Data"
+    },
+    {
+      "context_snippet": "Countries data - JSON",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "countries"
+    },
+    {
+      "context_snippet": "Countries data - JSON",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currency"
+    },
+    {
+      "context_snippet": "Countries data - JSON",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "Countries data - JSON",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iso-3166-1"
+    },
+    {
+      "context_snippet": "Countries data - JSON",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iso-3166-2"
+    },
+    {
+      "context_snippet": "Countries data - JSON",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iso-4217"
+    },
+    {
+      "context_snippet": "Countries data - JSON",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    }
+  ]
+}

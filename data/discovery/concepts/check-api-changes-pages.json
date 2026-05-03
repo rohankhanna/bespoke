@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check API Changes pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate-context",
+      "text": "IntelliJ SDK Platform Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate-context",
+      "text": "Check API Changes pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/intellij-sdk-docs",
+      "status": "candidate",
+      "text": "Check API Changes pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31602,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26523,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22220,
+      "status": "candidate",
+      "text": "shim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21803,
+      "status": "candidate",
+      "text": "film pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21510,
+      "status": "candidate",
+      "text": "snub"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check API Changes pages",
+  "concept_id": "check-api-changes-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/verify-api-changes-pages.yml",
+      "source_repo": "JetBrains/intellij-sdk-docs"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check API Changes pages",
+      "sense_id": "check-api-changes-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

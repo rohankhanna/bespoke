@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Docker CI",
-    "Docker-CI"
+    "Docker-CI",
+    "docker-ci"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -68,6 +69,18 @@
       "source_repo": "supabase/etl",
       "status": "candidate-context",
       "text": "Docker CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "status": "candidate-context",
+      "text": "Canonical sources for HOL4 theorem-proving system.   Branch develop is where \u201cmainline development\u201d occurs; when develop passes our regression tests, master is merged forward to catch up."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "status": "candidate-context",
+      "text": "docker-ci"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +113,12 @@
       "source_repo": "supabase/etl",
       "status": "candidate",
       "text": "Docker CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HOL-Theorem-Prover/HOL",
+      "status": "candidate",
+      "text": "docker-ci"
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +192,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/docker-ci.yml",
       "source_repo": "supabase/etl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker-ci.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "discretization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InteractiveComputerGraphics/Discregrid",
+      "status": "candidate-context",
+      "text": "A static C++ library for the generation of discrete functions on a box-shaped domain. This is especially suited for the discretization of signed distance fields. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/Discregrid",
+      "status": "candidate-context",
+      "text": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/Discregrid/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/Discregrid/workflows/build-windows/badge.svg\"></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InteractiveComputerGraphics/Discregrid",
+      "status": "candidate",
+      "text": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/Discregrid/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/Discregrid/workflows/build-windows/badge.svg\"></p>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973722,
+      "status": "candidate",
+      "text": "discretisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973721,
+      "status": "candidate",
+      "text": "discretizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973720,
+      "status": "candidate",
+      "text": "semidiscretization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973719,
+      "status": "candidate",
+      "text": "semidiscretisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973718,
+      "status": "candidate",
+      "text": "quantization"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "discretization",
+  "concept_id": "discretization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/Discregrid"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "discretization",
+      "sense_id": "discretization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

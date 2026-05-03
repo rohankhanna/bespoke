@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/setup-java@v5.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/cache@v5.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tomekw/hikari-cp",
+      "target": "brettwooldridge/hikaricp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "tomekw/hikari-cp",
+      "target": "actions/checkout@v6.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "tomekw/hikari-cp",
+      "target": "actions/setup-java@v5.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "tomekw/hikari-cp",
+      "target": "DeLaGuardo/setup-clojure@13.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "tomekw/hikari-cp",
+      "target": "actions/cache@v5.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "tomekw/hikari-cp",
+      "target": "Clojure CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomekw/hikari-cp",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomekw/hikari-cp",
+      "target": "clojure-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomekw/hikari-cp",
+      "target": "connection-pool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomekw/hikari-cp",
+      "target": "jdbc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:53:57.964797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25367
+    },
+    {
+      "path": ".github/workflows/clojure.yml",
+      "size": 862
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Clojure wrapper to HikariCP JDBC connection pool",
+    "fork": false,
+    "full_name": "tomekw/hikari-cp",
+    "html_url": "https://github.com/tomekw/hikari-cp",
+    "language": "Clojure",
+    "pushed_at": "2026-01-06T19:14:25Z",
+    "stargazers_count": 431,
+    "topics": [
+      "clojure",
+      "clojure-library",
+      "connection-pool",
+      "jdbc"
+    ],
+    "updated_at": "2026-04-15T03:13:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brettwooldridge/hikaricp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Clojure CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "term": "Clojure CI"
+    },
+    {
+      "context_snippet": "A Clojure wrapper to [HikariCP](https://github.com/brettwooldridge/HikariCP) - \"zero-overhead\" production ready JDBC connection pool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "A Clojure wrapper to [HikariCP](https://github.com/brettwooldridge/HikariCP) - \"zero-overhead\" production ready JDBC connection pool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure-library"
+    },
+    {
+      "context_snippet": "A Clojure wrapper to [HikariCP](https://github.com/brettwooldridge/HikariCP) - \"zero-overhead\" production ready JDBC connection pool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connection-pool"
+    },
+    {
+      "context_snippet": "A Clojure wrapper to [HikariCP](https://github.com/brettwooldridge/HikariCP) - \"zero-overhead\" production ready JDBC connection pool.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jdbc"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-b-g-b/YOLOX",
+      "target": "megvii-basedetection/storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-b-g-b/YOLOX",
+      "target": "nanmi/yolox-deepstream",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-b-g-b/YOLOX",
+      "target": "rapidai/yolo2coco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "r-b-g-b/YOLOX",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "r-b-g-b/YOLOX",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:45:15.771351+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10691
+    },
+    {
+      "path": "requirements.txt",
+      "size": 222
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1223
+    },
+    {
+      "path": ".github/workflows/format_check.sh",
+      "size": 313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "YOLOX is a high-performance anchor-free YOLO, exceeding yolov3~v5 with MegEngine, ONNX, TensorRT, ncnn, and OpenVINO supported. Documentation: https://yolox.readthedocs.io/",
+    "fork": true,
+    "full_name": "r-b-g-b/YOLOX",
+    "html_url": "https://github.com/r-b-g-b/YOLOX",
+    "language": "Python",
+    "pushed_at": "2022-04-28T00:32:30Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-11-21T06:00:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-basedetection/storage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nanmi/yolox-deepstream",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rapidai/yolo2coco",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

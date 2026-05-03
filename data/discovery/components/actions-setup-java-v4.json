@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v4",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1917,6 +1917,131 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/security.yml",
       "source_repo": "netplex/json-smart-v2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "apache/datasketches-hive"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "apache/datasketches-pig"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-matrix.yml",
+      "source_repo": "jknack/handlebars.java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maven-central.yml",
+      "source_repo": "jknack/handlebars.java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "cmacdonald/pyt_splade"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "rainyl/native_toolchain_cmake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clj-tests.yml",
+      "source_repo": "taoensso/telemere"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cljs-tests.yml",
+      "source_repo": "taoensso/telemere"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-smoke.yml",
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-helpers.yml",
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-plugin.yml",
+      "source_repo": "JetBrains/compose-multiplatform"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-demo.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-desktop-release.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ios-release.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-stage.yml",
+      "source_repo": "logseq/og"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "reagent-project/reagent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml",
+      "source_repo": "mahsanet/NikaNG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml",
+      "source_repo": "mahsanet/NikaNG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Nozbe/WatermelonDB"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clojure/tools.build"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate-pr.yml",
+      "source_repo": "sbt/sbt-native-packager"
     }
   ]
 }

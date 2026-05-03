@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -882,6 +882,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ui_docker_publish.yml",
       "source_repo": "obsei/obsei"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub-arm.yml",
+      "source_repo": "calcom/docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push-dockerhub.yml",
+      "source_repo": "calcom/docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "heshengtao/super-agent-party"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "schollz/croc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/self-runner.yml",
+      "source_repo": "HOL-Theorem-Prover/HOL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "AghayeCoder/tx-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "hufrea/byedpi"
     }
   ]
 }

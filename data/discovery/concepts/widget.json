@@ -67,6 +67,30 @@
       "source_repo": "creaktive/rainbarf",
       "status": "candidate-context",
       "text": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonwep/nanopop",
+      "status": "candidate-context",
+      "text": "\ud83c\udf66 Minimalistic, small, positioning engine. Build for high-performance, minimal footprint and maximum control over positioning behavior."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonwep/nanopop",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonwep/pickr",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Pickr - A simple, multi-themed, responsive and hackable Color-Picker library. No dependencies, no jQuery. Compatible with all CSS Frameworks e.g. Bootstrap, Materialize. Supports alpha channel, rgba, hsla, hsva and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonwep/pickr",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "creaktive/rainbarf",
       "status": "candidate",
       "text": "[![Build Status](https://app.travis-ci.com/creaktive/rainbarf.svg?branch=master)](https://travis-ci.org/creaktive/rainbarf \"Build Status\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonwep/nanopop",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonwep/pickr",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +244,23 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "creaktive/rainbarf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "simonwep/nanopop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "simonwep/pickr"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

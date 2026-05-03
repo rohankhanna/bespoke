@@ -649,6 +649,66 @@
       "source_repo": "fsouza/prettierd",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jadestrong/lsp-volar",
+      "status": "candidate-context",
+      "text": "Language support for Vue3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jadestrong/lsp-volar",
+      "status": "candidate-context",
+      "text": "Language support for Vue3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrblevin/markdown-mode",
+      "status": "candidate-context",
+      "text": "Emacs Markdown Mode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrblevin/markdown-mode",
+      "status": "candidate-context",
+      "text": "[![NonGNU ELPA badge][nongnu-elpa-badge]][nongnu-elpa-link] [![MELPA badge][melpa-badge]][melpa-link] [![MELPA stable badge][melpa-stable-badge]][melpa-stable-link] [![Github Actions Status][github-actions-badge]][github-actions-link] [![Guide to Markdown Mode for Emacs][leanpub\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quelpa/quelpa",
+      "status": "candidate-context",
+      "text": "Build and install your Emacs Lisp packages on-the-fly directly from source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quelpa/quelpa",
+      "status": "candidate-context",
+      "text": "\"CI\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mantoni/eslint_d.js",
+      "status": "candidate-context",
+      "text": "\ud83e\ude84 Speed up eslint to accelerate your development workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/eslint_d.js",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-helm/helm",
+      "status": "candidate-context",
+      "text": "Emacs incremental completion and selection narrowing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-helm/helm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -975,6 +1035,36 @@
       "source_repo": "fsouza/prettierd",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/fsouza/prettierd/workflows/Build/badge.svg)](https://github.com/fsouza/prettierd/actions?query=branch:main+workflow:Build)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jadestrong/lsp-volar",
+      "status": "candidate",
+      "text": "Language support for Vue3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrblevin/markdown-mode",
+      "status": "candidate",
+      "text": "[![NonGNU ELPA badge][nongnu-elpa-badge]][nongnu-elpa-link] [![MELPA badge][melpa-badge]][melpa-link] [![MELPA stable badge][melpa-stable-badge]][melpa-stable-link] [![Github Actions Status][github-actions-badge]][github-actions-link] [![Guide to Markdown Mode for Emacs][leanpub\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quelpa/quelpa",
+      "status": "candidate",
+      "text": "\"CI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mantoni/eslint_d.js",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-helm/helm",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1378,11 +1468,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "DarwinAwardWinner/ido-completing-read-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jadestrong/lsp-volar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jrblevin/markdown-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "quelpa/quelpa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "radian-software/straight.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "DarwinAwardWinner/ido-completing-read-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "mantoni/eslint_d.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "emacs-helm/helm"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

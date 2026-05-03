@@ -1,0 +1,348 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "Example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatter.yaml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "Format Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "dart-lang/setup-dart@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_publish.yml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_publish.yml",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "test + publish + release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "target": "flutter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:55:27.728260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1855
+    },
+    {
+      "path": ".github/workflows/examples.yaml",
+      "size": 3171
+    },
+    {
+      "path": ".github/workflows/formatter.yaml",
+      "size": 524
+    },
+    {
+      "path": ".github/workflows/test_publish.yml",
+      "size": 2737
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A library to invoke CMake for Dart Native Assets.",
+    "fork": false,
+    "full_name": "rainyl/native_toolchain_cmake",
+    "html_url": "https://github.com/rainyl/native_toolchain_cmake",
+    "language": "Dart",
+    "pushed_at": "2026-04-03T08:37:42Z",
+    "stargazers_count": 17,
+    "topics": [
+      "cmake",
+      "dart",
+      "flutter"
+    ],
+    "updated_at": "2026-04-24T08:51:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Example",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yaml",
+      "term": "Example"
+    },
+    {
+      "context_snippet": "Format Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatter.yaml",
+      "term": "Format Code"
+    },
+    {
+      "context_snippet": "test + publish + release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_publish.yml",
+      "term": "test + publish + release"
+    },
+    {
+      "context_snippet": "A library to invoke CMake for Dart Native Assets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "A library to invoke CMake for Dart Native Assets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "A library to invoke CMake for Dart Native Assets.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    }
+  ]
+}

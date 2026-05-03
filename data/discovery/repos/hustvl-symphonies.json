@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/Symphonies",
+      "target": "npurson/tmpl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/Symphonies",
+      "target": "nvlabs/voxformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hustvl/Symphonies",
+      "target": "3d-perception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hustvl/Symphonies",
+      "target": "3d-scene-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hustvl/Symphonies",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hustvl/Symphonies",
+      "target": "cvpr2024",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hustvl/Symphonies",
+      "target": "occupancy-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hustvl/Symphonies",
+      "target": "semantic-scene-completion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:58:30.934148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7136
+    },
+    {
+      "path": "requirements.txt",
+      "size": 70
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Symphonies (Scene-from-Insts): Symphonize 3D Semantic Scene Completion with Contextual Instance Queries",
+    "fork": false,
+    "full_name": "hustvl/Symphonies",
+    "html_url": "https://github.com/hustvl/Symphonies",
+    "language": "Python",
+    "pushed_at": "2024-07-04T15:11:41Z",
+    "stargazers_count": 201,
+    "topics": [
+      "3d-perception",
+      "3d-scene-understanding",
+      "autonomous-driving",
+      "cvpr2024",
+      "occupancy-prediction",
+      "semantic-scene-completion"
+    ],
+    "updated_at": "2026-04-10T14:05:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "npurson/tmpl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/voxformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-perception"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-scene-understanding"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2024"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "occupancy-prediction"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-scene-completion"
+    }
+  ]
+}

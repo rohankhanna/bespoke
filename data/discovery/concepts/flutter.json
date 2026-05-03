@@ -502,6 +502,54 @@
       "source_repo": "appwrite/sdk-for-flutter",
       "status": "candidate-context",
       "text": "[![pub package](https://img.shields.io/pub/v/appwrite?style=flat-square)](https://pub.dartlang.org/packages/appwrite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csnewman/flutter-go-bridge",
+      "status": "candidate-context",
+      "text": "Flutter/Dart to Go FFI generator "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csnewman/flutter-go-bridge",
+      "status": "candidate-context",
+      "text": "Reuse existing Go libraries in Flutter by calling Go from Dart using auto generated bindings."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate-context",
+      "text": "Rust support for Dart\u2019s Native Assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/GregoryConrad/native_toolchain_rust/actions/workflows/build.yml/badge.svg)](https://github.com/GregoryConrad/native_toolchain_rust/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "status": "candidate-context",
+      "text": "A library to invoke CMake for Dart Native Assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "status": "candidate-context",
+      "text": "A library to invoke CMake for Dart Native Assets."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appwrite/playground-for-flutter",
+      "status": "candidate-context",
+      "text": "Simple examples that help you get started with Appwrite + Flutter (=\u2764\ufe0f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-flutter",
+      "status": "candidate-context",
+      "text": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Flutter SDK. Use the source code of this page to learn how to use the different Appwrite Flutter SDK features."
     }
   ],
   "candidate_glosses": [
@@ -750,6 +798,30 @@
       "source_repo": "appwrite/sdk-for-flutter",
       "status": "candidate",
       "text": "[![pub package](https://img.shields.io/pub/v/appwrite?style=flat-square)](https://pub.dartlang.org/packages/appwrite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csnewman/flutter-go-bridge",
+      "status": "candidate",
+      "text": "Reuse existing Go libraries in Flutter by calling Go from Dart using auto generated bindings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GregoryConrad/native_toolchain_rust",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/GregoryConrad/native_toolchain_rust/actions/workflows/build.yml/badge.svg)](https://github.com/GregoryConrad/native_toolchain_rust/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rainyl/native_toolchain_cmake",
+      "status": "candidate",
+      "text": "A library to invoke CMake for Dart Native Assets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appwrite/playground-for-flutter",
+      "status": "candidate",
+      "text": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Flutter SDK. Use the source code of this page to learn how to use the different Appwrite Flutter SDK features."
     }
   ],
   "candidate_related_terms": [
@@ -1159,11 +1231,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "eclipse-archived/dartboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "csnewman/flutter-go-bridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "GregoryConrad/native_toolchain_rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "rainyl/native_toolchain_cmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "firebase/flutterfire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

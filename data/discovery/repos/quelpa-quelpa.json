@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "quelpa/quelpa",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "quelpa/quelpa",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "quelpa/quelpa",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quelpa/quelpa",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quelpa/quelpa",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quelpa/quelpa",
+      "target": "melpa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quelpa/quelpa",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quelpa/quelpa",
+      "target": "source-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:49:34.390953+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2805
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build and install your Emacs Lisp packages on-the-fly directly from source",
+    "fork": false,
+    "full_name": "quelpa/quelpa",
+    "html_url": "https://github.com/quelpa/quelpa",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-04-23T01:35:19Z",
+    "stargazers_count": 674,
+    "topics": [
+      "emacs",
+      "emacs-lisp",
+      "melpa",
+      "package-manager",
+      "source-code"
+    ],
+    "updated_at": "2026-03-11T22:20:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CI\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "\"CI\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    },
+    {
+      "context_snippet": "\"CI\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "melpa"
+    },
+    {
+      "context_snippet": "\"CI\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "\"CI\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "source-code"
+    }
+  ]
+}

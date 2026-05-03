@@ -1,0 +1,230 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "step-security/harden-runner@5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    },
+    {
+      "component": "rubygems/release-gem@612653d273a73bdae1df8453e090060bb4db5f31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "varvet/pundit",
+      "target": "punditcommunity/pundit-matchers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "varvet/pundit",
+      "target": "railsapps/rails-devise-pundit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "varvet/pundit",
+      "target": "anurag90x/flask-pundit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "varvet/pundit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "varvet/pundit",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "varvet/pundit",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "varvet/pundit",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "varvet/pundit",
+      "target": "step-security/harden-runner@5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "varvet/pundit",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "varvet/pundit",
+      "target": "ruby/setup-ruby@a6e6f86333f0a2523ece813039b8b4be04560854",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "varvet/pundit",
+      "target": "rubygems/release-gem@612653d273a73bdae1df8453e090060bb4db5f31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_gem.yml",
+      "source_repo": "varvet/pundit",
+      "target": "Push Gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "varvet/pundit",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:41:56.380632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26384
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2429
+    },
+    {
+      "path": ".github/workflows/push_gem.yml",
+      "size": 786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Minimal authorization through OO design and pure Ruby classes",
+    "fork": false,
+    "full_name": "varvet/pundit",
+    "html_url": "https://github.com/varvet/pundit",
+    "language": "Ruby",
+    "pushed_at": "2026-03-16T10:04:41Z",
+    "stargazers_count": 8499,
+    "topics": [
+      "ruby"
+    ],
+    "updated_at": "2026-04-29T15:50:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anurag90x/flask-pundit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "punditcommunity/pundit-matchers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "railsapps/rails-devise-pundit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "Push Gem",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_gem.yml",
+      "term": "Push Gem"
+    },
+    {
+      "context_snippet": "[![Main](https://github.com/varvet/pundit/actions/workflows/main.yml/badge.svg)](https://github.com/varvet/pundit/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

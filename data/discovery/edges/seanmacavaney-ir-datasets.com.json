@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/head_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/head_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "target": "EndBug/add-and-commit@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/head_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/head_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "target": "Downloadable Content, HEAD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "target": "EndBug/add-and-commit@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify_downloads.yml",
+      "source_repo": "seanmacavaney/ir-datasets.com",
+      "target": "Downloadable Content",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "seanmacavaney/ir-datasets.com"
+}

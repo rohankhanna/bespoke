@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InteractiveComputerGraphics/Discregrid",
+      "target": "interactivecomputergraphics/trianglemeshdistance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "InteractiveComputerGraphics/Discregrid",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "InteractiveComputerGraphics/Discregrid",
+      "target": "build-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "InteractiveComputerGraphics/Discregrid",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "InteractiveComputerGraphics/Discregrid",
+      "target": "build-windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/Discregrid",
+      "target": "collision-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/Discregrid",
+      "target": "discretization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InteractiveComputerGraphics/Discregrid",
+      "target": "signed-distance-fields",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:03.097106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6507
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A static C++ library for the generation of discrete functions on a box-shaped domain. This is especially suited for the discretization of signed distance fields. ",
+    "fork": false,
+    "full_name": "InteractiveComputerGraphics/Discregrid",
+    "html_url": "https://github.com/InteractiveComputerGraphics/Discregrid",
+    "language": "C++",
+    "pushed_at": "2023-08-31T10:30:00Z",
+    "stargazers_count": 312,
+    "topics": [
+      "collision-detection",
+      "discretization",
+      "signed-distance-fields"
+    ],
+    "updated_at": "2026-04-17T14:07:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "interactivecomputergraphics/trianglemeshdistance",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "build-linux"
+    },
+    {
+      "context_snippet": "build-windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "build-windows"
+    },
+    {
+      "context_snippet": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/Discregrid/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/Discregrid/workflows/build-windows/badge.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collision-detection"
+    },
+    {
+      "context_snippet": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/Discregrid/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/Discregrid/workflows/build-windows/badge.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discretization"
+    },
+    {
+      "context_snippet": "<p align=center><img src=\"https://github.com/InteractiveComputerGraphics/Discregrid/workflows/build-linux/badge.svg\">&nbsp;&nbsp; <img src=\"https://github.com/InteractiveComputerGraphics/Discregrid/workflows/build-windows/badge.svg\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signed-distance-fields"
+    }
+  ]
+}

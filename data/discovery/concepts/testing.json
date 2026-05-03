@@ -1427,6 +1427,90 @@
       "source_repo": "citation-file-format/citation-file-format",
       "status": "candidate-context",
       "text": "testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytest-dev/pytest-asyncio",
+      "status": "candidate-context",
+      "text": "Asyncio support for pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-asyncio",
+      "status": "candidate-context",
+      "text": "pytest-asyncio"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate-context",
+      "text": "Blueprint for v2-formatted Ember addons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jfpedroza/neotest-elixir",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfpedroza/neotest-elixir",
+      "status": "candidate-context",
+      "text": "Neotest adapter for Elixir"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate-context",
+      "text": "Test Anything Protocol tools for node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate-context",
+      "text": "Workspace for node-tap development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ember-cli/ember-exam",
+      "status": "candidate-context",
+      "text": "Run your tests with randomization, splitting, and parallelization for beautiful tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-exam",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/ember-cli/ember-exam/actions/workflows/ci.yml/badge.svg?event=push)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate-context",
+      "text": "A Ruby library for testing your library against different versions of dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate-context",
+      "text": "Appraisal"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdaisland/kaocha",
+      "status": "candidate-context",
+      "text": "Full featured next gen Clojure test runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaisland/kaocha",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"kaocha.png\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -2137,6 +2221,48 @@
       "source_repo": "citation-file-format/citation-file-format",
       "status": "candidate",
       "text": "testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytest-dev/pytest-asyncio",
+      "status": "candidate",
+      "text": "pytest-asyncio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/addon-blueprint",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jfpedroza/neotest-elixir",
+      "status": "candidate",
+      "text": "Neotest adapter for Elixir"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tapjs/tapjs",
+      "status": "candidate",
+      "text": "Workspace for node-tap development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ember-cli/ember-exam",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/ember-cli/ember-exam/actions/workflows/ci.yml/badge.svg?event=push)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/appraisal",
+      "status": "candidate",
+      "text": "Appraisal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaisland/kaocha",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"kaocha.png\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -3195,11 +3321,119 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pytest-dev/pytest-asyncio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "embroider-build/addon-blueprint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "citation-file-format/cffconvert"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jfpedroza/neotest-elixir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "tapjs/tapjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ember-cli/ember-exam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "thoughtbot/appraisal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "minitest/minitest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lambdaisland/kaocha"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

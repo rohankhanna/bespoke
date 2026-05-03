@@ -31,6 +31,66 @@
       "source_repo": "godotengine/awesome-godot",
       "status": "candidate-context",
       "text": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3ddelano/discord.gd",
+      "status": "candidate-context",
+      "text": "Discord Bot API wrapper for Godot. Make bots in GDScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3ddelano/discord.gd",
+      "status": "candidate-context",
+      "text": "Discord.gd"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4d49/scene-library",
+      "status": "candidate-context",
+      "text": "Tool for easy work with your scenes in Godot 4.4+"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4d49/scene-library",
+      "status": "candidate-context",
+      "text": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hhyyrylainen/GodotPckTool",
+      "status": "candidate-context",
+      "text": "Standalone tool for extracting and creating Godot .pck files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hhyyrylainen/GodotPckTool",
+      "status": "candidate-context",
+      "text": "Godot Pck Tool"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Docker image to export Godot Engine games. Templates for Gitlab CI and GitHub Actions to deploy to GitLab Pages/GitHub Pages/Itch.io."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate-context",
+      "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3ddelano/discord_gd_examples",
+      "status": "candidate-context",
+      "text": "A Godot project containing various examples using the Discord.gd Plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3ddelano/discord_gd_examples",
+      "status": "candidate-context",
+      "text": "Discord.gd Examples"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "godotengine/awesome-godot",
       "status": "candidate",
       "text": "[![Godot Engine logo](godot-logo.svg)](https://godotengine.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3ddelano/discord.gd",
+      "status": "candidate",
+      "text": "Discord.gd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4d49/scene-library",
+      "status": "candidate",
+      "text": "A simple and fast add-on for managing 2D and 3D scenes as assets. Organize, search, and open scenes with ease."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hhyyrylainen/GodotPckTool",
+      "status": "candidate",
+      "text": "Godot Pck Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abarichello/godot-ci",
+      "status": "candidate",
+      "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3ddelano/discord_gd_examples",
+      "status": "candidate",
+      "text": "Discord.gd Examples"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +154,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "godotengine/awesome-godot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "3ddelano/discord.gd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "4d49/scene-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "hhyyrylainen/GodotPckTool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "abarichello/godot-ci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "3ddelano/discord_gd_examples"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

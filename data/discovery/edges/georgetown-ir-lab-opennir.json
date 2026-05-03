@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "target": "ntmc-community/matchzoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "target": "allenai/scibert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "target": "dmis-lab/biobert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "target": "trema-unh/trec-car-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Georgetown-IR-Lab/OpenNIR",
+      "target": "neural-information-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "Georgetown-IR-Lab/OpenNIR"
+}

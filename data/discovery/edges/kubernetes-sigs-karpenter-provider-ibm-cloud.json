@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "ko-build/setup-ko@d006021bd0c28d1ce33a07e7943d48b079944c8d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "Build Container Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-nightly-builds.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-nightly-builds.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "Cleanup Old Nightly Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-images.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "Build and Push Container Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "Build Documentation (PR Preview)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests-in-cluster.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests-in-cluster.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests-in-cluster.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "E2E Tests (In-Cluster Runner)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests-pr.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests-pr.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests-pr.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "E2E Tests for PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitlint.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gitlint.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gitlint.yml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "Gitlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yaml",
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "Go Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "ibm-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "karpenter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud"
+}

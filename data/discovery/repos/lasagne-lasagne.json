@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lasagne/Lasagne",
+      "target": "deep-learning-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lasagne/Lasagne",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lasagne/Lasagne",
+      "target": "theano",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:46:38.578775+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5787
+    },
+    {
+      "path": "requirements.txt",
+      "size": 14
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lightweight library to build and train neural networks in Theano",
+    "fork": false,
+    "full_name": "Lasagne/Lasagne",
+    "html_url": "https://github.com/Lasagne/Lasagne",
+    "language": "Python",
+    "pushed_at": "2022-03-26T02:58:32Z",
+    "stargazers_count": 3864,
+    "topics": [
+      "deep-learning-library",
+      "neural-networks",
+      "python",
+      "theano"
+    ],
+    "updated_at": "2026-04-24T17:20:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ".. image:: https://readthedocs.org/projects/lasagne/badge/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning-library"
+    },
+    {
+      "context_snippet": ".. image:: https://readthedocs.org/projects/lasagne/badge/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": ".. image:: https://readthedocs.org/projects/lasagne/badge/",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theano"
+    }
+  ]
+}

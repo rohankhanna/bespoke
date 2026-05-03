@@ -84,7 +84,7 @@
   "normalized_form": "deploy-sphinx-doc-to-pages",
   "observation_id": "2849bb8cc4a166e3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-01T12:32:24.464365+00:00",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
   "observed_text": "Deploy Sphinx Doc to Pages",
   "source_context_snippet": "Deploy Sphinx Doc to Pages",
   "source_file": ".github/workflows/sphinx-doc.yaml",

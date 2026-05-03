@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abellgithub/delaunator-cpp",
+      "target": "mapbox/hpp-skel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abellgithub/delaunator-cpp",
+      "target": "delfrrr/delaunator-cpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:51:43.423840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A really fast C++ library for Delaunay triangulation of 2D points",
+    "fork": false,
+    "full_name": "abellgithub/delaunator-cpp",
+    "html_url": "https://github.com/abellgithub/delaunator-cpp",
+    "language": "C++",
+    "pushed_at": "2025-04-18T14:21:37Z",
+    "stargazers_count": 202,
+    "topics": [],
+    "updated_at": "2026-04-29T04:23:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "delfrrr/delaunator-cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/hpp-skel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

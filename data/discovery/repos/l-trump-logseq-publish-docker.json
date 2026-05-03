@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "L-Trump/logseq-publish-docker",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "L-Trump/logseq-publish-docker",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "L-Trump/logseq-publish-docker",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "L-Trump/logseq-publish-docker",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "L-Trump/logseq-publish-docker",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "L-Trump/logseq-publish-docker",
+      "target": "Build-Docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:52:49.796445+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3523
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2972
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 2876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A docker image to publish logseq graphs on your server",
+    "fork": false,
+    "full_name": "L-Trump/logseq-publish-docker",
+    "html_url": "https://github.com/L-Trump/logseq-publish-docker",
+    "language": "Dockerfile",
+    "pushed_at": "2024-04-25T15:39:25Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-06-14T23:31:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build-Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Build-Docker"
+    }
+  ]
+}

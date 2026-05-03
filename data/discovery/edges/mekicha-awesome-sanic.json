@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mekicha/awesome-sanic",
+      "target": "ashleysommer/sanic-restplus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mekicha/awesome-sanic",
+      "target": "ahopkins/sanic-jwt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mekicha/awesome-sanic",
+      "target": "ashleysommer/sanic-cors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mekicha/awesome-sanic",
+      "target": "ashleysommer/sanic-dispatcher",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "mekicha/awesome-sanic"
+}

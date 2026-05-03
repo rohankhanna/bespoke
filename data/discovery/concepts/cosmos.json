@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "cosmos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cometbft/cometbft",
+      "status": "candidate-context",
+      "text": "CometBFT: A distributed, Byzantine fault-tolerant, deterministic state machine replication engine. A fork and successor to Tendermint Core."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft",
+      "status": "candidate-context",
+      "text": "<div align=\"left\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/cometbft",
+      "status": "candidate",
+      "text": "<div align=\"left\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39827934,
+      "status": "candidate",
+      "text": "universe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39749334,
+      "status": "candidate",
+      "text": "macrocosm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39737383,
+      "status": "candidate",
+      "text": "creation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39708964,
+      "status": "candidate",
+      "text": "world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39706286,
+      "status": "candidate",
+      "text": "nature"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34042,
+      "status": "candidate",
+      "text": "existence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28035,
+      "status": "candidate",
+      "text": "macrocosm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24046,
+      "status": "candidate",
+      "text": "world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21040,
+      "status": "candidate",
+      "text": "creation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19056,
+      "status": "candidate",
+      "text": "nature"
+    }
+  ],
+  "canonical_name": "cosmos",
+  "concept_id": "cosmos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "cometbft/cometbft"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cosmos",
+      "sense_id": "cosmos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

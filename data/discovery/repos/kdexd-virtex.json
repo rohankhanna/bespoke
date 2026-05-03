@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdexd/virtex",
+      "target": "coco-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdexd/virtex",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdexd/virtex",
+      "target": "image-captioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdexd/virtex",
+      "target": "model-zoo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdexd/virtex",
+      "target": "pretrained-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T03:56:06.036298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3558
+    },
+    {
+      "path": "requirements.txt",
+      "size": 185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2021] VirTex: Learning Visual Representations from Textual Annotations",
+    "fork": false,
+    "full_name": "kdexd/virtex",
+    "html_url": "https://github.com/kdexd/virtex",
+    "language": "Python",
+    "pushed_at": "2025-08-22T23:25:46Z",
+    "stargazers_count": 563,
+    "topics": [
+      "coco-dataset",
+      "cvpr2021",
+      "image-captioning",
+      "model-zoo",
+      "pretrained-models"
+    ],
+    "updated_at": "2026-04-28T21:54:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "VirTex: Learning Visual Representations from Textual Annotations",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco-dataset"
+    },
+    {
+      "context_snippet": "VirTex: Learning Visual Representations from Textual Annotations",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "VirTex: Learning Visual Representations from Textual Annotations",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-captioning"
+    },
+    {
+      "context_snippet": "VirTex: Learning Visual Representations from Textual Annotations",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-zoo"
+    },
+    {
+      "context_snippet": "VirTex: Learning Visual Representations from Textual Annotations",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    }
+  ]
+}

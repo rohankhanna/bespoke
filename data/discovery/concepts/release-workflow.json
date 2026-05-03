@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Release Workflow",
-    "release-workflow"
+    "release-workflow",
+    "Release workflow"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -70,6 +71,18 @@
       "source_repo": "FormidableLabs/react-live",
       "status": "candidate-context",
       "text": "Release Workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate-context",
+      "text": "Rust bindings for Godot 4"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate-context",
+      "text": "\"Release workflow\""
     }
   ],
   "candidate_glosses": [
@@ -102,6 +115,12 @@
       "source_repo": "FormidableLabs/react-live",
       "status": "candidate",
       "text": "Release Workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "godot-rust/gdext",
+      "status": "candidate",
+      "text": "\"Release workflow\""
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +194,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "FormidableLabs/react-live"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release-version.yml",
+      "source_repo": "godot-rust/gdext"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

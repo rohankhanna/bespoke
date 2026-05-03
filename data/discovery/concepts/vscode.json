@@ -777,6 +777,54 @@
       "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
       "status": "candidate-context",
       "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/vscode-settings",
+      "status": "candidate-context",
+      "text": "My VS Code settings and extensions "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vscode-settings",
+      "status": "candidate-context",
+      "text": "<samp><b>Anthony's VS Code Settings</b></samp>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "Intelligent WindiCSS tooling for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/vscode-icons-carbon",
+      "status": "candidate-context",
+      "text": "Carbon Visual Studio Code product icon theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vscode-icons-carbon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd5 Vitesse theme for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Vitesse Theme for VS Code</h1>"
     }
   ],
   "candidate_glosses": [
@@ -1169,6 +1217,30 @@
       "source_repo": "microsoft/Mastering-GitHub-Copilot-for-Paired-Programming",
       "status": "candidate",
       "text": "![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vscode-settings",
+      "status": "candidate",
+      "text": "<samp><b>Anthony's VS Code Settings</b></samp>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windicss/windicss-intellisense",
+      "status": "candidate",
+      "text": "<p align=\"center\" style=\"background-color: #FFFF99; padding: 15px; border-radius: 5px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vscode-icons-carbon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/vscode-theme-vitesse",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Vitesse Theme for VS Code</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -1746,11 +1818,53 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "antfu/vscode-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "windicss/windicss-intellisense"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "antfu/vscode-icons-carbon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "antfu/vscode-theme-vitesse"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

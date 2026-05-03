@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "abcjjy/godot-sqlcipher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "hhyyrylainen/godotpcktool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "mymindstorm/setup-emsdk@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "\ud83c\udf08 All Builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static_checks.yml",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_checks.yml",
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "\ud83d\udcca Static Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "godot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "godot-addon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "godot-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "godotengine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "2shady4u/godot-sqlite",
+      "target": "sqlite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:55:07.514782+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29267
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 7717
+    },
+    {
+      "path": ".github/workflows/build_var.json",
+      "size": 3555
+    },
+    {
+      "path": ".github/workflows/create-build-matrix.ps1",
+      "size": 898
+    },
+    {
+      "path": ".github/workflows/release_template.md",
+      "size": 296
+    },
+    {
+      "path": ".github/workflows/static_checks.yml",
+      "size": 1279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GDExtension wrapper for SQLite (Godot 4.x+)",
+    "fork": false,
+    "full_name": "2shady4u/godot-sqlite",
+    "html_url": "https://github.com/2shady4u/godot-sqlite",
+    "language": "C++",
+    "pushed_at": "2026-02-18T20:15:41Z",
+    "stargazers_count": 1350,
+    "topics": [
+      "gamedev",
+      "godot",
+      "godot-addon",
+      "godot-plugin",
+      "godotengine",
+      "sqlite"
+    ],
+    "updated_at": "2026-04-30T18:03:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abcjjy/godot-sqlcipher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hhyyrylainen/godotpcktool",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83c\udf08 All Builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "\ud83c\udf08 All Builds"
+    },
+    {
+      "context_snippet": "\ud83d\udcca Static Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static_checks.yml",
+      "term": "\ud83d\udcca Static Checks"
+    },
+    {
+      "context_snippet": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot"
+    },
+    {
+      "context_snippet": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-addon"
+    },
+    {
+      "context_snippet": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godot-plugin"
+    },
+    {
+      "context_snippet": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "godotengine"
+    },
+    {
+      "context_snippet": "***NOTE**: This branch is compatible with Godot 4.x. Older versions of Godot (3.x) are supported on the `godot-3.x`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/godot-3.x).*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite"
+    }
+  ]
+}

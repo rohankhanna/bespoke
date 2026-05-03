@@ -19,6 +19,18 @@
       "source_repo": "rrousselGit/riverpod",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unitycontainer/commonservicelocator",
+      "status": "candidate-context",
+      "text": "Microsoft.Practices.ServiceLocation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitycontainer/commonservicelocator",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/badge/license-ms-pl.svg)](https://opensource.org/licenses/MS-PL)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rrousselGit/riverpod",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unitycontainer/commonservicelocator",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/badge/license-ms-pl.svg)](https://opensource.org/licenses/MS-PL)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "rrousselGit/riverpod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "unitycontainer/commonservicelocator"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

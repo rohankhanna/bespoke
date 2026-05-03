@@ -255,6 +255,138 @@
       "source_repo": "heroku/heroku-buildpack-jvm-common",
       "status": "candidate-context",
       "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpacks for Node.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "status": "candidate-context",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-php",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpack for PHP applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-php",
+      "status": "candidate-context",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-procfile",
+      "status": "candidate-context",
+      "text": "Heroku's Procfile Cloud Native Buildpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-procfile",
+      "status": "candidate-context",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/buildpacks-python",
+      "status": "candidate-context",
+      "text": "Heroku's Cloud Native Buildpack for Python applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-python",
+      "status": "candidate-context",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-scala",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Scala applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-scala",
+      "status": "candidate-context",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-jvm-application-deployer",
+      "status": "candidate-context",
+      "text": "Command line tool to deploy JVM applications directly to Heroku without pushing to a Git repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-jvm-application-deployer",
+      "status": "candidate-context",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Node.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "status": "candidate-context",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for PHP applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "status": "candidate-context",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-python",
+      "status": "candidate-context",
+      "text": "Heroku's classic buildpack for Python applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-python",
+      "status": "candidate-context",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/libcnb.rs",
+      "status": "candidate-context",
+      "text": "A framework for writing Cloud Native Buildpacks in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/libcnb.rs",
+      "status": "candidate-context",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/webapp-runner",
+      "status": "candidate-context",
+      "text": "Lightweight Application Launcher. Launch your webapp in the most popular open source web container available with a single command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/webapp-runner",
+      "status": "candidate-context",
+      "text": "Check Changelog"
     }
   ],
   "candidate_glosses": [
@@ -381,6 +513,72 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "heroku/heroku-buildpack-jvm-common",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-nodejs",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-php",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-procfile",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/buildpacks-python",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-scala",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-jvm-application-deployer",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-nodejs",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-php",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-python",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/libcnb.rs",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/webapp-runner",
       "status": "candidate",
       "text": "Check Changelog"
     }
@@ -552,11 +750,77 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/check_changelog.yml",
       "source_repo": "heroku/heroku-buildpack-jvm-common"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/buildpacks-nodejs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/buildpacks-php"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/buildpacks-procfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/buildpacks-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-scala"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/heroku-jvm-application-deployer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-nodejs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-php"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/libcnb.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "heroku/webapp-runner"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

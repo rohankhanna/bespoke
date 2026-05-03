@@ -163,6 +163,30 @@
       "source_repo": "MorganRO8/Lucys_Labyrinth",
       "status": "candidate-context",
       "text": "A game made for a school project, dedicated to my daughter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lo-th/phy",
+      "status": "candidate-context",
+      "text": "Physics for three. Game engine "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lo-th/phy",
+      "status": "candidate-context",
+      "text": "[Oimo](https://github.com/saharan/OimoPhysics/) &mdash;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpbruyere/VkChess.net",
+      "status": "candidate-context",
+      "text": "3D Stockfish Chess client powered by Vulkan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpbruyere/VkChess.net",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "MorganRO8/Lucys_Labyrinth",
       "status": "candidate",
       "text": "A game made for a school project, dedicated to my daughter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lo-th/phy",
+      "status": "candidate",
+      "text": "[Oimo](https://github.com/saharan/OimoPhysics/) &mdash;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpbruyere/VkChess.net",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -514,11 +550,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "lo-th/phy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "jpbruyere/VkChess.net"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

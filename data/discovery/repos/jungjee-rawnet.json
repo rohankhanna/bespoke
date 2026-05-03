@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jungjee/RawNet",
+      "target": "extracted-speaker-embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jungjee/RawNet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jungjee/RawNet",
+      "target": "rawnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jungjee/RawNet",
+      "target": "speaker-embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jungjee/RawNet",
+      "target": "speaker-verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jungjee/RawNet",
+      "target": "spk-embd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jungjee/RawNet",
+      "target": "voxceleb2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:03:21.461865+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official repository for RawNet, RawNet2, and RawNet3",
+    "fork": false,
+    "full_name": "Jungjee/RawNet",
+    "html_url": "https://github.com/Jungjee/RawNet",
+    "language": "Python",
+    "pushed_at": "2024-03-21T18:39:57Z",
+    "stargazers_count": 402,
+    "topics": [
+      "extracted-speaker-embeddings",
+      "pytorch",
+      "rawnet",
+      "speaker-embeddings",
+      "speaker-verification",
+      "spk-embd",
+      "voxceleb2"
+    ],
+    "updated_at": "2026-04-24T09:25:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Official repository for RawNet, RawNet2, and RawNet3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extracted-speaker-embeddings"
+    },
+    {
+      "context_snippet": "Official repository for RawNet, RawNet2, and RawNet3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Official repository for RawNet, RawNet2, and RawNet3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rawnet"
+    },
+    {
+      "context_snippet": "Official repository for RawNet, RawNet2, and RawNet3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-embeddings"
+    },
+    {
+      "context_snippet": "Official repository for RawNet, RawNet2, and RawNet3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-verification"
+    },
+    {
+      "context_snippet": "Official repository for RawNet, RawNet2, and RawNet3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spk-embd"
+    },
+    {
+      "context_snippet": "Official repository for RawNet, RawNet2, and RawNet3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voxceleb2"
+    }
+  ]
+}

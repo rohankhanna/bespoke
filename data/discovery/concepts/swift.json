@@ -1120,6 +1120,54 @@
       "source_repo": "LucasGinard/AireLibre-iOS",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/bow",
+      "status": "candidate-context",
+      "text": "\ud83c\udff9 Bow is a cross-platform library for Typed Functional Programming in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/bow",
+      "status": "candidate-context",
+      "text": "![](https://github.com/bow-swift/bow-art/blob/master/assets/bow-header-github.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef-editor-client",
+      "status": "candidate-context",
+      "text": "\ud83d\udcf1Client-side code for the nef editor app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-client",
+      "status": "candidate-context",
+      "text": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fuziki/WorldInApple",
+      "status": "candidate-context",
+      "text": "Swift wrapper for vocoder World(https://github.com/mmorise/World)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuziki/WorldInApple",
+      "status": "candidate-context",
+      "text": "![Platform](https://img.shields.io/badge/platform-%20iOS%20-lightgrey.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udda5 Server-side code for the nef editor app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1686,6 +1734,30 @@
       "source_repo": "LucasGinard/AireLibre-iOS",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/bow",
+      "status": "candidate",
+      "text": "![](https://github.com/bow-swift/bow-art/blob/master/assets/bow-header-github.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-client",
+      "status": "candidate",
+      "text": "Welcome to the client-side code of [nef Playgrounds for iPad](https://apps.apple.com/us/app/nef-playgrounds/id1511012848)!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuziki/WorldInApple",
+      "status": "candidate",
+      "text": "![Platform](https://img.shields.io/badge/platform-%20iOS%20-lightgrey.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bow-swift/nef-editor-server",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2665,11 +2737,65 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/swift.yml",
       "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "fuziki/WorldInApple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

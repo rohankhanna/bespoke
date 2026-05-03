@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-appwrite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "appwrite/playground-for-node",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "appwrite/playground-for-node",
+      "target": "node-appwrite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-node",
+      "target": "appwrite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-node",
+      "target": "baas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-node",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-node",
+      "target": "mbaas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-node",
+      "target": "node-js",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:58:05.543767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2639
+    },
+    {
+      "path": "Dockerfile",
+      "size": 79
+    },
+    {
+      "path": "package.json",
+      "size": 369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple examples that help you get started with Appwrite + Node.js (=\u2764\ufe0f)",
+    "fork": false,
+    "full_name": "appwrite/playground-for-node",
+    "html_url": "https://github.com/appwrite/playground-for-node",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-20T07:03:55Z",
+    "stargazers_count": 72,
+    "topics": [
+      "appwrite",
+      "baas",
+      "hacktoberfest",
+      "mbaas",
+      "node-js"
+    ],
+    "updated_at": "2026-03-02T13:52:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Node.js SDK. Use the source code of this repository to learn how to use the different Appwrite Node.js SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appwrite"
+    },
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Node.js SDK. Use the source code of this repository to learn how to use the different Appwrite Node.js SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baas"
+    },
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Node.js SDK. Use the source code of this repository to learn how to use the different Appwrite Node.js SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Node.js SDK. Use the source code of this repository to learn how to use the different Appwrite Node.js SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mbaas"
+    },
+    {
+      "context_snippet": "Appwrite playground is a simple way to explore the Appwrite API & Appwrite Node.js SDK. Use the source code of this repository to learn how to use the different Appwrite Node.js SDK features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-js"
+    }
+  ]
+}

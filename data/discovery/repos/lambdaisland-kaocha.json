@@ -1,0 +1,269 @@
+{
+  "components": [
+    {
+      "component": "lambdaisland/open-source/.github/workflows/add-to-project-board.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_project_board.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@10.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@10.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "lambdaisland/kaocha-cljs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "lambdaisland/kaocha-boot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "lambdaisland/deep-diff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "lambdaisland/deep-diff2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_project_board.yml",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "lambdaisland/open-source/.github/workflows/add-to-project-board.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "DeLaGuardo/setup-clojure@10.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "DeLaGuardo/setup-clojure@10.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/canary.yml",
+      "source_repo": "lambdaisland/kaocha",
+      "target": "canary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaisland/kaocha",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaisland/kaocha",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaisland/kaocha",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdaisland/kaocha",
+      "target": "testing-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:54:43.981183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18400
+    },
+    {
+      "path": ".github/workflows/add_to_project_board.yml",
+      "size": 245
+    },
+    {
+      "path": ".github/workflows/bb.yml",
+      "size": 1381
+    },
+    {
+      "path": ".github/workflows/canary.yml",
+      "size": 1417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Full featured next gen Clojure test runner",
+    "fork": false,
+    "full_name": "lambdaisland/kaocha",
+    "html_url": "https://github.com/lambdaisland/kaocha",
+    "language": "Clojure",
+    "pushed_at": "2025-10-09T08:54:40Z",
+    "stargazers_count": 859,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "testing",
+      "testing-tools"
+    ],
+    "updated_at": "2026-05-02T14:58:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/deep-diff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/deep-diff2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/kaocha-boot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/kaocha-cljs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "canary",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/canary.yml",
+      "term": "canary"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"kaocha.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"kaocha.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"kaocha.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"kaocha.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    }
+  ]
+}

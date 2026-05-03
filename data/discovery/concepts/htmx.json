@@ -31,6 +31,18 @@
       "source_repo": "a-h/templ",
       "status": "candidate-context",
       "text": "![templ](https://github.com/a-h/templ/raw/main/templ.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chasefleming/elem-go",
+      "status": "candidate-context",
+      "text": "Type-safe Go library for creating and manipulating HTML elements (with htmx helpers)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chasefleming/elem-go",
+      "status": "candidate-context",
+      "text": "![elem-go logo](./logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "a-h/templ",
       "status": "candidate",
       "text": "![templ](https://github.com/a-h/templ/raw/main/templ.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chasefleming/elem-go",
+      "status": "candidate",
+      "text": "![elem-go logo](./logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "a-h/templ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "chasefleming/elem-go"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

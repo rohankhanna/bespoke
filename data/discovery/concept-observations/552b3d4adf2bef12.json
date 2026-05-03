@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "pytorch knn [cuda version]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "+ ref: [kNN-CUDA](https://github.com/vincentfpgarcia/kNN-CUDA)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "+ ref: [kNN-CUDA](https://github.com/vincentfpgarcia/kNN-CUDA)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023318,
+      "status": "candidate",
+      "text": "gpgpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023317,
+      "status": "candidate",
+      "text": "dgpu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023316,
+      "status": "candidate",
+      "text": "cadam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023315,
+      "status": "candidate",
+      "text": "dicaas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023314,
+      "status": "candidate",
+      "text": "graphics processing unit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cuda",
+      "sense_id": "cuda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cuda",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cuda",
+  "observation_id": "552b3d4adf2bef12",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "cuda",
+  "source_context_snippet": "+ ref: [kNN-CUDA](https://github.com/vincentfpgarcia/kNN-CUDA)",
+  "source_file": null,
+  "source_repo": "unlimblue/KNN_CUDA",
+  "source_repo_description": "pytorch knn [cuda version]"
+}

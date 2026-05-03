@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuyTevet/motion-diffusion-model",
+      "target": "guytevet/mdm-page",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuyTevet/motion-diffusion-model",
+      "target": "aiganimation/camdm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuyTevet/motion-diffusion-model",
+      "target": "guytevet/motionclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GuyTevet/motion-diffusion-model",
+      "target": "mathux/actor",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:44:17.813509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18948
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official PyTorch implementation of the paper \"Human Motion Diffusion Model\"",
+    "fork": false,
+    "full_name": "GuyTevet/motion-diffusion-model",
+    "html_url": "https://github.com/GuyTevet/motion-diffusion-model",
+    "language": "Python",
+    "pushed_at": "2025-10-01T00:29:26Z",
+    "stargazers_count": 3965,
+    "topics": [],
+    "updated_at": "2026-05-01T08:46:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aiganimation/camdm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guytevet/mdm-page",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guytevet/motionclip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mathux/actor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

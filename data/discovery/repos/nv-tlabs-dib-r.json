@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nv-tlabs/DIB-R",
+      "target": "dimatura/binvox-rw-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nv-tlabs/DIB-R",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nv-tlabs/DIB-R",
+      "target": "differentiable-rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nv-tlabs/DIB-R",
+      "target": "inverse-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nv-tlabs/DIB-R",
+      "target": "neural-rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:57:12.264085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2487
+    },
+    {
+      "path": "requirements.txt",
+      "size": 63
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning to Predict 3D Objects with an Interpolation-based Differentiable Renderer (NeurIPS 2019)",
+    "fork": false,
+    "full_name": "nv-tlabs/DIB-R",
+    "html_url": "https://github.com/nv-tlabs/DIB-R",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:16:23Z",
+    "stargazers_count": 665,
+    "topics": [
+      "3d-reconstruction",
+      "differentiable-rendering",
+      "inverse-graphics",
+      "neural-rendering"
+    ],
+    "updated_at": "2026-04-25T22:06:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dimatura/binvox-rw-py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the official inference code for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "This is the official inference code for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differentiable-rendering"
+    },
+    {
+      "context_snippet": "This is the official inference code for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inverse-graphics"
+    },
+    {
+      "context_snippet": "This is the official inference code for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-rendering"
+    }
+  ]
+}

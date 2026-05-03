@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T00:45:16.197963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 384
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Storage of binary files for EcoAssist",
+    "fork": false,
+    "full_name": "PetervanLunteren/EcoAssist-metadata",
+    "html_url": "https://github.com/PetervanLunteren/EcoAssist-metadata",
+    "language": null,
+    "pushed_at": "2026-03-30T08:33:26Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-30T08:33:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

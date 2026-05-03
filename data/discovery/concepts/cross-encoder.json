@@ -7,8 +7,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "status": "candidate-context",
+      "text": "Lite & Super-fast re-ranking for your search & retrieval pipelines.  Supports SoTA Listwise and Pairwise reranking based on LLMs and  cross-encoders and more.  Created by Prithivi Da, open for PRs & Collaborations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "status": "candidate-context",
+      "text": "<p align =\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PrithivirajDamodaran/FlashRank",
+      "status": "candidate",
+      "text": "<p align =\"center\">"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "cross-encoder",
@@ -20,12 +40,20 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "roampal-ai/roampal-labs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "PrithivirajDamodaran/FlashRank"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

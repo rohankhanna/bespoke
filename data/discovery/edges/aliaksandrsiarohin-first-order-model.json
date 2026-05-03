@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "snap-research/articulated-animation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "aliaksandrsiarohin/motion-cosegmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "aliaksandrsiarohin/pose-evaluation.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "aliaksandrsiarohin/video-preprocessing.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "image-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AliaksandrSiarohin/first-order-model",
+      "target": "motion-retargeting",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "source_repo": "AliaksandrSiarohin/first-order-model"
+}

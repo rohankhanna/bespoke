@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.21.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "pyocd/libusb-package",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "pyocd/libusb-package",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "pyocd/libusb-package",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "pyocd/libusb-package",
+      "target": "pypa/cibuildwheel@v2.21.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "pyocd/libusb-package",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "pyocd/libusb-package",
+      "target": "Build wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyocd/libusb-package",
+      "target": "libusb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyocd/libusb-package",
+      "target": "pyusb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:52:18.503191+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4807
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 660
+    },
+    {
+      "path": ".github/workflows/build-wheels.yml",
+      "size": 1333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Packaged libusb shared libraries for Python.",
+    "fork": false,
+    "full_name": "pyocd/libusb-package",
+    "html_url": "https://github.com/pyocd/libusb-package",
+    "language": "Python",
+    "pushed_at": "2026-04-14T14:18:38Z",
+    "stargazers_count": 39,
+    "topics": [
+      "libusb",
+      "python",
+      "pyusb"
+    ],
+    "updated_at": "2026-02-23T10:52:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "term": "Build wheels"
+    },
+    {
+      "context_snippet": "This Python package functions as an installation vehicle for libusb shared libraries, to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libusb"
+    },
+    {
+      "context_snippet": "This Python package functions as an installation vehicle for libusb shared libraries, to",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyusb"
+    }
+  ]
+}

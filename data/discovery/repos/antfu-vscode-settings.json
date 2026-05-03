@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/vscode-settings",
+      "target": "antfu/vscode-theme-vitesse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antfu/vscode-settings",
+      "target": "antfu/vscode-icons-carbon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vscode-settings",
+      "target": "vscode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vscode-settings",
+      "target": "vscode-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vscode-settings",
+      "target": "vscode-settings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antfu/vscode-settings",
+      "target": "vscode-settings-json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:57:46.348506+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "My VS Code settings and extensions ",
+    "fork": false,
+    "full_name": "antfu/vscode-settings",
+    "html_url": "https://github.com/antfu/vscode-settings",
+    "language": null,
+    "pushed_at": "2025-05-28T23:40:53Z",
+    "stargazers_count": 2269,
+    "topics": [
+      "vscode",
+      "vscode-extension",
+      "vscode-settings",
+      "vscode-settings-json"
+    ],
+    "updated_at": "2026-05-02T23:23:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vscode-icons-carbon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vscode-theme-vitesse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<samp><b>Anthony's VS Code Settings</b></samp>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    },
+    {
+      "context_snippet": "<samp><b>Anthony's VS Code Settings</b></samp>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    },
+    {
+      "context_snippet": "<samp><b>Anthony's VS Code Settings</b></samp>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-settings"
+    },
+    {
+      "context_snippet": "<samp><b>Anthony's VS Code Settings</b></samp>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-settings-json"
+    }
+  ]
+}

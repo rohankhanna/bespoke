@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marl/openl3",
+      "target": "marl/l3embedding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marl/openl3",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marl/openl3",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marl/openl3",
+      "target": "embedding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marl/openl3",
+      "target": "embedding-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marl/openl3",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marl/openl3",
+      "target": "image-embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marl/openl3",
+      "target": "machine-listening",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T04:03:31.803043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenL3: Open-source deep audio and image embeddings",
+    "fork": false,
+    "full_name": "marl/openl3",
+    "html_url": "https://github.com/marl/openl3",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-17T10:56:46Z",
+    "stargazers_count": 588,
+    "topics": [
+      "audio",
+      "deep-learning",
+      "embedding",
+      "embedding-models",
+      "image",
+      "image-embeddings",
+      "machine-listening"
+    ],
+    "updated_at": "2026-04-27T17:11:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marl/l3embedding",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "OpenL3 is an open-source Python library for computing deep audio and image embeddings.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "OpenL3 is an open-source Python library for computing deep audio and image embeddings.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "OpenL3 is an open-source Python library for computing deep audio and image embeddings.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedding"
+    },
+    {
+      "context_snippet": "OpenL3 is an open-source Python library for computing deep audio and image embeddings.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedding-models"
+    },
+    {
+      "context_snippet": "OpenL3 is an open-source Python library for computing deep audio and image embeddings.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    },
+    {
+      "context_snippet": "OpenL3 is an open-source Python library for computing deep audio and image embeddings.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-embeddings"
+    },
+    {
+      "context_snippet": "OpenL3 is an open-source Python library for computing deep audio and image embeddings.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-listening"
+    }
+  ]
+}

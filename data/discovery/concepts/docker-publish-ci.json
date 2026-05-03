@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Publish CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes Operator for Lakekeeper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "status": "candidate-context",
+      "text": "Docker Publish CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lakekeeper/lakekeeper-operator",
+      "status": "candidate",
+      "text": "Docker Publish CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12374,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11414,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11014,
+      "status": "candidate",
+      "text": "cargo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11014,
+      "status": "candidate",
+      "text": "crate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11014,
+      "status": "candidate",
+      "text": "dock"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Publish CI",
+  "concept_id": "docker-publish-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "lakekeeper/lakekeeper-operator"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Publish CI",
+      "sense_id": "docker-publish-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

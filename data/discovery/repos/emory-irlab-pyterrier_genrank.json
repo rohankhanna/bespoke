@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emory-irlab/pyterrier_genrank",
+      "target": "castorini/rank_llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emory-irlab/pyterrier_genrank",
+      "target": "orionw/rank1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:47:50.678954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4774
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 665
+    },
+    {
+      "path": "requirements.txt",
+      "size": 158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Generative Reranker PyTerrier",
+    "fork": false,
+    "full_name": "emory-irlab/pyterrier_genrank",
+    "html_url": "https://github.com/emory-irlab/pyterrier_genrank",
+    "language": "Python",
+    "pushed_at": "2025-12-01T22:38:41Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-02-05T15:23:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "castorini/rank_llm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orionw/rank1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

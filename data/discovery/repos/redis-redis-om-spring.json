@@ -158,6 +158,20 @@
   ],
   "edges": [
     {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-om-spring",
+      "target": "redis-om/redis-om-spring",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-om-spring",
+      "target": "redislabs-training/mod-devcap-redisjson-getting-started",
+      "target_type": "repository"
+    },
+    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "redis/redis-om-spring",
@@ -375,7 +389,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T07:07:25.415630+00:00",
+  "fetched_at": "2026-05-03T05:08:56.184484+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -416,7 +430,18 @@
     ],
     "updated_at": "2026-04-24T09:06:54Z"
   },
-  "repo_links": [],
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis-om/redis-om-spring",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redislabs-training/mod-devcap-redisjson-getting-started",
+      "source_file": "README.md"
+    }
+  ],
   "terms": [
     {
       "context_snippet": "Build",

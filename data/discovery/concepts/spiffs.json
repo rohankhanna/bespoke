@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "spiffs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pellepl/spiffs",
+      "status": "candidate-context",
+      "text": "Wear-leveled SPI flash file system for embedded devices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pellepl/spiffs",
+      "status": "candidate-context",
+      "text": "**V0.3.7**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "status": "candidate-context",
+      "text": "Lua based interactive firmware for ESP8266, ESP8285 and ESP32"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "status": "candidate-context",
+      "text": "> Lua-based firmware for ESP8266 WiFi SOC"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pellepl/spiffs",
+      "status": "candidate",
+      "text": "**V0.3.7**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodemcu/nodemcu-firmware",
+      "status": "candidate",
+      "text": "> Lua-based firmware for ESP8266 WiFi SOC"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9948079,
+      "status": "candidate",
+      "text": "diete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9948078,
+      "status": "candidate",
+      "text": "adorn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9948078,
+      "status": "candidate",
+      "text": "neaten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9948078,
+      "status": "candidate",
+      "text": "polish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9948078,
+      "status": "candidate",
+      "text": "redo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "spiffs",
+  "concept_id": "spiffs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "pellepl/spiffs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "nodemcu/nodemcu-firmware"
+    }
+  ],
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spiffs",
+      "sense_id": "spiffs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

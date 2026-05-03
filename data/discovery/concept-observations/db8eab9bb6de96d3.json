@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Examples of WebRTC applications that are large, or use 3rd party libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Fuzz"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Fuzz"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39912413,
+      "status": "candidate",
+      "text": "hair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39893287,
+      "status": "candidate",
+      "text": "bull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39861345,
+      "status": "candidate",
+      "text": "blur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39860850,
+      "status": "candidate",
+      "text": "pig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39813754,
+      "status": "candidate",
+      "text": "tomentum"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fuzz",
+      "sense_id": "fuzz#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12039,
+      "status": "candidate",
+      "text": "blur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9028,
+      "status": "candidate",
+      "text": "tomentum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7072,
+      "status": "candidate",
+      "text": "bull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7059,
+      "status": "candidate",
+      "text": "pig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5076,
+      "status": "candidate",
+      "text": "copper"
+    }
+  ],
+  "concept_id": "fuzz",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fuzz",
+  "observation_id": "db8eab9bb6de96d3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "Fuzz",
+  "source_context_snippet": "Fuzz",
+  "source_file": ".github/workflows/fuzz.yaml",
+  "source_repo": "pion/example-webrtc-applications",
+  "source_repo_description": "Examples of WebRTC applications that are large, or use 3rd party libraries"
+}

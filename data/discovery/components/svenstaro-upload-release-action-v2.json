@@ -1,7 +1,7 @@
 {
   "component": "svenstaro/upload-release-action@v2",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -332,6 +332,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "2dust/v2rayNG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mindreframer/sqlean"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VOICEVOX/onnxruntime-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GFW-knocker/AndroidLibXrayLite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-win7.yml",
+      "source_repo": "GFW-knocker/Xray-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GFW-knocker/Xray-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mahsanet/NikaNG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build2.yml",
+      "source_repo": "mahsanet/NikaNG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build3.yml",
+      "source_repo": "mahsanet/NikaNG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build4.yml",
+      "source_repo": "mahsanet/NikaNG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "2dust/AndroidLibV2rayLite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "2dust/AndroidLibXrayLite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run.yml",
+      "source_repo": "Loyalsoldier/v2ray-rules-dat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lxgw/LxgwWenkaiGB"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lxgw/LxgwWenkaiTC"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "2dust/v2rayN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-osx.yml",
+      "source_repo": "2dust/v2rayN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package-zip.yml",
+      "source_repo": "2dust/v2rayN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AghayeCoder/tx-ui"
     }
   ]
 }

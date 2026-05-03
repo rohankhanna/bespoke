@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grimoirelab-gitee/grimoirelab-perceval-gitee",
+      "target": "grimoirelab-gitee/grimoirelab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grimoirelab-gitee/grimoirelab-perceval-gitee",
+      "target": "chaoss/grimoirelab-perceval-gitee",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:47:36.850007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1178
+    },
+    {
+      "path": "requirements.txt",
+      "size": 166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GrimoireLab: Bundle of Perceval backends for Gitee",
+    "fork": false,
+    "full_name": "grimoirelab-gitee/grimoirelab-perceval-gitee",
+    "html_url": "https://github.com/grimoirelab-gitee/grimoirelab-perceval-gitee",
+    "language": "Python",
+    "pushed_at": "2022-08-01T06:59:39Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-05-22T18:02:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-perceval-gitee",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grimoirelab-gitee/grimoirelab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

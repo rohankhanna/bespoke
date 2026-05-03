@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude80 Automatically create and delete labels in batches."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u81ea\u52a8\u6279\u91cf\u65b0\u589e\u3001\u5220\u9664\u6807\u7b7e\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u81ea\u52a8\u6279\u91cf\u65b0\u589e\u3001\u5220\u9664\u6807\u7b7e\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046833,
+      "status": "candidate",
+      "text": "government issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030472,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030044,
+      "status": "candidate",
+      "text": "issuance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029766,
+      "status": "candidate",
+      "text": "payoff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027306,
+      "status": "candidate",
+      "text": "supply"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "issues",
+      "sense_id": "issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issues",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issues",
+  "observation_id": "5d70a60591eecb6b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_text": "issues",
+  "source_context_snippet": "\u81ea\u52a8\u6279\u91cf\u65b0\u589e\u3001\u5220\u9664\u6807\u7b7e\u3002",
+  "source_file": null,
+  "source_repo": "actions-cool/labels-helper",
+  "source_repo_description": "\ud83d\ude80 Automatically create and delete labels in batches."
+}

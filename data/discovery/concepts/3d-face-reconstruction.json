@@ -55,6 +55,54 @@
       "source_repo": "filby89/spectre",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "barisgecer/GANFit",
+      "status": "candidate-context",
+      "text": "Project Page of 'GANFIT: Generative Adversarial Network Fitting for High Fidelity 3D Face Reconstruction' [CVPR2019]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barisgecer/GANFit",
+      "status": "candidate-context",
+      "text": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Deep3DFaceReconstruction",
+      "status": "candidate-context",
+      "text": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set (CVPRW 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Deep3DFaceReconstruction",
+      "status": "candidate-context",
+      "text": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set (CVPRW 2019)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georgeretsi/smirk",
+      "status": "candidate-context",
+      "text": "Official Pytorch Implementation of SMIRK: 3D Facial Expressions through Analysis-by-Neural-Synthesis (CVPR 2024) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georgeretsi/smirk",
+      "status": "candidate-context",
+      "text": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate-context",
+      "text": "Official repository accompanying a CVPR 2022 paper EMOCA: Emotion Driven Monocular Face Capture And Animation. EMOCA takes a single image of a face as input and produces a 3D reconstruction. EMOCA sets the new standard on reconstructing highly emotional images in-the-wild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate-context",
+      "text": "<!-- # EMOCA -->"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "filby89/spectre",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "barisgecer/GANFit",
+      "status": "candidate",
+      "text": "[![arXiv Prepring](https://img.shields.io/badge/arXiv-Preprint-lightgrey?logo=arxiv)](https://arxiv.org/abs/1902.05978)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Deep3DFaceReconstruction",
+      "status": "candidate",
+      "text": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: From Single Image to Image Set (CVPRW 2019)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georgeretsi/smirk",
+      "status": "candidate",
+      "text": "albumentations==1.3.0 mediapipe==0.10.10 numpy==1.22.4 omegaconf==2.3.0 opencv_contrib_python==4.9.0.80 opencv_python==4.9.0.80 opencv_python_headless==4.9.0.80 scikit_learn==1.3.2 scikit-image==0.22.0 timm==0.9.16 torch==2.0.1 torchvision==0.15.2 tqdm==4.66.2 chumpy==0.70 gdown\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radekd91/emoca",
+      "status": "candidate",
+      "text": "<!-- # EMOCA -->"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +184,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "filby89/spectre"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "barisgecer/GANFit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Deep3DFaceReconstruction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "georgeretsi/smirk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": null,
+      "source_repo": "radekd91/emoca"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

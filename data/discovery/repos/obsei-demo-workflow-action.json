@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "obsei/demo-workflow-action",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "obsei/demo-workflow-action",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "obsei/demo-workflow-action",
+      "target": "obsei action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "obsei/demo-workflow-action",
+      "target": "github-actions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:48:17.696643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2424
+    },
+    {
+      "path": "requirements.txt",
+      "size": 61
+    },
+    {
+      "path": ".github/workflows/action.yml",
+      "size": 655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Showcase Obsei workflow execution via GitHub actions. Created this for DataTalkClub demo.",
+    "fork": false,
+    "full_name": "obsei/demo-workflow-action",
+    "html_url": "https://github.com/obsei/demo-workflow-action",
+    "language": "Python",
+    "pushed_at": "2022-09-01T06:07:11Z",
+    "stargazers_count": 8,
+    "topics": [
+      "github-actions"
+    ],
+    "updated_at": "2025-05-21T12:18:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "obsei action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yml",
+      "term": "obsei action"
+    },
+    {
+      "context_snippet": "This repo Showcase [Obsei](https://github.com/obsei/obsei) workflow execution via GitHub actions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    }
+  ]
+}

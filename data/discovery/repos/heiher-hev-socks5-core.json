@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heiher/hev-socks5-core",
+      "target": "heiher/hev-task-system",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heiher/hev-socks5-core",
+      "target": "heiher/hev-socks5-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heiher/hev-socks5-core",
+      "target": "heiher/hev-socks5-tproxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yaml",
+      "source_repo": "heiher/hev-socks5-core",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format.yaml",
+      "source_repo": "heiher/hev-socks5-core",
+      "target": "Check code formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-core",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heiher/hev-socks5-core",
+      "target": "socks5",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T02:47:40.437218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4688
+    },
+    {
+      "path": ".github/workflows/code-format.yaml",
+      "size": 501
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple, lightweight socks5 library (IPv4/IPv6/TCP/UDP/Client/Server)",
+    "fork": false,
+    "full_name": "heiher/hev-socks5-core",
+    "html_url": "https://github.com/heiher/hev-socks5-core",
+    "language": "C",
+    "pushed_at": "2026-05-02T09:04:59Z",
+    "stargazers_count": 48,
+    "topics": [
+      "library",
+      "socks5",
+      "tcp",
+      "udp"
+    ],
+    "updated_at": "2026-05-02T09:05:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heiher/hev-socks5-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heiher/hev-socks5-tproxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heiher/hev-task-system",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Check code formatting\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format.yaml",
+      "term": "Check code formatting"
+    },
+    {
+      "context_snippet": "HevSocks5Core is a simple, lightweight socks5 library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "HevSocks5Core is a simple, lightweight socks5 library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socks5"
+    }
+  ]
+}

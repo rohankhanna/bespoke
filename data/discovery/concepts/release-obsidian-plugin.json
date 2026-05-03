@@ -68,6 +68,30 @@
       "source_repo": "TfTHacker/obsidian42-brat",
       "status": "candidate-context",
       "text": "Release Obsidian plugin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "garyng/obsidian-temple",
+      "status": "candidate-context",
+      "text": "A plugin for templating in Obsidian, powered by Nunjucks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garyng/obsidian-temple",
+      "status": "candidate-context",
+      "text": "Release Obsidian Plugin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaaaalexis/obsidian-pseudo-mica",
+      "status": "candidate-context",
+      "text": "Pseudo Mica brings native window translucency effects to Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaaaalexis/obsidian-pseudo-mica",
+      "status": "candidate-context",
+      "text": "Release Obsidian plugin"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +122,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "TfTHacker/obsidian42-brat",
+      "status": "candidate",
+      "text": "Release Obsidian plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garyng/obsidian-temple",
+      "status": "candidate",
+      "text": "Release Obsidian Plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaaaalexis/obsidian-pseudo-mica",
       "status": "candidate",
       "text": "Release Obsidian plugin"
     }
@@ -179,11 +215,35 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "obsidian-community/obsidian-style-settings"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ebullient/obsidian-admonition"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "obsidian-community/obsidian-style-settings"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "garyng/obsidian-temple"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aaaaalexis/obsidian-pseudo-mica"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "cmacdonald/pyt_splade",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "cmacdonald/pyt_splade",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "cmacdonald/pyt_splade",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:47:50.037042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2029
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "cmacdonald/pyt_splade",
+    "html_url": "https://github.com/cmacdonald/pyt_splade",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-12-15T10:39:22Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-12-19T15:29:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

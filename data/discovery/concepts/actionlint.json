@@ -207,6 +207,42 @@
       "source_repo": "pulumi/pulumi-azure-native",
       "status": "candidate-context",
       "text": "actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VOICEVOX/onnxruntime-builder",
+      "status": "candidate-context",
+      "text": "VOICEVOX CORE\u3067\u5229\u7528\u3059\u308bonnxruntime\u306e\u30d3\u30eb\u30c9\u3092\u884c\u3046\u30ea\u30dd\u30b8\u30c8\u30ea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/onnxruntime-builder",
+      "status": "candidate-context",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to approve pull requests securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate-context",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to update pull request branches securely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/update-branch-action",
+      "status": "candidate-context",
+      "text": "actionlint"
     }
   ],
   "candidate_glosses": [
@@ -309,6 +345,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pulumi/pulumi-azure-native",
+      "status": "candidate",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VOICEVOX/onnxruntime-builder",
+      "status": "candidate",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/approve-pr-action",
+      "status": "candidate",
+      "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csm-actions/update-branch-action",
       "status": "candidate",
       "text": "actionlint"
     }
@@ -420,11 +474,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/actionlint.yml",
       "source_repo": "pulumi/pulumi-azure-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "VOICEVOX/onnxruntime-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "csm-actions/approve-pr-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T00:38:05.423502+00:00",
+      "source_file": ".github/workflows/actionlint.yaml",
+      "source_repo": "csm-actions/update-branch-action"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "lexical_providers": [
     "datamuse"
   ],

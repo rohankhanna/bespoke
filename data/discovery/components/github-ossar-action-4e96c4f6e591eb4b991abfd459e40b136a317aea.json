@@ -1,0 +1,12 @@
+{
+  "component": "github/ossar-action@4e96c4f6e591eb4b991abfd459e40b136a317aea",
+  "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ossar-analysis.yml",
+      "source_repo": "reactjs/react-docgen"
+    }
+  ]
+}

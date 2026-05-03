@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-operator-overloading",
+      "target": "mikemcl/big.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-operator-overloading",
+      "target": "littledan/proposal-operator-overloading",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-operator-overloading",
+      "target": "littledan/proposal-built-in-decorators",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tc39/proposal-operator-overloading",
+      "target": "littledan/proposal-bigdecimal",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T05:04:20.122259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "tc39/proposal-operator-overloading",
+    "html_url": "https://github.com/tc39/proposal-operator-overloading",
+    "language": "JavaScript",
+    "pushed_at": "2023-12-18T15:42:41Z",
+    "stargazers_count": 644,
+    "topics": [],
+    "updated_at": "2026-04-21T09:40:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "littledan/proposal-bigdecimal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "littledan/proposal-built-in-decorators",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "littledan/proposal-operator-overloading",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikemcl/big.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

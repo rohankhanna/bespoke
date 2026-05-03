@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fluxbot.jl"
+    },
+    {
+      "component": "julia-actions/setup-julia@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fluxbot.jl"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FluxML/model-zoo",
+      "target": "juliaml/mlutils.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FluxML/model-zoo",
+      "target": "juliaml/mldatasets.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FluxML/model-zoo",
+      "target": "alan-turing-institute/mlj.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FluxML/model-zoo",
+      "target": "fluxml/mljflux.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fluxbot.jl",
+      "source_repo": "FluxML/model-zoo",
+      "target": "actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fluxbot.jl",
+      "source_repo": "FluxML/model-zoo",
+      "target": "julia-actions/setup-julia@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fluxbot.jl",
+      "source_repo": "FluxML/model-zoo",
+      "target": "FluxBot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/model-zoo",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/model-zoo",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/model-zoo",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/model-zoo",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FluxML/model-zoo",
+      "target": "model-zoo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T01:46:50.777468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6309
+    },
+    {
+      "path": ".github/workflows/fluxbot.jl",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Please do not feed the models",
+    "fork": false,
+    "full_name": "FluxML/model-zoo",
+    "html_url": "https://github.com/FluxML/model-zoo",
+    "language": "Julia",
+    "pushed_at": "2024-11-25T18:49:31Z",
+    "stargazers_count": 934,
+    "topics": [
+      "deep-learning",
+      "flux",
+      "julia",
+      "machine-learning",
+      "model-zoo"
+    ],
+    "updated_at": "2026-05-01T13:02:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alan-turing-institute/mlj.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fluxml/mljflux.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaml/mldatasets.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaml/mlutils.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "FluxBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fluxbot.jl",
+      "term": "FluxBot"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<img align=\"right\" width=\"200px\" src=\"https://fluxml.ai/assets/logo-small.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-zoo"
+    }
+  ]
+}

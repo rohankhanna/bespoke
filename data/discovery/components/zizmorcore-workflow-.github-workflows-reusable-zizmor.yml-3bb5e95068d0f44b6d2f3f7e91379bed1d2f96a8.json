@@ -1,12 +1,17 @@
 {
   "component": "zizmorcore/workflow/.github/workflows/reusable-zizmor.yml@3bb5e95068d0f44b6d2f3f7e91379bed1d2f96a8",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-cd.yml",
       "source_repo": "antonbabenko/pre-commit-terraform"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pytest-dev/pytest-asyncio"
     }
   ]
 }

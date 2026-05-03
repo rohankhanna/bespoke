@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.90",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/nfsserve",
+      "target": "huggingface/hf-mount",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "huggingface/nfsserve",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "huggingface/nfsserve",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "huggingface/nfsserve",
+      "target": "dtolnay/rust-toolchain@1.90",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "huggingface/nfsserve",
+      "target": "xet-core CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:54:27.811766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9002
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1195
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1240
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Rust NFS Server implementation",
+    "fork": false,
+    "full_name": "huggingface/nfsserve",
+    "html_url": "https://github.com/huggingface/nfsserve",
+    "language": "Rust",
+    "pushed_at": "2026-04-27T19:25:19Z",
+    "stargazers_count": 726,
+    "topics": [],
+    "updated_at": "2026-05-02T21:59:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/hf-mount",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "xet-core CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "xet-core CI"
+    }
+  ]
+}

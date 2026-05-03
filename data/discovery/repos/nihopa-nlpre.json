@@ -1,0 +1,78 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NIHOPA/NLPre",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NIHOPA/NLPre",
+      "target": "nlp-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NIHOPA/NLPre",
+      "target": "text-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T00:45:36.973232+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7852
+    },
+    {
+      "path": "requirements.txt",
+      "size": 179
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python library for Natural Language Preprocessing (NLPre)",
+    "fork": false,
+    "full_name": "NIHOPA/NLPre",
+    "html_url": "https://github.com/NIHOPA/NLPre",
+    "language": "Python",
+    "pushed_at": "2023-07-31T07:23:02Z",
+    "stargazers_count": 190,
+    "topics": [
+      "natural-language-processing",
+      "nlp",
+      "nlp-parsing",
+      "python",
+      "text-processing"
+    ],
+    "updated_at": "2026-04-10T19:10:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/NIHOPA/NLPre.svg?branch=master)](https://travis-ci.org/NIHOPA/NLPre)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/NIHOPA/NLPre.svg?branch=master)](https://travis-ci.org/NIHOPA/NLPre)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlp-parsing"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/NIHOPA/NLPre.svg?branch=master)](https://travis-ci.org/NIHOPA/NLPre)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-processing"
+    }
+  ]
+}
