@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/fuser",
+      "target": "zargony/fuse-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/fuser",
+      "target": "macfuse/macfuse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "AdityaGarg8/remove-unwanted-software@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macstadium_pr_ci.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macstadium_pr_ci.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "MacStadium CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macstadium_push.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macstadium_push.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "MacStadium CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "huggingface/fuser"
+}

@@ -157,6 +157,30 @@
       "source_repo": "gurvancampion/nuxt-electron-trpc-prisma",
       "status": "candidate-context",
       "text": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nuxt/framework",
+      "status": "candidate-context",
+      "text": "Old repo of Nuxt 3 framework, now on nuxt/nuxt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/framework",
+      "status": "candidate-context",
+      "text": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloydlau/json-editor-vue",
+      "status": "candidate-context",
+      "text": "Vue 2/3 isomorphic JSON editor, viewer, formatter and validator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloydlau/json-editor-vue",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -237,6 +261,18 @@
       "source_repo": "gurvancampion/nuxt-electron-trpc-prisma",
       "status": "candidate",
       "text": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nuxt/framework",
+      "status": "candidate",
+      "text": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloydlau/json-editor-vue",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +436,41 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "pocojang/nuxt-realworld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nuxt/framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cloydlau/json-editor-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nuxt-modules/emotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pocojang/nuxt-realworld"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

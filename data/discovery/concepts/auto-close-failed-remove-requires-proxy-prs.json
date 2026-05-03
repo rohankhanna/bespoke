@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto-close failed remove-requires-proxy PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alltheplaces/alltheplaces",
+      "status": "candidate-context",
+      "text": "A set of spiders and scrapers to extract location information from places that post their location on the internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alltheplaces/alltheplaces",
+      "status": "candidate-context",
+      "text": "Auto-close failed remove-requires-proxy PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alltheplaces/alltheplaces",
+      "status": "candidate",
+      "text": "Auto-close failed remove-requires-proxy PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "bauxite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "misprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "nip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "spa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "create"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-close failed remove-requires-proxy PRs",
+  "concept_id": "auto-close-failed-remove-requires-proxy-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/auto-close-failed-auto-prs.yml",
+      "source_repo": "alltheplaces/alltheplaces"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-close failed remove-requires-proxy PRs",
+      "sense_id": "auto-close-failed-remove-requires-proxy-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

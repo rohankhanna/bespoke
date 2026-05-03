@@ -268,6 +268,18 @@
       "source_repo": "KhronosGroup/Vulkan-Hpp",
       "status": "candidate-context",
       "text": "CI Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emberjs/ember-test-helpers",
+      "status": "candidate-context",
+      "text": "Test-framework-agnostic helpers for testing Ember.js applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember-test-helpers",
+      "status": "candidate-context",
+      "text": "CI Build"
     }
   ],
   "candidate_glosses": [
@@ -406,6 +418,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "KhronosGroup/Vulkan-Hpp",
+      "status": "candidate",
+      "text": "CI Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember-test-helpers",
       "status": "candidate",
       "text": "CI Build"
     }
@@ -787,11 +805,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "amazon-ion/ion-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "amazon-ion/ion-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "emberjs/ember-test-helpers"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

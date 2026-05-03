@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jumziey/neotest-nix-unit.nvim",
+      "target": "nix-community/nix-unit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Jumziey/neotest-nix-unit.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Jumziey/neotest-nix-unit.nvim",
+      "target": "cachix/install-nix-action@v24",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:44:20.782014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2621
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neotest adapter for the nix-unit testing framework",
+    "fork": false,
+    "full_name": "Jumziey/neotest-nix-unit.nvim",
+    "html_url": "https://github.com/Jumziey/neotest-nix-unit.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-02-08T22:22:52Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-02-10T22:02:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nix-community/nix-unit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

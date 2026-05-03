@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple ES6 Proxy-powered draft state solution for autotracked data structures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This demonstration kind of works, but was never made remotely production-ready, and I am not working on it. If the ideas here are useful to you, please feel free fork this repo and run with it!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This demonstration kind of works, but was never made remotely production-ready, and I am not working on it. If the ideas here are useful to you, please feel free fork this repo and run with it!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autotracking",
+      "sense_id": "autotracking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "autotracking",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autotracking",
+  "observation_id": "266d3e2ccf47935b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "autotracking",
+  "source_context_snippet": "This demonstration kind of works, but was never made remotely production-ready, and I am not working on it. If the ideas here are useful to you, please feel free fork this repo and run with it!",
+  "source_file": null,
+  "source_repo": "chriskrycho/tracked-draft",
+  "source_repo_description": "A simple ES6 Proxy-powered draft state solution for autotracked data structures"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T14:45:33.799076+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27201
+    },
+    {
+      "path": "requirements.txt",
+      "size": 38
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos",
+    "fork": false,
+    "full_name": "openai/Video-Pre-Training",
+    "html_url": "https://github.com/openai/Video-Pre-Training",
+    "language": "Python",
+    "pushed_at": "2025-09-03T21:51:23Z",
+    "stargazers_count": 1680,
+    "topics": [],
+    "updated_at": "2026-05-03T13:40:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

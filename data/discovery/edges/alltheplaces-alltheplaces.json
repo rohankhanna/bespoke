@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "felt/tippecanoe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "iandees/scrapy-camoufox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-failed-auto-prs.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-failed-auto-prs.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Auto-close failed remove-requires-proxy PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dead-spider-killer.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dead-spider-killer.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dead-spider-killer.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Dead Spider Killer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "aws-actions/amazon-ecr-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Build and Push Image to ECR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Run pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-requires-proxy.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-requires-proxy.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tycheck-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tycheck-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tycheck-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Run ty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vendor-nsi.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vendor-nsi.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vendor-nsi.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vendor-nsi.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Vendor NSI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "geojson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "scrapers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "scrapy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "spider",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "alltheplaces/alltheplaces"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "operators"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate-context",
+      "text": "Canonical common brand names, operators, transit, and flags for OpenStreetMap."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19970207,
+      "status": "candidate",
+      "text": "manipulator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19930139,
+      "status": "candidate",
+      "text": "hustler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980830,
+      "status": "candidate",
+      "text": "wheeler dealer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980829,
+      "status": "candidate",
+      "text": "actors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980829,
+      "status": "candidate",
+      "text": "administrators"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "operators",
+  "concept_id": "operators",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "osmlab/name-suggestion-index"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "operators",
+      "sense_id": "operators#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

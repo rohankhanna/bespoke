@@ -92,6 +92,18 @@
       "source_repo": "kutsan/stylelint-config-clean-order",
       "status": "candidate-context",
       "text": "Commitlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RJWadley/stylelint-no-unsupported-browser-features",
+      "status": "candidate-context",
+      "text": "Disallow features that aren't supported by your target browser audience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RJWadley/stylelint-no-unsupported-browser-features",
+      "status": "candidate-context",
+      "text": "commitlint"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +148,12 @@
       "source_repo": "kutsan/stylelint-config-clean-order",
       "status": "candidate",
       "text": "Commitlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RJWadley/stylelint-no-unsupported-browser-features",
+      "status": "candidate",
+      "text": "commitlint"
     }
   ],
   "candidate_related_terms": [],
@@ -191,11 +209,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/commitlint.yml",
       "source_repo": "z-galaxy/zbus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "RJWadley/stylelint-no-unsupported-browser-features"
     }
   ],
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

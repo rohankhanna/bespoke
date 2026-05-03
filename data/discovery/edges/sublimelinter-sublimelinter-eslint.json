@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SublimeLinter/SublimeLinter-eslint",
-      "target": "sublimelinter/sublimelinter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SublimeLinter/SublimeLinter-eslint",
       "target": "nzakas/eslint",
       "target_type": "repository"
     },
@@ -19,13 +12,6 @@
       "source_file": "README.md",
       "source_repo": "SublimeLinter/SublimeLinter-eslint",
       "target": "joyent/node",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SublimeLinter/SublimeLinter-eslint",
-      "target": "sveltejs/eslint-plugin-svelte",
       "target_type": "repository"
     },
     {
@@ -78,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "SublimeLinter/SublimeLinter-eslint"
 }

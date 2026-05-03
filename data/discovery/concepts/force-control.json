@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "force-control"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "Robotic Development Kit (RDK) for Flexiv robots. Supports C++ and Python. Compatible with Linux, macOS, Windows, and QNX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate",
+      "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "force-control",
+  "concept_id": "force-control",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "flexivrobotics/flexiv_rdk"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "force-control",
+      "sense_id": "force-control#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

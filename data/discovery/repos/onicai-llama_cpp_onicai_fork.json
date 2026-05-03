@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onicai/llama_cpp_onicai_fork",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onicai/llama_cpp_onicai_fork",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onicai/llama_cpp_onicai_fork",
+      "target": "mozilla-ocho/llamafile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onicai/llama_cpp_onicai_fork",
+      "target": "distantmagic/paddler",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:39:14.171089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25122
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1280
+    },
+    {
+      "path": "requirements.txt",
+      "size": 505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "onicai",
+    "description": "(fork) LLM inference in C/C++",
+    "fork": true,
+    "full_name": "onicai/llama_cpp_onicai_fork",
+    "html_url": "https://github.com/onicai/llama_cpp_onicai_fork",
+    "language": "C++",
+    "pushed_at": "2025-02-09T15:15:51Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-04-03T23:38:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "distantmagic/paddler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-ocho/llamafile",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

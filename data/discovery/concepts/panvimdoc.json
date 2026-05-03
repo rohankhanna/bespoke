@@ -115,6 +115,18 @@
       "source_repo": "chrisgrieser/nvim-various-textobjs",
       "status": "candidate-context",
       "text": "panvimdoc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AckslD/nvim-neoclip.lua",
+      "status": "candidate-context",
+      "text": "Clipboard manager neovim plugin with telescope integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AckslD/nvim-neoclip.lua",
+      "status": "candidate-context",
+      "text": "panvimdoc"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +181,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chrisgrieser/nvim-various-textobjs",
+      "status": "candidate",
+      "text": "panvimdoc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AckslD/nvim-neoclip.lua",
       "status": "candidate",
       "text": "panvimdoc"
     }
@@ -280,11 +298,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/panvimdoc.yml",
       "source_repo": "chrisgrieser/nvim-various-textobjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/panvimdoc.yml",
+      "source_repo": "AckslD/nvim-neoclip.lua"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

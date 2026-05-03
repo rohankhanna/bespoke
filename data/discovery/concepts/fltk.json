@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "fltk"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fltk-rs/fltk-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the FLTK GUI library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fltk-rs/fltk-rs",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://docs.rs/fltk/badge.svg)](https://docs.rs/fltk)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fltk-rs/fltk-rs",
+      "status": "candidate",
+      "text": "[![Documentation](https://docs.rs/fltk/badge.svg)](https://docs.rs/fltk)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "standard widget toolkit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "pyside"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "firemonkey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "google web toolkit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "simple and fast multimedia library"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "fltk",
+  "concept_id": "fltk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fltk-rs/fltk-rs"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fltk",
+      "sense_id": "fltk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

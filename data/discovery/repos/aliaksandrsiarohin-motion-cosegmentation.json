@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/motion-cosegmentation",
+      "target": "aliaksandrsiarohin/face-makeup.pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:42:38.936702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7078
+    },
+    {
+      "path": "requirements.txt",
+      "size": 421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference code for \"Motion-supervised Co-Part Segmentation\" paper",
+    "fork": false,
+    "full_name": "AliaksandrSiarohin/motion-cosegmentation",
+    "html_url": "https://github.com/AliaksandrSiarohin/motion-cosegmentation",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-04-20T23:26:04Z",
+    "stargazers_count": 660,
+    "topics": [],
+    "updated_at": "2026-05-03T06:53:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aliaksandrsiarohin/face-makeup.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

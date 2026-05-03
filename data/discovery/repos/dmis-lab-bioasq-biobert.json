@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:43:38.599895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9165
+    },
+    {
+      "path": "requirements.txt",
+      "size": 297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v1.0",
+    "description": "Pre-trained Language Model for Biomedical Question Answering",
+    "fork": false,
+    "full_name": "dmis-lab/bioasq-biobert",
+    "html_url": "https://github.com/dmis-lab/bioasq-biobert",
+    "language": "Python",
+    "pushed_at": "2023-03-24T22:23:49Z",
+    "stargazers_count": 127,
+    "topics": [],
+    "updated_at": "2026-04-28T22:07:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

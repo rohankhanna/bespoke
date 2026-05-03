@@ -1,0 +1,12 @@
+{
+  "component": "gradle/actions/setup-gradle@48b5f213c81028ace310571dc5ec0fbbca0b2947",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nrwl/nx"
+    }
+  ]
+}

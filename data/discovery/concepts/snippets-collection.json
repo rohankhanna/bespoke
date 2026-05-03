@@ -19,6 +19,30 @@
       "source_repo": "molleweide/LuaSnip-snippets.nvim",
       "status": "candidate-context",
       "text": "This is a plugin that aims to provide a community driven library of [LuaSnip](https://github.com/L3MON4D3/LuaSnip) snipets and also make it easy to add LuaSnip snippets to neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bladeacer/obsi-snip-coll",
+      "status": "candidate-context",
+      "text": "a collection of CSS snippets for the note taking application Obsidian"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bladeacer/obsi-snip-coll",
+      "status": "candidate-context",
+      "text": "This repository is a collection of CSS snippets for the note taking application Obsidian."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+      "status": "candidate-context",
+      "text": "Welcome to the ObsidianMD CSS Snippets repository, a collection of CSS code snippets to enhance the user interface elements of ObsidianMD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+      "status": "candidate-context",
+      "text": "ObsidianMD CSS Snippets Collection: Enhance Your Note-Taking Experience"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "molleweide/LuaSnip-snippets.nvim",
       "status": "candidate",
       "text": "This is a plugin that aims to provide a community driven library of [LuaSnip](https://github.com/L3MON4D3/LuaSnip) snipets and also make it easy to add LuaSnip snippets to neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bladeacer/obsi-snip-coll",
+      "status": "candidate",
+      "text": "This repository is a collection of CSS snippets for the note taking application Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+      "status": "candidate",
+      "text": "ObsidianMD CSS Snippets Collection: Enhance Your Note-Taking Experience"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "molleweide/LuaSnip-snippets.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bladeacer/obsi-snip-coll"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

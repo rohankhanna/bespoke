@@ -409,6 +409,54 @@
       "source_repo": "CanCanCommunity/cancancan",
       "status": "candidate-context",
       "text": "<img src=\"./logo/cancancan.png\" width=\"200\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "status": "candidate-context",
+      "text": "A gem that calculates the exchange rate using published rates from currencylayer.com."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaminari/kaminari",
+      "status": "candidate-context",
+      "text": "\u26a1 A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Ruby webapps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaminari/kaminari",
+      "status": "candidate-context",
+      "text": "A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate-context",
+      "text": "Pagination library for Rails and other Ruby applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate-context",
+      "text": "will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, and Sequel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "status": "candidate-context",
+      "text": "A gem that calculates the exchange rate using published rates from openexchangerates.org."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)"
     }
   ],
   "candidate_glosses": [
@@ -615,6 +663,30 @@
       "source_repo": "CanCanCommunity/cancancan",
       "status": "candidate",
       "text": "<img src=\"./logo/cancancan.png\" width=\"200\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaminari/kaminari",
+      "status": "candidate",
+      "text": "A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate",
+      "text": "will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, and Sequel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)"
     }
   ],
   "candidate_related_terms": [
@@ -907,11 +979,47 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kaminari/kaminari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mislav/will_paginate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "paper-trail-gem/paper_trail"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull Request Build and Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Agents-for-net",
+      "status": "candidate-context",
+      "text": "This repository is for active development of the Microsoft 365 Agent SDK components for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Agents-for-net",
+      "status": "candidate-context",
+      "text": "Pull Request Build and Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Agents-for-net",
+      "status": "candidate",
+      "text": "Pull Request Build and Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33506,
+      "status": "candidate",
+      "text": "invoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32556,
+      "status": "candidate",
+      "text": "a posteriori"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31807,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31754,
+      "status": "candidate",
+      "text": "addititious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31658,
+      "status": "candidate",
+      "text": "pass"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Request Build and Validation",
+  "concept_id": "pull-request-build-and-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/Agents-for-net"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Build and Validation",
+      "sense_id": "pull-request-build-and-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

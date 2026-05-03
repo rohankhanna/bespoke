@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@v3",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -367,6 +367,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cxx-ci.yml",
       "source_repo": "robotology/icub-models"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conda-forge-ci.yml",
+      "source_repo": "robotology/ycm-cmake-modules"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "icppWorld/icpp_llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "Project-MONAI/MONAI"
     }
   ]
 }

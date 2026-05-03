@@ -1,0 +1,12 @@
+{
+  "component": "signalwire/actions-template/.github/workflows/cicd-docker-build-and-distribute.yml@main",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "freeswitch/sofia-sip"
+    }
+  ]
+}

@@ -214,6 +214,30 @@
       "source_repo": "PDFMathTranslate/PDFMathTranslate",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluent-vue/fluent-vue",
+      "status": "candidate-context",
+      "text": "Internationalization plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/fluent-vue",
+      "status": "candidate-context",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "JavaScript implementation of Project Fluent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
     }
   ],
   "candidate_glosses": [
@@ -318,6 +342,18 @@
       "source_repo": "PDFMathTranslate/PDFMathTranslate",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/fluent-vue",
+      "status": "candidate",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
     }
   ],
   "candidate_related_terms": [
@@ -505,11 +541,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent.js"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

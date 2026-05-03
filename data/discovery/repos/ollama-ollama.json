@@ -272,7 +272,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ollama/ollama",
-      "target": "cognizant-ai-lab/neuro-san-studio",
+      "target": "continuedev/continue",
       "target_type": "repository"
     },
     {
@@ -549,7 +549,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:54:48.954435+00:00",
+  "fetched_at": "2026-05-03T15:48:27.433755+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -590,7 +590,7 @@
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
     "pushed_at": "2026-05-03T03:46:36Z",
-    "stargazers_count": 170588,
+    "stargazers_count": 170606,
     "topics": [
       "deepseek",
       "gemma",
@@ -608,7 +608,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-05-03T03:54:07Z"
+    "updated_at": "2026-05-03T15:37:19Z"
   },
   "repo_links": [
     {
@@ -628,7 +628,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cognizant-ai-lab/neuro-san-studio",
+      "full_name": "continuedev/continue",
       "source_file": "README.md"
     }
   ],

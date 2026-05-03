@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A dotfile manager and templater written in rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dotter is a dotfile manager and templater."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dotter is a dotfile manager and templater."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020778,
+      "status": "candidate",
+      "text": "i-dotter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020777,
+      "status": "candidate",
+      "text": "dotlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020776,
+      "status": "candidate",
+      "text": "doodlebug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020774,
+      "status": "candidate",
+      "text": "doodle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020773,
+      "status": "candidate",
+      "text": "doodler"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dotter",
+      "sense_id": "dotter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dotter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dotter",
+  "observation_id": "7f9e1b8202e52321",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "dotter",
+  "source_context_snippet": "Dotter is a dotfile manager and templater.",
+  "source_file": null,
+  "source_repo": "SuperCuber/dotter",
+  "source_repo_description": "A dotfile manager and templater written in rust \ud83e\udd80"
+}

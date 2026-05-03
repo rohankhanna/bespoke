@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Go Source Scanners"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Go Source Scanners"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26076,
+      "status": "candidate",
+      "text": "ascend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26076,
+      "status": "candidate",
+      "text": "proceed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26012,
+      "status": "candidate",
+      "text": "retrace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22614,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22488,
+      "status": "candidate",
+      "text": "stop"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go Source Scanners",
+      "sense_id": "go-source-scanners#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "go-source-scanners",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "go-source-scanners",
+  "observation_id": "b8b4324f94c653ac",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Go Source Scanners",
+  "source_context_snippet": "Go Source Scanners",
+  "source_file": ".github/workflows/cve-scanner.yaml",
+  "source_repo": "ory/dockertest",
+  "source_repo_description": "Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work."
+}

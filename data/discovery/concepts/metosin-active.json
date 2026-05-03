@@ -19,6 +19,18 @@
       "source_repo": "metosin/malli",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/reitit",
+      "status": "candidate-context",
+      "text": "A fast data-driven routing library for Clojure/Script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/reitit",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/metosin/reitit/actions/workflows/testsuite.yml/badge.svg)](https://github.com/metosin/reitit/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "metosin/malli",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/metosin/malli/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/malli/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/reitit",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/metosin/reitit/actions/workflows/testsuite.yml/badge.svg)](https://github.com/metosin/reitit/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "metosin/malli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "metosin/reitit"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

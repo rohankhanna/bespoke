@@ -67,6 +67,42 @@
       "source_repo": "rapideditor/temaki",
       "status": "candidate-context",
       "text": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate-context",
+      "text": "Canonical common brand names, operators, transit, and flags for OpenStreetMap."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "(LMNet) Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data (RAL/IROS 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate-context",
+      "text": "OpenStreetMap editor for iPhone/iPad"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate-context",
+      "text": "Go Map!! is an iPhone/iPad editor for adding cartographic information to [OpenStreetMap][1]."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "rapideditor/temaki",
       "status": "candidate",
       "text": "[![npm version](https://badge.fury.io/js/%40rapideditor%2Ftemaki.svg)](https://badge.fury.io/js/%40rapideditor%2Ftemaki)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate",
+      "text": "Go Map!! is an iPhone/iPad editor for adding cartographic information to [OpenStreetMap][1]."
     }
   ],
   "candidate_related_terms": [
@@ -200,11 +254,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "osmlab/name-suggestion-index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bryceco/GoMap"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Discussions"
+    "Discussions",
+    "discussions"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "ant-design/ant-design",
       "status": "candidate-context",
       "text": "Discussions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/community",
+      "status": "candidate-context",
+      "text": "Virtual repository hosting Discussions and Questions & Answers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/community",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "ant-design/ant-design",
       "status": "candidate",
       "text": "Discussions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/community",
+      "status": "candidate",
+      "text": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-05-01T00:40:17.248794+00:00",
       "source_file": ".github/workflows/discussion-open-check.yml",
       "source_repo": "ant-design/ant-design"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/community"
     }
   ],
   "first_seen_at": "2026-05-01T00:40:17.248794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T00:40:17.248794+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

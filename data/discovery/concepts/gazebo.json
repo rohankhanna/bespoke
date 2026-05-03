@@ -127,6 +127,66 @@
       "source_repo": "robotology/icub-models",
       "status": "candidate-context",
       "text": "Repository containing URDF and SDF models of iCub humanoid robots."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate-context",
+      "text": "Builds on top of Qt to provide widgets which are useful when developing robotics applications, such as a 3D view, plots, dashboard, etc, and can be used together in a convenient unified interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate-context",
+      "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "C++ library designed to provide an abstraction for different rendering engines. It offers unified APIs for creating 3D graphics applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate-context",
+      "text": "Provides numerous sensor models designed to generate realistic data from simulation environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate-context",
+      "text": "**Maintainer:** ichen AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-transport",
+      "status": "candidate-context",
+      "text": "Transport library for component communication based on publication/subscription and service calls."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-transport",
+      "status": "candidate-context",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate-context",
+      "text": "Resolve a package:// or model:// URI to an absolute filename in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate-context",
+      "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +249,36 @@
       "source_repo": "robotology/icub-models",
       "status": "candidate",
       "text": "Repository containing URDF and SDF models of iCub humanoid robots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate",
+      "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate",
+      "text": "**Maintainer:** ichen AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-transport",
+      "status": "candidate",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate",
+      "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
     }
   ],
   "candidate_related_terms": [
@@ -312,11 +402,47 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "robotology/icub-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-rendering"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-transport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/resolve-robotics-uri-py"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

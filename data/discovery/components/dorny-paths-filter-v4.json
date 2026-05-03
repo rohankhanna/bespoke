@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -122,6 +122,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "cometbft/cometbft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "ory/k8s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gha-lint.yaml",
+      "source_repo": "ory/k8s"
     }
   ]
 }

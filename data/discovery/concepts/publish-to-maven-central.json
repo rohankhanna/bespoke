@@ -43,6 +43,18 @@
       "source_repo": "appwrite/sdk-for-android",
       "status": "candidate-context",
       "text": "Publish to Maven Central"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testng-team/testng",
+      "status": "candidate-context",
+      "text": "TestNG testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng",
+      "status": "candidate-context",
+      "text": "Publish to Maven Central"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "appwrite/sdk-for-android",
+      "status": "candidate",
+      "text": "Publish to Maven Central"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng",
       "status": "candidate",
       "text": "Publish to Maven Central"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "appwrite/sdk-for-android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "source_repo": "testng-team/testng"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

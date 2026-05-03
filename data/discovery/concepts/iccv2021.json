@@ -115,6 +115,30 @@
       "source_repo": "haofeixu/flow1d",
       "status": "candidate-context",
       "text": "Official PyTorch implementation of paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huangyangyu/ADNet",
+      "status": "candidate-context",
+      "text": "ADNet: Leveraging Error-Bias Towards Normal Direction in Face Alignment [Official, ICCV 2021]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huangyangyu/ADNet",
+      "status": "candidate-context",
+      "text": "Paper link: [ICCV 2021](https://arxiv.org/pdf/2109.05721.pdf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "Official code release for ICCV 2021 paper SNARF: Differentiable Forward Skinning for Animating Non-rigid Neural Implicit Shapes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "haofeixu/flow1d",
       "status": "candidate",
       "text": "Official PyTorch implementation of paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huangyangyu/ADNet",
+      "status": "candidate",
+      "text": "Paper link: [ICCV 2021](https://arxiv.org/pdf/2109.05721.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -316,11 +352,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "haofeixu/flow1d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "huangyangyu/ADNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

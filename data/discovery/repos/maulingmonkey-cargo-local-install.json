@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "target": "cargo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "target": "install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:40:50.731905+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 883
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 467
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wraps `cargo install` for better local, non-conflicting installation",
+    "fork": false,
+    "full_name": "MaulingMonkey/cargo-local-install",
+    "html_url": "https://github.com/MaulingMonkey/cargo-local-install",
+    "language": "Rust",
+    "pushed_at": "2024-07-31T07:02:57Z",
+    "stargazers_count": 13,
+    "topics": [
+      "cargo",
+      "install",
+      "rust"
+    ],
+    "updated_at": "2026-04-14T17:13:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "# https://doc.rust-lang.org/cargo/reference/manifest.html [package] name = \"cargo-local-install\" version = \"0.0.0-git\" authors = [\"MaulingMonkey <git@maulingmonkey.com>\"] repository = \"https://github.com/MaulingMonkey/cargo-local-install.git\" documentation = \"https://docs.rs/car\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo"
+    },
+    {
+      "context_snippet": "# https://doc.rust-lang.org/cargo/reference/manifest.html [package] name = \"cargo-local-install\" version = \"0.0.0-git\" authors = [\"MaulingMonkey <git@maulingmonkey.com>\"] repository = \"https://github.com/MaulingMonkey/cargo-local-install.git\" documentation = \"https://docs.rs/car\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "install"
+    },
+    {
+      "context_snippet": "# https://doc.rust-lang.org/cargo/reference/manifest.html [package] name = \"cargo-local-install\" version = \"0.0.0-git\" authors = [\"MaulingMonkey <git@maulingmonkey.com>\"] repository = \"https://github.com/MaulingMonkey/cargo-local-install.git\" documentation = \"https://docs.rs/car\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

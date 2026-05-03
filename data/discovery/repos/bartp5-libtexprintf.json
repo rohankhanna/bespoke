@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bartp5/libtexprintf",
+      "target": "larseggert/asciitex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bartp5/libtexprintf",
+      "target": "juliastrings/libtexprintf.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bartp5/libtexprintf",
+      "target": "cabo/kramdown-rfc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bartp5/libtexprintf",
+      "target": "cpitclaudel/monospacifier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "bartp5/libtexprintf",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "bartp5/libtexprintf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "bartp5/libtexprintf",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "bartp5/libtexprintf",
+      "target": "mymindstorm/setup-emsdk@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "source_repo": "bartp5/libtexprintf",
+      "target": "Publish npm (Trusted Publishing)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bartp5/libtexprintf",
+      "target": "ascii-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bartp5/libtexprintf",
+      "target": "ascii-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bartp5/libtexprintf",
+      "target": "unicode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:42:47.116114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7355
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/publish-npm.yml",
+      "size": 2381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Library providing printf-style formatted output routines with tex-like syntax support. ",
+    "fork": false,
+    "full_name": "bartp5/libtexprintf",
+    "html_url": "https://github.com/bartp5/libtexprintf",
+    "language": "C",
+    "pushed_at": "2026-03-24T22:35:22Z",
+    "stargazers_count": 71,
+    "topics": [
+      "ascii-art",
+      "ascii-graphics",
+      "tex",
+      "unicode"
+    ],
+    "updated_at": "2026-04-02T07:38:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cabo/kramdown-rfc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cpitclaudel/monospacifier",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliastrings/libtexprintf.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larseggert/asciitex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish npm (Trusted Publishing)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-npm.yml",
+      "term": "Publish npm (Trusted Publishing)"
+    },
+    {
+      "context_snippet": "libtexprintf & utftex",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii-art"
+    },
+    {
+      "context_snippet": "libtexprintf & utftex",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascii-graphics"
+    },
+    {
+      "context_snippet": "libtexprintf & utftex",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    }
+  ]
+}

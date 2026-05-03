@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v8",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1202,6 +1202,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/generate-conda-packages.yaml",
       "source_repo": "robotology/robotology-superbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contribution-agreement-label-commands.yml",
+      "source_repo": "cncf/sandbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contribution-agreement-signed-onboarding.yml",
+      "source_repo": "cncf/sandbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/onboarding-monitor.yml",
+      "source_repo": "cncf/sandbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vote-monitor.yml",
+      "source_repo": "cncf/sandbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-failed-auto-prs.yml",
+      "source_repo": "alltheplaces/alltheplaces"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ajevans99/swift-json-schema"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-fix-failed-tests.yml",
+      "source_repo": "continuedev/continue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continue-agents.yml",
+      "source_repo": "continuedev/continue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-preview.yml",
+      "source_repo": "JuliaLang/www.julialang.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/visual-tests-comment.yml",
+      "source_repo": "JuliaLang/www.julialang.org"
     }
   ]
 }

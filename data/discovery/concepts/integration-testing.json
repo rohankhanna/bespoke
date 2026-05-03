@@ -83,6 +83,30 @@
       "source_repo": "jmockit/jmockit1",
       "status": "candidate-context",
       "text": "Codebase for JMockit 1.x releases - [Documentation](http://jmockit.github.io) - [Release notes](http://jmockit.github.io/changes.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/dockertest",
+      "status": "candidate-context",
+      "text": "Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/dockertest",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"./docs/images/banner_dockertest.png\" alt=\"ORY Dockertest\"></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate-context",
+      "text": "An integration test framework for React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -121,6 +145,18 @@
       "source_repo": "jmockit/jmockit1",
       "status": "candidate",
       "text": "Codebase for JMockit 1.x releases - [Documentation](http://jmockit.github.io) - [Release notes](http://jmockit.github.io/changes.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/dockertest",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"./docs/images/banner_dockertest.png\" alt=\"ORY Dockertest\"></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -200,11 +236,23 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "jmockit/jmockit1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ory/dockertest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pixielabs/cavy"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

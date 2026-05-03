@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "trec-car"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TREMA-UNH/trec-car-tools",
+      "status": "candidate-context",
+      "text": "Tools for working with the TREC CAR dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TREMA-UNH/trec-car-tools",
+      "status": "candidate-context",
+      "text": "Tools for working with the TREC CAR dataset."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TREMA-UNH/trec-car-tools",
+      "status": "candidate",
+      "text": "Tools for working with the TREC CAR dataset."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "trec-car",
+  "concept_id": "trec-car",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "TREMA-UNH/trec-car-tools"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trec-car",
+      "sense_id": "trec-car#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

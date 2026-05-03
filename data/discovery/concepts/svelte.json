@@ -355,6 +355,48 @@
       "source_repo": "sveltejs/svelte-preprocess",
       "status": "candidate-context",
       "text": "> A [Svelte](https://svelte.dev) preprocessor with sensible defaults and support for: PostCSS, SCSS, Less, Stylus, CoffeeScript, TypeScript, Pug and much more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylanblokhuis/svelte-feather-icons",
+      "status": "candidate-context",
+      "text": "```bash"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josdejong/svelte-jsoneditor",
+      "status": "candidate-context",
+      "text": "A web-based tool to view, edit, format, repair, query, transform, and validate JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/svelte-jsoneditor",
+      "status": "candidate-context",
+      "text": "A web-based tool to view, edit, format, transform, and validate JSON."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-components-svelte",
+      "status": "candidate-context",
+      "text": "Svelte implementation of the Carbon Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-svelte",
+      "status": "candidate-context",
+      "text": "[![NPM][npm]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/vite-plugin-svelte",
+      "status": "candidate-context",
+      "text": "Svelte plugin for https://vite.dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/vite-plugin-svelte",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/@sveltejs/vite-plugin-svelte)](https://www.npmjs.com/package/@sveltejs/vite-plugin-svelte)"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +573,30 @@
       "source_repo": "sveltejs/svelte-preprocess",
       "status": "candidate",
       "text": "> A [Svelte](https://svelte.dev) preprocessor with sensible defaults and support for: PostCSS, SCSS, Less, Stylus, CoffeeScript, TypeScript, Pug and much more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dylanblokhuis/svelte-feather-icons",
+      "status": "candidate",
+      "text": "```bash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/svelte-jsoneditor",
+      "status": "candidate",
+      "text": "A web-based tool to view, edit, format, transform, and validate JSON."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-svelte",
+      "status": "candidate",
+      "text": "[![NPM][npm]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/vite-plugin-svelte",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/@sveltejs/vite-plugin-svelte)](https://www.npmjs.com/package/@sveltejs/vite-plugin-svelte)"
     }
   ],
   "candidate_related_terms": [
@@ -802,11 +868,47 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "sveltejs/svelte-preprocess"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "dylanblokhuis/svelte-feather-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "josdejong/svelte-jsoneditor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-components-svelte"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "sveltejs/vite-plugin-svelte"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

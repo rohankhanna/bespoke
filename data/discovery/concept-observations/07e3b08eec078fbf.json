@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross-platform terminal screen clearing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crate release version](https://badgen.net/crates/v/clearscreen)](https://crates.io/crates/clearscreen)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crate release version](https://badgen.net/crates/v/clearscreen)](https://crates.io/crates/clearscreen)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975112,
+      "status": "candidate",
+      "text": "screen door"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969884,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961401,
+      "status": "candidate",
+      "text": "screen out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958507,
+      "status": "candidate",
+      "text": "sieve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39956550,
+      "status": "candidate",
+      "text": "shield"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "screen",
+      "sense_id": "screen#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26078,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16059,
+      "status": "candidate",
+      "text": "shield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16046,
+      "status": "candidate",
+      "text": "sieve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13073,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12034,
+      "status": "candidate",
+      "text": "concealment"
+    }
+  ],
+  "concept_id": "screen",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "screen",
+  "observation_id": "07e3b08eec078fbf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "screen",
+  "source_context_snippet": "[![Crate release version](https://badgen.net/crates/v/clearscreen)](https://crates.io/crates/clearscreen)",
+  "source_file": null,
+  "source_repo": "watchexec/clearscreen",
+  "source_repo_description": "Cross-platform terminal screen clearing library"
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/BackgroundMattingV2",
+      "target": "peterl1n/matting-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/BackgroundMattingV2",
+      "target": "peterl1n/backgroundmattingv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/BackgroundMattingV2",
+      "target": "senguptaumd/background-matting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/BackgroundMattingV2",
+      "target": "andreyryabtsev/bgmv2-webcam-plugin-linux",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:44:25.090785+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7362
+    },
+    {
+      "path": "requirements.txt",
+      "size": 120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Real-Time High-Resolution Background Matting",
+    "fork": true,
+    "full_name": "ShenhanQian/BackgroundMattingV2",
+    "html_url": "https://github.com/ShenhanQian/BackgroundMattingV2",
+    "language": "Python",
+    "pushed_at": "2024-07-05T19:23:26Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-07-05T19:23:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andreyryabtsev/bgmv2-webcam-plugin-linux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peterl1n/backgroundmattingv2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peterl1n/matting-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "senguptaumd/background-matting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

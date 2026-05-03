@@ -616,6 +616,18 @@
       "source_repo": "recap-utr/arg-services",
       "status": "candidate-context",
       "text": "This project contains Protobuf definitions for building complex argumentation machines."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate-context",
+      "text": "The Open Lighting Architecture - The Travel Adaptor for the Lighting Industry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate-context",
+      "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
     }
   ],
   "candidate_glosses": [
@@ -912,6 +924,12 @@
       "source_repo": "recap-utr/arg-services",
       "status": "candidate",
       "text": "This project contains Protobuf definitions for building complex argumentation machines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate",
+      "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
     }
   ],
   "candidate_related_terms": [],
@@ -1483,11 +1501,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/protobuf.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "elixir-grpc/grpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "elixir-protobuf/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "OpenLightingProject/ola"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

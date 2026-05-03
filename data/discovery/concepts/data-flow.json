@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "data-flow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moby/datakit",
+      "status": "candidate-context",
+      "text": "Connect processes into powerful data pipelines with a simple git-like filesystem interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/datakit",
+      "status": "candidate-context",
+      "text": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/datakit",
+      "status": "candidate",
+      "text": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "data-flow",
+  "concept_id": "data-flow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "moby/datakit"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-flow",
+      "sense_id": "data-flow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

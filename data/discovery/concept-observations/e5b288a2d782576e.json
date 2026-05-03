@@ -48,7 +48,7 @@
   "normalized_form": "loongarch64-ci",
   "observation_id": "e5b288a2d782576e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "LoongArch64-CI",
   "source_context_snippet": "LoongArch64-CI",
   "source_file": ".github/workflows/loongarch64.yml",

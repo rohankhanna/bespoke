@@ -1,0 +1,12 @@
+{
+  "component": "Yikun/hub-mirror-action@v0.13",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-gitee.yml",
+      "source_repo": "AttoJS/vue-request"
+    }
+  ]
+}

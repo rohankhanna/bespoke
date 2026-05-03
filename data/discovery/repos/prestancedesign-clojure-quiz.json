@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk-animation",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "figlet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gradient-string",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "inquirer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nanospinner",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nbb",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "bokub/gradient-string",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "bokub/chalk-animation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "patorjk/figlet.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "fireship-io/javascript-millionaire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "chalk-animation",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "figlet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "gradient-string",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "inquirer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "nanospinner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "nbb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "prestancedesign/clojure-quiz",
+      "target": "clojurescript",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:47:50.283318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 828
+    },
+    {
+      "path": "package.json",
+      "size": 566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Advanced TUI example with nbb",
+    "fork": false,
+    "full_name": "prestancedesign/clojure-quiz",
+    "html_url": "https://github.com/prestancedesign/clojure-quiz",
+    "language": "Clojure",
+    "pushed_at": "2022-04-01T09:16:40Z",
+    "stargazers_count": 20,
+    "topics": [
+      "cli",
+      "clojurescript",
+      "nbb",
+      "npm"
+    ],
+    "updated_at": "2026-04-07T15:07:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bokub/chalk-animation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bokub/gradient-string",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fireship-io/javascript-millionaire",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "patorjk/figlet.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A super fancy CLI tool write in ClojureScript using [nbb](https://github.com/babashka/nbb) (Ad-hoc CLJS scripting on Node.js).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    }
+  ]
+}

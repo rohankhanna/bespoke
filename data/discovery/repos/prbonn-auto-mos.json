@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRBonn/auto-mos",
+      "target": "jbehley/suma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRBonn/auto-mos",
+      "target": "limhyungtae/erasor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRBonn/auto-mos",
+      "target": "prbonn/lidar-mos",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:47:05.809970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4312
+    },
+    {
+      "path": "requirements.txt",
+      "size": 97
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatic Labeling to Generate Training Data for Online LiDAR-based Moving Object Segmentation",
+    "fork": false,
+    "full_name": "PRBonn/auto-mos",
+    "html_url": "https://github.com/PRBonn/auto-mos",
+    "language": "Python",
+    "pushed_at": "2022-08-13T19:06:46Z",
+    "stargazers_count": 104,
+    "topics": [],
+    "updated_at": "2026-01-07T03:55:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jbehley/suma",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "limhyungtae/erasor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prbonn/lidar-mos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

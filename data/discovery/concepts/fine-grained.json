@@ -19,6 +19,18 @@
       "source_repo": "FunAudioLLM/CosyVoice",
       "status": "candidate-context",
       "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "solidjs/solid",
+      "status": "candidate-context",
+      "text": "A declarative, efficient, and flexible JavaScript library for building user interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "FunAudioLLM/CosyVoice",
       "status": "candidate",
       "text": "![SVG Banners](https://svg-banners.vercel.app/api?type=origin&text1=CosyVoice\ud83e\udd20&text2=Text-to-Speech%20\ud83d\udc96%20Large%20Language%20Model&width=800&height=210)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "solidjs/solid",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "FunAudioLLM/CosyVoice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "solidjs/solid"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1072,6 +1072,54 @@
       "source_repo": "vuejs/vitepress",
       "status": "candidate-context",
       "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
+      "status": "candidate-context",
+      "text": "Flutter/Dart <-> Rust binding generator, feature-rich, but seamless and simple."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate-context",
+      "text": "LaunchDarkly Server-Side SDK for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate-context",
+      "text": ":microscope: Assemble large genomes using short reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate-context",
+      "text": "Vue implementation of the Carbon Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
     }
   ],
   "candidate_glosses": [
@@ -1602,6 +1650,30 @@
       "source_repo": "vuejs/vitepress",
       "status": "candidate",
       "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
     }
   ],
   "candidate_related_terms": [
@@ -2557,11 +2629,77 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "fzyzcjy/flutter_rust_bridge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "launchdarkly/rust-server-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "BirolLab/abyss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "carbon-design-system/carbon-components-vue"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

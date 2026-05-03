@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T13:42:31.072924+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim plugin that defines a new text object representing lines of code at the same indent level. Useful for python/vim scripts, etc.",
+    "fork": false,
+    "full_name": "michaeljsmith/vim-indent-object",
+    "html_url": "https://github.com/michaeljsmith/vim-indent-object",
+    "language": "Vim Script",
+    "pushed_at": "2024-01-21T21:27:37Z",
+    "stargazers_count": 788,
+    "topics": [],
+    "updated_at": "2026-03-26T15:50:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Lyken17/pytorch-OpCounter",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Lyken17/pytorch-OpCounter",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Lyken17/pytorch-OpCounter",
+      "target": "Publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:39.838961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2341
+    },
+    {
+      "path": "requirements.txt",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/check_timing.sh",
+      "size": 265
+    },
+    {
+      "path": ".github/workflows/date_extraction.py",
+      "size": 638
+    },
+    {
+      "path": ".github/workflows/pythonpackage.yml",
+      "size": 1111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Count the MACs / FLOPs of your PyTorch model.",
+    "fork": false,
+    "full_name": "Lyken17/pytorch-OpCounter",
+    "html_url": "https://github.com/Lyken17/pytorch-OpCounter",
+    "language": "Python",
+    "pushed_at": "2024-07-08T06:44:15Z",
+    "stargazers_count": 5086,
+    "topics": [],
+    "updated_at": "2026-05-01T08:42:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "term": "Publish"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/open-source",
+      "target": "corgi-emacs/corgi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/open-source",
+      "target": "lambdaisland/classpath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/open-source",
+      "target": "lambdaisland/ansi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/open-source",
+      "target": "lambdaisland/chui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project-board.yml",
+      "source_repo": "lambdaisland/open-source",
+      "target": "actions/add-to-project@v0.4.0",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "lambdaisland/open-source"
+}

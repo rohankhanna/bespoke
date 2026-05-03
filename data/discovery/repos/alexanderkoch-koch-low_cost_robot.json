@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:37:37.536200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6237
+    },
+    {
+      "path": "requirements.txt",
+      "size": 6
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "AlexanderKoch-Koch/low_cost_robot",
+    "html_url": "https://github.com/AlexanderKoch-Koch/low_cost_robot",
+    "language": "Python",
+    "pushed_at": "2024-09-21T17:21:21Z",
+    "stargazers_count": 3395,
+    "topics": [],
+    "updated_at": "2026-04-28T15:51:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

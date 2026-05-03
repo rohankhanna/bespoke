@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:41:25.733041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 210
+    },
+    {
+      "path": "package.json",
+      "size": 699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Iconify plugin for Tailwind 4",
+    "fork": false,
+    "full_name": "iconify/iconify-tailwind",
+    "html_url": "https://github.com/iconify/iconify-tailwind",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-02T05:59:54Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-03-05T06:50:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

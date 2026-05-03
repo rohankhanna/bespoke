@@ -373,6 +373,54 @@
       "source_repo": "openxrlab/xrtailor",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Overv/VulkanTutorial",
+      "status": "candidate-context",
+      "text": "Tutorial for the Vulkan graphics and compute API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Overv/VulkanTutorial",
+      "status": "candidate-context",
+      "text": "Vulkan tutorial"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "Official code release for ICCV 2021 paper SNARF: Differentiable Forward Skinning for Animating Non-rigid Neural Implicit Shapes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate-context",
+      "text": "Project page of paper \"Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate-context",
+      "text": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karimnaaji/voxelizer",
+      "status": "candidate-context",
+      "text": "Header only mesh voxelizer in c99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karimnaaji/voxelizer",
+      "status": "candidate-context",
+      "text": "_Header only mesh voxelizer in ANSI C_"
     }
   ],
   "candidate_glosses": [
@@ -561,6 +609,30 @@
       "source_repo": "openxrlab/xrtailor",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Overv/VulkanTutorial",
+      "status": "candidate",
+      "text": "Vulkan tutorial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate",
+      "text": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karimnaaji/voxelizer",
+      "status": "candidate",
+      "text": "_Header only mesh voxelizer in ANSI C_"
     }
   ],
   "candidate_related_terms": [],
@@ -802,11 +874,47 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "openxrlab/xrtailor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/gl-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Overv/VulkanTutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ShichenLiu/SoftRas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "karimnaaji/voxelizer"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

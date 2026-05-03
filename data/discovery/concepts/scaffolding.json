@@ -19,6 +19,18 @@
       "source_repo": "yeoman/yo",
       "status": "candidate-context",
       "text": "yo \u2014 CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate-context",
+      "text": "Add redux, emotion-js and other useful libraries like react-router in top of create-react-app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "yeoman/yo",
       "status": "candidate",
       "text": "yo \u2014 CLI tool for running Yeoman generators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jonidelv/generator-create-redux-app"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

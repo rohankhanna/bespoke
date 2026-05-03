@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "duplexer3",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hirestime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pretty-ms",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "readable-stream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Planeshifter/tap-min",
+      "target": "derhuerst/location",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "Planeshifter/tap-min",
+      "target": "derhuerst/tap-min",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Planeshifter/tap-min",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Planeshifter/tap-min",
+      "target": "duplexer3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Planeshifter/tap-min",
+      "target": "hirestime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Planeshifter/tap-min",
+      "target": "pretty-ms",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Planeshifter/tap-min",
+      "target": "readable-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Planeshifter/tap-min",
+      "target": "tap-parser",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:34:03.902510+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 873
+    },
+    {
+      "path": "package.json",
+      "size": 1106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimal TAP output formatter.",
+    "fork": true,
+    "full_name": "Planeshifter/tap-min",
+    "html_url": "https://github.com/Planeshifter/tap-min",
+    "language": "JavaScript",
+    "pushed_at": "2022-12-21T22:15:36Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-03-04T06:33:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derhuerst/location",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derhuerst/tap-min",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

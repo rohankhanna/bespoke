@@ -127,6 +127,30 @@
       "source_repo": "llnl/blt",
       "status": "candidate-context",
       "text": "[![Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "YCM (YCM CMake modules) is a collection of various useful CMake modules. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "ycm-cmake-modules"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrwl/nx",
+      "status": "candidate-context",
+      "text": "The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrwl/nx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "llnl/blt",
       "status": "candidate",
       "text": "[![Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate",
+      "text": "ycm-cmake-modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrwl/nx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -322,11 +358,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nrwl/nx"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

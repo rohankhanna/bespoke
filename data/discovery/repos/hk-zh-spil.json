@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hk-zh/spil",
+      "target": "hongkuan-zhou/spil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hk-zh/spil",
+      "target": "lukashermann/hulc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hk-zh/spil",
+      "target": "ukplab/sentence-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hk-zh/spil",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hk-zh/spil",
+      "target": "language-conditioned-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:36:11.709649+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6420
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 287
+    },
+    {
+      "path": "requirements.txt",
+      "size": 466
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is our SPIL model",
+    "fork": false,
+    "full_name": "hk-zh/spil",
+    "html_url": "https://github.com/hk-zh/spil",
+    "language": "Python",
+    "pushed_at": "2024-09-23T08:23:07Z",
+    "stargazers_count": 11,
+    "topics": [
+      "imitation-learning",
+      "language-conditioned-learning"
+    ],
+    "updated_at": "2024-11-14T03:25:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hongkuan-zhou/spil",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukashermann/hulc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ukplab/sentence-transformers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-conditioned-learning"
+    }
+  ]
+}

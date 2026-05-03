@@ -148,6 +148,18 @@
       "source_repo": "supabase/cli",
       "status": "candidate-context",
       "text": "Install"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "status": "candidate-context",
+      "text": "Wraps `cargo install` for better local, non-conflicting installation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "status": "candidate-context",
+      "text": "# https://doc.rust-lang.org/cargo/reference/manifest.html [package] name = \"cargo-local-install\" version = \"0.0.0-git\" authors = [\"MaulingMonkey <git@maulingmonkey.com>\"] repository = \"https://github.com/MaulingMonkey/cargo-local-install.git\" documentation = \"https://docs.rs/car\u2026"
     }
   ],
   "candidate_glosses": [
@@ -222,6 +234,12 @@
       "source_repo": "supabase/cli",
       "status": "candidate",
       "text": "Install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "status": "candidate",
+      "text": "# https://doc.rust-lang.org/cargo/reference/manifest.html [package] name = \"cargo-local-install\" version = \"0.0.0-git\" authors = [\"MaulingMonkey <git@maulingmonkey.com>\"] repository = \"https://github.com/MaulingMonkey/cargo-local-install.git\" documentation = \"https://docs.rs/car\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -444,11 +462,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/install.yml",
       "source_repo": "supabase/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MaulingMonkey/cargo-local-install"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

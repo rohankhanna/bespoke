@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build & Push Proto Builder Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build & Push Proto Builder Image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26256,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26184,
+      "status": "candidate",
+      "text": "forge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25955,
+      "status": "candidate",
+      "text": "wood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25933,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22726,
+      "status": "candidate",
+      "text": "ovule"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Push Proto Builder Image",
+      "sense_id": "build-push-proto-builder-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-push-proto-builder-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-push-proto-builder-image",
+  "observation_id": "63bd2bfb62853edc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Build & Push Proto Builder Image",
+  "source_context_snippet": "Build & Push Proto Builder Image",
+  "source_file": ".github/workflows/proto-dockerfile.yml",
+  "source_repo": "tendermint/spec",
+  "source_repo_description": null
+}

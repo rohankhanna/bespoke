@@ -990,7 +990,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T12:38:58.588719+00:00",
+  "fetched_at": "2026-05-03T13:41:12.882516+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1034,8 +1034,8 @@
     "full_name": "CesiumGS/cesium",
     "html_url": "https://github.com/CesiumGS/cesium",
     "language": "JavaScript",
-    "pushed_at": "2026-05-01T11:42:37Z",
-    "stargazers_count": 15221,
+    "pushed_at": "2026-05-02T16:01:41Z",
+    "stargazers_count": 15228,
     "topics": [
       "3d",
       "3d-globe",
@@ -1047,7 +1047,7 @@
       "gltf",
       "webgl"
     ],
-    "updated_at": "2026-05-01T07:03:01Z"
+    "updated_at": "2026-05-03T13:03:53Z"
   },
   "repo_links": [],
   "terms": [

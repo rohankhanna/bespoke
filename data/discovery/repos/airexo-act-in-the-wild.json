@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AirExo/act-in-the-wild",
+      "target": "tonyzhaozh/act",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:00.570411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Action Chunking Transformers with In-the-Wild Learning Framework",
+    "fork": false,
+    "full_name": "AirExo/act-in-the-wild",
+    "html_url": "https://github.com/AirExo/act-in-the-wild",
+    "language": "Python",
+    "pushed_at": "2023-09-28T02:35:51Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2025-06-12T09:21:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tonyzhaozh/act",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

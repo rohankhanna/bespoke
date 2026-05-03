@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "platform",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stacktrace-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lambdaisland/open-source/.github/workflows/add-to-project-board.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_project_board.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/kaocha-cljs2",
+      "target": "lambdaisland/open-source",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/kaocha-cljs2",
+      "target": "lambdaisland/chui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/kaocha-cljs2",
+      "target": "lambdaisland/funnel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/kaocha-cljs2",
+      "target": "plexus/cljs-test-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lambdaisland/kaocha-cljs2",
+      "target": "platform",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lambdaisland/kaocha-cljs2",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lambdaisland/kaocha-cljs2",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lambdaisland/kaocha-cljs2",
+      "target": "stacktrace-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_to_project_board.yml",
+      "source_repo": "lambdaisland/kaocha-cljs2",
+      "target": "lambdaisland/open-source/.github/workflows/add-to-project-board.yml@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:48:35.157066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9331
+    },
+    {
+      "path": "package.json",
+      "size": 180
+    },
+    {
+      "path": ".github/workflows/add_to_project_board.yml",
+      "size": 196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run ClojureScript tests from Kaocha (major rewrite)",
+    "fork": false,
+    "full_name": "lambdaisland/kaocha-cljs2",
+    "html_url": "https://github.com/lambdaisland/kaocha-cljs2",
+    "language": "Clojure",
+    "pushed_at": "2023-08-24T20:27:31Z",
+    "stargazers_count": 32,
+    "topics": [],
+    "updated_at": "2026-03-08T04:36:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/chui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/funnel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/open-source",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plexus/cljs-test-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

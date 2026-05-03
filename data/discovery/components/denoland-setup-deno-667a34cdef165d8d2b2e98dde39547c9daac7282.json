@@ -1,7 +1,7 @@
 {
   "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

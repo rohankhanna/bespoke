@@ -1,0 +1,371 @@
+{
+  "components": [
+    {
+      "component": "concurrently",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "release-plan",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "wyvox/action-setup-pnpm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "wyvox/action-setup-pnpm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "wyvox/action-setup-pnpm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "wyvox/action-setup-pnpm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "wyvox/action-setup-pnpm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "wyvox/action-setup-pnpm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "wyvox/action-setup-pnpm@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "concurrently",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "release-plan",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "wyvox/action-setup-pnpm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "Release Plan Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "Publish Stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "ember",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "ember-addon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "emberjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "glimmer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "target": "tracking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:45:19.403660+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1920
+    },
+    {
+      "path": "package.json",
+      "size": 852
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3040
+    },
+    {
+      "path": ".github/workflows/plan-release.yml",
+      "size": 3253
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deep auto-tracking for when you just don't care, and want things to work (at the cost of performance in some situtations)",
+    "fork": false,
+    "full_name": "NullVoxPopuli/ember-deep-tracked",
+    "html_url": "https://github.com/NullVoxPopuli/ember-deep-tracked",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-27T23:29:37Z",
+    "stargazers_count": 31,
+    "topics": [
+      "ember",
+      "ember-addon",
+      "emberjs",
+      "glimmer",
+      "hacktoberfest",
+      "tracking"
+    ],
+    "updated_at": "2026-02-07T20:30:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release Plan Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plan-release.yml",
+      "term": "Release Plan Review"
+    },
+    {
+      "context_snippet": "Publish Stable",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Stable"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ember"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ember-addon"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emberjs"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glimmer"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracking"
+    }
+  ]
+}

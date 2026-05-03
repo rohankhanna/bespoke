@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aliutkus/torchsearchsorted",
+      "target": "chrischoy/pytorch-custom-cuda-tutorial",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:37:46.375502+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4528
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch Custom CUDA kernel for searchsorted",
+    "fork": false,
+    "full_name": "aliutkus/torchsearchsorted",
+    "html_url": "https://github.com/aliutkus/torchsearchsorted",
+    "language": "Python",
+    "pushed_at": "2023-10-25T16:25:59Z",
+    "stargazers_count": 136,
+    "topics": [],
+    "updated_at": "2026-04-17T20:17:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrischoy/pytorch-custom-cuda-tutorial",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

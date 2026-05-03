@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucastabelini/LaneATT",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucastabelini/LaneATT",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucastabelini/LaneATT",
+      "target": "lane-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucastabelini/LaneATT",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:54.466820+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9296
+    },
+    {
+      "path": "requirements.txt",
+      "size": 246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for the paper entitled \"Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection\" (CVPR 2021)",
+    "fork": false,
+    "full_name": "lucastabelini/LaneATT",
+    "html_url": "https://github.com/lucastabelini/LaneATT",
+    "language": "Python",
+    "pushed_at": "2022-10-09T18:24:04Z",
+    "stargazers_count": 693,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "lane-detection",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-24T09:13:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lane-detection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

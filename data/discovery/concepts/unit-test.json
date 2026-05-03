@@ -285,6 +285,30 @@
       "source_repo": "JuliaMath/FixedPointNumbers.jl",
       "status": "candidate-context",
       "text": "Unit test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/AxisArrays.jl",
+      "status": "candidate-context",
+      "text": "Performant arrays where each dimension can have a named axis with values"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/AxisArrays.jl",
+      "status": "candidate-context",
+      "text": "Unit test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaImages/Images.jl",
+      "status": "candidate-context",
+      "text": "An image library for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/Images.jl",
+      "status": "candidate-context",
+      "text": "Unit test"
     }
   ],
   "candidate_glosses": [
@@ -435,6 +459,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaMath/FixedPointNumbers.jl",
+      "status": "candidate",
+      "text": "Unit test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/AxisArrays.jl",
+      "status": "candidate",
+      "text": "Unit test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/Images.jl",
       "status": "candidate",
       "text": "Unit test"
     }
@@ -822,11 +858,41 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/UnitTests.yml",
       "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaArrays/AxisArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "cloudfoundry/credhub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/unit_test.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/UnitTest.yml",
+      "source_repo": "JuliaImages/Images.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

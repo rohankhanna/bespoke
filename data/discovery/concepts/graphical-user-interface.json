@@ -19,6 +19,18 @@
       "source_repo": "showlab/Awesome-GUI-Agent",
       "status": "candidate-context",
       "text": "A curated list of papers, projects, and resources for multi-modal Graphical User Interface (GUI) agents."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate-context",
+      "text": "Builds on top of Qt to provide widgets which are useful when developing robotics applications, such as a 3D view, plots, dashboard, etc, and can be used together in a convenient unified interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate-context",
+      "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "showlab/Awesome-GUI-Agent",
       "status": "candidate",
       "text": "A curated list of papers, projects, and resources for multi-modal Graphical User Interface (GUI) agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate",
+      "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "showlab/Awesome-GUI-Agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

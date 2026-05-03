@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T13:41:02.627363+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tomcat session manager that backups sessions in memcached and pulls them from there if asked for unknown sessions",
+    "fork": false,
+    "full_name": "magro/memcached-session-manager",
+    "html_url": "https://github.com/magro/memcached-session-manager",
+    "language": "Java",
+    "pushed_at": "2023-12-17T15:47:24Z",
+    "stargazers_count": 756,
+    "topics": [],
+    "updated_at": "2026-05-01T01:12:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

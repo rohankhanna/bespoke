@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "signalwire/actions-template/.github/workflows/cicd-docker-build-and-distribute.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "signalwire/actions-template/.github/workflows/meta-repo-content.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "freeswitch/sofia-sip",
+      "target": "signalwire/actions-template/.github/workflows/cicd-docker-build-and-distribute.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "freeswitch/sofia-sip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "freeswitch/sofia-sip",
+      "target": "signalwire/actions-template/.github/workflows/meta-repo-content.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "freeswitch/sofia-sip",
+      "target": "Build and Distribute",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:31.179003+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 5451
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Sofia-SIP is an open-source SIP User-Agent library, compliant with the IETF RFC3261 specification.",
+    "fork": false,
+    "full_name": "freeswitch/sofia-sip",
+    "html_url": "https://github.com/freeswitch/sofia-sip",
+    "language": "C",
+    "pushed_at": "2026-04-09T15:39:21Z",
+    "stargazers_count": 328,
+    "topics": [],
+    "updated_at": "2026-04-20T23:35:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Distribute",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and Distribute"
+    }
+  ]
+}

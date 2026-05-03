@@ -67,6 +67,18 @@
       "source_repo": "mybigday/whisper.rn",
       "status": "candidate-context",
       "text": "[![Actions Status](https://github.com/mybigday/whisper.rn/workflows/CI/badge.svg)](https://github.com/mybigday/whisper.rn/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/emeltal",
+      "status": "candidate-context",
+      "text": "Local ML voice chat using high-end models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/emeltal",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/EmeltalLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "mybigday/whisper.rn",
       "status": "candidate",
       "text": "[![Actions Status](https://github.com/mybigday/whisper.rn/workflows/CI/badge.svg)](https://github.com/mybigday/whisper.rn/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/emeltal",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/EmeltalLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/emeltal"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

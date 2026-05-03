@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Claude Docs Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vibrantlabsai/ragas",
+      "status": "candidate-context",
+      "text": "Supercharge Your LLM Application Evaluations \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vibrantlabsai/ragas",
+      "status": "candidate-context",
+      "text": "Claude Docs Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vibrantlabsai/ragas",
+      "status": "candidate",
+      "text": "Claude Docs Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24660,
+      "status": "candidate",
+      "text": "arp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22584,
+      "status": "candidate",
+      "text": "dupleix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22543,
+      "status": "candidate",
+      "text": "andre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22543,
+      "status": "candidate",
+      "text": "ane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22543,
+      "status": "candidate",
+      "text": "arc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Claude Docs Check",
+  "concept_id": "claude-docs-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/claude-docs-check.yml",
+      "source_repo": "vibrantlabsai/ragas"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Docs Check",
+      "sense_id": "claude-docs-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

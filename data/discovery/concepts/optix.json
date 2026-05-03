@@ -55,6 +55,18 @@
       "source_repo": "nvpro-samples/optix_advanced_samples",
       "status": "candidate-context",
       "text": "OptiX Advanced Samples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "C++ library designed to provide an abstraction for different rendering engines. It offers unified APIs for creating 3D graphics applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "nvpro-samples/optix_advanced_samples",
       "status": "candidate",
       "text": "OptiX Advanced Samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "nvpro-samples/optix_advanced_samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-rendering"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

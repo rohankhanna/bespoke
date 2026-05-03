@@ -1,0 +1,189 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-boundary-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml"
+    },
+    {
+      "component": "fischerscode/tagger@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denolib/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "denolib/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-gate.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-gate.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-gate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "source_repo": "pkgxdev/dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "source_repo": "pkgxdev/dev",
+      "target": "agent-boundary-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "source_repo": "pkgxdev/dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "source_repo": "pkgxdev/dev",
+      "target": "fischerscode/tagger@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "source_repo": "pkgxdev/dev",
+      "target": "cd\u00b7vx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pkgxdev/dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pkgxdev/dev",
+      "target": "denolib/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-gate.yml",
+      "source_repo": "pkgxdev/dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-gate.yml",
+      "source_repo": "pkgxdev/dev",
+      "target": "technote-space/get-diff-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality-gate.yml",
+      "source_repo": "pkgxdev/dev",
+      "target": "quality-gate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:34:11.187087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5199
+    },
+    {
+      "path": ".github/workflows/agent-boundary-check.yml",
+      "size": 1504
+    },
+    {
+      "path": ".github/workflows/cd.vx.yml",
+      "size": 425
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 890
+    },
+    {
+      "path": ".github/workflows/quality-gate.yml",
+      "size": 1408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "isolated `dev` environments",
+    "fork": false,
+    "full_name": "pkgxdev/dev",
+    "html_url": "https://github.com/pkgxdev/dev",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-26T03:22:27Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-04-28T03:36:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"agent-boundary-check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "term": "agent-boundary-check"
+    },
+    {
+      "context_snippet": "cd\u00b7vx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "term": "cd\u00b7vx"
+    },
+    {
+      "context_snippet": "quality-gate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality-gate.yml",
+      "term": "quality-gate"
+    }
+  ]
+}

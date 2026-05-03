@@ -1,0 +1,27 @@
+{
+  "component": "pkgxdev/setup@v5",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pkgxdev/pantry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkg.yml",
+      "source_repo": "pkgxdev/pantry"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "pkgxdev/pkgx"
+    }
+  ]
+}

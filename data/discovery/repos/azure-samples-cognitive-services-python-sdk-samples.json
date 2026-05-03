@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:33:13.543188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10219
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1032
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learn how to use the Cognitive Services Python SDK with these samples",
+    "fork": false,
+    "full_name": "Azure-Samples/cognitive-services-python-sdk-samples",
+    "html_url": "https://github.com/Azure-Samples/cognitive-services-python-sdk-samples",
+    "language": "Python",
+    "pushed_at": "2024-03-07T22:01:59Z",
+    "stargazers_count": 187,
+    "topics": [],
+    "updated_at": "2026-04-02T02:52:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "internet-computer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "icppWorld/icgpt",
+      "status": "candidate-context",
+      "text": "on-chain LLMs for the Internet Computer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icppWorld/icgpt",
+      "status": "candidate-context",
+      "text": "[Try it out](https://icgpt.onicai.com) !"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icppWorld/icgpt",
+      "status": "candidate",
+      "text": "[Try it out](https://icgpt.onicai.com) !"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "internet-computer",
+  "concept_id": "internet-computer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "icppWorld/icgpt"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "internet-computer",
+      "sense_id": "internet-computer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

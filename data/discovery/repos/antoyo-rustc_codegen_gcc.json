@@ -1,0 +1,308 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failures.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failures.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failures.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcc12.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcc12.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcc12.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/m68k.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/m68k.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/m68k.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stdarch.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stdarch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "rust-lang/gccjit.rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failures.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failures.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/failures.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/failures.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "Failures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcc12.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcc12.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcc12.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcc12.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "CI libgccjit 12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/m68k.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/m68k.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/m68k.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/m68k.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "m68k CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stdarch.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stdarch.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:32:55.500278+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 1261
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4255
+    },
+    {
+      "path": ".github/workflows/failures.yml",
+      "size": 4785
+    },
+    {
+      "path": ".github/workflows/gcc12.yml",
+      "size": 3699
+    },
+    {
+      "path": ".github/workflows/m68k.yml",
+      "size": 4366
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3567
+    },
+    {
+      "path": ".github/workflows/stdarch.yml",
+      "size": 4479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "libgccjit AOT codegen for rustc",
+    "fork": true,
+    "full_name": "antoyo/rustc_codegen_gcc",
+    "html_url": "https://github.com/antoyo/rustc_codegen_gcc",
+    "language": "Rust",
+    "pushed_at": "2025-02-06T16:08:40Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-30T05:30:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/gccjit.rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Failures",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/failures.yml",
+      "term": "Failures"
+    },
+    {
+      "context_snippet": "CI libgccjit 12",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcc12.yml",
+      "term": "CI libgccjit 12"
+    },
+    {
+      "context_snippet": "m68k CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/m68k.yml",
+      "term": "m68k CI"
+    }
+  ]
+}

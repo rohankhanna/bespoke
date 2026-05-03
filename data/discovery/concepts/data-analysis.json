@@ -271,6 +271,18 @@
       "source_repo": "JuliaData/IndexedTables.jl",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliadata.github.io/JuliaDB.jl/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wyyazlz/sheetnext",
+      "status": "candidate-context",
+      "text": "A pure front-end spreadsheet component with Excel-like capabilities, built-in native AI workflows, and flexible LLM integration for data operations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wyyazlz/sheetnext",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +417,12 @@
       "source_repo": "JuliaData/IndexedTables.jl",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliadata.github.io/JuliaDB.jl/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wyyazlz/sheetnext",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -592,11 +610,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "JuliaData/IndexedTables.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pymc-devs/pymc-resources"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "wyyazlz/sheetnext"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

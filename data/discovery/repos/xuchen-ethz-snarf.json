@@ -1,0 +1,206 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "neuralbodies/leap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "amosgropp/igr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "lioryariv/idr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "locuslab/deq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "3d-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "iccv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "iccv2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "implicit-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf",
+      "target": "skinning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:39:24.008383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6082
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official code release for ICCV 2021 paper SNARF: Differentiable Forward Skinning for Animating Non-rigid Neural Implicit Shapes.",
+    "fork": false,
+    "full_name": "xuchen-ethz/snarf",
+    "html_url": "https://github.com/xuchen-ethz/snarf",
+    "language": "Python",
+    "pushed_at": "2023-05-20T12:40:36Z",
+    "stargazers_count": 297,
+    "topics": [
+      "3d",
+      "3d-vision",
+      "animation",
+      "computer-graphics",
+      "computer-vision",
+      "iccv",
+      "iccv2021",
+      "implicit-functions",
+      "neural-network",
+      "skinning"
+    ],
+    "updated_at": "2026-03-25T07:32:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amosgropp/igr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lioryariv/idr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "locuslab/deq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neuralbodies/leap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-vision"
+    },
+    {
+      "context_snippet": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv"
+    },
+    {
+      "context_snippet": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2021"
+    },
+    {
+      "context_snippet": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "implicit-functions"
+    },
+    {
+      "context_snippet": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skinning"
+    }
+  ]
+}

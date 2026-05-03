@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Open Lighting Architecture - The Travel Adaptor for the Lighting Industry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032664,
+      "status": "candidate",
+      "text": "ignition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027785,
+      "status": "candidate",
+      "text": "kindling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020192,
+      "status": "candidate",
+      "text": "firing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047346,
+      "status": "candidate",
+      "text": "lamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045929,
+      "status": "candidate",
+      "text": "backlight"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lighting",
+      "sense_id": "lighting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58089,
+      "status": "candidate",
+      "text": "light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15036,
+      "status": "candidate",
+      "text": "kindling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7034,
+      "status": "candidate",
+      "text": "ignition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1040,
+      "status": "candidate",
+      "text": "firing"
+    }
+  ],
+  "concept_id": "lighting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lighting",
+  "observation_id": "b6595054ce28ec95",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "lighting",
+  "source_context_snippet": "[www.openlighting.org/ola](https://www.openlighting.org/ola)",
+  "source_file": null,
+  "source_repo": "OpenLightingProject/ola",
+  "source_repo_description": "The Open Lighting Architecture - The Travel Adaptor for the Lighting Industry"
+}

@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This plugin adds a `data-tag-name` attribute to all top-level preview `div`s, allowing contextual typography. Note: this plugin does not add any styles, but enables contextual styling."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This plugin adds a `data-tag-name` attribute to all top-level preview `div`s, allowing contextual typography. Note: this plugin does not add any styles, but enables contextual styling."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034756,
+      "status": "candidate",
+      "text": "basalt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034755,
+      "status": "candidate",
+      "text": "volcanic glass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034754,
+      "status": "candidate",
+      "text": "byssolite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034753,
+      "status": "candidate",
+      "text": "onyx"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034752,
+      "status": "candidate",
+      "text": "hornblende"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obsidian",
+      "sense_id": "obsidian#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "obsidian",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "obsidian",
+  "observation_id": "37793ac11535d15e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "obsidian",
+  "source_context_snippet": "This plugin adds a `data-tag-name` attribute to all top-level preview `div`s, allowing contextual typography. Note: this plugin does not add any styles, but enables contextual styling.",
+  "source_file": null,
+  "source_repo": "mgmeyers/obsidian-contextual-typography",
+  "source_repo_description": null
+}

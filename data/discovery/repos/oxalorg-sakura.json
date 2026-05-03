@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "bookmarklet",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oxalorg/sakura",
+      "target": "necolas/normalize.css",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxalorg/sakura",
+      "target": "bookmarklet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxalorg/sakura",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oxalorg/sakura",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxalorg/sakura",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxalorg/sakura",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxalorg/sakura",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxalorg/sakura",
+      "target": "classless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxalorg/sakura",
+      "target": "classless-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxalorg/sakura",
+      "target": "css-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxalorg/sakura",
+      "target": "design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxalorg/sakura",
+      "target": "sakura",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxalorg/sakura",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:48:26.973852+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6216
+    },
+    {
+      "path": "package.json",
+      "size": 1119
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":cherry_blossom: a minimal css framework/theme.",
+    "fork": false,
+    "full_name": "oxalorg/sakura",
+    "html_url": "https://github.com/oxalorg/sakura",
+    "language": "HTML",
+    "pushed_at": "2026-04-07T01:47:31Z",
+    "stargazers_count": 4370,
+    "topics": [
+      "classless",
+      "classless-theme",
+      "css",
+      "css-framework",
+      "design",
+      "sakura",
+      "theme",
+      "web"
+    ],
+    "updated_at": "2026-05-03T03:51:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "necolas/normalize.css",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![npm][npm-image]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classless"
+    },
+    {
+      "context_snippet": "[![npm][npm-image]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "classless-theme"
+    },
+    {
+      "context_snippet": "[![npm][npm-image]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css-framework"
+    },
+    {
+      "context_snippet": "[![npm][npm-image]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design"
+    },
+    {
+      "context_snippet": "[![npm][npm-image]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sakura"
+    },
+    {
+      "context_snippet": "[![npm][npm-image]][npm-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -136,6 +136,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "open-policy-agent/gatekeeper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloydlau/json-editor-vue"
     }
   ],
   "term": "Validation"

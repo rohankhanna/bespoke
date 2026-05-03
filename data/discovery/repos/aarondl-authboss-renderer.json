@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:41:25.173564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 75
+    },
+    {
+      "path": "go.mod",
+      "size": 143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A basic renderer for Authboss",
+    "fork": false,
+    "full_name": "aarondl/authboss-renderer",
+    "html_url": "https://github.com/aarondl/authboss-renderer",
+    "language": "Smarty",
+    "pushed_at": "2025-06-26T06:09:46Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-06-26T06:09:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

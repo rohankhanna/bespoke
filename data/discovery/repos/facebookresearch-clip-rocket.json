@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/clip-rocket",
+      "target": "rwightman/timm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:40:36.661226+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8998
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Code release for \"Improved baselines for vision-language pre-training\"",
+    "fork": false,
+    "full_name": "facebookresearch/clip-rocket",
+    "html_url": "https://github.com/facebookresearch/clip-rocket",
+    "language": "Python",
+    "pushed_at": "2024-05-06T22:31:52Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-01-12T08:24:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/timm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

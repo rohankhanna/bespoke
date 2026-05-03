@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fltk-rs/fl2rust",
+      "target": "fltk-rs/fl2rust-template",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:45:40.946312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3966
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fluid (fltk ui designer) file to Rust transpiler",
+    "fork": false,
+    "full_name": "fltk-rs/fl2rust",
+    "html_url": "https://github.com/fltk-rs/fl2rust",
+    "language": "Rust",
+    "pushed_at": "2025-08-01T21:27:14Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-01-15T17:28:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fltk-rs/fl2rust-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

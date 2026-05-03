@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Find Redundant Domains"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "status": "candidate-context",
+      "text": "Enhanced v2ray/xray and v2ray/xray-clients routing rules with built-in Iranian domains and a focus on security and adblocking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "status": "candidate-context",
+      "text": "Find Redundant Domains"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "status": "candidate",
+      "text": "Find Redundant Domains"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21606,
+      "status": "candidate",
+      "text": "dispose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21606,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21606,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21606,
+      "status": "candidate",
+      "text": "return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14676,
+      "status": "candidate",
+      "text": "domain"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Find Redundant Domains",
+  "concept_id": "find-redundant-domains",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/findredundant.yml",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Find Redundant Domains",
+      "sense_id": "find-redundant-domains#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

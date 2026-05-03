@@ -1,0 +1,357 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity_scan.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "Android CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autotools.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "AutoTools CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "CMake CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_release.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_release.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "CMake Release CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity_scan.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity_scan.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "Start Coverity Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "cygwin/cygwin-install-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "Cygwin CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "Code Formatting Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer_build.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzzer_build.yml",
+      "source_repo": "cisco/libsrtp",
+      "target": "Fuzzer build check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cisco/libsrtp",
+      "target": "libsrtp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cisco/libsrtp",
+      "target": "srtp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:24.745207+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25036
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 1263
+    },
+    {
+      "path": ".github/workflows/autotools.yml",
+      "size": 2774
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 710
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 4292
+    },
+    {
+      "path": ".github/workflows/cmake_release.yml",
+      "size": 1193
+    },
+    {
+      "path": ".github/workflows/coverity_scan.yml",
+      "size": 1265
+    },
+    {
+      "path": ".github/workflows/cygwin.yml",
+      "size": 1240
+    },
+    {
+      "path": ".github/workflows/format_check.yml",
+      "size": 338
+    },
+    {
+      "path": ".github/workflows/fuzzer_build.yml",
+      "size": 662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Library for SRTP (Secure Realtime Transport Protocol) ",
+    "fork": false,
+    "full_name": "cisco/libsrtp",
+    "html_url": "https://github.com/cisco/libsrtp",
+    "language": "C",
+    "pushed_at": "2026-05-02T13:13:56Z",
+    "stargazers_count": 1379,
+    "topics": [
+      "libsrtp",
+      "rtp",
+      "srtp"
+    ],
+    "updated_at": "2026-05-03T10:50:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Android CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "Android CI"
+    },
+    {
+      "context_snippet": "AutoTools CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autotools.yml",
+      "term": "AutoTools CI"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "CMake CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake CI"
+    },
+    {
+      "context_snippet": "CMake Release CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake_release.yml",
+      "term": "CMake Release CI"
+    },
+    {
+      "context_snippet": "Start Coverity Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity_scan.yml",
+      "term": "Start Coverity Scan"
+    },
+    {
+      "context_snippet": "Cygwin CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin.yml",
+      "term": "Cygwin CI"
+    },
+    {
+      "context_snippet": "Code Formatting Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_check.yml",
+      "term": "Code Formatting Check"
+    },
+    {
+      "context_snippet": "Fuzzer build check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzzer_build.yml",
+      "term": "Fuzzer build check"
+    },
+    {
+      "context_snippet": "[![CMake Build](https://github.com/cisco/libsrtp/actions/workflows/cmake.yml/badge.svg)](https://github.com/cisco/libsrtp/actions/workflows/cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libsrtp"
+    },
+    {
+      "context_snippet": "[![CMake Build](https://github.com/cisco/libsrtp/actions/workflows/cmake.yml/badge.svg)](https://github.com/cisco/libsrtp/actions/workflows/cmake.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "srtp"
+    }
+  ]
+}

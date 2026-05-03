@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:39:56.231706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "JuliaBinaryWrappers/pixi_jll.jl",
+    "html_url": "https://github.com/JuliaBinaryWrappers/pixi_jll.jl",
+    "language": "Julia",
+    "pushed_at": "2025-02-17T19:01:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-02-17T19:01:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

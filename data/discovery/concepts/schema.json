@@ -283,6 +283,30 @@
       "source_repo": "gorilla/schema",
       "status": "candidate-context",
       "text": "![testing](https://github.com/gorilla/schema/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloydlau/json-editor-vue",
+      "status": "candidate-context",
+      "text": "Vue 2/3 isomorphic JSON editor, viewer, formatter and validator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloydlau/json-editor-vue",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/schema-tools",
+      "status": "candidate-context",
+      "text": "Clojure(Script) tools for Plumatic Schema"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/schema-tools",
+      "status": "candidate-context",
+      "text": "Common utilities for [Prismatic Schema](https://github.com/Prismatic/schema) for Clojure/Script. Big sister to [spec-tools](https://github.com/metosin/spec-tools)."
     }
   ],
   "candidate_glosses": [
@@ -423,6 +447,18 @@
       "source_repo": "gorilla/schema",
       "status": "candidate",
       "text": "![testing](https://github.com/gorilla/schema/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloydlau/json-editor-vue",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/schema-tools",
+      "status": "candidate",
+      "text": "Common utilities for [Prismatic Schema](https://github.com/Prismatic/schema) for Clojure/Script. Big sister to [spec-tools](https://github.com/metosin/spec-tools)."
     }
   ],
   "candidate_related_terms": [
@@ -672,11 +708,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "gorilla/schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cloydlau/json-editor-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "metosin/schema-tools"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

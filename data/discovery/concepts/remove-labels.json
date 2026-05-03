@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Remove Labels"
+    "Remove Labels",
+    "Remove labels"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "mongodb/bson-rust",
       "status": "candidate-context",
       "text": "Remove Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
+      "status": "candidate-context",
+      "text": "Flutter/Dart <-> Rust binding generator, feature-rich, but seamless and simple."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
+      "status": "candidate-context",
+      "text": "Remove labels"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "mongodb/bson-rust",
       "status": "candidate",
       "text": "Remove Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
+      "status": "candidate",
+      "text": "Remove labels"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/remove_labels.yml",
       "source_repo": "mongodb/bson-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/remove_labels.yml",
+      "source_repo": "fzyzcjy/flutter_rust_bridge"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

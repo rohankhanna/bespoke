@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Delete Old Snapshot Packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkime/arkime",
+      "status": "candidate-context",
+      "text": "Arkime is an open source, large scale, full packet capturing, indexing, and database system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkime/arkime",
+      "status": "candidate-context",
+      "text": "Delete Old Snapshot Packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkime/arkime",
+      "status": "candidate",
+      "text": "Delete Old Snapshot Packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40109,
+      "status": "candidate",
+      "text": "split"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40109,
+      "status": "candidate",
+      "text": "splits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40109,
+      "status": "candidate",
+      "text": "splitting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40099,
+      "status": "candidate",
+      "text": "shatter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36119,
+      "status": "candidate",
+      "text": "break"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Delete Old Snapshot Packages",
+  "concept_id": "delete-old-snapshot-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/delete-old-snapshots.yml",
+      "source_repo": "arkime/arkime"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete Old Snapshot Packages",
+      "sense_id": "delete-old-snapshot-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

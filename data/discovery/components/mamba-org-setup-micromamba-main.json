@@ -1,7 +1,7 @@
 {
   "component": "mamba-org/setup-micromamba@main",
   "first_seen_at": "2026-05-02T06:47:22.946566+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "xtensor-stack/xtensor-io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bqplot/bqplot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_docs.yml",
+      "source_repo": "bqplot/bqplot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_galata_references.yaml",
+      "source_repo": "bqplot/bqplot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ui-tests.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_galata_references.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet"
     }
   ]
 }

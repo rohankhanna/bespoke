@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build Docker images (scheduled)"
+    "Build Docker images (scheduled)",
+    "Build docker images (scheduled)"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "PanQiWei/peft",
       "status": "candidate-context",
       "text": "Build Docker images (scheduled)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moojink/transformers-openvla-oft",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moojink/transformers-openvla-oft",
+      "status": "candidate-context",
+      "text": "Build docker images (scheduled)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "PanQiWei/peft",
       "status": "candidate",
       "text": "Build Docker images (scheduled)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moojink/transformers-openvla-oft",
+      "status": "candidate",
+      "text": "Build docker images (scheduled)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +143,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build_docker_images.yml",
       "source_repo": "PanQiWei/peft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build-docker-images.yml",
+      "source_repo": "moojink/transformers-openvla-oft"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

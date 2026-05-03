@@ -201,6 +201,18 @@
       "source_repo": "dart-lang/native",
       "status": "candidate-context",
       "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
+      "status": "candidate-context",
+      "text": "Flutter/Dart <-> Rust binding generator, feature-rich, but seamless and simple."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
+      "status": "candidate-context",
+      "text": "No Response"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +309,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dart-lang/native",
+      "status": "candidate",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
       "status": "candidate",
       "text": "No Response"
     }
@@ -444,11 +462,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/no-response.yml",
       "source_repo": "dart-lang/native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/no_response.yml",
+      "source_repo": "fzyzcjy/flutter_rust_bridge"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

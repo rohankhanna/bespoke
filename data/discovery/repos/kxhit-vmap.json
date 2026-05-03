@@ -1,0 +1,209 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kxhit/vMAP",
+      "target": "cvg/nice-slam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kxhit/vMAP",
+      "target": "pytorch/functorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP",
+      "target": "cvpr2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP",
+      "target": "dense-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP",
+      "target": "neural-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP",
+      "target": "neural-implicit-representations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP",
+      "target": "object-mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP",
+      "target": "rgbd-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP",
+      "target": "slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP",
+      "target": "vectorized",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:37:50.785616+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5085
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2023] vMAP: Vectorised Object Mapping for Neural Field SLAM",
+    "fork": false,
+    "full_name": "kxhit/vMAP",
+    "html_url": "https://github.com/kxhit/vMAP",
+    "language": "Python",
+    "pushed_at": "2023-06-16T14:50:01Z",
+    "stargazers_count": 369,
+    "topics": [
+      "3d-reconstruction",
+      "cvpr2023",
+      "dense-mapping",
+      "nerf",
+      "neural-fields",
+      "neural-implicit-representations",
+      "object-mapping",
+      "real-time",
+      "rgbd-slam",
+      "slam",
+      "vectorized"
+    ],
+    "updated_at": "2026-03-26T12:53:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvg/nice-slam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/functorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2023"
+    },
+    {
+      "context_snippet": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dense-mapping"
+    },
+    {
+      "context_snippet": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-fields"
+    },
+    {
+      "context_snippet": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-implicit-representations"
+    },
+    {
+      "context_snippet": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-mapping"
+    },
+    {
+      "context_snippet": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rgbd-slam"
+    },
+    {
+      "context_snippet": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    },
+    {
+      "context_snippet": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vectorized"
+    }
+  ]
+}

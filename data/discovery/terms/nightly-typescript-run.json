@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/night-ts.yml",
       "source_repo": "emberjs/ember.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Nightly.yml",
+      "source_repo": "chriskrycho/tracked-draft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Nightly.yml",
+      "source_repo": "tracked-tools/ember-async-data"
     }
   ],
   "term": "Nightly TypeScript Run"

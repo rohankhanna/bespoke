@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T14:46:24.195295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4963
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for bloscpack.",
+    "fork": false,
+    "full_name": "conda-forge/bloscpack-feedstock",
+    "html_url": "https://github.com/conda-forge/bloscpack-feedstock",
+    "language": "Shell",
+    "pushed_at": "2024-11-06T05:15:17Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-27T19:16:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

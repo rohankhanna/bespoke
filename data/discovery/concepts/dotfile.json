@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "dotfile"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SuperCuber/dotter",
+      "status": "candidate-context",
+      "text": "A dotfile manager and templater written in rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SuperCuber/dotter",
+      "status": "candidate-context",
+      "text": "Dotter is a dotfile manager and templater."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SuperCuber/dotter",
+      "status": "candidate",
+      "text": "Dotter is a dotfile manager and templater."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024400,
+      "status": "candidate",
+      "text": "dotlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024399,
+      "status": "candidate",
+      "text": "dot dot dot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024398,
+      "status": "candidate",
+      "text": "dotbomb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024397,
+      "status": "candidate",
+      "text": "dot bomb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024396,
+      "status": "candidate",
+      "text": "dotty"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dotfile",
+  "concept_id": "dotfile",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dotfile",
+      "sense_id": "dotfile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

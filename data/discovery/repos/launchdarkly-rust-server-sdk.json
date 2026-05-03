@@ -1,0 +1,369 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-rust-versions.yml"
+    },
+    {
+      "component": "JamesIves/fetch-api-data-action@396ebea7d13904824f85b892b1616985f847301c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-rust-versions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-rust-versions.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-rust-versions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "launchdarkly/gh-actions/.github/workflows/lint-pr-title.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr-title.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-publish.yml"
+    },
+    {
+      "component": "launchdarkly/gh-actions/actions/release-secrets@release-secrets-v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-publish.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@16a9c90856f42705d54a6fda1823352bdc62cf38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "launchdarkly/gh-actions/actions/release-secrets@release-secrets-v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "launchdarkly/gh-actions/.github/workflows/sdk-stale.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-rust-versions.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-rust-versions.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "JamesIves/fetch-api-data-action@396ebea7d13904824f85b892b1616985f847301c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-rust-versions.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-rust-versions.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "Check Supported Rust Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "Run CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "launchdarkly/gh-actions/.github/workflows/lint-pr-title.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "Lint PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-publish.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-publish.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "launchdarkly/gh-actions/actions/release-secrets@release-secrets-v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-publish.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "Publish Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "googleapis/release-please-action@16a9c90856f42705d54a6fda1823352bdc62cf38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "launchdarkly/gh-actions/actions/release-secrets@release-secrets-v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "Run Release Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "launchdarkly/gh-actions/.github/workflows/sdk-stale.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "feature-flags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "feature-toggles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "launchdarkly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "launchdarkly-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "managed-by-terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:40:52.529946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4669
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 95
+    },
+    {
+      "path": ".github/workflows/check-rust-versions.yml",
+      "size": 3250
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3099
+    },
+    {
+      "path": ".github/workflows/lint-pr-title.yml",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/manual-publish.yml",
+      "size": 1119
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 1858
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 284
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LaunchDarkly Server-Side SDK for Rust",
+    "fork": false,
+    "full_name": "launchdarkly/rust-server-sdk",
+    "html_url": "https://github.com/launchdarkly/rust-server-sdk",
+    "language": "Rust",
+    "pushed_at": "2026-04-28T14:19:51Z",
+    "stargazers_count": 18,
+    "topics": [
+      "feature-flags",
+      "feature-toggles",
+      "launchdarkly",
+      "launchdarkly-sdk",
+      "managed-by-terraform",
+      "rust",
+      "sdk"
+    ],
+    "updated_at": "2026-04-28T14:24:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Supported Rust Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-rust-versions.yml",
+      "term": "Check Supported Rust Versions"
+    },
+    {
+      "context_snippet": "Run CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Run CI"
+    },
+    {
+      "context_snippet": "Lint PR title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "term": "Lint PR title"
+    },
+    {
+      "context_snippet": "Publish Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-publish.yml",
+      "term": "Publish Package"
+    },
+    {
+      "context_snippet": "Run Release Please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Run Release Please"
+    },
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "[![Run CI](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-flags"
+    },
+    {
+      "context_snippet": "[![Run CI](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-toggles"
+    },
+    {
+      "context_snippet": "[![Run CI](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "launchdarkly"
+    },
+    {
+      "context_snippet": "[![Run CI](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "launchdarkly-sdk"
+    },
+    {
+      "context_snippet": "[![Run CI](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "managed-by-terraform"
+    },
+    {
+      "context_snippet": "[![Run CI](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

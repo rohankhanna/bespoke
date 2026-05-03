@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BillyXYB/TransEditor",
+      "target": "naver-ai/stylemapgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BillyXYB/TransEditor",
+      "target": "siriusdemon/pytorch-dex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BillyXYB/TransEditor",
+      "target": "anonsubm2021/transstylegan",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "BillyXYB/TransEditor"
+}

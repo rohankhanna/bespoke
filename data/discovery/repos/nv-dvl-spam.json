@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:31:25.495223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024] SPAMming Labels: Efficient Annotations for the Trackers of Tomorrow",
+    "fork": false,
+    "full_name": "nv-dvl/SPAM",
+    "html_url": "https://github.com/nv-dvl/SPAM",
+    "language": null,
+    "pushed_at": "2024-12-22T10:19:39Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-02-22T04:57:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

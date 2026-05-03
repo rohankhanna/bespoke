@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/vstest-docs",
+      "target": "microsoft/vstest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vstest-docs",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vstest-docs",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vstest-docs",
+      "target": "testing-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vstest-docs",
+      "target": "unit-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vstest-docs",
+      "target": "visual-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vstest-docs",
+      "target": "vstest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:35:15.520178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Documentation for the Visual Studio Test Platform. ",
+    "fork": false,
+    "full_name": "microsoft/vstest-docs",
+    "html_url": "https://github.com/microsoft/vstest-docs",
+    "language": null,
+    "pushed_at": "2022-12-05T15:16:29Z",
+    "stargazers_count": 215,
+    "topics": [
+      "documentation",
+      "testing",
+      "testing-tools",
+      "unit-testing",
+      "visual-studio",
+      "vstest"
+    ],
+    "updated_at": "2026-03-12T15:51:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vstest",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-tools"
+    },
+    {
+      "context_snippet": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-testing"
+    },
+    {
+      "context_snippet": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio"
+    },
+    {
+      "context_snippet": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vstest"
+    }
+  ]
+}

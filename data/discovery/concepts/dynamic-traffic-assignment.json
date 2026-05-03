@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "dynamic-traffic-assignment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdlph/Path4GMNS",
+      "status": "candidate-context",
+      "text": "An open-source, cross-platform, lightweight, and fast Python path engine for networks encoded in GMNS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/Path4GMNS",
+      "status": "candidate-context",
+      "text": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate-context",
+      "text": "State-of-the-art open-source applications for Transportation Optimization, Modeling, and Simulation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate-context",
+      "text": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/Path4GMNS",
+      "status": "candidate",
+      "text": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate",
+      "text": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dynamic-traffic-assignment",
+  "concept_id": "dynamic-traffic-assignment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jdlph/Path4GMNS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jdlph/OpenDTA"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dynamic-traffic-assignment",
+      "sense_id": "dynamic-traffic-assignment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

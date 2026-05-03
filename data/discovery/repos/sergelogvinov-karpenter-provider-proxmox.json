@@ -1,0 +1,481 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml"
+    },
+    {
+      "component": "actions/delete-package-versions@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charts.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charts.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conform.yaml"
+    },
+    {
+      "component": "talos-systems/conform@v0.1.0-alpha.31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conform.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml"
+    },
+    {
+      "component": "azure/setup-helm@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml"
+    },
+    {
+      "component": "googleapis/release-please-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pre.yaml"
+    },
+    {
+      "component": "gabe565/setup-helm-docs-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pre.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "sergelogvinov/proxmox-cloud-controller-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "sigstore/cosign-installer@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "actions/delete-package-versions@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "Build edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "Build check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charts.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/charts.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "helm/chart-testing-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/charts.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "Helm chart check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conform.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conform.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "talos-systems/conform@v0.1.0-alpha.31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conform.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "Conformance check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "azure/setup-helm@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "sigstore/cosign-installer@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "HelmChart Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "googleapis/release-please-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "Release please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pre.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pre.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "gabe565/setup-helm-docs-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pre.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "Release check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "karpenter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "node-autoscaler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "proxmox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "target": "proxmox-ve",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:34:46.503326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8598
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1063
+    },
+    {
+      "path": "go.mod",
+      "size": 4773
+    },
+    {
+      "path": ".github/workflows/build-edge.yaml",
+      "size": 1645
+    },
+    {
+      "path": ".github/workflows/build-test.yaml",
+      "size": 813
+    },
+    {
+      "path": ".github/workflows/charts.yaml",
+      "size": 641
+    },
+    {
+      "path": ".github/workflows/conform.yaml",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/release-charts.yaml",
+      "size": 932
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 450
+    },
+    {
+      "path": ".github/workflows/release-pre.yaml",
+      "size": 807
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Karpenter provider for Proxmox",
+    "fork": false,
+    "full_name": "sergelogvinov/karpenter-provider-proxmox",
+    "html_url": "https://github.com/sergelogvinov/karpenter-provider-proxmox",
+    "language": "Go",
+    "pushed_at": "2026-05-02T17:25:23Z",
+    "stargazers_count": 110,
+    "topics": [
+      "karpenter",
+      "kubernetes",
+      "node-autoscaler",
+      "proxmox",
+      "proxmox-ve"
+    ],
+    "updated_at": "2026-05-02T17:23:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sergelogvinov/proxmox-cloud-controller-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build edge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "term": "Build edge"
+    },
+    {
+      "context_snippet": "Build check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yaml",
+      "term": "Build check"
+    },
+    {
+      "context_snippet": "Helm chart check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/charts.yaml",
+      "term": "Helm chart check"
+    },
+    {
+      "context_snippet": "Conformance check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conform.yaml",
+      "term": "Conformance check"
+    },
+    {
+      "context_snippet": "HelmChart Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "term": "HelmChart Release"
+    },
+    {
+      "context_snippet": "Release please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Release please"
+    },
+    {
+      "context_snippet": "Release check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pre.yaml",
+      "term": "Release check"
+    },
+    {
+      "context_snippet": "__Motivation__: Most of the time, my bare-metal servers have more capacity than I actually need.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "karpenter"
+    },
+    {
+      "context_snippet": "__Motivation__: Most of the time, my bare-metal servers have more capacity than I actually need.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "__Motivation__: Most of the time, my bare-metal servers have more capacity than I actually need.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-autoscaler"
+    },
+    {
+      "context_snippet": "__Motivation__: Most of the time, my bare-metal servers have more capacity than I actually need.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxmox"
+    },
+    {
+      "context_snippet": "__Motivation__: Most of the time, my bare-metal servers have more capacity than I actually need.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxmox-ve"
+    }
+  ]
+}

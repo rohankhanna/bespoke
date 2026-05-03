@@ -452,7 +452,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:00:20.822939+00:00",
+  "fetched_at": "2026-05-03T15:36:23.260288+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -504,8 +504,8 @@
     "full_name": "agentscope-ai/QwenPaw",
     "html_url": "https://github.com/agentscope-ai/QwenPaw",
     "language": "Python",
-    "pushed_at": "2026-04-30T10:03:45Z",
-    "stargazers_count": 16228,
+    "pushed_at": "2026-05-03T04:32:55Z",
+    "stargazers_count": 16255,
     "topics": [
       "agent",
       "agentscope",
@@ -514,7 +514,7 @@
       "llms",
       "skills"
     ],
-    "updated_at": "2026-05-03T02:58:10Z"
+    "updated_at": "2026-05-03T15:14:17Z"
   },
   "repo_links": [],
   "terms": [

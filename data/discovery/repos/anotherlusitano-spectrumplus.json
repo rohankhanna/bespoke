@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild-sass-plugin",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-stylesheet.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-stylesheet.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anotherlusitano/SpectrumPlus",
+      "target": "wiktoriavh/spectrum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anotherlusitano/SpectrumPlus",
+      "target": "braweria/spectrum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anotherlusitano/SpectrumPlus",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anotherlusitano/SpectrumPlus",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anotherlusitano/SpectrumPlus",
+      "target": "esbuild-sass-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anotherlusitano/SpectrumPlus",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-stylesheet.yml",
+      "source_repo": "anotherlusitano/SpectrumPlus",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-stylesheet.yml",
+      "source_repo": "anotherlusitano/SpectrumPlus",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:43:15.166687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2212
+    },
+    {
+      "path": "package.json",
+      "size": 797
+    },
+    {
+      "path": ".github/workflows/build-stylesheet.yml",
+      "size": 883
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An improved version of the Spectrum theme",
+    "fork": false,
+    "full_name": "anotherlusitano/SpectrumPlus",
+    "html_url": "https://github.com/anotherlusitano/SpectrumPlus",
+    "language": "SCSS",
+    "pushed_at": "2025-11-20T00:30:28Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-01-16T08:07:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "braweria/spectrum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wiktoriavh/spectrum",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

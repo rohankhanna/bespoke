@@ -1,0 +1,246 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "seung-lab/cloud-files",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "seung-lab/cloud-files",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "seung-lab/cloud-files",
+      "target": "Test Suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "bucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "concurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "concurrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "file-reading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "file-writing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "google-cloud-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "green-threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "key-value",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "object-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "parallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/cloud-files",
+      "target": "threading",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:39:10.074348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29963
+    },
+    {
+      "path": "requirements.txt",
+      "size": 312
+    },
+    {
+      "path": ".github/workflows/test-suite.yml",
+      "size": 939
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Threaded Python and CLI client library for AWS S3, Google Cloud Storage (GCS), in-memory, and the local filesystem.",
+    "fork": false,
+    "full_name": "seung-lab/cloud-files",
+    "html_url": "https://github.com/seung-lab/cloud-files",
+    "language": "Python",
+    "pushed_at": "2026-03-20T21:02:14Z",
+    "stargazers_count": 44,
+    "topics": [
+      "bucket",
+      "cli",
+      "client",
+      "concurrency",
+      "concurrent",
+      "file-reading",
+      "file-writing",
+      "google-cloud-storage",
+      "green-threads",
+      "key-value",
+      "object-storage",
+      "parallel",
+      "s3",
+      "threading"
+    ],
+    "updated_at": "2026-03-20T21:02:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test Suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-suite.yml",
+      "term": "Test Suite"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bucket"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "client"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrency"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "concurrent"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-reading"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-writing"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-storage"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "green-threads"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-storage"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel"
+    },
+    {
+      "context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threading"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "styled-components/polished",
       "status": "candidate-context",
       "text": "<a href=\"https://github.com/styled-components/polished\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "addyosmani/critical",
+      "status": "candidate-context",
+      "text": "Extract & Inline Critical-path CSS in HTML pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addyosmani/critical",
+      "status": "candidate-context",
+      "text": "[![NPM version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url] [![Coverage][coveralls-image]][coveralls-url]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "styled-components/polished",
       "status": "candidate",
       "text": "<a href=\"https://github.com/styled-components/polished\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addyosmani/critical",
+      "status": "candidate",
+      "text": "[![NPM version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url] [![Coverage][coveralls-image]][coveralls-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "styled-components/polished"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "addyosmani/critical"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

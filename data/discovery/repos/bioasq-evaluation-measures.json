@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:43:38.127085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 3246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Evaluation Measures for the BioASQ project",
+    "fork": false,
+    "full_name": "BioASQ/Evaluation-Measures",
+    "html_url": "https://github.com/BioASQ/Evaluation-Measures",
+    "language": "Java",
+    "pushed_at": "2022-04-26T14:59:24Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-06-19T19:17:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

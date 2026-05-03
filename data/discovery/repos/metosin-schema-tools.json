@@ -1,0 +1,234 @@
+{
+  "components": [
+    {
+      "component": "karma",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-chrome-launcher",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "karma-cljs-test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/setup-java@v1.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/setup-java@v1.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/schema-tools",
+      "target": "prismatic/schema",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/schema-tools",
+      "target": "metosin/spec-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "metosin/schema-tools",
+      "target": "karma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "metosin/schema-tools",
+      "target": "karma-chrome-launcher",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "metosin/schema-tools",
+      "target": "karma-cljs-test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/schema-tools",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/schema-tools",
+      "target": "actions/setup-java@v1.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/schema-tools",
+      "target": "DeLaGuardo/setup-clojure@3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "metosin/schema-tools",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/schema-tools",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/schema-tools",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/schema-tools",
+      "target": "metosin-stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/schema-tools",
+      "target": "schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/schema-tools",
+      "target": "swagger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:48:02.117107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4577
+    },
+    {
+      "path": "package.json",
+      "size": 193
+    },
+    {
+      "path": ".github/workflows/clojure.yml",
+      "size": 1070
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojure(Script) tools for Plumatic Schema",
+    "fork": false,
+    "full_name": "metosin/schema-tools",
+    "html_url": "https://github.com/metosin/schema-tools",
+    "language": "Clojure",
+    "pushed_at": "2026-04-24T05:14:35Z",
+    "stargazers_count": 109,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "metosin-stable",
+      "schema",
+      "swagger"
+    ],
+    "updated_at": "2026-04-24T05:14:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metosin/spec-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prismatic/schema",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "Common utilities for [Prismatic Schema](https://github.com/Prismatic/schema) for Clojure/Script. Big sister to [spec-tools](https://github.com/metosin/spec-tools).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "Common utilities for [Prismatic Schema](https://github.com/Prismatic/schema) for Clojure/Script. Big sister to [spec-tools](https://github.com/metosin/spec-tools).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "Common utilities for [Prismatic Schema](https://github.com/Prismatic/schema) for Clojure/Script. Big sister to [spec-tools](https://github.com/metosin/spec-tools).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metosin-stable"
+    },
+    {
+      "context_snippet": "Common utilities for [Prismatic Schema](https://github.com/Prismatic/schema) for Clojure/Script. Big sister to [spec-tools](https://github.com/metosin/spec-tools).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema"
+    },
+    {
+      "context_snippet": "Common utilities for [Prismatic Schema](https://github.com/Prismatic/schema) for Clojure/Script. Big sister to [spec-tools](https://github.com/metosin/spec-tools).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swagger"
+    }
+  ]
+}

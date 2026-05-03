@@ -142,6 +142,18 @@
       "source_repo": "Blosc/python-blosc",
       "status": "candidate-context",
       "text": "Wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/functorch",
+      "status": "candidate-context",
+      "text": "functorch is JAX-like composable function transforms for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/functorch",
+      "status": "candidate-context",
+      "text": "Wheels"
     }
   ],
   "candidate_glosses": [
@@ -208,6 +220,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Blosc/python-blosc",
+      "status": "candidate",
+      "text": "Wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/functorch",
       "status": "candidate",
       "text": "Wheels"
     }
@@ -415,11 +433,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/cibuildwheels.yml",
       "source_repo": "Blosc/python-blosc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pytorch/functorch"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

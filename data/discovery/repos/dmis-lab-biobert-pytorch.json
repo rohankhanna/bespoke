@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:43:38.990195+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4016
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch Implementation of BioBERT",
+    "fork": false,
+    "full_name": "dmis-lab/biobert-pytorch",
+    "html_url": "https://github.com/dmis-lab/biobert-pytorch",
+    "language": "Java",
+    "pushed_at": "2023-06-24T05:15:27Z",
+    "stargazers_count": 352,
+    "topics": [],
+    "updated_at": "2026-04-23T07:44:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

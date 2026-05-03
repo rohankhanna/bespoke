@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "AUR CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MatsuriDayo/nekoray",
+      "status": "candidate-context",
+      "text": "\u4e0d\u518d\u7ef4\u62a4\uff0c\u81ea\u5bfb\u66ff\u4ee3\u54c1\u3002 Qt based cross-platform GUI proxy configuration manager (backend: sing-box)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/nekoray",
+      "status": "candidate-context",
+      "text": "AUR CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/nekoray",
+      "status": "candidate",
+      "text": "AUR CI"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "AUR CI",
+  "concept_id": "aur-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/update-pkgbuild.yml",
+      "source_repo": "MatsuriDayo/nekoray"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AUR CI",
+      "sense_id": "aur-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

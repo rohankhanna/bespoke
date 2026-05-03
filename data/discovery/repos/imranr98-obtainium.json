@@ -1,0 +1,450 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml"
+    },
+    {
+      "component": "ashutoshgngwr/validate-fastlane-supply-metadata@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "mathieudutour/github-tag-action@v6.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation-validate.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "imranr98/obtainium-wiki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "imranr98/apps.obtainium.imranr.dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "imranr98/obtainium.imranr.dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "machiav3lli/oandbackupx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "ashutoshgngwr/validate-fastlane-supply-metadata@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fastlane.yml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "Validate Fastlane metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "mathieudutour/github-tag-action@v6.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "Build and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/translation-validate.yaml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translation-validate.yaml",
+      "source_repo": "ImranR98/Obtainium",
+      "target": "Validate translation files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "apk-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "apk-updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "app-updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "foss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "github-apk-updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "gitlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "obtainium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "update-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium",
+      "target": "updater",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:36:13.139150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4936
+    },
+    {
+      "path": ".github/workflows/fastlane.yml",
+      "size": 335
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2474
+    },
+    {
+      "path": ".github/workflows/translation-validate.yaml",
+      "size": 855
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Get Android app updates straight from the source.",
+    "fork": false,
+    "full_name": "ImranR98/Obtainium",
+    "html_url": "https://github.com/ImranR98/Obtainium",
+    "language": "Dart",
+    "pushed_at": "2026-04-16T12:29:45Z",
+    "stargazers_count": 16854,
+    "topics": [
+      "android",
+      "apk",
+      "apk-update",
+      "apk-updater",
+      "app-updater",
+      "automation",
+      "foss",
+      "github",
+      "github-apk-updater",
+      "gitlab",
+      "notifications",
+      "obtainium",
+      "privacy",
+      "security",
+      "update-checker",
+      "updater"
+    ],
+    "updated_at": "2026-05-03T13:19:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imranr98/apps.obtainium.imranr.dev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imranr98/obtainium-wiki",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imranr98/obtainium.imranr.dev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "machiav3lli/oandbackupx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Validate Fastlane metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fastlane.yml",
+      "term": "Validate Fastlane metadata"
+    },
+    {
+      "context_snippet": "Build and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build and Release"
+    },
+    {
+      "context_snippet": "Validate translation files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/translation-validate.yaml",
+      "term": "Validate translation files"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apk-update"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apk-updater"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "app-updater"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foss"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-apk-updater"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitlab"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notifications"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obtainium"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "update-checker"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "updater"
+    }
+  ]
+}

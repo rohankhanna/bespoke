@@ -1,7 +1,7 @@
 {
   "component": "actions-ecosystem/action-add-labels@v1",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue_manager.yaml",
       "source_repo": "invertase/melos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bad-pr.yml",
+      "source_repo": "mmistakes/minimal-mistakes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-issue.yaml",
+      "source_repo": "continuedev/continue"
     }
   ]
 }

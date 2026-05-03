@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "face-analysis/emonet",
+      "target": "affect-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "face-analysis/emonet",
+      "target": "affective-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "face-analysis/emonet",
+      "target": "arousal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "face-analysis/emonet",
+      "target": "emotion-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "face-analysis/emonet",
+      "target": "emotion-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "face-analysis/emonet",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "face-analysis/emonet",
+      "target": "valence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "face-analysis/emonet",
+      "target": "valence-arousal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:44:29.910185+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official implementation of the paper \"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\", Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, Nature Machine Intelligence, 2021",
+    "fork": false,
+    "full_name": "face-analysis/emonet",
+    "html_url": "https://github.com/face-analysis/emonet",
+    "language": "Python",
+    "pushed_at": "2024-08-24T13:50:59Z",
+    "stargazers_count": 354,
+    "topics": [
+      "affect-analysis",
+      "affective-computing",
+      "arousal",
+      "emotion-detection",
+      "emotion-recognition",
+      "machine-learning",
+      "valence",
+      "valence-arousal"
+    ],
+    "updated_at": "2026-04-21T09:11:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "affect-analysis"
+    },
+    {
+      "context_snippet": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "affective-computing"
+    },
+    {
+      "context_snippet": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arousal"
+    },
+    {
+      "context_snippet": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emotion-detection"
+    },
+    {
+      "context_snippet": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emotion-recognition"
+    },
+    {
+      "context_snippet": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "valence"
+    },
+    {
+      "context_snippet": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "valence-arousal"
+    }
+  ]
+}

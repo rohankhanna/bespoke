@@ -79,7 +79,7 @@
   "normalized_form": "build-images",
   "observation_id": "cc7bf7673c02da76",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Build Images",
   "source_context_snippet": "Build Images",
   "source_file": ".github/workflows/UploadDockerImages.yml",

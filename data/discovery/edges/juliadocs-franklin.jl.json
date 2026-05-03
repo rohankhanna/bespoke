@@ -4,14 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "juliadocs/franklintemplates.jl",
+      "target": "juliagraphics/luxor.jl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "juliagpu/juliagpu.org",
+      "target": "juliapackagecomparisons/juliapackagecomparisons.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "target": "julialang/www.julialang.org",
       "target_type": "repository"
     },
     {
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
       "target": "asprionj/liveserver.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "juliadocs/xranklin.jl",
       "target_type": "repository"
     },
     {
@@ -183,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "JuliaDocs/Franklin.jl"
 }

@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_on_merge.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squash_for_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/GTRS",
+      "target": "autonomousvision/transfuser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "NVlabs/GTRS",
+      "target": "motional/nuplan-devkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_on_merge.yml",
+      "source_repo": "NVlabs/GTRS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/squash_for_release.yml",
+      "source_repo": "NVlabs/GTRS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:18.362143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3424
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1468
+    },
+    {
+      "path": ".github/workflows/release_on_merge.yml",
+      "size": 1535
+    },
+    {
+      "path": ".github/workflows/squash_for_release.yml",
+      "size": 2421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "NVlabs/GTRS",
+    "html_url": "https://github.com/NVlabs/GTRS",
+    "language": "Python",
+    "pushed_at": "2026-02-09T13:19:15Z",
+    "stargazers_count": 263,
+    "topics": [],
+    "updated_at": "2026-04-22T20:03:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/transfuser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "motional/nuplan-devkit",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

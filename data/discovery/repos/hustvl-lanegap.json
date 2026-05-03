@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:31:49.603569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3030
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024] Lane Graph as Path: Continuity-preserving Path-wise Modeling for Online Lane Graph Construction",
+    "fork": false,
+    "full_name": "hustvl/LaneGAP",
+    "html_url": "https://github.com/hustvl/LaneGAP",
+    "language": null,
+    "pushed_at": "2024-09-11T04:14:39Z",
+    "stargazers_count": 153,
+    "topics": [],
+    "updated_at": "2026-02-18T22:17:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

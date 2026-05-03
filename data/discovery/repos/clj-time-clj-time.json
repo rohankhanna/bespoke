@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-time/clj-time",
+      "target": "dm3/clojure.java-time",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-time/clj-time",
+      "target": "henryw374/cljc.java-time",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-time/clj-time",
+      "target": "juxt/tick",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:37:09.163416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A date and time library for Clojure, wrapping the Joda Time library.",
+    "fork": true,
+    "full_name": "clj-time/clj-time",
+    "html_url": "https://github.com/clj-time/clj-time",
+    "language": "Clojure",
+    "pushed_at": "2021-09-13T17:45:17Z",
+    "stargazers_count": 737,
+    "topics": [],
+    "updated_at": "2026-04-15T03:14:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dm3/clojure.java-time",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "henryw374/cljc.java-time",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juxt/tick",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

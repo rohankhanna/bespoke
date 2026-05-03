@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/moco-v3",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:37:31.296749+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7750
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "PyTorch implementation of MoCo v3 https//arxiv.org/abs/2104.02057",
+    "fork": false,
+    "full_name": "facebookresearch/moco-v3",
+    "html_url": "https://github.com/facebookresearch/moco-v3",
+    "language": "Python",
+    "pushed_at": "2021-11-25T09:33:38Z",
+    "stargazers_count": 1322,
+    "topics": [],
+    "updated_at": "2026-04-16T18:55:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

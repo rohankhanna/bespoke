@@ -139,6 +139,18 @@
       "source_repo": "githubnext/monaspace",
       "status": "candidate-context",
       "text": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. It consists of five variable axis typefaces. Each one has a distinct voice, but they are all metrics-compatible with one another, allowing you to mix and match them for a more expre\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "7368697661/Origami",
+      "status": "candidate-context",
+      "text": "Origami was crafted with \ud83d\udc96 to mimic the tactility of paper, but introduce digital tools \ud83e\uddbe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "7368697661/Origami",
+      "status": "candidate-context",
+      "text": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "githubnext/monaspace",
       "status": "candidate",
       "text": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. It consists of five variable axis typefaces. Each one has a distinct voice, but they are all metrics-compatible with one another, allowing you to mix and match them for a more expre\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "7368697661/Origami",
+      "status": "candidate",
+      "text": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)"
     }
   ],
   "candidate_related_terms": [
@@ -384,11 +402,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "githubnext/monaspace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "7368697661/Origami"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

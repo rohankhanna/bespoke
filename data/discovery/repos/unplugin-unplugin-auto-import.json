@@ -191,13 +191,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "unplugin/unplugin-auto-import",
-      "target": "unjs/unplugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unplugin/unplugin-auto-import",
       "target": "antfu/unplugin-auto-import",
       "target_type": "repository"
     },
@@ -489,7 +482,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:58:44.642419+00:00",
+  "fetched_at": "2026-05-03T16:35:38.339737+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -535,11 +528,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "antfu/unplugin-auto-import",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "unjs/unplugin",
       "source_file": "README.md"
     }
   ],

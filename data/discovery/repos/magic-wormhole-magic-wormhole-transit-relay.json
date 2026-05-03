@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "magic-wormhole/magic-wormhole-transit-relay",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "magic-wormhole/magic-wormhole-transit-relay",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "magic-wormhole/magic-wormhole-transit-relay",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:54.075338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1844
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 740
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Transit Relay server for Magic-Wormhole",
+    "fork": false,
+    "full_name": "magic-wormhole/magic-wormhole-transit-relay",
+    "html_url": "https://github.com/magic-wormhole/magic-wormhole-transit-relay",
+    "language": "Python",
+    "pushed_at": "2026-03-02T20:00:58Z",
+    "stargazers_count": 206,
+    "topics": [],
+    "updated_at": "2026-03-22T19:26:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    }
+  ]
+}

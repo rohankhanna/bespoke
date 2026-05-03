@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_deps_check.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_deps_check.yml"
+    },
+    {
+      "component": "JasonEtco/create-an-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_deps_check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "stefnotch/winit_input_helper",
+      "target": "rukai/winit_input_helper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_deps_check.yml",
+      "source_repo": "stefnotch/winit_input_helper",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_deps_check.yml",
+      "source_repo": "stefnotch/winit_input_helper",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_deps_check.yml",
+      "source_repo": "stefnotch/winit_input_helper",
+      "target": "JasonEtco/create-an-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_deps_check.yml",
+      "source_repo": "stefnotch/winit_input_helper",
+      "target": "Nightly Deps Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "stefnotch/winit_input_helper",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "stefnotch/winit_input_helper",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "stefnotch/winit_input_helper",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "stefnotch/winit_input_helper",
+      "target": "Testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:45:39.053164+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 695
+    },
+    {
+      "path": ".github/workflows/nightly_deps_check.yml",
+      "size": 2567
+    },
+    {
+      "path": ".github/workflows/testing.yml",
+      "size": 2454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Processes winit events, allowing input state to be queried at any time.",
+    "fork": true,
+    "full_name": "stefnotch/winit_input_helper",
+    "html_url": "https://github.com/stefnotch/winit_input_helper",
+    "language": "Rust",
+    "pushed_at": "2025-09-18T02:09:54Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-09-18T02:09:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rukai/winit_input_helper",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Nightly Deps Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_deps_check.yml",
+      "term": "Nightly Deps Check"
+    },
+    {
+      "context_snippet": "Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testing.yml",
+      "term": "Testing"
+    }
+  ]
+}

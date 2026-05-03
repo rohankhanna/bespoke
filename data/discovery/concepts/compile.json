@@ -178,6 +178,18 @@
       "source_repo": "helpers/handlebars-helpers",
       "status": "candidate-context",
       "text": "> More than 130 Handlebars helpers in ~20 categories. Helpers can be used with Assemble, Generate, Verb, Ghost, gulp-handlebars, grunt-handlebars, consolidate, or any node.js/Handlebars project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "melpa/package-build",
+      "status": "candidate-context",
+      "text": "Tools for assembling a package archive"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melpa/package-build",
+      "status": "candidate-context",
+      "text": "Compile"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +276,12 @@
       "source_repo": "helpers/handlebars-helpers",
       "status": "candidate",
       "text": "> More than 130 Handlebars helpers in ~20 categories. Helpers can be used with Assemble, Generate, Verb, Ghost, gulp-handlebars, grunt-handlebars, consolidate, or any node.js/Handlebars project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "melpa/package-build",
+      "status": "candidate",
+      "text": "Compile"
     }
   ],
   "candidate_related_terms": [
@@ -427,11 +445,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "helpers/handlebars-helpers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "melpa/package-build"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

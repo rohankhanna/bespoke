@@ -271,6 +271,30 @@
       "source_repo": "jrouwe/JoltPhysics.js",
       "status": "candidate-context",
       "text": "[![Version](https://img.shields.io/npm/v/jolt-physics)](https://www.npmjs.com/package/jolt-physics)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate-context",
+      "text": "\ud83c\udfae Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate-context",
+      "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrouwe/JoltPhysics",
+      "status": "candidate-context",
+      "text": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrouwe/JoltPhysics",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/jrouwe/JoltPhysics)](https://cla-assistant.io/jrouwe/JoltPhysics)"
     }
   ],
   "candidate_glosses": [
@@ -405,6 +429,18 @@
       "source_repo": "jrouwe/JoltPhysics.js",
       "status": "candidate",
       "text": "[![Version](https://img.shields.io/npm/v/jolt-physics)](https://www.npmjs.com/package/jolt-physics)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate",
+      "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrouwe/JoltPhysics",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/jrouwe/JoltPhysics)](https://cla-assistant.io/jrouwe/JoltPhysics)"
     }
   ],
   "candidate_related_terms": [],
@@ -568,11 +604,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "jrouwe/JoltPhysics.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jrouwe/JoltPhysics"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "manga"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe-type-tools/Adobe-Manga1",
+      "status": "candidate-context",
+      "text": "The Adobe-Manga1-0 Character Collection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-type-tools/Adobe-Manga1",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/adobe-type-tools/Adobe-Manga1/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-type-tools/Adobe-Manga1",
+      "status": "candidate",
+      "text": "[English](https://github.com/adobe-type-tools/Adobe-Manga1/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19953550,
+      "status": "candidate",
+      "text": "mana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19918550,
+      "status": "candidate",
+      "text": "manna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19907264,
+      "status": "candidate",
+      "text": "sleeve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19892664,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019822,
+      "status": "candidate",
+      "text": "animanga"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "manga",
+  "concept_id": "manga",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "adobe-type-tools/Adobe-Manga1"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "manga",
+      "sense_id": "manga#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

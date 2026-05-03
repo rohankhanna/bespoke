@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brettwooldridge/HikariCP",
+      "target": "brettwooldridge/hikaricp-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brettwooldridge/HikariCP",
+      "target": "bitronix/btm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brettwooldridge/HikariCP",
+      "target": "arthurblake/log4jdbc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "brettwooldridge/HikariCP",
+      "target": "tomekw/hucpa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brettwooldridge/HikariCP",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brettwooldridge/HikariCP",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brettwooldridge/HikariCP",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brettwooldridge/HikariCP",
+      "target": "connection-pool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brettwooldridge/HikariCP",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brettwooldridge/HikariCP",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brettwooldridge/HikariCP",
+      "target": "jdbc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:37:54.788492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36969
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "\u5149 HikariCP\u30fbA solid, high-performance, JDBC connection pool at last.",
+    "fork": false,
+    "full_name": "brettwooldridge/HikariCP",
+    "html_url": "https://github.com/brettwooldridge/HikariCP",
+    "language": "Java",
+    "pushed_at": "2025-11-04T07:50:44Z",
+    "stargazers_count": 21109,
+    "topics": [
+      "connection-pool",
+      "high-performance",
+      "java",
+      "jdbc"
+    ],
+    "updated_at": "2026-05-03T11:48:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arthurblake/log4jdbc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitronix/btm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brettwooldridge/hikaricp-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tomekw/hucpa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1><img src=\"https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png\"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi\u00b7ka\u00b7ri [hi\u00b7ka\u00b7'l\u0113] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connection-pool"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png\"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi\u00b7ka\u00b7ri [hi\u00b7ka\u00b7'l\u0113] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png\"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi\u00b7ka\u00b7ri [hi\u00b7ka\u00b7'l\u0113] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<h1><img src=\"https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png\"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi\u00b7ka\u00b7ri [hi\u00b7ka\u00b7'l\u0113] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jdbc"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/scidocs",
+      "target": "allenai/paper-embedding-public-apis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/scidocs",
+      "target": "allenai/specter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/scidocs",
+      "target": "allenai/scirepeval",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:35:51.057088+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dataset accompanying the SPECTER model",
+    "fork": false,
+    "full_name": "allenai/scidocs",
+    "html_url": "https://github.com/allenai/scidocs",
+    "language": "Python",
+    "pushed_at": "2022-12-19T23:13:56Z",
+    "stargazers_count": 146,
+    "topics": [],
+    "updated_at": "2026-04-14T10:11:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/paper-embedding-public-apis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/scirepeval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/specter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

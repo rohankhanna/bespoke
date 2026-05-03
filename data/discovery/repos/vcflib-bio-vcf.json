@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vcflib/bio-vcf",
+      "target": "pjotrp/bioruby-table",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vcflib/bio-vcf",
+      "target": "cuppenresearch/bioruby-vcf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:45:06.382720+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Smart VCF parser DSL",
+    "fork": false,
+    "full_name": "vcflib/bio-vcf",
+    "html_url": "https://github.com/vcflib/bio-vcf",
+    "language": "Ruby",
+    "pushed_at": "2022-05-24T13:48:34Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2025-07-06T19:47:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cuppenresearch/bioruby-vcf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pjotrp/bioruby-table",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

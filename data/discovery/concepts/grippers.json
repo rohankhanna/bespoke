@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "grippers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Galaxies99/easyrobot",
+      "status": "candidate-context",
+      "text": "An Easy and Unified Interface for Robots (and Grippers, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Galaxies99/easyrobot",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/easyrobot.png\" alt=\"easyrobot\" height=200 />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Galaxies99/easyrobot",
+      "status": "candidate",
+      "text": "<img src=\"assets/easyrobot.png\" alt=\"easyrobot\" height=200 />"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "talons"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31524,
+      "status": "candidate",
+      "text": "grip strength"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31523,
+      "status": "candidate",
+      "text": "hook grip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31522,
+      "status": "candidate",
+      "text": "strength training"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31521,
+      "status": "candidate",
+      "text": "compressive strength"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "grippers",
+  "concept_id": "grippers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Galaxies99/easyrobot"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grippers",
+      "sense_id": "grippers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

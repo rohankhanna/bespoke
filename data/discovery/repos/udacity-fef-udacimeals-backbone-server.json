@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "udacity/FEF-UdaciMeals-Backbone-Server",
+      "target": "geertjohan/go.rice",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:43:55.098937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Back-end server for use with Udacity's Front-End Frameworks course",
+    "fork": true,
+    "full_name": "udacity/FEF-UdaciMeals-Backbone-Server",
+    "html_url": "https://github.com/udacity/FEF-UdaciMeals-Backbone-Server",
+    "language": "Go",
+    "pushed_at": "2021-10-21T13:33:42Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2022-01-26T16:43:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geertjohan/go.rice",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/setup-gcloud@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-to-cloudrun.yml",
       "source_repo": "nomadkaraoke/python-audio-separator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev_deploy.yml",
+      "source_repo": "google/litmus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prod_deploy.yml",
+      "source_repo": "google/litmus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/uat_deploy.yml",
+      "source_repo": "google/litmus"
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-type-tools/Adobe-GB1",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-type-tools/Adobe-GB1",
+      "target": "simplified-chinese",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:15.519982+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Adobe-GB1-6 Character Collection",
+    "fork": false,
+    "full_name": "adobe-type-tools/Adobe-GB1",
+    "html_url": "https://github.com/adobe-type-tools/Adobe-GB1",
+    "language": null,
+    "pushed_at": "2023-06-21T01:09:25Z",
+    "stargazers_count": 27,
+    "topics": [
+      "fonts",
+      "simplified-chinese"
+    ],
+    "updated_at": "2025-05-10T17:55:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simplified-chinese"
+    }
+  ]
+}

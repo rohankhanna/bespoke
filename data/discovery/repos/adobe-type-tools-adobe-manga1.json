@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-type-tools/Adobe-Manga1",
+      "target": "fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-type-tools/Adobe-Manga1",
+      "target": "japanese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adobe-type-tools/Adobe-Manga1",
+      "target": "manga",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:16.756958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Adobe-Manga1-0 Character Collection",
+    "fork": false,
+    "full_name": "adobe-type-tools/Adobe-Manga1",
+    "html_url": "https://github.com/adobe-type-tools/Adobe-Manga1",
+    "language": null,
+    "pushed_at": "2026-03-07T22:58:57Z",
+    "stargazers_count": 6,
+    "topics": [
+      "fonts",
+      "japanese",
+      "manga"
+    ],
+    "updated_at": "2026-03-11T04:00:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[English](https://github.com/adobe-type-tools/Adobe-Manga1/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fonts"
+    },
+    {
+      "context_snippet": "[English](https://github.com/adobe-type-tools/Adobe-Manga1/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "japanese"
+    },
+    {
+      "context_snippet": "[English](https://github.com/adobe-type-tools/Adobe-Manga1/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manga"
+    }
+  ]
+}

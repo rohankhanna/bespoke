@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "bodec",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "culvert",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "git-sha1",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pako",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "creationix/js-git",
+      "target": "creationix/gen-run",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "creationix/js-git",
+      "target": "creationix/git-tree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "creationix/js-git",
+      "target": "creationix/tedit-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "creationix/js-git",
+      "target": "creationix/js-github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "creationix/js-git",
+      "target": "bodec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "creationix/js-git",
+      "target": "culvert",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "creationix/js-git",
+      "target": "git-sha1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "creationix/js-git",
+      "target": "pako",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:42:59.620342+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9635
+    },
+    {
+      "path": "package.json",
+      "size": 562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A JavaScript implementation of Git.",
+    "fork": false,
+    "full_name": "creationix/js-git",
+    "html_url": "https://github.com/creationix/js-git",
+    "language": "JavaScript",
+    "pushed_at": "2021-11-06T16:38:31Z",
+    "stargazers_count": 3844,
+    "topics": [],
+    "updated_at": "2026-04-26T12:20:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/gen-run",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/git-tree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/js-github",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/tedit-app",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

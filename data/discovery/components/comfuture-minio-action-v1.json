@@ -1,0 +1,12 @@
+{
+  "component": "comfuture/minio-action@v1",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-main.yml",
+      "source_repo": "saalfeldlab/n5-aws-s3"
+    }
+  ]
+}

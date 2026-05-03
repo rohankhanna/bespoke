@@ -1,0 +1,374 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java11.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java11.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java17.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java17.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java21.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java21.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java25.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java25.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java8.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java8.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java11.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java11.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-java11.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "Java 11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java17.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java17.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-java17.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "Java 17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java21.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java21.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-java21.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "Java 21",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java25.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java25.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-java25.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "Java 25",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java8.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-java8.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-java8.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "Java 8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-arm64.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "MacOS arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-x64.yaml",
+      "source_repo": "fizzed/blaze",
+      "target": "Windows x64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fizzed/blaze",
+      "target": "groovy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fizzed/blaze",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fizzed/blaze",
+      "target": "jvm-languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fizzed/blaze",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:42:01.410531+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18304
+    },
+    {
+      "path": ".github/workflows/linux-java11.yaml",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/linux-java17.yaml",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/linux-java21.yaml",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/linux-java25.yaml",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/linux-java8.yaml",
+      "size": 327
+    },
+    {
+      "path": ".github/workflows/macos-arm64.yaml",
+      "size": 332
+    },
+    {
+      "path": ".github/workflows/windows-x64.yaml",
+      "size": 334
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Write your shell scripts on the JVM (java, kotlin, groovy, etc.) ",
+    "fork": false,
+    "full_name": "fizzed/blaze",
+    "html_url": "https://github.com/fizzed/blaze",
+    "language": "Java",
+    "pushed_at": "2026-01-26T21:55:18Z",
+    "stargazers_count": 148,
+    "topics": [
+      "groovy",
+      "java",
+      "jvm-languages",
+      "kotlin"
+    ],
+    "updated_at": "2026-04-01T19:36:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java 11",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-java11.yaml",
+      "term": "Java 11"
+    },
+    {
+      "context_snippet": "Java 17",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-java17.yaml",
+      "term": "Java 17"
+    },
+    {
+      "context_snippet": "Java 21",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-java21.yaml",
+      "term": "Java 21"
+    },
+    {
+      "context_snippet": "Java 25",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-java25.yaml",
+      "term": "Java 25"
+    },
+    {
+      "context_snippet": "Java 8",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-java8.yaml",
+      "term": "Java 8"
+    },
+    {
+      "context_snippet": "MacOS arm64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-arm64.yaml",
+      "term": "MacOS arm64"
+    },
+    {
+      "context_snippet": "Windows x64",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-x64.yaml",
+      "term": "Windows x64"
+    },
+    {
+      "context_snippet": "Blaze by Fizzed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "groovy"
+    },
+    {
+      "context_snippet": "Blaze by Fizzed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Blaze by Fizzed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jvm-languages"
+    },
+    {
+      "context_snippet": "Blaze by Fizzed",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

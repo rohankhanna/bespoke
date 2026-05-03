@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:32:03.056685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4898
+    },
+    {
+      "path": "requirements.txt",
+      "size": 707
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "uniad/vad",
+    "description": "BEVFormer, UniAD, VAD in Closed-Loop CARLA Evaluation with World Model RL Expert Think2Drive",
+    "fork": false,
+    "full_name": "Thinklab-SJTU/Bench2DriveZoo",
+    "html_url": "https://github.com/Thinklab-SJTU/Bench2DriveZoo",
+    "language": "Python",
+    "pushed_at": "2024-12-02T10:22:03Z",
+    "stargazers_count": 383,
+    "topics": [],
+    "updated_at": "2026-04-30T07:40:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

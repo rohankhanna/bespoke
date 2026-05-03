@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Write your shell scripts on the JVM (java, kotlin, groovy, etc.) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Blaze by Fizzed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Blaze by Fizzed"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jvm-languages",
+      "sense_id": "jvm-languages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jvm-languages",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jvm-languages",
+  "observation_id": "392dca5530117882",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "jvm-languages",
+  "source_context_snippet": "Blaze by Fizzed",
+  "source_file": null,
+  "source_repo": "fizzed/blaze",
+  "source_repo_description": "Write your shell scripts on the JVM (java, kotlin, groovy, etc.) "
+}

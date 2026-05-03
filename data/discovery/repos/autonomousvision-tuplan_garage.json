@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/tuplan_garage",
+      "target": "autonomousvision/sledge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autonomousvision/tuplan_garage",
+      "target": "opendrivelab/end-to-end-autonomous-driving",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/tuplan_garage",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/tuplan_garage",
+      "target": "corl23",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/tuplan_garage",
+      "target": "nuplan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/tuplan_garage",
+      "target": "planning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autonomousvision/tuplan_garage",
+      "target": "self-driving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:47.964760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10553
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CoRL'23] Parting with Misconceptions about Learning-based Vehicle Motion Planning",
+    "fork": false,
+    "full_name": "autonomousvision/tuplan_garage",
+    "html_url": "https://github.com/autonomousvision/tuplan_garage",
+    "language": "Python",
+    "pushed_at": "2025-05-16T14:52:26Z",
+    "stargazers_count": 698,
+    "topics": [
+      "autonomous-driving",
+      "corl23",
+      "nuplan",
+      "planning",
+      "self-driving"
+    ],
+    "updated_at": "2026-04-27T16:56:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/sledge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendrivelab/end-to-end-autonomous-driving",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corl23"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuplan"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "planning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-driving"
+    }
+  ]
+}

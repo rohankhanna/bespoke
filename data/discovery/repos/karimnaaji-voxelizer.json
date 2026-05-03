@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karimnaaji/voxelizer",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karimnaaji/voxelizer",
+      "target": "geometry-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "karimnaaji/voxelizer",
+      "target": "voxelizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:46:01.327629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 791
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Header only mesh voxelizer in c99",
+    "fork": false,
+    "full_name": "karimnaaji/voxelizer",
+    "html_url": "https://github.com/karimnaaji/voxelizer",
+    "language": "C",
+    "pushed_at": "2022-01-03T20:52:52Z",
+    "stargazers_count": 660,
+    "topics": [
+      "c99",
+      "computer-graphics",
+      "geometry-processing",
+      "voxelizer"
+    ],
+    "updated_at": "2026-04-18T03:46:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "_Header only mesh voxelizer in ANSI C_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "_Header only mesh voxelizer in ANSI C_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry-processing"
+    },
+    {
+      "context_snippet": "_Header only mesh voxelizer in ANSI C_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voxelizer"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "robotology/robotology-superbuild",
       "status": "candidate-context",
       "text": "This is a meta repository (so-called \"superbuild\") that uses [CMake](https://cmake.org/) and [YCM](https://github.com/robotology/ycm-cmake-modules) to automatically"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "YCM (YCM CMake modules) is a collection of various useful CMake modules. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "ycm-cmake-modules"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "robotology/robotology-superbuild",
       "status": "candidate",
       "text": "This is a meta repository (so-called \"superbuild\") that uses [CMake](https://cmake.org/) and [YCM](https://github.com/robotology/ycm-cmake-modules) to automatically"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate",
+      "text": "ycm-cmake-modules"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "robotology/robotology-superbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

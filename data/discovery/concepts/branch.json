@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "branch"
+    "branch",
+    "Branch"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "andys8/git-brunch",
       "status": "candidate-context",
       "text": "A git command-line tool to work with branches"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ReactiveX/RxJava",
+      "status": "candidate-context",
+      "text": "RxJava \u2013 Reactive Extensions for the JVM \u2013 a library for composing asynchronous and event-based programs using observable sequences for the Java VM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReactiveX/RxJava",
+      "status": "candidate-context",
+      "text": "Branch"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "andys8/git-brunch",
       "status": "candidate",
       "text": "A git command-line tool to work with branches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReactiveX/RxJava",
+      "status": "candidate",
+      "text": "Branch"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +133,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "andys8/git-brunch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/gradle_branch.yml",
+      "source_repo": "ReactiveX/RxJava"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

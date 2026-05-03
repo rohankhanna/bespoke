@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github_mirror_to_gitlab.yml",
+      "source_repo": "cnosdb/cnosdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github_mirror_to_gitlab_ontime.yml",
+      "source_repo": "cnosdb/cnosdb"
+    }
+  ],
+  "term": "Mirror and run GitLab CI"
+}

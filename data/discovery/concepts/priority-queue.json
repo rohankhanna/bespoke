@@ -31,6 +31,30 @@
       "source_repo": "mourner/flatqueue",
       "status": "candidate-context",
       "text": "A very fast and tiny binary heap priority queue in JavaScript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luciopaiva/heapify",
+      "status": "candidate-context",
+      "text": "The fastest JavaScript priority queue out there. Zero dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luciopaiva/heapify",
+      "status": "candidate-context",
+      "text": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "status": "candidate-context",
+      "text": "a fast heap-based priority queue in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "status": "candidate-context",
+      "text": "In a priority queue, you can..."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "mourner/flatqueue",
       "status": "candidate",
       "text": "A very fast and tiny binary heap priority queue in JavaScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luciopaiva/heapify",
+      "status": "candidate",
+      "text": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "status": "candidate",
+      "text": "In a priority queue, you can..."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "mourner/flatqueue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "luciopaiva/heapify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lemire/FastPriorityQueue.js"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-plugin-toolkit",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-plugin-toolkit",
+      "target": "context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-plugin-toolkit",
+      "target": "extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-plugin-toolkit",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-plugin-toolkit",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-plugin-toolkit",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-plugin-toolkit",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-plugin-toolkit",
+      "target": "sanic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:37:28.335962+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 8161
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easily create Plugins for Sanic!",
+    "fork": false,
+    "full_name": "ashleysommer/sanic-plugin-toolkit",
+    "html_url": "https://github.com/ashleysommer/sanic-plugin-toolkit",
+    "language": "Python",
+    "pushed_at": "2022-12-08T13:19:44Z",
+    "stargazers_count": 52,
+    "topics": [
+      "async",
+      "context",
+      "extension",
+      "framework",
+      "middleware",
+      "plugin",
+      "python3",
+      "sanic"
+    ],
+    "updated_at": "2025-10-12T07:01:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Sanic Plugin Toolkit",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "Sanic Plugin Toolkit",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context"
+    },
+    {
+      "context_snippet": "Sanic Plugin Toolkit",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extension"
+    },
+    {
+      "context_snippet": "Sanic Plugin Toolkit",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "Sanic Plugin Toolkit",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "Sanic Plugin Toolkit",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "Sanic Plugin Toolkit",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "Sanic Plugin Toolkit",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanic"
+    }
+  ]
+}

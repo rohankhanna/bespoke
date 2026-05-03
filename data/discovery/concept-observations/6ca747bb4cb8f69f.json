@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vue implementation of the Carbon Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Storybook"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Storybook"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10399,
+      "status": "candidate",
+      "text": "elf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10399,
+      "status": "candidate",
+      "text": "ever"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10399,
+      "status": "candidate",
+      "text": "troll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10381,
+      "status": "candidate",
+      "text": "ballad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10381,
+      "status": "candidate",
+      "text": "cartoon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Storybook",
+      "sense_id": "deploy-storybook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-storybook",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-storybook",
+  "observation_id": "6ca747bb4cb8f69f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Deploy Storybook",
+  "source_context_snippet": "Deploy Storybook",
+  "source_file": ".github/workflows/deploy-vue-storybook.yml",
+  "source_repo": "carbon-design-system/carbon-components-vue",
+  "source_repo_description": "Vue implementation of the Carbon Design System"
+}

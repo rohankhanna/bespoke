@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/HAIS",
+      "target": "outsidercsy/spconv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/HAIS",
+      "target": "dvlab-research/pointgroup",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:47:25.233082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9232
+    },
+    {
+      "path": "requirements.txt",
+      "size": 63
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hierarchical Aggregation for 3D Instance Segmentation (ICCV 2021)",
+    "fork": false,
+    "full_name": "hustvl/HAIS",
+    "html_url": "https://github.com/hustvl/HAIS",
+    "language": "Python",
+    "pushed_at": "2022-10-20T14:03:52Z",
+    "stargazers_count": 176,
+    "topics": [],
+    "updated_at": "2026-04-21T10:34:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dvlab-research/pointgroup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "outsidercsy/spconv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

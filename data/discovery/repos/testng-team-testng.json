@@ -1,0 +1,434 @@
+{
+  "components": [
+    {
+      "component": "github/combine-prs@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combine-prs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-commenter.yml"
+    },
+    {
+      "component": "peaceiris/actions-label-commenter@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-commenter.yml"
+    },
+    {
+      "component": "@vlsi/github-actions-random-matrix",
+      "edge_type": "package-json:dependencies",
+      "source_file": ".github/workflows/package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "oracle-actions/setup-java@fff43251af9936a0e6a4d5d0946e14f1680e9b6b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "burrunan/gradle-cache-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "testng-team/testng",
+      "target": "testng-team/testng-team.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "testng-team/testng",
+      "target": "cbeust/testng-eclipse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "testng-team/testng",
+      "target": "github/combine-prs@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "testng-team/testng",
+      "target": "Combine PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "testng-team/testng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "testng-team/testng",
+      "target": "gradle/actions/wrapper-validation@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "testng-team/testng",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-commenter.yml",
+      "source_repo": "testng-team/testng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-commenter.yml",
+      "source_repo": "testng-team/testng",
+      "target": "peaceiris/actions-label-commenter@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-commenter.yml",
+      "source_repo": "testng-team/testng",
+      "target": "Label Commenter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": ".github/workflows/package.json",
+      "source_repo": "testng-team/testng",
+      "target": "@vlsi/github-actions-random-matrix",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "source_repo": "testng-team/testng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "source_repo": "testng-team/testng",
+      "target": "gradle/actions/wrapper-validation@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "source_repo": "testng-team/testng",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "source_repo": "testng-team/testng",
+      "target": "Publish to Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "testng-team/testng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "testng-team/testng",
+      "target": "gradle/actions/wrapper-validation@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "testng-team/testng",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "testng-team/testng",
+      "target": "Publish Snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "testng-team/testng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "testng-team/testng",
+      "target": "oracle-actions/setup-java@fff43251af9936a0e6a4d5d0946e14f1680e9b6b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "testng-team/testng",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "testng-team/testng",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "testng-team/testng",
+      "target": "burrunan/gradle-cache-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "testng-team/testng",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "testng-team/testng",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testng-team/testng",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testng-team/testng",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "testng-team/testng",
+      "target": "testng",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:41:36.234956+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6980
+    },
+    {
+      "path": ".github/workflows/combine-prs.yml",
+      "size": 490
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 224
+    },
+    {
+      "path": ".github/workflows/label-commenter.yml",
+      "size": 325
+    },
+    {
+      "path": ".github/workflows/matrix.mjs",
+      "size": 5569
+    },
+    {
+      "path": ".github/workflows/package-lock.json",
+      "size": 606
+    },
+    {
+      "path": ".github/workflows/package.json",
+      "size": 117
+    },
+    {
+      "path": ".github/workflows/publish-maven-central.yml",
+      "size": 2360
+    },
+    {
+      "path": ".github/workflows/publish-snapshot.yml",
+      "size": 1281
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TestNG testing framework",
+    "fork": false,
+    "full_name": "testng-team/testng",
+    "html_url": "https://github.com/testng-team/testng",
+    "language": "Java",
+    "pushed_at": "2026-05-01T07:21:13Z",
+    "stargazers_count": 2049,
+    "topics": [
+      "java",
+      "jvm",
+      "testing",
+      "testng"
+    ],
+    "updated_at": "2026-05-01T07:21:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cbeust/testng-eclipse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "testng-team/testng-team.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Combine PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "term": "Combine PRs"
+    },
+    {
+      "context_snippet": "\"Validate Gradle Wrapper\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Validate Gradle Wrapper"
+    },
+    {
+      "context_snippet": "Label Commenter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-commenter.yml",
+      "term": "Label Commenter"
+    },
+    {
+      "context_snippet": "Publish to Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "term": "Publish to Maven Central"
+    },
+    {
+      "context_snippet": "Publish Snapshot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "term": "Publish Snapshot"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/org.testng/testng.svg)](https://maven-badges.herokuapp.com/maven-central/org.testng/testng)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/org.testng/testng.svg)](https://maven-badges.herokuapp.com/maven-central/org.testng/testng)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/org.testng/testng.svg)](https://maven-badges.herokuapp.com/maven-central/org.testng/testng)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testng"
+    }
+  ]
+}

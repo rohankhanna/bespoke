@@ -1,15 +1,7 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "appwrite/playground-for-swift",
-      "target": "appwrite/playground-for-apple-swiftui",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-05-02T18:29:45.152007+00:00",
+  "edges": [],
+  "fetched_at": "2026-05-03T12:42:01.042731+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -34,12 +26,6 @@
     "topics": [],
     "updated_at": "2025-04-04T03:49:31Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "appwrite/playground-for-apple-swiftui",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

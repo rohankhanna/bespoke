@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tyrypyrking/egui-ash",
+      "target": "maikklein/ash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "tyrypyrking/egui-ash",
+      "target": "matchachoco010/egui-ash",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:45:56.593299+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4470
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "egui integration for ash (Vulkan).",
+    "fork": false,
+    "full_name": "tyrypyrking/egui-ash",
+    "html_url": "https://github.com/tyrypyrking/egui-ash",
+    "language": "Rust",
+    "pushed_at": "2026-05-03T06:53:45Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-04-13T15:49:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maikklein/ash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matchachoco010/egui-ash",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

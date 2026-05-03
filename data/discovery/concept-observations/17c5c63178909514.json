@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Learning about JavaScript Design Patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "design-patterns",
+      "sense_id": "design-patterns#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "design-patterns",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "design-patterns",
+  "observation_id": "17c5c63178909514",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "design-patterns",
+  "source_context_snippet": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+  "source_file": null,
+  "source_repo": "hchiam/learning-js-design-patterns",
+  "source_repo_description": "Learning about JavaScript Design Patterns"
+}

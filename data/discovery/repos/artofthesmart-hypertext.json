@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artofthesmart/hypertext",
+      "target": "getgrav/grav-plugin-problems",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:34:38.294442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An incredibly fast, compatible, and efficient Grav CMS theme.",
+    "fork": false,
+    "full_name": "artofthesmart/hypertext",
+    "html_url": "https://github.com/artofthesmart/hypertext",
+    "language": "CSS",
+    "pushed_at": "2024-08-19T05:58:32Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-02-15T07:25:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getgrav/grav-plugin-problems",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

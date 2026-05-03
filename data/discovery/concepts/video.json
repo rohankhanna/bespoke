@@ -631,6 +631,18 @@
       "source_repo": "echonet/dynamic",
       "status": "candidate-context",
       "text": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybookjs/brand",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 Materials for your articles and talks about storybook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/brand",
+      "status": "candidate-context",
+      "text": "This repository contains Storybook brand assets. Feel free to use and customize these assets for your articles, talks, addons, websites, and anything else you can think of."
     }
   ],
   "candidate_glosses": [
@@ -945,6 +957,12 @@
       "source_repo": "echonet/dynamic",
       "status": "candidate",
       "text": "EchoNet-Dynamic:<br/>Interpretable AI for beat-to-beat cardiac function assessment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybookjs/brand",
+      "status": "candidate",
+      "text": "This repository contains Storybook brand assets. Feel free to use and customize these assets for your articles, talks, addons, websites, and anything else you can think of."
     }
   ],
   "candidate_related_terms": [
@@ -1429,11 +1447,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "remotion-dev/github-unwrapped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/brand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google-research/frame-interpolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

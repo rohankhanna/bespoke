@@ -103,6 +103,30 @@
       "source_repo": "julia-actions/setup-julia",
       "status": "candidate-context",
       "text": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/DataAPI.jl",
+      "status": "candidate-context",
+      "text": "A data-focused namespace for packages to share functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataAPI.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaData/DataAPI.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/DataAPI.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaStats/StatsAPI.jl",
+      "status": "candidate-context",
+      "text": "A statistics-focused namespace for packages to share functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/StatsAPI.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaStats/StatsAPI.jl/workflows/CI/badge.svg)](https://github.com/JuliaStats/StatsAPI.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "julia-actions/setup-julia",
       "status": "candidate",
       "text": "[![CodeQL](https://github.com/julia-actions/setup-julia/workflows/CodeQL/badge.svg)](https://securitylab.github.com/tools/codeql)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/DataAPI.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaData/DataAPI.jl/workflows/CI/badge.svg)](https://github.com/JuliaData/DataAPI.jl/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/StatsAPI.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaStats/StatsAPI.jl/workflows/CI/badge.svg)](https://github.com/JuliaStats/StatsAPI.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +244,23 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "julia-actions/setup-julia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/DataAPI.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaStats/StatsAPI.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

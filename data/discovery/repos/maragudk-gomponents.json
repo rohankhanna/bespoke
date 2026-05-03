@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "maragudk/gomponents",
+      "target": "maragudk/gomponents-starter-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "maragudk/gomponents",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "maragudk/gomponents",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "maragudk/gomponents",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "maragudk/gomponents",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maragudk/gomponents",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maragudk/gomponents",
+      "target": "gomponents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maragudk/gomponents",
+      "target": "html",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:42:20.039869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7167
+    },
+    {
+      "path": "go.mod",
+      "size": 40
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HTML components in pure Go.",
+    "fork": false,
+    "full_name": "maragudk/gomponents",
+    "html_url": "https://github.com/maragudk/gomponents",
+    "language": "Go",
+    "pushed_at": "2026-04-29T12:40:42Z",
+    "stargazers_count": 1821,
+    "topics": [
+      "go",
+      "golang",
+      "gomponents",
+      "html"
+    ],
+    "updated_at": "2026-05-03T14:51:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maragudk/gomponents-starter-kit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gomponents"
+    },
+    {
+      "context_snippet": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    }
+  ]
+}

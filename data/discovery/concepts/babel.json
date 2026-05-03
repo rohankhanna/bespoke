@@ -367,6 +367,30 @@
       "source_repo": "fkling/astexplorer",
       "status": "candidate-context",
       "text": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/fkling/astexplorer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/babel-eslint",
+      "status": "candidate-context",
+      "text": ":tokyo_tower: A wrapper for Babel's parser used for ESLint (renamed to @babel/eslint-parser)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel-eslint",
+      "status": "candidate-context",
+      "text": "**babel-eslint** allows you to lint **ALL** valid Babel code with the fantastic"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SimulatedGREG/electron-vue",
+      "status": "candidate-context",
+      "text": "An Electron & Vue.js quick start boilerplate with vue-cli scaffolding, common Vue plugins, electron-packager/electron-builder, unit/e2e testing, vue-devtools, and webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimulatedGREG/electron-vue",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +573,18 @@
       "source_repo": "fkling/astexplorer",
       "status": "candidate",
       "text": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/fkling/astexplorer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel-eslint",
+      "status": "candidate",
+      "text": "**babel-eslint** allows you to lint **ALL** valid Babel code with the fantastic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimulatedGREG/electron-vue",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -900,11 +936,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "jamiebuilds/babel-handbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "babel/babel-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "SimulatedGREG/electron-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jamiebuilds/babel-handbook"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

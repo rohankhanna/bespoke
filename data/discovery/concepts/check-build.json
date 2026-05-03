@@ -32,6 +32,18 @@
       "source_repo": "mjpost/sacrebleu",
       "status": "candidate-context",
       "text": "check-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-components-angular",
+      "status": "candidate-context",
+      "text": "An Angular implementation of the Carbon Design System for IBM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-angular",
+      "status": "candidate-context",
+      "text": "Check build"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "mjpost/sacrebleu",
       "status": "candidate",
       "text": "check-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-angular",
+      "status": "candidate",
+      "text": "Check build"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/check-build.yml",
       "source_repo": "mjpost/sacrebleu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "carbon-design-system/carbon-components-angular"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

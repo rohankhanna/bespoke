@@ -442,6 +442,18 @@
       "source_repo": "h2oai/sparkling-water",
       "status": "candidate-context",
       "text": "Sparkling Water"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cognizant-ai-lab/neuro-san",
+      "status": "candidate-context",
+      "text": "Neuro AI System of Agent Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cognizant-ai-lab/neuro-san",
+      "status": "candidate-context",
+      "text": "Integration"
     }
   ],
   "candidate_glosses": [
@@ -660,6 +672,12 @@
       "source_repo": "h2oai/sparkling-water",
       "status": "candidate",
       "text": "Sparkling Water"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cognizant-ai-lab/neuro-san",
+      "status": "candidate",
+      "text": "Integration"
     }
   ],
   "candidate_related_terms": [
@@ -1079,11 +1097,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "google-deepmind/dm-haiku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

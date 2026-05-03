@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Communication infrastructure for the AI era \u2014 one binary, one broker, one storage layer, any protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Ig All Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Ig All Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25975,
+      "status": "candidate",
+      "text": "far"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18543,
+      "status": "candidate",
+      "text": "protein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18532,
+      "status": "candidate",
+      "text": "immunoglobulin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18520,
+      "status": "candidate",
+      "text": "enormous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14333,
+      "status": "candidate",
+      "text": "domain"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ig All Test",
+      "sense_id": "ig-all-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ig-all-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ig-all-test",
+  "observation_id": "d7717cd53d8fce15",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Ig All Test",
+  "source_context_snippet": "Ig All Test",
+  "source_file": ".github/workflows/ig-all-test.yml",
+  "source_repo": "robustmq/robustmq",
+  "source_repo_description": "Communication infrastructure for the AI era \u2014 one binary, one broker, one storage layer, any protocol"
+}

@@ -175,6 +175,18 @@
       "source_repo": "Yochengliu/Relation-Shape-CNN",
       "status": "candidate-context",
       "text": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "C++ library designed to provide an abstraction for different rendering engines. It offers unified APIs for creating 3D graphics applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "Yochengliu/Relation-Shape-CNN",
       "status": "candidate",
       "text": "Relation-Shape Convolutional Neural Network for Point Cloud Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
     }
   ],
   "candidate_related_terms": [],
@@ -352,11 +370,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "Yochengliu/Relation-Shape-CNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-rendering"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

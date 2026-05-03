@@ -1,0 +1,257 @@
+{
+  "components": [
+    {
+      "component": "benchmark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "binaryheapx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "heap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-heap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-priority-queue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "priority_queue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "priorityqueuejs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "qheap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "queue-priority",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "stablepriorityqueue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yabh",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "adamhooper/js-priority-queue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "agnat/js_priority_queue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "augustohp/priority-queue-nodejs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "andrasq/node-qheap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "benchmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "binaryheapx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "heap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "js-heap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "js-priority-queue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "priority_queue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "priorityqueuejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "qheap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "queue-priority",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "stablepriorityqueue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "yabh",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "heap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "target": "priority-queue",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:45:51.310782+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7572
+    },
+    {
+      "path": "package.json",
+      "size": 1139
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a fast heap-based priority queue in JavaScript",
+    "fork": false,
+    "full_name": "lemire/FastPriorityQueue.js",
+    "html_url": "https://github.com/lemire/FastPriorityQueue.js",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-25T05:17:39Z",
+    "stargazers_count": 365,
+    "topics": [
+      "heap",
+      "javascript",
+      "priority-queue"
+    ],
+    "updated_at": "2026-04-19T15:58:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamhooper/js-priority-queue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agnat/js_priority_queue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrasq/node-qheap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "augustohp/priority-queue-nodejs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "In a priority queue, you can...",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heap"
+    },
+    {
+      "context_snippet": "In a priority queue, you can...",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "priority-queue"
+    }
+  ]
+}

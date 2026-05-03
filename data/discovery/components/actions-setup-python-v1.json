@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v1",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -857,6 +857,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-doc.yml",
       "source_repo": "scalabel/scalabel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JuliaPy/Pandas.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "higlass/higlass"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pythonpackage.yml",
+      "source_repo": "Lyken17/pytorch-OpCounter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-merge.yml",
+      "source_repo": "TRI-ML/dgp"
     }
   ]
 }

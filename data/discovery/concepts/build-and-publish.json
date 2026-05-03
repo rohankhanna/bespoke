@@ -134,6 +134,18 @@
       "source_repo": "ScaCap/spring-auto-restdocs",
       "status": "candidate-context",
       "text": "Build and Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AMLab-Amsterdam/lie_learn",
+      "status": "candidate-context",
+      "text": "Computations involving Lie groups and harmonic analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AMLab-Amsterdam/lie_learn",
+      "status": "candidate-context",
+      "text": "\"Build and Publish\""
     }
   ],
   "candidate_glosses": [
@@ -202,6 +214,12 @@
       "source_repo": "ScaCap/spring-auto-restdocs",
       "status": "candidate",
       "text": "Build and Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AMLab-Amsterdam/lie_learn",
+      "status": "candidate",
+      "text": "\"Build and Publish\""
     }
   ],
   "candidate_related_terms": [
@@ -329,11 +347,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "ScaCap/spring-auto-restdocs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "AMLab-Amsterdam/lie_learn"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

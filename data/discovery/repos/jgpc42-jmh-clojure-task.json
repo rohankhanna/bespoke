@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jgpc42/jmh-clojure-task",
+      "target": "tonsky/uberdeps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jgpc42/jmh-clojure-task",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jgpc42/jmh-clojure-task",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jgpc42/jmh-clojure-task",
+      "target": "Test runner",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:47:26.522224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5686
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convenience tools for jmh-clojure",
+    "fork": false,
+    "full_name": "jgpc42/jmh-clojure-task",
+    "html_url": "https://github.com/jgpc42/jmh-clojure-task",
+    "language": "Clojure",
+    "pushed_at": "2026-01-10T20:20:51Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-01-10T20:20:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tonsky/uberdeps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test runner"
+    }
+  ]
+}

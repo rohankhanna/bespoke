@@ -1,0 +1,92 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning-angular8",
+      "target": "angular",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning-angular8",
+      "target": "angular8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning-angular8",
+      "target": "angularcli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning-angular8",
+      "target": "scss",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:33.992858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2302
+    },
+    {
+      "path": "package.json",
+      "size": 287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning Angular 8: https://www.youtube.com/watch?v=_TLhUCjY9iA",
+    "fork": false,
+    "full_name": "hchiam/learning-angular8",
+    "html_url": "https://github.com/hchiam/learning-angular8",
+    "language": "TypeScript",
+    "pushed_at": "2021-05-05T21:10:16Z",
+    "stargazers_count": 1,
+    "topics": [
+      "angular",
+      "angular8",
+      "angularcli",
+      "scss",
+      "ts",
+      "typescript"
+    ],
+    "updated_at": "2021-05-05T21:10:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "angular"
+    },
+    {
+      "context_snippet": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "angular8"
+    },
+    {
+      "context_snippet": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "angularcli"
+    },
+    {
+      "context_snippet": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scss"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "gridatek/semantic-icons",
       "status": "candidate-context",
       "text": "Nx Migrate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angular-eslint/angular-eslint",
+      "status": "candidate-context",
+      "text": ":sparkles: Monorepo for all the tooling related to using ESLint with Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular-eslint/angular-eslint",
+      "status": "candidate-context",
+      "text": "Nx Migrate"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gridatek/semantic-icons",
+      "status": "candidate",
+      "text": "Nx Migrate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular-eslint/angular-eslint",
       "status": "candidate",
       "text": "Nx Migrate"
     }
@@ -86,11 +104,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/nx-migrate.yml",
       "source_repo": "gridatek/semantic-icons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/nx-migrate.yml",
+      "source_repo": "angular-eslint/angular-eslint"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

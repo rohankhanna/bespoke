@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kaminari/kaminari",
+      "target": "apotonick/cells",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kaminari/kaminari",
+      "target": "haml/html2haml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kaminari/kaminari",
+      "target": "amatsuda/kaminari_themes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kaminari/kaminari",
+      "target": "kaminari/kaminari-data_mapper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kaminari/kaminari",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kaminari/kaminari",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "kaminari/kaminari",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaminari/kaminari",
+      "target": "kaminari",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaminari/kaminari",
+      "target": "pagination",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaminari/kaminari",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kaminari/kaminari",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:42:14.859323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18943
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 5850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u26a1 A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Ruby webapps",
+    "fork": false,
+    "full_name": "kaminari/kaminari",
+    "html_url": "https://github.com/kaminari/kaminari",
+    "language": "Ruby",
+    "pushed_at": "2026-02-20T00:33:30Z",
+    "stargazers_count": 8670,
+    "topics": [
+      "kaminari",
+      "pagination",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2026-04-26T10:23:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amatsuda/kaminari_themes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apotonick/cells",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haml/html2haml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaminari/kaminari-data_mapper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kaminari"
+    },
+    {
+      "context_snippet": "A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pagination"
+    },
+    {
+      "context_snippet": "A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

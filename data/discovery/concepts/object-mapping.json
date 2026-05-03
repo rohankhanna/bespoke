@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "object-mapping"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] vMAP: Vectorised Object Mapping for Neural Field SLAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "object-mapping",
+  "concept_id": "object-mapping",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "object-mapping",
+      "sense_id": "object-mapping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

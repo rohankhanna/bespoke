@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:45:41.436504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 628
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Template repository using fltk-rs and fl2rust",
+    "fork": false,
+    "full_name": "fltk-rs/fl2rust-template",
+    "html_url": "https://github.com/fltk-rs/fl2rust-template",
+    "language": "Rust",
+    "pushed_at": "2022-11-29T20:28:51Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2023-12-24T07:10:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

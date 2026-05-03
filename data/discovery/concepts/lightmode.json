@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lightmode"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate-context",
+      "text": "Theme designed with readability and customizability in mind. Change it easily to your liking with the Style Settings plugin installed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate-context",
+      "text": "> Theme for my Obsidian Story Vault: **In The Shadows**."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate",
+      "text": "> Theme for my Obsidian Story Vault: **In The Shadows**."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lightmode",
+  "concept_id": "lightmode",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lightmode",
+      "sense_id": "lightmode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

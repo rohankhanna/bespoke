@@ -70,6 +70,18 @@
       "source_repo": "JuliaArrays/ArrayInterface.jl",
       "status": "candidate-context",
       "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://docs.sciml.ai/ArrayInterface/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaterializeInc/async-compression",
+      "status": "candidate-context",
+      "text": "Adaptors between compression crates and Rust's async IO types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterializeInc/async-compression",
+      "status": "candidate-context",
+      "text": "base"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "JuliaArrays/ArrayInterface.jl",
       "status": "candidate",
       "text": "[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://docs.sciml.ai/ArrayInterface/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterializeInc/async-compression",
+      "status": "candidate",
+      "text": "base"
     }
   ],
   "candidate_related_terms": [
@@ -229,11 +247,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "protolude/protolude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "protolude/protolude"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "MaterializeInc/async-compression"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

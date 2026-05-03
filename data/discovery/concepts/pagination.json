@@ -19,6 +19,30 @@
       "source_repo": "TanStack/table",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kaminari/kaminari",
+      "status": "candidate-context",
+      "text": "\u26a1 A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Ruby webapps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaminari/kaminari",
+      "status": "candidate-context",
+      "text": "A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate-context",
+      "text": "Pagination library for Rails and other Ruby applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate-context",
+      "text": "will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, and Sequel."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "TanStack/table",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kaminari/kaminari",
+      "status": "candidate",
+      "text": "A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate",
+      "text": "will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, and Sequel."
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +127,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "TanStack/table"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kaminari/kaminari"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mislav/will_paginate"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

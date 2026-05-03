@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "juji-io/editscript",
+      "target": "evidentsystems/converge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "juji-io/editscript",
+      "target": "skinney/differ",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "juji-io/editscript",
+      "target": "justsml/json-diff-performance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "juji-io/editscript",
+      "target": "friemen/diffit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "juji-io/editscript",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "juji-io/editscript",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "juji-io/editscript",
+      "target": "DeLaGuardo/setup-clojure@13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "juji-io/editscript",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "juji-io/editscript",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juji-io/editscript",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juji-io/editscript",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juji-io/editscript",
+      "target": "clojurescript-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juji-io/editscript",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juji-io/editscript",
+      "target": "data-diffing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juji-io/editscript",
+      "target": "data-structures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juji-io/editscript",
+      "target": "diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juji-io/editscript",
+      "target": "editscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juji-io/editscript",
+      "target": "patch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "juji-io/editscript",
+      "target": "tree-diffing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:48:31.812737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13674
+    },
+    {
+      "path": "package.json",
+      "size": 341
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1528
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A library to diff and patch Clojure/ClojureScript data structures",
+    "fork": false,
+    "full_name": "juji-io/editscript",
+    "html_url": "https://github.com/juji-io/editscript",
+    "language": "Clojure",
+    "pushed_at": "2026-01-18T17:23:31Z",
+    "stargazers_count": 529,
+    "topics": [
+      "algorithm",
+      "clojure",
+      "clojurescript-data",
+      "data",
+      "data-diffing",
+      "data-structures",
+      "diff",
+      "editscript",
+      "patch",
+      "tree-diffing"
+    ],
+    "updated_at": "2026-04-22T14:34:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evidentsystems/converge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "friemen/diffit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justsml/json-diff-performance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skinney/differ",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript-data"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-diffing"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-structures"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diff"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editscript"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "patch"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-diffing"
+    }
+  ]
+}

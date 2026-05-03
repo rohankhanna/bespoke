@@ -67,20 +67,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
-      "target": "srushtika/multiplayer-scalable-game-networking-starter-kit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
-      "target": "srushtika/multiplayer-web-game-ably-starter-kit",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework",
@@ -214,7 +200,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:06:56.706573+00:00",
+  "fetched_at": "2026-05-03T14:38:57.449094+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -257,18 +243,8 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "srushtika/multiplayer-scalable-game-networking-starter-kit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "srushtika/realtime-multiplayer-space-invaders",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "srushtika/multiplayer-web-game-ably-starter-kit",
-      "source_file": "package.json"
     }
   ],
   "terms": [

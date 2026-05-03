@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Publish Container Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-storage-fuse",
+      "status": "candidate-context",
+      "text": "A virtual file system adapter for Azure Blob storage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-storage-fuse",
+      "status": "candidate-context",
+      "text": "Build and Publish Container Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-storage-fuse",
+      "status": "candidate",
+      "text": "Build and Publish Container Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27957,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27957,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27887,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27810,
+      "status": "candidate",
+      "text": "scuttling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27720,
+      "status": "candidate",
+      "text": "air"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Publish Container Image",
+  "concept_id": "build-and-publish-container-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "Azure/azure-storage-fuse"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Publish Container Image",
+      "sense_id": "build-and-publish-container-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

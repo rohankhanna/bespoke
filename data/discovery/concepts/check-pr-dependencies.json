@@ -31,6 +31,18 @@
       "source_repo": "json-schema-org/.github",
       "status": "candidate-context",
       "text": "Check PR Dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "status": "candidate-context",
+      "text": "A language agnostic test suite for the JSON Schema specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "status": "candidate-context",
+      "text": "Check PR Dependencies"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "json-schema-org/.github",
+      "status": "candidate",
+      "text": "Check PR Dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
       "status": "candidate",
       "text": "Check PR Dependencies"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pr-dependencies.yml",
       "source_repo": "json-schema-org/.github"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/pr-dependencies.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

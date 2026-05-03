@@ -1,0 +1,56 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lyft/nuscenes-devkit",
+      "target": "lyft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:48.914371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2892
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 516
+    },
+    {
+      "path": "requirements.txt",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Devkit for the public 2019 Lyft Level 5 AV Dataset (fork of https://github.com/nutonomy/nuscenes-devkit)",
+    "fork": false,
+    "full_name": "lyft/nuscenes-devkit",
+    "html_url": "https://github.com/lyft/nuscenes-devkit",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-23T19:52:52Z",
+    "stargazers_count": 391,
+    "topics": [
+      "lyft"
+    ],
+    "updated_at": "2026-04-18T15:31:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Welcome to the devkit for the [Lyft Level 5 AV dataset](https://level5.lyft.com/dataset/)! This devkit shall help you to visualise and explore our dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lyft"
+    }
+  ]
+}

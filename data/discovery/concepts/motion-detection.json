@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "motion-detection"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "(LMNet) Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data (RAL/IROS 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "motion-detection",
+  "concept_id": "motion-detection",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "motion-detection",
+      "sense_id": "motion-detection#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

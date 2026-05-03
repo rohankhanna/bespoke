@@ -426,6 +426,18 @@
       "source_repo": "rubocop/rubocop-rails",
       "status": "candidate-context",
       "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-version",
+      "status": "candidate-context",
+      "text": "a cli command that just shows the CLI version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-version",
+      "status": "candidate-context",
+      "text": "create-github-release"
     }
   ],
   "candidate_glosses": [
@@ -650,6 +662,12 @@
       "source_repo": "rubocop/rubocop-rails",
       "status": "candidate",
       "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-version",
+      "status": "candidate",
+      "text": "create-github-release"
     }
   ],
   "candidate_related_terms": [
@@ -939,11 +957,23 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": ".github/workflows/github_release.yml",
       "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/create_github_release.yml",
+      "source_repo": "actions/runner-images"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/plugin-version"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

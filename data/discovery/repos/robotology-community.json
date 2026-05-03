@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robotology/community",
+      "target": "robotology/mesh-support",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/community",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/community",
+      "target": "discussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/community",
+      "target": "hosting-discussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/community",
+      "target": "icub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/community",
+      "target": "questions-and-answers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/community",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/community",
+      "target": "robotology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/community",
+      "target": "yarp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:38:36.962174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Virtual repository hosting Discussions and Questions & Answers",
+    "fork": false,
+    "full_name": "robotology/community",
+    "html_url": "https://github.com/robotology/community",
+    "language": null,
+    "pushed_at": "2026-03-07T16:33:02Z",
+    "stargazers_count": 25,
+    "topics": [
+      "community",
+      "discussions",
+      "hosting-discussions",
+      "icub",
+      "questions-and-answers",
+      "robotics",
+      "robotology",
+      "yarp"
+    ],
+    "updated_at": "2026-03-07T16:33:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology/mesh-support",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    },
+    {
+      "context_snippet": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discussions"
+    },
+    {
+      "context_snippet": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hosting-discussions"
+    },
+    {
+      "context_snippet": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icub"
+    },
+    {
+      "context_snippet": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "questions-and-answers"
+    },
+    {
+      "context_snippet": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotology"
+    },
+    {
+      "context_snippet": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yarp"
+    }
+  ]
+}

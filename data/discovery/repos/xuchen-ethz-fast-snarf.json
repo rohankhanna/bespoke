@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuchen-ethz/fast-snarf",
+      "target": "neuralbodies/leap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuchen-ethz/fast-snarf",
+      "target": "amosgropp/igr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuchen-ethz/fast-snarf",
+      "target": "lioryariv/idr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xuchen-ethz/fast-snarf",
+      "target": "locuslab/deq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:39:23.542583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "xuchen-ethz/fast-snarf",
+    "html_url": "https://github.com/xuchen-ethz/fast-snarf",
+    "language": "Python",
+    "pushed_at": "2023-06-21T13:07:58Z",
+    "stargazers_count": 264,
+    "topics": [],
+    "updated_at": "2026-04-14T10:40:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amosgropp/igr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lioryariv/idr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "locuslab/deq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neuralbodies/leap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

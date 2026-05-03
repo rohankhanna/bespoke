@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rinongal/StyleGAN-nada",
+      "target": "yuval-alaluf/restyle-encoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rinongal/StyleGAN-nada",
+      "target": "rameenabdal/styleflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rinongal/StyleGAN-nada",
+      "target": "mit-han-lab/anycost-gan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rinongal/StyleGAN-nada",
+      "target": "domain-adaptation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rinongal/StyleGAN-nada",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rinongal/StyleGAN-nada",
+      "target": "stylegan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:42.668097+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11917
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "rinongal/StyleGAN-nada",
+    "html_url": "https://github.com/rinongal/StyleGAN-nada",
+    "language": "Python",
+    "pushed_at": "2022-09-29T17:52:46Z",
+    "stargazers_count": 1197,
+    "topics": [
+      "domain-adaptation",
+      "generative-adversarial-network",
+      "stylegan"
+    ],
+    "updated_at": "2026-04-02T13:50:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/anycost-gan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rameenabdal/styleflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuval-alaluf/restyle-encoder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/rinongal/stylegan-nada/blob/main/stylegan_nada.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "domain-adaptation"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/rinongal/stylegan-nada/blob/main/stylegan_nada.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/rinongal/stylegan-nada/blob/main/stylegan_nada.ipynb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylegan"
+    }
+  ]
+}

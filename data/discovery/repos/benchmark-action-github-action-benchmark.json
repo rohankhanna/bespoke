@@ -673,13 +673,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "benchmark-action/github-action-benchmark",
-      "target": "features/actions",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "benchmark-action/github-action-benchmark",
       "target": "rhysd/github-action-benchmark",
       "target_type": "repository"
     },
@@ -1195,7 +1188,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:51:37.166762+00:00",
+  "fetched_at": "2026-05-03T16:45:08.303235+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1248,20 +1241,15 @@
     "html_url": "https://github.com/benchmark-action/github-action-benchmark",
     "language": "TypeScript",
     "pushed_at": "2026-04-23T02:02:38Z",
-    "stargazers_count": 1220,
+    "stargazers_count": 1221,
     "topics": [
       "benchmark",
       "ci",
       "github-action"
     ],
-    "updated_at": "2026-04-29T13:21:46Z"
+    "updated_at": "2026-05-03T12:13:20Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "features/actions",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "rhysd/github-action-benchmark",

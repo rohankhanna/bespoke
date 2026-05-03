@@ -463,6 +463,78 @@
       "source_repo": "alibaba/designable",
       "status": "candidate-context",
       "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ariesjia/vue-composition-test-utils",
+      "status": "candidate-context",
+      "text": "Simple vue composition api unit test utilities support both Vue 2 and 3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ariesjia/vue-composition-test-utils",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feross/simple-get",
+      "status": "candidate-context",
+      "text": "Simplest way to make http get requests. Supports HTTPS, redirects, gzip/deflate, streams in < 100 lines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feross/simple-get",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tomas/needle",
+      "status": "candidate-context",
+      "text": "Nimble, streamable HTTP client for Node.js. With proxy, iconv, cookie, deflate & multipart support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomas/needle",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/webidl2.js",
+      "status": "candidate-context",
+      "text": "WebIDL parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webidl2.js",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate-context",
+      "text": "An alternative side effect model for Redux apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embroider-build/ember-auto-import",
+      "status": "candidate-context",
+      "text": "Zero config import from npm packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/ember-auto-import",
+      "status": "candidate-context",
+      "text": "Node CI"
     }
   ],
   "candidate_glosses": [
@@ -691,6 +763,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alibaba/designable",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ariesjia/vue-composition-test-utils",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feross/simple-get",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomas/needle",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/webidl2.js",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embroider-build/ember-auto-import",
       "status": "candidate",
       "text": "Node CI"
     }
@@ -1162,11 +1270,65 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alibaba/designable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "ariesjia/vue-composition-test-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "feross/simple-get"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "tomas/needle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "w3c/webidl2.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "apollographql/eslint-plugin-graphql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "redux-saga/redux-saga"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "embroider-build/ember-auto-import"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

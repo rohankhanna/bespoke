@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "full-check"
+    "full-check",
+    "Full Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "pystardust/ytfzf",
       "status": "candidate-context",
       "text": "full-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactor/reactor-core",
+      "status": "candidate-context",
+      "text": "Non-Blocking Reactive Foundation for the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-core",
+      "status": "candidate-context",
+      "text": "Full Check"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "pystardust/ytfzf",
       "status": "candidate",
       "text": "full-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-core",
+      "status": "candidate",
+      "text": "Full Check"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11706,
+      "status": "candidate",
+      "text": "abort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11706,
+      "status": "candidate",
+      "text": "amount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11706,
+      "status": "candidate",
+      "text": "attention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11706,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11706,
+      "status": "candidate",
+      "text": "bill"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "full-check",
   "concept_id": "full-check",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/full-check.yml",
       "source_repo": "pystardust/ytfzf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/full.yml",
+      "source_repo": "reactor/reactor-core"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

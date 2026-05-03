@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/atlas",
+      "target": "facebookresearch/fid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/atlas",
+      "target": "facebookresearch/contriever",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "facebookresearch/atlas",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "facebookresearch/atlas",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "facebookresearch/atlas",
+      "target": "Code quality",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:35:46.035301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 73355
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    },
+    {
+      "path": ".github/workflows/black.yml",
+      "size": 326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code repository for supporting the paper \"Atlas Few-shot Learning with Retrieval Augmented Language Models\",(https//arxiv.org/abs/2208.03299)",
+    "fork": false,
+    "full_name": "facebookresearch/atlas",
+    "html_url": "https://github.com/facebookresearch/atlas",
+    "language": "Python",
+    "pushed_at": "2026-04-08T02:41:33Z",
+    "stargazers_count": 558,
+    "topics": [],
+    "updated_at": "2026-04-24T21:10:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/contriever",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/fid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Code quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/black.yml",
+      "term": "Code quality"
+    }
+  ]
+}

@@ -127,6 +127,42 @@
       "source_repo": "abarichello/godot-ci",
       "status": "candidate-context",
       "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2shady4u/godot-cpp-ci",
+      "status": "candidate-context",
+      "text": "Docker image and Github Actions to automatically compile Godot C++ GDNative libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-cpp-ci",
+      "status": "candidate-context",
+      "text": "Docker image and Github Actions to automatically compile Godot C++ GDExtension libraries."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate-context",
+      "text": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml/badge.svg?branch=main)](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml?query=branch%3Amain \"Release Nightly\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImranR98/Obtainium",
+      "status": "candidate-context",
+      "text": "Get Android app updates straight from the source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImranR98/Obtainium",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "abarichello/godot-ci",
       "status": "candidate",
       "text": "Docker image to export Godot Engine games and deploy to GitLab/GitHub Pages and Itch.io using GitLab CI and GitHub Actions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-cpp-ci",
+      "status": "candidate",
+      "text": "Docker image and Github Actions to automatically compile Godot C++ GDExtension libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate",
+      "text": "[![](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml/badge.svg?branch=main)](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml?query=branch%3Amain \"Release Nightly\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImranR98/Obtainium",
+      "status": "candidate",
+      "text": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +346,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "abarichello/godot-ci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "2shady4u/godot-cpp-ci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "go-gitea/gitea"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

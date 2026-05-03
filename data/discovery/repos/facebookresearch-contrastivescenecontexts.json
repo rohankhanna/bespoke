@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/ContrastiveSceneContexts",
+      "target": "stanfordvl/minkowskiengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/ContrastiveSceneContexts",
+      "target": "jia-research-lab/pointgroup",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:32.462897+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37249
+    },
+    {
+      "path": "requirements.txt",
+      "size": 222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Code for CVPR 2021 oral paper \"Exploring Data-Efficient 3D Scene Understanding with Contrastive Scene Contexts\"",
+    "fork": false,
+    "full_name": "facebookresearch/ContrastiveSceneContexts",
+    "html_url": "https://github.com/facebookresearch/ContrastiveSceneContexts",
+    "language": "Python",
+    "pushed_at": "2022-06-30T13:36:57Z",
+    "stargazers_count": 238,
+    "topics": [],
+    "updated_at": "2026-04-18T15:17:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jia-research-lab/pointgroup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stanfordvl/minkowskiengine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

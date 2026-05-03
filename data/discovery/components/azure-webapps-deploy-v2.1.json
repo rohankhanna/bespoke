@@ -1,0 +1,17 @@
+{
+  "component": "azure/webapps-deploy@v2.1",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/samples.07.a.upload-to-azure-storage.yaml",
+      "source_repo": "microsoft/BotFramework-WebChat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/samples.07.b.sso-for-enterprise.yaml",
+      "source_repo": "microsoft/BotFramework-WebChat"
+    }
+  ]
+}

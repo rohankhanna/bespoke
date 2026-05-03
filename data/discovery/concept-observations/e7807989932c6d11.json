@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Supercharge Your LLM Application Evaluations \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Claude Docs Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Claude Docs Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24660,
+      "status": "candidate",
+      "text": "arp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22584,
+      "status": "candidate",
+      "text": "dupleix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22543,
+      "status": "candidate",
+      "text": "andre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22543,
+      "status": "candidate",
+      "text": "ane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22543,
+      "status": "candidate",
+      "text": "arc"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Docs Check",
+      "sense_id": "claude-docs-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-docs-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-docs-check",
+  "observation_id": "e7807989932c6d11",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Claude Docs Check",
+  "source_context_snippet": "Claude Docs Check",
+  "source_file": ".github/workflows/claude-docs-check.yml",
+  "source_repo": "vibrantlabsai/ragas",
+  "source_repo_description": "Supercharge Your LLM Application Evaluations \ud83d\ude80"
+}

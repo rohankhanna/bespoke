@@ -411,7 +411,7 @@
       "source_file": ".github/workflows/close-stale.yml"
     },
     {
-      "component": "dessant/lock-threads@1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771",
+      "component": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lock.yml"
     },
@@ -466,7 +466,7 @@
       "source_file": ".github/workflows/nodejs.yml"
     },
     {
-      "component": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "component": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nodejs.yml"
     },
@@ -491,7 +491,7 @@
       "source_file": ".github/workflows/nodejs.yml"
     },
     {
-      "component": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "component": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nodejs.yml"
     },
@@ -536,7 +536,7 @@
       "source_file": ".github/workflows/test-nightly.yml"
     },
     {
-      "component": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "component": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-nightly.yml"
     },
@@ -556,7 +556,7 @@
       "source_file": ".github/workflows/test-nightly.yml"
     },
     {
-      "component": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "component": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-nightly.yml"
     }
@@ -1154,7 +1154,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "jestjs/jest",
-      "target": "dessant/lock-threads@1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771",
+      "target": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
       "target_type": "component"
     },
     {
@@ -1203,7 +1203,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "jestjs/jest",
-      "target": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "target": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
       "target_type": "component"
     },
     {
@@ -1287,7 +1287,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-nightly.yml",
       "source_repo": "jestjs/jest",
-      "target": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "target": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
       "target_type": "component"
     },
     {
@@ -1354,7 +1354,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:50:25.146212+00:00",
+  "fetched_at": "2026-05-03T15:44:26.489847+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1374,7 +1374,7 @@
     },
     {
       "path": ".github/workflows/lock.yml",
-      "size": 1529
+      "size": 1525
     },
     {
       "path": ".github/workflows/nightly.yml",
@@ -1382,7 +1382,7 @@
     },
     {
       "path": ".github/workflows/nodejs.yml",
-      "size": 7413
+      "size": 7411
     },
     {
       "path": ".github/workflows/pkg-pr-new.yml",
@@ -1394,7 +1394,7 @@
     },
     {
       "path": ".github/workflows/test-nightly.yml",
-      "size": 2475
+      "size": 2467
     }
   ],
   "related_repositories": [],
@@ -1406,7 +1406,7 @@
     "full_name": "jestjs/jest",
     "html_url": "https://github.com/jestjs/jest",
     "language": "TypeScript",
-    "pushed_at": "2026-05-02T21:12:15Z",
+    "pushed_at": "2026-05-03T14:12:16Z",
     "stargazers_count": 45336,
     "topics": [
       "easy",
@@ -1419,7 +1419,7 @@
       "snapshot",
       "testing"
     ],
-    "updated_at": "2026-05-02T21:12:19Z"
+    "updated_at": "2026-05-03T14:12:22Z"
   },
   "repo_links": [
     {

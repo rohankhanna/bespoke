@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v3",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -937,6 +937,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "spullara/mustache.java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "lambdaisland/deep-diff2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static_analysis.yml",
+      "source_repo": "braintree/braintree_android"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "braintree/braintree_android"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JaneliaSciComp/n5-zstandard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "saalfeldlab/n5-blosc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-java11.yaml",
+      "source_repo": "fizzed/blaze"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-java17.yaml",
+      "source_repo": "fizzed/blaze"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-java21.yaml",
+      "source_repo": "fizzed/blaze"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-java25.yaml",
+      "source_repo": "fizzed/blaze"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux-java8.yaml",
+      "source_repo": "fizzed/blaze"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos-arm64.yaml",
+      "source_repo": "fizzed/blaze"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-x64.yaml",
+      "source_repo": "fizzed/blaze"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cnuernber/charred"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "scalar-labs/btm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "juji-io/editscript"
     }
   ]
 }

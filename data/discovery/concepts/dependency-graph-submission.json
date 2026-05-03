@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dependency Graph Submission"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "status": "candidate-context",
+      "text": "Gradle plugin that integrates the Rocker template engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "status": "candidate-context",
+      "text": "Dependency Graph Submission"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "status": "candidate",
+      "text": "Dependency Graph Submission"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18130,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18130,
+      "status": "candidate",
+      "text": "tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18123,
+      "status": "candidate",
+      "text": "aeronautical engineering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18123,
+      "status": "candidate",
+      "text": "aviation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18123,
+      "status": "candidate",
+      "text": "chronic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependency Graph Submission",
+  "concept_id": "dependency-graph-submission",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/gradle-dependency-graph.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependency Graph Submission",
+      "sense_id": "dependency-graph-submission#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

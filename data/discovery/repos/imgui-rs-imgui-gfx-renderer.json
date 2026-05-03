@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:45:43.740701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 379
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "deprecated old-school gfx renderer",
+    "fork": false,
+    "full_name": "imgui-rs/imgui-gfx-renderer",
+    "html_url": "https://github.com/imgui-rs/imgui-gfx-renderer",
+    "language": "Rust",
+    "pushed_at": "2021-10-01T17:03:28Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-01-28T06:12:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

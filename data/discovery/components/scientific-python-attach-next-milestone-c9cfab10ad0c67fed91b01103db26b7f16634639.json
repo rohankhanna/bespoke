@@ -1,0 +1,12 @@
+{
+  "component": "scientific-python/attach-next-milestone@c9cfab10ad0c67fed91b01103db26b7f16634639",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "scikit-image/scikit-image"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arthurblake/log4jdbc",
+      "target": "gokulesh/sqlrecorder",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:48:12.458737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "log4jdbc is a Java JDBC driver that can log SQL and/or JDBC calls (and optionally SQL timing information) for other JDBC drivers using the Simple Logging Facade For Java (SLF4J) logging system.",
+    "fork": false,
+    "full_name": "arthurblake/log4jdbc",
+    "html_url": "https://github.com/arthurblake/log4jdbc",
+    "language": "Java",
+    "pushed_at": "2025-04-21T20:05:10Z",
+    "stargazers_count": 533,
+    "topics": [],
+    "updated_at": "2026-04-12T07:01:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gokulesh/sqlrecorder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

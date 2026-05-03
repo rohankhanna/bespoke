@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternScience/GraphGen",
-      "target": "haonan-li/cmmlu",
+      "target": "kuzudb/kuzu",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternScience/GraphGen",
-      "target": "hkuds/lightrag",
+      "target": "idavidrein/gpqa",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternScience/GraphGen",
-      "target": "eosphoros-ai/db-gpt",
+      "target": "jind11/medqa",
       "target_type": "repository"
     },
     {
@@ -225,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "InternScience/GraphGen"
 }

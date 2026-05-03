@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Canonical common brand names, operators, transit, and flags for OpenStreetMap."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39889133,
+      "status": "candidate",
+      "text": "ensign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39854956,
+      "status": "candidate",
+      "text": "flagstone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39848956,
+      "status": "candidate",
+      "text": "pin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39805596,
+      "status": "candidate",
+      "text": "swag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39769850,
+      "status": "candidate",
+      "text": "sag"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flags",
+      "sense_id": "flags#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "flags",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flags",
+  "observation_id": "591d5535eac52024",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "flags",
+  "source_context_snippet": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)",
+  "source_file": null,
+  "source_repo": "osmlab/name-suggestion-index",
+  "source_repo_description": "Canonical common brand names, operators, transit, and flags for OpenStreetMap."
+}

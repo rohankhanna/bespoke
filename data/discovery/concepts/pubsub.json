@@ -211,6 +211,30 @@
       "source_repo": "apache/pulsar-client-node",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allegro/hermes",
+      "status": "candidate-context",
+      "text": "Fast and reliable message broker built on top of Kafka."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allegro/hermes",
+      "status": "candidate-context",
+      "text": "We are reorganizing the project and we disabled the Issues tab. Please use discussions from now on."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-transport",
+      "status": "candidate-context",
+      "text": "Transport library for component communication based on publication/subscription and service calls."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-transport",
+      "status": "candidate-context",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "apache/pulsar-client-node",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allegro/hermes",
+      "status": "candidate",
+      "text": "We are reorganizing the project and we disabled the Issues tab. Please use discussions from now on."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-transport",
+      "status": "candidate",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
     }
   ],
   "candidate_related_terms": [],
@@ -496,11 +532,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "allegro/hermes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-transport"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

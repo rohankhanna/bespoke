@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:39:14.628392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Versioning Policy which is compatible with Semantic Versioning 2.0.0. Add the rule about v0.x to Semantic Versioning 2.0.0",
+    "fork": false,
+    "full_name": "suzuki-shunsuke/versioning-policy",
+    "html_url": "https://github.com/suzuki-shunsuke/versioning-policy",
+    "language": null,
+    "pushed_at": "2024-07-23T21:28:46Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2022-02-09T06:34:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

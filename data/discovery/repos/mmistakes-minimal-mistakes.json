@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "uglify-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bad-pr.yml"
+    },
+    {
+      "component": "superbrothers/close-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bad-pr.yml"
+    },
+    {
+      "component": "sudo-bot/action-pull-request-lock@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bad-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "benbalter/jekyll-include-cache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "cferdinandi/smooth-scroll",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "cferdinandi/gumshoe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "davatron5000/fitvids.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "uglify-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bad-pr.yml",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "actions-ecosystem/action-add-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bad-pr.yml",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "superbrothers/close-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bad-pr.yml",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "sudo-bot/action-pull-request-lock@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bad-pr.yml",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "Cleanup bad PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "algolia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "algolia-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "github-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "jekyll",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "jekyll-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "lunr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "ruby-gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mmistakes/minimal-mistakes",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:47:30.001238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20600
+    },
+    {
+      "path": "package.json",
+      "size": 595
+    },
+    {
+      "path": ".github/workflows/bad-pr.yml",
+      "size": 1273
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1074
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":triangular_ruler: Jekyll theme for building a personal site, blog, project documentation, or portfolio.",
+    "fork": false,
+    "full_name": "mmistakes/minimal-mistakes",
+    "html_url": "https://github.com/mmistakes/minimal-mistakes",
+    "language": "HTML",
+    "pushed_at": "2026-04-29T17:56:05Z",
+    "stargazers_count": 13485,
+    "topics": [
+      "algolia",
+      "algolia-search",
+      "github-pages",
+      "jekyll",
+      "jekyll-theme",
+      "lunr",
+      "ruby-gem",
+      "theme"
+    ],
+    "updated_at": "2026-05-03T02:17:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benbalter/jekyll-include-cache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cferdinandi/gumshoe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cferdinandi/smooth-scroll",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davatron5000/fitvids.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cleanup bad PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bad-pr.yml",
+      "term": "Cleanup bad PR"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algolia"
+    },
+    {
+      "context_snippet": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algolia-search"
+    },
+    {
+      "context_snippet": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-pages"
+    },
+    {
+      "context_snippet": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekyll"
+    },
+    {
+      "context_snippet": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jekyll-theme"
+    },
+    {
+      "context_snippet": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lunr"
+    },
+    {
+      "context_snippet": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby-gem"
+    },
+    {
+      "context_snippet": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

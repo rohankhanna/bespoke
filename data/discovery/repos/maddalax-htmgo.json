@@ -1,0 +1,594 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-auth-example.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-auth-example.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-auth-example.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chat-example.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chat-example.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chat-example.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-hn-clone.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-hn-clone.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-hn-clone.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-site.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-site.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-site.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-starter-template.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-starter-template.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-starter-template.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-todo-example.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-todo-example.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-todo-example.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ws-test.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ws-test.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ws-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-cli-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-cli-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-cli-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-framework-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-framework-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-framework-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-auth-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-auth-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-auth-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-auth-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "Build and Deploy htmgo auth example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chat-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chat-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-chat-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-chat-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "Build and Deploy htmgo.dev chat example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-hn-clone.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-hn-clone.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-hn-clone.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-hn-clone.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "Build and Deploy htmgo hackernews clone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-site.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-site.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-site.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-site.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "Build and Deploy htmgo.dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-starter-template.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-starter-template.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-starter-template.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-starter-template.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "Build and Deploy starter template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-todo-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-todo-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-todo-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-todo-example.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "Build and Deploy htmgo.dev todo example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ws-test.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ws-test.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-ws-test.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-ws-test.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "Build and Deploy ws-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-cli-tests.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-cli-tests.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-cli-tests.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-cli-tests.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "CLI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-framework-tests.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-framework-tests.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-framework-tests.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-framework-tests.yml",
+      "source_repo": "maddalax/htmgo",
+      "target": "Framework Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maddalax/htmgo",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maddalax/htmgo",
+      "target": "htmx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maddalax/htmgo",
+      "target": "htmx-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maddalax/htmgo",
+      "target": "hypermedia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maddalax/htmgo",
+      "target": "hypermedia-driven-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "maddalax/htmgo",
+      "target": "server-side-rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:42:15.405493+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2152
+    },
+    {
+      "path": ".github/workflows/release-auth-example.yml",
+      "size": 1713
+    },
+    {
+      "path": ".github/workflows/release-chat-example.yml",
+      "size": 1688
+    },
+    {
+      "path": ".github/workflows/release-hn-clone.yml",
+      "size": 1711
+    },
+    {
+      "path": ".github/workflows/release-site.yml",
+      "size": 1680
+    },
+    {
+      "path": ".github/workflows/release-starter-template.yml",
+      "size": 1682
+    },
+    {
+      "path": ".github/workflows/release-todo-example.yml",
+      "size": 1698
+    },
+    {
+      "path": ".github/workflows/release-ws-test.yml",
+      "size": 1486
+    },
+    {
+      "path": ".github/workflows/run-cli-tests.yml",
+      "size": 731
+    },
+    {
+      "path": ".github/workflows/run-framework-tests.yml",
+      "size": 724
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "htmgo - build simple and scalable systems with go + htmx",
+    "fork": false,
+    "full_name": "maddalax/htmgo",
+    "html_url": "https://github.com/maddalax/htmgo",
+    "language": "Go",
+    "pushed_at": "2025-09-27T16:02:59Z",
+    "stargazers_count": 930,
+    "topics": [
+      "go",
+      "golang",
+      "htmx",
+      "htmx-go",
+      "hypermedia",
+      "hypermedia-driven-application",
+      "javascript",
+      "server-side-rendering"
+    ],
+    "updated_at": "2026-05-03T10:38:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy htmgo auth example",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-auth-example.yml",
+      "term": "Build and Deploy htmgo auth example"
+    },
+    {
+      "context_snippet": "Build and Deploy htmgo.dev chat example",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-chat-example.yml",
+      "term": "Build and Deploy htmgo.dev chat example"
+    },
+    {
+      "context_snippet": "Build and Deploy htmgo hackernews clone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-hn-clone.yml",
+      "term": "Build and Deploy htmgo hackernews clone"
+    },
+    {
+      "context_snippet": "Build and Deploy htmgo.dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-site.yml",
+      "term": "Build and Deploy htmgo.dev"
+    },
+    {
+      "context_snippet": "Build and Deploy starter template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-starter-template.yml",
+      "term": "Build and Deploy starter template"
+    },
+    {
+      "context_snippet": "Build and Deploy htmgo.dev todo example",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-todo-example.yml",
+      "term": "Build and Deploy htmgo.dev todo example"
+    },
+    {
+      "context_snippet": "Build and Deploy ws-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-ws-test.yml",
+      "term": "Build and Deploy ws-test"
+    },
+    {
+      "context_snippet": "CLI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-cli-tests.yml",
+      "term": "CLI Tests"
+    },
+    {
+      "context_snippet": "Framework Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-framework-tests.yml",
+      "term": "Framework Tests"
+    },
+    {
+      "context_snippet": "-------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "-------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "htmx"
+    },
+    {
+      "context_snippet": "-------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "htmx-go"
+    },
+    {
+      "context_snippet": "-------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hypermedia"
+    },
+    {
+      "context_snippet": "-------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hypermedia-driven-application"
+    },
+    {
+      "context_snippet": "-------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server-side-rendering"
+    }
+  ]
+}

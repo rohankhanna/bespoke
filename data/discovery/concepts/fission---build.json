@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Fission - Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Autodesk/synthesis",
+      "status": "candidate-context",
+      "text": "A Robotics Simulator for Autodesk Fusion CAD Designs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Autodesk/synthesis",
+      "status": "candidate-context",
+      "text": "Fission - Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Autodesk/synthesis",
+      "status": "candidate",
+      "text": "Fission - Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "atom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "core"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "critical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "divide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "pile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fission - Build",
+  "concept_id": "fission---build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/FissionBuild.yml",
+      "source_repo": "Autodesk/synthesis"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fission - Build",
+      "sense_id": "fission---build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

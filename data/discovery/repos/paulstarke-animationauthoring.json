@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulstarke/AnimationAuthoring",
+      "target": "character-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulstarke/AnimationAuthoring",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulstarke/AnimationAuthoring",
+      "target": "motion-capture-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulstarke/AnimationAuthoring",
+      "target": "thesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:39:52.606047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1980
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Controlling AI-driven Quadruped Character in Unity.",
+    "fork": false,
+    "full_name": "paulstarke/AnimationAuthoring",
+    "html_url": "https://github.com/paulstarke/AnimationAuthoring",
+    "language": "C#",
+    "pushed_at": "2023-10-11T11:30:35Z",
+    "stargazers_count": 98,
+    "topics": [
+      "character-control",
+      "dataset",
+      "motion-capture-data",
+      "thesis"
+    ],
+    "updated_at": "2026-05-01T22:00:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Animation Authoring for Neural Quadruped Controller",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "character-control"
+    },
+    {
+      "context_snippet": "Animation Authoring for Neural Quadruped Controller",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "Animation Authoring for Neural Quadruped Controller",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-capture-data"
+    },
+    {
+      "context_snippet": "Animation Authoring for Neural Quadruped Controller",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thesis"
+    }
+  ]
+}

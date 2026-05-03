@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -1071,6 +1071,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "emissary-ingress/emissary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ory/k8s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox"
     }
   ],
   "term": "kubernetes"

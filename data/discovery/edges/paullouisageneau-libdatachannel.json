@@ -1,0 +1,258 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "libnice/libnice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "cisco/libsrtp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "murat-dogan/node-datachannel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "hanseuljun/datachannel-unity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gnutls.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-gnutls.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "Build with GnuTLS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mbedtls.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mbedtls.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mbedtls.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "Build with Mbed TLS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nice.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nice.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "Build with libnice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nomedia.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nomedia.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nomedia.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "Build without media",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nowebsocket.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nowebsocket.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "Build without WebSocket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-openssl.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-openssl.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-openssl.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "Build with OpenSSL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-version.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-version.yml",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "Check version.h values",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "datachannel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "libdatachannel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "libnice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "peer-to-peer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "peerconnection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "rfc-8831",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "rfc-8834",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "rtcdatachannel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "rtcpeerconnection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "sctp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "webrtc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "webrtc-datachannel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "webrtc-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel",
+      "target": "websocket",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "paullouisageneau/libdatachannel"
+}

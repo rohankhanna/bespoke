@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Documentation for the Visual Studio Test Platform. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visual-studio",
+      "sense_id": "visual-studio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "visual-studio",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "visual-studio",
+  "observation_id": "7e60af11fedbf349",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "visual-studio",
+  "source_context_snippet": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation.",
+  "source_file": null,
+  "source_repo": "microsoft/vstest-docs",
+  "source_repo_description": "Documentation for the Visual Studio Test Platform. "
+}

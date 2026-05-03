@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Catch insensitive, inconsiderate writing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "alex \u2014 Catch insensitive, inconsiderate writing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "alex \u2014 Catch insensitive, inconsiderate writing"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27871484,
+      "status": "candidate",
+      "text": "alexander"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27871437,
+      "status": "candidate",
+      "text": "xander"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27871321,
+      "status": "candidate",
+      "text": "jaime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27870831,
+      "status": "candidate",
+      "text": "david"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27868384,
+      "status": "candidate",
+      "text": "patrick"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "alex",
+      "sense_id": "alex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "alex",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "alex",
+  "observation_id": "f7e1e2deee625879",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "alex",
+  "source_context_snippet": "alex \u2014 Catch insensitive, inconsiderate writing",
+  "source_file": null,
+  "source_repo": "get-alex/alex",
+  "source_repo_description": "Catch insensitive, inconsiderate writing"
+}

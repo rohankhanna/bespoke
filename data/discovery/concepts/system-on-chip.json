@@ -31,6 +31,18 @@
       "source_repo": "enjoy-digital/litex",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/enjoy-digital/litex/master/doc/litex.png\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate-context",
+      "text": "OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen and custom methodology scripts for design exploration and optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "enjoy-digital/litex",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/enjoy-digital/litex/master/doc/litex.png\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate",
+      "text": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "enjoy-digital/litex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,340 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci@noble",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "gazebo-tooling/action-gz-ci/validate_package_xml@jammy",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_xml.yml"
+    },
+    {
+      "component": "gazebo-tooling/pr-collection-labeler@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-collection-labeler.yml"
+    },
+    {
+      "component": "actions/add-to-project@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gazebosim/gz-gui",
+      "target": "gazebosim/gz-rendering",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gazebosim/gz-gui",
+      "target": "gazebosim/gz-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-gui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-gui",
+      "target": "gazebo-tooling/action-gz-ci@noble",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-gui",
+      "target": "Ubuntu CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-gui",
+      "target": "gazebo-tooling/action-gz-ci/validate_package_xml@jammy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_xml.yml",
+      "source_repo": "gazebosim/gz-gui",
+      "target": "Validate package.xml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "source_repo": "gazebosim/gz-gui",
+      "target": "gazebo-tooling/pr-collection-labeler@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "source_repo": "gazebosim/gz-gui",
+      "target": "PR Collection Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/gz-gui",
+      "target": "actions/add-to-project@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "gazebosim/gz-gui",
+      "target": "Ticket opened",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui",
+      "target": "dashboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui",
+      "target": "gazebo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui",
+      "target": "gazebosim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui",
+      "target": "graphical-user-interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui",
+      "target": "ignition-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui",
+      "target": "ignition-robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui",
+      "target": "robotics-applications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui",
+      "target": "robotics-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui",
+      "target": "widgets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:38:00.207274+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4889
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 613
+    },
+    {
+      "path": ".github/workflows/package_xml.yml",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/pr-collection-labeler.yml",
+      "size": 313
+    },
+    {
+      "path": ".github/workflows/triage.yml",
+      "size": 394
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Builds on top of Qt to provide widgets which are useful when developing robotics applications, such as a 3D view, plots, dashboard, etc, and can be used together in a convenient unified interface.",
+    "fork": false,
+    "full_name": "gazebosim/gz-gui",
+    "html_url": "https://github.com/gazebosim/gz-gui",
+    "language": "C++",
+    "pushed_at": "2026-04-28T17:30:35Z",
+    "stargazers_count": 99,
+    "topics": [
+      "dashboard",
+      "gazebo",
+      "gazebosim",
+      "graphical-user-interface",
+      "gui",
+      "hacktoberfest",
+      "ignition-gui",
+      "ignition-robotics",
+      "qt",
+      "robotics",
+      "robotics-applications",
+      "robotics-simulation",
+      "widgets"
+    ],
+    "updated_at": "2026-04-28T17:30:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-rendering",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gazebosim/gz-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ubuntu CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Ubuntu CI"
+    },
+    {
+      "context_snippet": "Validate package.xml",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package_xml.yml",
+      "term": "Validate package.xml"
+    },
+    {
+      "context_snippet": "PR Collection Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-collection-labeler.yml",
+      "term": "PR Collection Labeler"
+    },
+    {
+      "context_snippet": "Ticket opened",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/triage.yml",
+      "term": "Ticket opened"
+    },
+    {
+      "context_snippet": "**Maintainer:** jenn [AT] openrobotics [DOT] org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dashboard"
+    },
+    {
+      "context_snippet": "**Maintainer:** jenn [AT] openrobotics [DOT] org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo"
+    },
+    {
+      "context_snippet": "**Maintainer:** jenn [AT] openrobotics [DOT] org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebosim"
+    },
+    {
+      "context_snippet": "**Maintainer:** jenn [AT] openrobotics [DOT] org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphical-user-interface"
+    },
+    {
+      "context_snippet": "**Maintainer:** jenn [AT] openrobotics [DOT] org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "**Maintainer:** jenn [AT] openrobotics [DOT] org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-gui"
+    },
+    {
+      "context_snippet": "**Maintainer:** jenn [AT] openrobotics [DOT] org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ignition-robotics"
+    },
+    {
+      "context_snippet": "**Maintainer:** jenn [AT] openrobotics [DOT] org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "**Maintainer:** jenn [AT] openrobotics [DOT] org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-applications"
+    },
+    {
+      "context_snippet": "**Maintainer:** jenn [AT] openrobotics [DOT] org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-simulation"
+    },
+    {
+      "context_snippet": "**Maintainer:** jenn [AT] openrobotics [DOT] org",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "widgets"
+    }
+  ]
+}

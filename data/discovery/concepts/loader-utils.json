@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "loader-utils"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/loader-utils",
+      "status": "candidate-context",
+      "text": "utils for webpack loaders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/loader-utils",
+      "status": "candidate-context",
+      "text": "loader-utils"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/loader-utils",
+      "status": "candidate",
+      "text": "loader-utils"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "loader-utils",
+  "concept_id": "loader-utils",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "webpack/loader-utils"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "loader-utils",
+      "sense_id": "loader-utils#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

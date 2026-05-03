@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T14:47:20.589579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3860
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Python Binding to NVRTC",
+    "fork": false,
+    "full_name": "NVIDIA/pynvrtc",
+    "html_url": "https://github.com/NVIDIA/pynvrtc",
+    "language": "Python",
+    "pushed_at": "2024-10-09T17:52:54Z",
+    "stargazers_count": 80,
+    "topics": [],
+    "updated_at": "2026-04-22T16:38:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

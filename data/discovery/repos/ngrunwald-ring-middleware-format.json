@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ngrunwald/ring-middleware-format",
+      "target": "mmcgrana/ring-json-params",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ngrunwald/ring-middleware-format",
+      "target": "clojure-liberator/liberator",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:47:37.482570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Ring middleware for parsing parameters and emitting responses in JSON or other formats",
+    "fork": false,
+    "full_name": "ngrunwald/ring-middleware-format",
+    "html_url": "https://github.com/ngrunwald/ring-middleware-format",
+    "language": "Clojure",
+    "pushed_at": "2022-04-27T06:43:00Z",
+    "stargazers_count": 165,
+    "topics": [],
+    "updated_at": "2026-03-25T02:45:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-liberator/liberator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmcgrana/ring-json-params",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

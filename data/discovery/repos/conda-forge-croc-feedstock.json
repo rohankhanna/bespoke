@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/croc-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:38:25.078927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8574
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for croc.",
+    "fork": false,
+    "full_name": "conda-forge/croc-feedstock",
+    "html_url": "https://github.com/conda-forge/croc-feedstock",
+    "language": "Batchfile",
+    "pushed_at": "2026-04-23T06:46:24Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-23T06:46:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

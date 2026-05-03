@@ -7906,6 +7906,204 @@
       "source_repo": "RazrFalcon/svgcleaner",
       "status": "candidate-context",
       "text": "========================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozillazg/rust-pinyin",
+      "status": "candidate-context",
+      "text": "\u6c49\u5b57\u8f6c\u62fc\u97f3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozillazg/rust-pinyin",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wngr/async-datachannel",
+      "status": "candidate-context",
+      "text": "Async Wrapper for datachannel-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wngr/async-datachannel",
+      "status": "candidate-context",
+      "text": "This repository holds two crates, both of which share (mostly) the same API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SuperCuber/dotter",
+      "status": "candidate-context",
+      "text": "A dotfile manager and templater written in rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SuperCuber/dotter",
+      "status": "candidate-context",
+      "text": "Dotter is a dotfile manager and templater."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imgui-rs/imgui-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for Dear ImGui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imgui-rs/imgui-rs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/imgui-rs/imgui-rs/workflows/ci/badge.svg)](https://github.com/imgui-rs/imgui-rs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
+      "status": "candidate-context",
+      "text": "Flutter/Dart <-> Rust binding generator, feature-rich, but seamless and simple."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
+      "status": "candidate-context",
+      "text": "[![Rust Package](https://img.shields.io/crates/v/flutter_rust_bridge.svg?color=blue)](https://crates.io/crates/flutter_rust_bridge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cometbft/tendermint-rs",
+      "status": "candidate-context",
+      "text": "Client libraries for Tendermint/CometBFT in Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/tendermint-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/tendermint-rs",
+      "status": "candidate-context",
+      "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bgpkit/bgpkit-broker",
+      "status": "candidate-context",
+      "text": "Public BGP MRT data files metadata index."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgpkit/bgpkit-broker",
+      "status": "candidate-context",
+      "text": "[![Rust](https://github.com/bgpkit/bgpkit-broker/actions/workflows/rust.yml/badge.svg)](https://github.com/bgpkit/bgpkit-broker/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/serde_json5",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spyoungtech/json-five-rs",
+      "status": "candidate-context",
+      "text": "JSON5 in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyoungtech/json-five-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a5huynh/vscode-ron",
+      "status": "candidate-context",
+      "text": "Rust Object Notation (RON) vscode extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a5huynh/vscode-ron",
+      "status": "candidate-context",
+      "text": "vscode-ron is a RON syntax package for VS Code. Loosely based on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate-context",
+      "text": "A cloud-native open source distributed time series database with high performance, high compression ratio and high availability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robustmq/robustmq",
+      "status": "candidate-context",
+      "text": "Communication infrastructure for the AI era \u2014 one binary, one broker, one storage layer, any protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robustmq/robustmq",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "status": "candidate-context",
+      "text": "Wraps `cargo install` for better local, non-conflicting installation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "status": "candidate-context",
+      "text": "# https://doc.rust-lang.org/cargo/reference/manifest.html [package] name = \"cargo-local-install\" version = \"0.0.0-git\" authors = [\"MaulingMonkey <git@maulingmonkey.com>\"] repository = \"https://github.com/MaulingMonkey/cargo-local-install.git\" documentation = \"https://docs.rs/car\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate-context",
+      "text": "LaunchDarkly Server-Side SDK for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate-context",
+      "text": "[![Run CI](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zargony/fuse-rs",
+      "status": "candidate-context",
+      "text": "Rust library for filesystems in userspace (FUSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zargony/fuse-rs",
+      "status": "candidate-context",
+      "text": "![Crates.io](https://img.shields.io/crates/l/fuse)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "purpleprotocol/mimalloc_rust",
+      "status": "candidate-context",
+      "text": "A Rust wrapper over Microsoft's MiMalloc memory allocator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "purpleprotocol/mimalloc_rust",
+      "status": "candidate-context",
+      "text": "[![Latest Version]][crates.io] [![Documentation]][docs.rs]"
     }
   ],
   "candidate_glosses": [
@@ -11964,6 +12162,114 @@
       "source_repo": "RazrFalcon/svgcleaner",
       "status": "candidate",
       "text": "========================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozillazg/rust-pinyin",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wngr/async-datachannel",
+      "status": "candidate",
+      "text": "This repository holds two crates, both of which share (mostly) the same API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SuperCuber/dotter",
+      "status": "candidate",
+      "text": "Dotter is a dotfile manager and templater."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imgui-rs/imgui-rs",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/imgui-rs/imgui-rs/workflows/ci/badge.svg)](https://github.com/imgui-rs/imgui-rs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fzyzcjy/flutter_rust_bridge",
+      "status": "candidate",
+      "text": "[![Rust Package](https://img.shields.io/crates/v/flutter_rust_bridge.svg?color=blue)](https://crates.io/crates/flutter_rust_bridge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/tendermint-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cometbft/tendermint-rs",
+      "status": "candidate",
+      "text": "[![Crate][crate-image]][crate-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bgpkit/bgpkit-broker",
+      "status": "candidate",
+      "text": "[![Rust](https://github.com/bgpkit/bgpkit-broker/actions/workflows/rust.yml/badge.svg)](https://github.com/bgpkit/bgpkit-broker/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/serde_json5",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyoungtech/json-five-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a5huynh/vscode-ron",
+      "status": "candidate",
+      "text": "vscode-ron is a RON syntax package for VS Code. Loosely based on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robustmq/robustmq",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "status": "candidate",
+      "text": "# https://doc.rust-lang.org/cargo/reference/manifest.html [package] name = \"cargo-local-install\" version = \"0.0.0-git\" authors = [\"MaulingMonkey <git@maulingmonkey.com>\"] repository = \"https://github.com/MaulingMonkey/cargo-local-install.git\" documentation = \"https://docs.rs/car\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate",
+      "text": "[![Run CI](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml/badge.svg)](https://github.com/launchdarkly/rust-server-sdk/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zargony/fuse-rs",
+      "status": "candidate",
+      "text": "![Crates.io](https://img.shields.io/crates/l/fuse)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "purpleprotocol/mimalloc_rust",
+      "status": "candidate",
+      "text": "[![Latest Version]][crates.io] [![Documentation]][docs.rs]"
     }
   ],
   "candidate_related_terms": [
@@ -18757,11 +19063,395 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bionic-gpt/bionic-gpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mozillazg/rust-pinyin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "AltF02/mouse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "godot-rust/gdnative"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "wngr/async-datachannel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "imgui-rs/imgui-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rust-windowing/gl-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/rust-std-hermit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "hermit-os/hermit-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fzyzcjy/flutter_rust_bridge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "EmmyLuaLs/emmylua-analyzer-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cometbft/tendermint-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bgpkit/bgpkit-broker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rust-rse/reed-solomon-erasure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "google/serde_json5"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "spyoungtech/json-five-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "spyoungtech/json-five-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "a5huynh/vscode-ron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cnosdb/cnosdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robustmq/robustmq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pgcentralfoundation/pgrx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "MaulingMonkey/cargo-local-install"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MaulingMonkey/cargo-local-install"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "launchdarkly/rust-server-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rust-bakery/nom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "zargony/fuse-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "purpleprotocol/mimalloc_rust"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

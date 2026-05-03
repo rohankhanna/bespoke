@@ -1,0 +1,649 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-34x.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-34x.yml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@f565a63638bd3615e76249bffab00fcb9dab90f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-34x.yml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@f565a63638bd3615e76249bffab00fcb9dab90f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-34x.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-master.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-master.yml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@f565a63638bd3615e76249bffab00fcb9dab90f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-master.yml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@f565a63638bd3615e76249bffab00fcb9dab90f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-master.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz-nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz-nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz-nightly.yml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@f565a63638bd3615e76249bffab00fcb9dab90f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz-nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tendermint/tendermint",
+      "target": "informalsystems/tendermint-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tendermint/tendermint",
+      "target": "penumbra-zone/tower-abci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tendermint/tendermint",
+      "target": "moovweb/gvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-generated.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "Check generated code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "technote-space/get-diff-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "Test Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-manual.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-manual.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "e2e-manual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-34x.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-34x.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-34x.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "rtCamp/action-slack-notify@f565a63638bd3615e76249bffab00fcb9dab90f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-nightly-34x.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "e2e-nightly-34x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-master.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-master.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nightly-master.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "rtCamp/action-slack-notify@f565a63638bd3615e76249bffab00fcb9dab90f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-nightly-master.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "e2e-nightly-master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "technote-space/get-diff-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "e2e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz-nightly.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz-nightly.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz-nightly.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz-nightly.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "rtCamp/action-slack-notify@f565a63638bd3615e76249bffab00fcb9dab90f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz-nightly.yml",
+      "source_repo": "tendermint/tendermint",
+      "target": "fuzz-nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tendermint/tendermint",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tendermint/tendermint",
+      "target": "consensus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tendermint/tendermint",
+      "target": "consistency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tendermint/tendermint",
+      "target": "cryptocurrency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tendermint/tendermint",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tendermint/tendermint",
+      "target": "distributed-systems",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:30:10.440085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7393
+    },
+    {
+      "path": "go.mod",
+      "size": 13566
+    },
+    {
+      "path": ".github/workflows/check-generated.yml",
+      "size": 2324
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 3424
+    },
+    {
+      "path": ".github/workflows/e2e-manual.yml",
+      "size": 1040
+    },
+    {
+      "path": ".github/workflows/e2e-nightly-34x.yml",
+      "size": 2454
+    },
+    {
+      "path": ".github/workflows/e2e-nightly-master.yml",
+      "size": 2389
+    },
+    {
+      "path": ".github/workflows/e2e.yml",
+      "size": 1079
+    },
+    {
+      "path": ".github/workflows/fuzz-nightly.yml",
+      "size": 2648
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u27c1 Tendermint Core (BFT Consensus) in Go",
+    "fork": false,
+    "full_name": "tendermint/tendermint",
+    "html_url": "https://github.com/tendermint/tendermint",
+    "language": "Go",
+    "pushed_at": "2026-04-17T00:41:54Z",
+    "stargazers_count": 5862,
+    "topics": [
+      "bft",
+      "blockchain",
+      "consensus",
+      "consistency",
+      "cryptocurrency",
+      "cryptography",
+      "db",
+      "distributed-systems",
+      "go"
+    ],
+    "updated_at": "2026-05-03T09:56:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "informalsystems/tendermint-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moovweb/gvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "penumbra-zone/tower-abci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check generated code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-generated.yml",
+      "term": "Check generated code"
+    },
+    {
+      "context_snippet": "Test Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Test Coverage"
+    },
+    {
+      "context_snippet": "e2e-manual",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-manual.yml",
+      "term": "e2e-manual"
+    },
+    {
+      "context_snippet": "e2e-nightly-34x",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-nightly-34x.yml",
+      "term": "e2e-nightly-34x"
+    },
+    {
+      "context_snippet": "e2e-nightly-master",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-nightly-master.yml",
+      "term": "e2e-nightly-master"
+    },
+    {
+      "context_snippet": "e2e",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "term": "e2e"
+    },
+    {
+      "context_snippet": "fuzz-nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz-nightly.yml",
+      "term": "fuzz-nightly"
+    },
+    {
+      "context_snippet": "_UPDATE: TendermintCore featureset is frozen for LTS, see issue https://github.com/tendermint/tendermint/issues/9972_<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "_UPDATE: TendermintCore featureset is frozen for LTS, see issue https://github.com/tendermint/tendermint/issues/9972_<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consensus"
+    },
+    {
+      "context_snippet": "_UPDATE: TendermintCore featureset is frozen for LTS, see issue https://github.com/tendermint/tendermint/issues/9972_<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consistency"
+    },
+    {
+      "context_snippet": "_UPDATE: TendermintCore featureset is frozen for LTS, see issue https://github.com/tendermint/tendermint/issues/9972_<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptocurrency"
+    },
+    {
+      "context_snippet": "_UPDATE: TendermintCore featureset is frozen for LTS, see issue https://github.com/tendermint/tendermint/issues/9972_<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "_UPDATE: TendermintCore featureset is frozen for LTS, see issue https://github.com/tendermint/tendermint/issues/9972_<br/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    }
+  ]
+}

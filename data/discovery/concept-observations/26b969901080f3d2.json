@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-performance delimited-file reader and writer for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022526,
+      "status": "candidate",
+      "text": "separator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014166,
+      "status": "candidate",
+      "text": "boundary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979790,
+      "status": "candidate",
+      "text": "splitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973814,
+      "status": "candidate",
+      "text": "breaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29940872,
+      "status": "candidate",
+      "text": "tab"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "delimiter",
+      "sense_id": "delimiter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delimiter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delimiter",
+  "observation_id": "26b969901080f3d2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "delimiter",
+  "source_context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+  "source_file": null,
+  "source_repo": "sl-solution/DLMReader.jl",
+  "source_repo_description": "High-performance delimited-file reader and writer for Julia"
+}

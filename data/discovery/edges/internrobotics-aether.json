@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternRobotics/Aether",
-      "target": "sotamak1r/deepverse",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "InternRobotics/Aether",
       "target": "openrobotlab/aether",
       "target_type": "repository"
     },
@@ -18,14 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternRobotics/Aether",
-      "target": "a-r-r-o-w/finetrainers",
+      "target": "thudm/cogvideo",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternRobotics/Aether",
-      "target": "sotamak1r/gst",
+      "target": "a-r-r-o-w/finetrainers",
       "target_type": "repository"
     },
     {
@@ -106,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "InternRobotics/Aether"
 }

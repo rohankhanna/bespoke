@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhengyuf/IMavatar",
+      "target": "xuchen-ethz/snarf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhengyuf/IMavatar",
+      "target": "xuchen-ethz/fast-snarf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zhengyuf/IMavatar",
+      "target": "zhengyuf/pointavatar",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:44:27.646855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5046
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official repository for CVPR 2022 paper: I M Avatar: Implicit Morphable Head Avatars from Videos",
+    "fork": false,
+    "full_name": "zhengyuf/IMavatar",
+    "html_url": "https://github.com/zhengyuf/IMavatar",
+    "language": "Python",
+    "pushed_at": "2024-11-27T10:29:43Z",
+    "stargazers_count": 664,
+    "topics": [],
+    "updated_at": "2026-02-24T15:13:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuchen-ethz/fast-snarf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuchen-ethz/snarf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhengyuf/pointavatar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

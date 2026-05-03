@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "heapify"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luciopaiva/heapify",
+      "status": "candidate-context",
+      "text": "The fastest JavaScript priority queue out there. Zero dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luciopaiva/heapify",
+      "status": "candidate-context",
+      "text": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luciopaiva/heapify",
+      "status": "candidate",
+      "text": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "heapify",
+  "concept_id": "heapify",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "luciopaiva/heapify"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "heapify",
+      "sense_id": "heapify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/StyleHEAT",
+      "target": "feiiyin/styleheat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/StyleHEAT",
+      "target": "renyurui/pirender",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/StyleHEAT",
+      "target": "carlyx/dpe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/StyleHEAT",
+      "target": "tengfei-wang/hfgi",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:40.367374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8112
+    },
+    {
+      "path": "requirements.txt",
+      "size": 369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2022] StyleHEAT: A framework for high-resolution editable talking face generation",
+    "fork": false,
+    "full_name": "OpenTalker/StyleHEAT",
+    "html_url": "https://github.com/OpenTalker/StyleHEAT",
+    "language": "Python",
+    "pushed_at": "2023-03-26T10:37:41Z",
+    "stargazers_count": 658,
+    "topics": [],
+    "updated_at": "2026-04-09T22:47:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carlyx/dpe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feiiyin/styleheat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "renyurui/pirender",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tengfei-wang/hfgi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

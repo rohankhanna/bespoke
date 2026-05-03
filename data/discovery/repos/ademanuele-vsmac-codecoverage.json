@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ademanuele/VSMac-CodeCoverage",
+      "target": "tonerdo/coverlet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ademanuele/VSMac-CodeCoverage",
+      "target": "visual-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ademanuele/VSMac-CodeCoverage",
+      "target": "visual-studio-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ademanuele/VSMac-CodeCoverage",
+      "target": "visual-studio-for-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ademanuele/VSMac-CodeCoverage",
+      "target": "vsmac-codecoverage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:35:14.301647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Visual Studio for Mac code coverage extension.",
+    "fork": false,
+    "full_name": "ademanuele/VSMac-CodeCoverage",
+    "html_url": "https://github.com/ademanuele/VSMac-CodeCoverage",
+    "language": "C#",
+    "pushed_at": "2023-02-14T15:25:22Z",
+    "stargazers_count": 74,
+    "topics": [
+      "visual-studio",
+      "visual-studio-extension",
+      "visual-studio-for-mac",
+      "vsmac-codecoverage"
+    ],
+    "updated_at": "2025-01-28T01:29:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tonerdo/coverlet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/arthur-demanuele/VSMac-CodeCoverage/_apis/build/status/ademanuele.VSMac-CodeCoverage?branchName=master)](https://dev.azure.com/arthur-demanuele/VSMac-CodeCoverage/_build/latest?definitionId=1&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/arthur-demanuele/VSMac-CodeCoverage/_apis/build/status/ademanuele.VSMac-CodeCoverage?branchName=master)](https://dev.azure.com/arthur-demanuele/VSMac-CodeCoverage/_build/latest?definitionId=1&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio-extension"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/arthur-demanuele/VSMac-CodeCoverage/_apis/build/status/ademanuele.VSMac-CodeCoverage?branchName=master)](https://dev.azure.com/arthur-demanuele/VSMac-CodeCoverage/_build/latest?definitionId=1&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio-for-mac"
+    },
+    {
+      "context_snippet": "[![Build Status](https://dev.azure.com/arthur-demanuele/VSMac-CodeCoverage/_apis/build/status/ademanuele.VSMac-CodeCoverage?branchName=master)](https://dev.azure.com/arthur-demanuele/VSMac-CodeCoverage/_build/latest?definitionId=1&branchName=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vsmac-codecoverage"
+    }
+  ]
+}

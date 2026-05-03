@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Show Specification Annotations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "status": "candidate-context",
+      "text": "A language agnostic test suite for the JSON Schema specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "status": "candidate-context",
+      "text": "Show Specification Annotations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "status": "candidate",
+      "text": "Show Specification Annotations"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25967,
+      "status": "candidate",
+      "text": "statement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25609,
+      "status": "candidate",
+      "text": "commentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24967,
+      "status": "candidate",
+      "text": "presentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24846,
+      "status": "candidate",
+      "text": "description"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24846,
+      "status": "candidate",
+      "text": "explanation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Show Specification Annotations",
+  "concept_id": "show-specification-annotations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/show_specification_annotations.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Show Specification Annotations",
+      "sense_id": "show-specification-annotations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bioinfologics/w2rap-contigger",
+      "target": "gonzalogacc/w2rap-contigger",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:45:12.004787+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Illumina PE genome contig assembler, can handle large (17Gbp) complex (hexaploid) genomes.",
+    "fork": false,
+    "full_name": "bioinfologics/w2rap-contigger",
+    "html_url": "https://github.com/bioinfologics/w2rap-contigger",
+    "language": "C++",
+    "pushed_at": "2022-11-25T23:46:37Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-04-30T15:07:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gonzalogacc/w2rap-contigger",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

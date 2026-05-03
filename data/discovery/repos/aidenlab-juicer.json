@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aidenlab/juicer",
+      "target": "encode-dcc/hic-pipeline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aidenlab/juicer",
+      "target": "theaidenlab/juicer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aidenlab/juicer",
+      "target": "theaidenlab/juicebox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aidenlab/juicer",
+      "target": "aidenlab/straw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer",
+      "target": "3d-genome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer",
+      "target": "3d-genome-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer",
+      "target": "hi-c",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:45:19.198717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13093
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A One-Click System for Analyzing Loop-Resolution Hi-C Experiments",
+    "fork": false,
+    "full_name": "aidenlab/juicer",
+    "html_url": "https://github.com/aidenlab/juicer",
+    "language": "Shell",
+    "pushed_at": "2025-08-31T02:59:38Z",
+    "stargazers_count": 480,
+    "topics": [
+      "3d-genome",
+      "3d-genome-browser",
+      "bioinformatics",
+      "genomics",
+      "hi-c",
+      "ngs"
+    ],
+    "updated_at": "2026-04-24T12:25:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aidenlab/straw",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "encode-dcc/hic-pipeline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theaidenlab/juicebox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theaidenlab/juicer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "To access Juicer 1.6 (last stable release), please see [the Github Release](https://github.com/aidenlab/juicer/releases/tag/1.6). If you clone the Juicer repo directly from Github, it will clone Juicer 2, which is under active development. If you encounter any bugs, please let u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-genome"
+    },
+    {
+      "context_snippet": "To access Juicer 1.6 (last stable release), please see [the Github Release](https://github.com/aidenlab/juicer/releases/tag/1.6). If you clone the Juicer repo directly from Github, it will clone Juicer 2, which is under active development. If you encounter any bugs, please let u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-genome-browser"
+    },
+    {
+      "context_snippet": "To access Juicer 1.6 (last stable release), please see [the Github Release](https://github.com/aidenlab/juicer/releases/tag/1.6). If you clone the Juicer repo directly from Github, it will clone Juicer 2, which is under active development. If you encounter any bugs, please let u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "To access Juicer 1.6 (last stable release), please see [the Github Release](https://github.com/aidenlab/juicer/releases/tag/1.6). If you clone the Juicer repo directly from Github, it will clone Juicer 2, which is under active development. If you encounter any bugs, please let u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "context_snippet": "To access Juicer 1.6 (last stable release), please see [the Github Release](https://github.com/aidenlab/juicer/releases/tag/1.6). If you clone the Juicer repo directly from Github, it will clone Juicer 2, which is under active development. If you encounter any bugs, please let u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hi-c"
+    }
+  ]
+}

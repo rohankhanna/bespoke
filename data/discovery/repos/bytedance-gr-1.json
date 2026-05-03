@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/GR-1",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:36:06.734293+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for \"Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation\"",
+    "fork": false,
+    "full_name": "bytedance/GR-1",
+    "html_url": "https://github.com/bytedance/GR-1",
+    "language": "Python",
+    "pushed_at": "2024-04-22T01:42:06Z",
+    "stargazers_count": 310,
+    "topics": [
+      "research"
+    ],
+    "updated_at": "2026-04-21T12:40:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo contains code for the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

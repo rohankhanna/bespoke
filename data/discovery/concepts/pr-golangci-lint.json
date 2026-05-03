@@ -19,12 +19,30 @@
       "source_repo": "kubernetes-sigs/gateway-api",
       "status": "candidate-context",
       "text": "PR golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "status": "candidate-context",
+      "text": "Home for Cluster API, a subproject of sig-cluster-lifecycle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "status": "candidate-context",
+      "text": "PR golangci-lint"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "kubernetes-sigs/gateway-api",
+      "status": "candidate",
+      "text": "PR golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cluster-api",
       "status": "candidate",
       "text": "PR golangci-lint"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": ".github/workflows/kal.yml",
       "source_repo": "kubernetes-sigs/gateway-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/pr-golangci-lint.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,247 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "askuratovsky/currencylayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "phlegx/money-openexchangerates-bank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "rubymoney/eu_central_bank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "matiaskorhonen/nordea",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "apilayer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "currencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "currency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "currency-rates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "currencylayer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "currencylayer-bank",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "exchange-rate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "money",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "money-rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-currencylayer-bank",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:31:20.695159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7077
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A gem that calculates the exchange rate using published rates from currencylayer.com.",
+    "fork": false,
+    "full_name": "phlegx/money-currencylayer-bank",
+    "html_url": "https://github.com/phlegx/money-currencylayer-bank",
+    "language": "Ruby",
+    "pushed_at": "2023-06-02T08:20:44Z",
+    "stargazers_count": 15,
+    "topics": [
+      "apilayer",
+      "bitcoin",
+      "currencies",
+      "currency",
+      "currency-rates",
+      "currencylayer",
+      "currencylayer-bank",
+      "exchange-rate",
+      "money",
+      "money-rails",
+      "rails",
+      "ruby"
+    ],
+    "updated_at": "2023-12-11T05:00:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "askuratovsky/currencylayer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matiaskorhonen/nordea",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phlegx/money-openexchangerates-bank",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubymoney/eu_central_bank",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apilayer"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currencies"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currency"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currency-rates"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currencylayer"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currencylayer-bank"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exchange-rate"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "money"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "money-rails"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-currencylayer-bank.svg)](https://rubygems.org/gems/money-currencylayer-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

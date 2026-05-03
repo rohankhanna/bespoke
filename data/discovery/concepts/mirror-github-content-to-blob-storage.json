@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mirror GitHub Content to Blob Storage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-storage-fuse",
+      "status": "candidate-context",
+      "text": "A virtual file system adapter for Azure Blob storage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-storage-fuse",
+      "status": "candidate-context",
+      "text": "Mirror GitHub Content to Blob Storage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-storage-fuse",
+      "status": "candidate",
+      "text": "Mirror GitHub Content to Blob Storage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32866,
+      "status": "candidate",
+      "text": "ripper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29811,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29485,
+      "status": "candidate",
+      "text": "flash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29310,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29174,
+      "status": "candidate",
+      "text": "cloud"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mirror GitHub Content to Blob Storage",
+  "concept_id": "mirror-github-content-to-blob-storage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/mirror-to-blob.yml",
+      "source_repo": "Azure/azure-storage-fuse"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirror GitHub Content to Blob Storage",
+      "sense_id": "mirror-github-content-to-blob-storage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

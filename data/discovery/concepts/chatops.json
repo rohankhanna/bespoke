@@ -19,12 +19,30 @@
       "source_repo": "Project-MONAI/research-contributions",
       "status": "candidate-context",
       "text": "chatops"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Project-MONAI/MONAI",
+      "status": "candidate-context",
+      "text": "AI Toolkit for Healthcare Imaging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/MONAI",
+      "status": "candidate-context",
+      "text": "chatops"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Project-MONAI/research-contributions",
+      "status": "candidate",
+      "text": "chatops"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/MONAI",
       "status": "candidate",
       "text": "chatops"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/chatops.yml",
       "source_repo": "Project-MONAI/research-contributions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/chatops.yml",
+      "source_repo": "Project-MONAI/MONAI"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

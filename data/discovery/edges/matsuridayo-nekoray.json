@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "archlinuxcn/repo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "matsuridayo/matsuri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "matsuridayo/v2ray-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "matsuridayo/sing-box-extra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nekoray-cmake.yml",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nekoray-cmake.yml",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nekoray-cmake.yml",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nekoray-cmake.yml",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nekoray-cmake.yml",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nekoray-cmake.yml",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "seanmiddleditch/gha-setup-ninja@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-nekoray-cmake.yml",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-nekoray-cmake.yml",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "Nekoray build matrix - cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pkgbuild.yml",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "chitang233/aur-pkgbuild-builder@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-pkgbuild.yml",
+      "source_repo": "MatsuriDayo/nekoray",
+      "target": "AUR CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "MatsuriDayo/nekoray"
+}

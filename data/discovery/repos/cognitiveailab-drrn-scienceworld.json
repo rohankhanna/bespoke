@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:36:20.329380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5942
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2335
+    },
+    {
+      "path": "requirements.txt",
+      "size": 182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "cognitiveailab/drrn-scienceworld",
+    "html_url": "https://github.com/cognitiveailab/drrn-scienceworld",
+    "language": "Python",
+    "pushed_at": "2022-11-10T02:47:45Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-08-29T00:11:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

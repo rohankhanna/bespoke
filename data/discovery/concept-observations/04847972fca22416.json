@@ -48,7 +48,7 @@
   "normalized_form": "open-source-licensing",
   "observation_id": "04847972fca22416",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "open-source-licensing",
   "source_context_snippet": "Licensed caches the licenses of dependencies and checks their status, and is available as a Ruby gem.",
   "source_file": null,

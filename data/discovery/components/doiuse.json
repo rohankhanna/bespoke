@@ -1,0 +1,12 @@
+{
+  "component": "doiuse",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "RJWadley/stylelint-no-unsupported-browser-features"
+    }
+  ]
+}

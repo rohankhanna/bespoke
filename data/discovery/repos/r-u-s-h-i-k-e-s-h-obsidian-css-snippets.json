@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+      "target": "efemkay/obsidian-modular-css-layout",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+      "target": "elsatam/obsidian-stuff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+      "target": "eb2ai/my-checklists-and-icons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+      "target": "felixqueisler/obsidian-filelink-styling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+      "target": "obsidian-css",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+      "target": "snippets-collection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:43:29.929647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "Collection",
+    "description": "Welcome to the ObsidianMD CSS Snippets repository, a collection of CSS code snippets to enhance the user interface elements of ObsidianMD",
+    "fork": false,
+    "full_name": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+    "html_url": "https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets",
+    "language": null,
+    "pushed_at": "2024-10-11T08:23:47Z",
+    "stargazers_count": 1418,
+    "topics": [
+      "obsidian-css",
+      "obsidian-md",
+      "snippets-collection"
+    ],
+    "updated_at": "2026-05-02T04:43:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eb2ai/my-checklists-and-icons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "efemkay/obsidian-modular-css-layout",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elsatam/obsidian-stuff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "felixqueisler/obsidian-filelink-styling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ObsidianMD CSS Snippets Collection: Enhance Your Note-Taking Experience",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-css"
+    },
+    {
+      "context_snippet": "ObsidianMD CSS Snippets Collection: Enhance Your Note-Taking Experience",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "ObsidianMD CSS Snippets Collection: Enhance Your Note-Taking Experience",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippets-collection"
+    }
+  ]
+}

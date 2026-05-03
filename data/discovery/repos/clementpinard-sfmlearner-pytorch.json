@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "target": "depth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "target": "disparity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "target": "kitti",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "target": "unsupervised",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:12.240660+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8685
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch version of SfmLearner from Tinghui Zhou et al.",
+    "fork": false,
+    "full_name": "ClementPinard/SfmLearner-Pytorch",
+    "html_url": "https://github.com/ClementPinard/SfmLearner-Pytorch",
+    "language": "Python",
+    "pushed_at": "2026-04-15T15:24:30Z",
+    "stargazers_count": 1034,
+    "topics": [
+      "depth",
+      "disparity",
+      "kitti",
+      "pytorch",
+      "unsupervised"
+    ],
+    "updated_at": "2026-04-28T22:34:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This codebase implements the system described in the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth"
+    },
+    {
+      "context_snippet": "This codebase implements the system described in the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disparity"
+    },
+    {
+      "context_snippet": "This codebase implements the system described in the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kitti"
+    },
+    {
+      "context_snippet": "This codebase implements the system described in the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This codebase implements the system described in the paper:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised"
+    }
+  ]
+}

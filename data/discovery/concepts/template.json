@@ -571,6 +571,30 @@
       "source_repo": "helpers/handlebars-helpers",
       "status": "candidate-context",
       "text": "> More than 130 Handlebars helpers in ~20 categories. Helpers can be used with Assemble, Generate, Verb, Ghost, gulp-handlebars, grunt-handlebars, consolidate, or any node.js/Handlebars project."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "status": "candidate-context",
+      "text": "TX-UI Panel Subscription Page Templates Designed By TX Community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "status": "candidate-context",
+      "text": "TX-UI Panel Subscription Page Templates Designed By TX Community."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windingwind/zotero-plugin-template",
+      "status": "candidate-context",
+      "text": "A plugin template for Zotero."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windingwind/zotero-plugin-template",
+      "status": "candidate-context",
+      "text": "[![zotero target version](https://img.shields.io/badge/Zotero-7-green?style=flat-square&logo=zotero&logoColor=CC2936)](https://www.zotero.org)"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +879,18 @@
       "source_repo": "helpers/handlebars-helpers",
       "status": "candidate",
       "text": "> More than 130 Handlebars helpers in ~20 categories. Helpers can be used with Assemble, Generate, Verb, Ghost, gulp-handlebars, grunt-handlebars, consolidate, or any node.js/Handlebars project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "status": "candidate",
+      "text": "TX-UI Panel Subscription Page Templates Designed By TX Community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windingwind/zotero-plugin-template",
+      "status": "candidate",
+      "text": "[![zotero target version](https://img.shields.io/badge/Zotero-7-green?style=flat-square&logo=zotero&logoColor=CC2936)](https://www.zotero.org)"
     }
   ],
   "candidate_related_terms": [
@@ -1339,11 +1375,41 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "helpers/handlebars-helpers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "code-forge-io/open-source-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "AghayeCoder/TX-ThemeHub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "windingwind/zotero-plugin-template"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

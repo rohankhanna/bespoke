@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "hi-c"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aidenlab/juicer",
+      "status": "candidate-context",
+      "text": "A One-Click System for Analyzing Loop-Resolution Hi-C Experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aidenlab/juicer",
+      "status": "candidate-context",
+      "text": "To access Juicer 1.6 (last stable release), please see [the Github Release](https://github.com/aidenlab/juicer/releases/tag/1.6). If you clone the Juicer repo directly from Github, it will clone Juicer 2, which is under active development. If you encounter any bugs, please let u\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "higlass/higlass",
+      "status": "candidate-context",
+      "text": "Fast, flexible and extensible genome browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/higlass",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/higlass/higlass/actions/workflows/ci.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aidenlab/juicer",
+      "status": "candidate",
+      "text": "To access Juicer 1.6 (last stable release), please see [the Github Release](https://github.com/aidenlab/juicer/releases/tag/1.6). If you clone the Juicer repo directly from Github, it will clone Juicer 2, which is under active development. If you encounter any bugs, please let u\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/higlass",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/higlass/higlass/actions/workflows/ci.yml/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "fresca"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "coca-cola"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "sprite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "coca-cola citra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "coca-cola cherry"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "hi-c",
+  "concept_id": "hi-c",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "higlass/higlass"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hi-c",
+      "sense_id": "hi-c#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

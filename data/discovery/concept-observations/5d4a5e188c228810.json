@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Catch insensitive, inconsiderate writing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "alex \u2014 Catch insensitive, inconsiderate writing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "alex \u2014 Catch insensitive, inconsiderate writing"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacktoberfest2018",
+      "sense_id": "hacktoberfest2018#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hacktoberfest2018",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hacktoberfest2018",
+  "observation_id": "5d4a5e188c228810",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "hacktoberfest2018",
+  "source_context_snippet": "alex \u2014 Catch insensitive, inconsiderate writing",
+  "source_file": null,
+  "source_repo": "get-alex/alex",
+  "source_repo_description": "Catch insensitive, inconsiderate writing"
+}

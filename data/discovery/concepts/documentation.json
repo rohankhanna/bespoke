@@ -2194,6 +2194,114 @@
       "source_repo": "ory/docs",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Ory Documentation</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate-context",
+      "text": "Documentation for the Visual Studio Test Platform. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate-context",
+      "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaQuant/MarketData.jl",
+      "status": "candidate-context",
+      "text": "Time series market data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaQuant/MarketData.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Armour/vue-typescript-admin-docs",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd The documentation source for vue-typescript-admin-template project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Armour/vue-typescript-admin-docs",
+      "status": "candidate-context",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SimulatedGREG/electron-vue",
+      "status": "candidate-context",
+      "text": "An Electron & Vue.js quick start boilerplate with vue-cli scaffolding, common Vue plugins, electron-packager/electron-builder, unit/e2e testing, vue-devtools, and webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimulatedGREG/electron-vue",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/RecipesBase.jl",
+      "status": "candidate-context",
+      "text": "Base package for defining transformation recipes on user types for Plots.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/RecipesBase.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate-context",
+      "text": "OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen and custom methodology scripts for design exploration and optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate-context",
+      "text": "Raster manipulation for the Julia language "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getgrav/grav-theme-learn2",
+      "status": "candidate-context",
+      "text": "Learn2 Grav Theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav-theme-learn2",
+      "status": "candidate-context",
+      "text": "![Learn2](screenshot.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dauxio/daux.io",
+      "status": "candidate-context",
+      "text": "Daux.io is an documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly. It helps you create great looking documentation in a developer friendly way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dauxio/daux.io",
+      "status": "candidate-context",
+      "text": "Documentation"
     }
   ],
   "candidate_glosses": [
@@ -3318,6 +3426,60 @@
       "source_repo": "ory/docs",
       "status": "candidate",
       "text": "<h1 align=\"center\">Ory Documentation</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate",
+      "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaQuant/MarketData.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Armour/vue-typescript-admin-docs",
+      "status": "candidate",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimulatedGREG/electron-vue",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/RecipesBase.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav-theme-learn2",
+      "status": "candidate",
+      "text": "![Learn2](screenshot.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dauxio/daux.io",
+      "status": "candidate",
+      "text": "Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -5064,11 +5226,143 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "ory/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/ROCm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "insodoc/insomnia-documenter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vstest-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JuliaQuant/MarketData.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Armour/vue-typescript-admin-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "SimulatedGREG/electron-vue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/Documentation.yml",
+      "source_repo": "JuliaPlots/RecipesBase.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/variables_documentation_check.yml",
+      "source_repo": "The-OpenROAD-Project/OpenLane"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/Documenter.yml",
+      "source_repo": "rafaqz/Rasters.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "getgrav/grav-theme-learn2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "JuliaDocs/LiveServer.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "dauxio/daux.io"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

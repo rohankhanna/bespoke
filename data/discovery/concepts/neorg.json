@@ -19,6 +19,18 @@
       "source_repo": "nvim-neorg/neorg",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "status": "candidate-context",
+      "text": "This plugin adds horizontal highlights for text filetypes, like markdown, orgmode, and neorg."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "status": "candidate-context",
+      "text": "This plugin adds highlights for text filetypes, like `markdown`, `orgmode`, and `neorg`."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nvim-neorg/neorg",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "status": "candidate",
+      "text": "This plugin adds highlights for text filetypes, like `markdown`, `orgmode`, and `neorg`."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "nvim-neorg/neorg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lukas-reineke/headlines.nvim"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -619,6 +619,30 @@
       "source_repo": "google-deepmind/dm_pix",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/google-deepmind/dm_pix/master/dm_pix/images/pix_logo.png\" title=\"PIX logo\" height=200 width=200>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-image/scikit-image",
+      "status": "candidate-context",
+      "text": "Image processing in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-image/scikit-image",
+      "status": "candidate-context",
+      "text": "[![Image.sc forum](https://img.shields.io/badge/dynamic/json.svg?label=forum&url=https%3A%2F%2Fforum.image.sc%2Ftags%2Fscikit-image.json&query=%24.topic_list.tags.0.topic_count&colorB=brightgreen&suffix=%20topics&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAA\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaImages/Images.jl",
+      "status": "candidate-context",
+      "text": "An image library for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/Images.jl",
+      "status": "candidate-context",
+      "text": "[![][action-img]][action-url]"
     }
   ],
   "candidate_glosses": [
@@ -927,6 +951,18 @@
       "source_repo": "google-deepmind/dm_pix",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/google-deepmind/dm_pix/master/dm_pix/images/pix_logo.png\" title=\"PIX logo\" height=200 width=200>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-image/scikit-image",
+      "status": "candidate",
+      "text": "[![Image.sc forum](https://img.shields.io/badge/dynamic/json.svg?label=forum&url=https%3A%2F%2Fforum.image.sc%2Ftags%2Fscikit-image.json&query=%24.topic_list.tags.0.topic_count&colorB=brightgreen&suffix=%20topics&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAA\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/Images.jl",
+      "status": "candidate",
+      "text": "[![][action-img]][action-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -1426,11 +1462,47 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "scikit-image/scikit-image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaImages/Images.jl"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

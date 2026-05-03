@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -161,6 +161,56 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "chetachiezikeuzor/cMenu-Plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "7368697661/Origami"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mgmeyers/obsidian-contextual-typography"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mgmeyers/obsidian-smart-typography"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "bladeacer/obsi-snip-coll"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "colineckert/obsidian-things"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "smikula/obsidian-limelight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "deathau/sliding-panes-obsidian"
     }
   ],
   "term": "obsidian-md"

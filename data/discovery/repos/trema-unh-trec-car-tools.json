@@ -1,0 +1,39 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TREMA-UNH/trec-car-tools",
+      "target": "trec-car",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:30:17.799632+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools for working with the TREC CAR dataset.",
+    "fork": false,
+    "full_name": "TREMA-UNH/trec-car-tools",
+    "html_url": "https://github.com/TREMA-UNH/trec-car-tools",
+    "language": "Python",
+    "pushed_at": "2025-07-12T01:38:26Z",
+    "stargazers_count": 37,
+    "topics": [
+      "trec-car"
+    ],
+    "updated_at": "2026-04-21T04:01:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tools for working with the TREC CAR dataset.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trec-car"
+    }
+  ]
+}

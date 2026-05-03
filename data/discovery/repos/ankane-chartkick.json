@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/chartkick",
+      "target": "ankane/blazer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/chartkick",
+      "target": "ankane/vega",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/chartkick",
+      "target": "ankane/hightop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/chartkick",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/chartkick",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/chartkick",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/chartkick",
+      "target": "chartjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/chartkick",
+      "target": "charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/chartkick",
+      "target": "google-charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/chartkick",
+      "target": "highcharts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/chartkick",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:41:16.727478+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12482
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create beautiful JavaScript charts with one line of Ruby",
+    "fork": false,
+    "full_name": "ankane/chartkick",
+    "html_url": "https://github.com/ankane/chartkick",
+    "language": "Ruby",
+    "pushed_at": "2026-03-31T19:05:22Z",
+    "stargazers_count": 6525,
+    "topics": [
+      "chartjs",
+      "charts",
+      "google-charts",
+      "highcharts",
+      "visualization"
+    ],
+    "updated_at": "2026-04-30T04:57:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/blazer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/hightop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/vega",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Create beautiful JavaScript charts with one line of Ruby. No more fighting with charting libraries!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chartjs"
+    },
+    {
+      "context_snippet": "Create beautiful JavaScript charts with one line of Ruby. No more fighting with charting libraries!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charts"
+    },
+    {
+      "context_snippet": "Create beautiful JavaScript charts with one line of Ruby. No more fighting with charting libraries!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-charts"
+    },
+    {
+      "context_snippet": "Create beautiful JavaScript charts with one line of Ruby. No more fighting with charting libraries!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highcharts"
+    },
+    {
+      "context_snippet": "Create beautiful JavaScript charts with one line of Ruby. No more fighting with charting libraries!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

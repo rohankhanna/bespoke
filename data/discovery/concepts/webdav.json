@@ -43,6 +43,18 @@
       "source_repo": "rclone/rclone",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helyim/helyim",
+      "status": "candidate-context",
+      "text": "seaweedfs implemented in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helyim/helyim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "rclone/rclone",
       "status": "candidate",
       "text": "<!-- markdownlint-disable-next-line first-line-heading no-inline-html -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helyim/helyim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "rclone/rclone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "helyim/helyim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

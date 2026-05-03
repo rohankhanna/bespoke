@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "YCM (YCM CMake modules) is a collection of various useful CMake modules. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ycm-cmake-modules"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ycm-cmake-modules"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "yarp",
+      "sense_id": "yarp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "yarp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "yarp",
+  "observation_id": "14df4bdf3af0a4e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "yarp",
+  "source_context_snippet": "ycm-cmake-modules",
+  "source_file": null,
+  "source_repo": "robotology/ycm-cmake-modules",
+  "source_repo_description": "YCM (YCM CMake modules) is a collection of various useful CMake modules. "
+}

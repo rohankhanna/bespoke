@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zielon/INSTA-pytorch",
+      "target": "zielon/metrical-tracker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zielon/INSTA-pytorch",
+      "target": "yuliangxiu/bvh-distance-queries",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA-pytorch",
+      "target": "3dmm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA-pytorch",
+      "target": "avatars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA-pytorch",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA-pytorch",
+      "target": "flame",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA-pytorch",
+      "target": "instant-ngp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA-pytorch",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA-pytorch",
+      "target": "volumetric-rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:44:28.470012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3081
+    },
+    {
+      "path": "requirements.txt",
+      "size": 166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "INSTA - Instant Volumetric Head Avatars [Demo]",
+    "fork": false,
+    "full_name": "Zielon/INSTA-pytorch",
+    "html_url": "https://github.com/Zielon/INSTA-pytorch",
+    "language": "C",
+    "pushed_at": "2023-06-14T22:35:35Z",
+    "stargazers_count": 134,
+    "topics": [
+      "3dmm",
+      "avatars",
+      "cuda",
+      "flame",
+      "instant-ngp",
+      "neural-network",
+      "volumetric-rendering"
+    ],
+    "updated_at": "2026-02-24T15:12:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuliangxiu/bvh-distance-queries",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zielon/metrical-tracker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars (pytorch)</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dmm"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars (pytorch)</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avatars"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars (pytorch)</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars (pytorch)</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flame"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars (pytorch)</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instant-ngp"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars (pytorch)</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars (pytorch)</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volumetric-rendering"
+    }
+  ]
+}

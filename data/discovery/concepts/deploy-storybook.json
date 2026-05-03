@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Storybook"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate-context",
+      "text": "Vue implementation of the Carbon Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate-context",
+      "text": "Deploy Storybook"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate",
+      "text": "Deploy Storybook"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10399,
+      "status": "candidate",
+      "text": "elf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10399,
+      "status": "candidate",
+      "text": "ever"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10399,
+      "status": "candidate",
+      "text": "troll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10381,
+      "status": "candidate",
+      "text": "ballad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10381,
+      "status": "candidate",
+      "text": "cartoon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Storybook",
+  "concept_id": "deploy-storybook",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/deploy-vue-storybook.yml",
+      "source_repo": "carbon-design-system/carbon-components-vue"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Storybook",
+      "sense_id": "deploy-storybook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

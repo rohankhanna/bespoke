@@ -84,7 +84,7 @@
   "normalized_form": "benchmark-v2-framework",
   "observation_id": "dc346e07c088d770",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T06:47:22.946566+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Benchmark v2 Framework",
   "source_context_snippet": "Benchmark v2 Framework",
   "source_file": ".github/workflows/benchmark_v2.yml",

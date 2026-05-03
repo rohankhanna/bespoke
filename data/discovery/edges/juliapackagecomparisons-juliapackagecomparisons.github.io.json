@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Preview.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Preview.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Preview.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "julia-actions/setup-julia@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Preview.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Preview.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "peter-evans/create-or-update-comment@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Preview.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "comparisons-page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "target": "packages",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io"
+}

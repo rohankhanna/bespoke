@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:43:46.620029+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An implementation of the IETF\u2019s Interactive Connectivity Establishment (ICE) standard \u2014 this is an official read-only mirror of the upstream repository at https://gitlab.freedesktop.org/libnice/libnice/. File issues there and create pull requests there too instead of here.",
+    "fork": false,
+    "full_name": "libnice/libnice",
+    "html_url": "https://github.com/libnice/libnice",
+    "language": "C",
+    "pushed_at": "2026-04-30T12:06:10Z",
+    "stargazers_count": 631,
+    "topics": [],
+    "updated_at": "2026-04-30T12:06:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

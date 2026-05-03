@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookmicrosites/Open-Mapping-At-Facebook",
+      "target": "openstreetmap/id",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookmicrosites/Open-Mapping-At-Facebook",
+      "target": "facebookincubator/rapid",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:45:26.138393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3388
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documentation for Open Mapping At Facebook",
+    "fork": false,
+    "full_name": "facebookmicrosites/Open-Mapping-At-Facebook",
+    "html_url": "https://github.com/facebookmicrosites/Open-Mapping-At-Facebook",
+    "language": null,
+    "pushed_at": "2022-07-27T21:51:52Z",
+    "stargazers_count": 188,
+    "topics": [],
+    "updated_at": "2026-01-23T06:26:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookincubator/rapid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openstreetmap/id",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

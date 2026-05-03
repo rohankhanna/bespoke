@@ -31,6 +31,18 @@
       "source_repo": "NVIDIAGameWorks/kaolin",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate-context",
+      "text": "Raster manipulation for the Julia language "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/src/assets/logo.png\" align=\"right\" width=\"30%\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "NVIDIAGameWorks/kaolin",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate",
+      "text": "<img src=\"docs/src/assets/logo.png\" align=\"right\" width=\"30%\"></img>"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "NVIDIAGameWorks/kaolin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rafaqz/Rasters.jl"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

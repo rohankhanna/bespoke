@@ -148,13 +148,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "godot-rust/gdext",
-      "target": "godot-rust/godot4-prebuilt",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/full-ci.yml",
       "source_repo": "godot-rust/gdext",
@@ -267,7 +260,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:04:31.183511+00:00",
+  "fetched_at": "2026-05-03T16:41:38.623566+00:00",
   "fetched_files": [
     {
       "path": "Cargo.toml",
@@ -299,23 +292,17 @@
     "full_name": "godot-rust/gdext",
     "html_url": "https://github.com/godot-rust/gdext",
     "language": "Rust",
-    "pushed_at": "2026-05-02T20:20:59Z",
-    "stargazers_count": 4734,
+    "pushed_at": "2026-05-03T12:04:14Z",
+    "stargazers_count": 4737,
     "topics": [
       "game-development",
       "gamedev",
       "godot",
       "rust"
     ],
-    "updated_at": "2026-05-02T23:56:02Z"
+    "updated_at": "2026-05-03T15:00:35Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "godot-rust/godot4-prebuilt",
-      "source_file": "Cargo.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Full CI",

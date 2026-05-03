@@ -382,6 +382,18 @@
       "source_repo": "crystal-lang/crystal",
       "status": "candidate-context",
       "text": "Backport"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaImages/Images.jl",
+      "status": "candidate-context",
+      "text": "An image library for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/Images.jl",
+      "status": "candidate-context",
+      "text": "Backport"
     }
   ],
   "candidate_glosses": [
@@ -568,6 +580,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crystal-lang/crystal",
+      "status": "candidate",
+      "text": "Backport"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/Images.jl",
       "status": "candidate",
       "text": "Backport"
     }
@@ -817,11 +835,17 @@
       "observed_at": "2026-05-02T00:37:06.324499+00:00",
       "source_file": ".github/workflows/backport.yml",
       "source_repo": "crystal-lang/crystal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/Backport.yml",
+      "source_repo": "JuliaImages/Images.jl"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T00:37:06.324499+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

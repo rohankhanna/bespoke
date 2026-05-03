@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nekoray build matrix - cmake"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MatsuriDayo/nekoray",
+      "status": "candidate-context",
+      "text": "\u4e0d\u518d\u7ef4\u62a4\uff0c\u81ea\u5bfb\u66ff\u4ee3\u54c1\u3002 Qt based cross-platform GUI proxy configuration manager (backend: sing-box)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/nekoray",
+      "status": "candidate-context",
+      "text": "Nekoray build matrix - cmake"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/nekoray",
+      "status": "candidate",
+      "text": "Nekoray build matrix - cmake"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11711,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11533,
+      "status": "candidate",
+      "text": "bond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11533,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10667,
+      "status": "candidate",
+      "text": "base"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nekoray build matrix - cmake",
+  "concept_id": "nekoray-build-matrix---cmake",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build-nekoray-cmake.yml",
+      "source_repo": "MatsuriDayo/nekoray"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nekoray build matrix - cmake",
+      "sense_id": "nekoray-build-matrix---cmake#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "technote-space/get-diff-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "Generate GMNS Documentation and DB",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yaml",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yaml",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "Deploy Documentation Website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "highway-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "road-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zephyr-data-specs/GMNS",
+      "target": "transportation-planning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:42.696803+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11758
+    },
+    {
+      "path": ".github/workflows/generate.yaml",
+      "size": 1378
+    },
+    {
+      "path": ".github/workflows/website.yaml",
+      "size": 1288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "General Modeling Network Specification",
+    "fork": false,
+    "full_name": "zephyr-data-specs/GMNS",
+    "html_url": "https://github.com/zephyr-data-specs/GMNS",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-05-01T22:54:44Z",
+    "stargazers_count": 130,
+    "topics": [
+      "highway-network",
+      "network",
+      "road-network",
+      "specification",
+      "transportation-planning"
+    ],
+    "updated_at": "2026-04-16T18:51:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Generate GMNS Documentation and DB",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate.yaml",
+      "term": "Generate GMNS Documentation and DB"
+    },
+    {
+      "context_snippet": "Deploy Documentation Website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yaml",
+      "term": "Deploy Documentation Website"
+    },
+    {
+      "context_snippet": "Volpe/FHWA partnership with [Zephyr Foundation](https://zephyrtransport.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "highway-network"
+    },
+    {
+      "context_snippet": "Volpe/FHWA partnership with [Zephyr Foundation](https://zephyrtransport.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network"
+    },
+    {
+      "context_snippet": "Volpe/FHWA partnership with [Zephyr Foundation](https://zephyrtransport.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "road-network"
+    },
+    {
+      "context_snippet": "Volpe/FHWA partnership with [Zephyr Foundation](https://zephyrtransport.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    },
+    {
+      "context_snippet": "Volpe/FHWA partnership with [Zephyr Foundation](https://zephyrtransport.org).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transportation-planning"
+    }
+  ]
+}

@@ -32,6 +32,18 @@
       "source_repo": "cashapp/turbine",
       "status": "candidate-context",
       "text": "gradle-wrapper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reactor/reactor-core",
+      "status": "candidate-context",
+      "text": "Non-Blocking Reactive Foundation for the JVM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-core",
+      "status": "candidate-context",
+      "text": "\"Gradle Wrapper\""
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "cashapp/turbine",
       "status": "candidate",
       "text": "gradle-wrapper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reactor/reactor-core",
+      "status": "candidate",
+      "text": "\"Gradle Wrapper\""
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/gradle-wrapper.yaml",
       "source_repo": "cashapp/turbine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "reactor/reactor-core"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

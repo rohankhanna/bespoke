@@ -622,6 +622,66 @@
       "source_repo": "mantoni/eslint_d.js",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angular-eslint/angular-eslint",
+      "status": "candidate-context",
+      "text": ":sparkles: Monorepo for all the tooling related to using ESLint with Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular-eslint/angular-eslint",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/babel-eslint",
+      "status": "candidate-context",
+      "text": ":tokyo_tower: A wrapper for Babel's parser used for ESLint (renamed to @babel/eslint-parser)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel-eslint",
+      "status": "candidate-context",
+      "text": "**babel-eslint** allows you to lint **ALL** valid Babel code with the fantastic"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaronjensen/eslintd-fix",
+      "status": "candidate-context",
+      "text": "Emacs minor-mode to automatically fix javascript with eslint_d."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronjensen/eslintd-fix",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/eslintd-fix-badge.svg)](https://melpa.org/#/eslintd-fix)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gajus/eslint-plugin-flowtype",
+      "status": "candidate-context",
+      "text": "Flow type linting rules for ESLint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/eslint-plugin-flowtype",
+      "status": "candidate-context",
+      "text": "<a name=\"eslint-plugin-flowtype\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsx-eslint/eslint-plugin-react",
+      "status": "candidate-context",
+      "text": "React-specific linting rules for ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-react",
+      "status": "candidate-context",
+      "text": "==================="
     }
   ],
   "candidate_glosses": [
@@ -930,6 +990,36 @@
       "source_repo": "mantoni/eslint_d.js",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular-eslint/angular-eslint",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel-eslint",
+      "status": "candidate",
+      "text": "**babel-eslint** allows you to lint **ALL** valid Babel code with the fantastic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaronjensen/eslintd-fix",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/eslintd-fix-badge.svg)](https://melpa.org/#/eslintd-fix)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gajus/eslint-plugin-flowtype",
+      "status": "candidate",
+      "text": "<a name=\"eslint-plugin-flowtype\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-react",
+      "status": "candidate",
+      "text": "==================="
     }
   ],
   "candidate_related_terms": [
@@ -1669,11 +1759,83 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "mantoni/eslint_d.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "SublimeLinter/SublimeLinter-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "angular-eslint/angular-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "babel/babel-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "aaronjensen/eslintd-fix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "eslint/eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gajus/eslint-plugin-flowtype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jsx-eslint/eslint-plugin-react"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

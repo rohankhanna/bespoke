@@ -319,6 +319,18 @@
       "source_repo": "weiyithu/SurroundDepth",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "status": "candidate-context",
+      "text": "Curated List of papers on Self-Supervised Representation Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "status": "candidate-context",
+      "text": "Want to leverage state of the art Self-Supervised Learning and Distillation to pretrain your models? Check out the following tools by the team from [Lightly AI](https://www.lightly.ai/):"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +489,12 @@
       "source_repo": "weiyithu/SurroundDepth",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "status": "candidate",
+      "text": "Want to leverage state of the art Self-Supervised Learning and Distillation to pretrain your models? Check out the following tools by the team from [Lightly AI](https://www.lightly.ai/):"
     }
   ],
   "candidate_related_terms": [],
@@ -724,11 +742,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "weiyithu/SurroundDepth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/awesome-self-supervised-learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Threaded Python and CLI client library for AWS S3, Google Cloud Storage (GCS), in-memory, and the local filesystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049646,
+      "status": "candidate",
+      "text": "pail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047960,
+      "status": "candidate",
+      "text": "bucketful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049380,
+      "status": "candidate",
+      "text": "tub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048456,
+      "status": "candidate",
+      "text": "basin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047742,
+      "status": "candidate",
+      "text": "boiler"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bucket",
+      "sense_id": "bucket#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4042,
+      "status": "candidate",
+      "text": "pail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "bucketful"
+    }
+  ],
+  "concept_id": "bucket",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bucket",
+  "observation_id": "b599d370762d7bf2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "bucket",
+  "source_context_snippet": "[![PyPI version](https://badge.fury.io/py/cloud-files.svg)](https://badge.fury.io/py/cloud-files) [![Test Suite](https://github.com/seung-lab/cloud-files/workflows/Test%20Suite/badge.svg)](https://github.com/seung-lab/cloud-files/actions?query=workflow%3A%22Test+Suite%22)",
+  "source_file": null,
+  "source_repo": "seung-lab/cloud-files",
+  "source_repo_description": "Threaded Python and CLI client library for AWS S3, Google Cloud Storage (GCS), in-memory, and the local filesystem."
+}

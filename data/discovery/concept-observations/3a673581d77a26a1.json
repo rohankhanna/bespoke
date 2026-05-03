@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vue implementation of the Carbon Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Retry npm publish for Vue3"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Retry npm publish for Vue3"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23004,
+      "status": "candidate",
+      "text": "groom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23004,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23004,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23004,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23004,
+      "status": "candidate",
+      "text": "keys"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Retry npm publish for Vue3",
+      "sense_id": "retry-npm-publish-for-vue3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "retry-npm-publish-for-vue3",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "retry-npm-publish-for-vue3",
+  "observation_id": "3a673581d77a26a1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Retry npm publish for Vue3",
+  "source_context_snippet": "Retry npm publish for Vue3",
+  "source_file": ".github/workflows/release-republish.yml",
+  "source_repo": "carbon-design-system/carbon-components-vue",
+  "source_repo_description": "Vue implementation of the Carbon Design System"
+}

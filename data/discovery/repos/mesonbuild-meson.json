@@ -1,0 +1,416 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file_format.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file_format.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml"
+    },
+    {
+      "component": "azure/docker-login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "scientific-python/upload-nightly-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nonnative.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nonnative.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "cygwin/cygwin-install-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "cygwin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file_format.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/file_format.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/file_format.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "File format check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "azure/docker-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/images.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "CI image builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "msys2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "scientific-python/upload-nightly-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "Nightly Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nonnative.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nonnative.yml",
+      "source_repo": "mesonbuild/meson",
+      "target": "Cross-only compilation environment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:18.959315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3408
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 85
+    },
+    {
+      "path": ".github/workflows/cygwin.yml",
+      "size": 3234
+    },
+    {
+      "path": ".github/workflows/file_format.yml",
+      "size": 424
+    },
+    {
+      "path": ".github/workflows/images.yml",
+      "size": 2180
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1392
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 4915
+    },
+    {
+      "path": ".github/workflows/msys2.yml",
+      "size": 4016
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 625
+    },
+    {
+      "path": ".github/workflows/nonnative.yml",
+      "size": 1322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Meson Build System",
+    "fork": false,
+    "full_name": "mesonbuild/meson",
+    "html_url": "https://github.com/mesonbuild/meson",
+    "language": "Python",
+    "pushed_at": "2026-05-03T09:16:40Z",
+    "stargazers_count": 6489,
+    "topics": [],
+    "updated_at": "2026-05-03T09:16:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cygwin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin.yml",
+      "term": "cygwin"
+    },
+    {
+      "context_snippet": "File format check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/file_format.yml",
+      "term": "File format check"
+    },
+    {
+      "context_snippet": "CI image builder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/images.yml",
+      "term": "CI image builder"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macos"
+    },
+    {
+      "context_snippet": "msys2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "term": "msys2"
+    },
+    {
+      "context_snippet": "Nightly Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly Wheels"
+    },
+    {
+      "context_snippet": "Cross-only compilation environment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nonnative.yml",
+      "term": "Cross-only compilation environment"
+    }
+  ]
+}

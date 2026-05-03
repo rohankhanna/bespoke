@@ -84,7 +84,7 @@
   "normalized_form": "argos-ci-screenshots",
   "observation_id": "3ae361ad8f91b681",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Argos CI Screenshots",
   "source_context_snippet": "Argos CI Screenshots",
   "source_file": ".github/workflows/argos.yaml",

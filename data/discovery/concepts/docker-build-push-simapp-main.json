@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Build & Push Simapp (main)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/ibc-go",
+      "status": "candidate-context",
+      "text": "Inter-Blockchain Communication Protocol (IBC) implementation in Golang."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-go",
+      "status": "candidate-context",
+      "text": "Docker Build & Push Simapp (main)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/ibc-go",
+      "status": "candidate",
+      "text": "Docker Build & Push Simapp (main)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23362,
+      "status": "candidate",
+      "text": "boat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22329,
+      "status": "candidate",
+      "text": "screw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22329,
+      "status": "candidate",
+      "text": "screwed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22295,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22295,
+      "status": "candidate",
+      "text": "scoop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Build & Push Simapp (main)",
+  "concept_id": "docker-build-push-simapp-main",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cosmos/ibc-go"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Build & Push Simapp (main)",
+      "sense_id": "docker-build-push-simapp-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

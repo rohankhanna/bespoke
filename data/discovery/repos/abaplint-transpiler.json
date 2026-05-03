@@ -133,6 +133,31 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "jwalton/gh-find-current-pr@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "peter-evans/find-comment@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/web.yml"
     },
     {
@@ -338,6 +363,48 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "abaplint/transpiler",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "abaplint/transpiler",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "abaplint/transpiler",
+      "target": "jwalton/gh-find-current-pr@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "abaplint/transpiler",
+      "target": "peter-evans/find-comment@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "abaplint/transpiler",
+      "target": "peter-evans/create-or-update-comment@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "abaplint/transpiler",
+      "target": "Regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/web.yml",
       "source_repo": "abaplint/transpiler",
       "target": "actions/checkout@v4",
@@ -386,7 +453,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:50:14.805637+00:00",
+  "fetched_at": "2026-05-03T16:43:43.919784+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -399,6 +466,10 @@
     {
       "path": ".github/workflows/ci.yml",
       "size": 1180
+    },
+    {
+      "path": ".github/workflows/regression.yml",
+      "size": 2165
     },
     {
       "path": ".github/workflows/web.yml",
@@ -414,7 +485,7 @@
     "full_name": "abaplint/transpiler",
     "html_url": "https://github.com/abaplint/transpiler",
     "language": "TypeScript",
-    "pushed_at": "2026-05-01T06:57:11Z",
+    "pushed_at": "2026-05-03T10:07:17Z",
     "stargazers_count": 99,
     "topics": [
       "abap",
@@ -431,6 +502,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "Regression",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regression.yml",
+      "term": "Regression"
+    },
     {
       "context_snippet": "Web",
       "edge_type": "workflow-name",

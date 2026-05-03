@@ -691,6 +691,42 @@
       "source_repo": "Kotlin/KEEP",
       "status": "candidate-context",
       "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![check-uniq-keep-ids](https://github.com/Kotlin/KEEP/actions/workflows/check-uniq-keep-ids.yml/badge.svg?branch=main)](https://github.com/Kotlin\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NeoApplications/Neo-Backup",
+      "status": "candidate-context",
+      "text": "backup manager for android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeoApplications/Neo-Backup",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kool-engine/kool",
+      "status": "candidate-context",
+      "text": "A Vulkan /  WebGPU / OpenGL engine for Desktop JVM, Android and Javascript written in Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kool-engine/kool",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kool-engine/kool/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate-context",
+      "text": "Write your shell scripts on the JVM (java, kotlin, groovy, etc.) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate-context",
+      "text": "Blaze by Fizzed"
     }
   ],
   "candidate_glosses": [
@@ -1035,6 +1071,24 @@
       "source_repo": "Kotlin/KEEP",
       "status": "candidate",
       "text": "[![official JetBrains project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![check-uniq-keep-ids](https://github.com/Kotlin/KEEP/actions/workflows/check-uniq-keep-ids.yml/badge.svg?branch=main)](https://github.com/Kotlin\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeoApplications/Neo-Backup",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kool-engine/kool",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kool-engine/kool/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate",
+      "text": "Blaze by Fizzed"
     }
   ],
   "candidate_related_terms": [
@@ -1522,11 +1576,41 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NeoApplications/Neo-Backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kool-engine/kool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fizzed/blaze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

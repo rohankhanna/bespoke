@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "target": "apple/ml-entropy-reconstruction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "target": "casia-iva-lab/fastsam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "target": "facebookresearch/clip-rocket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "target": "alinlab/selfpatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "target": "lycheeverse/lychee-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "target": "Check Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "target": "awesome-lists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:45:45.502169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25008
+    },
+    {
+      "path": ".github/workflows/links.yml",
+      "size": 303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Curated List of papers on Self-Supervised Representation Learning",
+    "fork": false,
+    "full_name": "lightly-ai/awesome-self-supervised-learning",
+    "html_url": "https://github.com/lightly-ai/awesome-self-supervised-learning",
+    "language": null,
+    "pushed_at": "2025-04-16T10:31:04Z",
+    "stargazers_count": 18,
+    "topics": [
+      "awesome-list",
+      "awesome-lists",
+      "self-supervised-learning"
+    ],
+    "updated_at": "2026-03-10T18:28:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alinlab/selfpatch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/ml-entropy-reconstruction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casia-iva-lab/fastsam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/clip-rocket",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Check Links\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "term": "Check Links"
+    },
+    {
+      "context_snippet": "Want to leverage state of the art Self-Supervised Learning and Distillation to pretrain your models? Check out the following tools by the team from [Lightly AI](https://www.lightly.ai/):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "Want to leverage state of the art Self-Supervised Learning and Distillation to pretrain your models? Check out the following tools by the team from [Lightly AI](https://www.lightly.ai/):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-lists"
+    },
+    {
+      "context_snippet": "Want to leverage state of the art Self-Supervised Learning and Distillation to pretrain your models? Check out the following tools by the team from [Lightly AI](https://www.lightly.ai/):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    }
+  ]
+}

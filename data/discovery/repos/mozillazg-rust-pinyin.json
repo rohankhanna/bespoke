@@ -1,0 +1,133 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozillazg/rust-pinyin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozillazg/rust-pinyin",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/rust-pinyin",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/rust-pinyin",
+      "target": "hanzi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/rust-pinyin",
+      "target": "hanzi-pinyin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/rust-pinyin",
+      "target": "pinyin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/rust-pinyin",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:45:39.240310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2115
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1511
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u6c49\u5b57\u8f6c\u62fc\u97f3",
+    "fork": false,
+    "full_name": "mozillazg/rust-pinyin",
+    "html_url": "https://github.com/mozillazg/rust-pinyin",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T22:41:28Z",
+    "stargazers_count": 233,
+    "topics": [
+      "chinese",
+      "hanzi",
+      "hanzi-pinyin",
+      "pinyin",
+      "rust"
+    ],
+    "updated_at": "2026-04-19T08:07:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hanzi"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hanzi-pinyin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pinyin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/mozillazg/rust-pinyin/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

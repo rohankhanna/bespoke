@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "e2e-nightly-34x"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tendermint/tendermint",
+      "status": "candidate-context",
+      "text": "\u27c1 Tendermint Core (BFT Consensus) in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tendermint/tendermint",
+      "status": "candidate-context",
+      "text": "e2e-nightly-34x"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tendermint/tendermint",
+      "status": "candidate",
+      "text": "e2e-nightly-34x"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "e2e-nightly-34x",
+  "concept_id": "e2e-nightly-34x",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/e2e-nightly-34x.yml",
+      "source_repo": "tendermint/tendermint"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "e2e-nightly-34x",
+      "sense_id": "e2e-nightly-34x#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

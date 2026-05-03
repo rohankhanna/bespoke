@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redisson/redisson-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redisson/redisson-examples",
+      "target": "redisson",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:50:45.219913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Redisson java examples",
+    "fork": false,
+    "full_name": "redisson/redisson-examples",
+    "html_url": "https://github.com/redisson/redisson-examples",
+    "language": "Java",
+    "pushed_at": "2024-09-25T19:56:49Z",
+    "stargazers_count": 373,
+    "topics": [
+      "examples",
+      "redisson"
+    ],
+    "updated_at": "2026-04-15T04:52:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Redisson examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "Redisson examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redisson"
+    }
+  ]
+}

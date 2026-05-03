@@ -67,6 +67,42 @@
       "source_repo": "kacperkan/conerf",
       "status": "candidate-context",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate-context",
+      "text": "NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of [NeRF](https://arxiv.org/pdf/2003.08934.pdf) (Neural Radiance Fields) using pytorch ([pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)). This repo doesn't aim at reproducibility, but aim at providing a simpler and faster trai\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/nerf_Unity",
+      "status": "candidate-context",
+      "text": "Unity project for nerf_pl (Neural Radiance Fields)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_Unity",
+      "status": "candidate-context",
+      "text": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/nsff_pl",
+      "status": "candidate-context",
+      "text": "Neural Scene Flow Fields using pytorch-lightning, with potential improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nsff_pl",
+      "status": "candidate-context",
+      "text": "Neural Scene Flow Fields using pytorch-lightning. This repo reimplements the [NSFF](https://github.com/zhengqili/Neural-Scene-Flow-Fields) idea, but modifies several operations based on observation of NSFF results and discussions with the authors. For discussion details, please \u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "kacperkan/conerf",
       "status": "candidate",
       "text": "[![arXiv](https://img.shields.io/badge/arXiv-2112.01983-red.svg)](https://arxiv.org/abs/2112.01983)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate",
+      "text": "Unofficial implementation of [NeRF](https://arxiv.org/pdf/2003.08934.pdf) (Neural Radiance Fields) using pytorch ([pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)). This repo doesn't aim at reproducibility, but aim at providing a simpler and faster trai\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_Unity",
+      "status": "candidate",
+      "text": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nsff_pl",
+      "status": "candidate",
+      "text": "Neural Scene Flow Fields using pytorch-lightning. This repo reimplements the [NSFF](https://github.com/zhengqili/Neural-Scene-Flow-Fields) idea, but modifies several operations based on observation of NSFF results and discussions with the authors. For discussion details, please \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +190,29 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "kacperkan/conerf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_Unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/nsff_pl"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

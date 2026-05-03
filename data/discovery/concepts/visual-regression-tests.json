@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Visual Regression Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/www.julialang.org",
+      "status": "candidate-context",
+      "text": "Julia Project website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/www.julialang.org",
+      "status": "candidate-context",
+      "text": "Visual Regression Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/www.julialang.org",
+      "status": "candidate",
+      "text": "Visual Regression Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26109,
+      "status": "candidate",
+      "text": "optometrist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19519,
+      "status": "candidate",
+      "text": "decline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19048,
+      "status": "candidate",
+      "text": "dink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19048,
+      "status": "candidate",
+      "text": "drop shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19048,
+      "status": "candidate",
+      "text": "libero"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Visual Regression Tests",
+  "concept_id": "visual-regression-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/visual-tests.yml",
+      "source_repo": "JuliaLang/www.julialang.org"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Visual Regression Tests",
+      "sense_id": "visual-regression-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

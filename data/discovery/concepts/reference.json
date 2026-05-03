@@ -31,6 +31,18 @@
       "source_repo": "mdn/content",
       "status": "candidate-context",
       "text": "![github-profile](https://user-images.githubusercontent.com/10350960/166113119-629295f6-c282-42c9-9379-af2de5ad4338.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Overv/VulkanTutorial",
+      "status": "candidate-context",
+      "text": "Tutorial for the Vulkan graphics and compute API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Overv/VulkanTutorial",
+      "status": "candidate-context",
+      "text": "Vulkan tutorial"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "mdn/content",
       "status": "candidate",
       "text": "![github-profile](https://user-images.githubusercontent.com/10350960/166113119-629295f6-c282-42c9-9379-af2de5ad4338.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Overv/VulkanTutorial",
+      "status": "candidate",
+      "text": "Vulkan tutorial"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mdn/content"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Overv/VulkanTutorial"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

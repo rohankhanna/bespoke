@@ -1,12 +1,17 @@
 {
   "component": "JamesIves/github-pages-deploy-action@4.1.5",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "soot-oss/soot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc-gen.yml",
+      "source_repo": "TRI-ML/dgp"
     }
   ]
 }

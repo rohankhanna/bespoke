@@ -679,6 +679,66 @@
       "source_repo": "google-deepmind/treescope",
       "status": "candidate-context",
       "text": "Treescope is an interactive HTML pretty-printer and N-dimensional array"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajstarks/svgo",
+      "status": "candidate-context",
+      "text": "Go Language Library for SVG generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajstarks/svgo",
+      "status": "candidate-context",
+      "text": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/chartkick",
+      "status": "candidate-context",
+      "text": "Create beautiful JavaScript charts with one line of Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/chartkick",
+      "status": "candidate-context",
+      "text": "Create beautiful JavaScript charts with one line of Ruby. No more fighting with charting libraries!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "higlass/higlass",
+      "status": "candidate-context",
+      "text": "Fast, flexible and extensible genome browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/higlass",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/higlass/higlass/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "status": "candidate-context",
+      "text": "A Jupyter - Leaflet.js bridge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "status": "candidate-context",
+      "text": "[![Documentation](http://readthedocs.org/projects/ipyleaflet/badge/?version=latest)](https://ipyleaflet.readthedocs.io/en/latest/?badge=latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/Luxor.jl",
+      "status": "candidate-context",
+      "text": "Simple drawings using vector graphics; Cairo \"for tourists!\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Luxor.jl",
+      "status": "candidate-context",
+      "text": "![luxor splash image](docs/src/assets/figures/luxor-social-media-preview.png)"
     }
   ],
   "candidate_glosses": [
@@ -1017,6 +1077,36 @@
       "source_repo": "google-deepmind/treescope",
       "status": "candidate",
       "text": "Treescope is an interactive HTML pretty-printer and N-dimensional array"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajstarks/svgo",
+      "status": "candidate",
+      "text": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/chartkick",
+      "status": "candidate",
+      "text": "Create beautiful JavaScript charts with one line of Ruby. No more fighting with charting libraries!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "higlass/higlass",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/higlass/higlass/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "status": "candidate",
+      "text": "[![Documentation](http://readthedocs.org/projects/ipyleaflet/badge/?version=latest)](https://ipyleaflet.readthedocs.io/en/latest/?badge=latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Luxor.jl",
+      "status": "candidate",
+      "text": "![luxor splash image](docs/src/assets/figures/luxor-social-media-preview.png)"
     }
   ],
   "candidate_related_terms": [
@@ -1513,11 +1603,47 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ankane/chartkick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "higlass/higlass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-widgets/ipyleaflet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaGraphics/Luxor.jl"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

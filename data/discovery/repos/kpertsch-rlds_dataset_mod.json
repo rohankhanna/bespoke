@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:32:55.870814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficiently apply modification functions to RLDS/TFDS datasets.",
+    "fork": false,
+    "full_name": "kpertsch/rlds_dataset_mod",
+    "html_url": "https://github.com/kpertsch/rlds_dataset_mod",
+    "language": "Python",
+    "pushed_at": "2024-06-05T17:11:16Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-04-17T06:29:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stefantalpalaru/gentoo-overlay",
+      "target": "gentoo/api-gentoo-org",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:17.393579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 998
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Gentoo overlay",
+    "fork": false,
+    "full_name": "stefantalpalaru/gentoo-overlay",
+    "html_url": "https://github.com/stefantalpalaru/gentoo-overlay",
+    "language": "Shell",
+    "pushed_at": "2026-05-02T13:32:00Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-05-02T13:32:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gentoo/api-gentoo-org",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

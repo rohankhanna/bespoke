@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PHP"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dauxio/daux.io",
+      "status": "candidate-context",
+      "text": "Daux.io is an documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly. It helps you create great looking documentation in a developer friendly way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dauxio/daux.io",
+      "status": "candidate-context",
+      "text": "PHP"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dauxio/daux.io",
+      "status": "candidate",
+      "text": "PHP"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19843994,
+      "status": "candidate",
+      "text": "nuke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19711744,
+      "status": "candidate",
+      "text": "weights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19672008,
+      "status": "candidate",
+      "text": "bhp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19659663,
+      "status": "candidate",
+      "text": "httpd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19651636,
+      "status": "candidate",
+      "text": "gtk"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PHP",
+  "concept_id": "php",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "dauxio/daux.io"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PHP",
+      "sense_id": "php#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

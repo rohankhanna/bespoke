@@ -43,6 +43,30 @@
       "source_repo": "bow-swift/nef",
       "status": "candidate-context",
       "text": "![](assets/header-nef.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate-context",
+      "text": "Vue implementation of the Carbon Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-components-svelte",
+      "status": "candidate-context",
+      "text": "Svelte implementation of the Carbon Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-svelte",
+      "status": "candidate-context",
+      "text": "[![NPM][npm]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "bow-swift/nef",
       "status": "candidate",
       "text": "![](assets/header-nef.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-svelte",
+      "status": "candidate",
+      "text": "[![NPM][npm]][npm-url]"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +175,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "bow-swift/nef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-components-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-components-svelte"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

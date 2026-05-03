@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git_rules.yml"
+    },
+    {
+      "component": "cyberark/enforce-rebase@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git_rules.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git_rules.yml"
+    },
+    {
+      "component": "cyberark/enforce-commit-style@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git_rules.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberark/conjur",
+      "target": "conjurinc/slosilo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git_rules.yml",
+      "source_repo": "cyberark/conjur",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git_rules.yml",
+      "source_repo": "cyberark/conjur",
+      "target": "cyberark/enforce-rebase@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git_rules.yml",
+      "source_repo": "cyberark/conjur",
+      "target": "cyberark/enforce-commit-style@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git_rules.yml",
+      "source_repo": "cyberark/conjur",
+      "target": "Enforce Git Rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur",
+      "target": "conjbot-notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur",
+      "target": "conjur",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur",
+      "target": "conjur-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur",
+      "target": "core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur",
+      "target": "machine-identity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur",
+      "target": "secret-distribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur",
+      "target": "secret-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/conjur",
+      "target": "secrets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:39:31.985990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8946
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1443
+    },
+    {
+      "path": ".github/workflows/git_rules.yml",
+      "size": 676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CyberArk Conjur automatically secures secrets used by privileged users and machine identities",
+    "fork": false,
+    "full_name": "cyberark/conjur",
+    "html_url": "https://github.com/cyberark/conjur",
+    "language": "Ruby",
+    "pushed_at": "2025-11-20T20:24:22Z",
+    "stargazers_count": 925,
+    "topics": [
+      "conjbot-notify",
+      "conjur",
+      "conjur-cloud",
+      "core",
+      "dap",
+      "machine-identity",
+      "secret-distribution",
+      "secret-management",
+      "secrets"
+    ],
+    "updated_at": "2026-05-02T17:40:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conjurinc/slosilo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Enforce Git Rules",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git_rules.yml",
+      "term": "Enforce Git Rules"
+    },
+    {
+      "context_snippet": "[![Conjur on DockerHub](https://img.shields.io/docker/pulls/cyberark/conjur.svg)](https://hub.docker.com/r/cyberark/conjur/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conjbot-notify"
+    },
+    {
+      "context_snippet": "[![Conjur on DockerHub](https://img.shields.io/docker/pulls/cyberark/conjur.svg)](https://hub.docker.com/r/cyberark/conjur/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conjur"
+    },
+    {
+      "context_snippet": "[![Conjur on DockerHub](https://img.shields.io/docker/pulls/cyberark/conjur.svg)](https://hub.docker.com/r/cyberark/conjur/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conjur-cloud"
+    },
+    {
+      "context_snippet": "[![Conjur on DockerHub](https://img.shields.io/docker/pulls/cyberark/conjur.svg)](https://hub.docker.com/r/cyberark/conjur/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "core"
+    },
+    {
+      "context_snippet": "[![Conjur on DockerHub](https://img.shields.io/docker/pulls/cyberark/conjur.svg)](https://hub.docker.com/r/cyberark/conjur/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-identity"
+    },
+    {
+      "context_snippet": "[![Conjur on DockerHub](https://img.shields.io/docker/pulls/cyberark/conjur.svg)](https://hub.docker.com/r/cyberark/conjur/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secret-distribution"
+    },
+    {
+      "context_snippet": "[![Conjur on DockerHub](https://img.shields.io/docker/pulls/cyberark/conjur.svg)](https://hub.docker.com/r/cyberark/conjur/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secret-management"
+    },
+    {
+      "context_snippet": "[![Conjur on DockerHub](https://img.shields.io/docker/pulls/cyberark/conjur.svg)](https://hub.docker.com/r/cyberark/conjur/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secrets"
+    }
+  ]
+}

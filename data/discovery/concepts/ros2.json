@@ -115,6 +115,18 @@
       "source_repo": "gazebosim/gz-sim",
       "status": "candidate-context",
       "text": "**Maintainer:** arjoc AT intrinsic DOT ai"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate-context",
+      "text": "Resolve a package:// or model:// URI to an absolute filename in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate-context",
+      "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
     }
   ],
   "candidate_glosses": [
@@ -183,6 +195,12 @@
       "source_repo": "gazebosim/gz-sim",
       "status": "candidate",
       "text": "**Maintainer:** arjoc AT intrinsic DOT ai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate",
+      "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +280,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "gazebosim/gz-sim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/resolve-robotics-uri-py"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "black-action",
   "observation_id": "b00a24d118a2ce9f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Black action",
   "source_context_snippet": "Black action",
   "source_file": ".github/workflows/black.yml",

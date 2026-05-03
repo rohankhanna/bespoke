@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:37:53.330871+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1588
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1061
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "princeton-vl/DPVO_Docker",
+    "html_url": "https://github.com/princeton-vl/DPVO_Docker",
+    "language": "Shell",
+    "pushed_at": "2022-09-11T21:09:46Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-01-09T18:13:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -403,6 +403,66 @@
       "source_repo": "jrouwe/JoltPhysics.js",
       "status": "candidate-context",
       "text": "[![Version](https://img.shields.io/npm/v/jolt-physics)](https://www.npmjs.com/package/jolt-physics)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "motional/nuplan-devkit",
+      "status": "candidate-context",
+      "text": "The devkit of the nuPlan dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motional/nuplan-devkit",
+      "status": "candidate-context",
+      "text": "FROM ubuntu:20.04 RUN apt-get update \\ && apt-get install -y curl gnupg2 software-properties-common default-jdk ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn RUN curl -fsSL https://bazel.build/bazel-release.pub.gpg | apt-key add - \\ && curl -fsSL https://nvidia.github.io/nvi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate-context",
+      "text": "State-of-the-art open-source applications for Transportation Optimization, Modeling, and Simulation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate-context",
+      "text": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "status": "candidate-context",
+      "text": "[IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate-context",
+      "text": "Provides numerous sensor models designed to generate realistic data from simulation environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate-context",
+      "text": "**Maintainer:** ichen AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrouwe/JoltPhysics",
+      "status": "candidate-context",
+      "text": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrouwe/JoltPhysics",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/jrouwe/JoltPhysics)](https://cla-assistant.io/jrouwe/JoltPhysics)"
     }
   ],
   "candidate_glosses": [
@@ -603,6 +663,36 @@
       "source_repo": "jrouwe/JoltPhysics.js",
       "status": "candidate",
       "text": "[![Version](https://img.shields.io/npm/v/jolt-physics)](https://www.npmjs.com/package/jolt-physics)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motional/nuplan-devkit",
+      "status": "candidate",
+      "text": "FROM ubuntu:20.04 RUN apt-get update \\ && apt-get install -y curl gnupg2 software-properties-common default-jdk ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn RUN curl -fsSL https://bazel.build/bazel-release.pub.gpg | apt-key add - \\ && curl -fsSL https://nvidia.github.io/nvi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate",
+      "text": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate",
+      "text": "**Maintainer:** ichen AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrouwe/JoltPhysics",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/jrouwe/JoltPhysics)](https://cla-assistant.io/jrouwe/JoltPhysics)"
     }
   ],
   "candidate_related_terms": [
@@ -994,11 +1084,65 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "jrouwe/JoltPhysics.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "motional/nuplan-devkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jdlph/OpenDTA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jrouwe/JoltPhysics"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

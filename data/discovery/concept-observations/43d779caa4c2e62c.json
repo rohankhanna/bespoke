@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extensible text editor using C.R.O.W. for the interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39830829,
+      "status": "candidate",
+      "text": "vaporing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39707827,
+      "status": "candidate",
+      "text": "corvus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39658480,
+      "status": "candidate",
+      "text": "gloat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39651026,
+      "status": "candidate",
+      "text": "bragging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39647982,
+      "status": "candidate",
+      "text": "brag"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crow",
+      "sense_id": "crow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14034,
+      "status": "candidate",
+      "text": "gloat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6041,
+      "status": "candidate",
+      "text": "brag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6020,
+      "status": "candidate",
+      "text": "crowing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2023,
+      "status": "candidate",
+      "text": "vaporing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "bragging"
+    }
+  ],
+  "concept_id": "crow",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crow",
+  "observation_id": "43d779caa4c2e62c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "crow",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "jpbruyere/CrowEdit",
+  "source_repo_description": "Extensible text editor using C.R.O.W. for the interface."
+}

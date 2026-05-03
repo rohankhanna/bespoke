@@ -19,6 +19,18 @@
       "source_repo": "ChenyunWu/PhraseCutDataset",
       "status": "candidate-context",
       "text": "<table width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate-context",
+      "text": "[ECCV 2020] ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ChenyunWu/PhraseCutDataset",
       "status": "candidate",
       "text": "<table width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "ChenyunWu/PhraseCutDataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

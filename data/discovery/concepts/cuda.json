@@ -1351,6 +1351,30 @@
       "source_repo": "openxrlab/xrtailor",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zielon/INSTA-pytorch",
+      "status": "candidate-context",
+      "text": "INSTA - Instant Volumetric Head Avatars [Demo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA-pytorch",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars (pytorch)</b></h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helyim/helyim",
+      "status": "candidate-context",
+      "text": "seaweedfs implemented in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helyim/helyim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2025,6 +2049,18 @@
       "source_repo": "openxrlab/xrtailor",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA-pytorch",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars (pytorch)</b></h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helyim/helyim",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3094,11 +3130,59 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "openxrlab/xrtailor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/hipBLAS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "helyim/helyim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-Genomics-Research/GenomeWorks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/SparseTransformer"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

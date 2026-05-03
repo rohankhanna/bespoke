@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tengfei-Wang/HFGI",
+      "target": "tengfei-wang/tengfei-wang.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tengfei-Wang/HFGI",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tengfei-Wang/HFGI",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tengfei-Wang/HFGI",
+      "target": "gan-inversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tengfei-Wang/HFGI",
+      "target": "image-editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tengfei-Wang/HFGI",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tengfei-Wang/HFGI",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tengfei-Wang/HFGI",
+      "target": "video-editing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:43.583870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CVPR 2022 HFGI: High-Fidelity GAN Inversion for Image Attribute Editing",
+    "fork": false,
+    "full_name": "Tengfei-Wang/HFGI",
+    "html_url": "https://github.com/Tengfei-Wang/HFGI",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-09-29T19:59:37Z",
+    "stargazers_count": 478,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "gan",
+      "gan-inversion",
+      "image-editing",
+      "image-manipulation",
+      "pytorch",
+      "video-editing"
+    ],
+    "updated_at": "2026-04-23T11:16:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tengfei-wang/tengfei-wang.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> High-Fidelity GAN Inversion for Image Attribute Editing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "> High-Fidelity GAN Inversion for Image Attribute Editing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "> High-Fidelity GAN Inversion for Image Attribute Editing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gan-inversion"
+    },
+    {
+      "context_snippet": "> High-Fidelity GAN Inversion for Image Attribute Editing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-editing"
+    },
+    {
+      "context_snippet": "> High-Fidelity GAN Inversion for Image Attribute Editing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    },
+    {
+      "context_snippet": "> High-Fidelity GAN Inversion for Image Attribute Editing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "> High-Fidelity GAN Inversion for Image Attribute Editing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-editing"
+    }
+  ]
+}

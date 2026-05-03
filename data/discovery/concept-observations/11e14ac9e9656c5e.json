@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Old repo of Nuxt 3 framework, now on nuxt/nuxt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39889312,
+      "status": "candidate",
+      "text": "universal joint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39875749,
+      "status": "candidate",
+      "text": "cosmopolitan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872403,
+      "status": "candidate",
+      "text": "worldwide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39857574,
+      "status": "candidate",
+      "text": "comprehensive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39852474,
+      "status": "candidate",
+      "text": "general"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "universal",
+      "sense_id": "universal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72039,
+      "status": "candidate",
+      "text": "comprehensive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27049,
+      "status": "candidate",
+      "text": "general"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15046,
+      "status": "candidate",
+      "text": "cosmopolitan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7037,
+      "status": "candidate",
+      "text": "ecumenical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3029,
+      "status": "candidate",
+      "text": "worldwide"
+    }
+  ],
+  "concept_id": "universal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "universal",
+  "observation_id": "11e14ac9e9656c5e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "universal",
+  "source_context_snippet": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f",
+  "source_file": null,
+  "source_repo": "nuxt/framework",
+  "source_repo_description": "Old repo of Nuxt 3 framework, now on nuxt/nuxt"
+}

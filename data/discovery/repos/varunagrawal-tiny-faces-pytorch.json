@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "varunagrawal/tiny-faces-pytorch",
+      "target": "peiyunh/tiny",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "varunagrawal/tiny-faces-pytorch",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "varunagrawal/tiny-faces-pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "varunagrawal/tiny-faces-pytorch",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "varunagrawal/tiny-faces-pytorch",
+      "target": "face-detection-application",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:44:37.357041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1894
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 831
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Finding Tiny Faces in PyTorch",
+    "fork": false,
+    "full_name": "varunagrawal/tiny-faces-pytorch",
+    "html_url": "https://github.com/varunagrawal/tiny-faces-pytorch",
+    "language": "Python",
+    "pushed_at": "2025-11-03T21:39:42Z",
+    "stargazers_count": 166,
+    "topics": [
+      "convolutional-neural-networks",
+      "deep-learning",
+      "face-detection",
+      "face-detection-application"
+    ],
+    "updated_at": "2025-10-11T09:05:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peiyunh/tiny",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a PyTorch implementation of Peiyun Hu's [awesome tiny face detector](https://github.com/peiyunh/tiny).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of Peiyun Hu's [awesome tiny face detector](https://github.com/peiyunh/tiny).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of Peiyun Hu's [awesome tiny face detector](https://github.com/peiyunh/tiny).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of Peiyun Hu's [awesome tiny face detector](https://github.com/peiyunh/tiny).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection-application"
+    }
+  ]
+}

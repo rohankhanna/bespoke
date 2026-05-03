@@ -571,6 +571,78 @@
       "source_repo": "alexlafroscia/vite-plugin-handlebars",
       "status": "candidate-context",
       "text": "> Vite support for Handlebars"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IndexXuan/vite-plugin-mpa",
+      "status": "candidate-context",
+      "text": "MPA(multi page application) for vite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-mpa",
+      "status": "candidate-context",
+      "text": "> Out-of-the-box multi-page-application (MPA) support for Vite - supports Vue2/3, React and others"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielroe/beasties",
+      "status": "candidate-context",
+      "text": "A library to inline your app's critical CSS and lazy-load the rest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielroe/beasties",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluent-vue/unplugin-fluent-vue",
+      "status": "candidate-context",
+      "text": "unplugin for fluent-vue. Adds support for custom blocks in Vue SFC and external ftl files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/unplugin-fluent-vue",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IndexXuan/vite-plugin-html-template",
+      "status": "candidate-context",
+      "text": "html template for vite, like html-webpack-plugin for webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-html-template",
+      "status": "candidate-context",
+      "text": "> HTML template for vite app, like html-webpack-plugin for webpack."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IndexXuan/vue-cli-plugin-vite",
+      "status": "candidate-context",
+      "text": "Use vite today, with vue-cli."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vue-cli-plugin-vite",
+      "status": "candidate-context",
+      "text": "> out-of-the-box for vue-cli projects without any codebase modifications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sveltejs/vite-plugin-svelte",
+      "status": "candidate-context",
+      "text": "Svelte plugin for https://vite.dev"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/vite-plugin-svelte",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/@sveltejs/vite-plugin-svelte)](https://www.npmjs.com/package/@sveltejs/vite-plugin-svelte)"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +927,42 @@
       "source_repo": "alexlafroscia/vite-plugin-handlebars",
       "status": "candidate",
       "text": "> Vite support for Handlebars"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-mpa",
+      "status": "candidate",
+      "text": "> Out-of-the-box multi-page-application (MPA) support for Vite - supports Vue2/3, React and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielroe/beasties",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/unplugin-fluent-vue",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-html-template",
+      "status": "candidate",
+      "text": "> HTML template for vite app, like html-webpack-plugin for webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vue-cli-plugin-vite",
+      "status": "candidate",
+      "text": "> out-of-the-box for vue-cli projects without any codebase modifications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sveltejs/vite-plugin-svelte",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/@sveltejs/vite-plugin-svelte)](https://www.npmjs.com/package/@sveltejs/vite-plugin-svelte)"
     }
   ],
   "candidate_related_terms": [
@@ -1288,11 +1396,95 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "alexlafroscia/vite-plugin-handlebars"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "haoqunjiang/vite-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-vue-components"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "antfu-collective/vitesse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "antfu-collective/vite-ssg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "IndexXuan/vite-plugin-mpa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "danielroe/beasties"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vbenjs/vue-vben-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/unplugin-fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "IndexXuan/vite-plugin-html-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "IndexXuan/vue-cli-plugin-vite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "sveltejs/vite-plugin-svelte"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "robotology/gh-action-squash@master",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yml",
+      "source_repo": "robotology/yarp"
+    }
+  ]
+}

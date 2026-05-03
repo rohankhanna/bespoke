@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -176,6 +176,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "MaterializeInc/materialize"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cla.yaml",
+      "source_repo": "continuedev/continue"
     }
   ],
   "term": "CLA Assistant"

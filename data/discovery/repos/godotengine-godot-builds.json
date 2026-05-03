@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T13:40:12.771237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 381
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official pre-releases, dev snapshots, and custom builds of the Godot engine.",
+    "fork": false,
+    "full_name": "godotengine/godot-builds",
+    "html_url": "https://github.com/godotengine/godot-builds",
+    "language": "Python",
+    "pushed_at": "2026-04-24T18:24:47Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-04-28T11:03:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

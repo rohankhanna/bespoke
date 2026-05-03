@@ -84,7 +84,7 @@
   "normalized_form": "runner-ci",
   "observation_id": "10e6101801e22b73",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Runner CI",
   "source_context_snippet": "Runner CI",
   "source_file": ".github/workflows/build.yml",

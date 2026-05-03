@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MikeMcl/bignumber.js",
+      "target": "mikemcl/decimal.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "MikeMcl/bignumber.js",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MikeMcl/bignumber.js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "MikeMcl/bignumber.js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/bignumber.js",
+      "target": "arbitrary-precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/bignumber.js",
+      "target": "bigdecimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/bignumber.js",
+      "target": "bignumber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/bignumber.js",
+      "target": "decimal-places",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:35:14.566101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12504
+    },
+    {
+      "path": "package.json",
+      "size": 1699
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1032
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic ",
+    "fork": false,
+    "full_name": "MikeMcl/bignumber.js",
+    "html_url": "https://github.com/MikeMcl/bignumber.js",
+    "language": "JavaScript",
+    "pushed_at": "2026-05-03T10:27:51Z",
+    "stargazers_count": 6995,
+    "topics": [
+      "arbitrary-precision",
+      "bigdecimal",
+      "bignumber",
+      "decimal-places",
+      "javascript"
+    ],
+    "updated_at": "2026-05-03T00:34:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikemcl/decimal.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![bignumber.js](https://raw.githubusercontent.com/MikeMcl/bignumber.js/gh-pages/bignumberjs.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arbitrary-precision"
+    },
+    {
+      "context_snippet": "![bignumber.js](https://raw.githubusercontent.com/MikeMcl/bignumber.js/gh-pages/bignumberjs.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigdecimal"
+    },
+    {
+      "context_snippet": "![bignumber.js](https://raw.githubusercontent.com/MikeMcl/bignumber.js/gh-pages/bignumberjs.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bignumber"
+    },
+    {
+      "context_snippet": "![bignumber.js](https://raw.githubusercontent.com/MikeMcl/bignumber.js/gh-pages/bignumberjs.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decimal-places"
+    }
+  ]
+}

@@ -320,13 +320,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jupyter-server/jupyter_server",
-      "target": "jupyter/.",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "jupyter-server/jupyter_server",
@@ -551,7 +544,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:03:05.536157+00:00",
+  "fetched_at": "2026-05-03T14:33:05.731390+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -608,11 +601,6 @@
     "updated_at": "2026-05-01T16:34:12Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jupyter/.",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "jupyter/jupyter_server",

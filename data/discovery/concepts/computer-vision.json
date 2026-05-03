@@ -2713,6 +2713,138 @@
       "source_repo": "mees/calvin",
       "status": "candidate-context",
       "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JonasSchult/Mask3D",
+      "status": "candidate-context",
+      "text": "Mask3D predicts accurate 3D semantic instances achieving state-of-the-art on ScanNet, ScanNet200, S3DIS and STPLS3D."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JonasSchult/Mask3D",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate-context",
+      "text": "SOTA Re-identification Methods and Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate-context",
+      "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucastabelini/LaneATT",
+      "status": "candidate-context",
+      "text": "Code for the paper entitled \"Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection\" (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucastabelini/LaneATT",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3DTopia/OpenLRM",
+      "status": "candidate-context",
+      "text": "An open-source impl. of Large Reconstruction Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3DTopia/OpenLRM",
+      "status": "candidate-context",
+      "text": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tengfei-Wang/HFGI",
+      "status": "candidate-context",
+      "text": "CVPR 2022 HFGI: High-Fidelity GAN Inversion for Image Attribute Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tengfei-Wang/HFGI",
+      "status": "candidate-context",
+      "text": "> High-Fidelity GAN Inversion for Image Attribute Editing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3dhumangan/3DHumanGAN",
+      "status": "candidate-context",
+      "text": "A 3D-aware generative adversarial network (GAN) that synthesizes images of full-body humans with consistent appearances under different view-angles and body-poses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3dhumangan/3DHumanGAN",
+      "status": "candidate-context",
+      "text": "<img src=\"./assets/teaser.jpg\" width=\"96%\" height=\"96%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PeterL1n/BackgroundMattingV2",
+      "status": "candidate-context",
+      "text": "Real-Time High-Resolution Background Matting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterL1n/BackgroundMattingV2",
+      "status": "candidate-context",
+      "text": "![Teaser](https://github.com/PeterL1n/Matting-PyTorch/blob/master/images/teaser.gif?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate-context",
+      "text": "[ECCV 2020] ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PeterL1n/RobustVideoMatting",
+      "status": "candidate-context",
+      "text": "Robust Video Matting in PyTorch, TensorFlow, TensorFlow.js, ONNX, CoreML!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterL1n/RobustVideoMatting",
+      "status": "candidate-context",
+      "text": "![Teaser](/documentation/image/teaser.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "Official code release for ICCV 2021 paper SNARF: Differentiable Forward Skinning for Animating Non-rigid Neural Implicit Shapes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-image/scikit-image",
+      "status": "candidate-context",
+      "text": "Image processing in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-image/scikit-image",
+      "status": "candidate-context",
+      "text": "[![Image.sc forum](https://img.shields.io/badge/dynamic/json.svg?label=forum&url=https%3A%2F%2Fforum.image.sc%2Ftags%2Fscikit-image.json&query=%24.topic_list.tags.0.topic_count&colorB=brightgreen&suffix=%20topics&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAA\u2026"
     }
   ],
   "candidate_glosses": [
@@ -4071,6 +4203,72 @@
       "source_repo": "mees/calvin",
       "status": "candidate",
       "text": "[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JonasSchult/Mask3D",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate",
+      "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucastabelini/LaneATT",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3DTopia/OpenLRM",
+      "status": "candidate",
+      "text": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tengfei-Wang/HFGI",
+      "status": "candidate",
+      "text": "> High-Fidelity GAN Inversion for Image Attribute Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3dhumangan/3DHumanGAN",
+      "status": "candidate",
+      "text": "<img src=\"./assets/teaser.jpg\" width=\"96%\" height=\"96%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterL1n/BackgroundMattingV2",
+      "status": "candidate",
+      "text": "![Teaser](https://github.com/PeterL1n/Matting-PyTorch/blob/master/images/teaser.gif?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterL1n/RobustVideoMatting",
+      "status": "candidate",
+      "text": "![Teaser](/documentation/image/teaser.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-image/scikit-image",
+      "status": "candidate",
+      "text": "[![Image.sc forum](https://img.shields.io/badge/dynamic/json.svg?label=forum&url=https%3A%2F%2Fforum.image.sc%2Ftags%2Fscikit-image.json&query=%24.topic_list.tags.0.topic_count&colorB=brightgreen&suffix=%20topics&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAA\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -6100,11 +6298,185 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "mees/calvin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "realsenseai/librealsense"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "HumanSignal/label-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "wkentaro/labelme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JonasSchult/Mask3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lucastabelini/LaneATT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "3DTopia/OpenLRM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jannisborn/covid19_ultrasound"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fla-org/flash-bidirectional-linear-attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Tengfei-Wang/HFGI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "3dhumangan/3DHumanGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/BackgroundMattingV2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/RobustVideoMatting"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "scikit-image/scikit-image"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

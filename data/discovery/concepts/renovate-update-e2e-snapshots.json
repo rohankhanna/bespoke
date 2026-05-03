@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Renovate Update E2E Snapshots"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angular-eslint/angular-eslint",
+      "status": "candidate-context",
+      "text": ":sparkles: Monorepo for all the tooling related to using ESLint with Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular-eslint/angular-eslint",
+      "status": "candidate-context",
+      "text": "Renovate Update E2E Snapshots"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular-eslint/angular-eslint",
+      "status": "candidate",
+      "text": "Renovate Update E2E Snapshots"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18684,
+      "status": "candidate",
+      "text": "rally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11204,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10843,
+      "status": "candidate",
+      "text": "pix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "camera"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "dating"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Renovate Update E2E Snapshots",
+  "concept_id": "renovate-update-e2e-snapshots",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/update-e2e-snapshots-for-renovate.yml",
+      "source_repo": "angular-eslint/angular-eslint"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Renovate Update E2E Snapshots",
+      "sense_id": "renovate-update-e2e-snapshots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

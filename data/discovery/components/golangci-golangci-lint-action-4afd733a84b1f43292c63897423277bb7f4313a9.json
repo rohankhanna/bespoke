@@ -1,7 +1,7 @@
 {
   "component": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-lint.yml",
       "source_repo": "pulumi/pulumi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "huggingface/hf-csi-driver"
     }
   ]
 }

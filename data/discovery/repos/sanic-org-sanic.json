@@ -93,13 +93,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "sanic-org/sanic",
-      "target": "mekicha/awesome-sanic",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "sanic-org/sanic",
@@ -296,7 +289,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T00:42:57.654413+00:00",
+  "fetched_at": "2026-05-03T15:37:30.767768+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -349,15 +342,9 @@
       "web-framework",
       "web-server"
     ],
-    "updated_at": "2026-05-02T22:54:23Z"
+    "updated_at": "2026-05-03T13:47:31Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mekicha/awesome-sanic",
-      "source_file": "README.rst"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"CodeQL\"",

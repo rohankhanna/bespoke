@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:30:19.366485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4058
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ColBERT: Contextualized Late Interaction over BERT (code for SIGIR'20 paper)",
+    "fork": true,
+    "full_name": "cmacdonald/ColBERT",
+    "html_url": "https://github.com/cmacdonald/ColBERT",
+    "language": null,
+    "pushed_at": "2025-04-03T17:06:45Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2020-10-12T22:04:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

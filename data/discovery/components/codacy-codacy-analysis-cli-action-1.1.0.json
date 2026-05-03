@@ -1,0 +1,12 @@
+{
+  "component": "codacy/codacy-analysis-cli-action@1.1.0",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codacy-analysis.yml",
+      "source_repo": "NeoApplications/Neo-Backup"
+    }
+  ]
+}

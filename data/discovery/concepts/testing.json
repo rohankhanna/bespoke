@@ -1511,6 +1511,126 @@
       "source_repo": "lambdaisland/kaocha",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"kaocha.png\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jasmine/jasmine",
+      "status": "candidate-context",
+      "text": "Simple JavaScript testing framework for browsers and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasmine/jasmine",
+      "status": "candidate-context",
+      "text": "<a name=\"README\"><img src=\"https://raw.githubusercontent.com/jasmine/jasmine/main/images/jasmine-horizontal.svg\" width=\"400px\" alt=\"Jasmine\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate-context",
+      "text": "Documentation for the Visual Studio Test Platform. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate-context",
+      "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testing-library/dom-testing-library",
+      "status": "candidate-context",
+      "text": "\ud83d\udc19 Simple and complete DOM testing utilities that encourage good testing practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/dom-testing-library",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testng-team/testng",
+      "status": "candidate-context",
+      "text": "TestNG testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.testng/testng.svg)](https://maven-badges.herokuapp.com/maven-central/org.testng/testng)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vstest",
+      "status": "candidate-context",
+      "text": "Visual Studio Test Platform is the runner and engine that powers test explorer and vstest.console."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest",
+      "status": "candidate-context",
+      "text": "The Visual Studio Test Platform is an open and extensible test platform that runs tests, collects diagnostics data, and reports results. The Test Platform supports running tests written in various test frameworks, and using a pluggable adapter model. Based on user-choice, the de\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enzymejs/enzyme",
+      "status": "candidate-context",
+      "text": "JavaScript Testing utilities for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzymejs/enzyme",
+      "status": "candidate-context",
+      "text": "Enzyme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate-context",
+      "text": "An integration test framework for React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/litmus",
+      "status": "candidate-context",
+      "text": "Litmus is a comprehensive LLM testing and evaluation tool designed for GenAI Application Development. It provides a robust platform with a user-friendly UI for streamlining the process of building and assessing the performance of your LLM-powered applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/litmus",
+      "status": "candidate-context",
+      "text": "![DEV](https://github.com/google/litmus/actions/workflows/dev_deploy.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testing-library/testing-library-docs",
+      "status": "candidate-context",
+      "text": "docs site for @testing-library/*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/testing-library-docs",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stefnotch/winit_input_helper",
+      "status": "candidate-context",
+      "text": "Processes winit events, allowing input state to be queried at any time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefnotch/winit_input_helper",
+      "status": "candidate-context",
+      "text": "Testing"
     }
   ],
   "candidate_glosses": [
@@ -2263,6 +2383,66 @@
       "source_repo": "lambdaisland/kaocha",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"kaocha.png\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasmine/jasmine",
+      "status": "candidate",
+      "text": "<a name=\"README\"><img src=\"https://raw.githubusercontent.com/jasmine/jasmine/main/images/jasmine-horizontal.svg\" width=\"400px\" alt=\"Jasmine\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate",
+      "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/dom-testing-library",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.testng/testng.svg)](https://maven-badges.herokuapp.com/maven-central/org.testng/testng)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest",
+      "status": "candidate",
+      "text": "The Visual Studio Test Platform is an open and extensible test platform that runs tests, collects diagnostics data, and reports results. The Test Platform supports running tests written in various test frameworks, and using a pluggable adapter model. Based on user-choice, the de\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzymejs/enzyme",
+      "status": "candidate",
+      "text": "Enzyme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/litmus",
+      "status": "candidate",
+      "text": "![DEV](https://github.com/google/litmus/actions/workflows/dev_deploy.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/testing-library-docs",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stefnotch/winit_input_helper",
+      "status": "candidate",
+      "text": "Testing"
     }
   ],
   "candidate_related_terms": [
@@ -3435,11 +3615,119 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jasmine/jasmine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vstest-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "testing-library/dom-testing-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "DioxusLabs/sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "testng-team/testng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-tag-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vstest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pixielabs/cavy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google/litmus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "testing-library/testing-library-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "stefnotch/winit_input_helper"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

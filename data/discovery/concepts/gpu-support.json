@@ -19,6 +19,18 @@
       "source_repo": "KentoNishi/torch-pitch-shift",
       "status": "candidate-context",
       "text": "torch>=1.7.0 torchaudio>=0.7.0 primePy>=1.3 packaging>=21.3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rafaqz/DimensionalData.jl",
+      "status": "candidate-context",
+      "text": "Named dimensions and indexing for julia arrays and other data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/DimensionalData.jl",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://rafaqz.github.io/DimensionalData.jl/stable)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "KentoNishi/torch-pitch-shift",
       "status": "candidate",
       "text": "torch>=1.7.0 torchaudio>=0.7.0 primePy>=1.3 packaging>=21.3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/DimensionalData.jl",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://rafaqz.github.io/DimensionalData.jl/stable)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "KentoNishi/torch-pitch-shift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rafaqz/DimensionalData.jl"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

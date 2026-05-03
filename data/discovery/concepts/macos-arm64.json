@@ -32,6 +32,18 @@
       "source_repo": "fizzed/rocker",
       "status": "candidate-context",
       "text": "MacOS arm64"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate-context",
+      "text": "Write your shell scripts on the JVM (java, kotlin, groovy, etc.) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate-context",
+      "text": "MacOS arm64"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fizzed/rocker",
+      "status": "candidate",
+      "text": "MacOS arm64"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/blaze",
       "status": "candidate",
       "text": "MacOS arm64"
     }
@@ -117,11 +135,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/macos-arm64.yaml",
       "source_repo": "fizzed/rocker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build_wheels_macos_m1.yml",
+      "source_repo": "opencv/opencv-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/macos-arm64.yaml",
+      "source_repo": "fizzed/blaze"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

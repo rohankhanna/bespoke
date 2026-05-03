@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sylabs/singularity",
+      "target": "sylabs/singularity-userdocs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sylabs/singularity",
+      "target": "sylabs/singularity-admindocs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sylabs/singularity",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sylabs/singularity",
+      "target": "linux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:39:34.360840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5452
+    },
+    {
+      "path": "go.mod",
+      "size": 14853
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SingularityCE is the Community Edition of Singularity, an open source container platform designed to be simple, fast, and secure.",
+    "fork": false,
+    "full_name": "sylabs/singularity",
+    "html_url": "https://github.com/sylabs/singularity",
+    "language": "Go",
+    "pushed_at": "2026-05-01T09:12:23Z",
+    "stargazers_count": 960,
+    "topics": [
+      "containers",
+      "hpc",
+      "linux"
+    ],
+    "updated_at": "2026-04-30T12:25:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sylabs/singularity-admindocs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sylabs/singularity-userdocs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/sylabs/singularity/tree/main.svg?style=svg)](https://circleci.com/gh/sylabs/singularity/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/sylabs/singularity/tree/main.svg?style=svg)](https://circleci.com/gh/sylabs/singularity/tree/main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    }
+  ]
+}

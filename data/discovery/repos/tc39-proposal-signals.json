@@ -41,13 +41,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/proposal-signals",
-      "target": "proposal-signals/signal-polyfill",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-signals",
       "target": "proposal-signals/proposal-signals",
       "target_type": "repository"
     },
@@ -55,14 +48,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/proposal-signals",
-      "target": "tc39/proposal-async-context",
+      "target": "nullvoxpopuli/signal-utils",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/proposal-signals",
-      "target": "nullvoxpopuli/signal-utils",
+      "target": "tracked-tools/tracked-built-ins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-signals",
+      "target": "proposal-signals/proposal-signals",
       "target_type": "repository"
     },
     {
@@ -129,7 +129,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:02:51.886086+00:00",
+  "fetched_at": "2026-05-03T16:40:09.631838+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -158,9 +158,9 @@
     "html_url": "https://github.com/tc39/proposal-signals",
     "language": null,
     "pushed_at": "2026-01-25T20:23:21Z",
-    "stargazers_count": 4104,
+    "stargazers_count": 4105,
     "topics": [],
-    "updated_at": "2026-05-01T01:16:04Z"
+    "updated_at": "2026-05-03T13:50:33Z"
   },
   "repo_links": [
     {
@@ -175,13 +175,13 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "proposal-signals/signal-polyfill",
+      "full_name": "tracked-tools/tracked-built-ins",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tc39/proposal-async-context",
-      "source_file": "README.md"
+      "full_name": "proposal-signals/proposal-signals",
+      "source_file": "package.json"
     }
   ],
   "terms": [

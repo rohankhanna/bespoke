@@ -2626,6 +2626,114 @@
       "source_repo": "fizzed/rocker",
       "status": "candidate-context",
       "text": "[![Maven Central](https://img.shields.io/maven-central/v/com.fizzed/rocker?color=blue&style=flat-square)](https://mvnrepository.com/artifact/com.fizzed/rocker)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brettwooldridge/HikariCP",
+      "status": "candidate-context",
+      "text": "\u5149 HikariCP\u30fbA solid, high-performance, JDBC connection pool at last."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brettwooldridge/HikariCP",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png\"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi\u00b7ka\u00b7ri [hi\u00b7ka\u00b7'l\u0113] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redisson/redisson",
+      "status": "candidate-context",
+      "text": "Redisson - Valkey & Redis Java client. Real-Time Data Platform. Sync/Async/RxJava/Reactive API. Over 50 Valkey and Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Bloom filter, Spring, Tomcat, Scheduler, JCache API, Hibernate, RPC, local cache.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redisson/redisson",
+      "status": "candidate-context",
+      "text": "[Quick start](https://redisson.org/docs/getting-started/) | [Documentation](https://redisson.org/docs/) | [Changelog](https://github.com/redisson/redisson/blob/master/CHANGELOG.md) | [Code examples](https://github.com/redisson/redisson-examples) | [JavaDocs](https://www.javadoc.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testng-team/testng",
+      "status": "candidate-context",
+      "text": "TestNG testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.testng/testng.svg)](https://maven-badges.herokuapp.com/maven-central/org.testng/testng)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ReactiveX/RxJava",
+      "status": "candidate-context",
+      "text": "RxJava \u2013 Reactive Extensions for the JVM \u2013 a library for composing asynchronous and event-based programs using observable sequences for the Java VM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReactiveX/RxJava",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://maven-badges.sml.io/sonatype-central/io.reactivex.rxjava4/rxjava/badge.svg)](https://maven-badges.sml.io/sonatype-central/io.reactivex.rxjava4/rxjava)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "status": "candidate-context",
+      "text": "Robotics software featuring legged locomotion algorithms and a momentum-based controller core with optimization. Supporting software for world-class robots including humanoids, running birds, exoskeletons, mechs and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "status": "candidate-context",
+      "text": "![develop, fast](https://github.com/ihmcrobotics/ihmc-open-robotics-software/actions/workflows/gradle-test-fast.yml/badge.svg?branch=develop) Current develop status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate-context",
+      "text": "Write your shell scripts on the JVM (java, kotlin, groovy, etc.) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate-context",
+      "text": "Blaze by Fizzed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "henryw374/cljc.java-time",
+      "status": "candidate-context",
+      "text": "java.time clojure clojurescript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "henryw374/cljc.java-time",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.widdindustries/cljc.java-time.svg)](https://clojars.org/com.widdindustries/cljc.java-time)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnuernber/charred",
+      "status": "candidate-context",
+      "text": "zero dependency efficient read/write of json and csv data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnuernber/charred",
+      "status": "candidate-context",
+      "text": "Efficient character-based file parsing for csv and json formats."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lz4/lz4-java",
+      "status": "candidate-context",
+      "text": "LZ4 compression for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4-java",
+      "status": "candidate-context",
+      "text": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026"
     }
   ],
   "candidate_glosses": [
@@ -3936,6 +4044,60 @@
       "source_repo": "fizzed/rocker",
       "status": "candidate",
       "text": "[![Maven Central](https://img.shields.io/maven-central/v/com.fizzed/rocker?color=blue&style=flat-square)](https://mvnrepository.com/artifact/com.fizzed/rocker)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brettwooldridge/HikariCP",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png\"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi\u00b7ka\u00b7ri [hi\u00b7ka\u00b7'l\u0113] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redisson/redisson",
+      "status": "candidate",
+      "text": "[Quick start](https://redisson.org/docs/getting-started/) | [Documentation](https://redisson.org/docs/) | [Changelog](https://github.com/redisson/redisson/blob/master/CHANGELOG.md) | [Code examples](https://github.com/redisson/redisson-examples) | [JavaDocs](https://www.javadoc.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/org.testng/testng.svg)](https://maven-badges.herokuapp.com/maven-central/org.testng/testng)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReactiveX/RxJava",
+      "status": "candidate",
+      "text": "[![Maven Central](https://maven-badges.sml.io/sonatype-central/io.reactivex.rxjava4/rxjava/badge.svg)](https://maven-badges.sml.io/sonatype-central/io.reactivex.rxjava4/rxjava)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "status": "candidate",
+      "text": "![develop, fast](https://github.com/ihmcrobotics/ihmc-open-robotics-software/actions/workflows/gradle-test-fast.yml/badge.svg?branch=develop) Current develop status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate",
+      "text": "Blaze by Fizzed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "henryw374/cljc.java-time",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/com.widdindustries/cljc.java-time.svg)](https://clojars.org/com.widdindustries/cljc.java-time)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnuernber/charred",
+      "status": "candidate",
+      "text": "Efficient character-based file parsing for csv and json formats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4-java",
+      "status": "candidate",
+      "text": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -6075,11 +6237,131 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "fizzed/rocker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "brettwooldridge/HikariCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "redisson/redisson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "testng-team/testng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ReactiveX/RxJava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fizzed/blaze"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "henryw374/cljc.java-time"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cnuernber/charred"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lz4/lz4-java"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

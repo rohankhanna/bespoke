@@ -78,27 +78,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "featherbread/hypcast",
-      "target": "featherbread/hypcast-v1",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "featherbread/hypcast",
-      "target": "stefantalpalaru/w_scan2",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "featherbread/hypcast",
-      "target": "gstreamer/gstreamer",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-image.yaml",
       "source_repo": "featherbread/hypcast",
@@ -218,7 +197,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T01:48:32.507129+00:00",
+  "fetched_at": "2026-05-03T13:33:14.885683+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -259,23 +238,7 @@
     "topics": [],
     "updated_at": "2026-04-08T04:10:08Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "featherbread/hypcast-v1",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "stefantalpalaru/w_scan2",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gstreamer/gstreamer",
-      "source_file": "Dockerfile"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build Image (without publishing)",

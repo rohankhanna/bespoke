@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:50:42.725402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "log4sh is an advanced logging framework for Unix shell scripts.",
+    "fork": false,
+    "full_name": "kward/log4sh",
+    "html_url": "https://github.com/kward/log4sh",
+    "language": "Shell",
+    "pushed_at": "2022-09-24T20:12:33Z",
+    "stargazers_count": 144,
+    "topics": [],
+    "updated_at": "2026-01-28T11:19:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

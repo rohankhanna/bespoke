@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/GR-MG",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/GR-MG",
+      "target": "imitation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/GR-MG",
+      "target": "research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/GR-MG",
+      "target": "robotics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:36:07.250627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4478
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of GR-MG",
+    "fork": false,
+    "full_name": "bytedance/GR-MG",
+    "html_url": "https://github.com/bytedance/GR-MG",
+    "language": "Python",
+    "pushed_at": "2025-01-12T02:51:05Z",
+    "stargazers_count": 91,
+    "topics": [
+      "artificial-intelligence",
+      "imitation-learning",
+      "research",
+      "robotics"
+    ],
+    "updated_at": "2026-04-16T06:15:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1>GR-MG</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<h1>GR-MG</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imitation-learning"
+    },
+    {
+      "context_snippet": "<h1>GR-MG</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    },
+    {
+      "context_snippet": "<h1>GR-MG</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lapce vue plugin, support vue (SFC) syntax highlight, autocomplate,types check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![vue Plugin for lapce](https://raw.githubusercontent.com/xiaoxin-sky/lapce-vue/master/image/lps.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![vue Plugin for lapce](https://raw.githubusercontent.com/xiaoxin-sky/lapce-vue/master/image/lps.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lapce-volar",
+      "sense_id": "lapce-volar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lapce-volar",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lapce-volar",
+  "observation_id": "79735da283b71391",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "lapce-volar",
+  "source_context_snippet": "![vue Plugin for lapce](https://raw.githubusercontent.com/xiaoxin-sky/lapce-vue/master/image/lps.png)",
+  "source_file": null,
+  "source_repo": "xiaoxin-sky/lapce-vue",
+  "source_repo_description": "Lapce vue plugin, support vue (SFC) syntax highlight, autocomplate,types check"
+}

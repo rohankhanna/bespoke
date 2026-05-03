@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenPerceptionX/OpenLane",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenPerceptionX/OpenLane",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenPerceptionX/OpenLane",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenPerceptionX/OpenLane",
+      "target": "lane-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:55.921137+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2022 oral] OpenLane: Large-scale Realistic 3D Lane Dataset. Redirect to https://github.com/OpenDriveLab/OpenLane.",
+    "fork": false,
+    "full_name": "OpenPerceptionX/OpenLane",
+    "html_url": "https://github.com/OpenPerceptionX/OpenLane",
+    "language": null,
+    "pushed_at": "2023-02-07T09:41:19Z",
+    "stargazers_count": 12,
+    "topics": [
+      "autonomous-driving",
+      "dataset",
+      "deep-learning",
+      "lane-detection"
+    ],
+    "updated_at": "2026-03-29T06:56:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": ":microphone:: The official dataset of `OpanLane` has been transfered to [OpenDriveLab/OpenLane](https://github.com/OpenDriveLab/OpenLane) for follow-up maintenance. Check it out!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": ":microphone:: The official dataset of `OpanLane` has been transfered to [OpenDriveLab/OpenLane](https://github.com/OpenDriveLab/OpenLane) for follow-up maintenance. Check it out!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": ":microphone:: The official dataset of `OpanLane` has been transfered to [OpenDriveLab/OpenLane](https://github.com/OpenDriveLab/OpenLane) for follow-up maintenance. Check it out!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": ":microphone:: The official dataset of `OpanLane` has been transfered to [OpenDriveLab/OpenLane](https://github.com/OpenDriveLab/OpenLane) for follow-up maintenance. Check it out!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lane-detection"
+    }
+  ]
+}

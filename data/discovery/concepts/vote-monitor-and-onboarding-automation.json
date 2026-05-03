@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Vote Monitor and Onboarding Automation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/sandbox",
+      "status": "candidate-context",
+      "text": "Applications for Sandbox go here! \u23f3\ud83d\udce6\ud83e\uddea"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/sandbox",
+      "status": "candidate-context",
+      "text": "Vote Monitor and Onboarding Automation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/sandbox",
+      "status": "candidate",
+      "text": "Vote Monitor and Onboarding Automation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20984,
+      "status": "candidate",
+      "text": "automate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20068,
+      "status": "candidate",
+      "text": "office"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19813,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19813,
+      "status": "candidate",
+      "text": "freewheel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19813,
+      "status": "candidate",
+      "text": "linkwork"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Vote Monitor and Onboarding Automation",
+  "concept_id": "vote-monitor-and-onboarding-automation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/vote-monitor.yml",
+      "source_repo": "cncf/sandbox"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vote Monitor and Onboarding Automation",
+      "sense_id": "vote-monitor-and-onboarding-automation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

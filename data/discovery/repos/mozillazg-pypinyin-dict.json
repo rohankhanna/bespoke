@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "mozillazg/pypinyin-dict",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "mozillazg/pypinyin-dict",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozillazg/pypinyin-dict",
+      "target": "pypinyin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:45:40.737007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2360
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 105
+    },
+    {
+      "path": ".github/workflows/python-app.yml",
+      "size": 1012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u4f7f\u7528 pinyin-data \u548c phrase-pinyin-data \u4e2d\u7684\u62fc\u97f3\u6570\u636e\u6587\u4ef6\u8986\u76d6 pypinyin \u4e2d\u7684\u5185\u7f6e\u62fc\u97f3\u6570\u636e",
+    "fork": false,
+    "full_name": "mozillazg/pypinyin-dict",
+    "html_url": "https://github.com/mozillazg/pypinyin-dict",
+    "language": "Python",
+    "pushed_at": "2025-01-12T09:17:06Z",
+    "stargazers_count": 66,
+    "topics": [
+      "pypinyin"
+    ],
+    "updated_at": "2026-04-29T02:34:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u4f7f\u7528 [pinyin-data](https://github.com/mozillazg/pinyin-data) \u548c [phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data) \u4e2d\u7684\u62fc\u97f3\u6570\u636e\u6587\u4ef6\u8986\u76d6 [pypinyin](https://github.com/mozillazg/python-pinyin) \u4e2d\u7684\u5185\u7f6e\u62fc\u97f3\u6570\u636e\uff0c",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pypinyin"
+    }
+  ]
+}

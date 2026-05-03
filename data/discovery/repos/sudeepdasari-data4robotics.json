@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SudeepDasari/data4robotics",
+      "target": "alexanderkhazatsky/r2d2",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:39:50.867079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "SudeepDasari/data4robotics",
+    "html_url": "https://github.com/SudeepDasari/data4robotics",
+    "language": "Python",
+    "pushed_at": "2024-10-18T04:14:55Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-01-09T10:11:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexanderkhazatsky/r2d2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

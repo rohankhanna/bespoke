@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "spyoungtech/json-five-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "spyoungtech/json-five-rs",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "spyoungtech/json-five-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "spyoungtech/json-five-rs",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyoungtech/json-five-rs",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyoungtech/json-five-rs",
+      "target": "json5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyoungtech/json-five-rs",
+      "target": "json5-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spyoungtech/json-five-rs",
+      "target": "rust-crate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:37:24.770082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6677
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1202
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 401
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 935
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "JSON5 in Rust",
+    "fork": false,
+    "full_name": "spyoungtech/json-five-rs",
+    "html_url": "https://github.com/spyoungtech/json-five-rs",
+    "language": "Rust",
+    "pushed_at": "2026-01-08T07:47:42Z",
+    "stargazers_count": 18,
+    "topics": [
+      "json",
+      "json5",
+      "json5-parser",
+      "rust-crate"
+    ],
+    "updated_at": "2026-05-02T13:15:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "This project provides a handwritten JSON5 tokenizer and recursive descent parser compatible with `serde`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "This project provides a handwritten JSON5 tokenizer and recursive descent parser compatible with `serde`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json5"
+    },
+    {
+      "context_snippet": "This project provides a handwritten JSON5 tokenizer and recursive descent parser compatible with `serde`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json5-parser"
+    },
+    {
+      "context_snippet": "This project provides a handwritten JSON5 tokenizer and recursive descent parser compatible with `serde`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-crate"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Unmergeable Labels Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrwl/nx",
+      "status": "candidate-context",
+      "text": "The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrwl/nx",
+      "status": "candidate-context",
+      "text": "Unmergeable Labels Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrwl/nx",
+      "status": "candidate",
+      "text": "Unmergeable Labels Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "marking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13405,
+      "status": "candidate",
+      "text": "indicia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13405,
+      "status": "candidate",
+      "text": "label"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13405,
+      "status": "candidate",
+      "text": "labeled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Unmergeable Labels Check",
+  "concept_id": "unmergeable-labels-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/do-not-merge.yml",
+      "source_repo": "nrwl/nx"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unmergeable Labels Check",
+      "sense_id": "unmergeable-labels-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "macfuse/macfuse",
+      "target": "macfuse/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "macfuse/macfuse",
+      "target": "osxfuse/osxfuse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "macfuse/macfuse",
+      "target": "macfuse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:34.141392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1941
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release/macfuse",
+    "description": "macFUSE umbrella repository",
+    "fork": false,
+    "full_name": "macfuse/macfuse",
+    "html_url": "https://github.com/macfuse/macfuse",
+    "language": null,
+    "pushed_at": "2026-04-09T14:11:41Z",
+    "stargazers_count": 9627,
+    "topics": [
+      "macfuse"
+    ],
+    "updated_at": "2026-05-03T13:48:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "macfuse/community",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osxfuse/osxfuse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "macFUSE",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macfuse"
+    }
+  ]
+}

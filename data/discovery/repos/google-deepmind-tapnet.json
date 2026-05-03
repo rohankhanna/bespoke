@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:05:35.285079+00:00",
+  "fetched_at": "2026-05-03T16:42:40.228789+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -69,7 +69,7 @@
     "html_url": "https://github.com/google-deepmind/tapnet",
     "language": "Jupyter Notebook",
     "pushed_at": "2026-03-30T18:40:46Z",
-    "stargazers_count": 1871,
+    "stargazers_count": 1870,
     "topics": [
       "benchmark",
       "computer-vision",
@@ -77,7 +77,7 @@
       "point-tracking",
       "robotics"
     ],
-    "updated_at": "2026-05-01T23:30:37Z"
+    "updated_at": "2026-05-03T09:26:30Z"
   },
   "repo_links": [
     {

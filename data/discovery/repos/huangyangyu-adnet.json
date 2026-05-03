@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huangyangyu/ADNet",
+      "target": "face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huangyangyu/ADNet",
+      "target": "iccv2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huangyangyu/ADNet",
+      "target": "landmark-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huangyangyu/ADNet",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:39:13.806743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7611
+    },
+    {
+      "path": "requirements.txt",
+      "size": 416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ADNet: Leveraging Error-Bias Towards Normal Direction in Face Alignment [Official, ICCV 2021]",
+    "fork": false,
+    "full_name": "huangyangyu/ADNet",
+    "html_url": "https://github.com/huangyangyu/ADNet",
+    "language": "Python",
+    "pushed_at": "2022-12-20T08:43:56Z",
+    "stargazers_count": 39,
+    "topics": [
+      "cnn",
+      "face-alignment",
+      "iccv2021",
+      "landmark-detection",
+      "pytorch"
+    ],
+    "updated_at": "2025-12-10T08:30:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Paper link: [ICCV 2021](https://arxiv.org/pdf/2109.05721.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-alignment"
+    },
+    {
+      "context_snippet": "Paper link: [ICCV 2021](https://arxiv.org/pdf/2109.05721.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2021"
+    },
+    {
+      "context_snippet": "Paper link: [ICCV 2021](https://arxiv.org/pdf/2109.05721.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "landmark-detection"
+    },
+    {
+      "context_snippet": "Paper link: [ICCV 2021](https://arxiv.org/pdf/2109.05721.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

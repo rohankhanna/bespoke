@@ -386,6 +386,18 @@
       "source_repo": "MaterializeInc/materialize",
       "status": "candidate-context",
       "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "continuedev/continue",
+      "status": "candidate-context",
+      "text": "\u23e9 Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "continuedev/continue",
+      "status": "candidate-context",
+      "text": "\"CLA Assistant\""
     }
   ],
   "candidate_glosses": [
@@ -580,6 +592,12 @@
       "source_repo": "MaterializeInc/materialize",
       "status": "candidate",
       "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "continuedev/continue",
+      "status": "candidate",
+      "text": "\"CLA Assistant\""
     }
   ],
   "candidate_related_terms": [
@@ -965,11 +983,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "wkentaro/labelme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/cla.yaml",
+      "source_repo": "continuedev/continue"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

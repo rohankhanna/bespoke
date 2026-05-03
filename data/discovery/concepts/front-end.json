@@ -19,6 +19,18 @@
       "source_repo": "bower/bower",
       "status": "candidate-context",
       "text": "[![Build](https://github.com/bower/bower/workflows/build/badge.svg)](https://github.com/bower/bower/actions?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning-front-end-frameworks",
+      "status": "candidate-context",
+      "text": "Learning about Front End Frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-front-end-frameworks",
+      "status": "candidate-context",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "bower/bower",
       "status": "candidate",
       "text": "[![Build](https://github.com/bower/bower/workflows/build/badge.svg)](https://github.com/bower/bower/actions?query=branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-front-end-frameworks",
+      "status": "candidate",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "bower/bower"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning-front-end-frameworks"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

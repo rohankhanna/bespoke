@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "locale"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "JavaScript implementation of Project Fluent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030053,
+      "status": "candidate",
+      "text": "locus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978820,
+      "status": "candidate",
+      "text": "venue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030118,
+      "status": "candidate",
+      "text": "location"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030085,
+      "status": "candidate",
+      "text": "locality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027447,
+      "status": "candidate",
+      "text": "locally"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17050,
+      "status": "candidate",
+      "text": "venue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6068,
+      "status": "candidate",
+      "text": "locus"
+    }
+  ],
+  "canonical_name": "locale",
+  "concept_id": "locale",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent.js"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "locale",
+      "sense_id": "locale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

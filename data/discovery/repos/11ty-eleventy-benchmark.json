@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "@11ty/eleventy",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "11ty/eleventy-benchmark",
+      "target": "@11ty/eleventy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "11ty/eleventy-benchmark",
+      "target": "eleventy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:48:14.691387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2479
+    },
+    {
+      "path": "package.json",
+      "size": 155
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Eleventy Benchmark Speed Regression Test",
+    "fork": false,
+    "full_name": "11ty/eleventy-benchmark",
+    "html_url": "https://github.com/11ty/eleventy-benchmark",
+    "language": "HTML",
+    "pushed_at": "2024-10-18T22:02:22Z",
+    "stargazers_count": 13,
+    "topics": [
+      "eleventy"
+    ],
+    "updated_at": "2026-01-19T08:31:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Creates 1000 (Liquid|Nunjucks|Markdown) templates. Runs Eleventy against each template format individually and measures the Median Eleventy Runtime (over 10 runs) and Median Time Spent Per Template.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eleventy"
+    }
+  ]
+}

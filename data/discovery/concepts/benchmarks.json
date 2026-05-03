@@ -599,6 +599,18 @@
       "source_repo": "go-git/go-billy",
       "status": "candidate-context",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate-context",
+      "text": "Flatbush for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate-context",
+      "text": "\"Benchmarks\""
     }
   ],
   "candidate_glosses": [
@@ -895,6 +907,12 @@
       "source_repo": "go-git/go-billy",
       "status": "candidate",
       "text": "Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate",
+      "text": "\"Benchmarks\""
     }
   ],
   "candidate_related_terms": [
@@ -1447,11 +1465,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/benchmark.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "chusitoo/flatbush"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libsndfile/libsamplerate",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "libsndfile/libsamplerate",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libsndfile/libsamplerate",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libsndfile/libsamplerate",
+      "target": "libsamplerate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libsndfile/libsamplerate",
+      "target": "resample-audio-files",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:42:50.306006+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2494
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2754
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An audio Sample Rate Conversion library",
+    "fork": false,
+    "full_name": "libsndfile/libsamplerate",
+    "html_url": "https://github.com/libsndfile/libsamplerate",
+    "language": "C",
+    "pushed_at": "2025-09-07T06:03:41Z",
+    "stargazers_count": 724,
+    "topics": [
+      "c",
+      "cmake",
+      "libsamplerate",
+      "resample-audio-files"
+    ],
+    "updated_at": "2026-05-03T01:07:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "![Logo](docs/SRC.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "![Logo](docs/SRC.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libsamplerate"
+    },
+    {
+      "context_snippet": "![Logo](docs/SRC.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resample-audio-files"
+    }
+  ]
+}

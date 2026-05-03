@@ -679,6 +679,30 @@
       "source_repo": "FLAIROx/jafar",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Jafar: A JAX-based Genie Implementation \ud83e\uddde</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snap-research/MoCoGAN-HD",
+      "status": "candidate-context",
+      "text": "[ICLR 2021 Spotlight] A Good Image Generator Is What You Need for High-Resolution Video Synthesis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/MoCoGAN-HD",
+      "status": "candidate-context",
+      "text": "![](gifs/AFHQ.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snap-research/articulated-animation",
+      "status": "candidate-context",
+      "text": "Code for Motion Representations for Articulated Animation paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/articulated-animation",
+      "status": "candidate-context",
+      "text": "This repository contains the source code for the CVPR'2021 paper [Motion Representations for Articulated Animation](https://arxiv.org/abs/2104.11280) by [Aliaksandr Siarohin](https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/), [Oliver Woodford](https://ojwoodford\u2026"
     }
   ],
   "candidate_glosses": [
@@ -1017,6 +1041,18 @@
       "source_repo": "FLAIROx/jafar",
       "status": "candidate",
       "text": "<h1 align=\"center\">Jafar: A JAX-based Genie Implementation \ud83e\uddde</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/MoCoGAN-HD",
+      "status": "candidate",
+      "text": "![](gifs/AFHQ.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snap-research/articulated-animation",
+      "status": "candidate",
+      "text": "This repository contains the source code for the CVPR'2021 paper [Motion Representations for Articulated Animation](https://arxiv.org/abs/2104.11280) by [Aliaksandr Siarohin](https://aliaksandrsiarohin.github.io/aliaksandr-siarohin-website/), [Oliver Woodford](https://ojwoodford\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -1552,11 +1588,65 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "InternRobotics/Aether"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/DiT-Extrapolation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "snap-research/MoCoGAN-HD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "snap-research/articulated-animation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "AILab-CVC/VideoCrafter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

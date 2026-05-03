@@ -1021,7 +1021,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:01:43.946022+00:00",
+  "fetched_at": "2026-05-03T14:31:26.924957+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1066,7 +1066,7 @@
     "html_url": "https://github.com/web3/web3.js",
     "language": "TypeScript",
     "pushed_at": "2025-03-05T08:48:59Z",
-    "stargazers_count": 19941,
+    "stargazers_count": 19942,
     "topics": [
       "abi-decoders",
       "abi-encoders",
@@ -1077,7 +1077,7 @@
       "web3",
       "web3js"
     ],
-    "updated_at": "2026-05-02T13:06:27Z"
+    "updated_at": "2026-05-03T05:41:35Z"
   },
   "repo_links": [
     {

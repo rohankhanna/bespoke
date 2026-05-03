@@ -151,6 +151,42 @@
       "source_repo": "HaxeFoundation/dox",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/HaxeFoundation/dox/workflows/CI/badge.svg \"GitHub Actions\")](https://github.com/HaxeFoundation/dox/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "11ty/eleventy",
+      "status": "candidate-context",
+      "text": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "11ty/eleventy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://www.11ty.dev/img/logo-github.svg\" width=\"200\" height=\"200\" alt=\"eleventy Logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getgrav/grav-theme-learn2",
+      "status": "candidate-context",
+      "text": "Learn2 Grav Theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav-theme-learn2",
+      "status": "candidate-context",
+      "text": "![Learn2](screenshot.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dauxio/daux.io",
+      "status": "candidate-context",
+      "text": "Daux.io is an documentation generator that uses a simple folder structure and Markdown files to create custom documentation on the fly. It helps you create great looking documentation in a developer friendly way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dauxio/daux.io",
+      "status": "candidate-context",
+      "text": "[![Latest Version](https://img.shields.io/github/release/dauxio/daux.io.svg?style=flat-square)](https://github.com/dauxio/daux.io/releases)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +261,24 @@
       "source_repo": "HaxeFoundation/dox",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/HaxeFoundation/dox/workflows/CI/badge.svg \"GitHub Actions\")](https://github.com/HaxeFoundation/dox/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "11ty/eleventy",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://www.11ty.dev/img/logo-github.svg\" width=\"200\" height=\"200\" alt=\"eleventy Logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav-theme-learn2",
+      "status": "candidate",
+      "text": "![Learn2](screenshot.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dauxio/daux.io",
+      "status": "candidate",
+      "text": "[![Latest Version](https://img.shields.io/github/release/dauxio/daux.io.svg?style=flat-square)](https://github.com/dauxio/daux.io/releases)"
     }
   ],
   "candidate_related_terms": [],
@@ -346,11 +400,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "HaxeFoundation/dox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "11ty/eleventy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "getgrav/grav-theme-learn2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "dauxio/daux.io"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

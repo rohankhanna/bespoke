@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u300c\u7f1d\u5408\u6977\u300d\uff1a\u5c06\u300c\u971e\u9e5c\u6587\u6977 GB\u300d\u300c\u82ab\u837d\u300d\u300cKlee One\u300d\u7b49\u5b57\u4f53\u76f8\u4e92\u5408\u5e76\u5236\u6210\u7684\u4ee5\u5404\u5730\u5b57\u5f62\u4e3a\u4e3b\u7684 Klee One \u884d\u751f\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> **\u5404\u4f4d\u5b57\u4f53\u7ad9\u957f\u53ef\u4ee5\u4e0d\u7528\u6536\u5f55\u8fd9\u4e2a\u5b57\u4f53\u3002**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> **\u5404\u4f4d\u5b57\u4f53\u7ad9\u957f\u53ef\u4ee5\u4e0d\u7528\u6536\u5f55\u8fd9\u4e2a\u5b57\u4f53\u3002**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cjk-font",
+      "sense_id": "cjk-font#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cjk-font",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cjk-font",
+  "observation_id": "a2d0d44ba93c66aa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "cjk-font",
+  "source_context_snippet": "> **\u5404\u4f4d\u5b57\u4f53\u7ad9\u957f\u53ef\u4ee5\u4e0d\u7528\u6536\u5f55\u8fd9\u4e2a\u5b57\u4f53\u3002**",
+  "source_file": null,
+  "source_repo": "lxgw/FusionKai",
+  "source_repo_description": "\u300c\u7f1d\u5408\u6977\u300d\uff1a\u5c06\u300c\u971e\u9e5c\u6587\u6977 GB\u300d\u300c\u82ab\u837d\u300d\u300cKlee One\u300d\u7b49\u5b57\u4f53\u76f8\u4e92\u5408\u5e76\u5236\u6210\u7684\u4ee5\u5404\u5730\u5b57\u5f62\u4e3a\u4e3b\u7684 Klee One \u884d\u751f\u5b57\u4f53\u3002"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Find and fix problems in your JavaScript code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Test Ecosystem Plugins"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Test Ecosystem Plugins"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21976,
+      "status": "candidate",
+      "text": "dorcas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21976,
+      "status": "candidate",
+      "text": "fashioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21976,
+      "status": "candidate",
+      "text": "fashions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21976,
+      "status": "candidate",
+      "text": "layette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21954,
+      "status": "candidate",
+      "text": "improve"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Test Ecosystem Plugins",
+      "sense_id": "update-test-ecosystem-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-test-ecosystem-plugins",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-test-ecosystem-plugins",
+  "observation_id": "f8f7156cee720e40",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Update Test Ecosystem Plugins",
+  "source_context_snippet": "Update Test Ecosystem Plugins",
+  "source_file": ".github/workflows/ecosystem-updates.yml",
+  "source_repo": "eslint/eslint",
+  "source_repo_description": "Find and fix problems in your JavaScript code."
+}

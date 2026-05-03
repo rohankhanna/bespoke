@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wilson1yan/VideoGPT",
+      "target": "wilson1yan/videogpt-paper",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:38:20.824887+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8237
+    },
+    {
+      "path": "requirements.txt",
+      "size": 138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "wilson1yan/VideoGPT",
+    "html_url": "https://github.com/wilson1yan/VideoGPT",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-09-18T03:33:55Z",
+    "stargazers_count": 1078,
+    "topics": [],
+    "updated_at": "2026-05-03T02:50:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wilson1yan/videogpt-paper",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

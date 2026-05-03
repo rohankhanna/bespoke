@@ -2255,6 +2255,54 @@
       "source_repo": "heiher/hev-task-system",
       "status": "candidate-context",
       "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mesonbuild/meson",
+      "status": "candidate-context",
+      "text": "The Meson Build System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesonbuild/meson",
+      "status": "candidate-context",
+      "text": "macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate-context",
+      "text": "OpenStreetMap editor for iPhone/iPad"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate-context",
+      "text": "Go Map!! is an iPhone/iPad editor for adding cartographic information to [OpenStreetMap][1]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "Robotic Development Kit (RDK) for Flexiv robots. Supports C++ and Python. Compatible with Linux, macOS, Windows, and QNX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ptsochantaris/emeltal",
+      "status": "candidate-context",
+      "text": "Local ML voice chat using high-end models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/emeltal",
+      "status": "candidate-context",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/EmeltalLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -3397,6 +3445,30 @@
       "source_repo": "heiher/hev-task-system",
       "status": "candidate",
       "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mesonbuild/meson",
+      "status": "candidate",
+      "text": "macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate",
+      "text": "Go Map!! is an iPhone/iPad editor for adding cartographic information to [OpenStreetMap][1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate",
+      "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ptsochantaris/emeltal",
+      "status": "candidate",
+      "text": "<img src=\"https://ptsochantaris.github.io/trailer/EmeltalLogo.webp\" alt=\"Logo\" width=256 align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -5126,11 +5198,77 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "mesonbuild/meson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/mac.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bryceco/GoMap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "flexivrobotics/flexiv_rdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ptsochantaris/emeltal"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

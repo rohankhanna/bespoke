@@ -1597,6 +1597,66 @@
       "source_repo": "MeanderingProgrammer/render-markdown.nvim",
       "status": "candidate-context",
       "text": "Plugin to improve viewing Markdown files in Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkav/lualine-lsp-progress",
+      "status": "candidate-context",
+      "text": "LSP Progress lualine componenet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkav/lualine-lsp-progress",
+      "status": "candidate-context",
+      "text": "Information provided by active lsp clients from the `$/progress` endpoint as a statusline component for [lualine.nvim](https://raw.githubusercontent.com/hoob3rt/lualine.nvim)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petertriho/nvim-scrollbar",
+      "status": "candidate-context",
+      "text": "Extensible Neovim Scrollbar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petertriho/nvim-scrollbar",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "epwalsh/obsidian.nvim",
+      "status": "candidate-context",
+      "text": "Obsidian \ud83e\udd1d Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "epwalsh/obsidian.nvim",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">obsidian.nvim</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "status": "candidate-context",
+      "text": "This plugin adds horizontal highlights for text filetypes, like markdown, orgmode, and neorg."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "status": "candidate-context",
+      "text": "This plugin adds highlights for text filetypes, like `markdown`, `orgmode`, and `neorg`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jasonjmcghee/ron-lsp",
+      "status": "candidate-context",
+      "text": "An LSP and CLI for RON files that provides autocomplete, diagnostics, go to definition, code actions, and hover support based on Rust type annotations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonjmcghee/ron-lsp",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/ron-lsp.svg)](https://crates.io/crates/ron-lsp)"
     }
   ],
   "candidate_glosses": [
@@ -2397,6 +2457,36 @@
       "source_repo": "MeanderingProgrammer/render-markdown.nvim",
       "status": "candidate",
       "text": "Plugin to improve viewing Markdown files in Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkav/lualine-lsp-progress",
+      "status": "candidate",
+      "text": "Information provided by active lsp clients from the `$/progress` endpoint as a statusline component for [lualine.nvim](https://raw.githubusercontent.com/hoob3rt/lualine.nvim)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petertriho/nvim-scrollbar",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "epwalsh/obsidian.nvim",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">obsidian.nvim</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "status": "candidate",
+      "text": "This plugin adds highlights for text filetypes, like `markdown`, `orgmode`, and `neorg`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonjmcghee/ron-lsp",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/ron-lsp.svg)](https://crates.io/crates/ron-lsp)"
     }
   ],
   "candidate_related_terms": [],
@@ -3706,11 +3796,107 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "brianhuster/dirvish-git.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/dashboard-nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nvimdev/lspsaga.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "famiu/feline.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "arkav/lualine-lsp-progress"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "petertriho/nvim-scrollbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "epwalsh/obsidian.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lukas-reineke/headlines.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-config.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jasonjmcghee/ron-lsp"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

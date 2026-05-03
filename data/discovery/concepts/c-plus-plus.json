@@ -1003,6 +1003,78 @@
       "source_repo": "zeromq/cppzmq",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tessil/hopscotch-map",
+      "status": "candidate-context",
+      "text": "C++ implementation of a fast hash map and hash set using hopscotch hashing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tessil/hopscotch-map",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "status": "candidate-context",
+      "text": "C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "status": "candidate-context",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate-context",
+      "text": ":microscope: Assemble large genomes using short reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/abyss.svg)](https://github.com/BirolLab/abyss/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jrouwe/JoltPhysics",
+      "status": "candidate-context",
+      "text": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrouwe/JoltPhysics",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/jrouwe/JoltPhysics)](https://cla-assistant.io/jrouwe/JoltPhysics)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "status": "candidate-context",
+      "text": "CMake scripts for painless usage of SuiteSparse+METIS from Visual Studio and the rest of Windows/Linux/OSX IDEs supported by CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/travis/jlblancoc/suitesparse-metis-for-windows/master.svg?label=Travis)](https://travis-ci.org/jlblancoc/suitesparse-metis-for-windows/builds)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate-context",
+      "text": "The Open Lighting Architecture - The Travel Adaptor for the Lighting Industry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate-context",
+      "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
     }
   ],
   "candidate_glosses": [
@@ -1503,6 +1575,42 @@
       "source_repo": "zeromq/cppzmq",
       "status": "candidate",
       "text": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tessil/hopscotch-map",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "status": "candidate",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/abyss.svg)](https://github.com/BirolLab/abyss/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jrouwe/JoltPhysics",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/jrouwe/JoltPhysics)](https://cla-assistant.io/jrouwe/JoltPhysics)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/travis/jlblancoc/suitesparse-metis-for-windows/master.svg?label=Travis)](https://travis-ci.org/jlblancoc/suitesparse-metis-for-windows/builds)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate",
+      "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
     }
   ],
   "candidate_related_terms": [],
@@ -2362,11 +2470,95 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "zeromq/cppzmq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Tessil/hopscotch-map"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "tinyobjloader/tinyobjloader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/abyss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jrouwe/JoltPhysics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "OpenLightingProject/ola"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

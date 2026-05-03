@@ -193,6 +193,18 @@
       "source_repo": "byte-fe/react-model",
       "status": "candidate-context",
       "text": "The State management library for React"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/swr",
+      "status": "candidate-context",
+      "text": "React Hooks for Data Fetching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/swr",
+      "status": "candidate-context",
+      "text": "[![SWR](https://assets.vercel.com/image/upload/v1572289618/swr/banner.png)](https://swr.vercel.app)"
     }
   ],
   "candidate_glosses": [
@@ -291,6 +303,12 @@
       "source_repo": "byte-fe/react-model",
       "status": "candidate",
       "text": "The State management library for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/swr",
+      "status": "candidate",
+      "text": "[![SWR](https://assets.vercel.com/image/upload/v1572289618/swr/banner.png)](https://swr.vercel.app)"
     }
   ],
   "candidate_related_terms": [
@@ -454,11 +472,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vercel/swr"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

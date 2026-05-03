@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:45:37.984659+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3601
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 815
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simplified Vulkan synchronization logic, written in rust. Forked off of the original vk-sync crate which is currently unmaintained.",
+    "fork": true,
+    "full_name": "expenses/vk-sync-rs",
+    "html_url": "https://github.com/expenses/vk-sync-rs",
+    "language": "Rust",
+    "pushed_at": "2025-04-28T14:10:06Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-10-27T01:03:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

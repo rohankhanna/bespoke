@@ -84,7 +84,7 @@
   "normalized_form": "gateway-lint",
   "observation_id": "d308097d15555450",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Gateway Lint",
   "source_context_snippet": "Gateway Lint",
   "source_file": ".github/workflows/gateway-lint.yml",

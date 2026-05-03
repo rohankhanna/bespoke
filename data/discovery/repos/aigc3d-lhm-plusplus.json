@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LHM-plusplus",
+      "target": "ashawkey/diff-gaussian-rasterization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LHM-plusplus",
+      "target": "camenduru/simple-knn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:29.008129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10614
+    },
+    {
+      "path": "requirements.txt",
+      "size": 783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LHM++: An Efficient Large Human Reconstruction Model for Pose-free Images to 3D",
+    "fork": false,
+    "full_name": "aigc3d/LHM-plusplus",
+    "html_url": "https://github.com/aigc3d/LHM-plusplus",
+    "language": "Python",
+    "pushed_at": "2026-03-16T15:30:42Z",
+    "stargazers_count": 611,
+    "topics": [],
+    "updated_at": "2026-05-03T02:54:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashawkey/diff-gaussian-rasterization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/simple-knn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -49,6 +49,18 @@
       "source_repo": "nvarner/typst-lsp",
       "status": "candidate-context",
       "text": "'Combine PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testng-team/testng",
+      "status": "candidate-context",
+      "text": "TestNG testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng",
+      "status": "candidate-context",
+      "text": "Combine PRs"
     }
   ],
   "candidate_glosses": [
@@ -75,6 +87,12 @@
       "source_repo": "nvarner/typst-lsp",
       "status": "candidate",
       "text": "'Combine PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng",
+      "status": "candidate",
+      "text": "Combine PRs"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/combine-prs.yml",
       "source_repo": "pypi/warehouse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/combine-prs.yml",
+      "source_repo": "testng-team/testng"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

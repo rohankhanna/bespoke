@@ -1,0 +1,224 @@
+{
+  "components": [
+    {
+      "component": "gulp-sourcemaps",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-clean-css",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-csscomb",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-rename",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "phpstan/phpstan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "getgrav/grav",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "getgrav/grav-plugin-error",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "picturepan2/spectre",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "gulp-sourcemaps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "gulp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "gulp-autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "gulp-clean-css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "gulp-csscomb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "gulp-rename",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "gulp-sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "grav",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "grav-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "problem-solving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-plugin-problems",
+      "target": "problems",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:44:49.397702+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6190
+    },
+    {
+      "path": "package.json",
+      "size": 1044
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Grav Problems Plugin",
+    "fork": false,
+    "full_name": "getgrav/grav-plugin-problems",
+    "html_url": "https://github.com/getgrav/grav-plugin-problems",
+    "language": "SCSS",
+    "pushed_at": "2026-04-17T12:46:19Z",
+    "stargazers_count": 10,
+    "topics": [
+      "grav",
+      "grav-plugin",
+      "problem-solving",
+      "problems"
+    ],
+    "updated_at": "2026-04-17T12:46:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getgrav/grav",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getgrav/grav-plugin-error",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phpstan/phpstan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "picturepan2/spectre",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grav"
+    },
+    {
+      "context_snippet": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grav-plugin"
+    },
+    {
+      "context_snippet": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "problem-solving"
+    },
+    {
+      "context_snippet": "[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "problems"
+    }
+  ]
+}

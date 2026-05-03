@@ -6823,6 +6823,186 @@
       "source_repo": "OptimalScale/LMFlow",
       "status": "candidate-context",
       "text": "<p align=\"center\" width=\"50%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate-context",
+      "text": "NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of [NeRF](https://arxiv.org/pdf/2003.08934.pdf) (Neural Radiance Fields) using pytorch ([pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)). This repo doesn't aim at reproducibility, but aim at providing a simpler and faster trai\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/CogView",
+      "status": "candidate-context",
+      "text": "Text-to-Image generation. The repo for NeurIPS 2021 paper \"CogView: Mastering Text-to-Image Generation via Transformers\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CogView",
+      "status": "candidate-context",
+      "text": "torch deepspeed tqdm lmdb filelock sentencepiece mpi4py tensorboardX==1.8"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JonasSchult/Mask3D",
+      "status": "candidate-context",
+      "text": "Mask3D predicts accurate 3D semantic instances achieving state-of-the-art on ScanNet, ScanNet200, S3DIS and STPLS3D."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JonasSchult/Mask3D",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate-context",
+      "text": "SOTA Re-identification Methods and Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate-context",
+      "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucastabelini/LaneATT",
+      "status": "candidate-context",
+      "text": "Code for the paper entitled \"Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection\" (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucastabelini/LaneATT",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "status": "candidate-context",
+      "text": "Pytorch version of SfmLearner from Tinghui Zhou et al."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "status": "candidate-context",
+      "text": "This codebase implements the system described in the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "status": "candidate-context",
+      "text": "Lightweight stereo matching network based on MobileNet blocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "status": "candidate-context",
+      "text": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TRI-ML/dgp",
+      "status": "candidate-context",
+      "text": "ML Dataset Governance Policy for Autonomous Vehicle Datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TRI-ML/dgp",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NTMC-Community/MatchZoo-py",
+      "status": "candidate-context",
+      "text": "Facilitating the design, comparison and sharing of deep text matching models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTMC-Community/MatchZoo-py",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/nsff_pl",
+      "status": "candidate-context",
+      "text": "Neural Scene Flow Fields using pytorch-lightning, with potential improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nsff_pl",
+      "status": "candidate-context",
+      "text": "Neural Scene Flow Fields using pytorch-lightning. This repo reimplements the [NSFF](https://github.com/zhengqili/Neural-Scene-Flow-Fields) idea, but modifies several operations based on observation of NSFF results and discussions with the authors. For discussion details, please \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/functorch",
+      "status": "candidate-context",
+      "text": "functorch is JAX-like composable function transforms for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/functorch",
+      "status": "candidate-context",
+      "text": "[**Why functorch?**](#why-composable-function-transforms)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tengfei-Wang/HFGI",
+      "status": "candidate-context",
+      "text": "CVPR 2022 HFGI: High-Fidelity GAN Inversion for Image Attribute Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tengfei-Wang/HFGI",
+      "status": "candidate-context",
+      "text": "> High-Fidelity GAN Inversion for Image Attribute Editing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huangyangyu/ADNet",
+      "status": "candidate-context",
+      "text": "ADNet: Leveraging Error-Bias Towards Normal Direction in Face Alignment [Official, ICCV 2021]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huangyangyu/ADNet",
+      "status": "candidate-context",
+      "text": "Paper link: [ICCV 2021](https://arxiv.org/pdf/2109.05721.pdf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate-context",
+      "text": "[ECCV 2020] ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Project-MONAI/MONAI",
+      "status": "candidate-context",
+      "text": "AI Toolkit for Healthcare Imaging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/MONAI",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -10233,6 +10413,96 @@
       "source_repo": "OptimalScale/LMFlow",
       "status": "candidate",
       "text": "<p align=\"center\" width=\"50%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate",
+      "text": "Unofficial implementation of [NeRF](https://arxiv.org/pdf/2003.08934.pdf) (Neural Radiance Fields) using pytorch ([pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)). This repo doesn't aim at reproducibility, but aim at providing a simpler and faster trai\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CogView",
+      "status": "candidate",
+      "text": "torch deepspeed tqdm lmdb filelock sentencepiece mpi4py tensorboardX==1.8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JonasSchult/Mask3D",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate",
+      "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucastabelini/LaneATT",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "status": "candidate",
+      "text": "This codebase implements the system described in the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "status": "candidate",
+      "text": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TRI-ML/dgp",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTMC-Community/MatchZoo-py",
+      "status": "candidate",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nsff_pl",
+      "status": "candidate",
+      "text": "Neural Scene Flow Fields using pytorch-lightning. This repo reimplements the [NSFF](https://github.com/zhengqili/Neural-Scene-Flow-Fields) idea, but modifies several operations based on observation of NSFF results and discussions with the authors. For discussion details, please \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/functorch",
+      "status": "candidate",
+      "text": "[**Why functorch?**](#why-composable-function-transforms)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tengfei-Wang/HFGI",
+      "status": "candidate",
+      "text": "> High-Fidelity GAN Inversion for Image Attribute Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huangyangyu/ADNet",
+      "status": "candidate",
+      "text": "Paper link: [ICCV 2021](https://arxiv.org/pdf/2109.05721.pdf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/MONAI",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -15988,11 +16258,377 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/finetrainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogView"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "axelspringer/DeepPhonemizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/FunASR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyAI-Community/MinImagen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "iver56/torch-audiomentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/chineseocr_lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/res-loglikelihood-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "webdataset/webdataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "DemisEom/SpecAugment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cuiziteng/ICCV_MAET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/Open3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JonasSchult/Mask3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "megvii-research/MOTR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lucastabelini/LaneATT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ClementPinard/SfmLearner-Pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "meetps/pytorch-semseg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cogsys-tuebingen/mobilestereonet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "TRI-ML/dgp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/UnifiedSKG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "unifyai/ivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lcswillems/rl-starter-files"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "iflytek/cino"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NTMC-Community/MatchZoo-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/nsff_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/functorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Tengfei-Wang/HFGI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "huangyangyu/ADNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Project-MONAI/MONAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

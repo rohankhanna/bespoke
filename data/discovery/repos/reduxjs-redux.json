@@ -223,34 +223,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "reduxjs/redux",
-      "target": "reduxjs/redux-devtools",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "reduxjs/redux",
-      "target": "reduxjs/redux-templates",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "reduxjs/redux",
-      "target": "rahsheen/react-native-template-redux-typescript",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "reduxjs/redux",
-      "target": "rahsheen/expo-template-redux-typescript",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "reduxjs/redux",
@@ -496,7 +468,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-01T08:19:32.868116+00:00",
+  "fetched_at": "2026-05-03T12:32:07.586435+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -528,35 +500,14 @@
     "full_name": "reduxjs/redux",
     "html_url": "https://github.com/reduxjs/redux",
     "language": "TypeScript",
-    "pushed_at": "2026-04-23T16:09:25Z",
-    "stargazers_count": 61447,
+    "pushed_at": "2026-05-01T20:39:32Z",
+    "stargazers_count": 61445,
     "topics": [
       "redux"
     ],
-    "updated_at": "2026-05-01T04:43:55Z"
+    "updated_at": "2026-05-03T09:48:43Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rahsheen/expo-template-redux-typescript",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rahsheen/react-native-template-redux-typescript",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "reduxjs/redux-devtools",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "reduxjs/redux-templates",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Publish Package to npmjs",

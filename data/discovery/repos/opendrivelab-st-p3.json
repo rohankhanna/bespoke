@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/ST-P3",
+      "target": "end-to-end-autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/ST-P3",
+      "target": "perception-prediction-planning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:59.650027+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2022] ST-P3, an end-to-end vision-based autonomous driving framework via spatial-temporal feature learning.",
+    "fork": false,
+    "full_name": "OpenDriveLab/ST-P3",
+    "html_url": "https://github.com/OpenDriveLab/ST-P3",
+    "language": "Python",
+    "pushed_at": "2025-07-02T05:23:23Z",
+    "stargazers_count": 433,
+    "topics": [
+      "end-to-end-autonomous-driving",
+      "perception-prediction-planning"
+    ],
+    "updated_at": "2026-04-26T12:54:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "end-to-end-autonomous-driving"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perception-prediction-planning"
+    }
+  ]
+}

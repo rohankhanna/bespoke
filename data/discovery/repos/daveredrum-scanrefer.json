@@ -1,0 +1,147 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer",
+      "target": "eccv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer",
+      "target": "visual-grounding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:39:18.438653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15437
+    },
+    {
+      "path": "requirements.txt",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ECCV 2020] ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language",
+    "fork": false,
+    "full_name": "daveredrum/ScanRefer",
+    "html_url": "https://github.com/daveredrum/ScanRefer",
+    "language": "Python",
+    "pushed_at": "2023-02-10T12:25:33Z",
+    "stargazers_count": 301,
+    "topics": [
+      "3d",
+      "computer-vision",
+      "dataset",
+      "deep-learning",
+      "eccv",
+      "natural-language-processing",
+      "point-cloud",
+      "pytorch",
+      "visual-grounding"
+    ],
+    "updated_at": "2026-04-25T13:07:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eccv"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-grounding"
+    }
+  ]
+}

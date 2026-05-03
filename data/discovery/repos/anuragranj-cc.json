@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuragranj/cc",
+      "target": "adversarial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuragranj/cc",
+      "target": "adversarial-collaboration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuragranj/cc",
+      "target": "camera-pose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuragranj/cc",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuragranj/cc",
+      "target": "depth-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuragranj/cc",
+      "target": "motion-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuragranj/cc",
+      "target": "optical-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anuragranj/cc",
+      "target": "unsupervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:03.916893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7376
+    },
+    {
+      "path": "requirements.txt",
+      "size": 148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Competitive Collaboration: Joint Unsupervised Learning of Depth, Camera Motion, Optical Flow and Motion Segmentation",
+    "fork": false,
+    "full_name": "anuragranj/cc",
+    "html_url": "https://github.com/anuragranj/cc",
+    "language": "Python",
+    "pushed_at": "2023-03-07T10:07:15Z",
+    "stargazers_count": 531,
+    "topics": [
+      "adversarial",
+      "adversarial-collaboration",
+      "camera-pose",
+      "deep-learning",
+      "depth-prediction",
+      "motion-segmentation",
+      "optical-flow",
+      "unsupervised-learning"
+    ],
+    "updated_at": "2026-04-27T15:41:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is an official repository of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adversarial"
+    },
+    {
+      "context_snippet": "This is an official repository of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adversarial-collaboration"
+    },
+    {
+      "context_snippet": "This is an official repository of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera-pose"
+    },
+    {
+      "context_snippet": "This is an official repository of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is an official repository of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "depth-prediction"
+    },
+    {
+      "context_snippet": "This is an official repository of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-segmentation"
+    },
+    {
+      "context_snippet": "This is an official repository of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    },
+    {
+      "context_snippet": "This is an official repository of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unsupervised-learning"
+    }
+  ]
+}

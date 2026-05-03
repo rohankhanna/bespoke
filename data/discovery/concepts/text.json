@@ -43,6 +43,30 @@
       "source_repo": "alexpasmantier/tv.nvim",
       "status": "candidate-context",
       "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NTMC-Community/MatchZoo",
+      "status": "candidate-context",
+      "text": "Facilitating the design, comparison and sharing of deep text matching models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTMC-Community/MatchZoo",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NTMC-Community/MatchZoo-py",
+      "status": "candidate-context",
+      "text": "Facilitating the design, comparison and sharing of deep text matching models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTMC-Community/MatchZoo-py",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "alexpasmantier/tv.nvim",
       "status": "candidate",
       "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTMC-Community/MatchZoo",
+      "status": "candidate",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTMC-Community/MatchZoo-py",
+      "status": "candidate",
+      "text": "<div align='center'>"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "alexpasmantier/tv.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NTMC-Community/MatchZoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NTMC-Community/MatchZoo-py"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SOTA Re-identification Methods and Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924461,
+      "status": "candidate",
+      "text": "war"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19778026,
+      "status": "candidate",
+      "text": "soto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015166,
+      "status": "candidate",
+      "text": "satoru"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015165,
+      "status": "candidate",
+      "text": "shouta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015164,
+      "status": "candidate",
+      "text": "tomoyoshi"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sota",
+      "sense_id": "sota#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sota",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sota",
+  "observation_id": "6d43065be2dfd374",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "sota",
+  "source_context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+  "source_file": null,
+  "source_repo": "JDAI-CV/fast-reid",
+  "source_repo_description": "SOTA Re-identification Methods and Toolbox"
+}

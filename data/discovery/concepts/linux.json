@@ -2440,6 +2440,66 @@
       "source_repo": "heiher/hev-task-system",
       "status": "candidate-context",
       "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sylabs/singularity",
+      "status": "candidate-context",
+      "text": "SingularityCE is the Community Edition of Singularity, an open source container platform designed to be simple, fast, and secure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sylabs/singularity",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/sylabs/singularity/tree/main.svg?style=svg)](https://circleci.com/gh/sylabs/singularity/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SuperCuber/dotter",
+      "status": "candidate-context",
+      "text": "A dotfile manager and templater written in rust \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SuperCuber/dotter",
+      "status": "candidate-context",
+      "text": "Dotter is a dotfile manager and templater."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookarchive/fbzmq",
+      "status": "candidate-context",
+      "text": "Facebook ZeroMQ wrappers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookarchive/fbzmq",
+      "status": "candidate-context",
+      "text": "linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mason",
+      "status": "candidate-context",
+      "text": "Cross platform package manager for C/C++ apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mason",
+      "status": "candidate-context",
+      "text": "\u274c **UNMAINTAINED: this project is no longer maintained and no additional development is planned. Nor is any kind of deprecation planned. Rather this code is now frozen. If you are depending on this module in any of your applications, it is recommended you remove the dependency a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "Robotic Development Kit (RDK) for Flexiv robots. Supports C++ and Python. Compatible with Linux, macOS, Windows, and QNX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -3672,6 +3732,36 @@
       "source_repo": "heiher/hev-task-system",
       "status": "candidate",
       "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sylabs/singularity",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/sylabs/singularity/tree/main.svg?style=svg)](https://circleci.com/gh/sylabs/singularity/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SuperCuber/dotter",
+      "status": "candidate",
+      "text": "Dotter is a dotfile manager and templater."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookarchive/fbzmq",
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mason",
+      "status": "candidate",
+      "text": "\u274c **UNMAINTAINED: this project is no longer maintained and no additional development is planned. Nor is any kind of deprecation planned. Rather this code is now frozen. If you are depending on this module in any of your applications, it is recommended you remove the dependency a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate",
+      "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -5647,11 +5737,101 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "sylabs/singularity"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "drduh/Router-Guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/getdeps_linux.yml",
+      "source_repo": "facebookarchive/fbzmq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mason"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "flexivrobotics/flexiv_rdk"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

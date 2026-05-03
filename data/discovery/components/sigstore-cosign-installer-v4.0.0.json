@@ -1,0 +1,17 @@
+{
+  "component": "sigstore/cosign-installer@v4.0.0",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-edge.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-charts.yaml",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox"
+    }
+  ]
+}

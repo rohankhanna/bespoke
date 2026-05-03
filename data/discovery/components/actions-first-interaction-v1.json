@@ -1,7 +1,7 @@
 {
   "component": "actions/first-interaction@v1",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/welcome-first-time-contributors.yml",
       "source_repo": "lukeautry/tsoa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "ezhang7423/language-control-diffusion"
     }
   ]
 }

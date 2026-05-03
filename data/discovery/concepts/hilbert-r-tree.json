@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hilbert-r-tree"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate-context",
+      "text": "Flatbush for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate-context",
+      "text": "[![Format](https://github.com/chusitoo/flatbush/actions/workflows/format.yml/badge.svg)](https://github.com/chusitoo/flatbush/actions/workflows/format.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate",
+      "text": "[![Format](https://github.com/chusitoo/flatbush/actions/workflows/format.yml/badge.svg)](https://github.com/chusitoo/flatbush/actions/workflows/format.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hilbert-r-tree",
+  "concept_id": "hilbert-r-tree",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "chusitoo/flatbush"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hilbert-r-tree",
+      "sense_id": "hilbert-r-tree#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/eg3d",
+      "target": "sicxu/deep3dfacerecon_pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:41.817148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "NVlabs/eg3d",
+    "html_url": "https://github.com/NVlabs/eg3d",
+    "language": "Python",
+    "pushed_at": "2023-06-10T19:59:28Z",
+    "stargazers_count": 3336,
+    "topics": [],
+    "updated_at": "2026-04-27T09:37:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sicxu/deep3dfacerecon_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

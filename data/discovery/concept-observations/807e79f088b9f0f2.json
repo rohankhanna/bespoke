@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pytorch version of SfmLearner from Tinghui Zhou et al."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This codebase implements the system described in the paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This codebase implements the system described in the paper:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019854,
+      "status": "candidate",
+      "text": "profoundness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019795,
+      "status": "candidate",
+      "text": "profundity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001595,
+      "status": "candidate",
+      "text": "astuteness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020254,
+      "status": "candidate",
+      "text": "profound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020244,
+      "status": "candidate",
+      "text": "deep"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "depth",
+      "sense_id": "depth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31030,
+      "status": "candidate",
+      "text": "profundity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11019,
+      "status": "candidate",
+      "text": "astuteness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6019,
+      "status": "candidate",
+      "text": "profoundness"
+    }
+  ],
+  "concept_id": "depth",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "depth",
+  "observation_id": "807e79f088b9f0f2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "depth",
+  "source_context_snippet": "This codebase implements the system described in the paper:",
+  "source_file": null,
+  "source_repo": "ClementPinard/SfmLearner-Pytorch",
+  "source_repo_description": "Pytorch version of SfmLearner from Tinghui Zhou et al."
+}

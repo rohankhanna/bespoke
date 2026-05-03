@@ -43,6 +43,18 @@
       "source_repo": "celery/celery",
       "status": "candidate-context",
       "text": "Smoke Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cognizant-ai-lab/neuro-san",
+      "status": "candidate-context",
+      "text": "Neuro AI System of Agent Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cognizant-ai-lab/neuro-san",
+      "status": "candidate-context",
+      "text": "Smoke Tests"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "celery/celery",
+      "status": "candidate",
+      "text": "Smoke Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cognizant-ai-lab/neuro-san",
       "status": "candidate",
       "text": "Smoke Tests"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/smoke-tests.yml",
       "source_repo": "celery/celery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "cognizant-ai-lab/neuro-san"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

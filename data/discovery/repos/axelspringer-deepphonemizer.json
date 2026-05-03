@@ -47,13 +47,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "axelspringer/DeepPhonemizer",
-      "target": "cuny-cl/wikipron",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-package.yml",
       "source_repo": "axelspringer/DeepPhonemizer",
@@ -131,7 +124,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:56:46.364003+00:00",
+  "fetched_at": "2026-05-03T16:34:17.576430+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -173,11 +166,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "as-ideas/deepphonemizer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cuny-cl/wikipron",
       "source_file": "README.md"
     },
     {

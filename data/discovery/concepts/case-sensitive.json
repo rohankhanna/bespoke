@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "case-sensitive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/is-fs-case-sensitive",
+      "status": "candidate-context",
+      "text": "Check whether the file-system is case-sensitive"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/is-fs-case-sensitive",
+      "status": "candidate-context",
+      "text": "Detect whether the underlying filesystem has case-sensitive file paths. A robust, zero-dependency utility for cross-platform tools."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/is-fs-case-sensitive",
+      "status": "candidate",
+      "text": "Detect whether the underlying filesystem has case-sensitive file paths. A robust, zero-dependency utility for cross-platform tools."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29967038,
+      "status": "candidate",
+      "text": "sensitive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021077,
+      "status": "candidate",
+      "text": "case-dependent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021076,
+      "status": "candidate",
+      "text": "upper-case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021075,
+      "status": "candidate",
+      "text": "alphanumeric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021074,
+      "status": "candidate",
+      "text": "uppercase"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "case-sensitive",
+  "concept_id": "case-sensitive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "privatenumber/is-fs-case-sensitive"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "case-sensitive",
+      "sense_id": "case-sensitive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:39:20.557766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "boukhayma/face_normals",
+    "html_url": "https://github.com/boukhayma/face_normals",
+    "language": "Python",
+    "pushed_at": "2024-02-28T11:29:14Z",
+    "stargazers_count": 98,
+    "topics": [],
+    "updated_at": "2024-09-27T02:43:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

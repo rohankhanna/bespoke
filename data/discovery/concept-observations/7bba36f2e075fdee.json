@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "unplugin for fluent-vue. Adds support for custom blocks in Vue SFC and external ftl files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000697,
+      "status": "candidate",
+      "text": "flowing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987595,
+      "status": "candidate",
+      "text": "smooth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963845,
+      "status": "candidate",
+      "text": "liquid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961704,
+      "status": "candidate",
+      "text": "fluid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39917577,
+      "status": "candidate",
+      "text": "graceful"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fluent",
+      "sense_id": "fluent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 91043,
+      "status": "candidate",
+      "text": "articulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61037,
+      "status": "candidate",
+      "text": "facile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45036,
+      "status": "candidate",
+      "text": "eloquent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19051,
+      "status": "candidate",
+      "text": "smooth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15074,
+      "status": "candidate",
+      "text": "silver"
+    }
+  ],
+  "concept_id": "fluent",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fluent",
+  "observation_id": "7bba36f2e075fdee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "fluent",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "fluent-vue/unplugin-fluent-vue",
+  "source_repo_description": "unplugin for fluent-vue. Adds support for custom blocks in Vue SFC and external ftl files."
+}

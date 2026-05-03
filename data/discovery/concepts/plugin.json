@@ -1336,6 +1336,54 @@
       "source_repo": "ashleysommer/sanic-cors",
       "status": "candidate-context",
       "text": "Sanic-CORS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate-context",
+      "text": "Pagination library for Rails and other Ruby applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate-context",
+      "text": "will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, and Sequel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petertriho/nvim-scrollbar",
+      "status": "candidate-context",
+      "text": "Extensible Neovim Scrollbar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petertriho/nvim-scrollbar",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "windingwind/zotero-plugin-template",
+      "status": "candidate-context",
+      "text": "A plugin template for Zotero."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windingwind/zotero-plugin-template",
+      "status": "candidate-context",
+      "text": "[![zotero target version](https://img.shields.io/badge/Zotero-7-green?style=flat-square&logo=zotero&logoColor=CC2936)](https://www.zotero.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashleysommer/sanic-plugin-toolkit",
+      "status": "candidate-context",
+      "text": "Easily create Plugins for Sanic!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleysommer/sanic-plugin-toolkit",
+      "status": "candidate-context",
+      "text": "Sanic Plugin Toolkit"
     }
   ],
   "candidate_glosses": [
@@ -2004,6 +2052,30 @@
       "source_repo": "ashleysommer/sanic-cors",
       "status": "candidate",
       "text": "Sanic-CORS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate",
+      "text": "will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, and Sequel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petertriho/nvim-scrollbar",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "windingwind/zotero-plugin-template",
+      "status": "candidate",
+      "text": "[![zotero target version](https://img.shields.io/badge/Zotero-7-green?style=flat-square&logo=zotero&logoColor=CC2936)](https://www.zotero.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashleysommer/sanic-plugin-toolkit",
+      "status": "candidate",
+      "text": "Sanic Plugin Toolkit"
     }
   ],
   "candidate_related_terms": [
@@ -3007,11 +3079,65 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "ashleysommer/sanic-cors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee_html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mislav/will_paginate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "deforum/sd-webui-deforum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "petertriho/nvim-scrollbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "windingwind/zotero-plugin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ashleysommer/sanic-plugin-toolkit"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

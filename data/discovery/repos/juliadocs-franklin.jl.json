@@ -71,14 +71,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "juliadocs/franklintemplates.jl",
+      "target": "juliagraphics/luxor.jl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "juliagpu/juliagpu.org",
+      "target": "juliapackagecomparisons/juliapackagecomparisons.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaDocs/Franklin.jl",
+      "target": "julialang/www.julialang.org",
       "target_type": "repository"
     },
     {
@@ -86,13 +93,6 @@
       "source_file": "README.md",
       "source_repo": "JuliaDocs/Franklin.jl",
       "target": "asprionj/liveserver.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JuliaDocs/Franklin.jl",
-      "target": "juliadocs/xranklin.jl",
       "target_type": "repository"
     },
     {
@@ -250,7 +250,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T01:50:10.180594+00:00",
+  "fetched_at": "2026-05-03T13:34:43.176707+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -303,17 +303,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "juliadocs/franklintemplates.jl",
+      "full_name": "juliagraphics/luxor.jl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "juliadocs/xranklin.jl",
+      "full_name": "julialang/www.julialang.org",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "juliagpu/juliagpu.org",
+      "full_name": "juliapackagecomparisons/juliapackagecomparisons.github.io",
       "source_file": "README.md"
     }
   ],

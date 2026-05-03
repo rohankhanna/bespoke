@@ -84,7 +84,7 @@
   "normalized_form": "ai-moderator",
   "observation_id": "c2f310cc460541e5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-02T12:29:04.390200+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "AI Moderator",
   "source_context_snippet": "AI Moderator",
   "source_file": ".github/workflows/moderator.yml",

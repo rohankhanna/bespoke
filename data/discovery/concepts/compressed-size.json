@@ -116,6 +116,42 @@
       "source_repo": "alibaba/designable",
       "status": "candidate-context",
       "text": "Compressed Size"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luisherranz/deepsignal",
+      "status": "candidate-context",
+      "text": "DeepSignal \ud83e\uddf6 - Preact signals, but using regular JavaScript objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luisherranz/deepsignal",
+      "status": "candidate-context",
+      "text": "Compressed Size"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate-context",
+      "text": "An alternative side effect model for Redux apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate-context",
+      "text": "Compressed Size"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/signals",
+      "status": "candidate-context",
+      "text": "Manage state with style in every framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/signals",
+      "status": "candidate-context",
+      "text": "compressed-size"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +208,24 @@
       "source_repo": "alibaba/designable",
       "status": "candidate",
       "text": "Compressed Size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luisherranz/deepsignal",
+      "status": "candidate",
+      "text": "Compressed Size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate",
+      "text": "Compressed Size"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/signals",
+      "status": "candidate",
+      "text": "compressed-size"
     }
   ],
   "candidate_related_terms": [
@@ -269,11 +323,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/package-size.yml",
       "source_repo": "alibaba/designable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/compressed-size.yml",
+      "source_repo": "luisherranz/deepsignal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/size.yml",
+      "source_repo": "redux-saga/redux-saga"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/compressed-size.yml",
+      "source_repo": "preactjs/signals"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

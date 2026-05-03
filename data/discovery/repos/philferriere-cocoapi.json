@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:44:22.342600+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clone of COCO API - Dataset @ http://cocodataset.org/ - with changes to support Windows build and python3",
+    "fork": true,
+    "full_name": "philferriere/cocoapi",
+    "html_url": "https://github.com/philferriere/cocoapi",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-12-29T22:46:24Z",
+    "stargazers_count": 1130,
+    "topics": [],
+    "updated_at": "2026-05-02T06:53:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

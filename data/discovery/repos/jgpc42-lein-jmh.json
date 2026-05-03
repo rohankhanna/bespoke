@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jgpc42/lein-jmh",
+      "target": "jgpc42/jmh-clojure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jgpc42/lein-jmh",
+      "target": "jgpc42/jmh-clojure-task",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jgpc42/lein-jmh",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jgpc42/lein-jmh",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jgpc42/lein-jmh",
+      "target": "Test runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgpc42/lein-jmh",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgpc42/lein-jmh",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jgpc42/lein-jmh",
+      "target": "leiningen",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:37:11.764950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2700
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 583
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Leiningen plugin for jmh-clojure",
+    "fork": false,
+    "full_name": "jgpc42/lein-jmh",
+    "html_url": "https://github.com/jgpc42/lein-jmh",
+    "language": "Clojure",
+    "pushed_at": "2026-01-10T20:24:52Z",
+    "stargazers_count": 17,
+    "topics": [
+      "benchmarking",
+      "clojure",
+      "jmh",
+      "leiningen"
+    ],
+    "updated_at": "2026-01-10T20:24:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jgpc42/jmh-clojure",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jgpc42/jmh-clojure-task",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test runner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test runner"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/lein-jmh.svg)](https://clojars.org/lein-jmh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/lein-jmh.svg)](https://clojars.org/lein-jmh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/lein-jmh.svg)](https://clojars.org/lein-jmh)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leiningen"
+    }
+  ]
+}

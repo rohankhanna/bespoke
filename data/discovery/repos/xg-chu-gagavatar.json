@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xg-chu/GAGAvatar",
+      "target": "xg-chu/gagavatar_track",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xg-chu/GAGAvatar",
+      "target": "xg-chu/gpavatar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xg-chu/GAGAvatar",
+      "target": "chroneus/stylematte",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xg-chu/GAGAvatar",
+      "target": "kupynorest/head_detector",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:27.225725+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024] Generalizable and Animatable Gaussian Head Avatar",
+    "fork": false,
+    "full_name": "xg-chu/GAGAvatar",
+    "html_url": "https://github.com/xg-chu/GAGAvatar",
+    "language": "Python",
+    "pushed_at": "2025-03-13T09:37:54Z",
+    "stargazers_count": 583,
+    "topics": [],
+    "updated_at": "2026-04-29T14:39:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chroneus/stylematte",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kupynorest/head_detector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xg-chu/gagavatar_track",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xg-chu/gpavatar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

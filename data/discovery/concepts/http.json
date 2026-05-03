@@ -1267,6 +1267,42 @@
       "source_repo": "gorilla/schema",
       "status": "candidate-context",
       "text": "![testing](https://github.com/gorilla/schema/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feross/simple-get",
+      "status": "candidate-context",
+      "text": "Simplest way to make http get requests. Supports HTTPS, redirects, gzip/deflate, streams in < 100 lines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feross/simple-get",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/simple-get/ci/master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate-context",
+      "text": "Clojure library for fast http api format negotiation, encoding and decoding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jshttp/cookie",
+      "status": "candidate-context",
+      "text": "HTTP server cookie parsing and serialization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jshttp/cookie",
+      "status": "candidate-context",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -1899,6 +1935,24 @@
       "source_repo": "gorilla/schema",
       "status": "candidate",
       "text": "![testing](https://github.com/gorilla/schema/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feross/simple-get",
+      "status": "candidate",
+      "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/simple-get/ci/master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jshttp/cookie",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-version-image]][npm-url]"
     }
   ],
   "candidate_related_terms": [
@@ -2862,11 +2916,53 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "gorilla/schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vercel/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ueberauth/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "feross/simple-get"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jshttp/cookie"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzhag/PanFusion",
+      "target": "tangshitao/mvdiffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzhag/PanFusion",
+      "target": "ericsujw/matterport3dlayoutannotation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzhag/PanFusion",
+      "target": "sundadenny/panoannotator",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:42.972043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf73 [CVPR'24 Highlight] Pytorch implementation of \"Taming Stable Diffusion for Text to 360\u00b0 Panorama Image Generation\"",
+    "fork": false,
+    "full_name": "chengzhag/PanFusion",
+    "html_url": "https://github.com/chengzhag/PanFusion",
+    "language": "Python",
+    "pushed_at": "2025-12-06T07:44:59Z",
+    "stargazers_count": 265,
+    "topics": [],
+    "updated_at": "2026-05-01T07:30:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericsujw/matterport3dlayoutannotation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sundadenny/panoannotator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tangshitao/mvdiffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

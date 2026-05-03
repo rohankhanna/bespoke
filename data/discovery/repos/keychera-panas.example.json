@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keychera/panas.example",
+      "target": "oxalorg/sakura",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keychera/panas.example",
+      "target": "babashka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keychera/panas.example",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "keychera/panas.example",
+      "target": "htmx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:38:20.202747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "project examples using clojure/babashka + htmx",
+    "fork": false,
+    "full_name": "keychera/panas.example",
+    "html_url": "https://github.com/keychera/panas.example",
+    "language": "Clojure",
+    "pushed_at": "2023-05-27T03:43:43Z",
+    "stargazers_count": 27,
+    "topics": [
+      "babashka",
+      "clojure",
+      "htmx"
+    ],
+    "updated_at": "2024-10-12T10:07:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oxalorg/sakura",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Initially these are examples for panas.reload, now this has become where I experiment all sort of things with clojure(babashka) and htmx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babashka"
+    },
+    {
+      "context_snippet": "Initially these are examples for panas.reload, now this has become where I experiment all sort of things with clojure(babashka) and htmx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "Initially these are examples for panas.reload, now this has become where I experiment all sort of things with clojure(babashka) and htmx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "htmx"
+    }
+  ]
+}

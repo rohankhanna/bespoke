@@ -19,12 +19,30 @@
       "source_repo": "moby/moby",
       "status": "candidate-context",
       "text": "bin-image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moby/vpnkit",
+      "status": "candidate-context",
+      "text": "A toolkit for embedding VPN capabilities in your application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/vpnkit",
+      "status": "candidate-context",
+      "text": "bin-image"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "moby/moby",
+      "status": "candidate",
+      "text": "bin-image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/vpnkit",
       "status": "candidate",
       "text": "bin-image"
     }
@@ -118,11 +136,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/bin-image.yml",
       "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/bin-image.yml",
+      "source_repo": "moby/vpnkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/bin-image.yml",
+      "source_repo": "moby/moby"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

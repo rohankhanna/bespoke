@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:48:29.073785+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Diff for Clojure Sequences",
+    "fork": false,
+    "full_name": "brentonashworth/clj-diff",
+    "html_url": "https://github.com/brentonashworth/clj-diff",
+    "language": "Clojure",
+    "pushed_at": "2022-11-15T10:52:30Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2025-11-23T06:30:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

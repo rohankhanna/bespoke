@@ -1,0 +1,334 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-boundary-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml"
+    },
+    {
+      "component": "fischerscode/tagger@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.cli.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.cli.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.cli.yml"
+    },
+    {
+      "component": "pkgxdev/dev@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.cli.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-gate.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-gate.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-gate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "agent-boundary-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "fischerscode/tagger@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "cd\u00b7vx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "pkgxdev/setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.actions.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.cli.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.cli.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "pkgxdev/setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.cli.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "pkgxdev/dev@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-gate.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-gate.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "technote-space/get-diff-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality-gate.yml",
+      "source_repo": "pkgxdev/brewkit",
+      "target": "quality-gate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkgxdev/brewkit",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkgxdev/brewkit",
+      "target": "package-management",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:34:08.827843+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2047
+    },
+    {
+      "path": ".github/workflows/agent-boundary-check.yml",
+      "size": 1504
+    },
+    {
+      "path": ".github/workflows/cd.vx.yml",
+      "size": 341
+    },
+    {
+      "path": ".github/workflows/ci.actions.yml",
+      "size": 4944
+    },
+    {
+      "path": ".github/workflows/ci.cli.yml",
+      "size": 2192
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 136
+    },
+    {
+      "path": ".github/workflows/quality-gate.yml",
+      "size": 1407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "build infra & `$ bk build`",
+    "fork": false,
+    "full_name": "pkgxdev/brewkit",
+    "html_url": "https://github.com/pkgxdev/brewkit",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-13T15:57:18Z",
+    "stargazers_count": 64,
+    "topics": [
+      "hacktoberfest",
+      "package-management"
+    ],
+    "updated_at": "2026-03-15T09:23:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"agent-boundary-check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "term": "agent-boundary-check"
+    },
+    {
+      "context_snippet": "cd\u00b7vx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "term": "cd\u00b7vx"
+    },
+    {
+      "context_snippet": "quality-gate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality-gate.yml",
+      "term": "quality-gate"
+    },
+    {
+      "context_snippet": "![pkgx](https://pkgx.dev/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![pkgx](https://pkgx.dev/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-management"
+    }
+  ]
+}

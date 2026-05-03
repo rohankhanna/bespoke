@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/kal.yml",
       "source_repo": "kubernetes-sigs/gateway-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-golangci-lint.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api"
     }
   ],
   "term": "PR golangci-lint"

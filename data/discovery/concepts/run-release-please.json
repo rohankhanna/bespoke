@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run Release Please"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate-context",
+      "text": "LaunchDarkly Server-Side SDK for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate-context",
+      "text": "Run Release Please"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate",
+      "text": "Run Release Please"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26135,
+      "status": "candidate",
+      "text": "let out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26030,
+      "status": "candidate",
+      "text": "dive-bombing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19057,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19057,
+      "status": "candidate",
+      "text": "quit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19057,
+      "status": "candidate",
+      "text": "shoot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run Release Please",
+  "concept_id": "run-release-please",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "launchdarkly/rust-server-sdk"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Release Please",
+      "sense_id": "run-release-please#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

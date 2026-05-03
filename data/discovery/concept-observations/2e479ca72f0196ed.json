@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An alternative side effect model for Redux apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src='https://redux-saga.js.org/img/Redux-Saga-Logo-Landscape.png' alt='Redux Logo Landscape' width='800px'>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src='https://redux-saga.js.org/img/Redux-Saga-Logo-Landscape.png' alt='Redux Logo Landscape' width='800px'>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "redux-saga",
+      "sense_id": "redux-saga#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "redux-saga",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "redux-saga",
+  "observation_id": "2e479ca72f0196ed",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "redux-saga",
+  "source_context_snippet": "<img src='https://redux-saga.js.org/img/Redux-Saga-Logo-Landscape.png' alt='Redux Logo Landscape' width='800px'>",
+  "source_file": null,
+  "source_repo": "redux-saga/redux-saga",
+  "source_repo_description": "An alternative side effect model for Redux apps"
+}

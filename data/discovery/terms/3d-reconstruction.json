@@ -1,16 +1,31 @@
 {
-  "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "meidachen/STPLS3D"
+      "source_repo": "kwea123/nerf_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShichenLiu/SoftRas"
     }
   ],
   "term": "3d-reconstruction"

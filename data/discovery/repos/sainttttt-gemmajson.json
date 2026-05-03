@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:35:18.518140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JSON parser library for Nim based on simdjson bindings ",
+    "fork": false,
+    "full_name": "sainttttt/gemmaJSON",
+    "html_url": "https://github.com/sainttttt/gemmaJSON",
+    "language": "C++",
+    "pushed_at": "2024-07-04T05:08:33Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-02T10:55:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

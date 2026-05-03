@@ -91,6 +91,18 @@
       "source_repo": "aiidateam/plumpy",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/aiidateam/plumpy/blob/master/docs/source/_static/logo.svg\" width=\"64px\" height=\"auto\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alanxz/rabbitmq-c",
+      "status": "candidate-context",
+      "text": "RabbitMQ C client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alanxz/rabbitmq-c",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/alanxz/rabbitmq-c/actions/workflows/ci.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "aiidateam/plumpy",
       "status": "candidate",
       "text": "<img src=\"https://github.com/aiidateam/plumpy/blob/master/docs/source/_static/logo.svg\" width=\"64px\" height=\"auto\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alanxz/rabbitmq-c",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/alanxz/rabbitmq-c/actions/workflows/ci.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "aiidateam/plumpy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "alanxz/rabbitmq-c"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

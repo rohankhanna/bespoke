@@ -247,7 +247,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "antfu-collective/vite-ssg",
-      "target": "antfu/contribute.",
+      "target": "tbgse/vue3-vite-ssr-example",
       "target_type": "repository"
     },
     {
@@ -538,7 +538,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:59:14.951465+00:00",
+  "fetched_at": "2026-05-03T12:41:12.196625+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -583,11 +583,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "antfu/contribute.",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "antfu/vitesse",
       "source_file": "README.md"
     },
@@ -599,6 +594,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "nuxt-contrib/devalue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tbgse/vue3-vite-ssr-example",
       "source_file": "README.md"
     }
   ],

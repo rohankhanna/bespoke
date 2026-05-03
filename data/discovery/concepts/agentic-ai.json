@@ -439,6 +439,24 @@
       "source_repo": "cognizant-ai-lab/neuro-san-studio",
       "status": "candidate-context",
       "text": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cognizant-ai-lab/neuro-san",
+      "status": "candidate-context",
+      "text": "Neuro AI System of Agent Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cognizant-ai-lab/neuro-san",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/cognizant-ai-lab/neuro-san)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +675,12 @@
       "source_repo": "cognizant-ai-lab/neuro-san-studio",
       "status": "candidate",
       "text": "**Your launchpad for building intelligent multi-agent systems.** Neuro SAN Studio is a hands-on playground for the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cognizant-ai-lab/neuro-san",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/cognizant-ai-lab/neuro-san)"
     }
   ],
   "candidate_related_terms": [],
@@ -1006,11 +1030,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "cognizant-ai-lab/neuro-san-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cognizant-ai-lab/neuro-san"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

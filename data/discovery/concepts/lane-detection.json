@@ -67,6 +67,30 @@
       "source_repo": "OpenDriveLab/PersFormer_3DLane",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucastabelini/LaneATT",
+      "status": "candidate-context",
+      "text": "Code for the paper entitled \"Keep your Eyes on the Lane: Real-time Attention-guided Lane Detection\" (CVPR 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucastabelini/LaneATT",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenPerceptionX/OpenLane",
+      "status": "candidate-context",
+      "text": "[ECCV 2022 oral] OpenLane: Large-scale Realistic 3D Lane Dataset. Redirect to https://github.com/OpenDriveLab/OpenLane."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenPerceptionX/OpenLane",
+      "status": "candidate-context",
+      "text": ":microphone:: The official dataset of `OpanLane` has been transfered to [OpenDriveLab/OpenLane](https://github.com/OpenDriveLab/OpenLane) for follow-up maintenance. Check it out!"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "OpenDriveLab/PersFormer_3DLane",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucastabelini/LaneATT",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenPerceptionX/OpenLane",
+      "status": "candidate",
+      "text": ":microphone:: The official dataset of `OpanLane` has been transfered to [OpenDriveLab/OpenLane](https://github.com/OpenDriveLab/OpenLane) for follow-up maintenance. Check it out!"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "OpenDriveLab/PersFormer_3DLane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lucastabelini/LaneATT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "OpenPerceptionX/OpenLane"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

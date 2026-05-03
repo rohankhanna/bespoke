@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v8",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -657,6 +657,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-latest-releases.yml",
       "source_repo": "robotology/robotology-superbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-commit.yml",
+      "source_repo": "osmlab/name-suggestion-index"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "zephyr-data-specs/GMNS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vendor-nsi.yaml",
+      "source_repo": "alltheplaces/alltheplaces"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "emberjs/ember-test-helpers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plan-release.yml",
+      "source_repo": "embroider-build/ember-auto-import"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-native.yml",
+      "source_repo": "xerial/snappy-java"
     }
   ]
 }

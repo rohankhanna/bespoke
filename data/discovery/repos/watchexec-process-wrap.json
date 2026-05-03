@@ -1,0 +1,80 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "watchexec/process-wrap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "watchexec/process-wrap",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "watchexec/process-wrap",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:44:30.320431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8802
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2610
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wrap a Command, to spawn processes in a group or session or job object etc (successor to command-group)",
+    "fork": false,
+    "full_name": "watchexec/process-wrap",
+    "html_url": "https://github.com/watchexec/process-wrap",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T23:42:13Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-04-20T07:50:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

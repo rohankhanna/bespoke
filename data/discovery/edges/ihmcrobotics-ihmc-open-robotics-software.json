@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/euclid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/ekf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/ihmc-commons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/ihmc-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test-fast.yml",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "Gradle test (fast)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test-slow.yml",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "Gradle test (slow)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "humanoid-robot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "walking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "whole-body-control",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "ihmcrobotics/ihmc-open-robotics-software"
+}

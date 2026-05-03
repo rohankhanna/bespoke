@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "holman/dotfiles",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "holman/dotfiles",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:39:20.842114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3770
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "@holman does dotfiles",
+    "fork": false,
+    "full_name": "holman/dotfiles",
+    "html_url": "https://github.com/holman/dotfiles",
+    "language": "Shell",
+    "pushed_at": "2026-05-01T15:19:12Z",
+    "stargazers_count": 7723,
+    "topics": [
+      "dotfiles",
+      "shell",
+      "zsh"
+    ],
+    "updated_at": "2026-05-01T22:55:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Your dotfiles are how you personalize your system. These are mine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "Your dotfiles are how you personalize your system. These are mine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

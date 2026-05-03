@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "haml/html2haml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "haml/html2haml",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "haml/html2haml",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:37:34.645619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3698
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert HTML and HTML+Erb to Haml.",
+    "fork": false,
+    "full_name": "haml/html2haml",
+    "html_url": "https://github.com/haml/html2haml",
+    "language": "Ruby",
+    "pushed_at": "2024-08-29T03:33:34Z",
+    "stargazers_count": 261,
+    "topics": [],
+    "updated_at": "2025-10-28T02:35:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "test"
+    }
+  ]
+}

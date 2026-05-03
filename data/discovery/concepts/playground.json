@@ -81,6 +81,18 @@
       "source_repo": "bow-swift/nef",
       "status": "candidate-context",
       "text": "![](assets/header-nef.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/BotFramework-WebChat",
+      "status": "candidate-context",
+      "text": "A highly-customizable web-based client for Azure Bot Services."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-WebChat",
+      "status": "candidate-context",
+      "text": "playground"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +131,12 @@
       "source_repo": "bow-swift/nef",
       "status": "candidate",
       "text": "![](assets/header-nef.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/BotFramework-WebChat",
+      "status": "candidate",
+      "text": "playground"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +298,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "gluon-lang/gluon-lang.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/playground.yaml",
+      "source_repo": "microsoft/BotFramework-WebChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gluon-lang/gluon-lang.org"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1387,6 +1387,30 @@
       "source_repo": "MaterializeInc/materialize",
       "status": "candidate-context",
       "text": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moby/datakit",
+      "status": "candidate-context",
+      "text": "Connect processes into powerful data pipelines with a simple git-like filesystem interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/datakit",
+      "status": "candidate-context",
+      "text": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate-context",
+      "text": "A cloud-native open source distributed time series database with high performance, high compression ratio and high availability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2079,6 +2103,18 @@
       "source_repo": "MaterializeInc/materialize",
       "status": "candidate",
       "text": "[![Build status](https://badge.buildkite.com/97d6604e015bf633d1c2a12d166bb46f3b43a927d3952c999a.svg?branch=main)](https://buildkite.com/materialize/test)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/datakit",
+      "status": "candidate",
+      "text": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3136,11 +3172,59 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "moby/datakit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cnosdb/cnosdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

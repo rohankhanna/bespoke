@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/PDF-Extract-Kit",
+      "target": "opendatalab/unimernet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/PDF-Extract-Kit",
+      "target": "unimodal4reasoning/structeqtable-deploy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/PDF-Extract-Kit",
+      "target": "opendatalab/labelu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opendatalab/PDF-Extract-Kit",
+      "target": "opendatalab/labelllm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:37:07.125878+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14233
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 834
+    },
+    {
+      "path": "requirements.txt",
+      "size": 146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Comprehensive Toolkit for High-Quality PDF Content Extraction",
+    "fork": false,
+    "full_name": "opendatalab/PDF-Extract-Kit",
+    "html_url": "https://github.com/opendatalab/PDF-Extract-Kit",
+    "language": "Python",
+    "pushed_at": "2025-01-03T02:00:20Z",
+    "stargazers_count": 9636,
+    "topics": [],
+    "updated_at": "2026-05-03T13:02:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendatalab/labelllm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendatalab/labelu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opendatalab/unimernet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unimodal4reasoning/structeqtable-deploy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -246,6 +246,30 @@
       "source_repo": "Kludex/starlette",
       "status": "candidate-context",
       "text": "Test Suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate-context",
+      "text": "Pagination library for Rails and other Ruby applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate-context",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seung-lab/cloud-files",
+      "status": "candidate-context",
+      "text": "Threaded Python and CLI client library for AWS S3, Google Cloud Storage (GCS), in-memory, and the local filesystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seung-lab/cloud-files",
+      "status": "candidate-context",
+      "text": "Test Suite"
     }
   ],
   "candidate_glosses": [
@@ -366,6 +390,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Kludex/starlette",
+      "status": "candidate",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mislav/will_paginate",
+      "status": "candidate",
+      "text": "Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seung-lab/cloud-files",
       "status": "candidate",
       "text": "Test Suite"
     }
@@ -651,11 +687,41 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "watchexec/watchexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-auth-library-php"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mislav/will_paginate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "seung-lab/cloud-files"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

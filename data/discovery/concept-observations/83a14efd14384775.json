@@ -84,7 +84,7 @@
   "normalized_form": "require-allow-edits",
   "observation_id": "83a14efd14384775",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Require \u201cAllow Edits\u201d",
   "source_context_snippet": "Require \u201cAllow Edits\u201d",
   "source_file": ".github/workflows/require-allow-edits.yml",

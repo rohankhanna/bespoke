@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "build pkg version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkgxdev/pantry",
+      "status": "candidate-context",
+      "text": "pkg manifests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/pantry",
+      "status": "candidate-context",
+      "text": "build pkg version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/pantry",
+      "status": "candidate",
+      "text": "build pkg version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23181,
+      "status": "candidate",
+      "text": "cod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22368,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14483,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14483,
+      "status": "candidate",
+      "text": "tract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14346,
+      "status": "candidate",
+      "text": "adelphia"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "build pkg version",
+  "concept_id": "build-pkg-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/new-version.yml",
+      "source_repo": "pkgxdev/pantry"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build pkg version",
+      "sense_id": "build-pkg-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -662,7 +662,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "eslint/eslint",
-      "target": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "target": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "target_type": "component"
     },
     {
@@ -723,6 +723,62 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-tests.yml",
+      "source_repo": "eslint/eslint",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-tests.yml",
+      "source_repo": "eslint/eslint",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-tests.yml",
+      "source_repo": "eslint/eslint",
+      "target": "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecosystem-tests.yml",
+      "source_repo": "eslint/eslint",
+      "target": "Test Ecosystem Plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-updates.yml",
+      "source_repo": "eslint/eslint",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-updates.yml",
+      "source_repo": "eslint/eslint",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-updates.yml",
+      "source_repo": "eslint/eslint",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecosystem-updates.yml",
+      "source_repo": "eslint/eslint",
+      "target": "Update Test Ecosystem Plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-labeler.yml",
       "source_repo": "eslint/eslint",
       "target": "actions/labeler@v6",
@@ -764,55 +820,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml",
-      "source_repo": "eslint/eslint",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml",
-      "source_repo": "eslint/eslint",
-      "target": "actions/setup-node@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml",
-      "source_repo": "eslint/eslint",
-      "target": "restackio/update-json-file-action@6f50afee9a03a456a30cd574123db793319f7544",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/types-integration.yml",
-      "source_repo": "eslint/eslint",
-      "target": "Types Integration CI",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-readme.yml",
-      "source_repo": "eslint/eslint",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-readme.yml",
-      "source_repo": "eslint/eslint",
-      "target": "actions/setup-node@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-readme.yml",
-      "source_repo": "eslint/eslint",
-      "target": "Data Fetch",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "eslint/eslint",
@@ -841,6 +848,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "eslint/eslint"
 }

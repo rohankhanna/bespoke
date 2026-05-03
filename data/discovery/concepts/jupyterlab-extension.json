@@ -67,6 +67,18 @@
       "source_repo": "jupyter-widgets/ipywidgets",
       "status": "candidate-context",
       "text": "| Purpose | Badges |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "status": "candidate-context",
+      "text": "A Jupyter - Leaflet.js bridge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "status": "candidate-context",
+      "text": "[![Documentation](http://readthedocs.org/projects/ipyleaflet/badge/?version=latest)](https://ipyleaflet.readthedocs.io/en/latest/?badge=latest)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "jupyter-widgets/ipywidgets",
       "status": "candidate",
       "text": "| Purpose | Badges |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "status": "candidate",
+      "text": "[![Documentation](http://readthedocs.org/projects/ipyleaflet/badge/?version=latest)](https://ipyleaflet.readthedocs.io/en/latest/?badge=latest)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "jupyter-widgets/ipywidgets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-widgets/ipyleaflet"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

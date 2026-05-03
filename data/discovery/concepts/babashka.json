@@ -175,6 +175,30 @@
       "source_repo": "borkdude/quickdoc",
       "status": "candidate-context",
       "text": "See [API.md](API.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "keychera/panas.example",
+      "status": "candidate-context",
+      "text": "project examples using clojure/babashka + htmx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keychera/panas.example",
+      "status": "candidate-context",
+      "text": "Initially these are examples for panas.reload, now this has become where I experiment all sort of things with clojure(babashka) and htmx"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/process",
+      "status": "candidate-context",
+      "text": "Clojure library for shelling out / spawning sub-processes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/process",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/babashka/process.svg)](https://clojars.org/babashka/process)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +285,18 @@
       "source_repo": "borkdude/quickdoc",
       "status": "candidate",
       "text": "See [API.md](API.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "keychera/panas.example",
+      "status": "candidate",
+      "text": "Initially these are examples for panas.reload, now this has become where I experiment all sort of things with clojure(babashka) and htmx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/process",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/babashka/process.svg)](https://clojars.org/babashka/process)"
     }
   ],
   "candidate_related_terms": [],
@@ -556,11 +592,47 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "borkdude/quickdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "keychera/panas.example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "babashka/process"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

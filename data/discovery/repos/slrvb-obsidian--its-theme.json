@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "target": "mgmeyers/obsidian-style-settings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "target": "lithou/sandbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "target": "css-snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "target": "darkmode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "target": "lightmode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "target": "obsidian-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:43:30.982365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5021
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Theme designed with readability and customizability in mind. Change it easily to your liking with the Style Settings plugin installed.",
+    "fork": false,
+    "full_name": "SlRvb/Obsidian--ITS-Theme",
+    "html_url": "https://github.com/SlRvb/Obsidian--ITS-Theme",
+    "language": "SCSS",
+    "pushed_at": "2026-03-20T23:29:09Z",
+    "stargazers_count": 736,
+    "topics": [
+      "css-snippets",
+      "darkmode",
+      "lightmode",
+      "obsidian",
+      "obsidian-md",
+      "obsidian-theme",
+      "theme"
+    ],
+    "updated_at": "2026-05-02T19:07:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lithou/sandbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgmeyers/obsidian-style-settings",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Theme for my Obsidian Story Vault: **In The Shadows**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css-snippets"
+    },
+    {
+      "context_snippet": "> Theme for my Obsidian Story Vault: **In The Shadows**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darkmode"
+    },
+    {
+      "context_snippet": "> Theme for my Obsidian Story Vault: **In The Shadows**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightmode"
+    },
+    {
+      "context_snippet": "> Theme for my Obsidian Story Vault: **In The Shadows**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "> Theme for my Obsidian Story Vault: **In The Shadows**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "> Theme for my Obsidian Story Vault: **In The Shadows**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-theme"
+    },
+    {
+      "context_snippet": "> Theme for my Obsidian Story Vault: **In The Shadows**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

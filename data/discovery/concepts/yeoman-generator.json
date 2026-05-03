@@ -43,6 +43,18 @@
       "source_repo": "hchiam/generator-hchiam-learning",
       "status": "candidate-context",
       "text": "[![version](https://img.shields.io/npm/v/generator-hchiam-learning.svg)](https://www.npmjs.com/package/generator-hchiam-learning)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate-context",
+      "text": "Add redux, emotion-js and other useful libraries like react-router in top of create-react-app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hchiam/generator-hchiam-learning",
       "status": "candidate",
       "text": "[![version](https://img.shields.io/npm/v/generator-hchiam-learning.svg)](https://www.npmjs.com/package/generator-hchiam-learning)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "hchiam/generator-hchiam-learning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jonidelv/generator-create-redux-app"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

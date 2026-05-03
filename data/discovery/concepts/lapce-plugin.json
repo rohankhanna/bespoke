@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lapce-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "status": "candidate-context",
+      "text": "Lapce vue plugin, support vue (SFC) syntax highlight, autocomplate,types check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "status": "candidate-context",
+      "text": "![vue Plugin for lapce](https://raw.githubusercontent.com/xiaoxin-sky/lapce-vue/master/image/lps.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "status": "candidate",
+      "text": "![vue Plugin for lapce](https://raw.githubusercontent.com/xiaoxin-sky/lapce-vue/master/image/lps.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lapce-plugin",
+  "concept_id": "lapce-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "xiaoxin-sky/lapce-vue"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lapce-plugin",
+      "sense_id": "lapce-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

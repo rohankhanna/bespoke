@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogView",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogView",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogView",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogView",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:45.176442+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Text-to-Image generation. The repo for NeurIPS 2021 paper \"CogView: Mastering Text-to-Image Generation via Transformers\".",
+    "fork": false,
+    "full_name": "zai-org/CogView",
+    "html_url": "https://github.com/zai-org/CogView",
+    "language": "Python",
+    "pushed_at": "2023-09-25T04:07:19Z",
+    "stargazers_count": 1796,
+    "topics": [
+      "pretrained-models",
+      "pytorch",
+      "text-to-image",
+      "transformers"
+    ],
+    "updated_at": "2026-04-29T21:57:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "torch deepspeed tqdm lmdb filelock sentencepiece mpi4py tensorboardX==1.8",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "torch deepspeed tqdm lmdb filelock sentencepiece mpi4py tensorboardX==1.8",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "torch deepspeed tqdm lmdb filelock sentencepiece mpi4py tensorboardX==1.8",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "torch deepspeed tqdm lmdb filelock sentencepiece mpi4py tensorboardX==1.8",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

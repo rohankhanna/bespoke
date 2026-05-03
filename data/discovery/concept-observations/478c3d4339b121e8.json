@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple drawings using vector graphics; Cairo \"for tourists!\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![luxor splash image](docs/src/assets/figures/luxor-social-media-preview.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![luxor splash image](docs/src/assets/figures/luxor-social-media-preview.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041187,
+      "status": "candidate",
+      "text": "lycopolis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041186,
+      "status": "candidate",
+      "text": "oxyrhynchus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041185,
+      "status": "candidate",
+      "text": "cairo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041184,
+      "status": "candidate",
+      "text": "meroe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041183,
+      "status": "candidate",
+      "text": "edfu"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "luxor",
+      "sense_id": "luxor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "luxor",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "luxor",
+  "observation_id": "478c3d4339b121e8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "luxor",
+  "source_context_snippet": "![luxor splash image](docs/src/assets/figures/luxor-social-media-preview.png)",
+  "source_file": null,
+  "source_repo": "JuliaGraphics/Luxor.jl",
+  "source_repo_description": "Simple drawings using vector graphics; Cairo \"for tourists!\""
+}

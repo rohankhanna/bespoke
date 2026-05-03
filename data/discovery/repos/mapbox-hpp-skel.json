@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/hpp-skel",
+      "target": "mapbox/cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/hpp-skel",
+      "target": "mapbox/mason",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/hpp-skel",
+      "target": "mapbox/geometry.hpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mapbox/hpp-skel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:32:55.859026+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7723
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1065
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Skeleton for C++ header-only libraries",
+    "fork": false,
+    "full_name": "mapbox/hpp-skel",
+    "html_url": "https://github.com/mapbox/hpp-skel",
+    "language": "CMake",
+    "pushed_at": "2024-06-17T13:06:06Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2026-03-10T16:25:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/geometry.hpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/mason",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

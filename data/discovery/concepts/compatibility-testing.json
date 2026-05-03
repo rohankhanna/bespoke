@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Compatibility testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate-context",
+      "text": "A cloud-native open source distributed time series database with high performance, high compression ratio and high availability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate-context",
+      "text": "Compatibility testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate",
+      "text": "Compatibility testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35904,
+      "status": "candidate",
+      "text": "system testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35903,
+      "status": "candidate",
+      "text": "api testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35902,
+      "status": "candidate",
+      "text": "scalability testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35901,
+      "status": "candidate",
+      "text": "compatibility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35900,
+      "status": "candidate",
+      "text": "test script"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Compatibility testing",
+  "concept_id": "compatibility-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/compatibility_test.yaml",
+      "source_repo": "cnosdb/cnosdb"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compatibility testing",
+      "sense_id": "compatibility-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/multiface",
+      "target": "facebookresearch/mvp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:30.991368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7277
+    },
+    {
+      "path": "requirements.txt",
+      "size": 54
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Hosts the Multiface dataset, which is a multi-view dataset of multiple identities performing a sequence of facial expressions.",
+    "fork": false,
+    "full_name": "facebookresearch/multiface",
+    "html_url": "https://github.com/facebookresearch/multiface",
+    "language": "Python",
+    "pushed_at": "2023-08-01T03:14:20Z",
+    "stargazers_count": 765,
+    "topics": [],
+    "updated_at": "2026-03-08T05:48:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/mvp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

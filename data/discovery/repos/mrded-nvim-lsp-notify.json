@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T13:42:44.242229+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NVIM plugin to notify about LSP processes",
+    "fork": false,
+    "full_name": "mrded/nvim-lsp-notify",
+    "html_url": "https://github.com/mrded/nvim-lsp-notify",
+    "language": "Lua",
+    "pushed_at": "2026-04-17T12:55:33Z",
+    "stargazers_count": 56,
+    "topics": [],
+    "updated_at": "2026-02-12T17:30:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

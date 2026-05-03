@@ -31,6 +31,18 @@
       "source_repo": "mozillazg/python-pinyin",
       "status": "candidate-context",
       "text": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozillazg/pypinyin-dict",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528 pinyin-data \u548c phrase-pinyin-data \u4e2d\u7684\u62fc\u97f3\u6570\u636e\u6587\u4ef6\u8986\u76d6 pypinyin \u4e2d\u7684\u5185\u7f6e\u62fc\u97f3\u6570\u636e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozillazg/pypinyin-dict",
+      "status": "candidate-context",
+      "text": "\u4f7f\u7528 [pinyin-data](https://github.com/mozillazg/pinyin-data) \u548c [phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data) \u4e2d\u7684\u62fc\u97f3\u6570\u636e\u6587\u4ef6\u8986\u76d6 [pypinyin](https://github.com/mozillazg/python-pinyin) \u4e2d\u7684\u5185\u7f6e\u62fc\u97f3\u6570\u636e\uff0c"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "mozillazg/python-pinyin",
       "status": "candidate",
       "text": "\u6c49\u5b57\u62fc\u97f3\u8f6c\u6362\u5de5\u5177\uff08Python \u7248\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozillazg/pypinyin-dict",
+      "status": "candidate",
+      "text": "\u4f7f\u7528 [pinyin-data](https://github.com/mozillazg/pinyin-data) \u548c [phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data) \u4e2d\u7684\u62fc\u97f3\u6570\u636e\u6587\u4ef6\u8986\u76d6 [pypinyin](https://github.com/mozillazg/python-pinyin) \u4e2d\u7684\u5185\u7f6e\u62fc\u97f3\u6570\u636e\uff0c"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "mozillazg/python-pinyin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mozillazg/pypinyin-dict"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

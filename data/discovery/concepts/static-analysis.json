@@ -749,6 +749,18 @@
       "source_repo": "anchore/grype",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "braintree/braintree_android",
+      "status": "candidate-context",
+      "text": "Braintree SDK for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "braintree/braintree_android",
+      "status": "candidate-context",
+      "text": "Static Analysis"
     }
   ],
   "candidate_glosses": [
@@ -1117,6 +1129,12 @@
       "source_repo": "anchore/grype",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "braintree/braintree_android",
+      "status": "candidate",
+      "text": "Static Analysis"
     }
   ],
   "candidate_related_terms": [
@@ -1724,11 +1742,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/static-analysis.yml",
       "source_repo": "xtensor-stack/xtensor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/static_analysis.yml",
+      "source_repo": "braintree/braintree_android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/static-analysis.yml",
+      "source_repo": "xtensor-stack/xtensor"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -247,6 +247,54 @@
       "source_repo": "reZach/secure-electron-template",
       "status": "candidate-context",
       "text": "A current electron app template with the most popular frameworks, designed and built with security in mind. (If you are curious about what makes an electron app secure, please check out [this page](https://github.com/reZach/secure-electron-template/blob/master/docs/secureapps.md\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reZach/easy-redux-undo",
+      "status": "candidate-context",
+      "text": "Easily configure your redux reducers to have fast, undo/redoable-support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reZach/easy-redux-undo",
+      "status": "candidate-context",
+      "text": "Literally the _easiest_ redux undo/redo library. In addition to being easy, we also offer a collection of great features that you will use all the time!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate-context",
+      "text": "Add redux, emotion-js and other useful libraries like react-router in top of create-react-app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate-context",
+      "text": "An alternative side effect model for Redux apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate-context",
+      "text": "<img src='https://redux-saga.js.org/img/Redux-Saga-Logo-Landscape.png' alt='Redux Logo Landscape' width='800px'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omnidan/redux-undo",
+      "status": "candidate-context",
+      "text": ":recycle: higher order reducer to add undo/redo functionality to redux state containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omnidan/redux-undo",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **Project Status: Not Actively Maintained**"
     }
   ],
   "candidate_glosses": [
@@ -375,6 +423,30 @@
       "source_repo": "reZach/secure-electron-template",
       "status": "candidate",
       "text": "A current electron app template with the most popular frameworks, designed and built with security in mind. (If you are curious about what makes an electron app secure, please check out [this page](https://github.com/reZach/secure-electron-template/blob/master/docs/secureapps.md\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reZach/easy-redux-undo",
+      "status": "candidate",
+      "text": "Literally the _easiest_ redux undo/redo library. In addition to being easy, we also offer a collection of great features that you will use all the time!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate",
+      "text": "<img src='https://redux-saga.js.org/img/Redux-Saga-Logo-Landscape.png' alt='Redux Logo Landscape' width='800px'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omnidan/redux-undo",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **Project Status: Not Actively Maintained**"
     }
   ],
   "candidate_related_terms": [
@@ -604,11 +676,47 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "reZach/secure-electron-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "reduxjs/redux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "reZach/easy-redux-undo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jonidelv/generator-create-redux-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "redux-saga/redux-saga"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "omnidan/redux-undo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

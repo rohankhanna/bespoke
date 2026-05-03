@@ -763,6 +763,18 @@
       "source_repo": "scaleway/serverless-functions-python",
       "status": "candidate-context",
       "text": "[![PyPI version](https://badge.fury.io/py/scaleway-functions-python.svg)](https://badge.fury.io/py/scaleway-functions-python)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robustmq/robustmq",
+      "status": "candidate-context",
+      "text": "Communication infrastructure for the AI era \u2014 one binary, one broker, one storage layer, any protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robustmq/robustmq",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1143,6 +1155,12 @@
       "source_repo": "scaleway/serverless-functions-python",
       "status": "candidate",
       "text": "[![PyPI version](https://badge.fury.io/py/scaleway-functions-python.svg)](https://badge.fury.io/py/scaleway-functions-python)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robustmq/robustmq",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1720,11 +1738,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "scaleway/serverless-functions-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robustmq/robustmq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "serverless/serverless-python-requirements"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:36:20.983357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4902
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1601
+    },
+    {
+      "path": "requirements.txt",
+      "size": 174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "cognitiveailab/kga2c-scienceworld",
+    "html_url": "https://github.com/cognitiveailab/kga2c-scienceworld",
+    "language": "Python",
+    "pushed_at": "2022-06-04T04:56:38Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-02-18T00:32:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

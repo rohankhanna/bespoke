@@ -19,6 +19,18 @@
       "source_repo": "webdriverio/webdriverio",
       "status": "candidate-context",
       "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jasmine/jasmine",
+      "status": "candidate-context",
+      "text": "Simple JavaScript testing framework for browsers and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasmine/jasmine",
+      "status": "candidate-context",
+      "text": "<a name=\"README\"><img src=\"https://raw.githubusercontent.com/jasmine/jasmine/main/images/jasmine-horizontal.svg\" width=\"400px\" alt=\"Jasmine\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "webdriverio/webdriverio",
       "status": "candidate",
       "text": "[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasmine/jasmine",
+      "status": "candidate",
+      "text": "<a name=\"README\"><img src=\"https://raw.githubusercontent.com/jasmine/jasmine/main/images/jasmine-horizontal.svg\" width=\"400px\" alt=\"Jasmine\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "webdriverio/webdriverio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jasmine/jasmine"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

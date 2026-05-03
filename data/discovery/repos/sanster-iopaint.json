@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T07:08:41.894693+00:00",
+  "fetched_at": "2026-05-03T14:45:39.219407+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,7 +65,7 @@
     "html_url": "https://github.com/Sanster/IOPaint",
     "language": "Python",
     "pushed_at": "2025-04-29T02:13:17Z",
-    "stargazers_count": 23042,
+    "stargazers_count": 23043,
     "topics": [
       "inpainting",
       "lama",
@@ -75,7 +75,7 @@
       "stable-diffusion",
       "zits"
     ],
-    "updated_at": "2026-05-03T02:19:32Z"
+    "updated_at": "2026-05-03T14:16:56Z"
   },
   "repo_links": [],
   "terms": [

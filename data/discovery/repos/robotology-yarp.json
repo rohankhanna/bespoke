@@ -1,0 +1,669 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codacy/codacy-coverage-reporter-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-merge.yml"
+    },
+    {
+      "component": "robotology/gh-action-nightly-merge@v1.3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yml"
+    },
+    {
+      "component": "drdanz/rebase@pr_from_fork",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yml"
+    },
+    {
+      "component": "robotology/gh-action-squash@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robotology/yarp",
+      "target": "robotology/ycm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robotology/yarp",
+      "target": "docgroup/ace_tao",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/yarp",
+      "target": "codacy/codacy-coverage-reporter-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/yarp",
+      "target": "CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "robotology/yarp",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "robotology/yarp",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "robotology/yarp",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "robotology/yarp",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "robotology/yarp",
+      "target": "Docker build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-merge.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-merge.yml",
+      "source_repo": "robotology/yarp",
+      "target": "robotology/gh-action-nightly-merge@v1.3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-merge.yml",
+      "source_repo": "robotology/yarp",
+      "target": "Nightly Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yml",
+      "source_repo": "robotology/yarp",
+      "target": "drdanz/rebase@pr_from_fork",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-commands.yml",
+      "source_repo": "robotology/yarp",
+      "target": "robotology/gh-action-squash@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-commands.yml",
+      "source_repo": "robotology/yarp",
+      "target": "Handle commands in PR comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "robotology/yarp",
+      "target": "pypa/gh-action-pypi-publish@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "source_repo": "robotology/yarp",
+      "target": "Sonarcloud on request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "robotology/yarp",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "robotology/yarp",
+      "target": "Tag Repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "communication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "devices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "human-robot-interaction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "humanoids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "interprocess-communication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "robot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "robotics-libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/yarp",
+      "target": "yarp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:38:49.804251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6538
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 100908
+    },
+    {
+      "path": ".github/workflows/docker-build.yml",
+      "size": 1920
+    },
+    {
+      "path": ".github/workflows/nightly-merge.yml",
+      "size": 668
+    },
+    {
+      "path": ".github/workflows/pr-commands.yml",
+      "size": 1026
+    },
+    {
+      "path": ".github/workflows/python.yml",
+      "size": 4223
+    },
+    {
+      "path": ".github/workflows/sonarcloud.yml",
+      "size": 19026
+    },
+    {
+      "path": ".github/workflows/tag.yml",
+      "size": 24566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "YARP - Yet Another Robot Platform",
+    "fork": false,
+    "full_name": "robotology/yarp",
+    "html_url": "https://github.com/robotology/yarp",
+    "language": "C++",
+    "pushed_at": "2026-04-25T20:19:57Z",
+    "stargazers_count": 590,
+    "topics": [
+      "artificial-intelligence",
+      "communication",
+      "devices",
+      "human-robot-interaction",
+      "humanoids",
+      "interprocess-communication",
+      "ipc",
+      "middleware",
+      "network",
+      "research",
+      "robot",
+      "robotics",
+      "robotics-libraries",
+      "yarp"
+    ],
+    "updated_at": "2026-05-02T17:55:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docgroup/ace_tao",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotology/ycm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI Workflow"
+    },
+    {
+      "context_snippet": "Docker build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "term": "Docker build"
+    },
+    {
+      "context_snippet": "'Nightly Merge'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-merge.yml",
+      "term": "Nightly Merge"
+    },
+    {
+      "context_snippet": "'Handle commands in PR comments'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-commands.yml",
+      "term": "Handle commands in PR comments"
+    },
+    {
+      "context_snippet": "Sonarcloud on request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonarcloud.yml",
+      "term": "Sonarcloud on request"
+    },
+    {
+      "context_snippet": "'Tag Repository'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "term": "Tag Repository"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "communication"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devices"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-robot-interaction"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "humanoids"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interprocess-communication"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robot"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics-libraries"
+    },
+    {
+      "context_snippet": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yarp"
+    }
+  ]
+}

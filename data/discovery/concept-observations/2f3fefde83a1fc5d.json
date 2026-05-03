@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4f7f\u7528 pinyin-data \u548c phrase-pinyin-data \u4e2d\u7684\u62fc\u97f3\u6570\u636e\u6587\u4ef6\u8986\u76d6 pypinyin \u4e2d\u7684\u5185\u7f6e\u62fc\u97f3\u6570\u636e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u4f7f\u7528 [pinyin-data](https://github.com/mozillazg/pinyin-data) \u548c [phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data) \u4e2d\u7684\u62fc\u97f3\u6570\u636e\u6587\u4ef6\u8986\u76d6 [pypinyin](https://github.com/mozillazg/python-pinyin) \u4e2d\u7684\u5185\u7f6e\u62fc\u97f3\u6570\u636e\uff0c"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u4f7f\u7528 [pinyin-data](https://github.com/mozillazg/pinyin-data) \u548c [phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data) \u4e2d\u7684\u62fc\u97f3\u6570\u636e\u6587\u4ef6\u8986\u76d6 [pypinyin](https://github.com/mozillazg/python-pinyin) \u4e2d\u7684\u5185\u7f6e\u62fc\u97f3\u6570\u636e\uff0c"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pypinyin",
+      "sense_id": "pypinyin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pypinyin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pypinyin",
+  "observation_id": "2f3fefde83a1fc5d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "pypinyin",
+  "source_context_snippet": "\u4f7f\u7528 [pinyin-data](https://github.com/mozillazg/pinyin-data) \u548c [phrase-pinyin-data](https://github.com/mozillazg/phrase-pinyin-data) \u4e2d\u7684\u62fc\u97f3\u6570\u636e\u6587\u4ef6\u8986\u76d6 [pypinyin](https://github.com/mozillazg/python-pinyin) \u4e2d\u7684\u5185\u7f6e\u62fc\u97f3\u6570\u636e\uff0c",
+  "source_file": null,
+  "source_repo": "mozillazg/pypinyin-dict",
+  "source_repo_description": "\u4f7f\u7528 pinyin-data \u548c phrase-pinyin-data \u4e2d\u7684\u62fc\u97f3\u6570\u636e\u6587\u4ef6\u8986\u76d6 pypinyin \u4e2d\u7684\u5185\u7f6e\u62fc\u97f3\u6570\u636e"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1\ufe0f This is a library that can easily help you manage request states, supporting common features such as SWR, polling, error retry, caching, and pagination, etc. \u26a1\ufe0f \u8fd9\u662f\u4e00\u4e2a\u80fd\u591f\u8f7b\u677e\u5e2e\u52a9\u4f60\u7ba1\u7406\u8bf7\u6c42\u72b6\u6001\u7684\u5e93\uff0c\u652f\u6301 SWR\u3001\u8f6e\u8be2\u3001\u9519\u8bef\u91cd\u8bd5\u3001\u7f13\u5b58\u3001\u5206\u9875\u7b49\u5e38\u7528\u529f\u80fd\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lock Issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lock Issue"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11675,
+      "status": "candidate",
+      "text": "argue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11675,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11675,
+      "status": "candidate",
+      "text": "front"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11675,
+      "status": "candidate",
+      "text": "gun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11675,
+      "status": "candidate",
+      "text": "hair"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock Issue",
+      "sense_id": "lock-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lock-issue",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lock-issue",
+  "observation_id": "b231443eed0eeb73",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Lock Issue",
+  "source_context_snippet": "Lock Issue",
+  "source_file": ".github/workflows/issue-lock.yml",
+  "source_repo": "AttoJS/vue-request",
+  "source_repo_description": "\u26a1\ufe0f This is a library that can easily help you manage request states, supporting common features such as SWR, polling, error retry, caching, and pagination, etc. \u26a1\ufe0f \u8fd9\u662f\u4e00\u4e2a\u80fd\u591f\u8f7b\u677e\u5e2e\u52a9\u4f60\u7ba1\u7406\u8bf7\u6c42\u72b6\u6001\u7684\u5e93\uff0c\u652f\u6301 SWR\u3001\u8f6e\u8be2\u3001\u9519\u8bef\u91cd\u8bd5\u3001\u7f13\u5b58\u3001\u5206\u9875\u7b49\u5e38\u7528\u529f\u80fd\u3002"
+}

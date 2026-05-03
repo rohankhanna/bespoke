@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/glogi",
+      "target": "lambdaisland/open-source",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:48:33.966857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A ClojureScript logging library based on goog.log",
+    "fork": false,
+    "full_name": "lambdaisland/glogi",
+    "html_url": "https://github.com/lambdaisland/glogi",
+    "language": "Clojure",
+    "pushed_at": "2024-11-29T09:45:24Z",
+    "stargazers_count": 126,
+    "topics": [],
+    "updated_at": "2026-04-23T13:40:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/open-source",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

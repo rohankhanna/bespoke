@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "libdatachannel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "status": "candidate-context",
+      "text": "C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "status": "candidate-context",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "murat-dogan/node-datachannel",
+      "status": "candidate-context",
+      "text": "WebRTC For Node.js and Electron (including WebSocket Client & Server). libdatachannel node bindings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "murat-dogan/node-datachannel",
+      "status": "candidate-context",
+      "text": "![Linux CI Build](https://github.com/murat-dogan/node-datachannel/workflows/Build%20-%20Linux/badge.svg) ![Windows CI Build](https://github.com/murat-dogan/node-datachannel/workflows/Build%20-%20Win/badge.svg) ![Mac x64 CI Build](https://github.com/murat-dogan/node-datachannel/w\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "status": "candidate",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "murat-dogan/node-datachannel",
+      "status": "candidate",
+      "text": "![Linux CI Build](https://github.com/murat-dogan/node-datachannel/workflows/Build%20-%20Linux/badge.svg) ![Windows CI Build](https://github.com/murat-dogan/node-datachannel/workflows/Build%20-%20Win/badge.svg) ![Mac x64 CI Build](https://github.com/murat-dogan/node-datachannel/w\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "libdatachannel",
+  "concept_id": "libdatachannel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "murat-dogan/node-datachannel"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "libdatachannel",
+      "sense_id": "libdatachannel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

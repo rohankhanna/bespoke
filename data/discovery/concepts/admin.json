@@ -93,6 +93,30 @@
       "source_repo": "PanJiaChen/electron-vue-admin",
       "status": "candidate-context",
       "text": "> An electron-vue project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Armour/vue-typescript-admin-docs",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdd The documentation source for vue-typescript-admin-template project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Armour/vue-typescript-admin-docs",
+      "status": "candidate-context",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Armour/vue-typescript-admin-mock-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udda5 Mock server for vue-typecript-admin-template project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Armour/vue-typescript-admin-mock-server",
+      "status": "candidate-context",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +161,18 @@
       "source_repo": "PanJiaChen/electron-vue-admin",
       "status": "candidate",
       "text": "> An electron-vue project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Armour/vue-typescript-admin-docs",
+      "status": "candidate",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Armour/vue-typescript-admin-mock-server",
+      "status": "candidate",
+      "text": "[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)"
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +258,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "PanJiaChen/electron-vue-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Armour/vue-typescript-admin-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Armour/vue-typescript-admin-mock-server"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

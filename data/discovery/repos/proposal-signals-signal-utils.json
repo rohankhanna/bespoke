@@ -158,21 +158,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
-      "target": "nullvoxpopuli/ember-deep-tracked",
+      "target": "solidjs/solid",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
-      "target": "luisherranz/deepsignal",
+      "target": "tracked-tools/ember-async-data",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "proposal-signals/signal-utils",
-      "target": "chriskrycho/tracked-draft",
+      "target": "robbiespeed/metron",
       "target_type": "repository"
     },
     {
@@ -365,7 +365,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:02:50.388608+00:00",
+  "fetched_at": "2026-05-03T16:40:07.981247+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -405,22 +405,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "chriskrycho/tracked-draft",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "luisherranz/deepsignal",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nullvoxpopuli/ember-deep-tracked",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "proposal-signals/proposal-signals",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robbiespeed/metron",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "solidjs/solid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tracked-tools/ember-async-data",
       "source_file": "README.md"
     }
   ],

@@ -79,6 +79,18 @@
       "source_repo": "google/safe-mmio",
       "status": "candidate-context",
       "text": "[![crates.io page](https://img.shields.io/crates/v/safe-mmio.svg)](https://crates.io/crates/safe-mmio)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spyoungtech/json-five-rs",
+      "status": "candidate-context",
+      "text": "JSON5 in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyoungtech/json-five-rs",
+      "status": "candidate-context",
+      "text": "This project provides a handwritten JSON5 tokenizer and recursive descent parser compatible with `serde`."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "google/safe-mmio",
       "status": "candidate",
       "text": "[![crates.io page](https://img.shields.io/crates/v/safe-mmio.svg)](https://crates.io/crates/safe-mmio)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyoungtech/json-five-rs",
+      "status": "candidate",
+      "text": "This project provides a handwritten JSON5 tokenizer and recursive descent parser compatible with `serde`."
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +184,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "google/safe-mmio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "spyoungtech/json-five-rs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

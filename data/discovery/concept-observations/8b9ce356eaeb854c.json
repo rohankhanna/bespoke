@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository is for active development of the Microsoft 365 Agent SDK components for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pull Request Build and Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pull Request Build and Validation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33506,
+      "status": "candidate",
+      "text": "invoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32556,
+      "status": "candidate",
+      "text": "a posteriori"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31807,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31754,
+      "status": "candidate",
+      "text": "addititious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31658,
+      "status": "candidate",
+      "text": "pass"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Build and Validation",
+      "sense_id": "pull-request-build-and-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-request-build-and-validation",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-request-build-and-validation",
+  "observation_id": "8b9ce356eaeb854c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Pull Request Build and Validation",
+  "source_context_snippet": "Pull Request Build and Validation",
+  "source_file": ".github/workflows/pr.yml",
+  "source_repo": "microsoft/Agents-for-net",
+  "source_repo_description": "This repository is for active development of the Microsoft 365 Agent SDK components for .NET"
+}

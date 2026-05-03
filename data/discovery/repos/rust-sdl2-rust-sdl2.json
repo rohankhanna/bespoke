@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rust-SDL2/rust-sdl2",
+      "target": "limvot/rust-sdl2_net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rust-SDL2/rust-sdl2",
+      "target": "bjz/gl-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rust-SDL2/rust-sdl2",
+      "target": "brson/rust-sdl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Rust-SDL2/rust-sdl2",
+      "target": "pistondevelopers/rust-empty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "Rust-SDL2/rust-sdl2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml",
+      "source_repo": "Rust-SDL2/rust-sdl2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml",
+      "source_repo": "Rust-SDL2/rust-sdl2",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml",
+      "source_repo": "Rust-SDL2/rust-sdl2",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fmt.yml",
+      "source_repo": "Rust-SDL2/rust-sdl2",
+      "target": "fmt check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:35:20.945410+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28679
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3403
+    },
+    {
+      "path": ".github/workflows/CI.yml",
+      "size": 2709
+    },
+    {
+      "path": ".github/workflows/fmt.yml",
+      "size": 409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SDL2 bindings for Rust",
+    "fork": false,
+    "full_name": "Rust-SDL2/rust-sdl2",
+    "html_url": "https://github.com/Rust-SDL2/rust-sdl2",
+    "language": "Rust",
+    "pushed_at": "2026-03-22T12:28:05Z",
+    "stargazers_count": 2939,
+    "topics": [],
+    "updated_at": "2026-05-03T08:21:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bjz/gl-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brson/rust-sdl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "limvot/rust-sdl2_net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pistondevelopers/rust-empty",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "fmt check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fmt.yml",
+      "term": "fmt check"
+    }
+  ]
+}

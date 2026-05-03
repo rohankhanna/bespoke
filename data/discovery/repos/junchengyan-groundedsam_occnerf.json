@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JunchengYan/GroundedSAM_OccNeRF",
+      "target": "linshan-bin/occnerf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:50.456995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4463
+    },
+    {
+      "path": "requirements.txt",
+      "size": 215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "JunchengYan/GroundedSAM_OccNeRF",
+    "html_url": "https://github.com/JunchengYan/GroundedSAM_OccNeRF",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-12-15T02:14:12Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2026-01-31T07:21:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linshan-bin/occnerf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

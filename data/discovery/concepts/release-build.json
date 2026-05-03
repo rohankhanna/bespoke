@@ -104,6 +104,18 @@
       "source_repo": "LunarG/gfxreconstruct",
       "status": "candidate-context",
       "text": "Release Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid",
+      "status": "candidate-context",
+      "text": "NekoBox for Android / sing-box / universal proxy toolchain for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid",
+      "status": "candidate-context",
+      "text": "Release Build"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +164,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "LunarG/gfxreconstruct",
+      "status": "candidate",
+      "text": "Release Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid",
       "status": "candidate",
       "text": "Release Build"
     }
@@ -323,11 +341,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/release-build.yaml",
       "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

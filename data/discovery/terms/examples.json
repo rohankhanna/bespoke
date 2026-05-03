@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -276,6 +276,61 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/examples.yml",
       "source_repo": "stdlib-js/ndarray-ctor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/math-base-special-erfcx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/array-complex128"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/array-complex64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/array-float32"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/array-float64"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/array-buffer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/ndarray-dtypes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/ndarray-fancy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/ndarray-index-modes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "stdlib-js/ndarray-orders"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "redisson/redisson-examples"
     }
   ],
   "term": "examples"

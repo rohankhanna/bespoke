@@ -19,6 +19,30 @@
       "source_repo": "borkdude/jet",
       "status": "candidate-context",
       "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate-context",
+      "text": "Canonical common brand names, operators, transit, and flags for OpenStreetMap."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate-context",
+      "text": "Clojure library for fast http api format negotiation, encoding and decoding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "borkdude/jet",
       "status": "candidate",
       "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "borkdude/jet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "osmlab/name-suggestion-index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

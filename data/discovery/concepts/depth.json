@@ -55,6 +55,18 @@
       "source_repo": "autonomousvision/unimatch",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "status": "candidate-context",
+      "text": "Pytorch version of SfmLearner from Tinghui Zhou et al."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "status": "candidate-context",
+      "text": "This codebase implements the system described in the paper:"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "autonomousvision/unimatch",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "status": "candidate",
+      "text": "This codebase implements the system described in the paper:"
     }
   ],
   "candidate_related_terms": [
@@ -182,11 +200,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "autonomousvision/unimatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "yfeng95/DECA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ClementPinard/SfmLearner-Pytorch"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

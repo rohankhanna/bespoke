@@ -1,7 +1,7 @@
 {
   "component": "JamesIves/github-pages-deploy-action@releases/v4",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/godot-ci.yml",
       "source_repo": "abarichello/godot-ci"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/web_builds.yml",
+      "source_repo": "2shady4u/godot-cpp-ci"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-preview.yml",
+      "source_repo": "JuliaLang/www.julialang.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "JuliaLang/www.julialang.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Deploy.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Preview.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io"
     }
   ]
 }

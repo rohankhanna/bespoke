@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    },
+    {
+      "component": "13rac1/block-fixup-merge-action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    },
+    {
+      "component": "leafo/gh-actions-lua@v8.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    },
+    {
+      "component": "leafo/gh-actions-luarocks@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "lukas-reineke/onedark.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "JohnnyMorganz/stylua-action@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "13rac1/block-fixup-merge-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "leafo/gh-actions-lua@v8.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "leafo/gh-actions-luarocks@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_check.yml",
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "Pull request check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "neorg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "orgmode-nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lukas-reineke/headlines.nvim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:42:53.326894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8580
+    },
+    {
+      "path": ".github/workflows/pr_check.yml",
+      "size": 818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This plugin adds horizontal highlights for text filetypes, like markdown, orgmode, and neorg.",
+    "fork": false,
+    "full_name": "lukas-reineke/headlines.nvim",
+    "html_url": "https://github.com/lukas-reineke/headlines.nvim",
+    "language": "Lua",
+    "pushed_at": "2024-09-13T02:07:42Z",
+    "stargazers_count": 767,
+    "topics": [
+      "lua",
+      "markdown",
+      "neorg",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "orgmode-nvim",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-05-03T09:02:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukas-reineke/onedark.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pull request check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_check.yml",
+      "term": "Pull request check"
+    },
+    {
+      "context_snippet": "This plugin adds highlights for text filetypes, like `markdown`, `orgmode`, and `neorg`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "This plugin adds highlights for text filetypes, like `markdown`, `orgmode`, and `neorg`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neorg"
+    },
+    {
+      "context_snippet": "This plugin adds highlights for text filetypes, like `markdown`, `orgmode`, and `neorg`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "This plugin adds highlights for text filetypes, like `markdown`, `orgmode`, and `neorg`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "This plugin adds highlights for text filetypes, like `markdown`, `orgmode`, and `neorg`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "This plugin adds highlights for text filetypes, like `markdown`, `orgmode`, and `neorg`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orgmode-nvim"
+    },
+    {
+      "context_snippet": "This plugin adds highlights for text filetypes, like `markdown`, `orgmode`, and `neorg`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

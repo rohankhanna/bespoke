@@ -19,6 +19,18 @@
       "source_repo": "chaoss/grimoirelab-perceval",
       "status": "candidate-context",
       "text": "Send Sir Perceval on a quest to retrieve and gather data from software"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/swr",
+      "status": "candidate-context",
+      "text": "React Hooks for Data Fetching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/swr",
+      "status": "candidate-context",
+      "text": "[![SWR](https://assets.vercel.com/image/upload/v1572289618/swr/banner.png)](https://swr.vercel.app)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "chaoss/grimoirelab-perceval",
       "status": "candidate",
       "text": "Send Sir Perceval on a quest to retrieve and gather data from software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/swr",
+      "status": "candidate",
+      "text": "[![SWR](https://assets.vercel.com/image/upload/v1572289618/swr/banner.png)](https://swr.vercel.app)"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "chaoss/grimoirelab-perceval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vercel/swr"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

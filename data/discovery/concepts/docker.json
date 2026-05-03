@@ -3454,6 +3454,42 @@
       "source_repo": "emissary-ingress/emissary",
       "status": "candidate-context",
       "text": "Emissary-ingress"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moby/datakit",
+      "status": "candidate-context",
+      "text": "Connect processes into powerful data pipelines with a simple git-like filesystem interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/datakit",
+      "status": "candidate-context",
+      "text": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2shady4u/godot-cpp-ci",
+      "status": "candidate-context",
+      "text": "Docker image and Github Actions to automatically compile Godot C++ GDNative libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-cpp-ci",
+      "status": "candidate-context",
+      "text": "Docker image and Github Actions to automatically compile Godot C++ GDExtension libraries."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/dockertest",
+      "status": "candidate-context",
+      "text": "Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/dockertest",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"><img src=\"./docs/images/banner_dockertest.png\" alt=\"ORY Dockertest\"></h1>"
     }
   ],
   "candidate_glosses": [
@@ -5190,6 +5226,24 @@
       "source_repo": "emissary-ingress/emissary",
       "status": "candidate",
       "text": "Emissary-ingress"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/datakit",
+      "status": "candidate",
+      "text": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2shady4u/godot-cpp-ci",
+      "status": "candidate",
+      "text": "Docker image and Github Actions to automatically compile Godot C++ GDExtension libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/dockertest",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"./docs/images/banner_dockertest.png\" alt=\"ORY Dockertest\"></h1>"
     }
   ],
   "candidate_related_terms": [
@@ -8317,11 +8371,143 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "emissary-ingress/emissary"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bjartnes/hikke"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "moby/datakit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "2shady4u/godot-cpp-ci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ory/dockertest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "intentee/paddler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

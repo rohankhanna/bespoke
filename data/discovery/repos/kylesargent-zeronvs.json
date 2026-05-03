@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:37:23.013641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kylesargent/ZeroNVS",
+    "html_url": "https://github.com/kylesargent/ZeroNVS",
+    "language": "Python",
+    "pushed_at": "2023-11-29T23:26:02Z",
+    "stargazers_count": 532,
+    "topics": [],
+    "updated_at": "2026-04-26T20:07:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

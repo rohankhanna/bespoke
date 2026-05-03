@@ -19,6 +19,18 @@
       "source_repo": "Deep-Symmetry/afterglow",
       "status": "candidate-context",
       "text": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/318697-afterglow)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate-context",
+      "text": "The Open Lighting Architecture - The Travel Adaptor for the Lighting Industry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate-context",
+      "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Deep-Symmetry/afterglow",
       "status": "candidate",
       "text": "[![project chat](https://img.shields.io/badge/chat-on%20zulip-brightgreen)](https://deep-symmetry.zulipchat.com/#narrow/stream/318697-afterglow)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate",
+      "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +147,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "Deep-Symmetry/afterglow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/afterglow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "OpenLightingProject/ola"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

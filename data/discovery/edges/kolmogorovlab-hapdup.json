@@ -11,14 +11,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "KolmogorovLab/hapdup",
-      "target": "chanzuckerberg/shasta",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "KolmogorovLab/hapdup",
-      "target": "dfguan/purge_dups",
+      "target": "kolmogorovlab/hapdiff",
       "target_type": "repository"
     },
     {
@@ -27,8 +20,15 @@
       "source_repo": "KolmogorovLab/hapdup",
       "target": "fenderglass/hapdup",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KolmogorovLab/hapdup",
+      "target": "kishwarshafin/pepper",
+      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-05-03T06:58:35.245846+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "KolmogorovLab/hapdup"
 }

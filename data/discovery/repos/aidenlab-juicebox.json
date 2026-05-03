@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aidenlab/Juicebox",
+      "target": "aidenlab/juiceboxgui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aidenlab/Juicebox",
+      "target": "aidenlab/hictools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aidenlab/Juicebox",
+      "target": "aidenlab/juicertools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aidenlab/Juicebox",
+      "target": "aidenlab/java-straw",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:45:18.511002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Visualization and analysis software for Hi-C data - ",
+    "fork": false,
+    "full_name": "aidenlab/Juicebox",
+    "html_url": "https://github.com/aidenlab/Juicebox",
+    "language": "Java",
+    "pushed_at": "2024-08-06T15:21:20Z",
+    "stargazers_count": 294,
+    "topics": [],
+    "updated_at": "2026-04-30T22:50:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aidenlab/hictools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aidenlab/java-straw",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aidenlab/juiceboxgui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aidenlab/juicertools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

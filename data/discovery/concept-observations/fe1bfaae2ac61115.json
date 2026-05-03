@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++ library designed to provide an abstraction for different rendering engines. It offers unified APIs for creating 3D graphics applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-graphics",
+      "sense_id": "3d-graphics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-graphics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-graphics",
+  "observation_id": "fe1bfaae2ac61115",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "3d-graphics",
+  "source_context_snippet": "**Maintainer:** ichen [AT] openrobotics [DOT] org",
+  "source_file": null,
+  "source_repo": "gazebosim/gz-rendering",
+  "source_repo_description": "C++ library designed to provide an abstraction for different rendering engines. It offers unified APIs for creating 3D graphics applications."
+}

@@ -1,0 +1,575 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-boundary-check.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.pantry.tgz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.pantry.tgz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "tsickert/discord-webhook@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "technote-space/get-diff-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pkgxdev/brewkit/build@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pkgxdev/brewkit/audit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pkgxdev/brewkit/test@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-cool/issues-helper@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/librarian.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/brewkit/build@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.13.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/brewkit/audit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/brewkit/upload-build-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/brewkit/download-build-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/brewkit/test@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/brewkit/download-build-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/brewkit/bottle@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.yml"
+    },
+    {
+      "component": "pkgxdev/brewkit/id@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/brewkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/pkgm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/pkgx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "agent-boundary-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.pantry.tgz.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.pantry.tgz.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "technote-space/get-diff-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "tsickert/discord-webhook@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-squared.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "ci\u00b2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/setup@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "technote-space/get-diff-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/brewkit/build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/brewkit/audit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/brewkit/test@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/librarian.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "actions-cool/issues-helper@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/librarian.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "library bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new-version.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "build pkg version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/setup@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/brewkit/build@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "styfle/cancel-workflow-action@0.13.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/brewkit/audit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/brewkit/upload-build-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/brewkit/download-build-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/brewkit/test@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/brewkit/bottle@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkg for platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/setup@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkg.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkgxdev/brewkit/id@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg.yml",
+      "source_repo": "pkgxdev/pantry",
+      "target": "pkg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkgxdev/pantry",
+      "target": "package-manifests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:38:45.252530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4191
+    },
+    {
+      "path": ".github/workflows/agent-boundary-check.yml",
+      "size": 1504
+    },
+    {
+      "path": ".github/workflows/cd.pantry.tgz.yml",
+      "size": 1313
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 1919
+    },
+    {
+      "path": ".github/workflows/ci-squared.yml",
+      "size": 592
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2756
+    },
+    {
+      "path": ".github/workflows/librarian.yml",
+      "size": 973
+    },
+    {
+      "path": ".github/workflows/new-version.yml",
+      "size": 1101
+    },
+    {
+      "path": ".github/workflows/pkg-platform.yml",
+      "size": 10447
+    },
+    {
+      "path": ".github/workflows/pkg.yml",
+      "size": 1505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "pkg manifests",
+    "fork": false,
+    "full_name": "pkgxdev/pantry",
+    "html_url": "https://github.com/pkgxdev/pantry",
+    "language": "C",
+    "pushed_at": "2026-05-02T00:39:33Z",
+    "stargazers_count": 188,
+    "topics": [
+      "package-manifests"
+    ],
+    "updated_at": "2026-05-02T00:39:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkgxdev/brewkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkgxdev/dev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkgxdev/pkgm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkgxdev/pkgx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"agent-boundary-check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "term": "agent-boundary-check"
+    },
+    {
+      "context_snippet": "ci\u00b2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-squared.yml",
+      "term": "ci\u00b2"
+    },
+    {
+      "context_snippet": "library bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/librarian.yml",
+      "term": "library bot"
+    },
+    {
+      "context_snippet": "build pkg version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new-version.yml",
+      "term": "build pkg version"
+    },
+    {
+      "context_snippet": "pkg for platform",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg-platform.yml",
+      "term": "pkg for platform"
+    },
+    {
+      "context_snippet": "pkg",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkg.yml",
+      "term": "pkg"
+    },
+    {
+      "context_snippet": "![pkgx](https://pkgx.dev/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manifests"
+    }
+  ]
+}

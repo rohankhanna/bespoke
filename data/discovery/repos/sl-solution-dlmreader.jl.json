@@ -1,0 +1,353 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-runtest@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-processcoverage@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-buildpkg@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "julia-actions/julia-docdeploy@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "sl-solution/inmemorydatasets.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "CompatHelper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "julia-actions/setup-julia@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "julia-actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "julia-actions/julia-buildpkg@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "julia-actions/julia-runtest@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "julia-actions/julia-processcoverage@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "julia-actions/julia-buildpkg@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "julia-actions/julia-docdeploy@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "csv-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "csv-import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "csv-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "dataframes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "delimited-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "delimiter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "informat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl",
+      "target": "threaded",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:42:20.331008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6841
+    },
+    {
+      "path": ".github/workflows/CompatHelper.yml",
+      "size": 457
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1854
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-performance delimited-file reader and writer for Julia",
+    "fork": false,
+    "full_name": "sl-solution/DLMReader.jl",
+    "html_url": "https://github.com/sl-solution/DLMReader.jl",
+    "language": "Julia",
+    "pushed_at": "2025-10-15T04:59:00Z",
+    "stargazers_count": 31,
+    "topics": [
+      "csv",
+      "csv-files",
+      "csv-import",
+      "csv-parser",
+      "dataframes",
+      "dataset",
+      "delimited-files",
+      "delimiter",
+      "fwf",
+      "high-performance",
+      "informat",
+      "julia",
+      "julia-language",
+      "threaded"
+    ],
+    "updated_at": "2026-05-03T11:26:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sl-solution/inmemorydatasets.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CompatHelper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "term": "CompatHelper"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csv-files"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csv-import"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csv-parser"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataframes"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delimited-files"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delimiter"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "informat"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-language"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "threaded"
+    }
+  ]
+}

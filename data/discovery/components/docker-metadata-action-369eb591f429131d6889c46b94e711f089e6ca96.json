@@ -1,0 +1,12 @@
+{
+  "component": "docker/metadata-action@369eb591f429131d6889c46b94e711f089e6ca96",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "github/pages-gem"
+    }
+  ]
+}

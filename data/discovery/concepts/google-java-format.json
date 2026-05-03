@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "google-java-format"
+    "google-java-format",
+    "Google java format"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "Cosium/git-code-format-maven-plugin",
       "status": "candidate-context",
       "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allegro/hermes",
+      "status": "candidate-context",
+      "text": "Fast and reliable message broker built on top of Kafka."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allegro/hermes",
+      "status": "candidate-context",
+      "text": "Google java format"
     }
   ],
   "candidate_glosses": [
@@ -45,9 +60,51 @@
       "source_repo": "Cosium/git-code-format-maven-plugin",
       "status": "candidate",
       "text": "[![Maven Central Latest](https://img.shields.io/maven-central/v/com.cosium.code/git-code-format-maven-plugin.svg)](https://central.sonatype.com/artifact/com.cosium.code/git-code-format-maven-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allegro/hermes",
+      "status": "candidate",
+      "text": "Google java format"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17861,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17861,
+      "status": "candidate",
+      "text": "earth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17861,
+      "status": "candidate",
+      "text": "road"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17823,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17810,
+      "status": "candidate",
+      "text": "arid"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "google-java-format",
   "concept_id": "google-java-format",
@@ -64,11 +121,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Cosium/git-code-format-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/google-java-format.yml",
+      "source_repo": "allegro/hermes"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "aiohttp"
+    "aiohttp",
+    "Aiohttp"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -67,6 +70,18 @@
       "source_repo": "aio-libs/pytest-aiohttp",
       "status": "candidate-context",
       "text": "pytest-aiohttp"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/llhttp",
+      "status": "candidate-context",
+      "text": "Port of http_parser to llparse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/llhttp",
+      "status": "candidate-context",
+      "text": "Aiohttp"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +114,12 @@
       "source_repo": "aio-libs/pytest-aiohttp",
       "status": "candidate",
       "text": "pytest-aiohttp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/llhttp",
+      "status": "candidate",
+      "text": "Aiohttp"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +157,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "aio-libs/pytest-aiohttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/aiohttp.yml",
+      "source_repo": "nodejs/llhttp"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

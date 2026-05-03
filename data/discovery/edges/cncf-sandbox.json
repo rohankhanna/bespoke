@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contribution-agreement-label-commands.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "peter-evans/slash-command-dispatch@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contribution-agreement-label-commands.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contribution-agreement-label-commands.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "Contribution Agreement Label Commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contribution-agreement-signed-onboarding.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contribution-agreement-signed-onboarding.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onboarding-monitor.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onboarding-monitor.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onboarding-monitor.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onboarding-monitor.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "sandbox-onboarding-timeline-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vote-monitor.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vote-monitor.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vote-monitor.yml",
+      "source_repo": "cncf/sandbox",
+      "target": "Vote Monitor and Onboarding Automation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "cncf/sandbox"
+}

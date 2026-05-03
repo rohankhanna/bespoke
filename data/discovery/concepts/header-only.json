@@ -319,6 +319,30 @@
       "source_repo": "zeromq/cppzmq",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tessil/hopscotch-map",
+      "status": "candidate-context",
+      "text": "C++ implementation of a fast hash map and hash set using hopscotch hashing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tessil/hopscotch-map",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate-context",
+      "text": "Flatbush for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate-context",
+      "text": "[![Format](https://github.com/chusitoo/flatbush/actions/workflows/format.yml/badge.svg)](https://github.com/chusitoo/flatbush/actions/workflows/format.yml)"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +501,18 @@
       "source_repo": "zeromq/cppzmq",
       "status": "candidate",
       "text": "[![CI](https://github.com/zeromq/cppzmq/actions/workflows/ci.yml/badge.svg)](https://github.com/zeromq/cppzmq/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tessil/hopscotch-map",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate",
+      "text": "[![Format](https://github.com/chusitoo/flatbush/actions/workflows/format.yml/badge.svg)](https://github.com/chusitoo/flatbush/actions/workflows/format.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -718,11 +754,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "zeromq/cppzmq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Tessil/hopscotch-map"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "chusitoo/flatbush"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

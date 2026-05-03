@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moby/hyperkit",
+      "target": "mist64/xhyve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moby/hyperkit",
+      "target": "moby/vpnkit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:12.124943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3921
+    },
+    {
+      "path": "go.mod",
+      "size": 178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A toolkit for embedding hypervisor capabilities in your application",
+    "fork": false,
+    "full_name": "moby/hyperkit",
+    "html_url": "https://github.com/moby/hyperkit",
+    "language": "C",
+    "pushed_at": "2023-04-28T01:30:42Z",
+    "stargazers_count": 3731,
+    "topics": [],
+    "updated_at": "2026-05-02T10:00:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mist64/xhyve",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moby/vpnkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

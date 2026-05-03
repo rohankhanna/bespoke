@@ -19,6 +19,18 @@
       "source_repo": "JuliaData/IndexedTables.jl",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliadata.github.io/JuliaDB.jl/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/JuliaDB.jl",
+      "status": "candidate-context",
+      "text": "Parallel analytical database in pure Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/JuliaDB.jl",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"http://juliadb.org\" target=\"_blank\"><img width=\"128\" src=\"https://user-images.githubusercontent.com/25916/36773410-843e61b0-1c7f-11e8-818b-3edb08da8f41.png\" alt=\"JuliaDB logo\"></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JuliaData/IndexedTables.jl",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://juliadata.github.io/JuliaDB.jl/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/JuliaDB.jl",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"http://juliadb.org\" target=\"_blank\"><img width=\"128\" src=\"https://user-images.githubusercontent.com/25916/36773410-843e61b0-1c7f-11e8-818b-3edb08da8f41.png\" alt=\"JuliaDB logo\"></a></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "JuliaData/IndexedTables.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaData/JuliaDB.jl"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

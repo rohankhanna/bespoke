@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LZ4 compression for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jni-bindings",
+      "sense_id": "jni-bindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jni-bindings",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jni-bindings",
+  "observation_id": "5f437653fe6a40a0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "jni-bindings",
+  "source_context_snippet": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026",
+  "source_file": null,
+  "source_repo": "lz4/lz4-java",
+  "source_repo_description": "LZ4 compression for Java"
+}

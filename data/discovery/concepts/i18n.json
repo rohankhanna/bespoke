@@ -351,6 +351,54 @@
       "source_repo": "fnando/i18n",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluent-vue/fluent-vue",
+      "status": "candidate-context",
+      "text": "Internationalization plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/fluent-vue",
+      "status": "candidate-context",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluent-vue/unplugin-fluent-vue",
+      "status": "candidate-context",
+      "text": "unplugin for fluent-vue. Adds support for custom blocks in Vue SFC and external ftl files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/unplugin-fluent-vue",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "JavaScript implementation of Project Fluent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby-i18n/i18n",
+      "status": "candidate-context",
+      "text": "Internationalization (i18n) library for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-i18n/i18n",
+      "status": "candidate-context",
+      "text": "[![Gem Version](https://badge.fury.io/rb/i18n.svg)](https://badge.fury.io/rb/i18n)"
     }
   ],
   "candidate_glosses": [
@@ -527,6 +575,30 @@
       "source_repo": "fnando/i18n",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/fluent-vue",
+      "status": "candidate",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/unplugin-fluent-vue",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby-i18n/i18n",
+      "status": "candidate",
+      "text": "[![Gem Version](https://badge.fury.io/rb/i18n.svg)](https://badge.fury.io/rb/i18n)"
     }
   ],
   "candidate_related_terms": [
@@ -954,11 +1026,53 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "fnando/i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/unplugin-fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ruby-i18n/i18n"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

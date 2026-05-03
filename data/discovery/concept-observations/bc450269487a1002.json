@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\"><img src=\"./docs/images/banner_dockertest.png\" alt=\"ORY Dockertest\"></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"><img src=\"./docs/images/banner_dockertest.png\" alt=\"ORY Dockertest\"></h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "integration-testing",
+      "sense_id": "integration-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "integration-testing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "integration-testing",
+  "observation_id": "bc450269487a1002",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "integration-testing",
+  "source_context_snippet": "<h1 align=\"center\"><img src=\"./docs/images/banner_dockertest.png\" alt=\"ORY Dockertest\"></h1>",
+  "source_file": null,
+  "source_repo": "ory/dockertest",
+  "source_repo_description": "Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work."
+}

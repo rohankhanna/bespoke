@@ -19,6 +19,18 @@
       "source_repo": "DOI-USGS/ncdfgeom",
       "status": "candidate-context",
       "text": "NetCDF-CF Geometry and Timeseries Tools for R"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate-context",
+      "text": "Raster manipulation for the Julia language "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/src/assets/logo.png\" align=\"right\" width=\"30%\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "DOI-USGS/ncdfgeom",
       "status": "candidate",
       "text": "NetCDF-CF Geometry and Timeseries Tools for R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate",
+      "text": "<img src=\"docs/src/assets/logo.png\" align=\"right\" width=\"30%\"></img>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "DOI-USGS/ncdfgeom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rafaqz/Rasters.jl"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

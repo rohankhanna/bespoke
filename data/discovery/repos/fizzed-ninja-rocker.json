@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fizzed/ninja-rocker",
+      "target": "ninjaframework/ninja",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:42:04.140048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rocker templates + Ninja framework integration",
+    "fork": false,
+    "full_name": "fizzed/ninja-rocker",
+    "html_url": "https://github.com/fizzed/ninja-rocker",
+    "language": "Java",
+    "pushed_at": "2021-06-07T16:32:26Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-05-15T06:06:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ninjaframework/ninja",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

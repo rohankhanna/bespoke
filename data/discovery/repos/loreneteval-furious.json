@@ -1,0 +1,341 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "LorenEteval/setup-python-win7@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "LorenEteval/setup-pyside6-win7@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    },
+    {
+      "component": "vedantmgoyal9/winget-releaser@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LorenEteval/Furious",
+      "target": "xjasonlyu/tun2socks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml",
+      "source_repo": "LorenEteval/Furious",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml",
+      "source_repo": "LorenEteval/Furious",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml",
+      "source_repo": "LorenEteval/Furious",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml",
+      "source_repo": "LorenEteval/Furious",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml",
+      "source_repo": "LorenEteval/Furious",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml",
+      "source_repo": "LorenEteval/Furious",
+      "target": "LorenEteval/setup-python-win7@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml",
+      "source_repo": "LorenEteval/Furious",
+      "target": "LorenEteval/setup-pyside6-win7@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml",
+      "source_repo": "LorenEteval/Furious",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pypi.yml",
+      "source_repo": "LorenEteval/Furious",
+      "target": "vedantmgoyal9/winget-releaser@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pypi.yml",
+      "source_repo": "LorenEteval/Furious",
+      "target": "Github Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious",
+      "target": "hysteria",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious",
+      "target": "pyside6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious",
+      "target": "reality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious",
+      "target": "socks5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious",
+      "target": "v2ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious",
+      "target": "vless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious",
+      "target": "vmess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious",
+      "target": "xray-core",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:36:03.737260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3742
+    },
+    {
+      "path": "requirements.txt",
+      "size": 338
+    },
+    {
+      "path": ".github/workflows/deploy-pypi.yml",
+      "size": 10865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GUI proxy client based on PySide6. Support Xray-core & hysteria",
+    "fork": false,
+    "full_name": "LorenEteval/Furious",
+    "html_url": "https://github.com/LorenEteval/Furious",
+    "language": "Python",
+    "pushed_at": "2026-04-09T06:23:49Z",
+    "stargazers_count": 1395,
+    "topics": [
+      "cross-platform",
+      "gui",
+      "hysteria",
+      "proxy",
+      "pyside6",
+      "python",
+      "qt",
+      "reality",
+      "socks5",
+      "v2ray",
+      "vless",
+      "vmess",
+      "xray-core"
+    ],
+    "updated_at": "2026-05-03T03:43:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xjasonlyu/tun2socks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Github Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pypi.yml",
+      "term": "Github Deploy"
+    },
+    {
+      "context_snippet": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hysteria"
+    },
+    {
+      "context_snippet": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    },
+    {
+      "context_snippet": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyside6"
+    },
+    {
+      "context_snippet": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reality"
+    },
+    {
+      "context_snippet": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "socks5"
+    },
+    {
+      "context_snippet": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "v2ray"
+    },
+    {
+      "context_snippet": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vless"
+    },
+    {
+      "context_snippet": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vmess"
+    },
+    {
+      "context_snippet": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray-core"
+    }
+  ]
+}

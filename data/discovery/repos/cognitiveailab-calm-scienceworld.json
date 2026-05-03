@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:36:19.661888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6322
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1581
+    },
+    {
+      "path": "requirements.txt",
+      "size": 160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "cognitiveailab/calm-scienceworld",
+    "html_url": "https://github.com/cognitiveailab/calm-scienceworld",
+    "language": "Python",
+    "pushed_at": "2022-06-04T04:51:16Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-02-18T00:32:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

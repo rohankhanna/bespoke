@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LBG21/diffusion_policy",
+      "target": "tianxingchen/robotwin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:32:56.937984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 259
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "LBG21/diffusion_policy",
+    "html_url": "https://github.com/LBG21/diffusion_policy",
+    "language": "Python",
+    "pushed_at": "2024-12-17T15:03:15Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-05-03T16:20:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tianxingchen/robotwin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -43,6 +43,18 @@
       "source_repo": "mdn/translated-content",
       "status": "candidate-context",
       "text": ":tada: First of all, thanks for taking the time to contribute to [MDN Web Docs](https://developer.mozilla.org)' translated content! :tada:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "JavaScript implementation of Project Fluent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "mdn/translated-content",
       "status": "candidate",
       "text": ":tada: First of all, thanks for taking the time to contribute to [MDN Web Docs](https://developer.mozilla.org)' translated content! :tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mdn/translated-content"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent.js"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

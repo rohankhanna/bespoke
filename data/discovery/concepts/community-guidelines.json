@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "community-guidelines"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyberark/community",
+      "status": "candidate-context",
+      "text": "Information for the CyberArk contributor community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/community",
+      "status": "candidate-context",
+      "text": "Welcome to the CyberArk Community!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/community",
+      "status": "candidate",
+      "text": "Welcome to the CyberArk Community!"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "community-guidelines",
+  "concept_id": "community-guidelines",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cyberark/community"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "community-guidelines",
+      "sense_id": "community-guidelines#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

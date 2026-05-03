@@ -991,6 +991,54 @@
       "source_repo": "jherico/VulkanExamples",
       "status": "candidate-context",
       "text": "<img src=\"./documentation/images/vulkanlogoscene.png\" alt=\"Vulkan demo scene\" height=\"256px\"><img src=\"./documentation/images/c_0.jpg\" alt=\"C++\" height=\"256px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Overv/VulkanTutorial",
+      "status": "candidate-context",
+      "text": "Tutorial for the Vulkan graphics and compute API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Overv/VulkanTutorial",
+      "status": "candidate-context",
+      "text": "Vulkan tutorial"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kool-engine/kool",
+      "status": "candidate-context",
+      "text": "A Vulkan /  WebGPU / OpenGL engine for Desktop JVM, Android and Javascript written in Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kool-engine/kool",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kool-engine/kool/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Traverse-Research/gpu-allocator",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 GPU memory allocator for Vulkan, DirectX 12 and Metal. Written in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Traverse-Research/gpu-allocator",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://img.shields.io/github/actions/workflow/status/Traverse-Research/gpu-allocator/ci.yml?branch=main&logo=github)](https://github.com/Traverse-Research/gpu-allocator/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zeux/volk",
+      "status": "candidate-context",
+      "text": "Meta loader for Vulkan API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/volk",
+      "status": "candidate-context",
+      "text": "volk is a meta-loader for Vulkan. It allows you to dynamically load entrypoints required to use Vulkan"
     }
   ],
   "candidate_glosses": [
@@ -1485,6 +1533,30 @@
       "source_repo": "jherico/VulkanExamples",
       "status": "candidate",
       "text": "<img src=\"./documentation/images/vulkanlogoscene.png\" alt=\"Vulkan demo scene\" height=\"256px\"><img src=\"./documentation/images/c_0.jpg\" alt=\"C++\" height=\"256px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Overv/VulkanTutorial",
+      "status": "candidate",
+      "text": "Vulkan tutorial"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kool-engine/kool",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kool-engine/kool/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Traverse-Research/gpu-allocator",
+      "status": "candidate",
+      "text": "[![Actions Status](https://img.shields.io/github/actions/workflow/status/Traverse-Research/gpu-allocator/ci.yml?branch=main&logo=github)](https://github.com/Traverse-Research/gpu-allocator/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zeux/volk",
+      "status": "candidate",
+      "text": "volk is a meta-loader for Vulkan. It allows you to dynamically load entrypoints required to use Vulkan"
     }
   ],
   "candidate_related_terms": [
@@ -2089,11 +2161,59 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "jherico/VulkanExamples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/Silk.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cocos/cocos-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "attackgoat/vk-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ash-rs/ash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Overv/VulkanTutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kool-engine/kool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Traverse-Research/gpu-allocator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "zeux/volk"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

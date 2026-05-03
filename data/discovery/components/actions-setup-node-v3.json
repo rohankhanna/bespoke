@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2967,6 +2967,151 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/validating.yml",
       "source_repo": "apidoc/apidoc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-deployment.yml",
+      "source_repo": "microsoft/BotFramework-DirectLineJS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "microsoft/BotFramework-DirectLineJS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-validation.yml",
+      "source_repo": "microsoft/BotFramework-DirectLineJS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cloydlau/json-editor-vue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "testing-library/dom-testing-library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compressed-size.yml",
+      "source_repo": "luisherranz/deepsignal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "luisherranz/deepsignal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "luisherranz/deepsignal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/types.yml",
+      "source_repo": "luisherranz/deepsignal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "alpinejs/alpine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "firebase/quickstart-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "fzyzcjy/flutter_rust_bridge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "tsconfig/bases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/morjs-site.yml",
+      "source_repo": "eleme/morjs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npmpublish.yml",
+      "source_repo": "higlass/higlass"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-storybook.yml",
+      "source_repo": "4ian/GDevelop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/extract-translations.yml",
+      "source_repo": "4ian/GDevelop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml",
+      "source_repo": "4ian/GDevelop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "PhoenixIllusion/babylonjs-jolt-physics-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hughsk/flat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "addyosmani/critical"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "carbon-design-system/carbon-components-vue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "carbon-design-system/carbon-components-vue"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-build.yml",
+      "source_repo": "carbon-design-system/carbon-components-angular"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "carbon-design-system/carbon-components-angular"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "carbon-design-system/carbon-components-angular"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kategengler/ember-feature-flags"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "murat-dogan/node-datachannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "oxalorg/sakura"
     }
   ]
 }

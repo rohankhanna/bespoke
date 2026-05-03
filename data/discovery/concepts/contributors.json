@@ -70,6 +70,18 @@
       "source_repo": "go-openapi/swag",
       "status": "candidate-context",
       "text": "Contributors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyberark/community",
+      "status": "candidate-context",
+      "text": "Information for the CyberArk contributor community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/community",
+      "status": "candidate-context",
+      "text": "Welcome to the CyberArk Community!"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "go-openapi/swag",
       "status": "candidate",
       "text": "Contributors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/community",
+      "status": "candidate",
+      "text": "Welcome to the CyberArk Community!"
     }
   ],
   "candidate_related_terms": [
@@ -391,11 +409,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cyberark/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

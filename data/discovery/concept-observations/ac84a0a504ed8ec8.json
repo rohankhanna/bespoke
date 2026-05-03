@@ -48,7 +48,7 @@
   "normalized_form": "pr-tests",
   "observation_id": "ac84a0a504ed8ec8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "pr-tests",
   "source_context_snippet": "pr-tests",
   "source_file": ".github/workflows/commit-tests.yml",

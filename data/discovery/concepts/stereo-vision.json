@@ -79,6 +79,18 @@
       "source_repo": "haofeixu/aanet",
       "status": "candidate-context",
       "text": "PyTorch implementation of our paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "status": "candidate-context",
+      "text": "Lightweight stereo matching network based on MobileNet blocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "status": "candidate-context",
+      "text": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "haofeixu/aanet",
       "status": "candidate",
       "text": "PyTorch implementation of our paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "status": "candidate",
+      "text": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "haofeixu/aanet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cogsys-tuebingen/mobilestereonet"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

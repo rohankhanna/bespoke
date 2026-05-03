@@ -1,0 +1,347 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_auto_close.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "michuanhaohao/reid-strong-baseline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "philjd/contiguous_pytorch_params",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "pytorch/ignite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "l1aoxingyu/pytorch-project-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_auto_close.yml",
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_auto_close.yml",
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "apex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "baseline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "image-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "open-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "person-reid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "person-reidentification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "random-erasing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "re-identification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "re-ranking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "reids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "sota",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid",
+      "target": "toolbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:21.977870+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4257
+    },
+    {
+      "path": ".github/workflows/issue_auto_close.yml",
+      "size": 640
+    },
+    {
+      "path": ".github/workflows/lint_python.yml",
+      "size": 563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SOTA Re-identification Methods and Toolbox",
+    "fork": false,
+    "full_name": "JDAI-CV/fast-reid",
+    "html_url": "https://github.com/JDAI-CV/fast-reid",
+    "language": "Python",
+    "pushed_at": "2024-07-30T14:37:38Z",
+    "stargazers_count": 3907,
+    "topics": [
+      "apex",
+      "baseline",
+      "computer-vision",
+      "image-retrieval",
+      "image-search",
+      "open-reid",
+      "person-reid",
+      "person-reidentification",
+      "pytorch",
+      "random-erasing",
+      "re-identification",
+      "re-ranking",
+      "reids",
+      "sota",
+      "toolbox"
+    ],
+    "updated_at": "2026-05-02T18:32:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "l1aoxingyu/pytorch-project-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michuanhaohao/reid-strong-baseline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "philjd/contiguous_pytorch_params",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/ignite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_auto_close.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apex"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baseline"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-retrieval"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-search"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-reid"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reid"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "person-reidentification"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "random-erasing"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-identification"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-ranking"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reids"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sota"
+    },
+    {
+      "context_snippet": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolbox"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "should",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "koichik/node-tunnel",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "koichik/node-tunnel",
+      "target": "should",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:44:05.970164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4789
+    },
+    {
+      "path": "package.json",
+      "size": 730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Node HTTP/HTTPS Agents for tunneling proxies",
+    "fork": false,
+    "full_name": "koichik/node-tunnel",
+    "html_url": "https://github.com/koichik/node-tunnel",
+    "language": "JavaScript",
+    "pushed_at": "2021-10-06T14:51:49Z",
+    "stargazers_count": 538,
+    "topics": [],
+    "updated_at": "2026-02-01T06:31:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

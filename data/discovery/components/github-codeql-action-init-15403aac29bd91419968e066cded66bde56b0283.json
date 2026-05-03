@@ -1,0 +1,17 @@
+{
+  "component": "github/codeql-action/init@15403aac29bd91419968e066cded66bde56b0283",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-master.yml",
+      "source_repo": "nrwl/nx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-pr.yml",
+      "source_repo": "nrwl/nx"
+    }
+  ]
+}

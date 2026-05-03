@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Update Galata References"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bqplot/bqplot",
+      "status": "candidate-context",
+      "text": "Plotting library for IPython/Jupyter notebooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bqplot/bqplot",
+      "status": "candidate-context",
+      "text": "Update Galata References"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "status": "candidate-context",
+      "text": "A Jupyter - Leaflet.js bridge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "status": "candidate-context",
+      "text": "Update Galata References"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bqplot/bqplot",
+      "status": "candidate",
+      "text": "Update Galata References"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "status": "candidate",
+      "text": "Update Galata References"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "abbot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9593,
+      "status": "candidate",
+      "text": "completion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9593,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9593,
+      "status": "candidate",
+      "text": "information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9593,
+      "status": "candidate",
+      "text": "maintaining"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Galata References",
+  "concept_id": "update-galata-references",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/update_galata_references.yaml",
+      "source_repo": "bqplot/bqplot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/update_galata_references.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Galata References",
+      "sense_id": "update-galata-references#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

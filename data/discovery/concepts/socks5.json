@@ -127,6 +127,30 @@
       "source_repo": "heiher/socks5",
       "status": "candidate-context",
       "text": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate-context",
+      "text": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate-context",
+      "text": "[Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LorenEteval/Furious",
+      "status": "candidate-context",
+      "text": "A GUI proxy client based on PySide6. Support Xray-core & hysteria"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LorenEteval/Furious",
+      "status": "candidate-context",
+      "text": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "heiher/socks5",
       "status": "candidate",
       "text": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate",
+      "text": "[Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LorenEteval/Furious",
+      "status": "candidate",
+      "text": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +292,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "heiher/socks5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "XTLS/Xray-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious"
     }
   ],
   "first_seen_at": "2026-04-30T18:36:26.757967+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

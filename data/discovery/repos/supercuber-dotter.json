@@ -1,0 +1,368 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml",
+      "source_repo": "SuperCuber/dotter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml",
+      "source_repo": "SuperCuber/dotter",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml",
+      "source_repo": "SuperCuber/dotter",
+      "target": "actions/upload-release-asset@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml",
+      "source_repo": "SuperCuber/dotter",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml",
+      "source_repo": "SuperCuber/dotter",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-for-release.yml",
+      "source_repo": "SuperCuber/dotter",
+      "target": "Build assets for a Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "SuperCuber/dotter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "SuperCuber/dotter",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "SuperCuber/dotter",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter",
+      "target": "aur-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter",
+      "target": "configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter",
+      "target": "dotfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter",
+      "target": "dotfile-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter",
+      "target": "dotfile-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter",
+      "target": "dotter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter",
+      "target": "multiple-machines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter",
+      "target": "stow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SuperCuber/dotter",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:34:15.264432+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5500
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1525
+    },
+    {
+      "path": ".github/workflows/build-for-release.yml",
+      "size": 2832
+    },
+    {
+      "path": ".github/workflows/continuous-integration.yml",
+      "size": 2617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A dotfile manager and templater written in rust \ud83e\udd80",
+    "fork": false,
+    "full_name": "SuperCuber/dotter",
+    "html_url": "https://github.com/SuperCuber/dotter",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T11:22:17Z",
+    "stargazers_count": 1944,
+    "topics": [
+      "aur",
+      "aur-packages",
+      "configuration",
+      "dotfile",
+      "dotfile-management",
+      "dotfile-manager",
+      "dotter",
+      "linux",
+      "multiple-machines",
+      "rust",
+      "stow",
+      "windows"
+    ],
+    "updated_at": "2026-05-01T20:01:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build assets for a Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-for-release.yml",
+      "term": "Build assets for a Release"
+    },
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "term": "Continuous integration"
+    },
+    {
+      "context_snippet": "Dotter is a dotfile manager and templater.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aur-packages"
+    },
+    {
+      "context_snippet": "Dotter is a dotfile manager and templater.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    },
+    {
+      "context_snippet": "Dotter is a dotfile manager and templater.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfile"
+    },
+    {
+      "context_snippet": "Dotter is a dotfile manager and templater.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfile-management"
+    },
+    {
+      "context_snippet": "Dotter is a dotfile manager and templater.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfile-manager"
+    },
+    {
+      "context_snippet": "Dotter is a dotfile manager and templater.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotter"
+    },
+    {
+      "context_snippet": "Dotter is a dotfile manager and templater.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "Dotter is a dotfile manager and templater.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiple-machines"
+    },
+    {
+      "context_snippet": "Dotter is a dotfile manager and templater.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Dotter is a dotfile manager and templater.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stow"
+    },
+    {
+      "context_snippet": "Dotter is a dotfile manager and templater.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

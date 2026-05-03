@@ -19,18 +19,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "jonkhler/s2cnn",
-      "target": "amlab-amsterdam/lie_learn",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jonkhler/s2cnn",
       "target": "nvidia/pynvrtc",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-05-03T07:12:33.378718+00:00",
+  "fetched_at": "2026-05-03T14:47:20.118768+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -52,11 +45,6 @@
     "updated_at": "2026-04-24T08:30:09Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "amlab-amsterdam/lie_learn",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "jonas-koehler/s2cnn",

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:37:22.533191+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3140
+    },
+    {
+      "path": "requirements.txt",
+      "size": 196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for \"Cameras as Rays\"",
+    "fork": false,
+    "full_name": "jasonyzhang/RayDiffusion",
+    "html_url": "https://github.com/jasonyzhang/RayDiffusion",
+    "language": "Python",
+    "pushed_at": "2024-05-31T20:35:16Z",
+    "stargazers_count": 621,
+    "topics": [],
+    "updated_at": "2026-04-03T07:22:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

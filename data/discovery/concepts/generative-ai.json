@@ -469,6 +469,18 @@
       "source_repo": "weaviate/recipes-ts",
       "status": "candidate-context",
       "text": "recipes-js \u2014 a repository of weaviate recipes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FoundationVision/UniTok",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2025 Spotlight] A Unified Tokenizer for Visual Generation and Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/UniTok",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -705,6 +717,12 @@
       "source_repo": "weaviate/recipes-ts",
       "status": "candidate",
       "text": "recipes-js \u2014 a repository of weaviate recipes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FoundationVision/UniTok",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1288,11 +1306,47 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/UniTok"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

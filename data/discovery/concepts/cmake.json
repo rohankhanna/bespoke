@@ -742,6 +742,66 @@
       "source_repo": "robotology/robotology-superbuild",
       "status": "candidate-context",
       "text": "This is a meta repository (so-called \"superbuild\") that uses [CMake](https://cmake.org/) and [YCM](https://github.com/robotology/ycm-cmake-modules) to automatically"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libsndfile/libsamplerate",
+      "status": "candidate-context",
+      "text": "An audio Sample Rate Conversion library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsndfile/libsamplerate",
+      "status": "candidate-context",
+      "text": "![Logo](docs/SRC.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smarco/WFA2-lib",
+      "status": "candidate-context",
+      "text": "WFA-lib: Wavefront alignment algorithm library v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smarco/WFA2-lib",
+      "status": "candidate-context",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "YCM (YCM CMake modules) is a collection of various useful CMake modules. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "ycm-cmake-modules"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "Robotic Development Kit (RDK) for Flexiv robots. Supports C++ and Python. Compatible with Linux, macOS, Windows, and QNX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "status": "candidate-context",
+      "text": "CMake scripts for painless usage of SuiteSparse+METIS from Visual Studio and the rest of Windows/Linux/OSX IDEs supported by CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/travis/jlblancoc/suitesparse-metis-for-windows/master.svg?label=Travis)](https://travis-ci.org/jlblancoc/suitesparse-metis-for-windows/builds)"
     }
   ],
   "candidate_glosses": [
@@ -1110,6 +1170,36 @@
       "source_repo": "robotology/robotology-superbuild",
       "status": "candidate",
       "text": "This is a meta repository (so-called \"superbuild\") that uses [CMake](https://cmake.org/) and [YCM](https://github.com/robotology/ycm-cmake-modules) to automatically"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libsndfile/libsamplerate",
+      "status": "candidate",
+      "text": "![Logo](docs/SRC.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smarco/WFA2-lib",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate",
+      "text": "ycm-cmake-modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate",
+      "text": "CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/travis/jlblancoc/suitesparse-metis-for-windows/master.svg?label=Travis)](https://travis-ci.org/jlblancoc/suitesparse-metis-for-windows/builds)"
     }
   ],
   "candidate_related_terms": [
@@ -1747,11 +1837,71 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "libsndfile/libsndfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "libsndfile/libsamplerate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "edge-classic/EDGE-classic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "smarco/WFA2-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-external-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/open3d-cmake-find-package"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "erwincoumans/tiny-differentiable-simulator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "libsndfile/libsndfile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "flexivrobotics/flexiv_rdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

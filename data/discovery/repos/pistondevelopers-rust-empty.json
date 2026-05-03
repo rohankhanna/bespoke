@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PistonDevelopers/rust-empty",
+      "target": "bvssvni/rust-empty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PistonDevelopers/rust-empty",
+      "target": "mozilla/rust",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:45:52.455629+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Makefile to get started with Rust (DEPRECATED)",
+    "fork": false,
+    "full_name": "PistonDevelopers/rust-empty",
+    "html_url": "https://github.com/PistonDevelopers/rust-empty",
+    "language": "Makefile",
+    "pushed_at": "2025-08-03T19:36:21Z",
+    "stargazers_count": 185,
+    "topics": [],
+    "updated_at": "2025-11-03T22:21:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bvssvni/rust-empty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla/rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

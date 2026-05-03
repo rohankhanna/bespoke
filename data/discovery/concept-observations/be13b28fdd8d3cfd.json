@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pytorch version of SfmLearner from Tinghui Zhou et al."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This codebase implements the system described in the paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This codebase implements the system described in the paper:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969170,
+      "status": "candidate",
+      "text": "disproportionality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969133,
+      "status": "candidate",
+      "text": "disproportion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968770,
+      "status": "candidate",
+      "text": "unfairness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968767,
+      "status": "candidate",
+      "text": "asymmetry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968611,
+      "status": "candidate",
+      "text": "inconsistency"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "disparity",
+      "sense_id": "disparity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "disparity",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "disparity",
+  "observation_id": "be13b28fdd8d3cfd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "disparity",
+  "source_context_snippet": "This codebase implements the system described in the paper:",
+  "source_file": null,
+  "source_repo": "ClementPinard/SfmLearner-Pytorch",
+  "source_repo_description": "Pytorch version of SfmLearner from Tinghui Zhou et al."
+}

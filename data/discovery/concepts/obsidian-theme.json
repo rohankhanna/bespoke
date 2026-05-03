@@ -151,6 +151,42 @@
       "source_repo": "CreArts-Community/CreArts-Obsidian",
       "status": "candidate-context",
       "text": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flexcyon/docs-en",
+      "status": "candidate-context",
+      "text": "Documentation for the Flexcyon Theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexcyon/docs-en",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate-context",
+      "text": "An Obsidian theme inspired by the beautifully-designed app, Things. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate-context",
+      "text": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate-context",
+      "text": "Theme designed with readability and customizability in mind. Change it easily to your liking with the Style Settings plugin installed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate-context",
+      "text": "> Theme for my Obsidian Story Vault: **In The Shadows**."
     }
   ],
   "candidate_glosses": [
@@ -225,6 +261,24 @@
       "source_repo": "CreArts-Community/CreArts-Obsidian",
       "status": "candidate",
       "text": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexcyon/docs-en",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate",
+      "text": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate",
+      "text": "> Theme for my Obsidian Story Vault: **In The Shadows**."
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +358,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "CreArts-Community/CreArts-Obsidian"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "flexcyon/docs-en"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "colineckert/obsidian-things"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

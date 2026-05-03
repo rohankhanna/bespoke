@@ -31,6 +31,18 @@
       "source_repo": "cossssmin/tailwindcss-border-gradients",
       "status": "candidate-context",
       "text": "[![Version][npm-version-shield]][npm]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/functorch",
+      "status": "candidate-context",
+      "text": "functorch is JAX-like composable function transforms for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/functorch",
+      "status": "candidate-context",
+      "text": "[**Why functorch?**](#why-composable-function-transforms)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "cossssmin/tailwindcss-border-gradients",
       "status": "candidate",
       "text": "[![Version][npm-version-shield]][npm]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/functorch",
+      "status": "candidate",
+      "text": "[**Why functorch?**](#why-composable-function-transforms)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "cossssmin/tailwindcss-border-gradients"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/functorch"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

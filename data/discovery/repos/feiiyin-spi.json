@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiiYin/SPI",
+      "target": "nvlabs/eg3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FeiiYin/SPI",
+      "target": "rinongal/stylegan-nada",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:38:13.569495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2023] SPI: 3D GAN Inversion with Facial Symmetry Prior",
+    "fork": false,
+    "full_name": "FeiiYin/SPI",
+    "html_url": "https://github.com/FeiiYin/SPI",
+    "language": "Python",
+    "pushed_at": "2024-04-24T16:53:22Z",
+    "stargazers_count": 123,
+    "topics": [],
+    "updated_at": "2026-03-25T02:50:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/eg3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rinongal/stylegan-nada",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

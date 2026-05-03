@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u5149 HikariCP\u30fbA solid, high-performance, JDBC connection pool at last."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1><img src=\"https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png\"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi\u00b7ka\u00b7ri [hi\u00b7ka\u00b7'l\u0113] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png\"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi\u00b7ka\u00b7ri [hi\u00b7ka\u00b7'l\u0113] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020655,
+      "status": "candidate",
+      "text": "odbc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020654,
+      "status": "candidate",
+      "text": "hsqldb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020653,
+      "status": "candidate",
+      "text": "jndi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020652,
+      "status": "candidate",
+      "text": "jboss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020651,
+      "status": "candidate",
+      "text": "rdbms"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jdbc",
+      "sense_id": "jdbc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jdbc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jdbc",
+  "observation_id": "87f03229729ff85c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "jdbc",
+  "source_context_snippet": "<h1><img src=\"https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png\"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi\u00b7ka\u00b7ri [hi\u00b7ka\u00b7'l\u0113] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>",
+  "source_file": null,
+  "source_repo": "brettwooldridge/HikariCP",
+  "source_repo_description": "\u5149 HikariCP\u30fbA solid, high-performance, JDBC connection pool at last."
+}

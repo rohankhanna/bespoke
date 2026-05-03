@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICRA 2024] AirExo: Low-Cost Exoskeletons for Learning Whole-Arm Manipulation in the Wild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[[Paper]](https://arxiv.org/pdf/2309.14975.pdf) [[Project Page]](https://airexo.github.io/) [[Sample Demonstration Data]](https://drive.google.com/drive/folders/1f_bmrFPep90aUSBj28TdXRiNvHo7PpxR?usp=drive_link) [[ACT with in-the-Wild Learning]](https://github.com/AirExo/act-in-t\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[[Paper]](https://arxiv.org/pdf/2309.14975.pdf) [[Project Page]](https://airexo.github.io/) [[Sample Demonstration Data]](https://drive.google.com/drive/folders/1f_bmrFPep90aUSBj28TdXRiNvHo7PpxR?usp=drive_link) [[ACT with in-the-Wild Learning]](https://github.com/AirExo/act-in-t\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019728,
+      "status": "candidate",
+      "text": "teleprogramming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019727,
+      "status": "candidate",
+      "text": "telerobotics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019726,
+      "status": "candidate",
+      "text": "teletechnology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019725,
+      "status": "candidate",
+      "text": "telefactor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019724,
+      "status": "candidate",
+      "text": "telescience"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "teleoperation",
+      "sense_id": "teleoperation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "teleoperation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "teleoperation",
+  "observation_id": "10c391a479a753c2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "teleoperation",
+  "source_context_snippet": "[[Paper]](https://arxiv.org/pdf/2309.14975.pdf) [[Project Page]](https://airexo.github.io/) [[Sample Demonstration Data]](https://drive.google.com/drive/folders/1f_bmrFPep90aUSBj28TdXRiNvHo7PpxR?usp=drive_link) [[ACT with in-the-Wild Learning]](https://github.com/AirExo/act-in-t\u2026",
+  "source_file": null,
+  "source_repo": "AirExo/collector",
+  "source_repo_description": "[ICRA 2024] AirExo: Low-Cost Exoskeletons for Learning Whole-Arm Manipulation in the Wild"
+}

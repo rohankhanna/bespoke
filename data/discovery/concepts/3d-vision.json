@@ -127,6 +127,18 @@
       "source_repo": "Pointcept/Pointcept",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "Official code release for ICCV 2021 paper SNARF: Differentiable Forward Skinning for Animating Non-rigid Neural Implicit Shapes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "Pointcept/Pointcept",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +286,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "Pointcept/Pointcept"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builddocs.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builddocs.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builddocs.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "DeLaGuardo/setup-clojure@9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builddocs.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builddocs.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builddocs.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clerktest.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clerktest.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clerktest.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "DeLaGuardo/setup-clojure@9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clerktest.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "Test Clerk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-clojars.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-clojars.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-clojars.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "DeLaGuardo/setup-clojure@5042876523f30f5efcf1d6feaa48bd1498d7814f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-clojars.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "DeLaGuardo/setup-clojure@3.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-clojars.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "Clojars deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity-check.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity-check.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "actions/configure-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity-check.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "DeLaGuardo/setup-clojure@9.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanity-check.yml",
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "Sanity Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phronmophobic/llama.clj",
+      "target": "llama-cpp",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "phronmophobic/llama.clj"
+}

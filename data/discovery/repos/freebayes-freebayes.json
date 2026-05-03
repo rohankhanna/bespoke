@@ -1,0 +1,174 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-tracker-bot.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/support-tracker-bot.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "freebayes/freebayes",
+      "target": "ekg/freebayes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "freebayes/freebayes",
+      "target": "wanpinglee/mosaik",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "freebayes/freebayes",
+      "target": "biod/sambamba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml",
+      "source_repo": "freebayes/freebayes",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_test.yml",
+      "source_repo": "freebayes/freebayes",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-tracker-bot.yaml",
+      "source_repo": "freebayes/freebayes",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-tracker-bot.yaml",
+      "source_repo": "freebayes/freebayes",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "freebayes/freebayes",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/support-tracker-bot.yaml",
+      "source_repo": "freebayes/freebayes",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/support-tracker-bot.yaml",
+      "source_repo": "freebayes/freebayes",
+      "target": "Close support issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:45:04.080357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28065
+    },
+    {
+      "path": ".github/workflows/ci_test.yml",
+      "size": 1143
+    },
+    {
+      "path": ".github/workflows/issue-tracker-bot.yaml",
+      "size": 733
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1140
+    },
+    {
+      "path": ".github/workflows/support-tracker-bot.yaml",
+      "size": 804
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bayesian haplotype-based genetic polymorphism discovery and genotyping.",
+    "fork": false,
+    "full_name": "freebayes/freebayes",
+    "html_url": "https://github.com/freebayes/freebayes",
+    "language": "C++",
+    "pushed_at": "2026-04-20T19:20:01Z",
+    "stargazers_count": 865,
+    "topics": [],
+    "updated_at": "2026-04-20T19:20:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biod/sambamba",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ekg/freebayes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wanpinglee/mosaik",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-tracker-bot.yaml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "\"Close support issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/support-tracker-bot.yaml",
+      "term": "Close support issues"
+    }
+  ]
+}

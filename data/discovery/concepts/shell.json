@@ -1141,6 +1141,18 @@
       "source_repo": "trapd00r/LS_COLORS",
       "status": "candidate-context",
       "text": "'Release'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "holman/dotfiles",
+      "status": "candidate-context",
+      "text": "@holman does dotfiles"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holman/dotfiles",
+      "status": "candidate-context",
+      "text": "Your dotfiles are how you personalize your system. These are mine."
     }
   ],
   "candidate_glosses": [
@@ -1707,6 +1719,12 @@
       "source_repo": "trapd00r/LS_COLORS",
       "status": "candidate",
       "text": "'Release'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "holman/dotfiles",
+      "status": "candidate",
+      "text": "Your dotfiles are how you personalize your system. These are mine."
     }
   ],
   "candidate_related_terms": [
@@ -2824,11 +2842,53 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "denysdovhan/robbyrussell-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "holman/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

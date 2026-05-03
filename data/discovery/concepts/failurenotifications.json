@@ -139,6 +139,18 @@
       "source_repo": "forcedotcom/dev-config",
       "status": "candidate-context",
       "text": "failureNotifications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-version",
+      "status": "candidate-context",
+      "text": "a cli command that just shows the CLI version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-version",
+      "status": "candidate-context",
+      "text": "failureNotifications"
     }
   ],
   "candidate_glosses": [
@@ -217,6 +229,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "forcedotcom/dev-config",
+      "status": "candidate",
+      "text": "failureNotifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-version",
       "status": "candidate",
       "text": "failureNotifications"
     }
@@ -304,11 +322,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/failureNotifications.yml",
       "source_repo": "forcedotcom/dev-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/failureNotifications.yml",
+      "source_repo": "oclif/plugin-version"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

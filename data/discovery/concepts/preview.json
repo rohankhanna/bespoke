@@ -56,6 +56,18 @@
       "source_repo": "controlplaneio-fluxcd/flux-operator",
       "status": "candidate-context",
       "text": "preview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "status": "candidate-context",
+      "text": "A website to help Julia users discover and choose between packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "status": "candidate-context",
+      "text": "Preview"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
       "source_repo": "controlplaneio-fluxcd/flux-operator",
       "status": "candidate",
       "text": "preview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "status": "candidate",
+      "text": "Preview"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +253,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/preview-docs.yml",
       "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/Preview.yml",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

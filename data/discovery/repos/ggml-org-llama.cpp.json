@@ -191,7 +191,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "offline-ai/cli",
+      "target": "phronmophobic/llama.clj",
       "target_type": "repository"
     },
     {
@@ -212,7 +212,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "onicai/llama_cpp_canister",
+      "target": "ptsochantaris/emeltal",
       "target_type": "repository"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:56:32.181048+00:00",
+  "fetched_at": "2026-05-03T16:34:25.352095+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,12 +485,12 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-05-02T22:08:10Z",
-    "stargazers_count": 107988,
+    "pushed_at": "2026-05-03T15:22:00Z",
+    "stargazers_count": 108084,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-05-03T03:29:26Z"
+    "updated_at": "2026-05-03T16:30:18Z"
   },
   "repo_links": [
     {
@@ -500,17 +500,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "offline-ai/cli",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "onicai/llama_cpp_canister",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "oobabooga/text-generation-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "phronmophobic/llama.clj",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ptsochantaris/emeltal",
       "source_file": "README.md"
     }
   ],

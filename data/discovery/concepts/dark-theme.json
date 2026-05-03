@@ -199,6 +199,30 @@
       "source_repo": "bladeacer/flexcyon",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "status": "candidate-context",
+      "text": "A colorful unique theme, giving Obsidian a fresh new look with glow effects and support for accent color. The theme now tries to provide a unique futuristic eye-candy look to obsidian while keeping it usable and familiar to the users. Made to be yours to tweak."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "status": "candidate-context",
+      "text": "![CyberGlow Version](https://img.shields.io/github/v/tag/ThePharaohArt/Obsidian-CyberGlow?label=CyberGlow%20Version&style=flat-square&color=4CADD6) ![Last Updated](https://img.shields.io/github/last-commit/ThePharaohArt/Obsidian-CyberGlow?label=Last%20Updated&style=flat-square&c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate-context",
+      "text": "An Obsidian theme inspired by the beautifully-designed app, Things. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate-context",
+      "text": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +321,18 @@
       "source_repo": "bladeacer/flexcyon",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "status": "candidate",
+      "text": "![CyberGlow Version](https://img.shields.io/github/v/tag/ThePharaohArt/Obsidian-CyberGlow?label=CyberGlow%20Version&style=flat-square&color=4CADD6) ![Last Updated](https://img.shields.io/github/last-commit/ThePharaohArt/Obsidian-CyberGlow?label=Last%20Updated&style=flat-square&c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate",
+      "text": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +436,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "bladeacer/flexcyon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "colineckert/obsidian-things"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

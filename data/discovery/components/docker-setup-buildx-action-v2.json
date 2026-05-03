@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v2",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -677,6 +677,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "scaleway/serverless-gateway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-nightly-ci-docker-images.yml",
+      "source_repo": "moojink/transformers-openvla-oft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-past-ci-docker-images.yml",
+      "source_repo": "moojink/transformers-openvla-oft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-auth-example.yml",
+      "source_repo": "maddalax/htmgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-chat-example.yml",
+      "source_repo": "maddalax/htmgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-hn-clone.yml",
+      "source_repo": "maddalax/htmgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-site.yml",
+      "source_repo": "maddalax/htmgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-starter-template.yml",
+      "source_repo": "maddalax/htmgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-todo-example.yml",
+      "source_repo": "maddalax/htmgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-ws-test.yml",
+      "source_repo": "maddalax/htmgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-vader-action.yml",
+      "source_repo": "vimwiki/vimwiki"
     }
   ]
 }

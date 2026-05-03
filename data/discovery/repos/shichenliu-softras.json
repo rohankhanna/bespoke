@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShichenLiu/SoftRas",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShichenLiu/SoftRas",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShichenLiu/SoftRas",
+      "target": "differentiable-rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShichenLiu/SoftRas",
+      "target": "geometry-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:39:32.124812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project page of paper \"Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning\"",
+    "fork": false,
+    "full_name": "ShichenLiu/SoftRas",
+    "html_url": "https://github.com/ShichenLiu/SoftRas",
+    "language": "Python",
+    "pushed_at": "2025-11-24T06:47:24Z",
+    "stargazers_count": 1287,
+    "topics": [
+      "3d-reconstruction",
+      "computer-graphics",
+      "differentiable-rendering",
+      "geometry-processing"
+    ],
+    "updated_at": "2026-05-03T00:15:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differentiable-rendering"
+    },
+    {
+      "context_snippet": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geometry-processing"
+    }
+  ]
+}

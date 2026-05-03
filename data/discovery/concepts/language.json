@@ -427,6 +427,30 @@
       "source_repo": "chipsenkbeil/vimwiki-rs",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CUNY-CL/wikipron",
+      "status": "candidate-context",
+      "text": "Massively multilingual pronunciation mining"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CUNY-CL/wikipron",
+      "status": "candidate-context",
+      "text": "[![PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "JavaScript implementation of Project Fluent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +663,18 @@
       "source_repo": "chipsenkbeil/vimwiki-rs",
       "status": "candidate",
       "text": "[![CI](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CUNY-CL/wikipron",
+      "status": "candidate",
+      "text": "[![PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
     }
   ],
   "candidate_related_terms": [
@@ -1072,11 +1108,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "chipsenkbeil/vimwiki-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent.js"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

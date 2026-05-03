@@ -36,28 +36,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "davidavdav/NamedArrays.jl",
-      "target": "juliaarrays/axisarrays.jl",
+      "target": "tokazama/axisindices.jl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "davidavdav/NamedArrays.jl",
-      "target": "rafaqz/dimensionaldata.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "davidavdav/NamedArrays.jl",
-      "target": "mcabbott/axiskeys.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "davidavdav/NamedArrays.jl",
-      "target": "invenia/nameddims.jl",
+      "target": "sciml/labelledarrays.jl",
       "target_type": "repository"
     },
     {
@@ -117,7 +103,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:51:26.861059+00:00",
+  "fetched_at": "2026-05-03T16:44:36.231209+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -149,22 +135,12 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "invenia/nameddims.jl",
+      "full_name": "sciml/labelledarrays.jl",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "juliaarrays/axisarrays.jl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mcabbott/axiskeys.jl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rafaqz/dimensionaldata.jl",
+      "full_name": "tokazama/axisindices.jl",
       "source_file": "README.md"
     }
   ],

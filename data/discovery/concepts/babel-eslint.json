@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "babel-eslint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babel/babel-eslint",
+      "status": "candidate-context",
+      "text": ":tokyo_tower: A wrapper for Babel's parser used for ESLint (renamed to @babel/eslint-parser)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel-eslint",
+      "status": "candidate-context",
+      "text": "**babel-eslint** allows you to lint **ALL** valid Babel code with the fantastic"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babel/babel-eslint",
+      "status": "candidate",
+      "text": "**babel-eslint** allows you to lint **ALL** valid Babel code with the fantastic"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "babel-eslint",
+  "concept_id": "babel-eslint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "babel/babel-eslint"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "babel-eslint",
+      "sense_id": "babel-eslint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -106,6 +106,18 @@
       "source_repo": "izelnakri/paper_trail",
       "status": "candidate-context",
       "text": "[![Hex Version](http://img.shields.io/hexpm/v/paper_trail.svg?style=flat)](https://hex.pm/packages/paper_trail) [![Hex docs](http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat)](https://hexdocs.pm/paper_trail/PaperTrail.html)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omnidan/redux-undo",
+      "status": "candidate-context",
+      "text": ":recycle: higher order reducer to add undo/redo functionality to redux state containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omnidan/redux-undo",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **Project Status: Not Actively Maintained**"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +168,12 @@
       "source_repo": "izelnakri/paper_trail",
       "status": "candidate",
       "text": "[![Hex Version](http://img.shields.io/hexpm/v/paper_trail.svg?style=flat)](https://hex.pm/packages/paper_trail) [![Hex docs](http://img.shields.io/badge/hex.pm-docs-green.svg?style=flat)](https://hexdocs.pm/paper_trail/PaperTrail.html)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omnidan/redux-undo",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **Project Status: Not Actively Maintained**"
     }
   ],
   "candidate_related_terms": [
@@ -377,11 +395,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "omnidan/redux-undo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

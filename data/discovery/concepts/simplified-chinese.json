@@ -19,6 +19,18 @@
       "source_repo": "BYVoid/OpenCC",
       "status": "candidate-context",
       "text": "[![CMake](https://github.com/BYVoid/OpenCC/actions/workflows/cmake.yml/badge.svg)](https://github.com/BYVoid/OpenCC/actions/workflows/cmake.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adobe-type-tools/Adobe-GB1",
+      "status": "candidate-context",
+      "text": "The Adobe-GB1-6 Character Collection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-type-tools/Adobe-GB1",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BYVoid/OpenCC",
       "status": "candidate",
       "text": "[![CMake](https://github.com/BYVoid/OpenCC/actions/workflows/cmake.yml/badge.svg)](https://github.com/BYVoid/OpenCC/actions/workflows/cmake.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adobe-type-tools/Adobe-GB1",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-29T18:37:00.726333+00:00",
       "source_file": null,
       "source_repo": "BYVoid/OpenCC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "adobe-type-tools/Adobe-GB1"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

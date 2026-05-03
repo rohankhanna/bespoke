@@ -43,6 +43,42 @@
       "source_repo": "JuliaDiff/ChainRules.jl",
       "status": "candidate-context",
       "text": "JuliaNightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invenia/NamedDims.jl",
+      "status": "candidate-context",
+      "text": "For working with dimensions of arrays by name"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invenia/NamedDims.jl",
+      "status": "candidate-context",
+      "text": "JuliaNightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invenia/AxisSets.jl",
+      "status": "candidate-context",
+      "text": "Consistent operations over a collection of KeyedArrays"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invenia/AxisSets.jl",
+      "status": "candidate-context",
+      "text": "JuliaNightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/Luxor.jl",
+      "status": "candidate-context",
+      "text": "Simple drawings using vector graphics; Cairo \"for tourists!\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Luxor.jl",
+      "status": "candidate-context",
+      "text": "JuliaNightly"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +97,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaDiff/ChainRules.jl",
+      "status": "candidate",
+      "text": "JuliaNightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invenia/NamedDims.jl",
+      "status": "candidate",
+      "text": "JuliaNightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invenia/AxisSets.jl",
+      "status": "candidate",
+      "text": "JuliaNightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Luxor.jl",
       "status": "candidate",
       "text": "JuliaNightly"
     }
@@ -88,11 +142,29 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/JuliaNightly.yml",
       "source_repo": "JuliaDiff/ChainRules.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/JuliaNightly.yml",
+      "source_repo": "invenia/NamedDims.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/JuliaNightly.yml",
+      "source_repo": "invenia/AxisSets.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/JuliaNightly.yml",
+      "source_repo": "JuliaGraphics/Luxor.jl"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

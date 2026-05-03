@@ -439,6 +439,42 @@
       "source_repo": "ai4ce/Occ4cast",
       "status": "candidate-context",
       "text": "<a href='https://arxiv.org/abs/2310.11239'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://ai4ce.github.io/Occ4cast/'><img src='https://img.shields.io/badge/Project-website-green'></a> <a href='https://huggingface.co/datasets/ai4ce/OCFBench'><img sr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "(LMNet) Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data (RAL/IROS 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leofansq/SCF-Net",
+      "status": "candidate-context",
+      "text": "[CVPR2021] SCF-Net: Learning Spatial Contextual Features for Large-Scale Point Cloud Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leofansq/SCF-Net",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-semantic3d)](https://paperswithcode.com/sota/semantic-segmentation-on-semantic3d?p=scf-net-learning-spatial-contextual-features)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate-context",
+      "text": "[ECCV 2020] ScanRefer: 3D Object Localization in RGB-D Scans using Natural Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>"
     }
   ],
   "candidate_glosses": [
@@ -657,6 +693,24 @@
       "source_repo": "ai4ce/Occ4cast",
       "status": "candidate",
       "text": "<a href='https://arxiv.org/abs/2310.11239'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://ai4ce.github.io/Occ4cast/'><img src='https://img.shields.io/badge/Project-website-green'></a> <a href='https://huggingface.co/datasets/ai4ce/OCFBench'><img sr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leofansq/SCF-Net",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-semantic3d)](https://paperswithcode.com/sota/semantic-segmentation-on-semantic3d?p=scf-net-learning-spatial-contextual-features)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daveredrum/ScanRefer",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"demo/ScanRefer.gif\" width=\"600px\"/></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -958,11 +1012,41 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "ai4ce/Occ4cast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "leofansq/SCF-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/Stratified-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "daveredrum/ScanRefer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

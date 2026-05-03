@@ -307,6 +307,48 @@
       "source_repo": "CreArts-Community/CreArts-Obsidian",
       "status": "candidate-context",
       "text": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgmeyers/obsidian-contextual-typography",
+      "status": "candidate-context",
+      "text": "This plugin adds a `data-tag-name` attribute to all top-level preview `div`s, allowing contextual typography. Note: this plugin does not add any styles, but enables contextual styling."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mgmeyers/obsidian-smart-typography",
+      "status": "candidate-context",
+      "text": "Converts quotes to curly quotes, dashes to em dashes, and periods to ellipses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgmeyers/obsidian-smart-typography",
+      "status": "candidate-context",
+      "text": "This plugin (currently) converts:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate-context",
+      "text": "An Obsidian theme inspired by the beautifully-designed app, Things. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate-context",
+      "text": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate-context",
+      "text": "Theme designed with readability and customizability in mind. Change it easily to your liking with the Style Settings plugin installed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate-context",
+      "text": "> Theme for my Obsidian Story Vault: **In The Shadows**."
     }
   ],
   "candidate_glosses": [
@@ -459,6 +501,30 @@
       "source_repo": "CreArts-Community/CreArts-Obsidian",
       "status": "candidate",
       "text": "crearts-obsidian-theme \u2014 CreArts is a customizable Obsidian theme that changes the appearance of Obsidian."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgmeyers/obsidian-contextual-typography",
+      "status": "candidate",
+      "text": "This plugin adds a `data-tag-name` attribute to all top-level preview `div`s, allowing contextual typography. Note: this plugin does not add any styles, but enables contextual styling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgmeyers/obsidian-smart-typography",
+      "status": "candidate",
+      "text": "This plugin (currently) converts:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate",
+      "text": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate",
+      "text": "> Theme for my Obsidian Story Vault: **In The Shadows**."
     }
   ],
   "candidate_related_terms": [
@@ -670,11 +736,47 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "PDFMathTranslate/PDFMathTranslate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mgmeyers/obsidian-contextual-typography"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mgmeyers/obsidian-smart-typography"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-style-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "colineckert/obsidian-things"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "PDFMathTranslate/PDFMathTranslate"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

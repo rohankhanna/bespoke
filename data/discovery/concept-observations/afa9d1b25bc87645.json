@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":sparkles: Monorepo for all the tooling related to using ESLint with Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Renovate Update Formatting"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Renovate Update Formatting"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18154,
+      "status": "candidate",
+      "text": "remake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18125,
+      "status": "candidate",
+      "text": "integrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18125,
+      "status": "candidate",
+      "text": "recast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18125,
+      "status": "candidate",
+      "text": "reform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18095,
+      "status": "candidate",
+      "text": "emend"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Renovate Update Formatting",
+      "sense_id": "renovate-update-formatting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "renovate-update-formatting",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "renovate-update-formatting",
+  "observation_id": "afa9d1b25bc87645",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Renovate Update Formatting",
+  "source_context_snippet": "Renovate Update Formatting",
+  "source_file": ".github/workflows/update-formatting-for-renovate.yml",
+  "source_repo": "angular-eslint/angular-eslint",
+  "source_repo_description": ":sparkles: Monorepo for all the tooling related to using ESLint with Angular"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:36:06.345587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4619
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1033
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official Hardware Codebase for the Paper \"BEHAVIOR Robot Suite: Streamlining Real-World Whole-Body Manipulation for Everyday Household Activities\"",
+    "fork": false,
+    "full_name": "behavior-robot-suite/brs-ctrl",
+    "html_url": "https://github.com/behavior-robot-suite/brs-ctrl",
+    "language": "Python",
+    "pushed_at": "2025-11-18T07:34:09Z",
+    "stargazers_count": 141,
+    "topics": [],
+    "updated_at": "2026-04-06T16:49:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

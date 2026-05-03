@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/pose-evaluation",
+      "target": "thnkim/openfacepytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/pose-evaluation",
+      "target": "tensorboy/pytorch_realtime_multi-person_pose_estimation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/pose-evaluation",
+      "target": "layumi/person_reid_baseline_pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:37:54.929425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2374
+    },
+    {
+      "path": "requirements.txt",
+      "size": 438
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Metrics for evaluation pose-guided image generation",
+    "fork": false,
+    "full_name": "AliaksandrSiarohin/pose-evaluation",
+    "html_url": "https://github.com/AliaksandrSiarohin/pose-evaluation",
+    "language": "Python",
+    "pushed_at": "2022-11-22T02:53:29Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2026-02-13T18:38:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/person_reid_baseline_pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorboy/pytorch_realtime_multi-person_pose_estimation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thnkim/openfacepytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

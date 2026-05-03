@@ -291,7 +291,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "javalent/obsidian-leaflet",
-      "target": "mapbox/simplestyle-spec",
+      "target": "valentine195/obsidian-leaflet-plugin",
       "target_type": "repository"
     },
     {
@@ -722,7 +722,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:54:29.634625+00:00",
+  "fetched_at": "2026-05-03T16:48:24.003176+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -758,11 +758,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mapbox/simplestyle-spec",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "valentine195/obsidian-5e-statblocks",
       "source_file": "README.md"
     },
@@ -774,6 +769,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "valentine195/obsidian-initiative-tracker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valentine195/obsidian-leaflet-plugin",
       "source_file": "README.md"
     }
   ],

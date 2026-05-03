@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:31:37.474379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2645
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Annotations for Pedestrian Intention Estimation (PIE) dataset",
+    "fork": false,
+    "full_name": "aras62/PIE",
+    "html_url": "https://github.com/aras62/PIE",
+    "language": "Python",
+    "pushed_at": "2025-03-09T21:17:46Z",
+    "stargazers_count": 139,
+    "topics": [],
+    "updated_at": "2026-03-30T01:24:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

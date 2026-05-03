@@ -136,6 +136,18 @@
       "source_repo": "spack/spack-packages",
       "status": "candidate-context",
       "text": "<h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "status": "candidate-context",
+      "text": "A website to help Julia users discover and choose between packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "status": "candidate-context",
+      "text": "Welcome to the repository for Julia Package Comparisons! This repository hosts a website that aims to help Julia users discover and choose between packages. Click the link below to open it!"
     }
   ],
   "candidate_glosses": [
@@ -204,6 +216,12 @@
       "source_repo": "spack/spack-packages",
       "status": "candidate",
       "text": "<h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "status": "candidate",
+      "text": "Welcome to the repository for Julia Package Comparisons! This repository hosts a website that aims to help Julia users discover and choose between packages. Click the link below to open it!"
     }
   ],
   "candidate_related_terms": [
@@ -331,11 +349,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

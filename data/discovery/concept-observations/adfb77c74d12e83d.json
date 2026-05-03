@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Business intelligence made simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Explore your data with SQL. Easily create charts and dashboards, and share them with your team."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Explore your data with SQL. Easily create charts and dashboards, and share them with your team."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "business-intelligence",
+      "sense_id": "business-intelligence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "business-intelligence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "business-intelligence",
+  "observation_id": "adfb77c74d12e83d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "business-intelligence",
+  "source_context_snippet": "Explore your data with SQL. Easily create charts and dashboards, and share them with your team.",
+  "source_file": null,
+  "source_repo": "ankane/blazer",
+  "source_repo_description": "Business intelligence made simple"
+}

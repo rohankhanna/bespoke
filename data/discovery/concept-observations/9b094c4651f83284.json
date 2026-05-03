@@ -48,7 +48,7 @@
   "normalized_form": "json-schema",
   "observation_id": "9b094c4651f83284",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "json-schema",
   "source_context_snippet": "Custom JSON-Schema keywords for [Ajv](https://github.com/epoberezkin/ajv) validator",
   "source_file": null,

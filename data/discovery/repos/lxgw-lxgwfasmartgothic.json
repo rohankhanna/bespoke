@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwFasmartGothic",
+      "target": "lxgw/lxgwneoxihei",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwFasmartGothic",
+      "target": "lxgw/lxgwneozhisong",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwFasmartGothic",
+      "target": "lxgw/lxgwheartserif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwFasmartGothic",
+      "target": "lxgw/lxgwmarkergothic",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:32.882142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\u971e\u9e5c\u5c1a\u667a\u9ed1\uff1a\u57fa\u4e8e\u300c03\u30b9\u30de\u30fc\u30c8\u30d5\u30a9\u30f3\u30c8UI\u300d\u884d\u751f\u3002",
+    "fork": false,
+    "full_name": "lxgw/LxgwFasmartGothic",
+    "html_url": "https://github.com/lxgw/LxgwFasmartGothic",
+    "language": null,
+    "pushed_at": "2024-09-09T15:03:14Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2025-11-05T05:41:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwheartserif",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwmarkergothic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwneoxihei",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwneozhisong",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

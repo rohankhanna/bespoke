@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Go Source Scanners"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/dockertest",
+      "status": "candidate-context",
+      "text": "Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/dockertest",
+      "status": "candidate-context",
+      "text": "Go Source Scanners"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/dockertest",
+      "status": "candidate",
+      "text": "Go Source Scanners"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26076,
+      "status": "candidate",
+      "text": "ascend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26076,
+      "status": "candidate",
+      "text": "proceed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26012,
+      "status": "candidate",
+      "text": "retrace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22614,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22488,
+      "status": "candidate",
+      "text": "stop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Go Source Scanners",
+  "concept_id": "go-source-scanners",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/cve-scanner.yaml",
+      "source_repo": "ory/dockertest"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go Source Scanners",
+      "sense_id": "go-source-scanners#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

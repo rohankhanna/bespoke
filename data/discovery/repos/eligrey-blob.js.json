@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:48:09.512879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 408
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An HTML5 Blob implementation",
+    "fork": false,
+    "full_name": "eligrey/Blob.js",
+    "html_url": "https://github.com/eligrey/Blob.js",
+    "language": "JavaScript",
+    "pushed_at": "2022-09-05T05:05:30Z",
+    "stargazers_count": 1156,
+    "topics": [],
+    "updated_at": "2026-04-28T14:34:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

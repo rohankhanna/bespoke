@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Origami was crafted with \ud83d\udc96 to mimic the tactility of paper, but introduce digital tools \ud83e\uddbe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035068,
+      "status": "candidate",
+      "text": "penning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031563,
+      "status": "candidate",
+      "text": "authorship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021171,
+      "status": "candidate",
+      "text": "composition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038806,
+      "status": "candidate",
+      "text": "symbolic representation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038806,
+      "status": "candidate",
+      "text": "written material"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "writing",
+      "sense_id": "writing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35066,
+      "status": "candidate",
+      "text": "composition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4034,
+      "status": "candidate",
+      "text": "authorship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1009,
+      "status": "candidate",
+      "text": "written material"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "penning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "symbolic representation"
+    }
+  ],
+  "concept_id": "writing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "writing",
+  "observation_id": "f6b5f16547d4e99b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "writing",
+  "source_context_snippet": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)",
+  "source_file": null,
+  "source_repo": "7368697661/Origami",
+  "source_repo_description": "Origami was crafted with \ud83d\udc96 to mimic the tactility of paper, but introduce digital tools \ud83e\uddbe"
+}

@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "@reduxjs/toolkit",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "deep-diff",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-minify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reZach/easy-redux-undo",
+      "target": "omnidan/redux-undo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reZach/easy-redux-undo",
+      "target": "flitbit/diff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "reZach/easy-redux-undo",
+      "target": "@reduxjs/toolkit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "reZach/easy-redux-undo",
+      "target": "deep-diff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "reZach/easy-redux-undo",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reZach/easy-redux-undo",
+      "target": "@babel/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reZach/easy-redux-undo",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reZach/easy-redux-undo",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "reZach/easy-redux-undo",
+      "target": "babel-preset-minify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reZach/easy-redux-undo",
+      "target": "redux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reZach/easy-redux-undo",
+      "target": "redux-undo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:42:06.272923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9338
+    },
+    {
+      "path": "package.json",
+      "size": 827
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Easily configure your redux reducers to have fast, undo/redoable-support",
+    "fork": false,
+    "full_name": "reZach/easy-redux-undo",
+    "html_url": "https://github.com/reZach/easy-redux-undo",
+    "language": "JavaScript",
+    "pushed_at": "2023-03-04T05:52:02Z",
+    "stargazers_count": 5,
+    "topics": [
+      "redux",
+      "redux-undo"
+    ],
+    "updated_at": "2024-12-14T19:10:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flitbit/diff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omnidan/redux-undo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Literally the _easiest_ redux undo/redo library. In addition to being easy, we also offer a collection of great features that you will use all the time!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redux"
+    },
+    {
+      "context_snippet": "Literally the _easiest_ redux undo/redo library. In addition to being easy, we also offer a collection of great features that you will use all the time!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redux-undo"
+    }
+  ]
+}

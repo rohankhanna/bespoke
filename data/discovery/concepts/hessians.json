@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "hessians"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/functorch",
+      "status": "candidate-context",
+      "text": "functorch is JAX-like composable function transforms for PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/functorch",
+      "status": "candidate-context",
+      "text": "[**Why functorch?**](#why-composable-function-transforms)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/functorch",
+      "status": "candidate",
+      "text": "[**Why functorch?**](#why-composable-function-transforms)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9665096,
+      "status": "candidate",
+      "text": "wellington"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9620887,
+      "status": "candidate",
+      "text": "wellington boot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9617885,
+      "status": "candidate",
+      "text": "jackboot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31427,
+      "status": "candidate",
+      "text": "hessian boot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31426,
+      "status": "candidate",
+      "text": "hirelings"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "hessians",
+  "concept_id": "hessians",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/functorch"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hessians",
+      "sense_id": "hessians#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

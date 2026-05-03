@@ -199,6 +199,18 @@
       "source_repo": "cloudfoundry/uaa",
       "status": "candidate-context",
       "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikel-brostrom/boxmot",
+      "status": "candidate-context",
+      "text": "BoxMOT: Pluggable python and c++ SOTA multi-object tracking modules with support for axis-aligned and oriented bounding boxes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikel-brostrom/boxmot",
+      "status": "candidate-context",
+      "text": "Docker Image CI"
     }
   ],
   "candidate_glosses": [
@@ -295,6 +307,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cloudfoundry/uaa",
+      "status": "candidate",
+      "text": "Docker Image CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikel-brostrom/boxmot",
       "status": "candidate",
       "text": "Docker Image CI"
     }
@@ -442,11 +460,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "cloudfoundry/uaa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "mikel-brostrom/boxmot"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

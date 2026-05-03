@@ -43,6 +43,18 @@
       "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
       "status": "candidate-context",
       "text": "[Lualine](https://github.com/nvim-lualine/lualine.nvim) component for [cmake4vim](https://github.com/ilyachur/cmake4vim). It displays the selected kit, build_type and build_target."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkav/lualine-lsp-progress",
+      "status": "candidate-context",
+      "text": "LSP Progress lualine componenet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkav/lualine-lsp-progress",
+      "status": "candidate-context",
+      "text": "Information provided by active lsp clients from the `$/progress` endpoint as a statusline component for [lualine.nvim](https://raw.githubusercontent.com/hoob3rt/lualine.nvim)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim",
       "status": "candidate",
       "text": "[Lualine](https://github.com/nvim-lualine/lualine.nvim) component for [cmake4vim](https://github.com/ilyachur/cmake4vim). It displays the selected kit, build_type and build_target."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkav/lualine-lsp-progress",
+      "status": "candidate",
+      "text": "Information provided by active lsp clients from the `$/progress` endpoint as a statusline component for [lualine.nvim](https://raw.githubusercontent.com/hoob3rt/lualine.nvim)."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "SantinoKeupp/lualine-cmake4vim.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "arkav/lualine-lsp-progress"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "@rixo/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svelte",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap-mocha-reporter",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zoar",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zorax",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "svelte",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rixo/svelte-hmr",
+      "target": "pepsryuu/nollup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rixo/svelte-hmr",
+      "target": "halfnelson/svelte-native-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rixo/svelte-hmr",
+      "target": "intrnl/vite-plugin-svelte",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rixo/svelte-hmr",
+      "target": "dominikg/svite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rixo/svelte-hmr",
+      "target": "@rixo/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rixo/svelte-hmr",
+      "target": "svelte",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rixo/svelte-hmr",
+      "target": "tap-mocha-reporter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rixo/svelte-hmr",
+      "target": "zoar",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rixo/svelte-hmr",
+      "target": "zorax",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "rixo/svelte-hmr",
+      "target": "svelte",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:43:59.298218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14395
+    },
+    {
+      "path": "package.json",
+      "size": 741
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HMR commons for Svelte 3",
+    "fork": true,
+    "full_name": "rixo/svelte-hmr",
+    "html_url": "https://github.com/rixo/svelte-hmr",
+    "language": null,
+    "pushed_at": "2022-09-16T11:29:19Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-05-01T05:36:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dominikg/svite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "halfnelson/svelte-native-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intrnl/vite-plugin-svelte",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pepsryuu/nollup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

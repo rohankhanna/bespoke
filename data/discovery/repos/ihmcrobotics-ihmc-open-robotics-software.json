@@ -1,0 +1,482 @@
+{
+  "components": [
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    },
+    {
+      "component": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/euclid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/ekf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/ihmc-commons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/ihmc-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-fast.yml",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test-fast.yml",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "Gradle test (fast)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test-slow.yml",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmcrobotics/ihmc-actions/.github/workflows/gradle-test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test-slow.yml",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "Gradle test (slow)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "humanoid-robot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "ihmc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "walking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "target": "whole-body-control",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:38:46.292630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9307
+    },
+    {
+      "path": ".github/workflows/gradle-test-fast.yml",
+      "size": 9500
+    },
+    {
+      "path": ".github/workflows/gradle-test-slow.yml",
+      "size": 4164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Robotics software featuring legged locomotion algorithms and a momentum-based controller core with optimization. Supporting software for world-class robots including humanoids, running birds, exoskeletons, mechs and more.",
+    "fork": false,
+    "full_name": "ihmcrobotics/ihmc-open-robotics-software",
+    "html_url": "https://github.com/ihmcrobotics/ihmc-open-robotics-software",
+    "language": "Java",
+    "pushed_at": "2026-05-01T15:15:52Z",
+    "stargazers_count": 313,
+    "topics": [
+      "humanoid-robot",
+      "ihmc",
+      "java",
+      "robotics",
+      "walking",
+      "whole-body-control"
+    ],
+    "updated_at": "2026-04-30T15:03:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ihmcrobotics/ekf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ihmcrobotics/euclid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ihmcrobotics/ihmc-build",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ihmcrobotics/ihmc-commons",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Gradle test (fast)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test-fast.yml",
+      "term": "Gradle test (fast)"
+    },
+    {
+      "context_snippet": "Gradle test (slow)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test-slow.yml",
+      "term": "Gradle test (slow)"
+    },
+    {
+      "context_snippet": "![develop, fast](https://github.com/ihmcrobotics/ihmc-open-robotics-software/actions/workflows/gradle-test-fast.yml/badge.svg?branch=develop) Current develop status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "humanoid-robot"
+    },
+    {
+      "context_snippet": "![develop, fast](https://github.com/ihmcrobotics/ihmc-open-robotics-software/actions/workflows/gradle-test-fast.yml/badge.svg?branch=develop) Current develop status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ihmc"
+    },
+    {
+      "context_snippet": "![develop, fast](https://github.com/ihmcrobotics/ihmc-open-robotics-software/actions/workflows/gradle-test-fast.yml/badge.svg?branch=develop) Current develop status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "![develop, fast](https://github.com/ihmcrobotics/ihmc-open-robotics-software/actions/workflows/gradle-test-fast.yml/badge.svg?branch=develop) Current develop status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "![develop, fast](https://github.com/ihmcrobotics/ihmc-open-robotics-software/actions/workflows/gradle-test-fast.yml/badge.svg?branch=develop) Current develop status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "walking"
+    },
+    {
+      "context_snippet": "![develop, fast](https://github.com/ihmcrobotics/ihmc-open-robotics-software/actions/workflows/gradle-test-fast.yml/badge.svg?branch=develop) Current develop status",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whole-body-control"
+    }
+  ]
+}

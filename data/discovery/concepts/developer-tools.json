@@ -715,6 +715,18 @@
       "source_repo": "appl-team/appl",
       "status": "candidate-context",
       "text": "[![version](https://img.shields.io/pypi/v/applang.svg)](https://pypi.python.org/pypi/applang)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "continuedev/continue",
+      "status": "candidate-context",
+      "text": "\u23e9 Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "continuedev/continue",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -1071,6 +1083,12 @@
       "source_repo": "appl-team/appl",
       "status": "candidate",
       "text": "[![version](https://img.shields.io/pypi/v/applang.svg)](https://pypi.python.org/pypi/applang)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "continuedev/continue",
+      "status": "candidate",
+      "text": "<div align=\"center\"></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -1612,11 +1630,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "continuedev/continue"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

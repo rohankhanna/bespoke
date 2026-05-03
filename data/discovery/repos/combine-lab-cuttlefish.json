@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "COMBINE-lab/cuttlefish",
+      "target": "rizkg/bbhash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "COMBINE-lab/cuttlefish",
+      "target": "gmarcais/compact_vector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "COMBINE-lab/cuttlefish",
+      "target": "refresh-bio/kmc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:45:12.804015+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19491
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Building the compacted de Bruijn graph efficiently from references or reads.",
+    "fork": false,
+    "full_name": "COMBINE-lab/cuttlefish",
+    "html_url": "https://github.com/COMBINE-lab/cuttlefish",
+    "language": "C++",
+    "pushed_at": "2026-02-26T14:58:24Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2026-04-25T07:19:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarcais/compact_vector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "refresh-bio/kmc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rizkg/bbhash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

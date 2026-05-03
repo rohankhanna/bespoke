@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huixiancheng/CENet",
+      "target": "ldkong1205/robo3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huixiancheng/CENet",
+      "target": "huixiancheng/senet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huixiancheng/CENet",
+      "target": "halmstad-university/salsanext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huixiancheng/CENet",
+      "target": "chenfengxu714/squeezesegv3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:43.376658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICME 2022] CENet: Toward Concise and Efficient LiDAR Semantic Segmentation for Autonomous Driving",
+    "fork": false,
+    "full_name": "huixiancheng/CENet",
+    "html_url": "https://github.com/huixiancheng/CENet",
+    "language": "Python",
+    "pushed_at": "2023-10-04T09:57:09Z",
+    "stargazers_count": 118,
+    "topics": [],
+    "updated_at": "2026-03-30T08:09:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenfengxu714/squeezesegv3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "halmstad-university/salsanext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huixiancheng/senet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldkong1205/robo3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

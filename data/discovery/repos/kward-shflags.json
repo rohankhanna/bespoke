@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:50:43.085503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "shFlags is a port of the Google gflags library for Unix shell.",
+    "fork": false,
+    "full_name": "kward/shflags",
+    "html_url": "https://github.com/kward/shflags",
+    "language": "Shell",
+    "pushed_at": "2024-06-12T13:05:52Z",
+    "stargazers_count": 303,
+    "topics": [],
+    "updated_at": "2026-01-25T20:48:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

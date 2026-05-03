@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Volar (Fast Vue Language Support) extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> fork from a [vuejs/language-tools/extensions/vscode](https://github.com/vuejs/language-tools/tree/master/extensions/vscode)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> fork from a [vuejs/language-tools/extensions/vscode](https://github.com/vuejs/language-tools/tree/master/extensions/vscode)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "coc-nvim",
+      "sense_id": "coc-nvim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "coc-nvim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "coc-nvim",
+  "observation_id": "59a06b82cafb952f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "coc-nvim",
+  "source_context_snippet": "> fork from a [vuejs/language-tools/extensions/vscode](https://github.com/vuejs/language-tools/tree/master/extensions/vscode)",
+  "source_file": null,
+  "source_repo": "yaegassy/coc-volar",
+  "source_repo_description": "Volar (Fast Vue Language Support) extension for coc.nvim"
+}

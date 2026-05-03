@@ -151,6 +151,18 @@
       "source_repo": "nanxiaobei/hugo-paper",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxalorg/sakura",
+      "status": "candidate-context",
+      "text": ":cherry_blossom: a minimal css framework/theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxalorg/sakura",
+      "status": "candidate-context",
+      "text": "[![npm][npm-image]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
       "source_repo": "nanxiaobei/hugo-paper",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxalorg/sakura",
+      "status": "candidate",
+      "text": "[![npm][npm-image]][npm-url]"
     }
   ],
   "candidate_related_terms": [
@@ -382,11 +400,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "nanxiaobei/hugo-paper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "oxalorg/sakura"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

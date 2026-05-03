@@ -1,0 +1,124 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PeterL1n/RobustVideoMatting",
+      "target": "nvidia/videoprocessingframework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PeterL1n/RobustVideoMatting",
+      "target": "feigechuanshu/ncnn_android_robustvideomatting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PeterL1n/RobustVideoMatting",
+      "target": "deftruth/robustvideomatting.lite.ai.toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterL1n/RobustVideoMatting",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterL1n/RobustVideoMatting",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterL1n/RobustVideoMatting",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterL1n/RobustVideoMatting",
+      "target": "matting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:39:21.554790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Robust Video Matting in PyTorch, TensorFlow, TensorFlow.js, ONNX, CoreML!",
+    "fork": false,
+    "full_name": "PeterL1n/RobustVideoMatting",
+    "html_url": "https://github.com/PeterL1n/RobustVideoMatting",
+    "language": "Python",
+    "pushed_at": "2024-04-02T16:26:48Z",
+    "stargazers_count": 9332,
+    "topics": [
+      "ai",
+      "computer-vision",
+      "deep-learning",
+      "machine-learning",
+      "matting"
+    ],
+    "updated_at": "2026-05-03T13:57:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deftruth/robustvideomatting.lite.ai.toolkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feigechuanshu/ncnn_android_robustvideomatting",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/videoprocessingframework",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Teaser](/documentation/image/teaser.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![Teaser](/documentation/image/teaser.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Teaser](/documentation/image/teaser.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![Teaser](/documentation/image/teaser.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matting"
+    }
+  ]
+}

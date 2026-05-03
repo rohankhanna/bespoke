@@ -229,6 +229,24 @@
       "source_repo": "ionide/tree-sitter-fsharp",
       "status": "candidate-context",
       "text": "tree-sitter grammar for F# (still WIP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-treesitter/nvim-treesitter-textobjects",
+      "status": "candidate-context",
+      "text": "Syntax aware text-objects, select, move, swap, and peek support."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RRethy/nvim-treesitter-textsubjects",
+      "status": "candidate-context",
+      "text": "Location and syntax aware text objects which *do what you mean*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RRethy/nvim-treesitter-textsubjects",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -345,6 +363,18 @@
       "source_repo": "ionide/tree-sitter-fsharp",
       "status": "candidate",
       "text": "tree-sitter grammar for F# (still WIP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-treesitter/nvim-treesitter-textobjects",
+      "status": "candidate",
+      "text": "Syntax aware text-objects, select, move, swap, and peek support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RRethy/nvim-treesitter-textsubjects",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -550,11 +580,41 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "ionide/tree-sitter-fsharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter-grammars/tree-sitter-markdown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nvim-treesitter/nvim-treesitter-textobjects"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "RRethy/nvim-treesitter-textsubjects"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/rocks-treesitter.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lumen-oss/luarocks-build-treesitter-parser"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Weekly Security Scan"
+    "Weekly Security Scan",
+    "Weekly security scan"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "K-Dense-AI/scientific-agent-skills",
       "status": "candidate-context",
       "text": "Weekly Security Scan"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "status": "candidate-context",
+      "text": "Home for Cluster API, a subproject of sig-cluster-lifecycle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "status": "candidate-context",
+      "text": "Weekly security scan"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "K-Dense-AI/scientific-agent-skills",
       "status": "candidate",
       "text": "Weekly Security Scan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "status": "candidate",
+      "text": "Weekly security scan"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19046,
+      "status": "candidate",
+      "text": "read"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19046,
+      "status": "candidate",
+      "text": "scrutiny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19040,
+      "status": "candidate",
+      "text": "payroll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19017,
+      "status": "candidate",
+      "text": "whip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18836,
+      "status": "candidate",
+      "text": "advertise"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Weekly Security Scan",
   "concept_id": "weekly-security-scan",
@@ -40,12 +95,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/security-scan.yml",
       "source_repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/weekly-security-scan.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

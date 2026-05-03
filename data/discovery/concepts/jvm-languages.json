@@ -19,6 +19,18 @@
       "source_repo": "heroku/buildpacks-jvm",
       "status": "candidate-context",
       "text": "[![Cloud Native Buildpacks Registry: heroku/jvm][registry-badge]][registry-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate-context",
+      "text": "Write your shell scripts on the JVM (java, kotlin, groovy, etc.) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate-context",
+      "text": "Blaze by Fizzed"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "heroku/buildpacks-jvm",
       "status": "candidate",
       "text": "[![Cloud Native Buildpacks Registry: heroku/jvm][registry-badge]][registry-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate",
+      "text": "Blaze by Fizzed"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "heroku/buildpacks-jvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fizzed/blaze"
     }
   ],
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

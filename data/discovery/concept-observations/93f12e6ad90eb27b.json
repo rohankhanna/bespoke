@@ -84,7 +84,7 @@
   "normalized_form": "update-codeowners",
   "observation_id": "93f12e6ad90eb27b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Update CODEOWNERs",
   "source_context_snippet": "Update CODEOWNERs",
   "source_file": ".github/workflows/UpdateCodeowners.yml",

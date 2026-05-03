@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zielon/metrical-tracker",
+      "target": "zielon/mica",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Zielon/metrical-tracker",
+      "target": "yhw-yhw/show",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/metrical-tracker",
+      "target": "3dmm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/metrical-tracker",
+      "target": "face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/metrical-tracker",
+      "target": "face-tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/metrical-tracker",
+      "target": "photometric-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Zielon/metrical-tracker",
+      "target": "single-view-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:39:27.020271+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Metrical Monocular Photometric Tracker [ECCV2022]",
+    "fork": false,
+    "full_name": "Zielon/metrical-tracker",
+    "html_url": "https://github.com/Zielon/metrical-tracker",
+    "language": "Python",
+    "pushed_at": "2023-07-23T16:58:45Z",
+    "stargazers_count": 399,
+    "topics": [
+      "3dmm",
+      "face",
+      "face-tracker",
+      "photometric-optimization",
+      "single-view-reconstruction"
+    ],
+    "updated_at": "2026-04-27T05:24:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yhw-yhw/show",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zielon/mica",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h2 align=\"center\"><b>Metrical Photometric Tracker</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dmm"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>Metrical Photometric Tracker</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>Metrical Photometric Tracker</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-tracker"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>Metrical Photometric Tracker</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "photometric-optimization"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\"><b>Metrical Photometric Tracker</b></h2>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-view-reconstruction"
+    }
+  ]
+}

@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "gvergnaud/ts-pattern",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaterializeInc/async-compression",
+      "status": "candidate-context",
+      "text": "Adaptors between compression crates and Rust's async IO types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterializeInc/async-compression",
+      "status": "candidate-context",
+      "text": "exhaustive"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "gvergnaud/ts-pattern",
       "status": "candidate",
       "text": "<h1 align=\"center\">TS-Pattern</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterializeInc/async-compression",
+      "status": "candidate",
+      "text": "exhaustive"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +118,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "gvergnaud/ts-pattern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/exhaustive.yml",
+      "source_repo": "MaterializeInc/async-compression"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -476,7 +476,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
-      "target": "storybookjs/native",
+      "target": "storybookjs/react-native",
       "target_type": "repository"
     },
     {
@@ -497,7 +497,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "storybookjs/storybook",
-      "target": "storybookjs/brand",
+      "target": "storybookjs/test-runner",
       "target_type": "repository"
     },
     {
@@ -879,7 +879,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:00:22.241706+00:00",
+  "fetched_at": "2026-05-03T13:46:07.087127+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -932,7 +932,7 @@
     "html_url": "https://github.com/storybookjs/storybook",
     "language": "TypeScript",
     "pushed_at": "2026-05-02T07:12:42Z",
-    "stargazers_count": 89838,
+    "stargazers_count": 89842,
     "topics": [
       "angular",
       "components",
@@ -955,7 +955,7 @@
       "webpack",
       "workshop"
     ],
-    "updated_at": "2026-05-03T02:45:37Z"
+    "updated_at": "2026-05-03T11:52:11Z"
   },
   "repo_links": [
     {
@@ -970,12 +970,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "storybookjs/brand",
+      "full_name": "storybookjs/react-native",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "storybookjs/native",
+      "full_name": "storybookjs/test-runner",
       "source_file": "README.md"
     }
   ],

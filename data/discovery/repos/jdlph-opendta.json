@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jdlph/OpenDTA",
+      "target": "jdlph/shortest-path-algorithms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jdlph/OpenDTA",
+      "target": "jdlph/miocsv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jdlph/OpenDTA",
+      "target": "jdlph/dtalite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jdlph/OpenDTA",
+      "target": "microsoft/vscode-cmake-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/OpenDTA",
+      "target": "dynamic-traffic-assignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/OpenDTA",
+      "target": "gradient-projection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/OpenDTA",
+      "target": "modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/OpenDTA",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/OpenDTA",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/OpenDTA",
+      "target": "user-equilibrium",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:40.998049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "State-of-the-art open-source applications for Transportation Optimization, Modeling, and Simulation",
+    "fork": false,
+    "full_name": "jdlph/OpenDTA",
+    "html_url": "https://github.com/jdlph/OpenDTA",
+    "language": "C++",
+    "pushed_at": "2025-12-26T23:40:18Z",
+    "stargazers_count": 11,
+    "topics": [
+      "dynamic-traffic-assignment",
+      "gradient-projection",
+      "modeling",
+      "optimization",
+      "simulation",
+      "user-equilibrium"
+    ],
+    "updated_at": "2026-01-06T23:09:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdlph/dtalite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdlph/miocsv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdlph/shortest-path-algorithms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vscode-cmake-tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-traffic-assignment"
+    },
+    {
+      "context_snippet": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradient-projection"
+    },
+    {
+      "context_snippet": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modeling"
+    },
+    {
+      "context_snippet": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "user-equilibrium"
+    }
+  ]
+}

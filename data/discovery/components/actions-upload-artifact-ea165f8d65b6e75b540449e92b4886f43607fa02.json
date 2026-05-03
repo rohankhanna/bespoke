@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -652,6 +652,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "pallets/quart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-matrix.yml",
+      "source_repo": "nrwl/nx"
     }
   ]
 }

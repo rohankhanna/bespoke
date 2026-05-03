@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kward/shunit2",
+      "target": "kward/log4sh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kward/shunit2",
+      "target": "kward/shflags",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:41:00.457984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "shUnit2 is a xUnit based unit test framework for Bourne based shell scripts.",
+    "fork": false,
+    "full_name": "kward/shunit2",
+    "html_url": "https://github.com/kward/shunit2",
+    "language": "Shell",
+    "pushed_at": "2026-03-15T21:14:41Z",
+    "stargazers_count": 1729,
+    "topics": [],
+    "updated_at": "2026-04-29T07:39:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kward/log4sh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kward/shflags",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -96,6 +96,18 @@
       "source_repo": "10up/action-wordpress-plugin-deploy",
       "status": "candidate-context",
       "text": "Automated Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnuernber/charred",
+      "status": "candidate-context",
+      "text": "zero dependency efficient read/write of json and csv data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnuernber/charred",
+      "status": "candidate-context",
+      "text": "Automated tests"
     }
   ],
   "candidate_glosses": [
@@ -140,6 +152,12 @@
       "source_repo": "10up/action-wordpress-plugin-deploy",
       "status": "candidate",
       "text": "Automated Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnuernber/charred",
+      "status": "candidate",
+      "text": "Automated tests"
     }
   ],
   "candidate_related_terms": [
@@ -237,11 +255,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "10up/action-wordpress-plugin-deploy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cnuernber/charred"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

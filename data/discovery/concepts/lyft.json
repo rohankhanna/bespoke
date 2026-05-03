@@ -19,6 +19,18 @@
       "source_repo": "lyft/cni-ipvlan-vpc-k8s",
       "status": "candidate-context",
       "text": "`cni-ipvlan-vpc-k8s` contains a set of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lyft/nuscenes-devkit",
+      "status": "candidate-context",
+      "text": "Devkit for the public 2019 Lyft Level 5 AV Dataset (fork of https://github.com/nutonomy/nuscenes-devkit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lyft/nuscenes-devkit",
+      "status": "candidate-context",
+      "text": "Welcome to the devkit for the [Lyft Level 5 AV dataset](https://level5.lyft.com/dataset/)! This devkit shall help you to visualise and explore our dataset."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lyft/cni-ipvlan-vpc-k8s",
       "status": "candidate",
       "text": "`cni-ipvlan-vpc-k8s` contains a set of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lyft/nuscenes-devkit",
+      "status": "candidate",
+      "text": "Welcome to the devkit for the [Lyft Level 5 AV dataset](https://level5.lyft.com/dataset/)! This devkit shall help you to visualise and explore our dataset."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "lyft/cni-ipvlan-vpc-k8s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lyft/nuscenes-devkit"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

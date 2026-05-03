@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "130nm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate-context",
+      "text": "OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen and custom methodology scripts for design exploration and optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate",
+      "text": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "130nm",
+  "concept_id": "130nm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "130nm",
+      "sense_id": "130nm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

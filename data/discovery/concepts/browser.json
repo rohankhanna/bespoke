@@ -718,6 +718,30 @@
       "source_repo": "isomorphic-git/isomorphic-git",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feross/simple-get",
+      "status": "candidate-context",
+      "text": "Simplest way to make http get requests. Supports HTTPS, redirects, gzip/deflate, streams in < 100 lines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feross/simple-get",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/simple-get/ci/master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filerjs/filer",
+      "status": "candidate-context",
+      "text": "Node-like file system for browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filerjs/filer",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/filer.png?downloads=true&stars=true)](https://nodei.co/npm/filer/)"
     }
   ],
   "candidate_glosses": [
@@ -1074,6 +1098,18 @@
       "source_repo": "isomorphic-git/isomorphic-git",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feross/simple-get",
+      "status": "candidate",
+      "text": "[ci-image]: https://img.shields.io/github/workflow/status/feross/simple-get/ci/master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filerjs/filer",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/filer.png?downloads=true&stars=true)](https://nodei.co/npm/filer/)"
     }
   ],
   "candidate_related_terms": [
@@ -1857,11 +1893,65 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "isomorphic-git/isomorphic-git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Level/levelup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "feross/simple-get"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "filerjs/filer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "browserify/browserify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

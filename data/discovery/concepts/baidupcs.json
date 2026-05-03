@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "baidupcs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qjfoidnh/BaiduPCS-Go",
+      "status": "candidate-context",
+      "text": "iikira/BaiduPCS-Go\u539f\u7248\u57fa\u7840\u4e0a\u96c6\u6210\u4e86\u5206\u4eab\u94fe\u63a5/\u79d2\u4f20\u94fe\u63a5\u8f6c\u5b58\u529f\u80fd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qjfoidnh/BaiduPCS-Go",
+      "status": "candidate-context",
+      "text": "\u4eff Linux shell \u6587\u4ef6\u5904\u7406\u547d\u4ee4\u7684\u767e\u5ea6\u7f51\u76d8\u547d\u4ee4\u884c\u5ba2\u6237\u7aef."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qjfoidnh/BaiduPCS-Go",
+      "status": "candidate",
+      "text": "\u4eff Linux shell \u6587\u4ef6\u5904\u7406\u547d\u4ee4\u7684\u767e\u5ea6\u7f51\u76d8\u547d\u4ee4\u884c\u5ba2\u6237\u7aef."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "baidupcs",
+  "concept_id": "baidupcs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "qjfoidnh/BaiduPCS-Go"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "baidupcs",
+      "sense_id": "baidupcs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

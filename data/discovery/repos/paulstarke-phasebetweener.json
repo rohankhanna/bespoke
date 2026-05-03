@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "paulstarke/PhaseBetweener",
+      "target": "ubisoft/ubisoft-laforge-animation-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulstarke/PhaseBetweener",
+      "target": "animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulstarke/PhaseBetweener",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulstarke/PhaseBetweener",
+      "target": "computer-games",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulstarke/PhaseBetweener",
+      "target": "data-driven-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "paulstarke/PhaseBetweener",
+      "target": "motion-capture",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:39:53.745118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2924
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Creating animation sequences between sparse key frames using motion phase features.",
+    "fork": false,
+    "full_name": "paulstarke/PhaseBetweener",
+    "html_url": "https://github.com/paulstarke/PhaseBetweener",
+    "language": "C++",
+    "pushed_at": "2024-05-23T08:36:09Z",
+    "stargazers_count": 215,
+    "topics": [
+      "animation",
+      "artificial-intelligence",
+      "computer-games",
+      "data-driven-model",
+      "motion-capture"
+    ],
+    "updated_at": "2026-04-27T06:03:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ubisoft/ubisoft-laforge-animation-dataset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Motion In-Betweening with Phase Manifolds**<br >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation"
+    },
+    {
+      "context_snippet": "**Motion In-Betweening with Phase Manifolds**<br >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "**Motion In-Betweening with Phase Manifolds**<br >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-games"
+    },
+    {
+      "context_snippet": "**Motion In-Betweening with Phase Manifolds**<br >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-driven-model"
+    },
+    {
+      "context_snippet": "**Motion In-Betweening with Phase Manifolds**<br >",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-capture"
+    }
+  ]
+}

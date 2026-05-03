@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "seanmiddleditch/gha-setup-ninja@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "fltk-rs/demos",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "fltk-rs/demos",
+      "target": "seanmiddleditch/gha-setup-ninja@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "fltk-rs/demos",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:45:40.321521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7696
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 5694
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repo containing demo apps using the fltk crate",
+    "fork": false,
+    "full_name": "fltk-rs/demos",
+    "html_url": "https://github.com/fltk-rs/demos",
+    "language": "Rust",
+    "pushed_at": "2025-04-01T20:35:46Z",
+    "stargazers_count": 145,
+    "topics": [],
+    "updated_at": "2026-04-10T01:16:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Build"
+    }
+  ]
+}

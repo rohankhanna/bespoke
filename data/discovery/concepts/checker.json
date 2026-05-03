@@ -58,6 +58,18 @@
       "source_repo": "CheckerNetwork/spark-checker",
       "status": "candidate-context",
       "text": "SP Retrieval Checker Module"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "validator/grunt-html",
+      "status": "candidate-context",
+      "text": "Grunt plugin for HTML validation, using the official Nu Html Checker (v.Nu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/grunt-html",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/grunt-html?logo=npm&logoColor=fff)](https://www.npmjs.com/package/grunt-html)"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "CheckerNetwork/spark-checker",
       "status": "candidate",
       "text": "SP Retrieval Checker Module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/grunt-html",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/grunt-html?logo=npm&logoColor=fff)](https://www.npmjs.com/package/grunt-html)"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +184,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "CheckerNetwork/spark-checker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "validator/grunt-html"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

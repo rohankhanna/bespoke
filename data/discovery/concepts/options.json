@@ -31,6 +31,18 @@
       "source_repo": "juharris/dotnet-OptionsProvider",
       "status": "candidate-context",
       "text": "Enables loading configurations from JSON files, YAML files, or your own custom implementations of [`IConfigurationSource`][custom-configuration-provider] to manage options for experiments or different configurations of your service which can overlap or intersect."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloydlau/vue-global-config",
+      "status": "candidate-context",
+      "text": "Configure your Vue 2/3 components globally! (Global Props + Attrs + Listeners + Hooks + Slots)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloydlau/vue-global-config",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "juharris/dotnet-OptionsProvider",
       "status": "candidate",
       "text": "Enables loading configurations from JSON files, YAML files, or your own custom implementations of [`IConfigurationSource`][custom-configuration-provider] to manage options for experiments or different configurations of your service which can overlap or intersect."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloydlau/vue-global-config",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "juharris/dotnet-OptionsProvider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cloydlau/vue-global-config"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

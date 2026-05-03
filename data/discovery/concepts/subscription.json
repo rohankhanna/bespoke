@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "subscription"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "status": "candidate-context",
+      "text": "TX-UI Panel Subscription Page Templates Designed By TX Community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "status": "candidate-context",
+      "text": "TX-UI Panel Subscription Page Templates Designed By TX Community."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "status": "candidate",
+      "text": "TX-UI Panel Subscription Page Templates Designed By TX Community."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880617,
+      "status": "candidate",
+      "text": "subscribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880556,
+      "status": "candidate",
+      "text": "sign-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880422,
+      "status": "candidate",
+      "text": "subscribing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880376,
+      "status": "candidate",
+      "text": "registration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880343,
+      "status": "candidate",
+      "text": "register"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "subscription",
+  "concept_id": "subscription",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "AghayeCoder/TX-ThemeHub"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "subscription",
+      "sense_id": "subscription#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

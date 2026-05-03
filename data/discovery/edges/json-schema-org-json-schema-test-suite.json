@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "cesanta/validate-json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "bugventure/request-validator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "bugventure/jsen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "ajevans99/swift-json-schema",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/annotation-tests.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/annotation-tests.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/annotation-tests.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "Validate annotation tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "Test Suite Sanity Checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependencies.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "gregsdennis/dependencies-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-dependencies.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "Check PR Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/show_specification_annotations.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/show_specification_annotations.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/show_specification_annotations.yml",
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "Show Specification Annotations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "json-schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "json-schema-org/JSON-Schema-Test-Suite",
+      "target": "jsonschema",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "json-schema-org/JSON-Schema-Test-Suite"
+}

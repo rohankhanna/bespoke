@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "udacity/FEF-UdaciMeals-Backbone",
+      "target": "udacity/fef-udacimeals-backbone-server",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:43:54.550499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 826
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "udacity/FEF-UdaciMeals-Backbone",
+    "html_url": "https://github.com/udacity/FEF-UdaciMeals-Backbone",
+    "language": "JavaScript",
+    "pushed_at": "2021-10-21T13:33:14Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2024-03-12T03:52:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "udacity/fef-udacimeals-backbone-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

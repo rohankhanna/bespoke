@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leofansq/SCF-Net",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leofansq/SCF-Net",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leofansq/SCF-Net",
+      "target": "scene-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "leofansq/SCF-Net",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:47:27.056231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5842
+    },
+    {
+      "path": "requirements.txt",
+      "size": 127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2021] SCF-Net: Learning Spatial Contextual Features for Large-Scale Point Cloud Segmentation",
+    "fork": false,
+    "full_name": "leofansq/SCF-Net",
+    "html_url": "https://github.com/leofansq/SCF-Net",
+    "language": "C++",
+    "pushed_at": "2023-04-22T15:55:50Z",
+    "stargazers_count": 87,
+    "topics": [
+      "autonomous-driving",
+      "point-cloud",
+      "scene-understanding",
+      "semantic-segmentation"
+    ],
+    "updated_at": "2026-01-08T02:04:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-semantic3d)](https://paperswithcode.com/sota/semantic-segmentation-on-semantic3d?p=scf-net-learning-spatial-contextual-features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-semantic3d)](https://paperswithcode.com/sota/semantic-segmentation-on-semantic3d?p=scf-net-learning-spatial-contextual-features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-semantic3d)](https://paperswithcode.com/sota/semantic-segmentation-on-semantic3d?p=scf-net-learning-spatial-contextual-features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-understanding"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-semantic3d)](https://paperswithcode.com/sota/semantic-segmentation-on-semantic3d?p=scf-net-learning-spatial-contextual-features)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    }
+  ]
+}

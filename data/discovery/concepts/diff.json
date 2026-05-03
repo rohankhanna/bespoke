@@ -166,6 +166,30 @@
       "source_repo": "cargo-public-api/cargo-public-api",
       "status": "candidate-context",
       "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "primer/github-vscode-theme",
+      "status": "candidate-context",
+      "text": "GitHub's VS Code themes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "primer/github-vscode-theme",
+      "status": "candidate-context",
+      "text": "Diff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juji-io/editscript",
+      "status": "candidate-context",
+      "text": "A library to diff and patch Clojure/ClojureScript data structures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juji-io/editscript",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>"
     }
   ],
   "candidate_glosses": [
@@ -246,6 +270,18 @@
       "source_repo": "cargo-public-api/cargo-public-api",
       "status": "candidate",
       "text": "List and diff the public API of Rust library crates between releases and commits. Detect breaking API changes and semver violations via CI or a CLI. Relies on and automatically builds [rustdoc JSON](https://github.com/rust-lang/rust/issues/76578), for which a recent version of t\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "primer/github-vscode-theme",
+      "status": "candidate",
+      "text": "Diff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juji-io/editscript",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"editscript logo\" height=\"140\"></img></p>"
     }
   ],
   "candidate_related_terms": [
@@ -379,11 +415,23 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": null,
       "source_repo": "cargo-public-api/cargo-public-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "primer/github-vscode-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "juji-io/editscript"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "MOZGIII/install-ldid-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "lapce/lapce-plugin-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "panekj/lapce-plugin-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "MOZGIII/install-ldid-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "docker/setup-qemu-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "lapce-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "lapce-volar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "lapce-volt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiaoxin-sky/lapce-vue",
+      "target": "lapce-vue",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:41:29.839082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1086
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 551
+    },
+    {
+      "path": "Dockerfile",
+      "size": 17
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1696
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 897
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lapce vue plugin, support vue (SFC) syntax highlight, autocomplate,types check",
+    "fork": false,
+    "full_name": "xiaoxin-sky/lapce-vue",
+    "html_url": "https://github.com/xiaoxin-sky/lapce-vue",
+    "language": "Rust",
+    "pushed_at": "2022-11-30T01:53:36Z",
+    "stargazers_count": 43,
+    "topics": [
+      "lapce-plugin",
+      "lapce-volar",
+      "lapce-volt",
+      "lapce-vue",
+      "vue"
+    ],
+    "updated_at": "2025-11-19T02:50:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lapce/lapce-plugin-rust",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "panekj/lapce-plugin-rust",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "![vue Plugin for lapce](https://raw.githubusercontent.com/xiaoxin-sky/lapce-vue/master/image/lps.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lapce-plugin"
+    },
+    {
+      "context_snippet": "![vue Plugin for lapce](https://raw.githubusercontent.com/xiaoxin-sky/lapce-vue/master/image/lps.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lapce-volar"
+    },
+    {
+      "context_snippet": "![vue Plugin for lapce](https://raw.githubusercontent.com/xiaoxin-sky/lapce-vue/master/image/lps.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lapce-volt"
+    },
+    {
+      "context_snippet": "![vue Plugin for lapce](https://raw.githubusercontent.com/xiaoxin-sky/lapce-vue/master/image/lps.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lapce-vue"
+    }
+  ]
+}

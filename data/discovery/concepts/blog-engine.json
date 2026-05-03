@@ -67,6 +67,18 @@
       "source_repo": "getzola/zola",
       "status": "candidate-context",
       "text": "[![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build/latest?definitionId=1&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "11ty/eleventy",
+      "status": "candidate-context",
+      "text": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "11ty/eleventy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://www.11ty.dev/img/logo-github.svg\" width=\"200\" height=\"200\" alt=\"eleventy Logo\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "getzola/zola",
       "status": "candidate",
       "text": "[![Build Status](https://dev.azure.com/getzola/zola/_apis/build/status/getzola.zola?branchName=master)](https://dev.azure.com/getzola/zola/_build/latest?definitionId=1&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "11ty/eleventy",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://www.11ty.dev/img/logo-github.svg\" width=\"200\" height=\"200\" alt=\"eleventy Logo\"></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "getzola/zola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "11ty/eleventy"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

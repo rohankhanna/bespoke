@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.23.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "dimforge/rapier",
+      "target": "bastacyclop/rust_box2d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "dimforge/rapier",
+      "target": "sebcrozet/kiss3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "dimforge/rapier",
+      "target": "embarkstudios/puffin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "dimforge/rapier",
+      "target": "tedsteen/puffin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rapier-ci-bench.yml",
+      "source_repo": "dimforge/rapier",
+      "target": "Rapier CI bench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml",
+      "source_repo": "dimforge/rapier",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml",
+      "source_repo": "dimforge/rapier",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rapier-ci-build.yml",
+      "source_repo": "dimforge/rapier",
+      "target": "crate-ci/typos@v1.23.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rapier-ci-build.yml",
+      "source_repo": "dimforge/rapier",
+      "target": "Rapier CI build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:39:22.985484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2742
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3783
+    },
+    {
+      "path": ".github/workflows/rapier-ci-bench.yml",
+      "size": 1612
+    },
+    {
+      "path": ".github/workflows/rapier-ci-build.yml",
+      "size": 5811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "2D and 3D physics engines focused on performance.",
+    "fork": false,
+    "full_name": "dimforge/rapier",
+    "html_url": "https://github.com/dimforge/rapier",
+    "language": "Rust",
+    "pushed_at": "2026-04-15T12:40:49Z",
+    "stargazers_count": 5335,
+    "topics": [],
+    "updated_at": "2026-05-03T11:24:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bastacyclop/rust_box2d",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "embarkstudios/puffin",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sebcrozet/kiss3d",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tedsteen/puffin",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rapier CI bench",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rapier-ci-bench.yml",
+      "term": "Rapier CI bench"
+    },
+    {
+      "context_snippet": "Rapier CI build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rapier-ci-build.yml",
+      "term": "Rapier CI build"
+    }
+  ]
+}

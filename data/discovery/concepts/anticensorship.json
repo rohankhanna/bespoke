@@ -67,6 +67,18 @@
       "source_repo": "hufrea/byedpi",
       "status": "candidate-context",
       "text": "Implementation of some DPI bypass methods."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate-context",
+      "text": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate-context",
+      "text": "[Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "hufrea/byedpi",
       "status": "candidate",
       "text": "Implementation of some DPI bypass methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate",
+      "text": "[Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY)."
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "hufrea/byedpi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "XTLS/Xray-core"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

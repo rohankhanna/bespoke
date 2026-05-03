@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "@swissquote/crafty",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@swissquote/crafty-preset-postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@swissquote/crafty-runner-gulp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Overv/daux.io",
+      "target": "@swissquote/crafty",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Overv/daux.io",
+      "target": "@swissquote/crafty-preset-postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Overv/daux.io",
+      "target": "@swissquote/crafty-runner-gulp",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:45:59.648032+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9158
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1367
+    },
+    {
+      "path": "package.json",
+      "size": 422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "vulkan-tutorial",
+    "description": "Daux.io main repository",
+    "fork": true,
+    "full_name": "Overv/daux.io",
+    "html_url": "https://github.com/Overv/daux.io",
+    "language": "PHP",
+    "pushed_at": "2025-08-02T10:15:03Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-08-02T10:15:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

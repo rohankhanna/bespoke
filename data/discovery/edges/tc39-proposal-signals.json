@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/proposal-signals",
-      "target": "proposal-signals/signal-polyfill",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-signals",
       "target": "proposal-signals/proposal-signals",
       "target_type": "repository"
     },
@@ -18,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/proposal-signals",
-      "target": "tc39/proposal-async-context",
+      "target": "nullvoxpopuli/signal-utils",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/proposal-signals",
-      "target": "nullvoxpopuli/signal-utils",
+      "target": "tracked-tools/tracked-built-ins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "tc39/proposal-signals",
+      "target": "proposal-signals/proposal-signals",
       "target_type": "repository"
     },
     {
@@ -92,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "tc39/proposal-signals"
 }

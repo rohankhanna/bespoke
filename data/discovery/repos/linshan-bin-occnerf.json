@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LinShan-Bin/OccNeRF",
+      "target": "pmj110119/renderocc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:51.155005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7578
+    },
+    {
+      "path": "requirements.txt",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code of \"OccNeRF: Advancing 3D Occupancy Prediction in LiDAR-Free Environments\".",
+    "fork": false,
+    "full_name": "LinShan-Bin/OccNeRF",
+    "html_url": "https://github.com/LinShan-Bin/OccNeRF",
+    "language": "Python",
+    "pushed_at": "2025-06-05T06:55:31Z",
+    "stargazers_count": 358,
+    "topics": [],
+    "updated_at": "2026-04-01T12:29:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pmj110119/renderocc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

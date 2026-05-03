@@ -19,12 +19,30 @@
       "source_repo": "msgpack/msgpack-java",
       "status": "candidate-context",
       "text": "Release Note"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xerial/snappy-java",
+      "status": "candidate-context",
+      "text": "Snappy compressor/decompressor for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xerial/snappy-java",
+      "status": "candidate-context",
+      "text": "Release Note"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "msgpack/msgpack-java",
+      "status": "candidate",
+      "text": "Release Note"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xerial/snappy-java",
       "status": "candidate",
       "text": "Release Note"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/release-note.yml",
       "source_repo": "msgpack/msgpack-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/release-note.yml",
+      "source_repo": "xerial/snappy-java"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

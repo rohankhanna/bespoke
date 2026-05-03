@@ -68,21 +68,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternScience/GraphGen",
-      "target": "haonan-li/cmmlu",
+      "target": "kuzudb/kuzu",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternScience/GraphGen",
-      "target": "hkuds/lightrag",
+      "target": "idavidrein/gpqa",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "InternScience/GraphGen",
-      "target": "eosphoros-ai/db-gpt",
+      "target": "jind11/medqa",
       "target_type": "repository"
     },
     {
@@ -282,7 +282,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:49:06.450115+00:00",
+  "fetched_at": "2026-05-03T15:35:41.624389+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -335,7 +335,7 @@
     "html_url": "https://github.com/InternScience/GraphGen",
     "language": "Python",
     "pushed_at": "2026-04-13T12:09:50Z",
-    "stargazers_count": 1026,
+    "stargazers_count": 1030,
     "topics": [
       "ai4science",
       "data-generation",
@@ -354,19 +354,9 @@
       "sft-data",
       "xtuner"
     ],
-    "updated_at": "2026-04-23T15:26:20Z"
+    "updated_at": "2026-05-01T22:02:40Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eosphoros-ai/db-gpt",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "haonan-li/cmmlu",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "hiyouga/llama-factory",
@@ -374,7 +364,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hkuds/lightrag",
+      "full_name": "idavidrein/gpqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jind11/medqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kuzudb/kuzu",
       "source_file": "README.md"
     }
   ],

@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T02:44:53.718651+00:00",
+  "fetched_at": "2026-05-03T14:31:37.818790+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -103,7 +103,7 @@
     "html_url": "https://github.com/confluentinc/librdkafka",
     "language": "C",
     "pushed_at": "2026-04-30T13:48:01Z",
-    "stargazers_count": 971,
+    "stargazers_count": 972,
     "topics": [
       "apache-kafka",
       "c",
@@ -115,7 +115,7 @@
       "kafka-producer",
       "librdkafka"
     ],
-    "updated_at": "2026-05-01T10:56:04Z"
+    "updated_at": "2026-05-03T06:33:22Z"
   },
   "repo_links": [
     {

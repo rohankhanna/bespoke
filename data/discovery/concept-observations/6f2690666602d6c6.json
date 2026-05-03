@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An Easy and Unified Interface for Robots (and Grippers, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"assets/easyrobot.png\" alt=\"easyrobot\" height=200 />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"assets/easyrobot.png\" alt=\"easyrobot\" height=200 />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31526,
+      "status": "candidate",
+      "text": "talons"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31524,
+      "status": "candidate",
+      "text": "grip strength"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31523,
+      "status": "candidate",
+      "text": "hook grip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31522,
+      "status": "candidate",
+      "text": "strength training"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31521,
+      "status": "candidate",
+      "text": "compressive strength"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "grippers",
+      "sense_id": "grippers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "grippers",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "grippers",
+  "observation_id": "6f2690666602d6c6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "grippers",
+  "source_context_snippet": "<img src=\"assets/easyrobot.png\" alt=\"easyrobot\" height=200 />",
+  "source_file": null,
+  "source_repo": "Galaxies99/easyrobot",
+  "source_repo_description": "An Easy and Unified Interface for Robots (and Grippers, etc.)"
+}

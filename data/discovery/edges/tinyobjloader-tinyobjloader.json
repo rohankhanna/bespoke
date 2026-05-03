@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinyobjloader/tinyobjloader",
-      "target": "erwincoumans/bullet3",
+      "target": "iorange/rtxon",
       "target_type": "repository"
     },
     {
@@ -18,7 +18,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tinyobjloader/tinyobjloader",
-      "target": "cocos2d/cocos2d-x",
+      "target": "karimnaaji/voxelizer",
       "target_type": "repository"
     },
     {
@@ -120,6 +120,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-30T12:45:20.475770+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "tinyobjloader/tinyobjloader"
 }

@@ -1,0 +1,110 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repositories.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repositories.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gentoo/api-gentoo-org",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gentoo/api-gentoo-org",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repositories.yml",
+      "source_repo": "gentoo/api-gentoo-org",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repositories.yml",
+      "source_repo": "gentoo/api-gentoo-org",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repositories.yml",
+      "source_repo": "gentoo/api-gentoo-org",
+      "target": "repositories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gentoo/api-gentoo-org",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:43:51.618656+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 463
+    },
+    {
+      "path": ".github/workflows/repositories.yml",
+      "size": 662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[MIRROR] Seed data for api.gentoo.org",
+    "fork": false,
+    "full_name": "gentoo/api-gentoo-org",
+    "html_url": "https://github.com/gentoo/api-gentoo-org",
+    "language": "Python",
+    "pushed_at": "2026-05-02T05:14:53Z",
+    "stargazers_count": 55,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-05-02T05:14:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "repositories",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repositories.yml",
+      "term": "repositories"
+    },
+    {
+      "context_snippet": "CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "apidoc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-recommended",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt-contrib-clean",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grunt",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apidoc/grunt-apidoc",
+      "target": "apidoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apidoc/grunt-apidoc",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apidoc/grunt-apidoc",
+      "target": "eslint-config-recommended",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apidoc/grunt-apidoc",
+      "target": "eslint-config-standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apidoc/grunt-apidoc",
+      "target": "eslint-plugin-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apidoc/grunt-apidoc",
+      "target": "grunt-contrib-clean",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "apidoc/grunt-apidoc",
+      "target": "grunt",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:42:06.997335+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1724
+    },
+    {
+      "path": "package.json",
+      "size": 1029
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Grunt task to generate a RESTful API Documentation with apidoc",
+    "fork": false,
+    "full_name": "apidoc/grunt-apidoc",
+    "html_url": "https://github.com/apidoc/grunt-apidoc",
+    "language": "JavaScript",
+    "pushed_at": "2023-06-11T18:45:38Z",
+    "stargazers_count": 146,
+    "topics": [],
+    "updated_at": "2026-04-26T08:44:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -202,6 +202,30 @@
       "source_repo": "caryll/otfcc",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rhysd/vim-clang-format",
+      "status": "candidate-context",
+      "text": "Vim plugin for clang-format, a formatter for C, C++, Obj-C, Java, JavaScript, and so on."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/vim-clang-format",
+      "status": "candidate-context",
+      "text": "Format your C family code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/Cxx.jl",
+      "status": "candidate-context",
+      "text": "The Julia C++ Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/Cxx.jl",
+      "status": "candidate-context",
+      "text": "**Please, note that Cxx.jl only works (out of the box) currently with Julia 1.1.x to 1.3.x, i.e. with no currently supported Julia, while those versions can still be downloaded at Julialang.org.**"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +324,18 @@
       "source_repo": "caryll/otfcc",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/caryll/design/master/caryll-logo-libs-githubreadme.png\" width=200></p><h1 align=\"center\">otfcc</h1><p align=\"center\"><a target=\"_blank\" href=\"https://travis-ci.org/caryll/otfcc\"><img src=\"https://travis-ci.org/caryll/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/vim-clang-format",
+      "status": "candidate",
+      "text": "Format your C family code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/Cxx.jl",
+      "status": "candidate",
+      "text": "**Please, note that Cxx.jl only works (out of the box) currently with Julia 1.1.x to 1.3.x, i.e. with no currently supported Julia, while those versions can still be downloaded at Julialang.org.**"
     }
   ],
   "candidate_related_terms": [
@@ -511,11 +547,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "caryll/otfcc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rhysd/vim-clang-format"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/Cxx.jl"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

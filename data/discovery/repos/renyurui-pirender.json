@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RenYurui/PIRender",
+      "target": "sicxu/deep3dfacerecon_pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:41.427475+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7066
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1193
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The source code of the ICCV2021 paper \"PIRenderer: Controllable Portrait Image Generation via Semantic Neural Rendering\"",
+    "fork": false,
+    "full_name": "RenYurui/PIRender",
+    "html_url": "https://github.com/RenYurui/PIRender",
+    "language": "Python",
+    "pushed_at": "2022-01-05T04:13:42Z",
+    "stargazers_count": 551,
+    "topics": [],
+    "updated_at": "2026-03-11T02:57:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sicxu/deep3dfacerecon_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

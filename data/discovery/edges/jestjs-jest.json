@@ -592,7 +592,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "jestjs/jest",
-      "target": "dessant/lock-threads@1bf7ec25051fe7c00bdd17e6a7cf3d7bfb7dc771",
+      "target": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
       "target_type": "component"
     },
     {
@@ -641,7 +641,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "jestjs/jest",
-      "target": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "target": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
       "target_type": "component"
     },
     {
@@ -725,7 +725,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test-nightly.yml",
       "source_repo": "jestjs/jest",
-      "target": "nick-fields/retry@ce71cc2ab81d554ebbe88c79ab5975992d79ba08",
+      "target": "nick-fields/retry@ad984534de44a9489a53aefd81eb77f87c70dc60",
       "target_type": "component"
     },
     {
@@ -792,6 +792,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "jestjs/jest"
 }

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuliangguo/Pytorch_Generalized_3D_Lane_Detection",
+      "target": "yuliangguo/3d_lane_synthetic_dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuliangguo/Pytorch_Generalized_3D_Lane_Detection",
+      "target": "yuliangguo/codes-for-lane-detection",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:57.393024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8931
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ECCV 2020] Official PyTorch implementation of \"Gen-LaneNet: a generalized and scalable approach for 3D lane detection\"",
+    "fork": false,
+    "full_name": "yuliangguo/Pytorch_Generalized_3D_Lane_Detection",
+    "html_url": "https://github.com/yuliangguo/Pytorch_Generalized_3D_Lane_Detection",
+    "language": "Python",
+    "pushed_at": "2022-08-02T17:52:30Z",
+    "stargazers_count": 329,
+    "topics": [],
+    "updated_at": "2026-04-12T13:56:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuliangguo/3d_lane_synthetic_dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuliangguo/codes-for-lane-detection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

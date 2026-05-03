@@ -1,0 +1,354 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml"
+    },
+    {
+      "component": "EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-golangci-lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-golangci-lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-golangci-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-md-link-check.yaml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@3c3b66f1f7d0900e37b71eca45b63ea9eedfce31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-md-link-check.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-verify.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-md-link-check.yaml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@3c3b66f1f7d0900e37b71eca45b63ea9eedfce31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-md-link-check.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-security-scan.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-security-scan.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-dependabot.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-golangci-lint.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-golangci-lint.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-golangci-lint.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-golangci-lint.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "PR golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-md-link-check.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-md-link-check.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "gaurav-nelson/github-action-markdown-link-check@3c3b66f1f7d0900e37b71eca45b63ea9eedfce31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-verify.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-verify.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "PR title verifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-md-link-check.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-md-link-check.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "gaurav-nelson/github-action-markdown-link-check@3c3b66f1f7d0900e37b71eca45b63ea9eedfce31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-security-scan.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/weekly-security-scan.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-security-scan.yaml",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "Weekly security scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "target": "k8s-sig-cluster-lifecycle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:39:20.903387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4232
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2549
+    },
+    {
+      "path": "go.mod",
+      "size": 7293
+    },
+    {
+      "path": ".github/workflows/pr-dependabot.yaml",
+      "size": 1597
+    },
+    {
+      "path": ".github/workflows/pr-golangci-lint.yaml",
+      "size": 1039
+    },
+    {
+      "path": ".github/workflows/pr-md-link-check.yaml",
+      "size": 666
+    },
+    {
+      "path": ".github/workflows/pr-verify.yaml",
+      "size": 424
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 4814
+    },
+    {
+      "path": ".github/workflows/weekly-md-link-check.yaml",
+      "size": 738
+    },
+    {
+      "path": ".github/workflows/weekly-security-scan.yaml",
+      "size": 876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Home for Cluster API, a subproject of sig-cluster-lifecycle",
+    "fork": false,
+    "full_name": "kubernetes-sigs/cluster-api",
+    "html_url": "https://github.com/kubernetes-sigs/cluster-api",
+    "language": "Go",
+    "pushed_at": "2026-04-30T20:11:24Z",
+    "stargazers_count": 4198,
+    "topics": [
+      "k8s-sig-cluster-lifecycle"
+    ],
+    "updated_at": "2026-05-02T15:49:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PR golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-golangci-lint.yaml",
+      "term": "PR golangci-lint"
+    },
+    {
+      "context_snippet": "PR title verifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-verify.yaml",
+      "term": "PR title verifier"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "Weekly security scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/weekly-security-scan.yaml",
+      "term": "Weekly security scan"
+    },
+    {
+      "context_snippet": "<a href=\"https://cluster-api.sigs.k8s.io\"><img alt=\"capi\" src=\"./logos/kubernetes-cluster-logos_final-02.svg\" width=\"160x\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-cluster-lifecycle"
+    }
+  ]
+}

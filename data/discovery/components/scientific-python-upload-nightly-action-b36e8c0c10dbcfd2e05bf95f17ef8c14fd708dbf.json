@@ -1,0 +1,12 @@
+{
+  "component": "scientific-python/upload-nightly-action@b36e8c0c10dbcfd2e05bf95f17ef8c14fd708dbf",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheel-build.yaml",
+      "source_repo": "scikit-image/scikit-image"
+    }
+  ]
+}

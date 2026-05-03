@@ -167,6 +167,18 @@
       "source_repo": "robotology-legacy/gym-ignition",
       "status": "candidate-context",
       "text": "Code Style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robustmq/robustmq",
+      "status": "candidate-context",
+      "text": "Communication infrastructure for the AI era \u2014 one binary, one broker, one storage layer, any protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robustmq/robustmq",
+      "status": "candidate-context",
+      "text": "Code Style"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +257,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "robotology-legacy/gym-ignition",
+      "status": "candidate",
+      "text": "Code Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robustmq/robustmq",
       "status": "candidate",
       "text": "Code Style"
     }
@@ -380,11 +398,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/style.yml",
       "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "robustmq/robustmq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "robotology-legacy/gym-ignition"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

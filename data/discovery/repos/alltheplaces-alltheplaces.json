@@ -1,0 +1,421 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-failed-auto-prs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dead-spider-killer.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dead-spider-killer.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "aws-actions/amazon-ecr-login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-pr.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-requires-proxy.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-requires-proxy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tycheck-pr.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tycheck-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vendor-nsi.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vendor-nsi.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vendor-nsi.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "felt/tippecanoe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "iandees/scrapy-camoufox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-failed-auto-prs.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-failed-auto-prs.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Auto-close failed remove-requires-proxy PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dead-spider-killer.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dead-spider-killer.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dead-spider-killer.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Dead Spider Killer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "aws-actions/amazon-ecr-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Build and Push Image to ECR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Run pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-requires-proxy.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-requires-proxy.yml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tycheck-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tycheck-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tycheck-pr.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Run ty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vendor-nsi.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vendor-nsi.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vendor-nsi.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vendor-nsi.yaml",
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "Vendor NSI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "geojson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "scrapers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "scrapy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alltheplaces/alltheplaces",
+      "target": "spider",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:45:27.834618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6093
+    },
+    {
+      "path": "Dockerfile",
+      "size": 881
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1272
+    },
+    {
+      "path": ".github/workflows/auto-close-failed-auto-prs.yml",
+      "size": 2901
+    },
+    {
+      "path": ".github/workflows/dead-spider-killer.yml",
+      "size": 1027
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 1013
+    },
+    {
+      "path": ".github/workflows/pytest-pr.yaml",
+      "size": 419
+    },
+    {
+      "path": ".github/workflows/remove-requires-proxy.yml",
+      "size": 749
+    },
+    {
+      "path": ".github/workflows/tycheck-pr.yaml",
+      "size": 436
+    },
+    {
+      "path": ".github/workflows/vendor-nsi.yaml",
+      "size": 786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A set of spiders and scrapers to extract location information from places that post their location on the internet.",
+    "fork": false,
+    "full_name": "alltheplaces/alltheplaces",
+    "html_url": "https://github.com/alltheplaces/alltheplaces",
+    "language": "Python",
+    "pushed_at": "2026-05-03T09:20:37Z",
+    "stargazers_count": 778,
+    "topics": [
+      "geojson",
+      "hacktoberfest",
+      "python",
+      "scrapers",
+      "scrapy",
+      "spider"
+    ],
+    "updated_at": "2026-05-03T13:45:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "felt/tippecanoe",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iandees/scrapy-camoufox",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-close failed remove-requires-proxy PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-failed-auto-prs.yml",
+      "term": "Auto-close failed remove-requires-proxy PRs"
+    },
+    {
+      "context_snippet": "Dead Spider Killer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dead-spider-killer.yml",
+      "term": "Dead Spider Killer"
+    },
+    {
+      "context_snippet": "Build and Push Image to ECR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Build and Push Image to ECR"
+    },
+    {
+      "context_snippet": "Run pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-pr.yaml",
+      "term": "Run pytest"
+    },
+    {
+      "context_snippet": "Run ty",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tycheck-pr.yaml",
+      "term": "Run ty"
+    },
+    {
+      "context_snippet": "Vendor NSI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vendor-nsi.yaml",
+      "term": "Vendor NSI"
+    },
+    {
+      "context_snippet": "A project to generate [point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) data sourced [from websites](docs/WHY_SPIDER.md) with 'store location' pages. The project uses [`scrapy`](https://scrapy.org/), a popular Python-based web scraping framework, to exec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geojson"
+    },
+    {
+      "context_snippet": "A project to generate [point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) data sourced [from websites](docs/WHY_SPIDER.md) with 'store location' pages. The project uses [`scrapy`](https://scrapy.org/), a popular Python-based web scraping framework, to exec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "A project to generate [point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) data sourced [from websites](docs/WHY_SPIDER.md) with 'store location' pages. The project uses [`scrapy`](https://scrapy.org/), a popular Python-based web scraping framework, to exec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrapers"
+    },
+    {
+      "context_snippet": "A project to generate [point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) data sourced [from websites](docs/WHY_SPIDER.md) with 'store location' pages. The project uses [`scrapy`](https://scrapy.org/), a popular Python-based web scraping framework, to exec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scrapy"
+    },
+    {
+      "context_snippet": "A project to generate [point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) data sourced [from websites](docs/WHY_SPIDER.md) with 'store location' pages. The project uses [`scrapy`](https://scrapy.org/), a popular Python-based web scraping framework, to exec\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spider"
+    }
+  ]
+}

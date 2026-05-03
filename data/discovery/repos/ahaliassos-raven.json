@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:44:39.182682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of RAVEn (ICLR 2023) and BRAVEn (ICASSP 2024)",
+    "fork": false,
+    "full_name": "ahaliassos/raven",
+    "html_url": "https://github.com/ahaliassos/raven",
+    "language": "Python",
+    "pushed_at": "2025-02-27T00:06:14Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-16T02:05:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

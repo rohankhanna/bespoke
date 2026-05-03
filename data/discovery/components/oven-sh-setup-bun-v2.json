@@ -1,7 +1,7 @@
 {
   "component": "oven-sh/setup-bun@v2",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -997,6 +997,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "rapideditor/temaki"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-commit.yml",
+      "source_repo": "osmlab/name-suggestion-index"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "osmlab/name-suggestion-index"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "h3js/crossws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-size.yml",
+      "source_repo": "unjs/unhead"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/write-bundle-size.yml",
+      "source_repo": "unjs/unhead"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/FissionBiome.yml",
+      "source_repo": "Autodesk/synthesis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/FissionBuild.yml",
+      "source_repo": "Autodesk/synthesis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/FissionPackage.yml",
+      "source_repo": "Autodesk/synthesis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/FusionWebUI.yml",
+      "source_repo": "Autodesk/synthesis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "carbon-design-system/carbon-components-svelte"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "carbon-design-system/carbon-components-svelte"
     }
   ]
 }

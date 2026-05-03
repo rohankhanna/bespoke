@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_Unity",
+      "target": "mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_Unity",
+      "target": "mixed-reality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_Unity",
+      "target": "nerf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_Unity",
+      "target": "neural-radiance-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_Unity",
+      "target": "unity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_Unity",
+      "target": "volume-rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:09.940450+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unity project for nerf_pl (Neural Radiance Fields)",
+    "fork": false,
+    "full_name": "kwea123/nerf_Unity",
+    "html_url": "https://github.com/kwea123/nerf_Unity",
+    "language": "C#",
+    "pushed_at": "2021-11-03T09:01:41Z",
+    "stargazers_count": 220,
+    "topics": [
+      "mesh",
+      "mixed-reality",
+      "nerf",
+      "neural-radiance-fields",
+      "unity",
+      "volume-rendering"
+    ],
+    "updated_at": "2026-02-25T18:27:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesh"
+    },
+    {
+      "context_snippet": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixed-reality"
+    },
+    {
+      "context_snippet": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    },
+    {
+      "context_snippet": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-radiance-fields"
+    },
+    {
+      "context_snippet": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    },
+    {
+      "context_snippet": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volume-rendering"
+    }
+  ]
+}

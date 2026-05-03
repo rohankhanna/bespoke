@@ -2211,6 +2211,186 @@
       "source_repo": "alibaba/ice",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdx-js/mdx",
+      "status": "candidate-context",
+      "text": "Markdown for the component era"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdx-js/mdx",
+      "status": "candidate-context",
+      "text": "monorepo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon",
+      "status": "candidate-context",
+      "text": "A design system built by IBM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate-context",
+      "text": "Add redux, emotion-js and other useful libraries like react-router in top of create-react-app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "feathericons/react-feather",
+      "status": "candidate-context",
+      "text": "React component for Feather icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feathericons/react-feather",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/react-feather.svg?style=flat-square)](https://www.npmjs.com/package/react-feather)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/BizCharts",
+      "status": "candidate-context",
+      "text": "Powerful data visualization library based on G2 and React."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/BizCharts",
+      "status": "candidate-context",
+      "text": "\u4eb2\u7231\u7684\u7528\u6237\u670b\u53cb\u4eec\uff1a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElemeFE/element-react",
+      "status": "candidate-context",
+      "text": "Element UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElemeFE/element-react",
+      "status": "candidate-context",
+      "text": "[![](https://travis-ci.org/eleme/element-react.svg?branch=master)](https://travis-ci.org/eleme/element-react)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enzymejs/enzyme",
+      "status": "candidate-context",
+      "text": "JavaScript Testing utilities for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzymejs/enzyme",
+      "status": "candidate-context",
+      "text": "Enzyme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate-context",
+      "text": "An integration test framework for React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/swr",
+      "status": "candidate-context",
+      "text": "React Hooks for Data Fetching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/swr",
+      "status": "candidate-context",
+      "text": "[![SWR](https://assets.vercel.com/image/upload/v1572289618/swr/banner.png)](https://swr.vercel.app)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "JavaScript implementation of Project Fluent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate-context",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testing-library/testing-library-docs",
+      "status": "candidate-context",
+      "text": "docs site for @testing-library/*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/testing-library-docs",
+      "status": "candidate-context",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "omnidan/redux-undo",
+      "status": "candidate-context",
+      "text": ":recycle: higher order reducer to add undo/redo functionality to redux state containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omnidan/redux-undo",
+      "status": "candidate-context",
+      "text": "> \u26a0\ufe0f **Project Status: Not Actively Maintained**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preactjs/signals",
+      "status": "candidate-context",
+      "text": "Manage state with style in every framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/signals",
+      "status": "candidate-context",
+      "text": "Signals is a performant state management library with two primary goals:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrwl/nx",
+      "status": "candidate-context",
+      "text": "The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrwl/nx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsx-eslint/eslint-plugin-react",
+      "status": "candidate-context",
+      "text": "React-specific linting rules for ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-react",
+      "status": "candidate-context",
+      "text": "==================="
     }
   ],
   "candidate_glosses": [
@@ -3317,6 +3497,96 @@
       "source_repo": "alibaba/ice",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdx-js/mdx",
+      "status": "candidate",
+      "text": "monorepo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "feathericons/react-feather",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/react-feather.svg?style=flat-square)](https://www.npmjs.com/package/react-feather)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/BizCharts",
+      "status": "candidate",
+      "text": "\u4eb2\u7231\u7684\u7528\u6237\u670b\u53cb\u4eec\uff1a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElemeFE/element-react",
+      "status": "candidate",
+      "text": "[![](https://travis-ci.org/eleme/element-react.svg?branch=master)](https://travis-ci.org/eleme/element-react)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzymejs/enzyme",
+      "status": "candidate",
+      "text": "Enzyme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/swr",
+      "status": "candidate",
+      "text": "[![SWR](https://assets.vercel.com/image/upload/v1572289618/swr/banner.png)](https://swr.vercel.app)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "projectfluent/fluent.js",
+      "status": "candidate",
+      "text": "Fluent.js is a JavaScript implementation of Project Fluent, a localization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/testing-library-docs",
+      "status": "candidate",
+      "text": "<!-- prettier-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "omnidan/redux-undo",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **Project Status: Not Actively Maintained**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preactjs/signals",
+      "status": "candidate",
+      "text": "Signals is a performant state management library with two primary goals:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrwl/nx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-react",
+      "status": "candidate",
+      "text": "==================="
     }
   ],
   "candidate_related_terms": [
@@ -5223,11 +5493,227 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "alibaba/ice"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fsprojects/FSharp.Data.GraphQL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "unplugin/unplugin-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vite-pwa/vite-plugin-pwa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mdx-js/mdx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/react-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jonidelv/generator-create-redux-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/react-shallow-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "feathericons/react-feather"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/BizCharts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "module-federation/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "alonronin/react-tailwind-rsbuild-boilerplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/storybook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "storybookjs/babel-plugin-react-docgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "storybook-eol/addon-smart-knobs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ElemeFE/element-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-product-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pixielabs/cavy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vercel/swr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "projectfluent/fluent.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "testing-library/testing-library-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "omnidan/redux-undo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/signals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nrwl/nx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jsx-eslint/eslint-plugin-react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "emotion-js/emotion"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

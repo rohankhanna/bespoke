@@ -175,14 +175,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rust-bakery/nom",
-      "target": "chipsenkbeil/vimwiki-rs",
+      "target": "chrismacnaughton/xfs-rs",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "rust-bakery/nom",
-      "target": "balajisivaraman/basic_calculator_rs",
+      "target": "cout970/elm-interpreter",
       "target_type": "repository"
     },
     {
@@ -319,7 +319,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:48:42.015725+00:00",
+  "fetched_at": "2026-05-03T15:42:44.886313+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -352,7 +352,7 @@
     "html_url": "https://github.com/rust-bakery/nom",
     "language": "Rust",
     "pushed_at": "2025-08-26T11:10:34Z",
-    "stargazers_count": 10380,
+    "stargazers_count": 10381,
     "topics": [
       "byte-array",
       "grammar",
@@ -362,7 +362,7 @@
       "parser-combinators",
       "rust"
     ],
-    "updated_at": "2026-05-01T16:02:54Z"
+    "updated_at": "2026-05-03T14:31:01Z"
   },
   "repo_links": [
     {
@@ -372,17 +372,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "balajisivaraman/basic_calculator_rs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "chipsenkbeil/vimwiki-rs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "cholcombe973/crushtool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrismacnaughton/xfs-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cout970/elm-interpreter",
       "source_file": "README.md"
     }
   ],

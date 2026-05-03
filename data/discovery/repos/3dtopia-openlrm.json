@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3DTopia/OpenLRM",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3DTopia/OpenLRM",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3DTopia/OpenLRM",
+      "target": "generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:25.231448+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8515
+    },
+    {
+      "path": "requirements.txt",
+      "size": 185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open-source impl. of Large Reconstruction Models",
+    "fork": false,
+    "full_name": "3DTopia/OpenLRM",
+    "html_url": "https://github.com/3DTopia/OpenLRM",
+    "language": "Python",
+    "pushed_at": "2024-05-06T09:51:00Z",
+    "stargazers_count": 1226,
+    "topics": [
+      "3d",
+      "aigc",
+      "computer-vision",
+      "generation"
+    ],
+    "updated_at": "2026-04-30T07:27:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generation"
+    }
+  ]
+}

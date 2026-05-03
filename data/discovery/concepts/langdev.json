@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "langdev"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fogus/rv",
+      "status": "candidate-context",
+      "text": "A Clojure library exploring the application of pure reasoning algorithms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fogus/rv",
+      "status": "candidate-context",
+      "text": "Explorations in pure reasoning algorithms with Clojure."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fogus/rv",
+      "status": "candidate",
+      "text": "Explorations in pure reasoning algorithms with Clojure."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "langdev",
+  "concept_id": "langdev",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fogus/rv"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "langdev",
+      "sense_id": "langdev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

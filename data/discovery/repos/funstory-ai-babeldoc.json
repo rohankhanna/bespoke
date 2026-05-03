@@ -156,13 +156,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "funstory-ai/BabelDOC",
-      "target": "immersive-translate/zotero-immersivetranslate",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "funstory-ai/BabelDOC",
       "target": "funstory-ai/yadt",
       "target_type": "repository"
     },
@@ -178,6 +171,13 @@
       "source_file": "README.md",
       "source_repo": "funstory-ai/BabelDOC",
       "target": "multimeric/asynchronize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC",
+      "target": "oleglpts/prioritythreadpoolexecutor",
       "target_type": "repository"
     },
     {
@@ -405,7 +405,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T07:28:31.564000+00:00",
+  "fetched_at": "2026-05-03T15:37:09.163802+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -454,9 +454,9 @@
     "html_url": "https://github.com/funstory-ai/BabelDOC",
     "language": "Python",
     "pushed_at": "2026-04-13T22:19:45Z",
-    "stargazers_count": 8375,
+    "stargazers_count": 8376,
     "topics": [],
-    "updated_at": "2026-05-02T20:48:08Z"
+    "updated_at": "2026-05-03T12:19:43Z"
   },
   "repo_links": [
     {
@@ -471,12 +471,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "immersive-translate/zotero-immersivetranslate",
+      "full_name": "multimeric/asynchronize",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "multimeric/asynchronize",
+      "full_name": "oleglpts/prioritythreadpoolexecutor",
       "source_file": "README.md"
     }
   ],

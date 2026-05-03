@@ -142,6 +142,18 @@
       "source_repo": "mdn/mdn-community",
       "status": "candidate-context",
       "text": "\ud83d\udc4b Welcome to the MDN Web Docs project! We are delighted that your're interested in contributing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/community",
+      "status": "candidate-context",
+      "text": "Virtual repository hosting Discussions and Questions & Answers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/community",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "mdn/mdn-community",
       "status": "candidate",
       "text": "\ud83d\udc4b Welcome to the MDN Web Docs project! We are delighted that your're interested in contributing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/community",
+      "status": "candidate",
+      "text": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb"
     }
   ],
   "candidate_related_terms": [
@@ -367,11 +385,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "hacs/integration"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/community"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

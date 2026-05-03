@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzhag/PanFlow",
+      "target": "eyeline-labs/go-with-the-flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzhag/PanFlow",
+      "target": "breakthrough/pyscenedetect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzhag/PanFlow",
+      "target": "chengzhag/ucpe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chengzhag/PanFlow",
+      "target": "chengzhag/panfusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:42.040357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7120
+    },
+    {
+      "path": "requirements.txt",
+      "size": 389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf73 [AAAI'26] PanFlow: Decoupled Motion Control for Panoramic Video Generation",
+    "fork": false,
+    "full_name": "chengzhag/PanFlow",
+    "html_url": "https://github.com/chengzhag/PanFlow",
+    "language": "Python",
+    "pushed_at": "2026-04-19T23:21:33Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2026-04-19T23:21:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "breakthrough/pyscenedetect",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chengzhag/panfusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chengzhag/ucpe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eyeline-labs/go-with-the-flow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

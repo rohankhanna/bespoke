@@ -535,6 +535,42 @@
       "source_repo": "gradio-app/fastrtc",
       "status": "candidate-context",
       "text": "<div style='text-align: center; margin-bottom: 1rem; display: flex; justify-content: center; align-items: center;'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] vMAP: Vectorised Object Mapping for Neural Field SLAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "Robotic Development Kit (RDK) for Flexiv robots. Supports C++ and Python. Compatible with Linux, macOS, Windows, and QNX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PeterL1n/BackgroundMattingV2",
+      "status": "candidate-context",
+      "text": "Real-Time High-Resolution Background Matting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterL1n/BackgroundMattingV2",
+      "status": "candidate-context",
+      "text": "![Teaser](https://github.com/PeterL1n/Matting-PyTorch/blob/master/images/teaser.gif?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -801,6 +837,24 @@
       "source_repo": "gradio-app/fastrtc",
       "status": "candidate",
       "text": "<div style='text-align: center; margin-bottom: 1rem; display: flex; justify-content: center; align-items: center;'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate",
+      "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterL1n/BackgroundMattingV2",
+      "status": "candidate",
+      "text": "![Teaser](https://github.com/PeterL1n/Matting-PyTorch/blob/master/images/teaser.gif?raw=true)"
     }
   ],
   "candidate_related_terms": [
@@ -1114,11 +1168,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "gradio-app/fastrtc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "flexivrobotics/flexiv_rdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "PeterL1n/BackgroundMattingV2"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

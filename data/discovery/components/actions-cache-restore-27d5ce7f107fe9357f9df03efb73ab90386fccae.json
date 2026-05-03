@@ -1,7 +1,7 @@
 {
   "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -122,6 +122,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/csharp_test.yml",
       "source_repo": "yamachu/VoicevoxCoreSharp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "DefinitelyTyped/DefinitelyTyped"
     }
   ]
 }

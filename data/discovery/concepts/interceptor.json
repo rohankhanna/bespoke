@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "interceptor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate-context",
+      "text": "Clojure library for fast http api format negotiation, encoding and decoding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/sieppari",
+      "status": "candidate-context",
+      "text": "Small, fast, and complete interceptor library for Clojure/Script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/sieppari",
+      "status": "candidate-context",
+      "text": "Small, fast, and complete interceptor library for Clojure/Script with built-in support"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/sieppari",
+      "status": "candidate",
+      "text": "Small, fast, and complete interceptor library for Clojure/Script with built-in support"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039560,
+      "status": "candidate",
+      "text": "intercept"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039527,
+      "status": "candidate",
+      "text": "interception"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037011,
+      "status": "candidate",
+      "text": "interdiction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024134,
+      "status": "candidate",
+      "text": "objection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020970,
+      "status": "candidate",
+      "text": "fighter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "interceptor",
+  "concept_id": "interceptor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "metosin/sieppari"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interceptor",
+      "sense_id": "interceptor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

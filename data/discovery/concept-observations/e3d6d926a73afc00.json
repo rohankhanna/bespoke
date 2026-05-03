@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A set of spiders and scrapers to extract location information from places that post their location on the internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Dead Spider Killer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Dead Spider Killer"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17822,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17653,
+      "status": "candidate",
+      "text": "cobra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17616,
+      "status": "candidate",
+      "text": "man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9931,
+      "status": "candidate",
+      "text": "arthropod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9931,
+      "status": "candidate",
+      "text": "disembowel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dead Spider Killer",
+      "sense_id": "dead-spider-killer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dead-spider-killer",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dead-spider-killer",
+  "observation_id": "e3d6d926a73afc00",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Dead Spider Killer",
+  "source_context_snippet": "Dead Spider Killer",
+  "source_file": ".github/workflows/dead-spider-killer.yml",
+  "source_repo": "alltheplaces/alltheplaces",
+  "source_repo_description": "A set of spiders and scrapers to extract location information from places that post their location on the internet."
+}

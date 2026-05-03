@@ -191,6 +191,18 @@
       "source_repo": "codeclimate-community/simplecov_json_formatter",
       "status": "candidate-context",
       "text": "***Note: To learn more about SimpleCov, check out the main repo at [SimpleCov](https://github.com/simplecov-ruby/simplecov)***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tendermint/tendermint",
+      "status": "candidate-context",
+      "text": "\u27c1 Tendermint Core (BFT Consensus) in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tendermint/tendermint",
+      "status": "candidate-context",
+      "text": "Test Coverage"
     }
   ],
   "candidate_glosses": [
@@ -283,6 +295,12 @@
       "source_repo": "codeclimate-community/simplecov_json_formatter",
       "status": "candidate",
       "text": "***Note: To learn more about SimpleCov, check out the main repo at [SimpleCov](https://github.com/simplecov-ruby/simplecov)***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tendermint/tendermint",
+      "status": "candidate",
+      "text": "Test Coverage"
     }
   ],
   "candidate_related_terms": [
@@ -434,11 +452,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "tendermint/tendermint"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

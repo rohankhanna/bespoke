@@ -55,6 +55,18 @@
       "source_repo": "reduxjs/redux-templates",
       "status": "candidate-context",
       "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate-context",
+      "text": "Add redux, emotion-js and other useful libraries like react-router in top of create-react-app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "reduxjs/redux-templates",
       "status": "candidate",
       "text": "This monorepo contains the official Redux templates for Vite, Create-React-App, and (eventually) more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonidelv/generator-create-redux-app",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/generator-create-redux-app.png?downloads=true)](https://nodei.co/npm/generator-create-redux-app/)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "reduxjs/redux-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jonidelv/generator-create-redux-app"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,42 @@
       "source_repo": "lerouxrgd/datachannel-rs",
       "status": "candidate-context",
       "text": "[latest]: https://img.shields.io/crates/v/datachannel.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "status": "candidate-context",
+      "text": "C/C++ WebRTC network library featuring Data Channels, Media Transport, and WebSockets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "status": "candidate-context",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wngr/async-datachannel",
+      "status": "candidate-context",
+      "text": "Async Wrapper for datachannel-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wngr/async-datachannel",
+      "status": "candidate-context",
+      "text": "This repository holds two crates, both of which share (mostly) the same API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "murat-dogan/node-datachannel",
+      "status": "candidate-context",
+      "text": "WebRTC For Node.js and Electron (including WebSocket Client & Server). libdatachannel node bindings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "murat-dogan/node-datachannel",
+      "status": "candidate-context",
+      "text": "![Linux CI Build](https://github.com/murat-dogan/node-datachannel/workflows/Build%20-%20Linux/badge.svg) ![Windows CI Build](https://github.com/murat-dogan/node-datachannel/workflows/Build%20-%20Win/badge.svg) ![Mac x64 CI Build](https://github.com/murat-dogan/node-datachannel/w\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "lerouxrgd/datachannel-rs",
       "status": "candidate",
       "text": "[latest]: https://img.shields.io/crates/v/datachannel.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paullouisageneau/libdatachannel",
+      "status": "candidate",
+      "text": "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-blue.svg)](https://www.mozilla.org/en-US/MPL/2.0/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wngr/async-datachannel",
+      "status": "candidate",
+      "text": "This repository holds two crates, both of which share (mostly) the same API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "murat-dogan/node-datachannel",
+      "status": "candidate",
+      "text": "![Linux CI Build](https://github.com/murat-dogan/node-datachannel/workflows/Build%20-%20Linux/badge.svg) ![Windows CI Build](https://github.com/murat-dogan/node-datachannel/workflows/Build%20-%20Win/badge.svg) ![Mac x64 CI Build](https://github.com/murat-dogan/node-datachannel/w\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "lerouxrgd/datachannel-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "paullouisageneau/libdatachannel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "wngr/async-datachannel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "murat-dogan/node-datachannel"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

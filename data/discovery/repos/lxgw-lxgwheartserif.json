@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwHeartSerif",
+      "target": "lxgw/lxgwneozhisong",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwHeartSerif",
+      "target": "lxgw/lxgwneoxihei",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwHeartSerif",
+      "target": "lxgw/lxgwwenkai-lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/LxgwHeartSerif",
+      "target": "lxgw/lxgwmarkergothic",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:33.261070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\u971e\u9e5c\u94ed\u5fc3\u5b8b\uff1a\u57fa\u4e8e\u300c\u3053\u3053\u308d\u660e\u671d\u4f53\u300d\u884d\u751f\u3002",
+    "fork": false,
+    "full_name": "lxgw/LxgwHeartSerif",
+    "html_url": "https://github.com/lxgw/LxgwHeartSerif",
+    "language": null,
+    "pushed_at": "2024-09-09T15:07:29Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-05-03T10:30:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwmarkergothic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwneoxihei",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwneozhisong",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwwenkai-lite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

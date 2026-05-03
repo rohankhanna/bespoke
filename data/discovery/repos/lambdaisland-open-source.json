@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@v0.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project-board.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/open-source",
+      "target": "corgi-emacs/corgi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/open-source",
+      "target": "lambdaisland/classpath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/open-source",
+      "target": "lambdaisland/ansi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdaisland/open-source",
+      "target": "lambdaisland/chui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project-board.yml",
+      "source_repo": "lambdaisland/open-source",
+      "target": "actions/add-to-project@v0.4.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:48:41.486066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25580
+    },
+    {
+      "path": ".github/workflows/add-to-project-board.yml",
+      "size": 433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of Clojure/ClojureScript tools and libraries",
+    "fork": false,
+    "full_name": "lambdaisland/open-source",
+    "html_url": "https://github.com/lambdaisland/open-source",
+    "language": "Clojure",
+    "pushed_at": "2026-04-07T13:24:32Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-04-07T13:24:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "corgi-emacs/corgi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/ansi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/chui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdaisland/classpath",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

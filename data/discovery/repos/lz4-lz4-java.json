@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lz4/lz4-java",
+      "target": "yawkat/lz4-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lz4/lz4-java",
+      "target": "compressor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lz4/lz4-java",
+      "target": "decompression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lz4/lz4-java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lz4/lz4-java",
+      "target": "jni-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lz4/lz4-java",
+      "target": "lz4-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lz4/lz4-java",
+      "target": "lz4-compressors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lz4/lz4-java",
+      "target": "lz4-java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:50:43.775716+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "LZ4 compression for Java",
+    "fork": false,
+    "full_name": "lz4/lz4-java",
+    "html_url": "https://github.com/lz4/lz4-java",
+    "language": "Java",
+    "pushed_at": "2025-11-28T19:23:16Z",
+    "stargazers_count": 1176,
+    "topics": [
+      "compressor",
+      "decompression",
+      "java",
+      "jni-bindings",
+      "lz4-compression",
+      "lz4-compressors",
+      "lz4-java"
+    ],
+    "updated_at": "2026-04-13T05:45:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yawkat/lz4-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compressor"
+    },
+    {
+      "context_snippet": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decompression"
+    },
+    {
+      "context_snippet": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jni-bindings"
+    },
+    {
+      "context_snippet": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lz4-compression"
+    },
+    {
+      "context_snippet": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lz4-compressors"
+    },
+    {
+      "context_snippet": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lz4-java"
+    }
+  ]
+}

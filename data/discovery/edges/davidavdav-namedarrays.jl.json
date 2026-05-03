@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "davidavdav/NamedArrays.jl",
-      "target": "juliaarrays/axisarrays.jl",
+      "target": "tokazama/axisindices.jl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "davidavdav/NamedArrays.jl",
-      "target": "rafaqz/dimensionaldata.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "davidavdav/NamedArrays.jl",
-      "target": "mcabbott/axiskeys.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "davidavdav/NamedArrays.jl",
-      "target": "invenia/nameddims.jl",
+      "target": "sciml/labelledarrays.jl",
       "target_type": "repository"
     },
     {
@@ -85,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "davidavdav/NamedArrays.jl"
 }

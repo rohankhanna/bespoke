@@ -295,6 +295,30 @@
       "source_repo": "Mercury13/unicodia-sesh",
       "status": "candidate-context",
       "text": "\ufeff# What is UnicodiaSesh?"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bartp5/libtexprintf",
+      "status": "candidate-context",
+      "text": "Library providing printf-style formatted output routines with tex-like syntax support. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bartp5/libtexprintf",
+      "status": "candidate-context",
+      "text": "libtexprintf & utftex"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MY1L/Monu",
+      "status": "candidate-context",
+      "text": "\u5178\u8ff9(Monu)\u7cfb\u5217\u5b57\u4f53"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Monu",
+      "status": "candidate-context",
+      "text": "2019\u5e74\u8d77\u5236\u4f5c\u3001\u7528\u4e8e\u7279\u5b9a\u7528\u9014\u3001\u6709\u539f\u521b\u6210\u5206\u7684\u6574\u5408\u5b9e\u7528\u5b57\u4f53\u7cfb\u5217\u3002Monu \u662f Monument\uff08\u5178\u8ff9\uff09\u7684\u7f29\u5199\u3002\\"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +465,18 @@
       "source_repo": "Mercury13/unicodia-sesh",
       "status": "candidate",
       "text": "\ufeff# What is UnicodiaSesh?"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bartp5/libtexprintf",
+      "status": "candidate",
+      "text": "libtexprintf & utftex"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MY1L/Monu",
+      "status": "candidate",
+      "text": "2019\u5e74\u8d77\u5236\u4f5c\u3001\u7528\u4e8e\u7279\u5b9a\u7528\u9014\u3001\u6709\u539f\u521b\u6210\u5206\u7684\u6574\u5408\u5b9e\u7528\u5b57\u4f53\u7cfb\u5217\u3002Monu \u662f Monument\uff08\u5178\u8ff9\uff09\u7684\u7f29\u5199\u3002\\"
     }
   ],
   "candidate_related_terms": [
@@ -796,11 +832,41 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "Mercury13/unicodia-sesh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bartp5/libtexprintf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jawah/charset_normalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MY1L/Monu"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

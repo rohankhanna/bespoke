@@ -1,0 +1,12 @@
+{
+  "component": "ytanikin/pr-conventional-commits@1.4.0",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_title.yml",
+      "source_repo": "cosmos/evm"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moovweb/gvm",
+      "target": "dependency-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moovweb/gvm",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:30:23.657848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go Version Manager",
+    "fork": false,
+    "full_name": "moovweb/gvm",
+    "html_url": "https://github.com/moovweb/gvm",
+    "language": "Shell",
+    "pushed_at": "2024-08-08T13:36:18Z",
+    "stargazers_count": 11599,
+    "topics": [
+      "dependency-manager",
+      "golang"
+    ],
+    "updated_at": "2026-05-02T09:59:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/moovweb/gvm.svg?branch=master)](https://travis-ci.org/moovweb/gvm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependency-manager"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/moovweb/gvm.svg?branch=master)](https://travis-ci.org/moovweb/gvm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

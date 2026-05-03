@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:32:08.097726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Differentiable ODE solvers with full GPU support and O(1)-memory backpropagation.",
+    "fork": false,
+    "full_name": "rtqichen/torchdiffeq",
+    "html_url": "https://github.com/rtqichen/torchdiffeq",
+    "language": "Python",
+    "pushed_at": "2025-04-04T01:06:00Z",
+    "stargazers_count": 6415,
+    "topics": [],
+    "updated_at": "2026-05-02T14:08:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

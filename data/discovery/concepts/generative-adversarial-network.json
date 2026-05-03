@@ -379,6 +379,12 @@
       "source_repo": "mit-han-lab/data-efficient-gans",
       "status": "candidate-context",
       "text": "<img src=\"imgs/interp.gif\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rinongal/StyleGAN-nada",
+      "status": "candidate-context",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/rinongal/stylegan-nada/blob/main/stylegan_nada.ipynb)"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +573,12 @@
       "source_repo": "mit-han-lab/data-efficient-gans",
       "status": "candidate",
       "text": "<img src=\"imgs/interp.gif\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rinongal/StyleGAN-nada",
+      "status": "candidate",
+      "text": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/rinongal/stylegan-nada/blob/main/stylegan_nada.ipynb)"
     }
   ],
   "candidate_related_terms": [],
@@ -904,11 +916,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "advimman/lama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rinongal/StyleGAN-nada"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Transparent reactivity with 100% language coverage. Made with \u2764\ufe0f and ES6 Proxies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Transparent reactivity with 100% language coverage. Made with :heart: and ES6 Proxies."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Transparent reactivity with 100% language coverage. Made with :heart: and ES6 Proxies."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010643,
+      "status": "candidate",
+      "text": "noticeable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007864,
+      "status": "candidate",
+      "text": "discernible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993541,
+      "status": "candidate",
+      "text": "evident"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010727,
+      "status": "candidate",
+      "text": "visible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010591,
+      "status": "candidate",
+      "text": "viewable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "observable",
+      "sense_id": "observable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35034,
+      "status": "candidate",
+      "text": "evident"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28028,
+      "status": "candidate",
+      "text": "discernible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13032,
+      "status": "candidate",
+      "text": "noticeable"
+    }
+  ],
+  "concept_id": "observable",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "observable",
+  "observation_id": "b033bd6f455364b3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "observable",
+  "source_context_snippet": "Transparent reactivity with 100% language coverage. Made with :heart: and ES6 Proxies.",
+  "source_file": null,
+  "source_repo": "nx-js/observer-util",
+  "source_repo_description": "Transparent reactivity with 100% language coverage. Made with \u2764\ufe0f and ES6 Proxies."
+}

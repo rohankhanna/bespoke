@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "official"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "validator/gulp-html",
+      "status": "candidate-context",
+      "text": "Gulp plugin for HTML validation, using the official Nu Html Checker (v.Nu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/gulp-html",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/gulp-html?logo=npm&logoColor=fff)](https://www.npmjs.com/package/gulp-html)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "validator/gulp-html",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/gulp-html?logo=npm&logoColor=fff)](https://www.npmjs.com/package/gulp-html)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39895110,
+      "status": "candidate",
+      "text": "ex officio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39894344,
+      "status": "candidate",
+      "text": "functionary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39887680,
+      "status": "candidate",
+      "text": "authoritative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39882299,
+      "status": "candidate",
+      "text": "formal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39876525,
+      "status": "candidate",
+      "text": "authorized"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29030,
+      "status": "candidate",
+      "text": "established"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19048,
+      "status": "candidate",
+      "text": "regular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14031,
+      "status": "candidate",
+      "text": "authoritative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11045,
+      "status": "candidate",
+      "text": "formal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10031,
+      "status": "candidate",
+      "text": "functionary"
+    }
+  ],
+  "canonical_name": "official",
+  "concept_id": "official",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "validator/gulp-html"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "official",
+      "sense_id": "official#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

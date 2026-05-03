@@ -1,0 +1,12 @@
+{
+  "component": "DeLaGuardo/setup-clojure@5042876523f30f5efcf1d6feaa48bd1498d7814f",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-clojars.yml",
+      "source_repo": "phronmophobic/llama.clj"
+    }
+  ]
+}

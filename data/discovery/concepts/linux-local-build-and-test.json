@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Linux Local build and test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Agents-for-net",
+      "status": "candidate-context",
+      "text": "This repository is for active development of the Microsoft 365 Agent SDK components for .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Agents-for-net",
+      "status": "candidate-context",
+      "text": "Linux Local build and test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Agents-for-net",
+      "status": "candidate",
+      "text": "Linux Local build and test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31566,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31566,
+      "status": "candidate",
+      "text": "par"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31566,
+      "status": "candidate",
+      "text": "spider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31566,
+      "status": "candidate",
+      "text": "tee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31510,
+      "status": "candidate",
+      "text": "lie"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Linux Local build and test",
+  "concept_id": "linux-local-build-and-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ci-linux.yml",
+      "source_repo": "microsoft/Agents-for-net"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux Local build and test",
+      "sense_id": "linux-local-build-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

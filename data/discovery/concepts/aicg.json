@@ -19,6 +19,18 @@
       "source_repo": "aigc3d/LHM",
       "status": "candidate-context",
       "text": "[![Project Website](https://img.shields.io/badge/\ud83c\udf10-Project_Website-blueviolet)](https://aigc3d.github.io/projects/LHM/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aigc3d/AniGS",
+      "status": "candidate-context",
+      "text": "[CVPR2025] AniGS: Animatable Gaussian Avatar from a Single Image with Inconsistent Gaussian Reconstruction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc3d/AniGS",
+      "status": "candidate-context",
+      "text": "[![Website](https://raw.githubusercontent.com/prs-eth/Marigold/main/doc/badges/badge-website.svg)](https://lingtengqiu.github.io/2024/AniGS/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aigc3d/LHM",
       "status": "candidate",
       "text": "[![Project Website](https://img.shields.io/badge/\ud83c\udf10-Project_Website-blueviolet)](https://aigc3d.github.io/projects/LHM/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc3d/AniGS",
+      "status": "candidate",
+      "text": "[![Website](https://raw.githubusercontent.com/prs-eth/Marigold/main/doc/badges/badge-website.svg)](https://lingtengqiu.github.io/2024/AniGS/)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "aigc3d/LHM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "aigc3d/AniGS"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -131,7 +131,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "madyankin/postcss-modules",
-      "target": "css-modules/css-modules",
+      "target": "webpack/loader-utils",
       "target_type": "repository"
     },
     {
@@ -352,7 +352,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:34:08.593549+00:00",
+  "fetched_at": "2026-05-03T13:39:38.792357+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -377,19 +377,14 @@
     "html_url": "https://github.com/madyankin/postcss-modules",
     "language": "JavaScript",
     "pushed_at": "2024-11-11T10:28:37Z",
-    "stargazers_count": 1622,
+    "stargazers_count": 1621,
     "topics": [
       "css-modules",
       "postcss-modules"
     ],
-    "updated_at": "2026-04-21T13:16:31Z"
+    "updated_at": "2026-04-25T18:17:31Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "css-modules/css-modules",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "css-modules/css-modules-loader-core",
@@ -403,6 +398,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "outpunk/postcss-modules-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webpack/loader-utils",
       "source_file": "README.md"
     }
   ],

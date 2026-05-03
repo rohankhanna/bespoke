@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "icppWorld/icpp_llm",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "icppWorld/icpp_llm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "icppWorld/icpp_llm",
+      "target": "cicd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "icppWorld/icpp_llm",
+      "target": "internetcomputer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "icppWorld/icpp_llm",
+      "target": "llama2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:34:35.762990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3216
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    },
+    {
+      "path": ".github/workflows/cicd.yml",
+      "size": 1922
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "on-chain LLMs",
+    "fork": false,
+    "full_name": "icppWorld/icpp_llm",
+    "html_url": "https://github.com/icppWorld/icpp_llm",
+    "language": "C++",
+    "pushed_at": "2026-01-09T20:17:21Z",
+    "stargazers_count": 19,
+    "topics": [
+      "internetcomputer",
+      "llama2",
+      "llm"
+    ],
+    "updated_at": "2026-01-09T20:17:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "cicd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "term": "cicd"
+    },
+    {
+      "context_snippet": "[![icpp_llm](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml/badge.svg)](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internetcomputer"
+    },
+    {
+      "context_snippet": "[![icpp_llm](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml/badge.svg)](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    }
+  ]
+}

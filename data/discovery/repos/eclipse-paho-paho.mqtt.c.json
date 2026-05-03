@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact_linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact_macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_macos.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covsync.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_libressl.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact_linux.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact_linux.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifact_linux.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "Upload release artifact for Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact_macos.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact_macos.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifact_macos.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "Upload release artifact for MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "Builds for Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_macos.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_macos.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "Builds for MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/covsync.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_libressl.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_libressl.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "Test LibreSSL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "eclipse-paho",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "eclipseiot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "internet-of-things",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-paho/paho.mqtt.c",
+      "target": "mqtt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:28.746486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17242
+    },
+    {
+      "path": ".github/workflows/artifact_linux.yml",
+      "size": 1038
+    },
+    {
+      "path": ".github/workflows/artifact_macos.yml",
+      "size": 1041
+    },
+    {
+      "path": ".github/workflows/build_linux.yml",
+      "size": 1301
+    },
+    {
+      "path": ".github/workflows/build_macos.yml",
+      "size": 1312
+    },
+    {
+      "path": ".github/workflows/covsync.yml",
+      "size": 410
+    },
+    {
+      "path": ".github/workflows/test_libressl.yml",
+      "size": 1699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An Eclipse Paho C client library for MQTT for Windows, Linux and MacOS. API documentation: https://eclipse-paho.github.io/paho.mqtt.c/",
+    "fork": false,
+    "full_name": "eclipse-paho/paho.mqtt.c",
+    "html_url": "https://github.com/eclipse-paho/paho.mqtt.c",
+    "language": "C",
+    "pushed_at": "2026-03-06T09:47:52Z",
+    "stargazers_count": 2303,
+    "topics": [
+      "eclipse-paho",
+      "eclipseiot",
+      "internet-of-things",
+      "iot",
+      "mqtt"
+    ],
+    "updated_at": "2026-04-30T19:02:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Upload release artifact for Linux\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifact_linux.yml",
+      "term": "Upload release artifact for Linux"
+    },
+    {
+      "context_snippet": "\"Upload release artifact for MacOS\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifact_macos.yml",
+      "term": "Upload release artifact for MacOS"
+    },
+    {
+      "context_snippet": "\"Builds for Linux\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_linux.yml",
+      "term": "Builds for Linux"
+    },
+    {
+      "context_snippet": "\"Builds for MacOS\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_macos.yml",
+      "term": "Builds for MacOS"
+    },
+    {
+      "context_snippet": "\"Test LibreSSL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_libressl.yml",
+      "term": "Test LibreSSL"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/eclipse/paho.mqtt.c.svg?branch=master)](https://travis-ci.org/eclipse/paho.mqtt.c)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse-paho"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/eclipse/paho.mqtt.c.svg?branch=master)](https://travis-ci.org/eclipse/paho.mqtt.c)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipseiot"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/eclipse/paho.mqtt.c.svg?branch=master)](https://travis-ci.org/eclipse/paho.mqtt.c)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internet-of-things"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/eclipse/paho.mqtt.c.svg?branch=master)](https://travis-ci.org/eclipse/paho.mqtt.c)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mqtt"
+    }
+  ]
+}

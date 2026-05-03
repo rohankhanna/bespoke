@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Count Solved Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "status": "candidate-context",
+      "text": "A colorful unique theme, giving Obsidian a fresh new look with glow effects and support for accent color. The theme now tries to provide a unique futuristic eye-candy look to obsidian while keeping it usable and familiar to the users. Made to be yours to tweak."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "status": "candidate-context",
+      "text": "Count Solved Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "status": "candidate",
+      "text": "Count Solved Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18323,
+      "status": "candidate",
+      "text": "problem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18281,
+      "status": "candidate",
+      "text": "eureka"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18281,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18197,
+      "status": "candidate",
+      "text": "adjust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18197,
+      "status": "candidate",
+      "text": "approach"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Count Solved Issues",
+  "concept_id": "count-solved-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/solved-issues.yml",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Count Solved Issues",
+      "sense_id": "count-solved-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -92,6 +92,42 @@
       "source_repo": "robotology/robotology-superbuild",
       "status": "candidate-context",
       "text": "CI Workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate-context",
+      "text": "Resolve a package:// or model:// URI to an absolute filename in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate-context",
+      "text": "CI Workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/yarp",
+      "status": "candidate-context",
+      "text": "YARP - Yet Another Robot Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/yarp",
+      "status": "candidate-context",
+      "text": "CI Workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "YCM (YCM CMake modules) is a collection of various useful CMake modules. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "CI Workflow"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +170,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "robotology/robotology-superbuild",
+      "status": "candidate",
+      "text": "CI Workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate",
+      "text": "CI Workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/yarp",
+      "status": "candidate",
+      "text": "CI Workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
       "status": "candidate",
       "text": "CI Workflow"
     }
@@ -227,11 +281,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "robotology/robotology-superbuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gbionics/resolve-robotics-uri-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "robotology/yarp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/conda-forge-ci.yml",
+      "source_repo": "robotology/ycm-cmake-modules"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

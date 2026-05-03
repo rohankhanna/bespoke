@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "seung-lab/BigArrays.jl",
+      "target": "seung-lab/neuroglancer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/BigArrays.jl",
+      "target": "big-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "seung-lab/BigArrays.jl",
+      "target": "cloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:39:09.078027+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9271
+    },
+    {
+      "path": "Dockerfile",
+      "size": 346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Storing and accessing large Julia array locally or in cloud storage without server.",
+    "fork": false,
+    "full_name": "seung-lab/BigArrays.jl",
+    "html_url": "https://github.com/seung-lab/BigArrays.jl",
+    "language": "Julia",
+    "pushed_at": "2022-01-29T17:36:03Z",
+    "stargazers_count": 13,
+    "topics": [
+      "big-data",
+      "cloud"
+    ],
+    "updated_at": "2024-01-03T16:07:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seung-lab/neuroglancer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "BigArrays.jl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "big-data"
+    },
+    {
+      "context_snippet": "BigArrays.jl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    }
+  ]
+}

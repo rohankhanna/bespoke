@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runetfreedom/russia-v2ray-rules-dat",
+      "target": "metacubex/mihomo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runetfreedom/russia-v2ray-rules-dat",
+      "target": "p4gefau1t/trojan-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runetfreedom/russia-v2ray-rules-dat",
+      "target": "1andrevich/re-filter-lists",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "runetfreedom/russia-v2ray-rules-dat",
+      "target": "hxehex/russia-mobile-internet-whitelist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "runetfreedom/russia-v2ray-rules-dat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "runetfreedom/russia-v2ray-rules-dat",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "runetfreedom/russia-v2ray-rules-dat",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:36:02.043748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4379
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u042d\u0442\u043e\u0442 \u0440\u0435\u043f\u043e\u0437\u0438\u0442\u043e\u0440\u0438\u0439 \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043e\u0431\u043d\u043e\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u043f\u0440\u0430\u0432\u0438\u043b\u0430 \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u0438\u0437\u0430\u0446\u0438\u0438 V2Ray, \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u043d\u0430 \u0434\u0430\u043d\u043d\u044b\u0445 \u043e \u0437\u0430\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0445 \u0434\u043e\u043c\u0435\u043d\u0430\u0445 \u0438 \u0430\u0434\u0440\u0435\u0441\u0430\u0445 \u0432 \u0420\u043e\u0441\u0441\u0438\u0438.",
+    "fork": false,
+    "full_name": "runetfreedom/russia-v2ray-rules-dat",
+    "html_url": "https://github.com/runetfreedom/russia-v2ray-rules-dat",
+    "language": null,
+    "pushed_at": "2026-05-03T10:32:24Z",
+    "stargazers_count": 1808,
+    "topics": [],
+    "updated_at": "2026-05-03T14:22:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1andrevich/re-filter-lists",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hxehex/russia-mobile-internet-whitelist",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metacubex/mihomo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "p4gefau1t/trojan-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

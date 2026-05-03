@@ -1,0 +1,17 @@
+{
+  "component": "vmactions/freebsd-vm@4807432c7cab1c3f97688665332c0b932062d31f",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "arkime/arkime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "arkime/arkime"
+    }
+  ]
+}

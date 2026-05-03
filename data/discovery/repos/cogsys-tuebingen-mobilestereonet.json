@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "target": "sovrasov/flops-counter.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "target": "xy-guo/gwcnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "target": "mattpoggi/kitti-utilities-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cogsys-tuebingen/mobilestereonet",
+      "target": "stereo-vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:46.553519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9072
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lightweight stereo matching network based on MobileNet blocks",
+    "fork": false,
+    "full_name": "cogsys-tuebingen/mobilestereonet",
+    "html_url": "https://github.com/cogsys-tuebingen/mobilestereonet",
+    "language": "Python",
+    "pushed_at": "2022-03-15T12:21:46Z",
+    "stargazers_count": 302,
+    "topics": [
+      "deep-learning",
+      "pytorch",
+      "stereo-vision"
+    ],
+    "updated_at": "2026-04-17T03:37:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattpoggi/kitti-utilities-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sovrasov/flops-counter.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xy-guo/gwcnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![Python 3.6](https://img.shields.io/badge/python-3.6-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stereo-vision"
+    }
+  ]
+}

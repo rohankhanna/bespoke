@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:32:04.609619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9024
+    },
+    {
+      "path": "requirements.txt",
+      "size": 303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML'23] StyleGAN-T: Unlocking the Power of GANs for Fast Large-Scale Text-to-Image Synthesis",
+    "fork": false,
+    "full_name": "autonomousvision/stylegan-t",
+    "html_url": "https://github.com/autonomousvision/stylegan-t",
+    "language": "Python",
+    "pushed_at": "2023-04-07T08:58:50Z",
+    "stargazers_count": 1201,
+    "topics": [],
+    "updated_at": "2026-04-17T15:38:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

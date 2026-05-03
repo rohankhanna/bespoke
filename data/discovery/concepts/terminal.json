@@ -1711,6 +1711,18 @@
       "source_repo": "trapd00r/LS_COLORS",
       "status": "candidate-context",
       "text": "'Release'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "watchexec/clearscreen",
+      "status": "candidate-context",
+      "text": "Cross-platform terminal screen clearing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/clearscreen",
+      "status": "candidate-context",
+      "text": "[![Crate release version](https://badgen.net/crates/v/clearscreen)](https://crates.io/crates/clearscreen)"
     }
   ],
   "candidate_glosses": [
@@ -2565,6 +2577,12 @@
       "source_repo": "trapd00r/LS_COLORS",
       "status": "candidate",
       "text": "'Release'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/clearscreen",
+      "status": "candidate",
+      "text": "[![Crate release version](https://badgen.net/crates/v/clearscreen)](https://crates.io/crates/clearscreen)"
     }
   ],
   "candidate_related_terms": [
@@ -4132,11 +4150,65 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/clearscreen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "psmux/Tmux-Plugin-Panel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

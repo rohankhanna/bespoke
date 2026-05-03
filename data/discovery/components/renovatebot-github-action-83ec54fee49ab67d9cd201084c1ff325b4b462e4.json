@@ -1,0 +1,12 @@
+{
+  "component": "renovatebot/github-action@83ec54fee49ab67d9cd201084c1ff325b4b462e4",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron-renovate.yml",
+      "source_repo": "go-gitea/gitea"
+    }
+  ]
+}

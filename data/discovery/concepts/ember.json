@@ -67,6 +67,30 @@
       "source_repo": "ember-cli/ember-exam",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/ember-cli/ember-exam/actions/workflows/ci.yml/badge.svg?event=push)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chriskrycho/tracked-draft",
+      "status": "candidate-context",
+      "text": "A simple ES6 Proxy-powered draft state solution for autotracked data structures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskrycho/tracked-draft",
+      "status": "candidate-context",
+      "text": "This demonstration kind of works, but was never made remotely production-ready, and I am not working on it. If the ideas here are useful to you, please feel free fork this repo and run with it!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "status": "candidate-context",
+      "text": "Deep auto-tracking for when you just don't care, and want things to work (at the cost of performance in some situtations)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "ember-cli/ember-exam",
       "status": "candidate",
       "text": "![Build Status](https://github.com/ember-cli/ember-exam/actions/workflows/ci.yml/badge.svg?event=push)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskrycho/tracked-draft",
+      "status": "candidate",
+      "text": "This demonstration kind of works, but was never made remotely production-ready, and I am not working on it. If the ideas here are useful to you, please feel free fork this repo and run with it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +216,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "ember-cli/ember-exam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "chriskrycho/tracked-draft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NullVoxPopuli/ember-deep-tracked"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

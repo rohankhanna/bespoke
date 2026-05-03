@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++ library designed to provide an abstraction for different rendering engines. It offers unified APIs for creating 3D graphics applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044482,
+      "status": "candidate",
+      "text": "demon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044135,
+      "status": "candidate",
+      "text": "devil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044076,
+      "status": "candidate",
+      "text": "fiend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951758,
+      "status": "candidate",
+      "text": "monster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047496,
+      "status": "candidate",
+      "text": "bogeyman"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ogre",
+      "sense_id": "ogre#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33039,
+      "status": "candidate",
+      "text": "fiend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29046,
+      "status": "candidate",
+      "text": "demon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28054,
+      "status": "candidate",
+      "text": "monster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "devil"
+    }
+  ],
+  "concept_id": "ogre",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ogre",
+  "observation_id": "8c3d763365f85d0d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "ogre",
+  "source_context_snippet": "**Maintainer:** ichen [AT] openrobotics [DOT] org",
+  "source_file": null,
+  "source_repo": "gazebosim/gz-rendering",
+  "source_repo_description": "C++ library designed to provide an abstraction for different rendering engines. It offers unified APIs for creating 3D graphics applications."
+}

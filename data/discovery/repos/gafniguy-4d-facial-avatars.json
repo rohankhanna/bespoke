@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gafniguy/4D-Facial-Avatars",
+      "target": "krrish94/nerf-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gafniguy/4D-Facial-Avatars",
+      "target": "daveredrum/scanrefer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "gafniguy/4D-Facial-Avatars",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "gafniguy/4D-Facial-Avatars",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "gafniguy/4D-Facial-Avatars",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "gafniguy/4D-Facial-Avatars",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "gafniguy/4D-Facial-Avatars",
+      "target": "pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:44:25.917415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3589
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 741
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dynamic Neural Radiance Fields for Monocular 4D Facial Avater Reconstruction",
+    "fork": false,
+    "full_name": "gafniguy/4D-Facial-Avatars",
+    "html_url": "https://github.com/gafniguy/4D-Facial-Avatars",
+    "language": "Python",
+    "pushed_at": "2026-01-29T22:01:53Z",
+    "stargazers_count": 697,
+    "topics": [],
+    "updated_at": "2026-04-20T12:18:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daveredrum/scanrefer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krrish94/nerf-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "pages"
+    }
+  ]
+}

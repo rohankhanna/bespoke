@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "moojink/dlimp_openvla",
+      "target": "kvablack/dlimp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:36:12.428784+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 898
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "dataloading is my passion",
+    "fork": true,
+    "full_name": "moojink/dlimp_openvla",
+    "html_url": "https://github.com/moojink/dlimp_openvla",
+    "language": "Python",
+    "pushed_at": "2024-07-12T00:57:36Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-01-14T03:35:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kvablack/dlimp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

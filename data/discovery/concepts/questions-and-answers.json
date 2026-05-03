@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "questions-and-answers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/community",
+      "status": "candidate-context",
+      "text": "Virtual repository hosting Discussions and Questions & Answers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/community",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/community",
+      "status": "candidate",
+      "text": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "questions-and-answers",
+  "concept_id": "questions-and-answers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/community"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "questions-and-answers",
+      "sense_id": "questions-and-answers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "angularcli"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hchiam/learning-angular8",
+      "status": "candidate-context",
+      "text": "Learning Angular 8: https://www.youtube.com/watch?v=_TLhUCjY9iA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-angular8",
+      "status": "candidate-context",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hchiam/learning-angular8",
+      "status": "candidate",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "angularcli",
+  "concept_id": "angularcli",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "hchiam/learning-angular8"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "angularcli",
+      "sense_id": "angularcli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

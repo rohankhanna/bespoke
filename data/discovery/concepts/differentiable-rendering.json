@@ -55,6 +55,18 @@
       "source_repo": "nv-tlabs/DIB-R",
       "status": "candidate-context",
       "text": "This is the official inference code for:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate-context",
+      "text": "Project page of paper \"Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate-context",
+      "text": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "nv-tlabs/DIB-R",
       "status": "candidate",
       "text": "This is the official inference code for:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate",
+      "text": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "nv-tlabs/DIB-R"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ShichenLiu/SoftRas"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -243,13 +243,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobe-cli-toolbox",
-      "target": "codespaces/badge.svg",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobe-cli-toolbox",
       "target": "lobehub/lobe-chat",
       "target_type": "repository"
     },
@@ -646,7 +639,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T00:52:29.471428+00:00",
+  "fetched_at": "2026-05-03T12:35:20.091623+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -707,11 +700,6 @@
     "updated_at": "2026-04-29T21:57:32Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "codespaces/badge.svg",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "hwchase17/langchainjs",

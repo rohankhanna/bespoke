@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "empriselab/gen3_compliant_controllers",
+      "target": "empriselab/kortex_hardware",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "empriselab/gen3_compliant_controllers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:39:48.652526+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5464
+    },
+    {
+      "path": ".github/workflows/build-test.yml",
+      "size": 392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ROS Package providing compliant controllers for the Kinova Gen3 arm",
+    "fork": false,
+    "full_name": "empriselab/gen3_compliant_controllers",
+    "html_url": "https://github.com/empriselab/gen3_compliant_controllers",
+    "language": "C++",
+    "pushed_at": "2024-02-07T22:41:55Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-03-17T14:27:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "empriselab/kortex_hardware",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

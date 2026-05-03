@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "joshuaulrich/xts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "joshuaulrich/xts",
+      "target": "time-series",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:42:09.553217+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6325
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 907
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Extensible time series class that provides uniform handling of many R time series classes by extending zoo.",
+    "fork": false,
+    "full_name": "joshuaulrich/xts",
+    "html_url": "https://github.com/joshuaulrich/xts",
+    "language": "R",
+    "pushed_at": "2026-02-28T15:02:38Z",
+    "stargazers_count": 223,
+    "topics": [
+      "c",
+      "r",
+      "time-series"
+    ],
+    "updated_at": "2026-04-04T00:59:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "xts is an [R](https://www.r-project.org) package that provides an extension of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    }
+  ]
+}

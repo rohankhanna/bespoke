@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ademanuele/VSMac-CodeCoverage",
+      "target": "tonerdo/coverlet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ademanuele/VSMac-CodeCoverage",
+      "target": "visual-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ademanuele/VSMac-CodeCoverage",
+      "target": "visual-studio-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ademanuele/VSMac-CodeCoverage",
+      "target": "visual-studio-for-mac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ademanuele/VSMac-CodeCoverage",
+      "target": "vsmac-codecoverage",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "ademanuele/VSMac-CodeCoverage"
+}

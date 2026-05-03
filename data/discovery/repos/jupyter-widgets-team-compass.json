@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T14:46:23.733005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository for team meetings and org-wide organization things",
+    "fork": false,
+    "full_name": "jupyter-widgets/team-compass",
+    "html_url": "https://github.com/jupyter-widgets/team-compass",
+    "language": null,
+    "pushed_at": "2025-12-12T20:37:40Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-12-12T20:37:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

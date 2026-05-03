@@ -194,13 +194,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nitaliano/react-native-mapbox-gl",
-      "target": "react-native-mapbox-gl/maps",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "nitaliano/react-native-mapbox-gl",
       "target": "mapbox/react-native-mapbox-gl",
@@ -494,7 +487,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:51:42.571085+00:00",
+  "fetched_at": "2026-05-03T15:45:37.097676+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -525,11 +518,6 @@
     "updated_at": "2026-03-17T06:21:55Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "react-native-mapbox-gl/maps",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "mapbox/react-native-mapbox-gl",

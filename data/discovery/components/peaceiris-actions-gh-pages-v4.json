@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v4",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -552,6 +552,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-and-deploy.yml",
       "source_repo": "jrouwe/JoltPhysics.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "allegro/hermes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "tc39/proposal-amount"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "lxgw/LxgwMarkerGothic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doxygen.yml",
+      "source_repo": "jrouwe/JoltPhysics"
     }
   ]
 }

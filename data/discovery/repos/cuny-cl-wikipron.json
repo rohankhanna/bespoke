@@ -1,0 +1,179 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CUNY-CL/wikipron",
+      "target": "kylebgorman/wikipron-modeling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron",
+      "target": "computational-linguistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron",
+      "target": "linguistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron",
+      "target": "phonetics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron",
+      "target": "phonology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron",
+      "target": "pronunciation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron",
+      "target": "python-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron",
+      "target": "scraped-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron",
+      "target": "speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:38:50.854863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6717
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1869
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Massively multilingual pronunciation mining",
+    "fork": false,
+    "full_name": "CUNY-CL/wikipron",
+    "html_url": "https://github.com/CUNY-CL/wikipron",
+    "language": "Python",
+    "pushed_at": "2026-04-21T23:25:28Z",
+    "stargazers_count": 367,
+    "topics": [
+      "computational-linguistics",
+      "g2p",
+      "language",
+      "linguistics",
+      "nlp",
+      "phonetics",
+      "phonology",
+      "pronunciation",
+      "python-api",
+      "scraped-data",
+      "speech"
+    ],
+    "updated_at": "2026-05-02T15:05:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kylebgorman/wikipron-modeling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-linguistics"
+    },
+    {
+      "context_snippet": "[![PyPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "[![PyPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linguistics"
+    },
+    {
+      "context_snippet": "[![PyPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phonetics"
+    },
+    {
+      "context_snippet": "[![PyPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phonology"
+    },
+    {
+      "context_snippet": "[![PyPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pronunciation"
+    },
+    {
+      "context_snippet": "[![PyPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-api"
+    },
+    {
+      "context_snippet": "[![PyPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scraped-data"
+    },
+    {
+      "context_snippet": "[![PyPI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    }
+  ]
+}

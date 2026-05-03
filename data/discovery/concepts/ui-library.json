@@ -55,6 +55,18 @@
       "source_repo": "smooth-code/smooth-ui",
       "status": "candidate-context",
       "text": "> **Warning** This project is deprecated and no longer maintained."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-components-svelte",
+      "status": "candidate-context",
+      "text": "Svelte implementation of the Carbon Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-svelte",
+      "status": "candidate-context",
+      "text": "[![NPM][npm]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "smooth-code/smooth-ui",
       "status": "candidate",
       "text": "> **Warning** This project is deprecated and no longer maintained."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-svelte",
+      "status": "candidate",
+      "text": "[![NPM][npm]][npm-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "smooth-code/smooth-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-components-svelte"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

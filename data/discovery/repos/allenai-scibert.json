@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "allenai/scibert",
+      "target": "huggingface/pytorch-pretrained-bert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/scibert",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/scibert",
+      "target": "scientific-papers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:30:14.005200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10983
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1092
+    },
+    {
+      "path": "requirements.txt",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A BERT model for scientific text.",
+    "fork": false,
+    "full_name": "allenai/scibert",
+    "html_url": "https://github.com/allenai/scibert",
+    "language": "Python",
+    "pushed_at": "2022-02-22T19:57:07Z",
+    "stargazers_count": 1693,
+    "topics": [
+      "bert",
+      "nlp",
+      "scientific-papers"
+    ],
+    "updated_at": "2026-05-03T07:37:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/pytorch-pretrained-bert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scibert-pretrained-contextualized-embeddings/named-entity-recognition-bc5cdr)](https://paperswithcode.com/sota/named-entity-recognition-bc5cdr?p=scibert-pretrained-contextualized-embeddings)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scibert-pretrained-contextualized-embeddings/named-entity-recognition-bc5cdr)](https://paperswithcode.com/sota/named-entity-recognition-bc5cdr?p=scibert-pretrained-contextualized-embeddings)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-papers"
+    }
+  ]
+}

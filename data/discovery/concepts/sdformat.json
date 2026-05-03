@@ -19,6 +19,18 @@
       "source_repo": "gazebosim/sdformat",
       "status": "candidate-context",
       "text": "[![GitHub open issues](https://img.shields.io/github/issues-raw/gazebosim/sdformat.svg)](https://github.com/gazebosim/sdformat/issues)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate-context",
+      "text": "Resolve a package:// or model:// URI to an absolute filename in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate-context",
+      "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "gazebosim/sdformat",
       "status": "candidate",
       "text": "[![GitHub open issues](https://img.shields.io/github/issues-raw/gazebosim/sdformat.svg)](https://github.com/gazebosim/sdformat/issues)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate",
+      "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": null,
       "source_repo": "gazebosim/sdformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/resolve-robotics-uri-py"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

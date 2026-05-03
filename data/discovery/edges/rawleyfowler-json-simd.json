@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rawleyfowler/JSON-Simd",
+      "target": "moritz/json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rawleyfowler/JSON-Simd",
+      "target": "timo/json_fast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github.yaml",
+      "source_repo": "rawleyfowler/JSON-Simd",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github.yaml",
+      "source_repo": "rawleyfowler/JSON-Simd",
+      "target": "Raku/setup-raku@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github.yaml",
+      "source_repo": "rawleyfowler/JSON-Simd",
+      "target": "Run tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "rawleyfowler/JSON-Simd"
+}

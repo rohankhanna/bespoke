@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zargony/fuse-rs",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zargony/fuse-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "zargony/fuse-rs",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zargony/fuse-rs",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zargony/fuse-rs",
+      "target": "fuse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zargony/fuse-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:34.950782+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3984
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 837
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust library for filesystems in userspace (FUSE)",
+    "fork": false,
+    "full_name": "zargony/fuse-rs",
+    "html_url": "https://github.com/zargony/fuse-rs",
+    "language": "Rust",
+    "pushed_at": "2023-05-23T09:19:59Z",
+    "stargazers_count": 1138,
+    "topics": [
+      "filesystem",
+      "fuse",
+      "rust"
+    ],
+    "updated_at": "2026-04-24T20:36:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Crates.io](https://img.shields.io/crates/l/fuse)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "![Crates.io](https://img.shields.io/crates/l/fuse)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuse"
+    },
+    {
+      "context_snippet": "![Crates.io](https://img.shields.io/crates/l/fuse)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

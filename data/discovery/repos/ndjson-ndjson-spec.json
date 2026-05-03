@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:40:12.097770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4003
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Specification",
+    "fork": false,
+    "full_name": "ndjson/ndjson-spec",
+    "html_url": "https://github.com/ndjson/ndjson-spec",
+    "language": null,
+    "pushed_at": "2022-10-20T14:43:02Z",
+    "stargazers_count": 818,
+    "topics": [],
+    "updated_at": "2026-04-27T13:37:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

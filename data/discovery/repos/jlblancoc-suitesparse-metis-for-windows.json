@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "target": "build-with-cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "target": "suitesparse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:07.813108+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7563
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3291
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CMake scripts for painless usage of SuiteSparse+METIS from Visual Studio and the rest of Windows/Linux/OSX IDEs supported by CMake",
+    "fork": false,
+    "full_name": "jlblancoc/suitesparse-metis-for-windows",
+    "html_url": "https://github.com/jlblancoc/suitesparse-metis-for-windows",
+    "language": "C",
+    "pushed_at": "2024-03-16T04:09:07Z",
+    "stargazers_count": 467,
+    "topics": [
+      "c-plus-plus",
+      "cmake",
+      "suitesparse"
+    ],
+    "updated_at": "2026-03-30T17:09:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build-with-cmake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "build-with-cmake"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/travis/jlblancoc/suitesparse-metis-for-windows/master.svg?label=Travis)](https://travis-ci.org/jlblancoc/suitesparse-metis-for-windows/builds)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/travis/jlblancoc/suitesparse-metis-for-windows/master.svg?label=Travis)](https://travis-ci.org/jlblancoc/suitesparse-metis-for-windows/builds)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/travis/jlblancoc/suitesparse-metis-for-windows/master.svg?label=Travis)](https://travis-ci.org/jlblancoc/suitesparse-metis-for-windows/builds)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suitesparse"
+    }
+  ]
+}

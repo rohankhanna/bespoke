@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Closed Reference Notifier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Closed Reference Notifier"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22476,
+      "status": "candidate",
+      "text": "himself"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22415,
+      "status": "candidate",
+      "text": "divorce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22415,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18476,
+      "status": "candidate",
+      "text": "informant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18445,
+      "status": "candidate",
+      "text": "handy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Closed Reference Notifier",
+      "sense_id": "closed-reference-notifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "closed-reference-notifier",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "closed-reference-notifier",
+  "observation_id": "1099a2b5fa1305a3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Closed Reference Notifier",
+  "source_context_snippet": "Closed Reference Notifier",
+  "source_file": ".github/workflows/closed_references.yml",
+  "source_repo": "ory/kratos-selfservice-ui-node",
+  "source_repo_description": null
+}

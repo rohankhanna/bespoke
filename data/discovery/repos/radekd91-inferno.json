@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "radekd91/inferno",
+      "target": "yadiraf/deca",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:44:31.993025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10032
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 Set the world of 3D faces on fire with INFERNO \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+    "fork": false,
+    "full_name": "radekd91/inferno",
+    "html_url": "https://github.com/radekd91/inferno",
+    "language": "Python",
+    "pushed_at": "2026-03-01T16:19:45Z",
+    "stargazers_count": 315,
+    "topics": [],
+    "updated_at": "2026-05-01T09:47:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yadiraf/deca",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

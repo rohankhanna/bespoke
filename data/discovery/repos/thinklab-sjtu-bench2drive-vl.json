@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:32:02.506082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7893
+    },
+    {
+      "path": "requirements.txt",
+      "size": 850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Adapting VLMs to Bench2Drive.",
+    "fork": false,
+    "full_name": "Thinklab-SJTU/Bench2Drive-VL",
+    "html_url": "https://github.com/Thinklab-SJTU/Bench2Drive-VL",
+    "language": "Python",
+    "pushed_at": "2026-04-06T05:41:29Z",
+    "stargazers_count": 201,
+    "topics": [],
+    "updated_at": "2026-04-28T02:25:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

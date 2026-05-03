@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mapbox/geometry.hpp",
+      "target": "mapbox/variant",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:45:40.739786+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ geometry types",
+    "fork": false,
+    "full_name": "mapbox/geometry.hpp",
+    "html_url": "https://github.com/mapbox/geometry.hpp",
+    "language": "C++",
+    "pushed_at": "2026-04-20T15:37:59Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2026-04-08T07:22:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/variant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

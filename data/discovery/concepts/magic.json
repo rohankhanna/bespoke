@@ -31,6 +31,30 @@
       "source_repo": "kwilczynski/ruby-magic",
       "status": "candidate-context",
       "text": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaInterop/Cxx.jl",
+      "status": "candidate-context",
+      "text": "The Julia C++ Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/Cxx.jl",
+      "status": "candidate-context",
+      "text": "**Please, note that Cxx.jl only works (out of the box) currently with Julia 1.1.x to 1.3.x, i.e. with no currently supported Julia, while those versions can still be downloaded at Julialang.org.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate-context",
+      "text": "OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen and custom methodology scripts for design exploration and optimization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "kwilczynski/ruby-magic",
       "status": "candidate",
       "text": "[![Gem Version](http://badge.fury.io/rb/ruby-magic.svg)](http://badge.fury.io/rb/ruby-magic)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaInterop/Cxx.jl",
+      "status": "candidate",
+      "text": "**Please, note that Cxx.jl only works (out of the box) currently with Julia 1.1.x to 1.3.x, i.e. with no currently supported Julia, while those versions can still be downloaded at Julialang.org.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "status": "candidate",
+      "text": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "kwilczynski/ruby-magic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaInterop/Cxx.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

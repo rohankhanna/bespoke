@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:32:25.296098+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1861
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Breeze icon theme.",
+    "fork": false,
+    "full_name": "KDE/breeze-icons",
+    "html_url": "https://github.com/KDE/breeze-icons",
+    "language": "C++",
+    "pushed_at": "2026-05-01T20:19:20Z",
+    "stargazers_count": 279,
+    "topics": [],
+    "updated_at": "2026-05-01T20:19:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

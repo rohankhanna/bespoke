@@ -1,0 +1,79 @@
+{
+  "aliases": [
+    "Build AzCopy for M1 Mac"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-storage-azcopy",
+      "status": "candidate-context",
+      "text": "The new Azure Storage data transfer utility - AzCopy v10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-storage-azcopy",
+      "status": "candidate-context",
+      "text": "Build AzCopy for M1 Mac"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-storage-azcopy",
+      "status": "candidate",
+      "text": "Build AzCopy for M1 Mac"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "rifle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10308,
+      "status": "candidate",
+      "text": "fab"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build AzCopy for M1 Mac",
+  "concept_id": "build-azcopy-for-m1-mac",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build_m1.yml",
+      "source_repo": "Azure/azure-storage-azcopy"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build AzCopy for M1 Mac",
+      "sense_id": "build-azcopy-for-m1-mac#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

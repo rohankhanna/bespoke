@@ -84,7 +84,7 @@
   "normalized_form": "run-make-check",
   "observation_id": "893fabccdd05da0a",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Run 'make check",
   "source_context_snippet": "Run 'make check'",
   "source_file": ".github/workflows/make-check.yml",

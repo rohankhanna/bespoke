@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1237,6 +1237,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cibuildwheels.yml",
       "source_repo": "Blosc/python-blosc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "SagerNet/sing-box"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cnosdb-build_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-latest_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-tag_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheels.yml",
+      "source_repo": "Blosc/python-blosc2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "oracle/karpenter-provider-oci"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "murat-dogan/node-datachannel"
     }
   ]
 }

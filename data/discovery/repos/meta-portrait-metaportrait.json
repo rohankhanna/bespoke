@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Meta-Portrait/MetaPortrait",
+      "target": "xinntao/basicsr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:40.775128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2023] MetaPortrait: Identity-Preserving Talking Head Generation with Fast Personalized Adaptation",
+    "fork": false,
+    "full_name": "Meta-Portrait/MetaPortrait",
+    "html_url": "https://github.com/Meta-Portrait/MetaPortrait",
+    "language": "Python",
+    "pushed_at": "2023-05-21T02:11:34Z",
+    "stargazers_count": 546,
+    "topics": [],
+    "updated_at": "2026-02-12T06:53:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/basicsr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

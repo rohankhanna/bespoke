@@ -1,7 +1,8 @@
 {
   "aliases": [
     "test-runner",
-    "Test Runner"
+    "Test Runner",
+    "Test runner"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -82,6 +83,66 @@
       "source_repo": "rcarriga/vim-ultest",
       "status": "candidate-context",
       "text": "This repo is no longer being actively worked on. I've moved my efforts into"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgpc42/lein-jmh",
+      "status": "candidate-context",
+      "text": "Leiningen plugin for jmh-clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgpc42/lein-jmh",
+      "status": "candidate-context",
+      "text": "Test runner"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vstest",
+      "status": "candidate-context",
+      "text": "Visual Studio Test Platform is the runner and engine that powers test explorer and vstest.console."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest",
+      "status": "candidate-context",
+      "text": "The Visual Studio Test Platform is an open and extensible test platform that runs tests, collects diagnostics data, and reports results. The Test Platform supports running tests written in various test frameworks, and using a pluggable adapter model. Based on user-choice, the de\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "enzymejs/enzyme",
+      "status": "candidate-context",
+      "text": "JavaScript Testing utilities for React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzymejs/enzyme",
+      "status": "candidate-context",
+      "text": "Enzyme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgpc42/jmh-clojure",
+      "status": "candidate-context",
+      "text": "Seamless JMH benchmarking for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgpc42/jmh-clojure",
+      "status": "candidate-context",
+      "text": "Test runner"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgpc42/jmh-clojure-task",
+      "status": "candidate-context",
+      "text": "Convenience tools for jmh-clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgpc42/jmh-clojure-task",
+      "status": "candidate-context",
+      "text": "Test runner"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +181,36 @@
       "source_repo": "rcarriga/vim-ultest",
       "status": "candidate",
       "text": "This repo is no longer being actively worked on. I've moved my efforts into"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgpc42/lein-jmh",
+      "status": "candidate",
+      "text": "Test runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest",
+      "status": "candidate",
+      "text": "The Visual Studio Test Platform is an open and extensible test platform that runs tests, collects diagnostics data, and reports results. The Test Platform supports running tests written in various test frameworks, and using a pluggable adapter model. Based on user-choice, the de\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "enzymejs/enzyme",
+      "status": "candidate",
+      "text": "Enzyme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgpc42/jmh-clojure",
+      "status": "candidate",
+      "text": "Test runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgpc42/jmh-clojure-task",
+      "status": "candidate",
+      "text": "Test runner"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +416,53 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/test-runner.yml",
       "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jgpc42/lein-jmh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/test-runner.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vstest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "enzymejs/enzyme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jgpc42/jmh-clojure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jgpc42/jmh-clojure-task"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "expect.js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jshint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pikaday/Pikaday",
+      "target": "owenmead/pikaday",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pikaday/Pikaday",
+      "target": "xeeali/pikaday",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Pikaday/Pikaday",
+      "target": "expect.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Pikaday/Pikaday",
+      "target": "jshint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Pikaday/Pikaday",
+      "target": "mocha",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:37:52.020692+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18193
+    },
+    {
+      "path": "package.json",
+      "size": 877
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A refreshing JavaScript Datepicker \u2014 lightweight, no dependencies, modular CSS",
+    "fork": false,
+    "full_name": "Pikaday/Pikaday",
+    "html_url": "https://github.com/Pikaday/Pikaday",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-11T14:59:29Z",
+    "stargazers_count": 8099,
+    "topics": [],
+    "updated_at": "2026-04-30T06:29:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "owenmead/pikaday",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xeeali/pikaday",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvg/nice-slam",
+      "target": "autonomousvision/convolutional_occupancy_networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cvg/nice-slam",
+      "target": "b1ueber2y/dist-renderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam",
+      "target": "3d-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam",
+      "target": "implicit-functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam",
+      "target": "localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam",
+      "target": "neural-fields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam",
+      "target": "neural-implicit-representations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam",
+      "target": "scalable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:30.793151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR'22] NICE-SLAM: Neural Implicit Scalable Encoding for SLAM",
+    "fork": false,
+    "full_name": "cvg/nice-slam",
+    "html_url": "https://github.com/cvg/nice-slam",
+    "language": "Python",
+    "pushed_at": "2023-03-10T19:06:09Z",
+    "stargazers_count": 1576,
+    "topics": [
+      "3d-reconstruction",
+      "deep-learning",
+      "implicit-functions",
+      "localization",
+      "neural-fields",
+      "neural-implicit-representations",
+      "scalable",
+      "slam"
+    ],
+    "updated_at": "2026-05-03T15:54:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autonomousvision/convolutional_occupancy_networks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b1ueber2y/dist-renderer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-reconstruction"
+    },
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "implicit-functions"
+    },
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localization"
+    },
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-fields"
+    },
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-implicit-representations"
+    },
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scalable"
+    },
+    {
+      "context_snippet": "<!-- PROJECT LOGO -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    }
+  ]
+}

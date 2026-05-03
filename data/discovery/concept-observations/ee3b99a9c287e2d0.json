@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An Obsidian theme inspired by the beautifully-designed app, Things. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "light-theme",
+      "sense_id": "light-theme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "light-theme",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "light-theme",
+  "observation_id": "ee3b99a9c287e2d0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "light-theme",
+  "source_context_snippet": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!",
+  "source_file": null,
+  "source_repo": "colineckert/obsidian-things",
+  "source_repo_description": "An Obsidian theme inspired by the beautifully-designed app, Things. "
+}

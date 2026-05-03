@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "JuliaRegistries/TagBot@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "Tokazama/AbstractIndices.jl",
+      "target": "JuliaRegistries/TagBot@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "Tokazama/AbstractIndices.jl",
+      "target": "TagBot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:44:47.881688+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 160
+    },
+    {
+      "path": ".github/workflows/TagBot.yml",
+      "size": 204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A generic interface to indices in Julia with additional concrete types specified.",
+    "fork": false,
+    "full_name": "Tokazama/AbstractIndices.jl",
+    "html_url": "https://github.com/Tokazama/AbstractIndices.jl",
+    "language": "Julia",
+    "pushed_at": "2022-11-04T14:45:35Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2020-02-09T09:12:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TagBot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/TagBot.yml",
+      "term": "TagBot"
+    }
+  ]
+}

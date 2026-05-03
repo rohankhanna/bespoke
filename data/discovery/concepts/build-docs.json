@@ -538,6 +538,30 @@
       "source_repo": "clojure/tools.build",
       "status": "candidate-context",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phronmophobic/llama.clj",
+      "status": "candidate-context",
+      "text": "Run LLMs locally. A clojure wrapper for llama.cpp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phronmophobic/llama.clj",
+      "status": "candidate-context",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scikit-image/scikit-image",
+      "status": "candidate-context",
+      "text": "Image processing in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-image/scikit-image",
+      "status": "candidate-context",
+      "text": "Build docs"
     }
   ],
   "candidate_glosses": [
@@ -810,6 +834,18 @@
       "source_repo": "clojure/tools.build",
       "status": "candidate",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phronmophobic/llama.clj",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scikit-image/scikit-image",
+      "status": "candidate",
+      "text": "Build docs"
     }
   ],
   "candidate_related_terms": [
@@ -1441,11 +1477,47 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "meta-pytorch/torchtune"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/builddocs.yml",
+      "source_repo": "phronmophobic/llama.clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "scikit-image/scikit-image"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pretest.yaml",
+      "source_repo": "SysCV/nutsh",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pretest.yaml",
+      "source_repo": "SysCV/nutsh",
+      "target": "Pretest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "SysCV/nutsh",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "SysCV/nutsh",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "SysCV/nutsh",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:36.121380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6458
+    },
+    {
+      "path": "go.mod",
+      "size": 2311
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 30
+    },
+    {
+      "path": ".github/workflows/pretest.yaml",
+      "size": 1888
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 4006
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Platform for Visual Learning from Human Feedback",
+    "fork": false,
+    "full_name": "SysCV/nutsh",
+    "html_url": "https://github.com/SysCV/nutsh",
+    "language": "TypeScript",
+    "pushed_at": "2024-03-31T02:56:56Z",
+    "stargazers_count": 90,
+    "topics": [],
+    "updated_at": "2026-04-09T10:34:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pretest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pretest.yaml",
+      "term": "Pretest"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    }
+  ]
+}

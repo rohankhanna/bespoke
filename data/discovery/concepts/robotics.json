@@ -823,6 +823,162 @@
       "source_repo": "jimmyyhwu/tidybot2",
       "status": "candidate-context",
       "text": "This code release accompanies the following project:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nicklashansen/tdmpc2",
+      "status": "candidate-context",
+      "text": "Code for \"TD-MPC2: Scalable, Robust World Models for Continuous Control\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicklashansen/tdmpc2",
+      "status": "candidate-context",
+      "text": "<h1>TD-MPC2</span></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Galaxies99/easyrobot",
+      "status": "candidate-context",
+      "text": "An Easy and Unified Interface for Robots (and Grippers, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Galaxies99/easyrobot",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/easyrobot.png\" alt=\"easyrobot\" height=200 />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/GR-MG",
+      "status": "candidate-context",
+      "text": "Official implementation of GR-MG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/GR-MG",
+      "status": "candidate-context",
+      "text": "<h1>GR-MG</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate-context",
+      "text": "Builds on top of Qt to provide widgets which are useful when developing robotics applications, such as a 3D view, plots, dashboard, etc, and can be used together in a convenient unified interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate-context",
+      "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "C++ library designed to provide an abstraction for different rendering engines. It offers unified APIs for creating 3D graphics applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate-context",
+      "text": "Provides numerous sensor models designed to generate realistic data from simulation environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate-context",
+      "text": "**Maintainer:** ichen AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/community",
+      "status": "candidate-context",
+      "text": "Virtual repository hosting Discussions and Questions & Answers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/community",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate-context",
+      "text": "Resolve a package:// or model:// URI to an absolute filename in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate-context",
+      "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "status": "candidate-context",
+      "text": "Robotics software featuring legged locomotion algorithms and a momentum-based controller core with optimization. Supporting software for world-class robots including humanoids, running birds, exoskeletons, mechs and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "status": "candidate-context",
+      "text": "![develop, fast](https://github.com/ihmcrobotics/ihmc-open-robotics-software/actions/workflows/gradle-test-fast.yml/badge.svg?branch=develop) Current develop status"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/yarp",
+      "status": "candidate-context",
+      "text": "YARP - Yet Another Robot Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/yarp",
+      "status": "candidate-context",
+      "text": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "YCM (YCM CMake modules) is a collection of various useful CMake modules. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "ycm-cmake-modules"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MarkFzp/mobile-aloha",
+      "status": "candidate-context",
+      "text": "Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarkFzp/mobile-aloha",
+      "status": "candidate-context",
+      "text": "This codebase is forked from the [ALOHA repo](https://github.com/tonyzhaozh/aloha), and contains implementation for teleoperation and data collection with the Mobile ALOHA hardware."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "Robotic Development Kit (RDK) for Flexiv robots. Supports C++ and Python. Compatible with Linux, macOS, Windows, and QNX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate-context",
+      "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -1233,6 +1389,84 @@
       "source_repo": "jimmyyhwu/tidybot2",
       "status": "candidate",
       "text": "This code release accompanies the following project:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicklashansen/tdmpc2",
+      "status": "candidate",
+      "text": "<h1>TD-MPC2</span></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Galaxies99/easyrobot",
+      "status": "candidate",
+      "text": "<img src=\"assets/easyrobot.png\" alt=\"easyrobot\" height=200 />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/GR-MG",
+      "status": "candidate",
+      "text": "<h1>GR-MG</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate",
+      "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate",
+      "text": "**Maintainer:** ichen AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/community",
+      "status": "candidate",
+      "text": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "status": "candidate",
+      "text": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software",
+      "status": "candidate",
+      "text": "![develop, fast](https://github.com/ihmcrobotics/ihmc-open-robotics-software/actions/workflows/gradle-test-fast.yml/badge.svg?branch=develop) Current develop status"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/yarp",
+      "status": "candidate",
+      "text": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate",
+      "text": "ycm-cmake-modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarkFzp/mobile-aloha",
+      "status": "candidate",
+      "text": "This codebase is forked from the [ALOHA repo](https://github.com/tonyzhaozh/aloha), and contains implementation for teleoperation and data collection with the Mobile ALOHA hardware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flexivrobotics/flexiv_rdk",
+      "status": "candidate",
+      "text": "![CMake Badge](https://github.com/flexivrobotics/flexiv_rdk/actions/workflows/cmake.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -1816,11 +2050,125 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "jimmyyhwu/tidybot2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nicklashansen/tdmpc2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Galaxies99/easyrobot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/tapnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/GR-MG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-rendering"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology-legacy/gym-ignition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/idyntree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/jaxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/resolve-robotics-uri-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ihmcrobotics/ihmc-open-robotics-software"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/yarp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "taichi-dev/difftaichi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MarkFzp/mobile-aloha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "flexivrobotics/flexiv_rdk"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

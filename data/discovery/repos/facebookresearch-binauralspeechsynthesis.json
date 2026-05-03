@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:33:30.297302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4617
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "N/A",
+    "fork": false,
+    "full_name": "facebookresearch/BinauralSpeechSynthesis",
+    "html_url": "https://github.com/facebookresearch/BinauralSpeechSynthesis",
+    "language": "Python",
+    "pushed_at": "2022-05-19T20:44:09Z",
+    "stargazers_count": 187,
+    "topics": [],
+    "updated_at": "2026-02-05T14:47:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

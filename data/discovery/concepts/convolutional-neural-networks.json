@@ -235,6 +235,18 @@
       "source_repo": "yangyanli/PointCNN",
       "status": "candidate-context",
       "text": "Created by <a href=\"http://yangyan.li\" target=\"_blank\">Yangyan Li</a>, Rui Bu, Mingchao Sun, Wei Wu, Xinhan Di, and <a href=\"https://cfcs.pku.edu.cn/baoquan/\" target=\"_blank\">Baoquan Chen</a>."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "varunagrawal/tiny-faces-pytorch",
+      "status": "candidate-context",
+      "text": "Finding Tiny Faces in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "varunagrawal/tiny-faces-pytorch",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of Peiyun Hu's [awesome tiny face detector](https://github.com/peiyunh/tiny)."
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "yangyanli/PointCNN",
       "status": "candidate",
       "text": "Created by <a href=\"http://yangyan.li\" target=\"_blank\">Yangyan Li</a>, Rui Bu, Mingchao Sun, Wei Wu, Xinhan Di, and <a href=\"https://cfcs.pku.edu.cn/baoquan/\" target=\"_blank\">Baoquan Chen</a>."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "varunagrawal/tiny-faces-pytorch",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of Peiyun Hu's [awesome tiny face detector](https://github.com/peiyunh/tiny)."
     }
   ],
   "candidate_related_terms": [],
@@ -544,11 +562,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "varunagrawal/tiny-faces-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

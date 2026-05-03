@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:32:55.474569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4886
+    },
+    {
+      "path": "requirements.txt",
+      "size": 164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unofficial PyTorch implementation of Masked Autoencoders Are Scalable Vision Learners",
+    "fork": false,
+    "full_name": "pengzhiliang/MAE-pytorch",
+    "html_url": "https://github.com/pengzhiliang/MAE-pytorch",
+    "language": "Python",
+    "pushed_at": "2023-07-25T06:31:32Z",
+    "stargazers_count": 2686,
+    "topics": [],
+    "updated_at": "2026-04-18T15:15:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

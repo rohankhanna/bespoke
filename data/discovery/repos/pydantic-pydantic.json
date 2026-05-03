@@ -6,7 +6,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -91,12 +91,12 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "mymindstorm/setup-emsdk@6ab9eb1bda2574c4ddb79809fc9247783eaf9021",
+      "component": "mymindstorm/setup-emsdk@4528d102f7230f0e7b276855c01ea1159be0e984",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -151,7 +151,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -176,7 +176,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -186,7 +186,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -206,7 +206,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -226,7 +226,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -246,7 +246,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -256,7 +256,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -266,7 +266,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -281,7 +281,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -291,7 +291,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -306,7 +306,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -346,7 +346,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "py-cov-action/python-coverage-comment-action@7188638f871f721a365d644f505d1ff3df20d683",
+      "component": "py-cov-action/python-coverage-comment-action@63f52f4fbbffada6e8dee8ec432de7e01df9ba79",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -361,7 +361,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -376,7 +376,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -391,7 +391,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -416,7 +416,7 @@
       "source_file": ".github/workflows/codspeed.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codspeed.yml"
     },
@@ -436,12 +436,12 @@
       "source_file": ".github/workflows/codspeed.yml"
     },
     {
-      "component": "CodSpeedHQ/action@1c8ae4843586d3ba879736b7f6b7b0c990757fab",
+      "component": "CodSpeedHQ/action@658a901452bb54c799643e060733b7afe9121b8d",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codspeed.yml"
     },
     {
-      "component": "py-cov-action/python-coverage-comment-action@7188638f871f721a365d644f505d1ff3df20d683",
+      "component": "py-cov-action/python-coverage-comment-action@63f52f4fbbffada6e8dee8ec432de7e01df9ba79",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/coverage.yml"
     },
@@ -471,7 +471,7 @@
       "source_file": ".github/workflows/docs-update.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs-update.yml"
     },
@@ -486,7 +486,7 @@
       "source_file": ".github/workflows/docs-update.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs-update.yml"
     },
@@ -501,7 +501,7 @@
       "source_file": ".github/workflows/docs-update.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs-update.yml"
     },
@@ -516,7 +516,7 @@
       "source_file": ".github/workflows/integration.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml"
     },
@@ -526,7 +526,7 @@
       "source_file": ".github/workflows/integration.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml"
     },
@@ -541,7 +541,7 @@
       "source_file": ".github/workflows/third-party.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml"
     },
@@ -556,7 +556,7 @@
       "source_file": ".github/workflows/third-party.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml"
     },
@@ -626,7 +626,7 @@
       "source_file": ".github/workflows/third-party.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml"
     },
@@ -651,7 +651,7 @@
       "source_file": ".github/workflows/third-party.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml"
     },
@@ -686,7 +686,7 @@
       "source_file": ".github/workflows/third-party.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml"
     },
@@ -701,37 +701,7 @@
       "source_file": ".github/workflows/third-party.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/third-party.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/third-party.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/third-party.yml"
-    },
-    {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/third-party.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/third-party.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/third-party.yml"
-    },
-    {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml"
     },
@@ -761,7 +731,37 @@
       "source_file": ".github/workflows/third-party.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml"
     },
@@ -796,12 +796,12 @@
       "source_file": ".github/workflows/third-party.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml"
     },
     {
-      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml"
     },
@@ -823,7 +823,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pydantic/pydantic",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -872,7 +872,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pydantic/pydantic",
-      "target": "mymindstorm/setup-emsdk@6ab9eb1bda2574c4ddb79809fc9247783eaf9021",
+      "target": "mymindstorm/setup-emsdk@4528d102f7230f0e7b276855c01ea1159be0e984",
       "target_type": "component"
     },
     {
@@ -907,7 +907,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pydantic/pydantic",
-      "target": "py-cov-action/python-coverage-comment-action@7188638f871f721a365d644f505d1ff3df20d683",
+      "target": "py-cov-action/python-coverage-comment-action@63f52f4fbbffada6e8dee8ec432de7e01df9ba79",
       "target_type": "component"
     },
     {
@@ -935,7 +935,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codspeed.yml",
       "source_repo": "pydantic/pydantic",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -963,7 +963,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codspeed.yml",
       "source_repo": "pydantic/pydantic",
-      "target": "CodSpeedHQ/action@1c8ae4843586d3ba879736b7f6b7b0c990757fab",
+      "target": "CodSpeedHQ/action@658a901452bb54c799643e060733b7afe9121b8d",
       "target_type": "component"
     },
     {
@@ -977,7 +977,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "pydantic/pydantic",
-      "target": "py-cov-action/python-coverage-comment-action@7188638f871f721a365d644f505d1ff3df20d683",
+      "target": "py-cov-action/python-coverage-comment-action@63f52f4fbbffada6e8dee8ec432de7e01df9ba79",
       "target_type": "component"
     },
     {
@@ -1026,7 +1026,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs-update.yml",
       "source_repo": "pydantic/pydantic",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -1061,7 +1061,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "pydantic/pydantic",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -1082,7 +1082,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml",
       "source_repo": "pydantic/pydantic",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -1124,7 +1124,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/third-party.yml",
       "source_repo": "pydantic/pydantic",
-      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -1219,7 +1219,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:08:48.856118+00:00",
+  "fetched_at": "2026-05-03T14:41:15.148521+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1271,8 +1271,8 @@
     "full_name": "pydantic/pydantic",
     "html_url": "https://github.com/pydantic/pydantic",
     "language": "Python",
-    "pushed_at": "2026-05-02T09:19:39Z",
-    "stargazers_count": 27662,
+    "pushed_at": "2026-05-03T12:25:26Z",
+    "stargazers_count": 27665,
     "topics": [
       "hints",
       "json-schema",
@@ -1286,7 +1286,7 @@
       "python39",
       "validation"
     ],
-    "updated_at": "2026-05-03T04:51:11Z"
+    "updated_at": "2026-05-03T13:47:54Z"
   },
   "repo_links": [],
   "terms": [

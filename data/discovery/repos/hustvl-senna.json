@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hustvl/Senna",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hustvl/Senna",
+      "target": "end-to-end",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hustvl/Senna",
+      "target": "vision-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:15.690500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4835
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3011
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bridging Large Vision-Language Models and End-to-End Autonomous Driving",
+    "fork": false,
+    "full_name": "hustvl/Senna",
+    "html_url": "https://github.com/hustvl/Senna",
+    "language": "Python",
+    "pushed_at": "2026-03-15T08:03:11Z",
+    "stargazers_count": 549,
+    "topics": [
+      "autonomous-driving",
+      "end-to-end",
+      "vision-language-model"
+    ],
+    "updated_at": "2026-05-03T06:43:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "<div align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "end-to-end"
+    },
+    {
+      "context_snippet": "<div align =\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    }
+  ]
+}

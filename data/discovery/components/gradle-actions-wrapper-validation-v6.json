@@ -1,7 +1,7 @@
 {
   "component": "gradle/actions/wrapper-validation@v6",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "coil-kt/coil"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "testng-team/testng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-maven-central.yml",
+      "source_repo": "testng-team/testng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot.yml",
+      "source_repo": "testng-team/testng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jetbrains-release.yaml",
+      "source_repo": "continuedev/continue"
     }
   ]
 }

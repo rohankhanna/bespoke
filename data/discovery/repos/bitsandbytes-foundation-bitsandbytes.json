@@ -422,7 +422,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T07:04:26.619855+00:00",
+  "fetched_at": "2026-05-03T14:44:20.989542+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -475,7 +475,7 @@
     "html_url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
     "language": "Python",
     "pushed_at": "2026-04-30T15:01:04Z",
-    "stargazers_count": 8171,
+    "stargazers_count": 8172,
     "topics": [
       "llm",
       "machine-learning",
@@ -483,7 +483,7 @@
       "qlora",
       "quantization"
     ],
-    "updated_at": "2026-05-01T14:14:54Z"
+    "updated_at": "2026-05-03T10:51:33Z"
   },
   "repo_links": [],
   "terms": [

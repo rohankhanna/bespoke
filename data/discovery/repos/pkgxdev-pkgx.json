@@ -1,0 +1,534 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-boundary-check.yml"
+    },
+    {
+      "component": "aurelien-baudet/workflow-dispatch@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.brew.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.crates.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.crates.yml"
+    },
+    {
+      "component": "katyo/publish-crates@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.crates.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@v1.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml"
+    },
+    {
+      "component": "fischerscode/tagger@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.www.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@v1.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.www.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "pkgxdev/setup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "pkgxdev/pantry/.github/actions/setup@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ca-cert.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ca-cert.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ca-cert.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ca-cert.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "teaxyz/teabase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "pkgxdev/mash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "pkgxdev/pkgo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "agent-boundary-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.brew.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "aurelien-baudet/workflow-dispatch@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.brew.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "cd\u00b7brew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.crates.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.crates.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.crates.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "katyo/publish-crates@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.crates.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "cd\u00b7crates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "robinraju/release-downloader@v1.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.docker.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.docker.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "cd\u00b7docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "fischerscode/tagger@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "cd\u00b7vx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.www.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.www.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "robinraju/release-downloader@v1.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.www.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "cd\u00b7www",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "pkgxdev/setup@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "pkgxdev/pantry/.github/actions/setup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ca-cert.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ca-cert.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ca-cert.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ca-cert.yml",
+      "source_repo": "pkgxdev/pkgx",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkgxdev/pkgx",
+      "target": "environment-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkgxdev/pkgx",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pkgxdev/pkgx",
+      "target": "package-runner",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:34:15.012403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9022
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/agent-boundary-check.yml",
+      "size": 1504
+    },
+    {
+      "path": ".github/workflows/cd.brew.yml",
+      "size": 458
+    },
+    {
+      "path": ".github/workflows/cd.crates.yml",
+      "size": 707
+    },
+    {
+      "path": ".github/workflows/cd.docker.yml",
+      "size": 3598
+    },
+    {
+      "path": ".github/workflows/cd.vx.yml",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/cd.www.yml",
+      "size": 2424
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 6184
+    },
+    {
+      "path": ".github/workflows/ci.ca-cert.yml",
+      "size": 904
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run Anything",
+    "fork": false,
+    "full_name": "pkgxdev/pkgx",
+    "html_url": "https://github.com/pkgxdev/pkgx",
+    "language": "Rust",
+    "pushed_at": "2026-04-27T16:00:12Z",
+    "stargazers_count": 9723,
+    "topics": [
+      "environment-manager",
+      "package-manager",
+      "package-runner"
+    ],
+    "updated_at": "2026-05-03T13:10:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkgxdev/mash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkgxdev/pkgo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "teaxyz/teabase",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"agent-boundary-check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-boundary-check.yml",
+      "term": "agent-boundary-check"
+    },
+    {
+      "context_snippet": "cd\u00b7brew",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.brew.yml",
+      "term": "cd\u00b7brew"
+    },
+    {
+      "context_snippet": "cd\u00b7crates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.crates.yml",
+      "term": "cd\u00b7crates"
+    },
+    {
+      "context_snippet": "cd\u00b7docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.docker.yml",
+      "term": "cd\u00b7docker"
+    },
+    {
+      "context_snippet": "cd\u00b7vx",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.vx.yml",
+      "term": "cd\u00b7vx"
+    },
+    {
+      "context_snippet": "cd\u00b7www",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.www.yml",
+      "term": "cd\u00b7www"
+    },
+    {
+      "context_snippet": "![pkgx.dev](https://pkgx.dev/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "environment-manager"
+    },
+    {
+      "context_snippet": "![pkgx.dev](https://pkgx.dev/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "![pkgx.dev](https://pkgx.dev/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-runner"
+    }
+  ]
+}

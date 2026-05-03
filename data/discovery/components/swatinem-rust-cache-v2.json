@@ -1,7 +1,7 @@
 {
   "component": "Swatinem/rust-cache@v2",
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2612,6 +2612,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/runas.yml",
       "source_repo": "pgcentralfoundation/pgrx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/failures.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gcc12.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/m68k.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stdarch.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-for-release.yml",
+      "source_repo": "SuperCuber/dotter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "SuperCuber/dotter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "robustmq/robustmq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ig-all-test.yml",
+      "source_repo": "robustmq/robustmq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "watchexec/process-wrap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_deps_check.yml",
+      "source_repo": "stefnotch/winit_input_helper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "stefnotch/winit_input_helper"
     }
   ]
 }

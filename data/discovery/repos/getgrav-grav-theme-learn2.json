@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-theme-learn2",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-theme-learn2",
+      "target": "documentation-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-theme-learn2",
+      "target": "grav",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-theme-learn2",
+      "target": "grav-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-theme-learn2",
+      "target": "learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getgrav/grav-theme-learn2",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:44:51.384530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4384
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Learn2 Grav Theme",
+    "fork": false,
+    "full_name": "getgrav/grav-theme-learn2",
+    "html_url": "https://github.com/getgrav/grav-theme-learn2",
+    "language": "SCSS",
+    "pushed_at": "2026-02-05T19:11:50Z",
+    "stargazers_count": 79,
+    "topics": [
+      "documentation",
+      "documentation-tool",
+      "grav",
+      "grav-theme",
+      "learning",
+      "theme"
+    ],
+    "updated_at": "2026-02-05T19:11:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Learn2](screenshot.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "![Learn2](screenshot.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation-tool"
+    },
+    {
+      "context_snippet": "![Learn2](screenshot.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grav"
+    },
+    {
+      "context_snippet": "![Learn2](screenshot.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grav-theme"
+    },
+    {
+      "context_snippet": "![Learn2](screenshot.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning"
+    },
+    {
+      "context_snippet": "![Learn2](screenshot.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

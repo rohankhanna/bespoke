@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Code formatting check"
+    "Code formatting check",
+    "Code Formatting Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "adamgreig/spi-flash-rs",
       "status": "candidate-context",
       "text": "Code formatting check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cisco/libsrtp",
+      "status": "candidate-context",
+      "text": "Library for SRTP (Secure Realtime Transport Protocol) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cisco/libsrtp",
+      "status": "candidate-context",
+      "text": "Code Formatting Check"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "adamgreig/spi-flash-rs",
       "status": "candidate",
       "text": "Code formatting check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cisco/libsrtp",
+      "status": "candidate",
+      "text": "Code Formatting Check"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/rustfmt.yml",
       "source_repo": "adamgreig/spi-flash-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "cisco/libsrtp"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

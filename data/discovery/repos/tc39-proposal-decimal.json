@@ -73,13 +73,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "tc39/proposal-decimal",
-      "target": "tc39/proposal-amount",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-decimal",
       "target": "tc39/proposal-bigint",
       "target_type": "repository"
     },
@@ -210,7 +203,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:04:18.047707+00:00",
+  "fetched_at": "2026-05-03T14:35:05.233571+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -250,11 +243,6 @@
     "updated_at": "2026-04-27T08:55:31Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "tc39/proposal-amount",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "tc39/proposal-bigint",

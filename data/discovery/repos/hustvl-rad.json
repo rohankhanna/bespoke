@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/RAD",
+      "target": "gigaai-research/recondreamer-rl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:15.160147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5980
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2025] RAD: Training an End-to-End Driving Policy via Large-Scale 3DGS-based Reinforcement Learning",
+    "fork": false,
+    "full_name": "hustvl/RAD",
+    "html_url": "https://github.com/hustvl/RAD",
+    "language": "Python",
+    "pushed_at": "2026-04-17T02:03:29Z",
+    "stargazers_count": 235,
+    "topics": [],
+    "updated_at": "2026-04-30T17:15:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gigaai-research/recondreamer-rl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

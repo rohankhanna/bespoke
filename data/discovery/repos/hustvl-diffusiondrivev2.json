@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hustvl/DiffusionDriveV2",
+      "target": "irom-princeton/dppo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "hustvl/DiffusionDriveV2",
+      "target": "motional/nuplan-devkit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:17.430712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5253
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1470
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DiffusionDriveV2: Reinforcement Learning-Constrained Truncated Diffusion Modeling in End-to-End Autonomous Driving",
+    "fork": false,
+    "full_name": "hustvl/DiffusionDriveV2",
+    "html_url": "https://github.com/hustvl/DiffusionDriveV2",
+    "language": "Python",
+    "pushed_at": "2025-12-29T02:11:53Z",
+    "stargazers_count": 302,
+    "topics": [],
+    "updated_at": "2026-04-30T17:32:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "irom-princeton/dppo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "motional/nuplan-devkit",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

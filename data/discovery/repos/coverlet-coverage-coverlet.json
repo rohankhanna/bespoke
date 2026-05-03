@@ -123,27 +123,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "coverlet-coverage/coverlet",
-      "target": "microsoft/vstest-docs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "coverlet-coverage/coverlet",
-      "target": "romanx/cake.coverlet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "coverlet-coverage/coverlet",
-      "target": "ademanuele/vsmac-codecoverage",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "coverlet-coverage/coverlet",
@@ -375,7 +354,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:53:48.822986+00:00",
+  "fetched_at": "2026-05-03T15:47:32.885118+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -415,7 +394,7 @@
     "full_name": "coverlet-coverage/coverlet",
     "html_url": "https://github.com/coverlet-coverage/coverlet",
     "language": "C#",
-    "pushed_at": "2026-05-02T07:15:21Z",
+    "pushed_at": "2026-05-03T08:35:46Z",
     "stargazers_count": 3148,
     "topics": [
       "bytecode",
@@ -429,25 +408,9 @@
       "instrumentation",
       "unittest"
     ],
-    "updated_at": "2026-05-02T07:15:26Z"
+    "updated_at": "2026-05-03T08:35:50Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ademanuele/vsmac-codecoverage",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/vstest-docs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "romanx/cake.coverlet",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"CodeQL\"",

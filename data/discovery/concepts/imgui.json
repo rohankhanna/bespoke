@@ -103,6 +103,18 @@
       "source_repo": "JuliaImGui/CImGui.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/JuliaImGui/CImGui.jl/workflows/CI/badge.svg)](https://github.com/JuliaImGui/CImGui.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imgui-rs/imgui-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for Dear ImGui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imgui-rs/imgui-rs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/imgui-rs/imgui-rs/workflows/ci/badge.svg)](https://github.com/imgui-rs/imgui-rs/actions)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "JuliaImGui/CImGui.jl",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/JuliaImGui/CImGui.jl/workflows/CI/badge.svg)](https://github.com/JuliaImGui/CImGui.jl/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imgui-rs/imgui-rs",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/imgui-rs/imgui-rs/workflows/ci/badge.svg)](https://github.com/imgui-rs/imgui-rs/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "JuliaImGui/CImGui.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "imgui-rs/imgui-rs"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

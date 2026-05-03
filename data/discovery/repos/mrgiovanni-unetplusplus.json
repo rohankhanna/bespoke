@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MrGiovanni/UNetPlusPlus",
+      "target": "mrgiovanni/nested-unet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MrGiovanni/UNetPlusPlus",
+      "target": "qubvel/segmentation_models.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MrGiovanni/UNetPlusPlus",
+      "target": "4uiiurz1/pytorch-nested-unet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MrGiovanni/UNetPlusPlus",
+      "target": "montaellis/pytorch-medical-segmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MrGiovanni/UNetPlusPlus",
+      "target": "medical-imaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MrGiovanni/UNetPlusPlus",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MrGiovanni/UNetPlusPlus",
+      "target": "unet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:47:17.212698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[IEEE TMI] Official Implementation for UNet++",
+    "fork": false,
+    "full_name": "MrGiovanni/UNetPlusPlus",
+    "html_url": "https://github.com/MrGiovanni/UNetPlusPlus",
+    "language": "Python",
+    "pushed_at": "2025-08-25T15:03:35Z",
+    "stargazers_count": 2645,
+    "topics": [
+      "medical-imaging",
+      "segmentation",
+      "unet"
+    ],
+    "updated_at": "2026-05-01T00:17:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "4uiiurz1/pytorch-nested-unet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "montaellis/pytorch-medical-segmentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrgiovanni/nested-unet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qubvel/segmentation_models.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">UNet++</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-imaging"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UNet++</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">UNet++</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unet"
+    }
+  ]
+}

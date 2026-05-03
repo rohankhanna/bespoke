@@ -211,6 +211,18 @@
       "source_repo": "jkroepke/helm-secrets",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyberark/slosilo",
+      "status": "candidate-context",
+      "text": "A Ruby interface to standard cryptographic primitives"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/slosilo",
+      "status": "candidate-context",
+      "text": "Slosilo is providing a ruby interface to some cryptographic primitives:"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +327,12 @@
       "source_repo": "jkroepke/helm-secrets",
       "status": "candidate",
       "text": "[![CI](https://github.com/jkroepke/helm-secrets/workflows/CI/badge.svg)](https://github.com/jkroepke/helm-secrets/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/slosilo",
+      "status": "candidate",
+      "text": "Slosilo is providing a ruby interface to some cryptographic primitives:"
     }
   ],
   "candidate_related_terms": [
@@ -504,11 +522,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-ecto-encryption-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cyberark/slosilo"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

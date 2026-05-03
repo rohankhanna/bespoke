@@ -1,0 +1,12 @@
+{
+  "component": "invertase/quickstart-tag-differ@v0.0.2",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag-diff.yml",
+      "source_repo": "firebase/quickstart-js"
+    }
+  ]
+}

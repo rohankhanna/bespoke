@@ -1,12 +1,17 @@
 {
   "component": "danielroe/provenance-action@41bcc969e579d9e29af08ba44fcbfdf95cee6e6c",
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/provenance.yml",
       "source_repo": "nuxt/bridge"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/provenance.yml",
+      "source_repo": "danielroe/beasties"
     }
   ]
 }

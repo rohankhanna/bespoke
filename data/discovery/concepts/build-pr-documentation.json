@@ -380,6 +380,18 @@
       "source_repo": "TMElyralab/diffusers",
       "status": "candidate-context",
       "text": "Build PR Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moojink/transformers-openvla-oft",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moojink/transformers-openvla-oft",
+      "status": "candidate-context",
+      "text": "Build PR Documentation"
     }
   ],
   "candidate_glosses": [
@@ -566,6 +578,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "TMElyralab/diffusers",
+      "status": "candidate",
+      "text": "Build PR Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moojink/transformers-openvla-oft",
       "status": "candidate",
       "text": "Build PR Documentation"
     }
@@ -1055,11 +1073,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/build_pr_documentation.yml",
       "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "bitsandbytes-foundation/bitsandbytes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "moojink/transformers-openvla-oft"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

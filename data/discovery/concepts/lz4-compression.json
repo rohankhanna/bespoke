@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lz4-compression"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lz4/lz4-java",
+      "status": "candidate-context",
+      "text": "LZ4 compression for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4-java",
+      "status": "candidate-context",
+      "text": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lz4/lz4-java",
+      "status": "candidate",
+      "text": "*Note: The official lz4-java project has been discontinued. A community fork is available [here](https://github.com/yawkat/lz4-java). To address [CVE-2025-12183](https://sites.google.com/sonatype.com/vulnerabilities/cve-2025-12183), Sonatype has added a redirect from `org.lz4:lz\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lz4-compression",
+  "concept_id": "lz4-compression",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lz4/lz4-java"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lz4-compression",
+      "sense_id": "lz4-compression#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

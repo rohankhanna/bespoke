@@ -37,6 +37,18 @@
       "source_repo": "collectiveidea/audited",
       "status": "candidate-context",
       "text": "Publish Gem"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/pages-gem",
+      "status": "candidate-context",
+      "text": "A simple Ruby Gem to bootstrap dependencies for setting up and maintaining a local Jekyll environment in sync with GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/pages-gem",
+      "status": "candidate-context",
+      "text": "Publish Gem"
     }
   ],
   "candidate_glosses": [
@@ -55,6 +67,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "collectiveidea/audited",
+      "status": "candidate",
+      "text": "Publish Gem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/pages-gem",
       "status": "candidate",
       "text": "Publish Gem"
     }
@@ -118,11 +136,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/publish_gem.yml",
       "source_repo": "collectiveidea/audited"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/publish-gem.yml",
+      "source_repo": "github/pages-gem"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Release to npm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "11ty/eleventy",
+      "status": "candidate-context",
+      "text": "A simpler site generator. Transforms a directory of templates (of varying types) into HTML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "11ty/eleventy",
+      "status": "candidate-context",
+      "text": "Publish Release to npm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "11ty/eleventy",
+      "status": "candidate",
+      "text": "Publish Release to npm"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26317,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22656,
+      "status": "candidate",
+      "text": "pipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22656,
+      "status": "candidate",
+      "text": "pipes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22204,
+      "status": "candidate",
+      "text": "releasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22204,
+      "status": "candidate",
+      "text": "trip"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Release to npm",
+  "concept_id": "publish-release-to-npm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "11ty/eleventy"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Release to npm",
+      "sense_id": "publish-release-to-npm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

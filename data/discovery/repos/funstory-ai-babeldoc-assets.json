@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC-Assets",
+      "target": "byaidu/pdfmathtranslate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC-Assets",
+      "target": "fonts-archive/maruburi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC-Assets",
+      "target": "googlefonts/noto-fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "funstory-ai/BabelDOC-Assets",
+      "target": "funstory-ai/yadt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:37:21.063742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Font and other resource files relied on by BabelDOC",
+    "fork": false,
+    "full_name": "funstory-ai/BabelDOC-Assets",
+    "html_url": "https://github.com/funstory-ai/BabelDOC-Assets",
+    "language": null,
+    "pushed_at": "2025-11-25T10:46:38Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-01-04T12:31:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "byaidu/pdfmathtranslate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fonts-archive/maruburi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "funstory-ai/yadt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/noto-fonts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

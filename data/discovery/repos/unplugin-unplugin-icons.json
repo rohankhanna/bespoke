@@ -151,13 +151,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "unplugin/unplugin-icons",
-      "target": "iconify/iconify",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unplugin/unplugin-icons",
       "target": "antfu/unplugin-icons",
       "target_type": "repository"
     },
@@ -442,7 +435,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:58:50.913931+00:00",
+  "fetched_at": "2026-05-03T16:36:12.224801+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -499,11 +492,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "antfu/unplugin-vue-components",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "iconify/iconify",
       "source_file": "README.md"
     }
   ],

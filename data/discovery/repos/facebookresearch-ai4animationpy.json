@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/ai4animationpy",
+      "target": "orangeduck/100style-retarget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/ai4animationpy",
+      "target": "orangeduck/lafan1-resolved",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/ai4animationpy",
+      "target": "orangeduck/zeroeggs-retarget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/ai4animationpy",
+      "target": "orangeduck/motorica-retarget",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:39:52.124120+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Python framework for AI-driven character animation using neural networks.",
+    "fork": false,
+    "full_name": "facebookresearch/ai4animationpy",
+    "html_url": "https://github.com/facebookresearch/ai4animationpy",
+    "language": "Python",
+    "pushed_at": "2026-04-29T12:55:04Z",
+    "stargazers_count": 1695,
+    "topics": [],
+    "updated_at": "2026-05-03T11:29:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/100style-retarget",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/lafan1-resolved",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/motorica-retarget",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "orangeduck/zeroeggs-retarget",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

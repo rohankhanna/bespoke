@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -121,6 +121,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "csm-actions/securefix-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "onicai/IConfucius"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-gitea/gitea"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "icppWorld/icpp_llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/litmus"
     }
   ],
   "term": "CICD"

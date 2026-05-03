@@ -463,6 +463,114 @@
       "source_repo": "NVlabs/VoxFormer",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "leofansq/SCF-Net",
+      "status": "candidate-context",
+      "text": "[CVPR2021] SCF-Net: Learning Spatial Contextual Features for Large-Scale Point Cloud Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leofansq/SCF-Net",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-semantic3d)](https://paperswithcode.com/sota/semantic-segmentation-on-semantic3d?p=scf-net-learning-spatial-contextual-features)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hustvl/Senna",
+      "status": "candidate-context",
+      "text": "Bridging Large Vision-Language Models and End-to-End Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hustvl/Senna",
+      "status": "candidate-context",
+      "text": "<div align =\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "motional/nuplan-devkit",
+      "status": "candidate-context",
+      "text": "The devkit of the nuPlan dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motional/nuplan-devkit",
+      "status": "candidate-context",
+      "text": "FROM ubuntu:20.04 RUN apt-get update \\ && apt-get install -y curl gnupg2 software-properties-common default-jdk ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn RUN curl -fsSL https://bazel.build/bazel-release.pub.gpg | apt-key add - \\ && curl -fsSL https://nvidia.github.io/nvi\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/transfuser",
+      "status": "candidate-context",
+      "text": "[PAMI'23] TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving; [CVPR'21] Multi-Modal Fusion Transformer for End-to-End Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/transfuser",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transfuser-imitation-with-transformer-based/autonomous-driving-on-carla-leaderboard)](https://paperswithcode.com/sota/autonomous-driving-on-carla-leaderboard?p=transfuser-imitation-with-transformer-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/plant2",
+      "status": "candidate-context",
+      "text": "PlanT 2.0: Exposing Biases and Structural Flaws in Closed-Loop Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/plant2",
+      "status": "candidate-context",
+      "text": "PlanT 2.0 is a lightweight, object-centric planning transformer for CARLA that enables controlled analysis of failure modes while achieving strong closed-loop performance on CARLA Leaderboard 2.0 benchmarks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/tuplan_garage",
+      "status": "candidate-context",
+      "text": "[CoRL'23] Parting with Misconceptions about Learning-based Vehicle Motion Planning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/tuplan_garage",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenPerceptionX/OpenLane",
+      "status": "candidate-context",
+      "text": "[ECCV 2022 oral] OpenLane: Large-scale Realistic 3D Lane Dataset. Redirect to https://github.com/OpenDriveLab/OpenLane."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenPerceptionX/OpenLane",
+      "status": "candidate-context",
+      "text": ":microphone:: The official dataset of `OpanLane` has been transfered to [OpenDriveLab/OpenLane](https://github.com/OpenDriveLab/OpenLane) for follow-up maintenance. Check it out!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "status": "candidate-context",
+      "text": "[IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TRI-ML/dgp",
+      "status": "candidate-context",
+      "text": "ML Dataset Governance Policy for Autonomous Vehicle Datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TRI-ML/dgp",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line -->"
     }
   ],
   "candidate_glosses": [
@@ -699,6 +807,60 @@
       "source_repo": "NVlabs/VoxFormer",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "leofansq/SCF-Net",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/scf-net-learning-spatial-contextual-features/semantic-segmentation-on-semantic3d)](https://paperswithcode.com/sota/semantic-segmentation-on-semantic3d?p=scf-net-learning-spatial-contextual-features)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hustvl/Senna",
+      "status": "candidate",
+      "text": "<div align =\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "motional/nuplan-devkit",
+      "status": "candidate",
+      "text": "FROM ubuntu:20.04 RUN apt-get update \\ && apt-get install -y curl gnupg2 software-properties-common default-jdk ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn RUN curl -fsSL https://bazel.build/bazel-release.pub.gpg | apt-key add - \\ && curl -fsSL https://nvidia.github.io/nvi\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/transfuser",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transfuser-imitation-with-transformer-based/autonomous-driving-on-carla-leaderboard)](https://paperswithcode.com/sota/autonomous-driving-on-carla-leaderboard?p=transfuser-imitation-with-transformer-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/plant2",
+      "status": "candidate",
+      "text": "PlanT 2.0 is a lightweight, object-centric planning transformer for CARLA that enables controlled analysis of failure modes while achieving strong closed-loop performance on CARLA Leaderboard 2.0 benchmarks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/tuplan_garage",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenPerceptionX/OpenLane",
+      "status": "candidate",
+      "text": ":microphone:: The official dataset of `OpanLane` has been transfered to [OpenDriveLab/OpenLane](https://github.com/OpenDriveLab/OpenLane) for follow-up maintenance. Check it out!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TRI-ML/dgp",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line -->"
     }
   ],
   "candidate_related_terms": [],
@@ -1030,11 +1192,77 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "NVlabs/VoxFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/FocalsConv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "leofansq/SCF-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "V2AI/Det3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "hustvl/Senna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "motional/nuplan-devkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/transfuser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/plant2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/tuplan_garage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "OpenPerceptionX/OpenLane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "TRI-ML/dgp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "basil00/WinDivert",
       "status": "candidate-context",
       "text": "WinDivert: Windows Packet Divert"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkime/arkime",
+      "status": "candidate-context",
+      "text": "Arkime is an open source, large scale, full packet capturing, indexing, and database system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkime/arkime",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7997/badge)](https://www.bestpractices.dev/projects/7997)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "basil00/WinDivert",
       "status": "candidate",
       "text": "WinDivert: Windows Packet Divert"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkime/arkime",
+      "status": "candidate",
+      "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/7997/badge)](https://www.bestpractices.dev/projects/7997)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "basil00/WinDivert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "arkime/arkime"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

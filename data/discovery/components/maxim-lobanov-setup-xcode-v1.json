@@ -1,7 +1,7 @@
 {
   "component": "maxim-lobanov/setup-xcode@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -257,6 +257,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-ios-release.yml",
       "source_repo": "logseq/logseq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_wheel.yml",
+      "source_repo": "jupyter-xeus/xeus-python-wheel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bryceco/GoMap"
     }
   ]
 }

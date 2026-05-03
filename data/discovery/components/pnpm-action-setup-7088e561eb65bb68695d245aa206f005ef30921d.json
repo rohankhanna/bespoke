@@ -1,0 +1,12 @@
+{
+  "component": "pnpm/action-setup@7088e561eb65bb68695d245aa206f005ef30921d",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-embeddings.yml",
+      "source_repo": "nrwl/nx"
+    }
+  ]
+}

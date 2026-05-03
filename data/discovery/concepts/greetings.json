@@ -199,6 +199,12 @@
       "source_repo": "YuzukiTsuru/World.JS",
       "status": "candidate-context",
       "text": "Greetings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ezhang7423/language-control-diffusion",
+      "status": "candidate-context",
+      "text": "Greetings"
     }
   ],
   "candidate_glosses": [
@@ -295,6 +301,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "YuzukiTsuru/World.JS",
+      "status": "candidate",
+      "text": "Greetings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ezhang7423/language-control-diffusion",
       "status": "candidate",
       "text": "Greetings"
     }
@@ -502,11 +514,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/greetings.yml",
       "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "tlatkowski/inpainting-gmcnn-keras"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "lainq/img"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "ezhang7423/language-control-diffusion"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

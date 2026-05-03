@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:37:26.625791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "llamagate/diff",
+    "html_url": "https://github.com/llamagate/diff",
+    "language": null,
+    "pushed_at": "2026-01-02T11:42:26Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-02T11:42:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

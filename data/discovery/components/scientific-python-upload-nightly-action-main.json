@@ -1,12 +1,17 @@
 {
   "component": "scientific-python/upload-nightly-action@main",
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
-  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nightly-wheel-build.yml",
       "source_repo": "ipython/ipython"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "mesonbuild/meson"
     }
   ]
 }

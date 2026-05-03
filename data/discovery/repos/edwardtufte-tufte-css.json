@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "edwardtufte/tufte-css",
+      "target": "jakubpawlowicz/clean-css-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "edwardtufte/tufte-css",
+      "target": "tufte-css",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:34:40.320331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4059
+    },
+    {
+      "path": "package.json",
+      "size": 795
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Style your webpage like Edward Tufte\u2019s handouts.",
+    "fork": false,
+    "full_name": "edwardtufte/tufte-css",
+    "html_url": "https://github.com/edwardtufte/tufte-css",
+    "language": "HTML",
+    "pushed_at": "2024-10-08T08:25:28Z",
+    "stargazers_count": 6472,
+    "topics": [
+      "css",
+      "tufte-css"
+    ],
+    "updated_at": "2026-05-03T10:02:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jakubpawlowicz/clean-css-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tufte CSS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tufte-css"
+    }
+  ]
+}

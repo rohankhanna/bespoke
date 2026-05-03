@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "neural-field"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3dhumangan/3DHumanGAN",
+      "status": "candidate-context",
+      "text": "A 3D-aware generative adversarial network (GAN) that synthesizes images of full-body humans with consistent appearances under different view-angles and body-poses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3dhumangan/3DHumanGAN",
+      "status": "candidate-context",
+      "text": "<img src=\"./assets/teaser.jpg\" width=\"96%\" height=\"96%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3dhumangan/3DHumanGAN",
+      "status": "candidate",
+      "text": "<img src=\"./assets/teaser.jpg\" width=\"96%\" height=\"96%\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "neural-field",
+  "concept_id": "neural-field",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "3dhumangan/3DHumanGAN"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-field",
+      "sense_id": "neural-field#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

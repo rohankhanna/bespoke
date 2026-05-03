@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ash-rs/ash",
+      "target": "usami-renko/vulkan-tutorial-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ash-rs/ash",
       "target": "bzm3r/ash-sample-progression",
       "target_type": "repository"
     },
@@ -12,13 +19,6 @@
       "source_file": "README.md",
       "source_repo": "ash-rs/ash",
       "target": "gwihlidal/ash-nv-rt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ash-rs/ash",
-      "target": "ralith/lahar",
       "target_type": "repository"
     },
     {
@@ -64,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "ash-rs/ash"
 }

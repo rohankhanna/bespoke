@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -762,6 +762,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cleanup-nightly-builds.yaml",
       "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contribution-accepted.yml",
+      "source_repo": "carbon-design-system/carbon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contribution-proposal-not-pursuing.yml",
+      "source_repo": "carbon-design-system/carbon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contribution-proposal.yml",
+      "source_repo": "carbon-design-system/carbon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contribution-ready-to-be-worked.yml",
+      "source_repo": "carbon-design-system/carbon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml",
+      "source_repo": "pydantic/pydantic"
     }
   ]
 }

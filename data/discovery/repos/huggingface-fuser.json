@@ -1,0 +1,182 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "AdityaGarg8/remove-unwanted-software@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macstadium_pr_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macstadium_push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/fuser",
+      "target": "zargony/fuse-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/fuser",
+      "target": "macfuse/macfuse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "AdityaGarg8/remove-unwanted-software@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macstadium_pr_ci.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macstadium_pr_ci.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "MacStadium CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macstadium_push.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macstadium_push.yml",
+      "source_repo": "huggingface/fuser",
+      "target": "MacStadium CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:37:57.227606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5434
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2513
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4980
+    },
+    {
+      "path": ".github/workflows/macstadium_pr_ci.yml",
+      "size": 364
+    },
+    {
+      "path": ".github/workflows/macstadium_push.yml",
+      "size": 326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "sidecar-multi-fd",
+    "description": null,
+    "fork": false,
+    "full_name": "huggingface/fuser",
+    "html_url": "https://github.com/huggingface/fuser",
+    "language": "Rust",
+    "pushed_at": "2026-04-25T12:44:42Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-26T07:12:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "macfuse/macfuse",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zargony/fuse-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MacStadium CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macstadium_pr_ci.yml",
+      "term": "MacStadium CI"
+    },
+    {
+      "context_snippet": "MacStadium CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macstadium_push.yml",
+      "term": "MacStadium CI"
+    }
+  ]
+}

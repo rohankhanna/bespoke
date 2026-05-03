@@ -1,0 +1,431 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-signed-apk.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-signed-apk.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-signed-apk.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "gradle/wrapper-validation-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml.disabled"
+    },
+    {
+      "component": "musichin/ktlint-check@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml.disabled"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Helium314/SCEE",
+      "target": "streetcomplete/streetcomplete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "gradle/actions/setup-gradle@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-test.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "Gradle Android tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-debug-apk.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debug-apk.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "Build debug apk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-signed-apk.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-signed-apk.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-signed-apk.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-signed-apk.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "Build signed apk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "gradle/actions/setup-gradle@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "Generate quest list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "gradle/wrapper-validation-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "Validate Gradle Wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml.disabled",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml.disabled",
+      "source_repo": "Helium314/SCEE",
+      "target": "musichin/ktlint-check@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml.disabled",
+      "source_repo": "Helium314/SCEE",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "gradle/actions/setup-gradle@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "Helium314/SCEE",
+      "target": "Gradle unit tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:45:34.007778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13979
+    },
+    {
+      "path": ".github/workflows/android-test.yml",
+      "size": 2130
+    },
+    {
+      "path": ".github/workflows/build-debug-apk.yml",
+      "size": 1110
+    },
+    {
+      "path": ".github/workflows/build-signed-apk.yml",
+      "size": 1184
+    },
+    {
+      "path": ".github/workflows/generate-quest-list.yml",
+      "size": 568
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper-validation.yml",
+      "size": 385
+    },
+    {
+      "path": ".github/workflows/lint.yml.disabled",
+      "size": 690
+    },
+    {
+      "path": ".github/workflows/unit-test.yml",
+      "size": 439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "modified",
+    "description": "OpenStreetMap surveyor app for experienced OSM contributors",
+    "fork": true,
+    "full_name": "Helium314/SCEE",
+    "html_url": "https://github.com/Helium314/SCEE",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-24T19:03:20Z",
+    "stargazers_count": 217,
+    "topics": [],
+    "updated_at": "2026-05-01T10:23:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "streetcomplete/streetcomplete",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Gradle Android tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-test.yml",
+      "term": "Gradle Android tests"
+    },
+    {
+      "context_snippet": "Build debug apk",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-debug-apk.yml",
+      "term": "Build debug apk"
+    },
+    {
+      "context_snippet": "Build signed apk",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-signed-apk.yml",
+      "term": "Build signed apk"
+    },
+    {
+      "context_snippet": "Generate quest list",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-quest-list.yml",
+      "term": "Generate quest list"
+    },
+    {
+      "context_snippet": "\"Validate Gradle Wrapper\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "term": "Validate Gradle Wrapper"
+    },
+    {
+      "context_snippet": "\"Lint\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml.disabled",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Gradle unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "term": "Gradle unit tests"
+    }
+  ]
+}

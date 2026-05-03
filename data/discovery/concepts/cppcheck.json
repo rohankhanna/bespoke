@@ -1,7 +1,8 @@
 {
   "aliases": [
     "cppcheck",
-    "Cppcheck"
+    "Cppcheck",
+    "CppCheck"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -46,6 +47,18 @@
       "source_repo": "atsign-foundation/noports",
       "status": "candidate-context",
       "text": "Cppcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate-context",
+      "text": "Flatbush for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate-context",
+      "text": "\"CppCheck\""
     }
   ],
   "candidate_glosses": [
@@ -66,6 +79,12 @@
       "source_repo": "atsign-foundation/noports",
       "status": "candidate",
       "text": "Cppcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chusitoo/flatbush",
+      "status": "candidate",
+      "text": "\"CppCheck\""
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +146,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/cppcheck.yml",
       "source_repo": "atsign-foundation/noports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/cppcheck.yml",
+      "source_repo": "chusitoo/flatbush"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

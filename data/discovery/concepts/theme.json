@@ -817,6 +817,126 @@
       "source_repo": "derric/cleanthesis",
       "status": "candidate-context",
       "text": "*-- A Clean LaTeX Style for Thesis Documents --*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miguelsolorio/vscode-fluent-icons",
+      "status": "candidate-context",
+      "text": "Fluent Icons for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miguelsolorio/vscode-fluent-icons",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "primer/github-vscode-theme",
+      "status": "candidate-context",
+      "text": "GitHub's VS Code themes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "primer/github-vscode-theme",
+      "status": "candidate-context",
+      "text": "![GitHub VS Code theme](https://user-images.githubusercontent.com/378023/132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "7368697661/Origami",
+      "status": "candidate-context",
+      "text": "Origami was crafted with \ud83d\udc96 to mimic the tactility of paper, but introduce digital tools \ud83e\uddbe"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "7368697661/Origami",
+      "status": "candidate-context",
+      "text": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "status": "candidate-context",
+      "text": "A colorful unique theme, giving Obsidian a fresh new look with glow effects and support for accent color. The theme now tries to provide a unique futuristic eye-candy look to obsidian while keeping it usable and familiar to the users. Made to be yours to tweak."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "status": "candidate-context",
+      "text": "![CyberGlow Version](https://img.shields.io/github/v/tag/ThePharaohArt/Obsidian-CyberGlow?label=CyberGlow%20Version&style=flat-square&color=4CADD6) ![Last Updated](https://img.shields.io/github/last-commit/ThePharaohArt/Obsidian-CyberGlow?label=Last%20Updated&style=flat-square&c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate-context",
+      "text": "An Obsidian theme inspired by the beautifully-designed app, Things. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate-context",
+      "text": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate-context",
+      "text": "Theme designed with readability and customizability in mind. Change it easily to your liking with the Style Settings plugin installed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate-context",
+      "text": "> Theme for my Obsidian Story Vault: **In The Shadows**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "status": "candidate-context",
+      "text": "TX-UI Panel Subscription Page Templates Designed By TX Community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "status": "candidate-context",
+      "text": "TX-UI Panel Subscription Page Templates Designed By TX Community."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "status": "candidate-context",
+      "text": ":triangular_ruler: Jekyll theme for building a personal site, blog, project documentation, or portfolio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "status": "candidate-context",
+      "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getgrav/grav-theme-learn2",
+      "status": "candidate-context",
+      "text": "Learn2 Grav Theme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav-theme-learn2",
+      "status": "candidate-context",
+      "text": "![Learn2](screenshot.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxalorg/sakura",
+      "status": "candidate-context",
+      "text": ":cherry_blossom: a minimal css framework/theme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxalorg/sakura",
+      "status": "candidate-context",
+      "text": "[![npm][npm-image]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -1221,6 +1341,66 @@
       "source_repo": "derric/cleanthesis",
       "status": "candidate",
       "text": "*-- A Clean LaTeX Style for Thesis Documents --*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miguelsolorio/vscode-fluent-icons",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "primer/github-vscode-theme",
+      "status": "candidate",
+      "text": "![GitHub VS Code theme](https://user-images.githubusercontent.com/378023/132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "7368697661/Origami",
+      "status": "candidate",
+      "text": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "status": "candidate",
+      "text": "![CyberGlow Version](https://img.shields.io/github/v/tag/ThePharaohArt/Obsidian-CyberGlow?label=CyberGlow%20Version&style=flat-square&color=4CADD6) ![Last Updated](https://img.shields.io/github/last-commit/ThePharaohArt/Obsidian-CyberGlow?label=Last%20Updated&style=flat-square&c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "colineckert/obsidian-things",
+      "status": "candidate",
+      "text": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SlRvb/Obsidian--ITS-Theme",
+      "status": "candidate",
+      "text": "> Theme for my Obsidian Story Vault: **In The Shadows**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "status": "candidate",
+      "text": "TX-UI Panel Subscription Page Templates Designed By TX Community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mmistakes/minimal-mistakes",
+      "status": "candidate",
+      "text": "[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getgrav/grav-theme-learn2",
+      "status": "candidate",
+      "text": "![Learn2](screenshot.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxalorg/sakura",
+      "status": "candidate",
+      "text": "[![npm][npm-image]][npm-url]"
     }
   ],
   "candidate_related_terms": [
@@ -1996,11 +2176,107 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "derric/cleanthesis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "miguelsolorio/vscode-fluent-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "primer/github-vscode-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-builder-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "7368697661/Origami"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "colineckert/obsidian-things"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "SlRvb/Obsidian--ITS-Theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Biscuit-Theme/biscuit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "AghayeCoder/TX-ThemeHub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ahmadawais/base16-shades-of-purple"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mmistakes/minimal-mistakes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "getgrav/grav-theme-learn2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "oxalorg/sakura"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

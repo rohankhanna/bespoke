@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babakatwork/loopy_agent",
+      "target": "cognizant-ai-lab/neuro-san",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:36:37.778079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6060
+    },
+    {
+      "path": "requirements.txt",
+      "size": 52
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run NeuroSAN agents in a loop via separate service and interact with them async",
+    "fork": false,
+    "full_name": "babakatwork/loopy_agent",
+    "html_url": "https://github.com/babakatwork/loopy_agent",
+    "language": "Python",
+    "pushed_at": "2026-03-11T20:33:26Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-20T13:48:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cognizant-ai-lab/neuro-san",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

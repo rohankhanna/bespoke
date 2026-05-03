@@ -1,0 +1,187 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo",
+      "target": "golang-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo",
+      "target": "golang-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo",
+      "target": "graphic-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo",
+      "target": "graphic-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo",
+      "target": "markup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo",
+      "target": "sketch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo",
+      "target": "svg-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo",
+      "target": "svg-path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:41:08.424667+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go Language Library for SVG generation",
+    "fork": false,
+    "full_name": "ajstarks/svgo",
+    "html_url": "https://github.com/ajstarks/svgo",
+    "language": "Go",
+    "pushed_at": "2022-12-09T13:57:06Z",
+    "stargazers_count": 2243,
+    "topics": [
+      "go",
+      "golang",
+      "golang-library",
+      "golang-package",
+      "graphic-design",
+      "graphic-programming",
+      "graphics",
+      "markup",
+      "sketch",
+      "svg",
+      "svg-images",
+      "svg-path",
+      "visualization",
+      "xml"
+    ],
+    "updated_at": "2026-04-28T06:08:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-library"
+    },
+    {
+      "context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-package"
+    },
+    {
+      "context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphic-design"
+    },
+    {
+      "context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphic-programming"
+    },
+    {
+      "context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markup"
+    },
+    {
+      "context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sketch"
+    },
+    {
+      "context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-images"
+    },
+    {
+      "context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-path"
+    },
+    {
+      "context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

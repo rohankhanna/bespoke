@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberark/community",
+      "target": "cyberark/aclight",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberark/community",
+      "target": "cyberark/blobhunter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberark/community",
+      "target": "cyberark/dllspy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cyberark/community",
+      "target": "cyberark/easypeasy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/community",
+      "target": "community-guidelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/community",
+      "target": "conjbot-notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/community",
+      "target": "conjur-community-team",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/community",
+      "target": "contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/community",
+      "target": "cyberark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:39:30.184009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Information for the CyberArk contributor community",
+    "fork": false,
+    "full_name": "cyberark/community",
+    "html_url": "https://github.com/cyberark/community",
+    "language": null,
+    "pushed_at": "2025-11-18T19:41:48Z",
+    "stargazers_count": 7,
+    "topics": [
+      "community-guidelines",
+      "conjbot-notify",
+      "conjur-community-team",
+      "contributors",
+      "cyberark"
+    ],
+    "updated_at": "2025-11-18T19:41:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyberark/aclight",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyberark/blobhunter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyberark/dllspy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyberark/easypeasy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Welcome to the CyberArk Community!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community-guidelines"
+    },
+    {
+      "context_snippet": "Welcome to the CyberArk Community!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conjbot-notify"
+    },
+    {
+      "context_snippet": "Welcome to the CyberArk Community!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conjur-community-team"
+    },
+    {
+      "context_snippet": "Welcome to the CyberArk Community!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributors"
+    },
+    {
+      "context_snippet": "Welcome to the CyberArk Community!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cyberark"
+    }
+  ]
+}

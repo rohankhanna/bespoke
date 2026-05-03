@@ -1,0 +1,233 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "haomo-ai/motionseg3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "prbonn/4dmos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "halmstad-university/salsanext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "irapkaist/removert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "dynamic-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "lidar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "lidar-slam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "motion-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "moving-object-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "point-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "target": "slam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:47:07.477632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12635
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(LMNet) Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data (RAL/IROS 2021)",
+    "fork": false,
+    "full_name": "PRBonn/LiDAR-MOS",
+    "html_url": "https://github.com/PRBonn/LiDAR-MOS",
+    "language": "Python",
+    "pushed_at": "2022-12-21T12:52:58Z",
+    "stargazers_count": 681,
+    "topics": [
+      "deep-learning",
+      "deep-neural-networks",
+      "dynamic-slam",
+      "lidar",
+      "lidar-slam",
+      "mapping",
+      "motion-detection",
+      "moving-object-segmentation",
+      "point-cloud",
+      "segmentation",
+      "slam"
+    ],
+    "updated_at": "2026-04-28T09:18:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "halmstad-university/salsanext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haomo-ai/motionseg3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "irapkaist/removert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prbonn/4dmos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-slam"
+    },
+    {
+      "context_snippet": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar"
+    },
+    {
+      "context_snippet": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lidar-slam"
+    },
+    {
+      "context_snippet": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapping"
+    },
+    {
+      "context_snippet": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "motion-detection"
+    },
+    {
+      "context_snippet": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moving-object-segmentation"
+    },
+    {
+      "context_snippet": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-cloud"
+    },
+    {
+      "context_snippet": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slam"
+    }
+  ]
+}

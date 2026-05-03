@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "delfrrr/delaunator-cpp",
+      "target": "mapbox/hpp-skel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "delfrrr/delaunator-cpp",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "delfrrr/delaunator-cpp",
+      "target": "computational-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "delfrrr/delaunator-cpp",
+      "target": "delaunay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "delfrrr/delaunator-cpp",
+      "target": "mapbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "delfrrr/delaunator-cpp",
+      "target": "triangulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:32:54.052147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A really fast C++ library for Delaunay triangulation of 2D points",
+    "fork": false,
+    "full_name": "delfrrr/delaunator-cpp",
+    "html_url": "https://github.com/delfrrr/delaunator-cpp",
+    "language": "C++",
+    "pushed_at": "2024-01-23T16:13:50Z",
+    "stargazers_count": 593,
+    "topics": [
+      "2d",
+      "algorithm",
+      "computational-geometry",
+      "cpp",
+      "delaunay",
+      "mapbox",
+      "triangulation"
+    ],
+    "updated_at": "2026-04-29T04:24:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mapbox/hpp-skel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A really fast C++ library for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "A really fast C++ library for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-geometry"
+    },
+    {
+      "context_snippet": "A really fast C++ library for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delaunay"
+    },
+    {
+      "context_snippet": "A really fast C++ library for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapbox"
+    },
+    {
+      "context_snippet": "A really fast C++ library for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triangulation"
+    }
+  ]
+}

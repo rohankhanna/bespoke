@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "merge"
+    "merge",
+    "Merge"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -81,6 +82,18 @@
       "source_repo": "stefanlogue/meteor",
       "status": "candidate-context",
       "text": "merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elementary/icons",
+      "status": "candidate-context",
+      "text": "Named, vector icons for elementary OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elementary/icons",
+      "status": "candidate-context",
+      "text": "Merge"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +132,12 @@
       "source_repo": "stefanlogue/meteor",
       "status": "candidate",
       "text": "merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elementary/icons",
+      "status": "candidate",
+      "text": "Merge"
     }
   ],
   "candidate_related_terms": [
@@ -234,11 +253,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/merge.yml",
       "source_repo": "stefanlogue/meteor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/merge.yml",
+      "source_repo": "elementary/icons"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

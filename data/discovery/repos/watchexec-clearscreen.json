@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "watchexec/clearscreen",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "watchexec/clearscreen",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "watchexec/clearscreen",
+      "target": "clear",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "watchexec/clearscreen",
+      "target": "screen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "watchexec/clearscreen",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:34:18.424855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1055
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1209
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1799
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cross-platform terminal screen clearing library",
+    "fork": false,
+    "full_name": "watchexec/clearscreen",
+    "html_url": "https://github.com/watchexec/clearscreen",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T23:43:26Z",
+    "stargazers_count": 79,
+    "topics": [
+      "clear",
+      "cli",
+      "cls",
+      "screen",
+      "terminal"
+    ],
+    "updated_at": "2026-04-20T07:49:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Crate release version](https://badgen.net/crates/v/clearscreen)](https://crates.io/crates/clearscreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clear"
+    },
+    {
+      "context_snippet": "[![Crate release version](https://badgen.net/crates/v/clearscreen)](https://crates.io/crates/clearscreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screen"
+    },
+    {
+      "context_snippet": "[![Crate release version](https://badgen.net/crates/v/clearscreen)](https://crates.io/crates/clearscreen)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

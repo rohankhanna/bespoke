@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ant-research/pointelligence",
+      "target": "chrischoy/fcgf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:47:22.845846+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6424
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2282
+    },
+    {
+      "path": "requirements.txt",
+      "size": 292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "the official implementation of PointCNN++ (CVPR 2026)",
+    "fork": false,
+    "full_name": "ant-research/pointelligence",
+    "html_url": "https://github.com/ant-research/pointelligence",
+    "language": "Python",
+    "pushed_at": "2026-04-22T03:14:52Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-22T03:14:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chrischoy/fcgf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

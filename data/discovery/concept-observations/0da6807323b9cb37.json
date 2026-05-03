@@ -84,7 +84,7 @@
   "normalized_form": "pull-request-title",
   "observation_id": "0da6807323b9cb37",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Pull request title",
   "source_context_snippet": "Pull request title",
   "source_file": ".github/workflows/pull-request-title.yml",

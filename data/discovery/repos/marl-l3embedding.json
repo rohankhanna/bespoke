@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "marl/l3embedding",
+      "target": "scikit-image/scikit-image",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:45:46.885874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2644
+    },
+    {
+      "path": "requirements.txt",
+      "size": 451
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learn and L3 embedding from audio/video pairs",
+    "fork": false,
+    "full_name": "marl/l3embedding",
+    "html_url": "https://github.com/marl/l3embedding",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-04-24T22:05:07Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-01-16T12:12:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scikit-image/scikit-image",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

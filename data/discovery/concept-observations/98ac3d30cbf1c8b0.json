@@ -84,7 +84,7 @@
   "normalized_form": "response-time-ci",
   "observation_id": "98ac3d30cbf1c8b0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Response Time CI",
   "source_context_snippet": "Response Time CI",
   "source_file": ".github/workflows/response-time.yml",

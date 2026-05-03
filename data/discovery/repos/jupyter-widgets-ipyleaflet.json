@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ui-tests.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ui-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ui-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ui-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ui-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ui-tests.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/update-snapshots-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_galata_references.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_galata_references.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/update-snapshots@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_galata_references.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "jupyter-xeus/xleaflet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "mamba-org/setup-micromamba@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ui-tests.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ui-tests.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "mamba-org/setup-micromamba@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ui-tests.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ui-tests.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "UI Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_galata_references.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "jupyterlab/maintainer-tools/.github/actions/update-snapshots-checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_galata_references.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "mamba-org/setup-micromamba@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_galata_references.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "jupyterlab/maintainer-tools/.github/actions/update-snapshots@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_galata_references.yml",
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "Update Galata References",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "jupyterlab-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "leaflet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyter-widgets/ipyleaflet",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:46:20.942403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3009
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1545
+    },
+    {
+      "path": ".github/workflows/ui-tests.yml",
+      "size": 1935
+    },
+    {
+      "path": ".github/workflows/update_galata_references.yml",
+      "size": 1189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Jupyter - Leaflet.js bridge",
+    "fork": false,
+    "full_name": "jupyter-widgets/ipyleaflet",
+    "html_url": "https://github.com/jupyter-widgets/ipyleaflet",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-25T12:48:27Z",
+    "stargazers_count": 1536,
+    "topics": [
+      "jupyter",
+      "jupyterlab-extension",
+      "leaflet",
+      "visualization"
+    ],
+    "updated_at": "2026-04-26T14:52:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jupyter-xeus/xleaflet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "UI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ui-tests.yml",
+      "term": "UI Tests"
+    },
+    {
+      "context_snippet": "Update Galata References",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_galata_references.yml",
+      "term": "Update Galata References"
+    },
+    {
+      "context_snippet": "[![Documentation](http://readthedocs.org/projects/ipyleaflet/badge/?version=latest)](https://ipyleaflet.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "[![Documentation](http://readthedocs.org/projects/ipyleaflet/badge/?version=latest)](https://ipyleaflet.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab-extension"
+    },
+    {
+      "context_snippet": "[![Documentation](http://readthedocs.org/projects/ipyleaflet/badge/?version=latest)](https://ipyleaflet.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leaflet"
+    },
+    {
+      "context_snippet": "[![Documentation](http://readthedocs.org/projects/ipyleaflet/badge/?version=latest)](https://ipyleaflet.readthedocs.io/en/latest/?badge=latest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

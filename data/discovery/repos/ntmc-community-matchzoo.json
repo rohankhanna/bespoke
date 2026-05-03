@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NTMC-Community/MatchZoo",
+      "target": "ntmc-community/matchzoo-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NTMC-Community/MatchZoo",
+      "target": "ntmc-community/awaresome-neural-models-for-semantic-match",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/MatchZoo",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/MatchZoo",
+      "target": "matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/MatchZoo",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/MatchZoo",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/MatchZoo",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/MatchZoo",
+      "target": "text-matching",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:30:16.607591+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14362
+    },
+    {
+      "path": "requirements.txt",
+      "size": 310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Facilitating the design, comparison and sharing of deep text matching models.",
+    "fork": false,
+    "full_name": "NTMC-Community/MatchZoo",
+    "html_url": "https://github.com/NTMC-Community/MatchZoo",
+    "language": "Python",
+    "pushed_at": "2024-08-02T16:23:45Z",
+    "stargazers_count": 3848,
+    "topics": [
+      "deep-learning",
+      "matching",
+      "natural-language-processing",
+      "neural-network",
+      "text",
+      "text-matching"
+    ],
+    "updated_at": "2026-04-21T07:54:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ntmc-community/awaresome-neural-models-for-semantic-match",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ntmc-community/matchzoo-py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matching"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text"
+    },
+    {
+      "context_snippet": "<div align='center'>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-matching"
+    }
+  ]
+}

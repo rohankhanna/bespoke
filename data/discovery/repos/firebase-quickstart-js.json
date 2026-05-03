@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-promise",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react-hooks",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react-refresh",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "firebase-tools",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-ai-check.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-ai-check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-diff.yml"
+    },
+    {
+      "component": "invertase/quickstart-tag-differ@v0.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-diff.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "firebase/quickstart-js",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "firebase/quickstart-js",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "firebase/quickstart-js",
+      "target": "eslint-plugin-promise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "firebase/quickstart-js",
+      "target": "eslint-plugin-react-hooks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "firebase/quickstart-js",
+      "target": "eslint-plugin-react-refresh",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "firebase/quickstart-js",
+      "target": "firebase-tools",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "firebase/quickstart-js",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-ai-check.yml",
+      "source_repo": "firebase/quickstart-js",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/firebase-ai-check.yml",
+      "source_repo": "firebase/quickstart-js",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firebase-ai-check.yml",
+      "source_repo": "firebase/quickstart-js",
+      "target": "Check Firebase AI Samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-diff.yml",
+      "source_repo": "firebase/quickstart-js",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-diff.yml",
+      "source_repo": "firebase/quickstart-js",
+      "target": "invertase/quickstart-tag-differ@v0.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-diff.yml",
+      "source_repo": "firebase/quickstart-js",
+      "target": "Tag Diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "firebase/quickstart-js",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "firebase/quickstart-js",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "firebase/quickstart-js",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "firebase/quickstart-js",
+      "target": "CI Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:51.807975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2090
+    },
+    {
+      "path": "package.json",
+      "size": 857
+    },
+    {
+      "path": ".github/workflows/firebase-ai-check.yml",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/tag-diff.yml",
+      "size": 301
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Firebase Quickstart Samples for Web",
+    "fork": false,
+    "full_name": "firebase/quickstart-js",
+    "html_url": "https://github.com/firebase/quickstart-js",
+    "language": "TypeScript",
+    "pushed_at": "2026-05-03T01:15:56Z",
+    "stargazers_count": 5363,
+    "topics": [],
+    "updated_at": "2026-04-26T14:45:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check Firebase AI Samples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/firebase-ai-check.yml",
+      "term": "Check Firebase AI Samples"
+    },
+    {
+      "context_snippet": "Tag Diff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-diff.yml",
+      "term": "Tag Diff"
+    },
+    {
+      "context_snippet": "CI Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "CI Tests"
+    }
+  ]
+}

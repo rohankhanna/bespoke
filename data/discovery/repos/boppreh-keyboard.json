@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boppreh/keyboard",
+      "target": "callback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boppreh/keyboard",
+      "target": "hotkey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boppreh/keyboard",
+      "target": "keyboard-events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boppreh/keyboard",
+      "target": "keyboard-hooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boppreh/keyboard",
+      "target": "keyboard-state",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boppreh/keyboard",
+      "target": "register-hotkey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "boppreh/keyboard",
+      "target": "scancode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:30:13.100051+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Hook and simulate global keyboard events on Windows and Linux.",
+    "fork": false,
+    "full_name": "boppreh/keyboard",
+    "html_url": "https://github.com/boppreh/keyboard",
+    "language": "Python",
+    "pushed_at": "2024-06-19T15:14:03Z",
+    "stargazers_count": 3969,
+    "topics": [
+      "callback",
+      "hotkey",
+      "keyboard-events",
+      "keyboard-hooks",
+      "keyboard-state",
+      "python",
+      "register-hotkey",
+      "scancode"
+    ],
+    "updated_at": "2026-05-01T04:55:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**This project is currently unmaintained. It works for many cases, and I wish to pick it up again in the future, but you might encounter some friction and limited features using it.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "callback"
+    },
+    {
+      "context_snippet": "**This project is currently unmaintained. It works for many cases, and I wish to pick it up again in the future, but you might encounter some friction and limited features using it.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hotkey"
+    },
+    {
+      "context_snippet": "**This project is currently unmaintained. It works for many cases, and I wish to pick it up again in the future, but you might encounter some friction and limited features using it.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard-events"
+    },
+    {
+      "context_snippet": "**This project is currently unmaintained. It works for many cases, and I wish to pick it up again in the future, but you might encounter some friction and limited features using it.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard-hooks"
+    },
+    {
+      "context_snippet": "**This project is currently unmaintained. It works for many cases, and I wish to pick it up again in the future, but you might encounter some friction and limited features using it.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard-state"
+    },
+    {
+      "context_snippet": "**This project is currently unmaintained. It works for many cases, and I wish to pick it up again in the future, but you might encounter some friction and limited features using it.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "register-hotkey"
+    },
+    {
+      "context_snippet": "**This project is currently unmaintained. It works for many cases, and I wish to pick it up again in the future, but you might encounter some friction and limited features using it.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scancode"
+    }
+  ]
+}

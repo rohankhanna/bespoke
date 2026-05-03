@@ -223,6 +223,48 @@
       "source_repo": "chetachiezikeuzor/cMenu-Plugin",
       "status": "candidate-context",
       "text": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgmeyers/obsidian-contextual-typography",
+      "status": "candidate-context",
+      "text": "This plugin adds a `data-tag-name` attribute to all top-level preview `div`s, allowing contextual typography. Note: this plugin does not add any styles, but enables contextual styling."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mgmeyers/obsidian-smart-typography",
+      "status": "candidate-context",
+      "text": "Converts quotes to curly quotes, dashes to em dashes, and periods to ellipses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgmeyers/obsidian-smart-typography",
+      "status": "candidate-context",
+      "text": "This plugin (currently) converts:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smikula/obsidian-limelight",
+      "status": "candidate-context",
+      "text": "Spotlight your active pane"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smikula/obsidian-limelight",
+      "status": "candidate-context",
+      "text": "This is a plugin for [Obsidian](https://obsidian.md) that spotlights your active pane to make it more obvious."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deathau/sliding-panes-obsidian",
+      "status": "candidate-context",
+      "text": "Andy Matuschak Mode as a plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deathau/sliding-panes-obsidian",
+      "status": "candidate-context",
+      "text": "[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deathau/sliding-panes-obsidian?style=for-the-badge&sort=semver)](https://github.com/deathau/sliding-panes-obsidian/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +375,30 @@
       "source_repo": "chetachiezikeuzor/cMenu-Plugin",
       "status": "candidate",
       "text": "![cMenu-Plugin Downloads](https://img.shields.io/github/downloads/chetachiezikeuzor/cMenu-Plugin/total.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgmeyers/obsidian-contextual-typography",
+      "status": "candidate",
+      "text": "This plugin adds a `data-tag-name` attribute to all top-level preview `div`s, allowing contextual typography. Note: this plugin does not add any styles, but enables contextual styling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgmeyers/obsidian-smart-typography",
+      "status": "candidate",
+      "text": "This plugin (currently) converts:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smikula/obsidian-limelight",
+      "status": "candidate",
+      "text": "This is a plugin for [Obsidian](https://obsidian.md) that spotlights your active pane to make it more obvious."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deathau/sliding-panes-obsidian",
+      "status": "candidate",
+      "text": "[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deathau/sliding-panes-obsidian?style=for-the-badge&sort=semver)](https://github.com/deathau/sliding-panes-obsidian/releases/latest)"
     }
   ],
   "candidate_related_terms": [],
@@ -466,11 +532,59 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "chetachiezikeuzor/cMenu-Plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ebullient/obsidian-admonition"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Obsidian-TTRPG-Community/fantasy-statblocks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mgmeyers/obsidian-contextual-typography"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mgmeyers/obsidian-smart-typography"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "obsidian-community/obsidian-style-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "smikula/obsidian-limelight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "deathau/sliding-panes-obsidian"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "javalent/obsidian-leaflet"
     }
   ],
   "first_seen_at": "2026-05-01T12:32:24.464365+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

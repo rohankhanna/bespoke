@@ -1,0 +1,377 @@
+{
+  "components": [
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@stylistic/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cloc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "playwright",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite-plugin-dts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml.nop"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "luciopaiva/heapify",
+      "target": "lemire/fastpriorityqueue.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "@stylistic/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "cloc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "playwright",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "vite-plugin-dts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "luciopaiva/heapify",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "luciopaiva/heapify",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml.nop",
+      "source_repo": "luciopaiva/heapify",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml.nop",
+      "source_repo": "luciopaiva/heapify",
+      "target": "Publish to npm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "luciopaiva/heapify",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "luciopaiva/heapify",
+      "target": "Release new version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luciopaiva/heapify",
+      "target": "binary-heap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luciopaiva/heapify",
+      "target": "data-structures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luciopaiva/heapify",
+      "target": "heap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luciopaiva/heapify",
+      "target": "heapify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luciopaiva/heapify",
+      "target": "javascript-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luciopaiva/heapify",
+      "target": "priority-queue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luciopaiva/heapify",
+      "target": "queue",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:33:00.408850+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8513
+    },
+    {
+      "path": "package.json",
+      "size": 1982
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 971
+    },
+    {
+      "path": ".github/workflows/publish.yml.nop",
+      "size": 946
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The fastest JavaScript priority queue out there. Zero dependencies.",
+    "fork": false,
+    "full_name": "luciopaiva/heapify",
+    "html_url": "https://github.com/luciopaiva/heapify",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-27T09:01:14Z",
+    "stargazers_count": 742,
+    "topics": [
+      "binary-heap",
+      "data-structures",
+      "heap",
+      "heapify",
+      "javascript",
+      "javascript-library",
+      "priority-queue",
+      "queue"
+    ],
+    "updated_at": "2026-04-27T09:01:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemire/fastpriorityqueue.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to npm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml.nop",
+      "term": "Publish to npm"
+    },
+    {
+      "context_snippet": "Release new version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release new version"
+    },
+    {
+      "context_snippet": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary-heap"
+    },
+    {
+      "context_snippet": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-structures"
+    },
+    {
+      "context_snippet": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heap"
+    },
+    {
+      "context_snippet": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heapify"
+    },
+    {
+      "context_snippet": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascript-library"
+    },
+    {
+      "context_snippet": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "priority-queue"
+    },
+    {
+      "context_snippet": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "queue"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "7368697661/Origami",
+      "target": "iaolo/ia-fonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "7368697661/Origami",
+      "target": "ivodolenc/aspekta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "7368697661/Origami",
+      "target": "instrument/instrument-sans",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "7368697661/Origami",
+      "target": "mgmeyers/obsidian-style-settings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "7368697661/Origami",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "7368697661/Origami",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "7368697661/Origami",
+      "target": "text-editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "7368697661/Origami",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "7368697661/Origami",
+      "target": "typography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "7368697661/Origami",
+      "target": "writing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:43:13.071795+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Origami was crafted with \ud83d\udc96 to mimic the tactility of paper, but introduce digital tools \ud83e\uddbe",
+    "fork": false,
+    "full_name": "7368697661/Origami",
+    "html_url": "https://github.com/7368697661/Origami",
+    "language": "CSS",
+    "pushed_at": "2025-11-20T02:16:17Z",
+    "stargazers_count": 181,
+    "topics": [
+      "css",
+      "markdown",
+      "obsidian-md",
+      "text-editor",
+      "theme",
+      "typography",
+      "writing"
+    ],
+    "updated_at": "2026-04-25T14:01:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iaolo/ia-fonts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "instrument/instrument-sans",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ivodolenc/aspekta",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgmeyers/obsidian-style-settings",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-editor"
+    },
+    {
+      "context_snippet": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typography"
+    },
+    {
+      "context_snippet": "![origami](https://github.com/user-attachments/assets/475f9983-4718-4977-8614-c837806a98f3)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "writing"
+    }
+  ]
+}

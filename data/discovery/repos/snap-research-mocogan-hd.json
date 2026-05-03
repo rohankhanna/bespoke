@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snap-research/MoCoGAN-HD",
+      "target": "weixiong-ur/mdgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snap-research/MoCoGAN-HD",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snap-research/MoCoGAN-HD",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "snap-research/MoCoGAN-HD",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:38:19.759276+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11067
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16979
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2021 Spotlight] A Good Image Generator Is What You Need for High-Resolution Video Synthesis",
+    "fork": false,
+    "full_name": "snap-research/MoCoGAN-HD",
+    "html_url": "https://github.com/snap-research/MoCoGAN-HD",
+    "language": "Python",
+    "pushed_at": "2022-02-04T02:33:37Z",
+    "stargazers_count": 246,
+    "topics": [
+      "deep-learning",
+      "gan",
+      "image-generation",
+      "video-generation"
+    ],
+    "updated_at": "2026-01-15T03:45:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weixiong-ur/mdgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](gifs/AFHQ.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![](gifs/AFHQ.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "![](gifs/AFHQ.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

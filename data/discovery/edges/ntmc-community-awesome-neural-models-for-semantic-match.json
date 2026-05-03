@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NTMC-Community/awesome-neural-models-for-semantic-match",
+      "target": "ntmc-community/matchzoo-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/awesome-neural-models-for-semantic-match",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/awesome-neural-models-for-semantic-match",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/awesome-neural-models-for-semantic-match",
+      "target": "neu-ir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/awesome-neural-models-for-semantic-match",
+      "target": "question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/awesome-neural-models-for-semantic-match",
+      "target": "semantic-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NTMC-Community/awesome-neural-models-for-semantic-match",
+      "target": "text-similarity",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "NTMC-Community/awesome-neural-models-for-semantic-match"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:36:17.921311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OS-ATLAS: A Foundation Action Model For Generalist GUI Agents",
+    "fork": false,
+    "full_name": "OS-Copilot/OS-Atlas",
+    "html_url": "https://github.com/OS-Copilot/OS-Atlas",
+    "language": "Python",
+    "pushed_at": "2025-04-20T15:59:31Z",
+    "stargazers_count": 444,
+    "topics": [],
+    "updated_at": "2026-04-30T09:40:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

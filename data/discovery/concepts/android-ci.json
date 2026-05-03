@@ -91,6 +91,18 @@
       "source_repo": "dlew/joda-time-android",
       "status": "candidate-context",
       "text": "Android CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cisco/libsrtp",
+      "status": "candidate-context",
+      "text": "Library for SRTP (Secure Realtime Transport Protocol) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cisco/libsrtp",
+      "status": "candidate-context",
+      "text": "Android CI"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +145,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dlew/joda-time-android",
+      "status": "candidate",
+      "text": "Android CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cisco/libsrtp",
       "status": "candidate",
       "text": "Android CI"
     }
@@ -262,11 +280,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/android.yml",
       "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "cisco/libsrtp"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

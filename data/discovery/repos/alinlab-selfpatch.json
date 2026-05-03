@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alinlab/SelfPatch",
+      "target": "davisvideochallenge/davis-2017",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:40:35.547954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "alinlab/SelfPatch",
+    "html_url": "https://github.com/alinlab/SelfPatch",
+    "language": "Python",
+    "pushed_at": "2023-09-13T19:52:18Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2026-04-16T02:01:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davisvideochallenge/davis-2017",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

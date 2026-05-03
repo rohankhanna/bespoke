@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:37:21.481741+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 319
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A demo of how to use RichHandler with `multiprocessing.Pool`",
+    "fork": false,
+    "full_name": "SebastianGrans/Rich-multiprocess-logging",
+    "html_url": "https://github.com/SebastianGrans/Rich-multiprocess-logging",
+    "language": "Python",
+    "pushed_at": "2025-01-07T12:01:25Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-01-07T12:01:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

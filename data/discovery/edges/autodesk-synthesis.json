@@ -1,0 +1,251 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Autodesk/synthesis",
+      "target": "hices/mirabuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Autodesk/synthesis",
+      "target": "hunterbarclay/joltphysics.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BlackFormat.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BlackFormat.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BlackFormat.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "Fusion - Black Format Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionBiome.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionBiome.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionBiome.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionBuild.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionBuild.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionBuild.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FissionBuild.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "Fission - Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionPackage.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionPackage.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionPackage.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionPackage.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "codex-team/action-nodejs-package-info@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionPackage.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FissionPackage.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "Fission - Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionUnitTest.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionUnitTest.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FissionUnitTest.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FissionUnitTest.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "Fission - Unit Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FusionTyping.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FusionTyping.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FusionTyping.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "Fusion - mypy Typing Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FusionWebUI.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FusionWebUI.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FusionWebUI.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/FusionWebUI.yml",
+      "source_repo": "Autodesk/synthesis",
+      "target": "Fusion - WebUI Build and Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Autodesk/synthesis",
+      "target": "autodesk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Autodesk/synthesis",
+      "target": "autodesk-fusion360",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Autodesk/synthesis",
+      "target": "first-robotics-competition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Autodesk/synthesis",
+      "target": "fusion360",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Autodesk/synthesis",
+      "target": "inventor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Autodesk/synthesis",
+      "target": "robot-simulator",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "Autodesk/synthesis"
+}

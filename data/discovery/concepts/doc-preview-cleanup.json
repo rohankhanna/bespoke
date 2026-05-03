@@ -115,6 +115,66 @@
       "source_repo": "FluxML/fluxml.github.io",
       "status": "candidate-context",
       "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/DataAugmentation.jl",
+      "status": "candidate-context",
+      "text": "Flexible data augmentation library for machine and deep learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/DataAugmentation.jl",
+      "status": "candidate-context",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/NNlib.jl",
+      "status": "candidate-context",
+      "text": "Neural Network primitives with multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/NNlib.jl",
+      "status": "candidate-context",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rafaqz/DimensionalData.jl",
+      "status": "candidate-context",
+      "text": "Named dimensions and indexing for julia arrays and other data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/DimensionalData.jl",
+      "status": "candidate-context",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate-context",
+      "text": "Raster manipulation for the Julia language "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate-context",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/www.julialang.org",
+      "status": "candidate-context",
+      "text": "Julia Project website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/www.julialang.org",
+      "status": "candidate-context",
+      "text": "Doc Preview Cleanup"
     }
   ],
   "candidate_glosses": [
@@ -169,6 +229,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "FluxML/fluxml.github.io",
+      "status": "candidate",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/DataAugmentation.jl",
+      "status": "candidate",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/NNlib.jl",
+      "status": "candidate",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/DimensionalData.jl",
+      "status": "candidate",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate",
+      "text": "Doc Preview Cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/www.julialang.org",
       "status": "candidate",
       "text": "Doc Preview Cleanup"
     }
@@ -268,11 +358,41 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": ".github/workflows/CleanPreview.yml",
       "source_repo": "FluxML/fluxml.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CleanPreview.yml",
+      "source_repo": "FluxML/DataAugmentation.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/clean_preview.yml",
+      "source_repo": "FluxML/NNlib.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/DocPreviewCleanup.yml",
+      "source_repo": "rafaqz/DimensionalData.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/DocPreviewCleanup.yml",
+      "source_repo": "rafaqz/Rasters.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/pr_preview_cleanup.yml",
+      "source_repo": "JuliaLang/www.julialang.org"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

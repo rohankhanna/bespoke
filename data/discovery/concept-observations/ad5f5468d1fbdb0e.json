@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Get Android app updates straight from the source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29942513,
+      "status": "candidate",
+      "text": "oss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29843518,
+      "status": "candidate",
+      "text": "vos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29576249,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27218179,
+      "status": "candidate",
+      "text": "voss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19942869,
+      "status": "candidate",
+      "text": "foss\u00e9"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "foss",
+      "sense_id": "foss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "foss",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "foss",
+  "observation_id": "ad5f5468d1fbdb0e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "foss",
+  "source_context_snippet": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026",
+  "source_file": null,
+  "source_repo": "ImranR98/Obtainium",
+  "source_repo_description": "Get Android app updates straight from the source."
+}

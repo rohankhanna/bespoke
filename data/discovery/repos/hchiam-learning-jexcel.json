@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jexcel",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-jExcel",
+      "target": "paulhodel/jexcel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-jExcel",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "hchiam/learning-jExcel",
+      "target": "jexcel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_auto_merge.yml",
+      "source_repo": "hchiam/learning-jExcel",
+      "target": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:48.410304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1531
+    },
+    {
+      "path": "package.json",
+      "size": 342
+    },
+    {
+      "path": ".github/workflows/dependabot_auto_merge.yml",
+      "size": 227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning jExcel",
+    "fork": false,
+    "full_name": "hchiam/learning-jExcel",
+    "html_url": "https://github.com/hchiam/learning-jExcel",
+    "language": "HTML",
+    "pushed_at": "2024-12-05T23:10:09Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-10-27T15:40:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paulhodel/jexcel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

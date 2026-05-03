@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy docs website to GH Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate-context",
+      "text": "An alternative side effect model for Redux apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate-context",
+      "text": "Deploy docs website to GH Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redux-saga/redux-saga",
+      "status": "candidate",
+      "text": "Deploy docs website to GH Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27655,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25733,
+      "status": "candidate",
+      "text": "php"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25733,
+      "status": "candidate",
+      "text": "wiki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22350,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19569,
+      "status": "candidate",
+      "text": "lectern"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy docs website to GH Pages",
+  "concept_id": "deploy-docs-website-to-gh-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "redux-saga/redux-saga"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy docs website to GH Pages",
+      "sense_id": "deploy-docs-website-to-gh-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

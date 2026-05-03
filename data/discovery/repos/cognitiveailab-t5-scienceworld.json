@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:36:21.691051+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5704
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1963
+    },
+    {
+      "path": "requirements.txt",
+      "size": 149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "cognitiveailab/t5-scienceworld",
+    "html_url": "https://github.com/cognitiveailab/t5-scienceworld",
+    "language": "Python",
+    "pushed_at": "2022-11-03T06:08:04Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-02-18T00:32:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

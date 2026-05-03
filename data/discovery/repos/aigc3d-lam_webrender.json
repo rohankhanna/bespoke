@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "gaussian-splat-renderer-for-lam",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-tsc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitejs/plugin-vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aigc3d/LAM_WebRender",
+      "target": "gaussian-splat-renderer-for-lam",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aigc3d/LAM_WebRender",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aigc3d/LAM_WebRender",
+      "target": "vue-tsc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aigc3d/LAM_WebRender",
+      "target": "@vitejs/plugin-vue",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:26.189306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3072
+    },
+    {
+      "path": "package.json",
+      "size": 481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight WebGL Render for LAM and LAM_Audio2Expression",
+    "fork": false,
+    "full_name": "aigc3d/LAM_WebRender",
+    "html_url": "https://github.com/aigc3d/LAM_WebRender",
+    "language": "TypeScript",
+    "pushed_at": "2025-12-25T08:38:15Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-04-29T19:35:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:33:05.592041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast singular value decomposition, diagonalization, QR decomposition of 3x3 matrices.",
+    "fork": false,
+    "full_name": "ericjang/svd3",
+    "html_url": "https://github.com/ericjang/svd3",
+    "language": "Mathematica",
+    "pushed_at": "2021-11-06T10:08:55Z",
+    "stargazers_count": 163,
+    "topics": [],
+    "updated_at": "2026-03-16T00:27:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

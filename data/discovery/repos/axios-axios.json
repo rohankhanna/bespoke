@@ -468,21 +468,6 @@
     {
       "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-sponsor-block.yml"
-    },
-    {
-      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-sponsor-block.yml"
-    },
-    {
-      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-sponsor-block.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/verify-build-reproducibility.yml"
     },
     {
@@ -992,34 +977,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-sponsor-block.yml",
-      "source_repo": "axios/axios",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-sponsor-block.yml",
-      "source_repo": "axios/axios",
-      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-sponsor-block.yml",
-      "source_repo": "axios/axios",
-      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-sponsor-block.yml",
-      "source_repo": "axios/axios",
-      "target": "Update readme sponsor block",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/verify-build-reproducibility.yml",
       "source_repo": "axios/axios",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -1096,11 +1053,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-02T12:57:41.124496+00:00",
+  "fetched_at": "2026-05-03T12:32:03.501342+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 90524
+      "size": 90680
     },
     {
       "path": "package.json",
@@ -1127,10 +1084,6 @@
       "size": 8492
     },
     {
-      "path": ".github/workflows/update-sponsor-block.yml",
-      "size": 2545
-    },
-    {
       "path": ".github/workflows/verify-build-reproducibility.yml",
       "size": 2490
     },
@@ -1148,8 +1101,8 @@
     "full_name": "axios/axios",
     "html_url": "https://github.com/axios/axios",
     "language": "JavaScript",
-    "pushed_at": "2026-05-02T12:31:06Z",
-    "stargazers_count": 109043,
+    "pushed_at": "2026-05-03T12:03:55Z",
+    "stargazers_count": 109040,
     "topics": [
       "hacktoberfest",
       "http-client",
@@ -1157,7 +1110,7 @@
       "nodejs",
       "promise"
     ],
-    "updated_at": "2026-05-02T12:18:10Z"
+    "updated_at": "2026-05-03T02:47:28Z"
   },
   "repo_links": [
     {
@@ -1206,12 +1159,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/run-ci.yml",
       "term": "Continuous integration"
-    },
-    {
-      "context_snippet": "Update readme sponsor block",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-sponsor-block.yml",
-      "term": "Update readme sponsor block"
     },
     {
       "context_snippet": "Verify build reproducibility",

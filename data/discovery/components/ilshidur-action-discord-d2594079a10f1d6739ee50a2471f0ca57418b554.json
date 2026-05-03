@@ -1,7 +1,7 @@
 {
   "component": "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/run-k8s.yml",
       "source_repo": "ethpandaops/ethereum-package"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-tests.yml",
+      "source_repo": "eslint/eslint"
     }
   ]
 }

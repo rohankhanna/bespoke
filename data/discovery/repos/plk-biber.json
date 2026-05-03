@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "plk/biber",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "plk/biber",
+      "target": "Biber CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:33.943645+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4133
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Backend processor for BibLaTeX",
+    "fork": false,
+    "full_name": "plk/biber",
+    "html_url": "https://github.com/plk/biber",
+    "language": "TeX",
+    "pushed_at": "2025-12-31T20:49:07Z",
+    "stargazers_count": 381,
+    "topics": [],
+    "updated_at": "2026-04-27T09:55:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Biber CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Biber CI"
+    }
+  ]
+}

@@ -115,6 +115,18 @@
       "source_repo": "openxrlab/xrfeitoria",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "makehumancommunity/mpfb2",
+      "status": "candidate-context",
+      "text": "MPFB2 is a free and open source human generator for Blender"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "makehumancommunity/mpfb2",
+      "status": "candidate-context",
+      "text": "MPFB is a free and open source human generator for Blender. For documentation and FAQ, see"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "openxrlab/xrfeitoria",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "makehumancommunity/mpfb2",
+      "status": "candidate",
+      "text": "MPFB is a free and open source human generator for Blender. For documentation and FAQ, see"
     }
   ],
   "candidate_related_terms": [
@@ -342,11 +360,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "openxrlab/xrfeitoria"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "makehumancommunity/mpfb2"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

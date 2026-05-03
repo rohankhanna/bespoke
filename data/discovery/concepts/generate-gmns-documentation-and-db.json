@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate GMNS Documentation and DB"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "status": "candidate-context",
+      "text": "General Modeling Network Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "status": "candidate-context",
+      "text": "Generate GMNS Documentation and DB"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "status": "candidate",
+      "text": "Generate GMNS Documentation and DB"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10834,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10834,
+      "status": "candidate",
+      "text": "love"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10834,
+      "status": "candidate",
+      "text": "otis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10834,
+      "status": "candidate",
+      "text": "tory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9647,
+      "status": "candidate",
+      "text": "file"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate GMNS Documentation and DB",
+  "concept_id": "generate-gmns-documentation-and-db",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/generate.yaml",
+      "source_repo": "zephyr-data-specs/GMNS"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate GMNS Documentation and DB",
+      "sense_id": "generate-gmns-documentation-and-db#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "vstest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate-context",
+      "text": "Documentation for the Visual Studio Test Platform. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate-context",
+      "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate",
+      "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vstest",
+  "concept_id": "vstest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vstest-docs"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vstest",
+      "sense_id": "vstest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

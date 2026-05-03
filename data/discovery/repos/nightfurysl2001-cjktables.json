@@ -1,0 +1,40 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/cjktables",
+      "target": "chinese-characters",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:30.792720+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lists of Chinese characters for reference \uff5c \u6c49\u5b57\u53c2\u8003\u5217\u8868",
+    "fork": true,
+    "full_name": "NightFurySL2001/cjktables",
+    "html_url": "https://github.com/NightFurySL2001/cjktables",
+    "language": "Python",
+    "pushed_at": "2025-12-13T13:08:14Z",
+    "stargazers_count": 46,
+    "topics": [
+      "chinese-characters",
+      "cjk"
+    ],
+    "updated_at": "2026-04-30T05:45:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lists of Chinese characters for reference \uff5c \u6c49\u5b57\u53c2\u8003\u5217\u8868",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-characters"
+    }
+  ]
+}

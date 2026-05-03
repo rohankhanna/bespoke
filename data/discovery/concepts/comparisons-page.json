@@ -19,6 +19,18 @@
       "source_repo": "jonico/awesome-runners",
       "status": "candidate-context",
       "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "status": "candidate-context",
+      "text": "A website to help Julia users discover and choose between packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "status": "candidate-context",
+      "text": "Welcome to the repository for Julia Package Comparisons! This repository hosts a website that aims to help Julia users discover and choose between packages. Click the link below to open it!"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jonico/awesome-runners",
       "status": "candidate",
       "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io",
+      "status": "candidate",
+      "text": "Welcome to the repository for Julia Package Comparisons! This repository hosts a website that aims to help Julia users discover and choose between packages. Click the link below to open it!"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "jonico/awesome-runners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaPackageComparisons/JuliaPackageComparisons.github.io"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

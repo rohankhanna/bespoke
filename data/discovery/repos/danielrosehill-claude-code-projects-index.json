@@ -11,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-linux-notes",
+      "target": "danielrosehill/claude-copyq-scripting-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-content-writing-plugin",
+      "target": "danielrosehill/claude-data-analyst-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/claude-data-annotation-plugin",
       "target_type": "repository"
     },
     {
@@ -26,13 +33,6 @@
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-agent-blueprints",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-marketplace",
       "target_type": "repository"
     },
     {
@@ -64,11 +64,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:05:19.840394+00:00",
+  "fetched_at": "2026-05-03T14:37:01.143425+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 91526
+      "size": 93262
     },
     {
       "path": "package.json",
@@ -84,14 +84,14 @@
     "full_name": "danielrosehill/Claude-Code-Projects-Index",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
-    "pushed_at": "2026-05-02T19:57:25Z",
-    "stargazers_count": 442,
+    "pushed_at": "2026-05-03T14:00:31Z",
+    "stargazers_count": 445,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-05-03T03:51:11Z"
+    "updated_at": "2026-05-03T14:16:21Z"
   },
   "repo_links": [
     {
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-linux-notes",
+      "full_name": "danielrosehill/claude-copyq-scripting-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-marketplace",
+      "full_name": "danielrosehill/claude-data-analyst-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-content-writing-plugin",
+      "full_name": "danielrosehill/claude-data-annotation-plugin",
       "source_file": "README.md"
     }
   ],

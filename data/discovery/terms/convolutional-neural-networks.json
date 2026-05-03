@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -96,6 +96,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "yangyanli/PointCNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "varunagrawal/tiny-faces-pytorch"
     }
   ],
   "term": "convolutional-neural-networks"

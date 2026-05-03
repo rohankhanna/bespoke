@@ -91,6 +91,18 @@
       "source_repo": "Codearte/gradle-nexus-staging-plugin",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin.svg?branch=master)](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate-context",
+      "text": "Write your shell scripts on the JVM (java, kotlin, groovy, etc.) "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate-context",
+      "text": "Blaze by Fizzed"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "Codearte/gradle-nexus-staging-plugin",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin.svg?branch=master)](https://travis-ci.org/Codearte/gradle-nexus-staging-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fizzed/blaze",
+      "status": "candidate",
+      "text": "Blaze by Fizzed"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +274,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "Codearte/gradle-nexus-staging-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fizzed/blaze"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

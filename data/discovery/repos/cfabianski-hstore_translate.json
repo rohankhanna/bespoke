@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfabianski/hstore_translate",
+      "target": "svenfuchs/globalize3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfabianski/hstore_translate",
+      "target": "paneq/easy_globalize3_accessors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfabianski/hstore_translate",
+      "target": "svenfuchs/i18n",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:42:23.477630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3515
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rails I18n library for ActiveRecord model/data translation using PostgreSQL's hstore datatype. It provides an interface inspired by Globalize3 but removes the need to maintain separate translation tables.",
+    "fork": false,
+    "full_name": "cfabianski/hstore_translate",
+    "html_url": "https://github.com/cfabianski/hstore_translate",
+    "language": "Ruby",
+    "pushed_at": "2021-09-17T08:00:24Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-05-15T15:54:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paneq/easy_globalize3_accessors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "svenfuchs/globalize3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "svenfuchs/i18n",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

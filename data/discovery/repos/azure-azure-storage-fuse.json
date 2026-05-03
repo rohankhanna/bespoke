@@ -1,0 +1,438 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blobfuse-buddy.yml"
+    },
+    {
+      "component": "azure/login@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blobfuse-buddy.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blobfuse-buddy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issueMetrics.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issueMetrics.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issueMetrics.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-to-blob.yml"
+    },
+    {
+      "component": "azure/login@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-to-blob.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-to-blob.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm-ci.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blobfuse-buddy.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blobfuse-buddy.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "azure/login@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blobfuse-buddy.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blobfuse-buddy.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "Blobfuse Buddy \u2013 AI Auto Reply",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "codespell-project/actions-codespell@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issueMetrics.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issueMetrics.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issueMetrics.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "Monthly issue metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-to-blob.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-to-blob.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "azure/login@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-to-blob.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-to-blob.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "Mirror GitHub Content to Blob Storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-container.yml",
+      "source_repo": "Azure/azure-storage-fuse",
+      "target": "Build and Publish Container Image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:38:07.670705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4637
+    },
+    {
+      "path": "go.mod",
+      "size": 2319
+    },
+    {
+      "path": ".github/workflows/arm-ci.yml",
+      "size": 2456
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 2107
+    },
+    {
+      "path": ".github/workflows/blobfuse-buddy.yml",
+      "size": 4238
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2218
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 777
+    },
+    {
+      "path": ".github/workflows/issueMetrics.yml",
+      "size": 1726
+    },
+    {
+      "path": ".github/workflows/mirror-to-blob.yml",
+      "size": 3622
+    },
+    {
+      "path": ".github/workflows/publish-container.yml",
+      "size": 2253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A virtual file system adapter for Azure Blob storage",
+    "fork": false,
+    "full_name": "Azure/azure-storage-fuse",
+    "html_url": "https://github.com/Azure/azure-storage-fuse",
+    "language": "Go",
+    "pushed_at": "2026-05-01T01:09:34Z",
+    "stargazers_count": 796,
+    "topics": [],
+    "updated_at": "2026-04-23T05:22:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Blobfuse Buddy \u2013 AI Auto Reply",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blobfuse-buddy.yml",
+      "term": "Blobfuse Buddy \u2013 AI Auto Reply"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "codespell"
+    },
+    {
+      "context_snippet": "Monthly issue metrics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issueMetrics.yml",
+      "term": "Monthly issue metrics"
+    },
+    {
+      "context_snippet": "Mirror GitHub Content to Blob Storage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-to-blob.yml",
+      "term": "Mirror GitHub Content to Blob Storage"
+    },
+    {
+      "context_snippet": "Build and Publish Container Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-container.yml",
+      "term": "Build and Publish Container Image"
+    }
+  ]
+}

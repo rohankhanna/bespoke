@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-05-01T18:29:39.500037+00:00",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/web_builds.yml",
       "source_repo": "godotengine/godot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/web_builds.yml",
+      "source_repo": "2shady4u/godot-cpp-ci"
     }
   ],
   "term": "\ud83c\udf10 Web Builds"

@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jimmywarting/StreamSaver.js",
+      "target": "whatwg/fs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jimmywarting/StreamSaver.js",
+      "target": "jimmywarting/native-file-system-adapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jimmywarting/StreamSaver.js",
+      "target": "mattiasbuelens/web-streams-polyfill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jimmywarting/StreamSaver.js",
+      "target": "filesaver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jimmywarting/StreamSaver.js",
+      "target": "html5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jimmywarting/StreamSaver.js",
+      "target": "service-worker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jimmywarting/StreamSaver.js",
+      "target": "stream",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:48:10.901387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10855
+    },
+    {
+      "path": "package.json",
+      "size": 881
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "StreamSaver writes stream to the filesystem directly asynchronous",
+    "fork": false,
+    "full_name": "jimmywarting/StreamSaver.js",
+    "html_url": "https://github.com/jimmywarting/StreamSaver.js",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-18T14:33:28Z",
+    "stargazers_count": 4349,
+    "topics": [
+      "filesaver",
+      "html5",
+      "ram",
+      "service-worker",
+      "stream"
+    ],
+    "updated_at": "2026-04-30T06:41:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jimmywarting/native-file-system-adapter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattiasbuelens/web-streams-polyfill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "whatwg/fs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "StreamSaver.js (legacy-ish)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesaver"
+    },
+    {
+      "context_snippet": "StreamSaver.js (legacy-ish)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html5"
+    },
+    {
+      "context_snippet": "StreamSaver.js (legacy-ish)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-worker"
+    },
+    {
+      "context_snippet": "StreamSaver.js (legacy-ish)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stream"
+    }
+  ]
+}

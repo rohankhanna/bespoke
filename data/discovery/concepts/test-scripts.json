@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Test scripts"
+    "Test scripts",
+    "Test Scripts"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ocaml/opam",
       "status": "candidate-context",
       "text": "Test scripts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kyverno/.github",
+      "status": "candidate-context",
+      "text": "Organization README"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyverno/.github",
+      "status": "candidate-context",
+      "text": "Test Scripts"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ocaml/opam",
       "status": "candidate",
       "text": "Test scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kyverno/.github",
+      "status": "candidate",
+      "text": "Test Scripts"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/scripts.yml",
       "source_repo": "ocaml/opam"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kyverno/.github"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

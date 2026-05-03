@@ -10,13 +10,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "FoundationVision/ByteTrack",
-      "target": "peizesun/transtrack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "FoundationVision/ByteTrack",
       "target": "ifzhang/bytetrack",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T07:13:50.176576+00:00",
+  "fetched_at": "2026-05-03T15:31:26.864984+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -76,24 +69,19 @@
     "html_url": "https://github.com/FoundationVision/ByteTrack",
     "language": "Python",
     "pushed_at": "2024-06-19T11:45:05Z",
-    "stargazers_count": 6342,
+    "stargazers_count": 6343,
     "topics": [
       "deployment",
       "multi-object-tracking",
       "pytorch",
       "real-time"
     ],
-    "updated_at": "2026-05-02T18:14:35Z"
+    "updated_at": "2026-05-03T11:39:43Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "ifzhang/bytetrack",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "peizesun/transtrack",
       "source_file": "README.md"
     },
     {

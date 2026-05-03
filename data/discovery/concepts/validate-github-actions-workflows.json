@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate GitHub Actions Workflows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-amount",
+      "status": "candidate-context",
+      "text": "Numbers with precision and a unit for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-amount",
+      "status": "candidate-context",
+      "text": "Validate GitHub Actions Workflows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-amount",
+      "status": "candidate",
+      "text": "Validate GitHub Actions Workflows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26055,
+      "status": "candidate",
+      "text": "liquid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18045,
+      "status": "candidate",
+      "text": "babble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18045,
+      "status": "candidate",
+      "text": "pitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14713,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14713,
+      "status": "candidate",
+      "text": "authorize"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate GitHub Actions Workflows",
+  "concept_id": "validate-github-actions-workflows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "tc39/proposal-amount"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate GitHub Actions Workflows",
+      "sense_id": "validate-github-actions-workflows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

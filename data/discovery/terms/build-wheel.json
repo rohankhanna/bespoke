@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/_build_wheel.yml",
       "source_repo": "flagos-ai/vllm-plugin-FL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_wheel.yml",
+      "source_repo": "jupyter-xeus/xeus-python-wheel"
     }
   ],
   "term": "build wheel"

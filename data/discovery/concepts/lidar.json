@@ -55,6 +55,18 @@
       "source_repo": "ai4ce/Occ4cast",
       "status": "candidate-context",
       "text": "<a href='https://arxiv.org/abs/2310.11239'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://ai4ce.github.io/Occ4cast/'><img src='https://img.shields.io/badge/Project-website-green'></a> <a href='https://huggingface.co/datasets/ai4ce/OCFBench'><img sr\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "(LMNet) Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data (RAL/IROS 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ai4ce/Occ4cast",
       "status": "candidate",
       "text": "<a href='https://arxiv.org/abs/2310.11239'><img src='https://img.shields.io/badge/Paper-arXiv-red'></a> <a href='https://ai4ce.github.io/Occ4cast/'><img src='https://img.shields.io/badge/Project-website-green'></a> <a href='https://huggingface.co/datasets/ai4ce/OCFBench'><img sr\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +172,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "ai4ce/Occ4cast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

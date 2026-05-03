@@ -1,0 +1,252 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@1.0.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "docker://github/super-linter:v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-check.yml"
+    },
+    {
+      "component": "actions/checkout@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-check.yml"
+    },
+    {
+      "component": "actions/checkout@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-dockerfile.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-dockerfile.yml"
+    },
+    {
+      "component": "docker/login-action@v1.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-dockerfile.yml"
+    },
+    {
+      "component": "docker/build-push-action@v2.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-dockerfile.yml"
+    },
+    {
+      "component": "actions/stale@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tendermint/spec",
+      "target": "tendermint/tendermint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tendermint/spec",
+      "target": "informalsystems/tendermint-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "tendermint/spec",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "tendermint/spec",
+      "target": "gaurav-nelson/github-action-markdown-link-check@1.0.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "tendermint/spec",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "tendermint/spec",
+      "target": "docker://github/super-linter:v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "tendermint/spec",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-check.yml",
+      "source_repo": "tendermint/spec",
+      "target": "actions/checkout@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proto-check.yml",
+      "source_repo": "tendermint/spec",
+      "target": "Proto Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-dockerfile.yml",
+      "source_repo": "tendermint/spec",
+      "target": "actions/checkout@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-dockerfile.yml",
+      "source_repo": "tendermint/spec",
+      "target": "docker/setup-buildx-action@v1.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-dockerfile.yml",
+      "source_repo": "tendermint/spec",
+      "target": "docker/login-action@v1.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/proto-dockerfile.yml",
+      "source_repo": "tendermint/spec",
+      "target": "docker/build-push-action@v2.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proto-dockerfile.yml",
+      "source_repo": "tendermint/spec",
+      "target": "Build & Push Proto Builder Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "tendermint/spec",
+      "target": "actions/stale@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "tendermint/spec",
+      "target": "Close stale pull requests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:46:35.538606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2223
+    },
+    {
+      "path": ".github/workflows/action.yml",
+      "size": 332
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 799
+    },
+    {
+      "path": ".github/workflows/proto-check.yml",
+      "size": 626
+    },
+    {
+      "path": ".github/workflows/proto-dockerfile.yml",
+      "size": 1960
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 589
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "tendermint/spec",
+    "html_url": "https://github.com/tendermint/spec",
+    "language": "TeX",
+    "pushed_at": "2022-02-23T11:50:01Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-04-20T14:55:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "informalsystems/tendermint-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tendermint/tendermint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Proto Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proto-check.yml",
+      "term": "Proto Check"
+    },
+    {
+      "context_snippet": "Build & Push Proto Builder Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/proto-dockerfile.yml",
+      "term": "Build & Push Proto Builder Image"
+    },
+    {
+      "context_snippet": "\"Close stale pull requests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale pull requests"
+    }
+  ]
+}

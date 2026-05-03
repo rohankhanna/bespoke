@@ -44,6 +44,18 @@
       "source_repo": "firebase/firebase-android-sdk",
       "status": "candidate-context",
       "text": "Check Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/docusaurus-template",
+      "status": "candidate-context",
+      "text": "DEPRECATED"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/docusaurus-template",
+      "status": "candidate-context",
+      "text": "Check format"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "firebase/firebase-android-sdk",
       "status": "candidate",
       "text": "Check Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/docusaurus-template",
+      "status": "candidate",
+      "text": "Check format"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": ".github/workflows/check_format.yml",
       "source_repo": "firebase/firebase-android-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ory/docusaurus-template"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

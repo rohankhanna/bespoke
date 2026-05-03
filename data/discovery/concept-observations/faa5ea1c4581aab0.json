@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go Language Library for SVG generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang-package",
+      "sense_id": "golang-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "golang-package",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "golang-package",
+  "observation_id": "faa5ea1c4581aab0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "golang-package",
+  "source_context_snippet": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )",
+  "source_file": null,
+  "source_repo": "ajstarks/svgo",
+  "source_repo_description": "Go Language Library for SVG generation"
+}

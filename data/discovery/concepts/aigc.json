@@ -283,6 +283,30 @@
       "source_repo": "aigc3d/LHM",
       "status": "candidate-context",
       "text": "[![Project Website](https://img.shields.io/badge/\ud83c\udf10-Project_Website-blueviolet)](https://aigc3d.github.io/projects/LHM/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3DTopia/OpenLRM",
+      "status": "candidate-context",
+      "text": "An open-source impl. of Large Reconstruction Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3DTopia/OpenLRM",
+      "status": "candidate-context",
+      "text": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aigc3d/AniGS",
+      "status": "candidate-context",
+      "text": "[CVPR2025] AniGS: Animatable Gaussian Avatar from a Single Image with Inconsistent Gaussian Reconstruction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc3d/AniGS",
+      "status": "candidate-context",
+      "text": "[![Website](https://raw.githubusercontent.com/prs-eth/Marigold/main/doc/badges/badge-website.svg)](https://lingtengqiu.github.io/2024/AniGS/)"
     }
   ],
   "candidate_glosses": [
@@ -423,6 +447,18 @@
       "source_repo": "aigc3d/LHM",
       "status": "candidate",
       "text": "[![Project Website](https://img.shields.io/badge/\ud83c\udf10-Project_Website-blueviolet)](https://aigc3d.github.io/projects/LHM/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3DTopia/OpenLRM",
+      "status": "candidate",
+      "text": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aigc3d/AniGS",
+      "status": "candidate",
+      "text": "[![Website](https://raw.githubusercontent.com/prs-eth/Marigold/main/doc/badges/badge-website.svg)](https://lingtengqiu.github.io/2024/AniGS/)"
     }
   ],
   "candidate_related_terms": [],
@@ -688,11 +724,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "hzwer/ECCV2022-RIFE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "3DTopia/OpenLRM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "aigc3d/AniGS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,205 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "askuratovsky/currencylayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "rubymoney/eu_central_bank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "matiaskorhonen/nordea",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "rubymoney/google_currency",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "cryptocurrencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "currencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "currency-rates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "exchange-rate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "money",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "money-rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "openexchangerates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "rails",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:44:32.582059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A gem that calculates the exchange rate using published rates from openexchangerates.org.",
+    "fork": false,
+    "full_name": "phlegx/money-openexchangerates-bank",
+    "html_url": "https://github.com/phlegx/money-openexchangerates-bank",
+    "language": "Ruby",
+    "pushed_at": "2022-10-21T17:48:32Z",
+    "stargazers_count": 3,
+    "topics": [
+      "bitcoin",
+      "cryptocurrencies",
+      "currencies",
+      "currency-rates",
+      "exchange-rate",
+      "money",
+      "money-rails",
+      "openexchangerates",
+      "rails"
+    ],
+    "updated_at": "2022-05-23T05:04:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "askuratovsky/currencylayer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matiaskorhonen/nordea",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubymoney/eu_central_bank",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubymoney/google_currency",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptocurrencies"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currencies"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currency-rates"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exchange-rate"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "money"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "money-rails"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openexchangerates"
+    },
+    {
+      "context_snippet": "[![Gem Version](https://badge.fury.io/rb/money-openexchangerates-bank.svg)](https://rubygems.org/gems/money-openexchangerates-bank)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    }
+  ]
+}

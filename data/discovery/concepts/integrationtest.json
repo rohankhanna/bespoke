@@ -151,6 +151,30 @@
       "source_repo": "SciML/Static.jl",
       "status": "candidate-context",
       "text": "IntegrationTest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/NNlib.jl",
+      "status": "candidate-context",
+      "text": "Neural Network primitives with multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/NNlib.jl",
+      "status": "candidate-context",
+      "text": "IntegrationTest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mcabbott/AxisKeys.jl",
+      "status": "candidate-context",
+      "text": "\ud83c\udfb9"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcabbott/AxisKeys.jl",
+      "status": "candidate-context",
+      "text": "IntegrationTest"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +247,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "SciML/Static.jl",
+      "status": "candidate",
+      "text": "IntegrationTest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/NNlib.jl",
+      "status": "candidate",
+      "text": "IntegrationTest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcabbott/AxisKeys.jl",
       "status": "candidate",
       "text": "IntegrationTest"
     }
@@ -304,11 +340,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/Downstream.yml",
       "source_repo": "SciML/Static.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/Downstream.yml",
+      "source_repo": "FluxML/NNlib.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "mcabbott/AxisKeys.jl"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

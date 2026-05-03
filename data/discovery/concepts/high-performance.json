@@ -451,6 +451,42 @@
       "source_repo": "adityatelange/hugo-PaperMod",
       "status": "candidate-context",
       "text": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brettwooldridge/HikariCP",
+      "status": "candidate-context",
+      "text": "\u5149 HikariCP\u30fbA solid, high-performance, JDBC connection pool at last."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brettwooldridge/HikariCP",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png\"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi\u00b7ka\u00b7ri [hi\u00b7ka\u00b7'l\u0113] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "status": "candidate-context",
+      "text": "High-performance delimited-file reader and writer for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sl-solution/InMemoryDatasets.jl",
+      "status": "candidate-context",
+      "text": "Multithreaded package for working with tabular data in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sl-solution/InMemoryDatasets.jl",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/InMemoryDatasets.jl/stable) [![CI](https://github.com/sl-solution/InMemoryDatasets.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/sl-solution/InMemoryDatasets.jl/actions/workflows/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -675,6 +711,24 @@
       "source_repo": "adityatelange/hugo-PaperMod",
       "status": "candidate",
       "text": "**A fast, clean, and responsive theme for [Hugo](https://gohugo.io/).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brettwooldridge/HikariCP",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://github.com/brettwooldridge/HikariCP/wiki/Hikari.png\"> HikariCP<sup><sup>&nbsp;It's Faster.</sup></sup><sub><sub><sup>Hi\u00b7ka\u00b7ri [hi\u00b7ka\u00b7'l\u0113] &#40;<i>Origin: Japanese</i>): light; ray.</sup></sub></sub></h1><br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sl-solution/InMemoryDatasets.jl",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/InMemoryDatasets.jl/stable) [![CI](https://github.com/sl-solution/InMemoryDatasets.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/sl-solution/InMemoryDatasets.jl/actions/workflows/\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1090,11 +1144,53 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "adityatelange/hugo-PaperMod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "AdaptiveCpp/AdaptiveCpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "brettwooldridge/HikariCP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "beve-org/beve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "sl-solution/InMemoryDatasets.jl"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

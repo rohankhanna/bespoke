@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:34:57.771481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7418
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "User Documentation for SingularityCE.",
+    "fork": false,
+    "full_name": "sylabs/singularity-userdocs",
+    "html_url": "https://github.com/sylabs/singularity-userdocs",
+    "language": "Python",
+    "pushed_at": "2026-02-26T16:30:57Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-10T03:26:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

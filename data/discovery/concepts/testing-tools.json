@@ -217,6 +217,42 @@
       "source_repo": "lambdaisland/kaocha",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"kaocha.png\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate-context",
+      "text": "Documentation for the Visual Studio Test Platform. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate-context",
+      "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vstest",
+      "status": "candidate-context",
+      "text": "Visual Studio Test Platform is the runner and engine that powers test explorer and vstest.console."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest",
+      "status": "candidate-context",
+      "text": "The Visual Studio Test Platform is an open and extensible test platform that runs tests, collects diagnostics data, and reports results. The Test Platform supports running tests written in various test frameworks, and using a pluggable adapter model. Based on user-choice, the de\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/litmus",
+      "status": "candidate-context",
+      "text": "Litmus is a comprehensive LLM testing and evaluation tool designed for GenAI Application Development. It provides a robust platform with a user-friendly UI for streamlining the process of building and assessing the performance of your LLM-powered applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/litmus",
+      "status": "candidate-context",
+      "text": "![DEV](https://github.com/google/litmus/actions/workflows/dev_deploy.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -321,6 +357,24 @@
       "source_repo": "lambdaisland/kaocha",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"kaocha.png\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest-docs",
+      "status": "candidate",
+      "text": "You've found the GitHub repository which contains the content for the Visual Studio Test Platform documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vstest",
+      "status": "candidate",
+      "text": "The Visual Studio Test Platform is an open and extensible test platform that runs tests, collects diagnostics data, and reports results. The Test Platform supports running tests written in various test frameworks, and using a pluggable adapter model. Based on user-choice, the de\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/litmus",
+      "status": "candidate",
+      "text": "![DEV](https://github.com/google/litmus/actions/workflows/dev_deploy.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -442,11 +496,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "lambdaisland/kaocha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vstest-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vstest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google/litmus"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

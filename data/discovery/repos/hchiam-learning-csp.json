@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-csp",
+      "target": "hchiam/learning-trustedtypes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:33.397056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2943
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning about CSP (Content Security Policy)",
+    "fork": false,
+    "full_name": "hchiam/learning-csp",
+    "html_url": "https://github.com/hchiam/learning-csp",
+    "language": null,
+    "pushed_at": "2024-05-29T03:14:58Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-05-29T03:15:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-trustedtypes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

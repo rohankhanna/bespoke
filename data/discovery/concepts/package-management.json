@@ -187,6 +187,18 @@
       "source_repo": "JuliaPy/CondaPkg.jl",
       "status": "candidate-context",
       "text": "<img src=\"https://github.com/JuliaPy/CondaPkg.jl/raw/main/logo.png\" alt=\"CondaPkg.jl logo\" style=\"width: 100px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkgxdev/brewkit",
+      "status": "candidate-context",
+      "text": "build infra & `$ bk build`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/brewkit",
+      "status": "candidate-context",
+      "text": "![pkgx](https://pkgx.dev/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
       "source_repo": "JuliaPy/CondaPkg.jl",
       "status": "candidate",
       "text": "<img src=\"https://github.com/JuliaPy/CondaPkg.jl/raw/main/logo.png\" alt=\"CondaPkg.jl logo\" style=\"width: 100px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/brewkit",
+      "status": "candidate",
+      "text": "![pkgx](https://pkgx.dev/banner.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -376,11 +394,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "JuliaPy/CondaPkg.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pkgxdev/brewkit"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

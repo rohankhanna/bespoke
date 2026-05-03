@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Learning Angular 8: https://www.youtube.com/watch?v=_TLhUCjY9iA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Just one of the things I'm learning. <https://github.com/hchiam/learning>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014313,
+      "status": "candidate",
+      "text": "csc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014272,
+      "status": "candidate",
+      "text": "tps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10014213,
+      "status": "candidate",
+      "text": "usda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012373,
+      "status": "candidate",
+      "text": "stc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10006122,
+      "status": "candidate",
+      "text": "sns"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scss",
+      "sense_id": "scss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scss",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scss",
+  "observation_id": "e76f783e92323b78",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "scss",
+  "source_context_snippet": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+  "source_file": null,
+  "source_repo": "hchiam/learning-angular8",
+  "source_repo_description": "Learning Angular 8: https://www.youtube.com/watch?v=_TLhUCjY9iA"
+}

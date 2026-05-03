@@ -19,6 +19,42 @@
       "source_repo": "cyberark/conjur-api-go",
       "status": "candidate-context",
       "text": "Programmatic Golang access to the CyberArk Secrets Manager API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyberark/community",
+      "status": "candidate-context",
+      "text": "Information for the CyberArk contributor community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/community",
+      "status": "candidate-context",
+      "text": "Welcome to the CyberArk Community!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyberark/conjur",
+      "status": "candidate-context",
+      "text": "CyberArk Conjur automatically secures secrets used by privileged users and machine identities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/conjur",
+      "status": "candidate-context",
+      "text": "[![Conjur on DockerHub](https://img.shields.io/docker/pulls/cyberark/conjur.svg)](https://hub.docker.com/r/cyberark/conjur/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyberark/slosilo",
+      "status": "candidate-context",
+      "text": "A Ruby interface to standard cryptographic primitives"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/slosilo",
+      "status": "candidate-context",
+      "text": "Slosilo is providing a ruby interface to some cryptographic primitives:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "cyberark/conjur-api-go",
       "status": "candidate",
       "text": "Programmatic Golang access to the CyberArk Secrets Manager API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/community",
+      "status": "candidate",
+      "text": "Welcome to the CyberArk Community!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/conjur",
+      "status": "candidate",
+      "text": "[![Conjur on DockerHub](https://img.shields.io/docker/pulls/cyberark/conjur.svg)](https://hub.docker.com/r/cyberark/conjur/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyberark/slosilo",
+      "status": "candidate",
+      "text": "Slosilo is providing a ruby interface to some cryptographic primitives:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "cyberark/conjur-api-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cyberark/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cyberark/conjur"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cyberark/slosilo"
     }
   ],
   "first_seen_at": "2026-05-03T00:38:05.423502+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

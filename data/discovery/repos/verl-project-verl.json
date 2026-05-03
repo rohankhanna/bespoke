@@ -268,14 +268,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "ritzz-ai/gui-r1",
+      "target": "ragen-ai/vagen",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "ragen-ai/vagen",
+      "target": "ritzz-ai/pacs",
       "target_type": "repository"
     },
     {
@@ -531,7 +531,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-05-03T07:25:58.214690+00:00",
+  "fetched_at": "2026-05-03T15:36:02.642207+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -584,9 +584,9 @@
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
     "pushed_at": "2026-04-30T21:49:59Z",
-    "stargazers_count": 21051,
+    "stargazers_count": 21054,
     "topics": [],
-    "updated_at": "2026-05-03T03:58:20Z"
+    "updated_at": "2026-05-03T15:21:19Z"
   },
   "repo_links": [
     {
@@ -606,7 +606,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ritzz-ai/gui-r1",
+      "full_name": "ritzz-ai/pacs",
       "source_file": "README.md"
     }
   ],

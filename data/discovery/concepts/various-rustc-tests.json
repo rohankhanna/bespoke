@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Various rustc tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bjorn3/rustc_codegen_cranelift",
+      "status": "candidate-context",
+      "text": "You are probably looking for the upstream version of rustc_codegen_cranelift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjorn3/rustc_codegen_cranelift",
+      "status": "candidate-context",
+      "text": "Various rustc tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bjorn3/rustc_codegen_cranelift",
+      "status": "candidate",
+      "text": "Various rustc tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14029,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14029,
+      "status": "candidate",
+      "text": "probe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13788,
+      "status": "candidate",
+      "text": "criteria"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13788,
+      "status": "candidate",
+      "text": "events"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13727,
+      "status": "candidate",
+      "text": "studies"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Various rustc tests",
+  "concept_id": "various-rustc-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/rustc.yml",
+      "source_repo": "bjorn3/rustc_codegen_cranelift"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Various rustc tests",
+      "sense_id": "various-rustc-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

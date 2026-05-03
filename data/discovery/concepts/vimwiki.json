@@ -19,6 +19,18 @@
       "source_repo": "chipsenkbeil/vimwiki-rs",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vimwiki/vimwiki",
+      "status": "candidate-context",
+      "text": "Personal Wiki for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vimwiki/vimwiki",
+      "status": "candidate-context",
+      "text": "![VimWiki: A Personal Wiki For Vim](doc/splash.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "chipsenkbeil/vimwiki-rs",
       "status": "candidate",
       "text": "[![CI](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/chipsenkbeil/vimwiki-rs/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vimwiki/vimwiki",
+      "status": "candidate",
+      "text": "![VimWiki: A Personal Wiki For Vim](doc/splash.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "chipsenkbeil/vimwiki-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vimwiki/vimwiki"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

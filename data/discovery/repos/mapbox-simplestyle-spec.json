@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T13:38:16.238770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple styling convention for GeoJSON data",
+    "fork": false,
+    "full_name": "mapbox/simplestyle-spec",
+    "html_url": "https://github.com/mapbox/simplestyle-spec",
+    "language": null,
+    "pushed_at": "2025-10-07T19:23:54Z",
+    "stargazers_count": 291,
+    "topics": [],
+    "updated_at": "2026-03-09T17:31:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

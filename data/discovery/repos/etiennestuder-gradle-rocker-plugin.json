@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-graph.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-graph.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-graph.yml"
+    },
+    {
+      "component": "gradle/actions/dependency-submission@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-graph.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "Analyze Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "Build Gradle project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-graph.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-graph.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-graph.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "gradle/actions/dependency-submission@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-dependency-graph.yml",
+      "source_repo": "etiennestuder/gradle-rocker-plugin",
+      "target": "Dependency Graph Submission",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:41:59.162892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10810
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1305
+    },
+    {
+      "path": ".github/workflows/gradle-build.yml",
+      "size": 1071
+    },
+    {
+      "path": ".github/workflows/gradle-dependency-graph.yml",
+      "size": 719
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Gradle plugin that integrates the Rocker template engine.",
+    "fork": false,
+    "full_name": "etiennestuder/gradle-rocker-plugin",
+    "html_url": "https://github.com/etiennestuder/gradle-rocker-plugin",
+    "language": "Groovy",
+    "pushed_at": "2026-05-01T15:44:57Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-04-19T13:02:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Analyze Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "Analyze Code"
+    },
+    {
+      "context_snippet": "Build Gradle project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-build.yml",
+      "term": "Build Gradle project"
+    },
+    {
+      "context_snippet": "Dependency Graph Submission",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-dependency-graph.yml",
+      "term": "Dependency Graph Submission"
+    }
+  ]
+}

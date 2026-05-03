@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Deploy htmgo auth example"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maddalax/htmgo",
+      "status": "candidate-context",
+      "text": "htmgo - build simple and scalable systems with go + htmx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maddalax/htmgo",
+      "status": "candidate-context",
+      "text": "Build and Deploy htmgo auth example"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maddalax/htmgo",
+      "status": "candidate",
+      "text": "Build and Deploy htmgo auth example"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34258,
+      "status": "candidate",
+      "text": "pyramid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34258,
+      "status": "candidate",
+      "text": "pyramiding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34258,
+      "status": "candidate",
+      "text": "pyramids"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32589,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26246,
+      "status": "candidate",
+      "text": "thought"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Deploy htmgo auth example",
+  "concept_id": "build-and-deploy-htmgo-auth-example",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/release-auth-example.yml",
+      "source_repo": "maddalax/htmgo"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Deploy htmgo auth example",
+      "sense_id": "build-and-deploy-htmgo-auth-example#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

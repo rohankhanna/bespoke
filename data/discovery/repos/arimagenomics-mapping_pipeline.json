@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T14:45:20.371595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mapping pipeline for data generated using Arima-HiC",
+    "fork": false,
+    "full_name": "ArimaGenomics/mapping_pipeline",
+    "html_url": "https://github.com/ArimaGenomics/mapping_pipeline",
+    "language": "Perl",
+    "pushed_at": "2024-05-22T18:27:00Z",
+    "stargazers_count": 84,
+    "topics": [],
+    "updated_at": "2026-03-30T13:53:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -55,6 +55,30 @@
       "source_repo": "JetBrains/intellij-sdk-code-samples",
       "status": "candidate-context",
       "text": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jasonjmcghee/ron-lsp",
+      "status": "candidate-context",
+      "text": "An LSP and CLI for RON files that provides autocomplete, diagnostics, go to definition, code actions, and hover support based on Rust type annotations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonjmcghee/ron-lsp",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/ron-lsp.svg)](https://crates.io/crates/ron-lsp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "continuedev/continue",
+      "status": "candidate-context",
+      "text": "\u23e9 Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "continuedev/continue",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "JetBrains/intellij-sdk-code-samples",
       "status": "candidate",
       "text": "[![official JetBrains project](https://jb.gg/badges/official-flat-square.svg)][jb:github]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonjmcghee/ron-lsp",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/ron-lsp.svg)](https://crates.io/crates/ron-lsp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "continuedev/continue",
+      "status": "candidate",
+      "text": "<div align=\"center\"></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -124,11 +160,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "JetBrains/intellij-platform-gradle-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jasonjmcghee/ron-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "continuedev/continue"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

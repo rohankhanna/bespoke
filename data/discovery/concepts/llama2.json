@@ -235,6 +235,30 @@
       "source_repo": "iohub/collama",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "icppWorld/icgpt",
+      "status": "candidate-context",
+      "text": "on-chain LLMs for the Internet Computer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icppWorld/icgpt",
+      "status": "candidate-context",
+      "text": "[Try it out](https://icgpt.onicai.com) !"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "icppWorld/icpp_llm",
+      "status": "candidate-context",
+      "text": "on-chain LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icppWorld/icpp_llm",
+      "status": "candidate-context",
+      "text": "[![icpp_llm](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml/badge.svg)](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +375,18 @@
       "source_repo": "iohub/collama",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icppWorld/icgpt",
+      "status": "candidate",
+      "text": "[Try it out](https://icgpt.onicai.com) !"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icppWorld/icpp_llm",
+      "status": "candidate",
+      "text": "[![icpp_llm](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml/badge.svg)](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -646,11 +682,41 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "icppWorld/icgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "AI-Hypercomputer/maxtext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "icppWorld/icpp_llm"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

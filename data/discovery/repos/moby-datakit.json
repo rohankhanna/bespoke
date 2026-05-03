@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/datakit",
+      "target": "data-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/datakit",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/datakit",
+      "target": "datakit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/datakit",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/datakit",
+      "target": "filesystem-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moby/datakit",
+      "target": "pipeline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:10.144577+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4587
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Connect processes into powerful data pipelines with a simple git-like filesystem interface",
+    "fork": false,
+    "full_name": "moby/datakit",
+    "html_url": "https://github.com/moby/datakit",
+    "language": "OCaml",
+    "pushed_at": "2023-08-21T22:34:00Z",
+    "stargazers_count": 1108,
+    "topics": [
+      "data-flow",
+      "database",
+      "datakit",
+      "docker",
+      "filesystem-api",
+      "pipeline"
+    ],
+    "updated_at": "2026-04-14T20:52:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-flow"
+    },
+    {
+      "context_snippet": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datakit"
+    },
+    {
+      "context_snippet": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem-api"
+    },
+    {
+      "context_snippet": "*DataKit* is a tool to orchestrate applications using a Git-like dataflow. It",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipeline"
+    }
+  ]
+}

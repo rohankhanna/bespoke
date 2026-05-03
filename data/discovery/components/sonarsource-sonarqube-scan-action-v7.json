@@ -1,0 +1,17 @@
+{
+  "component": "SonarSource/sonarqube-scan-action@v7",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sonar-cloud.yml",
+      "source_repo": "jrouwe/JoltPhysics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/php.yml",
+      "source_repo": "dauxio/daux.io"
+    }
+  ]
+}

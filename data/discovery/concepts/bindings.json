@@ -202,6 +202,18 @@
       "source_repo": "msoos/cryptominisat-rs",
       "status": "candidate-context",
       "text": "[package] name = \"cryptominisat\" version = \"5.8.0-rust1\" authors = [\"Robert Grosse <n210241048576@gmail.com>\", \"Mate Soos <soos.mate@gmail.com>\"] links = \"cryptominisat5\" build = \"build.rs\" license = \"MIT\" readme = \"README.markdown\" repository = \"https://github.com/storyyeller/c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fltk-rs/fltk-rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for the FLTK GUI library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fltk-rs/fltk-rs",
+      "status": "candidate-context",
+      "text": "[![Documentation](https://docs.rs/fltk/badge.svg)](https://docs.rs/fltk)"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +312,12 @@
       "source_repo": "msoos/cryptominisat-rs",
       "status": "candidate",
       "text": "[package] name = \"cryptominisat\" version = \"5.8.0-rust1\" authors = [\"Robert Grosse <n210241048576@gmail.com>\", \"Mate Soos <soos.mate@gmail.com>\"] links = \"cryptominisat5\" build = \"build.rs\" license = \"MIT\" readme = \"README.markdown\" repository = \"https://github.com/storyyeller/c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fltk-rs/fltk-rs",
+      "status": "candidate",
+      "text": "[![Documentation](https://docs.rs/fltk/badge.svg)](https://docs.rs/fltk)"
     }
   ],
   "candidate_related_terms": [
@@ -529,11 +547,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fltk-rs/fltk-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

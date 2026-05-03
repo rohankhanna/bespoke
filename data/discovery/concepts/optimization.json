@@ -463,6 +463,30 @@
       "source_repo": "gbionics/adam",
       "status": "candidate-context",
       "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iconify/tools",
+      "status": "candidate-context",
+      "text": "Library for working with SVG: importing, validating, parsing, exporting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iconify/tools",
+      "status": "candidate-context",
+      "text": "This library is a collection of tools for importing, exporting and processing SVG images."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate-context",
+      "text": "State-of-the-art open-source applications for Transportation Optimization, Modeling, and Simulation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate-context",
+      "text": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026"
     }
   ],
   "candidate_glosses": [
@@ -693,6 +717,18 @@
       "source_repo": "gbionics/adam",
       "status": "candidate",
       "text": "[![adam](https://github.com/ami-iit/adam/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/ami-iit/adam/actions/workflows/tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iconify/tools",
+      "status": "candidate",
+      "text": "This library is a collection of tools for importing, exporting and processing SVG images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate",
+      "text": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1192,11 +1228,47 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "gbionics/adam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "iconify/tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "facebookarchive/prepack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jdlph/OpenDTA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gbionics/adam"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

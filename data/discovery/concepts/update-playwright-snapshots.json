@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Playwright Snapshots"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyterlite/xeus",
+      "status": "candidate-context",
+      "text": "JupyterLite loader for Xeus kernels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlite/xeus",
+      "status": "candidate-context",
+      "text": "Update Playwright Snapshots"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlite/xeus",
+      "status": "candidate",
+      "text": "Update Playwright Snapshots"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16539,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15111,
+      "status": "candidate",
+      "text": "pix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14539,
+      "status": "candidate",
+      "text": "camera"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14539,
+      "status": "candidate",
+      "text": "dating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14539,
+      "status": "candidate",
+      "text": "dial"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Playwright Snapshots",
+  "concept_id": "update-playwright-snapshots",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/update-integration-tests.yml",
+      "source_repo": "jupyterlite/xeus"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Playwright Snapshots",
+      "sense_id": "update-playwright-snapshots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

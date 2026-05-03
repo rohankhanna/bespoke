@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIM-Harvard/DINOv2-3D-Med",
+      "target": "tawald/nnunet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIM-Harvard/DINOv2-3D-Med",
+      "target": "project-monai/monai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIM-Harvard/DINOv2-3D-Med",
+      "target": "mic-dkfz/dynamic-network-architectures",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "AIM-Harvard/DINOv2-3D-Med",
+      "target": "mic-dkfz/dynamic-network-architectures",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "AIM-Harvard/DINOv2-3D-Med"
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celebv-text/CelebV-Text",
+      "target": "celebv-text/mmvid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celebv-text/CelebV-Text",
+      "target": "minrq/cgan_text2video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celebv-text/CelebV-Text",
+      "target": "billyxyb/transeditor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celebv-text/CelebV-Text",
+      "target": "3dhumangan/3dhumangan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:38:19.100706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12141
+    },
+    {
+      "path": "requirements.txt",
+      "size": 31
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "(CVPR 2023) CelebV-Text: A Large-Scale Facial Text-Video Dataset",
+    "fork": false,
+    "full_name": "celebv-text/CelebV-Text",
+    "html_url": "https://github.com/celebv-text/CelebV-Text",
+    "language": "Python",
+    "pushed_at": "2024-01-04T02:56:17Z",
+    "stargazers_count": 409,
+    "topics": [],
+    "updated_at": "2026-04-27T03:16:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3dhumangan/3dhumangan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "billyxyb/transeditor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celebv-text/mmvid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "minrq/cgan_text2video",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

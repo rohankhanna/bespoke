@@ -31,6 +31,18 @@
       "source_repo": "svg-sprite/svg-sprite",
       "status": "candidate-context",
       "text": "[![npm version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url] [![Coverage Status][coveralls-image]][coveralls-url] [![npm downloads][npm-downloads]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iconify/tools",
+      "status": "candidate-context",
+      "text": "Library for working with SVG: importing, validating, parsing, exporting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iconify/tools",
+      "status": "candidate-context",
+      "text": "This library is a collection of tools for importing, exporting and processing SVG images."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "svg-sprite/svg-sprite",
       "status": "candidate",
       "text": "[![npm version][npm-image]][npm-url] [![Build Status][ci-image]][ci-url] [![Coverage Status][coveralls-image]][coveralls-url] [![npm downloads][npm-downloads]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iconify/tools",
+      "status": "candidate",
+      "text": "This library is a collection of tools for importing, exporting and processing SVG images."
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "svg-sprite/svg-sprite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "iconify/tools"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -103,6 +103,18 @@
       "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/perceval-backends/grimoirelab-perceval-bitbucket/workflows/tests/badge.svg)](https://github.com/perceval-backends/grimoirelab-perceval-bitbucket/actions?query=workflow:tests+branch:master+event:push) [![Coverage Status](https://img.shields.io/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate-context",
+      "text": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml/badge.svg?branch=main)](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml?query=branch%3Amain \"Release Nightly\")"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/perceval-backends/grimoirelab-perceval-bitbucket/workflows/tests/badge.svg)](https://github.com/perceval-backends/grimoirelab-perceval-bitbucket/actions?query=workflow:tests+branch:master+event:push) [![Coverage Status](https://img.shields.io/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate",
+      "text": "[![](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml/badge.svg?branch=main)](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml?query=branch%3Amain \"Release Nightly\")"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "perceval-backends/grimoirelab-perceval-bitbucket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "go-gitea/gitea"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

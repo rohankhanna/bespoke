@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:31:25.876876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2417
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICCV Workshop 2021] GIAOTracker: A comprehensive framework for MCMOT with global information and optimizing strategies in VisDrone 2021",
+    "fork": false,
+    "full_name": "dyhBUPT/GIAOTracker",
+    "html_url": "https://github.com/dyhBUPT/GIAOTracker",
+    "language": null,
+    "pushed_at": "2022-08-03T03:27:44Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-03-08T16:15:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Tessil/hopscotch-map",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tessil/hopscotch-map",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tessil/hopscotch-map",
+      "target": "data-structures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tessil/hopscotch-map",
+      "target": "hash-map",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tessil/hopscotch-map",
+      "target": "hash-table",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tessil/hopscotch-map",
+      "target": "header-only",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:40:10.900450+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17694
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ implementation of a fast hash map and hash set using hopscotch hashing",
+    "fork": false,
+    "full_name": "Tessil/hopscotch-map",
+    "html_url": "https://github.com/Tessil/hopscotch-map",
+    "language": "C++",
+    "pushed_at": "2025-11-02T18:47:59Z",
+    "stargazers_count": 764,
+    "topics": [
+      "c-plus-plus",
+      "cpp",
+      "data-structures",
+      "hash-map",
+      "hash-table",
+      "header-only"
+    ],
+    "updated_at": "2026-04-23T14:56:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-structures"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-map"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash-table"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Tessil/hopscotch-map/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    }
+  ]
+}

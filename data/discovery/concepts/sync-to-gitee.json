@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Sync To Gitee"
+    "Sync To Gitee",
+    "sync to gitee"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "YuzukiHD/YuzukiChameleon",
       "status": "candidate-context",
       "text": "Sync To Gitee"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AttoJS/vue-request",
+      "status": "candidate-context",
+      "text": "\u26a1\ufe0f This is a library that can easily help you manage request states, supporting common features such as SWR, polling, error retry, caching, and pagination, etc. \u26a1\ufe0f \u8fd9\u662f\u4e00\u4e2a\u80fd\u591f\u8f7b\u677e\u5e2e\u52a9\u4f60\u7ba1\u7406\u8bf7\u6c42\u72b6\u6001\u7684\u5e93\uff0c\u652f\u6301 SWR\u3001\u8f6e\u8be2\u3001\u9519\u8bef\u91cd\u8bd5\u3001\u7f13\u5b58\u3001\u5206\u9875\u7b49\u5e38\u7528\u529f\u80fd\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AttoJS/vue-request",
+      "status": "candidate-context",
+      "text": "sync to gitee"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "YuzukiHD/YuzukiChameleon",
       "status": "candidate",
       "text": "Sync To Gitee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AttoJS/vue-request",
+      "status": "candidate",
+      "text": "sync to gitee"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/sync.yml",
       "source_repo": "YuzukiHD/YuzukiChameleon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/sync-gitee.yml",
+      "source_repo": "AttoJS/vue-request"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

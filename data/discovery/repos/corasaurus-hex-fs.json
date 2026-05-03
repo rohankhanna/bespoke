@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "corasaurus-hex/fs",
+      "target": "borkdude/babashka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "corasaurus-hex/fs",
+      "target": "borkdude/babashka",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:48:28.813367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 310
+    },
+    {
+      "path": "Dockerfile",
+      "size": 967
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Clojure filesystem utilities",
+    "fork": false,
+    "full_name": "corasaurus-hex/fs",
+    "html_url": "https://github.com/corasaurus-hex/fs",
+    "language": "Clojure",
+    "pushed_at": "2022-05-17T03:34:20Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2023-01-28T00:45:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/babashka",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/babashka",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

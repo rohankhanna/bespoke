@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vue support for Nova editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![](https://raw.githubusercontent.com/tommasongr/nova-vue/master/assets/nova-vue.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![](https://raw.githubusercontent.com/tommasongr/nova-vue/master/assets/nova-vue.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39341380,
+      "status": "candidate",
+      "text": "terror"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39330138,
+      "status": "candidate",
+      "text": "scare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29635811,
+      "status": "candidate",
+      "text": "crisis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29616249,
+      "status": "candidate",
+      "text": "alert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29600679,
+      "status": "candidate",
+      "text": "freak"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "panic",
+      "sense_id": "panic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3040,
+      "status": "candidate",
+      "text": "scare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "terror"
+    }
+  ],
+  "concept_id": "panic",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "panic",
+  "observation_id": "e62abb4acc949189",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "panic",
+  "source_context_snippet": "![](https://raw.githubusercontent.com/tommasongr/nova-vue/master/assets/nova-vue.png)",
+  "source_file": null,
+  "source_repo": "tommasongr/nova-vue",
+  "source_repo_description": "Vue support for Nova editor."
+}

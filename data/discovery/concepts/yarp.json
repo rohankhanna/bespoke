@@ -19,6 +19,42 @@
       "source_repo": "robotology/icub-models",
       "status": "candidate-context",
       "text": "Repository containing URDF and SDF models of iCub humanoid robots."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/community",
+      "status": "candidate-context",
+      "text": "Virtual repository hosting Discussions and Questions & Answers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/community",
+      "status": "candidate-context",
+      "text": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/yarp",
+      "status": "candidate-context",
+      "text": "YARP - Yet Another Robot Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/yarp",
+      "status": "candidate-context",
+      "text": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "YCM (YCM CMake modules) is a collection of various useful CMake modules. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate-context",
+      "text": "ycm-cmake-modules"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "robotology/icub-models",
       "status": "candidate",
       "text": "Repository containing URDF and SDF models of iCub humanoid robots."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/community",
+      "status": "candidate",
+      "text": "\ud83e\udd16 Welcome to the Robotology Community \ud83d\udc4b\ud83c\udffb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/yarp",
+      "status": "candidate",
+      "text": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "status": "candidate",
+      "text": "ycm-cmake-modules"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "robotology/icub-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/yarp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

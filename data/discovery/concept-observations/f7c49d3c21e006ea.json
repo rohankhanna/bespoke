@@ -120,7 +120,7 @@
   "normalized_form": "stale",
   "observation_id": "f7c49d3c21e006ea",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "stale",
   "source_context_snippet": "stale",
   "source_file": ".github/workflows/stale.yml",

@@ -48,7 +48,7 @@
   "normalized_form": "redis-cluster",
   "observation_id": "2f89ef94142f5e71",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "redis-cluster",
   "source_context_snippet": "[![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)",
   "source_file": null,

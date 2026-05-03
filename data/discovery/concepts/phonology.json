@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "phonology"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CUNY-CL/wikipron",
+      "status": "candidate-context",
+      "text": "Massively multilingual pronunciation mining"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CUNY-CL/wikipron",
+      "status": "candidate-context",
+      "text": "[![PyPI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CUNY-CL/wikipron",
+      "status": "candidate",
+      "text": "[![PyPI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029406,
+      "status": "candidate",
+      "text": "phonemics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029970,
+      "status": "candidate",
+      "text": "phonematics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029969,
+      "status": "candidate",
+      "text": "phonetics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029967,
+      "status": "candidate",
+      "text": "prosody"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029966,
+      "status": "candidate",
+      "text": "suprasegmentals"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3024,
+      "status": "candidate",
+      "text": "phonemics"
+    }
+  ],
+  "canonical_name": "phonology",
+  "concept_id": "phonology",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "phonology",
+      "sense_id": "phonology#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

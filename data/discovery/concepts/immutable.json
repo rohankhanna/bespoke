@@ -31,6 +31,18 @@
       "source_repo": "immerjs/immer",
       "status": "candidate-context",
       "text": "immer \u2014 Create your next immutable state by mutating the current one"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-record-tuple",
+      "status": "candidate-context",
+      "text": "ECMAScript proposal for the Record and Tuple value types. | Stage 2: it will change!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-record-tuple",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "immerjs/immer",
       "status": "candidate",
       "text": "immer \u2014 Create your next immutable state by mutating the current one"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-record-tuple",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -114,11 +132,17 @@
       "observed_at": "2026-05-02T18:23:34.576038+00:00",
       "source_file": null,
       "source_repo": "immerjs/immer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "tc39/proposal-record-tuple"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T18:23:34.576038+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

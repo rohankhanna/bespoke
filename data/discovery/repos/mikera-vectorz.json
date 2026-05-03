@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:32:11.709729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Fast and flexible numerical library for Java featuring N-dimensional arrays",
+    "fork": false,
+    "full_name": "mikera/vectorz",
+    "html_url": "https://github.com/mikera/vectorz",
+    "language": "Java",
+    "pushed_at": "2024-08-26T21:35:30Z",
+    "stargazers_count": 259,
+    "topics": [],
+    "updated_at": "2026-04-09T10:38:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

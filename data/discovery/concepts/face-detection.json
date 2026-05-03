@@ -283,6 +283,18 @@
       "source_repo": "cs-giung/face-detection-pytorch",
       "status": "candidate-context",
       "text": "PyTorch implementations of various face detection algorithms (last updated on 2019-08-03)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "varunagrawal/tiny-faces-pytorch",
+      "status": "candidate-context",
+      "text": "Finding Tiny Faces in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "varunagrawal/tiny-faces-pytorch",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of Peiyun Hu's [awesome tiny face detector](https://github.com/peiyunh/tiny)."
     }
   ],
   "candidate_glosses": [
@@ -423,6 +435,12 @@
       "source_repo": "cs-giung/face-detection-pytorch",
       "status": "candidate",
       "text": "PyTorch implementations of various face detection algorithms (last updated on 2019-08-03)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "varunagrawal/tiny-faces-pytorch",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of Peiyun Hu's [awesome tiny face detector](https://github.com/peiyunh/tiny)."
     }
   ],
   "candidate_related_terms": [],
@@ -664,11 +682,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "DayBreak-u/yolo-face-with-landmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "varunagrawal/tiny-faces-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/yolo-face-with-landmark"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

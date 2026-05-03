@@ -154,6 +154,18 @@
       "source_repo": "fern-api/docs",
       "status": "candidate-context",
       "text": "Check Links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "status": "candidate-context",
+      "text": "Curated List of papers on Self-Supervised Representation Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "status": "candidate-context",
+      "text": "\"Check Links\""
     }
   ],
   "candidate_glosses": [
@@ -228,6 +240,12 @@
       "source_repo": "fern-api/docs",
       "status": "candidate",
       "text": "Check Links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "status": "candidate",
+      "text": "\"Check Links\""
     }
   ],
   "candidate_related_terms": [
@@ -421,11 +439,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/check-links.yml",
       "source_repo": "pyOpenSci/software-submission"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "pyOpenSci/software-submission"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

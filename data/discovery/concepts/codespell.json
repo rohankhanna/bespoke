@@ -506,6 +506,48 @@
       "source_repo": "isomorphic-git/isomorphic-git",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-storage-azcopy",
+      "status": "candidate-context",
+      "text": "The new Azure Storage data transfer utility - AzCopy v10"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-storage-azcopy",
+      "status": "candidate-context",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-storage-fuse",
+      "status": "candidate-context",
+      "text": "A virtual file system adapter for Azure Blob storage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-storage-fuse",
+      "status": "candidate-context",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "magic-wormhole/magic-wormhole",
+      "status": "candidate-context",
+      "text": "get things from one computer to another, safely"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "magic-wormhole/magic-wormhole",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TaWald/nnUNet",
+      "status": "candidate-context",
+      "text": "Codespell"
     }
   ],
   "candidate_glosses": [
@@ -752,6 +794,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "isomorphic-git/isomorphic-git",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-storage-azcopy",
+      "status": "candidate",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-storage-fuse",
+      "status": "candidate",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "magic-wormhole/magic-wormhole",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TaWald/nnUNet",
       "status": "candidate",
       "text": "Codespell"
     }
@@ -1037,11 +1103,35 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/_codespell.yml",
       "source_repo": "MakieOrg/Makie.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "Azure/azure-storage-azcopy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "Azure/azure-storage-fuse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "magic-wormhole/magic-wormhole"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "TaWald/nnUNet"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

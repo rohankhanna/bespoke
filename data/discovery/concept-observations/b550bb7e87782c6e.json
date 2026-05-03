@@ -84,7 +84,7 @@
   "normalized_form": "cancel-redundant-pr-builds",
   "observation_id": "b550bb7e87782c6e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Cancel Redundant PR Builds",
   "source_context_snippet": "Cancel Redundant PR Builds",
   "source_file": ".github/workflows/cancel-pr.yml",

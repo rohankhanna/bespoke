@@ -79,6 +79,54 @@
       "source_repo": "gazebosim/gz-sim",
       "status": "candidate-context",
       "text": "Ubuntu CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate-context",
+      "text": "Builds on top of Qt to provide widgets which are useful when developing robotics applications, such as a 3D view, plots, dashboard, etc, and can be used together in a convenient unified interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate-context",
+      "text": "Ubuntu CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "C++ library designed to provide an abstraction for different rendering engines. It offers unified APIs for creating 3D graphics applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "Ubuntu CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate-context",
+      "text": "Provides numerous sensor models designed to generate realistic data from simulation environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate-context",
+      "text": "Ubuntu CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-transport",
+      "status": "candidate-context",
+      "text": "Transport library for component communication based on publication/subscription and service calls."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-transport",
+      "status": "candidate-context",
+      "text": "Ubuntu CI"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +163,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gazebosim/gz-sim",
+      "status": "candidate",
+      "text": "Ubuntu CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate",
+      "text": "Ubuntu CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate",
+      "text": "Ubuntu CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate",
+      "text": "Ubuntu CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-transport",
       "status": "candidate",
       "text": "Ubuntu CI"
     }
@@ -202,11 +274,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "gazebosim/gz-sim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-gui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-rendering"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-sensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gazebosim/gz-transport"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

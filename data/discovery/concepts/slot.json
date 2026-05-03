@@ -19,6 +19,18 @@
       "source_repo": "dacap/observable",
       "status": "candidate-context",
       "text": "Observable Library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloydlau/vue-global-config",
+      "status": "candidate-context",
+      "text": "Configure your Vue 2/3 components globally! (Global Props + Attrs + Listeners + Hooks + Slots)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloydlau/vue-global-config",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dacap/observable",
       "status": "candidate",
       "text": "Observable Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloydlau/vue-global-config",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "dacap/observable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cloydlau/vue-global-config"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

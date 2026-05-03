@@ -595,6 +595,42 @@
       "source_repo": "githubnext/monaspace",
       "status": "candidate-context",
       "text": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. It consists of five variable axis typefaces. Each one has a distinct voice, but they are all metrics-compatible with one another, allowing you to mix and match them for a more expre\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/LxgwMarkerGothic",
+      "status": "candidate-context",
+      "text": "An open-source Chinese font derived from Tanugo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwMarkerGothic",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/advanced-cjk-font-magisk-module-template",
+      "status": "candidate-context",
+      "text": "A Magisk module template to systemlessly replace system fonts. Supports CJK Fonts. \u7528\u4e8e\u5236\u4f5c\u5b57\u4f53\u6a21\u5757\u7684 Magisk \u6a21\u5757\u6a21\u677f\uff0c\u652f\u6301\u4e2d\u65e5\u97e9\u5b57\u4f53\u7684\u66ff\u6362\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/advanced-cjk-font-magisk-module-template",
+      "status": "candidate-context",
+      "text": "> **\u91cd\u8981\u63d0\u9192\uff1a**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/FusionKai",
+      "status": "candidate-context",
+      "text": "\u300c\u7f1d\u5408\u6977\u300d\uff1a\u5c06\u300c\u971e\u9e5c\u6587\u6977 GB\u300d\u300c\u82ab\u837d\u300d\u300cKlee One\u300d\u7b49\u5b57\u4f53\u76f8\u4e92\u5408\u5e76\u5236\u6210\u7684\u4ee5\u5404\u5730\u5b57\u5f62\u4e3a\u4e3b\u7684 Klee One \u884d\u751f\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/FusionKai",
+      "status": "candidate-context",
+      "text": "> **\u5404\u4f4d\u5b57\u4f53\u7ad9\u957f\u53ef\u4ee5\u4e0d\u7528\u6536\u5f55\u8fd9\u4e2a\u5b57\u4f53\u3002**"
     }
   ],
   "candidate_glosses": [
@@ -891,6 +927,24 @@
       "source_repo": "githubnext/monaspace",
       "status": "candidate",
       "text": "The Monaspace type system is a monospaced type superfamily with some modern tricks up its sleeve. It consists of five variable axis typefaces. Each one has a distinct voice, but they are all metrics-compatible with one another, allowing you to mix and match them for a more expre\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/LxgwMarkerGothic",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/advanced-cjk-font-magisk-module-template",
+      "status": "candidate",
+      "text": "> **\u91cd\u8981\u63d0\u9192\uff1a**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/FusionKai",
+      "status": "candidate",
+      "text": "> **\u5404\u4f4d\u5b57\u4f53\u7ad9\u957f\u53ef\u4ee5\u4e0d\u7528\u6536\u5f55\u8fd9\u4e2a\u5b57\u4f53\u3002**"
     }
   ],
   "candidate_related_terms": [
@@ -1324,11 +1378,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "githubnext/monaspace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "belluzj/fantasque-sans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/LxgwMarkerGothic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/advanced-cjk-font-magisk-module-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/FusionKai"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -175,6 +175,18 @@
       "source_repo": "PMunch/nimlsp",
       "status": "candidate-context",
       "text": "Nim Language Server Protocol"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jasonjmcghee/ron-lsp",
+      "status": "candidate-context",
+      "text": "An LSP and CLI for RON files that provides autocomplete, diagnostics, go to definition, code actions, and hover support based on Rust type annotations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonjmcghee/ron-lsp",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/ron-lsp.svg)](https://crates.io/crates/ron-lsp)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "PMunch/nimlsp",
       "status": "candidate",
       "text": "Nim Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jasonjmcghee/ron-lsp",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/ron-lsp.svg)](https://crates.io/crates/ron-lsp)"
     }
   ],
   "candidate_related_terms": [],
@@ -418,11 +436,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jasonjmcghee/ron-lsp"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

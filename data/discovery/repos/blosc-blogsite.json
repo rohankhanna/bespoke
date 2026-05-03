@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "getnikola/nikola-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Blosc/blogsite",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Blosc/blogsite",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Blosc/blogsite",
+      "target": "getnikola/nikola-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Blosc/blogsite",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Blosc/blogsite",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:46:26.778235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 55
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Blogsite for Blosc",
+    "fork": false,
+    "full_name": "Blosc/blogsite",
+    "html_url": "https://github.com/Blosc/blogsite",
+    "language": "HTML",
+    "pushed_at": "2026-04-28T09:24:57Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-28T09:25:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

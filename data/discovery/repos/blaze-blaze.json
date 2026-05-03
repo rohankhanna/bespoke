@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T14:46:24.681650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NumPy and Pandas interface to Big Data",
+    "fork": false,
+    "full_name": "blaze/blaze",
+    "html_url": "https://github.com/blaze/blaze",
+    "language": "Python",
+    "pushed_at": "2023-09-29T10:03:58Z",
+    "stargazers_count": 3195,
+    "topics": [],
+    "updated_at": "2026-04-17T22:06:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

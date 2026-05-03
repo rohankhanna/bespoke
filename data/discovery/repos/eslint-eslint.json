@@ -506,7 +506,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "component": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -546,6 +546,36 @@
       "source_file": ".github/workflows/docs-ci.yml"
     },
     {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-tests.yml"
+    },
+    {
+      "component": "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-updates.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-updates.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-updates.yml"
+    },
+    {
       "component": "actions/labeler@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-labeler.yml"
@@ -559,126 +589,6 @@
       "component": "eslint/workflows/.github/workflows/stale.yml@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "restackio/update-json-file-action@6f50afee9a03a456a30cd574123db793319f7544",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "restackio/update-json-file-action@6f50afee9a03a456a30cd574123db793319f7544",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-readme.yml"
-    },
-    {
-      "component": "actions/setup-node@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-readme.yml"
     }
   ],
   "edges": [
@@ -1344,7 +1254,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "eslint/eslint",
-      "target": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "target": "pnpm/action-setup@903f9c1a6ebcba6cf41d87230be49611ac97822e",
       "target_type": "component"
     },
     {
@@ -1405,6 +1315,62 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-tests.yml",
+      "source_repo": "eslint/eslint",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-tests.yml",
+      "source_repo": "eslint/eslint",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-tests.yml",
+      "source_repo": "eslint/eslint",
+      "target": "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecosystem-tests.yml",
+      "source_repo": "eslint/eslint",
+      "target": "Test Ecosystem Plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-updates.yml",
+      "source_repo": "eslint/eslint",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-updates.yml",
+      "source_repo": "eslint/eslint",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem-updates.yml",
+      "source_repo": "eslint/eslint",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecosystem-updates.yml",
+      "source_repo": "eslint/eslint",
+      "target": "Update Test Ecosystem Plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-labeler.yml",
       "source_repo": "eslint/eslint",
       "target": "actions/labeler@v6",
@@ -1446,55 +1412,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml",
-      "source_repo": "eslint/eslint",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml",
-      "source_repo": "eslint/eslint",
-      "target": "actions/setup-node@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/types-integration.yml",
-      "source_repo": "eslint/eslint",
-      "target": "restackio/update-json-file-action@6f50afee9a03a456a30cd574123db793319f7544",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/types-integration.yml",
-      "source_repo": "eslint/eslint",
-      "target": "Types Integration CI",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-readme.yml",
-      "source_repo": "eslint/eslint",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-readme.yml",
-      "source_repo": "eslint/eslint",
-      "target": "actions/setup-node@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-readme.yml",
-      "source_repo": "eslint/eslint",
-      "target": "Data Fetch",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "eslint/eslint",
@@ -1523,15 +1440,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:39:19.871353+00:00",
+  "fetched_at": "2026-05-03T16:36:42.525639+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 20864
+      "size": 20715
     },
     {
       "path": "package.json",
-      "size": 7085
+      "size": 7215
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -1546,6 +1463,14 @@
       "size": 977
     },
     {
+      "path": ".github/workflows/ecosystem-tests.yml",
+      "size": 944
+    },
+    {
+      "path": ".github/workflows/ecosystem-updates.yml",
+      "size": 772
+    },
+    {
       "path": ".github/workflows/pr-labeler.yml",
       "size": 294
     },
@@ -1556,14 +1481,6 @@
     {
       "path": ".github/workflows/stale.yml",
       "size": 297
-    },
-    {
-      "path": ".github/workflows/types-integration.yml",
-      "size": 7497
-    },
-    {
-      "path": ".github/workflows/update-readme.yml",
-      "size": 906
     }
   ],
   "related_repositories": [],
@@ -1575,8 +1492,8 @@
     "full_name": "eslint/eslint",
     "html_url": "https://github.com/eslint/eslint",
     "language": "JavaScript",
-    "pushed_at": "2026-04-23T20:34:20Z",
-    "stargazers_count": 27211,
+    "pushed_at": "2026-05-03T08:41:29Z",
+    "stargazers_count": 27217,
     "topics": [
       "ecmascript",
       "eslint",
@@ -1584,7 +1501,7 @@
       "linter",
       "static-code-analysis"
     ],
-    "updated_at": "2026-04-23T23:20:19Z"
+    "updated_at": "2026-05-03T15:07:50Z"
   },
   "repo_links": [],
   "terms": [
@@ -1599,6 +1516,18 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docs-ci.yml",
       "term": "Docs CI"
+    },
+    {
+      "context_snippet": "Test Ecosystem Plugins",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecosystem-tests.yml",
+      "term": "Test Ecosystem Plugins"
+    },
+    {
+      "context_snippet": "Update Test Ecosystem Plugins",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecosystem-updates.yml",
+      "term": "Update Test Ecosystem Plugins"
     },
     {
       "context_snippet": "\"Pull Request Labeler\"",
@@ -1617,18 +1546,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/stale.yml",
       "term": "stale"
-    },
-    {
-      "context_snippet": "Types Integration CI",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/types-integration.yml",
-      "term": "Types Integration CI"
-    },
-    {
-      "context_snippet": "Data Fetch",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-readme.yml",
-      "term": "Data Fetch"
     },
     {
       "context_snippet": "[![npm version](https://img.shields.io/npm/v/eslint.svg)](https://www.npmjs.com/package/eslint)",

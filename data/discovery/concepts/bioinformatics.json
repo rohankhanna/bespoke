@@ -343,6 +343,42 @@
       "source_repo": "lh3/gfatools",
       "status": "candidate-context",
       "text": "```sh"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brewsci/homebrew-bio",
+      "status": "candidate-context",
+      "text": ":beer::microscope: Bioinformatics formulae for the Homebrew package manager (macOS and Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brewsci/homebrew-bio",
+      "status": "candidate-context",
+      "text": "![BrewSci logo](https://raw.githubusercontent.com/brewsci/homebrew-science/master/.github/brewsci-256x256.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate-context",
+      "text": ":microscope: Assemble large genomes using short reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/abyss.svg)](https://github.com/BirolLab/abyss/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aidenlab/juicer",
+      "status": "candidate-context",
+      "text": "A One-Click System for Analyzing Loop-Resolution Hi-C Experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aidenlab/juicer",
+      "status": "candidate-context",
+      "text": "To access Juicer 1.6 (last stable release), please see [the Github Release](https://github.com/aidenlab/juicer/releases/tag/1.6). If you clone the Juicer repo directly from Github, it will clone Juicer 2, which is under active development. If you encounter any bugs, please let u\u2026"
     }
   ],
   "candidate_glosses": [
@@ -513,6 +549,24 @@
       "source_repo": "lh3/gfatools",
       "status": "candidate",
       "text": "```sh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brewsci/homebrew-bio",
+      "status": "candidate",
+      "text": "![BrewSci logo](https://raw.githubusercontent.com/brewsci/homebrew-science/master/.github/brewsci-256x256.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/abyss.svg)](https://github.com/BirolLab/abyss/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aidenlab/juicer",
+      "status": "candidate",
+      "text": "To access Juicer 1.6 (last stable release), please see [the Github Release](https://github.com/aidenlab/juicer/releases/tag/1.6). If you clone the Juicer repo directly from Github, it will clone Juicer 2, which is under active development. If you encounter any bugs, please let u\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -814,11 +868,41 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "lh3/gfatools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "unum-bio/USearchMolecules"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "brewsci/homebrew-bio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/abyss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "aidenlab/juicer"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

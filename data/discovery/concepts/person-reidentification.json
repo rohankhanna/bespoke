@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "person-reidentification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate-context",
+      "text": "SOTA Re-identification Methods and Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate-context",
+      "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate",
+      "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "person-reidentification",
+  "concept_id": "person-reidentification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "person-reidentification",
+      "sense_id": "person-reidentification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Algolia Docsearch Action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eleme/morjs",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e\u5c0f\u7a0b\u5e8f DSL\uff08\u5fae\u4fe1\u3001\u652f\u4ed8\u5b9d\uff09\u7684\uff0c\u53ef\u6269\u5c55\u7684\u591a\u7aef\u7814\u53d1\u6846\u67b6\uff0c\u652f\u6301\u4e00\u952e\u5c06\u5fae\u4fe1\u6216\u652f\u4ed8\u5b9d\u5c0f\u7a0b\u5e8f\u8f6c\u6362\u4e3a\u5fae\u4fe1\u3001\u652f\u4ed8\u5b9d\u3001\u767e\u5ea6\u3001\u5b57\u8282\u3001QQ\u3001\u5feb\u624b\u3001\u6dd8\u5b9d\u3001\u9489\u9489\u7b49\u5c0f\u7a0b\u5e8f \u6216 Web \u5e94\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eleme/morjs",
+      "status": "candidate-context",
+      "text": "Algolia Docsearch Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eleme/morjs",
+      "status": "candidate",
+      "text": "Algolia Docsearch Action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "act"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "acting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "actions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "activities"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "activity"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Algolia Docsearch Action",
+  "concept_id": "algolia-docsearch-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/algolia.yml",
+      "source_repo": "eleme/morjs"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Algolia Docsearch Action",
+      "sense_id": "algolia-docsearch-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

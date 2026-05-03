@@ -485,34 +485,6 @@
     },
     {
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-sponsor-block.yml",
-      "source_repo": "axios/axios",
-      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-sponsor-block.yml",
-      "source_repo": "axios/axios",
-      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/update-sponsor-block.yml",
-      "source_repo": "axios/axios",
-      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/update-sponsor-block.yml",
-      "source_repo": "axios/axios",
-      "target": "Update readme sponsor block",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/verify-build-reproducibility.yml",
       "source_repo": "axios/axios",
       "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
@@ -589,6 +561,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-02T12:29:04.390200+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "axios/axios"
 }

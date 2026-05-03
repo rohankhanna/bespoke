@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:31:45.570377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1199
+    },
+    {
+      "path": "requirements.txt",
+      "size": 77
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CARLA Autonomous Driving leaderboard",
+    "fork": false,
+    "full_name": "carla-simulator/leaderboard",
+    "html_url": "https://github.com/carla-simulator/leaderboard",
+    "language": "Python",
+    "pushed_at": "2025-12-19T18:49:01Z",
+    "stargazers_count": 214,
+    "topics": [],
+    "updated_at": "2026-04-24T00:15:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

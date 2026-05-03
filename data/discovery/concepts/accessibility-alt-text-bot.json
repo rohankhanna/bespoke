@@ -19,12 +19,30 @@
       "source_repo": "typescript-eslint/typescript-eslint",
       "status": "candidate-context",
       "text": "Accessibility-alt-text-bot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testing-library/dom-testing-library",
+      "status": "candidate-context",
+      "text": "\ud83d\udc19 Simple and complete DOM testing utilities that encourage good testing practices."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/dom-testing-library",
+      "status": "candidate-context",
+      "text": "Accessibility-alt-text-bot"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "typescript-eslint/typescript-eslint",
+      "status": "candidate",
+      "text": "Accessibility-alt-text-bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testing-library/dom-testing-library",
       "status": "candidate",
       "text": "Accessibility-alt-text-bot"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/a11y-alt-bot.yml",
       "source_repo": "typescript-eslint/typescript-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/accessibility-alt-text.yml",
+      "source_repo": "testing-library/dom-testing-library"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

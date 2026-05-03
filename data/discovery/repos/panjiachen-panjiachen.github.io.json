@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PanJiaChen/PanJiaChen.github.io",
+      "target": "lukechilds/merge-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PanJiaChen/PanJiaChen.github.io",
+      "target": "nigelotoole/direction-reveal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PanJiaChen/PanJiaChen.github.io",
+      "target": "amfe/lib-flexible",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PanJiaChen/PanJiaChen.github.io",
+      "target": "chemdemo/chemdemo.github.io",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:40:12.340855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pjc",
+    "fork": false,
+    "full_name": "PanJiaChen/PanJiaChen.github.io",
+    "html_url": "https://github.com/PanJiaChen/PanJiaChen.github.io",
+    "language": "CSS",
+    "pushed_at": "2024-03-21T19:00:23Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2025-02-11T07:24:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amfe/lib-flexible",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chemdemo/chemdemo.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukechilds/merge-images",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nigelotoole/direction-reveal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

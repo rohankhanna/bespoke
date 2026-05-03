@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jittor/PointCloudLib",
+      "target": "menghaoguo/pct",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:47:24.178864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Jittor Library for Point Cloud Processing",
+    "fork": false,
+    "full_name": "Jittor/PointCloudLib",
+    "html_url": "https://github.com/Jittor/PointCloudLib",
+    "language": "Python",
+    "pushed_at": "2024-10-19T14:05:26Z",
+    "stargazers_count": 113,
+    "topics": [],
+    "updated_at": "2026-04-20T06:50:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "menghaoguo/pct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

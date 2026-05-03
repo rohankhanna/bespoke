@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Fix Failed Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "continuedev/continue",
+      "status": "candidate-context",
+      "text": "\u23e9 Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "continuedev/continue",
+      "status": "candidate-context",
+      "text": "Auto Fix Failed Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "continuedev/continue",
+      "status": "candidate",
+      "text": "Auto Fix Failed Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27671,
+      "status": "candidate",
+      "text": "misrule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27603,
+      "status": "candidate",
+      "text": "chronicle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27603,
+      "status": "candidate",
+      "text": "chronicling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27603,
+      "status": "candidate",
+      "text": "cool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27603,
+      "status": "candidate",
+      "text": "independent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Fix Failed Tests",
+  "concept_id": "auto-fix-failed-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/auto-fix-failed-tests.yml",
+      "source_repo": "continuedev/continue"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Fix Failed Tests",
+      "sense_id": "auto-fix-failed-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

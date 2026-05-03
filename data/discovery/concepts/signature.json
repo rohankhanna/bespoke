@@ -55,6 +55,18 @@
       "source_repo": "patrick-kidger/signatory",
       "status": "candidate-context",
       "text": "|Signatory|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ddo/oauth-1.0a",
+      "status": "candidate-context",
+      "text": "OAuth 1.0a Request Authorization for Node and Browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddo/oauth-1.0a",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/ddo/oauth-1.0a](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ddo/oauth-1.0a?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "patrick-kidger/signatory",
       "status": "candidate",
       "text": "|Signatory|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ddo/oauth-1.0a",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/ddo/oauth-1.0a](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ddo/oauth-1.0a?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_related_terms": [
@@ -177,11 +195,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "patrick-kidger/signatory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ddo/oauth-1.0a"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

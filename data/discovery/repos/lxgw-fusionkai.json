@@ -1,0 +1,84 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/FusionKai",
+      "target": "takwolf/fusion-pixel-font",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxgw/FusionKai",
+      "target": "nowar-fonts/warcraft-font-merger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/FusionKai",
+      "target": "cjk-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lxgw/FusionKai",
+      "target": "font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:36.746393+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u300c\u7f1d\u5408\u6977\u300d\uff1a\u5c06\u300c\u971e\u9e5c\u6587\u6977 GB\u300d\u300c\u82ab\u837d\u300d\u300cKlee One\u300d\u7b49\u5b57\u4f53\u76f8\u4e92\u5408\u5e76\u5236\u6210\u7684\u4ee5\u5404\u5730\u5b57\u5f62\u4e3a\u4e3b\u7684 Klee One \u884d\u751f\u5b57\u4f53\u3002",
+    "fork": false,
+    "full_name": "lxgw/FusionKai",
+    "html_url": "https://github.com/lxgw/FusionKai",
+    "language": null,
+    "pushed_at": "2024-05-13T03:30:27Z",
+    "stargazers_count": 83,
+    "topics": [
+      "cjk",
+      "cjk-font",
+      "font"
+    ],
+    "updated_at": "2026-04-18T04:40:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nowar-fonts/warcraft-font-merger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "takwolf/fusion-pixel-font",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> **\u5404\u4f4d\u5b57\u4f53\u7ad9\u957f\u53ef\u4ee5\u4e0d\u7528\u6536\u5f55\u8fd9\u4e2a\u5b57\u4f53\u3002**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cjk-font"
+    },
+    {
+      "context_snippet": "> **\u5404\u4f4d\u5b57\u4f53\u7ad9\u957f\u53ef\u4ee5\u4e0d\u7528\u6536\u5f55\u8fd9\u4e2a\u5b57\u4f53\u3002**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    }
+  ]
+}

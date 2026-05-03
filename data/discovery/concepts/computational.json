@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "computational"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blosc/python-blosc2",
+      "status": "candidate-context",
+      "text": "A high-performance library for compressed ndarrays, with a flexible computational engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/python-blosc2",
+      "status": "candidate-context",
+      "text": "============="
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blosc/python-blosc2",
+      "status": "candidate",
+      "text": "============="
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013243,
+      "status": "candidate",
+      "text": "computing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30013203,
+      "status": "candidate",
+      "text": "compute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012056,
+      "status": "candidate",
+      "text": "informatics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011740,
+      "status": "candidate",
+      "text": "computerised"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011362,
+      "status": "candidate",
+      "text": "computer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "computational",
+  "concept_id": "computational",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Blosc/python-blosc2"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "computational",
+      "sense_id": "computational#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

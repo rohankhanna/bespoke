@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:45:41.926313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3137
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Extra widgets for fltk-rs",
+    "fork": false,
+    "full_name": "fltk-rs/fltk-extras",
+    "html_url": "https://github.com/fltk-rs/fltk-extras",
+    "language": "Rust",
+    "pushed_at": "2023-09-05T18:27:17Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-06-17T09:29:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

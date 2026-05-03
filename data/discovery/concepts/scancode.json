@@ -19,6 +19,18 @@
       "source_repo": "aboutcode-org/scancode.io",
       "status": "candidate-context",
       "text": "==========="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boppreh/keyboard",
+      "status": "candidate-context",
+      "text": "Hook and simulate global keyboard events on Windows and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boppreh/keyboard",
+      "status": "candidate-context",
+      "text": "**This project is currently unmaintained. It works for many cases, and I wish to pick it up again in the future, but you might encounter some friction and limited features using it.**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aboutcode-org/scancode.io",
       "status": "candidate",
       "text": "==========="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boppreh/keyboard",
+      "status": "candidate",
+      "text": "**This project is currently unmaintained. It works for many cases, and I wish to pick it up again in the future, but you might encounter some friction and limited features using it.**"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T12:45:20.475770+00:00",
       "source_file": null,
       "source_repo": "aboutcode-org/scancode.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "boppreh/keyboard"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T12:45:20.475770+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

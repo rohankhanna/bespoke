@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:37:52.809145+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Atlas: End-to-End 3D Scene Reconstruction from Posed Images",
+    "fork": false,
+    "full_name": "magicleap/Atlas",
+    "html_url": "https://github.com/magicleap/Atlas",
+    "language": "Python",
+    "pushed_at": "2022-04-06T16:02:35Z",
+    "stargazers_count": 1855,
+    "topics": [],
+    "updated_at": "2026-04-23T03:34:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

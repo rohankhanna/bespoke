@@ -91,13 +91,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gbionics/adam",
-      "target": "robotology/icub-models",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "gbionics/adam",
       "target": "ami-iit/adam",
@@ -293,7 +286,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T07:31:00.415518+00:00",
+  "fetched_at": "2026-05-03T15:38:30.038561+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -356,11 +349,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ami-iit/adam",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "robotology/icub-models",
       "source_file": "README.md"
     },
     {

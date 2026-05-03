@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "madyankin/postcss-modules",
-      "target": "css-modules/css-modules",
+      "target": "webpack/loader-utils",
       "target_type": "repository"
     },
     {
@@ -225,6 +225,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "madyankin/postcss-modules"
 }

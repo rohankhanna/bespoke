@@ -40,13 +40,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "tc39/proposal-call-this",
-      "target": "js-choi/proposal-call-this",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "tc39/proposal-call-this",
@@ -124,7 +117,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:03:43.768846+00:00",
+  "fetched_at": "2026-05-03T14:33:52.219773+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -166,11 +159,6 @@
     "updated_at": "2026-02-13T18:53:45Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "js-choi/proposal-call-this",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "tc39/proposal-bind-operator",

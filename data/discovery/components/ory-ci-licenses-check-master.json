@@ -1,12 +1,27 @@
 {
   "component": "ory/ci/licenses/check@master",
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/licenses.yml",
       "source_repo": "ory/hydra-login-consent-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licenses.yml",
+      "source_repo": "ory/dockertest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licenses.yml",
+      "source_repo": "ory/k8s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licenses.yml",
+      "source_repo": "ory/kratos-selfservice-ui-node"
     }
   ]
 }

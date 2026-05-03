@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "cnoshb/cnosdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "apache/arrow-datafusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "risinglightdb/sqllogictest-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "hwchase17/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "manyuanrong/setup-ossutil@v3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_package_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "Build package and push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cnosdb-build_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cnosdb-build_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cnosdb-build_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cnosdb-build_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cnosdb-build_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cnosdb-build_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "cnosdb-build docker build and push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-latest_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-latest_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-latest_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-latest_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-latest_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "community-latest docker build and push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-tag_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-tag_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-tag_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-tag_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-tag_docker_build_and_push.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "community-tag docker build and push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compatibility_test.yaml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compatibility_test.yaml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "Compatibility testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_mirror_to_gitlab.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_mirror_to_gitlab.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "lutengda/gitlab-mirror-and-ci-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_mirror_to_gitlab.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "Mirror and run GitLab CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_mirror_to_gitlab_ontime.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_mirror_to_gitlab_ontime.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "lutengda/gitlab-mirror-and-ci-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github_mirror_to_gitlab_ontime.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "Mirror and run GitLab CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_mirror_to_gitlab_pr.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github_mirror_to_gitlab_pr.yml",
+      "source_repo": "cnosdb/cnosdb",
+      "target": "lutengda/gitlab-mirror-and-ci-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cnosdb/cnosdb",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cnosdb/cnosdb",
+      "target": "distributed-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cnosdb/cnosdb",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cnosdb/cnosdb",
+      "target": "rust-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cnosdb/cnosdb",
+      "target": "time-series",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cnosdb/cnosdb",
+      "target": "time-series-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cnosdb/cnosdb",
+      "target": "timeseries",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "cnosdb/cnosdb"
+}

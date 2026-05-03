@@ -247,6 +247,30 @@
       "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
       "status": "candidate-context",
       "text": "![](images/logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "paulstarke/PhaseBetweener",
+      "status": "candidate-context",
+      "text": "Creating animation sequences between sparse key frames using motion phase features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulstarke/PhaseBetweener",
+      "status": "candidate-context",
+      "text": "**Motion In-Betweening with Phase Manifolds**<br >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "Official code release for ICCV 2021 paper SNARF: Differentiable Forward Skinning for Animating Non-rigid Neural Implicit Shapes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +393,18 @@
       "source_repo": "InteractiveComputerGraphics/blender-sequence-loader",
       "status": "candidate",
       "text": "![](images/logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "paulstarke/PhaseBetweener",
+      "status": "candidate",
+      "text": "**Motion In-Betweening with Phase Manifolds**<br >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -568,11 +604,23 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "InteractiveComputerGraphics/blender-sequence-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "paulstarke/PhaseBetweener"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -370,6 +370,18 @@
       "source_repo": "bbqsrc/cargo-ndk",
       "status": "candidate-context",
       "text": "[<img alt=\"CI\" src=\"https://github.com/bbqsrc/cargo-ndk/actions/workflows/ci.yml/badge.svg\">](https://github.com/bbqsrc/cargo-ndk/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "status": "candidate-context",
+      "text": "Wraps `cargo install` for better local, non-conflicting installation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "status": "candidate-context",
+      "text": "# https://doc.rust-lang.org/cargo/reference/manifest.html [package] name = \"cargo-local-install\" version = \"0.0.0-git\" authors = [\"MaulingMonkey <git@maulingmonkey.com>\"] repository = \"https://github.com/MaulingMonkey/cargo-local-install.git\" documentation = \"https://docs.rs/car\u2026"
     }
   ],
   "candidate_glosses": [
@@ -552,6 +564,12 @@
       "source_repo": "bbqsrc/cargo-ndk",
       "status": "candidate",
       "text": "[<img alt=\"CI\" src=\"https://github.com/bbqsrc/cargo-ndk/actions/workflows/ci.yml/badge.svg\">](https://github.com/bbqsrc/cargo-ndk/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaulingMonkey/cargo-local-install",
+      "status": "candidate",
+      "text": "# https://doc.rust-lang.org/cargo/reference/manifest.html [package] name = \"cargo-local-install\" version = \"0.0.0-git\" authors = [\"MaulingMonkey <git@maulingmonkey.com>\"] repository = \"https://github.com/MaulingMonkey/cargo-local-install.git\" documentation = \"https://docs.rs/car\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -919,11 +937,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/cargo.yml",
+      "source_repo": "blitz-js/next-superjson-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MaulingMonkey/cargo-local-install"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

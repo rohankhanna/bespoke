@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "unplugin/unplugin-auto-import",
-      "target": "unjs/unplugin",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "unplugin/unplugin-auto-import",
       "target": "antfu/unplugin-auto-import",
       "target_type": "repository"
     },
@@ -302,6 +295,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-03T00:38:05.423502+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "unplugin/unplugin-auto-import"
 }

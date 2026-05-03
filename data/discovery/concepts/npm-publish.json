@@ -3,7 +3,9 @@
     "npm publish",
     "npm-publish",
     "Npm Publish",
-    "NPM Publish"
+    "NPM Publish",
+    "NPM-Publish",
+    "npm Publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -246,6 +248,54 @@
       "source_repo": "alangdm/helium-animated-pages",
       "status": "candidate-context",
       "text": "npm publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IndexXuan/vite-plugin-mpa",
+      "status": "candidate-context",
+      "text": "MPA(multi page application) for vite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-mpa",
+      "status": "candidate-context",
+      "text": "NPM-Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IndexXuan/vite-plugin-html-template",
+      "status": "candidate-context",
+      "text": "html template for vite, like html-webpack-plugin for webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-html-template",
+      "status": "candidate-context",
+      "text": "NPM-Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IndexXuan/vue-cli-plugin-vite",
+      "status": "candidate-context",
+      "text": "Use vite today, with vue-cli."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vue-cli-plugin-vite",
+      "status": "candidate-context",
+      "text": "NPM Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "murat-dogan/node-datachannel",
+      "status": "candidate-context",
+      "text": "WebRTC For Node.js and Electron (including WebSocket Client & Server). libdatachannel node bindings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "murat-dogan/node-datachannel",
+      "status": "candidate-context",
+      "text": "npm Publish"
     }
   ],
   "candidate_glosses": [
@@ -368,6 +418,30 @@
       "source_repo": "alangdm/helium-animated-pages",
       "status": "candidate",
       "text": "npm publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-mpa",
+      "status": "candidate",
+      "text": "NPM-Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vite-plugin-html-template",
+      "status": "candidate",
+      "text": "NPM-Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IndexXuan/vue-cli-plugin-vite",
+      "status": "candidate",
+      "text": "NPM Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "murat-dogan/node-datachannel",
+      "status": "candidate",
+      "text": "npm Publish"
     }
   ],
   "candidate_related_terms": [
@@ -555,11 +629,41 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/npmpublish.yml",
       "source_repo": "alangdm/helium-animated-pages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "IndexXuan/vite-plugin-mpa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "facebookresearch/playtorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "IndexXuan/vite-plugin-html-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "IndexXuan/vue-cli-plugin-vite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/npm-publish-manual.yml",
+      "source_repo": "murat-dogan/node-datachannel"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

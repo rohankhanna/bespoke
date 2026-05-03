@@ -1,0 +1,12 @@
+{
+  "component": "JamesIves/fetch-api-data-action@396ebea7d13904824f85b892b1616985f847301c",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-rust-versions.yml",
+      "source_repo": "launchdarkly/rust-server-sdk"
+    }
+  ]
+}

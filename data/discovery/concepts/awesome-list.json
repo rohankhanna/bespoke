@@ -799,6 +799,18 @@
       "source_repo": "hal9ai/awesome-dataviz",
       "status": "candidate-context",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![Test](https://github.com/javierluraschi/awesome-dataviz/actions/workflows/main.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "status": "candidate-context",
+      "text": "Curated List of papers on Self-Supervised Representation Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "status": "candidate-context",
+      "text": "Want to leverage state of the art Self-Supervised Learning and Distillation to pretrain your models? Check out the following tools by the team from [Lightly AI](https://www.lightly.ai/):"
     }
   ],
   "candidate_glosses": [
@@ -1191,6 +1203,12 @@
       "source_repo": "hal9ai/awesome-dataviz",
       "status": "candidate",
       "text": "[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) ![Test](https://github.com/javierluraschi/awesome-dataviz/actions/workflows/main.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lightly-ai/awesome-self-supervised-learning",
+      "status": "candidate",
+      "text": "Want to leverage state of the art Self-Supervised Learning and Distillation to pretrain your models? Check out the following tools by the team from [Lightly AI](https://www.lightly.ai/):"
     }
   ],
   "candidate_related_terms": [],
@@ -1696,11 +1714,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "hal9ai/awesome-dataviz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lightly-ai/awesome-self-supervised-learning"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

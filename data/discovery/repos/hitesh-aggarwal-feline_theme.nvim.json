@@ -9,20 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
-      "target": "rebelot/heirline.nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
-      "target": "hitesh-aggarwal/dotfiles",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Hitesh-Aggarwal/feline_theme.nvim",
@@ -58,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:58:03.869859+00:00",
+  "fetched_at": "2026-05-03T13:42:36.324712+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,16 +76,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "feline-nvim/feline.nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hitesh-aggarwal/dotfiles",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rebelot/heirline.nvim",
       "source_file": "README.md"
     }
   ],

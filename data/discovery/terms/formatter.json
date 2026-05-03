@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -306,6 +306,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/formatter.yml",
       "source_repo": "Pointcept/Pointcept"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloydlau/json-editor-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rhysd/vim-clang-format"
     }
   ],
   "term": "formatter"

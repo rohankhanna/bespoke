@@ -37,6 +37,18 @@
       "source_repo": "gurvancampion/nuxt-electron-trpc-prisma",
       "status": "candidate-context",
       "text": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SimulatedGREG/electron-vue",
+      "status": "candidate-context",
+      "text": "An Electron & Vue.js quick start boilerplate with vue-cli scaffolding, common Vue plugins, electron-packager/electron-builder, unit/e2e testing, vue-devtools, and webpack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimulatedGREG/electron-vue",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -57,6 +69,12 @@
       "source_repo": "gurvancampion/nuxt-electron-trpc-prisma",
       "status": "candidate",
       "text": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SimulatedGREG/electron-vue",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -82,11 +100,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "gurvancampion/nuxt-electron-trpc-prisma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "SimulatedGREG/electron-vue"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "genome"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate-context",
+      "text": ":microscope: Assemble large genomes using short reads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/abyss.svg)](https://github.com/BirolLab/abyss/releases)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BirolLab/abyss",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/BirolLab/abyss.svg)](https://github.com/BirolLab/abyss/releases)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047417,
+      "status": "candidate",
+      "text": "dna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047361,
+      "status": "candidate",
+      "text": "genomics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047360,
+      "status": "candidate",
+      "text": "gene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046735,
+      "status": "candidate",
+      "text": "genetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046357,
+      "status": "candidate",
+      "text": "microarray"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "genome",
+  "concept_id": "genome",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "BirolLab/abyss"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "genome",
+      "sense_id": "genome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -56,7 +56,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vueuse/vue-demi",
-      "target": "ariesjia/vue-composition-test-utils",
+      "target": "frandiox/vue-use-stripe",
       "target_type": "repository"
     },
     {
@@ -70,14 +70,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vueuse/vue-demi",
-      "target": "cloydlau/json-editor-vue",
+      "target": "frontlabsofficial/vue-tiny-validate",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vueuse/vue-demi",
-      "target": "attojs/vue-request",
+      "target": "kakajun/vue3-sketch-ruler",
       "target_type": "repository"
     },
     {
@@ -165,7 +165,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:58:46.374481+00:00",
+  "fetched_at": "2026-05-03T16:35:43.425929+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -207,22 +207,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ariesjia/vue-composition-test-utils",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "attojs/vue-request",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cloydlau/json-editor-vue",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "demivan/fluent-vue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frandiox/vue-use-stripe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frontlabsofficial/vue-tiny-validate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kakajun/vue3-sketch-ruler",
       "source_file": "README.md"
     }
   ],

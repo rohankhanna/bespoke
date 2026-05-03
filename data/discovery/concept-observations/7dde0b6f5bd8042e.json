@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Time series market data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.com/JuliaQuant/MarketData.jl.svg?branch=main)](https://travis-ci.com/JuliaQuant/MarketData.jl)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/JuliaQuant/MarketData.jl.svg?branch=main)](https://travis-ci.com/JuliaQuant/MarketData.jl)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "financial-data",
+      "sense_id": "financial-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "financial-data",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "financial-data",
+  "observation_id": "7dde0b6f5bd8042e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "financial-data",
+  "source_context_snippet": "[![Build Status](https://travis-ci.com/JuliaQuant/MarketData.jl.svg?branch=main)](https://travis-ci.com/JuliaQuant/MarketData.jl)",
+  "source_file": null,
+  "source_repo": "JuliaQuant/MarketData.jl",
+  "source_repo_description": "Time series market data"
+}

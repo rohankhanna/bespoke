@@ -421,6 +421,54 @@
       "source_repo": "astra-vision/LMSCNet",
       "status": "candidate-context",
       "text": "Official repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate-context",
+      "text": "NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of [NeRF](https://arxiv.org/pdf/2003.08934.pdf) (Neural Radiance Fields) using pytorch ([pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)). This repo doesn't aim at reproducibility, but aim at providing a simpler and faster trai\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] vMAP: Vectorised Object Mapping for Neural Field SLAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/nice-slam",
+      "status": "candidate-context",
+      "text": "[CVPR'22] NICE-SLAM: Neural Implicit Scalable Encoding for SLAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/nice-slam",
+      "status": "candidate-context",
+      "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate-context",
+      "text": "Project page of paper \"Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate-context",
+      "text": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026"
     }
   ],
   "candidate_glosses": [
@@ -633,6 +681,30 @@
       "source_repo": "astra-vision/LMSCNet",
       "status": "candidate",
       "text": "Official repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate",
+      "text": "Unofficial implementation of [NeRF](https://arxiv.org/pdf/2003.08934.pdf) (Neural Radiance Fields) using pytorch ([pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)). This repo doesn't aim at reproducibility, but aim at providing a simpler and faster trai\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/nice-slam",
+      "status": "candidate",
+      "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate",
+      "text": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -850,11 +922,41 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "astra-vision/LMSCNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ShichenLiu/SoftRas"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

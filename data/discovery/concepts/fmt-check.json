@@ -19,12 +19,30 @@
       "source_repo": "tauri-apps/create-tauri-app",
       "status": "candidate-context",
       "text": "fmt check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Rust-SDL2/rust-sdl2",
+      "status": "candidate-context",
+      "text": "SDL2 bindings for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rust-SDL2/rust-sdl2",
+      "status": "candidate-context",
+      "text": "fmt check"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "tauri-apps/create-tauri-app",
+      "status": "candidate",
+      "text": "fmt check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Rust-SDL2/rust-sdl2",
       "status": "candidate",
       "text": "fmt check"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/fmt.yml",
       "source_repo": "tauri-apps/create-tauri-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/fmt.yml",
+      "source_repo": "Rust-SDL2/rust-sdl2"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

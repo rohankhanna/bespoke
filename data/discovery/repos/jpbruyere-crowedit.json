@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpbruyere/CrowEdit",
+      "target": "crow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpbruyere/CrowEdit",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpbruyere/CrowEdit",
+      "target": "editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpbruyere/CrowEdit",
+      "target": "netcore",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:35:35.470782+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extensible text editor using C.R.O.W. for the interface.",
+    "fork": false,
+    "full_name": "jpbruyere/CrowEdit",
+    "html_url": "https://github.com/jpbruyere/CrowEdit",
+    "language": "C#",
+    "pushed_at": "2025-08-16T20:17:10Z",
+    "stargazers_count": 4,
+    "topics": [
+      "crow",
+      "csharp",
+      "editor",
+      "netcore"
+    ],
+    "updated_at": "2024-04-22T11:54:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crow"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editor"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netcore"
+    }
+  ]
+}

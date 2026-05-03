@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/functorch",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pytorch/functorch",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pytorch/functorch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pytorch/functorch",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "pytorch/functorch",
+      "target": "Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/functorch",
+      "target": "gradients",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/functorch",
+      "target": "hessians",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/functorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:32.621072+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10829
+    },
+    {
+      "path": ".github/workflows/wheels.yml",
+      "size": 824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "functorch is JAX-like composable function transforms for PyTorch.",
+    "fork": false,
+    "full_name": "pytorch/functorch",
+    "html_url": "https://github.com/pytorch/functorch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-08-21T00:53:01Z",
+    "stargazers_count": 1437,
+    "topics": [
+      "gradients",
+      "hessians",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-10T04:55:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "term": "Wheels"
+    },
+    {
+      "context_snippet": "[**Why functorch?**](#why-composable-function-transforms)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradients"
+    },
+    {
+      "context_snippet": "[**Why functorch?**](#why-composable-function-transforms)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hessians"
+    },
+    {
+      "context_snippet": "[**Why functorch?**](#why-composable-function-transforms)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

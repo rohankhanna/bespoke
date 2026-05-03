@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:32:24.921863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Read-only mirror of https://gitlab.gnome.org/GNOME/adwaita-icon-theme",
+    "fork": false,
+    "full_name": "GNOME/adwaita-icon-theme",
+    "html_url": "https://github.com/GNOME/adwaita-icon-theme",
+    "language": "Python",
+    "pushed_at": "2026-04-28T10:36:54Z",
+    "stargazers_count": 187,
+    "topics": [],
+    "updated_at": "2026-04-29T15:04:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

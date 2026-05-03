@@ -1,0 +1,442 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "tvdias/github-tagger@v0.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/variables_documentation_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "librelane/librelane",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "tvdias/github-tagger@v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/openlane_ci.yml",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/variables_documentation_check.yml",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/variables_documentation_check.yml",
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "130nm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "asic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "caravel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "foundry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "klayout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "magic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "netgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "openram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "openroad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "rtl2gds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "skywater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "soc-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "system-on-chip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "verilog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "vlsi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "The-OpenROAD-Project/OpenLane",
+      "target": "yosys",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:50.733198+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5065
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    },
+    {
+      "path": ".github/workflows/Readme.md",
+      "size": 128
+    },
+    {
+      "path": ".github/workflows/openlane_ci.yml",
+      "size": 11039
+    },
+    {
+      "path": ".github/workflows/variables_documentation_check.yml",
+      "size": 534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "superstable",
+    "description": "OpenLane is an automated RTL to GDSII flow based on several components including OpenROAD, Yosys, Magic, Netgen and custom methodology scripts for design exploration and optimization.",
+    "fork": false,
+    "full_name": "The-OpenROAD-Project/OpenLane",
+    "html_url": "https://github.com/The-OpenROAD-Project/OpenLane",
+    "language": "Python",
+    "pushed_at": "2026-03-25T21:24:26Z",
+    "stargazers_count": 1776,
+    "topics": [
+      "130nm",
+      "asic",
+      "caravel",
+      "foundry",
+      "klayout",
+      "magic",
+      "netgen",
+      "openram",
+      "openroad",
+      "rtl",
+      "rtl2gds",
+      "skywater",
+      "soc-design",
+      "system-on-chip",
+      "verilog",
+      "vlsi",
+      "yosys"
+    ],
+    "updated_at": "2026-05-03T10:37:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "librelane/librelane",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/variables_documentation_check.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "130nm"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asic"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caravel"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundry"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "klayout"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "magic"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netgen"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openram"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openroad"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtl2gds"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skywater"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "soc-design"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "system-on-chip"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verilog"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vlsi"
+    },
+    {
+      "context_snippet": "<h3 align=\"center\"> OpenLane is currently in maintenance mode.</h3>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yosys"
+    }
+  ]
+}

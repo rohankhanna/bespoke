@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:33:42.071072+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7038
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICLR 2020] Contrastive Representation Distillation (CRD), and benchmark of recent knowledge distillation methods",
+    "fork": false,
+    "full_name": "HobbitLong/RepDistiller",
+    "html_url": "https://github.com/HobbitLong/RepDistiller",
+    "language": "Python",
+    "pushed_at": "2023-10-16T19:21:54Z",
+    "stargazers_count": 2431,
+    "topics": [],
+    "updated_at": "2026-04-29T03:01:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

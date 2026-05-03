@@ -823,6 +823,54 @@
       "source_repo": "Zielon/INSTA",
       "status": "candidate-context",
       "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NTMC-Community/MatchZoo",
+      "status": "candidate-context",
+      "text": "Facilitating the design, comparison and sharing of deep text matching models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTMC-Community/MatchZoo",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Zielon/INSTA-pytorch",
+      "status": "candidate-context",
+      "text": "INSTA - Instant Volumetric Head Avatars [Demo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA-pytorch",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars (pytorch)</b></h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NTMC-Community/MatchZoo-py",
+      "status": "candidate-context",
+      "text": "Facilitating the design, comparison and sharing of deep text matching models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTMC-Community/MatchZoo-py",
+      "status": "candidate-context",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "Official code release for ICCV 2021 paper SNARF: Differentiable Forward Skinning for Animating Non-rigid Neural Implicit Shapes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
     }
   ],
   "candidate_glosses": [
@@ -1233,6 +1281,30 @@
       "source_repo": "Zielon/INSTA",
       "status": "candidate",
       "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTMC-Community/MatchZoo",
+      "status": "candidate",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Zielon/INSTA-pytorch",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars (pytorch)</b></h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NTMC-Community/MatchZoo-py",
+      "status": "candidate",
+      "text": "<div align='center'>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuchen-ethz/snarf",
+      "status": "candidate",
+      "text": "<img src=\"assets/1.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/2.gif\" width=\"250\" height=\"250\"/> <img src=\"assets/3.gif\" width=\"250\" height=\"250\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -1798,11 +1870,53 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NTMC-Community/MatchZoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Zielon/INSTA-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/tnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "piskvorky/gensim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NTMC-Community/MatchZoo-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "xuchen-ethz/snarf"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

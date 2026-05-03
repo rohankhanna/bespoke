@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "dependabot-automerge"
+    "dependabot-automerge",
+    "Dependabot automerge"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "maltsev/htmlnano",
       "status": "candidate-context",
       "text": "dependabot-automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "storybook-community/addon-queryparams",
+      "status": "candidate-context",
+      "text": "Edit URL query parameters in your stories"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybook-community/addon-queryparams",
+      "status": "candidate-context",
+      "text": "Dependabot automerge"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "maltsev/htmlnano",
       "status": "candidate",
       "text": "dependabot-automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "storybook-community/addon-queryparams",
+      "status": "candidate",
+      "text": "Dependabot automerge"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +59,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": ".github/workflows/dependabot-automerge.yml",
       "source_repo": "maltsev/htmlnano"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/automerge-dependabot.yml",
+      "source_repo": "storybook-community/addon-queryparams"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

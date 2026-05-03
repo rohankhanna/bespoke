@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "barsoom/traco",
+      "target": "iain/translatable_columns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "barsoom/traco",
+      "target": "ruby/actions/.github/workflows/ruby_versions.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "barsoom/traco",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "barsoom/traco",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "barsoom/traco",
+      "target": "Ruby CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:42:22.590883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5596
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1041
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Translatable columns for Ruby on Rails, stored in the model table itself.",
+    "fork": false,
+    "full_name": "barsoom/traco",
+    "html_url": "https://github.com/barsoom/traco",
+    "language": "Ruby",
+    "pushed_at": "2025-11-21T05:57:21Z",
+    "stargazers_count": 219,
+    "topics": [],
+    "updated_at": "2026-01-19T09:06:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iain/translatable_columns",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ruby CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Ruby CI"
+    }
+  ]
+}

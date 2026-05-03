@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Routing rules for dnsmasq and other advanced cores"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Routing rules for dnsmasq and other advanced cores. Automatically update every day at 6AM CST."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Routing rules for dnsmasq and other advanced cores. Automatically update every day at 6AM CST."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022011,
+      "status": "candidate",
+      "text": "ipv4"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022010,
+      "status": "candidate",
+      "text": "dhcp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022009,
+      "status": "candidate",
+      "text": "ipsec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022008,
+      "status": "candidate",
+      "text": "icmp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022007,
+      "status": "candidate",
+      "text": "pppoe"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ipv6",
+      "sense_id": "ipv6#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ipv6",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ipv6",
+  "observation_id": "c9a5200a6ec29c80",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "ipv6",
+  "source_context_snippet": "Routing rules for dnsmasq and other advanced cores. Automatically update every day at 6AM CST.",
+  "source_file": null,
+  "source_repo": "fcshark-org/route-list",
+  "source_repo_description": "Routing rules for dnsmasq and other advanced cores"
+}

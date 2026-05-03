@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:33:50.310151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 456
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for our IJCAI 2019 paper entitled \"Conditional GAN with Discriminative Filter Generation for Text-to-Video Synthesis\"",
+    "fork": false,
+    "full_name": "minrq/CGAN_Text2Video",
+    "html_url": "https://github.com/minrq/CGAN_Text2Video",
+    "language": "Python",
+    "pushed_at": "2022-03-29T15:31:48Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2024-01-02T17:14:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

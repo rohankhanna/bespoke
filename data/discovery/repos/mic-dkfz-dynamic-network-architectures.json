@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:40:29.690636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1601
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "MIC-DKFZ/dynamic-network-architectures",
+    "html_url": "https://github.com/MIC-DKFZ/dynamic-network-architectures",
+    "language": "Python",
+    "pushed_at": "2026-03-20T09:38:19Z",
+    "stargazers_count": 156,
+    "topics": [],
+    "updated_at": "2026-04-25T11:22:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

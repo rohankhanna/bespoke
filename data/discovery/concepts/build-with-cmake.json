@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build with CMake"
+    "Build with CMake",
+    "build-with-cmake"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "apache/thrift",
       "status": "candidate-context",
       "text": "'Build with CMake'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "status": "candidate-context",
+      "text": "CMake scripts for painless usage of SuiteSparse+METIS from Visual Studio and the rest of Windows/Linux/OSX IDEs supported by CMake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "status": "candidate-context",
+      "text": "build-with-cmake"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "apache/thrift",
       "status": "candidate",
       "text": "'Build with CMake'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows",
+      "status": "candidate",
+      "text": "build-with-cmake"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/cmake.yml",
       "source_repo": "apache/thrift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

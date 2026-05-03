@@ -272,6 +272,18 @@
       "source_repo": "connectrpc/examples-es",
       "status": "candidate-context",
       "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate-context",
+      "text": "LaunchDarkly Server-Side SDK for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate-context",
+      "text": "Lint PR title"
     }
   ],
   "candidate_glosses": [
@@ -406,6 +418,12 @@
       "source_repo": "connectrpc/examples-es",
       "status": "candidate",
       "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "launchdarkly/rust-server-sdk",
+      "status": "candidate",
+      "text": "Lint PR title"
     }
   ],
   "candidate_related_terms": [
@@ -581,11 +599,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/pr-title.yaml",
       "source_repo": "connectrpc/examples-es"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "launchdarkly/rust-server-sdk"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

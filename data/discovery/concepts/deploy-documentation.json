@@ -518,6 +518,18 @@
       "source_repo": "queryverse/TextParse.jl",
       "status": "candidate-context",
       "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rafaqz/DimensionalData.jl",
+      "status": "candidate-context",
+      "text": "Named dimensions and indexing for julia arrays and other data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/DimensionalData.jl",
+      "status": "candidate-context",
+      "text": "Deploy documentation"
     }
   ],
   "candidate_glosses": [
@@ -776,6 +788,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "queryverse/TextParse.jl",
+      "status": "candidate",
+      "text": "Deploy documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/DimensionalData.jl",
       "status": "candidate",
       "text": "Deploy documentation"
     }
@@ -1283,11 +1301,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/jlpkgbutler-docdeploy-workflow.yml",
       "source_repo": "queryverse/TextParse.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/Documenter.yml",
+      "source_repo": "rafaqz/DimensionalData.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/asciidoctor.yml",
+      "source_repo": "emacs-eldev/eldev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "realworld-apps/realworld"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -529,6 +529,42 @@
       "source_repo": "yangyanli/PointCNN",
       "status": "candidate-context",
       "text": "Created by <a href=\"http://yangyan.li\" target=\"_blank\">Yangyan Li</a>, Rui Bu, Mingchao Sun, Wei Wu, Xinhan Di, and <a href=\"https://cfcs.pku.edu.cn/baoquan/\" target=\"_blank\">Baoquan Chen</a>."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "(LMNet) Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data (RAL/IROS 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrGiovanni/UNetPlusPlus",
+      "status": "candidate-context",
+      "text": "[IEEE TMI] Official Implementation for UNet++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrGiovanni/UNetPlusPlus",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">UNet++</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mikel-brostrom/boxmot",
+      "status": "candidate-context",
+      "text": "BoxMOT: Pluggable python and c++ SOTA multi-object tracking modules with support for axis-aligned and oriented bounding boxes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikel-brostrom/boxmot",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" markdown=\"1\">"
     }
   ],
   "candidate_glosses": [
@@ -795,6 +831,24 @@
       "source_repo": "yangyanli/PointCNN",
       "status": "candidate",
       "text": "Created by <a href=\"http://yangyan.li\" target=\"_blank\">Yangyan Li</a>, Rui Bu, Mingchao Sun, Wei Wu, Xinhan Di, and <a href=\"https://cfcs.pku.edu.cn/baoquan/\" target=\"_blank\">Baoquan Chen</a>."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrGiovanni/UNetPlusPlus",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">UNet++</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mikel-brostrom/boxmot",
+      "status": "candidate",
+      "text": "<div align=\"center\" markdown=\"1\">"
     }
   ],
   "candidate_related_terms": [
@@ -1378,11 +1432,59 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/LISA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/PFENet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "khanrc/tcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MrGiovanni/UNetPlusPlus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "qubvel-org/segmentation_models.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mikel-brostrom/boxmot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "VITA-Group/SLaK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LISA"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

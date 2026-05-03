@@ -1,0 +1,217 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-forge-ci.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-forge-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-forge-ci.yml",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-forge-ci.yml",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-forge-ci.yml",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "actions/upload-release-asset@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "build-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "cmake-modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "cmake-resources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "superbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules",
+      "target": "yarp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:38:54.111395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1513
+    },
+    {
+      "path": ".github/workflows/conda-forge-ci.yml",
+      "size": 3352
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2165
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "YCM (YCM CMake modules) is a collection of various useful CMake modules. ",
+    "fork": false,
+    "full_name": "robotology/ycm-cmake-modules",
+    "html_url": "https://github.com/robotology/ycm-cmake-modules",
+    "language": "CMake",
+    "pushed_at": "2025-07-17T11:13:30Z",
+    "stargazers_count": 60,
+    "topics": [
+      "build-system",
+      "build-tool",
+      "cmake",
+      "cmake-modules",
+      "cmake-resources",
+      "robotics",
+      "superbuild",
+      "yarp"
+    ],
+    "updated_at": "2026-02-23T22:49:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-forge-ci.yml",
+      "term": "CI Workflow"
+    },
+    {
+      "context_snippet": "ycm-cmake-modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-system"
+    },
+    {
+      "context_snippet": "ycm-cmake-modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "ycm-cmake-modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "ycm-cmake-modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake-modules"
+    },
+    {
+      "context_snippet": "ycm-cmake-modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake-resources"
+    },
+    {
+      "context_snippet": "ycm-cmake-modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "ycm-cmake-modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "superbuild"
+    },
+    {
+      "context_snippet": "ycm-cmake-modules",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yarp"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/STAR",
+      "target": "huangyangyu/adnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:44:23.755120+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5177
+    },
+    {
+      "path": "requirements.txt",
+      "size": 444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2023] STAR Loss: Reducing Semantic Ambiguity in Facial Landmark Detection",
+    "fork": true,
+    "full_name": "ShenhanQian/STAR",
+    "html_url": "https://github.com/ShenhanQian/STAR",
+    "language": "Python",
+    "pushed_at": "2024-06-05T22:23:30Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-11-23T13:58:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huangyangyu/adnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

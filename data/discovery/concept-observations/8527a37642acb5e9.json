@@ -120,7 +120,7 @@
   "normalized_form": "glob",
   "observation_id": "8527a37642acb5e9",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "glob",
   "source_context_snippet": "> Wrapper for [braces] to enable brace expansion for arrays of patterns.",
   "source_file": null,

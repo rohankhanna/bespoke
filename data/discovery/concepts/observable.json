@@ -31,6 +31,18 @@
       "source_repo": "alibaba/formily",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nx-js/observer-util",
+      "status": "candidate-context",
+      "text": "Transparent reactivity with 100% language coverage. Made with \u2764\ufe0f and ES6 Proxies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx-js/observer-util",
+      "status": "candidate-context",
+      "text": "Transparent reactivity with 100% language coverage. Made with :heart: and ES6 Proxies."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "alibaba/formily",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx-js/observer-util",
+      "status": "candidate",
+      "text": "Transparent reactivity with 100% language coverage. Made with :heart: and ES6 Proxies."
     }
   ],
   "candidate_related_terms": [
@@ -146,11 +164,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "alibaba/formily"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "0no-co/wonka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nx-js/observer-util"
     }
   ],
   "first_seen_at": "2026-04-30T12:45:20.475770+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

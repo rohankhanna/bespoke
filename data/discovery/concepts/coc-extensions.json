@@ -19,6 +19,18 @@
       "source_repo": "joenye/coc-cfn-lint",
       "status": "candidate-context",
       "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yaegassy/coc-volar",
+      "status": "candidate-context",
+      "text": "Volar (Fast Vue Language Support) extension for coc.nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaegassy/coc-volar",
+      "status": "candidate-context",
+      "text": "> fork from a [vuejs/language-tools/extensions/vscode](https://github.com/vuejs/language-tools/tree/master/extensions/vscode)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "joenye/coc-cfn-lint",
       "status": "candidate",
       "text": "Coc ([coc.nvim](https://github.com/neoclide/coc.nvim)) extension for [cfn-python-lint](https://github.com/aws-cloudformation/cfn-python-lint)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yaegassy/coc-volar",
+      "status": "candidate",
+      "text": "> fork from a [vuejs/language-tools/extensions/vscode](https://github.com/vuejs/language-tools/tree/master/extensions/vscode)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "joenye/coc-cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "yaegassy/coc-volar"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

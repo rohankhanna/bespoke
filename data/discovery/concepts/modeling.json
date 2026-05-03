@@ -43,6 +43,18 @@
       "source_repo": "phodal/chapi",
       "status": "candidate-context",
       "text": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate-context",
+      "text": "State-of-the-art open-source applications for Transportation Optimization, Modeling, and Simulation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate-context",
+      "text": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "phodal/chapi",
       "status": "candidate",
       "text": "<img src=\"docs/logo.svg\" width=\"100\" height=\"100\" alt=\"Chapi Logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jdlph/OpenDTA",
+      "status": "candidate",
+      "text": "OpenDTA (previously known as TransOMS) is a suite of **state-of-the-art** open-source applications for **Trans**portation **O**ptimization, **M**odeling, and **S**imulation, which brings the **cutting-edge** researches and the **enterprise-grade** implementations all together in\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "phodal/chapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jdlph/OpenDTA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "phodal/chapi"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A gem that calculates the exchange rate using published rates from open-exchange-rates. Compatible with the money gem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A gem that calculates the exchange rate using published rates from"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A gem that calculates the exchange rate using published rates from"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041916,
+      "status": "candidate",
+      "text": "rich"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041869,
+      "status": "candidate",
+      "text": "monied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041859,
+      "status": "candidate",
+      "text": "wealthy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041807,
+      "status": "candidate",
+      "text": "affluent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008760,
+      "status": "candidate",
+      "text": "loaded"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "money",
+      "sense_id": "money#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "money",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "money",
+  "observation_id": "8d0d3751c86d66d5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "money",
+  "source_context_snippet": "A gem that calculates the exchange rate using published rates from",
+  "source_file": null,
+  "source_repo": "spk/money-open-exchange-rates",
+  "source_repo_description": "A gem that calculates the exchange rate using published rates from open-exchange-rates. Compatible with the money gem."
+}

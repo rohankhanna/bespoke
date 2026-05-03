@@ -1,7 +1,7 @@
 {
   "component": "eclipse-platform/eclipse.platform.releng.aggregator/.github/workflows/publishTestResults.yml@master",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

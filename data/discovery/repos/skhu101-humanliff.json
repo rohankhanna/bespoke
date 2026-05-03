@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:32:38.216376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8940
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for our IJCV paper \"HumanLiff: Layer-wise 3D Human Generation with Diffusion Model\"",
+    "fork": false,
+    "full_name": "skhu101/HumanLiff",
+    "html_url": "https://github.com/skhu101/HumanLiff",
+    "language": "Python",
+    "pushed_at": "2026-04-11T05:28:11Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-04-13T05:29:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "askuratovsky/currencylayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "rubymoney/eu_central_bank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "matiaskorhonen/nordea",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "rubymoney/google_currency",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "cryptocurrencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "currencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "currency-rates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "exchange-rate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "money",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "money-rails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "openexchangerates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "phlegx/money-openexchangerates-bank",
+      "target": "rails",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "phlegx/money-openexchangerates-bank"
+}

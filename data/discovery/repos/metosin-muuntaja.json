@@ -1,0 +1,313 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v3.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-java@v3.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/muuntaja",
+      "target": "ngrunwald/ring-middleware-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/muuntaja",
+      "target": "cnuernber/charred",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/muuntaja",
+      "target": "metosin/reitit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/muuntaja",
+      "target": "metosin/sieppari",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "metosin/muuntaja",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "metosin/muuntaja",
+      "target": "actions/setup-java@v3.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "metosin/muuntaja",
+      "target": "DeLaGuardo/setup-clojure@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "metosin/muuntaja",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "metosin/muuntaja",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "metosin/muuntaja",
+      "target": "actions/setup-java@v3.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "metosin/muuntaja",
+      "target": "DeLaGuardo/setup-clojure@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "metosin/muuntaja",
+      "target": "Run tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja",
+      "target": "content-negotiation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja",
+      "target": "interceptor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja",
+      "target": "metosin-stable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja",
+      "target": "middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja",
+      "target": "ring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja",
+      "target": "transit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:37:14.118630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11545
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 692
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojure library for fast http api format negotiation, encoding and decoding.",
+    "fork": false,
+    "full_name": "metosin/muuntaja",
+    "html_url": "https://github.com/metosin/muuntaja",
+    "language": "Clojure",
+    "pushed_at": "2025-05-26T07:41:36Z",
+    "stargazers_count": 488,
+    "topics": [
+      "clojure",
+      "content-negotiation",
+      "edn",
+      "http",
+      "interceptor",
+      "json",
+      "metosin-stable",
+      "middleware",
+      "ring",
+      "transit"
+    ],
+    "updated_at": "2026-04-30T06:44:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cnuernber/charred",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metosin/reitit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metosin/sieppari",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ngrunwald/ring-middleware-format",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run tests"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-negotiation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interceptor"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metosin-stable"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ring"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transit"
+    }
+  ]
+}

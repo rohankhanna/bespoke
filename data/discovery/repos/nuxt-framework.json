@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nuxt/framework",
+      "target": "full-stack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nuxt/framework",
+      "target": "hybrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nuxt/framework",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nuxt/framework",
+      "target": "nuxt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nuxt/framework",
+      "target": "server-rendering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nuxt/framework",
+      "target": "static-site-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nuxt/framework",
+      "target": "universal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:40:28.736028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "readme",
+    "description": "Old repo of Nuxt 3 framework, now on nuxt/nuxt",
+    "fork": false,
+    "full_name": "nuxt/framework",
+    "html_url": "https://github.com/nuxt/framework",
+    "language": null,
+    "pushed_at": "2023-04-06T12:07:26Z",
+    "stargazers_count": 10457,
+    "topics": [
+      "csr",
+      "full-stack",
+      "hybrid",
+      "node",
+      "nuxt",
+      "server-rendering",
+      "ssg",
+      "ssr",
+      "static-site-generator",
+      "universal",
+      "vue"
+    ],
+    "updated_at": "2026-05-02T09:10:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "full-stack"
+    },
+    {
+      "context_snippet": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hybrid"
+    },
+    {
+      "context_snippet": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuxt"
+    },
+    {
+      "context_snippet": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server-rendering"
+    },
+    {
+      "context_snippet": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-site-generator"
+    },
+    {
+      "context_snippet": "The repository for Nuxt 3 has updated to be https://github.com/nuxt/nuxt - please raise new issues, discussions and pull requests there \ud83d\ude4f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "universal"
+    }
+  ]
+}

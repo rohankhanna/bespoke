@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -306,6 +306,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "robotology/robotology-superbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "libsndfile/libsamplerate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "smarco/WFA2-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "robotology/ycm-cmake-modules"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "flexivrobotics/flexiv_rdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows"
     }
   ],
   "term": "cmake"

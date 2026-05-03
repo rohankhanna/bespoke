@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tarashakhurana/4d-occ-forecasting",
+      "target": "krrish94/chamferdist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tarashakhurana/4d-occ-forecasting",
+      "target": "tarashakhurana/emergent-occ-forecasting",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:44.160362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CVPR 2023: Official code for `Point Cloud Forecasting as a Proxy for 4D Occupancy Forecasting'",
+    "fork": false,
+    "full_name": "tarashakhurana/4d-occ-forecasting",
+    "html_url": "https://github.com/tarashakhurana/4d-occ-forecasting",
+    "language": "Python",
+    "pushed_at": "2024-04-11T14:33:24Z",
+    "stargazers_count": 250,
+    "topics": [],
+    "updated_at": "2026-04-27T08:43:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krrish94/chamferdist",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tarashakhurana/emergent-occ-forecasting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

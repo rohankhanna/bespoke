@@ -4583,6 +4583,78 @@
       "source_repo": "gorilla/schema",
       "status": "candidate-context",
       "text": "![testing](https://github.com/gorilla/schema/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spf13/cobra",
+      "status": "candidate-context",
+      "text": "A Commander for modern Go CLI interactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spf13/cobra",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajstarks/svgo",
+      "status": "candidate-context",
+      "text": "Go Language Library for SVG generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajstarks/svgo",
+      "status": "candidate-context",
+      "text": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate-context",
+      "text": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml/badge.svg?branch=main)](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml?query=branch%3Amain \"Release Nightly\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moovweb/gvm",
+      "status": "candidate-context",
+      "text": "Go Version Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moovweb/gvm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/moovweb/gvm.svg?branch=master)](https://travis-ci.org/moovweb/gvm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maddalax/htmgo",
+      "status": "candidate-context",
+      "text": "htmgo - build simple and scalable systems with go + htmx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maddalax/htmgo",
+      "status": "candidate-context",
+      "text": "-------"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maragudk/gomponents",
+      "status": "candidate-context",
+      "text": "HTML components in pure Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maragudk/gomponents",
+      "status": "candidate-context",
+      "text": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -6883,6 +6955,42 @@
       "source_repo": "gorilla/schema",
       "status": "candidate",
       "text": "![testing](https://github.com/gorilla/schema/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spf13/cobra",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajstarks/svgo",
+      "status": "candidate",
+      "text": "module github.com/ajstarks/svgo go 1.15 require ( github.com/ajstarks/deck/generate v0.0.0-20210309230005-c3f852c02e19 honnef.co/go/tools v0.1.3 )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate",
+      "text": "[![](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml/badge.svg?branch=main)](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml?query=branch%3Amain \"Release Nightly\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moovweb/gvm",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/moovweb/gvm.svg?branch=master)](https://travis-ci.org/moovweb/gvm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maddalax/htmgo",
+      "status": "candidate",
+      "text": "-------"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maragudk/gomponents",
+      "status": "candidate",
+      "text": "<img src=\"logo.png\" alt=\"Logo\" width=\"300\" align=\"right\">"
     }
   ],
   "candidate_related_terms": [],
@@ -9878,11 +9986,119 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "gorilla/schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "spf13/cobra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ajstarks/svgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "go-gitea/gitea"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "moovweb/gvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rainbend/frp-notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nutsdb/nutsdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "trknhr/2048-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "maddalax/htmgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "maragudk/gomponents"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

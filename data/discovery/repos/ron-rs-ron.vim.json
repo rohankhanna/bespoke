@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T14:37:29.106118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RON syntax highlighting for Vim",
+    "fork": false,
+    "full_name": "ron-rs/ron.vim",
+    "html_url": "https://github.com/ron-rs/ron.vim",
+    "language": "Vim script",
+    "pushed_at": "2022-08-19T10:25:19Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-03-30T16:05:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

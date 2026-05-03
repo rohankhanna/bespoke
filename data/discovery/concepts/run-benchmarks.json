@@ -94,6 +94,18 @@
       "source_repo": "JuliaArrays/StaticArrays.jl",
       "status": "candidate-context",
       "text": "Run benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyferris/Dictionaries.jl",
+      "status": "candidate-context",
+      "text": "An alternative interface for dictionaries in Julia, for improved productivity and performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyferris/Dictionaries.jl",
+      "status": "candidate-context",
+      "text": "Run benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +148,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaArrays/StaticArrays.jl",
+      "status": "candidate",
+      "text": "Run benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyferris/Dictionaries.jl",
       "status": "candidate",
       "text": "Run benchmarks"
     }
@@ -229,11 +247,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "JuliaArrays/StaticArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "andyferris/Dictionaries.jl"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

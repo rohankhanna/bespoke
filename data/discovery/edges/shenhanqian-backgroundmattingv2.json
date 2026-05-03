@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/BackgroundMattingV2",
+      "target": "peterl1n/matting-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/BackgroundMattingV2",
+      "target": "peterl1n/backgroundmattingv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/BackgroundMattingV2",
+      "target": "senguptaumd/background-matting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/BackgroundMattingV2",
+      "target": "andreyryabtsev/bgmv2-webcam-plugin-linux",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "ShenhanQian/BackgroundMattingV2"
+}

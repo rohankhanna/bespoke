@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pagination library for Rails and other Ruby applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, and Sequel."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, and Sequel."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8613868,
+      "status": "candidate",
+      "text": "sinagra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8613867,
+      "status": "candidate",
+      "text": "sandler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8613866,
+      "status": "candidate",
+      "text": "silberman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8613865,
+      "status": "candidate",
+      "text": "salinger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8613864,
+      "status": "candidate",
+      "text": "sint"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sinatra",
+      "sense_id": "sinatra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sinatra",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sinatra",
+  "observation_id": "3230f80148f934bb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "sinatra",
+  "source_context_snippet": "will_paginate is a pagination library that integrates with Ruby on Rails, Sinatra, Hanami::View, and Sequel.",
+  "source_file": null,
+  "source_repo": "mislav/will_paginate",
+  "source_repo_description": "Pagination library for Rails and other Ruby applications"
+}

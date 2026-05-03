@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish-to-pypi.yml",
       "source_repo": "funstory-ai/BabelDOC"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-matrix.yml",
+      "source_repo": "nrwl/nx"
     }
   ]
 }

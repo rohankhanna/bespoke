@@ -1,7 +1,8 @@
 {
   "aliases": [
     "semantic pr title",
-    "Semantic PR title"
+    "Semantic PR title",
+    "Semantic PR Title"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -50,6 +51,18 @@
       "source_repo": "excalidraw/excalidraw",
       "status": "candidate-context",
       "text": "Semantic PR title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angular-eslint/angular-eslint",
+      "status": "candidate-context",
+      "text": ":sparkles: Monorepo for all the tooling related to using ESLint with Angular"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular-eslint/angular-eslint",
+      "status": "candidate-context",
+      "text": "\"Semantic PR Title\""
     }
   ],
   "candidate_glosses": [
@@ -76,6 +89,12 @@
       "source_repo": "excalidraw/excalidraw",
       "status": "candidate",
       "text": "Semantic PR title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular-eslint/angular-eslint",
+      "status": "candidate",
+      "text": "\"Semantic PR Title\""
     }
   ],
   "candidate_related_terms": [
@@ -143,11 +162,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": ".github/workflows/semantic-pr-title.yml",
       "source_repo": "excalidraw/excalidraw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/semantic-pr-title.yml",
+      "source_repo": "angular-eslint/angular-eslint"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "@actions/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@actions/http-client",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vercel/ncc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ruby/setup-ruby-pkgs",
+      "target": "@actions/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ruby/setup-ruby-pkgs",
+      "target": "@actions/http-client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ruby/setup-ruby-pkgs",
+      "target": "@vercel/ncc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "ruby/setup-ruby-pkgs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:31:25.964188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3715
+    },
+    {
+      "path": "package.json",
+      "size": 649
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 3676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cross platform action for Ruby CI",
+    "fork": false,
+    "full_name": "ruby/setup-ruby-pkgs",
+    "html_url": "https://github.com/ruby/setup-ruby-pkgs",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-11T16:43:07Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-03-19T10:43:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TRI-ML/DDAD",
+      "target": "tri-ml/dgp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TRI-ML/DDAD",
+      "target": "tri-ml/packnet-sfm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:52.675394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dense Depth for Autonomous Driving (DDAD) dataset. ",
+    "fork": false,
+    "full_name": "TRI-ML/DDAD",
+    "html_url": "https://github.com/TRI-ML/DDAD",
+    "language": "Python",
+    "pushed_at": "2021-05-12T02:15:47Z",
+    "stargazers_count": 551,
+    "topics": [],
+    "updated_at": "2026-04-17T03:41:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tri-ml/dgp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tri-ml/packnet-sfm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

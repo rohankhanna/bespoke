@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ValveSoftware/Fossilize",
+      "target": "zeux/volk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ValveSoftware/Fossilize",
+      "target": "miloyip/rapidjson",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:35:17.946726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12841
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A serialization format for various persistent Vulkan object types.",
+    "fork": false,
+    "full_name": "ValveSoftware/Fossilize",
+    "html_url": "https://github.com/ValveSoftware/Fossilize",
+    "language": "C++",
+    "pushed_at": "2026-02-26T12:39:32Z",
+    "stargazers_count": 749,
+    "topics": [],
+    "updated_at": "2026-05-02T21:57:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miloyip/rapidjson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zeux/volk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

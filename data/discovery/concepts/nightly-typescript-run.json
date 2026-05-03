@@ -19,12 +19,48 @@
       "source_repo": "emberjs/ember.js",
       "status": "candidate-context",
       "text": "Nightly TypeScript Run"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chriskrycho/tracked-draft",
+      "status": "candidate-context",
+      "text": "A simple ES6 Proxy-powered draft state solution for autotracked data structures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskrycho/tracked-draft",
+      "status": "candidate-context",
+      "text": "Nightly TypeScript Run"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracked-tools/ember-async-data",
+      "status": "candidate-context",
+      "text": "A utility/helper and data structure for representing a Promise in a declarative, reactive way in Glimmer.js and Ember Octane."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracked-tools/ember-async-data",
+      "status": "candidate-context",
+      "text": "Nightly TypeScript Run"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "emberjs/ember.js",
+      "status": "candidate",
+      "text": "Nightly TypeScript Run"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chriskrycho/tracked-draft",
+      "status": "candidate",
+      "text": "Nightly TypeScript Run"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracked-tools/ember-async-data",
       "status": "candidate",
       "text": "Nightly TypeScript Run"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/night-ts.yml",
       "source_repo": "emberjs/ember.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/Nightly.yml",
+      "source_repo": "chriskrycho/tracked-draft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/Nightly.yml",
+      "source_repo": "tracked-tools/ember-async-data"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

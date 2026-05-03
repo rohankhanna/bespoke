@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/slosilo",
+      "target": "conjbot-notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/slosilo",
+      "target": "conjur",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/slosilo",
+      "target": "core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/slosilo",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cyberark/slosilo",
+      "target": "encryption",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:34:56.100885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Ruby interface to standard cryptographic primitives",
+    "fork": false,
+    "full_name": "cyberark/slosilo",
+    "html_url": "https://github.com/cyberark/slosilo",
+    "language": "Ruby",
+    "pushed_at": "2023-10-31T17:18:03Z",
+    "stargazers_count": 19,
+    "topics": [
+      "conjbot-notify",
+      "conjur",
+      "core",
+      "cryptography",
+      "encryption"
+    ],
+    "updated_at": "2024-05-01T19:00:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Slosilo is providing a ruby interface to some cryptographic primitives:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conjbot-notify"
+    },
+    {
+      "context_snippet": "Slosilo is providing a ruby interface to some cryptographic primitives:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conjur"
+    },
+    {
+      "context_snippet": "Slosilo is providing a ruby interface to some cryptographic primitives:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "core"
+    },
+    {
+      "context_snippet": "Slosilo is providing a ruby interface to some cryptographic primitives:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "Slosilo is providing a ruby interface to some cryptographic primitives:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encryption"
+    }
+  ]
+}

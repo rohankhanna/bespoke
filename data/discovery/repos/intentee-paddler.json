@@ -634,15 +634,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:47:05.995705+00:00",
+  "fetched_at": "2026-05-03T16:34:38.319889+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6966
+      "size": 7127
     },
     {
       "path": "Cargo.toml",
-      "size": 3536
+      "size": 3564
     },
     {
       "path": "Dockerfile",
@@ -650,7 +650,7 @@
     },
     {
       "path": "package.json",
-      "size": 1221
+      "size": 1295
     },
     {
       "path": ".github/workflows/clippy.yml",
@@ -662,7 +662,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 4263
+      "size": 4293
     },
     {
       "path": ".github/workflows/test.yml",
@@ -678,8 +678,8 @@
     "full_name": "intentee/paddler",
     "html_url": "https://github.com/intentee/paddler",
     "language": "Rust",
-    "pushed_at": "2026-04-22T20:14:46Z",
-    "stargazers_count": 1531,
+    "pushed_at": "2026-05-01T12:00:39Z",
+    "stargazers_count": 1546,
     "topics": [
       "ai",
       "llamacpp",
@@ -687,7 +687,7 @@
       "llmops",
       "load-balancer"
     ],
-    "updated_at": "2026-04-22T20:14:22Z"
+    "updated_at": "2026-05-03T08:19:19Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "target": "artexjay/obsidian-cyberglow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solved-issues.yml",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/solved-issues.yml",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/solved-issues.yml",
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "target": "Count Solved Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "target": "light-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "target": "phone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "target": "tablet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThePharaohArt/Obsidian-CyberGlow",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "ThePharaohArt/Obsidian-CyberGlow"
+}

@@ -1,7 +1,7 @@
 {
   "component": "JamesIves/github-pages-deploy-action@releases/v3",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "JuliaGPU/juliagpu.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tc39/proposal-record-tuple"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/morjs-site.yml",
+      "source_repo": "eleme/morjs"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "component": "electron/github-app-auth-action@5f70a3726af01b612f29aac96d05aa524389c9e9",
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

@@ -1327,6 +1327,78 @@
       "source_repo": "metosin/jsonista",
       "status": "candidate-context",
       "text": "[![Continuous Integration status](https://github.com/metosin/jsonista/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/jsonista/actions/workflows/clojure.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloydlau/json-editor-vue",
+      "status": "candidate-context",
+      "text": "Vue 2/3 isomorphic JSON editor, viewer, formatter and validator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloydlau/json-editor-vue",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate-context",
+      "text": "Clojure library for fast http api format negotiation, encoding and decoding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redisson/redisson",
+      "status": "candidate-context",
+      "text": "Redisson - Valkey & Redis Java client. Real-Time Data Platform. Sync/Async/RxJava/Reactive API. Over 50 Valkey and Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Bloom filter, Spring, Tomcat, Scheduler, JCache API, Hibernate, RPC, local cache.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redisson/redisson",
+      "status": "candidate-context",
+      "text": "[Quick start](https://redisson.org/docs/getting-started/) | [Documentation](https://redisson.org/docs/) | [Changelog](https://github.com/redisson/redisson/blob/master/CHANGELOG.md) | [Code examples](https://github.com/redisson/redisson-examples) | [JavaDocs](https://www.javadoc.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spyoungtech/json-five-rs",
+      "status": "candidate-context",
+      "text": "JSON5 in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyoungtech/json-five-rs",
+      "status": "candidate-context",
+      "text": "This project provides a handwritten JSON5 tokenizer and recursive descent parser compatible with `serde`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josdejong/svelte-jsoneditor",
+      "status": "candidate-context",
+      "text": "A web-based tool to view, edit, format, repair, query, transform, and validate JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/svelte-jsoneditor",
+      "status": "candidate-context",
+      "text": "A web-based tool to view, edit, format, transform, and validate JSON."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnuernber/charred",
+      "status": "candidate-context",
+      "text": "zero dependency efficient read/write of json and csv data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnuernber/charred",
+      "status": "candidate-context",
+      "text": "Efficient character-based file parsing for csv and json formats."
     }
   ],
   "candidate_glosses": [
@@ -1989,6 +2061,42 @@
       "source_repo": "metosin/jsonista",
       "status": "candidate",
       "text": "[![Continuous Integration status](https://github.com/metosin/jsonista/actions/workflows/clojure.yml/badge.svg)](https://github.com/metosin/jsonista/actions/workflows/clojure.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloydlau/json-editor-vue",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "metosin/muuntaja",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/metosin/muuntaja/actions/workflows/test.yml/badge.svg)](https://github.com/metosin/muuntaja/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redisson/redisson",
+      "status": "candidate",
+      "text": "[Quick start](https://redisson.org/docs/getting-started/) | [Documentation](https://redisson.org/docs/) | [Changelog](https://github.com/redisson/redisson/blob/master/CHANGELOG.md) | [Code examples](https://github.com/redisson/redisson-examples) | [JavaDocs](https://www.javadoc.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spyoungtech/json-five-rs",
+      "status": "candidate",
+      "text": "This project provides a handwritten JSON5 tokenizer and recursive descent parser compatible with `serde`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/svelte-jsoneditor",
+      "status": "candidate",
+      "text": "A web-based tool to view, edit, format, transform, and validate JSON."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnuernber/charred",
+      "status": "candidate",
+      "text": "Efficient character-based file parsing for csv and json formats."
     }
   ],
   "candidate_related_terms": [
@@ -2973,11 +3081,89 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "metosin/jsonista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/quotes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cloydlau/json-editor-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "metosin/muuntaja"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "unum-cloud/UStore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "redisson/redisson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "spyoungtech/json-five-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/full-stack-fastapi-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "josdejong/svelte-jsoneditor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cnuernber/charred"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -175,6 +175,18 @@
       "source_repo": "dvl-tum/SUSHI",
       "status": "candidate-context",
       "text": "[22.12.2024] Check out our follow-up work [SPAM](https://link.springer.com/chapter/10.1007/978-3-031-73254-6_22) [ECCV 2024]! We are releasing an upgraded version of SUSHI code base, fully integrated into the SPAM code base in our new [repository](https://github.com/nv-dvl/SPAM)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "status": "candidate-context",
+      "text": "Deep auto-tracking for when you just don't care, and want things to work (at the cost of performance in some situtations)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "dvl-tum/SUSHI",
       "status": "candidate",
       "text": "[22.12.2024] Check out our follow-up work [SPAM](https://link.springer.com/chapter/10.1007/978-3-031-73254-6_22) [ECCV 2024]! We are releasing an upgraded version of SUSHI code base, fully integrated into the SPAM code base in our new [repository](https://github.com/nv-dvl/SPAM)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)"
     }
   ],
   "candidate_related_terms": [
@@ -456,11 +474,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "dvl-tum/SUSHI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NullVoxPopuli/ember-deep-tracked"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

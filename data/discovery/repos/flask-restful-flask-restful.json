@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:42:24.169624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple framework for creating REST APIs",
+    "fork": false,
+    "full_name": "flask-restful/flask-restful",
+    "html_url": "https://github.com/flask-restful/flask-restful",
+    "language": "Python",
+    "pushed_at": "2024-07-19T22:46:03Z",
+    "stargazers_count": 6918,
+    "topics": [],
+    "updated_at": "2026-04-30T17:26:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

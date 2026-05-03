@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "kyverno/.github/.github/workflows/pr-branch-updater.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-branch-updater.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-branch-updater.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-branch-updater.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-branch-updater.yml",
+      "source_repo": "kyverno/.github",
+      "target": "kyverno/.github/.github/workflows/pr-branch-updater.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-branch-updater.yml",
+      "source_repo": "kyverno/.github",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-branch-updater.yml",
+      "source_repo": "kyverno/.github",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-branch-updater.yml",
+      "source_repo": "kyverno/.github",
+      "target": "PR Branch Auto-Updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr-branch-updater-contract.yml",
+      "source_repo": "kyverno/.github",
+      "target": "Test PR Branch Updater Contract",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kyverno/.github",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kyverno/.github",
+      "target": "Test Scripts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:35:57.327717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3142
+    },
+    {
+      "path": ".github/workflows/pr-branch-updater.yml",
+      "size": 4639
+    },
+    {
+      "path": ".github/workflows/test-pr-branch-updater-contract.yml",
+      "size": 606
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 768
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Organization README",
+    "fork": false,
+    "full_name": "kyverno/.github",
+    "html_url": "https://github.com/kyverno/.github",
+    "language": "Shell",
+    "pushed_at": "2026-04-27T04:35:10Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-27T04:35:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PR Branch Auto-Updater",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-branch-updater.yml",
+      "term": "PR Branch Auto-Updater"
+    },
+    {
+      "context_snippet": "Test PR Branch Updater Contract",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr-branch-updater-contract.yml",
+      "term": "Test PR Branch Updater Contract"
+    },
+    {
+      "context_snippet": "Test Scripts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test Scripts"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-wasm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onicai/IConfucius",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "onicai/IConfucius",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "onicai/IConfucius",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "onicai/IConfucius",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "onicai/IConfucius",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "onicai/IConfucius",
+      "target": "cicd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-wasm.yml",
+      "source_repo": "onicai/IConfucius",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-wasm.yml",
+      "source_repo": "onicai/IConfucius",
+      "target": "verify-wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onicai/IConfucius",
+      "target": "bitcoin-rune-memecoins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onicai/IConfucius",
+      "target": "chain-fusion-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onicai/IConfucius",
+      "target": "odin-fun",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:39:11.899207+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9993
+    },
+    {
+      "path": "requirements.txt",
+      "size": 206
+    },
+    {
+      "path": ".github/workflows/cicd.yml",
+      "size": 3256
+    },
+    {
+      "path": ".github/workflows/verify-wasm.yml",
+      "size": 1755
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "IConfucius | Wisdom for Bitcoin Markets",
+    "fork": false,
+    "full_name": "onicai/IConfucius",
+    "html_url": "https://github.com/onicai/IConfucius",
+    "language": "Python",
+    "pushed_at": "2026-04-20T12:59:18Z",
+    "stargazers_count": 8,
+    "topics": [
+      "bitcoin-rune-memecoins",
+      "chain-fusion-ai",
+      "odin-fun"
+    ],
+    "updated_at": "2026-04-20T12:56:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cicd",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cicd.yml",
+      "term": "cicd"
+    },
+    {
+      "context_snippet": "verify-wasm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-wasm.yml",
+      "term": "verify-wasm"
+    },
+    {
+      "context_snippet": "[![cicd](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml/badge.svg)](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml) ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/onicai/IConfucius?utm_source=oss&utm_medium=githu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin-rune-memecoins"
+    },
+    {
+      "context_snippet": "[![cicd](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml/badge.svg)](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml) ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/onicai/IConfucius?utm_source=oss&utm_medium=githu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chain-fusion-ai"
+    },
+    {
+      "context_snippet": "[![cicd](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml/badge.svg)](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml) ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/onicai/IConfucius?utm_source=oss&utm_medium=githu\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "odin-fun"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:30:18.462978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A novel embedding training algorithm leveraging ANN search and achieved SOTA retrieval on Trec DL 2019 and OpenQA benchmarks",
+    "fork": true,
+    "full_name": "cmacdonald/ANCE",
+    "html_url": "https://github.com/cmacdonald/ANCE",
+    "language": "Python",
+    "pushed_at": "2023-10-27T13:31:24Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-10-27T13:31:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

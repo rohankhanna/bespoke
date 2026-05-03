@@ -121,13 +121,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lumen-oss/rocks.nvim",
-      "target": "topics/rocks-nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lumen-oss/rocks.nvim",
       "target": "echasnovski/mini.deps",
       "target_type": "repository"
     },
@@ -370,7 +363,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:58:43.700695+00:00",
+  "fetched_at": "2026-05-03T13:43:48.841415+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -432,11 +425,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "echasnovski/mini.deps",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "topics/rocks-nvim",
       "source_file": "README.md"
     }
   ],

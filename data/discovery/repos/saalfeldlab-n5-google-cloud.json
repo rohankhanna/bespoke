@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-main.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-main.yml",
+      "source_repo": "saalfeldlab/n5-google-cloud",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-main.yml",
+      "source_repo": "saalfeldlab/n5-google-cloud",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-main.yml",
+      "source_repo": "saalfeldlab/n5-google-cloud",
+      "target": "build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:39:16.075408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1319
+    },
+    {
+      "path": ".github/workflows/build-main.yml",
+      "size": 861
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "N5 library implementation using Google Cloud Storage backend.",
+    "fork": false,
+    "full_name": "saalfeldlab/n5-google-cloud",
+    "html_url": "https://github.com/saalfeldlab/n5-google-cloud",
+    "language": "Java",
+    "pushed_at": "2026-03-09T13:55:18Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-09T13:55:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-main.yml",
+      "term": "build"
+    }
+  ]
+}

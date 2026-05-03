@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "reduxjs/redux",
-      "target": "reduxjs/redux-devtools",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "reduxjs/redux",
-      "target": "reduxjs/redux-templates",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "reduxjs/redux",
-      "target": "rahsheen/react-native-template-redux-typescript",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "reduxjs/redux",
-      "target": "rahsheen/expo-template-redux-typescript",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "reduxjs/redux",
@@ -274,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-05-01T07:02:51.781400+00:00",
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
   "source_repo": "reduxjs/redux"
 }

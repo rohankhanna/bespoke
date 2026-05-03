@@ -127,6 +127,54 @@
       "source_repo": "JTAmos/Temporal.jl",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/dysonance/Temporal.jl.svg?branch=master)](https://travis-ci.org/dysonance/Temporal.jl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaQuant/MarketData.jl",
+      "status": "candidate-context",
+      "text": "Time series market data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaQuant/MarketData.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/JuliaQuant/MarketData.jl.svg?branch=main)](https://travis-ci.com/JuliaQuant/MarketData.jl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate-context",
+      "text": "A cloud-native open source distributed time series database with high performance, high compression ratio and high availability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JTAmos/Indicators.jl",
+      "status": "candidate-context",
+      "text": "Financial market technical analysis & indicators in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JTAmos/Indicators.jl",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/dysonance/Indicators.jl.svg?branch=master)](https://travis-ci.org/dysonance/Indicators.jl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joshuaulrich/xts",
+      "status": "candidate-context",
+      "text": "Extensible time series class that provides uniform handling of many R time series classes by extending zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joshuaulrich/xts",
+      "status": "candidate-context",
+      "text": "xts is an [R](https://www.r-project.org) package that provides an extension of"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "JTAmos/Temporal.jl",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/dysonance/Temporal.jl.svg?branch=master)](https://travis-ci.org/dysonance/Temporal.jl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaQuant/MarketData.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/JuliaQuant/MarketData.jl.svg?branch=main)](https://travis-ci.com/JuliaQuant/MarketData.jl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnosdb/cnosdb",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JTAmos/Indicators.jl",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/dysonance/Indicators.jl.svg?branch=master)](https://travis-ci.org/dysonance/Indicators.jl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joshuaulrich/xts",
+      "status": "candidate",
+      "text": "xts is an [R](https://www.r-project.org) package that provides an extension of"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +334,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "JTAmos/Temporal.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaQuant/MarketData.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cnosdb/cnosdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JTAmos/Indicators.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "joshuaulrich/xts"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -58,6 +58,18 @@
       "source_repo": "markdoc/markdoc",
       "status": "candidate-context",
       "text": "Publish Package to NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsx-eslint/eslint-plugin-react",
+      "status": "candidate-context",
+      "text": "React-specific linting rules for ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-react",
+      "status": "candidate-context",
+      "text": "Publish Package to npm"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "markdoc/markdoc",
       "status": "candidate",
       "text": "Publish Package to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsx-eslint/eslint-plugin-react",
+      "status": "candidate",
+      "text": "Publish Package to npm"
     }
   ],
   "candidate_related_terms": [
@@ -157,11 +175,23 @@
       "observed_at": "2026-05-02T12:29:04.390200+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "axios/axios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "axios/axios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "jsx-eslint/eslint-plugin-react"
     }
   ],
   "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T12:29:04.390200+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

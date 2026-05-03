@@ -43,6 +43,18 @@
       "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
       "status": "candidate-context",
       "text": "[![Go Tests](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml/badge.svg)](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "status": "candidate-context",
+      "text": "Karpenter provider for Proxmox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "status": "candidate-context",
+      "text": "__Motivation__: Most of the time, my bare-metal servers have more capacity than I actually need."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud",
       "status": "candidate",
       "text": "[![Go Tests](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml/badge.svg)](https://github.com/kubernetes-sigs/karpenter-provider-ibm-cloud/actions/workflows/go-test.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox",
+      "status": "candidate",
+      "text": "__Motivation__: Most of the time, my bare-metal servers have more capacity than I actually need."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "kubernetes-sigs/karpenter-provider-ibm-cloud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "sergelogvinov/karpenter-provider-proxmox"
     }
   ],
   "first_seen_at": "2026-05-02T18:23:34.576038+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

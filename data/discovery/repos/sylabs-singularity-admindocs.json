@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:34:57.239785+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Admin documentation for SingularityCE",
+    "fork": false,
+    "full_name": "sylabs/singularity-admindocs",
+    "html_url": "https://github.com/sylabs/singularity-admindocs",
+    "language": "Python",
+    "pushed_at": "2026-02-26T16:38:29Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-02-26T15:32:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

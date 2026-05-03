@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "target": "subscription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "target": "tailwindcss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "target": "tx-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "target": "xray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AghayeCoder/TX-ThemeHub",
+      "target": "xray-core",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:35:53.188892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TX-UI Panel Subscription Page Templates Designed By TX Community.",
+    "fork": false,
+    "full_name": "AghayeCoder/TX-ThemeHub",
+    "html_url": "https://github.com/AghayeCoder/TX-ThemeHub",
+    "language": "HTML",
+    "pushed_at": "2026-02-24T15:21:38Z",
+    "stargazers_count": 66,
+    "topics": [
+      "css",
+      "subscription",
+      "tailwindcss",
+      "template",
+      "theme",
+      "tx-ui",
+      "vpn",
+      "xray",
+      "xray-core"
+    ],
+    "updated_at": "2026-04-29T18:12:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "TX-UI Panel Subscription Page Templates Designed By TX Community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subscription"
+    },
+    {
+      "context_snippet": "TX-UI Panel Subscription Page Templates Designed By TX Community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tailwindcss"
+    },
+    {
+      "context_snippet": "TX-UI Panel Subscription Page Templates Designed By TX Community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    },
+    {
+      "context_snippet": "TX-UI Panel Subscription Page Templates Designed By TX Community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    },
+    {
+      "context_snippet": "TX-UI Panel Subscription Page Templates Designed By TX Community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tx-ui"
+    },
+    {
+      "context_snippet": "TX-UI Panel Subscription Page Templates Designed By TX Community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray"
+    },
+    {
+      "context_snippet": "TX-UI Panel Subscription Page Templates Designed By TX Community.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xray-core"
+    }
+  ]
+}

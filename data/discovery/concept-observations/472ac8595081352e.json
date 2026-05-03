@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A virtual file system adapter for Azure Blob storage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Blobfuse Buddy \u2013 AI Auto Reply"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Blobfuse Buddy \u2013 AI Auto Reply"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16771,
+      "status": "candidate",
+      "text": "car pool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16771,
+      "status": "candidate",
+      "text": "dickie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16771,
+      "status": "candidate",
+      "text": "inge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16771,
+      "status": "candidate",
+      "text": "instinct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16727,
+      "status": "candidate",
+      "text": "comeback"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Blobfuse Buddy \u2013 AI Auto Reply",
+      "sense_id": "blobfuse-buddy-ai-auto-reply#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "blobfuse-buddy-ai-auto-reply",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blobfuse-buddy-ai-auto-reply",
+  "observation_id": "472ac8595081352e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Blobfuse Buddy \u2013 AI Auto Reply",
+  "source_context_snippet": "Blobfuse Buddy \u2013 AI Auto Reply",
+  "source_file": ".github/workflows/blobfuse-buddy.yml",
+  "source_repo": "Azure/azure-storage-fuse",
+  "source_repo_description": "A virtual file system adapter for Azure Blob storage"
+}

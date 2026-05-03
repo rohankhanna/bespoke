@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pretest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SysCV/nutsh",
+      "status": "candidate-context",
+      "text": "A Platform for Visual Learning from Human Feedback"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SysCV/nutsh",
+      "status": "candidate-context",
+      "text": "Pretest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SysCV/nutsh",
+      "status": "candidate",
+      "text": "Pretest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993359,
+      "status": "candidate",
+      "text": "posttest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008637,
+      "status": "candidate",
+      "text": "prestudy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008636,
+      "status": "candidate",
+      "text": "preassessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008635,
+      "status": "candidate",
+      "text": "preexperiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20008634,
+      "status": "candidate",
+      "text": "prepolling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pretest",
+  "concept_id": "pretest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/pretest.yaml",
+      "source_repo": "SysCV/nutsh"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pretest",
+      "sense_id": "pretest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

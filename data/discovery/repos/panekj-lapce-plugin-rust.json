@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "panekj/lapce-plugin-rust",
+      "target": "lapce/wasi-experimental-http",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "panekj/lapce-plugin-rust",
+      "target": "lapce/psp-types",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:36:39.665690+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 65
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 508
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "panekj/lapce-plugin-rust",
+    "html_url": "https://github.com/panekj/lapce-plugin-rust",
+    "language": null,
+    "pushed_at": "2022-11-07T02:00:50Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-06-13T13:09:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lapce/psp-types",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lapce/wasi-experimental-http",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

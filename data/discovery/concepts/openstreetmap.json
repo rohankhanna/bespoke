@@ -31,6 +31,30 @@
       "source_repo": "mapbox/mapbox-gl-native-android",
       "status": "candidate-context",
       "text": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate-context",
+      "text": "Canonical common brand names, operators, transit, and flags for OpenStreetMap."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate-context",
+      "text": "OpenStreetMap editor for iPhone/iPad"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate-context",
+      "text": "Go Map!! is an iPhone/iPad editor for adding cartographic information to [OpenStreetMap][1]."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "mapbox/mapbox-gl-native-android",
       "status": "candidate",
       "text": "The latest version of Mapbox Maps SDK is now available at [mapbox/mapbox-maps-android](https://github.com/mapbox/mapbox-maps-android). This version offers superior performance, features, and developer experience, and is the recommended mobile SDK solution for all Mapbox customer\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate",
+      "text": "Go Map!! is an iPhone/iPad editor for adding cartographic information to [OpenStreetMap][1]."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "mapbox/mapbox-gl-native-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "osmlab/name-suggestion-index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bryceco/GoMap"
     }
   ],
   "first_seen_at": "2026-05-02T12:29:04.390200+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

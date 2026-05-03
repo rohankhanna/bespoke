@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternLM/POLAR",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternLM/POLAR",
+      "target": "internlm/opencompass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "InternLM/POLAR",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:04.092959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pre-trained, Scalable, High-performance Reward Models via Policy Discriminative Learning.",
+    "fork": false,
+    "full_name": "InternLM/POLAR",
+    "html_url": "https://github.com/InternLM/POLAR",
+    "language": "Python",
+    "pushed_at": "2025-09-23T07:40:40Z",
+    "stargazers_count": 164,
+    "topics": [],
+    "updated_at": "2026-02-26T07:41:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/opencompass",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

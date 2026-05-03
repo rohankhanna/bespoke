@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RRethy/nvim-treesitter-textsubjects",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RRethy/nvim-treesitter-textsubjects",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RRethy/nvim-treesitter-textsubjects",
+      "target": "tree-sitter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RRethy/nvim-treesitter-textsubjects",
+      "target": "treesitter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:42:33.178935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Location and syntax aware text objects which *do what you mean*",
+    "fork": false,
+    "full_name": "RRethy/nvim-treesitter-textsubjects",
+    "html_url": "https://github.com/RRethy/nvim-treesitter-textsubjects",
+    "language": "Tree-sitter Query",
+    "pushed_at": "2025-08-14T22:22:13Z",
+    "stargazers_count": 568,
+    "topics": [
+      "lua",
+      "neovim",
+      "nvim",
+      "tree-sitter",
+      "treesitter"
+    ],
+    "updated_at": "2026-05-03T00:28:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-sitter"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "treesitter"
+    }
+  ]
+}

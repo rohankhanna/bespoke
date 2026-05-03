@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "RubyMoney/eu_central_bank",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "RubyMoney/eu_central_bank",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "RubyMoney/eu_central_bank",
+      "target": "Ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:44:34.507539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2507
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 1103
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A gem that calculates the exchange rate using published rates from European Central Bank. Compatible with the money gem",
+    "fork": false,
+    "full_name": "RubyMoney/eu_central_bank",
+    "html_url": "https://github.com/RubyMoney/eu_central_bank",
+    "language": "Ruby",
+    "pushed_at": "2026-03-29T18:37:25Z",
+    "stargazers_count": 223,
+    "topics": [],
+    "updated_at": "2026-04-27T09:24:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    }
+  ]
+}

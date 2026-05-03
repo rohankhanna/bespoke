@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spk/money-open-exchange-rates",
+      "target": "javan/whenever",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spk/money-open-exchange-rates",
+      "target": "josscrowcroft/open-exchange-rates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spk/money-open-exchange-rates",
+      "target": "rubymoney/eu_central_bank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spk/money-open-exchange-rates",
+      "target": "rubymoney/google_currency",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spk/money-open-exchange-rates",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "spk/money-open-exchange-rates",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spk/money-open-exchange-rates",
+      "target": "currency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spk/money-open-exchange-rates",
+      "target": "exchange-rate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spk/money-open-exchange-rates",
+      "target": "money",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:44:30.974899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8292
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 662
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A gem that calculates the exchange rate using published rates from open-exchange-rates. Compatible with the money gem.",
+    "fork": false,
+    "full_name": "spk/money-open-exchange-rates",
+    "html_url": "https://github.com/spk/money-open-exchange-rates",
+    "language": "Ruby",
+    "pushed_at": "2026-01-21T19:26:51Z",
+    "stargazers_count": 111,
+    "topics": [
+      "currency",
+      "exchange-rate",
+      "money"
+    ],
+    "updated_at": "2026-01-21T19:26:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "javan/whenever",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "josscrowcroft/open-exchange-rates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubymoney/eu_central_bank",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubymoney/google_currency",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A gem that calculates the exchange rate using published rates from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "currency"
+    },
+    {
+      "context_snippet": "A gem that calculates the exchange rate using published rates from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "exchange-rate"
+    },
+    {
+      "context_snippet": "A gem that calculates the exchange rate using published rates from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "money"
+    }
+  ]
+}

@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T07:19:59.644876+00:00",
+  "fetched_at": "2026-05-03T15:33:40.339493+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,14 +58,14 @@
     "html_url": "https://github.com/meetps/pytorch-semseg",
     "language": "Python",
     "pushed_at": "2023-10-11T05:27:04Z",
-    "stargazers_count": 3410,
+    "stargazers_count": 3411,
     "topics": [
       "deep-learning",
       "fully-convolutional-networks",
       "pytorch",
       "semantic-segmentation"
     ],
-    "updated_at": "2026-04-30T19:53:48Z"
+    "updated_at": "2026-05-03T11:16:42Z"
   },
   "repo_links": [
     {

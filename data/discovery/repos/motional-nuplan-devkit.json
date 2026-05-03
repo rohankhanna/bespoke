@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "motional/nuplan-devkit",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "motional/nuplan-devkit",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "motional/nuplan-devkit",
+      "target": "planning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "motional/nuplan-devkit",
+      "target": "simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:19.066332+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 2431
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The devkit of the nuPlan dataset.",
+    "fork": false,
+    "full_name": "motional/nuplan-devkit",
+    "html_url": "https://github.com/motional/nuplan-devkit",
+    "language": "Python",
+    "pushed_at": "2025-08-27T05:24:55Z",
+    "stargazers_count": 987,
+    "topics": [
+      "autonomous-driving",
+      "machine-learning",
+      "planning",
+      "simulation"
+    ],
+    "updated_at": "2026-05-03T11:09:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "FROM ubuntu:20.04 RUN apt-get update \\ && apt-get install -y curl gnupg2 software-properties-common default-jdk ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn RUN curl -fsSL https://bazel.build/bazel-release.pub.gpg | apt-key add - \\ && curl -fsSL https://nvidia.github.io/nvi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "FROM ubuntu:20.04 RUN apt-get update \\ && apt-get install -y curl gnupg2 software-properties-common default-jdk ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn RUN curl -fsSL https://bazel.build/bazel-release.pub.gpg | apt-key add - \\ && curl -fsSL https://nvidia.github.io/nvi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "FROM ubuntu:20.04 RUN apt-get update \\ && apt-get install -y curl gnupg2 software-properties-common default-jdk ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn RUN curl -fsSL https://bazel.build/bazel-release.pub.gpg | apt-key add - \\ && curl -fsSL https://nvidia.github.io/nvi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "planning"
+    },
+    {
+      "context_snippet": "FROM ubuntu:20.04 RUN apt-get update \\ && apt-get install -y curl gnupg2 software-properties-common default-jdk ENV APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=DontWarn RUN curl -fsSL https://bazel.build/bazel-release.pub.gpg | apt-key add - \\ && curl -fsSL https://nvidia.github.io/nvi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    }
+  ]
+}

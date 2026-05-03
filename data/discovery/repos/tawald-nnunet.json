@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "TaWald/nnUNet",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "TaWald/nnUNet",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "TaWald/nnUNet",
+      "target": "Codespell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:40:34.736095+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 4536
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "nnssl_finetuning_inclusion",
+    "description": null,
+    "fork": true,
+    "full_name": "TaWald/nnUNet",
+    "html_url": "https://github.com/TaWald/nnUNet",
+    "language": "Python",
+    "pushed_at": "2026-04-30T10:15:42Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-04-29T11:35:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    }
+  ]
+}

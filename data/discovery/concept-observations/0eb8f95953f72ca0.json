@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Meson Build System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "File format check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "File format check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35664,
+      "status": "candidate",
+      "text": "prc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34664,
+      "status": "candidate",
+      "text": "gif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27432,
+      "status": "candidate",
+      "text": "ascii"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27135,
+      "status": "candidate",
+      "text": "midi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27032,
+      "status": "candidate",
+      "text": "jpeg"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "File format check",
+      "sense_id": "file-format-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "file-format-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "file-format-check",
+  "observation_id": "0eb8f95953f72ca0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "File format check",
+  "source_context_snippet": "File format check",
+  "source_file": ".github/workflows/file_format.yml",
+  "source_repo": "mesonbuild/meson",
+  "source_repo_description": "The Meson Build System"
+}

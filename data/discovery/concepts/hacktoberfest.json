@@ -8239,6 +8239,396 @@
       "source_repo": "ory/docs",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Ory Documentation</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate-context",
+      "text": "Canonical common brand names, operators, transit, and flags for OpenStreetMap."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluent-vue/fluent-vue",
+      "status": "candidate-context",
+      "text": "Internationalization plugin for Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/fluent-vue",
+      "status": "candidate-context",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon",
+      "status": "candidate-context",
+      "text": "A design system built by IBM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emberjs/ember-qunit",
+      "status": "candidate-context",
+      "text": "QUnit test helpers for Ember"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember-qunit",
+      "status": "candidate-context",
+      "text": "[![Latest NPM release][npm-badge]][npm-badge-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "status": "candidate-context",
+      "text": "Deep auto-tracking for when you just don't care, and want things to work (at the cost of performance in some situtations)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allegro/hermes",
+      "status": "candidate-context",
+      "text": "Fast and reliable message broker built on top of Kafka."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allegro/hermes",
+      "status": "candidate-context",
+      "text": "We are reorganizing the project and we disabled the Issues tab. Please use discussions from now on."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-treesitter/nvim-treesitter-textobjects",
+      "status": "candidate-context",
+      "text": "Syntax aware text-objects, select, move, swap, and peek support."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate-context",
+      "text": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate-context",
+      "text": "[![](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml/badge.svg?branch=main)](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml?query=branch%3Amain \"Release Nightly\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smikula/obsidian-limelight",
+      "status": "candidate-context",
+      "text": "Spotlight your active pane"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smikula/obsidian-limelight",
+      "status": "candidate-context",
+      "text": "This is a plugin for [Obsidian](https://obsidian.md) that spotlights your active pane to make it more obvious."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NeoApplications/Neo-Backup",
+      "status": "candidate-context",
+      "text": "backup manager for android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeoApplications/Neo-Backup",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brewsci/homebrew-bio",
+      "status": "candidate-context",
+      "text": ":beer::microscope: Bioinformatics formulae for the Homebrew package manager (macOS and Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brewsci/homebrew-bio",
+      "status": "candidate-context",
+      "text": "![BrewSci logo](https://raw.githubusercontent.com/brewsci/homebrew-science/master/.github/brewsci-256x256.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elementary/icons",
+      "status": "candidate-context",
+      "text": "Named, vector icons for elementary OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elementary/icons",
+      "status": "candidate-context",
+      "text": "[![Translation status](https://l10n.elementary.io/widgets/desktop/-/icons-extra/svg-badge.svg)](https://l10n.elementary.io/engage/desktop/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate-context",
+      "text": "Builds on top of Qt to provide widgets which are useful when developing robotics applications, such as a 3D view, plots, dashboard, etc, and can be used together in a convenient unified interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate-context",
+      "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "C++ library designed to provide an abstraction for different rendering engines. It offers unified APIs for creating 3D graphics applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate-context",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate-context",
+      "text": "Provides numerous sensor models designed to generate realistic data from simulation environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate-context",
+      "text": "**Maintainer:** ichen AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gazebosim/gz-transport",
+      "status": "candidate-context",
+      "text": "Transport library for component communication based on publication/subscription and service calls."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-transport",
+      "status": "candidate-context",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate-context",
+      "text": "\ud83c\udfae Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate-context",
+      "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/docusaurus-template",
+      "status": "candidate-context",
+      "text": "DEPRECATED"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/docusaurus-template",
+      "status": "candidate-context",
+      "text": "This repository is no longer used. All documentation now resides in github.com/ory/docs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vimwiki/vimwiki",
+      "status": "candidate-context",
+      "text": "Personal Wiki for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vimwiki/vimwiki",
+      "status": "candidate-context",
+      "text": "![VimWiki: A Personal Wiki For Vim](doc/splash.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alltheplaces/alltheplaces",
+      "status": "candidate-context",
+      "text": "A set of spiders and scrapers to extract location information from places that post their location on the internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alltheplaces/alltheplaces",
+      "status": "candidate-context",
+      "text": "A project to generate [point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) data sourced [from websites](docs/WHY_SPIDER.md) with 'store location' pages. The project uses [`scrapy`](https://scrapy.org/), a popular Python-based web scraping framework, to exec\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pkgxdev/brewkit",
+      "status": "candidate-context",
+      "text": "build infra & `$ bk build`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/brewkit",
+      "status": "candidate-context",
+      "text": "![pkgx](https://pkgx.dev/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate-context",
+      "text": "An integration test framework for React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluent-vue/examples",
+      "status": "candidate-context",
+      "text": "Examples projects that use fluent-vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/examples",
+      "status": "candidate-context",
+      "text": "Examples projects that use fluent-vue"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fluent-vue/unplugin-fluent-vue",
+      "status": "candidate-context",
+      "text": "unplugin for fluent-vue. Adds support for custom blocks in Vue SFC and external ftl files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/unplugin-fluent-vue",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate-context",
+      "text": "Vue implementation of the Carbon Design System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "carbon-design-system/carbon-components-angular",
+      "status": "candidate-context",
+      "text": "An Angular implementation of the Carbon Design System for IBM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-angular",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kategengler/ember-feature-flags",
+      "status": "candidate-context",
+      "text": "Ember CLI addon for feature flags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kategengler/ember-feature-flags",
+      "status": "candidate-context",
+      "text": "An ember-cli addon to provide feature flags."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emberjs/ember-test-helpers",
+      "status": "candidate-context",
+      "text": "Test-framework-agnostic helpers for testing Ember.js applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember-test-helpers",
+      "status": "candidate-context",
+      "text": "@ember/test-helpers [![CI Build](https://github.com/emberjs/ember-test-helpers/actions/workflows/ci-build.yml/badge.svg)](https://github.com/emberjs/ember-test-helpers/actions/workflows/ci-build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/gccjit.rs",
+      "status": "candidate-context",
+      "text": "Rust bindings for libgccjit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/gccjit.rs",
+      "status": "candidate-context",
+      "text": "This repository contains the basics for some high-level bindings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gentoo/api-gentoo-org",
+      "status": "candidate-context",
+      "text": "[MIRROR] Seed data for api.gentoo.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gentoo/api-gentoo-org",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrwl/nx",
+      "status": "candidate-context",
+      "text": "The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrwl/nx",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/www.julialang.org",
+      "status": "candidate-context",
+      "text": "Julia Project website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/www.julialang.org",
+      "status": "candidate-context",
+      "text": "This is the GitHub repository for the Julia Programming Language's main website, [julialang.org](https://julialang.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate-context",
+      "text": "The Open Lighting Architecture - The Travel Adaptor for the Lighting Industry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate-context",
+      "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
     }
   ],
   "candidate_glosses": [
@@ -12381,6 +12771,204 @@
       "source_repo": "ory/docs",
       "status": "candidate",
       "text": "<h1 align=\"center\">Ory Documentation</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmlab/name-suggestion-index",
+      "status": "candidate",
+      "text": "[![build](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/osmlab/name-suggestion-index/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/fluent-vue",
+      "status": "candidate",
+      "text": "[![SWUbanner](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg)](https://vshymanskyy.github.io/StandWithUkraine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember-qunit",
+      "status": "candidate",
+      "text": "[![Latest NPM release][npm-badge]][npm-badge-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NullVoxPopuli/ember-deep-tracked",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/ember-deep-tracked.svg)](https://badge.fury.io/js/ember-deep-tracked)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allegro/hermes",
+      "status": "candidate",
+      "text": "We are reorganizing the project and we disabled the Issues tab. Please use discussions from now on."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-treesitter/nvim-treesitter-textobjects",
+      "status": "candidate",
+      "text": "Syntax aware text-objects, select, move, swap, and peek support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-gitea/gitea",
+      "status": "candidate",
+      "text": "[![](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml/badge.svg?branch=main)](https://github.com/go-gitea/gitea/actions/workflows/release-nightly.yml?query=branch%3Amain \"Release Nightly\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smikula/obsidian-limelight",
+      "status": "candidate",
+      "text": "This is a plugin for [Obsidian](https://obsidian.md) that spotlights your active pane to make it more obvious."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeoApplications/Neo-Backup",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brewsci/homebrew-bio",
+      "status": "candidate",
+      "text": "![BrewSci logo](https://raw.githubusercontent.com/brewsci/homebrew-science/master/.github/brewsci-256x256.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elementary/icons",
+      "status": "candidate",
+      "text": "[![Translation status](https://l10n.elementary.io/widgets/desktop/-/icons-extra/svg-badge.svg)](https://l10n.elementary.io/engage/desktop/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-gui",
+      "status": "candidate",
+      "text": "**Maintainer:** jenn [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-rendering",
+      "status": "candidate",
+      "text": "**Maintainer:** ichen [AT] openrobotics [DOT] org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-sensors",
+      "status": "candidate",
+      "text": "**Maintainer:** ichen AT openrobotics DOT org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gazebosim/gz-transport",
+      "status": "candidate",
+      "text": "**Maintainer:** caguero AT honurobotics DOT com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate",
+      "text": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/docusaurus-template",
+      "status": "candidate",
+      "text": "This repository is no longer used. All documentation now resides in github.com/ory/docs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vimwiki/vimwiki",
+      "status": "candidate",
+      "text": "![VimWiki: A Personal Wiki For Vim](doc/splash.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alltheplaces/alltheplaces",
+      "status": "candidate",
+      "text": "A project to generate [point of interest (POI)](https://en.wikipedia.org/wiki/Point_of_interest) data sourced [from websites](docs/WHY_SPIDER.md) with 'store location' pages. The project uses [`scrapy`](https://scrapy.org/), a popular Python-based web scraping framework, to exec\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pkgxdev/brewkit",
+      "status": "candidate",
+      "text": "![pkgx](https://pkgx.dev/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/examples",
+      "status": "candidate",
+      "text": "Examples projects that use fluent-vue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fluent-vue/unplugin-fluent-vue",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-vue",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carbon-design-system/carbon-components-angular",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kategengler/ember-feature-flags",
+      "status": "candidate",
+      "text": "An ember-cli addon to provide feature flags."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/ember-test-helpers",
+      "status": "candidate",
+      "text": "@ember/test-helpers [![CI Build](https://github.com/emberjs/ember-test-helpers/actions/workflows/ci-build.yml/badge.svg)](https://github.com/emberjs/ember-test-helpers/actions/workflows/ci-build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/gccjit.rs",
+      "status": "candidate",
+      "text": "This repository contains the basics for some high-level bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gentoo/api-gentoo-org",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrwl/nx",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/www.julialang.org",
+      "status": "candidate",
+      "text": "This is the GitHub repository for the Julia Programming Language's main website, [julialang.org](https://julialang.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenLightingProject/ola",
+      "status": "candidate",
+      "text": "[www.openlighting.org/ola](https://www.openlighting.org/ola)"
     }
   ],
   "candidate_related_terms": [],
@@ -18892,11 +19480,467 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "tox-dev/filelock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "axios/axios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "osmlab/name-suggestion-index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/bow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bow-swift/nef-editor-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "emberjs/ember-qunit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "appwrite/playground-for-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "TanStack/form"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NullVoxPopuli/ember-deep-tracked"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "flow-typed/flow-typed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "flightcontrolhq/superjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/reactivesearch-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "appbaseio/searchbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "allegro/hermes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MSPaintIDE/MSPaintIDE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nvim-treesitter/nvim-treesitter-textobjects"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "go-gitea/gitea"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "smikula/obsidian-limelight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "DefinitelyTyped/DefinitelyTyped"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NeoApplications/Neo-Backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaDynamics/InteractiveDynamics.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "brewsci/homebrew-bio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "elementary/icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "intelligent-machine-learning/dlrover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-gui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-rendering"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-sensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gazebosim/gz-transport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "digitalocean/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ory/docusaurus-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "detekt/sonar-detekt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vimwiki/vimwiki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "alltheplaces/alltheplaces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Redocly/redoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pkgxdev/brewkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pixielabs/cavy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "fluent-vue/unplugin-fluent-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-components-vue"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "carbon-design-system/carbon-components-angular"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kategengler/ember-feature-flags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "emberjs/ember-test-helpers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/gccjit.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "gentoo/api-gentoo-org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nrwl/nx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/www.julialang.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "OpenLightingProject/ola"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

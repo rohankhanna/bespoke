@@ -312,7 +312,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:51:52.945102+00:00",
+  "fetched_at": "2026-05-03T16:45:24.394615+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -348,8 +348,8 @@
     "full_name": "ohmyzsh/ohmyzsh",
     "html_url": "https://github.com/ohmyzsh/ohmyzsh",
     "language": "Shell",
-    "pushed_at": "2026-04-30T08:03:00Z",
-    "stargazers_count": 186680,
+    "pushed_at": "2026-05-03T12:52:33Z",
+    "stargazers_count": 186681,
     "topics": [
       "cli",
       "cli-app",
@@ -367,7 +367,7 @@
       "zsh",
       "zsh-configuration"
     ],
-    "updated_at": "2026-05-03T04:23:23Z"
+    "updated_at": "2026-05-03T16:16:18Z"
   },
   "repo_links": [],
   "terms": [

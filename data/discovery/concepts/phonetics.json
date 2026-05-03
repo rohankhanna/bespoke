@@ -19,6 +19,18 @@
       "source_repo": "TigreGotico/phoonnx",
       "status": "candidate-context",
       "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CUNY-CL/wikipron",
+      "status": "candidate-context",
+      "text": "Massively multilingual pronunciation mining"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CUNY-CL/wikipron",
+      "status": "candidate-context",
+      "text": "[![PyPI"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "TigreGotico/phoonnx",
       "status": "candidate",
       "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/TigreGotico/phoonnx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CUNY-CL/wikipron",
+      "status": "candidate",
+      "text": "[![PyPI"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "TigreGotico/phoonnx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "CUNY-CL/wikipron"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

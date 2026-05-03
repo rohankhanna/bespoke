@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "k8s-sig-cluster-lifecycle"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "status": "candidate-context",
+      "text": "Home for Cluster API, a subproject of sig-cluster-lifecycle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "status": "candidate-context",
+      "text": "<a href=\"https://cluster-api.sigs.k8s.io\"><img alt=\"capi\" src=\"./logos/kubernetes-cluster-logos_final-02.svg\" width=\"160x\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cluster-api",
+      "status": "candidate",
+      "text": "<a href=\"https://cluster-api.sigs.k8s.io\"><img alt=\"capi\" src=\"./logos/kubernetes-cluster-logos_final-02.svg\" width=\"160x\" /></a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "k8s-sig-cluster-lifecycle",
+  "concept_id": "k8s-sig-cluster-lifecycle",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/cluster-api"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "k8s-sig-cluster-lifecycle",
+      "sense_id": "k8s-sig-cluster-lifecycle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

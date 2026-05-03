@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cron-conda"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Project-MONAI/MONAI",
+      "status": "candidate-context",
+      "text": "AI Toolkit for Healthcare Imaging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/MONAI",
+      "status": "candidate-context",
+      "text": "cron-conda"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Project-MONAI/MONAI",
+      "status": "candidate",
+      "text": "cron-conda"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cron-conda",
+  "concept_id": "cron-conda",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "Project-MONAI/MONAI"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cron-conda",
+      "sense_id": "cron-conda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

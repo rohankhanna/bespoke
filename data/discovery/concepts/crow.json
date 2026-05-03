@@ -19,6 +19,18 @@
       "source_repo": "CrowCpp/Crow",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpbruyere/CrowEdit",
+      "status": "candidate-context",
+      "text": "Extensible text editor using C.R.O.W. for the interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpbruyere/CrowEdit",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "CrowCpp/Crow",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/CrowCpp/Crow/master/docs/assets/crowlogo_dual_color.svg\" width=600></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpbruyere/CrowEdit",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-30T00:37:16.824464+00:00",
       "source_file": null,
       "source_repo": "CrowCpp/Crow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jpbruyere/CrowEdit"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T00:37:16.824464+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

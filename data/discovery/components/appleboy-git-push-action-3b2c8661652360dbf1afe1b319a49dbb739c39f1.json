@@ -1,0 +1,17 @@
+{
+  "component": "appleboy/git-push-action@3b2c8661652360dbf1afe1b319a49dbb739c39f1",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron-licenses.yml",
+      "source_repo": "go-gitea/gitea"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron-translations.yml",
+      "source_repo": "go-gitea/gitea"
+    }
+  ]
+}

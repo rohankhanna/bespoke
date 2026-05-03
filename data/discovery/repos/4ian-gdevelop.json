@@ -1,0 +1,578 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-storybook.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-storybook.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-storybook.yml"
+    },
+    {
+      "component": "chromaui/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-storybook.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extract-translations.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extract-translations.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gdcore-tools-hook.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-extension-translations.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-extension-translations.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "4ian/GDevelop",
+      "target": "gdevelopapp/gdevelop-tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "4ian/GDevelop",
+      "target": "gdevelopapp/gdevelop-extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "4ian/GDevelop",
+      "target": "gdevelopapp/gdevelop-community-list",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "4ian/GDevelop",
+      "target": "gdevelopapp/gdevelop-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-storybook.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-storybook.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-storybook.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-storybook.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "chromaui/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-storybook.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "Build Storybook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extract-translations.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/extract-translations.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extract-translations.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "Extract translations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gdcore-tools-hook.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gdcore-tools-hook.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "Trigger gdcore-tools pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "peter-evans/create-or-update-comment@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "GDevelop Issues automatic workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-extension-translations.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-extension-translations.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-extension-translations.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "Update extension translations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-translations.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-translations.yml",
+      "source_repo": "4ian/GDevelop",
+      "target": "Update translations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "2d-game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "2d-game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "3d-game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "3d-game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "gamemaker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "gdevelop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "html5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "html5-game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "multiplayer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "no-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "4ian/GDevelop",
+      "target": "vibe-coding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:39:30.953766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9369
+    },
+    {
+      "path": ".github/workflows/build-storybook.yml",
+      "size": 2738
+    },
+    {
+      "path": ".github/workflows/extract-translations.yml",
+      "size": 1376
+    },
+    {
+      "path": ".github/workflows/gdcore-tools-hook.yml",
+      "size": 722
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 686
+    },
+    {
+      "path": ".github/workflows/update-extension-translations.yml",
+      "size": 1962
+    },
+    {
+      "path": ".github/workflows/update-translations.yml",
+      "size": 2622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udfae Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone.",
+    "fork": false,
+    "full_name": "4ian/GDevelop",
+    "html_url": "https://github.com/4ian/GDevelop",
+    "language": "JavaScript",
+    "pushed_at": "2026-05-03T14:32:10Z",
+    "stargazers_count": 22578,
+    "topics": [
+      "2d-game",
+      "2d-game-engine",
+      "3d",
+      "3d-game",
+      "3d-game-engine",
+      "game",
+      "game-development",
+      "game-engine",
+      "gamedev",
+      "gamemaker",
+      "gdevelop",
+      "hacktoberfest",
+      "html5",
+      "html5-game-engine",
+      "javascript",
+      "multiplayer",
+      "no-code",
+      "open-source",
+      "vibe-coding"
+    ],
+    "updated_at": "2026-05-03T15:07:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gdevelopapp/gdevelop-community-list",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gdevelopapp/gdevelop-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gdevelopapp/gdevelop-extensions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gdevelopapp/gdevelop-tutorials",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Storybook",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-storybook.yml",
+      "term": "Build Storybook"
+    },
+    {
+      "context_snippet": "Extract translations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/extract-translations.yml",
+      "term": "Extract translations"
+    },
+    {
+      "context_snippet": "Trigger gdcore-tools pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gdcore-tools-hook.yml",
+      "term": "Trigger gdcore-tools pipeline"
+    },
+    {
+      "context_snippet": "GDevelop Issues automatic workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "GDevelop Issues automatic workflow"
+    },
+    {
+      "context_snippet": "Update extension translations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-extension-translations.yml",
+      "term": "Update extension translations"
+    },
+    {
+      "context_snippet": "Update translations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-translations.yml",
+      "term": "Update translations"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2d-game"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "2d-game-engine"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-game"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-game-engine"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamemaker"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gdevelop"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html5"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html5-game-engine"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplayer"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-code"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "![GDevelop logo](https://raw.githubusercontent.com/4ian/GDevelop/master/newIDE/GDevelop%20banner.png \"GDevelop logo\")",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vibe-coding"
+    }
+  ]
+}

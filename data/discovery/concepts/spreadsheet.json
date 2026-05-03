@@ -19,6 +19,30 @@
       "source_repo": "handsontable/hyperformula",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wyyazlz/sheetnext",
+      "status": "candidate-context",
+      "text": "A pure front-end spreadsheet component with Excel-like capabilities, built-in native AI workflows, and flexible LLM integration for data operations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wyyazlz/sheetnext",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jspreadsheet/ce",
+      "status": "candidate-context",
+      "text": "Jspreadsheet is a lightweight JavaScript data grid component for creating interactive data grids with advanced spreadsheet controls."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspreadsheet/ce",
+      "status": "candidate-context",
+      "text": "<b>Jexcel CE</b> has been renamed to <b>Jspreadsheet CE</b><br><br>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "handsontable/hyperformula",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wyyazlz/sheetnext",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspreadsheet/ce",
+      "status": "candidate",
+      "text": "<b>Jexcel CE</b> has been renamed to <b>Jspreadsheet CE</b><br><br>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-30T07:00:14.271058+00:00",
       "source_file": null,
       "source_repo": "handsontable/hyperformula"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "wyyazlz/sheetnext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jspreadsheet/ce"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T07:00:14.271058+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

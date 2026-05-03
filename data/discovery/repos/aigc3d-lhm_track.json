@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LHM_Track",
+      "target": "xg-chu/gagavatar_track",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LHM_Track",
+      "target": "facebookresearch/sapiens",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aigc3d/LHM_Track",
+      "target": "yohanshin/wham",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:29.893995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4487
+    },
+    {
+      "path": "requirements.txt",
+      "size": 739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LHM Video Dataset processing",
+    "fork": false,
+    "full_name": "aigc3d/LHM_Track",
+    "html_url": "https://github.com/aigc3d/LHM_Track",
+    "language": "Python",
+    "pushed_at": "2025-04-08T12:05:24Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-04-05T06:02:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/sapiens",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xg-chu/gagavatar_track",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yohanshin/wham",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

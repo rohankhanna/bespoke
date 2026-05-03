@@ -1162,6 +1162,30 @@
       "source_repo": "halostatue/diff-lcs",
       "status": "candidate-context",
       "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/evm",
+      "status": "candidate-context",
+      "text": "An EVM compatible framework for blockchain development with the Cosmos SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/evm",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robustmq/robustmq",
+      "status": "candidate-context",
+      "text": "Communication infrastructure for the AI era \u2014 one binary, one broker, one storage layer, any protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robustmq/robustmq",
+      "status": "candidate-context",
+      "text": "Dependency Review"
     }
   ],
   "candidate_glosses": [
@@ -1740,6 +1764,18 @@
       "source_repo": "halostatue/diff-lcs",
       "status": "candidate",
       "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/evm",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robustmq/robustmq",
+      "status": "candidate",
+      "text": "Dependency Review"
     }
   ],
   "candidate_related_terms": [
@@ -2497,11 +2533,35 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "halostatue/diff-lcs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "cosmos/evm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "robustmq/robustmq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "webpack/mini-css-extract-plugin"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

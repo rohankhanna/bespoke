@@ -1,0 +1,383 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yaml"
+    },
+    {
+      "component": "scientific-python/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yaml"
+    },
+    {
+      "component": "actions/stale@3a9db7e6a41a89f618792c92c0e97cc736e1b13f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dormant-issues-prs.yaml"
+    },
+    {
+      "component": "scientific-python/attach-next-milestone@c9cfab10ad0c67fed91b01103db26b7f16634639",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml"
+    },
+    {
+      "component": "JasonEtco/create-an-issue@1b14a70e4d8dc185e5cc76d3bec9eab20257b2c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheel-build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheel-build.yaml"
+    },
+    {
+      "component": "scientific-python/upload-nightly-action@b36e8c0c10dbcfd2e05bf95f17ef8c14fd708dbf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheel-build.yaml"
+    },
+    {
+      "component": "JasonEtco/create-an-issue@1b14a70e4d8dc185e5cc76d3bec9eab20257b2c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheel-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yaml"
+    },
+    {
+      "component": "JasonEtco/create-an-issue@1b14a70e4d8dc185e5cc76d3bec9eab20257b2c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "Build docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "scientific-python/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dormant-issues-prs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "actions/stale@3a9db7e6a41a89f618792c92c0e97cc736e1b13f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dormant-issues-prs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "Mark dormant issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "scientific-python/attach-next-milestone@c9cfab10ad0c67fed91b01103db26b7f16634639",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheel-build.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "JasonEtco/create-an-issue@1b14a70e4d8dc185e5cc76d3bec9eab20257b2c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheel-build.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-wheel-build.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "scientific-python/upload-nightly-action@b36e8c0c10dbcfd2e05bf95f17ef8c14fd708dbf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-wheel-build.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "Nightly wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-docs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "JasonEtco/create-an-issue@1b14a70e4d8dc185e5cc76d3bec9eab20257b2c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docs.yaml",
+      "source_repo": "scikit-image/scikit-image",
+      "target": "Test docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-image/scikit-image",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scikit-image/scikit-image",
+      "target": "image-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:40:38.005946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2669
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8017
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    },
+    {
+      "path": ".github/workflows/benchmarks.yaml",
+      "size": 3671
+    },
+    {
+      "path": ".github/workflows/build-docs.yaml",
+      "size": 2104
+    },
+    {
+      "path": ".github/workflows/circleci.yaml",
+      "size": 625
+    },
+    {
+      "path": ".github/workflows/dormant-issues-prs.yaml",
+      "size": 2493
+    },
+    {
+      "path": ".github/workflows/milestone-merged-prs.yaml",
+      "size": 473
+    },
+    {
+      "path": ".github/workflows/nightly-wheel-build.yaml",
+      "size": 2219
+    },
+    {
+      "path": ".github/workflows/test-docs.yaml",
+      "size": 1454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Image processing in Python",
+    "fork": false,
+    "full_name": "scikit-image/scikit-image",
+    "html_url": "https://github.com/scikit-image/scikit-image",
+    "language": "Python",
+    "pushed_at": "2026-04-29T21:05:28Z",
+    "stargazers_count": 6507,
+    "topics": [
+      "computer-vision",
+      "image-processing",
+      "python"
+    ],
+    "updated_at": "2026-05-03T16:07:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yaml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Build docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "term": "Build docs"
+    },
+    {
+      "context_snippet": "Mark dormant issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dormant-issues-prs.yaml",
+      "term": "Mark dormant issues"
+    },
+    {
+      "context_snippet": "Milestone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-merged-prs.yaml",
+      "term": "Milestone"
+    },
+    {
+      "context_snippet": "Nightly wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-wheel-build.yaml",
+      "term": "Nightly wheels"
+    },
+    {
+      "context_snippet": "Test docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-docs.yaml",
+      "term": "Test docs"
+    },
+    {
+      "context_snippet": "[![Image.sc forum](https://img.shields.io/badge/dynamic/json.svg?label=forum&url=https%3A%2F%2Fforum.image.sc%2Ftags%2Fscikit-image.json&query=%24.topic_list.tags.0.topic_count&colorB=brightgreen&suffix=%20topics&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "[![Image.sc forum](https://img.shields.io/badge/dynamic/json.svg?label=forum&url=https%3A%2F%2Fforum.image.sc%2Ftags%2Fscikit-image.json&query=%24.topic_list.tags.0.topic_count&colorB=brightgreen&suffix=%20topics&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAA\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    }
+  ]
+}

@@ -301,6 +301,18 @@
       "source_repo": "json-path/JsonPath",
       "status": "candidate-context",
       "text": "Java CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redisson/redisson",
+      "status": "candidate-context",
+      "text": "Redisson - Valkey & Redis Java client. Real-Time Data Platform. Sync/Async/RxJava/Reactive API. Over 50 Valkey and Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Bloom filter, Spring, Tomcat, Scheduler, JCache API, Hibernate, RPC, local cache.."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redisson/redisson",
+      "status": "candidate-context",
+      "text": "Java CI"
     }
   ],
   "candidate_glosses": [
@@ -451,6 +463,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "json-path/JsonPath",
+      "status": "candidate",
+      "text": "Java CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redisson/redisson",
       "status": "candidate",
       "text": "Java CI"
     }
@@ -646,11 +664,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "json-path/JsonPath"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "redisson/redisson"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

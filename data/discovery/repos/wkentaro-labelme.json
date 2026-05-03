@@ -221,7 +221,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-29T18:40:17.734719+00:00",
+  "fetched_at": "2026-05-03T14:37:34.705215+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -261,8 +261,8 @@
     "full_name": "wkentaro/labelme",
     "html_url": "https://github.com/wkentaro/labelme",
     "language": "Python",
-    "pushed_at": "2026-04-29T13:41:13Z",
-    "stargazers_count": 15804,
+    "pushed_at": "2026-05-03T10:51:56Z",
+    "stargazers_count": 15812,
     "topics": [
       "annotations",
       "classification",
@@ -274,7 +274,7 @@
       "semantic-segmentation",
       "video-annotation"
     ],
-    "updated_at": "2026-04-29T16:32:31Z"
+    "updated_at": "2026-05-03T10:26:36Z"
   },
   "repo_links": [
     {

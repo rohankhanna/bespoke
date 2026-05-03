@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:34:54.752263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2864
+    },
+    {
+      "path": "requirements.txt",
+      "size": 187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Find exposed data in Azure with this public blob scanner",
+    "fork": false,
+    "full_name": "cyberark/BlobHunter",
+    "html_url": "https://github.com/cyberark/BlobHunter",
+    "language": "Python",
+    "pushed_at": "2024-07-07T16:03:35Z",
+    "stargazers_count": 353,
+    "topics": [],
+    "updated_at": "2026-04-13T10:42:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

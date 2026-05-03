@@ -79,6 +79,30 @@
       "source_repo": "shunsukesaito/PIFu",
       "status": "candidate-context",
       "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1905.05172) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate-context",
+      "text": "Project page of paper \"Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate-context",
+      "text": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "karimnaaji/voxelizer",
+      "status": "candidate-context",
+      "text": "Header only mesh voxelizer in c99"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karimnaaji/voxelizer",
+      "status": "candidate-context",
+      "text": "_Header only mesh voxelizer in ANSI C_"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "shunsukesaito/PIFu",
       "status": "candidate",
       "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/1905.05172) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1GFSsqP2BWz4gtq0e-nki00ZHSirXwFyY)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ShichenLiu/SoftRas",
+      "status": "candidate",
+      "text": "This repository contains the code (in PyTorch) for \"[Soft Rasterizer: A Differentiable Renderer for Image-based 3D Reasoning](https://arxiv.org/abs/1904.01786)\" (ICCV'2019 Oral) by [Shichen Liu](https://shichenliu.github.io), [Tianye Li](https://sites.google.com/site/tianyefocus\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "karimnaaji/voxelizer",
+      "status": "candidate",
+      "text": "_Header only mesh voxelizer in ANSI C_"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +220,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "amirbarda/MagicClay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "amirbarda/MagicClay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ShichenLiu/SoftRas"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "karimnaaji/voxelizer"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

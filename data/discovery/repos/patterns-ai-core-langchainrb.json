@@ -36,28 +36,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "patterns-ai-core/langchainrb",
-      "target": "patterns-ai-core/langchainrb_rails",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "patterns-ai-core/langchainrb",
-      "target": "palladius/gemini-news-crawler",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "patterns-ai-core/langchainrb",
       "target": "explodinggradients/ragas",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "patterns-ai-core/langchainrb",
-      "target": "patterns-ai-core/langchainrb.",
       "target_type": "repository"
     },
     {
@@ -110,7 +89,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:56:34.551784+00:00",
+  "fetched_at": "2026-05-03T16:34:04.886718+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -131,7 +110,7 @@
     "html_url": "https://github.com/patterns-ai-core/langchainrb",
     "language": "Ruby",
     "pushed_at": "2026-05-01T13:06:13Z",
-    "stargazers_count": 1982,
+    "stargazers_count": 1983,
     "topics": [
       "agents",
       "ai-agents",
@@ -141,27 +120,12 @@
       "rubyml",
       "vector-search"
     ],
-    "updated_at": "2026-05-01T13:06:18Z"
+    "updated_at": "2026-05-03T05:39:59Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "explodinggradients/ragas",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "palladius/gemini-news-crawler",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "patterns-ai-core/langchainrb.",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "patterns-ai-core/langchainrb_rails",
       "source_file": "README.md"
     }
   ],

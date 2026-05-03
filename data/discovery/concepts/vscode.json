@@ -825,6 +825,30 @@
       "source_repo": "antfu/vscode-theme-vitesse",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Vitesse Theme for VS Code</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "miguelsolorio/vscode-fluent-icons",
+      "status": "candidate-context",
+      "text": "Fluent Icons for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miguelsolorio/vscode-fluent-icons",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "primer/github-vscode-theme",
+      "status": "candidate-context",
+      "text": "GitHub's VS Code themes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "primer/github-vscode-theme",
+      "status": "candidate-context",
+      "text": "![GitHub VS Code theme](https://user-images.githubusercontent.com/378023/132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)"
     }
   ],
   "candidate_glosses": [
@@ -1241,6 +1265,18 @@
       "source_repo": "antfu/vscode-theme-vitesse",
       "status": "candidate",
       "text": "<h1 align=\"center\">Vitesse Theme for VS Code</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "miguelsolorio/vscode-fluent-icons",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "primer/github-vscode-theme",
+      "status": "candidate",
+      "text": "![GitHub VS Code theme](https://user-images.githubusercontent.com/378023/132220037-3cd3e777-55a6-445f-9a2e-da6020ebd78d.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -1860,11 +1896,41 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "antfu/vscode-theme-vitesse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "miguelsolorio/vscode-fluent-icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "primer/github-vscode-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "michaellzc/vscode-hadolint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

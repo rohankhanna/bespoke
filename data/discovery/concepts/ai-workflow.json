@@ -19,6 +19,18 @@
       "source_repo": "moyangzhan/langchain4j-aideepin",
       "status": "candidate-context",
       "text": "**LangChain4j-AIDeepin\uff08\u5f97\u5e94AI\uff09 \u662f\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\u3002**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wyyazlz/sheetnext",
+      "status": "candidate-context",
+      "text": "A pure front-end spreadsheet component with Excel-like capabilities, built-in native AI workflows, and flexible LLM integration for data operations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wyyazlz/sheetnext",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "moyangzhan/langchain4j-aideepin",
       "status": "candidate",
       "text": "**LangChain4j-AIDeepin\uff08\u5f97\u5e94AI\uff09 \u662f\u57fa\u4e8eAI\u7684\u5de5\u4f5c\u6548\u7387\u63d0\u5347\u5de5\u5177\u3002**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wyyazlz/sheetnext",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-01T07:02:51.781400+00:00",
       "source_file": null,
       "source_repo": "moyangzhan/langchain4j-aideepin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "wyyazlz/sheetnext"
     }
   ],
   "first_seen_at": "2026-05-01T07:02:51.781400+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T07:02:51.781400+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

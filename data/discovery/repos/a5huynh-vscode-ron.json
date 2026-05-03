@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "vsce",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-oniguruma",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vscode-textmate",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "a5huynh/vscode-ron",
+      "target": "ron-rs/sublime-ron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "a5huynh/vscode-ron",
+      "target": "vsce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "a5huynh/vscode-ron",
+      "target": "vscode-oniguruma",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "a5huynh/vscode-ron",
+      "target": "vscode-textmate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a5huynh/vscode-ron",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "a5huynh/vscode-ron",
+      "target": "vscode-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:37:26.539140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1258
+    },
+    {
+      "path": "package.json",
+      "size": 1269
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust Object Notation (RON) vscode extension",
+    "fork": false,
+    "full_name": "a5huynh/vscode-ron",
+    "html_url": "https://github.com/a5huynh/vscode-ron",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-10T19:53:55Z",
+    "stargazers_count": 53,
+    "topics": [
+      "ron",
+      "rust",
+      "vscode-extension"
+    ],
+    "updated_at": "2026-03-10T19:53:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ron-rs/sublime-ron",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "vscode-ron is a RON syntax package for VS Code. Loosely based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "vscode-ron is a RON syntax package for VS Code. Loosely based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    }
+  ]
+}

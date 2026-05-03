@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaronjensen/eslintd-fix",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aaronjensen/eslintd-fix",
+      "target": "eslint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:34:12.896543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs minor-mode to automatically fix javascript with eslint_d.",
+    "fork": false,
+    "full_name": "aaronjensen/eslintd-fix",
+    "html_url": "https://github.com/aaronjensen/eslintd-fix",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-02-24T15:17:56Z",
+    "stargazers_count": 66,
+    "topics": [
+      "emacs",
+      "eslint",
+      "javascript"
+    ],
+    "updated_at": "2025-09-18T16:28:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/eslintd-fix-badge.svg)](https://melpa.org/#/eslintd-fix)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/eslintd-fix-badge.svg)](https://melpa.org/#/eslintd-fix)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    }
+  ]
+}

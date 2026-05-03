@@ -67,6 +67,42 @@
       "source_repo": "openxrlab/xrslam",
       "status": "candidate-context",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] vMAP: Vectorised Object Mapping for Neural Field SLAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "(LMNet) Moving Object Segmentation in 3D LiDAR Data: A Learning-based Approach Exploiting Sequential Data (RAL/IROS 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate-context",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/nice-slam",
+      "status": "candidate-context",
+      "text": "[CVPR'22] NICE-SLAM: Neural Implicit Scalable Encoding for SLAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/nice-slam",
+      "status": "candidate-context",
+      "text": "<!-- PROJECT LOGO -->"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "openxrlab/xrslam",
       "status": "candidate",
       "text": "<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PRBonn/LiDAR-MOS",
+      "status": "candidate",
+      "text": "This repo contains the code for our paper: Moving Object Segmentation in 3D LiDAR Data:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/nice-slam",
+      "status": "candidate",
+      "text": "<!-- PROJECT LOGO -->"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +262,29 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "openxrlab/xrslam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "PRBonn/LiDAR-MOS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

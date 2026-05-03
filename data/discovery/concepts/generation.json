@@ -67,6 +67,18 @@
       "source_repo": "IDEA-Research/HumanTOMATO",
       "status": "candidate-context",
       "text": "![](./assets/tomato-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3DTopia/OpenLRM",
+      "status": "candidate-context",
+      "text": "An open-source impl. of Large Reconstruction Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3DTopia/OpenLRM",
+      "status": "candidate-context",
+      "text": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "IDEA-Research/HumanTOMATO",
       "status": "candidate",
       "text": "![](./assets/tomato-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3DTopia/OpenLRM",
+      "status": "candidate",
+      "text": "[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -243,11 +261,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "JIA-Lab-research/MGM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "3DTopia/OpenLRM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/MGM"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

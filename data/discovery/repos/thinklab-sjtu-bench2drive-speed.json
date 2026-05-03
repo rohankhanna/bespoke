@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:32:01.955481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8152
+    },
+    {
+      "path": "requirements.txt",
+      "size": 850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Can users specify driving speed in AD...?",
+    "fork": false,
+    "full_name": "Thinklab-SJTU/Bench2Drive-Speed",
+    "html_url": "https://github.com/Thinklab-SJTU/Bench2Drive-Speed",
+    "language": "Python",
+    "pushed_at": "2026-04-30T05:03:09Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-05-03T03:53:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

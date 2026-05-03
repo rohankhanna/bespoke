@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Disallow features that aren't supported by your target browser audience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://badgen.net/npm/v/stylelint-no-unsupported-browser-features)](https://www.npmjs.com/package/stylelint-no-unsupported-browser-features)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://badgen.net/npm/v/stylelint-no-unsupported-browser-features)](https://www.npmjs.com/package/stylelint-no-unsupported-browser-features)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stylelint",
+      "sense_id": "stylelint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stylelint",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stylelint",
+  "observation_id": "df6b3fe8a69a625c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "stylelint",
+  "source_context_snippet": "[![npm version](https://badgen.net/npm/v/stylelint-no-unsupported-browser-features)](https://www.npmjs.com/package/stylelint-no-unsupported-browser-features)",
+  "source_file": null,
+  "source_repo": "RJWadley/stylelint-no-unsupported-browser-features",
+  "source_repo_description": "Disallow features that aren't supported by your target browser audience."
+}

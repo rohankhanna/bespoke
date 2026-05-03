@@ -84,7 +84,7 @@
   "normalized_form": "update-support-window-diagram",
   "observation_id": "1ed6e1a056aef0be",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Update support window diagram",
   "source_context_snippet": "Update support window diagram",
   "source_file": ".github/workflows/support-window.yml",

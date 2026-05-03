@@ -199,6 +199,42 @@
       "source_repo": "alibaba/designable",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpbruyere/CrowEdit",
+      "status": "candidate-context",
+      "text": "Extensible text editor using C.R.O.W. for the interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpbruyere/CrowEdit",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate-context",
+      "text": "OpenStreetMap editor for iPhone/iPad"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate-context",
+      "text": "Go Map!! is an iPhone/iPad editor for adding cartographic information to [OpenStreetMap][1]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josdejong/svelte-jsoneditor",
+      "status": "candidate-context",
+      "text": "A web-based tool to view, edit, format, repair, query, transform, and validate JSON"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/svelte-jsoneditor",
+      "status": "candidate-context",
+      "text": "A web-based tool to view, edit, format, transform, and validate JSON."
     }
   ],
   "candidate_glosses": [
@@ -297,6 +333,24 @@
       "source_repo": "alibaba/designable",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpbruyere/CrowEdit",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bryceco/GoMap",
+      "status": "candidate",
+      "text": "Go Map!! is an iPhone/iPad editor for adding cartographic information to [OpenStreetMap][1]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josdejong/svelte-jsoneditor",
+      "status": "candidate",
+      "text": "A web-based tool to view, edit, format, transform, and validate JSON."
     }
   ],
   "candidate_related_terms": [
@@ -450,11 +504,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "alibaba/designable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jpbruyere/CrowEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bryceco/GoMap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "josdejong/svelte-jsoneditor"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:39:26.300498+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4865
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "YuliangXiu/bvh-distance-queries",
+    "html_url": "https://github.com/YuliangXiu/bvh-distance-queries",
+    "language": "C",
+    "pushed_at": "2025-07-26T08:21:31Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-02-24T15:13:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

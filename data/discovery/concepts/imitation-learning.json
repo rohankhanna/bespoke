@@ -127,6 +127,54 @@
       "source_repo": "jimmyyhwu/tidybot2",
       "status": "candidate-context",
       "text": "This code release accompanies the following project:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/transfuser",
+      "status": "candidate-context",
+      "text": "[PAMI'23] TransFuser: Imitation with Transformer-Based Sensor Fusion for Autonomous Driving; [CVPR'21] Multi-Modal Fusion Transformer for End-to-End Autonomous Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/transfuser",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transfuser-imitation-with-transformer-based/autonomous-driving-on-carla-leaderboard)](https://paperswithcode.com/sota/autonomous-driving-on-carla-leaderboard?p=transfuser-imitation-with-transformer-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/GR-MG",
+      "status": "candidate-context",
+      "text": "Official implementation of GR-MG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/GR-MG",
+      "status": "candidate-context",
+      "text": "<h1>GR-MG</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hk-zh/spil",
+      "status": "candidate-context",
+      "text": "This is our SPIL model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hk-zh/spil",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MarkFzp/mobile-aloha",
+      "status": "candidate-context",
+      "text": "Mobile ALOHA: Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarkFzp/mobile-aloha",
+      "status": "candidate-context",
+      "text": "This codebase is forked from the [ALOHA repo](https://github.com/tonyzhaozh/aloha), and contains implementation for teleoperation and data collection with the Mobile ALOHA hardware."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "jimmyyhwu/tidybot2",
       "status": "candidate",
       "text": "This code release accompanies the following project:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/transfuser",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transfuser-imitation-with-transformer-based/autonomous-driving-on-carla-leaderboard)](https://paperswithcode.com/sota/autonomous-driving-on-carla-leaderboard?p=transfuser-imitation-with-transformer-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/GR-MG",
+      "status": "candidate",
+      "text": "<h1>GR-MG</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hk-zh/spil",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MarkFzp/mobile-aloha",
+      "status": "candidate",
+      "text": "This codebase is forked from the [ALOHA repo](https://github.com/tonyzhaozh/aloha), and contains implementation for teleoperation and data collection with the Mobile ALOHA hardware."
     }
   ],
   "candidate_related_terms": [],
@@ -298,11 +370,41 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "mila-iqia/babyai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/transfuser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/GR-MG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "hk-zh/spil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mila-iqia/babyai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MarkFzp/mobile-aloha"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

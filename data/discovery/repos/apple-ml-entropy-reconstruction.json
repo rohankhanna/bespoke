@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:40:36.049833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3969
+    },
+    {
+      "path": "requirements.txt",
+      "size": 11
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "apple/ml-entropy-reconstruction",
+    "html_url": "https://github.com/apple/ml-entropy-reconstruction",
+    "language": "Python",
+    "pushed_at": "2023-07-05T10:12:12Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2025-12-03T18:30:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

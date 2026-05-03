@@ -31,6 +31,18 @@
       "source_repo": "dropwizard/dropwizard",
       "status": "candidate-context",
       "text": "Trigger Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/swr",
+      "status": "candidate-context",
+      "text": "React Hooks for Data Fetching"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/swr",
+      "status": "candidate-context",
+      "text": "Trigger Release"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dropwizard/dropwizard",
+      "status": "candidate",
+      "text": "Trigger Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/swr",
       "status": "candidate",
       "text": "Trigger Release"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-30T18:36:26.757967+00:00",
       "source_file": ".github/workflows/trigger-release.yml",
       "source_repo": "dropwizard/dropwizard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/trigger-release.yml",
+      "source_repo": "vercel/swr"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-30T18:36:26.757967+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

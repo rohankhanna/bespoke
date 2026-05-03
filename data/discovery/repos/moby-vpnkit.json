@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "crazy-max/.github/.github/workflows/bake-distribute-mp.yml@d9a10e2737504a6e253f96e344cef684b0e00cb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bin-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-in-docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bin-image.yml",
+      "source_repo": "moby/vpnkit",
+      "target": "crazy-max/.github/.github/workflows/bake-distribute-mp.yml@d9a10e2737504a6e253f96e344cef684b0e00cb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bin-image.yml",
+      "source_repo": "moby/vpnkit",
+      "target": "bin-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-in-docker.yml",
+      "source_repo": "moby/vpnkit",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-in-docker.yml",
+      "source_repo": "moby/vpnkit",
+      "target": "test in Docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:13.202322+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3955
+    },
+    {
+      "path": "Dockerfile",
+      "size": 338
+    },
+    {
+      "path": "go.mod",
+      "size": 3151
+    },
+    {
+      "path": ".github/workflows/bin-image.yml",
+      "size": 1218
+    },
+    {
+      "path": ".github/workflows/tests-in-docker.yml",
+      "size": 297
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A toolkit for embedding VPN capabilities in your application",
+    "fork": false,
+    "full_name": "moby/vpnkit",
+    "html_url": "https://github.com/moby/vpnkit",
+    "language": "OCaml",
+    "pushed_at": "2026-04-09T10:13:21Z",
+    "stargazers_count": 1191,
+    "topics": [],
+    "updated_at": "2026-04-13T06:21:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "bin-image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bin-image.yml",
+      "term": "bin-image"
+    },
+    {
+      "context_snippet": "test in Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-in-docker.yml",
+      "term": "test in Docker"
+    }
+  ]
+}

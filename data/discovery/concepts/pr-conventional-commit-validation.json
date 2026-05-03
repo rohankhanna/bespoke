@@ -43,6 +43,18 @@
       "source_repo": "blockscout/blockscout",
       "status": "candidate-context",
       "text": "PR Conventional Commit Validation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cosmos/evm",
+      "status": "candidate-context",
+      "text": "An EVM compatible framework for blockchain development with the Cosmos SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/evm",
+      "status": "candidate-context",
+      "text": "PR Conventional Commit Validation"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "blockscout/blockscout",
+      "status": "candidate",
+      "text": "PR Conventional Commit Validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cosmos/evm",
       "status": "candidate",
       "text": "PR Conventional Commit Validation"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/pr-title-check.yml",
       "source_repo": "blockscout/blockscout"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/pr_title.yml",
+      "source_repo": "cosmos/evm"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

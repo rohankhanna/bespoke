@@ -223,6 +223,42 @@
       "source_repo": "heiher/hev-task-system",
       "status": "candidate-context",
       "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate-context",
+      "text": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate-context",
+      "text": "[Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "status": "candidate-context",
+      "text": "General Modeling Network Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "status": "candidate-context",
+      "text": "Volpe/FHWA partnership with [Zephyr Foundation](https://zephyrtransport.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/yarp",
+      "status": "candidate-context",
+      "text": "YARP - Yet Another Robot Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/yarp",
+      "status": "candidate-context",
+      "text": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +369,24 @@
       "source_repo": "heiher/hev-task-system",
       "status": "candidate",
       "text": "[![status](https://github.com/heiher/hev-task-system/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/hev-task-system)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate",
+      "text": "[Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "status": "candidate",
+      "text": "Volpe/FHWA partnership with [Zephyr Foundation](https://zephyrtransport.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/yarp",
+      "status": "candidate",
+      "text": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")"
     }
   ],
   "candidate_related_terms": [
@@ -736,11 +790,59 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "heiher/hev-task-system"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link-trigger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/beat-link"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Deep-Symmetry/dysentery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "XTLS/Xray-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "zephyr-data-specs/GMNS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/yarp"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

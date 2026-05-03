@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update extension translations"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate-context",
+      "text": "\ud83c\udfae Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate-context",
+      "text": "Update extension translations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate",
+      "text": "Update extension translations"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19973,
+      "status": "candidate",
+      "text": "prick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19364,
+      "status": "candidate",
+      "text": "adopt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19364,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19364,
+      "status": "candidate",
+      "text": "gerund"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19364,
+      "status": "candidate",
+      "text": "year"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update extension translations",
+  "concept_id": "update-extension-translations",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/update-extension-translations.yml",
+      "source_repo": "4ian/GDevelop"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update extension translations",
+      "sense_id": "update-extension-translations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

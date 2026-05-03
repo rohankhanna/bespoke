@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T14:37:12.883537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16387
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example repository for agentic AI generated long form report generation",
+    "fork": false,
+    "full_name": "danielrosehill/All-About-MCP",
+    "html_url": "https://github.com/danielrosehill/All-About-MCP",
+    "language": "Python",
+    "pushed_at": "2025-12-04T17:19:19Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-12-04T17:19:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

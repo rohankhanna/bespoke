@@ -199,6 +199,42 @@
       "source_repo": "bitnami/charts",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/chartkick",
+      "status": "candidate-context",
+      "text": "Create beautiful JavaScript charts with one line of Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/chartkick",
+      "status": "candidate-context",
+      "text": "Create beautiful JavaScript charts with one line of Ruby. No more fighting with charting libraries!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/k8s",
+      "status": "candidate-context",
+      "text": "Kubernetes Helm Charts for the ORY ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/k8s",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/ory/k8s/actions/workflows/ci.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/blazer",
+      "status": "candidate-context",
+      "text": "Business intelligence made simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/blazer",
+      "status": "candidate-context",
+      "text": "Explore your data with SQL. Easily create charts and dashboards, and share them with your team."
     }
   ],
   "candidate_glosses": [
@@ -297,6 +333,24 @@
       "source_repo": "bitnami/charts",
       "status": "candidate",
       "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/chartkick",
+      "status": "candidate",
+      "text": "Create beautiful JavaScript charts with one line of Ruby. No more fighting with charting libraries!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/k8s",
+      "status": "candidate",
+      "text": "![CI](https://github.com/ory/k8s/actions/workflows/ci.yaml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/blazer",
+      "status": "candidate",
+      "text": "Explore your data with SQL. Easily create charts and dashboards, and share them with your team."
     }
   ],
   "candidate_related_terms": [
@@ -478,11 +532,29 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ankane/chartkick"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ory/k8s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ankane/blazer"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

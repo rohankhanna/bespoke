@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "commitlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ariesjia/vue-composition-test-utils",
+      "target": "antfu/vue-demi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ariesjia/vue-composition-test-utils",
+      "target": "commitlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ariesjia/vue-composition-test-utils",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "ariesjia/vue-composition-test-utils",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "ariesjia/vue-composition-test-utils",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "ariesjia/vue-composition-test-utils",
+      "target": "Node CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariesjia/vue-composition-test-utils",
+      "target": "composition-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariesjia/vue-composition-test-utils",
+      "target": "unit-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:40:37.487272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3190
+    },
+    {
+      "path": "package.json",
+      "size": 676
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple vue composition api unit test utilities support both Vue 2 and 3",
+    "fork": false,
+    "full_name": "ariesjia/vue-composition-test-utils",
+    "html_url": "https://github.com/ariesjia/vue-composition-test-utils",
+    "language": "JavaScript",
+    "pushed_at": "2024-02-22T03:34:15Z",
+    "stargazers_count": 37,
+    "topics": [
+      "composition-api",
+      "unit-testing",
+      "vue"
+    ],
+    "updated_at": "2024-05-28T19:12:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antfu/vue-demi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nodejs.yml",
+      "term": "Node CI"
+    },
+    {
+      "context_snippet": "Simple vue composition api testing utilities",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "composition-api"
+    },
+    {
+      "context_snippet": "Simple vue composition api testing utilities",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-testing"
+    }
+  ]
+}

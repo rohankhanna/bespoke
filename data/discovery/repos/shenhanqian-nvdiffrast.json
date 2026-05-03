@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShenhanQian/nvdiffrast",
+      "target": "waveengine/samples-2.5",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:44:23.061179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2095
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nvdiffrast - Modular Primitives for High-Performance Differentiable Rendering",
+    "fork": true,
+    "full_name": "ShenhanQian/nvdiffrast",
+    "html_url": "https://github.com/ShenhanQian/nvdiffrast",
+    "language": "C++",
+    "pushed_at": "2024-10-06T14:16:56Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-10-06T14:15:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "waveengine/samples-2.5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

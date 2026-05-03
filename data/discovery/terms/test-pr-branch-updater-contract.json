@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test-pr-branch-updater-contract.yml",
+      "source_repo": "kyverno/.github"
+    }
+  ],
+  "term": "Test PR Branch Updater Contract"
+}

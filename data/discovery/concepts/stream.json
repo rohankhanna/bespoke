@@ -139,6 +139,18 @@
       "source_repo": "JuliaIO/FileIO.jl",
       "status": "candidate-context",
       "text": "[![Build status](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml/badge.svg)](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jimmywarting/StreamSaver.js",
+      "status": "candidate-context",
+      "text": "StreamSaver writes stream to the filesystem directly asynchronous"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimmywarting/StreamSaver.js",
+      "status": "candidate-context",
+      "text": "StreamSaver.js (legacy-ish)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "JuliaIO/FileIO.jl",
       "status": "candidate",
       "text": "[![Build status](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml/badge.svg)](https://github.com/JuliaIO/FileIO.jl/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimmywarting/StreamSaver.js",
+      "status": "candidate",
+      "text": "StreamSaver.js (legacy-ish)"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +406,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "JuliaIO/FileIO.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "0no-co/wonka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "jimmywarting/StreamSaver.js"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

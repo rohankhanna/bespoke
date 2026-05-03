@@ -43,6 +43,18 @@
       "source_repo": "google/argh",
       "status": "candidate-context",
       "text": "**Argh is an opinionated Derive-based argument parser optimized for code size**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spf13/cobra",
+      "status": "candidate-context",
+      "text": "A Commander for modern Go CLI interactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spf13/cobra",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "google/argh",
       "status": "candidate",
       "text": "**Argh is an opinionated Derive-based argument parser optimized for code size**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spf13/cobra",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,17 @@
       "observed_at": "2026-05-01T12:32:24.464365+00:00",
       "source_file": null,
       "source_repo": "google/argh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "spf13/cobra"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T12:32:24.464365+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

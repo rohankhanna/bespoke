@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IConfucius | Wisdom for Bitcoin Markets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![cicd](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml/badge.svg)](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml) ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/onicai/IConfucius?utm_source=oss&utm_medium=githu\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![cicd](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml/badge.svg)](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml) ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/onicai/IConfucius?utm_source=oss&utm_medium=githu\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chain-fusion-ai",
+      "sense_id": "chain-fusion-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chain-fusion-ai",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chain-fusion-ai",
+  "observation_id": "959b7880803ab053",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "chain-fusion-ai",
+  "source_context_snippet": "[![cicd](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml/badge.svg)](https://github.com/onicai/IConfucius/actions/workflows/cicd.yml) ![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/onicai/IConfucius?utm_source=oss&utm_medium=githu\u2026",
+  "source_file": null,
+  "source_repo": "onicai/IConfucius",
+  "source_repo_description": "IConfucius | Wisdom for Bitcoin Markets"
+}

@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "ws",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/sieppari",
+      "target": "clojure/core.async",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metosin/sieppari",
+      "target": "ztellman/manifold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "metosin/sieppari",
+      "target": "ws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "metosin/sieppari",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "metosin/sieppari",
+      "target": "Clojure CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/sieppari",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/sieppari",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/sieppari",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/sieppari",
+      "target": "interceptor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/sieppari",
+      "target": "metosin-inactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "metosin/sieppari",
+      "target": "promise",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:47:35.608853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7515
+    },
+    {
+      "path": "package.json",
+      "size": 396
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 302
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Small, fast, and complete interceptor library for Clojure/Script",
+    "fork": false,
+    "full_name": "metosin/sieppari",
+    "html_url": "https://github.com/metosin/sieppari",
+    "language": "Clojure",
+    "pushed_at": "2024-12-31T15:12:26Z",
+    "stargazers_count": 216,
+    "topics": [
+      "async",
+      "clojure",
+      "clojurescript",
+      "interceptor",
+      "metosin-inactive",
+      "promise"
+    ],
+    "updated_at": "2026-03-05T06:38:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/core.async",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ztellman/manifold",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Clojure CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Clojure CI"
+    },
+    {
+      "context_snippet": "Small, fast, and complete interceptor library for Clojure/Script with built-in support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "Small, fast, and complete interceptor library for Clojure/Script with built-in support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "Small, fast, and complete interceptor library for Clojure/Script with built-in support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "Small, fast, and complete interceptor library for Clojure/Script with built-in support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interceptor"
+    },
+    {
+      "context_snippet": "Small, fast, and complete interceptor library for Clojure/Script with built-in support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metosin-inactive"
+    },
+    {
+      "context_snippet": "Small, fast, and complete interceptor library for Clojure/Script with built-in support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "promise"
+    }
+  ]
+}

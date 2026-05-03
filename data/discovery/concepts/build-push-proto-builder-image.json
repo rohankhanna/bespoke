@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Build & Push Proto Builder Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tendermint/spec",
+      "status": "candidate-context",
+      "text": "Build & Push Proto Builder Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tendermint/spec",
+      "status": "candidate",
+      "text": "Build & Push Proto Builder Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26256,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26184,
+      "status": "candidate",
+      "text": "forge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25955,
+      "status": "candidate",
+      "text": "wood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25933,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22726,
+      "status": "candidate",
+      "text": "ovule"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build & Push Proto Builder Image",
+  "concept_id": "build-push-proto-builder-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/proto-dockerfile.yml",
+      "source_repo": "tendermint/spec"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Push Proto Builder Image",
+      "sense_id": "build-push-proto-builder-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

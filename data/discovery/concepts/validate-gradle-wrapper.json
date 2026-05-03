@@ -157,6 +157,42 @@
       "source_repo": "mstrobel/procyon",
       "status": "candidate-context",
       "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "testng-team/testng",
+      "status": "candidate-context",
+      "text": "TestNG testing framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng",
+      "status": "candidate-context",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ReactiveX/RxJava",
+      "status": "candidate-context",
+      "text": "RxJava \u2013 Reactive Extensions for the JVM \u2013 a library for composing asynchronous and event-based programs using observable sequences for the Java VM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReactiveX/RxJava",
+      "status": "candidate-context",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Helium314/SCEE",
+      "status": "candidate-context",
+      "text": "OpenStreetMap surveyor app for experienced OSM contributors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Helium314/SCEE",
+      "status": "candidate-context",
+      "text": "\"Validate Gradle Wrapper\""
     }
   ],
   "candidate_glosses": [
@@ -235,6 +271,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mstrobel/procyon",
+      "status": "candidate",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "testng-team/testng",
+      "status": "candidate",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReactiveX/RxJava",
+      "status": "candidate",
+      "text": "\"Validate Gradle Wrapper\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Helium314/SCEE",
       "status": "candidate",
       "text": "\"Validate Gradle Wrapper\""
     }
@@ -418,11 +472,35 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": ".github/workflows/gradle-wrapper-validation.yml",
       "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "testng-team/testng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "ReactiveX/RxJava"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/gradle-wrapper-validation.yml",
+      "source_repo": "Helium314/SCEE"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

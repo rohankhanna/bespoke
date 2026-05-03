@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philgras/neural-head-avatars",
+      "target": "peterl1n/robustvideomatting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "philgras/neural-head-avatars",
+      "target": "boukhayma/face_normals",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:44:26.794177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation of \"Neural Head Avatars from Monocular RGB Videos\"",
+    "fork": false,
+    "full_name": "philgras/neural-head-avatars",
+    "html_url": "https://github.com/philgras/neural-head-avatars",
+    "language": "Python",
+    "pushed_at": "2022-07-24T07:31:21Z",
+    "stargazers_count": 566,
+    "topics": [],
+    "updated_at": "2026-04-11T09:32:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boukhayma/face_normals",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peterl1n/robustvideomatting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

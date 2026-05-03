@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tommasongr/nova-vue",
+      "target": "code-editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tommasongr/nova-vue",
+      "target": "nova-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tommasongr/nova-vue",
+      "target": "panic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tommasongr/nova-vue",
+      "target": "syntax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tommasongr/nova-vue",
+      "target": "vue-support",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tommasongr/nova-vue",
+      "target": "vuejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:41:27.358656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vue support for Nova editor.",
+    "fork": false,
+    "full_name": "tommasongr/nova-vue",
+    "html_url": "https://github.com/tommasongr/nova-vue",
+    "language": "JavaScript",
+    "pushed_at": "2023-04-26T10:26:23Z",
+    "stargazers_count": 38,
+    "topics": [
+      "code-editor",
+      "nova-extension",
+      "panic",
+      "syntax",
+      "vue",
+      "vue-support",
+      "vuejs"
+    ],
+    "updated_at": "2025-11-09T00:28:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/tommasongr/nova-vue/master/assets/nova-vue.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-editor"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/tommasongr/nova-vue/master/assets/nova-vue.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nova-extension"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/tommasongr/nova-vue/master/assets/nova-vue.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "panic"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/tommasongr/nova-vue/master/assets/nova-vue.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/tommasongr/nova-vue/master/assets/nova-vue.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vue-support"
+    },
+    {
+      "context_snippet": "![](https://raw.githubusercontent.com/tommasongr/nova-vue/master/assets/nova-vue.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vuejs"
+    }
+  ]
+}

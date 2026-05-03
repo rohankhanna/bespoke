@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dhumangan/3DHumanGAN",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dhumangan/3DHumanGAN",
+      "target": "digital-humans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dhumangan/3DHumanGAN",
+      "target": "neural-field",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3dhumangan/3DHumanGAN",
+      "target": "neural-rendering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:47.092775+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A 3D-aware generative adversarial network (GAN) that synthesizes images of full-body humans with consistent appearances under different view-angles and body-poses.",
+    "fork": false,
+    "full_name": "3dhumangan/3DHumanGAN",
+    "html_url": "https://github.com/3dhumangan/3DHumanGAN",
+    "language": "Python",
+    "pushed_at": "2023-10-31T00:07:19Z",
+    "stargazers_count": 240,
+    "topics": [
+      "computer-vision",
+      "digital-humans",
+      "neural-field",
+      "neural-rendering"
+    ],
+    "updated_at": "2025-11-14T15:46:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./assets/teaser.jpg\" width=\"96%\" height=\"96%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<img src=\"./assets/teaser.jpg\" width=\"96%\" height=\"96%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digital-humans"
+    },
+    {
+      "context_snippet": "<img src=\"./assets/teaser.jpg\" width=\"96%\" height=\"96%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-field"
+    },
+    {
+      "context_snippet": "<img src=\"./assets/teaser.jpg\" width=\"96%\" height=\"96%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-rendering"
+    }
+  ]
+}

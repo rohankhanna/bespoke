@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "neural-fields"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] vMAP: Vectorised Object Mapping for Neural Field SLAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cvg/nice-slam",
+      "status": "candidate-context",
+      "text": "[CVPR'22] NICE-SLAM: Neural Implicit Scalable Encoding for SLAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/nice-slam",
+      "status": "candidate-context",
+      "text": "<!-- PROJECT LOGO -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cvg/nice-slam",
+      "status": "candidate",
+      "text": "<!-- PROJECT LOGO -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "neural-fields",
+  "concept_id": "neural-fields",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "cvg/nice-slam"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-fields",
+      "sense_id": "neural-fields#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "on-chain LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![icpp_llm](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml/badge.svg)](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![icpp_llm](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml/badge.svg)](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "internetcomputer",
+      "sense_id": "internetcomputer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "internetcomputer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "internetcomputer",
+  "observation_id": "4687807caa5358f6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "internetcomputer",
+  "source_context_snippet": "[![icpp_llm](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml/badge.svg)](https://github.com/icppWorld/icpp_llm/actions/workflows/cicd.yml)",
+  "source_file": null,
+  "source_repo": "icppWorld/icpp_llm",
+  "source_repo_description": "on-chain LLMs"
+}

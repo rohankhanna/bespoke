@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:36:41.685818+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3156
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Neuro SAN applied to Climate Change",
+    "fork": false,
+    "full_name": "cognizant-ai-lab/neuro-san-cc",
+    "html_url": "https://github.com/cognizant-ai-lab/neuro-san-cc",
+    "language": "Python",
+    "pushed_at": "2026-03-16T06:14:27Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-02-11T00:52:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

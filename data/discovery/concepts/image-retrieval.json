@@ -223,6 +223,18 @@
       "source_repo": "ducha-aiki/affnet",
       "status": "candidate-context",
       "text": "CNN-based affine shape estimator."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate-context",
+      "text": "SOTA Re-identification Methods and Toolbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate-context",
+      "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +345,12 @@
       "source_repo": "ducha-aiki/affnet",
       "status": "candidate",
       "text": "CNN-based affine shape estimator."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JDAI-CV/fast-reid",
+      "status": "candidate",
+      "text": "<img src=\".github/FastReID-Logo.png\" width=\"300\" >"
     }
   ],
   "candidate_related_terms": [],
@@ -448,11 +466,17 @@
       "observed_at": "2026-05-02T06:47:22.946566+00:00",
       "source_file": null,
       "source_repo": "ducha-aiki/affnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JDAI-CV/fast-reid"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-02T06:47:22.946566+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

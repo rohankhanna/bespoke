@@ -1636,6 +1636,90 @@
       "source_repo": "heiher/socks5",
       "status": "candidate-context",
       "text": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "braintree/braintree_android",
+      "status": "candidate-context",
+      "text": "Braintree SDK for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "braintree/braintree_android",
+      "status": "candidate-context",
+      "text": "![GitHub Actions Tests](https://github.com/braintree/braintree_android/workflows/Tests/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid",
+      "status": "candidate-context",
+      "text": "NekoBox for Android / sing-box / universal proxy toolchain for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid",
+      "status": "candidate-context",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImranR98/Obtainium",
+      "status": "candidate-context",
+      "text": "Get Android app updates straight from the source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImranR98/Obtainium",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NeoApplications/Neo-Backup",
+      "status": "candidate-context",
+      "text": "backup manager for android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeoApplications/Neo-Backup",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lxgw/advanced-cjk-font-magisk-module-template",
+      "status": "candidate-context",
+      "text": "A Magisk module template to systemlessly replace system fonts. Supports CJK Fonts. \u7528\u4e8e\u5236\u4f5c\u5b57\u4f53\u6a21\u5757\u7684 Magisk \u6a21\u5757\u6a21\u677f\uff0c\u652f\u6301\u4e2d\u65e5\u97e9\u5b57\u4f53\u7684\u66ff\u6362\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/advanced-cjk-font-magisk-module-template",
+      "status": "candidate-context",
+      "text": "> **\u91cd\u8981\u63d0\u9192\uff1a**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kool-engine/kool",
+      "status": "candidate-context",
+      "text": "A Vulkan /  WebGPU / OpenGL engine for Desktop JVM, Android and Javascript written in Kotlin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kool-engine/kool",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kool-engine/kool/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate-context",
+      "text": "An integration test framework for React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -2472,6 +2556,48 @@
       "source_repo": "heiher/socks5",
       "status": "candidate",
       "text": "[![status](https://github.com/heiher/socks5/actions/workflows/build.yaml/badge.svg?branch=main&event=push)](https://github.com/heiher/socks5)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "braintree/braintree_android",
+      "status": "candidate",
+      "text": "![GitHub Actions Tests](https://github.com/braintree/braintree_android/workflows/Tests/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid",
+      "status": "candidate",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImranR98/Obtainium",
+      "status": "candidate",
+      "text": "<div align=\"center\"><a href=\"https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md\"><img src=\"https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg\" alt=\"Support Palestine\" style=\"width: 100%;\"></a></\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NeoApplications/Neo-Backup",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lxgw/advanced-cjk-font-magisk-module-template",
+      "status": "candidate",
+      "text": "> **\u91cd\u8981\u63d0\u9192\uff1a**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kool-engine/kool",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/kool-engine/kool/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixielabs/cavy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -3658,11 +3784,89 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/android-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nitaliano/react-native-mapbox-gl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "DioxusLabs/dioxus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "snapcast/snapdroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "braintree/braintree_android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ImranR98/Obtainium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NeoApplications/Neo-Backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lxgw/advanced-cjk-font-magisk-module-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kool-engine/kool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "pixielabs/cavy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -295,6 +295,42 @@
       "source_repo": "bytedance/particle-sfm",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/GR-1",
+      "status": "candidate-context",
+      "text": "Code for \"Unleashing Large-Scale Video Generative Pre-training for Visual Robot Manipulation\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/GR-1",
+      "status": "candidate-context",
+      "text": "This repo contains code for the paper:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/GR-MG",
+      "status": "candidate-context",
+      "text": "Official implementation of GR-MG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/GR-MG",
+      "status": "candidate-context",
+      "text": "<h1>GR-MG</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robotology/yarp",
+      "status": "candidate-context",
+      "text": "YARP - Yet Another Robot Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/yarp",
+      "status": "candidate-context",
+      "text": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")"
     }
   ],
   "candidate_glosses": [
@@ -447,6 +483,24 @@
       "source_repo": "bytedance/particle-sfm",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/GR-1",
+      "status": "candidate",
+      "text": "This repo contains code for the paper:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/GR-MG",
+      "status": "candidate",
+      "text": "<h1>GR-MG</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robotology/yarp",
+      "status": "candidate",
+      "text": "![YARP logo](doc/images/yarp-robot-24.png?raw=true \"YARP\")"
     }
   ],
   "candidate_related_terms": [
@@ -765,11 +819,41 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/GR-1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/GR-MG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/WebThinker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "robotology/yarp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

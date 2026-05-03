@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "curldivergence/imgui-d3d12-renderer",
+      "target": "gekkio/imgui-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "curldivergence/imgui-d3d12-renderer",
+      "target": "curldivergence/rusty-d3d12",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:45:42.578281+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 530
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "D3D12 renderer for Dear ImGUI based on rusty-d3d12 bindings",
+    "fork": false,
+    "full_name": "curldivergence/imgui-d3d12-renderer",
+    "html_url": "https://github.com/curldivergence/imgui-d3d12-renderer",
+    "language": "Rust",
+    "pushed_at": "2022-08-17T19:13:59Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2024-11-17T12:00:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "curldivergence/rusty-d3d12",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gekkio/imgui-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

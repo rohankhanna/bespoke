@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-front-end-frameworks",
+      "target": "hchiam/learning-web-tooling-and-automation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-front-end-frameworks",
+      "target": "hchiam/learning-js-design-patterns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-front-end-frameworks",
+      "target": "udacity/fef-udacimeals-backbone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hchiam/learning-front-end-frameworks",
+      "target": "udacity/fef-udacimeals-backbone-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning-front-end-frameworks",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hchiam/learning-front-end-frameworks",
+      "target": "front-end",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:33:36.454283+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 963
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Learning about Front End Frameworks",
+    "fork": false,
+    "full_name": "hchiam/learning-front-end-frameworks",
+    "html_url": "https://github.com/hchiam/learning-front-end-frameworks",
+    "language": "HTML",
+    "pushed_at": "2021-10-01T04:07:19Z",
+    "stargazers_count": 1,
+    "topics": [
+      "framework",
+      "front-end"
+    ],
+    "updated_at": "2021-10-01T04:07:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-js-design-patterns",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hchiam/learning-web-tooling-and-automation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "udacity/fef-udacimeals-backbone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "udacity/fef-udacimeals-backbone-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "Just one of the things I'm learning. <https://github.com/hchiam/learning>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "front-end"
+    }
+  ]
+}

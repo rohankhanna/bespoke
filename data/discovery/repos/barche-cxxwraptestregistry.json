@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T14:46:27.102550+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Julia package registry for experimental CxxWrap-based jll packages",
+    "fork": false,
+    "full_name": "barche/CxxWrapTestRegistry",
+    "html_url": "https://github.com/barche/CxxWrapTestRegistry",
+    "language": null,
+    "pushed_at": "2023-09-16T14:12:53Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-01-06T00:40:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

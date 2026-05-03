@@ -1,0 +1,12 @@
+{
+  "component": "nrwl/nx-set-shas@310288c04d90696f9f1bc27c5e3caea6642b53d4",
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nrwl/nx"
+    }
+  ]
+}

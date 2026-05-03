@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Storing and accessing large Julia array locally or in cloud storage without server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "BigArrays.jl"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "BigArrays.jl"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "big-data",
+      "sense_id": "big-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "big-data",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "big-data",
+  "observation_id": "cff4947af5cf3aa9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "big-data",
+  "source_context_snippet": "BigArrays.jl",
+  "source_file": null,
+  "source_repo": "seung-lab/BigArrays.jl",
+  "source_repo_description": "Storing and accessing large Julia array locally or in cloud storage without server."
+}

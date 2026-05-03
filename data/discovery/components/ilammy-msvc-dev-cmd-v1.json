@@ -1,7 +1,7 @@
 {
   "component": "ilammy/msvc-dev-cmd@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -832,6 +832,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test_windows.yml",
       "source_repo": "iamaisim/ProjectAirSim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-nomedia.yml",
+      "source_repo": "paullouisageneau/libdatachannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-openssl.yml",
+      "source_repo": "paullouisageneau/libdatachannel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nvim-treesitter/nvim-treesitter-textobjects"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-nekoray-cmake.yml",
+      "source_repo": "MatsuriDayo/nekoray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheels.yml",
+      "source_repo": "Blosc/python-blosc2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jlblancoc/suitesparse-metis-for-windows"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-win.yml",
+      "source_repo": "murat-dogan/node-datachannel"
     }
   ]
 }

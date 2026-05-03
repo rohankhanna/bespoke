@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:32:46.286188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python code usable accross projects",
+    "fork": false,
+    "full_name": "fab-jul/fjcommon",
+    "html_url": "https://github.com/fab-jul/fjcommon",
+    "language": "Python",
+    "pushed_at": "2021-05-17T12:00:09Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2021-05-17T12:00:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

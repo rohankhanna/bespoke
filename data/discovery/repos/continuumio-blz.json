@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ContinuumIO/blz",
+      "target": "blosc/bcolz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ContinuumIO/blz",
+      "target": "pydata/numexpr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ContinuumIO/blz",
+      "target": "esc/bloscpack",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:46:25.712653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ContinuumIO/blz",
+    "html_url": "https://github.com/ContinuumIO/blz",
+    "language": "C",
+    "pushed_at": "2024-08-14T00:43:32Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2022-03-15T13:01:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blosc/bcolz",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "esc/bloscpack",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pydata/numexpr",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

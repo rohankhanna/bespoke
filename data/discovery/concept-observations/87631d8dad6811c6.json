@@ -84,7 +84,7 @@
   "normalized_form": "build-and-publish-docker-image-amd",
   "observation_id": "87631d8dad6811c6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Build and Publish Docker Image (AMD)",
   "source_context_snippet": "Build and Publish Docker Image (AMD)",
   "source_file": ".github/workflows/docker-build-amd.yml",

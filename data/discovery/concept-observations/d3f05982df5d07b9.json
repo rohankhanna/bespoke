@@ -84,7 +84,7 @@
   "normalized_form": "pre-commit-checks",
   "observation_id": "d3f05982df5d07b9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T06:58:35.245846+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "Pre-commit checks",
   "source_context_snippet": "Pre-commit checks",
   "source_file": ".github/workflows/pre-commit.yaml",

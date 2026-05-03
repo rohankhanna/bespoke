@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "json-stringify-pretty-compact",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "locale-compare",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "osmium",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shelljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ideditor/nsi-collector",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ideditor/nsi-collector",
+      "target": "json-stringify-pretty-compact",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ideditor/nsi-collector",
+      "target": "locale-compare",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ideditor/nsi-collector",
+      "target": "osmium",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ideditor/nsi-collector",
+      "target": "shelljs",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:45:36.550175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2141
+    },
+    {
+      "path": "package.json",
+      "size": 658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "name-suggestion-index collector scripts",
+    "fork": false,
+    "full_name": "ideditor/nsi-collector",
+    "html_url": "https://github.com/ideditor/nsi-collector",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-04T21:00:07Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-03-21T04:27:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

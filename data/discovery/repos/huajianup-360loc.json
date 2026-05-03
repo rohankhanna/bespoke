@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:32:43.493018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2585
+    },
+    {
+      "path": "requirements.txt",
+      "size": 0
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " [CVPR' 24] Toolkit for 360Loc: A Dataset and Benchmark for Omnidirectional Visual Localization with Cross-device Queries Resources",
+    "fork": false,
+    "full_name": "HuajianUP/360Loc",
+    "html_url": "https://github.com/HuajianUP/360Loc",
+    "language": "Python",
+    "pushed_at": "2026-01-15T08:41:30Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-04-14T01:33:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

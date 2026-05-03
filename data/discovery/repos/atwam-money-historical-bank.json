@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atwam/money-historical-bank",
+      "target": "currencybot/open-exchange-rates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atwam/money-historical-bank",
+      "target": "spk/money-open-exchange-rates",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:31:19.468078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4077
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Historical bank for the money gem",
+    "fork": false,
+    "full_name": "atwam/money-historical-bank",
+    "html_url": "https://github.com/atwam/money-historical-bank",
+    "language": "Ruby",
+    "pushed_at": "2025-09-17T18:58:57Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2025-09-02T16:12:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "currencybot/open-exchange-rates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spk/money-open-exchange-rates",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

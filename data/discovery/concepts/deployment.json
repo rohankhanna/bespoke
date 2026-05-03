@@ -358,6 +358,18 @@
       "source_repo": "FoundationVision/ByteTrack",
       "status": "candidate-context",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bytetrack-multi-object-tracking-by-1/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=bytetrack-multi-object-tracking-by-1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mapbox/mason",
+      "status": "candidate-context",
+      "text": "Cross platform package manager for C/C++ apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mason",
+      "status": "candidate-context",
+      "text": "\u274c **UNMAINTAINED: this project is no longer maintained and no additional development is planned. Nor is any kind of deprecation planned. Rather this code is now frozen. If you are depending on this module in any of your applications, it is recommended you remove the dependency a\u2026"
     }
   ],
   "candidate_glosses": [
@@ -534,6 +546,12 @@
       "source_repo": "FoundationVision/ByteTrack",
       "status": "candidate",
       "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bytetrack-multi-object-tracking-by-1/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=bytetrack-multi-object-tracking-by-1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mapbox/mason",
+      "status": "candidate",
+      "text": "\u274c **UNMAINTAINED: this project is no longer maintained and no additional development is planned. Nor is any kind of deprecation planned. Rather this code is now frozen. If you are depending on this module in any of your applications, it is recommended you remove the dependency a\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -763,11 +781,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "FoundationVision/ByteTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "FoundationVision/ByteTrack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "mapbox/mason"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

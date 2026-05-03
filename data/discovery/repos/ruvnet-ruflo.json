@@ -992,7 +992,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:06:28.042254+00:00",
+  "fetched_at": "2026-05-03T16:43:28.936723+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1039,13 +1039,13 @@
   "repo": {
     "archived": false,
     "default_branch": "main",
-    "description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+    "description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
     "fork": false,
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
     "pushed_at": "2026-05-03T02:29:31Z",
-    "stargazers_count": 36981,
+    "stargazers_count": 38191,
     "topics": [
       "agentic-ai",
       "agentic-engineering",
@@ -1068,7 +1068,7 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-05-03T04:06:03Z"
+    "updated_at": "2026-05-03T16:42:46Z"
   },
   "repo_links": [
     {

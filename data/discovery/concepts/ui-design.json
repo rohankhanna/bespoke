@@ -43,6 +43,18 @@
       "source_repo": "nordtheme/nord",
       "status": "candidate-context",
       "text": "nord \u2014 An arctic, north-bluish color palette"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ElemeFE/element-react",
+      "status": "candidate-context",
+      "text": "Element UI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElemeFE/element-react",
+      "status": "candidate-context",
+      "text": "[![](https://travis-ci.org/eleme/element-react.svg?branch=master)](https://travis-ci.org/eleme/element-react)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "nordtheme/nord",
       "status": "candidate",
       "text": "nord \u2014 An arctic, north-bluish color palette"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ElemeFE/element-react",
+      "status": "candidate",
+      "text": "[![](https://travis-ci.org/eleme/element-react.svg?branch=master)](https://travis-ci.org/eleme/element-react)"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-05-01T18:29:39.500037+00:00",
       "source_file": null,
       "source_repo": "nordtheme/nord"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ElemeFE/element-react"
     }
   ],
   "first_seen_at": "2026-04-30T00:37:16.824464+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-01T18:29:39.500037+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

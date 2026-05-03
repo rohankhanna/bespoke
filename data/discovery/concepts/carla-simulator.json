@@ -43,6 +43,18 @@
       "source_repo": "autonomousvision/plant",
       "status": "candidate-context",
       "text": "**News**: \\"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autonomousvision/plant2",
+      "status": "candidate-context",
+      "text": "PlanT 2.0: Exposing Biases and Structural Flaws in Closed-Loop Driving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/plant2",
+      "status": "candidate-context",
+      "text": "PlanT 2.0 is a lightweight, object-centric planning transformer for CARLA that enables controlled analysis of failure modes while achieving strong closed-loop performance on CARLA Leaderboard 2.0 benchmarks."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "autonomousvision/plant",
       "status": "candidate",
       "text": "**News**: \\"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autonomousvision/plant2",
+      "status": "candidate",
+      "text": "PlanT 2.0 is a lightweight, object-centric planning transformer for CARLA that enables controlled analysis of failure modes while achieving strong closed-loop performance on CARLA Leaderboard 2.0 benchmarks."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "autonomousvision/plant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "autonomousvision/plant2"
     }
   ],
   "first_seen_at": "2026-04-30T07:00:14.271058+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

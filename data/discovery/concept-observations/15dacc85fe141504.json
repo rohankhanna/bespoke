@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official implementation of the paper \"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\", Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, Nature Machine Intelligence, 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39621952,
+      "status": "candidate",
+      "text": "valency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29804858,
+      "status": "candidate",
+      "text": "layer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29748807,
+      "status": "candidate",
+      "text": "diaper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29691268,
+      "status": "candidate",
+      "text": "prevalence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29475405,
+      "status": "candidate",
+      "text": "valencian"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "valence",
+      "sense_id": "valence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3034,
+      "status": "candidate",
+      "text": "valency"
+    }
+  ],
+  "concept_id": "valence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "valence",
+  "observation_id": "15dacc85fe141504",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "valence",
+  "source_context_snippet": "Official implementation of the paper _\"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](\u2026",
+  "source_file": null,
+  "source_repo": "face-analysis/emonet",
+  "source_repo_description": "Official implementation of the paper \"Estimation of continuous valence and arousal levels from faces in naturalistic conditions\", Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, Nature Machine Intelligence, 2021"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u5178\u8ff9(Monu)\u7cfb\u5217\u5b57\u4f53"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "2019\u5e74\u8d77\u5236\u4f5c\u3001\u7528\u4e8e\u7279\u5b9a\u7528\u9014\u3001\u6709\u539f\u521b\u6210\u5206\u7684\u6574\u5408\u5b9e\u7528\u5b57\u4f53\u7cfb\u5217\u3002Monu \u662f Monument\uff08\u5178\u8ff9\uff09\u7684\u7f29\u5199\u3002\\"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "2019\u5e74\u8d77\u5236\u4f5c\u3001\u7528\u4e8e\u7279\u5b9a\u7528\u9014\u3001\u6709\u539f\u521b\u6210\u5206\u7684\u6574\u5408\u5b9e\u7528\u5b57\u4f53\u7cfb\u5217\u3002Monu \u662f Monument\uff08\u5178\u8ff9\uff09\u7684\u7f29\u5199\u3002\\"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unicode-characters",
+      "sense_id": "unicode-characters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unicode-characters",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unicode-characters",
+  "observation_id": "a66d2180684c517f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "unicode-characters",
+  "source_context_snippet": "2019\u5e74\u8d77\u5236\u4f5c\u3001\u7528\u4e8e\u7279\u5b9a\u7528\u9014\u3001\u6709\u539f\u521b\u6210\u5206\u7684\u6574\u5408\u5b9e\u7528\u5b57\u4f53\u7cfb\u5217\u3002Monu \u662f Monument\uff08\u5178\u8ff9\uff09\u7684\u7f29\u5199\u3002\\",
+  "source_file": null,
+  "source_repo": "MY1L/Monu",
+  "source_repo_description": "\u5178\u8ff9(Monu)\u7cfb\u5217\u5b57\u4f53"
+}

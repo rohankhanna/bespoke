@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MatchaChoco010/egui-winit-ash-integration",
+      "target": "maikklein/ash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MatchaChoco010/egui-winit-ash-integration",
+      "target": "traverse-research/gpu-allocator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MatchaChoco010/egui-winit-ash-integration",
+      "target": "matchachoco010/egui-ash",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:35:26.759419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3143
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1763
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the egui integration crate for winit and ash.",
+    "fork": false,
+    "full_name": "MatchaChoco010/egui-winit-ash-integration",
+    "html_url": "https://github.com/MatchaChoco010/egui-winit-ash-integration",
+    "language": "Rust",
+    "pushed_at": "2024-04-06T12:19:45Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-01-23T07:48:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maikklein/ash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matchachoco010/egui-ash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "traverse-research/gpu-allocator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

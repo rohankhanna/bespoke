@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/DPE",
+      "target": "carlyx/dpe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/DPE",
+      "target": "renyurui/pirender",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/DPE",
+      "target": "rotemtzaban/stit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenTalker/DPE",
+      "target": "feiiyin/styleheat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:33:39.783574+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9814
+    },
+    {
+      "path": "requirements.txt",
+      "size": 369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2023] DPE: Disentanglement of Pose and Expression for General Video Portrait Editing",
+    "fork": false,
+    "full_name": "OpenTalker/DPE",
+    "html_url": "https://github.com/OpenTalker/DPE",
+    "language": "Python",
+    "pushed_at": "2024-02-27T08:18:08Z",
+    "stargazers_count": 454,
+    "topics": [],
+    "updated_at": "2026-04-20T11:18:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carlyx/dpe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feiiyin/styleheat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "renyurui/pirender",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rotemtzaban/stit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T13:37:55.785287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Like lein-pprint, but with colors!",
+    "fork": false,
+    "full_name": "greglook/lein-cprint",
+    "html_url": "https://github.com/greglook/lein-cprint",
+    "language": "Clojure",
+    "pushed_at": "2022-01-21T00:46:14Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2022-01-21T00:46:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

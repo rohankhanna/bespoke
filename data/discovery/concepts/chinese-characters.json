@@ -19,6 +19,18 @@
       "source_repo": "MY1L/Unicode",
       "status": "candidate-context",
       "text": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NightFurySL2001/cjktables",
+      "status": "candidate-context",
+      "text": "Lists of Chinese characters for reference \uff5c \u6c49\u5b57\u53c2\u8003\u5217\u8868"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NightFurySL2001/cjktables",
+      "status": "candidate-context",
+      "text": "Lists of Chinese characters for reference \uff5c \u6c49\u5b57\u53c2\u8003\u5217\u8868"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "MY1L/Unicode",
       "status": "candidate",
       "text": "\u8fd9\u91cc\u653e\u4e86\u4e9b\u6211\u505a\u7684\u7edf\u4e00\u7801\u76f8\u5173\u5de5\u5177\uff0c\u5305\u542b\u5b57\u4f53\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NightFurySL2001/cjktables",
+      "status": "candidate",
+      "text": "Lists of Chinese characters for reference \uff5c \u6c49\u5b57\u53c2\u8003\u5217\u8868"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "MY1L/Unicode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "NightFurySL2001/cjktables"
     }
   ],
   "first_seen_at": "2026-05-03T06:58:35.245846+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

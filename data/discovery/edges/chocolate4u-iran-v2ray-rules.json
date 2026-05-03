@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "chocolate4u/iran-sing-box-rules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "chocolate4u/iran-clash-rules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "bootmortis/iran-hosted-domains",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "adguardteam/adguardsdnsfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/findredundant.yml",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/findredundant.yml",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "Find Redundant Domains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-geolite2.yml",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/get-geolite2.yml",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "Get GeoLite2 database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/get-ip2location.yml",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/get-ip2location.yml",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "Get IP2Location-Lite database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "dev-drprasad/delete-older-releases@v0.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "Generate v2ray routing rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "adblock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "domains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "geoip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "geosite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "iran",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "malware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "phishing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "routing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "v2ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chocolate4U/Iran-v2ray-rules",
+      "target": "xray",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "Chocolate4U/Iran-v2ray-rules"
+}

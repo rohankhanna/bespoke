@@ -48,7 +48,7 @@
   "normalized_form": "protobuf",
   "observation_id": "4c2c2c017629eae9",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "protobuf",
   "source_context_snippet": "[![GitHub CI](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml/badge.svg)](https://github.com/elixir-grpc/grpc/actions/workflows/ci.yml)",
   "source_file": null,

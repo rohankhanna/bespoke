@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "icub-tech-iit/ergocub-software",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "mamba-org/setup-micromamba@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "CI Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "gazebo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "robotics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "sdformat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "urdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "urdf-descriptions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gbionics/resolve-robotics-uri-py",
+      "target": "urdf-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:38:39.564084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3626
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 290
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2554
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 790
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Resolve a package:// or model:// URI to an absolute filename in Python.",
+    "fork": false,
+    "full_name": "gbionics/resolve-robotics-uri-py",
+    "html_url": "https://github.com/gbionics/resolve-robotics-uri-py",
+    "language": "Python",
+    "pushed_at": "2025-10-31T08:55:22Z",
+    "stargazers_count": 13,
+    "topics": [
+      "gazebo",
+      "robotics",
+      "ros",
+      "ros2",
+      "sdf",
+      "sdformat",
+      "urdf",
+      "urdf-descriptions",
+      "urdf-models"
+    ],
+    "updated_at": "2025-12-18T14:06:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "icub-tech-iit/ergocub-software",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI Workflow"
+    },
+    {
+      "context_snippet": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gazebo"
+    },
+    {
+      "context_snippet": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robotics"
+    },
+    {
+      "context_snippet": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    },
+    {
+      "context_snippet": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sdformat"
+    },
+    {
+      "context_snippet": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf"
+    },
+    {
+      "context_snippet": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf-descriptions"
+    },
+    {
+      "context_snippet": "Pure Python package (that only depends on Python stdlib) to resolve a package:// (ROS-style) or model:// (Gazebo-style) URI to an absolute filename.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "urdf-models"
+    }
+  ]
+}

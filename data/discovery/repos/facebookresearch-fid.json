@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:35:46.763635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9779
+    },
+    {
+      "path": "requirements.txt",
+      "size": 54
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Fusion-in-Decoder",
+    "fork": false,
+    "full_name": "facebookresearch/FiD",
+    "html_url": "https://github.com/facebookresearch/FiD",
+    "language": "Python",
+    "pushed_at": "2023-10-04T21:23:33Z",
+    "stargazers_count": 594,
+    "topics": [],
+    "updated_at": "2026-04-28T09:46:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:41:41.629423+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "github-starter-workflows/repo-analysis-partner",
+    "html_url": "https://github.com/github-starter-workflows/repo-analysis-partner",
+    "language": null,
+    "pushed_at": "2024-02-11T10:02:10Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-04-30T18:59:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

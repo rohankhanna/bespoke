@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NJU/SparseOcc",
+      "target": "mcg-nju/sparsebev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MCG-NJU/SparseOcc",
+      "target": "zju3dv/neuralrecon",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:51.907101+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10893
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024] Fully Sparse 3D Occupancy Prediction & RayIoU Evaluation Metric",
+    "fork": false,
+    "full_name": "MCG-NJU/SparseOcc",
+    "html_url": "https://github.com/MCG-NJU/SparseOcc",
+    "language": "Python",
+    "pushed_at": "2024-08-15T03:00:34Z",
+    "stargazers_count": 420,
+    "topics": [],
+    "updated_at": "2026-04-30T08:11:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mcg-nju/sparsebev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zju3dv/neuralrecon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

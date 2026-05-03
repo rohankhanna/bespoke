@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flutter/Dart <-> Rust binding generator, feature-rich, but seamless and simple."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Dev Docker Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Dev Docker Image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21688,
+      "status": "candidate",
+      "text": "compulsory purchase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21688,
+      "status": "candidate",
+      "text": "pave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21688,
+      "status": "candidate",
+      "text": "specimen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21641,
+      "status": "candidate",
+      "text": "etiolate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21641,
+      "status": "candidate",
+      "text": "etiolated"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Dev Docker Image",
+      "sense_id": "publish-dev-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-dev-docker-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-dev-docker-image",
+  "observation_id": "2b9af138586c6844",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Publish Dev Docker Image",
+  "source_context_snippet": "Publish Dev Docker Image",
+  "source_file": ".github/workflows/publish_dev_docker.yaml",
+  "source_repo": "fzyzcjy/flutter_rust_bridge",
+  "source_repo_description": "Flutter/Dart <-> Rust binding generator, feature-rich, but seamless and simple."
+}

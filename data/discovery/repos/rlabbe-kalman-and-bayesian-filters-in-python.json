@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:31:37.029207+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19740
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kalman Filter book using Jupyter Notebook. Focuses on building intuition and experience, not formal proofs.  Includes Kalman filters,extended Kalman filters, unscented Kalman filters, particle filters, and more. All exercises include solutions.",
+    "fork": false,
+    "full_name": "rlabbe/Kalman-and-Bayesian-Filters-in-Python",
+    "html_url": "https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-07T13:19:15Z",
+    "stargazers_count": 18938,
+    "topics": [],
+    "updated_at": "2026-05-03T10:33:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

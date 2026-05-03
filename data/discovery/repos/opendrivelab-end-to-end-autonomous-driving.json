@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "target": "end-to-end-autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "target": "policy-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenDriveLab/End-to-end-Autonomous-Driving",
+      "target": "simulation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:58.622505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10863
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[IEEE T-PAMI 2024] All you need for End-to-end Autonomous Driving",
+    "fork": false,
+    "full_name": "OpenDriveLab/End-to-end-Autonomous-Driving",
+    "html_url": "https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving",
+    "language": null,
+    "pushed_at": "2025-07-02T05:27:46Z",
+    "stargazers_count": 3601,
+    "topics": [
+      "autonomous-driving",
+      "end-to-end-autonomous-driving",
+      "policy-learning",
+      "simulation"
+    ],
+    "updated_at": "2026-04-29T15:04:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "end-to-end-autonomous-driving"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "policy-learning"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    }
+  ]
+}

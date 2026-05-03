@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Pytorch version of SfmLearner from Tinghui Zhou et al."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This codebase implements the system described in the paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This codebase implements the system described in the paper:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885148,
+      "status": "candidate",
+      "text": "unattended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29885191,
+      "status": "candidate",
+      "text": "unbridled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29885011,
+      "status": "candidate",
+      "text": "unobserved"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884942,
+      "status": "candidate",
+      "text": "uncontrolled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29884932,
+      "status": "candidate",
+      "text": "untrammelled"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unsupervised",
+      "sense_id": "unsupervised#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28,
+      "status": "candidate",
+      "text": "unattended"
+    }
+  ],
+  "concept_id": "unsupervised",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unsupervised",
+  "observation_id": "cf93cf5979efe523",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "unsupervised",
+  "source_context_snippet": "This codebase implements the system described in the paper:",
+  "source_file": null,
+  "source_repo": "ClementPinard/SfmLearner-Pytorch",
+  "source_repo_description": "Pytorch version of SfmLearner from Tinghui Zhou et al."
+}

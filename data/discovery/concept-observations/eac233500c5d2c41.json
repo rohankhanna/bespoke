@@ -84,7 +84,7 @@
   "normalized_form": "npm-format-website-console",
   "observation_id": "eac233500c5d2c41",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "NPM Format (website & console)",
   "source_context_snippet": "NPM Format (website & console)",
   "source_file": ".github/workflows/npm-format.yml",

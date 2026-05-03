@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MikeMcl/decimal.js",
+      "target": "josdejong/mathjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MikeMcl/decimal.js",
+      "target": "mikemcl/decimal.js-light",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/decimal.js",
+      "target": "arbitrary-precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/decimal.js",
+      "target": "bigdecimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/decimal.js",
+      "target": "bignumber",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/decimal.js",
+      "target": "significant-digits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MikeMcl/decimal.js",
+      "target": "trigonometric-functions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:35:16.087006+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8328
+    },
+    {
+      "path": "package.json",
+      "size": 1135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An arbitrary-precision Decimal type for JavaScript",
+    "fork": false,
+    "full_name": "MikeMcl/decimal.js",
+    "html_url": "https://github.com/MikeMcl/decimal.js",
+    "language": "JavaScript",
+    "pushed_at": "2025-07-06T22:50:07Z",
+    "stargazers_count": 7171,
+    "topics": [
+      "arbitrary-precision",
+      "bigdecimal",
+      "bignumber",
+      "javascript",
+      "significant-digits",
+      "trigonometric-functions"
+    ],
+    "updated_at": "2026-05-02T17:34:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "josdejong/mathjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikemcl/decimal.js-light",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![decimal.js](https://raw.githubusercontent.com/MikeMcl/decimal.js/gh-pages/decimaljs.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arbitrary-precision"
+    },
+    {
+      "context_snippet": "![decimal.js](https://raw.githubusercontent.com/MikeMcl/decimal.js/gh-pages/decimaljs.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigdecimal"
+    },
+    {
+      "context_snippet": "![decimal.js](https://raw.githubusercontent.com/MikeMcl/decimal.js/gh-pages/decimaljs.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bignumber"
+    },
+    {
+      "context_snippet": "![decimal.js](https://raw.githubusercontent.com/MikeMcl/decimal.js/gh-pages/decimaljs.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "significant-digits"
+    },
+    {
+      "context_snippet": "![decimal.js](https://raw.githubusercontent.com/MikeMcl/decimal.js/gh-pages/decimaljs.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trigonometric-functions"
+    }
+  ]
+}

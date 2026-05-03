@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dead Spider Killer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alltheplaces/alltheplaces",
+      "status": "candidate-context",
+      "text": "A set of spiders and scrapers to extract location information from places that post their location on the internet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alltheplaces/alltheplaces",
+      "status": "candidate-context",
+      "text": "Dead Spider Killer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alltheplaces/alltheplaces",
+      "status": "candidate",
+      "text": "Dead Spider Killer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17822,
+      "status": "candidate",
+      "text": "creep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17653,
+      "status": "candidate",
+      "text": "cobra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17616,
+      "status": "candidate",
+      "text": "man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9931,
+      "status": "candidate",
+      "text": "arthropod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9931,
+      "status": "candidate",
+      "text": "disembowel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dead Spider Killer",
+  "concept_id": "dead-spider-killer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/dead-spider-killer.yml",
+      "source_repo": "alltheplaces/alltheplaces"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dead Spider Killer",
+      "sense_id": "dead-spider-killer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

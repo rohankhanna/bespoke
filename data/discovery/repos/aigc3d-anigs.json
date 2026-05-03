@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aigc3d/AniGS",
+      "target": "aicg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aigc3d/AniGS",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aigc3d/AniGS",
+      "target": "digital-humans",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:33:27.625444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR2025] AniGS: Animatable Gaussian Avatar from a Single Image with Inconsistent Gaussian Reconstruction",
+    "fork": false,
+    "full_name": "aigc3d/AniGS",
+    "html_url": "https://github.com/aigc3d/AniGS",
+    "language": null,
+    "pushed_at": "2025-03-13T19:01:23Z",
+    "stargazers_count": 452,
+    "topics": [
+      "aicg",
+      "aigc",
+      "digital-humans"
+    ],
+    "updated_at": "2026-04-08T12:02:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Website](https://raw.githubusercontent.com/prs-eth/Marigold/main/doc/badges/badge-website.svg)](https://lingtengqiu.github.io/2024/AniGS/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aicg"
+    },
+    {
+      "context_snippet": "[![Website](https://raw.githubusercontent.com/prs-eth/Marigold/main/doc/badges/badge-website.svg)](https://lingtengqiu.github.io/2024/AniGS/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "[![Website](https://raw.githubusercontent.com/prs-eth/Marigold/main/doc/badges/badge-website.svg)](https://lingtengqiu.github.io/2024/AniGS/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digital-humans"
+    }
+  ]
+}

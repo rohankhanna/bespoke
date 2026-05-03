@@ -1,0 +1,41 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openSUSE/libsolv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:46.817209+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 533
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Library for solving packages and reading repositories",
+    "fork": false,
+    "full_name": "openSUSE/libsolv",
+    "html_url": "https://github.com/openSUSE/libsolv",
+    "language": "C",
+    "pushed_at": "2026-04-30T13:08:06Z",
+    "stargazers_count": 588,
+    "topics": [],
+    "updated_at": "2026-04-30T13:08:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

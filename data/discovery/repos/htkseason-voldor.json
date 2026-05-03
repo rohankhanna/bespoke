@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "htkseason/VOLDOR",
+      "target": "htkseason/pydbow3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "htkseason/VOLDOR",
+      "target": "jlblancoc/suitesparse-metis-for-windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "htkseason/VOLDOR",
+      "target": "foxis/pydbow3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "htkseason/VOLDOR",
+      "target": "ericjang/svd3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:37:45.757958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VOLDOR-SLAM is a real-time dense-indirect SLAM system takes dense optical flows as input that supports monocular, stereo and RGB-D video sequence.",
+    "fork": false,
+    "full_name": "htkseason/VOLDOR",
+    "html_url": "https://github.com/htkseason/VOLDOR",
+    "language": "C++",
+    "pushed_at": "2022-08-30T19:47:55Z",
+    "stargazers_count": 486,
+    "topics": [],
+    "updated_at": "2026-04-17T03:40:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericjang/svd3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "foxis/pydbow3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "htkseason/pydbow3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jlblancoc/suitesparse-metis-for-windows",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

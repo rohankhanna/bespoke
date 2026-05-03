@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Overv/VulkanTutorial",
+      "target": "dauxio/daux.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Overv/VulkanTutorial",
+      "target": "overv/daux.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Overv/VulkanTutorial",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Overv/VulkanTutorial",
+      "target": "graphics-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Overv/VulkanTutorial",
+      "target": "reference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Overv/VulkanTutorial",
+      "target": "tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Overv/VulkanTutorial",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:35:27.628890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6522
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 162
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tutorial for the Vulkan graphics and compute API",
+    "fork": false,
+    "full_name": "Overv/VulkanTutorial",
+    "html_url": "https://github.com/Overv/VulkanTutorial",
+    "language": "C++",
+    "pushed_at": "2026-03-29T16:38:42Z",
+    "stargazers_count": 3653,
+    "topics": [
+      "computer-graphics",
+      "cpp",
+      "graphics-programming",
+      "reference",
+      "tutorial",
+      "vulkan"
+    ],
+    "updated_at": "2026-05-01T07:41:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dauxio/daux.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "overv/daux.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Vulkan tutorial",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "Vulkan tutorial",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-programming"
+    },
+    {
+      "context_snippet": "Vulkan tutorial",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reference"
+    },
+    {
+      "context_snippet": "Vulkan tutorial",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    },
+    {
+      "context_snippet": "Vulkan tutorial",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

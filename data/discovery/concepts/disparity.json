@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "disparity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "status": "candidate-context",
+      "text": "Pytorch version of SfmLearner from Tinghui Zhou et al."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "status": "candidate-context",
+      "text": "This codebase implements the system described in the paper:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClementPinard/SfmLearner-Pytorch",
+      "status": "candidate",
+      "text": "This codebase implements the system described in the paper:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969170,
+      "status": "candidate",
+      "text": "disproportionality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969133,
+      "status": "candidate",
+      "text": "disproportion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968770,
+      "status": "candidate",
+      "text": "unfairness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968767,
+      "status": "candidate",
+      "text": "asymmetry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968611,
+      "status": "candidate",
+      "text": "inconsistency"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "disparity",
+  "concept_id": "disparity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "ClementPinard/SfmLearner-Pytorch"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "disparity",
+      "sense_id": "disparity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

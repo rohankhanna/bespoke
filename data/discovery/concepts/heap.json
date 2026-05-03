@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "heap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luciopaiva/heapify",
+      "status": "candidate-context",
+      "text": "The fastest JavaScript priority queue out there. Zero dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luciopaiva/heapify",
+      "status": "candidate-context",
+      "text": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "status": "candidate-context",
+      "text": "a fast heap-based priority queue in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "status": "candidate-context",
+      "text": "In a priority queue, you can..."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luciopaiva/heapify",
+      "status": "candidate",
+      "text": "![Heapify](https://raw.githubusercontent.com/luciopaiva/heapify/master/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemire/FastPriorityQueue.js",
+      "status": "candidate",
+      "text": "In a priority queue, you can..."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010007,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006304,
+      "status": "candidate",
+      "text": "lot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005621,
+      "status": "candidate",
+      "text": "muckle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005292,
+      "status": "candidate",
+      "text": "mickle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004589,
+      "status": "candidate",
+      "text": "great deal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41039,
+      "status": "candidate",
+      "text": "slew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21039,
+      "status": "candidate",
+      "text": "spate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20075,
+      "status": "candidate",
+      "text": "mass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18062,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18054,
+      "status": "candidate",
+      "text": "deal"
+    }
+  ],
+  "canonical_name": "heap",
+  "concept_id": "heap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "luciopaiva/heapify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "lemire/FastPriorityQueue.js"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "heap",
+      "sense_id": "heap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

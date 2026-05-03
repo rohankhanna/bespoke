@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Storybook"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate-context",
+      "text": "\ud83c\udfae Open-source, cross-platform 2D/3D/multiplayer game engine designed for everyone."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate-context",
+      "text": "Build Storybook"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "4ian/GDevelop",
+      "status": "candidate",
+      "text": "Build Storybook"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11824,
+      "status": "candidate",
+      "text": "ogre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11824,
+      "status": "candidate",
+      "text": "once"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11582,
+      "status": "candidate",
+      "text": "genie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11582,
+      "status": "candidate",
+      "text": "moral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11582,
+      "status": "candidate",
+      "text": "tale"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Storybook",
+  "concept_id": "build-storybook",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/build-storybook.yml",
+      "source_repo": "4ian/GDevelop"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Storybook",
+      "sense_id": "build-storybook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

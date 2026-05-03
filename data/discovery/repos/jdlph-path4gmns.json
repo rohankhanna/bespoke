@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "zephyr-data-specs/gmns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "jdlph/dtalite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "jdlph/opendta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "column-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "dtalite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "dynamic-traffic-assignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "gradient-projection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "path-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "shortest-paths",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jdlph/Path4GMNS",
+      "target": "traffic-assignment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:31:38.708303+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5738
+    },
+    {
+      "path": ".github/workflows/pytest.yml",
+      "size": 814
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An open-source, cross-platform, lightweight, and fast Python path engine for networks encoded in GMNS.",
+    "fork": false,
+    "full_name": "jdlph/Path4GMNS",
+    "html_url": "https://github.com/jdlph/Path4GMNS",
+    "language": "Python",
+    "pushed_at": "2025-12-16T02:33:52Z",
+    "stargazers_count": 66,
+    "topics": [
+      "column-generation",
+      "dtalite",
+      "dynamic-traffic-assignment",
+      "gradient-projection",
+      "path-engine",
+      "shortest-paths",
+      "traffic-assignment"
+    ],
+    "updated_at": "2026-01-31T08:49:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdlph/dtalite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jdlph/opendta",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zephyr-data-specs/gmns",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "column-generation"
+    },
+    {
+      "context_snippet": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dtalite"
+    },
+    {
+      "context_snippet": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-traffic-assignment"
+    },
+    {
+      "context_snippet": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradient-projection"
+    },
+    {
+      "context_snippet": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path-engine"
+    },
+    {
+      "context_snippet": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shortest-paths"
+    },
+    {
+      "context_snippet": "[![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-red)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traffic-assignment"
+    }
+  ]
+}

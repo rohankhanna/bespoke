@@ -168,13 +168,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PanJiaChen/vue-admin-template",
-      "target": "panjiachen/panjiachen.github.io",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "PanJiaChen/vue-admin-template",
@@ -448,7 +441,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T05:08:02.941202+00:00",
+  "fetched_at": "2026-05-03T14:40:12.956610+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -482,13 +475,7 @@
     ],
     "updated_at": "2026-04-30T02:15:34Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "panjiachen/panjiachen.github.io",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README-zh.md)",

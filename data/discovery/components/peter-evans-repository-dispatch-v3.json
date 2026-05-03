@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/repository-dispatch@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -122,6 +122,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/trigger_bru.yml",
       "source_repo": "robotology/icub-models"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gdcore-tools-hook.yml",
+      "source_repo": "4ian/GDevelop"
     }
   ]
 }

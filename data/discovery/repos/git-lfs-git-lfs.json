@@ -158,13 +158,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "git-lfs/git-lfs",
-      "target": "git-lfs/git-lfs-test",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "git-lfs/git-lfs",
@@ -249,7 +242,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:52:19.121449+00:00",
+  "fetched_at": "2026-05-03T15:46:00.816278+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -278,21 +271,15 @@
     "html_url": "https://github.com/git-lfs/git-lfs",
     "language": "Go",
     "pushed_at": "2026-05-01T05:23:41Z",
-    "stargazers_count": 14236,
+    "stargazers_count": 14235,
     "topics": [
       "git",
       "git-lfs",
       "go"
     ],
-    "updated_at": "2026-05-02T21:56:42Z"
+    "updated_at": "2026-05-03T04:47:34Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "git-lfs/git-lfs-test",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Release",

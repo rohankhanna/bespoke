@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "AMLab-Amsterdam/lie_learn",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "AMLab-Amsterdam/lie_learn",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "AMLab-Amsterdam/lie_learn",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "AMLab-Amsterdam/lie_learn",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "AMLab-Amsterdam/lie_learn",
+      "target": "Build and Publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T14:47:18.833819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2647
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1221
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 1069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Computations involving Lie groups and harmonic analysis",
+    "fork": false,
+    "full_name": "AMLab-Amsterdam/lie_learn",
+    "html_url": "https://github.com/AMLab-Amsterdam/lie_learn",
+    "language": "Python",
+    "pushed_at": "2025-02-11T10:52:21Z",
+    "stargazers_count": 207,
+    "topics": [],
+    "updated_at": "2026-04-15T09:48:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Build and Publish\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Build and Publish"
+    }
+  ]
+}

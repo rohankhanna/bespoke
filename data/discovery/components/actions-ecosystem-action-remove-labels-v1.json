@@ -1,7 +1,7 @@
 {
   "component": "actions-ecosystem/action-remove-labels@v1",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -122,6 +122,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml",
       "source_repo": "stevearc/oil.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/remove_labels.yml",
+      "source_repo": "fzyzcjy/flutter_rust_bridge"
     }
   ]
 }

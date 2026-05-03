@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:48:28.340427+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "File system utilities for Clojure. (forked from Raynes/fs)",
+    "fork": false,
+    "full_name": "clj-commons/fs",
+    "html_url": "https://github.com/clj-commons/fs",
+    "language": "Clojure",
+    "pushed_at": "2025-08-06T18:17:26Z",
+    "stargazers_count": 80,
+    "topics": [],
+    "updated_at": "2025-08-18T11:00:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

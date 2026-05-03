@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "delimiter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "status": "candidate-context",
+      "text": "High-performance delimited-file reader and writer for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://sl-solution.github.io/DLMReader.jl/stable) [![](https://img.shields.io/badge/docs-dev-blue.svg)](https://sl-solution.github.io/DLMReader.jl/dev)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022526,
+      "status": "candidate",
+      "text": "separator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014166,
+      "status": "candidate",
+      "text": "boundary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29979790,
+      "status": "candidate",
+      "text": "splitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973814,
+      "status": "candidate",
+      "text": "breaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29940872,
+      "status": "candidate",
+      "text": "tab"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "delimiter",
+  "concept_id": "delimiter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "sl-solution/DLMReader.jl"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "delimiter",
+      "sense_id": "delimiter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

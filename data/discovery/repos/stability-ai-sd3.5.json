@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Stability-AI/sd3.5",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:37:22.032093+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7570
+    },
+    {
+      "path": "requirements.txt",
+      "size": 152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Stability-AI/sd3.5",
+    "html_url": "https://github.com/Stability-AI/sd3.5",
+    "language": "Python",
+    "pushed_at": "2025-01-08T14:05:05Z",
+    "stargazers_count": 1493,
+    "topics": [],
+    "updated_at": "2026-05-02T15:52:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

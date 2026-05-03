@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "colineckert/obsidian-things",
+      "target": "deathau/sliding-panes-obsidian",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "colineckert/obsidian-things",
+      "target": "liamcain/obsidian-calendar-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "colineckert/obsidian-things",
+      "target": "mgmeyers/obsidian-kanban",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "colineckert/obsidian-things",
+      "target": "jamiebrynes7/obsidian-todoist-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colineckert/obsidian-things",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colineckert/obsidian-things",
+      "target": "light-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colineckert/obsidian-things",
+      "target": "obsidian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colineckert/obsidian-things",
+      "target": "obsidian-md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colineckert/obsidian-things",
+      "target": "obsidian-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "colineckert/obsidian-things",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T13:43:28.484126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Obsidian theme inspired by the beautifully-designed app, Things. ",
+    "fork": false,
+    "full_name": "colineckert/obsidian-things",
+    "html_url": "https://github.com/colineckert/obsidian-things",
+    "language": "CSS",
+    "pushed_at": "2026-04-30T14:56:22Z",
+    "stargazers_count": 954,
+    "topics": [
+      "dark-theme",
+      "light-theme",
+      "obsidian",
+      "obsidian-md",
+      "obsidian-theme",
+      "theme"
+    ],
+    "updated_at": "2026-05-02T15:28:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deathau/sliding-panes-obsidian",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jamiebrynes7/obsidian-todoist-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liamcain/obsidian-calendar-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgmeyers/obsidian-kanban",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dark-theme"
+    },
+    {
+      "context_snippet": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light-theme"
+    },
+    {
+      "context_snippet": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian"
+    },
+    {
+      "context_snippet": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-md"
+    },
+    {
+      "context_snippet": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "obsidian-theme"
+    },
+    {
+      "context_snippet": "V1 of this theme was built using code from **@kepano's** great Minimal theme. Please support @kepano's work!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

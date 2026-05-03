@@ -307,7 +307,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:49:07.650614+00:00",
+  "fetched_at": "2026-05-03T15:43:13.083581+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -360,13 +360,13 @@
     "html_url": "https://github.com/harbor-framework/harbor",
     "language": "Python",
     "pushed_at": "2026-05-03T02:43:58Z",
-    "stargazers_count": 1755,
+    "stargazers_count": 1759,
     "topics": [
       "evals",
       "rl-environments",
       "terminal-bench"
     ],
-    "updated_at": "2026-05-03T02:44:01Z"
+    "updated_at": "2026-05-03T12:34:39Z"
   },
   "repo_links": [
     {

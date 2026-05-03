@@ -23,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:01:23.910937+00:00",
+  "fetched_at": "2026-05-03T16:38:34.812511+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -48,13 +48,13 @@
     "html_url": "https://github.com/DayBreak-u/chineseocr_lite",
     "language": "C++",
     "pushed_at": "2023-08-14T21:55:50Z",
-    "stargazers_count": 12280,
+    "stargazers_count": 12281,
     "topics": [
       "ncnn",
       "ocr",
       "pytorch"
     ],
-    "updated_at": "2026-05-03T01:52:42Z"
+    "updated_at": "2026-05-03T11:51:13Z"
   },
   "repo_links": [
     {

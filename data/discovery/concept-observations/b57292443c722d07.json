@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast, flexible and extensible genome browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Master docs build'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Master docs build'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22461,
+      "status": "candidate",
+      "text": "ame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22461,
+      "status": "candidate",
+      "text": "archive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22461,
+      "status": "candidate",
+      "text": "bresson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22461,
+      "status": "candidate",
+      "text": "dakar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22461,
+      "status": "candidate",
+      "text": "delorme"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Master docs build",
+      "sense_id": "master-docs-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "master-docs-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "master-docs-build",
+  "observation_id": "b57292443c722d07",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "Master docs build",
+  "source_context_snippet": "'Master docs build'",
+  "source_file": ".github/workflows/docs.yml",
+  "source_repo": "higlass/higlass",
+  "source_repo_description": "Fast, flexible and extensible genome browser."
+}

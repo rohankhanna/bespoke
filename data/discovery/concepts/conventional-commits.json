@@ -353,6 +353,36 @@
       "source_repo": "ory/hydra-login-consent-node",
       "status": "candidate-context",
       "text": "Conventional commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/dockertest",
+      "status": "candidate-context",
+      "text": "Write better integration tests! Dockertest helps you boot up ephermal docker images for your Go tests with minimal work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/dockertest",
+      "status": "candidate-context",
+      "text": "Conventional commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ory/k8s",
+      "status": "candidate-context",
+      "text": "Kubernetes Helm Charts for the ORY ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/k8s",
+      "status": "candidate-context",
+      "text": "Conventional commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/kratos-selfservice-ui-node",
+      "status": "candidate-context",
+      "text": "Conventional commits"
     }
   ],
   "candidate_glosses": [
@@ -527,6 +557,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ory/hydra-login-consent-node",
+      "status": "candidate",
+      "text": "Conventional commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/dockertest",
+      "status": "candidate",
+      "text": "Conventional commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/k8s",
+      "status": "candidate",
+      "text": "Conventional commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ory/kratos-selfservice-ui-node",
       "status": "candidate",
       "text": "Conventional commits"
     }
@@ -794,11 +842,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/conventional_commits.yml",
       "source_repo": "ory/hydra-login-consent-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/conventional_commits.yml",
+      "source_repo": "ory/dockertest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/conventional_commits.yml",
+      "source_repo": "ory/k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/conventional_commits.yml",
+      "source_repo": "ory/kratos-selfservice-ui-node"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

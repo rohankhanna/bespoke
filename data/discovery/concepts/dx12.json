@@ -31,6 +31,18 @@
       "source_repo": "GPUOpen-Effects/FidelityFX-SPD",
       "status": "candidate-context",
       "text": "Copyright (c) 2020 Advanced Micro Devices, Inc. All rights reserved. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Traverse-Research/gpu-allocator",
+      "status": "candidate-context",
+      "text": "\ud83e\udd80 GPU memory allocator for Vulkan, DirectX 12 and Metal. Written in pure Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Traverse-Research/gpu-allocator",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://img.shields.io/github/actions/workflow/status/Traverse-Research/gpu-allocator/ci.yml?branch=main&logo=github)](https://github.com/Traverse-Research/gpu-allocator/actions)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "GPUOpen-Effects/FidelityFX-SPD",
       "status": "candidate",
       "text": "Copyright (c) 2020 Advanced Micro Devices, Inc. All rights reserved. Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Traverse-Research/gpu-allocator",
+      "status": "candidate",
+      "text": "[![Actions Status](https://img.shields.io/github/actions/workflow/status/Traverse-Research/gpu-allocator/ci.yml?branch=main&logo=github)](https://github.com/Traverse-Research/gpu-allocator/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "GPUOpen-Effects/FidelityFX-SPD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Traverse-Research/gpu-allocator"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

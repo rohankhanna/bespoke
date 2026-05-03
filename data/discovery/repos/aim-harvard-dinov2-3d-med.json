@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIM-Harvard/DINOv2-3D-Med",
+      "target": "tawald/nnunet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIM-Harvard/DINOv2-3D-Med",
+      "target": "project-monai/monai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AIM-Harvard/DINOv2-3D-Med",
+      "target": "mic-dkfz/dynamic-network-architectures",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "AIM-Harvard/DINOv2-3D-Med",
+      "target": "mic-dkfz/dynamic-network-architectures",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:45:42.322418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16442
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2709
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1853
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository provides a 3D implementation of DINOv2 for self-supervised pretraining on volumetric (3D) medical images using Lightly, MONAI, and Pytorch Lightning!",
+    "fork": false,
+    "full_name": "AIM-Harvard/DINOv2-3D-Med",
+    "html_url": "https://github.com/AIM-Harvard/DINOv2-3D-Med",
+    "language": "Python",
+    "pushed_at": "2026-04-24T22:39:25Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-04-24T22:39:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mic-dkfz/dynamic-network-architectures",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-monai/monai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tawald/nnunet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mic-dkfz/dynamic-network-architectures",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

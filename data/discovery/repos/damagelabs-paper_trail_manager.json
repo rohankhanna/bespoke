@@ -13,27 +13,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "DamageLabs/paper_trail_manager",
-      "target": "mislav/will_paginate",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "DamageLabs/paper_trail_manager",
-      "target": "kaminari/kaminari",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "DamageLabs/paper_trail_manager",
-      "target": "thoughtbot/appraisal",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "DamageLabs/paper_trail_manager",
@@ -55,7 +34,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T04:00:03.638586+00:00",
+  "fetched_at": "2026-05-03T16:37:35.900528+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -80,23 +59,7 @@
     "topics": [],
     "updated_at": "2026-03-18T19:08:39Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kaminari/kaminari",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mislav/will_paginate",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "thoughtbot/appraisal",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Tests",

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/pose-evaluation",
+      "target": "thnkim/openfacepytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/pose-evaluation",
+      "target": "tensorboy/pytorch_realtime_multi-person_pose_estimation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AliaksandrSiarohin/pose-evaluation",
+      "target": "layumi/person_reid_baseline_pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "AliaksandrSiarohin/pose-evaluation"
+}

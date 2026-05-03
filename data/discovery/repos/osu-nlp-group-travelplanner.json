@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OSU-NLP-Group/TravelPlanner",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OSU-NLP-Group/TravelPlanner",
+      "target": "autonomous-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OSU-NLP-Group/TravelPlanner",
+      "target": "language-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OSU-NLP-Group/TravelPlanner",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OSU-NLP-Group/TravelPlanner",
+      "target": "planning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:36:18.423847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10212
+    },
+    {
+      "path": "requirements.txt",
+      "size": 159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML'24 Spotlight] \"TravelPlanner: A Benchmark for Real-World Planning with Language Agents\"",
+    "fork": false,
+    "full_name": "OSU-NLP-Group/TravelPlanner",
+    "html_url": "https://github.com/OSU-NLP-Group/TravelPlanner",
+    "language": "Python",
+    "pushed_at": "2025-11-07T21:15:05Z",
+    "stargazers_count": 510,
+    "topics": [
+      "autonomous-agents",
+      "language-agent",
+      "large-language-models",
+      "planning"
+    ],
+    "updated_at": "2026-05-01T08:56:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">TravelPlanner<br> A Benchmark for Real-World Planning<br> with Language Agents </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-agents"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">TravelPlanner<br> A Benchmark for Real-World Planning<br> with Language Agents </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-agent"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">TravelPlanner<br> A Benchmark for Real-World Planning<br> with Language Agents </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">TravelPlanner<br> A Benchmark for Real-World Planning<br> with Language Agents </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "planning"
+    }
+  ]
+}

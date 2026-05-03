@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Documentation Website"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "status": "candidate-context",
+      "text": "General Modeling Network Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "status": "candidate-context",
+      "text": "Deploy Documentation Website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zephyr-data-specs/GMNS",
+      "status": "candidate",
+      "text": "Deploy Documentation Website"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18379,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18106,
+      "status": "candidate",
+      "text": "broadcast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18106,
+      "status": "candidate",
+      "text": "curate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18106,
+      "status": "candidate",
+      "text": "field artillery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18106,
+      "status": "candidate",
+      "text": "fly"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Documentation Website",
+  "concept_id": "deploy-documentation-website",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/website.yaml",
+      "source_repo": "zephyr-data-specs/GMNS"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Documentation Website",
+      "sense_id": "deploy-documentation-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -26,13 +26,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SublimeLinter/SublimeLinter-eslint",
-      "target": "sublimelinter/sublimelinter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SublimeLinter/SublimeLinter-eslint",
       "target": "nzakas/eslint",
       "target_type": "repository"
     },
@@ -41,13 +34,6 @@
       "source_file": "README.md",
       "source_repo": "SublimeLinter/SublimeLinter-eslint",
       "target": "joyent/node",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SublimeLinter/SublimeLinter-eslint",
-      "target": "sveltejs/eslint-plugin-svelte",
       "target_type": "repository"
     },
     {
@@ -100,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:50:21.115239+00:00",
+  "fetched_at": "2026-05-03T12:41:32.805297+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -121,14 +107,14 @@
     "html_url": "https://github.com/SublimeLinter/SublimeLinter-eslint",
     "language": "Python",
     "pushed_at": "2025-02-27T16:36:34Z",
-    "stargazers_count": 865,
+    "stargazers_count": 864,
     "topics": [
       "eslint",
       "linter",
       "linter-plugin",
       "sublimelinter"
     ],
-    "updated_at": "2026-02-08T03:51:35Z"
+    "updated_at": "2026-05-03T11:45:56Z"
   },
   "repo_links": [
     {
@@ -139,16 +125,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "nzakas/eslint",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sublimelinter/sublimelinter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sveltejs/eslint-plugin-svelte",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MPFB2 is a free and open source human generator for Blender"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MPFB is a free and open source human generator for Blender. For documentation and FAQ, see"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MPFB is a free and open source human generator for Blender. For documentation and FAQ, see"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050359,
+      "status": "candidate",
+      "text": "liquidizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29934588,
+      "status": "candidate",
+      "text": "switcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29898666,
+      "status": "candidate",
+      "text": "divider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29892728,
+      "status": "candidate",
+      "text": "mix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29891906,
+      "status": "candidate",
+      "text": "mixture"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blender",
+      "sense_id": "blender#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "liquidizer"
+    }
+  ],
+  "concept_id": "blender",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blender",
+  "observation_id": "02267628c9c4fad1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
+  "observed_text": "blender",
+  "source_context_snippet": "MPFB is a free and open source human generator for Blender. For documentation and FAQ, see",
+  "source_file": null,
+  "source_repo": "makehumancommunity/mpfb2",
+  "source_repo_description": "MPFB2 is a free and open source human generator for Blender"
+}

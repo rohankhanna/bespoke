@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fabmax/PhysX",
+      "target": "nvidia-omniverse/physx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fabmax/PhysX",
+      "target": "o3de/physx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:39:29.203583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2747
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "webidl-bindings",
+    "description": "NVIDIA PhysX SDK",
+    "fork": true,
+    "full_name": "fabmax/PhysX",
+    "html_url": "https://github.com/fabmax/PhysX",
+    "language": "C++",
+    "pushed_at": "2026-04-15T19:51:26Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-05-01T20:51:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-omniverse/physx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "o3de/physx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

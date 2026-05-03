@@ -259,6 +259,66 @@
       "source_repo": "Zielon/INSTA",
       "status": "candidate-context",
       "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate-context",
+      "text": "NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate-context",
+      "text": "Unofficial implementation of [NeRF](https://arxiv.org/pdf/2003.08934.pdf) (Neural Radiance Fields) using pytorch ([pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)). This repo doesn't aim at reproducibility, but aim at providing a simpler and faster trai\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[CVPR 2023] vMAP: Vectorised Object Mapping for Neural Field SLAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate-context",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/nerf_Unity",
+      "status": "candidate-context",
+      "text": "Unity project for nerf_pl (Neural Radiance Fields)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_Unity",
+      "status": "candidate-context",
+      "text": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kwea123/nsff_pl",
+      "status": "candidate-context",
+      "text": "Neural Scene Flow Fields using pytorch-lightning, with potential improvements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nsff_pl",
+      "status": "candidate-context",
+      "text": "Neural Scene Flow Fields using pytorch-lightning. This repo reimplements the [NSFF](https://github.com/zhengqili/Neural-Scene-Flow-Fields) idea, but modifies several operations based on observation of NSFF results and discussions with the authors. For discussion details, please \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awesome-NeRF/awesome-NeRF",
+      "status": "candidate-context",
+      "text": "A curated list of awesome neural radiance fields papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awesome-NeRF/awesome-NeRF",
+      "status": "candidate-context",
+      "text": "A curated list of awesome neural radiance fields papers, inspired by [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision)."
     }
   ],
   "candidate_glosses": [
@@ -387,6 +447,36 @@
       "source_repo": "Zielon/INSTA",
       "status": "candidate",
       "text": "<h2 align=\"center\"><b>INSTA - Instant Volumetric Head Avatars</b></h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_pl",
+      "status": "candidate",
+      "text": "Unofficial implementation of [NeRF](https://arxiv.org/pdf/2003.08934.pdf) (Neural Radiance Fields) using pytorch ([pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning)). This repo doesn't aim at reproducibility, but aim at providing a simpler and faster trai\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kxhit/vMAP",
+      "status": "candidate",
+      "text": "[comment]: <> (# vMAP: Vectorised Object Mapping for Neural Field SLAM)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nerf_Unity",
+      "status": "candidate",
+      "text": "Unity projects for my implementation of [nerf_pl (Neural Radiance Fields)](https://github.com/kwea123/nerf_pl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kwea123/nsff_pl",
+      "status": "candidate",
+      "text": "Neural Scene Flow Fields using pytorch-lightning. This repo reimplements the [NSFF](https://github.com/zhengqili/Neural-Scene-Flow-Fields) idea, but modifies several operations based on observation of NSFF results and discussions with the authors. For discussion details, please \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awesome-NeRF/awesome-NeRF",
+      "status": "candidate",
+      "text": "A curated list of awesome neural radiance fields papers, inspired by [awesome-computer-vision](https://github.com/jbhuang0604/awesome-computer-vision)."
     }
   ],
   "candidate_related_terms": [
@@ -574,11 +664,41 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "Zielon/INSTA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kxhit/vMAP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/nerf_Unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "kwea123/nsff_pl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "awesome-NeRF/awesome-NeRF"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

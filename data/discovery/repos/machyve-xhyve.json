@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "machyve/xhyve",
+      "target": "mist64/xhyve",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T16:43:50.729269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14743
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "xhyve, a lightweight OS X virtualization solution",
+    "fork": false,
+    "full_name": "machyve/xhyve",
+    "html_url": "https://github.com/machyve/xhyve",
+    "language": "C",
+    "pushed_at": "2022-01-29T15:33:45Z",
+    "stargazers_count": 6446,
+    "topics": [],
+    "updated_at": "2026-04-17T13:58:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mist64/xhyve",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

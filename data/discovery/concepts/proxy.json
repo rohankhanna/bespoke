@@ -393,6 +393,54 @@
       "source_repo": "2dust/v2rayN",
       "status": "candidate-context",
       "text": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate-context",
+      "text": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate-context",
+      "text": "[Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LorenEteval/Furious",
+      "status": "candidate-context",
+      "text": "A GUI proxy client based on PySide6. Support Xray-core & hysteria"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LorenEteval/Furious",
+      "status": "candidate-context",
+      "text": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid",
+      "status": "candidate-context",
+      "text": "NekoBox for Android / sing-box / universal proxy toolchain for Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid",
+      "status": "candidate-context",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nx-js/observer-util",
+      "status": "candidate-context",
+      "text": "Transparent reactivity with 100% language coverage. Made with \u2764\ufe0f and ES6 Proxies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx-js/observer-util",
+      "status": "candidate-context",
+      "text": "Transparent reactivity with 100% language coverage. Made with :heart: and ES6 Proxies."
     }
   ],
   "candidate_glosses": [
@@ -587,6 +635,30 @@
       "source_repo": "2dust/v2rayN",
       "status": "candidate",
       "text": "A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XTLS/Xray-core",
+      "status": "candidate",
+      "text": "[Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LorenEteval/Furious",
+      "status": "candidate",
+      "text": "[![Github Deploy](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml/badge.svg?branch=main)](https://github.com/LorenEteval/Furious/actions/workflows/deploy-pypi.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid",
+      "status": "candidate",
+      "text": "[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx-js/observer-util",
+      "status": "candidate",
+      "text": "Transparent reactivity with 100% language coverage. Made with :heart: and ES6 Proxies."
     }
   ],
   "candidate_related_terms": [
@@ -855,11 +927,35 @@
       "observed_at": "2026-05-03T00:38:05.423502+00:00",
       "source_file": null,
       "source_repo": "2dust/v2rayN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "XTLS/Xray-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "LorenEteval/Furious"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "MatsuriDayo/NekoBoxForAndroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "nx-js/observer-util"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T00:38:05.423502+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

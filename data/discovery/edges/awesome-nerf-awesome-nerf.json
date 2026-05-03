@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awesome-NeRF/awesome-NeRF",
+      "target": "abourki/sota-semantically-aware-nerfs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awesome-NeRF/awesome-NeRF",
+      "target": "activevisionlab/nerfmm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awesome-NeRF/awesome-NeRF",
+      "target": "activevisionlab/dfnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "awesome-NeRF/awesome-NeRF",
+      "target": "activevisionlab/nefes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awesome-NeRF/awesome-NeRF",
+      "target": "nerf",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-05-03T12:28:59.064965+00:00",
+  "source_repo": "awesome-NeRF/awesome-NeRF"
+}

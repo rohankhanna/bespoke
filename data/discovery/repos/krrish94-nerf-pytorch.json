@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T16:39:20.147414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7406
+    },
+    {
+      "path": "requirements.txt",
+      "size": 142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A PyTorch re-implementation of Neural Radiance Fields",
+    "fork": false,
+    "full_name": "krrish94/nerf-pytorch",
+    "html_url": "https://github.com/krrish94/nerf-pytorch",
+    "language": "Python",
+    "pushed_at": "2021-06-18T00:40:47Z",
+    "stargazers_count": 909,
+    "topics": [],
+    "updated_at": "2026-04-12T13:09:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

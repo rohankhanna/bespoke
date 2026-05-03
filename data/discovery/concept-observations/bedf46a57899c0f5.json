@@ -84,7 +84,7 @@
   "normalized_form": "codeql-workflow-security-scan",
   "observation_id": "bedf46a57899c0f5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-05-03T00:38:05.423502+00:00",
+  "observed_at": "2026-05-03T12:28:59.064965+00:00",
   "observed_text": "CodeQL Workflow Security Scan",
   "source_context_snippet": "\"CodeQL Workflow Security Scan\"",
   "source_file": ".github/workflows/codeql.yml",

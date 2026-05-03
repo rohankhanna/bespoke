@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Failures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "status": "candidate-context",
+      "text": "libgccjit AOT codegen for rustc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "status": "candidate-context",
+      "text": "Failures"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoyo/rustc_codegen_gcc",
+      "status": "candidate",
+      "text": "Failures"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048765,
+      "status": "candidate",
+      "text": "loser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047099,
+      "status": "candidate",
+      "text": "nonstarter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51527,
+      "status": "candidate",
+      "text": "unsuccessful person"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "ailments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51526,
+      "status": "candidate",
+      "text": "bankruptcies"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Failures",
+  "concept_id": "failures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/failures.yml",
+      "source_repo": "antoyo/rustc_codegen_gcc"
+    }
+  ],
+  "first_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Failures",
+      "sense_id": "failures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

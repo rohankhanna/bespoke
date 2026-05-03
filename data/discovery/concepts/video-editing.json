@@ -103,6 +103,18 @@
       "source_repo": "Tencent-Hunyuan/HunyuanCustom",
       "status": "candidate-context",
       "text": "<!-- ## **HunyuanCustom** -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tengfei-Wang/HFGI",
+      "status": "candidate-context",
+      "text": "CVPR 2022 HFGI: High-Fidelity GAN Inversion for Image Attribute Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tengfei-Wang/HFGI",
+      "status": "candidate-context",
+      "text": "> High-Fidelity GAN Inversion for Image Attribute Editing"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "Tencent-Hunyuan/HunyuanCustom",
       "status": "candidate",
       "text": "<!-- ## **HunyuanCustom** -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tengfei-Wang/HFGI",
+      "status": "candidate",
+      "text": "> High-Fidelity GAN Inversion for Image Attribute Editing"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +250,23 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanCustom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Tengfei-Wang/HFGI"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

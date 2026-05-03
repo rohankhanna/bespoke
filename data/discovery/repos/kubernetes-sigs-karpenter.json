@@ -113,21 +113,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "target": "sergelogvinov/karpenter-provider-proxmox",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "target": "oracle/karpenter-provider-oci",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kubernetes-sigs/karpenter",
-      "target": "linode/karpenter-provider-linode",
+      "target": "zoom/karpenter-oci",
       "target_type": "repository"
     },
     {
@@ -306,7 +306,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-05-03T03:57:08.561699+00:00",
+  "fetched_at": "2026-05-03T16:34:42.276624+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -371,17 +371,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kubernetes-sigs/karpenter-provider-cluster-api",
+      "full_name": "oracle/karpenter-provider-oci",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kubernetes-sigs/karpenter-provider-ibm-cloud",
+      "full_name": "sergelogvinov/karpenter-provider-proxmox",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "linode/karpenter-provider-linode",
+      "full_name": "zoom/karpenter-oci",
       "source_file": "README.md"
     }
   ],

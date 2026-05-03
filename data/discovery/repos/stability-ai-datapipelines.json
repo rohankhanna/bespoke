@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T15:32:45.094344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Iterable datapipelines for pytorch training.",
+    "fork": false,
+    "full_name": "Stability-AI/datapipelines",
+    "html_url": "https://github.com/Stability-AI/datapipelines",
+    "language": "Python",
+    "pushed_at": "2024-08-31T00:13:13Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2026-03-27T17:34:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

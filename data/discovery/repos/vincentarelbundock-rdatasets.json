@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-05-03T12:39:57.820347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1620
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of datasets originally distributed in R packages",
+    "fork": false,
+    "full_name": "vincentarelbundock/Rdatasets",
+    "html_url": "https://github.com/vincentarelbundock/Rdatasets",
+    "language": "HTML",
+    "pushed_at": "2025-09-14T14:45:05Z",
+    "stargazers_count": 398,
+    "topics": [],
+    "updated_at": "2026-04-27T04:55:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

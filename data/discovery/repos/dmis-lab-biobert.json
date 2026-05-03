@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmis-lab/biobert",
+      "target": "naver/biobert-pretrained",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmis-lab/biobert",
+      "target": "dmis-lab/biobert-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmis-lab/biobert",
+      "target": "dmis-lab/bioasq-biobert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmis-lab/biobert",
+      "target": "bioasq/evaluation-measures",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-05-03T12:30:15.494627+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14057
+    },
+    {
+      "path": "requirements.txt",
+      "size": 294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bioinformatics'2020: BioBERT: a pre-trained biomedical language representation model for biomedical text mining",
+    "fork": false,
+    "full_name": "dmis-lab/biobert",
+    "html_url": "https://github.com/dmis-lab/biobert",
+    "language": "Python",
+    "pushed_at": "2023-08-13T21:11:54Z",
+    "stargazers_count": 2198,
+    "topics": [],
+    "updated_at": "2026-04-29T16:29:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bioasq/evaluation-measures",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmis-lab/bioasq-biobert",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmis-lab/biobert-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "naver/biobert-pretrained",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

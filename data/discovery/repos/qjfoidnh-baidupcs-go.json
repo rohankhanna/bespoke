@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qjfoidnh/BaiduPCS-Go",
+      "target": "gangzhuo/baidupcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qjfoidnh/BaiduPCS-Go",
+      "target": "neoterm/neoterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "qjfoidnh/BaiduPCS-Go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "qjfoidnh/BaiduPCS-Go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "qjfoidnh/BaiduPCS-Go",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "qjfoidnh/BaiduPCS-Go",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "qjfoidnh/BaiduPCS-Go",
+      "target": "baidupcs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-05-03T15:32:01.202417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19648
+    },
+    {
+      "path": "go.mod",
+      "size": 1748
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1829
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "iikira/BaiduPCS-Go\u539f\u7248\u57fa\u7840\u4e0a\u96c6\u6210\u4e86\u5206\u4eab\u94fe\u63a5/\u79d2\u4f20\u94fe\u63a5\u8f6c\u5b58\u529f\u80fd",
+    "fork": false,
+    "full_name": "qjfoidnh/BaiduPCS-Go",
+    "html_url": "https://github.com/qjfoidnh/BaiduPCS-Go",
+    "language": "Go",
+    "pushed_at": "2026-03-26T15:27:02Z",
+    "stargazers_count": 4948,
+    "topics": [
+      "baidupcs"
+    ],
+    "updated_at": "2026-05-03T14:56:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gangzhuo/baidupcs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neoterm/neoterm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u4eff Linux shell \u6587\u4ef6\u5904\u7406\u547d\u4ee4\u7684\u767e\u5ea6\u7f51\u76d8\u547d\u4ee4\u884c\u5ba2\u6237\u7aef.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baidupcs"
+    }
+  ]
+}

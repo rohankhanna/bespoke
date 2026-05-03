@@ -865,6 +865,342 @@
       "source_repo": "JuliaData/IndexedTables.jl",
       "status": "candidate-context",
       "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cjdoris/PreferenceTools.jl",
+      "status": "candidate-context",
+      "text": "Julia preferences for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjdoris/PreferenceTools.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/MicroMamba.jl",
+      "status": "candidate-context",
+      "text": "Julia interface to the MicroMamba package manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/MicroMamba.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "perrutquist/StaticNumbers.jl",
+      "status": "candidate-context",
+      "text": "Static numbers in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "perrutquist/StaticNumbers.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGenAI/HuggingFaceDatasets.jl",
+      "status": "candidate-context",
+      "text": "A Julia package for interacting with the Hugging Face dataset repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGenAI/HuggingFaceDatasets.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaClimate/CDSAPI.jl",
+      "status": "candidate-context",
+      "text": "Julia API to the Climate Data Store (a.k.a. CDS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaClimate/CDSAPI.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaQuant/MarketData.jl",
+      "status": "candidate-context",
+      "text": "Time series market data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaQuant/MarketData.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OutlierDetectionJL/OutlierDetectionData.jl",
+      "status": "candidate-context",
+      "text": "Easy way to use public outlier detection datasets with Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlierDetectionJL/OutlierDetectionData.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/DataAugmentation.jl",
+      "status": "candidate-context",
+      "text": "Flexible data augmentation library for machine and deep learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/DataAugmentation.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FluxML/NNlib.jl",
+      "status": "candidate-context",
+      "text": "Neural Network primitives with multiple backends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/NNlib.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaML/LearnBase.jl",
+      "status": "candidate-context",
+      "text": "Abstractions for Julia Machine Learning Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/LearnBase.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaML/MLCore.jl",
+      "status": "candidate-context",
+      "text": "Basic interface for machine learning packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLCore.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invenia/NamedDims.jl",
+      "status": "candidate-context",
+      "text": "For working with dimensions of arrays by name"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invenia/NamedDims.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaArrays/AxisArrays.jl",
+      "status": "candidate-context",
+      "text": "Performant arrays where each dimension can have a named axis with values"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/AxisArrays.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mcabbott/AxisKeys.jl",
+      "status": "candidate-context",
+      "text": "\ud83c\udfb9"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcabbott/AxisKeys.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rafaqz/DimensionalData.jl",
+      "status": "candidate-context",
+      "text": "Named dimensions and indexing for julia arrays and other data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/DimensionalData.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPlots/RecipesBase.jl",
+      "status": "candidate-context",
+      "text": "Base package for defining transformation recipes on user types for Plots.jl"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/RecipesBase.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyferris/AcceleratedArrays.jl",
+      "status": "candidate-context",
+      "text": "Arrays with acceleration indices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyferris/AcceleratedArrays.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaData/JuliaDB.jl",
+      "status": "candidate-context",
+      "text": "Parallel analytical database in pure Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/JuliaDB.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPy/Pandas.jl",
+      "status": "candidate-context",
+      "text": "A Julia front-end to Python's Pandas package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/Pandas.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "status": "candidate-context",
+      "text": "High-performance delimited-file reader and writer for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sl-solution/InMemoryDatasets.jl",
+      "status": "candidate-context",
+      "text": "Multithreaded package for working with tabular data in Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sl-solution/InMemoryDatasets.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OutlierDetectionJL/OutlierDetection.jl",
+      "status": "candidate-context",
+      "text": "Fast, scalable and flexible Outlier Detection with Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlierDetectionJL/OutlierDetection.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaAI/LearnAPI.jl",
+      "status": "candidate-context",
+      "text": "A Julia interface for training and applying models in machine learning and statistics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/LearnAPI.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaImages/Images.jl",
+      "status": "candidate-context",
+      "text": "An image library for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/Images.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andyferris/Dictionaries.jl",
+      "status": "candidate-context",
+      "text": "An alternative interface for dictionaries in Julia, for improved productivity and performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyferris/Dictionaries.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "invenia/AxisSets.jl",
+      "status": "candidate-context",
+      "text": "Consistent operations over a collection of KeyedArrays"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invenia/AxisSets.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate-context",
+      "text": "Raster manipulation for the Julia language "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaGraphics/Luxor.jl",
+      "status": "candidate-context",
+      "text": "Simple drawings using vector graphics; Cairo \"for tourists!\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Luxor.jl",
+      "status": "candidate-context",
+      "text": "CompatHelper"
     }
   ],
   "candidate_glosses": [
@@ -1303,6 +1639,174 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "JuliaData/IndexedTables.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cjdoris/PreferenceTools.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/MicroMamba.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "perrutquist/StaticNumbers.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGenAI/HuggingFaceDatasets.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaClimate/CDSAPI.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaQuant/MarketData.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlierDetectionJL/OutlierDetectionData.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/DataAugmentation.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FluxML/NNlib.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/LearnBase.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaML/MLCore.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invenia/NamedDims.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaArrays/AxisArrays.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcabbott/AxisKeys.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/DimensionalData.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPlots/RecipesBase.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyferris/AcceleratedArrays.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaData/JuliaDB.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPy/Pandas.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sl-solution/DLMReader.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sl-solution/InMemoryDatasets.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OutlierDetectionJL/OutlierDetection.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaAI/LearnAPI.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaImages/Images.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andyferris/Dictionaries.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "invenia/AxisSets.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rafaqz/Rasters.jl",
+      "status": "candidate",
+      "text": "CompatHelper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaGraphics/Luxor.jl",
       "status": "candidate",
       "text": "CompatHelper"
     }
@@ -1858,11 +2362,209 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/CompatHelper.yml",
       "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/compathelper.yml",
+      "source_repo": "cjdoris/PreferenceTools.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/compathelper.yml",
+      "source_repo": "JuliaPy/MicroMamba.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "perrutquist/StaticNumbers.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "astroautomata/SymbolicRegression.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGenAI/HuggingFaceDatasets.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaClimate/CDSAPI.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaQuant/MarketData.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "OutlierDetectionJL/OutlierDetectionData.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "FluxML/DataAugmentation.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "FluxML/NNlib.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaML/LearnBase.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaML/MLCore.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "invenia/NamedDims.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaArrays/AxisArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "mcabbott/AxisKeys.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "rafaqz/DimensionalData.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaDocs/Franklin.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPlots/RecipesBase.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "andyferris/AcceleratedArrays.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaData/JuliaDB.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPy/Pandas.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "sl-solution/DLMReader.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "sl-solution/InMemoryDatasets.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGizmos/Blink.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaPy/PythonCall.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "OutlierDetectionJL/OutlierDetection.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaAI/LearnAPI.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaImages/Images.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "andyferris/Dictionaries.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "invenia/AxisSets.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "rafaqz/Rasters.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/CompatHelper.yml",
+      "source_repo": "JuliaGraphics/Luxor.jl"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

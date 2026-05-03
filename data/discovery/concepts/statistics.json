@@ -310,6 +310,18 @@
       "source_repo": "JuliaStats/MultivariateStats.jl",
       "status": "candidate-context",
       "text": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaStats/StatsAPI.jl",
+      "status": "candidate-context",
+      "text": "A statistics-focused namespace for packages to share functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/StatsAPI.jl",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/JuliaStats/StatsAPI.jl/workflows/CI/badge.svg)](https://github.com/JuliaStats/StatsAPI.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_glosses": [
@@ -462,6 +474,12 @@
       "source_repo": "JuliaStats/MultivariateStats.jl",
       "status": "candidate",
       "text": "A Julia package for multivariate statistics and data analysis (e.g. dimensionality reduction)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaStats/StatsAPI.jl",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/JuliaStats/StatsAPI.jl/workflows/CI/badge.svg)](https://github.com/JuliaStats/StatsAPI.jl/actions?query=workflow%3ACI)"
     }
   ],
   "candidate_related_terms": [
@@ -751,11 +769,35 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": null,
       "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "bencheeorg/benchee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaAI/MLJ.jl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "git-quick-stats/git-quick-stats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "JuliaStats/StatsAPI.jl"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1138,6 +1138,54 @@
       "source_repo": "highfive-devs/highfive",
       "status": "candidate-context",
       "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Romanx/Cake.Coverlet",
+      "status": "candidate-context",
+      "text": "Coverlet extensions for Cake Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Romanx/Cake.Coverlet",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MaterializeInc/async-compression",
+      "status": "candidate-context",
+      "text": "Adaptors between compression crates and Rust's async IO types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterializeInc/async-compression",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TRI-ML/dgp",
+      "status": "candidate-context",
+      "text": "ML Dataset Governance Policy for Autonomous Vehicle Datasets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TRI-ML/dgp",
+      "status": "candidate-context",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sicmutils/sicmutils",
+      "status": "candidate-context",
+      "text": "Computer Algebra, Physics and Differential Geometry in Clojure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sicmutils/sicmutils",
+      "status": "candidate-context",
+      "text": "coverage"
     }
   ],
   "candidate_glosses": [
@@ -1710,6 +1758,30 @@
       "source_repo": "highfive-devs/highfive",
       "status": "candidate",
       "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Romanx/Cake.Coverlet",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MaterializeInc/async-compression",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TRI-ML/dgp",
+      "status": "candidate",
+      "text": "coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sicmutils/sicmutils",
+      "status": "candidate",
+      "text": "coverage"
     }
   ],
   "candidate_related_terms": [
@@ -2627,11 +2699,71 @@
       "observed_at": "2026-05-03T06:58:35.245846+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "Romanx/Cake.Coverlet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "codeclimate-community/simplecov_json_formatter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "rust-lang/rust-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "MaterializeInc/async-compression"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "TRI-ML/dgp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": null,
+      "source_repo": "coverlet-coverage/coverlet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-05-03T12:28:59.064965+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "sicmutils/sicmutils"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-05-03T06:58:35.245846+00:00",
+  "last_seen_at": "2026-05-03T12:28:59.064965+00:00",
   "lexical_providers": [
     "datamuse"
   ],
